@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\zx\test\project\qa\water10-natural48.py", line 330, in <module>
+    try: {'prepare':prepare,'reopen':reopen}[action]()
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\zx\test\project\qa\water10-natural48.py", line 255, in prepare
+    assert top['nonmanifold_edges']==0 and top['signed_volume_m3']>80,top
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'vertices': 16225, 'faces': 27515, 'boundary_edges': 6, 'nonmanifold_edges': 6, 'signed_volume_m3': 114.43759313549212}

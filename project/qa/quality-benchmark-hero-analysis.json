@@ -1,0 +1,151 @@
+{
+  "scope": "Image differences and denoising residuals are diagnostics, not ground-truth noise/error. Debug sample-count pass recorded in its actual normalized units.",
+  "regions": {
+    "all_inset16": {
+      "crop_local_xywh": [
+        16,
+        16,
+        608,
+        608
+      ],
+      "baseline": {
+        "mean_linear_luminance": 0.1479838442316747,
+        "denoising_residual_rms_linear_rgb": 0.005272430367767811,
+        "normalized_sample_pass_mean": 0.7132464647293091,
+        "normalized_sample_pass_median": 0.78125,
+        "sample_pass_fraction_equal_one": 0.37119925121191133
+      },
+      "candidate": {
+        "mean_linear_luminance": 0.14787605304035237,
+        "denoising_residual_rms_linear_rgb": 0.009711735881865025,
+        "normalized_sample_pass_mean": 0.2893505096435547,
+        "normalized_sample_pass_median": 0.15625,
+        "sample_pass_fraction_equal_one": 0.049442196156509695
+      },
+      "denoised_png_abs_difference_0_to_255": {
+        "mean": 1.5486035967797784,
+        "p95": 5.0,
+        "p99": 9.0
+      },
+      "mean_linear_luminance_change_percent": -0.07283983726871224
+    },
+    "foliage": {
+      "crop_local_xywh": [
+        16,
+        16,
+        300,
+        250
+      ],
+      "baseline": {
+        "mean_linear_luminance": 0.1257321835616692,
+        "denoising_residual_rms_linear_rgb": 0.0037037839647382498,
+        "normalized_sample_pass_mean": 0.6474862694740295,
+        "normalized_sample_pass_median": 0.625,
+        "sample_pass_fraction_equal_one": 0.29530666666666666
+      },
+      "candidate": {
+        "mean_linear_luminance": 0.12570269042097984,
+        "denoising_residual_rms_linear_rgb": 0.0074965511448681355,
+        "normalized_sample_pass_mean": 0.2616308331489563,
+        "normalized_sample_pass_median": 0.125,
+        "sample_pass_fraction_equal_one": 0.03830666666666667
+      },
+      "denoised_png_abs_difference_0_to_255": {
+        "mean": 2.4067511111111113,
+        "p95": 7.0,
+        "p99": 11.0
+      },
+      "mean_linear_luminance_change_percent": -0.023457113249691908
+    },
+    "upper_window": {
+      "crop_local_xywh": [
+        16,
+        300,
+        230,
+        90
+      ],
+      "baseline": {
+        "mean_linear_luminance": 0.1093596381575517,
+        "denoising_residual_rms_linear_rgb": 0.005702437832951546,
+        "normalized_sample_pass_mean": 0.945341169834137,
+        "normalized_sample_pass_median": 1.0,
+        "sample_pass_fraction_equal_one": 0.8081159420289855
+      },
+      "candidate": {
+        "mean_linear_luminance": 0.10901601727892322,
+        "denoising_residual_rms_linear_rgb": 0.008796739391982555,
+        "normalized_sample_pass_mean": 0.5619398951530457,
+        "normalized_sample_pass_median": 0.53125,
+        "sample_pass_fraction_equal_one": 0.16285024154589373
+      },
+      "denoised_png_abs_difference_0_to_255": {
+        "mean": 1.220354267310789,
+        "p95": 4.0,
+        "p99": 6.0
+      },
+      "mean_linear_luminance_change_percent": -0.31421179186185144
+    },
+    "dark_window": {
+      "crop_local_xywh": [
+        16,
+        490,
+        350,
+        125
+      ],
+      "baseline": {
+        "mean_linear_luminance": 0.044029764207868215,
+        "denoising_residual_rms_linear_rgb": 0.005743016954511404,
+        "normalized_sample_pass_mean": 0.9714949727058411,
+        "normalized_sample_pass_median": 1.0,
+        "sample_pass_fraction_equal_one": 0.8912685714285714
+      },
+      "candidate": {
+        "mean_linear_luminance": 0.04353463436914531,
+        "denoising_residual_rms_linear_rgb": 0.007520255632698536,
+        "normalized_sample_pass_mean": 0.5949285626411438,
+        "normalized_sample_pass_median": 0.59375,
+        "sample_pass_fraction_equal_one": 0.18608
+      },
+      "denoised_png_abs_difference_0_to_255": {
+        "mean": 1.1817980952380953,
+        "p95": 3.0,
+        "p99": 5.0
+      },
+      "mean_linear_luminance_change_percent": -1.1245343862968604
+    },
+    "bark": {
+      "crop_local_xywh": [
+        416,
+        155,
+        125,
+        240
+      ],
+      "baseline": {
+        "mean_linear_luminance": 0.06010662115973734,
+        "denoising_residual_rms_linear_rgb": 0.003457368817180395,
+        "normalized_sample_pass_mean": 0.5915395617485046,
+        "normalized_sample_pass_median": 0.53125,
+        "sample_pass_fraction_equal_one": 0.16343333333333335
+      },
+      "candidate": {
+        "mean_linear_luminance": 0.060165963980629136,
+        "denoising_residual_rms_linear_rgb": 0.006143523380160332,
+        "normalized_sample_pass_mean": 0.17271041870117188,
+        "normalized_sample_pass_median": 0.125,
+        "sample_pass_fraction_equal_one": 0.007066666666666666
+      },
+      "denoised_png_abs_difference_0_to_255": {
+        "mean": 1.5838666666666668,
+        "p95": 5.0,
+        "p99": 8.0
+      },
+      "mean_linear_luminance_change_percent": 0.09872925768708019
+    }
+  },
+  "times_seconds": {
+    "baseline": 216.5216,
+    "candidate": 121.8995
+  },
+  "time_reduction_percent": 43.70099796048061,
+  "timing_caveat": "Candidate rendered second with persistent data; measured comparison is not an isolated path-tracing-only ratio."
+}

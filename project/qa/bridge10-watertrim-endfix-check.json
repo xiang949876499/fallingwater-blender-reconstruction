@@ -1,0 +1,2949 @@
+{
+  "status": "PHYSICAL_CHECK_ISSUES_REVIEW_ONLY",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_bridge10_endfix.blend",
+  "source_frame": 73,
+  "comparison_frame": 48,
+  "rendered": false,
+  "production_changed": false,
+  "dependencies": {
+    "scripts\\bridge_detail10.py": "5176abb7b749e424918ae713baa2866ccbdef1703f9505a551f2dc1a8d736aac",
+    "qa\\shrub08_auditlib.py": "1b499095de9b516db524dd8cbd2c90e0a6f070edddda0570a8c6481d49da3ae8",
+    "qa\\bridge10-source-probe.json": "5d6e624e22b131c6b657068cd086d71fd543f712fd4273de5d44788af1062a89",
+    "qa\\bridge10-frozen-route09.json": "032d3980ccdb013a1bd03481db439104f487902978e9aef1e4443648de67c767"
+  },
+  "application": {
+    "status": "INDEPENDENT_CANDIDATE_NOT_VISUALLY_ACCEPTED",
+    "removed": [
+      "SITE_Bridge_Parapet_0_0_-4.25",
+      "SITE_Bridge_Parapet_0_0_-3.12",
+      "SITE_Bridge_Parapet_0_0_-2.15",
+      "SITE_Bridge_Parapet_0_0_-1.16",
+      "SITE_Bridge_Parapet_0_0_-0.36",
+      "SITE_Bridge_Parapet_0_0_0.76",
+      "SITE_Bridge_Parapet_0_0_1.73",
+      "SITE_Bridge_Parapet_0_0_2.92",
+      "SITE_Bridge_Parapet_0_0_3.60",
+      "SITE_Bridge_Parapet_0_0_4.57",
+      "SITE_Bridge_Parapet_0_0_5.41",
+      "SITE_Bridge_Parapet_0_0_6.60",
+      "SITE_Bridge_Parapet_0_1_-4.25",
+      "SITE_Bridge_Parapet_0_1_-3.09",
+      "SITE_Bridge_Parapet_0_1_-1.98",
+      "SITE_Bridge_Parapet_0_1_-1.28",
+      "SITE_Bridge_Parapet_0_1_-0.28",
+      "SITE_Bridge_Parapet_0_1_0.56",
+      "SITE_Bridge_Parapet_0_1_1.47",
+      "SITE_Bridge_Parapet_0_1_2.53",
+      "SITE_Bridge_Parapet_0_1_3.72",
+      "SITE_Bridge_Parapet_0_1_4.76",
+      "SITE_Bridge_Parapet_0_1_5.49",
+      "SITE_Bridge_Parapet_0_1_6.47",
+      "SITE_Bridge_Parapet_0_2_-4.25",
+      "SITE_Bridge_Parapet_0_2_-3.20",
+      "SITE_Bridge_Parapet_0_2_-2.56",
+      "SITE_Bridge_Parapet_0_2_-1.70",
+      "SITE_Bridge_Parapet_0_2_-0.80",
+      "SITE_Bridge_Parapet_0_2_0.21",
+      "SITE_Bridge_Parapet_0_2_0.90",
+      "SITE_Bridge_Parapet_0_2_1.95",
+      "SITE_Bridge_Parapet_0_2_2.81",
+      "SITE_Bridge_Parapet_0_2_3.53",
+      "SITE_Bridge_Parapet_0_2_4.41",
+      "SITE_Bridge_Parapet_0_2_5.19",
+      "SITE_Bridge_Parapet_0_2_5.97",
+      "SITE_Bridge_Parapet_1_0_-4.25",
+      "SITE_Bridge_Parapet_1_0_-3.49",
+      "SITE_Bridge_Parapet_1_0_-2.60",
+      "SITE_Bridge_Parapet_1_0_-1.81",
+      "SITE_Bridge_Parapet_1_0_-1.04",
+      "SITE_Bridge_Parapet_1_0_-0.02",
+      "SITE_Bridge_Parapet_1_0_0.99",
+      "SITE_Bridge_Parapet_1_0_2.19",
+      "SITE_Bridge_Parapet_1_0_2.88",
+      "SITE_Bridge_Parapet_1_0_3.82",
+      "SITE_Bridge_Parapet_1_0_4.67",
+      "SITE_Bridge_Parapet_1_0_5.45",
+      "SITE_Bridge_Parapet_1_0_6.25",
+      "SITE_Bridge_Parapet_1_1_-4.25",
+      "SITE_Bridge_Parapet_1_1_-3.60",
+      "SITE_Bridge_Parapet_1_1_-2.85",
+      "SITE_Bridge_Parapet_1_1_-2.01",
+      "SITE_Bridge_Parapet_1_1_-1.23",
+      "SITE_Bridge_Parapet_1_1_-0.46",
+      "SITE_Bridge_Parapet_1_1_0.31",
+      "SITE_Bridge_Parapet_1_1_1.13",
+      "SITE_Bridge_Parapet_1_1_1.88",
+      "SITE_Bridge_Parapet_1_1_2.69",
+      "SITE_Bridge_Parapet_1_1_3.45",
+      "SITE_Bridge_Parapet_1_1_4.35",
+      "SITE_Bridge_Parapet_1_1_5.11",
+      "SITE_Bridge_Parapet_1_1_5.88",
+      "SITE_Bridge_Parapet_1_2_-4.25",
+      "SITE_Bridge_Parapet_1_2_-3.36",
+      "SITE_Bridge_Parapet_1_2_-2.35",
+      "SITE_Bridge_Parapet_1_2_-1.66",
+      "SITE_Bridge_Parapet_1_2_-0.66",
+      "SITE_Bridge_Parapet_1_2_0.51",
+      "SITE_Bridge_Parapet_1_2_1.23",
+      "SITE_Bridge_Parapet_1_2_1.95",
+      "SITE_Bridge_Parapet_1_2_3.09",
+      "SITE_Bridge_Parapet_1_2_3.97",
+      "SITE_Bridge_Parapet_1_2_4.76",
+      "SITE_Bridge_Parapet_1_2_5.39",
+      "SITE_Bridge_Parapet_1_2_6.14"
+    ],
+    "added": [
+      "SITE_Bridge10_Concrete_W",
+      "SITE_Bridge10_Concrete_E",
+      "SITE_Bridge10_Stone_Return_SW",
+      "SITE_Bridge10_Stone_Return_SE",
+      "SITE_Bridge10_Stone_Return_NW",
+      "SITE_Bridge10_Stone_Return_NE",
+      "SITE_Bridge10_West_Deck_Edge_Closure"
+    ],
+    "south_nominal_gap_m": 4.038599999999999,
+    "stone_returns": [
+      {
+        "name": "SITE_Bridge10_Stone_Return_SW",
+        "outline_xy": [
+          [
+            23.255,
+            -4.15
+          ],
+          [
+            23.855,
+            -4.15
+          ],
+          [
+            23.855,
+            -3.075
+          ],
+          [
+            25.43044,
+            -3.075
+          ],
+          [
+            25.43044,
+            -2.475
+          ],
+          [
+            23.255,
+            -2.475
+          ]
+        ],
+        "foundation_terrain_z_range_m": [
+          -3.4944992065429688,
+          -3.0747413635253906
+        ],
+        "foundation_evidence": "C terrain-fitted continuation; NOT surveyed structure",
+        "contact_outline_samples": 58,
+        "base_embed_m": 0.02,
+        "stone_face_panels": 594,
+        "above_deck_top_C_m": 0.503,
+        "material": "FW_stone"
+      },
+      {
+        "name": "SITE_Bridge10_Stone_Return_SE",
+        "outline_xy": [
+          [
+            30.81,
+            -4.15
+          ],
+          [
+            31.41,
+            -4.15
+          ],
+          [
+            31.41,
+            -2.475
+          ],
+          [
+            29.46904,
+            -2.475
+          ],
+          [
+            29.46904,
+            -3.075
+          ],
+          [
+            30.81,
+            -3.075
+          ]
+        ],
+        "foundation_terrain_z_range_m": [
+          -3.2889671325683594,
+          -2.5503997802734375
+        ],
+        "foundation_evidence": "C terrain-fitted continuation; NOT surveyed structure",
+        "contact_outline_samples": 54,
+        "base_embed_m": 0.02,
+        "stone_face_panels": 471,
+        "above_deck_top_C_m": 0.503,
+        "material": "FW_stone"
+      },
+      {
+        "name": "SITE_Bridge10_Stone_Return_NW",
+        "outline_xy": [
+          [
+            23.465,
+            6.3275
+          ],
+          [
+            25.38,
+            6.3275
+          ],
+          [
+            25.38,
+            6.9275
+          ],
+          [
+            24.065,
+            6.9275
+          ],
+          [
+            24.065,
+            7.98
+          ],
+          [
+            23.465,
+            7.98
+          ]
+        ],
+        "foundation_terrain_z_range_m": [
+          -2.5434532165527344,
+          -0.07007026672363281
+        ],
+        "foundation_evidence": "C terrain-fitted continuation; NOT surveyed structure",
+        "contact_outline_samples": 54,
+        "base_embed_m": 0.02,
+        "stone_face_panels": 180,
+        "above_deck_top_C_m": 0.503,
+        "material": "FW_stone"
+      },
+      {
+        "name": "SITE_Bridge10_Stone_Return_NE",
+        "outline_xy": [
+          [
+            29.46904,
+            6.3275
+          ],
+          [
+            31.41,
+            6.3275
+          ],
+          [
+            31.41,
+            7.98
+          ],
+          [
+            30.81,
+            7.98
+          ],
+          [
+            30.81,
+            6.9275
+          ],
+          [
+            29.46904,
+            6.9275
+          ]
+        ],
+        "foundation_terrain_z_range_m": [
+          -2.406055450439453,
+          -0.35370445251464844
+        ],
+        "foundation_evidence": "C terrain-fitted continuation; NOT surveyed structure",
+        "contact_outline_samples": 54,
+        "base_embed_m": 0.02,
+        "stone_face_panels": 278,
+        "above_deck_top_C_m": 0.503,
+        "material": "FW_stone"
+      }
+    ],
+    "original_deck_flags_abutments_paths_preserved": true,
+    "central_rectangle_identity": "U; no new obstacle",
+    "source_photo_textures_used": false,
+    "rendered": false
+  },
+  "route_regression": {
+    "ray_count": 11554,
+    "baseline_target_hits": 0,
+    "candidate_target_hits": 0,
+    "new_obstacles": [],
+    "segments": [
+      {
+        "id": "EXTERIOR",
+        "mode": "EXTERIOR_FREE_FLIGHT",
+        "new_obstacles": 0
+      },
+      {
+        "id": "ENTRY_TO_LIVING",
+        "mode": "NORMAL_WALK_THROUGH_OPENING",
+        "new_obstacles": 0
+      },
+      {
+        "id": "LIVING",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "KITCHEN",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MASTER",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "STUDY",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "CONNECTOR",
+        "mode": "NORMAL_WALK_ON_STAIRS",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_LOUNGE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_BEDROOM",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "POOL_TERRACE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_WINE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_BOILER",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_STAIR",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_FOUNDATION_1",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_FOUNDATION_2",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_FOUNDATION_3",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_PLUNGE",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_SERVANT",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_SERVICE_STAIR",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_COAT",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_STAIR",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_LOGGIA",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_TERRACE_W",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_TERRACE_E",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_HATCH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_DRESSING",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_BATH_N",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_BATH_G",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_BATH_M",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_HALL",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_GUEST",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_TERRACE_W",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_TERRACE_S",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_TERRACE_E",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_TERRACE_N",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_STAIR",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_CLOSET_M",
+        "mode": "STATIONARY_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_CLOSET_G",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_GALLERY",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_ALCOVE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_TERRACE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_STAIR",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_THEATER",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_CAR_COURT",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_BOILER",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_GALLERY",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_B1_LAUNDRY",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_B1_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_B1_STAIR",
+        "mode": "STATIONARY_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_BEDROOM_SOUTH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_BEDROOM_MIDDLE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_BEDROOM_NORTH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_HALL",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_TERRACE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      }
+    ],
+    "scope": "Frozen full09 route versus removed and added bridge meshes; all retained scene objects fingerprinted."
+  },
+  "camera_clearance": [
+    {
+      "name": "CAM_MAIN_B_WINE_A",
+      "frame": 48,
+      "location": [
+        -3.3116800785064697,
+        12.672320365905762,
+        -0.5278000235557556
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 27.172300338745117,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_WINE_B",
+      "frame": 48,
+      "location": [
+        -0.4534600079059601,
+        12.664349555969238,
+        -0.5278000235557556
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.360864639282227,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_BATH_A",
+      "frame": 48,
+      "location": [
+        -2.538800001144409,
+        14.336999893188477,
+        -0.5278000235557556
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 26.757408142089844,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_BATH_B",
+      "frame": 48,
+      "location": [
+        -0.6392800211906433,
+        15.287489891052246,
+        -0.5278000235557556
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 25.17589569091797,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_BOILER_A",
+      "frame": 48,
+      "location": [
+        2.489000082015991,
+        11.804129600524902,
+        -0.5278000235557556
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 21.31022071838379,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_BOILER_B",
+      "frame": 48,
+      "location": [
+        -0.23319999873638153,
+        12.850199699401855,
+        -0.5497999787330627
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.181917190551758,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_STAIR_A",
+      "frame": 48,
+      "location": [
+        -4.697289943695068,
+        17.030349731445312,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 29.58884048461914,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_STAIR_B",
+      "frame": 48,
+      "location": [
+        -6.2565598487854,
+        17.915939331054688,
+        -0.37672001123428345
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 31.324485778808594,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_1_A",
+      "frame": 48,
+      "location": [
+        -0.2881999909877777,
+        5.712440013885498,
+        -1.6497999429702759
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 23.744474411010742,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_1_B",
+      "frame": 48,
+      "location": [
+        2.5938000679016113,
+        10.368470191955566,
+        -1.6497999429702759
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 21.047927856445312,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_2_A",
+      "frame": 48,
+      "location": [
+        3.698960065841675,
+        11.15785026550293,
+        -1.6497999429702759
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 20.063236236572266,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_2_B",
+      "frame": 48,
+      "location": [
+        6.142710208892822,
+        7.046879768371582,
+        -1.6497999429702759
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 17.305124282836914,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_3_A",
+      "frame": 48,
+      "location": [
+        7.421750068664551,
+        11.980050086975098,
+        -1.6497999429702759
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 16.59043312072754,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_3_B",
+      "frame": 48,
+      "location": [
+        8.250619888305664,
+        5.402500152587891,
+        -1.6497999429702759
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 15.225873947143555,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_PLUNGE_A",
+      "frame": 48,
+      "location": [
+        13.817879676818848,
+        10.599820137023926,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 10.05260944366455,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_B_PLUNGE_B",
+      "frame": 48,
+      "location": [
+        18.809999465942383,
+        9.119999885559082,
+        -0.7264699935913086
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 4.816501617431641,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_LIVING_A",
+      "frame": 48,
+      "location": [
+        1.596560001373291,
+        4.080399990081787,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 22.000661849975586,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_LIVING_B",
+      "frame": 48,
+      "location": [
+        5.1008100509643555,
+        9.616080284118652,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 18.459129333496094,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_KITCHEN_A",
+      "frame": 48,
+      "location": [
+        -2.8255701065063477,
+        16.326919555664062,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 27.593599319458008,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_KITCHEN_B",
+      "frame": 48,
+      "location": [
+        -1.1810200214385986,
+        11.500129699707031,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.90816879272461,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_SERVANT_A",
+      "frame": 48,
+      "location": [
+        -7.3862199783325195,
+        16.093889236450195,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 31.906343460083008,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_SERVANT_B",
+      "frame": 48,
+      "location": [
+        -4.988920211791992,
+        14.783280372619629,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 29.26390266418457,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "frame": 48,
+      "location": [
+        -3.4976999759674072,
+        17.534799575805664,
+        1.7001999616622925
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 28.613750457763672,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "frame": 48,
+      "location": [
+        -5.357900142669678,
+        17.86520004272461,
+        0.31558001041412354
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 30.454891204833984,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_ENTRY_A",
+      "frame": 48,
+      "location": [
+        7.312709808349609,
+        12.218899726867676,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 16.726070404052734,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_ENTRY_B",
+      "frame": 48,
+      "location": [
+        9.455289840698242,
+        11.65250015258789,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 14.516576766967773,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_COAT_A",
+      "frame": 48,
+      "location": [
+        8.803199768066406,
+        12.303299903869629,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 15.316926002502441,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_COAT_B",
+      "frame": 48,
+      "location": [
+        9.403200149536133,
+        12.903300285339355,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 14.93127727508545,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_STAIR_A",
+      "frame": 48,
+      "location": [
+        4.761849880218506,
+        12.856100082397461,
+        4.271399974822998
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 19.6737117767334,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_STAIR_B",
+      "frame": 48,
+      "location": [
+        7.237750053405762,
+        13.50510025024414,
+        2.2128000259399414
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 17.209636688232422,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_LOGGIA_A",
+      "frame": 48,
+      "location": [
+        13.817879676818848,
+        10.599820137023926,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 10.05260944366455,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_LOGGIA_B",
+      "frame": 48,
+      "location": [
+        13.543760299682617,
+        10.970459938049316,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 10.415796279907227,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_TERRACE_W_A",
+      "frame": 48,
+      "location": [
+        -4.472010135650635,
+        1.0586800575256348,
+        1.6222000122070312
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_SW",
+      "clearance_m": 27.961503982543945,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_TERRACE_W_B",
+      "frame": 48,
+      "location": [
+        -0.15719999372959137,
+        2.761199951171875,
+        1.7222000360488892
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 23.904407501220703,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_TERRACE_E_A",
+      "frame": 48,
+      "location": [
+        12.89645004272461,
+        0.19012999534606934,
+        1.6222000122070312
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_SW",
+      "clearance_m": 10.744462013244629,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_TERRACE_E_B",
+      "frame": 48,
+      "location": [
+        12.340200424194336,
+        7.589869976043701,
+        1.6222000122070312
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 11.162532806396484,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_HATCH_A",
+      "frame": 48,
+      "location": [
+        7.333980083465576,
+        2.761199951171875,
+        1.5256500244140625
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 16.535694122314453,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L1_HATCH_B",
+      "frame": 48,
+      "location": [
+        9.636360168457031,
+        2.6603100299835205,
+        -0.37981998920440674
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 14.290055274963379,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_DRESSING_A",
+      "frame": 48,
+      "location": [
+        -2.6304800510406494,
+        16.008089065551758,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 27.570720672607422,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_DRESSING_B",
+      "frame": 48,
+      "location": [
+        -2.09948992729187,
+        11.71010971069336,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 26.118877410888672,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_MASTER_A",
+      "frame": 48,
+      "location": [
+        0.22427000105381012,
+        7.608170032501221,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 23.557416915893555,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_MASTER_B",
+      "frame": 48,
+      "location": [
+        3.9416399002075195,
+        12.059289932250977,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 20.31631851196289,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_N_A",
+      "frame": 48,
+      "location": [
+        0.4715999960899353,
+        13.949399948120117,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.06572723388672,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_N_B",
+      "frame": 48,
+      "location": [
+        0.7288399934768677,
+        15.266249656677246,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.183887481689453,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_G_A",
+      "frame": 48,
+      "location": [
+        7.073999881744385,
+        11.469599723815918,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 17.201818466186523,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_G_B",
+      "frame": 48,
+      "location": [
+        5.357379913330078,
+        10.879130363464355,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 18.742759704589844,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_M_A",
+      "frame": 48,
+      "location": [
+        4.535200119018555,
+        8.65530014038086,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 19.332996368408203,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_M_B",
+      "frame": 48,
+      "location": [
+        6.85181999206543,
+        9.608980178833008,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 17.13779067993164,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_HALL_A",
+      "frame": 48,
+      "location": [
+        10.574319839477539,
+        11.735099792480469,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 13.980462074279785,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_HALL_B",
+      "frame": 48,
+      "location": [
+        5.077070236206055,
+        14.56857967376709,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 19.912702560424805,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_GUEST_A",
+      "frame": 48,
+      "location": [
+        7.571800231933594,
+        7.319630146026611,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 16.36104965209961,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_GUEST_B",
+      "frame": 48,
+      "location": [
+        10.66864013671875,
+        10.301400184631348,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 13.576520919799805,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_W_A",
+      "frame": 48,
+      "location": [
+        -11.981590270996094,
+        15.154150009155273,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 36.363746643066406,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_W_B",
+      "frame": 48,
+      "location": [
+        -4.64231014251709,
+        17.09524917602539,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 29.795278549194336,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_S_A",
+      "frame": 48,
+      "location": [
+        4.189089775085449,
+        -1.5484600067138672,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_SW",
+      "clearance_m": 19.487655639648438,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_S_B",
+      "frame": 48,
+      "location": [
+        4.189089775085449,
+        6.49875020980835,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 19.661333084106445,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_E_A",
+      "frame": 48,
+      "location": [
+        19.302169799804688,
+        8.330060005187988,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 5.739365100860596,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_E_B",
+      "frame": 48,
+      "location": [
+        12.390789985656738,
+        7.772510051727295,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 11.742429733276367,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_N_A",
+      "frame": 48,
+      "location": [
+        6.328760147094727,
+        21.578510284423828,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 22.21721076965332,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_N_B",
+      "frame": 48,
+      "location": [
+        5.886270046234131,
+        15.910090446472168,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 19.67020034790039,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_STAIR_A",
+      "frame": 48,
+      "location": [
+        2.217639923095703,
+        13.821929931640625,
+        6.864349842071533
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 22.91667938232422,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_STAIR_B",
+      "frame": 48,
+      "location": [
+        5.470560073852539,
+        14.210619926452637,
+        4.617809772491455
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 19.46381187438965,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_CLOSET_M_A",
+      "frame": 48,
+      "location": [
+        0.6084200143814087,
+        11.655449867248535,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 23.46840476989746,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_CLOSET_M_B",
+      "frame": 48,
+      "location": [
+        1.9591799974441528,
+        11.832449913024902,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 22.186094284057617,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_CLOSET_G_A",
+      "frame": 48,
+      "location": [
+        7.71999979019165,
+        9.579999923706055,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 16.295642852783203,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L2_CLOSET_G_B",
+      "frame": 48,
+      "location": [
+        10.640000343322754,
+        9.5600004196167,
+        4.4670000076293945
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 13.496747970581055,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_STUDY_A",
+      "frame": 48,
+      "location": [
+        -2.4144299030303955,
+        15.956549644470215,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 27.804384231567383,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_STUDY_B",
+      "frame": 48,
+      "location": [
+        -0.5522199869155884,
+        11.97404956817627,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 25.15070343017578,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_BATH_A",
+      "frame": 48,
+      "location": [
+        1.600000023841858,
+        14.920000076293945,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 23.792768478393555,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_BATH_B",
+      "frame": 48,
+      "location": [
+        0.6986700296401978,
+        15.177749633789062,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.696880340576172,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_GALLERY_A",
+      "frame": 48,
+      "location": [
+        0.34452998638153076,
+        13.52869987487793,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.599882125854492,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_GALLERY_B",
+      "frame": 48,
+      "location": [
+        5.471869945526123,
+        13.068499565124512,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 19.739179611206055,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_ALCOVE_A",
+      "frame": 48,
+      "location": [
+        7.100200176239014,
+        13.525750160217285,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 18.401323318481445,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_ALCOVE_B",
+      "frame": 48,
+      "location": [
+        5.199999809265137,
+        13.0,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 19.969745635986328,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_TERRACE_A",
+      "frame": 48,
+      "location": [
+        9.641599655151367,
+        9.234979629516602,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 15.257689476013184,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_TERRACE_B",
+      "frame": 48,
+      "location": [
+        0.5239999890327454,
+        11.429780006408691,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.041772842407227,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_LINK_A",
+      "frame": 48,
+      "location": [
+        5.826879978179932,
+        23.99057960510254,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 24.646379470825195,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_LINK_B",
+      "frame": 48,
+      "location": [
+        8.344149589538574,
+        23.9955997467041,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 22.917892456054688,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_STAIR_A",
+      "frame": 48,
+      "location": [
+        1.850000023841858,
+        13.180000305175781,
+        6.886350154876709
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 23.110841751098633,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_L3_STAIR_B",
+      "frame": 48,
+      "location": [
+        3.720400094985962,
+        13.805999755859375,
+        5.827489852905273
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 21.24485969543457,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_THEATER_A",
+      "frame": 48,
+      "location": [
+        2.9479799270629883,
+        50.79648971557617,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 48.40959548950195,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_THEATER_B",
+      "frame": 48,
+      "location": [
+        -1.9716299772262573,
+        45.97261047363281,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 46.68593978881836,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_CAR_COURT_A",
+      "frame": 48,
+      "location": [
+        -3.0213799476623535,
+        41.07796096801758,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 43.429054260253906,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_CAR_COURT_B",
+      "frame": 48,
+      "location": [
+        -0.41690999269485474,
+        45.55628967285156,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 45.513668060302734,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "frame": 48,
+      "location": [
+        -3.148979902267456,
+        37.55339050292969,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 40.88966369628906,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "frame": 48,
+      "location": [
+        1.0069700479507446,
+        39.96226119995117,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 40.20508575439453,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_BOILER_A",
+      "frame": 48,
+      "location": [
+        2.9681899547576904,
+        41.70246124267578,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 40.5784797668457,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_BOILER_B",
+      "frame": 48,
+      "location": [
+        5.820000171661377,
+        41.380001068115234,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 38.93963623046875,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_STAIR_HALL_A",
+      "frame": 48,
+      "location": [
+        2.8013999462127686,
+        38.1976318359375,
+        12.352869987487793
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 38.464900970458984,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_STAIR_HALL_B",
+      "frame": 48,
+      "location": [
+        2.3225200176239014,
+        34.38914108276367,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 35.124263763427734,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_LOUNGE_A",
+      "frame": 48,
+      "location": [
+        8.850000381469727,
+        37.45000076293945,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 34.228271484375,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_LOUNGE_B",
+      "frame": 48,
+      "location": [
+        5.466390132904053,
+        37.30033874511719,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 35.67925262451172,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_GALLERY_A",
+      "frame": 48,
+      "location": [
+        12.076780319213867,
+        39.98495864868164,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 35.263790130615234,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_GALLERY_B",
+      "frame": 48,
+      "location": [
+        9.632740020751953,
+        38.68452835083008,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 34.98031234741211,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_BATH_A",
+      "frame": 48,
+      "location": [
+        11.825369834899902,
+        36.585960388183594,
+        10.009200096130371
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 32.3037109375,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_BATH_B",
+      "frame": 48,
+      "location": [
+        14.101289749145508,
+        38.560340881347656,
+        10.009200096130371
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 33.354976654052734,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "frame": 48,
+      "location": [
+        14.629289627075195,
+        40.391231536865234,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 34.900970458984375,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "frame": 48,
+      "location": [
+        19.081430435180664,
+        37.6799201965332,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 31.47795295715332,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_TERRACE_A",
+      "frame": 48,
+      "location": [
+        16.289520263671875,
+        35.70412063598633,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 30.16131019592285,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_TERRACE_B",
+      "frame": 48,
+      "location": [
+        8.321749687194824,
+        34.60179138183594,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 32.05487060546875,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_POOL_A",
+      "frame": 48,
+      "location": [
+        22.551979064941406,
+        34.479061126708984,
+        10.004300117492676
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 28.155290603637695,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L1_POOL_B",
+      "frame": 48,
+      "location": [
+        31.086339950561523,
+        37.45524978637695,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NE",
+      "clearance_m": 30.954980850219727,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_B1_LAUNDRY_A",
+      "frame": 48,
+      "location": [
+        1.0456500053405762,
+        40.18655014038086,
+        7.640200138092041
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 39.873565673828125,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_B1_LAUNDRY_B",
+      "frame": 48,
+      "location": [
+        -1.4840699434280396,
+        37.60253143310547,
+        7.640200138092041
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 39.368438720703125,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_B1_BATH_A",
+      "frame": 48,
+      "location": [
+        -3.213979959487915,
+        39.06092071533203,
+        7.649199962615967
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 41.56660461425781,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_B1_BATH_B",
+      "frame": 48,
+      "location": [
+        -2.1310200691223145,
+        37.640350341796875,
+        7.649199962615967
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 39.811073303222656,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_B1_STAIR_A",
+      "frame": 48,
+      "location": [
+        1.6129599809646606,
+        40.037681579589844,
+        10.000200271606445
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 39.930545806884766,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_B1_STAIR_B",
+      "frame": 48,
+      "location": [
+        1.920639991760254,
+        40.23453903198242,
+        7.640200138092041
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 39.42787551879883,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "frame": 48,
+      "location": [
+        -3.084589958190918,
+        40.34008026123047,
+        12.352869987487793
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 43.48917770385742,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "frame": 48,
+      "location": [
+        0.7785699963569641,
+        39.53609848022461,
+        12.352879524230957
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 40.618343353271484,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "frame": 48,
+      "location": [
+        -3.084589958190918,
+        41.03422927856445,
+        12.352869987487793
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 44.00813293457031,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "frame": 48,
+      "location": [
+        0.7785699963569641,
+        43.52524948120117,
+        12.352879524230957
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 43.789581298828125,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "frame": 48,
+      "location": [
+        -3.0320301055908203,
+        45.045658111572266,
+        12.352869987487793
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 47.06602096557617,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "frame": 48,
+      "location": [
+        1.019029974937439,
+        48.23973846435547,
+        12.352879524230957
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 47.58219528198242,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BATH_A",
+      "frame": 48,
+      "location": [
+        1.8284599781036377,
+        47.891780853271484,
+        12.3618803024292
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 46.911922454833984,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BATH_B",
+      "frame": 48,
+      "location": [
+        3.0058000087738037,
+        45.614280700683594,
+        12.3618803024292
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 44.43644332885742,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_HALL_A",
+      "frame": 48,
+      "location": [
+        3.116179943084717,
+        44.48080062866211,
+        12.352869987487793
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 43.42641067504883,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_HALL_B",
+      "frame": 48,
+      "location": [
+        1.9195599555969238,
+        40.80221939086914,
+        12.352879524230957
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 40.999176025390625,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_TERRACE_A",
+      "frame": 48,
+      "location": [
+        0.19931000471115112,
+        54.30162048339844,
+        12.352879524230957
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 53.16345977783203,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_L2_TERRACE_B",
+      "frame": 48,
+      "location": [
+        2.6630699634552,
+        49.206119537353516,
+        12.352879524230957
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 47.66306686401367,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_HERO",
+      "frame": 48,
+      "location": [
+        -25.0,
+        -28.0,
+        2.5
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_SW",
+      "clearance_m": 53.85064697265625,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_MAIN_OVERVIEW",
+      "frame": 48,
+      "location": [
+        30.0,
+        -23.0,
+        14.0
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_SE",
+      "clearance_m": 23.18628692626953,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_UPSTREAM",
+      "frame": 48,
+      "location": [
+        39.0,
+        -10.0,
+        3.0
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_SE",
+      "clearance_m": 9.89179801940918,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_WATER_DETAIL",
+      "frame": 48,
+      "location": [
+        -7.0,
+        -13.0,
+        -3.0
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_SW",
+      "clearance_m": 31.5070743560791,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_ENTRY",
+      "frame": 48,
+      "location": [
+        17.0,
+        10.5,
+        1.7000000476837158
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 7.02349328994751,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_CONNECTOR",
+      "frame": 48,
+      "location": [
+        17.0,
+        27.0,
+        11.0
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NW",
+      "clearance_m": 22.65497589111328,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_OVERVIEW",
+      "frame": 48,
+      "location": [
+        32.0,
+        20.0,
+        17.0
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NE",
+      "clearance_m": 20.40614128112793,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_GUEST_POOL",
+      "frame": 48,
+      "location": [
+        29.0,
+        29.0,
+        10.600000381469727
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_NE",
+      "clearance_m": 23.378995895385742,
+      "passes_0_20m_clearance": true
+    },
+    {
+      "name": "CAM_SITE_OVERVIEW",
+      "frame": 48,
+      "location": [
+        55.0,
+        -47.0,
+        42.0
+      ],
+      "nearest_bridge_object": "SITE_Bridge10_Stone_Return_SE",
+      "clearance_m": 64.12915802001953,
+      "passes_0_20m_clearance": true
+    }
+  ],
+  "south_source_nominal_endpoint_rays": [
+    {
+      "y": -2.95,
+      "z": 0.1,
+      "left": [
+        25.43044090270996,
+        -2.950000047683716,
+        0.10000000149011612
+      ],
+      "right": [
+        29.469039916992188,
+        -2.950000047683716,
+        0.10000000149011612
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        0.9999999403953552,
+        0.0,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    },
+    {
+      "y": -2.95,
+      "z": 0.3,
+      "left": [
+        25.43044090270996,
+        -2.950000047683716,
+        0.30000001192092896
+      ],
+      "right": [
+        29.469039916992188,
+        -2.950000047683716,
+        0.30000001192092896
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        0.9999999403953552,
+        0.0,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    },
+    {
+      "y": -2.95,
+      "z": 0.48,
+      "left": [
+        25.43044090270996,
+        -2.950000047683716,
+        0.47999998927116394
+      ],
+      "right": [
+        29.469039916992188,
+        -2.950000047683716,
+        0.47999998927116394
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        0.9999999403953552,
+        0.0,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    },
+    {
+      "y": -2.8,
+      "z": 0.1,
+      "left": [
+        25.43044090270996,
+        -2.799999952316284,
+        0.10000000149011612
+      ],
+      "right": [
+        29.469039916992188,
+        -2.799999952316284,
+        0.10000000149011612
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        1.8795884898281656e-05,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    },
+    {
+      "y": -2.8,
+      "z": 0.3,
+      "left": [
+        25.43044090270996,
+        -2.799999952316284,
+        0.30000001192092896
+      ],
+      "right": [
+        29.469039916992188,
+        -2.799999952316284,
+        0.30000001192092896
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        1.8795884898281656e-05,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    },
+    {
+      "y": -2.8,
+      "z": 0.48,
+      "left": [
+        25.43044090270996,
+        -2.799999952316284,
+        0.47999998927116394
+      ],
+      "right": [
+        29.469039916992188,
+        -2.799999952316284,
+        0.47999998927116394
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        1.8795884898281656e-05,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    },
+    {
+      "y": -2.6,
+      "z": 0.1,
+      "left": [
+        25.43044090270996,
+        -2.5999999046325684,
+        0.10000000149011612
+      ],
+      "right": [
+        29.469039916992188,
+        -2.5999999046325684,
+        0.10000000149011612
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        1.0,
+        -1.6128202332765795e-05,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    },
+    {
+      "y": -2.6,
+      "z": 0.3,
+      "left": [
+        25.43044090270996,
+        -2.5999999046325684,
+        0.30000001192092896
+      ],
+      "right": [
+        29.469039916992188,
+        -2.5999999046325684,
+        0.30000001192092896
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        1.0,
+        -1.6128202332765795e-05,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    },
+    {
+      "y": -2.6,
+      "z": 0.48,
+      "left": [
+        25.43044090270996,
+        -2.5999999046325684,
+        0.47999998927116394
+      ],
+      "right": [
+        29.469039916992188,
+        -2.5999999046325684,
+        0.47999998927116394
+      ],
+      "left_owner": "SITE_Bridge10_Stone_Return_SW",
+      "right_owner": "SITE_Bridge10_Stone_Return_SE",
+      "left_normal": [
+        1.0,
+        -1.6128202332765795e-05,
+        0.0
+      ],
+      "right_normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "gap_m": 4.038599014282227,
+      "pass": true
+    }
+  ],
+  "old_water_surface_intersections": [
+    {
+      "water_object": "WATER_BearRun_Continuous_Upstream_Downstream",
+      "triangle_or_polygon_overlap_pairs": 788,
+      "bridge_owners": {
+        "SITE_Bridge10_Stone_Return_SE": 392,
+        "SITE_Bridge10_Stone_Return_SW": 396
+      }
+    }
+  ],
+  "actual_terrain_support": [
+    {
+      "object": "SITE_Bridge10_Stone_Return_SW",
+      "boundary_samples": 58,
+      "base_gap_range_m": [
+        -0.019999980926513672,
+        -0.019999980926513672
+      ],
+      "pass": true
+    },
+    {
+      "object": "SITE_Bridge10_Stone_Return_SE",
+      "boundary_samples": 54,
+      "base_gap_range_m": [
+        -0.019999980926513672,
+        -0.019999980926513672
+      ],
+      "pass": true
+    },
+    {
+      "object": "SITE_Bridge10_Stone_Return_NW",
+      "boundary_samples": 54,
+      "base_gap_range_m": [
+        -0.02000001072883606,
+        -0.019999980926513672
+      ],
+      "pass": true
+    },
+    {
+      "object": "SITE_Bridge10_Stone_Return_NE",
+      "boundary_samples": 54,
+      "base_gap_range_m": [
+        -0.02000001072883606,
+        -0.019999980926513672
+      ],
+      "pass": true
+    }
+  ],
+  "protected_physics": {
+    "SITE_Core_Continuous_Fractured_Sandstone": {
+      "sha256": "a5b9c216ab0f9897f3d74fcc0faf9d308b759795fb92944b7a60211309b70a22",
+      "triangles": 23750
+    },
+    "SITE_Cascade_Shoulder_Continuous_0": {
+      "sha256": "b499949a4326bb35c01284055c07a00a81542e285b95a8c63ccab1f9654f49ef",
+      "triangles": 13870
+    },
+    "SITE_Cascade_Shoulder_Continuous_1": {
+      "sha256": "ef119e981b47a96b8f4db2b7e7e66ea3042e95f30542008f3c9ecf94b6e42065",
+      "triangles": 10186
+    },
+    "WATER_BearRun_Continuous_Upstream_Downstream": {
+      "sha256": "8cb3d45c362a841c39566034b9da9883cc655a42636ede08d857fd079df72439",
+      "triangles": 409192
+    },
+    "WATER_Broken_Sandstone_Ledge_Cascades": {
+      "sha256": "1537c8161b999819eaaa499b82bb59b4a18f6ba908041424006fe3ab895fd3dd",
+      "triangles": 16748
+    },
+    "WATER_Impact_Foam_Rivulets": {
+      "sha256": "de2bffb3ca1da5a6d4cb167e8b5e2b897288c04d9e16274dbd2a7ce803ecbdc3",
+      "triangles": 2040
+    },
+    "WATER_Dispersed_Impact_Arcs": {
+      "sha256": "61fbc0a1bfa2dd8415f4f286baf132184055118773579fcbc045380785018951",
+      "triangles": 1672
+    },
+    "WATER_Downstream_Advecting_Foam_00": {
+      "sha256": "59bdf4d646c60b4e5e19c4cb821311e4b2fdf73a92dadb8716c4b9acd8923a4f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_01": {
+      "sha256": "54e9f3e95fc1d39fb218b213f0407098f944c6625079dc9ef3746988e916c3f7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_02": {
+      "sha256": "e9723f019d033801eb7f1fd449d52ec49a5bdc2e49043e4bb7c7829076c2f6d7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_03": {
+      "sha256": "998467d801d3d770335103f5df1e228fa46d9881a5ee9fb76ef374de7e5926e0",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_04": {
+      "sha256": "6814bc6ba7c36f9030fe82ab2682e5c2f99cbce7ceedb81fc714eefbf7445933",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_05": {
+      "sha256": "fcb115357e662861f85f40a81092f2c4d3692b65133611c2d8ee52d749cd19a4",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_06": {
+      "sha256": "3d58b6f1c0eef200bbd6c3bb78e94405fdf4a22e42858729a0376569b2a0aa62",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_07": {
+      "sha256": "0d28bf3815419c8f600f93a199f5f503557a04ac697ca2ac7d1be0e3bb190803",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_08": {
+      "sha256": "76eeaeda53c85fee2d7d8e32b39a228d0010e24637812e7e542f0cf658bbf8a6",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_09": {
+      "sha256": "2ecdca72dd48a97f56c2cd38cb9c6e5b8e56d83ad71cf0ee15b46492336b59b5",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_10": {
+      "sha256": "dd2a0c5c1de5bd200ea5e82e067b04cfd02b855a336a763f6b78317fc9ce6067",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_11": {
+      "sha256": "0bc5df47471a05d49f3d0206743525a421843d5bd570ebb21e25203e305bf5b4",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_12": {
+      "sha256": "0eac58b646b9c4f292b357b3e064e3ca307530f35b2566126072308186d8521f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_13": {
+      "sha256": "d7b0a7bb63e55df55fbd5f6a9e80040b80b3457a7d2900b87425600d96210ca2",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_14": {
+      "sha256": "aa40e46ce2dfde0feb9c74c33dc2efadc8730e9e09633b5b822f73cc8ad4986e",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_15": {
+      "sha256": "6df438b9b3560bb4bc4ab74dc3bd21ded2eb56cd50a5a375211f0064436ecbe7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_16": {
+      "sha256": "ed4489844fd3248bf6d4c532d99555f5c86a978f4079e6ebf387de5f64a1515f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_17": {
+      "sha256": "c90b074506222b68a527a37790c1036133d82f2cd384571bd157fea76348db49",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_18": {
+      "sha256": "b9e84c319a06d2953033a65a860aaaf4d2ce015e1d7c1b5152ef996d3336e187",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_19": {
+      "sha256": "371a57cef90b6b86d8fb21ca22b70312630b9f9d46b85eaa3f22eccefc43f737",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_20": {
+      "sha256": "a818e5d8305467779e7fd5ae9655bf15a51e71189a029f92473848d70e56ca25",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_21": {
+      "sha256": "55d5214858c334b24832b10b3872f01fbb541deee4d2edb313d4681583010d85",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_22": {
+      "sha256": "8d59555f42ec8059a12f3bddb555b0fb5d1746096266bb47c99636daf7fa45f4",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_23": {
+      "sha256": "340386590fffc56a8b927c00d43e49ba2cccd7006fe77d0268d0dac3d3333d65",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_24": {
+      "sha256": "1c924f6d6ec3a3811fbdca8b22e4177d57f9a1c2975846615ae91692dabe8dd9",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_25": {
+      "sha256": "f3ef8d96e90fd2aa27267a7834d01f998c13fc4c35fff32cb7b0d4901ee15303",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_26": {
+      "sha256": "0e6cef344802ca2e483f4ce3c8dc53395ef3347847525c1eda4fe549a7b3d6ce",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_27": {
+      "sha256": "2288afc24da26a031433f27bb88cb986dde10592ea0ae732b2815385c3c2b60d",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_28": {
+      "sha256": "5ccdb4e7086b6f1291cd2fbb4375d8e9eae1404275e5b23aa697eda70076663f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_29": {
+      "sha256": "51607e17c2319ea9a2a6eebeaab26a9feda87e7478edfcae3e7700d92112d930",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_30": {
+      "sha256": "1737fef33426c264305895c83be7601f97f5e3e8f41e665c19f2c5d943ce93bb",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_31": {
+      "sha256": "95d158d37fe23ca41f63c23dd990eef62c9d7113d48f505864ee2b5ced1bb34e",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_32": {
+      "sha256": "86af586fe4097bb24228fa7c11aaade1e9d1e7b9fe18e66d7035fcb95ad848b5",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_33": {
+      "sha256": "acab209c4436a4aedae0a139727eddf8bef30d225d825bae8ce874913bcb31fc",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_34": {
+      "sha256": "de55262bacda2b583c09723cb4e36ef5a12938c45e92c7ab714bfdee12ad5ec6",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_35": {
+      "sha256": "f0e5d3edf9e39a5b16899da89bf84439a4a64d097af6759348d28f8418e2f4fc",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_36": {
+      "sha256": "e5899fa8d24d3eac89c075a203334526bc179bf0fea1139a2ee5fe54a394724f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_37": {
+      "sha256": "6194a5ec2583fbea4b2c60ead13acd5480a1fedf883917473d59454347af6699",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_38": {
+      "sha256": "853be3fd594500801b4a29dce99acac55da4653268a782fc49d9ace218e1036d",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_39": {
+      "sha256": "189d9a8fc15566155ede3c77fd2e0fcb67fe9c3eb3f3db21ddb044808628ddf6",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_40": {
+      "sha256": "d8d1de474f316f1a7e43305f637e25322945eb6d04348f2071abe068a8af69c3",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_41": {
+      "sha256": "37925cb1dce6dd6e6fb6498b2a3b589506d7d9b29c8f294188c417a49f59af31",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_42": {
+      "sha256": "8398562c402b154bc80c36632087874b2b6922e9d3201e8197f908a6984e2d13",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_43": {
+      "sha256": "623e22f34f55ff4f2b7ed89b67b440d0a0303d4a27132e65ead5763cc2a0fcd0",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_44": {
+      "sha256": "4b6da400d69a95a2a915159416e75c8b4a45f27b3b5774dc0b6b10799883080e",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_45": {
+      "sha256": "ab899a136240ed7a10ebe578c731bb8abce48ef45c63756d2dd272c1bbd2dcaa",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_46": {
+      "sha256": "f9693ba90a056da56970430f62e47e4345d5b0ddad39f1258d5db4245dc76e8d",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_47": {
+      "sha256": "3b1e2abd63e63bfd78927c5ea9536275608c042d2f0dd516be6fe8a3bb34c1a7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_48": {
+      "sha256": "f24b715e0c71949d9238793c2390033b1ef9db44f49d993ce8cda63aa8523b2b",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_49": {
+      "sha256": "01cb8710d972cda4dabf121ecb8381abee1325ee68ff6cb18e4bc41d85a1d27c",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_50": {
+      "sha256": "7ca76218cb13835d1ecb6662614a66a9138910925bc471df43c12f875297f105",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_51": {
+      "sha256": "f47ca005f48628f16a53744b5329b966d88284a2e6e291480db4bb3e3c1dc94e",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_52": {
+      "sha256": "2abf6357909ab02aca295712d5ba6bf7a1966ac9fbb2df5f989a7b180fb14e1d",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_53": {
+      "sha256": "b3d02b27d0959f155aeb23a1f4b2b97d22601a8ff48ccb263c1b563541aa31d7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_54": {
+      "sha256": "1a7da7a4337da6b4ecad44cf52905aa92d88c9ef50ace0908a8cc0a491a97030",
+      "triangles": 3
+    },
+    "WATER_Aerated_Droplets": {
+      "sha256": "e1db27987d8fe5ce9b622be5179c7699d36a13a9c8e511ff2385504f68899681",
+      "triangles": 880
+    }
+  },
+  "new_physical_hashes": {
+    "SITE_Bridge10_Concrete_W": {
+      "sha256": "b1ab740a89981175123d9294bfadce2d3ee53621fdf0bfef4d7b8a94081b8a11",
+      "triangles": 540
+    },
+    "SITE_Bridge10_Concrete_E": {
+      "sha256": "4b8101b8ed6b92a1258d91274733fed68430d7553f4ecb38828c1159581be91a",
+      "triangles": 540
+    },
+    "SITE_Bridge10_Stone_Return_SW": {
+      "sha256": "c250a3356cdadbc42baedc221957f097a8ca5ac73525a9c20576e3e3f96baf43",
+      "triangles": 7360
+    },
+    "SITE_Bridge10_Stone_Return_SE": {
+      "sha256": "3e0a109625fdb821c5226d42b3b4d918d82063fa2cd49125a205211da484b504",
+      "triangles": 5868
+    },
+    "SITE_Bridge10_Stone_Return_NW": {
+      "sha256": "df456c4517a6f85af11a6a13b473ae10c57be454706d12c270aa323e6abe939f",
+      "triangles": 2376
+    },
+    "SITE_Bridge10_Stone_Return_NE": {
+      "sha256": "2eb74f4fc00b8438980781291f80b9edd6d3dcc7cd5d563232a12fd5bdf416cb",
+      "triangles": 3552
+    },
+    "SITE_Bridge10_West_Deck_Edge_Closure": {
+      "sha256": "764e8f7763be9dcf777d00775519074a870fef9c03d3bc1c75d519a83cab0db8",
+      "triangles": 12
+    }
+  },
+  "fingerprint": {
+    "retained_object_count": 23308,
+    "unchanged_all_retained": true,
+    "removed": [
+      "SITE_Bridge_Parapet_0_0_-0.36",
+      "SITE_Bridge_Parapet_0_0_-1.16",
+      "SITE_Bridge_Parapet_0_0_-2.15",
+      "SITE_Bridge_Parapet_0_0_-3.12",
+      "SITE_Bridge_Parapet_0_0_-4.25",
+      "SITE_Bridge_Parapet_0_0_0.76",
+      "SITE_Bridge_Parapet_0_0_1.73",
+      "SITE_Bridge_Parapet_0_0_2.92",
+      "SITE_Bridge_Parapet_0_0_3.60",
+      "SITE_Bridge_Parapet_0_0_4.57",
+      "SITE_Bridge_Parapet_0_0_5.41",
+      "SITE_Bridge_Parapet_0_0_6.60",
+      "SITE_Bridge_Parapet_0_1_-0.28",
+      "SITE_Bridge_Parapet_0_1_-1.28",
+      "SITE_Bridge_Parapet_0_1_-1.98",
+      "SITE_Bridge_Parapet_0_1_-3.09",
+      "SITE_Bridge_Parapet_0_1_-4.25",
+      "SITE_Bridge_Parapet_0_1_0.56",
+      "SITE_Bridge_Parapet_0_1_1.47",
+      "SITE_Bridge_Parapet_0_1_2.53",
+      "SITE_Bridge_Parapet_0_1_3.72",
+      "SITE_Bridge_Parapet_0_1_4.76",
+      "SITE_Bridge_Parapet_0_1_5.49",
+      "SITE_Bridge_Parapet_0_1_6.47",
+      "SITE_Bridge_Parapet_0_2_-0.80",
+      "SITE_Bridge_Parapet_0_2_-1.70",
+      "SITE_Bridge_Parapet_0_2_-2.56",
+      "SITE_Bridge_Parapet_0_2_-3.20",
+      "SITE_Bridge_Parapet_0_2_-4.25",
+      "SITE_Bridge_Parapet_0_2_0.21",
+      "SITE_Bridge_Parapet_0_2_0.90",
+      "SITE_Bridge_Parapet_0_2_1.95",
+      "SITE_Bridge_Parapet_0_2_2.81",
+      "SITE_Bridge_Parapet_0_2_3.53",
+      "SITE_Bridge_Parapet_0_2_4.41",
+      "SITE_Bridge_Parapet_0_2_5.19",
+      "SITE_Bridge_Parapet_0_2_5.97",
+      "SITE_Bridge_Parapet_1_0_-0.02",
+      "SITE_Bridge_Parapet_1_0_-1.04",
+      "SITE_Bridge_Parapet_1_0_-1.81",
+      "SITE_Bridge_Parapet_1_0_-2.60",
+      "SITE_Bridge_Parapet_1_0_-3.49",
+      "SITE_Bridge_Parapet_1_0_-4.25",
+      "SITE_Bridge_Parapet_1_0_0.99",
+      "SITE_Bridge_Parapet_1_0_2.19",
+      "SITE_Bridge_Parapet_1_0_2.88",
+      "SITE_Bridge_Parapet_1_0_3.82",
+      "SITE_Bridge_Parapet_1_0_4.67",
+      "SITE_Bridge_Parapet_1_0_5.45",
+      "SITE_Bridge_Parapet_1_0_6.25",
+      "SITE_Bridge_Parapet_1_1_-0.46",
+      "SITE_Bridge_Parapet_1_1_-1.23",
+      "SITE_Bridge_Parapet_1_1_-2.01",
+      "SITE_Bridge_Parapet_1_1_-2.85",
+      "SITE_Bridge_Parapet_1_1_-3.60",
+      "SITE_Bridge_Parapet_1_1_-4.25",
+      "SITE_Bridge_Parapet_1_1_0.31",
+      "SITE_Bridge_Parapet_1_1_1.13",
+      "SITE_Bridge_Parapet_1_1_1.88",
+      "SITE_Bridge_Parapet_1_1_2.69",
+      "SITE_Bridge_Parapet_1_1_3.45",
+      "SITE_Bridge_Parapet_1_1_4.35",
+      "SITE_Bridge_Parapet_1_1_5.11",
+      "SITE_Bridge_Parapet_1_1_5.88",
+      "SITE_Bridge_Parapet_1_2_-0.66",
+      "SITE_Bridge_Parapet_1_2_-1.66",
+      "SITE_Bridge_Parapet_1_2_-2.35",
+      "SITE_Bridge_Parapet_1_2_-3.36",
+      "SITE_Bridge_Parapet_1_2_-4.25",
+      "SITE_Bridge_Parapet_1_2_0.51",
+      "SITE_Bridge_Parapet_1_2_1.23",
+      "SITE_Bridge_Parapet_1_2_1.95",
+      "SITE_Bridge_Parapet_1_2_3.09",
+      "SITE_Bridge_Parapet_1_2_3.97",
+      "SITE_Bridge_Parapet_1_2_4.76",
+      "SITE_Bridge_Parapet_1_2_5.39",
+      "SITE_Bridge_Parapet_1_2_6.14"
+    ],
+    "added": [
+      "SITE_Bridge10_Concrete_E",
+      "SITE_Bridge10_Concrete_W",
+      "SITE_Bridge10_Stone_Return_NE",
+      "SITE_Bridge10_Stone_Return_NW",
+      "SITE_Bridge10_Stone_Return_SE",
+      "SITE_Bridge10_Stone_Return_SW",
+      "SITE_Bridge10_West_Deck_Edge_Closure"
+    ],
+    "retained_bridge_names": [
+      "SITE_BearRun_Bridge_Structural_Deck",
+      "SITE_Bridge_Flag_000",
+      "SITE_Bridge_Flag_001",
+      "SITE_Bridge_Flag_002",
+      "SITE_Bridge_Flag_003",
+      "SITE_Bridge_Flag_004",
+      "SITE_Bridge_Flag_005",
+      "SITE_Bridge_Flag_006",
+      "SITE_Bridge_Flag_007",
+      "SITE_Bridge_Flag_008",
+      "SITE_Bridge_Flag_009",
+      "SITE_Bridge_Flag_010",
+      "SITE_Bridge_Flag_011",
+      "SITE_Bridge_Flag_012",
+      "SITE_Bridge_Flag_013",
+      "SITE_Bridge_Flag_014",
+      "SITE_Bridge_Flag_015",
+      "SITE_Bridge_Flag_016",
+      "SITE_Bridge_Flag_017",
+      "SITE_Bridge_Flag_018",
+      "SITE_Bridge_Flag_019",
+      "SITE_Bridge_Flag_020",
+      "SITE_Bridge_Flag_021",
+      "SITE_Bridge_Flag_022",
+      "SITE_Bridge_Flag_023",
+      "SITE_Bridge_Flag_024",
+      "SITE_Bridge_Flag_025",
+      "SITE_Bridge_Flag_026",
+      "SITE_Bridge_Flag_027",
+      "SITE_Bridge_Flag_028",
+      "SITE_Bridge_Flag_029",
+      "SITE_Bridge_Flag_030",
+      "SITE_Bridge_Flag_031",
+      "SITE_Bridge_Flag_032",
+      "SITE_Bridge_Flag_033",
+      "SITE_Bridge_Flag_034",
+      "SITE_Bridge_Flag_035",
+      "SITE_Bridge_Flag_036",
+      "SITE_Bridge_Flag_037",
+      "SITE_Bridge_Flag_038",
+      "SITE_Bridge_Flag_039",
+      "SITE_Bridge_Flag_040",
+      "SITE_Bridge_Flag_041",
+      "SITE_Bridge_Flag_042",
+      "SITE_Bridge_Flag_043",
+      "SITE_Bridge_Flag_044",
+      "SITE_Bridge_Flag_045",
+      "SITE_Bridge_Flag_046",
+      "SITE_Bridge_Flag_047",
+      "SITE_Bridge_Flag_048",
+      "SITE_Bridge_Flag_049",
+      "SITE_Bridge_Flag_050",
+      "SITE_Bridge_Flag_051",
+      "SITE_Bridge_Flag_052",
+      "SITE_Bridge_Flag_053",
+      "SITE_Bridge_Flag_054",
+      "SITE_Bridge_Flag_055",
+      "SITE_Bridge_Flag_056",
+      "SITE_Bridge_Flag_057",
+      "SITE_Bridge_Flag_058",
+      "SITE_Bridge_Flag_059",
+      "SITE_Bridge_Flag_060",
+      "SITE_Bridge_Flag_061",
+      "SITE_Bridge_Flag_062",
+      "SITE_Bridge_Flag_063",
+      "SITE_Bridge_Flag_064",
+      "SITE_Bridge_Flag_065",
+      "SITE_Bridge_Flag_066",
+      "SITE_Bridge_Flag_067",
+      "SITE_Bridge_Flag_068",
+      "SITE_Bridge_Flag_069",
+      "SITE_Bridge_Flag_070",
+      "SITE_Bridge_Flag_071",
+      "SITE_Bridge_Flag_072",
+      "SITE_Bridge_Flag_073",
+      "SITE_Bridge_Flag_074",
+      "SITE_Bridge_Flag_075",
+      "SITE_Bridge_Flag_076",
+      "SITE_Bridge_Flag_077",
+      "SITE_Bridge_Flag_078",
+      "SITE_Bridge_Flag_079",
+      "SITE_Bridge_Flag_080",
+      "SITE_Bridge_Flag_081",
+      "SITE_Bridge_Flag_082",
+      "SITE_Bridge_Flag_083",
+      "SITE_Bridge_Flag_084",
+      "SITE_Bridge_Flag_085",
+      "SITE_Bridge_Flag_086",
+      "SITE_Bridge_Flag_087",
+      "SITE_Bridge_Flag_088",
+      "SITE_Bridge_Flag_089",
+      "SITE_Bridge_Flag_090",
+      "SITE_Bridge_Flag_091",
+      "SITE_Bridge_Flag_092",
+      "SITE_Bridge_Flag_093",
+      "SITE_Bridge_Flag_094",
+      "SITE_Bridge_Flag_095",
+      "SITE_Bridge_Flag_096",
+      "SITE_Bridge_Flag_097",
+      "SITE_Bridge_Flag_098",
+      "SITE_Bridge_Flag_099",
+      "SITE_Bridge_Flag_100",
+      "SITE_Bridge_Flag_101",
+      "SITE_Bridge_Flag_102",
+      "SITE_Bridge_Flag_103",
+      "SITE_Bridge_Flag_104",
+      "SITE_Bridge_Flag_105",
+      "SITE_Bridge_Flag_106",
+      "SITE_Bridge_Flag_107",
+      "SITE_Bridge_Flag_108",
+      "SITE_Bridge_Flag_109",
+      "SITE_Bridge_Flag_110",
+      "SITE_Bridge_Flag_111",
+      "SITE_Bridge_Flag_112",
+      "SITE_Bridge_Flag_113",
+      "SITE_Bridge_Flag_114",
+      "SITE_Bridge_Flag_115",
+      "SITE_Bridge_Flag_116",
+      "SITE_Bridge_Flag_117",
+      "SITE_Bridge_Flag_118",
+      "SITE_Bridge_Flag_119",
+      "SITE_Bridge_Flag_120",
+      "SITE_Bridge_Flag_121",
+      "SITE_Bridge_Flag_122",
+      "SITE_Bridge_Flag_123",
+      "SITE_Bridge_Flag_124",
+      "SITE_Bridge_Flag_125",
+      "SITE_Bridge_Flag_126",
+      "SITE_Bridge_Flag_127",
+      "SITE_Bridge_Flag_128",
+      "SITE_Bridge_Flag_129",
+      "SITE_Bridge_Flag_130",
+      "SITE_Bridge_Flag_131",
+      "SITE_Bridge_Abutment_0_-3.6",
+      "SITE_Bridge_Abutment_0_6.0",
+      "SITE_Bridge_Abutment_1_-3.6",
+      "SITE_Bridge_Abutment_1_6.0",
+      "SITE_Path_bridge_south_approach",
+      "SITE_Path_bridge_north_approach"
+    ],
+    "original_globals_equal": true,
+    "snapshot_sha256": "b83867267ee9be69930cd5160c55f0253335572377ab0f01f5343e9f7bb64e6c"
+  },
+  "issues": [
+    "NEW_MASONRY_INTERSECTS_OLD_WATER_SURFACE"
+  ],
+  "candidate_sha256": "2a7630b8024c37bd768e563236807f8049469172c7e44b03379a450f91637063",
+  "elapsed_s": 146.0058024999962
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-09-21",
+  "scope": "Read-only local master ceiling source review; writes limited to qa/master-ceiling11-source-*; no Blender, rendering, downloads, model or helper edits.",
+  "status": "SOURCE_TOPOLOGY_SUPPORTED_EXACT_EXTENTS_AND_HEIGHTS_C_U",
+  "camera_registration_status": "GEO-07_NOT_RUN",
+  "source_manifest": "master-ceiling11-source-crops.json",
+  "sources_actually_viewed": [
+    "Columbia Master Bedroom face0 2880 original",
+    "Columbia Master Bedroom face1 800 original",
+    "Columbia Master Bedroom face2 2880 original",
+    "Columbia Master Bedroom face3 2880 original",
+    "HABS main05 original TIFF derived bedroom crop",
+    "HABS main10 original TIFF derived both full sections and bounded master section crop",
+    "HABS main11 existing 1024px sheet and fireplace crop"
+  ],
+  "photo_rights": "Copyright 2001 Columbia University; Photo by Maurice Luker; REFERENCE_ONLY_EXCLUDE_PUBLIC_PACKAGE",
+  "orientation_status": "Plan north/east/south/west semantic correspondence from cabinet, bed, glazing and fireplace; not fitted world azimuth.",
+  "source_assertions": [
+    {"id":"CEIL11_B01","class":"B","source_crop":"master-ceiling11-source-face1-top.png","crop_pixels":{"north_high_field":[180,120],"vertical_step":[445,145],"south_low_field":[610,170],"east_wall_step_end":[424,304]},"claim":"East face shows one ceiling step, lower field continuing south to glazing, step ending at bedhead wall.","limit":"World Y and absolute Z not measured from photo; 800px resolution."},
+    {"id":"CEIL11_B02","class":"B","source_crop":"master-ceiling11-source-face3-top.png","crop_pixels":{"south_low_field":[320,290],"vertical_step":[770,280],"north_high_field":[1450,150],"step_stone_intersection":[790,478]},"claim":"West face shows broad south low ceiling terminating at southwest glazing and step joining upper stepped stone core.","limit":"Hidden core intersection and internal roof construction remain U."},
+    {"id":"CEIL11_B03","class":"B","source_crop":"master-ceiling11-source-face2-top.png","crop_pixels":{"continuous_low_field":[850,250],"south_glazing_head":[840,535]},"claim":"Full visible southern glazing width meets one continuous ceiling field, consistent with side-face step topology.","limit":"This face alone does not show the northern boundary or establish dimensions."},
+    {"id":"CEIL11_B04","class":"B","source_crop":"master-ceiling11-source-face0-top.png","crop_pixels":{"north_high_field":[850,280],"separate_cabinet_shelf":[940,650]},"claim":"Northern broad high ceiling and separate thin wooden cabinet shelf.","limit":"Do not use shelf height at different depth as a photo scale."},
+    {"id":"CEIL11_A_GRAPHIC01","class":"A_SOURCE_GRAPHIC_TOPOLOGY","source_crop":"master-ceiling11-source-main10-master-section.png","crop_pixels":{"low_soffit_start":[315,275],"low_soffit_end":[740,275],"step_bottom":[751,268],"step_top":[756,183],"high_soffit":[1100,180]},"claim":"West-looking section shows a continuous thickened roof underside from southern window to a step at the stone core; high northern underside continues, common upper plane.","limit":"No independent printed local soffit elevations; metric graphical readings classified C, not A dimensions."},
+    {"id":"CEIL11_A_GRAPHIC02","class":"A_SOURCE_GRAPHIC_IDENTITY","source_crop":"master-ceiling11-source-main11-hearth.png","claim":"Label explicitly identifies Master Bedroom Fireplace; stepped stone elevation corresponds to photo and main10 room identity.","limit":"Detail does not draw complete ceiling volume."},
+    {"id":"CEIL11_A_GRAPHIC03","class":"A_SOURCE_GRAPHIC_ENCLOSURE","source_crop":"master-ceiling11-source-main05-master.png","claim":"Plan identifies north cabinet/entry, west fireplace, east bedhead wall, southern glazing and bathroom door.","limit":"Not a reflected ceiling plan; no readable dimensioned ceiling-break line."}
+  ],
+  "bounded_graphical_section_measurement": {
+    "classification": "C_GRAPHICAL_NOT_PRINTED_DIMENSION_PASS",
+    "calibration_source": "research/references/architecture/main-10-original.tif",
+    "calibration_source_sha256": "db6591996c049961a50ba593c002dc394d5708f1c15c5935e1c3671aed1e2ac7",
+    "calibration_printed_span": "67ft 2in",
+    "calibration_m": 20.4724,
+    "calibration_witness_x_in_oriented_width1024_coordinates": [268.1,657.8],
+    "calibration_description": "Bottom dimension line of SECTION LOOKING WEST; two outer building extent witnesses. Calibrates sheet graphical scale only, not a cantilever or room dimension.",
+    "calibration_scale_m_per_normalized_pixel": 0.052533743905568385,
+    "target_crop": "master-ceiling11-source-main10-master-section.png",
+    "target_crop_normalized_box": [416,514,558,582],
+    "target_crop_output_size": [1700,814],
+    "pick_coordinates_in_output_pixels": {
+      "low_underside_horizontal_segment": [[325,275],[730,275]],
+      "high_underside_horizontal_segment": [[1000,180],[1540,180]],
+      "master_floor_upper_finish_line": [[1020,720],[1400,720]]
+    },
+    "pick_y_in_oriented_width1024_coordinates": {"low":536.9705882352941,"high":529.035294117647,"floor":574.1411764705882},
+    "method": "Apply width1024 graphical calibration to vertical sheet distances, assuming isotropic architectural drawing. Delta-output-y * (142/1700) * (20.4724/389.7). No photo pixel ratios and no model-derived endpoint selection.",
+    "graphical_step_m": 0.4168707089918338,
+    "graphical_low_clearance_m": 1.9527101631722745,
+    "graphical_high_clearance_m": 2.3695808721641085,
+    "conservative_uncertainty_m_each": 0.04,
+    "uncertainty_description": "Manual 3px output line choice at each target, calibration-witness choice, line thickness and finish-line identification allowance. Conservative reading bound, not statistical confidence interval; source not a local soffit elevation survey.",
+    "qualifications": ["No 20mm/0.5% pass threshold applied to these graphical readings.","Low-clearance interval crosses 1.95m; cannot lower the project's navigation standard.","Current model step0.1532m differs materially from the graphical0.417m estimate.","Do not solve the step discrepancy by lowering the low plane into the navigable room."]
+  },
+  "current_helper_read": {
+    "path": "project/scripts/master_detail10.py",
+    "sha256_at_read": "243a642da59bbf28030b65a916b5e031467785eea3664818e88b33982c1ef837",
+    "object": "MASTER_DETAIL10_west_connected_soffit",
+    "source_plan_rectangle": [326.2,354,417.3,359.6],
+    "source_sx_sy": [0.0524,0.0531],
+    "width_m": 4.77364,
+    "depth_m": 0.29736,
+    "bottom_z": 4.8468,
+    "top_z": 5.005,
+    "object_thickness_m": 0.1582,
+    "existing_master_ceiling_underside_z": 5.0,
+    "visible_step_m": 0.1532,
+    "finish_z": 2.8668,
+    "candidate_low_clearance_m": 1.98,
+    "evidence": "CODE_READ_ONLY; model not reopened or remeasured in this source task"
+  },
+  "minimum_supported_candidate": {
+    "topology": "One north high field, one riser, one south low field meeting actual southern window head; clip west to real stepped stone and east to actual wall, preserving bathroom opening.",
+    "operation_for_integrator": "Replace narrow-box interpretation and remove its southern return-to-high face. Build a continuous closed Master ceiling enclosure without duplicate coplanar surfaces; do not scale rooms or extend into terrace/bath.",
+    "first_candidate_only": "Existing break Y and Z may be retained as explicit C starting parameters while correcting topology. Source Y354 is not confirmed; southern extent comes from actual glazing enclosure, not old room-record Y405.",
+    "remaining_height_discrepancy": "Retaining high Z5.0 and low Z4.8468 is a topology-only candidate, not source-height acceptance. Study actual upper-floor/structure interfaces before considering high-plane correction; graphical high Z~5.24 is C and not authorization to cut through an upper slab.",
+    "forbidden_shortcut": "Do not lower low plane to Z~4.58 to force a0.42m step; that gives only~1.72m clearance.",
+    "validation_to_run_by_integrator": ["Original east/west/south source views with consistent geometry and separate camera-registration status", "Closed positive solids and no coplanar overlaps", "Actual stone/window/east wall joins; no bathroom door head filled", "Affected navigable floor, radius0.18m body and1.95m head standards unchanged"],
+    "not_claimed": ["Exact survey heights","True ceiling construction system","Exact break Y","Full source-photo registration","Mechanical or visual PASS of a new candidate"]
+  },
+  "cleanup": "Scoped neat-freak reconciliation completed in this owned report/manifest. All7 extracted crops actually opened. Old10f failure evidence and10g C-placeholder advice preserved. No edits to STATUS, AGENTS, production sources or scene files."
+}

@@ -1,0 +1,61 @@
+{
+  "scene_sha256": "6bcfee7841c22e8e2b636352cfca79ae94968afb4235fc20cdc57e250ae046ff",
+  "tests": [
+    {
+      "shift": [
+        0,
+        0
+      ],
+      "projected_center": [
+        0.5000001192092896,
+        0.5000001192092896,
+        1.9999998807907104
+      ],
+      "maximum_center_error": 1.1920928955078125e-07,
+      "status": "PASS"
+    },
+    {
+      "shift": [
+        0,
+        -0.58
+      ],
+      "projected_center": [
+        0.4999997019767761,
+        0.49999991059303284,
+        1.6032918691635132
+      ],
+      "maximum_center_error": 2.980232238769531e-07,
+      "status": "PASS"
+    },
+    {
+      "shift": [
+        0.2,
+        0.35
+      ],
+      "projected_center": [
+        0.5000001788139343,
+        0.5,
+        1.7756762504577637
+      ],
+      "maximum_center_error": 1.7881393432617188e-07,
+      "status": "PASS"
+    },
+    {
+      "shift": [
+        -0.15,
+        -0.44966
+      ],
+      "projected_center": [
+        0.4999997019767761,
+        0.4999999701976776,
+        1.7078222036361694
+      ],
+      "maximum_center_error": 2.980232238769531e-07,
+      "status": "PASS"
+    }
+  ],
+  "source_scene_unchanged": true,
+  "status": "PASS_API_MATH_ONLY",
+  "GUI_status": "NOT_RUN",
+  "scope": "Free-view central direction tested against actual Blender camera projection. Does not reproduce optical shift across the full frame or certify GUI controls."
+}

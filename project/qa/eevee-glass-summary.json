@@ -1,0 +1,122 @@
+{
+  "static": [
+    {
+      "variant": "baseline",
+      "seconds": 49.33097600000019,
+      "sha256": "81984cd8a3a14153d33cb034ffbc064ab444f3bd7500536e22d6b70380f03a75",
+      "verified": true,
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "variant": "linked_thickness",
+      "seconds": 72.01155770000014,
+      "sha256": "b9ad05b11c10e05c906448d6224d8e42185ff741c33166e4a250a0def4399865",
+      "verified": true,
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "variant": "thin_preview",
+      "seconds": 76.56106420000015,
+      "sha256": "f8e955c515ae83554eae1606661b7d5fa15a724ae000a5acba23b444e6be961e",
+      "verified": true,
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "variant": "thin_blended",
+      "seconds": 63.09747349999998,
+      "sha256": "5c4d0705765e7cf112718b25be8de9fe80b9717c087b1ab37ccb4e42cc4f9182",
+      "verified": true,
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "variant": "baseline-probe",
+      "seconds": 44.948673200000485,
+      "sha256": "e8774aa821fd16ea69ad4ff3af46045d188f78eea988011379ba139c5f44bcc8",
+      "verified": true,
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "variant": "thin_blended-probe-two-sided",
+      "seconds": 58.60366499999964,
+      "sha256": "21e62c243b013b3207cff9c81f794ac05333ff05b628a752f876fd519b7663ac",
+      "verified": true,
+      "size": [
+        960,
+        540
+      ]
+    }
+  ],
+  "sequence": {
+    "frames": 12,
+    "size": [
+      960,
+      540
+    ],
+    "fps": 24,
+    "duration_seconds": 0.5,
+    "translation_m": 0.24,
+    "all_hashes_verified": true,
+    "unique_frame_hashes": 12,
+    "first_seconds": 61.60788099999991,
+    "warm_median_seconds": 14.931378100000074,
+    "total_seconds": 227.59393419999924,
+    "adjacent_full_frame_mae_8bit": [
+      4.817525077160494,
+      4.84244341563786,
+      4.829503600823045,
+      4.740394161522634,
+      4.693250385802469,
+      4.654386574074074,
+      4.6400655864197535,
+      4.640136959876544,
+      4.665072016460905,
+      4.656122685185185,
+      4.623591820987654
+    ],
+    "metric_limitation": "Image difference includes intentional camera parallax and is not an isolated flicker measurement",
+    "source_sha256": "1f2a55b63aa331db2e26fb9bd9382239d4bcea1b273c433414cc5c7f64832835",
+    "geometry_and_cycles_invariants": {
+      "geometry_sha256_before": "4398333f4a0f33d80751e3f5cecff773e438a385da2547fa117883e8a04a4d5a",
+      "geometry_sha256_after": "4398333f4a0f33d80751e3f5cecff773e438a385da2547fa117883e8a04a4d5a",
+      "cycles_surface_sha256_before": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+      "cycles_surface_sha256_after": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d"
+    }
+  },
+  "visual_acceptance": "BOUNDED_LIVING_WINDOW_PREVIEW_PASS; not full-scene photographic acceptance",
+  "thickness_comparison": {
+    "mean_absolute_8bit_difference": 0.003890817901234568,
+    "p95": 0.0,
+    "max": 1.0
+  },
+  "reviewed_images": {
+    "static": 6,
+    "sequence_contact_frames": 12,
+    "sequence_native_crops": 12,
+    "mp4_playback_reviewed": false,
+    "sequence_full_frame_ids": [
+      12
+    ]
+  },
+  "video_probe": {
+    "width": 960,
+    "height": 540,
+    "fps": "24/1",
+    "frames": 12,
+    "duration_seconds": 0.5
+  }
+}

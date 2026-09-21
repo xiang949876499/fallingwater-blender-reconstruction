@@ -1,0 +1,128 @@
+def hearth_rock(a):
+    """Two non-concentric native-rock lobes, traced from HABS main04 stippling.
+
+    Coordinates use the agreed 1024px main04 registration. Photo PA-5346-48
+    establishes the broad irregular surfaces and broken ledges; main11 shows
+    their low floor relationship. Elevations, fracture depth and grain are C.
+    No fireplace walls, opening, kettle or other room objects are modified.
+    """
+    from mathutils.geometry import tessellate_polygon
+    # The two independent outlines follow the rock, not surrounding flagstones.
+    profiles={
+      'north_native_lobe':[(335.5,326),(339,325.5),(342,326),(346,325.8),
+        (350,327),(355,328),(360,328),(364,329),(367,331),(369,334),
+        (371.5,335.8),(371.3,338.6),(372.5,341),(372,344),(372.2,346.2),
+        (371.5,349.1),(368.5,350),(365,349.7),(362,348.2),(357,347.7),
+        (354,347.9),(352.2,349.6),(349,350.2),(345,349.4),(341,349.4),
+        (338,349),(336,349.9),(335.2,351.1),(334,349),(334.4,346),
+        (334.3,338),(335.5,338)],
+      'south_native_lobe':[(335.8,352),(338,351.6),(340.5,353.2),(343,353.3),
+        (346,352.5),(350,352),(354,352),(356,351.7),(357.5,353.5),
+        (359.4,355.9),(359.1,358.8),(360.1,361),(359.7,364.2),
+        (360.5,367.2),(360,370.9),(357.5,371.6),(354,371.2),(351.5,372.2),
+        (349.2,371.1),(346.8,372.5),(343.2,373.7),(340.4,375.2),
+        (337.8,377.6),(334.5,379.1),(331,379.8),(331,365.5),
+        (334.1,364.5),(334.5,361),(334,359.2),(335.1,356.5)]}
+    material=bpy.data.materials.get('FW_native_hearth_sandstone_C')
+    if material is None:
+        material=a.mat('rock').copy();material.name='FW_native_hearth_sandstone_C'
+        material['evidence']='C: photo-informed dry sandstone color and millimetric grain'
+        nodes,links=material.node_tree.nodes,material.node_tree.links
+        nodes.clear()
+        out=nodes.new('ShaderNodeOutputMaterial');shader=nodes.new('ShaderNodeBsdfPrincipled')
+        shader.inputs['Roughness'].default_value=.86
+        coord=nodes.new('ShaderNodeTexCoord')
+        coarse=nodes.new('ShaderNodeTexNoise');coarse.inputs['Scale'].default_value=2.8
+        coarse.inputs['Detail'].default_value=3.2;coarse.inputs['Roughness'].default_value=.66
+        links.new(coord.outputs['Object'],coarse.inputs['Vector'])
+        ramp=nodes.new('ShaderNodeValToRGB')
+        ramp.color_ramp.elements[0].color=(.145,.143,.119,1)
+        ramp.color_ramp.elements[0].position=.16
+        ramp.color_ramp.elements[1].color=(.32,.304,.251,1)
+        ramp.color_ramp.elements[1].position=.84
+        links.new(coarse.outputs['Fac'],ramp.inputs['Fac'])
+        links.new(ramp.outputs['Color'],shader.inputs['Base Color'])
+        grain=nodes.new('ShaderNodeTexNoise');grain.inputs['Scale'].default_value=92
+        grain.inputs['Detail'].default_value=2.5
+        links.new(coord.outputs['Object'],grain.inputs['Vector'])
+        bump=nodes.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.40
+        bump.inputs['Distance'].default_value=.0016
+        links.new(grain.outputs['Fac'],bump.inputs['Height'])
+        links.new(bump.outputs['Normal'],shader.inputs['Normal'])
+        links.new(shader.outputs['BSDF'],out.inputs['Surface'])
+
+    def top_height(x,y,north):
+        # Broad sloping lobes, broken into small planar facets; no level ring.
+        dome=math.exp(-((x-1.10)**2/1.75+(y-(10.73 if north else 9.24))**2/.70))
+        strata=.007*math.sin(17*x+3*y)+.004*math.sin(31*y-8*x)
+        return (.135 if north else .105)+(.175 if north else .145)*dome+strata
+
+    def native_block(label,outline,north):
+        world=[((x-327)*.0524,(540-y)*.0531) for x,y in outline]
+        if sum(world[i][0]*world[(i+1)%len(world)][1]-world[(i+1)%len(world)][0]*world[i][1] for i in range(len(world)))<0:
+            world.reverse()
+        vertices=[];faces=[];lookup={}
+        def vertex(x,y,z):
+            key=tuple(round(v,5) for v in (x,y,z))
+            if key not in lookup:
+                lookup[key]=len(vertices)
+                vertices.append((x-a.root.location.x,y-a.root.location.y,z))
+            return lookup[key]
+        def face(triangle,depth=0):
+            if depth<3:
+                p,q,r=triangle;pq=(p+q)/2;qr=(q+r)/2;rp=(r+p)/2
+                for t in ((p,pq,rp),(pq,q,qr),(rp,qr,r),(pq,qr,rp)):face(t,depth+1)
+            else:
+                faces.append(tuple(vertex(p.x,p.y,top_height(p.x,p.y,north)) for p in triangle))
+        points=[Vector((x,y,0)) for x,y in world]
+        for tri in tessellate_polygon([points]):
+            face(tuple(points[i] for i in tri) if isinstance(tri[0],int) else tri)
+        # A buried base and two uneven fracture horizons make a single sealed
+        # monolith. Horizontal offsets vary per edge; they are not scaled rings.
+        rings=[]
+        boundary=[]
+        for i,(x,y) in enumerate(world):
+            qx,qy=world[(i+1)%len(world)]
+            boundary.extend((x+(qx-x)*j/8,y+(qy-y)*j/8) for j in range(8))
+        for layer in range(4):
+            ring=[]
+            for i,(x,y) in enumerate(boundary):
+                h=top_height(x,y,north)
+                if layer==0:xx,yy,z=x,y,-.024
+                elif layer==3:xx,yy,z=x,y,h
+                else:
+                    jitter=.007*math.sin(i*2.31+layer)
+                    xx=x+jitter;yy=y+.006*math.cos(i*1.71+layer)
+                    z=h*(.32 if layer==1 else .69)+.007*math.sin(i*1.91)
+                ring.append(vertex(xx,yy,z))
+            rings.append(ring)
+        for low,high in zip(rings,rings[1:]):
+            for i in range(len(boundary)):
+                j=(i+1)%len(boundary);faces.append((low[i],low[j],high[j],high[i]))
+        faces.append(tuple(reversed(rings[0])))
+        obj=a.add(mesh_object(a.name+'_'+label,vertices,faces,material,a.owner.coll))
+        # Vector subdivision uses float32 while authored edge coordinates are
+        # float64. Weld only coincident micrometric seams, never fracture gaps.
+        import bmesh
+        bm=bmesh.new();bm.from_mesh(obj.data)
+        bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=.00003)
+        bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces))
+        bm.to_mesh(obj.data);bm.free();obj.data.update()
+        obj['reference']='HABS PA-5346 main04 stippled rock outline; main11 elevation; photo PA-5346-48'
+        obj['evidence']='C: manually traced plan silhouette, photograph-informed height and fracture faces'
+        obj['plan_trace_pixels']=json.dumps(outline)
+        obj['buried_base_below_finish_m']=.024
+        obj['texture_scale_evidence']='C: 1.6mm bump amplitude, noise frequency 92/m; not measured petrography'
+
+    for label,outline in profiles.items():native_block(label,outline,label.startswith('north'))
+    # Hidden root beneath the actual firebox/grate location, ending well short
+    # of the two visible lobe edges. It replaces the old stacked circular base.
+    root=a.box('buried_firebox_rock_root',(-.32,-.01,.094),(.83,1.29,.24),'rock',0)
+    root['evidence']='C: obscured connecting rock, no claim of measured rear geometry'
+    a.root['reference']='HABS PA-5346 main04/main11 and photograph PA-5346-48'
+    a.root['evidence']='C: source-supported native boulder; manually reconstructed unsurveyed geometry'
+    a.root['profile_revision']='06 asymmetric traced lobes; supersedes iteration05 similar stacked polygons'
+    a.root['anchor_note']='Origin retained for unchanged charred-log positions; actual footprint is recorded per child mesh.'
+    for x in (-.31,.03,.23):
+        a.beam('unlit_charred_log',(x,-.35,.27),(x+.08,.43,.29),.037,'dark')
+

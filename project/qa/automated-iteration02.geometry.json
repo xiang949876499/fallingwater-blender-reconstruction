@@ -1,0 +1,5023 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_working.blend",
+  "scene_mtime": 1789882758.483385,
+  "method": "Actual integrated evaluated-scene rays, including furniture/site. Tread centers plus lateral offsets; vertical headroom, horizontal radius probes and door-plane crossing. Sampled checks, not continuous swept-body or final navigation acceptance.",
+  "stairs": [
+    {
+      "prefix": "MAIN_stair2_",
+      "count": 14,
+      "samples": [
+        {
+          "step": "MAIN_stair2_00",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_00",
+            "position": [
+              5.380356788635254,
+              14.041930198669434,
+              3.017610549926758
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 4.304914474487305
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_00",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_00",
+            "position": [
+              5.380356788635254,
+              13.821929931640625,
+              3.017610549926758
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 4.304914474487305
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_00",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_00",
+            "position": [
+              5.380356311798096,
+              13.601929664611816,
+              3.017610549926758
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.0650000558352298
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 4.304914474487305
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_01",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_01",
+            "position": [
+              5.137071132659912,
+              14.041930198669434,
+              3.1904215812683105
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 4.132103443145752
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_01",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_01",
+            "position": [
+              5.137071132659912,
+              13.821929931640625,
+              3.1904215812683105
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 4.132103443145752
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_01",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_01",
+            "position": [
+              5.137070655822754,
+              13.601929664611816,
+              3.1904215812683105
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.0650000558352298
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 4.132103443145752
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_02",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_02",
+            "position": [
+              4.89378547668457,
+              14.041930198669434,
+              3.363232135772705
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.959292411804199
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_02",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_02",
+            "position": [
+              4.89378547668457,
+              13.821929931640625,
+              3.363232135772705
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.9592928886413574
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_02",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_02",
+            "position": [
+              4.893784999847412,
+              13.601929664611816,
+              3.363232135772705
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.0650000558352298
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.9592928886413574
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_03",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_03",
+            "position": [
+              4.6504998207092285,
+              14.041930198669434,
+              3.5360426902770996
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.786482334136963
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_03",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_03",
+            "position": [
+              4.6504998207092285,
+              13.821929931640625,
+              3.5360426902770996
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.786482334136963
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_03",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_03",
+            "position": [
+              4.65049934387207,
+              13.601929664611816,
+              3.5360426902770996
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.0650000558352298
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.7864818572998047
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_04",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_04",
+            "position": [
+              4.407214164733887,
+              14.041930198669434,
+              3.7088537216186523
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.61367130279541
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_04",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_04",
+            "position": [
+              4.407214164733887,
+              13.821929931640625,
+              3.7088537216186523
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.61367130279541
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_04",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_04",
+            "position": [
+              4.4072136878967285,
+              13.601929664611816,
+              3.7088537216186523
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.0650000558352298
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.61367130279541
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_05",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_05",
+            "position": [
+              4.163928508758545,
+              14.041930198669434,
+              3.881664276123047
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.4408607482910156
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_05",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_05",
+            "position": [
+              4.163928508758545,
+              13.821929931640625,
+              3.881664276123047
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.4408607482910156
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_05",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_05",
+            "position": [
+              4.163928031921387,
+              13.601929664611816,
+              3.881664276123047
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.0650000558352298
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.4408607482910156
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_06",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_06",
+            "position": [
+              3.920642852783203,
+              14.041930198669434,
+              4.054474830627441
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.268050193786621
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_06",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_06",
+            "position": [
+              3.920642852783203,
+              13.821929931640625,
+              4.054474830627441
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.268050193786621
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_06",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_06",
+            "position": [
+              3.920642852783203,
+              13.601929664611816,
+              4.054474830627441
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.268050193786621
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_07",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_07",
+            "position": [
+              3.6773571968078613,
+              14.041930198669434,
+              4.227285861968994
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.0952391624450684
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_07",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_07",
+            "position": [
+              3.6773571968078613,
+              13.821929931640625,
+              4.227285861968994
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.0952391624450684
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_07",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_07",
+            "position": [
+              3.6773571968078613,
+              13.601929664611816,
+              4.227285861968994
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 3.0952391624450684
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_08",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_08",
+            "position": [
+              3.4340713024139404,
+              14.041930198669434,
+              4.400096416473389
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.922428607940674
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_08",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_08",
+            "position": [
+              3.4340713024139404,
+              13.821929931640625,
+              4.400096416473389
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.922428607940674
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_08",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_08",
+            "position": [
+              3.4340713024139404,
+              13.601929664611816,
+              4.400096416473389
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.922428607940674
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_09",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_09",
+            "position": [
+              3.1907856464385986,
+              14.041930198669434,
+              4.572906970977783
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.7496180534362793
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_09",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_09",
+            "position": [
+              3.1907856464385986,
+              13.821929931640625,
+              4.572906970977783
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.7496180534362793
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_09",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_09",
+            "position": [
+              3.1907856464385986,
+              13.601929664611816,
+              4.572906970977783
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.7496180534362793
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_10",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_10",
+            "position": [
+              2.947499990463257,
+              14.041930198669434,
+              4.745718002319336
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.5768070220947266
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_10",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_10",
+            "position": [
+              2.947499990463257,
+              13.821929931640625,
+              4.745718002319336
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.5768070220947266
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_10",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_10",
+            "position": [
+              2.947499990463257,
+              13.601929664611816,
+              4.745718002319336
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.5768070220947266
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_11",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_11",
+            "position": [
+              2.704214096069336,
+              14.041930198669434,
+              4.9185285568237305
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.403996467590332
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_11",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_11",
+            "position": [
+              2.704214096069336,
+              13.821929931640625,
+              4.9185285568237305
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.403996467590332
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_11",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_11",
+            "position": [
+              2.704214096069336,
+              13.601929664611816,
+              4.9185285568237305
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.403996467590332
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_12",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_12",
+            "position": [
+              2.460928440093994,
+              14.041930198669434,
+              5.091339111328125
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.2311859130859375
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_12",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_12",
+            "position": [
+              2.460928440093994,
+              13.821929931640625,
+              5.091339111328125
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.2311859130859375
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_12",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_12",
+            "position": [
+              2.460928440093994,
+              13.601929664611816,
+              5.091339111328125
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.2311859130859375
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_13",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_stair2_13",
+            "position": [
+              2.2176427841186523,
+              14.041930198669434,
+              5.2641496658325195
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.058375358581543
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_13",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_stair2_13",
+            "position": [
+              2.2176427841186523,
+              13.821929931640625,
+              5.2641496658325195
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.058375358581543
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_stair2_13",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_stair2_13",
+            "position": [
+              2.2176427841186523,
+              13.601929664611816,
+              5.2641496658325195
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L3_gallery_roof",
+            "clearance_m": 2.058375358581543
+          },
+          "body_hits": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "prefix": "MAIN_pool_eastterrace_stair_",
+      "count": 15,
+      "samples": [
+        {
+          "step": "MAIN_pool_eastterrace_stair_00",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_00",
+            "position": [
+              11.381199836730957,
+              6.288809776306152,
+              -2.3333332538604736
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499981942060036
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 7.367483615875244
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_00",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_00",
+            "position": [
+              11.161199569702148,
+              6.288809776306152,
+              -2.3333334922790527
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 7.367483615875244
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_00",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_00",
+            "position": [
+              10.94119930267334,
+              6.288809776306152,
+              -2.3333334922790527
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_edge",
+            "clearance_m": 4.943334102630615
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_01",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_01",
+            "position": [
+              11.381199836730957,
+              6.441030025482178,
+              -2.1666665077209473
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 7.200817108154297
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_01",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_01",
+            "position": [
+              11.161199569702148,
+              6.441030025482178,
+              -2.1666665077209473
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 7.200817108154297
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_01",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_01",
+            "position": [
+              10.94119930267334,
+              6.441030025482178,
+              -2.1666665077209473
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 7.200817108154297
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_02",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_02",
+            "position": [
+              11.381199836730957,
+              6.593249797821045,
+              -2.0
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_east_parapet_0",
+            "clearance_m": 4.60465407371521
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_02",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_02",
+            "position": [
+              11.161199569702148,
+              6.593249797821045,
+              -2.0
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 7.034150123596191
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_02",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_02",
+            "position": [
+              10.94119930267334,
+              6.593249797821045,
+              -2.0
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 7.03415060043335
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_03",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_03",
+            "position": [
+              11.381199836730957,
+              6.74547004699707,
+              -1.8333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_east_rounded_lip_0",
+            "clearance_m": 5.380600810050964
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_03",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_03",
+            "position": [
+              11.161199569702148,
+              6.74547004699707,
+              -1.8333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.867483496665955
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_03",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_03",
+            "position": [
+              10.94119930267334,
+              6.74547004699707,
+              -1.8333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_guest_south_sill",
+            "clearance_m": 4.704333424568176
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_04",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_04",
+            "position": [
+              11.381199836730957,
+              6.8976898193359375,
+              -1.6666665077209473
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.700816631317139
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_04",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_04",
+            "position": [
+              11.161199569702148,
+              6.8976898193359375,
+              -1.6666665077209473
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.700816631317139
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_04",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_04",
+            "position": [
+              10.94119930267334,
+              6.8976898193359375,
+              -1.6666665077209473
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.700817108154297
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_05",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_05",
+            "position": [
+              11.381199836730957,
+              7.049910068511963,
+              -1.5
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.534151077270508
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_05",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_05",
+            "position": [
+              11.161199569702148,
+              7.049910068511963,
+              -1.5
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.53415060043335
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_05",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_05",
+            "position": [
+              10.94119930267334,
+              7.049910068511963,
+              -1.5
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.53415060043335
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_06",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_06",
+            "position": [
+              11.381199836730957,
+              7.202130317687988,
+              -1.3333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.367483019828796
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_06",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_06",
+            "position": [
+              11.161199569702148,
+              7.202130317687988,
+              -1.3333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.367483019828796
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_06",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_06",
+            "position": [
+              10.94119930267334,
+              7.202130317687988,
+              -1.3333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.367483496665955
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_07",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_07",
+            "position": [
+              11.381199836730957,
+              7.3543500900268555,
+              -1.1666667461395264
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.200816869735718
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_07",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_07",
+            "position": [
+              11.161199569702148,
+              7.3543500900268555,
+              -1.1666667461395264
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.200816869735718
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_07",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_07",
+            "position": [
+              10.94119930267334,
+              7.3543500900268555,
+              -1.1666667461395264
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.20081639289856
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_08",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_08",
+            "position": [
+              11.381199836730957,
+              7.506569862365723,
+              -0.9999999403953552
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.034149587154388
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_08",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_08",
+            "position": [
+              11.161199569702148,
+              7.506569862365723,
+              -0.9999999403953552
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.034150063991547
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_08",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_08",
+            "position": [
+              10.94119930267334,
+              7.506569862365723,
+              -0.9999999403953552
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 6.034149587154388
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_09",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_09",
+            "position": [
+              11.381199836730957,
+              7.658790111541748,
+              -0.8333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.867483019828796
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_09",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_09",
+            "position": [
+              11.161199569702148,
+              7.658790111541748,
+              -0.8333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.867483496665955
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_09",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_09",
+            "position": [
+              10.94119930267334,
+              7.658790111541748,
+              -0.8333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.867483496665955
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_10",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_10",
+            "position": [
+              11.381199836730957,
+              7.811010360717773,
+              -0.6666666865348816
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.700816810131073
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_10",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_10",
+            "position": [
+              11.161199569702148,
+              7.811010360717773,
+              -0.6666666865348816
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.700816810131073
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_10",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_10",
+            "position": [
+              10.94119930267334,
+              7.811010360717773,
+              -0.6666666865348816
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.700816810131073
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_11",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_11",
+            "position": [
+              11.381199836730957,
+              7.963230133056641,
+              -0.5
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.534149646759033
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_11",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_11",
+            "position": [
+              11.161199569702148,
+              7.963230133056641,
+              -0.5
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.534150123596191
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_11",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_11",
+            "position": [
+              10.94119930267334,
+              7.963230133056641,
+              -0.5
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.534150123596191
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_12",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_12",
+            "position": [
+              11.381199836730957,
+              8.115449905395508,
+              -0.3333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.367483496665955
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_12",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_12",
+            "position": [
+              11.161199569702148,
+              8.115449905395508,
+              -0.3333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.367483496665955
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_12",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_12",
+            "position": [
+              10.94119930267334,
+              8.115449905395508,
+              -0.3333333730697632
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_elongated_roof",
+            "clearance_m": 5.367483496665955
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_13",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_13",
+            "position": [
+              11.381199836730957,
+              8.267669677734375,
+              -0.16666662693023682
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_floor_threshold_guest_terrace",
+            "clearance_m": 2.831466555595398
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_13",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_13",
+            "position": [
+              11.161199569702148,
+              8.267669677734375,
+              -0.16666662693023682
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_floor_threshold_guest_terrace",
+            "clearance_m": 2.831466555595398
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_13",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_13",
+            "position": [
+              10.94119930267334,
+              8.267669677734375,
+              -0.16666662693023682
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_floor_threshold_guest_terrace",
+            "clearance_m": 2.831466555595398
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_14",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_14",
+            "position": [
+              11.381199836730957,
+              8.419890403747559,
+              0.0
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_floor_threshold_guest_terrace",
+            "clearance_m": 2.664799928665161
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_14",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_14",
+            "position": [
+              11.161199569702148,
+              8.419890403747559,
+              0.0
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_floor_threshold_guest_terrace",
+            "clearance_m": 2.664799928665161
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_pool_eastterrace_stair_14",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_pool_eastterrace_stair_14",
+            "position": [
+              10.94119930267334,
+              8.419890403747559,
+              0.0
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_floor_threshold_guest_terrace",
+            "clearance_m": 2.664799928665161
+          },
+          "body_hits": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "prefix": "MAIN_water_stair_",
+      "count": 17,
+      "samples": [
+        {
+          "step": "MAIN_water_stair_00",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_00",
+            "position": [
+              10.375199317932129,
+              3.4060001373291016,
+              -2.6733646392822266
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_00",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_00",
+            "position": [
+              10.375199317932129,
+              3.186000108718872,
+              -2.6733646392822266
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_00",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_00",
+            "position": [
+              10.375199317932129,
+              2.9660000801086426,
+              -2.6733646392822266
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 5.29336404800415
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_01",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_01",
+            "position": [
+              10.165599822998047,
+              3.4060001373291016,
+              -2.5000293254852295
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_01",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_01",
+            "position": [
+              10.165599822998047,
+              3.186000108718872,
+              -2.5000293254852295
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_01",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_01",
+            "position": [
+              10.165599822998047,
+              2.9660000801086426,
+              -2.5000293254852295
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 5.1200292110443115
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_02",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_02",
+            "position": [
+              9.955999374389648,
+              3.4060001373291016,
+              -2.3266940116882324
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_02",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_02",
+            "position": [
+              9.955999374389648,
+              3.186000108718872,
+              -2.3266940116882324
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_02",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_02",
+            "position": [
+              9.955999374389648,
+              2.9660000801086426,
+              -2.3266940116882324
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 4.9466938972473145
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_03",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_03",
+            "position": [
+              9.746399879455566,
+              3.4060001373291016,
+              -2.1533586978912354
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_03",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_03",
+            "position": [
+              9.746399879455566,
+              3.186000108718872,
+              -2.1533586978912354
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_03",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_03",
+            "position": [
+              9.746399879455566,
+              2.9660000801086426,
+              -2.1533586978912354
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 4.773358583450317
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_04",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_04",
+            "position": [
+              9.536799430847168,
+              3.4060001373291016,
+              -1.9800235033035278
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_04",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_04",
+            "position": [
+              9.536799430847168,
+              3.186000108718872,
+              -1.9800235033035278
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_04",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_04",
+            "position": [
+              9.536799430847168,
+              2.9660000801086426,
+              -1.9800235033035278
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 4.60002338886261
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_05",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_05",
+            "position": [
+              9.327199935913086,
+              3.4060001373291016,
+              -1.8066880702972412
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_05",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_05",
+            "position": [
+              9.327199935913086,
+              3.186000108718872,
+              -1.8066880702972412
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_05",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_05",
+            "position": [
+              9.327199935913086,
+              2.9660000801086426,
+              -1.8066880702972412
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 4.426687955856323
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_06",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_06",
+            "position": [
+              9.117599487304688,
+              3.4060001373291016,
+              -1.6333529949188232
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_06",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_06",
+            "position": [
+              9.117599487304688,
+              3.186000108718872,
+              -1.6333529949188232
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_06",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_06",
+            "position": [
+              9.117599487304688,
+              2.9660000801086426,
+              -1.6333529949188232
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 4.2533533573150635
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_07",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_07",
+            "position": [
+              8.907999992370605,
+              3.4060001373291016,
+              -1.460017442703247
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_07",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_07",
+            "position": [
+              8.907999992370605,
+              3.186000108718872,
+              -1.460017442703247
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_07",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_07",
+            "position": [
+              8.907999992370605,
+              2.9660000801086426,
+              -1.460017442703247
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 4.080017805099487
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_08",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_08",
+            "position": [
+              8.698399543762207,
+              3.4060001373291016,
+              -1.286682367324829
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_08",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_08",
+            "position": [
+              8.698399543762207,
+              3.186000108718872,
+              -1.286682367324829
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_08",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_08",
+            "position": [
+              8.698399543762207,
+              2.9660000801086426,
+              -1.286682367324829
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 3.906682252883911
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_09",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_09",
+            "position": [
+              8.488800048828125,
+              3.4060001373291016,
+              -1.113347053527832
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_09",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_09",
+            "position": [
+              8.488800048828125,
+              3.186000108718872,
+              -1.113347053527832
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_09",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_09",
+            "position": [
+              8.488800048828125,
+              2.9660000801086426,
+              -1.113347053527832
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06500005583348077
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 3.7333474159240723
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_10",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_10",
+            "position": [
+              8.279199600219727,
+              3.4060001373291016,
+              -0.9400116801261902
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_10",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_10",
+            "position": [
+              8.279199600219727,
+              3.186000108718872,
+              -0.9400116801261902
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_10",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_10",
+            "position": [
+              8.279199600219727,
+              2.9660000801086426,
+              -0.9400116801261902
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 3.5600118041038513
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_11",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_11",
+            "position": [
+              8.069600105285645,
+              3.4060001373291016,
+              -0.7666764259338379
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_11",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_11",
+            "position": [
+              8.069600105285645,
+              3.186000108718872,
+              -0.7666764259338379
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_11",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_11",
+            "position": [
+              8.069600105285645,
+              2.9660000801086426,
+              -0.7666764259338379
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 3.386676549911499
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_12",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_12",
+            "position": [
+              7.859999656677246,
+              3.4060001373291016,
+              -0.5933411121368408
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_12",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_12",
+            "position": [
+              7.859999656677246,
+              3.186000108718872,
+              -0.5933411121368408
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_12",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_12",
+            "position": [
+              7.859999656677246,
+              2.9660000801086426,
+              -0.5933411121368408
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 3.213341236114502
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_13",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_13",
+            "position": [
+              7.650400161743164,
+              3.4060001373291016,
+              -0.42000579833984375
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_13",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_13",
+            "position": [
+              7.650400161743164,
+              3.186000108718872,
+              -0.42000579833984375
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_13",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_13",
+            "position": [
+              7.650400161743164,
+              2.9660000801086426,
+              -0.42000579833984375
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_pergola_3",
+            "clearance_m": 3.040005922317505
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_14",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_14",
+            "position": [
+              7.440799713134766,
+              3.4060001373291016,
+              -0.24667060375213623
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_14",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_14",
+            "position": [
+              7.440799713134766,
+              3.186000108718872,
+              -0.24667060375213623
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_14",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_14",
+            "position": [
+              7.440799713134766,
+              2.9660000801086426,
+              -0.24667060375213623
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": null,
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_15",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_15",
+            "position": [
+              7.231200218200684,
+              3.4060001373291016,
+              -0.07333528995513916
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_south_parapet_2",
+            "clearance_m": 2.670805335044861
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_15",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_15",
+            "position": [
+              7.231200218200684,
+              3.186000108718872,
+              -0.07333528995513916
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_south_parapet_2",
+            "clearance_m": 2.670805335044861
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_15",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_15",
+            "position": [
+              7.231200218200684,
+              2.9660000801086426,
+              -0.07333528995513916
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_south_parapet_2",
+            "clearance_m": 2.670805335044861
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_16",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "MAIN_water_stair_16",
+            "position": [
+              7.021599769592285,
+              3.4060001373291016,
+              0.10000002384185791
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_south_parapet_2",
+            "clearance_m": 2.497470259666443
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_16",
+          "offset_m": 0,
+          "ground": {
+            "object": "MAIN_water_stair_16",
+            "position": [
+              7.021599769592285,
+              3.186000108718872,
+              0.10000002384185791
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_south_parapet_2",
+            "clearance_m": 2.497470259666443
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "MAIN_water_stair_16",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "MAIN_water_stair_16",
+            "position": [
+              7.021599769592285,
+              2.9660000801086426,
+              0.10000002384185791
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499999852134629
+          },
+          "headroom": {
+            "object": "MAIN_L2_south_parapet_2",
+            "clearance_m": 2.497470259666443
+          },
+          "body_hits": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "prefix": "GUEST_SERVICE_ASCENT_tread_",
+      "count": 14,
+      "samples": [
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_00",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_00",
+            "position": [
+              2.7069599628448486,
+              40.590816497802734,
+              8.568047523498535
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 4.304627418518066
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_00",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_00",
+            "position": [
+              2.926959991455078,
+              40.590816497802734,
+              8.568047523498535
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 4.304627418518066
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_00",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_00",
+            "position": [
+              3.1469600200653076,
+              40.590816497802734,
+              8.568047523498535
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 4.304627418518066
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_01",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_01",
+            "position": [
+              2.7069599628448486,
+              40.402530670166016,
+              8.736096382141113
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 4.136578559875488
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_01",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_01",
+            "position": [
+              2.926959991455078,
+              40.402530670166016,
+              8.736096382141113
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 4.136578559875488
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_01",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_01",
+            "position": [
+              3.1469600200653076,
+              40.402530670166016,
+              8.736096382141113
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 4.136578559875488
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_02",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_02",
+            "position": [
+              2.7069599628448486,
+              40.2142448425293,
+              8.904144287109375
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.9685306549072266
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_02",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_02",
+            "position": [
+              2.926959991455078,
+              40.2142448425293,
+              8.904144287109375
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.9685306549072266
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_02",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_02",
+            "position": [
+              3.1469600200653076,
+              40.2142448425293,
+              8.904144287109375
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.9685306549072266
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_03",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_03",
+            "position": [
+              2.7069599628448486,
+              40.02595901489258,
+              9.072192192077637
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.800482749938965
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_03",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_03",
+            "position": [
+              2.926959991455078,
+              40.02595901489258,
+              9.072192192077637
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.800482749938965
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_03",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_03",
+            "position": [
+              3.1469600200653076,
+              40.02595901489258,
+              9.072192192077637
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.800482749938965
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_04",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_04",
+            "position": [
+              2.7069599628448486,
+              39.83767318725586,
+              9.240241050720215
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.6324338912963867
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_04",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_04",
+            "position": [
+              2.926959991455078,
+              39.83767318725586,
+              9.240241050720215
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.6324338912963867
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_04",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_04",
+            "position": [
+              3.1469600200653076,
+              39.83767318725586,
+              9.240241050720215
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.6324338912963867
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_05",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_05",
+            "position": [
+              2.7069599628448486,
+              39.64938735961914,
+              9.408288955688477
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.464385986328125
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_05",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_05",
+            "position": [
+              2.926959991455078,
+              39.64938735961914,
+              9.408288955688477
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.464385986328125
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_05",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_05",
+            "position": [
+              3.1469600200653076,
+              39.64938735961914,
+              9.408288955688477
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.464385986328125
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_06",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_06",
+            "position": [
+              2.7069599628448486,
+              39.46110153198242,
+              9.576336860656738
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.2963380813598633
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_06",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_06",
+            "position": [
+              2.926959991455078,
+              39.46110153198242,
+              9.576336860656738
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.2963380813598633
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_06",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_06",
+            "position": [
+              3.1469600200653076,
+              39.46110153198242,
+              9.576336860656738
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.2963380813598633
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_07",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_07",
+            "position": [
+              2.7069599628448486,
+              39.27281951904297,
+              9.744385719299316
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.128289222717285
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_07",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_07",
+            "position": [
+              2.926959991455078,
+              39.27281951904297,
+              9.744385719299316
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.128289222717285
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_07",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_07",
+            "position": [
+              3.1469600200653076,
+              39.27281951904297,
+              9.744385719299316
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 3.128289222717285
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_08",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_08",
+            "position": [
+              2.7069599628448486,
+              39.08453369140625,
+              9.912433624267578
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.9602413177490234
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_08",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_08",
+            "position": [
+              2.926959991455078,
+              39.08453369140625,
+              9.912433624267578
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.9602413177490234
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_08",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_08",
+            "position": [
+              3.1469600200653076,
+              39.08453369140625,
+              9.912433624267578
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.9602413177490234
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_09",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_09",
+            "position": [
+              2.7069599628448486,
+              38.89624786376953,
+              10.08048152923584
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.7921934127807617
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_09",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_09",
+            "position": [
+              2.926959991455078,
+              38.89624786376953,
+              10.08048152923584
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.7921934127807617
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_09",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_09",
+            "position": [
+              3.1469600200653076,
+              38.89624786376953,
+              10.08048152923584
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.7921934127807617
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_10",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_10",
+            "position": [
+              2.7069599628448486,
+              38.70796203613281,
+              10.248530387878418
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.6241445541381836
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_10",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_10",
+            "position": [
+              2.926959991455078,
+              38.70796203613281,
+              10.248530387878418
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.6241445541381836
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_10",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_10",
+            "position": [
+              3.1469600200653076,
+              38.70796203613281,
+              10.248530387878418
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.6241445541381836
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_11",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_11",
+            "position": [
+              2.7069599628448486,
+              38.519676208496094,
+              10.41657829284668
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.456096649169922
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_11",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_11",
+            "position": [
+              2.926959991455078,
+              38.519676208496094,
+              10.41657829284668
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.456096649169922
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_11",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_11",
+            "position": [
+              3.1469600200653076,
+              38.519676208496094,
+              10.41657829284668
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.456096649169922
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_12",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_12",
+            "position": [
+              2.7069599628448486,
+              38.331390380859375,
+              10.584626197814941
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.28804874420166
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_12",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_12",
+            "position": [
+              2.926959991455078,
+              38.331390380859375,
+              10.584626197814941
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.28804874420166
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_12",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_12",
+            "position": [
+              3.1469600200653076,
+              38.331390380859375,
+              10.584626197814941
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.28804874420166
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_13",
+          "offset_m": -0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_13",
+            "position": [
+              2.7069599628448486,
+              38.143104553222656,
+              10.75267505645752
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.119999885559082
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_13",
+          "offset_m": 0,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_13",
+            "position": [
+              2.926959991455078,
+              38.143104553222656,
+              10.75267505645752
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.119999885559082
+          },
+          "body_hits": [],
+          "status": "PASS"
+        },
+        {
+          "step": "GUEST_SERVICE_ASCENT_tread_13",
+          "offset_m": 0.22,
+          "ground": {
+            "object": "GUEST_SERVICE_ASCENT_tread_13",
+            "position": [
+              3.1469600200653076,
+              38.143104553222656,
+              10.75267505645752
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.06499957942482709
+          },
+          "headroom": {
+            "object": "GUEST_SERVICE_BEDROOM_ROOF",
+            "clearance_m": 2.119999885559082
+          },
+          "body_hits": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "doors": [
+    {
+      "id": "MAIN_L1_west_terrace_door_n",
+      "modeled_clear_width_m": 0.9974501008987426,
+      "crossing_hits": [],
+      "status": "PASS"
+    },
+    {
+      "id": "MAIN_L1_west_terrace_door_s",
+      "modeled_clear_width_m": 0.8647000665664673,
+      "crossing_hits": [],
+      "status": "PASS"
+    },
+    {
+      "id": "MAIN_L1_east_terrace_access",
+      "modeled_clear_width_m": 0.7850500221252441,
+      "crossing_hits": [],
+      "status": "PASS"
+    },
+    {
+      "id": "MAIN_L1_southeast_door",
+      "modeled_clear_width_m": 0.8381500120162964,
+      "crossing_hits": [],
+      "status": "PASS"
+    },
+    {
+      "id": "MAIN_L2_dressing_terrace",
+      "modeled_clear_width_m": 0.6522999877929687,
+      "crossing_hits": [],
+      "status": "PASS"
+    },
+    {
+      "id": "MAIN_L2_master_south",
+      "modeled_clear_width_m": 0.7829333419799804,
+      "crossing_hits": [],
+      "status": "PASS"
+    },
+    {
+      "id": "MAIN_L2_guest_east",
+      "modeled_clear_width_m": 0.6841600532531737,
+      "crossing_hits": [],
+      "status": "PASS"
+    },
+    {
+      "id": "MAIN_L2_north_terrace_door",
+      "modeled_clear_width_m": 0.905199872970581,
+      "crossing_hits": [],
+      "status": "PASS"
+    },
+    {
+      "id": "MAIN_L3_gallery_south",
+      "modeled_clear_width_m": 0.6956000033787318,
+      "crossing_hits": [],
+      "status": "PASS"
+    }
+  ],
+  "thresholds": [
+    {
+      "id": "study_gallery",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "hall_master",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "kitchen_living",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "wine_bath",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "hall_dressing",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "dressing_bath",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "master_bath",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "guest_bath",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "dressing_terrace",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "master_terrace",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "guest_terrace",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "living_west_n",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "living_west_s",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "living_east",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "living_southeast",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "living_hatch",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "entry_loggia",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "entry_coat",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "service_top",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "servant_entry",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "gallery_bath",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "gallery_alcove",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    },
+    {
+      "id": "gallery_terrace",
+      "ground_failures": [],
+      "body_penetrations": [],
+      "status": "PASS"
+    }
+  ],
+  "main_pool_exposure": {
+    "object": "MAIN_B_plunge_water",
+    "position": [
+      15.09119987487793,
+      7.3277997970581055,
+      -2.700000047683716
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "distance": 0.21000003894169764
+  },
+  "guest_pool_preservation": {
+    "object": "GUEST_POOL_water",
+    "position": [
+      24.699939727783203,
+      35.6796989440918,
+      8.964850425720215
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "distance": 0.33514976183962364
+  },
+  "hatch_top_vertical_plane": [],
+  "materials": [
+    {
+      "room_id": "MAIN_B_BATH",
+      "surfaces": [
+        {
+          "object": "MAIN_B_BATH_slab",
+          "materials": [
+            "FW_ochre"
+          ]
+        },
+        {
+          "object": "MAIN_B_BATH_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_wine_bath",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_wine_bath_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        }
+      ]
+    },
+    {
+      "room_id": "MAIN_L1_KITCHEN",
+      "surfaces": [
+        {
+          "object": "MAIN_L1_KITCHEN_slab",
+          "materials": [
+            "FW_ochre"
+          ]
+        },
+        {
+          "object": "MAIN_L1_KITCHEN_finish",
+          "materials": [
+            "MAIN_Kitchen_9inch_Cherokee_Rubber"
+          ]
+        },
+        {
+          "object": "MAIN_L1_KITCHEN_ceiling",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_kitchen_living",
+          "materials": [
+            "FW_stone_floor"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_kitchen_living_finish",
+          "materials": [
+            "FW_stone_floor"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_sill",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_head",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_mullion_0",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_mullion_1",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_mullion_2",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_mullion_3",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_mullion_4",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_transom_0",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_transom_1",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_transom_2",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_transom_3",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_glass_0",
+          "materials": [
+            "FW_glass"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_glass_1",
+          "materials": [
+            "FW_glass"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_glass_2",
+          "materials": [
+            "FW_glass"
+          ]
+        },
+        {
+          "object": "MAIN_L1_kitchen_south_glass_3",
+          "materials": [
+            "FW_glass"
+          ]
+        }
+      ]
+    },
+    {
+      "room_id": "MAIN_L2_BATH_N",
+      "surfaces": [
+        {
+          "object": "MAIN_L2_BATH_N_slab",
+          "materials": [
+            "FW_ochre"
+          ]
+        },
+        {
+          "object": "MAIN_L2_BATH_N_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_L2_BATH_N_ceiling",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_dressing_bath",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_dressing_bath_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        }
+      ]
+    },
+    {
+      "room_id": "MAIN_L2_BATH_G",
+      "surfaces": [
+        {
+          "object": "MAIN_L2_BATH_G_slab",
+          "materials": [
+            "FW_ochre"
+          ]
+        },
+        {
+          "object": "MAIN_L2_BATH_G_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_L2_BATH_G_ceiling",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_guest_bath",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_guest_bath_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        }
+      ]
+    },
+    {
+      "room_id": "MAIN_L2_BATH_M",
+      "surfaces": [
+        {
+          "object": "MAIN_L2_BATH_M_slab",
+          "materials": [
+            "FW_ochre"
+          ]
+        },
+        {
+          "object": "MAIN_L2_BATH_M_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_L2_BATH_M_ceiling",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_master_bath",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_master_bath_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        }
+      ]
+    },
+    {
+      "room_id": "MAIN_L3_BATH",
+      "surfaces": [
+        {
+          "object": "MAIN_L3_BATH_slab",
+          "materials": [
+            "FW_ochre"
+          ]
+        },
+        {
+          "object": "MAIN_L3_BATH_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_L3_BATH_ceiling",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_gallery_bath",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "MAIN_floor_threshold_gallery_bath_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        }
+      ]
+    },
+    {
+      "room_id": "GUEST_L1_BATH",
+      "surfaces": [
+        {
+          "object": "GUEST_L1_BATH_cork_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_WEST_pier_end",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_WEST_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_pier_0",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_pier_0_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_lintel_0",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_lintel_0_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_jamb_0_a",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_jamb_0_b",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_door_head_0",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_open_leaf_0",
+          "materials": [
+            "FW_wood"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_handle_0",
+          "materials": [
+            "FW_red"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_pier_end",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_NORTH_TUB_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_WC_NORTH_pier_end",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_WC_NORTH_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_WC_WEST_pier_end",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_WC_WEST_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_EAST_pier_end",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_EAST_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_SOUTH_pier_end",
+          "materials": [
+            "FW_ceiling"
+          ]
+        },
+        {
+          "object": "GUEST_L1_BATH_SOUTH_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        }
+      ]
+    },
+    {
+      "room_id": "GUEST_B1_BATH",
+      "surfaces": [
+        {
+          "object": "GUEST_B1_BATH_cork_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_B1_BASE_SOUTH_pier_0_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_B1_BASE_BATH_NORTH_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_B1_BASE_BATH_EAST_pier_0_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_B1_BASE_BATH_EAST_lintel_0_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_B1_BASE_BATH_EAST_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_B1_BASE_BATH_WEST_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        }
+      ]
+    },
+    {
+      "room_id": "GUEST_L2_BATH",
+      "surfaces": [
+        {
+          "object": "GUEST_L2_BATH_cork_finish",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L2_UPPER_EAST_pier_0_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L2_UPPER_NORTH_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L2_UPPER_BATH_WEST_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L2_UPPER_BATH_SOUTH_pier_0_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L2_UPPER_BATH_SOUTH_lintel_0_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        },
+        {
+          "object": "GUEST_L2_UPPER_BATH_SOUTH_pier_end_cork_lining",
+          "materials": [
+            "FW_cork"
+          ]
+        }
+      ]
+    }
+  ],
+  "kitchen_grid": {
+    "material": "MAIN_Kitchen_9inch_Cherokee_Rubber",
+    "tile_size_m": 0.2286
+  },
+  "summary": {
+    "stairs_failed": [],
+    "doors_failed": [],
+    "thresholds_failed": []
+  }
+}

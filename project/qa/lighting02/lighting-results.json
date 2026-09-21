@@ -1,0 +1,65 @@
+{
+  "preset": "DAYLIGHT",
+  "settings": {
+    "sky_strength": 0.12,
+    "sun_energy": 2.5,
+    "exposure": 0.8,
+    "sun_elevation_degrees": 47,
+    "sun_rotation_degrees": 235,
+    "sun_angle_degrees": 2.0,
+    "sun_color": [
+      1.0,
+      0.96,
+      0.89
+    ],
+    "aerosol_density": 1.5,
+    "air_density": 1.0,
+    "fixture_emission": 1.5
+  },
+  "sky_type": "MULTIPLE_SCATTERING",
+  "sun_disc_in_sky": false,
+  "sun_direction_xyz": [
+    -0.39117810130119324,
+    -0.5586603879928589,
+    0.7313537001609802
+  ],
+  "visible_fixture_emitters": [
+    "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04_shade",
+    "FW_FURN_MAIN_L2_GUEST_bedside_reading_lamp_04_shade",
+    "FW_FURN_GUEST_L1_GUEST_ROOM_vertical_walnut_lamp_02_diffuser",
+    "FW_FURN_GUEST_L1_GUEST_ROOM_vertical_walnut_lamp_02_diffuser.001",
+    "FW_FURN_GUEST_L1_GUEST_ROOM_vertical_walnut_lamp_02_diffuser.002",
+    "FW_FURN_GUEST_L1_GUEST_ROOM_vertical_walnut_lamp_02_diffuser.003"
+  ],
+  "scope": "Appearance calibration, not measured illuminance or exact date/time reconstruction",
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_working.blend",
+  "blender_version": "5.2.1 LTS",
+  "runs": [
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "seconds": 54.094,
+      "path": "D:\\zx\\test\\project\\qa\\lighting02\\CAM_MAIN_L1_LIVING_A.png",
+      "status": "PASS",
+      "exposure_bracket": [
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\lighting02\\CAM_MAIN_L1_LIVING_A_EV2p4.png",
+          "same_linear_render": true
+        },
+        {
+          "exposure": 3.2,
+          "path": "D:\\zx\\test\\project\\qa\\lighting02\\CAM_MAIN_L1_LIVING_A_EV3p2.png",
+          "same_linear_render": true
+        },
+        {
+          "exposure": 3.8,
+          "path": "D:\\zx\\test\\project\\qa\\lighting02\\CAM_MAIN_L1_LIVING_A_EV3p8.png",
+          "same_linear_render": true
+        }
+      ]
+    }
+  ],
+  "device": [
+    "AMD Radeon(TM) 8060S Graphics"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "RUNTIME_PATH_ONLY_DATA_IDENTICAL",
+  "canonical_design": "data\\guest_circulation10_design.json",
+  "canonical_design_sha256": "f30e65fc967a61b0465f326f91b58a21b9ce4ede00340b63243ec9bcc665b6c6",
+  "archived_design": "qa\\guest-circulation10-design.json",
+  "design_bytes_identical": true,
+  "physical_values_changed": false,
+  "source_edits": [
+    {
+      "file": "scripts\\guest_circulation10.py",
+      "before_sha256": "c2220aee3f283dd4c50178478b488e126a7f48043799cad545879abac6fcd28a",
+      "after_sha256": "97b5b69a6e6214efd491d7629e13c916cd12b4de90349a3950c4dbfc5250f345",
+      "archived_before": "qa\\guest-circulation10-navigation-runtime-before-guest_circulation10.py",
+      "only_expected_path_literal_changed": true
+    },
+    {
+      "file": "scripts\\guest_circulation10_routes.py",
+      "before_sha256": "b416bfe8618204b1886198d52a73fe35f16b9c06f6817ef5f40f5b558c55bc0f",
+      "after_sha256": "a9298ba4f340eb91c461988f6ff19698e49153742e6b08b376af9b8e3f173412",
+      "archived_before": "qa\\guest-circulation10-navigation-runtime-before-guest_circulation10_routes.py",
+      "only_expected_path_literal_changed": true
+    }
+  ],
+  "validated_pre_migration_adapter_sha256": "b416bfe8618204b1886198d52a73fe35f16b9c06f6817ef5f40f5b558c55bc0f",
+  "saved_tour_sha256": "7c3e2dc6819268185a7b956bdd49445f509088107128fa1a3d63d0ddeb56c094",
+  "note": "Frozen navigation and scene retain pre-migration source hashes; archived sources are used for independent reopen. Current helper reads canonical data. No geometry or production guest/main/tour module changed."
+}

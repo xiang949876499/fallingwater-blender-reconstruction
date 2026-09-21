@@ -1,0 +1,14 @@
+def hearth_rock(a):
+    """Angular emergent bedrock, low and stratified; never a displaced sphere."""
+    outline=[(-.68,-1.02),(-.08,-1.11),(.37,-.92),(.65,-.54),(.71,.04),(.44,.54),
+             (.35,.91),(-.16,1.05),(-.64,.70),(-.76,.05)]
+    rng=random.Random(5346)
+    for layer,(scale,z0,z1) in enumerate(((1.0,-.08,.07),(.96,.05,.17),(.79,.14,.27))):
+        pts=[(x*scale,y*scale) for x,y in outline]
+        vertices=[(x,y,z0) for x,y in pts]+[(x,y,z1+rng.uniform(-.022,.026)) for x,y in pts]
+        n=len(pts);faces=[tuple(reversed(range(n))),tuple(range(n,2*n))]
+        faces.extend((i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n))
+        a.add(mesh_object(a.name+'_bedrock_stratum_'+str(layer),vertices,faces,a.mat('rock'),a.owner.coll))
+    for x in (-.31,.03,.23):
+        a.beam('unlit_charred_log',(x,-.35,.27),(x+.08,.43,.29),.037,'dark')
+

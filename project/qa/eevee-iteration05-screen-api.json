@@ -1,0 +1,62 @@
+{
+  "use_raytracing": {
+    "value": "False",
+    "name": "Use Ray-Tracing",
+    "description": "Enable the ray-tracing module",
+    "enum": []
+  },
+  "use_fast_gi": {
+    "value": "True",
+    "name": "Fast GI Approximation",
+    "description": "Use faster global illumination technique for high roughness surfaces",
+    "enum": []
+  },
+  "fast_gi_method": {
+    "value": "GLOBAL_ILLUMINATION",
+    "name": "Method",
+    "description": "Fast GI approximation method",
+    "enum": [
+      {
+        "identifier": "AMBIENT_OCCLUSION_ONLY",
+        "description": "Use ambient occlusion instead of full global illumination"
+      },
+      {
+        "identifier": "GLOBAL_ILLUMINATION",
+        "description": "Compute global illumination taking into account light bouncing off surrounding objects"
+      }
+    ]
+  },
+  "fast_gi_distance": {
+    "value": "0.0",
+    "name": "Distance",
+    "description": "If non-zero, the maximum distance at which other surfaces will contribute to the fast GI approximation",
+    "enum": []
+  },
+  "fast_gi_thickness_near": {
+    "value": "0.10000000149011612",
+    "name": "Thickness",
+    "description": "Geometric thickness of the surfaces when computing fast GI and ambient occlusion. Reduces light leaking and missing contact occlusion.",
+    "enum": []
+  },
+  "fast_gi_bias": {
+    "value": "0.05000000074505806",
+    "name": "Bias",
+    "description": "Bias the shading normal to reduce self intersection artifacts",
+    "enum": []
+  },
+  "ray_tracing_options.trace_max_roughness": {
+    "value": "0.5",
+    "name": "Raytrace Max Roughness",
+    "description": "Maximum roughness to use the tracing pipeline for. Higher roughness surfaces will use fast GI approximation. A value of 1 will disable fast GI approximation."
+  },
+  "ray_tracing_options.screen_trace_quality": {
+    "value": "0.25",
+    "name": "Screen-Trace Precision",
+    "description": "Precision of the screen space ray-tracing"
+  },
+  "ray_tracing_options.screen_trace_thickness": {
+    "value": "0.10000000149011612",
+    "name": "Screen-Trace Thickness",
+    "description": "Surface thickness used to detect intersection when using screen-tracing"
+  }
+}

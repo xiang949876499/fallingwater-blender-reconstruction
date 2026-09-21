@@ -1,0 +1,84 @@
+{
+  "source_scene": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee\\Fallingwater_eevee_baked.blend",
+  "blender_version": "5.2.1 LTS",
+  "settings": {
+    "engine": "BLENDER_EEVEE",
+    "samples": 32,
+    "raytracing": true,
+    "ray_resolution_scale": "1",
+    "screen_trace_quality": 1.0,
+    "geometry_or_material_colors_changed": false
+  },
+  "first_views": [
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "exposure": 0.800000011920929,
+      "seconds": 32.849,
+      "path": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee-exposure\\CAM_MAIN_L1_LIVING_B_first.png",
+      "status": "PASS",
+      "exposure_bracket": [
+        {
+          "exposure": 0.0,
+          "path": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee-exposure\\CAM_MAIN_L1_LIVING_B_EV0p0.png",
+          "same_linear_render": true
+        },
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee-exposure\\CAM_MAIN_L1_LIVING_B_EV0p8.png",
+          "same_linear_render": true
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee-exposure\\CAM_MAIN_L1_LIVING_B_EV1p6.png",
+          "same_linear_render": true
+        }
+      ]
+    }
+  ],
+  "status": "PASS",
+  "probe_bakes": [
+    {
+      "name": "FW_PROBE_MAIN_L1",
+      "rooms": [
+        "MAIN_L1_LIVING",
+        "MAIN_L1_KITCHEN",
+        "MAIN_L1_SERVANT",
+        "MAIN_L1_SERVICE_STAIR",
+        "MAIN_L1_ENTRY",
+        "MAIN_L1_COAT",
+        "MAIN_L1_STAIR",
+        "MAIN_L1_LOGGIA",
+        "MAIN_L1_HATCH"
+      ],
+      "bounds": [
+        [
+          -7.695600000000001,
+          0.009300000000000003,
+          0.22
+        ],
+        [
+          19.9572,
+          18.0978,
+          2.38
+        ]
+      ],
+      "resolution": [
+        20,
+        14,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 31.173,
+      "status": "PASS"
+    }
+  ],
+  "saved_scene": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee-exposure\\Fallingwater_eevee_baked.blend",
+  "visual_acceptance": "NOT_RUN: inspect first images before sequence"
+}

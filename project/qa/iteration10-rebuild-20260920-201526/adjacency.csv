@@ -1,0 +1,61 @@
+﻿from,to,connection,evidence,status
+MAIN_B_STAIR,MAIN_B_WINE,open_passage,C,modeled; traversal not yet visually accepted
+MAIN_B_WINE,MAIN_B_BATH,door,C,modeled; traversal not yet visually accepted
+MAIN_B_WINE,MAIN_B_BOILER,door,C,modeled; traversal not yet visually accepted
+MAIN_B_STAIR,MAIN_L1_SERVICE_STAIR,stairs,C,modeled; traversal not yet visually accepted
+MAIN_L1_SERVICE_STAIR,MAIN_L1_KITCHEN,open_passage,C,modeled; traversal not yet visually accepted
+MAIN_L1_SERVICE_STAIR,MAIN_L1_SERVANT,door,C,modeled; traversal not yet visually accepted
+MAIN_L1_KITCHEN,MAIN_L1_LIVING,door,C,modeled; traversal not yet visually accepted
+MAIN_L1_LOGGIA,MAIN_L1_ENTRY,door,C,modeled; traversal not yet visually accepted
+MAIN_L1_ENTRY,MAIN_L1_COAT,door,C,modeled; traversal not yet visually accepted
+MAIN_L1_ENTRY,MAIN_L1_LIVING,open_passage,C,modeled; traversal not yet visually accepted
+MAIN_L1_ENTRY,MAIN_L1_STAIR,stairs,C,modeled; traversal not yet visually accepted
+MAIN_L1_STAIR,MAIN_L2_HALL,stairs,C,modeled; traversal not yet visually accepted
+MAIN_L1_LIVING,MAIN_L1_TERRACE_W,glazed_door,C,modeled; traversal not yet visually accepted
+MAIN_L1_LIVING,MAIN_L1_TERRACE_E,glazed_door,C,modeled; traversal not yet visually accepted
+MAIN_L1_LIVING,MAIN_L1_HATCH,hatch_stairs,C,modeled; traversal not yet visually accepted
+MAIN_L1_LOGGIA,MAIN_B_PLUNGE,exterior_steps,C,modeled; traversal not yet visually accepted
+MAIN_L2_HALL,MAIN_L2_DRESSING,door,C,modeled; traversal not yet visually accepted
+MAIN_L2_DRESSING,MAIN_L2_BATH_N,door,C,modeled; traversal not yet visually accepted
+MAIN_L2_DRESSING,MAIN_L2_TERRACE_W,glazed_door,C,modeled; traversal not yet visually accepted
+MAIN_L2_HALL,MAIN_L2_MASTER,door,C,modeled; traversal not yet visually accepted
+MAIN_L2_MASTER,MAIN_L2_BATH_M,door,C,modeled; traversal not yet visually accepted
+MAIN_L2_MASTER,MAIN_L2_CLOSET_M,cabinet,C,modeled; traversal not yet visually accepted
+MAIN_L2_MASTER,MAIN_L2_TERRACE_S,glazed_door,C,modeled; traversal not yet visually accepted
+MAIN_L2_HALL,MAIN_L2_GUEST,door,C,modeled; traversal not yet visually accepted
+MAIN_L2_HALL,MAIN_L2_BATH_G,door,C,modeled; traversal not yet visually accepted
+MAIN_L2_GUEST,MAIN_L2_CLOSET_G,cabinet,C,modeled; traversal not yet visually accepted
+MAIN_L2_GUEST,MAIN_L2_TERRACE_E,glazed_door,C,modeled; traversal not yet visually accepted
+MAIN_L2_HALL,MAIN_L2_TERRACE_N,door,C,modeled; traversal not yet visually accepted
+MAIN_L2_TERRACE_N,MAIN_L3_LINK,curved_exterior_stair,C,modeled; traversal not yet visually accepted
+MAIN_L2_HALL,MAIN_L2_STAIR,open_passage,C,modeled; traversal not yet visually accepted
+MAIN_L2_STAIR,MAIN_L3_STAIR,stairs,C,modeled; traversal not yet visually accepted
+MAIN_L3_STAIR,MAIN_L3_GALLERY,open_passage,C,modeled; traversal not yet visually accepted
+MAIN_L3_GALLERY,MAIN_L3_STUDY,door,C,modeled; traversal not yet visually accepted
+MAIN_L3_GALLERY,MAIN_L3_BATH,door,C,modeled; traversal not yet visually accepted
+MAIN_L3_GALLERY,MAIN_L3_ALCOVE,open_alcove,C,modeled; traversal not yet visually accepted
+MAIN_L3_GALLERY,MAIN_L3_TERRACE,glazed_door,C,modeled; traversal not yet visually accepted
+MAIN_B_FOUNDATION_1,EXTERIOR_UNDERCROFT,open_bay,C,modeled; traversal not yet visually accepted
+MAIN_B_FOUNDATION_2,EXTERIOR_UNDERCROFT,open_bay,C,modeled; traversal not yet visually accepted
+MAIN_B_FOUNDATION_3,EXTERIOR_UNDERCROFT,open_bay,C,modeled; traversal not yet visually accepted
+GUEST_L1_CAR_COURT,GUEST_L1_THEATER,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_CAR_COURT,GUEST_L1_STAIR_HALL,open passage,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_STAIR_HALL,GUEST_L1_CHAUFFEUR_LOUNGE,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_CAR_COURT,GUEST_L1_BOILER,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_STAIR_HALL,GUEST_L1_TERRACE,open passage,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_TERRACE,GUEST_L1_LOUNGE,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_LOUNGE,GUEST_L1_GALLERY,open passage,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_GALLERY,GUEST_L1_GUEST_ROOM,open passage,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_GALLERY,GUEST_L1_BATH,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_GUEST_ROOM,GUEST_L1_TERRACE,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_TERRACE,GUEST_L1_POOL,steps,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_STAIR_HALL,GUEST_B1_STAIR,stair,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_B1_STAIR,GUEST_B1_LAUNDRY,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_B1_LAUNDRY,GUEST_B1_BATH,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L1_STAIR_HALL,GUEST_L2_HALL,stair,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L2_HALL,GUEST_L2_BEDROOM_SOUTH,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L2_HALL,GUEST_L2_BEDROOM_MIDDLE,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L2_HALL,GUEST_L2_BEDROOM_NORTH,door,"A guest02 direct Hall door below Bath south wall, y266.9..280.3; old model opening inside Bath was misplaced",modeled; traversal not accepted
+GUEST_L2_HALL,GUEST_L2_BATH,door,A plan topology; C exact openings,modeled; traversal not accepted
+GUEST_L2_BEDROOM_NORTH,GUEST_L2_TERRACE,door,A plan topology; C exact openings,modeled; traversal not accepted
+MAIN_L3_LINK,GUEST_L1_STAIR_HALL,covered exterior stair canopy,C cross-building elevation provisional,modeled; traversal not accepted

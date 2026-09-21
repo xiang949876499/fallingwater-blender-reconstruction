@@ -1,0 +1,39 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_working.blend",
+  "scene_bytes": 24923374,
+  "blender_version": "5.2.1 LTS",
+  "engine": "CYCLES",
+  "device": {
+    "device": "CPU",
+    "backend": "CPU",
+    "devices": [],
+    "reason": "Explicit CPU request"
+  },
+  "resolution": [
+    3840,
+    2160
+  ],
+  "max_samples": 512,
+  "frame": 73,
+  "denoising": true,
+  "view_transform": "AgX",
+  "exposure": 0.800000011920929,
+  "look": "None",
+  "runs": [
+    {
+      "camera": "CAM_HERO",
+      "room_id": "",
+      "reference": "",
+      "lens_mm": 42.0,
+      "clip_start": 0.019999999552965164,
+      "clip_end": 800.0,
+      "png": "D:\\zx\\test\\project\\qa\\cpu-4k-benchmark\\CAM_HERO.png",
+      "status": "PASS",
+      "exposure": 0.800000011920929,
+      "png_bytes": 17095487,
+      "seconds": 2597.208
+    }
+  ],
+  "status": "PASS",
+  "scope": "Offline rendering only. Does not measure viewport FPS or establish visual acceptance."
+}

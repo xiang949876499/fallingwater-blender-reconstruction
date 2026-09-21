@@ -1,0 +1,4312 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration04.blend",
+  "geometry": {
+    "vertices": 7238710,
+    "polygons": 6194114,
+    "objects": 6757
+  },
+  "vegetation_included": true,
+  "vegetation_objects": 1795,
+  "conservative_ray_bounds": [
+    -8,
+    12,
+    -4,
+    55,
+    56,
+    32
+  ],
+  "scope": "Geometric candidate selection only. Required visible-footprint points checked in 16:9 camera frame; rays include every rendered leaf and trunk. Structure rays count a nearer guest-house surface as architecture, so this is not endpoint photo matching. Image review required.",
+  "cameras": {
+    "CAM_GUEST_POOL": {
+      "original": {
+        "location": [
+          29.0,
+          29.0,
+          10.6
+        ],
+        "target": [
+          -2.8195,
+          52.86462,
+          6.3574
+        ],
+        "lens": 35.0
+      },
+      "valid_candidates": 61,
+      "selected": {
+        "location": [
+          41.0,
+          37.0,
+          11.0
+        ],
+        "target": [
+          22.0,
+          37.0,
+          9.6
+        ],
+        "lens": 35,
+        "score": 9.67548511234213,
+        "structure_ray_visibility": 0.9555555555555556,
+        "structure_rays": {
+          "architecture": 43,
+          "other": 1,
+          "vegetation": 1
+        },
+        "groups": {
+          "roof": {
+            "architecture": 4
+          },
+          "facade": {
+            "architecture": 35,
+            "other": 1
+          },
+          "pool": {
+            "architecture": 4,
+            "vegetation": 1
+          }
+        },
+        "frame_grid": {
+          "other": 42,
+          "foreground_vegetation": 10,
+          "guest_architecture": 25
+        },
+        "required_projection_bounds": [
+          0.08029785741152518,
+          0.23267654354011091,
+          0.6891360170612405,
+          0.6135035975996406
+        ],
+        "tilt_degrees": 4.214176939720423,
+        "rays": [
+          {
+            "target": [
+              19.85128,
+              41.10672,
+              10.75
+            ],
+            "group": "roof",
+            "hit": {
+              "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+              "location": [
+                19.91456,
+                41.09443,
+                10.75075
+              ],
+              "normal": [
+                0.38266,
+                0.0,
+                -0.92389
+              ],
+              "distance": 21.48074
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              19.85128,
+              36.09832,
+              10.75
+            ],
+            "group": "roof",
+            "hit": {
+              "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+              "location": [
+                19.91443,
+                36.10101,
+                10.75075
+              ],
+              "normal": [
+                0.32503,
+                -0.32495,
+                -0.88813
+              ],
+              "distance": 21.1062
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              9.65464,
+              36.09832,
+              10.75
+            ],
+            "group": "roof",
+            "hit": {
+              "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+              "location": [
+                19.91648,
+                36.39351,
+                10.83185
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.09291
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              9.65464,
+              35.72928,
+              10.75
+            ],
+            "group": "roof",
+            "hit": {
+              "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+              "location": [
+                19.91648,
+                36.14529,
+                10.83185
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.10151
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              18.7738,
+              40.89584,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                20.10201,
+                40.66303,
+                9.68366
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "distance": 21.25738
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              28.8443,
+              40.89584,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                29.54277,
+                40.67198,
+                9.68044
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "distance": 12.10342
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              9.06071,
+              36.0456,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BED_EAST_pier_end",
+              "location": [
+                19.64612,
+                36.36191,
+                10.06399
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.38391
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              9.65464,
+              38.18076,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+              "location": [
+                19.54012,
+                37.80838,
+                10.04152
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.49648
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              9.65464,
+              37.2318,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+              "location": [
+                19.54012,
+                37.1587,
+                10.04152
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.48186
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              9.65464,
+              36.28284,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.67997,
+                36.51221,
+                10.04777
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.34686
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              11.38912,
+              38.20602,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BED_EAST_steel_window_1_mullion_0",
+              "location": [
+                19.56354,
+                37.87309,
+                9.98649
+              ],
+              "normal": [
+                0.92409,
+                -0.38217,
+                0.0
+              ],
+              "distance": 21.47816
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              11.38912,
+              37.35812,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+              "location": [
+                19.54012,
+                37.25954,
+                9.98538
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.48542
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              11.38912,
+              36.51022,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.67997,
+                36.64735,
+                9.99199
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.34676
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              11.53103,
+              38.418,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BED_EAST_jamb_0_b",
+              "location": [
+                19.55814,
+                38.03175,
+                9.98135
+              ],
+              "normal": [
+                0.9239,
+                0.38263,
+                0.0
+              ],
+              "distance": 21.49082
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              12.09868,
+              38.418,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                38.29403,
+                9.7224
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.43709
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              12.66633,
+              38.418,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                38.31995,
+                9.69681
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.43962
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              12.98095,
+              39.15608,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                39.02953,
+                9.68217
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.48525
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              13.67178,
+              39.15608,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                39.08083,
+                9.64886
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.49092
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              14.36261,
+              39.15608,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                39.1348,
+                9.61382
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.49702
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              12.80824,
+              39.08227,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                38.94804,
+                9.69025
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.47873
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              12.80824,
+              38.78704,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                38.67184,
+                9.69025
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.45985
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              12.80824,
+              38.49181,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                38.39564,
+                9.69025
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.44384
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              14.53532,
+              38.8703,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BATH_EAST_pier_end",
+              "location": [
+                14.62552,
+                38.86392,
+                9.60477
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 26.47705
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              14.53532,
+              37.72716,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+              "location": [
+                19.54012,
+                37.58964,
+                9.86476
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.49797
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              14.53532,
+              36.58402,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.66937,
+                36.66472,
+                9.8716
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.36308
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              11.70374,
+              36.29824,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.67997,
+                36.4893,
+                9.98117
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.35047
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              12.96222,
+              36.29824,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.66937,
+                36.46611,
+                9.93491
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.36387
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              14.2207,
+              36.29824,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.66937,
+                36.44102,
+                9.88485
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.36707
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              15.03538,
+              36.29824,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.66937,
+                36.42348,
+                9.84986
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.36939
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              17.03562,
+              36.29824,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.65403,
+                36.37492,
+                9.75297
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.3915
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              19.03586,
+              36.29824,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_POOL_coping_ascent_handrail_1",
+              "location": [
+                24.26251,
+                36.46523,
+                9.93315
+              ],
+              "normal": [
+                0.51986,
+                0.25873,
+                -0.81413
+              ],
+              "distance": 16.77998
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              19.53592,
+              40.24629,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.665,
+                40.22676,
+                9.60842
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.62246
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              19.53592,
+              38.4916,
+              9.6
+            ],
+            "group": "facade",
+            "hit": null,
+            "class": "other"
+          },
+          {
+            "target": [
+              19.53592,
+              36.73691,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                19.65645,
+                36.73839,
+                9.60786
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 21.39051
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              31.49332,
+              40.82203,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                33.53835,
+                39.99986,
+                9.90116
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "distance": 8.11682
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              32.01892,
+              40.5268,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                33.36295,
+                39.99901,
+                9.80951
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "distance": 8.29071
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              32.54452,
+              40.23157,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                33.2043,
+                39.97941,
+                9.70924
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "distance": 8.44487
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              32.88616,
+              40.15776,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                33.29625,
+                39.99816,
+                9.67076
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "distance": 8.37279
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              33.72712,
+              40.15776,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+              "location": [
+                34.14669,
+                39.97559,
+                9.68077
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "distance": 7.58698
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              34.56808,
+              40.15776,
+              9.6
+            ],
+            "group": "facade",
+            "hit": {
+              "object": "GUEST_L1_POOL_BACK_END_pier_end",
+              "location": [
+                34.77852,
+                40.05445,
+                9.64581
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 7.06189
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              23.38653,
+              33.14214,
+              8.96485
+            ],
+            "group": "pool",
+            "hit": {
+              "object": "GUEST_POOL_water",
+              "location": [
+                23.39699,
+                33.14443,
+                8.96606
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "distance": 18.13473
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              23.38653,
+              36.78754,
+              8.96485
+            ],
+            "group": "pool",
+            "hit": {
+              "object": "GUEST_POOL_water",
+              "location": [
+                23.38826,
+                36.78756,
+                8.96505
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "distance": 17.73018
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              32.18915,
+              36.78754,
+              8.96485
+            ],
+            "group": "pool",
+            "hit": {
+              "object": "GUEST_POOL_shell_02",
+              "location": [
+                32.48294,
+                36.79463,
+                9.03271
+              ],
+              "normal": [
+                0.88192,
+                0.47139,
+                0.0
+              ],
+              "distance": 8.74373
+            },
+            "class": "architecture"
+          },
+          {
+            "target": [
+              32.18915,
+              33.14214,
+              8.96485
+            ],
+            "group": "pool",
+            "hit": {
+              "object": "TREE_Slope_Understory_153_Branches",
+              "location": [
+                35.31591,
+                34.5112,
+                9.68708
+              ],
+              "normal": [
+                0.82011,
+                -0.46965,
+                0.32686
+              ],
+              "distance": 6.34246
+            },
+            "class": "vegetation"
+          },
+          {
+            "target": [
+              27.78784,
+              34.96484,
+              8.96485
+            ],
+            "group": "pool",
+            "hit": {
+              "object": "GUEST_POOL_water",
+              "location": [
+                27.78913,
+                34.96504,
+                8.96505
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "distance": 13.52069
+            },
+            "class": "architecture"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "location": [
+            40.0,
+            37.0,
+            12.0
+          ],
+          "target": [
+            22.0,
+            37.0,
+            9.6
+          ],
+          "lens": 35,
+          "score": 9.477873257754936,
+          "structure_ray_visibility": 0.9777777777777777,
+          "structure_rays": {
+            "architecture": 44,
+            "other": 1
+          },
+          "groups": {
+            "roof": {
+              "architecture": 4
+            },
+            "facade": {
+              "architecture": 35,
+              "other": 1
+            },
+            "pool": {
+              "architecture": 5
+            }
+          },
+          "frame_grid": {
+            "other": 39,
+            "foreground_vegetation": 12,
+            "guest_architecture": 26
+          },
+          "required_projection_bounds": [
+            0.03942203961038404,
+            0.08056201646647798,
+            0.6982722906507228,
+            0.6583859000220189
+          ],
+          "tilt_degrees": 7.594641544879781,
+          "rays": [
+            {
+              "target": [
+                19.85128,
+                41.10672,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.92193,
+                  41.09232,
+                  10.75438
+                ],
+                "normal": [
+                  0.92388,
+                  0.0,
+                  -0.38268
+                ],
+                "distance": 20.5287
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.85128,
+                36.09832,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.91706,
+                  36.10126,
+                  10.75408
+                ],
+                "normal": [
+                  0.32515,
+                  -0.88813,
+                  -0.32482
+                ],
+                "distance": 20.14161
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                36.09832,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.91648,
+                  36.40324,
+                  11.17271
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.10941
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                35.72928,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.91648,
+                  36.159,
+                  11.17271
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.11814
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                18.7738,
+                40.89584,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  20.04227,
+                  40.66302,
+                  9.74342
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 20.41619
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                28.8443,
+                40.89584,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  29.48681,
+                  40.67146,
+                  9.73823
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 11.3632
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.06071,
+                36.0456,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_pier_end",
+                "location": [
+                  19.64612,
+                  36.37214,
+                  10.42112
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.42468
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                38.18076,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.79611,
+                  10.38184
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.53921
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                37.2318,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+                "location": [
+                  19.54012,
+                  37.15629,
+                  10.38184
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.52437
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                36.28284,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.67421,
+                  36.51963,
+                  10.39244
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.39492
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                38.20602,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.86244,
+                  10.28374
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.54984
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                37.35812,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+                "location": [
+                  19.54012,
+                  37.2561,
+                  10.28374
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.53334
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                36.51022,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.65494,
+                  36.65172,
+                  10.29337
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.41949
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.53103,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_jamb_0_b",
+                "location": [
+                  19.55862,
+                  38.01816,
+                  10.27674
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.53914
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.09868,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.28958,
+                  9.81735
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.50081
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.66633,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.31636,
+                  9.77202
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.50609
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.98095,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  39.02485,
+                  9.74608
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.55473
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                13.67178,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  39.07797,
+                  9.68694
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.56428
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.36261,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  39.13397,
+                  9.62461
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.5746
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                39.08227,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.94311,
+                  9.7604
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.54712
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                38.78704,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.66761,
+                  9.7604
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.52765
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                38.49181,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.39211,
+                  9.7604
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.51113
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                38.8703,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.86367,
+                  9.6085
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 25.55497
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                37.72716,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.58424,
+                  10.07169
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.55885
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                36.58402,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.67306,
+                  36.66795,
+                  10.08422
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.41972
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.70374,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.65494,
+                  36.49543,
+                  10.2744
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.42435
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.96222,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.65494,
+                  36.47195,
+                  10.19408
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.43188
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.2207,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.67307,
+                  36.44666,
+                  10.1076
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.42233
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                15.03538,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.67997,
+                  36.4288,
+                  10.04651
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.4217
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                17.03562,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.66937,
+                  36.37872,
+                  9.87525
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.45079
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.03586,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.65403,
+                  36.31893,
+                  9.67077
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.49018
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.53592,
+                40.24629,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.665,
+                  40.22581,
+                  9.61514
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.72692
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.53592,
+                38.4916,
+                9.6
+              ],
+              "group": "facade",
+              "hit": null,
+              "class": "other"
+            },
+            {
+              "target": [
+                19.53592,
+                36.73691,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.65645,
+                  36.73846,
+                  9.61414
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 20.48465
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                31.49332,
+                40.82203,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.37318,
+                  39.97741,
+                  10.13037
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 7.50168
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.01892,
+                40.5268,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.22116,
+                  39.99554,
+                  9.96153
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 7.68644
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.54452,
+                40.23157,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.11157,
+                  39.98578,
+                  9.78254
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 7.82831
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.88616,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_POOL_BACK_END_pier_end",
+                "location": [
+                  33.22453,
+                  40.00756,
+                  9.71416
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 7.75741
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                33.72712,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  34.06859,
+                  39.98586,
+                  9.73065
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 7.01762
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                34.56808,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_POOL_BACK_END_pier_end",
+                "location": [
+                  34.77852,
+                  40.03542,
+                  9.69298
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 6.46529
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                23.38653,
+                33.14214,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  23.39662,
+                  33.14448,
+                  8.96669
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 17.31295
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                23.38653,
+                36.78754,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  23.40157,
+                  36.78773,
+                  8.9676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 16.87449
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.18915,
+                36.78754,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_coping_02",
+                "location": [
+                  32.48246,
+                  36.79552,
+                  9.07882
+                ],
+                "normal": [
+                  0.88192,
+                  0.4714,
+                  0.0
+                ],
+                "distance": 8.06774
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.18915,
+                33.14214,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_coping_33",
+                "location": [
+                  32.54995,
+                  33.32034,
+                  9.10505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 8.79909
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                27.78784,
+                34.96484,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  27.78864,
+                  34.96497,
+                  8.96505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 12.74635
+              },
+              "class": "architecture"
+            }
+          ]
+        },
+        {
+          "location": [
+            41.0,
+            37.0,
+            11.0
+          ],
+          "target": [
+            22.0,
+            37.0,
+            9.6
+          ],
+          "lens": 38,
+          "score": 8.863108465906102,
+          "structure_ray_visibility": 0.9555555555555556,
+          "structure_rays": {
+            "architecture": 43,
+            "other": 1,
+            "vegetation": 1
+          },
+          "groups": {
+            "roof": {
+              "architecture": 4
+            },
+            "facade": {
+              "architecture": 35,
+              "other": 1
+            },
+            "pool": {
+              "architecture": 4,
+              "vegetation": 1
+            }
+          },
+          "frame_grid": {
+            "foreground_vegetation": 13,
+            "other": 38,
+            "guest_architecture": 26
+          },
+          "required_projection_bounds": [
+            0.04432338804679875,
+            0.20976310441497759,
+            0.7053476756664896,
+            0.6232324773938955
+          ],
+          "tilt_degrees": 4.214176939720423,
+          "rays": [
+            {
+              "target": [
+                19.85128,
+                41.10672,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.91456,
+                  41.09443,
+                  10.75075
+                ],
+                "normal": [
+                  0.38266,
+                  0.0,
+                  -0.92389
+                ],
+                "distance": 21.48074
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.85128,
+                36.09832,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.91443,
+                  36.10101,
+                  10.75075
+                ],
+                "normal": [
+                  0.32503,
+                  -0.32495,
+                  -0.88813
+                ],
+                "distance": 21.1062
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                36.09832,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.91648,
+                  36.39351,
+                  10.83185
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.09291
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                35.72928,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.91648,
+                  36.14529,
+                  10.83185
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.10151
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                18.7738,
+                40.89584,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  20.10201,
+                  40.66303,
+                  9.68366
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 21.25738
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                28.8443,
+                40.89584,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  29.54277,
+                  40.67198,
+                  9.68044
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 12.10342
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.06071,
+                36.0456,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_pier_end",
+                "location": [
+                  19.64612,
+                  36.36191,
+                  10.06399
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.38391
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                38.18076,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.80838,
+                  10.04152
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.49648
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                37.2318,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+                "location": [
+                  19.54012,
+                  37.1587,
+                  10.04152
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.48186
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                36.28284,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.67997,
+                  36.51221,
+                  10.04777
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.34686
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                38.20602,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_mullion_0",
+                "location": [
+                  19.56354,
+                  37.87309,
+                  9.98649
+                ],
+                "normal": [
+                  0.92409,
+                  -0.38217,
+                  0.0
+                ],
+                "distance": 21.47816
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                37.35812,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+                "location": [
+                  19.54012,
+                  37.25954,
+                  9.98538
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.48542
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                36.51022,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.67997,
+                  36.64735,
+                  9.99199
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.34676
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.53103,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_jamb_0_b",
+                "location": [
+                  19.55814,
+                  38.03175,
+                  9.98135
+                ],
+                "normal": [
+                  0.9239,
+                  0.38263,
+                  0.0
+                ],
+                "distance": 21.49082
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.09868,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.29403,
+                  9.7224
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.43709
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.66633,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.31995,
+                  9.69681
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.43962
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.98095,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  39.02953,
+                  9.68217
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.48525
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                13.67178,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  39.08083,
+                  9.64886
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.49092
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.36261,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  39.1348,
+                  9.61382
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.49702
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                39.08227,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.94804,
+                  9.69025
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.47873
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                38.78704,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.67184,
+                  9.69025
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.45985
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                38.49181,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.39564,
+                  9.69025
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.44384
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                38.8703,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.86392,
+                  9.60477
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.47705
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                37.72716,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.58964,
+                  9.86476
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.49797
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                36.58402,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.66937,
+                  36.66472,
+                  9.8716
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.36308
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.70374,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.67997,
+                  36.4893,
+                  9.98117
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.35047
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.96222,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.66937,
+                  36.46611,
+                  9.93491
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.36387
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.2207,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.66937,
+                  36.44102,
+                  9.88485
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.36707
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                15.03538,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.66937,
+                  36.42348,
+                  9.84986
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.36939
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                17.03562,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.65403,
+                  36.37492,
+                  9.75297
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.3915
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.03586,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_POOL_coping_ascent_handrail_1",
+                "location": [
+                  24.26251,
+                  36.46523,
+                  9.93315
+                ],
+                "normal": [
+                  0.51986,
+                  0.25873,
+                  -0.81413
+                ],
+                "distance": 16.77998
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.53592,
+                40.24629,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.665,
+                  40.22676,
+                  9.60842
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.62246
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.53592,
+                38.4916,
+                9.6
+              ],
+              "group": "facade",
+              "hit": null,
+              "class": "other"
+            },
+            {
+              "target": [
+                19.53592,
+                36.73691,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.65645,
+                  36.73839,
+                  9.60786
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.39051
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                31.49332,
+                40.82203,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.53835,
+                  39.99986,
+                  9.90116
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 8.11682
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.01892,
+                40.5268,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.36295,
+                  39.99901,
+                  9.80951
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 8.29071
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.54452,
+                40.23157,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.2043,
+                  39.97941,
+                  9.70924
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 8.44487
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.88616,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.29625,
+                  39.99816,
+                  9.67076
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 8.37279
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                33.72712,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  34.14669,
+                  39.97559,
+                  9.68077
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 7.58698
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                34.56808,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_POOL_BACK_END_pier_end",
+                "location": [
+                  34.77852,
+                  40.05445,
+                  9.64581
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 7.06189
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                23.38653,
+                33.14214,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  23.39699,
+                  33.14443,
+                  8.96606
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 18.13473
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                23.38653,
+                36.78754,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  23.38826,
+                  36.78756,
+                  8.96505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 17.73018
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.18915,
+                36.78754,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_shell_02",
+                "location": [
+                  32.48294,
+                  36.79463,
+                  9.03271
+                ],
+                "normal": [
+                  0.88192,
+                  0.47139,
+                  0.0
+                ],
+                "distance": 8.74373
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.18915,
+                33.14214,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "TREE_Slope_Understory_153_Branches",
+                "location": [
+                  35.31591,
+                  34.5112,
+                  9.68708
+                ],
+                "normal": [
+                  0.82011,
+                  -0.46965,
+                  0.32686
+                ],
+                "distance": 6.34246
+              },
+              "class": "vegetation"
+            },
+            {
+              "target": [
+                27.78784,
+                34.96484,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  27.78913,
+                  34.96504,
+                  8.96505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 13.52069
+              },
+              "class": "architecture"
+            }
+          ]
+        },
+        {
+          "location": [
+            41.0,
+            36.0,
+            11.0
+          ],
+          "target": [
+            22.0,
+            37.0,
+            9.6
+          ],
+          "lens": 38,
+          "score": 8.65191910640998,
+          "structure_ray_visibility": 0.9777777777777777,
+          "structure_rays": {
+            "architecture": 44,
+            "other": 1
+          },
+          "groups": {
+            "roof": {
+              "architecture": 4
+            },
+            "facade": {
+              "architecture": 35,
+              "other": 1
+            },
+            "pool": {
+              "architecture": 5
+            }
+          },
+          "frame_grid": {
+            "other": 41,
+            "foreground_vegetation": 14,
+            "guest_architecture": 22
+          },
+          "required_projection_bounds": [
+            0.10097068923962643,
+            0.20165964337075282,
+            0.6971874975628489,
+            0.6230232558752957
+          ],
+          "tilt_degrees": 4.2083735392520145,
+          "rays": [
+            {
+              "target": [
+                19.85128,
+                41.10672,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_1",
+                "location": [
+                  19.91152,
+                  41.09217,
+                  10.75071
+                ],
+                "normal": [
+                  0.38266,
+                  0.0,
+                  -0.92389
+                ],
+                "distance": 21.696
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.85128,
+                36.09832,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_weathering",
+                "location": [
+                  19.85148,
+                  36.09832,
+                  10.75
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.15023
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                36.09832,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF_parapet_2",
+                "location": [
+                  19.85148,
+                  36.06634,
+                  10.83133
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.14929
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                35.72928,
+                10.75
+              ],
+              "group": "roof",
+              "hit": {
+                "object": "GUEST_LOW_ARM_ROOF",
+                "location": [
+                  9.6724,
+                  35.72943,
+                  10.75014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 31.32976
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                18.7738,
+                40.89584,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.83072,
+                  40.66303,
+                  9.66657
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 21.71774
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                28.8443,
+                40.89584,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  29.4014,
+                  40.67146,
+                  9.66416
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 12.57515
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.06071,
+                36.0456,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_LOUNGE_FRONT_pier_end",
+                "location": [
+                  9.65484,
+                  36.04475,
+                  9.62604
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 31.37529
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                38.18076,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.49301,
+                  10.04152
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.53309
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                37.2318,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+                "location": [
+                  19.54012,
+                  36.84332,
+                  10.04152
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.49782
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                9.65464,
+                36.28284,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.52812,
+                  36.19375,
+                  10.04099
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.49416
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                38.20602,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.59877,
+                  9.98538
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.54326
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                37.35812,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+                "location": [
+                  19.54733,
+                  36.98394,
+                  9.98572
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.49916
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.38912,
+                36.51022,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.67997,
+                  36.36736,
+                  9.99199
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.347
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.53103,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.76083,
+                  9.98049
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.55612
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.09868,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.79542,
+                  9.96047
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.55993
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.66633,
+                38.418,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.83139,
+                  9.93964
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.56397
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.98095,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.97083,
+                  9.68217
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.57397
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                13.67178,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  39.04593,
+                  9.64886
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.58414
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.36261,
+                39.15608,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  39.12493,
+                  9.61382
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.59511
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                39.08227,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.88358,
+                  9.69025
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.56395
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                38.78704,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.60738,
+                  9.69025
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.53539
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.80824,
+                38.49181,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_pier_1",
+                "location": [
+                  19.63408,
+                  37.88848,
+                  9.93897
+                ],
+                "normal": [
+                  -2e-05,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 21.47544
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                38.8703,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BATH_EAST_pier_end",
+                "location": [
+                  14.62552,
+                  38.86051,
+                  9.60477
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 26.56581
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                37.72716,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+                "location": [
+                  19.54012,
+                  37.40053,
+                  9.86476
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.53547
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.53532,
+                36.58402,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.66937,
+                  36.47073,
+                  9.8716
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.36564
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                11.70374,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_FRONT_pier_end",
+                "location": [
+                  19.53612,
+                  36.21851,
+                  9.97429
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.48948
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                12.96222,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_FRONT_pier_end",
+                "location": [
+                  19.53612,
+                  36.22831,
+                  9.92825
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.49183
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                14.2207,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_FRONT_pier_end",
+                "location": [
+                  19.53612,
+                  36.23904,
+                  9.87789
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.49452
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                15.03538,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_FRONT_pier_end",
+                "location": [
+                  19.53612,
+                  36.24654,
+                  9.84268
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.49647
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                17.03562,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_FRONT_pier_end",
+                "location": [
+                  19.53612,
+                  36.26712,
+                  9.74608
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.50213
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.03586,
+                36.29824,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_BED_FRONT_pier_end",
+                "location": [
+                  19.53612,
+                  36.29145,
+                  9.63189
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.50941
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.53592,
+                40.24629,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.665,
+                  40.22075,
+                  9.60842
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.79296
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                19.53592,
+                38.4916,
+                9.6
+              ],
+              "group": "facade",
+              "hit": null,
+              "class": "other"
+            },
+            {
+              "target": [
+                19.53592,
+                36.73691,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  19.65645,
+                  36.73277,
+                  9.60786
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 21.40145
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                31.49332,
+                40.82203,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.142,
+                  39.98578,
+                  9.84279
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 8.88672
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.01892,
+                40.5268,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.0923,
+                  39.98578,
+                  9.76732
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 8.94079
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.54452,
+                40.23157,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.04839,
+                  39.97941,
+                  9.68343
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 8.98873
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.88616,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  33.21187,
+                  39.99086,
+                  9.6562
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 8.85368
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                33.72712,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+                "location": [
+                  34.04578,
+                  39.97559,
+                  9.66134
+                ],
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "distance": 8.12148
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                34.56808,
+                40.15776,
+                9.6
+              ],
+              "group": "facade",
+              "hit": {
+                "object": "GUEST_L1_POOL_BACK_END_pier_end",
+                "location": [
+                  34.77852,
+                  40.02173,
+                  9.64581
+                ],
+                "normal": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "distance": 7.53093
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                23.38653,
+                33.14214,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  23.4028,
+                  33.14478,
+                  8.96673
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 17.94291
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                23.38653,
+                36.78754,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  23.39315,
+                  36.78725,
+                  8.96562
+                ],
+                "normal": [
+                  -0.6344,
+                  0.773,
+                  0.0
+                ],
+                "distance": 17.74147
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.18915,
+                36.78754,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_coping_02",
+                "location": [
+                  32.50166,
+                  36.75961,
+                  9.03703
+                ],
+                "normal": [
+                  0.88192,
+                  0.4714,
+                  0.0
+                ],
+                "distance": 8.75512
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                32.18915,
+                33.14214,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_coping_33",
+                "location": [
+                  32.54363,
+                  33.25711,
+                  9.04673
+                ],
+                "normal": [
+                  0.95694,
+                  -0.29029,
+                  0.0
+                ],
+                "distance": 9.10214
+              },
+              "class": "architecture"
+            },
+            {
+              "target": [
+                27.78784,
+                34.96484,
+                8.96485
+              ],
+              "group": "pool",
+              "hit": {
+                "object": "GUEST_POOL_water",
+                "location": [
+                  27.78914,
+                  34.96494,
+                  8.96505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 13.40668
+              },
+              "class": "architecture"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rays_cast": 7982
+}

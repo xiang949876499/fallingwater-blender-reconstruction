@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-20",
+  "scope": "10 consecutive offline frames per static camera; not a completed tour or viewport FPS test",
+  "sequences": [
+    {
+      "name": "hero",
+      "source_scene_sha256": "1f2a55b63aa331db2e26fb9bd9382239d4bcea1b273c433414cc5c7f64832835",
+      "engine": "BLENDER_EEVEE",
+      "device": {
+        "backend": "BLENDER_EEVEE",
+        "device": "Graphics API (not a Cycles device)",
+        "devices": []
+      },
+      "frames": 10,
+      "all_png_hashes_verified": true,
+      "first_frame_seconds": 31.6207,
+      "warm_median_seconds": 5.4976,
+      "total_seconds": 83.6075,
+      "exposure": 0.8,
+      "video": "project\\qa\\animation-benchmark-hero-10frames.mp4",
+      "video_probe": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "0.416667",
+        "nb_read_frames": "10"
+      },
+      "progress": "project\\qa\\animation-benchmark-hero\\animation-progress.json"
+    },
+    {
+      "name": "living",
+      "source_scene_sha256": "1f2a55b63aa331db2e26fb9bd9382239d4bcea1b273c433414cc5c7f64832835",
+      "engine": "BLENDER_EEVEE",
+      "device": {
+        "backend": "BLENDER_EEVEE",
+        "device": "Graphics API (not a Cycles device)",
+        "devices": []
+      },
+      "frames": 10,
+      "all_png_hashes_verified": true,
+      "first_frame_seconds": 58.7964,
+      "warm_median_seconds": 8.7447,
+      "total_seconds": 137.5731,
+      "exposure": 0.8,
+      "video": "project\\qa\\animation-benchmark-living-10frames.mp4",
+      "video_probe": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "0.416667",
+        "nb_read_frames": "10"
+      },
+      "progress": "project\\qa\\animation-benchmark-living\\animation-progress.json"
+    }
+  ],
+  "resume": {
+    "rendered_frames": 0,
+    "verified_reused_frames": 10,
+    "first_frame_seconds": null,
+    "remaining_frames_seconds": [],
+    "warm_median_seconds": null,
+    "total_render_seconds": 0,
+    "note": "Offline throughput; not viewport FPS. First frame reported separately."
+  },
+  "probe": [
+    {
+      "name": "FW_PROBE_MAIN_L1",
+      "rooms": [
+        "MAIN_L1_LIVING",
+        "MAIN_L1_KITCHEN",
+        "MAIN_L1_SERVANT",
+        "MAIN_L1_SERVICE_STAIR",
+        "MAIN_L1_ENTRY",
+        "MAIN_L1_COAT",
+        "MAIN_L1_STAIR",
+        "MAIN_L1_LOGGIA",
+        "MAIN_L1_HATCH"
+      ],
+      "bounds": [
+        [
+          -7.695600000000001,
+          0.009300000000000003,
+          0.22
+        ],
+        [
+          19.9572,
+          18.0978,
+          2.38
+        ]
+      ],
+      "resolution": [
+        20,
+        14,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 31.173,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS_OUTPUT_BENCHMARK_ONLY",
+  "visual_status": "REVIEW_REQUIRED: EEVEE glass dark bands/blur; photographic quality not accepted",
+  "full_building_GI": "NOT_RUN: only MAIN_L1 has a completed volume bake",
+  "long_animation": "NOT_RUN",
+  "GUI_FPS": "NOT_RUN: locked Windows session",
+  "concurrency": "Other agent could render on CPU during these GPU runs"
+}

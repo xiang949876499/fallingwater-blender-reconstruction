@@ -1,0 +1,208 @@
+{
+  "status": "PASS_MATERIAL_ONLY_CANDIDATE_VISUAL_NOT_RUN",
+  "source_sha256": "c5cd501e4c8ae0205ecb2437cd2d06d0c92bcc9a87e7d93d3986aeef976070d7",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration08.blend",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_terrain_material_candidate08.blend",
+  "asset": "leaves_forest_ground",
+  "source_texture_dimensions_mm": [
+    1259.9999904632568,
+    1260.0001096725464
+  ],
+  "tile_width_m": 1.2600000500679016,
+  "copied_material": "FW_LeafLitter_Scan08_Candidate",
+  "original_material": "FW_Continuous_Forest_Floor",
+  "material_changes": {
+    "images": {
+      "Diffuse": "assets\\textures\\leaves_forest_ground_diff_2k.jpg",
+      "Rough": "assets\\textures\\leaves_forest_ground_rough_2k.jpg",
+      "Displacement": "assets\\textures\\leaves_forest_ground_disp_2k.png"
+    },
+    "object_mapping_scale": 0.7936507621139458,
+    "box_blend": 0.2199999988079071,
+    "color_multiply": [
+      1,
+      1,
+      1
+    ],
+    "roughness": "source map direct, not compressed .7..1",
+    "bump_distance_m": 0.02,
+    "bump_strength": 0.5,
+    "bump_height_evidence": "C authored; not a scan z measurement"
+  },
+  "compared_objects": 23384,
+  "only_changed_object_property": "terrain material slot 0",
+  "all_geometry_topology_transforms_smooth_flags_unchanged": true,
+  "camera_light_exposure_frame_unchanged": true,
+  "all_original_materials_and_images_unchanged": true,
+  "lighting_state": {
+    "world": "cc446a3695a6faddfdf62ec1d1785332d9615a4a6614654bbe9d8fdae06925a6",
+    "lights": [
+      [
+        "FW_LIGHT_PhysicalSun",
+        "SUN",
+        2.5,
+        [
+          1.0,
+          0.9599999785423279,
+          0.8899999856948853
+        ]
+      ],
+      [
+        "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "POINT",
+        22.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "POINT",
+        18.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "POINT",
+        32.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy",
+        "POINT",
+        9.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "POINT",
+        12.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "POINT",
+        12.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "POINT",
+        12.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "POINT",
+        12.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "POINT",
+        24.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "POINT",
+        12.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy",
+        "POINT",
+        30.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "POINT",
+        18.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "POINT",
+        18.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ],
+      [
+        "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy",
+        "POINT",
+        22.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ]
+      ]
+    ],
+    "frame": 73,
+    "view": [
+      "AgX",
+      "None",
+      0.800000011920929
+    ],
+    "camera": "CAM_HERO"
+  },
+  "scene_snapshot_sha256": "71e047d5a0d8d9bb8aaa76716c760b8f2d9f0538c8a7726188c1a7db9fd12646",
+  "physical_terrain_mesh_sha256": "861fc761199061fc63861ef3d10b62380806c26fa7b1074eae69c1ffb37a500b",
+  "rendered": false,
+  "no_new_leaf_tree_rock_objects": true,
+  "script_sha256": "e78a4bd65c0343c0c40e87510e8afabea58136d1eb457bbcfb9dcbda60da1d12",
+  "limits": "Single material experiment. Existing macro terrain, sparse canopy and high room exposure remain. Root must view same three frame48 images before acceptance.",
+  "candidate_sha256": "7c4949d3d0a0dc4c9cfeb6c906b33842ef39fbe84bb5ce1030761a86ad1dbdae",
+  "elapsed_s": 8.39451370000097,
+  "saved_readback_snapshot_equal": true
+}

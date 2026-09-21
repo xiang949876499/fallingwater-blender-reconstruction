@@ -1,0 +1,134 @@
+{
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_bath_fixtures_candidate07.blend",
+  "source_sha256": "d76f2ea35ed25feb30a11c65ada9cf122b6cfe99425c25021401bba765643149",
+  "source_reference": "HABS PA-5346-A-11 photograph and guest01 x440/y394..430 slat line; actual source images inspected",
+  "old_location": [
+    4.927919387817383,
+    39.143428802490234,
+    8.399999618530273
+  ],
+  "new_location": [
+    9.4443998336792,
+    37.627201080322266,
+    8.399999618530273
+  ],
+  "rotation_unchanged": [
+    0,
+    0,
+    0
+  ],
+  "chair_adjusted": true,
+  "old_chair_location": [
+    9.634294509887695,
+    38.03705596923828,
+    8.399999618530273
+  ],
+  "new_chair_location": [
+    8.464400291442871,
+    38.03705596923828,
+    8.399999618530273
+  ],
+  "chair_cabinet_body_gap_path": [
+    [
+      8.984399833679198,
+      37.38705596923828,
+      10.0
+    ],
+    [
+      8.984399833679198,
+      38.68705596923828,
+      10.0
+    ]
+  ],
+  "chair_cabinet_body_gap_failure": null,
+  "cabinet_bounds": [
+    [
+      9.204400062561035,
+      9.684399604797363
+    ],
+    [
+      36.86592483520508,
+      38.38847732543945
+    ],
+    [
+      8.449999809265137,
+      8.929999351501465
+    ]
+  ],
+  "all_other_objects_unchanged": true,
+  "cabinet_furniture_overlaps": [],
+  "old_film_path_checks": [
+    null
+  ],
+  "new_film_path_checks": [
+    {
+      "reason": "BODY_COLUMN",
+      "point": [
+        7.96316,
+        38.12717,
+        10.0
+      ],
+      "hit": {
+        "object": "FW_FURN_GUEST_L1_LOUNGE_walnut_armchair_03_seat",
+        "location": [
+          8.14316,
+          38.12717,
+          8.8115
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "distance": 0.3215
+      },
+      "edge": 0
+    }
+  ],
+  "unchanged_camera_body_checks": {
+    "CAM_GUEST_L1_LOUNGE_A": null,
+    "CAM_GUEST_L1_LOUNGE_B": null
+  },
+  "door_connections": [
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "GUEST_L1_LOUNGE",
+      "to": "GUEST_L1_GALLERY",
+      "points": [
+        [
+          10.33424,
+          37.90134,
+          10.0
+        ],
+        [
+          10.31992,
+          38.88826,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "GUEST_L1_LOUNGE",
+      "to": "GUEST_L1_TERRACE",
+      "points": [
+        [
+          10.33424,
+          36.7394,
+          10.0
+        ],
+        [
+          11.95151,
+          35.43405,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    }
+  ],
+  "status": "REQUIRES_REVIEW",
+  "limits": "No scene architecture, fixture light, camera transform, screen dimensions or tube geometry changed. Film-path failures are retained for the next tour rebuild.",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_furniture_candidate07c.blend",
+  "candidate_sha256": "e7e89041c98d8d8c72677939af56588a6305aeb4f3b3954745516bf243a7e71e"
+}

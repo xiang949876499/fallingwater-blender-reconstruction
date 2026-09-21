@@ -1,0 +1,175 @@
+{
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration04.blend",
+  "thresholds": [
+    {
+      "id": "guest_bath",
+      "points": [
+        [
+          6.759600000000001,
+          11.5227,
+          4.444800000000001
+        ],
+        [
+          7.7028,
+          11.5227,
+          4.444800000000001
+        ]
+      ],
+      "source": "main HABS threshold probes",
+      "core_status": "FAIL",
+      "failure": {
+        "reason": "BODY_COLUMN",
+        "point": [
+          6.7596,
+          11.5227,
+          4.4448
+        ],
+        "hit": {
+          "object": "FW_FURN_MAIN_L2_BATH_G_water_closet_01_bowl_shell",
+          "location": [
+            6.7596,
+            11.7027,
+            3.06912
+          ],
+          "normal": [
+            0.40038,
+            -0.23163,
+            -0.88659
+          ],
+          "distance": 0.13432
+        },
+        "edge": 0
+      },
+      "endpoint_room_memberships": [
+        [
+          "MAIN_L2_BATH_G"
+        ],
+        [
+          "MAIN_L2_HALL"
+        ]
+      ]
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_EAST_door_0",
+      "points": [
+        [
+          0.8700400590896606,
+          40.03123092651367,
+          10.0
+        ],
+        [
+          1.6200400590896606,
+          40.03123092651367,
+          10.0
+        ]
+      ],
+      "source": "guest actual wall/opening span; architecture registration",
+      "core_status": "FAIL",
+      "failure": {
+        "reason": "CAMERA_CLEARANCE",
+        "point": [
+          1.12004,
+          40.03123,
+          10.0
+        ],
+        "hit": {
+          "object": "GUEST_STONE_CHIMNEY_pier_end",
+          "location": [
+            1.12004,
+            40.05132,
+            10.0
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 0.02009
+        },
+        "edge": 0
+      },
+      "endpoint_room_memberships": [
+        [
+          "GUEST_L1_CHAUFFEUR_LOUNGE"
+        ],
+        [
+          "GUEST_L1_STAIR_HALL"
+        ]
+      ]
+    },
+    {
+      "id": "GUEST_L2_UPPER_ROOM_EAST_door_0",
+      "points": [
+        [
+          0.9576000571250916,
+          45.92743682861328,
+          12.352675
+        ],
+        [
+          1.6375999450683594,
+          45.92743682861328,
+          12.352675
+        ]
+      ],
+      "source": "guest actual wall/opening span; architecture registration",
+      "core_status": "FAIL",
+      "failure": {
+        "reason": "BODY_COLUMN",
+        "point": [
+          0.9576,
+          45.92744,
+          12.35268
+        ],
+        "hit": {
+          "object": "FW_FURN_GUEST_L2_BEDROOM_NORTH_service_wardrobe_04_side.001",
+          "location": [
+            0.7776,
+            45.92744,
+            10.88168
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 0.039
+        },
+        "edge": 0
+      },
+      "endpoint_room_memberships": [
+        [
+          "GUEST_L2_BEDROOM_NORTH"
+        ],
+        [
+          "GUEST_L2_BATH"
+        ]
+      ]
+    },
+    {
+      "id": "MAIN_B_WINE_WEST_GAP",
+      "points": [
+        [
+          -4.33,
+          15.21315,
+          -0.55
+        ],
+        [
+          -3.64,
+          15.21315,
+          -0.55
+        ]
+      ],
+      "core_status": "FAIL",
+      "failure": {
+        "reason": "NO_GROUND",
+        "point": [
+          -4.33,
+          15.21315,
+          -0.55
+        ],
+        "expected_ground_z": -2.150000011920929,
+        "edge": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1841 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration07.blend",
+  "scene_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "rooms": [
+    {
+      "id": "MAIN_B_PLUNGE",
+      "label": "Plunge Pool",
+      "building": "MAIN",
+      "level": "B",
+      "z": -2.5,
+      "height": 2.15,
+      "polygon": [
+        [
+          10.7944,
+          8.549100000000001
+        ],
+        [
+          15.772400000000001,
+          8.549100000000001
+        ],
+        [
+          15.772400000000001,
+          9.982800000000001
+        ],
+        [
+          19.2832,
+          9.982800000000001
+        ],
+        [
+          19.2832,
+          9.7173
+        ],
+        [
+          19.8596,
+          9.7173
+        ],
+        [
+          19.8596,
+          5.7879000000000005
+        ],
+        [
+          10.7944,
+          5.7879000000000005
+        ]
+      ],
+      "center": [
+        14.357600000000001,
+        7.3809000000000005,
+        -2.5
+      ],
+      "entry": [
+        19.0736,
+        9.027000000000001,
+        -2.5
+      ],
+      "kind": "pool",
+      "reference": "HABS PA-5346 sheet 03",
+      "evidence": "C",
+      "notes": "Inspection envelope includes wet basin, northeast stair recess and perimeter stonework. It is NOT a continuous dry walkable polygon. Main04 original shows the northern wall stop nearx628. Loggia stair gives pool-edge observation access; a dry ring route to East Terrace is source-unsupported. Model access level-2.50m and water-2.70m remainC.",
+      "source_polygon": [
+        [
+          533,
+          379
+        ],
+        [
+          628,
+          379
+        ],
+        [
+          628,
+          352
+        ],
+        [
+          695,
+          352
+        ],
+        [
+          695,
+          357
+        ],
+        [
+          706,
+          357
+        ],
+        [
+          706,
+          431
+        ],
+        [
+          533,
+          431
+        ]
+      ],
+      "furniture": [],
+      "walkable_polygon": false,
+      "access_scope": "pool_observation_only; no dry through-route",
+      "water_surface_model_z": -2.7,
+      "observation_entry_world": [
+        19.0736,
+        9.027000000000001,
+        -2.5
+      ],
+      "qa_cameras": [
+        "CAM_MAIN_B_PLUNGE_A",
+        "CAM_MAIN_B_PLUNGE_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "MAIN_L1_SERVANT",
+      "label": "Servant Sitting Room",
+      "building": "MAIN",
+      "level": "L1",
+      "z": 0.1,
+      "height": 2.4,
+      "polygon": [
+        [
+          -7.5194,
+          16.5672
+        ],
+        [
+          -7.0216,
+          16.6734
+        ],
+        [
+          -6.550000000000001,
+          16.6203
+        ],
+        [
+          -6.3666,
+          17.27343
+        ],
+        [
+          -4.323,
+          17.27343
+        ],
+        [
+          -4.323,
+          16.49286
+        ],
+        [
+          -4.663600000000001,
+          16.49286
+        ],
+        [
+          -4.663600000000001,
+          14.3901
+        ],
+        [
+          -7.5194,
+          14.3901
+        ]
+      ],
+      "center": [
+        -6.130800000000001,
+        15.3459,
+        0.1
+      ],
+      "entry": [
+        -4.8208,
+        16.7265,
+        0.1
+      ],
+      "kind": "sitting",
+      "reference": "HABS PA-5346 sheet 04",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          183.5,
+          228
+        ],
+        [
+          193,
+          226
+        ],
+        [
+          202,
+          227
+        ],
+        [
+          205.5,
+          214.7
+        ],
+        [
+          244.5,
+          214.7
+        ],
+        [
+          244.5,
+          229.4
+        ],
+        [
+          238,
+          229.4
+        ],
+        [
+          238,
+          269
+        ],
+        [
+          183.5,
+          269
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L1_SERVANT_A",
+        "CAM_MAIN_L1_SERVANT_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "MAIN_L1_COAT",
+      "label": "Coat",
+      "building": "MAIN",
+      "level": "L1",
+      "z": 0.1,
+      "height": 2.4,
+      "polygon": [
+        [
+          8.8032,
+          13.6998
+        ],
+        [
+          10.218,
+          13.6998
+        ],
+        [
+          10.218,
+          12.744
+        ],
+        [
+          8.8032,
+          12.744
+        ]
+      ],
+      "center": [
+        9.5368,
+        13.2219,
+        0.1
+      ],
+      "entry": [
+        8.8032,
+        12.9033,
+        0.1
+      ],
+      "kind": "closet",
+      "reference": "HABS PA-5346 sheet 04",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          495,
+          282
+        ],
+        [
+          522,
+          282
+        ],
+        [
+          522,
+          300
+        ],
+        [
+          495,
+          300
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L1_COAT_A",
+        "CAM_MAIN_L1_COAT_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "MAIN_L2_CLOSET_M",
+      "label": "Master Bedroom Wardrobe",
+      "building": "MAIN",
+      "level": "L2",
+      "z": 2.8448,
+      "height": 2.17,
+      "polygon": [
+        [
+          0.524,
+          12.3192
+        ],
+        [
+          2.0436,
+          12.3192
+        ],
+        [
+          2.0436,
+          11.5227
+        ],
+        [
+          0.524,
+          11.5227
+        ]
+      ],
+      "center": [
+        1.2576,
+        11.9475,
+        2.8448
+      ],
+      "entry": [
+        1.2576,
+        11.416500000000001,
+        2.8448
+      ],
+      "kind": "closet",
+      "reference": "HABS PA-5346 sheet 05",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          337,
+          308
+        ],
+        [
+          366,
+          308
+        ],
+        [
+          366,
+          323
+        ],
+        [
+          337,
+          323
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L2_CLOSET_M_A",
+        "CAM_MAIN_L2_CLOSET_M_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "MAIN_L2_CLOSET_G",
+      "label": "Guest Bedroom Wardrobe",
+      "building": "MAIN",
+      "level": "L2",
+      "z": 2.8448,
+      "height": 2.17,
+      "polygon": [
+        [
+          8.3316,
+          11.416500000000001
+        ],
+        [
+          10.8468,
+          11.416500000000001
+        ],
+        [
+          10.8468,
+          10.6731
+        ],
+        [
+          8.3316,
+          10.6731
+        ]
+      ],
+      "center": [
+        9.5892,
+        10.9917,
+        2.8448
+      ],
+      "entry": [
+        9.5892,
+        10.5669,
+        2.8448
+      ],
+      "kind": "closet",
+      "reference": "HABS PA-5346 sheet 05",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          486,
+          325
+        ],
+        [
+          534,
+          325
+        ],
+        [
+          534,
+          339
+        ],
+        [
+          486,
+          339
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L2_CLOSET_G_A",
+        "CAM_MAIN_L2_CLOSET_G_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "MAIN_L3_BATH",
+      "label": "Bath",
+      "building": "MAIN",
+      "level": "L3",
+      "z": 5.26415,
+      "height": 2.04,
+      "polygon": [
+        [
+          0.4716,
+          15.9831
+        ],
+        [
+          1.834,
+          15.9831
+        ],
+        [
+          1.834,
+          13.9122
+        ],
+        [
+          0.4716,
+          13.9122
+        ]
+      ],
+      "center": [
+        1.1528,
+        14.9742,
+        5.26415
+      ],
+      "entry": [
+        1.572,
+        13.965300000000001,
+        5.26415
+      ],
+      "kind": "bathroom",
+      "reference": "HABS PA-5346 sheet 06",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          336,
+          239
+        ],
+        [
+          362,
+          239
+        ],
+        [
+          362,
+          278
+        ],
+        [
+          336,
+          278
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L3_BATH_A",
+        "CAM_MAIN_L3_BATH_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "MAIN_L3_ALCOVE",
+      "label": "Sleeping Alcove",
+      "building": "MAIN",
+      "level": "L3",
+      "z": 5.26415,
+      "height": 2.04,
+      "polygon": [
+        [
+          5.6592,
+          14.921100000000001
+        ],
+        [
+          7.388400000000001,
+          14.921100000000001
+        ],
+        [
+          7.388400000000001,
+          12.6378
+        ],
+        [
+          5.6592,
+          12.6378
+        ]
+      ],
+      "center": [
+        6.4976,
+        13.806000000000001,
+        5.26415
+      ],
+      "entry": [
+        5.6592,
+        13.0626,
+        5.26415
+      ],
+      "kind": "sleeping_alcove",
+      "reference": "HABS PA-5346 sheet 06",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          435,
+          259
+        ],
+        [
+          468,
+          259
+        ],
+        [
+          468,
+          302
+        ],
+        [
+          435,
+          302
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L3_ALCOVE_A",
+        "CAM_MAIN_L3_ALCOVE_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "MAIN_L3_STAIR",
+      "label": "Gallery Stair L3",
+      "building": "MAIN",
+      "level": "L3",
+      "z": 5.26415,
+      "height": 2.04,
+      "polygon": [
+        [
+          2.096,
+          14.283900000000001
+        ],
+        [
+          5.502000000000001,
+          14.283900000000001
+        ],
+        [
+          5.502000000000001,
+          13.2219
+        ],
+        [
+          2.096,
+          13.2219
+        ]
+      ],
+      "center": [
+        3.7204,
+        13.806000000000001,
+        5.26415
+      ],
+      "entry": [
+        5.5544,
+        13.168800000000001,
+        5.26415
+      ],
+      "kind": "stair",
+      "reference": "HABS PA-5346 sheet 06",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          367,
+          271
+        ],
+        [
+          432,
+          271
+        ],
+        [
+          432,
+          291
+        ],
+        [
+          367,
+          291
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L3_STAIR_A",
+        "CAM_MAIN_L3_STAIR_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "GUEST_L1_BOILER",
+      "label": "Boiler Room",
+      "level": "L1",
+      "polygon": [
+        [
+          3.5681919999999994,
+          42.54012
+        ],
+        [
+          6.044079999999999,
+          42.54012
+        ],
+        [
+          6.044079999999999,
+          41.154168
+        ],
+        [
+          3.5681919999999994,
+          41.154168
+        ]
+      ],
+      "center": [
+        4.827159999999999,
+        41.84978,
+        9.950000000000001
+      ],
+      "entry": [
+        3.5681919999999994,
+        41.702456000000005,
+        8.44
+      ],
+      "kind": "utility",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained.",
+      "building": "GUEST",
+      "z": 8.4,
+      "height": 2.16,
+      "reference": "HABS PA-5346-A sheet 1",
+      "evidence": "A/C",
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_GUEST_L1_BOILER_A",
+        "CAM_GUEST_L1_BOILER_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    }
+  ],
+  "furniture": {
+    "FW_FURN_MAIN_L1_SERVANT_service_settee_00": {
+      "room_id": "MAIN_L1_SERVANT",
+      "asset_type": "service_settee",
+      "objects": [
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_cantilevered_low_base",
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_recessed_base",
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_seat_cushion",
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_cushion_piping",
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_back_cushion",
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_seat_cushion.001",
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_cushion_piping.001",
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_back_cushion.001",
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00_continuous_back_ledge"
+      ],
+      "lo": [
+        -6.945693016052246,
+        15.918813705444336,
+        0.10000000894069672
+      ],
+      "hi": [
+        -4.99981689453125,
+        16.6953125,
+        1.0325000286102295
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L1_SERVANT_service_settee_00",
+        "location": [
+          -5.972754955291748,
+          16.25031280517578,
+          0.10000000149011612
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -5.972754955291748
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            16.25031280517578
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.10000000149011612
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01": {
+      "room_id": "MAIN_L1_SERVANT",
+      "asset_type": "small_sitting_table",
+      "objects": [
+        "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01_thick_horizontal_top",
+        "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01_cross_foot_x",
+        "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01_cross_foot_y",
+        "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01_central_pier"
+      ],
+      "lo": [
+        -6.427754878997803,
+        15.23122787475586,
+        0.10000000149011612
+      ],
+      "hi": [
+        -5.517755031585693,
+        15.781227111816406,
+        0.5799999833106995
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01",
+        "location": [
+          -5.972754955291748,
+          15.506227493286133,
+          0.10000000149011612
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -5.972754955291748
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            15.506227493286133
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.10000000149011612
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02": {
+      "room_id": "MAIN_L1_SERVANT",
+      "asset_type": "sitting_room_casework",
+      "objects": [
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_back_board",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_end_panel",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_end_panel.001",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_horizontal_cantilever_shelf",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.001",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.001",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.001",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.002",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.003",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.001",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.002",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.004",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.005",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.002",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.003",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.006",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.007",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.003",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.002",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.003",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.004",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.008",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.009",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.004",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.005",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.010",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.011",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.005",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.006",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.012",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.013",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.006",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.004",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.005",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.007",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.014",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.015",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.007",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.008",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.016",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.017",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.008",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.009",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.018",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.019",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.009",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.006",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.007",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.010",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.020",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.021",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.010",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.011",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.022",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.023",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.011",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.012",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.024",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.025",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.012",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.008",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.009",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.013",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.026",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.027",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.013",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.014",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.028",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.029",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.014",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.015",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.030",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.031",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.015",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.010",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.011",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.016",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.032",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.033",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.016",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_horizontal_cantilever_shelf.001",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.017",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.034",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.035",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.017",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.012",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.013",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.018",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.036",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.037",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.018",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.019",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.038",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.039",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.019",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.020",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.040",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.041",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.020",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.014",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.015",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.021",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.042",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.043",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.021",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.022",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.044",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.045",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.022",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.023",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.046",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.047",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.023",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.016",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.017",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.024",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.048",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.049",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.024",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.025",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.050",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.051",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.025",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.026",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.052",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.053",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.026",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.018",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.019",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.027",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.054",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.055",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.027",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.028",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.056",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.057",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.028",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.029",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.058",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.059",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.029",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.020",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.021",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.030",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.060",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.061",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.030",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.031",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.062",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.063",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.031",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.032",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.064",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.065",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.032",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.022",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_spine_rule.023",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.033",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.066",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.067",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_spine.033",
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_horizontal_cantilever_shelf.002"
+      ],
+      "lo": [
+        -7.516094207763672,
+        14.758163452148438,
+        0.10000002384185791
+      ],
+      "hi": [
+        -6.2853899002075195,
+        15.188163757324219,
+        1.0800000429153442
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02",
+        "location": [
+          -6.900742053985596,
+          14.948163986206055,
+          0.10000000149011612
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          3.1415927410125732
+        ],
+        "matrix_world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            -6.900742053985596
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            14.948163986206055
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.10000000149011612
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L1_COAT_coat_storage_00": {
+      "room_id": "MAIN_L1_COAT",
+      "asset_type": "coat_storage",
+      "objects": [
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_recessed_plinth",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_lower_shelf",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_top_board",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_side",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_side.001",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_back",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_division",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_door",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_pull",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_division.001",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_door.001",
+        "FW_FURN_MAIN_L1_COAT_coat_storage_00_pull.001"
+      ],
+      "lo": [
+        8.968452453613281,
+        13.110001564025879,
+        0.10000000149011612
+      ],
+      "hi": [
+        10.007108688354492,
+        13.661702156066895,
+        2.049999952316284
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L1_COAT_coat_storage_00",
+        "location": [
+          9.487780570983887,
+          13.422309875488281,
+          0.10000000149011612
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.487780570983887
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            13.422309875488281
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.10000000149011612
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01": {
+      "room_id": "MAIN_L1_COAT",
+      "asset_type": "practical_ceiling_lamp_C",
+      "objects": [
+        "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_porcelain_mount",
+        "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_porcelain_socket",
+        "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_brass_socket_ring",
+        "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_clear_visible_bulb",
+        "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_visible_emissive_filament",
+        "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_protective_metal_guard",
+        "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_protective_metal_guard.001"
+      ],
+      "lo": [
+        9.449615478515625,
+        13.146900177001953,
+        2.312032461166382
+      ],
+      "hi": [
+        9.623985290527344,
+        13.296899795532227,
+        2.5
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01",
+        "location": [
+          9.536800384521484,
+          13.22189998626709,
+          2.5
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.536800384521484
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            13.22189998626709
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "asset_type": "coat_storage",
+      "objects": [
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_recessed_plinth",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_lower_shelf",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_top_board",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_side",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_side.001",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_back",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_division",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_door",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_pull",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_division.001",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_door.001",
+        "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_pull.001"
+      ],
+      "lo": [
+        0.7022343277931213,
+        11.813881874084473,
+        2.8447999954223633
+      ],
+      "hi": [
+        1.8163464069366455,
+        12.289118766784668,
+        4.794800281524658
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+        "location": [
+          1.259290337562561,
+          12.087958335876465,
+          2.8447999954223633
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.259290337562561
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            12.087958335876465
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.8447999954223633
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00": {
+      "room_id": "MAIN_L2_CLOSET_G",
+      "asset_type": "coat_storage",
+      "objects": [
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_recessed_plinth",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_lower_shelf",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_top_board",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_side",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_side.001",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_back",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_division",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_pull",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_division.001",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door.001",
+        "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_pull.001"
+      ],
+      "lo": [
+        8.838632583618164,
+        10.915361404418945,
+        2.8447999954223633
+      ],
+      "hi": [
+        10.25863265991211,
+        11.365110397338867,
+        4.794800281524658
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00",
+        "location": [
+          9.548632621765137,
+          11.1766939163208,
+          2.8447999954223633
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.548632621765137
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            11.1766939163208
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.8447999954223633
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L3_BATH_washbasin_00": {
+      "room_id": "MAIN_L3_BATH",
+      "asset_type": "washbasin",
+      "objects": [
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_pedestal",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_washbasin",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_tap_deck",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_basin_spout",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_hot_cold_tap",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_hot_cold_tap.001",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_drain",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_mirror_frame",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_mirror",
+        "FW_FURN_MAIN_L3_BATH_washbasin_00_mirror_glass_shelf"
+      ],
+      "lo": [
+        0.842799961566925,
+        13.978170394897461,
+        5.264150142669678
+      ],
+      "hi": [
+        1.4628000259399414,
+        14.535070419311523,
+        6.9591498374938965
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L3_BATH_washbasin_00",
+        "location": [
+          1.1527999639511108,
+          14.305670738220215,
+          5.264150142669678
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          3.1415927410125732
+        ],
+        "matrix_world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            1.1527999639511108
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            14.305670738220215
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.264150142669678
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L3_BATH_water_closet_01": {
+      "room_id": "MAIN_L3_BATH",
+      "asset_type": "water_closet",
+      "objects": [
+        "FW_FURN_MAIN_L3_BATH_water_closet_01_foot",
+        "FW_FURN_MAIN_L3_BATH_water_closet_01_bowl_shell",
+        "FW_FURN_MAIN_L3_BATH_water_closet_01_open_seat",
+        "FW_FURN_MAIN_L3_BATH_water_closet_01_cistern",
+        "FW_FURN_MAIN_L3_BATH_water_closet_01_cistern_lid",
+        "FW_FURN_MAIN_L3_BATH_water_closet_01_flush_lever",
+        "FW_FURN_MAIN_L3_BATH_water_closet_01_inlet"
+      ],
+      "lo": [
+        0.9205999374389648,
+        15.133810997009277,
+        5.264150142669678
+      ],
+      "hi": [
+        1.3849999904632568,
+        15.898211479187012,
+        6.062150001525879
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L3_BATH_water_closet_01",
+        "location": [
+          1.1527999639511108,
+          15.548211097717285,
+          5.264150142669678
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.1527999639511108
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            15.548211097717285
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.264150142669678
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L3_BATH_towel_rail_02": {
+      "room_id": "MAIN_L3_BATH",
+      "asset_type": "towel_rail",
+      "objects": [
+        "FW_FURN_MAIN_L3_BATH_towel_rail_02_rail",
+        "FW_FURN_MAIN_L3_BATH_towel_rail_02_folded_towel"
+      ],
+      "lo": [
+        0.920799970626831,
+        14.24354362487793,
+        5.744150161743164
+      ],
+      "hi": [
+        1.3847999572753906,
+        14.361043930053711,
+        6.1561503410339355
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L3_BATH_towel_rail_02",
+        "location": [
+          1.1527999639511108,
+          14.24354362487793,
+          5.264150142669678
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          3.1415927410125732
+        ],
+        "matrix_world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            1.1527999639511108
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            14.24354362487793
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.264150142669678
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03": {
+      "room_id": "MAIN_L3_BATH",
+      "asset_type": "practical_ceiling_lamp_C",
+      "objects": [
+        "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_porcelain_mount",
+        "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_porcelain_socket",
+        "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_brass_socket_ring",
+        "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+        "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+        "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_protective_metal_guard",
+        "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_protective_metal_guard.001"
+      ],
+      "lo": [
+        1.0656145811080933,
+        14.899200439453125,
+        7.116182327270508
+      ],
+      "hi": [
+        1.2399853467941284,
+        15.049200057983398,
+        7.304150104522705
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03",
+        "location": [
+          1.1527999639511108,
+          14.974200248718262,
+          7.304150104522705
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.1527999639511108
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            14.974200248718262
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            7.304150104522705
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L3_ALCOVE_single_bed_00": {
+      "room_id": "MAIN_L3_ALCOVE",
+      "asset_type": "single_bed",
+      "objects": [
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_walnut_platform",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_recessed_support",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_mattress",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_woven_bedcover",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_cover_foot_drop",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_cover_side_drop",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_cover_side_drop.001",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_pillow",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_low_horizontal_headboard",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_headboard_top_ledge",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_cover_hem",
+        "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_cover_hem.001"
+      ],
+      "lo": [
+        5.669003963470459,
+        13.249957084655762,
+        5.264150142669678
+      ],
+      "hi": [
+        6.929004192352295,
+        14.881269454956055,
+        6.369150161743164
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L3_ALCOVE_single_bed_00",
+        "location": [
+          6.299004077911377,
+          14.03061294555664,
+          5.264150142669678
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.299004077911377
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            14.03061294555664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.264150142669678
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01": {
+      "room_id": "MAIN_L3_ALCOVE",
+      "asset_type": "cantilever_bedside_drawers",
+      "objects": [
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_recessed_plinth",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_lower_shelf",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_top_board",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_side",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_side.001",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_back",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_division",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_drawer",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_pull",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_drawer.001",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_pull.001",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_drawer.002",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_pull.002",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_division.001",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_drawer.003",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_pull.003",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_drawer.004",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_pull.004",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_drawer.005",
+        "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01_pull.005"
+      ],
+      "lo": [
+        6.900638580322266,
+        14.049392700195312,
+        5.264150142669678
+      ],
+      "hi": [
+        7.318354606628418,
+        14.551861763000488,
+        5.804150104522705
+      ],
+      "root": {
+        "name": "FW_FURN_MAIN_L3_ALCOVE_cantilever_bedside_drawers_01",
+        "location": [
+          7.109496593475342,
+          14.33186149597168,
+          5.264150142669678
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            7.109496593475342
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            14.33186149597168
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.264150142669678
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_GUEST_L1_BOILER_service_boiler_00": {
+      "room_id": "GUEST_L1_BOILER",
+      "asset_type": "service_boiler",
+      "objects": [
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_equipment_pad",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_boiler_body",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_section_rib",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_section_rib.001",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_section_rib.002",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_section_rib.003",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_section_rib.004",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_burner_door",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_flue",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_service_pipe",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_valve",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_service_pipe.001",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_valve.001",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_pressure_gauge",
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00_gauge_face"
+      ],
+      "lo": [
+        3.8119983673095703,
+        41.488624572753906,
+        8.399999618530273
+      ],
+      "hi": [
+        4.878983020782471,
+        42.51862335205078,
+        10.769999504089355
+      ],
+      "root": {
+        "name": "FW_FURN_GUEST_L1_BOILER_service_boiler_00",
+        "location": [
+          4.286998271942139,
+          42.003623962402344,
+          8.399999618530273
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.286998271942139
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            42.003623962402344
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            8.399999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_GUEST_L1_BOILER_service_pressure_vessel_01": {
+      "room_id": "GUEST_L1_BOILER",
+      "asset_type": "service_pressure_vessel",
+      "objects": [
+        "FW_FURN_GUEST_L1_BOILER_service_pressure_vessel_01_tank",
+        "FW_FURN_GUEST_L1_BOILER_service_pressure_vessel_01_tank_connection"
+      ],
+      "lo": [
+        5.234625816345215,
+        41.967491149902344,
+        8.399999618530273
+      ],
+      "hi": [
+        5.714625358581543,
+        42.44749450683594,
+        10.045537948608398
+      ],
+      "root": {
+        "name": "FW_FURN_GUEST_L1_BOILER_service_pressure_vessel_01",
+        "location": [
+          5.474625587463379,
+          42.20749282836914,
+          8.399999618530273
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            5.474625587463379
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            42.20749282836914
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            8.399999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02": {
+      "room_id": "GUEST_L1_BOILER",
+      "asset_type": "practical_ceiling_lamp_C",
+      "objects": [
+        "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_porcelain_mount",
+        "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_porcelain_socket",
+        "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_brass_socket_ring",
+        "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_clear_visible_bulb",
+        "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_visible_emissive_filament",
+        "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_protective_metal_guard",
+        "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_protective_metal_guard.001"
+      ],
+      "lo": [
+        4.739974498748779,
+        41.7747802734375,
+        10.37203311920166
+      ],
+      "hi": [
+        4.9143452644348145,
+        41.924781799316406,
+        10.5600004196167
+      ],
+      "root": {
+        "name": "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02",
+        "location": [
+          4.827159881591797,
+          41.84978103637695,
+          10.5600004196167
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.827159881591797
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            41.84978103637695
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            10.5600004196167
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "scope": "Read only; original object world bounding boxes, not new ray visibility or geometric acceptance."
+}

@@ -1,0 +1,596 @@
+{
+  "status": "PASS_INSTALL_WITH_OPEN_ISSUES",
+  "source_scene": {
+    "file": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration04.blend",
+    "frame": 73,
+    "file_size": 43167849,
+    "file_modified_unix": 1789892282.7132976
+  },
+  "ray_cast_calls": 132139,
+  "body_radius_m": 0.18,
+  "eye_height_m": 1.6,
+  "sampling_step_m": 0.25,
+  "ray_source": "BVH of actual world-transformed mesh polygons; curves evaluated. Base meshes conservatively retain unrounded bevel corners.",
+  "indexed_geometry": {
+    "vertices": 13314864,
+    "polygons": 11327666
+  },
+  "indexed_world_bounds": [
+    [
+      -31,
+      38
+    ],
+    [
+      -43,
+      57.972080000000005
+    ],
+    [
+      -4.8467,
+      46
+    ]
+  ],
+  "spatial_filter": "Only objects whose world bounds intersect the full room/tour domain; every tested ray lies inside this domain.",
+  "stair_seam_ground_recoveries": 26,
+  "candidate_hints": "Embedded room centers/entries plus HABS-registered threshold probe coordinates; every candidate still passes actual mesh tests.",
+  "ground_tolerance_m": 0.19,
+  "ground_origin_above_expected_m": 0.32,
+  "normal_walk_tests": "Ground height/normal; five vertical body columns; path rays at 0.30,0.72,1.13,1.60m with lateral offsets; camera clearance.",
+  "free_inspection_tests": "Camera point clearance and continuous camera-radius ray sweep; no walking or ground claim.",
+  "door_connections": [
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "MAIN_L1_ENTRY",
+      "to": "MAIN_L1_LIVING",
+      "points": [
+        [
+          7.90192,
+          11.26357,
+          1.7
+        ],
+        [
+          7.7552,
+          10.38,
+          1.7
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_KITCHEN",
+      "points": [
+        [
+          0.3668,
+          13.88565,
+          1.7
+        ],
+        [
+          -0.1572,
+          13.88565,
+          1.7
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_MASTER",
+      "points": [
+        [
+          2.6724,
+          12.8502,
+          4.4448
+        ],
+        [
+          2.7772,
+          12.4254,
+          4.4448
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_STUDY",
+      "points": [
+        [
+          0.4496,
+          13.2219,
+          6.86415
+        ],
+        [
+          -0.4716,
+          13.2219,
+          6.86415
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "GUEST_L1_LOUNGE",
+      "to": "GUEST_L1_GALLERY",
+      "points": [
+        [
+          10.33424,
+          37.99624,
+          10.0
+        ],
+        [
+          10.31992,
+          38.88826,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_GUEST_ROOM",
+      "points": [
+        [
+          13.97179,
+          39.74654,
+          10.0
+        ],
+        [
+          14.82788,
+          39.63056,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "GUEST_L1_GUEST_ROOM",
+      "to": "GUEST_L1_TERRACE",
+      "points": [
+        [
+          18.79959,
+          38.96928,
+          10.0
+        ],
+        [
+          19.6936,
+          39.07976,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    }
+  ],
+  "connector": {
+    "status": "PASS_MESH_AND_GROUND",
+    "test": "Actual covered-connector tread centers; body-column start 0.24m permits tread noses, horizontal rays begin at 0.30m",
+    "tread_count": 50
+  },
+  "main_connector_access": {
+    "status": "INCOMPLETE_CONNECTION_EVIDENCE",
+    "required_room_sequence": [
+      "MAIN_L3_GALLERY",
+      "MAIN_L3_STAIR",
+      "MAIN_L2_STAIR",
+      "MAIN_L2_HALL",
+      "MAIN_L2_TERRACE_N",
+      "MAIN_L3_LINK",
+      "GUEST_L1_STAIR_HALL"
+    ],
+    "forbidden_inference": "No MAIN_L3_GALLERY/ALCOVE to LINK direct north-wall door exists.",
+    "segments": [
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L3_GALLERY",
+        "to": "TOUR_QA_GALLERY_TO_INNER_STAIR",
+        "points": [
+          [
+            1.82876,
+            13.73272,
+            6.86415
+          ],
+          [
+            2.21764,
+            13.82193,
+            6.86415
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "GALLERY_TO_INNER_STAIR"
+      },
+      {
+        "id": "INNER_STAIR_DESCENT",
+        "status": "PASS_MESH_AND_GROUND",
+        "points": [
+          [
+            2.2176427841186523,
+            13.821929931640625,
+            6.864149665832519
+          ],
+          [
+            2.460928440093994,
+            13.821929931640625,
+            6.691339111328125
+          ],
+          [
+            2.704214096069336,
+            13.821929931640625,
+            6.51852855682373
+          ],
+          [
+            2.947499990463257,
+            13.821929931640625,
+            6.345718002319336
+          ],
+          [
+            3.1907856464385986,
+            13.821929931640625,
+            6.172906970977783
+          ],
+          [
+            3.4340713024139404,
+            13.821929931640625,
+            6.000096416473388
+          ],
+          [
+            3.6773571968078613,
+            13.821929931640625,
+            5.827285861968994
+          ],
+          [
+            3.920642852783203,
+            13.821929931640625,
+            5.654474830627441
+          ],
+          [
+            4.163928508758545,
+            13.821929931640625,
+            5.4816642761230465
+          ],
+          [
+            4.407214164733887,
+            13.821929931640625,
+            5.308853721618652
+          ],
+          [
+            4.6504998207092285,
+            13.821929931640625,
+            5.136042690277099
+          ],
+          [
+            4.89378547668457,
+            13.821929931640625,
+            4.963232135772705
+          ],
+          [
+            5.137071132659912,
+            13.821929931640625,
+            4.79042158126831
+          ],
+          [
+            5.380356788635254,
+            13.821929931640625,
+            4.6176105499267575
+          ]
+        ],
+        "failure": null
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "TOUR_QA_INNER_STAIR_TO_L2_HALL",
+        "to": "MAIN_L2_HALL",
+        "points": [
+          [
+            5.38036,
+            13.82193,
+            4.61761
+          ],
+          [
+            6.6548,
+            14.08,
+            4.4448
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "INNER_STAIR_TO_L2_HALL"
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L2_HALL",
+        "to": "MAIN_L2_TERRACE_N",
+        "points": [
+          [
+            6.6548,
+            14.61153,
+            4.4448
+          ],
+          [
+            7.06771,
+            16.54171,
+            4.4448
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "L2_HALL_TO_NORTH_TERRACE"
+      },
+      {
+        "status": "BLOCKED_NO_VALIDATED_PATH",
+        "from": "MAIN_L2_TERRACE_N",
+        "to": "TOUR_QA_NORTH_TERRACE_TO_OUTER_STAIR",
+        "claim": "Straight and bounded turning searches did not prove connection; missing geometry or search resolution may need review.",
+        "examples": [
+          {
+            "reason": "GROUND_HEIGHT_OR_NORMAL",
+            "point": [
+              7.52987,
+              22.34897,
+              4.51353
+            ],
+            "expected_ground_z": 2.91353120803833,
+            "delta": -0.3636012080383302,
+            "hit": {
+              "object": "SITE_Continuous_BearRun_Terrain",
+              "location": [
+                7.52987,
+                22.34897,
+                2.54993
+              ],
+              "normal": [
+                -0.0084,
+                -0.10482,
+                0.99446
+              ],
+              "distance": 0.6836
+            }
+          },
+          {
+            "reason": "GROUND_HEIGHT_OR_NORMAL",
+            "point": [
+              7.44467,
+              22.46975,
+              4.5204
+            ],
+            "expected_ground_z": 2.920404815673828,
+            "delta": -0.35834481567382825,
+            "hit": {
+              "object": "SITE_Continuous_BearRun_Terrain",
+              "location": [
+                7.44467,
+                22.46975,
+                2.56206
+              ],
+              "normal": [
+                -0.00682,
+                -0.10638,
+                0.9943
+              ],
+              "distance": 0.67835
+            }
+          },
+          {
+            "reason": "BODY_COLUMN",
+            "point": [
+              7.196,
+              22.24833,
+              4.5078
+            ],
+            "hit": {
+              "object": "MAIN_L2_north_terrace_wall_1",
+              "location": [
+                7.196,
+                22.42833,
+                3.649
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "distance": 0.5012
+            }
+          },
+          {
+            "reason": "BODY_COLUMN",
+            "point": [
+              7.02177,
+              22.24833,
+              4.5078
+            ],
+            "hit": {
+              "object": "MAIN_L2_north_terrace_wall_1",
+              "location": [
+                7.02177,
+                22.42833,
+                3.649
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "distance": 0.5012
+            }
+          }
+        ],
+        "search": {
+          "status": "GRID_PATH_NOT_FOUND",
+          "visited_nodes": 221,
+          "tested_nodes": 303,
+          "grid_m": 0.24
+        },
+        "id": "NORTH_TERRACE_TO_OUTER_STAIR"
+      },
+      {
+        "id": "OUTER_CURVED_STAIR_ASCENT",
+        "status": "PASS_MESH_AND_GROUND",
+        "points": [
+          [
+            7.821630954742432,
+            23.798259735107422,
+            4.596009349822998
+          ],
+          [
+            8.157512664794922,
+            23.73055648803711,
+            4.7472187042236325
+          ],
+          [
+            8.473905563354492,
+            23.59775161743164,
+            4.898428058624267
+          ],
+          [
+            8.758651733398438,
+            23.404949188232422,
+            5.049637413024902
+          ],
+          [
+            9.000808715820312,
+            23.159557342529297,
+            5.200846767425537
+          ],
+          [
+            9.191070556640625,
+            22.87100601196289,
+            5.352056360244751
+          ],
+          [
+            9.322124481201172,
+            22.550386428833008,
+            5.503265714645385
+          ],
+          [
+            9.388935089111328,
+            22.210018157958984,
+            5.654474830627441
+          ],
+          [
+            9.388935089111328,
+            21.86298179626465,
+            5.805684185028076
+          ],
+          [
+            9.322124481201172,
+            21.522611618041992,
+            5.956893539428711
+          ],
+          [
+            9.191070556640625,
+            21.20199203491211,
+            6.108102893829345
+          ],
+          [
+            9.000808715820312,
+            20.91344451904297,
+            6.259312725067138
+          ],
+          [
+            8.758651733398438,
+            20.668052673339844,
+            6.410522079467773
+          ],
+          [
+            8.473905563354492,
+            20.475248336791992,
+            6.561731433868408
+          ],
+          [
+            8.157511711120605,
+            20.342443466186523,
+            6.712940788269043
+          ],
+          [
+            7.821630954742432,
+            20.27474021911621,
+            6.864150142669677
+          ]
+        ],
+        "failure": null
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "TOUR_QA_OUTER_STAIR_TO_UPPER_LANDING",
+        "to": "MAIN_L3_LINK",
+        "points": [
+          [
+            7.82163,
+            20.27474,
+            6.86415
+          ],
+          [
+            6.86859,
+            20.78122,
+            6.86415
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "OUTER_STAIR_TO_UPPER_LANDING"
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L3_LINK",
+        "to": "TOUR_QA_UPPER_LANDING_TO_COVERED_CONNECTOR",
+        "points": [
+          [
+            6.38442,
+            21.57559,
+            6.86415
+          ],
+          [
+            6.4976,
+            22.302,
+            6.86415
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "UPPER_LANDING_TO_COVERED_CONNECTOR"
+      }
+    ],
+    "film_transition": "STUDY to CONNECTOR is an explicit cut, not proof of access from gallery."
+  },
+  "room_issues": [],
+  "camera_values_and_coverage": "PASS_CAMERA_VALUES_AND_COVERAGE",
+  "all_adjacency_status": "INCOMPLETE_FULL_ADJACENCY_ACCEPTANCE",
+  "all_adjacency_counts": {
+    "PASS": 43,
+    "FAIL": 9,
+    "NOT_RUN": 9
+  },
+  "exterior_lift_attempts": [
+    {
+      "height_adjustment_m": 0,
+      "failure": {
+        "reason": "CAMERA_CLEARANCE",
+        "point": [
+          -14.32857,
+          -37.47143,
+          4.31429
+        ],
+        "hit": {
+          "object": "TREE_Far_059_Branches",
+          "location": [
+            -14.32857,
+            -37.59369,
+            4.31429
+          ],
+          "normal": [
+            0.5674,
+            0.80324,
+            -0.18129
+          ],
+          "distance": 0.12226
+        },
+        "edge": 1
+      }
+    }
+  ],
+  "blocked_main_segments": [],
+  "limits": [
+    "Ray sampling does not prove full capsule collisions.",
+    "Rendered image and GUI performance remain untested.",
+    "Straight-line doorway failure may require a turn; no positive connectivity claim is made."
+  ]
+}

@@ -1,0 +1,3414 @@
+{
+  "status": "NEW_DECODED_HASH_ARCHIVE_OLD_VDB_FULL_ARRAY_REFERENCE_UNAVAILABLE",
+  "frames": [
+    {
+      "frame": 1,
+      "vdb_sha256": "be69a020748737c420735c433296c97f188fac0ec4a9c324d8a08480cc98cfd2",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "609840",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "2bb9f46deca860781ca0ad68b04d1e5bd707f4a6b3cef75f27b402a01682e3e4",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(30, 23, 16)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "347887",
+            "file_voxel_count": "338",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "b048ce256f21bd45b8c90931b122e3c8f900be9a12cdfb007fd2b78195c9d3d6",
+          "min": -3.45703125,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "1e08e26a91ab9d7b4ef8591571835ab45731dbe6e001684e7e339b29eac4d618",
+          "min": -0.521484375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "404016",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "a948fb1a31db16bab211e2f31553df0a87849601841015fe6a31671a2363328f",
+          "min": -2.810546875,
+          "max": 0.5,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(25, 18, 11)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "743840",
+            "file_voxel_count": "2654",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "7ba1361993bab819c77be39f1b874f166f547729f1f0c9ba74f23148c7db4ef9",
+          "min": -85.125,
+          "max": 18.421875,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(-2147483648, -2147483648, -2147483648)",
+            "file_bbox_min": "(2147483647, 2147483647, 2147483647)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "1256",
+            "file_voxel_count": "0",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "40ac2743013f984c5506e7ba2620b599ef097d478fe2b5adec481bc4a7ec6d9a",
+          "min": 0.0,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "vdb_sha256": "3a6e7cfeb5ed4d10e5360f36f9f331d5a8c422711797ee0c03a5d8b51bc5c2e5",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "9190cc6c84c474da92e7c221856b3b99c3084ce55b0f3cf7f8f98b2e1bd55a64",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(28, 22, 8)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "437493",
+            "file_voxel_count": "639",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "0baeb875eed8489469780601f90bad90a4f4251b5a8882381e8bc764b6d115ed",
+          "min": -4.578125,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e508951b3cc475011c3a0e3dd9e0597cbf820ce95c0c7e382b7e89400efb5f85",
+          "min": -0.85693359375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "b4a2f33d13172427e14e0d98399b75cfc0925d851fa4f30d6173b5b02488de48",
+          "min": -3.45703125,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(24, 17, 3)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "775040",
+            "file_voxel_count": "4034",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "90a14df06c3e2c38b246dfa18fccb9ca9372462e6409304cbe5837c4b0ea3fdc",
+          "min": -80.0,
+          "max": 2.119140625,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(25, 18, 11)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "743840",
+            "file_voxel_count": "2654",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "7ba1361993bab819c77be39f1b874f166f547729f1f0c9ba74f23148c7db4ef9",
+          "min": -85.125,
+          "max": 18.421875,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "vdb_sha256": "76fa65570ca25e821c490b69ac4fd6871c76cf1d82cbf874a0930aa9e7aed31a",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "2d7d8b72f62f914293323d1a7b9863c0cbdea9e32a5e5cdd5a90453d88b4952c",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(27, 21, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "520597",
+            "file_voxel_count": "948",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "6c2f211f5828b06a3792126c3152afb434004eb01c1c2731f93623b2cb84b09c",
+          "min": -3.763671875,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "5241a622d26d32e705904e531071144bdb12ff338cc32a62fc7270f3e59c352e",
+          "min": -0.8544921875,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e5186688bd94bc755f903711665e7a036aa2cc910e28a19156cd53585dfecf4e",
+          "min": -4.578125,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 16, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5223",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "0a245a7f5321b566c6fb4fde7be1ef4b6278ece9b77a5366a2fe120eb1caf895",
+          "min": -82.625,
+          "max": 1.4453125,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(24, 17, 3)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "775040",
+            "file_voxel_count": "4034",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "90a14df06c3e2c38b246dfa18fccb9ca9372462e6409304cbe5837c4b0ea3fdc",
+          "min": -80.0,
+          "max": 2.119140625,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "vdb_sha256": "af2eadbe1527ca395f955b48b4c5efba52e672d2230710d854cc8ca92329be5f",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "3b9d53e7799aa049bbe0c1c2c5e4d21acbf0f94769127b6f836606c7b45df0cb",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "559451",
+            "file_voxel_count": "1028",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "f159e64fb5240ad5f28ed7144d4e7100b21ebabed17c48f6954455f3152443cd",
+          "min": -3.7578125,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e6f15690aa78d3ba610c9d1d96b114538cb95fb1a93cb143d337d5548a642917",
+          "min": -0.8583984375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "ad498453a95e6dd5149f0ec15d84b76781099cd580a0236e95177e5b6e0d8ba6",
+          "min": -3.763671875,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "818720",
+            "file_voxel_count": "5471",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "32b54a40ebc3d3bef6aa361aea99635fcc99cd284db86edf9f21f35b8ae72803",
+          "min": -85.9375,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 16, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5223",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "0a245a7f5321b566c6fb4fde7be1ef4b6278ece9b77a5366a2fe120eb1caf895",
+          "min": -82.625,
+          "max": 1.4453125,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "vdb_sha256": "2fc0f5de03206596fbe833c4752f48b03b05faa8d2457ccc711dcfcf4578185e",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "b5d0d1d49b8edeef9696a4e1baf7228acd7326a34b652adb900da10027e9b5d6",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "560127",
+            "file_voxel_count": "1009",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "4fac1199f29897ad3e2880275bad07c62add34aeb87477452450e4878b4f623d",
+          "min": -3.736328125,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "b89d79b345f601b937104ea03eeedad6d86c442b4c8094d197647f6a3326af91",
+          "min": -0.86474609375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "b16f905ce06b35a396a7834218b0233e0d1cdc4821893bd7ef43f29ea48cac7a",
+          "min": -3.7578125,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5409",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "ad852529ba2f60604d54066ace1f59e083f166cf5c2e6cbbb19e6da40fe4300b",
+          "min": -84.625,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "818720",
+            "file_voxel_count": "5471",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "32b54a40ebc3d3bef6aa361aea99635fcc99cd284db86edf9f21f35b8ae72803",
+          "min": -85.9375,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "vdb_sha256": "618f093b70c199b5acec066d45b1ca0dcb12fa723aeef20cf510139bd713c41b",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "ead0b410df0ab5740a79c6cb56b7c7f1878fb39a258fbd356463fb884745a15c",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "555217",
+            "file_voxel_count": "970",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "4f0ad6d1171555305a210886ba707b867517e92a5169db383204782331b49f68",
+          "min": -3.755859375,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "b341139f3416fcf7f5b35f018c5c29176c159b99da6eee292e144c1699933519",
+          "min": -0.8515625,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "a9a40efedcc313cbcedb4d2099627b39bf5a369250d88aced799e153743424a8",
+          "min": -3.736328125,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5330",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "90070bfebc09d9299c0e889c320ac08a77ae39939d784f6465b5fc2c605bfb93",
+          "min": -84.0,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5409",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "ad852529ba2f60604d54066ace1f59e083f166cf5c2e6cbbb19e6da40fe4300b",
+          "min": -84.625,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "vdb_sha256": "88bcec5e85795ad8f3c19aaa0211993e7c7203488b1e6eb684810f22c7e2133e",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "47341160ed558d22c032fdb0d083f1397ed4a682920fcf73d6384e6a2db89336",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "554773",
+            "file_voxel_count": "965",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "470e232aef6411967a1ab3e34fd7e725475a3425572e74b854c29bc1cce0cd74",
+          "min": -3.755859375,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "fd6af8fb4486ee88644257afcd5496bfb7c66e597119cab6bfd0037ca106ac14",
+          "min": -0.85302734375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "29207a37395ff7ac3f848455965217fc62c510374c8a9823be22aadd56d7df4d",
+          "min": -3.755859375,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5304",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "3aeb1b3060b368238b47e4aee25739cb2ced124df33a5116d582b0c0190c7e30",
+          "min": -84.625,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5330",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "90070bfebc09d9299c0e889c320ac08a77ae39939d784f6465b5fc2c605bfb93",
+          "min": -84.0,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "vdb_sha256": "bcfb51882835fb0a41b3ca5699740767988204cc62368d1f3981a0ac8f0aa65a",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "a906511d76962c64758811afca23a90e61e5ebb468e97f6e6f17c3f415570aa3",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "553509",
+            "file_voxel_count": "968",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "5745076071ddb20a539e0165ad4155f628176428aa60915fd711a674eb42b5c5",
+          "min": -3.75,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "69748f60f521e8c3c69f08224c25a5b32d1849a162dabeb6ed4727a97fb25864",
+          "min": -0.85302734375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "39ffd5513b05b39ab6856589cb99eab92651dee9e19b3a475043d828d913d8ae",
+          "min": -3.755859375,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5306",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "8d7a858943390b824c8f857f6f7658343530fb1b826471e261dc39fdcb58d9a4",
+          "min": -84.75,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5304",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "3aeb1b3060b368238b47e4aee25739cb2ced124df33a5116d582b0c0190c7e30",
+          "min": -84.625,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "vdb_sha256": "c43efe30b4f91d7d4274bb1547261b0ac32105ee6f711290f46a23737a2201f5",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "546e4456f93b0ef5e691131d9f2018d42097a09ff11d9e523ee04abb703c66dd",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "554447",
+            "file_voxel_count": "965",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "b5e16978e4756b55471007cd2c40e99cbd75aea8f4b061428d63995a650b99b0",
+          "min": -3.75390625,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "4da7a6d39ef603e0760da38675d7789683a31603a024375bd0860f10ead10630",
+          "min": -0.85302734375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "6ded6879561b1cfdfd0b4e3b10178c3cc0ae86329a4b5bf5a6037b1ee3aa10ca",
+          "min": -3.75,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5305",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "ad1442efc2ab73cde0f6680f141d9822f6b1087bf62c41fe122f6ebb8f65bf9c",
+          "min": -84.75,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5306",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "8d7a858943390b824c8f857f6f7658343530fb1b826471e261dc39fdcb58d9a4",
+          "min": -84.75,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "vdb_sha256": "c598c389e30969e85aa5ae86064226a9b65adb065cbb92fc855c603d3babf682",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "47341160ed558d22c032fdb0d083f1397ed4a682920fcf73d6384e6a2db89336",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "555149",
+            "file_voxel_count": "968",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "814096312921ca2a59da6f7078d3132036ac047eee75f58f0267a44f838e3cfe",
+          "min": -3.755859375,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "b10e45c39fd3f646513ac9432314af711098fb585f298b4cf3ea15ae557e9970",
+          "min": -0.85302734375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "35e69c6ee3dce03e5a142b42dcc06ad9262fd30a389bfcd4cac2643906b9ae58",
+          "min": -3.75390625,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5304",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "3ca4920087c43871ef550dba853cb181d6a5833761de5854ad6b7555222e7581",
+          "min": -84.8125,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5305",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "ad1442efc2ab73cde0f6680f141d9822f6b1087bf62c41fe122f6ebb8f65bf9c",
+          "min": -84.75,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "vdb_sha256": "2f3867eac8b56ffea0e2ed7623693155b1a1579186e705a852fb3d4b3c142f86",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "546e4456f93b0ef5e691131d9f2018d42097a09ff11d9e523ee04abb703c66dd",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "556409",
+            "file_voxel_count": "968",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "30123431191e9754559c0ea99eb20f16258cfec4e9e8ef11b4f0ef3fbf3e0a92",
+          "min": -3.75390625,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "0d2ed209ad0e6c099e95050da0224066be4fb1bb7667251ec9dd3bcf596a0185",
+          "min": -0.85302734375,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "12ed341a75a569d5423adad20a2c303eaff7bae90feeadfdaf23ed2b94b05887",
+          "min": -3.755859375,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5305",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "898212879088fc50d18adf14c4e90a269fcb6c6a5f71a4015c0cbc785588a2ef",
+          "min": -84.9375,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5304",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "3ca4920087c43871ef550dba853cb181d6a5833761de5854ad6b7555222e7581",
+          "min": -84.8125,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "vdb_sha256": "c6d076a2b113d6f81723d379679bf709d8d929f53978d10c37e392d275fd2628",
+      "grids": [
+        {
+          "name": "flags",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "611984",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "flags"
+          },
+          "type": "int32",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "int32",
+          "decoded_dense_domain_sha256": "546e4456f93b0ef5e691131d9f2018d42097a09ff11d9e523ee04abb703c66dd",
+          "min": 1.0,
+          "max": 20.0,
+          "finite": true
+        },
+        {
+          "name": "particles",
+          "metadata": {
+            "class": "unknown",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(37, 29, 25)",
+            "file_bbox_min": "(26, 20, 1)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "556297",
+            "file_voxel_count": "967",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "particles"
+          },
+          "decoded_hash_error": "LookupError('Cannot create attribute of unregistered type int32_trnc')"
+        },
+        {
+          "name": "phi",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "94cec1440580a351d1fec02cfed4a25bd89d38ecc4cde1498f58c9accb9f06f6",
+          "min": -3.75390625,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "phi_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "616272",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "d47cba04ea214a04e5e8bc98c658995f938bc42d7ce6a737d29d59286e7c8c87",
+          "min": -2.810546875,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "588400",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_obstacle_inflow"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "e4b7a2fe8ea3ee18155117d565597769017c63565fe3579cbcbefdb2c52f27a3",
+          "min": 3.662109375,
+          "max": 46.8125,
+          "finite": true
+        },
+        {
+          "name": "phi_out",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "382576",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_out"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "9c2da483abbf4722719d148f84cafadee68427963bef9825cbea6365d993d2ad",
+          "min": 10000.0,
+          "max": 10000.0,
+          "finite": true
+        },
+        {
+          "name": "phi_particles",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "614128",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_particles"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "2734afdaa5f2cc0533056adc8d0686ef15802db8d061809e5ec3abb9e8c6b08e",
+          "min": -0.85205078125,
+          "max": 0.87451171875,
+          "finite": true
+        },
+        {
+          "name": "phi_previous",
+          "metadata": {
+            "class": "level set",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(47, 47, 37)",
+            "file_bbox_min": "(0, 0, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "620560",
+            "file_voxel_count": "87552",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "phi_previous"
+          },
+          "type": "float",
+          "shape": [
+            48,
+            48,
+            38
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "26ed35cbb82eb438610ec138ba2679273077a368cacf5334c3712e2d1aff3df9",
+          "min": -3.75390625,
+          "max": 5.0,
+          "finite": true
+        },
+        {
+          "name": "velocity",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5305",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "37647a653d1922ffa18f767c6423ae4e5cb9f204f62885037169adaaceee8208",
+          "min": -85.0,
+          "max": 0.0,
+          "finite": true
+        },
+        {
+          "name": "velocity_previous",
+          "metadata": {
+            "class": "staggered",
+            "file_base_resolution": "(48, 48, 38)",
+            "file_bbox_max": "(42, 34, 30)",
+            "file_bbox_min": "(22, 15, 0)",
+            "file_compression": "blosc",
+            "file_mem_bytes": "812480",
+            "file_voxel_count": "5305",
+            "file_voxel_size": "0.03750000149011612",
+            "is_saved_as_half_float": "True",
+            "name": "velocity_previous"
+          },
+          "type": "vec3s",
+          "shape": [
+            48,
+            48,
+            38,
+            3
+          ],
+          "dtype": "float32",
+          "decoded_dense_domain_sha256": "898212879088fc50d18adf14c4e90a269fcb6c6a5f71a4015c0cbc785588a2ef",
+          "min": -84.9375,
+          "max": 0.0,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "old_vdb_decoded_equality_claimed": false
+}

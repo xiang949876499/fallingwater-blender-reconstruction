@@ -1,0 +1,508 @@
+{
+  "schema": "fallingwater.photo_match12.guest_review.v1",
+  "test": "GEO-07",
+  "result": "NOT_RUN_ACCEPTANCE / DIAGNOSTIC_INTERPRETATION_FAIL",
+  "why": "Only one fixed15point candidate fit. At least8 independently reliable visible structural landmarks were NOT achieved: exact windowbase endpoints are obscured or composite joints, and the roof identities await independent review. Good median does not override these failures.",
+  "scene_sha256": "ebe6748261e9716ea9f9bd07e9137da1955798a7b3356bedc0d6a14d06638548",
+  "points_sha256": "279325fcd9a85851cb6e2f6d326fc6158cb26d09e5286074bcb248bdfe2b39b4",
+  "fitted_camera_immutable_file": "photo-match12-guest-fit.json",
+  "geometry_changed": false,
+  "production_camera_created": false,
+  "renders_run": 0,
+  "photo_date": "Jack E. Boucher, February and March1985, caption page1; individualA10day not specified",
+  "plan_date": "2010 HABS measured drawing set. No proof of intervening changes supplied; date gap is uncertainty, not an excuse for mismatch.",
+  "point_reviews": [
+    {
+      "id": "W0H",
+      "role": "fit",
+      "pixel": [
+        87,
+        95
+      ],
+      "world_m": [
+        3.9529311656951904,
+        36.0265998840332,
+        10.5
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_0",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          4,
+          5
+        ],
+        "adjacent_base_faces": [
+          1,
+          5
+        ]
+      },
+      "residual_px": 14.968036318107071,
+      "residual_pct_diagonal": 1.1836453190697818,
+      "blocking_object": "GUEST_LAYERED_SANDSTONE_COURSES",
+      "target_to_first_hit_m": 0.16772012413057966,
+      "review_status": "REJECT_AS_VISIBLE_EXACT_LANDMARK: foreground stone obscures target",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W0S",
+      "role": "fit",
+      "pixel": [
+        87,
+        461
+      ],
+      "world_m": [
+        3.9529311656951904,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_0",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          0,
+          1
+        ],
+        "adjacent_base_faces": [
+          0,
+          1
+        ]
+      },
+      "residual_px": 13.237578366513109,
+      "residual_pct_diagonal": 1.0468038249204472,
+      "blocking_object": "GUEST_LAYERED_SANDSTONE_COURSES",
+      "target_to_first_hit_m": 0.13463163841894774,
+      "review_status": "REJECT_AS_VISIBLE_EXACT_LANDMARK: foreground stone obscures target",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W2H",
+      "role": "holdout",
+      "pixel": [
+        245,
+        254
+      ],
+      "world_m": [
+        5.514113426208496,
+        36.0265998840332,
+        10.5
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_2",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          4,
+          5
+        ],
+        "adjacent_base_faces": [
+          1,
+          5
+        ]
+      },
+      "residual_px": 4.8885731535545425,
+      "residual_pct_diagonal": 0.38657954905782876,
+      "blocking_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_head",
+      "target_to_first_hit_m": 0.02583606734814902,
+      "review_status": "UNVERIFIED: head overlaps nominal post endpoint; actual visible contour must be identified",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W2S",
+      "role": "holdout",
+      "pixel": [
+        245,
+        510
+      ],
+      "world_m": [
+        5.514113426208496,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_2",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          0,
+          1
+        ],
+        "adjacent_base_faces": [
+          0,
+          1
+        ]
+      },
+      "residual_px": 9.245014748088703,
+      "residual_pct_diagonal": 0.7310790940604941,
+      "blocking_object": "GUEST_LAYERED_SANDSTONE_COURSES",
+      "target_to_first_hit_m": 0.17858137028956064,
+      "review_status": "REJECT_AS_VISIBLE_EXACT_LANDMARK: foreground stone obscures target",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W3H",
+      "role": "fit",
+      "pixel": [
+        298,
+        309
+      ],
+      "world_m": [
+        6.294704437255859,
+        36.0265998840332,
+        10.5
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_3",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          4,
+          5
+        ],
+        "adjacent_base_faces": [
+          1,
+          5
+        ]
+      },
+      "residual_px": 6.7397403924802415,
+      "residual_pct_diagonal": 0.532966515965378,
+      "blocking_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_head",
+      "target_to_first_hit_m": 0.02858325424074748,
+      "review_status": "UNVERIFIED: head overlaps nominal post endpoint; actual visible contour must be identified",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W3S",
+      "role": "fit",
+      "pixel": [
+        298,
+        530
+      ],
+      "world_m": [
+        6.294704437255859,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_3",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          0,
+          1
+        ],
+        "adjacent_base_faces": [
+          0,
+          1
+        ]
+      },
+      "residual_px": 9.340059667399812,
+      "residual_pct_diagonal": 0.7385950748780891,
+      "blocking_object": "GUEST_LAYERED_SANDSTONE_COURSES",
+      "target_to_first_hit_m": 0.21756279625349537,
+      "review_status": "REJECT_AS_VISIBLE_EXACT_LANDMARK: foreground stone obscures target",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W5H",
+      "role": "holdout",
+      "pixel": [
+        365,
+        378
+      ],
+      "world_m": [
+        7.855886936187744,
+        36.0265998840332,
+        10.5
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_5",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          4,
+          5
+        ],
+        "adjacent_base_faces": [
+          1,
+          5
+        ]
+      },
+      "residual_px": 4.913641898152152,
+      "residual_pct_diagonal": 0.3885619401722879,
+      "blocking_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_head",
+      "target_to_first_hit_m": 0.034532661142821656,
+      "review_status": "UNVERIFIED: head overlaps nominal post endpoint; actual visible contour must be identified",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W5S",
+      "role": "holdout",
+      "pixel": [
+        365,
+        551
+      ],
+      "world_m": [
+        7.855886936187744,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_5",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          0,
+          1
+        ],
+        "adjacent_base_faces": [
+          0,
+          1
+        ]
+      },
+      "residual_px": 14.888034954944992,
+      "residual_pct_diagonal": 1.1773189555432952,
+      "blocking_object": "GUEST_LAYERED_SANDSTONE_COURSES",
+      "target_to_first_hit_m": 0.2421523085914125,
+      "review_status": "REJECT_AS_VISIBLE_EXACT_LANDMARK: foreground stone obscures target",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W7H",
+      "role": "fit",
+      "pixel": [
+        407,
+        420
+      ],
+      "world_m": [
+        9.417069435119629,
+        36.0265998840332,
+        10.5
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_7",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          4,
+          5
+        ],
+        "adjacent_base_faces": [
+          1,
+          5
+        ]
+      },
+      "residual_px": 6.642116478517036,
+      "residual_pct_diagonal": 0.5252465929015869,
+      "blocking_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_head",
+      "target_to_first_hit_m": 0.040805474478064506,
+      "review_status": "UNVERIFIED: head overlaps nominal post endpoint; actual visible contour must be identified",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "W7S",
+      "role": "fit",
+      "pixel": [
+        407,
+        567
+      ],
+      "world_m": [
+        9.417069435119629,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_7",
+      "locator": {
+        "vertex_index": null,
+        "edge_vertices": [
+          0,
+          1
+        ],
+        "adjacent_base_faces": [
+          0,
+          1
+        ]
+      },
+      "residual_px": 19.16920362910474,
+      "residual_pct_diagonal": 1.5158660537479725,
+      "blocking_object": "GUEST_LAYERED_SANDSTONE_COURSES",
+      "target_to_first_hit_m": 0.32605416081845173,
+      "review_status": "REJECT_AS_VISIBLE_EXACT_LANDMARK: foreground stone obscures target",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "R01",
+      "role": "fit",
+      "pixel": [
+        657,
+        467
+      ],
+      "world_m": [
+        11.967280387878418,
+        33.58357620239258,
+        10.5600004196167
+      ],
+      "object": "GUEST_LOW_ARM_ROOF",
+      "locator": {
+        "vertex_index": 1,
+        "edge_vertices": null,
+        "adjacent_base_faces": [
+          10,
+          22,
+          23
+        ]
+      },
+      "residual_px": 15.89578729331043,
+      "residual_pct_diagonal": 1.257010193106963,
+      "blocking_object": null,
+      "target_to_first_hit_m": 9.5367431640625e-07,
+      "review_status": "UNVERIFIED: source topology supports identity; actual base/evaluated vertex visible, independent review pending",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "R02",
+      "role": "fit",
+      "pixel": [
+        601,
+        469
+      ],
+      "world_m": [
+        11.967280387878418,
+        34.189857482910156,
+        10.5600004196167
+      ],
+      "object": "GUEST_LOW_ARM_ROOF",
+      "locator": {
+        "vertex_index": 2,
+        "edge_vertices": null,
+        "adjacent_base_faces": [
+          0,
+          10,
+          23,
+          24
+        ]
+      },
+      "residual_px": 10.376586879529276,
+      "residual_pct_diagonal": 0.8205617775671594,
+      "blocking_object": null,
+      "target_to_first_hit_m": 0.0,
+      "review_status": "UNVERIFIED: source topology supports identity; actual base/evaluated vertex visible, independent review pending",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "R03",
+      "role": "holdout",
+      "pixel": [
+        596,
+        540
+      ],
+      "world_m": [
+        22.111360549926758,
+        34.189857482910156,
+        10.5600004196167
+      ],
+      "object": "GUEST_LOW_ARM_ROOF",
+      "locator": {
+        "vertex_index": 3,
+        "edge_vertices": null,
+        "adjacent_base_faces": [
+          0,
+          24,
+          25
+        ]
+      },
+      "residual_px": 37.22464434470709,
+      "residual_pct_diagonal": 2.943657744827152,
+      "blocking_object": null,
+      "target_to_first_hit_m": 1.9073486328125e-06,
+      "review_status": "UNVERIFIED: source topology supports identity; actual base/evaluated vertex visible, independent review pending",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "O0N",
+      "role": "holdout",
+      "pixel": [
+        445,
+        475
+      ],
+      "world_m": [
+        12.004072189331055,
+        36.09832000732422,
+        10.5600004196167
+      ],
+      "object": "GUEST_LOW_ARM_ROOF",
+      "locator": {
+        "vertex_index": 22,
+        "edge_vertices": null,
+        "adjacent_base_faces": [
+          10,
+          34,
+          35
+        ]
+      },
+      "residual_px": 15.372764977562875,
+      "residual_pct_diagonal": 1.215650531582443,
+      "blocking_object": null,
+      "target_to_first_hit_m": 0.0,
+      "review_status": "UNVERIFIED: source topology supports identity; actual base/evaluated vertex visible, independent review pending",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    },
+    {
+      "id": "O0S",
+      "role": "holdout",
+      "pixel": [
+        563,
+        472
+      ],
+      "world_m": [
+        12.004072189331055,
+        34.648521423339844,
+        10.5600004196167
+      ],
+      "object": "GUEST_LOW_ARM_ROOF",
+      "locator": {
+        "vertex_index": 21,
+        "edge_vertices": null,
+        "adjacent_base_faces": [
+          0,
+          10,
+          32,
+          35
+        ]
+      },
+      "residual_px": 9.647160146271704,
+      "residual_pct_diagonal": 0.7628800269302881,
+      "blocking_object": null,
+      "target_to_first_hit_m": 9.5367431640625e-07,
+      "review_status": "UNVERIFIED: source topology supports identity; actual base/evaluated vertex visible, independent review pending",
+      "source_confidence": "B photo/plan topology; C modeled location and height"
+    }
+  ],
+  "statistics": {
+    "fit_median_px": 11.807082623021191,
+    "fit_max_px": 19.16920362910474,
+    "holdout_median_px": 9.647160146271704,
+    "holdout_max_px": 37.22464434470709,
+    "all_median_px": 10.376586879529276,
+    "all_max_px": 37.22464434470709,
+    "one_percent_diagonal_px": 12.64571073526514
+  },
+  "fit_rank": 3,
+  "camera_support": {
+    "support_object": "SITE_Continuous_BearRun_Terrain",
+    "support_z": 7.245883464813232,
+    "eye_z": 7.7052832006021825,
+    "eye_above_support_m": 0.4593997001647949,
+    "normal_standing_pose": "FAIL",
+    "historical_low_camera_pose": "UNKNOWN;0.46m low tripod/crouching is possible but not supported by caption",
+    "upward_pitch_degrees": 11.517908105456108,
+    "fixed_principal_point_assumption": "UNVERIFIED. Near-vertical source frame posts disagree with fitted near-post26.44px upper/lower lateral difference. Architectural camera shift/crop origin might matter but not fitted this round."
+  },
+  "continuous_edge_review": [
+    "Roof first elbow and first aperture topology corresponds to sourceguest02; fitting R01/R02 cannot independently validate them.",
+    "R02-R03 south beam is noticeably too slanted/right in projection: near modeled(599.115,458.796),far(627.438,559.933); source endpoints(601,469),(596,540). Farholdout37.225px. This tests one camera/identity/model combination, not a direct correction vector for architecture.",
+    "All10aperture lower boundary loops show a coherent projected drift; sky openings were not replaced by straightglass planes. Exact far hole corner identities not silently reassigned.",
+    "Nearwindow projected endpoints separate horizontally26.44px whereas locked source endpoints nearly align vertically. Modelposts/scan principalpoint/inferredcamera remain a coupled unresolved issue.",
+    "Orange W1/W2 actual tread edges do not follow the photographed side-wall/nosing profile. W2 photographed far stair group has several rough bands; current4risers and heights remainC. No individualroughline was invented as a precise point.",
+    "Nativeguest01 overlay shows current equal7bay modeled locators do not land on the drawing window-post symbols. Association of photographed closest post to the plan return/firstpost must be reviewed before a new point set."
+  ],
+  "next_bounded_review": "Independent reviewer should check observed image + native roof/window crop + exact15locators, focusing on R03east termination, W0near corner identity and composite sill/head contours. Do not change points because of residual. New camera optics protocol or source-constrained facade correction requires a separately frozen round.",
+  "negative_evidence_retained": [
+    "data/photo-match-points-iteration05.json",
+    "qa/photo-match-iteration05-review.md",
+    "qa/photo-match-results-iteration05-guest10-diagnostic.json"
+  ],
+  "qa_cleanup": "neat-freak applied within assignedphoto-match12-guest docs only; no rootSTATUS/AGENTS or shared acceptance ledgers modified."
+}

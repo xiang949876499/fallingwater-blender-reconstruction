@@ -1,0 +1,163 @@
+{
+  "status": "DESIGN_ONLY_NOT_PREPARED_NOT_BAKED_NOT_PRODUCTION",
+  "date": "2026-09-21",
+  "source_scene": "project/scene/Fallingwater_iteration09.blend",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "new_bounds_actually_probed": false,
+  "native_domain_aabb_m": [
+    [
+      -29,
+      16
+    ],
+    [
+      -28,
+      6
+    ],
+    [
+      -8.3,
+      -2.4
+    ]
+  ],
+  "proposed_resolution_max": 600,
+  "proposed_cell_m": 0.075,
+  "expected_grid_not_observed": [
+    600,
+    454,
+    79
+  ],
+  "expected_cells": 21519600,
+  "new_C_total_source_Q_m3_s": 0.4,
+  "new_source_x_range_m": [
+    14.5,
+    15.5
+  ],
+  "source_head_C_proposal_m": -2.869,
+  "source_actual_area_and_velocity_pending": true,
+  "minimum_source_thickness_m": 0.225,
+  "source_inflow_count": 1,
+  "all_legacy_branches_supplied_via_real_upstream_rock_distribution": true,
+  "legacy_reference_branches": [
+    {
+      "id": 1,
+      "center_c_m": -3.85,
+      "legacy_width_m": 0.23,
+      "C_reference_Q_share_m3_s": 0.021596244131455403,
+      "independent_emitter": false
+    },
+    {
+      "id": 2,
+      "center_c_m": -3.19,
+      "legacy_width_m": 0.4,
+      "C_reference_Q_share_m3_s": 0.0375586854460094,
+      "independent_emitter": false
+    },
+    {
+      "id": 3,
+      "center_c_m": -2.52,
+      "legacy_width_m": 0.14,
+      "C_reference_Q_share_m3_s": 0.013145539906103289,
+      "independent_emitter": false
+    },
+    {
+      "id": 4,
+      "center_c_m": -1.94,
+      "legacy_width_m": 0.72,
+      "C_reference_Q_share_m3_s": 0.0676056338028169,
+      "independent_emitter": false
+    },
+    {
+      "id": 5,
+      "center_c_m": -0.89,
+      "legacy_width_m": 1.02,
+      "C_reference_Q_share_m3_s": 0.09577464788732395,
+      "independent_emitter": false
+    },
+    {
+      "id": 6,
+      "center_c_m": 0.27,
+      "legacy_width_m": 0.19,
+      "C_reference_Q_share_m3_s": 0.017840375586854463,
+      "independent_emitter": false
+    },
+    {
+      "id": 7,
+      "center_c_m": 0.96,
+      "legacy_width_m": 0.49,
+      "C_reference_Q_share_m3_s": 0.046009389671361506,
+      "independent_emitter": false
+    },
+    {
+      "id": 8,
+      "center_c_m": 1.85,
+      "legacy_width_m": 0.83,
+      "C_reference_Q_share_m3_s": 0.0779342723004695,
+      "independent_emitter": false
+    },
+    {
+      "id": 9,
+      "center_c_m": 3.18,
+      "legacy_width_m": 0.24,
+      "C_reference_Q_share_m3_s": 0.022535211267605635,
+      "independent_emitter": false
+    }
+  ],
+  "cross_partition_bounds_m": [
+    -4.35,
+    -3.52,
+    -2.855,
+    -2.23,
+    -1.415,
+    -0.31,
+    0.615,
+    1.405,
+    2.515,
+    4.35
+  ],
+  "tailwater_design": "Explicit volumetric C external-channel head reservoir and overflow/outflow; unimplemented and not validated",
+  "tailwater_head_C_initial_m": -6.94,
+  "tailwater_feasibility_required_before_bake": true,
+  "frame_range": [
+    1,
+    192
+  ],
+  "warmup_frames": [
+    1,
+    72
+  ],
+  "review_sample_frames": [
+    73,
+    192
+  ],
+  "fps": 24,
+  "review_duration_seconds": 5,
+  "threads": 8,
+  "proposed_hard_limit_seconds": 14400,
+  "proposed_cache_hard_limit_bytes": 100000000000,
+  "required_free_disk_bytes": 120000000000,
+  "required_available_memory_bytes": 48000000000,
+  "memory_estimate_bytes": [
+    22000000000,
+    55000000000
+  ],
+  "baseline_actual": {
+    "grid": [
+      320,
+      307,
+      37
+    ],
+    "frames": 48,
+    "threads": 8,
+    "solve_seconds": 563.6657377,
+    "supervisor_seconds": 592.5853925,
+    "cache_bytes": 2451203294
+  },
+  "cost_scaling_method": "Unmeasured linear cells times frames, 0.7–2x planning range; not guarantee",
+  "first48_estimated_solve_seconds": 3337.0733584076834,
+  "first48_estimated_cache_bytes": 14511872305.430275,
+  "all192_estimated_solve_seconds": 13348.293433630733,
+  "all192_estimated_cache_bytes": 58047489221.7211,
+  "next_action": "One complete closed water-body geometry candidate and actual full-domain/source/tailwater preflight before any new large bake",
+  "old_failures_retained": true,
+  "r075_status": "PAUSED_DURING_S48_REPRODUCTION_PREPARATION",
+  "detailed_plan": "project/qa/water12-complete-plan.md"
+}

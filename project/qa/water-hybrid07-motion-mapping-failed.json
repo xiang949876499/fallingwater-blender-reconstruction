@@ -1,0 +1,739 @@
+{
+  "status": "MOTION_BUILT_CHECKS_PENDING",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid07a.blend",
+  "source_sha256": "27ebe009b8eb3bdd2cf1f379d687c062a0d3e5fd87e50afd2c4e37bb90532122",
+  "cache": "D:\\zx\\test\\project\\caches\\fluid_hybrid07\\impact36",
+  "frame_range": [
+    1,
+    36
+  ],
+  "core_world_geometry_sha256": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+  "initial_static_topology": {
+    "vertices": 209139,
+    "faces": 209130,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 1262.2967357130028
+  },
+  "local_refinement_topology": {
+    "vertices": 213752,
+    "faces": 213673,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 1268.0023665143945
+  },
+  "new_water_shape_keys": 37,
+  "old_keys_transferred": false,
+  "active_vertices": 6224,
+  "fixed_vertices": 207528,
+  "frozen_inherited_core_inside_vertices": 3,
+  "inherited_inside_example_indices": [
+    113411,
+    113442,
+    113443
+  ],
+  "mapping": "C45%of actual liquid free-surface residual after boundary median removal; residual bound±10cm, quintic spatial taper; same top/bottom XY displacement",
+  "frames": [
+    {
+      "frame": 1,
+      "valid_simulated_pool_samples": 2046,
+      "raw_pool_delta_m": {
+        "count": 2046,
+        "min": -0.04765176773071289,
+        "max": 0.007457256317138672,
+        "mean": 0.0016457941292085023
+      },
+      "removed_boundary_drift_m": 0.0018787384033203125,
+      "raw_residual_clamped_samples": 0,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.012339793689735304,
+      "attached_foam_particles": 0,
+      "displayed_mapped_actual_spray_particles": 0,
+      "raw_spray_particles": 0,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 2,
+      "valid_simulated_pool_samples": 2034,
+      "raw_pool_delta_m": {
+        "count": 2034,
+        "min": -0.6382851600646973,
+        "max": 0.24762439727783203,
+        "mean": -0.011639065915973254
+      },
+      "removed_boundary_drift_m": -0.012239217758178711,
+      "raw_residual_clamped_samples": 11,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.03896429224306293,
+      "attached_foam_particles": 1,
+      "displayed_mapped_actual_spray_particles": 0,
+      "raw_spray_particles": 63,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 3,
+      "valid_simulated_pool_samples": 2015,
+      "raw_pool_delta_m": {
+        "count": 2015,
+        "min": -0.582310676574707,
+        "max": 0.13318681716918945,
+        "mean": -0.030493971254334555
+      },
+      "removed_boundary_drift_m": -0.036260128021240234,
+      "raw_residual_clamped_samples": 9,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04253897472772393,
+      "attached_foam_particles": 6,
+      "displayed_mapped_actual_spray_particles": 1,
+      "raw_spray_particles": 276,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 4,
+      "valid_simulated_pool_samples": 2010,
+      "raw_pool_delta_m": {
+        "count": 2010,
+        "min": -0.5093593597412109,
+        "max": 0.1441493034362793,
+        "mean": -0.05719660906056267
+      },
+      "removed_boundary_drift_m": -0.06501436233520508,
+      "raw_residual_clamped_samples": 79,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 40,
+      "displayed_mapped_actual_spray_particles": 95,
+      "raw_spray_particles": 414,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 5,
+      "valid_simulated_pool_samples": 2055,
+      "raw_pool_delta_m": {
+        "count": 2055,
+        "min": -0.4493546485900879,
+        "max": 0.18073654174804688,
+        "mean": -0.09148748472079163
+      },
+      "removed_boundary_drift_m": -0.09558701515197754,
+      "raw_residual_clamped_samples": 165,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 74,
+      "displayed_mapped_actual_spray_particles": 124,
+      "raw_spray_particles": 462,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 6,
+      "valid_simulated_pool_samples": 2076,
+      "raw_pool_delta_m": {
+        "count": 2076,
+        "min": -0.5188407897949219,
+        "max": 0.26813745498657227,
+        "mean": -0.12356542002029272
+      },
+      "removed_boundary_drift_m": -0.12431859970092773,
+      "raw_residual_clamped_samples": 762,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 161,
+      "displayed_mapped_actual_spray_particles": 185,
+      "raw_spray_particles": 526,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 7,
+      "valid_simulated_pool_samples": 2078,
+      "raw_pool_delta_m": {
+        "count": 2078,
+        "min": -0.6053528785705566,
+        "max": 0.2958674430847168,
+        "mean": -0.15298678280644054
+      },
+      "removed_boundary_drift_m": -0.14990854263305664,
+      "raw_residual_clamped_samples": 971,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 326,
+      "displayed_mapped_actual_spray_particles": 196,
+      "raw_spray_particles": 651,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 8,
+      "valid_simulated_pool_samples": 2074,
+      "raw_pool_delta_m": {
+        "count": 2074,
+        "min": -0.6438655853271484,
+        "max": 0.2802596092224121,
+        "mean": -0.1775883963850678
+      },
+      "removed_boundary_drift_m": -0.17415213584899902,
+      "raw_residual_clamped_samples": 1089,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500001609325409,
+      "attached_foam_particles": 426,
+      "displayed_mapped_actual_spray_particles": 226,
+      "raw_spray_particles": 878,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 9,
+      "valid_simulated_pool_samples": 2033,
+      "raw_pool_delta_m": {
+        "count": 2033,
+        "min": -0.6573390960693359,
+        "max": 0.218994140625,
+        "mean": -0.1915389357443461
+      },
+      "removed_boundary_drift_m": -0.19751763343811035,
+      "raw_residual_clamped_samples": 1146,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500001609325409,
+      "attached_foam_particles": 477,
+      "displayed_mapped_actual_spray_particles": 284,
+      "raw_spray_particles": 1215,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 10,
+      "valid_simulated_pool_samples": 2059,
+      "raw_pool_delta_m": {
+        "count": 2059,
+        "min": -0.6460056304931641,
+        "max": 0.22541332244873047,
+        "mean": -0.20675697437821805
+      },
+      "removed_boundary_drift_m": -0.21963977813720703,
+      "raw_residual_clamped_samples": 1203,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 484,
+      "displayed_mapped_actual_spray_particles": 376,
+      "raw_spray_particles": 1591,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 11,
+      "valid_simulated_pool_samples": 2079,
+      "raw_pool_delta_m": {
+        "count": 2079,
+        "min": -0.6249570846557617,
+        "max": 0.20722103118896484,
+        "mean": -0.22526364076475847
+      },
+      "removed_boundary_drift_m": -0.24401569366455078,
+      "raw_residual_clamped_samples": 1215,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 565,
+      "displayed_mapped_actual_spray_particles": 399,
+      "raw_spray_particles": 1732,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 12,
+      "valid_simulated_pool_samples": 2074,
+      "raw_pool_delta_m": {
+        "count": 2074,
+        "min": -0.6397991180419922,
+        "max": 0.12919092178344727,
+        "mean": -0.24355355546007737
+      },
+      "removed_boundary_drift_m": -0.27065229415893555,
+      "raw_residual_clamped_samples": 1185,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 518,
+      "displayed_mapped_actual_spray_particles": 311,
+      "raw_spray_particles": 1256,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 13,
+      "valid_simulated_pool_samples": 2075,
+      "raw_pool_delta_m": {
+        "count": 2075,
+        "min": -0.6448397636413574,
+        "max": 0.009292125701904297,
+        "mean": -0.2620916816987187
+      },
+      "removed_boundary_drift_m": -0.3140983581542969,
+      "raw_residual_clamped_samples": 1230,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 732,
+      "displayed_mapped_actual_spray_particles": 219,
+      "raw_spray_particles": 1540,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 14,
+      "valid_simulated_pool_samples": 2077,
+      "raw_pool_delta_m": {
+        "count": 2077,
+        "min": -0.63861083984375,
+        "max": 0.004596233367919922,
+        "mean": -0.2744797427435018
+      },
+      "removed_boundary_drift_m": -0.3559732437133789,
+      "raw_residual_clamped_samples": 1156,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 1003,
+      "displayed_mapped_actual_spray_particles": 153,
+      "raw_spray_particles": 1381,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 15,
+      "valid_simulated_pool_samples": 2063,
+      "raw_pool_delta_m": {
+        "count": 2063,
+        "min": -0.6061186790466309,
+        "max": 0.004424571990966797,
+        "mean": -0.28251754873537405
+      },
+      "removed_boundary_drift_m": -0.3833346366882324,
+      "raw_residual_clamped_samples": 1148,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 1208,
+      "displayed_mapped_actual_spray_particles": 150,
+      "raw_spray_particles": 1490,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 16,
+      "valid_simulated_pool_samples": 2063,
+      "raw_pool_delta_m": {
+        "count": 2063,
+        "min": -0.5970430374145508,
+        "max": 0.1274118423461914,
+        "mean": -0.28789159827479677
+      },
+      "removed_boundary_drift_m": -0.4016990661621094,
+      "raw_residual_clamped_samples": 1133,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 1577,
+      "displayed_mapped_actual_spray_particles": 163,
+      "raw_spray_particles": 1805,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 17,
+      "valid_simulated_pool_samples": 2061,
+      "raw_pool_delta_m": {
+        "count": 2061,
+        "min": -0.5974173545837402,
+        "max": 0.004693508148193359,
+        "mean": -0.2917886934831037
+      },
+      "removed_boundary_drift_m": -0.4109354019165039,
+      "raw_residual_clamped_samples": 1153,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 2039,
+      "displayed_mapped_actual_spray_particles": 233,
+      "raw_spray_particles": 2130,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 18,
+      "valid_simulated_pool_samples": 2060,
+      "raw_pool_delta_m": {
+        "count": 2060,
+        "min": -0.5975494384765625,
+        "max": 0.13327407836914062,
+        "mean": -0.2963245889515553
+      },
+      "removed_boundary_drift_m": -0.4149045944213867,
+      "raw_residual_clamped_samples": 1149,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 2090,
+      "displayed_mapped_actual_spray_particles": 265,
+      "raw_spray_particles": 2581,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 19,
+      "valid_simulated_pool_samples": 2055,
+      "raw_pool_delta_m": {
+        "count": 2055,
+        "min": -0.6041688919067383,
+        "max": 0.12910985946655273,
+        "mean": -0.30091368310932987
+      },
+      "removed_boundary_drift_m": -0.41702890396118164,
+      "raw_residual_clamped_samples": 1111,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 2126,
+      "displayed_mapped_actual_spray_particles": 319,
+      "raw_spray_particles": 3182,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 20,
+      "valid_simulated_pool_samples": 2043,
+      "raw_pool_delta_m": {
+        "count": 2043,
+        "min": -0.6280655860900879,
+        "max": 0.16893672943115234,
+        "mean": -0.3065443368035091
+      },
+      "removed_boundary_drift_m": -0.4126875400543213,
+      "raw_residual_clamped_samples": 1021,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 2503,
+      "displayed_mapped_actual_spray_particles": 383,
+      "raw_spray_particles": 3763,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 21,
+      "valid_simulated_pool_samples": 2037,
+      "raw_pool_delta_m": {
+        "count": 2037,
+        "min": -0.6445159912109375,
+        "max": 0.17508411407470703,
+        "mean": -0.309709101842207
+      },
+      "removed_boundary_drift_m": -0.4040193557739258,
+      "raw_residual_clamped_samples": 976,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 2665,
+      "displayed_mapped_actual_spray_particles": 393,
+      "raw_spray_particles": 4003,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 22,
+      "valid_simulated_pool_samples": 2036,
+      "raw_pool_delta_m": {
+        "count": 2036,
+        "min": -0.6478490829467773,
+        "max": 0.17480993270874023,
+        "mean": -0.3146839992002326
+      },
+      "removed_boundary_drift_m": -0.39356517791748047,
+      "raw_residual_clamped_samples": 930,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 2608,
+      "displayed_mapped_actual_spray_particles": 406,
+      "raw_spray_particles": 3733,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 23,
+      "valid_simulated_pool_samples": 2035,
+      "raw_pool_delta_m": {
+        "count": 2035,
+        "min": -0.6145100593566895,
+        "max": 0.1433253288269043,
+        "mean": -0.317824311924215
+      },
+      "removed_boundary_drift_m": -0.3967623710632324,
+      "raw_residual_clamped_samples": 884,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 2789,
+      "displayed_mapped_actual_spray_particles": 389,
+      "raw_spray_particles": 3552,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 24,
+      "valid_simulated_pool_samples": 2035,
+      "raw_pool_delta_m": {
+        "count": 2035,
+        "min": -0.6285200119018555,
+        "max": 0.12746286392211914,
+        "mean": -0.3202271770786595
+      },
+      "removed_boundary_drift_m": -0.40189170837402344,
+      "raw_residual_clamped_samples": 859,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 3172,
+      "displayed_mapped_actual_spray_particles": 334,
+      "raw_spray_particles": 3326,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 25,
+      "valid_simulated_pool_samples": 2028,
+      "raw_pool_delta_m": {
+        "count": 2028,
+        "min": -0.6285815238952637,
+        "max": 0.1329970359802246,
+        "mean": -0.32232066959554156
+      },
+      "removed_boundary_drift_m": -0.40970516204833984,
+      "raw_residual_clamped_samples": 823,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 3537,
+      "displayed_mapped_actual_spray_particles": 339,
+      "raw_spray_particles": 3059,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 26,
+      "valid_simulated_pool_samples": 2026,
+      "raw_pool_delta_m": {
+        "count": 2026,
+        "min": -0.6298313140869141,
+        "max": 0.13300800323486328,
+        "mean": -0.32173737533471425
+      },
+      "removed_boundary_drift_m": -0.4145846366882324,
+      "raw_residual_clamped_samples": 785,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 3922,
+      "displayed_mapped_actual_spray_particles": 329,
+      "raw_spray_particles": 2753,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 27,
+      "valid_simulated_pool_samples": 2013,
+      "raw_pool_delta_m": {
+        "count": 2013,
+        "min": -0.6406598091125488,
+        "max": 0.12789154052734375,
+        "mean": -0.31962978123315694
+      },
+      "removed_boundary_drift_m": -0.4240703582763672,
+      "raw_residual_clamped_samples": 770,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 4045,
+      "displayed_mapped_actual_spray_particles": 310,
+      "raw_spray_particles": 2752,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 28,
+      "valid_simulated_pool_samples": 2018,
+      "raw_pool_delta_m": {
+        "count": 2018,
+        "min": -0.6324710845947266,
+        "max": 0.13216066360473633,
+        "mean": -0.3174417784476304
+      },
+      "removed_boundary_drift_m": -0.4246025085449219,
+      "raw_residual_clamped_samples": 777,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 4056,
+      "displayed_mapped_actual_spray_particles": 250,
+      "raw_spray_particles": 2390,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 29,
+      "valid_simulated_pool_samples": 2024,
+      "raw_pool_delta_m": {
+        "count": 2024,
+        "min": -0.6155781745910645,
+        "max": 0.12747812271118164,
+        "mean": -0.31626617720004596
+      },
+      "removed_boundary_drift_m": -0.4207026958465576,
+      "raw_residual_clamped_samples": 813,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 3860,
+      "displayed_mapped_actual_spray_particles": 332,
+      "raw_spray_particles": 2376,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 30,
+      "valid_simulated_pool_samples": 2009,
+      "raw_pool_delta_m": {
+        "count": 2009,
+        "min": -0.6016936302185059,
+        "max": 0.1331782341003418,
+        "mean": -0.31428544850062234
+      },
+      "removed_boundary_drift_m": -0.4201188087463379,
+      "raw_residual_clamped_samples": 870,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 3376,
+      "displayed_mapped_actual_spray_particles": 398,
+      "raw_spray_particles": 2321,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 31,
+      "valid_simulated_pool_samples": 2009,
+      "raw_pool_delta_m": {
+        "count": 2009,
+        "min": -0.5954289436340332,
+        "max": 0.13313055038452148,
+        "mean": -0.3116246824421178
+      },
+      "removed_boundary_drift_m": -0.4228982925415039,
+      "raw_residual_clamped_samples": 922,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 3510,
+      "displayed_mapped_actual_spray_particles": 528,
+      "raw_spray_particles": 2469,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 32,
+      "valid_simulated_pool_samples": 2004,
+      "raw_pool_delta_m": {
+        "count": 2004,
+        "min": -0.5996313095092773,
+        "max": 0.1331653594970703,
+        "mean": -0.30829268824792433
+      },
+      "removed_boundary_drift_m": -0.4323735237121582,
+      "raw_residual_clamped_samples": 949,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 4270,
+      "displayed_mapped_actual_spray_particles": 703,
+      "raw_spray_particles": 2918,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 33,
+      "valid_simulated_pool_samples": 2010,
+      "raw_pool_delta_m": {
+        "count": 2010,
+        "min": -0.5956616401672363,
+        "max": 0.13259458541870117,
+        "mean": -0.3055649358834793
+      },
+      "removed_boundary_drift_m": -0.4369087219238281,
+      "raw_residual_clamped_samples": 975,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 5162,
+      "displayed_mapped_actual_spray_particles": 1004,
+      "raw_spray_particles": 3630,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 34,
+      "valid_simulated_pool_samples": 2007,
+      "raw_pool_delta_m": {
+        "count": 2007,
+        "min": -0.5980725288391113,
+        "max": 0.13323974609375,
+        "mean": -0.3035911850865112
+      },
+      "removed_boundary_drift_m": -0.4362947940826416,
+      "raw_residual_clamped_samples": 992,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 5512,
+      "displayed_mapped_actual_spray_particles": 1304,
+      "raw_spray_particles": 4313,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 35,
+      "valid_simulated_pool_samples": 2009,
+      "raw_pool_delta_m": {
+        "count": 2009,
+        "min": -0.6146841049194336,
+        "max": 0.13303804397583008,
+        "mean": -0.3023689477938571
+      },
+      "removed_boundary_drift_m": -0.42795610427856445,
+      "raw_residual_clamped_samples": 994,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 5557,
+      "displayed_mapped_actual_spray_particles": 1299,
+      "raw_spray_particles": 4980,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    },
+    {
+      "frame": 36,
+      "valid_simulated_pool_samples": 2009,
+      "raw_pool_delta_m": {
+        "count": 2009,
+        "min": -0.6092081069946289,
+        "max": 0.1327800750732422,
+        "mean": -0.30224016758266997
+      },
+      "removed_boundary_drift_m": -0.4320540428161621,
+      "raw_residual_clamped_samples": 1018,
+      "mapping_gain": 0.45,
+      "max_displayed_pool_offset_m": 0.04500000000000001,
+      "attached_foam_particles": 5335,
+      "displayed_mapped_actual_spray_particles": 1160,
+      "raw_spray_particles": 5354,
+      "original_fixed_vertices_max_movement_m": 0.0,
+      "topology_changed_by_frame": false
+    }
+  ],
+  "fall_motion": "C2.5mm+0.7mm advected waves, attenuated within35mm of actual rock and both end joins",
+  "materials": "ClearIOR1.333 water;1.2mm noise bump; C11%fineentrainedbubble fraction; actual attachedfoam density; clearactualspray radius0.55mm",
+  "spray_display": "ActualSPRAYpositions explicitly mapped to same displayed surface, measured above-surface distance retained, clearwater0.55mm radius; discrete24fps samples, no invented persistentID interpolation; fullnativecache retained hidden",
+  "foot_camera": "CAM_WATER_FOOT",
+  "no_bake_invoked": true,
+  "no_render_invoked": true,
+  "no_production_install": true,
+  "limitations": [
+    "36frames1.5seconds only, not ten-second acceptance",
+    "All water shape keys new; old3keys retained only on hidden source",
+    "Mapped particle samples, foam image sequence and newwaterkeys require actual lowres motion review",
+    "Localimpact mapping is an authored transformation of simulation; not untouchedFLIPgeometry or proof of realBearRun discharge"
+  ],
+  "output": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid07_motion36.blend",
+  "output_sha256": "64986c19563766501533798cfc2c5a3436b14993c586750822ed1a4a0aa9cbac",
+  "geometry_check": "FAIL_36FRAME_GEOMETRY_KEEP_DIAGNOSTIC",
+  "geometry_check_report": "qa/water-hybrid07-motion-check.json"
+}

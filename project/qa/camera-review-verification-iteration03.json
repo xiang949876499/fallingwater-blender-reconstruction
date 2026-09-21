@@ -1,0 +1,3001 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_working.blend",
+  "settings": "project\\data\\camera-settings-reviewed.json",
+  "geometry": {
+    "vertices": 646357,
+    "polygons": 646414,
+    "objects": 9231
+  },
+  "rays_cast": 3840,
+  "status": "GEOMETRY_ONLY_PASS",
+  "scope": "No rendering or illumination acceptance. Vegetation excluded from this room geometry index.",
+  "cameras": [
+    {
+      "camera": "CAM_MAIN_B_WINE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.402,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_B_cellar_1",
+          "location": [
+            -1.86826,
+            12.3432,
+            -0.90021
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 3.56271
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_WINE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.447,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_B_WINE_wine_storage_rack_00_dark_wine_bottle.056",
+          "location": [
+            -3.72646,
+            13.46437,
+            -0.85361
+          ],
+          "normal": [
+            0.19505,
+            0.02064,
+            0.98058
+          ],
+          "distance": 3.11697
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.249,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            -7.43814,
+            15.70352,
+            -1.2456
+          ],
+          "normal": [
+            0.94918,
+            -0.01826,
+            0.31421
+          ],
+          "distance": 6.8674
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.163,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "MAIN_B_bath_1",
+          "location": [
+            -0.3996,
+            14.82874,
+            -0.7585
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.20708
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.066,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_B_WINE_wine_storage_rack_00_rack_upright.001",
+          "location": [
+            -1.91505,
+            13.34053,
+            -1.01803
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.69005
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.872,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "MAIN_B_boiler_2",
+          "location": [
+            2.8042,
+            13.06247,
+            -0.86982
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 3.06158
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.295,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_service_stair_08",
+          "location": [
+            -4.45417,
+            17.07075,
+            -0.73134
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.62115
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.657,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_service_stair_08",
+          "location": [
+            -4.41178,
+            17.0548,
+            -0.59211
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.86287
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.864,
+        "different_visible_objects": 13,
+        "center_hit": {
+          "object": "MAIN_B_pier_1_course06_04_-1",
+          "location": [
+            2.82247,
+            10.52104,
+            -2.25175
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.75858
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.671,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_B_pier_0_course08_06_1",
+          "location": [
+            -0.51687,
+            5.2331,
+            -1.97004
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 6.01255
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.426,
+        "different_visible_objects": 13,
+        "center_hit": {
+          "object": "MAIN_B_pier_2_course08_10_-1",
+          "location": [
+            6.54287,
+            5.92591,
+            -1.96357
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.96317
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.383,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_B_pier_1_course08_01_1",
+          "location": [
+            3.46137,
+            12.39278,
+            -1.98988
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.99032
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.395,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_B_pier_3_course08_04_-1",
+          "location": [
+            10.27712,
+            7.35941,
+            -2.02543
+          ],
+          "normal": [
+            -0.38269,
+            0.0,
+            -0.92388
+          ],
+          "distance": 5.44468
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.398,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            9.52907,
+            20.18092,
+            -2.14129
+          ],
+          "normal": [
+            -0.00142,
+            -0.93721,
+            0.34877
+          ],
+          "distance": 14.84032
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.771,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_B_plunge_water",
+          "location": [
+            14.2867,
+            7.36074,
+            -2.6998
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 7.31865
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.095,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "MAIN_B_plunge_water",
+          "location": [
+            14.43359,
+            7.41387,
+            -2.6998
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 3.33542
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.679,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L1_east_parapet_1",
+          "location": [
+            14.185,
+            2.47012,
+            0.38832
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 12.76092
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.474,
+        "different_visible_objects": 13,
+        "center_hit": {
+          "object": "MAIN_L1_hearth_relief_course07_02_1",
+          "location": [
+            -0.3479,
+            9.97311,
+            1.14829
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 5.49047
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.848,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L1_hearth_back",
+          "location": [
+            -0.80733,
+            11.2043,
+            1.23556
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.65552
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.895,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            -5.0439,
+            21.06726,
+            0.65344
+          ],
+          "normal": [
+            0.01063,
+            -0.94041,
+            0.33988
+          ],
+          "distance": 10.22468
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.606,
+        "different_visible_objects": 2,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            -6.30646,
+            20.96992,
+            1.06251
+          ],
+          "normal": [
+            0.04701,
+            -0.20303,
+            0.97804
+          ],
+          "distance": 6.31135
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.934,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "MAIN_L1_servant_wall_2",
+          "location": [
+            -4.669,
+            15.75324,
+            1.44595
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.64282
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.592,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L2_north_terrace",
+          "location": [
+            7.08175,
+            16.63839,
+            2.5946
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 12.67842
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.325,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            -7.63634,
+            18.22923,
+            0.00671
+          ],
+          "normal": [
+            0.84365,
+            -0.46767,
+            0.26371
+          ],
+          "distance": 5.32503
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.521,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L1_entry_southshort",
+          "location": [
+            8.5934,
+            11.01053,
+            1.53713
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.77047
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.26,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L1_entry_west_0",
+          "location": [
+            6.835,
+            11.98441,
+            1.44459
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.65578
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.213,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L1_COAT_coat_storage_00_door",
+          "location": [
+            9.22385,
+            13.17322,
+            1.7222
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 0.96629
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.995,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "MAIN_stair1_09",
+          "location": [
+            5.79768,
+            12.9033,
+            1.7222
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 3.60553
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 10.602,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_CONNECTOR_canopy_047",
+          "location": [
+            1.39445,
+            36.19532,
+            10.8198
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 26.90473
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.442,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_stair1_06",
+          "location": [
+            6.40468,
+            12.96515,
+            1.30105
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.44219
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 11.518,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L1_entry_west_0",
+          "location": [
+            6.835,
+            12.35132,
+            0.69568
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 13.09587
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 10.645,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            25.2921,
+            9.56128,
+            0.4786
+          ],
+          "normal": [
+            -0.61162,
+            -0.71203,
+            0.34487
+          ],
+          "distance": 11.89773
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.262,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_L1_living_west_glass_3",
+          "location": [
+            -0.6854,
+            6.00309,
+            0.96762
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 6.26211
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 28.243,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            -23.91049,
+            -6.57767,
+            -0.9604
+          ],
+          "normal": [
+            0.49075,
+            -0.65202,
+            0.57796
+          ],
+          "distance": 25.66378
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.583,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_hatch_open_leaf_glass_4",
+          "location": [
+            10.01876,
+            4.1907,
+            1.10424
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.95519
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 17.837,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            14.73023,
+            -12.60063,
+            -0.51473
+          ],
+          "normal": [
+            -0.30544,
+            -0.08427,
+            0.94847
+          ],
+          "distance": 20.44345
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 30,
+        "different_visible_objects": 5,
+        "center_hit": null
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.468,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_water_stair_16",
+          "location": [
+            7.12896,
+            3.03892,
+            0.09552
+          ],
+          "normal": [
+            0.92388,
+            0.0,
+            0.38268
+          ],
+          "distance": 2.57999
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.333,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_L2_master_hearth",
+          "location": [
+            -0.79371,
+            11.4167,
+            3.94723
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.9724
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.41,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_L2_dressing_north",
+          "location": [
+            -1.26224,
+            16.377,
+            3.96865
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.76752
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.644,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_stair2_09",
+          "location": [
+            3.09996,
+            13.41173,
+            3.78624
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 6.51263
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.622,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L2_south_parapet_1",
+          "location": [
+            0.82933,
+            -2.0569,
+            2.94768
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 14.53484
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.751,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L2_DRESSING_continuous_horizontal_library_02_book_spine.084",
+          "location": [
+            -3.04568,
+            12.73076,
+            3.90012
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.42362
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.49,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_L2_bath_n_shell_0",
+          "location": [
+            1.72751,
+            16.2546,
+            4.19108
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 2.63958
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.969,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            24.83426,
+            14.93637,
+            2.41733
+          ],
+          "normal": [
+            -0.87366,
+            -0.07979,
+            0.47994
+          ],
+          "distance": 19.60915
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.48,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_L2_bath_guest_left",
+          "location": [
+            5.0582,
+            11.1648,
+            4.1902
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.648
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.811,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L2_core_course06_02_1",
+          "location": [
+            -0.2432,
+            10.72371,
+            3.74779
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 6.88063
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.798,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "MAIN_L2_bath_master_right",
+          "location": [
+            7.151,
+            8.91391,
+            4.19073
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.64303
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.272,
+        "different_visible_objects": 15,
+        "center_hit": {
+          "object": "MAIN_L2_bath_n_shell_1",
+          "location": [
+            3.611,
+            14.65881,
+            3.67323
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 7.59381
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.947,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_L2_hall_northeast",
+          "location": [
+            10.9586,
+            13.94988,
+            3.84542
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.94656
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.032,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door.001",
+          "location": [
+            9.72786,
+            10.97858,
+            4.02063
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.27033
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.969,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_L2_guest_south_glass_2",
+          "location": [
+            9.05747,
+            6.7479,
+            4.05691
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 3.92319
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 7.911,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L2_dressing_shell_north_0",
+          "location": [
+            -4.4746,
+            15.3631,
+            3.78469
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 7.55126
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 16.627,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_L2_west_parapet_0",
+          "location": [
+            -13.25025,
+            15.40471,
+            3.54498
+          ],
+          "normal": [
+            0.98079,
+            0.0,
+            0.19509
+          ],
+          "distance": 8.82069
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.746,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_L2_master_south_glass_5",
+          "location": [
+            4.56196,
+            6.8457,
+            3.58387
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 8.44872
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.869,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "MAIN_L2_south_rounded_lip_0",
+          "location": [
+            4.54434,
+            -2.04647,
+            3.56809
+          ],
+          "normal": [
+            0.0,
+            0.83147,
+            -0.55557
+          ],
+          "distance": 8.59972
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.243,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_L2_guest_east_glass_0",
+          "location": [
+            11.113,
+            10.31901,
+            3.58125
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 8.47366
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 14.113,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            37.88645,
+            9.35517,
+            1.78216
+          ],
+          "normal": [
+            -0.0136,
+            -0.70909,
+            0.70499
+          ],
+          "distance": 25.68544
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 7.344,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_L2_bath_guest_north",
+          "location": [
+            7.22403,
+            12.66819,
+            3.52577
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 9.00451
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 7.55,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_north_spiral_05",
+          "location": [
+            8.4079,
+            22.50569,
+            3.7248
+          ],
+          "normal": [
+            -0.8845,
+            -0.46654,
+            0.0
+          ],
+          "distance": 7.1001
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.484,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_L1_LOGGIA_finish",
+          "location": [
+            11.78794,
+            10.75975,
+            0.1222
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 10.08311
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.638,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_L2_bath_n_shell_1",
+          "location": [
+            3.611,
+            14.95957,
+            3.55512
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 2.51332
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 3,
+        "rays_under_09m": 6,
+        "median_depth_m": 2.288,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "MAIN_L2_master_east_n",
+          "location": [
+            4.73228,
+            12.42251,
+            4.467
+          ],
+          "normal": [
+            -0.9239,
+            0.38264,
+            0.0
+          ],
+          "distance": 4.1946
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.542,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L2_core_course11_03_1",
+          "location": [
+            -0.2432,
+            10.52671,
+            4.467
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 2.56036
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 3,
+        "rays_under_09m": 6,
+        "median_depth_m": 2.288,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "MAIN_L2_bath_guest_rightbottom",
+          "location": [
+            7.3638,
+            10.95418,
+            4.467
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 3.3441
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 3,
+        "median_depth_m": 2.542,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "MAIN_L2_guest_east_glass_0",
+          "location": [
+            11.1046,
+            10.02012,
+            4.467
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.34635
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.771,
+        "different_visible_objects": 13,
+        "center_hit": {
+          "object": "MAIN_L3_study_south_mullion_1",
+          "location": [
+            -1.94968,
+            11.2764,
+            6.39206
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.72907
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.243,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L3_study_core_1",
+          "location": [
+            -2.96774,
+            16.4101,
+            6.35546
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 5.07889
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.702,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L3_BATH_washbasin_00_mirror",
+          "location": [
+            1.11587,
+            14.02587,
+            6.7064
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 1.72147
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.107,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "MAIN_L3_bath_0",
+          "location": [
+            0.90597,
+            16.1053,
+            6.65077
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 2.25359
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.456,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L3_alcove_east_glass_1",
+          "location": [
+            7.5938,
+            12.86524,
+            6.12124
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 7.31966
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.608,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L3_GALLERY_gallery_art_placeholder_00_frame_vertical.001",
+          "location": [
+            3.17235,
+            13.14363,
+            6.64453
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.31342
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.472,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L3_GALLERY_gallery_art_placeholder_00_art_backing",
+          "location": [
+            3.00719,
+            13.1893,
+            6.45473
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.12943
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.269,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            25.70003,
+            20.18502,
+            4.65087
+          ],
+          "normal": [
+            -0.80833,
+            -0.18506,
+            0.55889
+          ],
+          "distance": 21.386
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.637,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_L3_gallery_south_open_casement_glass_0",
+          "location": [
+            2.61384,
+            12.62276,
+            6.06636
+          ],
+          "normal": [
+            0.97815,
+            -0.20791,
+            0.0
+          ],
+          "distance": 7.84466
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.921,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_L3_terrace_parapet_1",
+          "location": [
+            10.4696,
+            10.20665,
+            5.83315
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 10.07572
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.871,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L3_gallery_north",
+          "location": [
+            4.32442,
+            15.2437,
+            6.23421
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 7.41567
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 12.602,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            9.70635,
+            31.70273,
+            5.16811
+          ],
+          "normal": [
+            -0.03393,
+            -0.86799,
+            0.49541
+          ],
+          "distance": 16.43804
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.511,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_L3_GALLERY_slab",
+          "location": [
+            4.94529,
+            13.2221,
+            5.24269
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 3.23107
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.956,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_stair2_05",
+          "location": [
+            4.28364,
+            13.9321,
+            3.88061
+          ],
+          "normal": [
+            0.38268,
+            0.0,
+            0.92388
+          ],
+          "distance": 1.51113
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.67,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "GUEST_L1_THEATER_WEST_pier_1",
+          "location": [
+            -1.93937,
+            46.68059,
+            9.32862
+          ],
+          "normal": [
+            0.99259,
+            -0.12148,
+            0.0
+          ],
+          "distance": 6.42479
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.592,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "GUEST_L1_THEATER_NORTHEAST_steel_window_0_glass_3",
+          "location": [
+            2.65816,
+            52.02596,
+            9.19921
+          ],
+          "normal": [
+            -0.86517,
+            -0.50148,
+            0.0
+          ],
+          "distance": 7.66287
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.621,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "GUEST_L1_THEATER_SOUTH_DIAGONAL_steel_window_0_glass_1",
+          "location": [
+            0.80986,
+            43.53797,
+            9.52165
+          ],
+          "normal": [
+            -0.91958,
+            -0.39291,
+            0.0
+          ],
+          "distance": 4.57811
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.779,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            -3.31015,
+            40.62846,
+            9.3996
+          ],
+          "normal": [
+            -0.63175,
+            0.77517,
+            0.0
+          ],
+          "distance": 5.74587
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.285,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_STONE_CHIMNEY_pier_end",
+          "location": [
+            1.06661,
+            40.05199,
+            9.48516
+          ],
+          "normal": [
+            -0.3824,
+            -0.924,
+            0.0
+          ],
+          "distance": 4.92742
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.943,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_L1_CHAUFFEUR_WEST_steel_window_0_glass_3",
+          "location": [
+            -3.58628,
+            37.68192,
+            9.46121
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.15639
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.665,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            4.21601,
+            42.32325,
+            9.81514
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 1.77034
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.342,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            5.94921,
+            41.73666,
+            9.76533
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.24685
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 13.151,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L1_north_spine_0",
+          "location": [
+            -1.33235,
+            16.9517,
+            1.81675
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 22.55868
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.139,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "GUEST_L1_CHAUFFEUR_EAST_open_leaf_0",
+          "location": [
+            1.8903,
+            40.49429,
+            9.03243
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 6.19647
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.204,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L1_LOUNGE_walnut_vertical_screen_04_screen_slat.008",
+          "location": [
+            4.95791,
+            39.5103,
+            9.44842
+          ],
+          "normal": [
+            0.92382,
+            -0.38282,
+            0.0
+          ],
+          "distance": 5.2788
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.064,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_4",
+          "location": [
+            7.07778,
+            36.0648,
+            9.48902
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.89031
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.864,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L1_LOUNGE_window_cantilever_bench_00_back_cushion.004",
+          "location": [
+            5.76402,
+            36.46233,
+            9.2404
+          ],
+          "normal": [
+            0.0,
+            0.96815,
+            0.25036
+          ],
+          "distance": 7.26891
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.869,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            13.42385,
+            40.66719,
+            9.55053
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.30183
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.516,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L1_BATH_washbasin_01_mirror",
+          "location": [
+            12.13238,
+            38.09152,
+            9.78784
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 2.11774
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.236,
+        "different_visible_objects": 2,
+        "center_hit": {
+          "object": "GUEST_L1_BATH_SOUTH_pier_end_cork_lining",
+          "location": [
+            13.3879,
+            36.672,
+            9.77651
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 2.2261
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.135,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "GUEST_L1_BED_EAST_pier_end",
+          "location": [
+            19.51459,
+            36.77861,
+            9.3616
+          ],
+          "normal": [
+            2e-05,
+            1.0,
+            0.0
+          ],
+          "distance": 6.10942
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.169,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            10.32967,
+            40.66195,
+            9.02842
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 9.29678
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 20.203,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_CONNECTOR_support_020",
+          "location": [
+            -1.47186,
+            26.3113,
+            7.88837
+          ],
+          "normal": [
+            0.96592,
+            -0.25883,
+            0.0
+          ],
+          "distance": 20.20275
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.803,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_POOL_water",
+          "location": [
+            30.6358,
+            35.70073,
+            8.96505
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 22.36506
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.534,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "GUEST_POOL_water",
+          "location": [
+            27.16636,
+            34.81523,
+            8.96505
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 4.34245
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.284,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "GUEST_POOL_water",
+          "location": [
+            28.80323,
+            35.55566,
+            8.96505
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 3.14525
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.336,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_B1_LAUNDRY_laundry_sink_00_mirror",
+          "location": [
+            -1.26582,
+            40.34372,
+            7.27821
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 3.46303
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.914,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            1.16064,
+            38.99546,
+            7.39436
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.35189
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.942,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_B1_BASE_BATH_EAST_pier_end_cork_lining",
+          "location": [
+            -1.6674,
+            38.31467,
+            7.49984
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.42888
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.879,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "GUEST_B1_BASE_BATH_NORTH_pier_end_cork_lining",
+          "location": [
+            -2.54638,
+            39.3982,
+            7.44703
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 1.93414
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 3,
+        "median_depth_m": 1.101,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_LAUNDRY_DESCENT_tread_06",
+          "location": [
+            1.6603,
+            39.0763,
+            7.2202
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 1.14097
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 2,
+        "median_depth_m": 1.473,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "GUEST_LAUNDRY_DESCENT_tread_06",
+          "location": [
+            1.96281,
+            38.96159,
+            7.11371
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 0.91914
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.848,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_SOUTH_pier_end",
+          "location": [
+            0.65372,
+            37.26292,
+            11.84396
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.86856
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.871,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_WEST_steel_window_2_glass_1",
+          "location": [
+            -3.48116,
+            39.12696,
+            11.9031
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.30291
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.717,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_ROOM_EAST_pier_1",
+          "location": [
+            1.2274,
+            44.19823,
+            11.79075
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.37775
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.871,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_WEST_steel_window_1_glass_2",
+          "location": [
+            -3.48116,
+            42.07487,
+            11.87992
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.52466
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.871,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_ROOM_EAST_pier_0",
+          "location": [
+            1.2274,
+            47.796,
+            11.81998
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.09815
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.301,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_WEST_steel_window_0_glass_2",
+          "location": [
+            -3.48116,
+            45.97628,
+            11.82343
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.0651
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.343,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_BATH_SOUTH_open_leaf_0",
+          "location": [
+            1.87038,
+            45.43778,
+            12.0686
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.80572
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.021,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_NORTH_pier_end_cork_lining",
+          "location": [
+            2.39137,
+            48.5892,
+            12.04608
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 3.02121
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.871,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_ROOM_EAST_pier_2",
+          "location": [
+            1.3678,
+            42.62504,
+            12.08489
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 2.56369
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.544,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            3.28434,
+            45.17952,
+            11.87096
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.61038
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.776,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_NORTH_pier_end",
+          "location": [
+            1.07758,
+            48.7986,
+            11.76717
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 5.60336
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.248,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            -2.42514,
+            53.20865,
+            11.67247
+          ],
+          "normal": [
+            0.50633,
+            -0.86234,
+            0.0
+          ],
+          "distance": 6.50946
+        }
+      }
+    }
+  ]
+}

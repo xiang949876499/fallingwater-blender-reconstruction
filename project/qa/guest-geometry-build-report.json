@@ -1,0 +1,115 @@
+{
+  "status": "module_build_pass",
+  "rooms": 20,
+  "objects": 719,
+  "vertices": 76620,
+  "faces": 57324,
+  "blender_version": "5.2.1 LTS",
+  "world_registration": {
+    "image": "guest-01-original.tif, normalized to 1024\u00d7790",
+    "origin_px": [
+      325,
+      422
+    ],
+    "meters_per_pixel": [
+      0.05256,
+      0.05272
+    ],
+    "world_origin": [
+      3.4,
+      37.1,
+      8.4
+    ],
+    "evidence": "A/C: site2 sheet scale and homologous roof/service corner constrain XY; absolute guest datum C",
+    "scan_original_size": [
+      17673,
+      13632
+    ],
+    "uncertainty_m": 0.12,
+    "calibration": {
+      "x": {
+        "dimension": "31\u20326\u215d\u2033",
+        "meters": 9.617075,
+        "endpoints_normalized_px": [
+          [
+            698.1,
+            529
+          ],
+          [
+            880.9,
+            529
+          ]
+        ],
+        "derived_m_per_px": 0.05260981947483588,
+        "uncertainty_px": 1.0,
+        "source": "guest sheet1 bottom pool exterior chain"
+      },
+      "y": {
+        "dimension": "50\u203210\u00bc\u2033",
+        "meters": 15.50035,
+        "endpoints_normalized_px": [
+          [
+            159,
+            126.3
+          ],
+          [
+            159,
+            420.4
+          ]
+        ],
+        "derived_m_per_px": 0.052704352261135665,
+        "uncertainty_px": 1.0,
+        "source": "guest sheet1 west vertical chain"
+      },
+      "selected_scaling_note": "Rounded independent X/Y scale .05256,.05272; source JPEG/raw resampling introduces about1px tracing uncertainty."
+    },
+    "world_origin_uncertainty_m": [
+      0.25,
+      0.35,
+      1.0
+    ],
+    "site_registration": {
+      "source": "HABS PA-5346 main sheet2, original TIFF viewed via site-02-review.jpg",
+      "normalized_site_origin_px": [
+        507,
+        476
+      ],
+      "guest_service_southeast_px": [
+        533,
+        193
+      ],
+      "meters_per_pixel": 0.131,
+      "computed_origin_xy_m": [
+        3.406,
+        37.073
+      ],
+      "selected_origin_xy_m": [
+        3.4,
+        37.1
+      ],
+      "note": "Root supplied main origin; source site roof/service corner differs slightly from first-floor wall-face trace; retain XY uncertainty."
+    },
+    "absolute_z_review": {
+      "selected_m": 8.4,
+      "range_m": [
+        7.4,
+        9.4
+      ],
+      "evidence": "C",
+      "reviewed": [
+        "guest sheet4 full original west elevation",
+        "guest sheet4 original section looking north",
+        "main sheet8 west/north elevations JPEG",
+        "main sheet9 east elevation JPEG",
+        "main sheet10 sections JPEG and research level crops",
+        "main sheet11 detail sheet JPEG"
+      ],
+      "finding": "No shared numerical cross-building benchmark located. Guest main-level0\u20320 belongs to its own sheet datum. Main11 contains fireplace, lamp, hatch and desk details, not a cross-building level survey. Partial stepped canopies in main8/guest4 give qualitative uphill correspondence but are insufficient to claim measured absolute Z."
+    }
+  },
+  "limitations": [
+    "XY frozen from site2; guest absolute Z remains C8.4m with range7.4\u20139.4m",
+    "WorkBench is geometry inspection, not photoreal visual acceptance",
+    "Per-room navigation and architecture/furniture integration not tested by this module check"
+  ]
+}

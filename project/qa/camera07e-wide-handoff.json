@@ -1,0 +1,135 @@
+{
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_furniture_candidate07e.blend",
+  "source_scene_sha256": "d6084c1ebca7e1328f1a008b673d86e55c738da4b5ee8a52c5b7e5ce86b8eadd",
+  "recommended_render_order": [
+    {
+      "path": "qa/camera07e-wide-3-seating_side.json",
+      "sha256": "4b642382298d30f9c213ee97a9e7cb4189231dbe604cddcc54b611c712ac97be",
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "location": [
+        8.85,
+        37.45,
+        10.0002
+      ],
+      "target": [
+        4.9,
+        38.15,
+        10.0002
+      ],
+      "lens": 28,
+      "shift_y": -0.08,
+      "exposure": 3.6
+    },
+    {
+      "path": "qa/camera07e-wide-1-entrance_front.json",
+      "sha256": "266e09ec6014764143009971883be5410a89f83bfd2be8b6f9e59625063a458c",
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "location": [
+        9.0,
+        38.7,
+        10.0002
+      ],
+      "target": [
+        4.9,
+        38.65,
+        10.0002
+      ],
+      "lens": 28,
+      "shift_y": -0.07,
+      "exposure": 3.6
+    }
+  ],
+  "status": "TWO_BOUNDED_WIDE_CANDIDATES_RENDER_PENDING",
+  "production_settings_modified": false,
+  "production_settings_sha256": "34e4bc6b9ca8555ba57832b830c575658955da7fc9c947b9c5721dfede31bd9e",
+  "source_refs_actually_opened": [
+    "data/photo_refs/guest_living_11.jpg",
+    "qa/guest-iteration06-grid-guest-01.png"
+  ],
+  "variants_not_recommended": {
+    "north_front": "Only4/49 east mouth samples clear; shelf obstruction remains.",
+    "gallery_entrance": "No aperture samples clear; shelf completely occludes firebox despite safe standing point."
+  },
+  "preserved_support_checks": [
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "actual_support": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "location": [
+          13.81788,
+          10.59982,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "actual_support": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "location": [
+          13.81788,
+          10.59982,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "actual_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          5.46639,
+          37.30034,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      }
+    }
+  ],
+  "coverage_limit": "4 new A poses and3 retained point positions checked on furniture07e only. The120 merged convenience JSON files are NOT a full120 geometric revalidation on this candidate; integrated07 must be checked independently.",
+  "graphs_modified": false,
+  "merged_base": "qa/camera06-settings-candidate-frozen.json",
+  "geometry_report": "qa/camera07e-wide-candidates-report.json",
+  "rays_cast": 3253,
+  "actual_07e_existing_images": [
+    {
+      "path": "renders/previews/iteration07e-guest-screen/CAM_GUEST_L1_LOUNGE_A_EV3p6.png",
+      "sha256": "06f880afa7d75a8965030c0b050421dbe5e918580e252f872c0c283fe1e0aec4",
+      "actually_opened": true,
+      "status": "FRAMING_FAIL",
+      "finding": "AtEV3.6 fireplace visible beyond a huge cabinet/back face; still a narrow dead-end composition, with bottom of firebox obscured.",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "path": "renders/previews/iteration07e-guest-screen/CAM_GUEST_L1_LOUNGE_B_EV3p6.png",
+      "sha256": "a3dbb36ea87cbbb269be5d4dfdb9c29e2ec917f56d7fed4b73b550abadd1ffea",
+      "actually_opened": true,
+      "status": "READABLE_LIMITED_SECONDARY",
+      "finding": "AtEV3.6 room furniture and glazing are readable; corrected entrance screen and armchair dominate. It does not provide the west-facing fireplace relationship.",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "default_backward_compatible": {
+    "engine": "BLENDER_EEVEE",
+    "samples": 32,
+    "raytracing": true,
+    "ray_resolution_scale": "1",
+    "screen_trace_quality": 1.0,
+    "fast_gi": true,
+    "fast_gi_selection_source": "preserved_existing_setting",
+    "geometry_or_material_colors_changed": false
+  },
+  "explicit_off": {
+    "engine": "BLENDER_EEVEE",
+    "samples": 32,
+    "raytracing": true,
+    "ray_resolution_scale": "1",
+    "screen_trace_quality": 1.0,
+    "fast_gi": false,
+    "fast_gi_selection_source": "explicit_parameter",
+    "geometry_or_material_colors_changed": false
+  },
+  "saved_property_honored_after_flag_change": {
+    "engine": "BLENDER_EEVEE",
+    "samples": 32,
+    "raytracing": true,
+    "ray_resolution_scale": "1",
+    "screen_trace_quality": 1.0,
+    "fast_gi": false,
+    "fast_gi_selection_source": "saved_scene_property",
+    "geometry_or_material_colors_changed": false
+  },
+  "rendered": false,
+  "source_saved": false
+}

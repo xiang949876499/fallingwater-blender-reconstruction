@@ -1,0 +1,42 @@
+{
+  "status": "PASS_EXACT_GEOMETRY_REINDEXED",
+  "source": {
+    "source_sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+    "vertex_multiset": "9b0305b398606453a85e6f99276d0f9162695c72b6eed46dbb5b40fd82369724",
+    "oriented_face_multiset": "4477632b6e5f4d2169968b3f6b23ff0d97ea845120695f74ba8582c7a9ab5689",
+    "edge_multiset": "7ad7fb4c908a8dc07141c0330ff039488d90aa3055afba84dec9e112f0720e1c",
+    "counts": [
+      128601,
+      383980,
+      255380
+    ],
+    "uv_layers": 0,
+    "material_names": [
+      "FW_Continuous_Forest_Floor"
+    ]
+  },
+  "rebuild": {
+    "source_sha256": "b8299d7605019cfe55a8251337df757c479e5fe5c82a4605970513eae37a5887",
+    "vertex_multiset": "9b0305b398606453a85e6f99276d0f9162695c72b6eed46dbb5b40fd82369724",
+    "oriented_face_multiset": "4477632b6e5f4d2169968b3f6b23ff0d97ea845120695f74ba8582c7a9ab5689",
+    "edge_multiset": "7ad7fb4c908a8dc07141c0330ff039488d90aa3055afba84dec9e112f0720e1c",
+    "counts": [
+      128601,
+      383980,
+      255380
+    ],
+    "uv_layers": 0,
+    "material_names": [
+      "FW_Continuous_Forest_Floor"
+    ]
+  },
+  "matches": {
+    "vertex_multiset": true,
+    "oriented_face_multiset": true,
+    "edge_multiset": true,
+    "counts": true,
+    "uv_layers": true,
+    "material_names": true
+  },
+  "scope": "Exact float32 coordinate multiset, oriented face cycles with material/smooth, and edge multiset. No coordinate tolerance; vertex IDs may differ. Only terrain has this diagnostic."
+}

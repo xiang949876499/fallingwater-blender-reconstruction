@@ -1,0 +1,667 @@
+{
+  "status": "PASS",
+  "blender_version": "5.2.1 LTS",
+  "test_method": "Up/down ray casts against evaluated actual guest mesh at 14 tread centers ×3 lateral positions, lower approach, upper landing and west return. Old solid slab reintroduced in memory to prove regression sensitivity. No rendering.",
+  "required_clearance_m": 1.95,
+  "minimum_current_clearance_m": 2.12,
+  "current_samples": [
+    {
+      "sample": "tread_00_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        355.7857142857143
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_00",
+      "floor_z": 8.568048,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 4.304627,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_00_offset_+0.00",
+      "source_xy": [
+        316.0,
+        355.7857142857143
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_00",
+      "floor_z": 8.568048,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 4.304627,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_00_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        355.7857142857143
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_00",
+      "floor_z": 8.568048,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 4.304627,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_01_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        359.35714285714283
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_01",
+      "floor_z": 8.736096,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 4.136579,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_01_offset_+0.00",
+      "source_xy": [
+        316.0,
+        359.35714285714283
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_01",
+      "floor_z": 8.736096,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 4.136579,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_01_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        359.35714285714283
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_01",
+      "floor_z": 8.736096,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 4.136579,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_02_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        362.92857142857144
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_02",
+      "floor_z": 8.904144,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.968531,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_02_offset_+0.00",
+      "source_xy": [
+        316.0,
+        362.92857142857144
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_02",
+      "floor_z": 8.904144,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.968531,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_02_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        362.92857142857144
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_02",
+      "floor_z": 8.904144,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.968531,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_03_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        366.5
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_03",
+      "floor_z": 9.072192,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.800483,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_03_offset_+0.00",
+      "source_xy": [
+        316.0,
+        366.5
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_03",
+      "floor_z": 9.072192,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.800483,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_03_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        366.5
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_03",
+      "floor_z": 9.072192,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.800483,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_04_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        370.07142857142856
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_04",
+      "floor_z": 9.240241,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.632434,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_04_offset_+0.00",
+      "source_xy": [
+        316.0,
+        370.07142857142856
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_04",
+      "floor_z": 9.240241,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.632434,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_04_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        370.07142857142856
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_04",
+      "floor_z": 9.240241,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.632434,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_05_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        373.64285714285717
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_05",
+      "floor_z": 9.408289,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.464386,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_05_offset_+0.00",
+      "source_xy": [
+        316.0,
+        373.64285714285717
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_05",
+      "floor_z": 9.408289,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.464386,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_05_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        373.64285714285717
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_05",
+      "floor_z": 9.408289,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.464386,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_06_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        377.2142857142857
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_06",
+      "floor_z": 9.576337,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.296338,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_06_offset_+0.00",
+      "source_xy": [
+        316.0,
+        377.2142857142857
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_06",
+      "floor_z": 9.576337,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.296338,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_06_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        377.2142857142857
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_06",
+      "floor_z": 9.576337,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.296338,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_07_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        380.7857142857143
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_07",
+      "floor_z": 9.744386,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.128289,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_07_offset_+0.00",
+      "source_xy": [
+        316.0,
+        380.7857142857143
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_07",
+      "floor_z": 9.744386,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.128289,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_07_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        380.7857142857143
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_07",
+      "floor_z": 9.744386,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 3.128289,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_08_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        384.35714285714283
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_08",
+      "floor_z": 9.912434,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.960241,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_08_offset_+0.00",
+      "source_xy": [
+        316.0,
+        384.35714285714283
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_08",
+      "floor_z": 9.912434,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.960241,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_08_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        384.35714285714283
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_08",
+      "floor_z": 9.912434,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.960241,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_09_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        387.92857142857144
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_09",
+      "floor_z": 10.080482,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.792193,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_09_offset_+0.00",
+      "source_xy": [
+        316.0,
+        387.92857142857144
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_09",
+      "floor_z": 10.080482,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.792193,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_09_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        387.92857142857144
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_09",
+      "floor_z": 10.080482,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.792193,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_10_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        391.5
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_10",
+      "floor_z": 10.24853,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.624145,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_10_offset_+0.00",
+      "source_xy": [
+        316.0,
+        391.5
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_10",
+      "floor_z": 10.24853,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.624145,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_10_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        391.5
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_10",
+      "floor_z": 10.24853,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.624145,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_11_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        395.07142857142856
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_11",
+      "floor_z": 10.416578,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.456097,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_11_offset_+0.00",
+      "source_xy": [
+        316.0,
+        395.07142857142856
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_11",
+      "floor_z": 10.416578,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.456097,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_11_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        395.07142857142856
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_11",
+      "floor_z": 10.416578,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.456097,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_12_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        398.64285714285717
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_12",
+      "floor_z": 10.584626,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.288049,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_12_offset_+0.00",
+      "source_xy": [
+        316.0,
+        398.64285714285717
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_12",
+      "floor_z": 10.584626,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.288049,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_12_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        398.64285714285717
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_12",
+      "floor_z": 10.584626,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.288049,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_13_offset_-0.30",
+      "source_xy": [
+        310.2922374429224,
+        402.2142857142857
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_13",
+      "floor_z": 10.752675,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.12,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_13_offset_+0.00",
+      "source_xy": [
+        316.0,
+        402.2142857142857
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_13",
+      "floor_z": 10.752675,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.12,
+      "status": "PASS"
+    },
+    {
+      "sample": "tread_13_offset_+0.30",
+      "source_xy": [
+        321.7077625570776,
+        402.2142857142857
+      ],
+      "walking_surface": "GUEST_SERVICE_ASCENT_tread_13",
+      "floor_z": 10.752675,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.12,
+      "status": "PASS"
+    },
+    {
+      "sample": "north_lower_approach",
+      "source_xy": [
+        316,
+        350
+      ],
+      "walking_surface": "GUEST_L1_HALL_NORTH",
+      "floor_z": 8.4,
+      "ceiling_object": "GUEST_L2_CORRIDOR_FLOOR",
+      "clearance_m": 2.142675,
+      "status": "PASS"
+    },
+    {
+      "sample": "top_landing",
+      "source_xy": [
+        316,
+        409
+      ],
+      "walking_surface": "GUEST_L2_STAIR_TOP_LANDING",
+      "floor_z": 10.752675,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.12,
+      "status": "PASS"
+    },
+    {
+      "sample": "west_return_south",
+      "source_xy": [
+        297,
+        400
+      ],
+      "walking_surface": "GUEST_L2_STAIR_PASSAGE",
+      "floor_z": 10.752675,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.12,
+      "status": "PASS"
+    },
+    {
+      "sample": "west_return_mid",
+      "source_xy": [
+        297,
+        376
+      ],
+      "walking_surface": "GUEST_L2_STAIR_PASSAGE",
+      "floor_z": 10.752675,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.12,
+      "status": "PASS"
+    },
+    {
+      "sample": "west_return_north",
+      "source_xy": [
+        297,
+        352
+      ],
+      "walking_surface": "GUEST_L2_STAIR_PASSAGE",
+      "floor_z": 10.752675,
+      "ceiling_object": "GUEST_SERVICE_BEDROOM_ROOF",
+      "clearance_m": 2.12,
+      "status": "PASS"
+    }
+  ],
+  "old_slab_failure_count": 12,
+  "old_slab_min_clearance_m": 1.302434,
+  "bathroom_cork_wall_linings": {
+    "GUEST_L1_BATH": [
+      {
+        "object": "GUEST_L1_BATH_WEST_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L1_BATH_NORTH_TUB_pier_0_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L1_BATH_NORTH_TUB_lintel_0_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L1_BATH_NORTH_TUB_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L1_BATH_WC_NORTH_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L1_BATH_WC_WEST_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L1_BATH_EAST_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L1_BATH_SOUTH_pier_end_cork_lining",
+        "material": "FW_cork"
+      }
+    ],
+    "GUEST_B1_BATH": [
+      {
+        "object": "GUEST_B1_BASE_SOUTH_pier_0_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_B1_BASE_BATH_NORTH_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_B1_BASE_BATH_EAST_pier_0_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_B1_BASE_BATH_EAST_lintel_0_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_B1_BASE_BATH_EAST_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_B1_BASE_BATH_WEST_pier_end_cork_lining",
+        "material": "FW_cork"
+      }
+    ],
+    "GUEST_L2_BATH": [
+      {
+        "object": "GUEST_L2_UPPER_EAST_pier_0_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L2_UPPER_NORTH_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L2_UPPER_BATH_WEST_pier_end_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L2_UPPER_BATH_SOUTH_pier_0_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L2_UPPER_BATH_SOUTH_lintel_0_cork_lining",
+        "material": "FW_cork"
+      },
+      {
+        "object": "GUEST_L2_UPPER_BATH_SOUTH_pier_end_cork_lining",
+        "material": "FW_cork"
+      }
+    ]
+  },
+  "limits": [
+    "Module geometry only; integrated furnishings, main-building or terrain objects may require the same navigation check.",
+    "Doorway heights are not measured by this stair-focused regression."
+  ]
+}

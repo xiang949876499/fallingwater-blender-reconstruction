@@ -1,0 +1,2743 @@
+{
+  "status": "REAL_BED_DEFAULT_PRIMARY_STATIC_PASS_NOT_SINGLE_CAUSE_OR_VISUAL_PROOF",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_water08_static_head24.blend",
+  "source_sha256": "c108949a959351a2f0219a1f457b235b34903d9efb50dade5ab533a525d7ef2e",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_water09_real_bed_default24.blend",
+  "source_state": {
+    "domain": {
+      "domain_type": "LIQUID",
+      "resolution_max": 96,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9399999976158142,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 2,
+      "timesteps_max": 12,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": true,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": true,
+      "use_flip_particles": true,
+      "use_foam_particles": true,
+      "use_spray_particles": true,
+      "use_bubble_particles": true,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 1,
+      "mesh_particle_radius": 1.25,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": true,
+      "use_collision_border_back": true,
+      "use_collision_border_left": true,
+      "use_collision_border_right": true,
+      "use_collision_border_top": false,
+      "use_collision_border_bottom": true
+    },
+    "objects": {
+      "HYBRID07_Exact_Local_Terrain_Top": {
+        "geometry_world_sha256": "173e3b6ac726623e067549229b45f8ee39b3fd4767dff06e44618a8d550de3d8",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": null,
+        "animation": false,
+        "topology": {
+          "vertices": 64,
+          "faces": 83,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "signed_volume_m3": 19.9612843610567
+        }
+      },
+      "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone": {
+        "geometry_world_sha256": "30d6b6cc01a24006d04dbb1da6ddd46267862b1a72122d908fdc6a11e87b7fc6",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": null,
+        "animation": false,
+        "topology": {
+          "vertices": 11877,
+          "faces": 23750,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "signed_volume_m3": 309.74353308383644
+        }
+      },
+      "WATER08_Static_Head_Control_Domain": {
+        "geometry_world_sha256": "304d129187c23dd0ee27ed86bd95fe078231336cdb7e13e6718f408c66e9a1a6",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": null,
+        "animation": false,
+        "topology": {
+          "vertices": 8,
+          "faces": 6,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "signed_volume_m3": 4.848000146865842
+        }
+      },
+      "WATER08_Complete_Connected_Initial_Pool": {
+        "geometry_world_sha256": "18295113b4688a617f591c305f899ad663bb1d4aed5fa2f394e459827b15132d",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": null,
+        "animation": false,
+        "topology": {
+          "vertices": 127,
+          "faces": 112,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "signed_volume_m3": 3.2648255419114713
+        }
+      }
+    },
+    "flow": {
+      "flow_type": "LIQUID",
+      "flow_behavior": "GEOMETRY",
+      "use_initial_velocity": true,
+      "velocity_coord": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_normal": 0.0,
+      "velocity_random": 0.0,
+      "surface_distance": 0.0,
+      "subframes": 0
+    },
+    "gravity": [
+      0.0,
+      0.0,
+      -9.8100004196167
+    ],
+    "unit_scale_length": 1.0,
+    "fps": 24,
+    "fluid_group": "WATER08_STATIC_INITIAL_ONLY",
+    "effector_group": "HYBRID07_IMPACT_COLLISIONS"
+  },
+  "original_cache_manifest": [
+    {
+      "path": "config\\config_0001.uni",
+      "bytes": 106,
+      "sha256": "d87a4efeaba692e786f684157589fba6759798590904ad5928b882d6cfb7e347"
+    },
+    {
+      "path": "config\\config_0002.uni",
+      "bytes": 106,
+      "sha256": "e5a40329ecb3c6634bac68df551f1578e9efb161d7fa96569a52d2c44de151d3"
+    },
+    {
+      "path": "config\\config_0003.uni",
+      "bytes": 106,
+      "sha256": "41981594e08ea56384f0585da7501cb094c2d19000b2cd3abe11e2f2961315f7"
+    },
+    {
+      "path": "config\\config_0004.uni",
+      "bytes": 106,
+      "sha256": "86143e5097f7192ec9ef5e354253e8399bae8ff21b1d90dce141206577695a03"
+    },
+    {
+      "path": "config\\config_0005.uni",
+      "bytes": 106,
+      "sha256": "597d3a2952332a9fd9d8d49fd07b5f66433fac2678b48538bb00bcc7cebb806b"
+    },
+    {
+      "path": "config\\config_0006.uni",
+      "bytes": 106,
+      "sha256": "5d50cacba6db26995d4364391f5c2d52cd66f85646321d1fdfc0f7ab0716f82d"
+    },
+    {
+      "path": "config\\config_0007.uni",
+      "bytes": 106,
+      "sha256": "d573cff0dc8c1e4a201b66452b5dfa08ffb875b4b073385cd9683d2555a291fa"
+    },
+    {
+      "path": "config\\config_0008.uni",
+      "bytes": 106,
+      "sha256": "229575b21f020a0f66dbc9414619b9004aa5586c3d7231f2c9c4ec83bf7155fa"
+    },
+    {
+      "path": "config\\config_0009.uni",
+      "bytes": 106,
+      "sha256": "3c28aaf09b909999bf869bae235109f848929ad65a973751c07f35a0df2c16de"
+    },
+    {
+      "path": "config\\config_0010.uni",
+      "bytes": 106,
+      "sha256": "c944957d5f30bbcb37d156e90cd2316eee5f806509dd29a9c2fc9d68efd65393"
+    },
+    {
+      "path": "config\\config_0011.uni",
+      "bytes": 106,
+      "sha256": "3f203d94b9e9d0b1c3d8b7577e587d8e8830b5bd96a589a89baa52c2f6024371"
+    },
+    {
+      "path": "config\\config_0012.uni",
+      "bytes": 106,
+      "sha256": "f0cdcc288cb6fba730970bc04428fbbb2acccb9bc5e83867e8b8726796a988db"
+    },
+    {
+      "path": "config\\config_0013.uni",
+      "bytes": 106,
+      "sha256": "895182dc511993cb2cca47b4e925f54448b0eb224fe66a9229ab6b997b053737"
+    },
+    {
+      "path": "config\\config_0014.uni",
+      "bytes": 106,
+      "sha256": "bb82ac9054194ec50dbc2058ed6aab3d9b72a9a6ecd8d670971c22b2ec6c8a6b"
+    },
+    {
+      "path": "config\\config_0015.uni",
+      "bytes": 106,
+      "sha256": "73feee91fac97016395f3917ca724bbda09da02146e0a7d8f072f6df54ac64a4"
+    },
+    {
+      "path": "config\\config_0016.uni",
+      "bytes": 106,
+      "sha256": "dd4ada222222f27099a0190f819563d7499c0db9c5d9c48bf6f1ee3fb03b7e2f"
+    },
+    {
+      "path": "config\\config_0017.uni",
+      "bytes": 106,
+      "sha256": "5e2e33698fd6bcbd8f09af9420e9368583c117d4844d741a5f0ee0e1d66940c8"
+    },
+    {
+      "path": "config\\config_0018.uni",
+      "bytes": 106,
+      "sha256": "c4cfa94107c1ada635c3a46fa9958e8766cd9fb6d6c31a2ed90e801f51cfc7c2"
+    },
+    {
+      "path": "config\\config_0019.uni",
+      "bytes": 106,
+      "sha256": "dddfcd6c1aaa7d2b54c00d4876968460bd7931645e4402622ababf17bfb5065b"
+    },
+    {
+      "path": "config\\config_0020.uni",
+      "bytes": 106,
+      "sha256": "0111ae84a637bac2c66738e9cc592b7330ccdad63195629a72277ebbf8c6e11e"
+    },
+    {
+      "path": "config\\config_0021.uni",
+      "bytes": 106,
+      "sha256": "4885d20ad6d4379978864c36662140bbf8e0ed3ed284da5abb12bb06cdbb662f"
+    },
+    {
+      "path": "config\\config_0022.uni",
+      "bytes": 106,
+      "sha256": "aca5c86dbd905b63110fa0ce3a80e930203e1867b43b13cce37480f2ddfd96f7"
+    },
+    {
+      "path": "config\\config_0023.uni",
+      "bytes": 106,
+      "sha256": "d8f14034bbd094a1720412a89f20b618857f56778652603c24c042b43c0d6631"
+    },
+    {
+      "path": "config\\config_0024.uni",
+      "bytes": 106,
+      "sha256": "1990d2d489d388dc7335d0574b197ebfb85d2204a12d91f5a4ff37d7454f29d7"
+    },
+    {
+      "path": "data\\fluid_data_0001.vdb",
+      "bytes": 8089367,
+      "sha256": "1d84b16508faf10def506c37e1259b8515c8348cf4f12481328117b8d755367a"
+    },
+    {
+      "path": "data\\fluid_data_0002.vdb",
+      "bytes": 8350345,
+      "sha256": "300b97c3a97f5aa71af931ce32e784c67453ac5988cf9a14b435dd985d338953"
+    },
+    {
+      "path": "data\\fluid_data_0003.vdb",
+      "bytes": 8874701,
+      "sha256": "65f3ea17f489a68da9b73c294ad13f33d7db1c3f1ed7bbf29f08a36b7d5c7f0b"
+    },
+    {
+      "path": "data\\fluid_data_0004.vdb",
+      "bytes": 9458611,
+      "sha256": "445ab90758a5e323197859f94bbfc1999f5f1722b1c92b0caddccb2549e6b021"
+    },
+    {
+      "path": "data\\fluid_data_0005.vdb",
+      "bytes": 9790884,
+      "sha256": "9adb53e2d8f58d2f7b7bd857f7a6afc77b82d6e817a62e30e14c888448a6a0b9"
+    },
+    {
+      "path": "data\\fluid_data_0006.vdb",
+      "bytes": 10290390,
+      "sha256": "bae941f1d7b453a16b843e3c33682f9cf8cac53eaea3706f83ad277a3bee10ee"
+    },
+    {
+      "path": "data\\fluid_data_0007.vdb",
+      "bytes": 10685808,
+      "sha256": "b3592bd355e8c13361a0883e3677f713ce7a24e3d011e49898fb9251bf72e09f"
+    },
+    {
+      "path": "data\\fluid_data_0008.vdb",
+      "bytes": 11133476,
+      "sha256": "169d823b116bd1586b661ab86235dde4088617696a7fa7abb91b6819f4c7efd2"
+    },
+    {
+      "path": "data\\fluid_data_0009.vdb",
+      "bytes": 11489040,
+      "sha256": "0966d95747ef72383b53a3fc28e2784fcde42ef3bdf81b4bc7668b8c2e196316"
+    },
+    {
+      "path": "data\\fluid_data_0010.vdb",
+      "bytes": 11929931,
+      "sha256": "17262663d915e65c450c2344d8f1dac186f38c24ebbffcbe391c421d9d392714"
+    },
+    {
+      "path": "data\\fluid_data_0011.vdb",
+      "bytes": 12284681,
+      "sha256": "24199cb26a8e1a207cf3648090932bf06a20cbd20a75c1d3b72a45c16b044a12"
+    },
+    {
+      "path": "data\\fluid_data_0012.vdb",
+      "bytes": 12610082,
+      "sha256": "33c60c5eee3fe42cefab9401403210603fde335034752f66f8c9d73001abdd51"
+    },
+    {
+      "path": "data\\fluid_data_0013.vdb",
+      "bytes": 12659146,
+      "sha256": "a6da3cca8350db8547ecf254c6407f717847070d5aaa3733aad392582a4613f6"
+    },
+    {
+      "path": "data\\fluid_data_0014.vdb",
+      "bytes": 12917956,
+      "sha256": "ca821c10b456fb8ecc38bc6ea0c83dab8a974db5d91f3e5147780dd5c81268fb"
+    },
+    {
+      "path": "data\\fluid_data_0015.vdb",
+      "bytes": 12939848,
+      "sha256": "32fe26ebc5ee55e0fdb7d98f8a113e1f7ae4234d8d9cea28605f3f738214a23e"
+    },
+    {
+      "path": "data\\fluid_data_0016.vdb",
+      "bytes": 13044903,
+      "sha256": "22eb2909478754fc804021f8120d22a8388d3a5c95bff554fe60628552032258"
+    },
+    {
+      "path": "data\\fluid_data_0017.vdb",
+      "bytes": 13333713,
+      "sha256": "23119e457cbbe4894afda2d49dadfea629a28f68fab3c1a8c44dc2737b784369"
+    },
+    {
+      "path": "data\\fluid_data_0018.vdb",
+      "bytes": 13437136,
+      "sha256": "ba157361d09403db3f0617679d17e7f1f48ec02dcf3b0d2266d3318e32b3a778"
+    },
+    {
+      "path": "data\\fluid_data_0019.vdb",
+      "bytes": 13609558,
+      "sha256": "fa7131a8831fdefc389e6014b2d4885e92569fdf36e02357453ecc67e441181a"
+    },
+    {
+      "path": "data\\fluid_data_0020.vdb",
+      "bytes": 13819665,
+      "sha256": "5c3d4420ac3a1e0736304c08e6713264733e73577f914c9a511afaa36376cf56"
+    },
+    {
+      "path": "data\\fluid_data_0021.vdb",
+      "bytes": 14090800,
+      "sha256": "da6f6e50633b4e8e18eef7c26224909242b156ba3039c0fa799e5eb69e692b28"
+    },
+    {
+      "path": "data\\fluid_data_0022.vdb",
+      "bytes": 14300994,
+      "sha256": "299ee552ee2dac902826f3329ad85c095ad632819821220e0cb6d2619cb3715e"
+    },
+    {
+      "path": "data\\fluid_data_0023.vdb",
+      "bytes": 14472431,
+      "sha256": "c5e5fda30fa020fe158b3673835084d2eb89b55768fad348ca3e423f22bae2ef"
+    },
+    {
+      "path": "data\\fluid_data_0024.vdb",
+      "bytes": 14518230,
+      "sha256": "edd3470bbfbde5e46262e352ed46270d03eefdb79f7ba682f59ad2b5968467ab"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0001.bobj.gz",
+      "bytes": 532003,
+      "sha256": "7da0d8f7f8e3d707a7ae8d05ccade76d3b72501ef76d443e569b0ac23ab771f1"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0002.bobj.gz",
+      "bytes": 532522,
+      "sha256": "39617daed47afe0ecc6b27ae9488ab79bc468a136f7a93489b2f768806a4386c"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0003.bobj.gz",
+      "bytes": 549796,
+      "sha256": "6a4efe95ca211d81976d24dd5ed61de32593fd02f401e4cf537675c0941d6f97"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0004.bobj.gz",
+      "bytes": 543099,
+      "sha256": "05c576bf3e5e01c25af4b2ff388b188156fc428bf2266bed9d9cfea156f0c444"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0005.bobj.gz",
+      "bytes": 545531,
+      "sha256": "1a8ca3967656c9d50a412115700065446b30a90d7f4de68e3c44852507f723c5"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0006.bobj.gz",
+      "bytes": 542178,
+      "sha256": "ea35ad733bf9c47e7856674bec08db915c7522998bf3f2ad615923cbaf0f2757"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0007.bobj.gz",
+      "bytes": 546751,
+      "sha256": "56ed4d5f0b35f7c672e5631a4f6b429d886bddccea515623bff3ef56845a4eb2"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0008.bobj.gz",
+      "bytes": 540485,
+      "sha256": "4d37d7f058ef6b5c5a12e2ea3746e2fb2a61e8e9c91c347e2ebec1f8e93a76b8"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0009.bobj.gz",
+      "bytes": 544269,
+      "sha256": "319b6a6168c81b836fd7769c62e032fb15489cd107bbd5a26e110e3bef1471b2"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0010.bobj.gz",
+      "bytes": 543060,
+      "sha256": "58da6ea79d5720868b1a796e09f0de73a7f3744aedbc4686951c98e1216ec6df"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0011.bobj.gz",
+      "bytes": 540614,
+      "sha256": "905783a1db4e1dc87f2b9cb299475b62f9521572b193ae2e83d4f062b6c29bb1"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0012.bobj.gz",
+      "bytes": 540478,
+      "sha256": "137348853a282a0079f08a04230eeabc34b6486cbbbd3bc04f5c6f3125ec22c9"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0013.bobj.gz",
+      "bytes": 535924,
+      "sha256": "33e6d09f6397bfb134183b171632a052f921bb3cf3cee1e1b785acbb9126c550"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0014.bobj.gz",
+      "bytes": 535247,
+      "sha256": "d6ddab7010de19f43534447cd504a4aa9379b344dcd7db5b40b40486106a70a2"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0015.bobj.gz",
+      "bytes": 531921,
+      "sha256": "9592b8e3e9f07a298ef4accf64b9ed1a7d557dd2eee6cea3b44c961a4ba3da25"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0016.bobj.gz",
+      "bytes": 528342,
+      "sha256": "2d88a79a6d36ff71fa1131e6f1c473f6b2290efcebf8620754b14b5b32ca9812"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0017.bobj.gz",
+      "bytes": 522201,
+      "sha256": "bee3b81354abe1a56473fb10abaab42e2bf860e9021920a23752de97d3947cc1"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0018.bobj.gz",
+      "bytes": 520617,
+      "sha256": "f2de79e246ee0fe6daa3e5d435c6e5d6d7a0d04ca3b32881159ca5d27fc54972"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0019.bobj.gz",
+      "bytes": 514174,
+      "sha256": "59936d1499eeb5f09c7e708edfbee13c0141b6ac5ed823f9542b18c0a954e187"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0020.bobj.gz",
+      "bytes": 510463,
+      "sha256": "b38c5ea619170f8bdd5215fba05c7de5bca318eb7e53ee8545d1d2df4eccab00"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0021.bobj.gz",
+      "bytes": 507215,
+      "sha256": "de9c06f953a9322c9c6462ffd6de35dedd3544376275091e057b226e26a8c2a8"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0022.bobj.gz",
+      "bytes": 505785,
+      "sha256": "d807fa5a719af0243bb7e5d0243583f2ea502e9e62310169bad88f4a0376c6b5"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0023.bobj.gz",
+      "bytes": 501861,
+      "sha256": "fbefd7ccd56c220484734e1f524c260a9692d5bd5ccb08481f8c14ff4315b01e"
+    },
+    {
+      "path": "mesh\\fluid_mesh_0024.bobj.gz",
+      "bytes": 503179,
+      "sha256": "bb2065d8c1121565293bea4b93d9cbd41a35a88d86b711e717f5c400f420d578"
+    },
+    {
+      "path": "particles\\fluid_particles_0001.vdb",
+      "bytes": 715,
+      "sha256": "d6d6c5c1344703b06cccbdc3a246772b563e7785ce63fd6096852f6d8cab9e31"
+    },
+    {
+      "path": "particles\\fluid_particles_0002.vdb",
+      "bytes": 56100,
+      "sha256": "1cedc13259143c69101e839b4c5479b9fadf5fb31fc80994790b54036ff57805"
+    },
+    {
+      "path": "particles\\fluid_particles_0003.vdb",
+      "bytes": 338706,
+      "sha256": "29cc89b953b8f561df5da9e7c23ab6889fa6ecd0a4e08aa77088113b4af6ed8c"
+    },
+    {
+      "path": "particles\\fluid_particles_0004.vdb",
+      "bytes": 853018,
+      "sha256": "28dd88f46c95e66f2a1458c00105ae7d2b75cd638d25947248b7921edb4acecb"
+    },
+    {
+      "path": "particles\\fluid_particles_0005.vdb",
+      "bytes": 1341801,
+      "sha256": "bd6754f3b896cf67c1e79f1a4e754562513723d334f3ca547c84f2e3dade5243"
+    },
+    {
+      "path": "particles\\fluid_particles_0006.vdb",
+      "bytes": 1664272,
+      "sha256": "ab966e918aba81bedceee41d62f9015e4f880b3e4033ae8087f25ae631e5ee15"
+    },
+    {
+      "path": "particles\\fluid_particles_0007.vdb",
+      "bytes": 1974053,
+      "sha256": "513a54450ae990b0b13c4090e89d5ae19bd43901735e9e4cb1467fc528af3bee"
+    },
+    {
+      "path": "particles\\fluid_particles_0008.vdb",
+      "bytes": 2316813,
+      "sha256": "504a3640c0a5f5ac702aeb995403f140b687f653713efdf35f3c7dd08af874ca"
+    },
+    {
+      "path": "particles\\fluid_particles_0009.vdb",
+      "bytes": 2547225,
+      "sha256": "ee5f563b73ced08f883e22692659543f70989603c20515d2e1fb404d3eff486c"
+    },
+    {
+      "path": "particles\\fluid_particles_0010.vdb",
+      "bytes": 2694601,
+      "sha256": "0b2b1df8fd373876a3c0ce4396dd3a41362f3775d1ad296ff33f45510ddd53e3"
+    },
+    {
+      "path": "particles\\fluid_particles_0011.vdb",
+      "bytes": 2833120,
+      "sha256": "e1f17868adaf94911d7b981d0e54c5e799463a7d255640cb3162a89b8dfcf7e2"
+    },
+    {
+      "path": "particles\\fluid_particles_0012.vdb",
+      "bytes": 2890988,
+      "sha256": "fde8e761695b5bccdb8092d0adac4af2c564560a76fe626f63ad1aed526e8cd0"
+    },
+    {
+      "path": "particles\\fluid_particles_0013.vdb",
+      "bytes": 2897604,
+      "sha256": "25fdd971cdb39b4fbdb1b4dab7316927b71923d24f5ef35d57794923bd379b93"
+    },
+    {
+      "path": "particles\\fluid_particles_0014.vdb",
+      "bytes": 2905996,
+      "sha256": "d7d3bdc0c4432fbd5aeed2370ad9115a8a11750fda9127f5ac26a601c726a2a7"
+    },
+    {
+      "path": "particles\\fluid_particles_0015.vdb",
+      "bytes": 2899267,
+      "sha256": "341f60f1a76f3f67aced8f09f4cd304b64fad854adf9e155bb56fb70a07637ef"
+    },
+    {
+      "path": "particles\\fluid_particles_0016.vdb",
+      "bytes": 2853235,
+      "sha256": "453407fda400fcaf0d2c2c24cfe81b45e856fc735315c9953ae680e40d91601b"
+    },
+    {
+      "path": "particles\\fluid_particles_0017.vdb",
+      "bytes": 2842742,
+      "sha256": "562dc89be59b960745d8b3cb80de3bb2403138a83fade3ee0801a91fde1d83ed"
+    },
+    {
+      "path": "particles\\fluid_particles_0018.vdb",
+      "bytes": 2869094,
+      "sha256": "92b31f2ed318c7f2ee143bdae5db0f110c13f760c24ad9fcd40c927c4073e5ef"
+    },
+    {
+      "path": "particles\\fluid_particles_0019.vdb",
+      "bytes": 2825395,
+      "sha256": "0b5e4471c30b1a18f8cb9604e6a011d02bacfa40e95f6a1e6f7e4b5ec0cd6588"
+    },
+    {
+      "path": "particles\\fluid_particles_0020.vdb",
+      "bytes": 2839580,
+      "sha256": "c3abd14939c5a6a2d00a903374cd309457ec62d69533f9f8303e3cf829126182"
+    },
+    {
+      "path": "particles\\fluid_particles_0021.vdb",
+      "bytes": 2872679,
+      "sha256": "d4ee963ebb09d572dcfde1f3c53406666ff96fbea68fbf1060178275e05b1578"
+    },
+    {
+      "path": "particles\\fluid_particles_0022.vdb",
+      "bytes": 2914416,
+      "sha256": "3069dc508cfac80ab09523badf5ef589994b93c24c4f59dd21ad4ac9db19418b"
+    },
+    {
+      "path": "particles\\fluid_particles_0023.vdb",
+      "bytes": 2976126,
+      "sha256": "77047a978363d8e6530840f0f64e9cd5ee6678e22acf0b6e2cf612af5b4d6aa7"
+    },
+    {
+      "path": "particles\\fluid_particles_0024.vdb",
+      "bytes": 3037248,
+      "sha256": "8e2f851319417cc04b14fb1b0f9108e302a81d55d96d605f66f3eb34c45a664c"
+    }
+  ],
+  "source_cache_untouched_after_prepare": true,
+  "only_requested_physics_changes": {
+    "use_fractions": false,
+    "delete_in_obstacle": false,
+    "flip_ratio": 0.97,
+    "timesteps_min": 1,
+    "timesteps_max": 4
+  },
+  "secondary_setter": [
+    {
+      "property": "use_foam_particles",
+      "before": true,
+      "assigned": true,
+      "after": false
+    },
+    {
+      "property": "use_spray_particles",
+      "before": true,
+      "assigned": true,
+      "after": false
+    },
+    {
+      "property": "use_bubble_particles",
+      "before": true,
+      "assigned": true,
+      "after": false
+    }
+  ],
+  "frame_range": [
+    1,
+    24
+  ],
+  "fps": 24,
+  "threads": 8,
+  "resolution": 96,
+  "head_z_m": -5.771274,
+  "cell_m": 0.025,
+  "domain_aabb_m": [
+    [
+      -0.4026584744,
+      1.9973415256
+    ],
+    [
+      -3.211417675,
+      -1.211417675
+    ],
+    [
+      -6.56,
+      -5.55
+    ]
+  ],
+  "production_installed": false,
+  "render_run": false,
+  "comparison_scope": "Multiple primary physics defaults plus secondary-off on identical real bed; not single-variable causal isolation",
+  "hard_stop_seconds": 180,
+  "resumable": true,
+  "no_automatic_extension": true,
+  "pre_save_assertions": {
+    "passed": true,
+    "actual_domain": {
+      "domain_type": "LIQUID",
+      "resolution_max": 96,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9700000286102295,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 1,
+      "timesteps_max": 4,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": false,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": false,
+      "use_flip_particles": true,
+      "use_foam_particles": false,
+      "use_spray_particles": false,
+      "use_bubble_particles": false,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 1,
+      "mesh_particle_radius": 1.25,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": true,
+      "use_collision_border_back": true,
+      "use_collision_border_left": true,
+      "use_collision_border_right": true,
+      "use_collision_border_top": false,
+      "use_collision_border_bottom": true
+    },
+    "actual_flow": {
+      "flow_type": "LIQUID",
+      "flow_behavior": "GEOMETRY",
+      "use_initial_velocity": true,
+      "velocity_coord": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_normal": 0.0,
+      "velocity_random": 0.0,
+      "surface_distance": 0.0,
+      "subframes": 0
+    },
+    "physics_differences": [
+      {
+        "property": "flip_ratio",
+        "before": 0.9399999976158142,
+        "after": 0.9700000286102295
+      },
+      {
+        "property": "timesteps_min",
+        "before": 2,
+        "after": 1
+      },
+      {
+        "property": "timesteps_max",
+        "before": 12,
+        "after": 4
+      },
+      {
+        "property": "use_fractions",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "delete_in_obstacle",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_foam_particles",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_spray_particles",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": true,
+        "after": false
+      }
+    ],
+    "geometry_unchanged": true,
+    "only_particle_system": "FLIP",
+    "resumable": true
+  },
+  "prepared_sha256": "c9c4106b1db0031f73366d3315e766a762d8928f531242584b2bb87701043d0d",
+  "reopened_assertions": {
+    "passed": true,
+    "actual_domain": {
+      "domain_type": "LIQUID",
+      "resolution_max": 96,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9700000286102295,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 1,
+      "timesteps_max": 4,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": false,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": false,
+      "use_flip_particles": true,
+      "use_foam_particles": false,
+      "use_spray_particles": false,
+      "use_bubble_particles": false,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 1,
+      "mesh_particle_radius": 1.25,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": true,
+      "use_collision_border_back": true,
+      "use_collision_border_left": true,
+      "use_collision_border_right": true,
+      "use_collision_border_top": false,
+      "use_collision_border_bottom": true
+    },
+    "actual_flow": {
+      "flow_type": "LIQUID",
+      "flow_behavior": "GEOMETRY",
+      "use_initial_velocity": true,
+      "velocity_coord": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_normal": 0.0,
+      "velocity_random": 0.0,
+      "surface_distance": 0.0,
+      "subframes": 0
+    },
+    "physics_differences": [
+      {
+        "property": "flip_ratio",
+        "before": 0.9399999976158142,
+        "after": 0.9700000286102295
+      },
+      {
+        "property": "timesteps_min",
+        "before": 2,
+        "after": 1
+      },
+      {
+        "property": "timesteps_max",
+        "before": 12,
+        "after": 4
+      },
+      {
+        "property": "use_fractions",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "delete_in_obstacle",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_foam_particles",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_spray_particles",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": true,
+        "after": false
+      }
+    ],
+    "geometry_unchanged": true,
+    "only_particle_system": "FLIP",
+    "resumable": true
+  },
+  "bake_seconds": 13.904645900001924,
+  "bake_result": [
+    "FINISHED"
+  ],
+  "cache_files": 72,
+  "cache_bytes": 192553687,
+  "baked_sha256": "9a227354cea628f1d310283d558530105780a247fd93825466a9a3262687dc6f",
+  "post_bake_assertions": {
+    "passed": true,
+    "actual_domain": {
+      "domain_type": "LIQUID",
+      "resolution_max": 96,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9700000286102295,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 1,
+      "timesteps_max": 4,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": false,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": false,
+      "use_flip_particles": true,
+      "use_foam_particles": false,
+      "use_spray_particles": false,
+      "use_bubble_particles": false,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 1,
+      "mesh_particle_radius": 1.25,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": true,
+      "use_collision_border_back": true,
+      "use_collision_border_left": true,
+      "use_collision_border_right": true,
+      "use_collision_border_top": false,
+      "use_collision_border_bottom": true
+    },
+    "actual_flow": {
+      "flow_type": "LIQUID",
+      "flow_behavior": "GEOMETRY",
+      "use_initial_velocity": true,
+      "velocity_coord": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_normal": 0.0,
+      "velocity_random": 0.0,
+      "surface_distance": 0.0,
+      "subframes": 0
+    },
+    "physics_differences": [
+      {
+        "property": "flip_ratio",
+        "before": 0.9399999976158142,
+        "after": 0.9700000286102295
+      },
+      {
+        "property": "timesteps_min",
+        "before": 2,
+        "after": 1
+      },
+      {
+        "property": "timesteps_max",
+        "before": 12,
+        "after": 4
+      },
+      {
+        "property": "use_fractions",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "delete_in_obstacle",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_foam_particles",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_spray_particles",
+        "before": true,
+        "after": false
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": true,
+        "after": false
+      }
+    ],
+    "geometry_unchanged": true,
+    "only_particle_system": "FLIP",
+    "resumable": true
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.266478628374592,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.7589335441589355,
+      "median_error_from_original_head_m": 0.012340455841064468,
+      "mesh_p95_abs_head_error_m": 0.013397889923095718,
+      "mesh_minmax_head_m": [
+        -5.76157283782959,
+        -5.756817817687988
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.785645484924316,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 2,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.266476064062111,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.7589335441589355,
+      "median_error_from_original_head_m": 0.012340455841064468,
+      "mesh_p95_abs_head_error_m": 0.01339822370910646,
+      "mesh_minmax_head_m": [
+        -5.76157283782959,
+        -5.756817817687988
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 3,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.266476872655982,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.7589335441589355,
+      "median_error_from_original_head_m": 0.012340455841064468,
+      "mesh_p95_abs_head_error_m": 0.013398080657959,
+      "mesh_minmax_head_m": [
+        -5.761572360992432,
+        -5.75681734085083
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 4,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.2664774246794455,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.7589335441589355,
+      "median_error_from_original_head_m": 0.012340455841064468,
+      "mesh_p95_abs_head_error_m": 0.01339822370910646,
+      "mesh_minmax_head_m": [
+        -5.761572360992432,
+        -5.75681734085083
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 5,
+      "vertices": 25016,
+      "triangles": 50028,
+      "mesh_volume_m3": 3.266476668548799,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.7589335441589355,
+      "median_error_from_original_head_m": 0.012340455841064468,
+      "mesh_p95_abs_head_error_m": 0.01339822370910646,
+      "mesh_minmax_head_m": [
+        -5.761572360992432,
+        -5.75681734085083
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 6,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.266477892740219,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758933067321777,
+      "median_error_from_original_head_m": 0.012340932678222671,
+      "mesh_p95_abs_head_error_m": 0.013397889923095718,
+      "mesh_minmax_head_m": [
+        -5.761572360992432,
+        -5.75681734085083
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 7,
+      "vertices": 25020,
+      "triangles": 50036,
+      "mesh_volume_m3": 3.2664769034552337,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758933067321777,
+      "median_error_from_original_head_m": 0.012340932678222671,
+      "mesh_p95_abs_head_error_m": 0.013397889923095718,
+      "mesh_minmax_head_m": [
+        -5.761572360992432,
+        -5.756816864013672
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 8,
+      "vertices": 25016,
+      "triangles": 50028,
+      "mesh_volume_m3": 3.2664762541075354,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758933067321777,
+      "median_error_from_original_head_m": 0.012340932678222671,
+      "mesh_p95_abs_head_error_m": 0.013397556137084975,
+      "mesh_minmax_head_m": [
+        -5.761571884155273,
+        -5.756816864013672
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 9,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.266476579449877,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758933067321777,
+      "median_error_from_original_head_m": 0.012340932678222671,
+      "mesh_p95_abs_head_error_m": 0.013397556137084975,
+      "mesh_minmax_head_m": [
+        -5.761571884155273,
+        -5.756816864013672
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687376022338867
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 10,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.26647673875299,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758933067321777,
+      "median_error_from_original_head_m": 0.012340932678222671,
+      "mesh_p95_abs_head_error_m": 0.013397699188232436,
+      "mesh_minmax_head_m": [
+        -5.761571884155273,
+        -5.756816864013672
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 11,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.2664767109025106,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758933067321777,
+      "median_error_from_original_head_m": 0.012340932678222671,
+      "mesh_p95_abs_head_error_m": 0.013397365402221695,
+      "mesh_minmax_head_m": [
+        -5.761571884155273,
+        -5.756816864013672
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 12,
+      "vertices": 25016,
+      "triangles": 50028,
+      "mesh_volume_m3": 3.2664768963933377,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932590484619,
+      "median_error_from_original_head_m": 0.012341409515380874,
+      "mesh_p95_abs_head_error_m": 0.013397365402221695,
+      "mesh_minmax_head_m": [
+        -5.761571407318115,
+        -5.756816387176514
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774082660675049
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774082660675049
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 13,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.266477114517446,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932590484619,
+      "median_error_from_original_head_m": 0.012341409515380874,
+      "mesh_p95_abs_head_error_m": 0.013397508453369155,
+      "mesh_minmax_head_m": [
+        -5.761571407318115,
+        -5.756816387176514
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 14,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.266476546834049,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932590484619,
+      "median_error_from_original_head_m": 0.012341409515380874,
+      "mesh_p95_abs_head_error_m": 0.013397508453369155,
+      "mesh_minmax_head_m": [
+        -5.761571407318115,
+        -5.756816387176514
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 15,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.266476755377276,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932590484619,
+      "median_error_from_original_head_m": 0.012341409515380874,
+      "mesh_p95_abs_head_error_m": 0.013397174667358413,
+      "mesh_minmax_head_m": [
+        -5.761570930480957,
+        -5.756816387176514
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774112343788147
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 16,
+      "vertices": 25016,
+      "triangles": 50028,
+      "mesh_volume_m3": 3.266476013852145,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932590484619,
+      "median_error_from_original_head_m": 0.012341409515380874,
+      "mesh_p95_abs_head_error_m": 0.013397174667358413,
+      "mesh_minmax_head_m": [
+        -5.761570930480957,
+        -5.756816387176514
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774112343788147
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 17,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.2664771793282092,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932590484619,
+      "median_error_from_original_head_m": 0.012341409515380874,
+      "mesh_p95_abs_head_error_m": 0.013397508453369155,
+      "mesh_minmax_head_m": [
+        -5.761570930480957,
+        -5.756816387176514
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 18,
+      "vertices": 25016,
+      "triangles": 50028,
+      "mesh_volume_m3": 3.2664762288764346,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932113647461,
+      "median_error_from_original_head_m": 0.012341886352539078,
+      "mesh_p95_abs_head_error_m": 0.013397508453369155,
+      "mesh_minmax_head_m": [
+        -5.761570930480957,
+        -5.7568159103393555
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 19,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.2664760831337616,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932113647461,
+      "median_error_from_original_head_m": 0.012341886352539078,
+      "mesh_p95_abs_head_error_m": 0.013397508453369155,
+      "mesh_minmax_head_m": [
+        -5.761570453643799,
+        -5.7568159103393555
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.249906539916992,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 20,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.2664758278196353,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932113647461,
+      "median_error_from_original_head_m": 0.012341886352539078,
+      "mesh_p95_abs_head_error_m": 0.013397508453369155,
+      "mesh_minmax_head_m": [
+        -5.761570453643799,
+        -5.7568159103393555
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 21,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.2664772209893322,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932113647461,
+      "median_error_from_original_head_m": 0.012341886352539078,
+      "mesh_p95_abs_head_error_m": 0.013397508453369155,
+      "mesh_minmax_head_m": [
+        -5.761570453643799,
+        -5.7568159103393555
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 22,
+      "vertices": 25016,
+      "triangles": 50028,
+      "mesh_volume_m3": 3.2664760849126693,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932113647461,
+      "median_error_from_original_head_m": 0.012341886352539078,
+      "mesh_p95_abs_head_error_m": 0.013397508453369155,
+      "mesh_minmax_head_m": [
+        -5.761570453643799,
+        -5.7568159103393555
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 23,
+      "vertices": 25018,
+      "triangles": 50032,
+      "mesh_volume_m3": 3.2664756391008183,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932590484619,
+      "median_error_from_original_head_m": 0.012341409515380874,
+      "mesh_p95_abs_head_error_m": 0.013397842239379898,
+      "mesh_minmax_head_m": [
+        -5.761570453643799,
+        -5.756815433502197
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774079322814941
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.7856433391571045,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774079322814941
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 24,
+      "vertices": 25016,
+      "triangles": 50028,
+      "mesh_volume_m3": 3.266475709329676,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 3575,
+      "height_missing_or_steep": 0,
+      "mesh_median_head_m": -5.758932590484619,
+      "median_error_from_original_head_m": 0.012341409515380874,
+      "mesh_p95_abs_head_error_m": 0.013398176025390639,
+      "mesh_minmax_head_m": [
+        -5.761570453643799,
+        -5.756815433502197
+      ],
+      "FLIP_count": 275964,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 275964
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.3770943284034729,
+          1.9687345027923584
+        ],
+        [
+          -3.1814160346984863,
+          -1.2414194345474243
+        ],
+        [
+          -6.48750114440918,
+          -5.774076461791992
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 6336,
+      "FLIP_top_envelope_median_m": -5.774482250213623,
+      "FLIP_top_envelope_p05_p95_m": [
+        -5.785642623901367,
+        -5.774113178253174
+      ],
+      "FLIP_z_quantiles_m": [
+        -6.48750114440918,
+        -6.447968482971191,
+        -6.2499048709869385,
+        -5.7999796867370605,
+        -5.774076461791992
+      ],
+      "FLIP_outside_domain_points": 0
+    }
+  ],
+  "check_summary": {
+    "initial_geometric_volume_m3": 3.2648255419114713,
+    "frame1_mesh_volume_m3": 3.266478628374592,
+    "frame1_relative_initial_volume_error": 0.000506332250192143,
+    "max_relative_volume_drift_from_f1": 9.151364860349176e-07,
+    "max_median_dynamic_height_drift_m": 1.430511474609375e-06,
+    "max_p95_dynamic_height_drift_m": 6.67572021484375e-06,
+    "max_particle_envelope_median_drift_m": 0.0,
+    "max_frame5_24_median_error_from_original_head_m": 0.012341886352539078,
+    "max_frame5_24_p95_error_from_original_head_m": 0.01339822370910646,
+    "particle_envelope_is_geometry_proxy_not_conserved_mass": true
+  },
+  "vdb_state_audits": [
+    {
+      "frame": 1,
+      "grids": [
+        {
+          "name": "flags",
+          "type": "int32"
+        },
+        {
+          "name": "particles",
+          "type": "ptdataidx32"
+        },
+        {
+          "name": "phi",
+          "type": "float"
+        },
+        {
+          "name": "phi_inflow",
+          "type": "float"
+        },
+        {
+          "name": "phi_obstacle",
+          "type": "float"
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "type": "float"
+        },
+        {
+          "name": "phi_out",
+          "type": "float"
+        },
+        {
+          "name": "phi_particles",
+          "type": "float"
+        },
+        {
+          "name": "phi_previous",
+          "type": "float"
+        },
+        {
+          "name": "velocity",
+          "type": "vec3s"
+        },
+        {
+          "name": "velocity_previous",
+          "type": "vec3s"
+        }
+      ],
+      "pressure_available": false,
+      "phi": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0.0,
+        "min": -7.0,
+        "max": 5.0,
+        "negative_cell_count": 217485
+      },
+      "phi_obstacle": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0.0,
+        "min": -12.2734375,
+        "max": 38.5,
+        "negative_cell_count": 43856
+      },
+      "flags": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0,
+        "min": 0.0,
+        "max": 20.0,
+        "value_counts": {
+          "0": 7680,
+          "1": 7332,
+          "2": 43508,
+          "4": 51324,
+          "9": 197356,
+          "20": 7680
+        }
+      },
+      "negative_phi_volume_proxy_m3": 3.3982031250000007,
+      "negative_phi_and_nonnegative_obstacle_volume_proxy_m3": 3.1982500000000007,
+      "grid_volume_limit": "Cell-center sign count over96x80x41 box; no subcell integration; original phi/obstacle signs are reported, not claimed exact conserved mass"
+    },
+    {
+      "frame": 12,
+      "grids": [
+        {
+          "name": "flags",
+          "type": "int32"
+        },
+        {
+          "name": "particles",
+          "type": "ptdataidx32"
+        },
+        {
+          "name": "phi",
+          "type": "float"
+        },
+        {
+          "name": "phi_inflow",
+          "type": "float"
+        },
+        {
+          "name": "phi_obstacle",
+          "type": "float"
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "type": "float"
+        },
+        {
+          "name": "phi_out",
+          "type": "float"
+        },
+        {
+          "name": "phi_particles",
+          "type": "float"
+        },
+        {
+          "name": "phi_previous",
+          "type": "float"
+        },
+        {
+          "name": "velocity",
+          "type": "vec3s"
+        },
+        {
+          "name": "velocity_previous",
+          "type": "vec3s"
+        }
+      ],
+      "pressure_available": false,
+      "phi": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0.0,
+        "min": -7.0,
+        "max": 5.0,
+        "negative_cell_count": 217485
+      },
+      "phi_obstacle": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0.0,
+        "min": -12.2734375,
+        "max": 38.5,
+        "negative_cell_count": 43856
+      },
+      "flags": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0,
+        "min": 0.0,
+        "max": 20.0,
+        "value_counts": {
+          "0": 7680,
+          "1": 204688,
+          "2": 43508,
+          "4": 51324,
+          "20": 7680
+        }
+      },
+      "negative_phi_volume_proxy_m3": 3.3982031250000007,
+      "negative_phi_and_nonnegative_obstacle_volume_proxy_m3": 3.1982500000000007,
+      "grid_volume_limit": "Cell-center sign count over96x80x41 box; no subcell integration; original phi/obstacle signs are reported, not claimed exact conserved mass"
+    },
+    {
+      "frame": 24,
+      "grids": [
+        {
+          "name": "flags",
+          "type": "int32"
+        },
+        {
+          "name": "particles",
+          "type": "ptdataidx32"
+        },
+        {
+          "name": "phi",
+          "type": "float"
+        },
+        {
+          "name": "phi_inflow",
+          "type": "float"
+        },
+        {
+          "name": "phi_obstacle",
+          "type": "float"
+        },
+        {
+          "name": "phi_obstacle_inflow",
+          "type": "float"
+        },
+        {
+          "name": "phi_out",
+          "type": "float"
+        },
+        {
+          "name": "phi_particles",
+          "type": "float"
+        },
+        {
+          "name": "phi_previous",
+          "type": "float"
+        },
+        {
+          "name": "velocity",
+          "type": "vec3s"
+        },
+        {
+          "name": "velocity_previous",
+          "type": "vec3s"
+        }
+      ],
+      "pressure_available": false,
+      "phi": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0.0,
+        "min": -7.0,
+        "max": 5.0,
+        "negative_cell_count": 217485
+      },
+      "phi_obstacle": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0.0,
+        "min": -12.2734375,
+        "max": 38.5,
+        "negative_cell_count": 43856
+      },
+      "flags": {
+        "active_bbox": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            95,
+            79,
+            39
+          ]
+        ],
+        "background": 0,
+        "min": 0.0,
+        "max": 20.0,
+        "value_counts": {
+          "0": 7680,
+          "1": 204688,
+          "2": 43508,
+          "4": 51324,
+          "20": 7680
+        }
+      },
+      "negative_phi_volume_proxy_m3": 3.3982031250000007,
+      "negative_phi_and_nonnegative_obstacle_volume_proxy_m3": 3.1982500000000007,
+      "grid_volume_limit": "Cell-center sign count over96x80x41 box; no subcell integration; original phi/obstacle signs are reported, not claimed exact conserved mass"
+    }
+  ],
+  "source_cache_untouched_after_run": true,
+  "source_sha256_after": "c108949a959351a2f0219a1f457b235b34903d9efb50dade5ab533a525d7ef2e",
+  "checked_scene_sha256": "9a227354cea628f1d310283d558530105780a247fd93825466a9a3262687dc6f",
+  "mesh_hashes": [
+    {
+      "name": "fluid_mesh_0001.bobj.gz",
+      "sha256": "3c4be211ca837201200de8081a0e8a0db7b74687ff2cca83db792b874391efc7",
+      "bytes": 524385
+    },
+    {
+      "name": "fluid_mesh_0002.bobj.gz",
+      "sha256": "612aa7489aa5585c635440a5889b71412af6021cc9ecf17596d2abdf2afe9f91",
+      "bytes": 524194
+    },
+    {
+      "name": "fluid_mesh_0003.bobj.gz",
+      "sha256": "8ab2c377614a86256e3ccfb9a44cbe19df00b64c9beb3d77577fe2356654a1dd",
+      "bytes": 524216
+    },
+    {
+      "name": "fluid_mesh_0004.bobj.gz",
+      "sha256": "0751179fb644b7519c4c2e4954a4cd8aa105c0ed00da25b02038e2593027b994",
+      "bytes": 524281
+    },
+    {
+      "name": "fluid_mesh_0005.bobj.gz",
+      "sha256": "f1dc3bc1f527480102a65f0cadd27578495b20dd49980cba951c7e8cd61dc36c",
+      "bytes": 524299
+    },
+    {
+      "name": "fluid_mesh_0006.bobj.gz",
+      "sha256": "1112899b7e299f1b26fc25566e43b4e887c0f407ee03d030ba97710a7e95f5ce",
+      "bytes": 524187
+    },
+    {
+      "name": "fluid_mesh_0007.bobj.gz",
+      "sha256": "6155c4ec1bebfcd4883372ec38d6a4208cd3d121bd80e29635808c4689d125d7",
+      "bytes": 524306
+    },
+    {
+      "name": "fluid_mesh_0008.bobj.gz",
+      "sha256": "dca6e44af78f900f50a0d9bb473aab214bc14493671ef15d6ebef12cd77fa4ee",
+      "bytes": 524269
+    },
+    {
+      "name": "fluid_mesh_0009.bobj.gz",
+      "sha256": "3963d7ae29ee50ac399a49a6a1bc9c6d29e1c5cc490d884604e6fd1ebf098fd5",
+      "bytes": 524139
+    },
+    {
+      "name": "fluid_mesh_0010.bobj.gz",
+      "sha256": "692f2f60d3007d1b26f090aaa0a675f33d1c42e658022e52711daf9e505b432f",
+      "bytes": 524222
+    },
+    {
+      "name": "fluid_mesh_0011.bobj.gz",
+      "sha256": "d317b7880352287cf7b49c301583395d3771831fbcf02b8dbd95b4984996d45a",
+      "bytes": 524292
+    },
+    {
+      "name": "fluid_mesh_0012.bobj.gz",
+      "sha256": "192ea323079bf4de9aadc0fd00d91765c6bdd62461cf9d4caae123f7457de2ca",
+      "bytes": 524208
+    },
+    {
+      "name": "fluid_mesh_0013.bobj.gz",
+      "sha256": "71fd734cba366fe1b9ebe8f4564238a3a7d27380361dc6bc3ff7bdf6cf83e1e2",
+      "bytes": 524369
+    },
+    {
+      "name": "fluid_mesh_0014.bobj.gz",
+      "sha256": "d41494e30915382b4032811b61b628bedccb03fec9d36fdbe292ad4c574d4f56",
+      "bytes": 524317
+    },
+    {
+      "name": "fluid_mesh_0015.bobj.gz",
+      "sha256": "6122ccd8845861e91900d65d6ffa2a12b582561dfd87bc3b9b51b289d9d6a5ef",
+      "bytes": 524336
+    },
+    {
+      "name": "fluid_mesh_0016.bobj.gz",
+      "sha256": "3dc4eccd74e39c97e767179dba00bef70a898463c68a0ed923e24d14def31a93",
+      "bytes": 524114
+    },
+    {
+      "name": "fluid_mesh_0017.bobj.gz",
+      "sha256": "b1296f18e0bdb54d34f0cde8f3200f62ab5163df731d9853305b5c97a75412ac",
+      "bytes": 524292
+    },
+    {
+      "name": "fluid_mesh_0018.bobj.gz",
+      "sha256": "618e0dd58063b384b090d6ed0c06da669ef2340f7559eca5ced2eedffe24b879",
+      "bytes": 524346
+    },
+    {
+      "name": "fluid_mesh_0019.bobj.gz",
+      "sha256": "c646ce54603770dc80c12040f34015b8d9f424002a297ba7f57c58e74440f736",
+      "bytes": 524393
+    },
+    {
+      "name": "fluid_mesh_0020.bobj.gz",
+      "sha256": "b256b5137e7b03a9f97c5f0afdeb73d19383f1291c50768570a89419f711a1cf",
+      "bytes": 524309
+    },
+    {
+      "name": "fluid_mesh_0021.bobj.gz",
+      "sha256": "a1e7c0b12e1405070c6496b9a176b7607a08e00244c90559af7fdec6cbf40d8b",
+      "bytes": 524253
+    },
+    {
+      "name": "fluid_mesh_0022.bobj.gz",
+      "sha256": "5255f6efe0875ea6003c5dd4af826e91855ef257afd5816819f385dca7e4a673",
+      "bytes": 524166
+    },
+    {
+      "name": "fluid_mesh_0023.bobj.gz",
+      "sha256": "4b706090180f46efe6d36b60212e26ce4738b7df5f74aa341df1e8c95cd573cd",
+      "bytes": 524218
+    },
+    {
+      "name": "fluid_mesh_0024.bobj.gz",
+      "sha256": "d8e2a642e1e2ccb68148aafd339167d6b4b675e591d5c8ba96d8abcdc2a586ff",
+      "bytes": 524060
+    }
+  ],
+  "report": "qa/water09-realbed24-control-review.md",
+  "next_dynamic_proposal": {
+    "report": "qa/water09-impact36-proposal.md",
+    "data": "qa/water09-impact36-proposal.json",
+    "status": "AUTHORIZED_EXECUTED_ONCE_FLOW_RATE_FAIL",
+    "visual_status_unchanged": true,
+    "execution_report": "qa/water09-impact36-review.md"
+  }
+}

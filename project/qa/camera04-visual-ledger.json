@@ -1,0 +1,1935 @@
+{
+  "scene": "scene/Fallingwater_iteration04.blend",
+  "scene_sha256": "247d20f7863e4f7e9c18587d4c032bd663857a420bcfb828d271195665841ac2",
+  "settings_sha256": "ff7620e47e255dca635071b62f38df385fee2c426436a9e072fbf3a03ae45847",
+  "actual_images_reviewed": 120,
+  "scope": "All 120 source renders inspected through ten stable contact sheets. R means the named inspection space is readable in this diagnostic image only; it is not photoreal, exposure, 4K, material, route, or final acceptance. Geometry PASS is separate.",
+  "counts": {
+    "READABLE_DIAGNOSTIC": 57,
+    "LIMITED_COMPOSITION": 22,
+    "FRAMING_FAIL": 28,
+    "ILLUMINATION_FAIL": 13
+  },
+  "cameras": [
+    {
+      "camera": "CAM_MAIN_B_WINE_A",
+      "room_id": "MAIN_B_WINE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "酒架及邻接门口可辨，亮度偏高待校准",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_WINE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "4586029a2432a7031d04c71e75b0f723f9608f4fce9e9ccfb34db4319eb77e50",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_WINE_B",
+      "room_id": "MAIN_B_WINE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "酒架端板遮住大块画面，架体仍可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_WINE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "ec2e7e1304eba1c094abe9140fe46a83718bfdd93596c5ef10edc026de024908",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "room_id": "MAIN_B_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "门口及软木墙为主，洁具投影落在画面下方或侧外",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_BATH_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c882211c8288513f1b2a4ce37740dd98701915da361f7bdd71c6a92ef672a54b",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "room_id": "MAIN_B_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "空软木墙为主，马桶主体未入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_BATH_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "657a74254ea9b7353668df390181ddb8f8e8ecc6956ec295c1dbb68793c68e21",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_A",
+      "room_id": "MAIN_B_BOILER",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "近墙和炉体各占一侧，设备明显裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_BOILER_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "958b3dc9dc139e61bc6dfedf1b07ed1e0c8436e0f3cf664b0ce9fec840fcc33a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_B",
+      "room_id": "MAIN_B_BOILER",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "锅炉、烟管、压力容器可辨；曝光偏亮待校准",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_BOILER_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "92b4f59c626056114f4e10d01f8589fe19171974eb41d81f7f282511d6e50f45",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_A",
+      "room_id": "MAIN_B_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "梯级左侧与酒窖门口可辨，但飞行方向展示不完整",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_STAIR_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "d9397ca55369784902c8cc4443d1700caa4dc63b6578aa17f56b8ca474caf10d",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_B",
+      "room_id": "MAIN_B_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要是地坪边、孔洞和近坡，梯段主体未入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_STAIR_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "8fc021d77386c0ca9699fc4e29a0a6dab605af6de87ea360d856edd00d81bead",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_A",
+      "room_id": "MAIN_B_FOUNDATION_1",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "基础石墙和地面关系可辨，阴影较重",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_FOUNDATION_1_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "3507db0f29769bc4b9f26f539509926bb991aee8676e0acce69f6937595948fa",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_B",
+      "room_id": "MAIN_B_FOUNDATION_1",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "基础墙、顶板和溪流关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_FOUNDATION_1_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "510ce5707685379c20c5ded071d40e469723e0a79db9b4cef1c9daf52eb2fd97",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_A",
+      "room_id": "MAIN_B_FOUNDATION_2",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "基础墙及溪流界面可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_FOUNDATION_2_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "2d44743ce159709459cd37cb627bde0f30d76770e08b1ff2fbaf7d64a2988364",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_B",
+      "room_id": "MAIN_B_FOUNDATION_2",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要对着近处土坡，未清楚展示该检查区的结构",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_FOUNDATION_2_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "085e605379b5e195060af312a3bd6c8f66e521388b0bb0a06d98eca8ae61bc5d",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_A",
+      "room_id": "MAIN_B_FOUNDATION_3",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "基础墙和邻接梯级可辨，阴影较重",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_FOUNDATION_3_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "fdfcfe004cb1482978da38d94f95130c8cb1a64f243e905fb5f732662377b513",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_B",
+      "room_id": "MAIN_B_FOUNDATION_3",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "近处土坡占据主要开口，结构信息不足",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_FOUNDATION_3_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "0a311b43a219e184e0eb9861019513a758d327f1dd27df380755bf21f6075e41",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "room_id": "MAIN_B_PLUNGE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "俯视池沿及局部水体，池整体仍有裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_PLUNGE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "08f6d293c13aa696f991f0e36a468e83436263f087b066696d0dad6e96e6af90",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "room_id": "MAIN_B_PLUNGE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "水面及池壁近黑，不能据此验收池内细节",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_B_PLUNGE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "526d89ea3545911f4b2de071fb70aadf042ef8ace174456285076b988a1e3c20",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_01.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "room_id": "MAIN_L1_LIVING",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "天花灯框、窗、起居地面与水梯口关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_LIVING_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "11e6e2c4c07fd0a23c44f2fe9abeca8b1054436ea576ed2da921533292c6ba91",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "room_id": "MAIN_L1_LIVING",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "壁炉、圆形水壶、座椅与窗可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_LIVING_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c372a13620a08e49230f21500b67756c80d92eef9aa2c8fd0617551e955a896c",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "room_id": "MAIN_L1_SERVANT",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "近土坡/背景占主要画面，沙发仅露边",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_SERVANT_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "8ff1e3d7eeb48a671d08d3ec46f965ce9ec806a0caec9c419b49a41810b31859",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_B",
+      "room_id": "MAIN_L1_SERVANT",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "近墙和土坡占主要画面，起居家具未清楚展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_SERVANT_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "31cda6a30dea431535cdb1e96d74160f529aeced5d359725b9124bd55c8292d4",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "镜头看上方冰箱与天空，梯段未入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_SERVICE_STAIR_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "70fbba5f8acc12629c2b5a281fc1e186610db79cd481e0710b09b8f0d80f5495",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要看台面、地坪和近土坡，梯段未入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_SERVICE_STAIR_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "0346721e325c10e1e974c0e76ab4ba182f52eb190e637741ed32e9eb694214d6",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_A",
+      "room_id": "MAIN_L1_ENTRY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "入口转折、书架和起居空间联系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_ENTRY_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "8eb58363801690632800022c60e025a5e3141fc02d33741afbd0af08a031a7a8",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_B",
+      "room_id": "MAIN_L1_ENTRY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "入口邻接梯级可辨，近墙占比过大",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_ENTRY_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "092b93541e2ddbde76b5b2afa5a0dbbd18ce87769012034ca88defc7feea7b2a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_A",
+      "room_id": "MAIN_L1_COAT",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "只能看到关闭柜门局部，柜体上/下均裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_COAT_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "d969b875214ff5d0a545795d4ce6a3880c329a81b7c654b20dc4274ef18d3b39",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_B",
+      "room_id": "MAIN_L1_COAT",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "镜头看向邻接楼梯，未展示衣帽储藏",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_COAT_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c6f9d14ce11e403e1ce6ac5f87db3ded7ee91f439f16cfbbf66fcd1ab8eddffd",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_A",
+      "room_id": "MAIN_L1_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "实际支撑是该层下方地形，画面为外弧梯底和土坡",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_STAIR_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "d6b282f96979f2e04f196010346fd540a672eae818852fd1e588961b987bb46f",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_B",
+      "room_id": "MAIN_L1_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "真实主梯连续踏步可辨，俯视检查用途明确",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_STAIR_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "238ecadc638f92a6be2ec0ef6619c5220c1e9af791eb7b6c38bac22667e7f326",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "room_id": "MAIN_L1_LOGGIA",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "墙、顶板与局部通道可辨，观察范围局促",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_LOGGIA_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "44440df0baebbc18ae77f95256d40aba1b209ad766a230de60961afa2dbdd742",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "room_id": "MAIN_L1_LOGGIA",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要看土坡与溪流，柱廊本体未清楚展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_LOGGIA_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "44b8042dda176093a09d195b9ddf2288d196745a8ad7aaab9fbbadbda474d819",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_A",
+      "room_id": "MAIN_L1_TERRACE_W",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台与主楼窗、石墙关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_TERRACE_W_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "0358faa6b257fb235458c20caab0e0f85e5716b5d46fac7940443b3ab0af5376",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_B",
+      "room_id": "MAIN_L1_TERRACE_W",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台矮墙及溪流关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_TERRACE_W_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "179e9d36525b034a458e20805af737273830d963a433c48421adc65834f54489",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_A",
+      "room_id": "MAIN_L1_TERRACE_E",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台与红色窗框关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_TERRACE_E_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "13cc457bbe83f4ec624654d648a7dfcf025e46322a2b12e42163704ae9952d6f",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_B",
+      "room_id": "MAIN_L1_TERRACE_E",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台地坪、矮墙和树林关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_TERRACE_E_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "69b9bbe76e8ca9f6f55d133fd663e42745a028a5c479729fc29824b6311fa548",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_03.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_A",
+      "room_id": "MAIN_L1_HATCH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "只见露台、树和架梁，水梯开口未入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_HATCH_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "45b5d50efc76305b603dd14fc74b680524adff1b9297dea78ba524d33e3caf0f",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_B",
+      "room_id": "MAIN_L1_HATCH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "从真实梯级仰看阶梯、栏杆与玻璃开口，关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_HATCH_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "835cb2677bd8fde6f4d07e6be4be530b3641101c17f5d44d29dfd56ccd245f4d",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_A",
+      "room_id": "MAIN_L2_DRESSING",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "柜体、窗和平台关系可辨，部分阴影偏重",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_DRESSING_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "f018f83767cfc2b9dd4e8dfd8e70586eba7ecd58d8a8a99664e300c83c748d7d",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_B",
+      "room_id": "MAIN_L2_DRESSING",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "书架、椅子、桌面可辨，近景略裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_DRESSING_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "a5fa755f9bd677a80cdf851fe1b0da33810336c5806c27e8878dc71aa06302df",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "room_id": "MAIN_L2_MASTER",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床、床头柜与灯可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_MASTER_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "41ae52fd56dfa0e9a96064072ead2d82640d2a3a7cd1fb1fc0d8ac1baa4b3d7a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_B",
+      "room_id": "MAIN_L2_MASTER",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "窗、桌及床沿可辨；近灯略裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_MASTER_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "8c7d2657db16e0aefcdbe1111016559da2d5b96e39b84d979ec121a065575a34",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_A",
+      "room_id": "MAIN_L2_BATH_N",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要看邻接更衣室，浴室主体未入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_BATH_N_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "ceae8efd008d1e60f0e44a3615957fef4a8a8f55746b75e96f002607011f7801",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_B",
+      "room_id": "MAIN_L2_BATH_N",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "盆、马桶、浴缸有轮廓，但光照不足",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_BATH_N_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "3351600f0062fa1b81ced28130f192c3419e4e5ba088b960d579bcb442c4a8f9",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "room_id": "MAIN_L2_BATH_G",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "镜头主要看邻接空间，未展示浴室洁具",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_BATH_G_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "21de5b13ee95a0feff209dbf1af064e1eb956dd70f64fdfc23f631419abba96d",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_B",
+      "room_id": "MAIN_L2_BATH_G",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "洁具可见极少，浴室主体近黑",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_BATH_G_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "e9ad318ab879b3dc96cd353399d754c17a76143620bb1f0d28a78b5a9fd59d7b",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_A",
+      "room_id": "MAIN_L2_BATH_M",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要看邻接卧室与门，浴室主体未入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_BATH_M_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c9638891b23fc9230d83a5c6d2fb43e5e2a5c334ca0687e18e4fe64ce85cf6f2",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_B",
+      "room_id": "MAIN_L2_BATH_M",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "墙及马桶仅有轮廓，不能检查细部",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_BATH_M_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "e1425dceb26b1d84c033a7ef39841bbd3fd8e6394c420151801eee528c8b13fc",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_A",
+      "room_id": "MAIN_L2_HALL",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "走廊、梯段与浴室门口关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_HALL_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c45d621fdec7f240c9b6892c5dd4d96d18eb17d1b0ded35116a20cd43875a804",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_B",
+      "room_id": "MAIN_L2_HALL",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "走廊地面及外窗可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_HALL_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "492d11ef6c81249a7ef43480a1b195699c0c57f940cb4cd731e228813f1777c5",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_A",
+      "room_id": "MAIN_L2_GUEST",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床、柜与床头灯可辨；床尾有裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_GUEST_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "bf1bec1fb42c289405ba67ddf4c9475f2204372361138ad994cc639aeeda3ae9",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_B",
+      "room_id": "MAIN_L2_GUEST",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "窗、桌与露台关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_GUEST_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "b475562be6784056d5c477ccdfc8c410a8a87af9732f2e37ac00e14e49db50ca",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_A",
+      "room_id": "MAIN_L2_TERRACE_W",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "实际露台铺面与墙、门窗可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_TERRACE_W_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "a600de5884b0cbe72afea5eb5bb07a4951c549613e66e042b7cd2ffd8dbe1827",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_B",
+      "room_id": "MAIN_L2_TERRACE_W",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "矮墙、铺面和树林可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_TERRACE_W_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "688bd2a3e6582ef3749af2d3af08877d11607bc22967b708b736b02561af52fc",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_A",
+      "room_id": "MAIN_L2_TERRACE_S",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台与南侧立面可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_TERRACE_S_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "d9c303ae13422cd25efeb886311a9e2ceafab1b646bb052a344fcaad999f49f3",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_B",
+      "room_id": "MAIN_L2_TERRACE_S",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台地坪和矮墙可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_TERRACE_S_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "71bb5013037707f96a914807364218fa64aa272d146aeff9ece82a546aa2e53a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_A",
+      "room_id": "MAIN_L2_TERRACE_E",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台内侧与室内家具关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_TERRACE_E_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "bce50dd800dd90bf5f0d5a12f2e8776d13212676b3d2b20d6bdcf71b85c62a4a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_B",
+      "room_id": "MAIN_L2_TERRACE_E",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "矮墙、顶板及外部关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_TERRACE_E_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "2821ced2c8d34673e95c2a135cda0a542df86e93e25b00f99516022b4e0b7092",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_A",
+      "room_id": "MAIN_L2_TERRACE_N",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "北露台、外窗及邻接梯段可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_TERRACE_N_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "2612e44a17c84765332334c618638f8f2f371e3a1f09bbd8af97703241adae74",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_B",
+      "room_id": "MAIN_L2_TERRACE_N",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "北露台与真实外弧梯关系可辨；土坡也如实入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_TERRACE_N_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "d2c158c405ec53f2473b50c0eb069d38199ec7938ee58e825762b6a449c38d7f",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_A",
+      "room_id": "MAIN_L2_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "上层梯口/楼板洞口可辨，梯段未充分展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_STAIR_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "f2f41cfe76840c808a3580d64ca3b87070f98e6dad03fed884a392f0f59a1127",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_B",
+      "room_id": "MAIN_L2_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "只有画面左缘少量梯级，主要是近墙",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_STAIR_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "f649a6ec4ebbc45fb58fbbff4f7b17e1b3fb1e113d2d7b0c00af1f99556d0638",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_05.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_A",
+      "room_id": "MAIN_L2_CLOSET_M",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "柜门局部与邻接灯具可辨，整体信息不足",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_CLOSET_M_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "8c50bc4a57fce6e686f476f7da10d31ecfc7503289992ee106864dc9561f7803",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_B",
+      "room_id": "MAIN_L2_CLOSET_M",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "近石墙为主，储藏空间未展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_CLOSET_M_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "716fbb1178f447b951f001b591a02e60d56d4bd369fd9965dae0bfe7facfeb5a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "room_id": "MAIN_L2_CLOSET_G",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "柜门与把手局部可见，不能检查完整储藏空间",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_CLOSET_G_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "5824587f662d691cedbf13ed5ffea642dfdb5612459afd944a29f40f0781ffa4",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "room_id": "MAIN_L2_CLOSET_G",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要看邻接卧室与外窗，柜内/柜体未展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L2_CLOSET_G_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "284c27d25d68c807b19c56bc6f62ac63ed41a91b7abc0296237d0e46f2a37119",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_04.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_A",
+      "room_id": "MAIN_L3_STUDY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "沙发、书架与窗可辨，室内阴影很重",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_STUDY_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "319b8b72268a97c02f649a67adcf7f159d1b6ce9c46331d0266d1dd021ebdcc2",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_B",
+      "room_id": "MAIN_L3_STUDY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "椅子、书架与桌可辨，室内阴影很重",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_STUDY_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "901649b50279290841edfaf44b9515375cbaabc270e6144e58cfa1acee016fca",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "room_id": "MAIN_L3_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "镜子与窗有轮廓，洁具及墙细节过暗",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_BATH_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "d44c48855ea9f8162c88d0a08c469a992f5dadc5a065a5b4e39dc1900e7e742e",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_B",
+      "room_id": "MAIN_L3_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "近黑墙面及局部水箱，不能检查浴室",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_BATH_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "51f8b1fc072552b847708bca1d3e65c8bf0f13360a20a26819d5aae320c354e9",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_A",
+      "room_id": "MAIN_L3_GALLERY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "长窗、卧榻和狭长通道关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_GALLERY_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "2117e741f694a99e3f2c8929231bf7db990836f6d2930705d89e7662634bd874",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_B",
+      "room_id": "MAIN_L3_GALLERY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "玻璃开口及柜边可辨，近景裁切较多",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_GALLERY_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "10b5f04139186132021e7556f88110f4bf2fcf8694d41f0de203b3437bb2a9b7",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_A",
+      "room_id": "MAIN_L3_ALCOVE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "楼梯口、柜体和部分床可辨，卧榻主体展示不足",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_ALCOVE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "b38168ffb3c63075d87be8f041872ecffb38355c292cb200f03e2c6280fffd35",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "room_id": "MAIN_L3_ALCOVE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "柜板占大半画面，卧榻主体未展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_ALCOVE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "2dad033ebd1c2b418de3d71d6fef08dcb84431379f4614ae7091b70d5081a0aa",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_06.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_A",
+      "room_id": "MAIN_L3_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "主楼长窗与露台地坪可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_TERRACE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "f2a7b59f89eab83410baf4650f4204455efe9277210fba7e06515775e6b0f3d6",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_B",
+      "room_id": "MAIN_L3_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台矮墙、地坪和树林可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_TERRACE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "ded92e16917e213f18de08eb419eb7a551c66853f3495e03b771f654925afaeb",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_A",
+      "room_id": "MAIN_L3_LINK",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "平台、屋顶与连接起点可辨，路线不完整",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_LINK_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "35715bea172d9b6f973af03ccf1ac603f12af5898dd0e018d8caaa2453a3af0a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_B",
+      "room_id": "MAIN_L3_LINK",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "平台、梯口和远处客楼可辨，连廊连续性未完整展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_LINK_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "2106554c5db9754e291ec8ba8dc486f04ae68794e509e089c6d9450919e79489",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "room_id": "MAIN_L3_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要是邻接卧榻和楼板洞口，梯段未展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_STAIR_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "40c3c0e0211a86db9d30817333cd91f0aa6af0c3d580b4258fff98604cfdfcb1",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_B",
+      "room_id": "MAIN_L3_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "近处木踏步可辨，但整体飞行方向未充分展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L3_STAIR_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "5e4a40636d460cafed28634f57f125f7bab2b4df1370c679d8babeff38f9481f",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_A",
+      "room_id": "GUEST_L1_THEATER",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "桌椅、窗仅有暗部轮廓，检查照明不足",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_THEATER_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "3d3cfcbda92974d06d77697230f0ebd26e6f30fd5a903a3968000a4031fba7f0",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_B",
+      "room_id": "GUEST_L1_THEATER",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "座椅与墙面明显过暗，细节不可读",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_THEATER_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "ed3bfd8bfa6ea1d48488c45c28d5f04772ad0d54e3e390c6eb48d8e637831469",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_A",
+      "room_id": "GUEST_L1_CAR_COURT",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "阴影内立面与窗可辨，但车庭地面和范围不足",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_CAR_COURT_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "2843fab80031962d3a8d08943ad2695490a92b85b289c7ce97b2d92a482d5fa1",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_B",
+      "room_id": "GUEST_L1_CAR_COURT",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "车庭地坪、侧立面与树林边界可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_CAR_COURT_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "ce5e3142faf446366afbecde11c3e5dcd5c4a7ffe968241bf995500bb72de4fe",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "room_id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "近墙与座椅轮廓很暗，空间不可读",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "25ad683080ebaf836b0e4ead943976cffbb1ff8b01cb376652bab7ec2b3e7f96",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "room_id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "窗、柜与椅子局部可辨，室内仍暗",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "6626a608b8b3a0819b52ed974dfe23569ae2648e9dbe67a70ba98f2ade31f216",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "room_id": "GUEST_L1_STAIR_HALL",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要是外部弧形连廊，标称楼梯厅未充分展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_STAIR_HALL_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "858fdcdff9ccca7a258ddfa636f0644efc7ede729048025005a9c9b287b64c83",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_B",
+      "room_id": "GUEST_L1_STAIR_HALL",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "楼梯口与真实梯段可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_STAIR_HALL_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "86185a5be8c967b56d1cea76a60ae50e1b525828abf754f8be59922cfbe4cebe",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "room_id": "GUEST_L1_LOUNGE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "书架、茶几、长椅与窗关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_LOUNGE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "0e325da90b6334f89d13a0d70b1ffead6cbd0b1317397e4be253e1c9eea341a8",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "room_id": "GUEST_L1_LOUNGE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "近隔栅遮住大半前景，沙发和窗仍可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_LOUNGE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c63da5cd42d3c9e59cc531130e84ee2c72d43365c3a41d157dfe7701f581c50a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_A",
+      "room_id": "GUEST_L1_GALLERY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "走廊、门口和起居室联系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_GALLERY_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "e258db988f3ee644dceb5bbc2e3a7dd97558e1d1eab1c04ef04515a94b2106a0",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_B",
+      "room_id": "GUEST_L1_GALLERY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "石墙占据大半画面，通道检查信息不足",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_GALLERY_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "3d11526bea418731ec336806ab7810ffa264bd1fbef7adc5ab0501bbaf670e7c",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "room_id": "GUEST_L1_GUEST_ROOM",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床、窗、椅子和矮柜可辨，床尾裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_GUEST_ROOM_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "cca495885ee66bd30a03324fc9365e19ca037ad7957c91e46ba5fb6a9dfc9990",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "room_id": "GUEST_L1_GUEST_ROOM",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床、床头墙与柜可辨，床尾裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_GUEST_ROOM_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "73dfdd650d10f71a0bfec5642747eae0536ecc8c6734a98b934f49d65a2ed354",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_A",
+      "room_id": "GUEST_L1_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "露台与弧形连廊关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_TERRACE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "92ac0c9156c633eb8d0c32fc0b055d6f0f295e1d75ad724f5d11817c9b24a8b0",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_B",
+      "room_id": "GUEST_L1_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "沿客楼立面、泳池及廊架的露台方向可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_TERRACE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "76180453bebd87cba597e0446112c1ebccd8988f5b291c8c81c6105749cf6a74",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "room_id": "GUEST_L1_POOL",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "池沿、水面及入水小阶可辨；材料真实性未验收",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_POOL_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "6d28cc3f8da295cedb3d4f9f65a87618861919923b427af4cf85fcef6474ebb0",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_B",
+      "room_id": "GUEST_L1_POOL",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "水面与反向池沿可辨；材料真实性未验收",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_POOL_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "a9802aa11e03e5c96bde63525ac240754739f861c3936ae572eac7f50152b75d",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_09.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "room_id": "GUEST_B1_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "离踏步太近，局部几级横板占满画面",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_B1_STAIR_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "271b3350b17cd6ca1c3326d0501738f7c552be9e3fe114255855f1c3bd95244c",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "room_id": "GUEST_B1_STAIR",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "主要是梯底/近踏步，无法检查完整梯段",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_B1_STAIR_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "9b12f068c52457c33ced4853e5617253abd0d81a403c340e798c11938a0a7e13",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "room_id": "GUEST_L2_BEDROOM_SOUTH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "柜、桌椅、床与窗关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_BEDROOM_SOUTH_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c203e613947a2a426c6aa4b34ca3ec38077fe269d7c3b6fb4e335c554b323a2a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "room_id": "GUEST_L2_BEDROOM_SOUTH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床及两面窗可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_BEDROOM_SOUTH_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "b365d72cc024a8ccb5cc148a64f538336425b667f6149316536121e80c9a293a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "room_id": "GUEST_L2_BEDROOM_MIDDLE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床、柜、桌椅和门关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_BEDROOM_MIDDLE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "a48ae4b63c5a149bc37a401dd9458fa68403ec195a3756c834129247255fab39",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "room_id": "GUEST_L2_BEDROOM_MIDDLE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床与外窗关系可辨，床沿裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_BEDROOM_MIDDLE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "d56d2cabe4aa8681457baf4859f6c5e0f2b839124980064e2194f6c35e512afc",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "room_id": "GUEST_L2_BEDROOM_NORTH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床、柜和桌椅可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_BEDROOM_NORTH_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c3da86a271730308ade07e842c29d72e2cd7205a064f822663c1514a2501cb19",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "room_id": "GUEST_L2_BEDROOM_NORTH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "床与外窗关系可辨，床沿裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_BEDROOM_NORTH_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "f8015c731aefa05c55c99d83dc482e08e2adf50f659100447a2d3228beb0fb5f",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_A",
+      "room_id": "GUEST_L2_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "洗手盆/镜子和门可辨，下缘裁切",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_BATH_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "571f564605d80d90ed2997b212cec59ea69a709972ac91a6d03b77d44bbad334",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_B",
+      "room_id": "GUEST_L2_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "只拍到水箱顶，马桶主体在画面下方",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_BATH_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "48d18e32c0b74036137e28dae4e4839f5915340dd1ce2267e3dec6d863f0d63f",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "room_id": "GUEST_L2_HALL",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "两侧门口与走廊墙可辨，空墙占比偏大",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_HALL_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "364cb4ca212e19fb6c7050073ae53aa65280db2439f77e9d20fe6cabbc994f69",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_B",
+      "room_id": "GUEST_L2_HALL",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "窄廊、墙材及门口关系可辨",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_HALL_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c1844aec84699322e1df7d01181e6777e314e6c625dadb5f4343f0f263b12427",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_A",
+      "room_id": "GUEST_L2_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "真实高围墙及门口可辨；不为取景降低已校准墙高",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_TERRACE_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "b32d80528a0b8bae47e91a5bdd07d79b764a43ca24b8ddc9b15cfeeaf1f92e0c",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_B",
+      "room_id": "GUEST_L2_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "真实高石围墙、铺面及阴影可辨；不等于开阔观景露台",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L2_TERRACE_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "41a8c8570c1a2b7b65a6d265a6fc5b327c2c86989a99d6b5b82c7b3956edfb40",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_10.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_A",
+      "room_id": "MAIN_L1_KITCHEN",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "AGA、南窗和工作区可辨；局部明暗待校准",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_KITCHEN_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "362354fd7a57bd12158a0d5cbabb5e30349d8cc015344ae6030477bcf9034324",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_B",
+      "room_id": "MAIN_L1_KITCHEN",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "橱柜、台面和餐桌可辨，局部阴影偏重",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_MAIN_L1_KITCHEN_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "43d8d49579d225762c56960ba4798d0ef37c01a8c11a26ea7bf12e033419fb45",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_02.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "room_id": "GUEST_L1_BOILER",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "仅门口侧光可见，设备主体近黑",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_BOILER_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "b98bf2c8048d159d4b8d43cdcecc4d8b46ac9e5698c2e8dbd34a2ff7bc4da1d8",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "room_id": "GUEST_L1_BOILER",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "设备及墙面近黑",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_BOILER_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "be7820fac20fdec72376af36b380c84ecb456abe0fc23233e421b012d8fc2026",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_A",
+      "room_id": "GUEST_L1_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "近黑，无法检查浴室",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_BATH_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "a410d71b72c0af789b12e653763ff0ad40b54a57d19678c109d808346345f59a",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_B",
+      "room_id": "GUEST_L1_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "ILLUMINATION_FAIL",
+      "notes": "近黑，无法检查浴室",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_L1_BATH_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "c7334c585ff973b9bb01ed8885533f7a0d01afd4c67d091511239fddbc5eb77d",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_08.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_A",
+      "room_id": "GUEST_B1_LAUNDRY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "工作台、叠巾、洗手盆及洗衣机可辨，曝光偏亮待校准",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_B1_LAUNDRY_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "7cbf0f2bfb64dd9870f3e9402358706e1feda8b123b9b370d8e55ebe7de9c5e9",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_B",
+      "room_id": "GUEST_B1_LAUNDRY",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "洗衣机及出入口可辨，门板占较大前景",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_B1_LAUNDRY_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "4d78f18d5519fc281b45f1c0b2728c87a4769f390f3abd1344a2f599b343fec9",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_A",
+      "room_id": "GUEST_B1_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "镜头看向洗衣桌与近软木板，浴室洁具未展示",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_B1_BATH_A.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "a57a718bc8620ae14bed34214f4c7a915efeb9dbb12137eec3d6ada16d464f19",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_B",
+      "room_id": "GUEST_B1_BATH",
+      "actually_viewed": true,
+      "review_method": "Actual contact sheet opened; unretouched 426x240 thumbnails from 640x360 rendered PNGs.",
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "几乎全是软木墙，浴室洁具未入画",
+      "final_visual_acceptance": "NOT_ACCEPTED",
+      "image": "D:\\zx\\test\\project\\renders\\rooms\\iteration04\\CAM_GUEST_B1_BATH_B.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "21bc474b02151252944efeef8a4e5e9d404b1f4fa5e5617c0594e31a577b35f8",
+      "contact_sheet": "D:\\zx\\test\\project\\qa\\camera04-contact-sheets\\page_07.jpg"
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+{
+  "status": "LOCAL_GEOMETRY_PASS_NOT_VISUAL_ACCEPTANCE",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration06.blend",
+  "source_sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+  "candidate_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_west_band_candidate07.blend",
+  "candidate_sha256": "e16bd51e05bae48ad26b7c902a2e8a8be8617bbea8b7be273005a1d1d149c4be",
+  "source_script_sha256": "00a8c4d5b3e96199c4d1dbb2111169460f5114f7d21c9b7027158312124067e4",
+  "exact_source_calls": {
+    "MAIN_L1_west_parapet": [
+      "MAIN_L1_west_parapet",
+      [
+        [
+          236,
+          450
+        ],
+        [
+          236,
+          543
+        ],
+        [
+          322,
+          543
+        ]
+      ],
+      -0.49,
+      1.08,
+      0.22,
+      "ochre"
+    ],
+    "MAIN_L1_south_fascia": [
+      "MAIN_L1_south_fascia",
+      [
+        [
+          236,
+          543
+        ],
+        [
+          600,
+          543
+        ]
+      ],
+      -0.49,
+      -0.015,
+      0.18,
+      "ochre"
+    ]
+  },
+  "changed_objects": [
+    "MAIN_L1_south_fascia_0",
+    "MAIN_L1_west_parapet_0",
+    "MAIN_L1_west_parapet_1"
+  ],
+  "object_count_before": 23436,
+  "object_count_after": 23436,
+  "non_target_objects_unchanged": true,
+  "base_xy_preserved": true,
+  "rounded_edge_modifiers_preserved": true,
+  "before": {
+    "MAIN_L1_west_parapet_0": {
+      "base": [
+        [
+          -4.878399848937988,
+          4.7789998054504395,
+          -0.24000000953674316
+        ],
+        [
+          -4.8784003257751465,
+          -0.1592998504638672,
+          -0.24000000953674316
+        ],
+        [
+          -4.658400535583496,
+          -0.1592998504638672,
+          -0.24000000953674316
+        ],
+        [
+          -4.658400058746338,
+          4.7789998054504395,
+          -0.24000000953674316
+        ],
+        [
+          -4.878399848937988,
+          4.7789998054504395,
+          0.4300000071525574
+        ],
+        [
+          -4.8784003257751465,
+          -0.1592998504638672,
+          0.4300000071525574
+        ],
+        [
+          -4.658400535583496,
+          -0.1592998504638672,
+          0.4300000071525574
+        ],
+        [
+          -4.658400058746338,
+          4.7789998054504395,
+          0.4300000071525574
+        ]
+      ],
+      "bounds": [
+        [
+          -4.8784003257751465,
+          -4.658400058746338
+        ],
+        [
+          -0.1592998504638672,
+          4.7789998054504395
+        ],
+        [
+          -0.24000000953674316,
+          0.4300000071525574
+        ]
+      ],
+      "modifiers": [
+        [
+          "BEVEL",
+          0.054999999701976776,
+          4
+        ]
+      ]
+    },
+    "MAIN_L1_west_parapet_1": {
+      "base": [
+        [
+          -4.768400192260742,
+          -0.2692999839782715,
+          -0.24000000953674316
+        ],
+        [
+          -0.26200008392333984,
+          -0.2692999839782715,
+          -0.24000000953674316
+        ],
+        [
+          -0.26200008392333984,
+          -0.049300000071525574,
+          -0.24000000953674316
+        ],
+        [
+          -4.768400192260742,
+          -0.049300000071525574,
+          -0.24000000953674316
+        ],
+        [
+          -4.768400192260742,
+          -0.2692999839782715,
+          0.4300000071525574
+        ],
+        [
+          -0.26200008392333984,
+          -0.2692999839782715,
+          0.4300000071525574
+        ],
+        [
+          -0.26200008392333984,
+          -0.049300000071525574,
+          0.4300000071525574
+        ],
+        [
+          -4.768400192260742,
+          -0.049300000071525574,
+          0.4300000071525574
+        ]
+      ],
+      "bounds": [
+        [
+          -4.768400192260742,
+          -0.26200008392333984
+        ],
+        [
+          -0.2692999839782715,
+          -0.049300000071525574
+        ],
+        [
+          -0.24000000953674316,
+          0.4300000071525574
+        ]
+      ],
+      "modifiers": [
+        [
+          "BEVEL",
+          0.054999999701976776,
+          4
+        ]
+      ]
+    },
+    "MAIN_L1_south_fascia_0": {
+      "base": [
+        [
+          -4.7684006690979,
+          -0.2493000030517578,
+          -0.2900000214576721
+        ],
+        [
+          14.305200576782227,
+          -0.2493000030517578,
+          -0.2900000214576721
+        ],
+        [
+          14.305200576782227,
+          -0.06929999589920044,
+          -0.2900000214576721
+        ],
+        [
+          -4.7684006690979,
+          -0.06929999589920044,
+          -0.2900000214576721
+        ],
+        [
+          -4.7684006690979,
+          -0.2493000030517578,
+          -0.015000000596046448
+        ],
+        [
+          14.305200576782227,
+          -0.2493000030517578,
+          -0.015000000596046448
+        ],
+        [
+          14.305200576782227,
+          -0.06929999589920044,
+          -0.015000000596046448
+        ],
+        [
+          -4.7684006690979,
+          -0.06929999589920044,
+          -0.015000000596046448
+        ]
+      ],
+      "bounds": [
+        [
+          -4.7684006690979,
+          14.305200576782227
+        ],
+        [
+          -0.2493000030517578,
+          -0.06929999589920044
+        ],
+        [
+          -0.2900000214576721,
+          -0.015000000596046448
+        ]
+      ],
+      "modifiers": [
+        [
+          "BEVEL",
+          0.007000000216066837,
+          2
+        ]
+      ]
+    }
+  },
+  "after": {
+    "MAIN_L1_west_parapet_0": {
+      "bounds": [
+        [
+          -4.8784003257751465,
+          -4.658400058746338
+        ],
+        [
+          -0.1592998504638672,
+          4.7789998054504395
+        ],
+        [
+          -0.49000003933906555,
+          1.0800000429153442
+        ]
+      ],
+      "modifiers": [
+        [
+          "BEVEL",
+          0.054999999701976776,
+          4
+        ]
+      ]
+    },
+    "MAIN_L1_west_parapet_1": {
+      "bounds": [
+        [
+          -4.768400192260742,
+          -0.26200008392333984
+        ],
+        [
+          -0.2692999839782715,
+          -0.049300000071525574
+        ],
+        [
+          -0.49000003933906555,
+          1.0800000429153442
+        ]
+      ],
+      "modifiers": [
+        [
+          "BEVEL",
+          0.054999999701976776,
+          4
+        ]
+      ]
+    },
+    "MAIN_L1_south_fascia_0": {
+      "bounds": [
+        [
+          -4.7684006690979,
+          14.305200576782227
+        ],
+        [
+          -0.2493000030517578,
+          -0.06929999589920044
+        ],
+        [
+          -0.49000000953674316,
+          -0.015000000596046448
+        ]
+      ],
+      "modifiers": [
+        [
+          "BEVEL",
+          0.007000000216066837,
+          2
+        ]
+      ]
+    }
+  },
+  "saved_reopened_source_rebuild_max_world_error_m": {
+    "MAIN_L1_west_parapet_0": 4.76837158203125e-07,
+    "MAIN_L1_west_parapet_1": 0.0,
+    "MAIN_L1_south_fascia_0": 0.0
+  },
+  "west_terrace_local_paths": [
+    {
+      "y": 1.3,
+      "scope": "Inside West terrace, not entire glazed doorway",
+      "samples": [
+        {
+          "point": [
+            -4.25,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -4.0625,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.875,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.6875,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.5,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.3125,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.125,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.9375,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.75,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.5625,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.375,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.1875,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.0,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.8125,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.625,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.4375,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.25,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.0625,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -0.875,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -0.6875,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -0.5,
+            1.3,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "y": 3.65,
+      "scope": "Inside West terrace, not entire glazed doorway",
+      "samples": [
+        {
+          "point": [
+            -4.25,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -4.0625,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.875,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.6875,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.5,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.3125,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -3.125,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.9375,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.75,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.5625,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.375,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.1875,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -2.0,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.8125,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.625,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.4375,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.25,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -1.0625,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -0.875,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -0.6875,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        },
+        {
+          "point": [
+            -0.5,
+            3.65,
+            0.022
+          ],
+          "floor_support": true,
+          "body_blockers": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "existing_camera_body_checks": {
+    "cameras": 129,
+    "samples_per_camera": 3,
+    "radius_m": 0.18,
+    "hits": []
+  },
+  "limits": [
+    "No scene render. No source camera promoted. Prior two photo diagnostics remain unverified/failing.",
+    "Central living-window upstand height/footprint still separate unresolved component; no tall wall across entire south frontage.",
+    "Other 07 modifications live in source modules; this frozen06-derived candidate changes only these 3 objects."
+  ]
+}

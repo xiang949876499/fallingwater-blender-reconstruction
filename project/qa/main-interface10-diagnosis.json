@@ -1,0 +1,1715 @@
+{
+  "status": "BOUNDED_SOURCE_IDENTITY_DIAGNOSIS",
+  "source_scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "images_actually_opened": [
+    "renders/previews/iteration09-focus/CAM_MAIN_L1_LOGGIA_A.png",
+    "renders/previews/iteration09-focus/CAM_MAIN_L2_MASTER_A.png",
+    "research main04/05/06 sheet JPEGs",
+    "qa/main-interface10-main04-native.png",
+    "qa/main-interface10-main04-source-points.png",
+    "qa/main-interface10-main05-source-points.png"
+  ],
+  "evidence": "A archive drawing identity; C source-to-world trace about 1 JPEG pixel. Not surveyed precision.",
+  "pixel_classification": [
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        100,
+        475
+      ],
+      "classification": "CONFIRMED_SOLID_STONE_EDGE_SHORT",
+      "decision": "Main04 continuous hatched L masonry extends to about source x535; model solid ends x531.866. Extend actual stone, not a floor cover.",
+      "first_hit": {
+        "object": "MAIN_L1_LIVING_slab",
+        "point": [
+          10.532400131225586,
+          10.177390098571777,
+          -0.06783246994018555
+        ],
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "evaluated_polygon": 11,
+        "source_plan_px": [
+          528.000002504305,
+          348.33540304007954
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                10.532400131225586,
+                4.7789998054504395,
+                -0.11999999731779099
+              ],
+              [
+                10.532400131225586,
+                10.619999885559082,
+                -0.11999999731779099
+              ],
+              [
+                10.532400131225586,
+                10.619999885559082,
+                0.10000000149011612
+              ]
+            ],
+            "source_plan_px": [
+              [
+                528.000002504305,
+                450.0000036638335
+              ],
+              [
+                528.000002504305,
+                340.00000215519617
+              ],
+              [
+                528.000002504305,
+                340.00000215519617
+              ]
+            ],
+            "point_distance_m": 1.6761157038410944e-06,
+            "material": "FW_ochre"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        534.6493146765323,
+        347.49173352947344
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        240,
+        445
+      ],
+      "classification": "CONFIRMED_SOLID_STONE_EDGE_SHORT",
+      "decision": "Main04 continuous hatched L masonry extends to about source x535; model solid ends x531.866. Extend actual stone, not a floor cover.",
+      "first_hit": {
+        "object": "MAIN_B_pier_2_course09_04_1",
+        "point": [
+          7.189899921417236,
+          10.93490219116211,
+          -1.854797601699829
+        ],
+        "normal": [
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        "evaluated_polygon": 52,
+        "source_plan_px": [
+          464.2118305613976,
+          334.06963858451775
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                7.189899921417236,
+                10.471933364868164,
+                -1.8892500400543213
+              ],
+              [
+                7.189899921417236,
+                11.098600387573242,
+                -1.8892500400543213
+              ],
+              [
+                7.189899921417236,
+                11.098600387573242,
+                -1.7764999866485596
+              ]
+            ],
+            "source_plan_px": [
+              [
+                464.2118305613976,
+                342.7884488725393
+              ],
+              [
+                464.2118305613976,
+                330.9868100268693
+              ],
+              [
+                464.2118305613976,
+                330.9868100268693
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_stone"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        534.1144380642257,
+        337.5570333879546
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        293,
+        429
+      ],
+      "classification": "CONFIRMED_SOLID_STONE_EDGE_SHORT",
+      "decision": "Main04 continuous hatched L masonry extends to about source x535; model solid ends x531.866. Extend actual stone, not a floor cover.",
+      "first_hit": {
+        "object": "MAIN_B_pier_2_course09_03_1",
+        "point": [
+          7.185733318328857,
+          11.429791450500488,
+          -1.7938523292541504
+        ],
+        "normal": [
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        "evaluated_polygon": 52,
+        "source_plan_px": [
+          464.1323152352835,
+          324.74969019773096
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                7.185733318328857,
+                11.143600463867188,
+                -1.8892500400543213
+              ],
+              [
+                7.185733318328857,
+                11.846933364868164,
+                -1.7764999866485596
+              ],
+              [
+                7.185733318328857,
+                11.143600463867188,
+                -1.7764999866485596
+              ]
+            ],
+            "source_plan_px": [
+              [
+                464.1323152352835,
+                330.13935096295313
+              ],
+              [
+                464.1323152352835,
+                316.8939102661363
+              ],
+              [
+                464.1323152352835,
+                330.13935096295313
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_stone"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        533.0974281252795,
+        333.26646880241435
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        302,
+        432
+      ],
+      "classification": "CONFIRMED_SOLID_STONE_EDGE_SHORT",
+      "decision": "Main04 continuous hatched L masonry extends to about source x535; model solid ends x531.866. Extend actual stone, not a floor cover.",
+      "first_hit": {
+        "object": "MAIN_floor_threshold_entry_loggia",
+        "point": [
+          10.58272933959961,
+          11.0447998046875,
+          -0.017139434814453125
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "evaluated_polygon": 2,
+        "source_plan_px": [
+          528.9604835801453,
+          332.00000367820155
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                9.589200019836426,
+                11.0447998046875,
+                -0.07999999821186066
+              ],
+              [
+                10.899200439453125,
+                11.0447998046875,
+                -0.07999999821186066
+              ],
+              [
+                10.899200439453125,
+                11.0447998046875,
+                0.10000000149011612
+              ]
+            ],
+            "source_plan_px": [
+              [
+                510.00000037855773,
+                332.00000367820155
+              ],
+              [
+                535.00000838651,
+                332.00000367820155
+              ],
+              [
+                535.00000838651,
+                332.00000367820155
+              ]
+            ],
+            "point_distance_m": 7.450580596923828e-09,
+            "material": "FW_stone_floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        533.8993517460714,
+        332.67037745473976
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        335,
+        416
+      ],
+      "classification": "CONTROL_EXISTING_SURFACE",
+      "decision": "Keep current surface.",
+      "first_hit": {
+        "object": "MAIN_floor_threshold_entry_loggia_finish",
+        "point": [
+          10.750945091247559,
+          11.172779083251953,
+          0.12199985980987549
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 1,
+        "source_plan_px": [
+          532.1707078482359,
+          329.58984777303294
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                9.589200019836426,
+                12.425399780273438,
+                0.12200000137090683
+              ],
+              [
+                9.589200019836426,
+                11.0447998046875,
+                0.12200000137090683
+              ],
+              [
+                10.899200439453125,
+                11.0447998046875,
+                0.12200000137090683
+              ]
+            ],
+            "source_plan_px": [
+              [
+                510.00000037855773,
+                306.0000041379767
+              ],
+              [
+                510.00000037855773,
+                332.00000367820155
+              ],
+              [
+                535.00000838651,
+                332.00000367820155
+              ]
+            ],
+            "point_distance_m": 1.4156103134155273e-07,
+            "material": "FW_stone_floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        532.1707260481273,
+        329.58984777303294
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        536,
+        340
+      ],
+      "classification": "CONFIRMED_ENTRY_PAVING_GAP",
+      "decision": "Main04 shows continuous paving south of Coat; shared floor polygons omit y303.354..306 east of Entry x510.",
+      "first_hit": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "point": [
+          2.833576202392578,
+          16.27645492553711,
+          -3.25
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 111501,
+        "source_plan_px": [
+          381.0758817250492,
+          233.4754251311279
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                2.6500000953674316,
+                15.649999618530273,
+                -3.25
+              ],
+              [
+                3.299999952316284,
+                16.299999237060547,
+                -3.25
+              ],
+              [
+                2.6500000953674316,
+                16.299999237060547,
+                -3.25
+              ]
+            ],
+            "source_plan_px": [
+              [
+                377.5725209039586,
+                245.27307686383665
+              ],
+              [
+                389.9770983266466,
+                233.032029433888
+              ],
+              [
+                377.5725209039586,
+                233.032029433888
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_Continuous_Forest_Floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        523.2367996914696,
+        305.9749859021433
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        552,
+        350
+      ],
+      "classification": "CONFIRMED_ENTRY_PAVING_GAP",
+      "decision": "Main04 shows continuous paving south of Coat; shared floor polygons omit y303.354..306 east of Entry x510.",
+      "first_hit": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "point": [
+          3.3471879959106445,
+          16.32305335998535,
+          -3.249999523162842
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 112160,
+        "source_plan_px": [
+          390.8776335097451,
+          232.5978651603512
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                3.299999952316284,
+                16.299999237060547,
+                -3.25
+              ],
+              [
+                3.950000047683716,
+                16.299999237060547,
+                -3.25
+              ],
+              [
+                3.950000047683716,
+                16.950000762939453,
+                -3.25
+              ]
+            ],
+            "source_plan_px": [
+              [
+                389.9770983266466,
+                233.032029433888
+              ],
+              [
+                402.38168029930756,
+                233.032029433888
+              ],
+              [
+                402.38168029930756,
+                220.79094608400277
+              ]
+            ],
+            "point_distance_m": 4.76837158203125e-07,
+            "material": "FW_Continuous_Forest_Floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        526.3912776917902,
+        305.69256540072166
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        543,
+        337
+      ],
+      "classification": "CONFIRMED_ENTRY_PAVING_GAP",
+      "decision": "Main04 shows continuous paving south of Coat; shared floor polygons omit y303.354..306 east of Entry x510.",
+      "first_hit": {
+        "object": "MAIN_L1_COAT_slab",
+        "point": [
+          9.767496109008789,
+          12.744000434875488,
+          -0.09808492660522461
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "evaluated_polygon": 2,
+        "source_plan_px": [
+          513.4025975001678,
+          299.99999181025447
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                8.803199768066406,
+                12.744000434875488,
+                -0.11999999731779099
+              ],
+              [
+                10.218000411987305,
+                12.744000434875488,
+                -0.11999999731779099
+              ],
+              [
+                10.218000411987305,
+                12.744000434875488,
+                0.10000000149011612
+              ]
+            ],
+            "source_plan_px": [
+              [
+                494.99999557378635,
+                299.99999181025447
+              ],
+              [
+                522.0000078623532,
+                299.99999181025447
+              ],
+              [
+                522.0000078623532,
+                299.99999181025447
+              ]
+            ],
+            "point_distance_m": 2.2351741790771484e-08,
+            "material": "FW_ochre"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        522.7483874022505,
+        304.8822116313008
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        500,
+        304
+      ],
+      "classification": "CONFIRMED_ENTRY_PAVING_GAP",
+      "decision": "Main04 shows continuous paving south of Coat; shared floor polygons omit y303.354..306 east of Entry x510.",
+      "first_hit": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "point": [
+          9.589200019836426,
+          12.51351547241211,
+          0.10435843467712402
+        ],
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "evaluated_polygon": 3,
+        "source_plan_px": [
+          510.00000037855773,
+          304.34057490749325
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                9.589200019836426,
+                10.991700172424316,
+                0.10000000149011612
+              ],
+              [
+                9.589200019836426,
+                12.690899848937988,
+                0.10000000149011612
+              ],
+              [
+                9.589200019836426,
+                12.690899848937988,
+                0.12200000137090683
+              ]
+            ],
+            "source_plan_px": [
+              [
+                510.00000037855773,
+                332.9999967528378
+              ],
+              [
+                510.00000037855773,
+                301.00000284485895
+              ],
+              [
+                510.00000037855773,
+                301.00000284485895
+              ]
+            ],
+            "point_distance_m": 3.8532757691707226e-06,
+            "material": "FW_stone_floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        510.8799833341409,
+        304.7335569737321
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        494,
+        275
+      ],
+      "classification": "CONTROL_EXISTING_SURFACE",
+      "decision": "Keep current surface.",
+      "first_hit": {
+        "object": "MAIN_floor_threshold_entry_coat_finish",
+        "point": [
+          9.029895782470703,
+          12.716445922851562,
+          0.12199997901916504
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 1,
+        "source_plan_px": [
+          499.32625539066225,
+          300.5189091741702
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                8.645999908447266,
+                12.690899848937988,
+                0.12200000137090683
+              ],
+              [
+                9.589200019836426,
+                12.690899848937988,
+                0.12200000137090683
+              ],
+              [
+                8.803199768066406,
+                12.744000434875488,
+                0.12200000137090683
+              ]
+            ],
+            "source_plan_px": [
+              [
+                491.9999982528104,
+                301.00000284485895
+              ],
+              [
+                510.00000037855773,
+                301.00000284485895
+              ],
+              [
+                494.99999557378635,
+                299.99999181025447
+              ]
+            ],
+            "point_distance_m": 2.2351741790771484e-08,
+            "material": "FW_stone_floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        499.32625539066225,
+        300.5189091741702
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        499,
+        293
+      ],
+      "classification": "CONTROL_EXISTING_SURFACE",
+      "decision": "Keep current surface.",
+      "first_hit": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "point": [
+          9.425830841064453,
+          12.579317092895508,
+          0.12199985980987549
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 1,
+        "source_plan_px": [
+          506.88226795924527,
+          303.10137301515056
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                7.178800106048584,
+                10.991700172424316,
+                0.12200000137090683
+              ],
+              [
+                9.589200019836426,
+                12.690899848937988,
+                0.12200000137090683
+              ],
+              [
+                7.178800106048584,
+                12.690899848937988,
+                0.12200000137090683
+              ]
+            ],
+            "source_plan_px": [
+              [
+                464.00000202382796,
+                332.9999967528378
+              ],
+              [
+                510.00000037855773,
+                301.00000284485895
+              ],
+              [
+                464.00000202382796,
+                301.00000284485895
+              ]
+            ],
+            "point_distance_m": 1.4156103134155273e-07,
+            "material": "FW_stone_floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        506.88226795924527,
+        303.1013909751188
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        484,
+        250
+      ],
+      "classification": "UNRESOLVED_SOURCE_SOLID_BAR_NEAR_STAIR",
+      "decision": "Floor-plane projection meets the source hatched south-Coat/west bar, not enough evidence for a true basement void. Existing missing-bar extent/height needs separate 3D registration; preserve current opening for this bounded candidate, not accepted as correct.",
+      "first_hit": {
+        "object": "MAIN_B_pier_2_course20_00_1",
+        "point": [
+          7.175262451171875,
+          13.425328254699707,
+          -0.22309964895248413
+        ],
+        "normal": [
+          0.38268372416496277,
+          -1.6727636165114745e-08,
+          0.9238794445991516
+        ],
+        "evaluated_polygon": 45,
+        "source_plan_px": [
+          463.9324895261808,
+          287.1689594218511
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                7.175642490386963,
+                13.02560043334961,
+                -0.22325734794139862
+              ],
+              [
+                7.175642490386963,
+                13.581600189208984,
+                -0.22325734794139862
+              ],
+              [
+                7.1713995933532715,
+                13.581600189208984,
+                -0.2214999794960022
+              ]
+            ],
+            "source_plan_px": [
+              [
+                463.9397421829573,
+                294.6967903323991
+              ],
+              [
+                463.9397421829573,
+                284.22598513730725
+              ],
+              [
+                463.85877086552046,
+                284.22598513730725
+              ]
+            ],
+            "point_distance_m": 1.3370128640516902e-05,
+            "material": "FW_stone"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        486.42125830031534,
+        296.60870079715824
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        500,
+        255
+      ],
+      "classification": "UNRESOLVED_SOURCE_SOLID_BAR_NEAR_STAIR",
+      "decision": "Floor-plane projection meets the source hatched south-Coat/west bar, not enough evidence for a true basement void. Existing missing-bar extent/height needs separate 3D registration; preserve current opening for this bounded candidate, not accepted as correct.",
+      "first_hit": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "point": [
+          -2.565211296081543,
+          18.002891540527344,
+          -3.25
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 113456,
+        "source_plan_px": [
+          278.04558595264234,
+          200.96249452867528
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                -3.200000047683716,
+                17.600000381469727,
+                -3.25
+              ],
+              [
+                -2.549999952316284,
+                17.600000381469727,
+                -3.25
+              ],
+              [
+                -2.549999952316284,
+                18.25,
+                -3.25
+              ]
+            ],
+            "source_plan_px": [
+              [
+                265.9312967999291,
+                208.54989865405412
+              ],
+              [
+                278.33587877259,
+                208.54989865405412
+              ],
+              [
+                278.33587877259,
+                196.30885122410547
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_Continuous_Forest_Floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        490.07861750362486,
+        295.51138265433735
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "pixel": [
+        477,
+        247
+      ],
+      "classification": "UNRESOLVED_SOURCE_SOLID_BAR_NEAR_STAIR",
+      "decision": "Floor-plane projection meets the source hatched south-Coat/west bar, not enough evidence for a true basement void. Existing missing-bar extent/height needs separate 3D registration; preserve current opening for this bounded candidate, not accepted as correct.",
+      "first_hit": {
+        "object": "MAIN_B_foundation_pier_2",
+        "point": [
+          7.120546340942383,
+          13.372179985046387,
+          -0.20000004768371582
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 53,
+        "source_plan_px": [
+          462.8882889492821,
+          288.1698684548703
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                6.581399917602539,
+                13.586601257324219,
+                -0.20000004768371582
+              ],
+              [
+                7.14739990234375,
+                4.839100360870361,
+                -0.20000004768371582
+              ],
+              [
+                7.14739990234375,
+                13.586600303649902,
+                -0.20000004768371582
+              ]
+            ],
+            "source_plan_px": [
+              [
+                452.5992350687508,
+                284.131803063574
+              ],
+              [
+                463.4007614951097,
+                448.8681664619518
+              ],
+              [
+                463.4007614951097,
+                284.13182102354233
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_stone"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        484.2988233493485,
+        296.91592401479375
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        170,
+        465
+      ],
+      "classification": "CONFIRMED_CLOSET_WEST_NORTH_FLOOR_GAP",
+      "decision": "Main05 door-side floor continues to core east face x332 and north wall inner face y305.072; current closet floor starts x337/y308.",
+      "first_hit": {
+        "object": "MAIN_L2_HALL_slab",
+        "point": [
+          0.5048162937164307,
+          12.690898895263672,
+          2.701578378677368
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "evaluated_polygon": 2,
+        "source_plan_px": [
+          336.6338987350464,
+          301.0000208048273
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                0.20960000157356262,
+                12.690899848937988,
+                2.624799966812134
+              ],
+              [
+                4.3491997718811035,
+                12.690899848937988,
+                2.8447999954223633
+              ],
+              [
+                0.20960000157356262,
+                12.690899848937988,
+                2.8447999954223633
+              ]
+            ],
+            "source_plan_px": [
+              [
+                331.0000000300298,
+                301.00000284485895
+              ],
+              [
+                409.99999564658594,
+                301.00000284485895
+              ],
+              [
+                331.0000000300298,
+                301.00000284485895
+              ]
+            ],
+            "point_distance_m": 9.5367431640625e-07,
+            "material": "FW_ochre"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        336.1328375212109,
+        309.95820155027
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        204,
+        458
+      ],
+      "classification": "CONTROL_EXISTING_SURFACE",
+      "decision": "Keep current surface.",
+      "first_hit": {
+        "object": "MAIN_L2_CLOSET_M_finish",
+        "point": [
+          0.6707916855812073,
+          12.248987197875977,
+          2.86680006980896
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 1,
+        "source_plan_px": [
+          339.80136804544287,
+          309.32227499291946
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                0.5239999890327454,
+                12.106800079345703,
+                2.86680006980896
+              ],
+              [
+                2.043600082397461,
+                12.319199562072754,
+                2.86680006980896
+              ],
+              [
+                0.5239999890327454,
+                12.319199562072754,
+                2.86680006980896
+              ]
+            ],
+            "source_plan_px": [
+              [
+                336.9999997907012,
+                311.9999985057307
+              ],
+              [
+                366.00000157247064,
+                308.00000824721747
+              ],
+              [
+                336.9999997907012,
+                308.00000824721747
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_stone_floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        339.8013691829361,
+        309.32227499291946
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        140,
+        472
+      ],
+      "classification": "CONFIRMED_CLOSET_WEST_NORTH_FLOOR_GAP",
+      "decision": "Main05 door-side floor continues to core east face x332 and north wall inner face y305.072; current closet floor starts x337/y308.",
+      "first_hit": {
+        "object": "MAIN_L2_HALL_slab",
+        "point": [
+          0.3268890976905823,
+          12.690898895263672,
+          2.6852362155914307
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "evaluated_polygon": 2,
+        "source_plan_px": [
+          333.23834155898055,
+          301.0000208048273
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                0.20960000157356262,
+                12.690899848937988,
+                2.624799966812134
+              ],
+              [
+                4.3491997718811035,
+                12.690899848937988,
+                2.8447999954223633
+              ],
+              [
+                0.20960000157356262,
+                12.690899848937988,
+                2.8447999954223633
+              ]
+            ],
+            "source_plan_px": [
+              [
+                331.0000000300298,
+                301.00000284485895
+              ],
+              [
+                409.99999564658594,
+                301.00000284485895
+              ],
+              [
+                331.0000000300298,
+                301.00000284485895
+              ]
+            ],
+            "point_distance_m": 9.5367431640625e-07,
+            "material": "FW_ochre"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        333.0387808857983,
+        310.75398978540454
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        175,
+        457
+      ],
+      "classification": "CONFIRMED_CLOSET_WEST_NORTH_FLOOR_GAP",
+      "decision": "Main05 door-side floor continues to core east face x332 and north wall inner face y305.072; current closet floor starts x337/y308.",
+      "first_hit": {
+        "object": "MAIN_L2_HALL_slab",
+        "point": [
+          0.5368355512619019,
+          12.690898895263672,
+          2.749908447265625
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "evaluated_polygon": 2,
+        "source_plan_px": [
+          337.2449532683569,
+          301.0000208048273
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                0.20960000157356262,
+                12.690899848937988,
+                2.624799966812134
+              ],
+              [
+                4.3491997718811035,
+                12.690899848937988,
+                2.8447999954223633
+              ],
+              [
+                0.20960000157356262,
+                12.690899848937988,
+                2.8447999954223633
+              ]
+            ],
+            "source_plan_px": [
+              [
+                331.0000000300298,
+                301.00000284485895
+              ],
+              [
+                409.99999564658594,
+                301.00000284485895
+              ],
+              [
+                331.0000000300298,
+                301.00000284485895
+              ]
+            ],
+            "point_distance_m": 9.5367431640625e-07,
+            "material": "FW_ochre"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        336.83888525089236,
+        307.5161667013797
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        218,
+        452
+      ],
+      "classification": "CONTROL_EXISTING_SURFACE",
+      "decision": "Keep current surface.",
+      "first_hit": {
+        "object": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_lower_shelf",
+        "point": [
+          0.7126870155334473,
+          11.903705596923828,
+          3.0084333419799805
+        ],
+        "normal": [
+          -0.9238811731338501,
+          -0.38267967104911804,
+          0.0
+        ],
+        "evaluated_polygon": 33,
+        "source_plan_px": [
+          340.60089724300474,
+          315.8247533536003
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                0.7145774364471436,
+                11.899141311645508,
+                2.992799997329712
+              ],
+              [
+                0.7122343182563782,
+                11.90479850769043,
+                3.0168001651763916
+              ],
+              [
+                0.7122343182563782,
+                11.90479850769043,
+                2.992799997329712
+              ]
+            ],
+            "source_plan_px": [
+              [
+                340.63697397799893,
+                315.91070976185483
+              ],
+              [
+                340.59225798199196,
+                315.8041712299354
+              ],
+              [
+                340.59225798199196,
+                315.8041712299354
+              ]
+            ],
+            "point_distance_m": 5.960464477539063e-08,
+            "material": "FW_wood"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        341.5060028738648,
+        307.9694583411495
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        503,
+        183
+      ],
+      "classification": "EXISTING_MASTER_DOOR_SIGHTLINE_SOURCE_OFFSET_UNRESOLVED",
+      "decision": "Sightline crosses existing master entry at source x375..388/y303; terrain/exterior spiral seen behind internal stair silhouette. Source05 master door appears x352..366 rather than current367..390; do not close/relocate in interface candidate.",
+      "first_hit": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "point": [
+          11.602800369262695,
+          28.87407112121582,
+          4.722860336303711
+        ],
+        "normal": [
+          -0.8260469436645508,
+          -0.024715323001146317,
+          0.5630591511726379
+        ],
+        "evaluated_polygon": 124686,
+        "source_plan_px": [
+          548.4274879630285,
+          -3.767817725345026
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                11.100000381469727,
+                28.649999618530273,
+                3.97537899017334
+              ],
+              [
+                11.75,
+                28.649999618530273,
+                4.92897367477417
+              ],
+              [
+                11.75,
+                29.299999237060547,
+                4.957505226135254
+              ]
+            ],
+            "source_plan_px": [
+              [
+                538.8320683486589,
+                0.4519845851173159
+              ],
+              [
+                551.236641221374,
+                0.4519845851173159
+              ],
+              [
+                551.236641221374,
+                -11.789062844831392
+              ]
+            ],
+            "point_distance_m": 2.132480599880018e-06,
+            "material": "FW_Continuous_Forest_Floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        -1026.8024261707567,
+        2901.4476090770654
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        531,
+        207
+      ],
+      "classification": "EXISTING_MASTER_DOOR_SIGHTLINE_SOURCE_OFFSET_UNRESOLVED",
+      "decision": "Sightline crosses existing master entry at source x375..388/y303; terrain/exterior spiral seen behind internal stair silhouette. Source05 master door appears x352..366 rather than current367..390; do not close/relocate in interface candidate.",
+      "first_hit": {
+        "object": "MAIN_north_spiral_08",
+        "point": [
+          8.536344528198242,
+          21.837467193603516,
+          4.1182427406311035
+        ],
+        "normal": [
+          -0.21919268369674683,
+          -0.9756816625595093,
+          0.0
+        ],
+        "evaluated_polygon": 2,
+        "source_plan_px": [
+          489.9073383243939,
+          128.7482637739451
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                8.520084381103516,
+                21.84111976623535,
+                3.985684394836426
+              ],
+              [
+                10.208295822143555,
+                21.46185302734375,
+                4.205684185028076
+              ],
+              [
+                8.520084381103516,
+                21.84111976623535,
+                4.205684185028076
+              ]
+            ],
+            "source_plan_px": [
+              [
+                489.59703017373124,
+                128.67947709537947
+              ],
+              [
+                521.8148057660984,
+                135.82197688618174
+              ],
+              [
+                489.59703017373124,
+                128.67947709537947
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_stone_floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        1059.1081816695119,
+        -832.8115563114259
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        460,
+        152
+      ],
+      "classification": "EXISTING_MASTER_DOOR_SIGHTLINE_SOURCE_OFFSET_UNRESOLVED",
+      "decision": "Sightline crosses existing master entry at source x375..388/y303; terrain/exterior spiral seen behind internal stair silhouette. Source05 master door appears x352..366 rather than current367..390; do not close/relocate in interface candidate.",
+      "first_hit": {
+        "object": "MAIN_L2_bath_n_shell_2",
+        "point": [
+          3.3229219913482666,
+          14.29010009765625,
+          4.84553337097168
+        ],
+        "normal": [
+          8.742277657347586e-08,
+          -1.0,
+          0.0
+        ],
+        "evaluated_polygon": 52,
+        "source_plan_px": [
+          390.4145418196234,
+          270.883237332274
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                1.3694000244140625,
+                14.290099143981934,
+                2.851799964904785
+              ],
+              [
+                3.5037999153137207,
+                14.290099143981934,
+                2.851799964904785
+              ],
+              [
+                3.5037999153137207,
+                14.290099143981934,
+                5.043000221252441
+              ]
+            ],
+            "source_plan_px": [
+              [
+                353.13358825217676,
+                270.8832552922423
+              ],
+              [
+                393.86641059759006,
+                270.8832552922423
+              ],
+              [
+                393.86641059759006,
+                270.8832552922423
+              ]
+            ],
+            "point_distance_m": 9.5367431640625e-07,
+            "material": "FW_cork"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        81.29642291469429,
+        928.677959837258
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        537,
+        164
+      ],
+      "classification": "EXISTING_MASTER_DOOR_SIGHTLINE_SOURCE_OFFSET_UNRESOLVED",
+      "decision": "Sightline crosses existing master entry at source x375..388/y303; terrain/exterior spiral seen behind internal stair silhouette. Source05 master door appears x352..366 rather than current367..390; do not close/relocate in interface candidate.",
+      "first_hit": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "point": [
+          12.04964828491211,
+          27.507091522216797,
+          5.2900390625
+        ],
+        "normal": [
+          -0.7857789397239685,
+          -0.06434248387813568,
+          0.6151517033576965
+        ],
+        "evaluated_polygon": 123372,
+        "source_plan_px": [
+          556.9551199410707,
+          21.975677547706255
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                11.75,
+                27.350000381469727,
+                4.890844821929932
+              ],
+              [
+                12.399999618530273,
+                27.350000381469727,
+                5.721137523651123
+              ],
+              [
+                12.399999618530273,
+                28.0,
+                5.789124965667725
+              ]
+            ],
+            "source_plan_px": [
+              [
+                551.236641221374,
+                24.934079445014618
+              ],
+              [
+                563.6412140940892,
+                24.934079445014618
+              ],
+              [
+                563.6412140940892,
+                12.69303201506591
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_Continuous_Forest_Floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        -107.49070617442823,
+        1125.3194615710702
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        541,
+        366
+      ],
+      "classification": "CONTROL_EXISTING_SURFACE",
+      "decision": "Keep current surface.",
+      "first_hit": {
+        "object": "MAIN_L2_HALL_finish",
+        "point": [
+          3.7215216159820557,
+          13.392396926879883,
+          2.86680006980896
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "evaluated_polygon": 1,
+        "source_plan_px": [
+          398.02140488515374,
+          287.7891350870078
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                0.20960000157356262,
+                14.230799674987793,
+                2.86680006980896
+              ],
+              [
+                4.3491997718811035,
+                12.690899848937988,
+                2.86680006980896
+              ],
+              [
+                4.3491997718811035,
+                13.699799537658691,
+                2.86680006980896
+              ]
+            ],
+            "source_plan_px": [
+              [
+                331.0000000300298,
+                272.0000061207572
+              ],
+              [
+                409.99999564658594,
+                301.00000284485895
+              ],
+              [
+                409.99999564658594,
+                282.0000087069926
+              ]
+            ],
+            "point_distance_m": 2.384185791015625e-07,
+            "material": "FW_stone_floor"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        398.02140488515374,
+        287.7891350870078
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "pixel": [
+        554,
+        384
+      ],
+      "classification": "CONTROL_EXISTING_SURFACE",
+      "decision": "Keep current surface.",
+      "first_hit": {
+        "object": "MAIN_L2_master_north_east",
+        "point": [
+          3.3011999130249023,
+          12.497856140136719,
+          2.957219123840332
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "evaluated_polygon": 48,
+        "source_plan_px": [
+          389.9999983401699,
+          304.6354775868791
+        ],
+        "triangles": [
+          {
+            "vertices": [
+              [
+                3.3011999130249023,
+                12.687699317932129,
+                2.851799964904785
+              ],
+              [
+                3.3011999130249023,
+                12.48169994354248,
+                2.851799964904785
+              ],
+              [
+                3.3011999130249023,
+                12.48169994354248,
+                5.0329999923706055
+              ]
+            ],
+            "source_plan_px": [
+              [
+                389.9999983401699,
+                301.06027649845333
+              ],
+              [
+                389.9999983401699,
+                304.93973740974616
+              ],
+              [
+                389.9999983401699,
+                304.93973740974616
+              ]
+            ],
+            "point_distance_m": 0.0,
+            "material": "FW_wood"
+          }
+        ]
+      },
+      "floor_plane_source_px": [
+        393.51667238191794,
+        299.1206538026167
+      ]
+    }
+  ]
+}

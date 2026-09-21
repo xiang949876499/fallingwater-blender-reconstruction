@@ -1,0 +1,78 @@
+{
+  "status": "READ_ONLY_FINISH_DIAGNOSIS_AND_CAMERA_PROPOSALS_COMPLETE",
+  "scene_sha256": "c025c0e1d6adc55077d4bcaa0c3d028174eb5643aa002f466e9c162067c17f74",
+  "helper_sha256": "ebd5e1e2362877c31cb7f2563456adef4433cb0e5c9f972e40fdbeb43b0b23c1",
+  "scene_and_helper_unchanged": true,
+  "source_views": [
+    {
+      "path": "project\\qa\\guest-bays11-source-north.png",
+      "sha256": "9f0417b820af4ec25e51c881fcc93d3fa10421a19eb39d8d95b759f5fc379c4c",
+      "view_status": "ACTUALLY_OPENED"
+    },
+    {
+      "path": "project\\qa\\guest-bays11-source-endpoints-final.png",
+      "sha256": "67bb4ddf7d626410a1b23d8d9bc78a350dacd597c1bf8e2886fb60021977de5b",
+      "view_status": "ACTUALLY_OPENED"
+    },
+    {
+      "path": "project\\qa\\guest-level-context09-g04-west-lowerfacade.png",
+      "sha256": "37bfd0ff3b12ed60e8e9c4a1e645455b4ce35f543be91d7e98dd3cb88303e72e",
+      "view_status": "ACTUALLY_OPENED"
+    },
+    {
+      "path": "project\\data\\photo_refs\\guest_exterior_10.jpg",
+      "sha256": "3861068b7a43ed1d08941b215192cc2a60ca2d29472b71141fb0d75afc9ed247",
+      "view_status": "ACTUALLY_OPENED"
+    },
+    {
+      "path": "project\\data\\photo_refs\\guest_canopy_01.jpg",
+      "sha256": "a97d0b106d887c582bc352cbc751aa3dd9c25e323e109a4ce825b144ec69cc7d",
+      "view_status": "ACTUALLY_OPENED"
+    }
+  ],
+  "finish_profile_plot_view_status": "ACTUALLY_OPENED",
+  "source_datum_qualification": "U/C; printed architectural masonry outline does not prove hidden-core or mean/peak convention",
+  "core_vs_visible_samples": 558,
+  "two_side_mean_additive_projection_m": 0.04102073061633788,
+  "proposal_applied": false,
+  "proposal_22mm_evidence": "C generic depth-range midpoint only, not measured archival displacement or dimension PASS",
+  "cameras": [
+    {
+      "bay": "NORTH",
+      "eye": [
+        0.6000000238418579,
+        51.79999923706055,
+        10.0
+      ],
+      "target": [
+        -2.8668580055236816,
+        51.68133544921875,
+        9.479999542236328
+      ],
+      "lens_mm": 24,
+      "whole_bay_framed": true,
+      "body_pass": true,
+      "local_approach_pass": true
+    },
+    {
+      "bay": "MIDDLE",
+      "eye": [
+        0.4000000059604645,
+        49.900001525878906,
+        10.0
+      ],
+      "target": [
+        -2.4122133255004883,
+        48.720924377441406,
+        9.479999542236328
+      ],
+      "lens_mm": 24,
+      "whole_bay_framed": true,
+      "body_pass": true,
+      "local_approach_pass": true
+    }
+  ],
+  "scene_saved": false,
+  "rendered": false,
+  "documentation_reconciled_with_readonly_findings": true
+}

@@ -1,0 +1,131 @@
+{
+  "status": "PASS_BOUNDED_HEIGHT_GEOMETRY; NOT_VISUALLY_REVIEWED; LEGACY_CAP_AND_OUTLETS_UNRESOLVED",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_masonry_tower_candidate12b.blend",
+  "candidate_sha256": "35d743a55af14290daa4a12e647a6d1d7717b3adeddc073a83739001f78f17c4",
+  "helper": "scripts/masonry_tower12b.py",
+  "helper_sha256": "8f801ada246e6c492785d3174b11532e1d5ed495578498864258d2687eca05c4",
+  "source_12a_sha256": "b267636a9cbbe297513968f08f3b85930c0302cae1ebb75ed775043250e11a48",
+  "non_target_objects_unchanged": 23135,
+  "protected_physics_count": 77,
+  "new_closed_stones": 70,
+  "new_triangles": 2876,
+  "retained_12a_closed_stones": 501,
+  "retained_12a_triangles": 20622,
+  "combined_stones": 571,
+  "combined_triangles": 23498,
+  "core_cap_outlet_five_closed_checks": [
+    {
+      "object": "MAIN_chimney_cap",
+      "evaluated_triangles": 12,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 0.09117663124282838,
+      "signed_volume_m3": 0.6197136441866545
+    },
+    {
+      "object": "MAIN_chimney_flue",
+      "evaluated_triangles": 12,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 0.00314407243916069,
+      "signed_volume_m3": 0.004673684636751809
+    },
+    {
+      "object": "MAIN_chimney_flue.001",
+      "evaluated_triangles": 12,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 0.003144071860614996,
+      "signed_volume_m3": 0.0046743092437585175
+    },
+    {
+      "object": "MAIN_stone_tower_north",
+      "evaluated_triangles": 108,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 1.1282701509399581e-05,
+      "signed_volume_m3": 2.714097412104214
+    },
+    {
+      "object": "MAIN_stone_tower_west",
+      "evaluated_triangles": 108,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 1.1282624941281417e-05,
+      "signed_volume_m3": 10.130089804768735
+    }
+  ],
+  "actual_height": {
+    "upper": 10.016900062561035,
+    "lower": 0.02199999988079071,
+    "relative": 9.994900062680244,
+    "error_m": 6.268024499433977e-08
+  },
+  "root_camera_count": 131,
+  "minimum_saved_camera_clearance_m": 0.24064922332763672,
+  "movie_position_count": 7584,
+  "minimum_movie_position_clearance_m": 1.248499870300293,
+  "route_rays": 12264,
+  "new_route_obstacles": 0,
+  "back_contact_signed_gap_range_m": [
+    -0.0008001327514648438,
+    -0.0007999539375305176
+  ],
+  "minimum_new_stone_triangle_area_m2": 8.834865170979194e-05,
+  "new_nonadjacent_self_or_cross_component_intersections": [],
+  "new_high_volume_neighbor_intersections": [],
+  "neighbor_intersections": [],
+  "source_and_candidate_guards_unchanged_after_read": true,
+  "external_camera_settings_sha256": "6a14a2037e286bce4b8e7bf18f6d6bee8c1cb411b46e6616107b389f2def838d",
+  "framing": {
+    "status": "PASS_TOWER_FRAMING_PROBE_NO_RENDER",
+    "source_36mm_roi_960x540": [
+      [
+        322.3767405747218,
+        659.0464758755074
+      ],
+      [
+        -24.504372037813436,
+        514.3556304729898
+      ]
+    ],
+    "proposed_roi_960x540": [
+      [
+        339.8904360664194,
+        639.152423000451
+      ],
+      [
+        8.21833596638802,
+        487.2050048648798
+      ]
+    ],
+    "external_lens_changed_to_keep_corrected_top_in_frame": true,
+    "settings": {
+      "location": [
+        -7.0,
+        2.5,
+        8.7
+      ],
+      "target": [
+        -0.58,
+        9.68,
+        7.35
+      ],
+      "lens": 32.0,
+      "shift_x": 0.0,
+      "shift_y": 0.0,
+      "exposure": 0.8
+    },
+    "saved_camera_changed": false,
+    "candidate_sha256": "35d743a55af14290daa4a12e647a6d1d7717b3adeddc073a83739001f78f17c4",
+    "rendered": false,
+    "comparison_rule": "Apply these identical external settings to12a and12b if comparing detail. Do not compare32mm12b to old36mm12a image. HERO remains its saved camera."
+  },
+  "rendered": false,
+  "production_integrated": false,
+  "known_limits": [
+    "Original C cap plan and120mm thickness retained; broad overhang source correspondence NOT validated.",
+    "Original C XY, dimensions and40mm relative top offset retained; old10mm gap and unknown source outlet mapping NOT repaired or accepted.",
+    "Whole environment still fails photoreal acceptance; height nominal agreement does not certify actual survey precision."
+  ]
+}

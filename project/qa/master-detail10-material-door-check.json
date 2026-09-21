@@ -1,0 +1,250 @@
+{
+  "status": "PASS_SCOPED_MATERIAL_AND_DOOR_NO_SAVE",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_master_detail_candidate10f.blend",
+  "sha256": "f7ff5b0ab1317b0d375b884b651497bbc26e573cceebe5a9d15139a9c8e9ba5c",
+  "old_material_changes": [],
+  "shared_channels": {
+    "PH_Diffuse": [
+      [
+        "MASTER_HORIZONTAL_GRAIN_ROTATE",
+        "Vector"
+      ]
+    ],
+    "PH_Rough": [
+      [
+        "MASTER_HORIZONTAL_GRAIN_ROTATE",
+        "Vector"
+      ]
+    ],
+    "PH_Displacement": [
+      [
+        "MASTER_HORIZONTAL_GRAIN_ROTATE",
+        "Vector"
+      ]
+    ]
+  },
+  "coordinate_object": "MASTER_DETAIL10_wardrobe_texture_frame",
+  "coordinate_object_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      3.3798000812530518
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      12.173174858093262
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      2.86680006980896
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "shared_scale": 0.5555555820465088,
+  "shared_axis": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "shared_angle": 1.5707963705062866,
+  "new_material_assignments": [
+    "MASTER_DETAIL10_wardrobe_base",
+    "MASTER_DETAIL10_wardrobe_back",
+    "MASTER_DETAIL10_wardrobe_side_L",
+    "MASTER_DETAIL10_wardrobe_side_R",
+    "MASTER_DETAIL10_wardrobe_flat_door_00",
+    "MASTER_DETAIL10_wardrobe_round_knob_00",
+    "MASTER_DETAIL10_wardrobe_flat_door_01",
+    "MASTER_DETAIL10_wardrobe_round_knob_01",
+    "MASTER_DETAIL10_wardrobe_flat_door_02",
+    "MASTER_DETAIL10_wardrobe_round_knob_02",
+    "MASTER_DETAIL10_wardrobe_flat_door_03",
+    "MASTER_DETAIL10_wardrobe_round_knob_03",
+    "MASTER_DETAIL10_wardrobe_upper_front_rail",
+    "MASTER_DETAIL10_wardrobe_top",
+    "MASTER_DETAIL10_continuous_overdoor_wood_shelf"
+  ],
+  "unexpected_material_assignments": [],
+  "door_clearance_samples": [
+    {
+      "source_xy": [
+        353.0,
+        302
+      ],
+      "ceiling": "MAIN_L2_master_entry_lintel",
+      "height": 1.9580000144958496,
+      "pass": true
+    },
+    {
+      "source_xy": [
+        353.0,
+        303
+      ],
+      "ceiling": "MAIN_L2_master_entry_lintel",
+      "height": 1.9580000144958496,
+      "pass": true
+    },
+    {
+      "source_xy": [
+        353.0,
+        304
+      ],
+      "ceiling": "MAIN_L2_master_entry_lintel",
+      "height": 1.9580000144958496,
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359,
+        302
+      ],
+      "ceiling": "MAIN_L2_master_entry_lintel",
+      "height": 1.9580000144958496,
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359,
+        303
+      ],
+      "ceiling": "MASTER_DETAIL10_entry_frame_head",
+      "height": 1.9579995376586914,
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359,
+        304
+      ],
+      "ceiling": "MAIN_L2_master_entry_lintel",
+      "height": 1.9580000144958496,
+      "pass": true
+    },
+    {
+      "source_xy": [
+        365.0,
+        302
+      ],
+      "ceiling": "MAIN_L2_master_entry_lintel",
+      "height": 1.9580000144958496,
+      "pass": true
+    },
+    {
+      "source_xy": [
+        365.0,
+        303
+      ],
+      "ceiling": "MAIN_L2_master_entry_lintel",
+      "height": 1.9580000144958496,
+      "pass": true
+    },
+    {
+      "source_xy": [
+        365.0,
+        304
+      ],
+      "ceiling": "MAIN_L2_master_entry_lintel",
+      "height": 1.9580000144958496,
+      "pass": true
+    }
+  ],
+  "nominal_door": {
+    "finished_clear_width_m": 0.7016,
+    "finished_clear_height_m": 1.958
+  },
+  "integration_refresh": {
+    "not_saved": true,
+    "info": {
+      "objects": [
+        "MAIN_L2_MASTER_slab",
+        "MAIN_L2_MASTER_finish"
+      ],
+      "bath_source10": true,
+      "east_source_x": 417.37786259541986,
+      "east_world_x": 4.7358,
+      "source_polygon": [
+        [
+          330,
+          312
+        ],
+        [
+          368,
+          312
+        ],
+        [
+          368,
+          305
+        ],
+        [
+          417.37786259541986,
+          305
+        ],
+        [
+          417.37786259541986,
+          410.5291902071563
+        ],
+        [
+          317.4770992366412,
+          410.5291902071563
+        ],
+        [
+          317.4770992366412,
+          381
+        ],
+        [
+          330,
+          381
+        ],
+        [
+          330,
+          350
+        ],
+        [
+          333,
+          350
+        ],
+        [
+          333,
+          333
+        ],
+        [
+          327,
+          333
+        ],
+        [
+          327,
+          330
+        ],
+        [
+          330,
+          330
+        ]
+      ],
+      "finish_z": 2.8668
+    },
+    "actual_east_world_x": 4.735799789428711,
+    "old_floor_area_m2": 25.702864099999985,
+    "combined_floor_area_m2": 25.828573039999995,
+    "restored_old_notch_area_m2": 0.12570894000000976,
+    "bath_threshold_required_west_x": 4.735799789428711,
+    "new_bath_entry_source_y": [
+      390.5,
+      405
+    ]
+  },
+  "limits": [
+    "Local material rotation is C and requires actual render inspection.",
+    "This transient floor refresh does not certify the separate bath threshold or combined routes.",
+    "All original camera/lights/routes remain unchanged in the saved candidate."
+  ]
+}

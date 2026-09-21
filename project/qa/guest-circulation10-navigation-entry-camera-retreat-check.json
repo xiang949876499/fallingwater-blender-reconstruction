@@ -1,0 +1,100 @@
+{
+  "candidate_sha256": "7286427d1f47ae9219204ed5dd54a970387683c8b384d1b4259244a7b991d852",
+  "status": "PASS_GEOMETRY_AND_FRAME_PROJECTION",
+  "source_camera_px": [
+    466,
+    465
+  ],
+  "normal_eye_height_m": 1.6,
+  "actual_foot_world": [
+    10.81096,
+    34.833040000000004,
+    8.4
+  ],
+  "body_failures": [],
+  "eye_hits": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "lowest_overhead": {
+    "clearance": 2.1599994999999996,
+    "hit": {
+      "object": "GUEST_LOW_ARM_ROOF",
+      "location": [
+        10.8109598,
+        34.8330383,
+        10.5599995
+      ],
+      "normal": [
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "distance": 1.9599991
+    }
+  },
+  "target_first_hit": null,
+  "door_frame_projection": [
+    {
+      "object": "GUEST_C10_SOUTHEAST_ENTRY_JAMB_WEST",
+      "normalized_frame_bounds": [
+        [
+          0.36207717657089233,
+          0.401401549577713
+        ],
+        [
+          0.05077593773603439,
+          0.9274263978004456
+        ],
+        [
+          1.6734976768493652,
+          2.181607246398926
+        ]
+      ],
+      "fully_inside_frame": true
+    },
+    {
+      "object": "GUEST_C10_SOUTHEAST_ENTRY_JAMB_EAST",
+      "normalized_frame_bounds": [
+        [
+          0.6100884079933167,
+          0.6525667905807495
+        ],
+        [
+          0.05077593773603439,
+          0.9274263978004456
+        ],
+        [
+          1.6734976768493652,
+          2.181607246398926
+        ]
+      ],
+      "fully_inside_frame": true
+    },
+    {
+      "object": "GUEST_C10_SOUTHEAST_ENTRY_HEAD",
+      "normalized_frame_bounds": [
+        [
+          0.36659449338912964,
+          0.6482285857200623
+        ],
+        [
+          0.911512553691864,
+          0.9378213882446289
+        ],
+        [
+          1.6676254272460938,
+          1.722224473953247
+        ]
+      ],
+      "fully_inside_frame": true
+    }
+  ],
+  "rendered": false,
+  "scene_saved": false,
+  "note": "Projection confirms complete frame inclusion, not unobstructed photorealistic appearance. Root will render."
+}

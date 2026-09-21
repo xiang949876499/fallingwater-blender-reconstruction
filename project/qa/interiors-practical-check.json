@@ -1,0 +1,170 @@
+{
+  "status": "PASS_MODULE_GEOMETRY_NOT_INTEGRATED_OR_VISUAL",
+  "room_count": 60,
+  "door_tests": [
+    {
+      "id": "KITCHEN_NEW_DOOR_BODY_0",
+      "start": [
+        -0.524,
+        13.6443,
+        1.7
+      ],
+      "end": [
+        0.3668,
+        13.6443,
+        1.7
+      ],
+      "status": "PASS",
+      "failure": null
+    },
+    {
+      "id": "KITCHEN_NEW_DOOR_BODY_1",
+      "start": [
+        -0.524,
+        13.764975,
+        1.7
+      ],
+      "end": [
+        0.3668,
+        13.764975,
+        1.7
+      ],
+      "status": "PASS",
+      "failure": null
+    },
+    {
+      "id": "KITCHEN_NEW_DOOR_BODY_2",
+      "start": [
+        -0.524,
+        13.88565,
+        1.7
+      ],
+      "end": [
+        0.3668,
+        13.88565,
+        1.7
+      ],
+      "status": "PASS",
+      "failure": null
+    },
+    {
+      "id": "KITCHEN_NEW_DOOR_BODY_3",
+      "start": [
+        -0.524,
+        14.006325,
+        1.7
+      ],
+      "end": [
+        0.3668,
+        14.006325,
+        1.7
+      ],
+      "status": "PASS",
+      "failure": null
+    },
+    {
+      "id": "KITCHEN_NEW_DOOR_BODY_4",
+      "start": [
+        -0.524,
+        14.127,
+        1.7
+      ],
+      "end": [
+        0.3668,
+        14.127,
+        1.7
+      ],
+      "status": "PASS",
+      "failure": null
+    },
+    {
+      "id": "KITCHEN_FULL_APPROACH",
+      "start": [
+        -2.3,
+        13.88565,
+        1.7
+      ],
+      "end": [
+        0.3668,
+        13.88565,
+        1.7
+      ],
+      "status": "PASS",
+      "failure": null
+    }
+  ],
+  "fixture_checks": [
+    {
+      "room_id": "MAIN_B_WINE",
+      "status": "BUILT_C_SUBSTITUTE_GEOMETRIC_SUPPORT_CHECKED",
+      "light_exists": true,
+      "light_at_visible_bulb": true,
+      "ceiling_support": "MAIN_L1_KITCHEN_slab",
+      "lowest_above_floor_m": 1.8420000250339508
+    },
+    {
+      "room_id": "MAIN_B_BATH",
+      "status": "BUILT_C_SUBSTITUTE_GEOMETRIC_SUPPORT_CHECKED",
+      "light_exists": true,
+      "light_at_visible_bulb": true,
+      "ceiling_support": "MAIN_L1_KITCHEN_slab",
+      "lowest_above_floor_m": 1.8419999952316284
+    },
+    {
+      "room_id": "MAIN_B_BOILER",
+      "status": "BUILT_C_SUBSTITUTE_GEOMETRIC_SUPPORT_CHECKED",
+      "light_exists": true,
+      "light_at_visible_bulb": true,
+      "ceiling_support": "MAIN_L1_LIVING_slab",
+      "lowest_above_floor_m": 1.8419999952316284
+    },
+    {
+      "room_id": "MAIN_L1_COAT",
+      "status": "BUILT_C_SUBSTITUTE_GEOMETRIC_SUPPORT_CHECKED",
+      "light_exists": true,
+      "light_at_visible_bulb": true,
+      "ceiling_support": "MAIN_L1_COAT_ceiling",
+      "lowest_above_floor_m": 2.2119999999999997
+    },
+    {
+      "room_id": "GUEST_B1_LAUNDRY",
+      "status": "BUILT_C_SUBSTITUTE_GEOMETRIC_SUPPORT_CHECKED",
+      "light_exists": true,
+      "light_at_visible_bulb": true,
+      "ceiling_support": "GUEST_L1_CHAUFFEUR_FLOOR",
+      "lowest_above_floor_m": 1.9319998474121087
+    },
+    {
+      "room_id": "GUEST_B1_BATH",
+      "status": "BUILT_C_SUBSTITUTE_GEOMETRIC_SUPPORT_CHECKED",
+      "light_exists": true,
+      "light_at_visible_bulb": true,
+      "ceiling_support": "GUEST_L1_CHAUFFEUR_FLOOR",
+      "lowest_above_floor_m": 1.9319998474121087
+    },
+    {
+      "room_id": "GUEST_L2_BATH",
+      "status": "BUILT_C_SUBSTITUTE_GEOMETRIC_SUPPORT_CHECKED",
+      "light_exists": true,
+      "light_at_visible_bulb": true,
+      "ceiling_support": "GUEST_SERVICE_BEDROOM_ROOF",
+      "lowest_above_floor_m": 1.931999942016601
+    },
+    {
+      "room_id": "GUEST_L2_HALL",
+      "status": "BUILT_C_SUBSTITUTE_GEOMETRIC_SUPPORT_CHECKED",
+      "light_exists": true,
+      "light_at_visible_bulb": true,
+      "ceiling_support": "GUEST_SERVICE_BEDROOM_ROOF",
+      "lowest_above_floor_m": 1.931999942016601
+    }
+  ],
+  "source_hashes": {
+    "scripts\\furnishings.py": "121f08765f2e61264581e85ca4ba3b50e023c67f23b1fe62e79d1da2bb8bc845",
+    "scripts\\main_house.py": "46ab30ef67523fe2f45233a51163b478437531ceedce2184c1c082ddbbfc7a19",
+    "scripts\\guest_house.py": "1b9f8c5f217e4b312a98ae30f5150e306a1e3a154d2b8b0ffc5d577775e1749d",
+    "data\\main_house.json": "5d98350aa313835b604ba88cfad33d494d3c214965c450c15b69ecc17babf769",
+    "data\\guest_house.json": "d821acfeb9c2777bb597c8dd8338ea0c39306154f9386c44453c6e08a4a8afff"
+  },
+  "scope": "Independent latest modules, 4 threads, no site/render. Integrated iteration04 and actual rendered fixture quality still required."
+}

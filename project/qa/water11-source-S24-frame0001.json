@@ -1,0 +1,527 @@
+{
+  "frame": 1,
+  "first_solved_frame_not_t0": true,
+  "config": {
+    "res": [
+      24,
+      24,
+      19
+    ],
+    "dx": 0.0416666679084301,
+    "last_dt": 0.10426700115203857,
+    "T": 0.1041666716337204
+  },
+  "source_interior_geometric_cells": 33,
+  "phi_volume_center_proxy_m3": 0.033750004023313684,
+  "Fluid_flag_volume_proxy_m3": 0.033750004023313684,
+  "planes": {
+    "-5.35": {
+      "full": {
+        "phi_wet_area_m2": 0.07971680321032201,
+        "raw_signed_MAC_area_integral": 3.0192739215909454,
+        "Q_net_down_m3_s": 0.5661138803396084,
+        "Q_positive_down_m3_s": 0.5661138803396084,
+        "Q_negative_down_m3_s": 0.0,
+        "wet_area_mean_down_velocity_m_s": 7.101562751406293
+      },
+      "fixed_jet_window": {
+        "phi_wet_area_m2": 0.07971680321032201,
+        "raw_signed_MAC_area_integral": 3.0192739215909454,
+        "Q_net_down_m3_s": 0.5661138803396084,
+        "Q_positive_down_m3_s": 0.5661138803396084,
+        "Q_negative_down_m3_s": 0.0,
+        "wet_area_mean_down_velocity_m_s": 7.101562751406293
+      },
+      "native_mesh_section": {
+        "area_m2": 0.0525716840972551,
+        "oriented_area_raw_m2": -0.0525716840972551,
+        "segments": 29,
+        "bad_degree_vertices": 0,
+        "submicrometre_segments_retained": 15,
+        "connectivity_method": "original mesh-edge indices; no coordinate merging",
+        "status": "CLOSED_SECTION",
+        "segment_coordinates_m": [
+          [
+            [
+              0.9504728337494427,
+              -2.1999999487143933,
+              -5.35
+            ],
+            [
+              0.9504727111488914,
+              -2.199999913097627,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9874998886671253,
+              -2.2091194944960844,
+              -5.35
+            ],
+            [
+              0.9504728337494427,
+              -2.1999999487143933,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9875001923636397,
+              -2.209119559060753,
+              -5.35
+            ],
+            [
+              0.9874998886671253,
+              -2.2091194944960844,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9875004647774995,
+              -2.2091194591699708,
+              -5.35
+            ],
+            [
+              0.9875001923636397,
+              -2.209119559060753,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.0503660486295265,
+              -2.1999999207242293,
+              -5.35
+            ],
+            [
+              0.9875004647774995,
+              -2.2091194591699708,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9125001990627613,
+              -2.1823744230766935,
+              -5.35
+            ],
+            [
+              0.871084319998894,
+              -2.125000463266462,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.871084319998894,
+              -2.125000463266462,
+              -5.35
+            ],
+            [
+              0.8710841390296722,
+              -2.1250002198640923,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.8710841390296722,
+              -2.1250002198640923,
+              -5.35
+            ],
+            [
+              0.8710839788185633,
+              -2.1249999120833962,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9504727111488914,
+              -2.199999913097627,
+              -5.35
+            ],
+            [
+              0.9125001990627613,
+              -2.1823744230766935,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.0625001818418902,
+              -2.1969317719517805,
+              -5.35
+            ],
+            [
+              1.0503660486295265,
+              -2.1999999207242293,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.0625002123886114,
+              -2.196931751463647,
+              -5.35
+            ],
+            [
+              1.0625001818418902,
+              -2.1969317719517805,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.0625004451333029,
+              -2.1969314754004596,
+              -5.35
+            ],
+            [
+              1.0625002123886114,
+              -2.196931751463647,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.1314180695198397,
+              -2.124999931959242,
+              -5.35
+            ],
+            [
+              1.0625004451333029,
+              -2.1969314754004596,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.8710839788185633,
+              -2.1249999120833962,
+              -5.35
+            ],
+            [
+              0.8710840007922517,
+              -2.124999604302758,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.8710840007922517,
+              -2.124999604302758,
+              -5.35
+            ],
+            [
+              0.8719259161681815,
+              -2.049999920547333,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.1314180520121286,
+              -2.1249996461033964,
+              -5.35
+            ],
+            [
+              1.1314180695198397,
+              -2.124999931959242,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.1317206049136603,
+              -2.0499999403819973,
+              -5.35
+            ],
+            [
+              1.1314180520121286,
+              -2.1249996461033964,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.8719259161681815,
+              -2.049999920547333,
+              -5.35
+            ],
+            [
+              0.9125000217149023,
+              -1.9814820569740677,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9125000217149023,
+              -1.9814820569740677,
+              -5.35
+            ],
+            [
+              0.9125001985570809,
+              -1.981481789705409,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9125001985570809,
+              -1.981481789705409,
+              -5.35
+            ],
+            [
+              0.9125002574748848,
+              -1.9814817624406122,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9125002574748848,
+              -1.9814817624406122,
+              -5.35
+            ],
+            [
+              0.9223620052780064,
+              -1.974999922739375,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.078520010878226,
+              -1.974999934661642,
+              -5.35
+            ],
+            [
+              1.0785200232236238,
+              -1.974999947421087,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.0785200232236238,
+              -1.974999947421087,
+              -5.35
+            ],
+            [
+              1.0785202259093158,
+              -1.9750002147724868,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.0785202259093158,
+              -1.9750002147724868,
+              -5.35
+            ],
+            [
+              1.1317206049136603,
+              -2.0499999403819973,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.9223620052780064,
+              -1.974999922739375,
+              -5.35
+            ],
+            [
+              0.987499962851337,
+              -1.950189028111947,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.987499962851337,
+              -1.950189028111947,
+              -5.35
+            ],
+            [
+              0.987500191711868,
+              -1.9501889630185023,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.062499931096161,
+              -1.963909085168722,
+              -5.35
+            ],
+            [
+              1.0625002118020546,
+              -1.963909157602409,
+              -5.35
+            ]
+          ],
+          [
+            [
+              0.987500191711868,
+              -1.9501889630185023,
+              -5.35
+            ],
+            [
+              1.062499931096161,
+              -1.963909085168722,
+              -5.35
+            ]
+          ],
+          [
+            [
+              1.0625002118020546,
+              -1.963909157602409,
+              -5.35
+            ],
+            [
+              1.078520010878226,
+              -1.974999934661642,
+              -5.35
+            ]
+          ]
+        ]
+      },
+      "author_stationary_source_horizontal_area_m2": 0.044735608329021126,
+      "phi_to_author_stationary_source_area_ratio": 1.7819541566087902,
+      "comparison_note": "Below finite source geometry area is zero; compare transported flux, not area/zero. f1 remains recorded even before arrival."
+    },
+    "-5.58": {
+      "full": {
+        "phi_wet_area_m2": 0.002373047063592825,
+        "raw_signed_MAC_area_integral": 0.08987915753357822,
+        "Q_net_down_m3_s": 0.016852342634144885,
+        "Q_positive_down_m3_s": 0.016852342634144885,
+        "Q_negative_down_m3_s": 0.0,
+        "wet_area_mean_down_velocity_m_s": 7.101562751406292
+      },
+      "fixed_jet_window": {
+        "phi_wet_area_m2": 0.002373047063592825,
+        "raw_signed_MAC_area_integral": 0.08987915753357822,
+        "Q_net_down_m3_s": 0.016852342634144885,
+        "Q_positive_down_m3_s": 0.016852342634144885,
+        "Q_negative_down_m3_s": 0.0,
+        "wet_area_mean_down_velocity_m_s": 7.101562751406292
+      },
+      "native_mesh_section": {
+        "area_m2": 0.0,
+        "oriented_area_raw_m2": 0.0,
+        "segments": 0,
+        "bad_degree_vertices": 0,
+        "submicrometre_segments_retained": 0,
+        "connectivity_method": "original mesh-edge indices; no coordinate merging",
+        "status": "EMPTY",
+        "segment_coordinates_m": []
+      },
+      "author_stationary_source_horizontal_area_m2": 0.0,
+      "phi_to_author_stationary_source_area_ratio": null,
+      "comparison_note": "Below finite source geometry area is zero; compare transported flux, not area/zero. f1 remains recorded even before arrival."
+    },
+    "-5.64": {
+      "full": {
+        "phi_wet_area_m2": 0.0,
+        "raw_signed_MAC_area_integral": 0.0,
+        "Q_net_down_m3_s": 0.0,
+        "Q_positive_down_m3_s": 0.0,
+        "Q_negative_down_m3_s": 0.0,
+        "wet_area_mean_down_velocity_m_s": null
+      },
+      "fixed_jet_window": {
+        "phi_wet_area_m2": 0.0,
+        "raw_signed_MAC_area_integral": 0.0,
+        "Q_net_down_m3_s": 0.0,
+        "Q_positive_down_m3_s": 0.0,
+        "Q_negative_down_m3_s": 0.0,
+        "wet_area_mean_down_velocity_m_s": null
+      },
+      "native_mesh_section": {
+        "area_m2": 0.0,
+        "oriented_area_raw_m2": 0.0,
+        "segments": 0,
+        "bad_degree_vertices": 0,
+        "submicrometre_segments_retained": 0,
+        "connectivity_method": "original mesh-edge indices; no coordinate merging",
+        "status": "EMPTY",
+        "segment_coordinates_m": []
+      },
+      "author_stationary_source_horizontal_area_m2": 0.0,
+      "phi_to_author_stationary_source_area_ratio": null,
+      "comparison_note": "Below finite source geometry area is zero; compare transported flux, not area/zero. f1 remains recorded even before arrival."
+    },
+    "-5.68": {
+      "full": {
+        "phi_wet_area_m2": 0.0,
+        "raw_signed_MAC_area_integral": 0.0,
+        "Q_net_down_m3_s": 0.0,
+        "Q_positive_down_m3_s": 0.0,
+        "Q_negative_down_m3_s": 0.0,
+        "wet_area_mean_down_velocity_m_s": null
+      },
+      "fixed_jet_window": {
+        "phi_wet_area_m2": 0.0,
+        "raw_signed_MAC_area_integral": 0.0,
+        "Q_net_down_m3_s": 0.0,
+        "Q_positive_down_m3_s": 0.0,
+        "Q_negative_down_m3_s": 0.0,
+        "wet_area_mean_down_velocity_m_s": null
+      },
+      "native_mesh_section": {
+        "area_m2": 0.0,
+        "oriented_area_raw_m2": 0.0,
+        "segments": 0,
+        "bad_degree_vertices": 0,
+        "submicrometre_segments_retained": 0,
+        "connectivity_method": "original mesh-edge indices; no coordinate merging",
+        "status": "EMPTY",
+        "segment_coordinates_m": []
+      },
+      "author_stationary_source_horizontal_area_m2": 0.0,
+      "phi_to_author_stationary_source_area_ratio": null,
+      "comparison_note": "Below finite source geometry area is zero; compare transported flux, not area/zero. f1 remains recorded even before arrival."
+    }
+  },
+  "mesh_status": "AVAILABLE",
+  "mesh": {
+    "vertices": 78,
+    "triangles": 152,
+    "volume_m3": 0.013521068953918539,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "source_interior_wet_cells": 33,
+  "source_interior_raw_median_velocity": [
+    -8.015625,
+    -5.36328125,
+    -37.875
+  ],
+  "source_interior_median_velocity_m_s": [
+    -1.5029296875,
+    -1.005615234375,
+    -7.1015625
+  ],
+  "source_velocity_encoded_relative_error": 0.058653135276220465,
+  "FLIP_count_not_mass": 221,
+  "FLIP_bounds_world_m": [
+    [
+      0.890243649482727,
+      1.1171114444732666
+    ],
+    [
+      -2.2185850143432617,
+      -1.9904357194900513
+    ],
+    [
+      -5.521688461303711,
+      -5.215527057647705
+    ]
+  ]
+}

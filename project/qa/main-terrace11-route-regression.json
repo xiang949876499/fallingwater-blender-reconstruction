@@ -1,0 +1,19 @@
+{
+  "status": "PASS_NO_NEW_CHANGED_VOLUME_NEAR_HITS",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_integration_candidate10a.blend",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_main_terrace_candidate11a.blend",
+  "candidate_sha256": "e856456005d3a4493e70122644d52192dd49c2d2ffc046248b1247484beb4750",
+  "camera_count": 129,
+  "camera_and_route_center_points": 5062,
+  "body_height_sphere_samples": 20248,
+  "sample_step_m": 0.05,
+  "radius_m": 0.18,
+  "baseline_near_count": 0,
+  "candidate_near_count": 0,
+  "new_near_hits": [],
+  "method": "All stored paths at <=50mm spacing, four heights relative to existing eye path. Sphere proximity only to whitelisted before/after volumes. Existing near hits do not become PASS.",
+  "limits": "Separate local report records strict sole normal/support and 1.95m head tests, including 30 unchanged old failures. No claim about unrelated scene geometry, all movie frames, or source doorway identities.",
+  "rendered": false,
+  "saved": false,
+  "candidate_hash_unchanged": true
+}

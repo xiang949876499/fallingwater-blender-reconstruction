@@ -1,0 +1,258 @@
+{
+  "grids": [
+    {
+      "name": "flags",
+      "type": "int32",
+      "metadata": {
+        "class": "unknown",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 306, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "8311376",
+        "file_voxel_count": "3634880",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "flags"
+      }
+    },
+    {
+      "name": "particles",
+      "type": "ptdataidx32",
+      "metadata": {
+        "class": "unknown",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 298, 33)",
+        "file_bbox_min": "(1, 1, 5)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "24390159",
+        "file_voxel_count": "250285",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "particles"
+      }
+    },
+    {
+      "name": "phi",
+      "type": "float",
+      "metadata": {
+        "class": "level set",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 306, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "10131632",
+        "file_voxel_count": "3634880",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "phi"
+      }
+    },
+    {
+      "name": "phi_inflow",
+      "type": "float",
+      "metadata": {
+        "class": "level set",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 306, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "12490032",
+        "file_voxel_count": "3634880",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "phi_inflow"
+      }
+    },
+    {
+      "name": "phi_obstacle",
+      "type": "float",
+      "metadata": {
+        "class": "level set",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 306, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "12404272",
+        "file_voxel_count": "3634880",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "phi_obstacle"
+      }
+    },
+    {
+      "name": "phi_obstacle_inflow",
+      "type": "float",
+      "metadata": {
+        "class": "level set",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 306, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "12404272",
+        "file_voxel_count": "3634880",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "phi_obstacle_inflow"
+      }
+    },
+    {
+      "name": "phi_out",
+      "type": "float",
+      "metadata": {
+        "class": "level set",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 306, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "4263504",
+        "file_voxel_count": "3634880",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "phi_out"
+      }
+    },
+    {
+      "name": "phi_particles",
+      "type": "float",
+      "metadata": {
+        "class": "level set",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 306, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "11662448",
+        "file_voxel_count": "3634880",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "phi_particles"
+      }
+    },
+    {
+      "name": "phi_previous",
+      "type": "float",
+      "metadata": {
+        "class": "level set",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 306, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "12269200",
+        "file_voxel_count": "3634880",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "phi_previous"
+      }
+    },
+    {
+      "name": "velocity",
+      "type": "vec3s",
+      "metadata": {
+        "class": "staggered",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(319, 301, 36)",
+        "file_bbox_min": "(0, 0, 0)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "16285684",
+        "file_voxel_count": "757658",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "velocity"
+      }
+    },
+    {
+      "name": "velocity_previous",
+      "type": "vec3s",
+      "metadata": {
+        "class": "staggered",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(-2147483648, -2147483648, -2147483648)",
+        "file_bbox_min": "(2147483647, 2147483647, 2147483647)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "1256",
+        "file_voxel_count": "0",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "velocity_previous"
+      }
+    }
+  ],
+  "config": {
+    "len": 204,
+    "tail": "b'C01\\x00'",
+    "res": [
+      320,
+      307,
+      37
+    ],
+    "dt": 0.10426700115203857,
+    "T": 0.1041666716337204
+  },
+  "raw_vertices": 122952,
+  "Blender_eval_vertices": 122952,
+  "affine": [
+    [
+      24.000000080731265,
+      -9.007118974052036e-09,
+      9.144771390334664e-09
+    ],
+    [
+      -1.3118540392875744e-08,
+      23.999999992257102,
+      1.2191135434491684e-08
+    ],
+    [
+      -2.120063985295781e-07,
+      2.349279295543738e-07,
+      23.99999966895142
+    ],
+    [
+      -4.0000000001792895,
+      -5.499999988591533,
+      -6.324999808286798
+    ]
+  ],
+  "max_error": 1.349432087956671e-06,
+  "raw_domain_vertices": [
+    [
+      -16.0,
+      -17.0,
+      -7.699999809265137
+    ],
+    [
+      8.0,
+      -17.0,
+      -7.699999809265137
+    ],
+    [
+      8.0,
+      6.0,
+      -7.699999809265137
+    ],
+    [
+      -16.0,
+      6.0,
+      -7.699999809265137
+    ],
+    [
+      -16.0,
+      -17.0,
+      -4.949999809265137
+    ],
+    [
+      8.0,
+      -17.0,
+      -4.949999809265137
+    ],
+    [
+      8.0,
+      6.0,
+      -4.949999809265137
+    ],
+    [
+      -16.0,
+      6.0,
+      -4.949999809265137
+    ]
+  ]
+}

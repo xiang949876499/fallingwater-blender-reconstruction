@@ -1,0 +1,227 @@
+{
+  "status": "PROPOSED_ENDPOINTS_NOT_YET_VERIFIED_ON_ITERATION05",
+  "source_candidate_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration04.blend",
+  "space_count_preserved": 60,
+  "plans": [
+    {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_CLOSET_M",
+      "acceptance_type": "INSPECTION_ONLY_STORAGE",
+      "candidate_observer": [
+        3.0172,
+        12.4254,
+        4.4448
+      ],
+      "observer_source": "iteration04 mesh-checked room camera; recheck in05",
+      "target_hint": [
+        1.2576,
+        11.416500000000001,
+        2.8448
+      ],
+      "target_object_rule": "FW_FURN_ objects with room_id matching storage and asset_type coat_storage; choose a visible cabinet door/front face",
+      "verification": [
+        "Normal body/ground test at dry observer",
+        "Ray toward actual target face: first hit must be the matching visible storage furniture, not an intervening wall",
+        "Short camera sweep at observer",
+        "Explicitly no body entry into cabinet"
+      ],
+      "on_success": "PASS_INSPECTION_ONLY_STORAGE; body_traversal not applicable"
+    },
+    {
+      "from": "MAIN_L2_GUEST",
+      "to": "MAIN_L2_CLOSET_G",
+      "acceptance_type": "INSPECTION_ONLY_STORAGE",
+      "candidate_observer": [
+        10.02936,
+        9.06948,
+        4.4448
+      ],
+      "observer_source": "iteration04 mesh-checked room camera; recheck in05",
+      "target_hint": [
+        9.5892,
+        10.5669,
+        2.8448
+      ],
+      "target_object_rule": "FW_FURN_ objects with room_id matching storage and asset_type coat_storage; choose a visible cabinet door/front face",
+      "verification": [
+        "Normal body/ground test at dry observer",
+        "Ray toward actual target face: first hit must be the matching visible storage furniture, not an intervening wall",
+        "Short camera sweep at observer",
+        "Explicitly no body entry into cabinet"
+      ],
+      "on_success": "PASS_INSPECTION_ONLY_STORAGE; body_traversal not applicable"
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_1",
+      "to": "EXTERIOR_UNDERCROFT",
+      "acceptance_type": "FREE_FLY_UNDERCROFT_INSPECTION",
+      "candidate_observer": [
+        1.048,
+        5.8155,
+        -1.2467
+      ],
+      "candidate_secondary_observer": [
+        2.31608,
+        10.10281,
+        -1.2467
+      ],
+      "observer_source": "iteration04 checked supplemental free inspection, not a claimed walking floor",
+      "target_hint": [
+        1.1528,
+        7.9119,
+        -1.8066999999999998
+      ],
+      "target_object_rule": "Actual MAIN_B_foundation_pier_* / assigned foundation structural mesh; identify exact first-hit object",
+      "verification": [
+        "Camera clearance at both free-flight points",
+        "Camera-radius path sweep between them",
+        "Unobstructed line of sight to actual assigned support structure",
+        "Record point-defined EXTERIOR_UNDERCROFT observation endpoint without adding or dropping room records"
+      ],
+      "on_success": "PASS_INSPECTION_ONLY_FREE_FLY; no ground/body traversal claim"
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_2",
+      "to": "EXTERIOR_UNDERCROFT",
+      "acceptance_type": "FREE_FLY_UNDERCROFT_INSPECTION",
+      "candidate_observer": [
+        4.7904,
+        5.0445,
+        -1.2467
+      ],
+      "candidate_secondary_observer": [
+        5.617,
+        9.46793,
+        -1.2467
+      ],
+      "observer_source": "iteration04 checked supplemental free inspection, not a claimed walking floor",
+      "target_hint": [
+        5.0304,
+        8.708400000000001,
+        -1.8066999999999998
+      ],
+      "target_object_rule": "Actual MAIN_B_foundation_pier_* / assigned foundation structural mesh; identify exact first-hit object",
+      "verification": [
+        "Camera clearance at both free-flight points",
+        "Camera-radius path sweep between them",
+        "Unobstructed line of sight to actual assigned support structure",
+        "Record point-defined EXTERIOR_UNDERCROFT observation endpoint without adding or dropping room records"
+      ],
+      "on_success": "PASS_INSPECTION_ONLY_FREE_FLY; no ground/body traversal claim"
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_3",
+      "to": "EXTERIOR_UNDERCROFT",
+      "acceptance_type": "FREE_FLY_UNDERCROFT_INSPECTION",
+      "candidate_observer": [
+        8.3012,
+        5.0445,
+        -1.2467
+      ],
+      "candidate_secondary_observer": [
+        9.08158,
+        9.47632,
+        -1.2467
+      ],
+      "observer_source": "iteration04 checked supplemental free inspection, not a claimed walking floor",
+      "target_hint": [
+        8.5412,
+        8.7615,
+        -1.8066999999999998
+      ],
+      "target_object_rule": "Actual MAIN_B_foundation_pier_* / assigned foundation structural mesh; identify exact first-hit object",
+      "verification": [
+        "Camera clearance at both free-flight points",
+        "Camera-radius path sweep between them",
+        "Unobstructed line of sight to actual assigned support structure",
+        "Record point-defined EXTERIOR_UNDERCROFT observation endpoint without adding or dropping room records"
+      ],
+      "on_success": "PASS_INSPECTION_ONLY_FREE_FLY; no ground/body traversal claim"
+    },
+    {
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_HATCH",
+      "acceptance_type": "DRY_EDGE_WATER_INSPECTION",
+      "candidate_observer": [
+        9.27585,
+        12.47,
+        1.7
+      ],
+      "observer_source": "iteration04 checked room/terrace camera; recheck in05",
+      "endpoint_rule": "Highest actual MAIN_water_stair_ tread; dry hatch top",
+      "target_object_rule": "Visible lower stair tread or Bear Run through open hatch",
+      "verification": [
+        "Dry observer normal body/ground clearance",
+        "Short actual path to proposed dry edge if available",
+        "First-hit visibility ray to actual water or lower stair surface",
+        "Stop at dry edge; no standing-body claim inside water"
+      ],
+      "retain_existing_walk_defects": true,
+      "on_success": "PASS_INSPECTION_ONLY_DRY_EDGE only when visible; any intersecting stair/path mesh defect remains an independent FAIL"
+    },
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_B_PLUNGE",
+      "acceptance_type": "DRY_EDGE_WATER_INSPECTION",
+      "candidate_observer": [
+        11.1612,
+        11.7882,
+        1.7
+      ],
+      "observer_source": "iteration04 checked room/terrace camera; recheck in05",
+      "endpoint_rule": "Dry loggia/upper stair landing; descend only if all actual tread/body checks pass",
+      "target_object_rule": "MAIN_B_plunge_water / surrounding dry deck",
+      "verification": [
+        "Dry observer normal body/ground clearance",
+        "Short actual path to proposed dry edge if available",
+        "First-hit visibility ray to actual water or lower stair surface",
+        "Stop at dry edge; no standing-body claim inside water"
+      ],
+      "retain_existing_walk_defects": true,
+      "on_success": "PASS_INSPECTION_ONLY_DRY_EDGE only when visible; any intersecting stair/path mesh defect remains an independent FAIL"
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_POOL",
+      "acceptance_type": "DRY_EDGE_WATER_INSPECTION",
+      "candidate_observer": [
+        7.98533,
+        35.43405,
+        10.0
+      ],
+      "observer_source": "iteration04 checked room/terrace camera; recheck in05",
+      "endpoint_rule": "Dry terrace point outside pool shell; coping stair only if actual tread/body checks pass",
+      "target_object_rule": "GUEST_POOL_water",
+      "verification": [
+        "Dry observer normal body/ground clearance",
+        "Short actual path to proposed dry edge if available",
+        "First-hit visibility ray to actual water or lower stair surface",
+        "Stop at dry edge; no standing-body claim inside water"
+      ],
+      "retain_existing_walk_defects": true,
+      "on_success": "PASS_INSPECTION_ONLY_DRY_EDGE only when visible; any intersecting stair/path mesh defect remains an independent FAIL"
+    },
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_L1_TERRACE_E",
+      "acceptance_type": "NORMAL_WALK_MULTI_FLIGHT",
+      "candidate_sequence": [
+        "Actual MAIN_loggia_pool_stair_ descending tread centers",
+        "Explicit dry lower landing/deck points at surveyed deck z=-2.50",
+        "Actual MAIN_pool_eastterrace_stair_ ascending tread centers"
+      ],
+      "verification": [
+        "Author confirms physical lower landing sequence",
+        "Ground/body checks for every tread and landing transition",
+        "No scene terrain substitute without actual floor support",
+        "Keep FAIL/NOT_RUN when a path cannot be established"
+      ],
+      "on_success": "PASS_MESH_AND_GROUND; inspection-only cannot replace this declared normal terrace connection"
+    }
+  ],
+  "rules": [
+    "Different acceptance types remain separate in counts: normal walk, storage inspection, free-flight inspection, dry-water-edge inspection.",
+    "No camera cut satisfies any connection.",
+    "An inspection pass does not erase an overlapping stair, missing floor, or incorrect source geometry."
+  ]
+}

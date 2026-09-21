@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "helper_sha256": "f68abbfde2ff6164618486a0df078bb144311e78482bfd794d15568d3b6803cd",
+  "scope": "Only report assignment changed; actual probe transforms/resolutions/bake settings untouched.",
+  "formula_source": "https://raw.githubusercontent.com/blender/blender/v5.2.1/source/blender/draw/engines/eevee/shaders/eevee_lightprobe_volume.bsl.hh",
+  "formula": "local=-1+2*(index+1)/(resolution+1)",
+  "comparisons": [
+    {
+      "probe": "FW_PROBE_GUEST_B1",
+      "reported_m": [
+        0.9906653563181559,
+        0.7642364501953125,
+        0.3880001068115234
+      ],
+      "inspected_adjacent_center_deltas_m": [
+        0.9906653165817261,
+        0.7642364501953125,
+        0.3879995346069336
+      ],
+      "maximum_error_m": 5.722045898215455e-07
+    },
+    {
+      "probe": "FW_PROBE_GUEST_L1",
+      "reported_m": [
+        1.3038026756710477,
+        1.3070950508117676,
+        0.3840000152587891
+      ],
+      "inspected_adjacent_center_deltas_m": [
+        1.303802490234375,
+        1.3070945739746094,
+        0.3839998245239258
+      ],
+      "maximum_error_m": 4.76837158203125e-07
+    },
+    {
+      "probe": "FW_PROBE_GUEST_L2",
+      "reported_m": [
+        0.9889371735709054,
+        1.1476638793945313,
+        0.37599983215332033
+      ],
+      "inspected_adjacent_center_deltas_m": [
+        0.9889370203018188,
+        1.1476631164550781,
+        0.37600040435791016
+      ],
+      "maximum_error_m": 7.629394531694089e-07
+    },
+    {
+      "probe": "FW_PROBE_MAIN_B",
+      "reported_m": [
+        1.0755111111534967,
+        0.9758998325892857,
+        0.38199998140335084
+      ],
+      "inspected_adjacent_center_deltas_m": [
+        1.0755109786987305,
+        0.9758996963500977,
+        0.3819999694824219
+      ],
+      "maximum_error_m": 1.3623918804217539e-07
+    },
+    {
+      "probe": "FW_PROBE_MAIN_L1",
+      "reported_m": [
+        1.3155523481823148,
+        1.2058999379475912,
+        0.4320000410079956
+      ],
+      "inspected_adjacent_center_deltas_m": [
+        1.3155517578125,
+        1.2059001922607422,
+        0.4320001006126404
+      ],
+      "maximum_error_m": 5.903698148124192e-07
+    },
+    {
+      "probe": "FW_PROBE_MAIN_L2",
+      "reported_m": [
+        1.1597539094778209,
+        1.059933344523112,
+        0.3860000133514404
+      ],
+      "inspected_adjacent_center_deltas_m": [
+        1.1597537994384766,
+        1.0599331855773926,
+        0.3859999179840088
+      ],
+      "maximum_error_m": 1.5894571947505653e-07
+    },
+    {
+      "probe": "FW_PROBE_MAIN_L3",
+      "reported_m": [
+        1.1759327108209783,
+        1.196995128284801,
+        0.3600000381469727
+      ],
+      "inspected_adjacent_center_deltas_m": [
+        1.1759324073791504,
+        1.1969947814941406,
+        0.3600001335144043
+      ],
+      "maximum_error_m": 3.4679066041043427e-07
+    }
+  ],
+  "reconstructed_previous_helper_sha256": "eab1810e58b0708196d0028d283068deb174bdf2871c3ee22ba6da4be7ddc149",
+  "reconstruction_scope": "Only remove two explanatory comments and revert the denominator to recover byte-identical prior helper."
+}

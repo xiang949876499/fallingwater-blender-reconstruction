@@ -1,0 +1,7513 @@
+{
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "reopened": false,
+  "production_sha256": {
+    "scripts\\guest_house.py": "17f42fda4280050f72d10ed7fc1b5c2b9a6891e156e54e86b2ccc103e053a54f",
+    "data\\guest_house.json": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+    "scripts\\tour.py": "105c10dfb180448384ea6c9970b9d5d167295776f7475b280b43f341cbd26901"
+  },
+  "whitelist_removed": [
+    "GUEST_B1_STAIR_LANDING",
+    "GUEST_CONNECTOR_lowwall_000",
+    "GUEST_CONNECTOR_lowwall_001",
+    "GUEST_CONNECTOR_lowwall_002",
+    "GUEST_CONNECTOR_lowwall_003",
+    "GUEST_CONNECTOR_lowwall_004",
+    "GUEST_CONNECTOR_lowwall_005",
+    "GUEST_CONNECTOR_lowwall_006",
+    "GUEST_CONNECTOR_lowwall_007",
+    "GUEST_CONNECTOR_lowwall_008",
+    "GUEST_CONNECTOR_lowwall_009",
+    "GUEST_CONNECTOR_lowwall_010",
+    "GUEST_CONNECTOR_lowwall_011",
+    "GUEST_CONNECTOR_lowwall_012",
+    "GUEST_CONNECTOR_lowwall_013",
+    "GUEST_CONNECTOR_lowwall_014",
+    "GUEST_CONNECTOR_lowwall_015",
+    "GUEST_CONNECTOR_lowwall_016",
+    "GUEST_CONNECTOR_lowwall_017",
+    "GUEST_CONNECTOR_lowwall_018",
+    "GUEST_CONNECTOR_lowwall_019",
+    "GUEST_CONNECTOR_lowwall_020",
+    "GUEST_CONNECTOR_lowwall_021",
+    "GUEST_CONNECTOR_lowwall_022",
+    "GUEST_CONNECTOR_lowwall_023",
+    "GUEST_CONNECTOR_lowwall_024",
+    "GUEST_CONNECTOR_lowwall_025",
+    "GUEST_CONNECTOR_lowwall_026",
+    "GUEST_CONNECTOR_lowwall_027",
+    "GUEST_CONNECTOR_lowwall_028",
+    "GUEST_CONNECTOR_lowwall_029",
+    "GUEST_CONNECTOR_lowwall_030",
+    "GUEST_CONNECTOR_lowwall_031",
+    "GUEST_CONNECTOR_lowwall_032",
+    "GUEST_CONNECTOR_lowwall_033",
+    "GUEST_CONNECTOR_lowwall_034",
+    "GUEST_CONNECTOR_lowwall_035",
+    "GUEST_CONNECTOR_lowwall_036",
+    "GUEST_CONNECTOR_lowwall_037",
+    "GUEST_CONNECTOR_lowwall_038",
+    "GUEST_CONNECTOR_lowwall_039",
+    "GUEST_CONNECTOR_lowwall_040",
+    "GUEST_CONNECTOR_lowwall_041",
+    "GUEST_CONNECTOR_lowwall_042",
+    "GUEST_CONNECTOR_lowwall_043",
+    "GUEST_CONNECTOR_lowwall_044",
+    "GUEST_CONNECTOR_step_000",
+    "GUEST_CONNECTOR_step_001",
+    "GUEST_CONNECTOR_step_002",
+    "GUEST_CONNECTOR_step_003",
+    "GUEST_CONNECTOR_step_004",
+    "GUEST_CONNECTOR_step_005",
+    "GUEST_CONNECTOR_step_006",
+    "GUEST_CONNECTOR_step_007",
+    "GUEST_CONNECTOR_step_008",
+    "GUEST_CONNECTOR_step_009",
+    "GUEST_CONNECTOR_step_010",
+    "GUEST_CONNECTOR_step_011",
+    "GUEST_CONNECTOR_step_012",
+    "GUEST_CONNECTOR_step_013",
+    "GUEST_CONNECTOR_step_014",
+    "GUEST_CONNECTOR_step_015",
+    "GUEST_CONNECTOR_step_016",
+    "GUEST_CONNECTOR_step_017",
+    "GUEST_CONNECTOR_step_018",
+    "GUEST_CONNECTOR_step_019",
+    "GUEST_CONNECTOR_step_020",
+    "GUEST_CONNECTOR_step_021",
+    "GUEST_CONNECTOR_step_022",
+    "GUEST_CONNECTOR_step_023",
+    "GUEST_CONNECTOR_step_024",
+    "GUEST_CONNECTOR_step_025",
+    "GUEST_CONNECTOR_step_026",
+    "GUEST_CONNECTOR_step_027",
+    "GUEST_CONNECTOR_step_028",
+    "GUEST_CONNECTOR_step_029",
+    "GUEST_CONNECTOR_step_030",
+    "GUEST_CONNECTOR_step_031",
+    "GUEST_CONNECTOR_step_032",
+    "GUEST_CONNECTOR_step_033",
+    "GUEST_CONNECTOR_step_034",
+    "GUEST_CONNECTOR_step_035",
+    "GUEST_CONNECTOR_step_036",
+    "GUEST_CONNECTOR_step_037",
+    "GUEST_CONNECTOR_step_038",
+    "GUEST_CONNECTOR_step_039",
+    "GUEST_CONNECTOR_step_040",
+    "GUEST_CONNECTOR_step_041",
+    "GUEST_CONNECTOR_step_042",
+    "GUEST_CONNECTOR_step_043",
+    "GUEST_CONNECTOR_step_044",
+    "GUEST_CONNECTOR_support_000",
+    "GUEST_CONNECTOR_support_010",
+    "GUEST_CONNECTOR_support_020",
+    "GUEST_CONNECTOR_support_030",
+    "GUEST_CONNECTOR_support_040",
+    "GUEST_L1_CHAUFFEUR_DOOR_LANDING",
+    "GUEST_L1_HALL_NORTH",
+    "GUEST_L1_HALL_SOUTH",
+    "GUEST_L1_MAIN_FLOOR",
+    "GUEST_L1_WEST_LOUNGE_door_head_1",
+    "GUEST_L1_WEST_LOUNGE_jamb_1_a",
+    "GUEST_L1_WEST_LOUNGE_jamb_1_b",
+    "GUEST_L2_CORRIDOR_FLOOR",
+    "GUEST_L2_STAIR_PASSAGE",
+    "GUEST_L2_STAIR_TOP_LANDING",
+    "GUEST_LAUNDRY_DESCENT_baluster_1_0.1",
+    "GUEST_LAUNDRY_DESCENT_baluster_1_0.5",
+    "GUEST_LAUNDRY_DESCENT_baluster_1_0.9",
+    "GUEST_LAUNDRY_DESCENT_handrail_1",
+    "GUEST_LAUNDRY_DESCENT_tread_00",
+    "GUEST_LAUNDRY_DESCENT_tread_01",
+    "GUEST_LAUNDRY_DESCENT_tread_02",
+    "GUEST_LAUNDRY_DESCENT_tread_03",
+    "GUEST_LAUNDRY_DESCENT_tread_04",
+    "GUEST_LAUNDRY_DESCENT_tread_05",
+    "GUEST_LAUNDRY_DESCENT_tread_06",
+    "GUEST_LAUNDRY_DESCENT_tread_07",
+    "GUEST_LAUNDRY_DESCENT_tread_08",
+    "GUEST_LAUNDRY_DESCENT_tread_09",
+    "GUEST_LAUNDRY_DESCENT_tread_10",
+    "GUEST_LAUNDRY_DESCENT_tread_11",
+    "GUEST_LAUNDRY_DESCENT_tread_12",
+    "GUEST_LAUNDRY_DESCENT_tread_13",
+    "GUEST_SERVICE_ASCENT_baluster_-1_0.1",
+    "GUEST_SERVICE_ASCENT_baluster_-1_0.5",
+    "GUEST_SERVICE_ASCENT_baluster_-1_0.9",
+    "GUEST_SERVICE_ASCENT_baluster_1_0.1",
+    "GUEST_SERVICE_ASCENT_baluster_1_0.5",
+    "GUEST_SERVICE_ASCENT_baluster_1_0.9",
+    "GUEST_SERVICE_ASCENT_handrail_-1",
+    "GUEST_SERVICE_ASCENT_handrail_1",
+    "GUEST_SERVICE_ASCENT_tread_00",
+    "GUEST_SERVICE_ASCENT_tread_01",
+    "GUEST_SERVICE_ASCENT_tread_02",
+    "GUEST_SERVICE_ASCENT_tread_03",
+    "GUEST_SERVICE_ASCENT_tread_04",
+    "GUEST_SERVICE_ASCENT_tread_05",
+    "GUEST_SERVICE_ASCENT_tread_06",
+    "GUEST_SERVICE_ASCENT_tread_07",
+    "GUEST_SERVICE_ASCENT_tread_08",
+    "GUEST_SERVICE_ASCENT_tread_09",
+    "GUEST_SERVICE_ASCENT_tread_10",
+    "GUEST_SERVICE_ASCENT_tread_11",
+    "GUEST_SERVICE_ASCENT_tread_12",
+    "GUEST_SERVICE_ASCENT_tread_13"
+  ],
+  "new_object_count": 243,
+  "unchanged_nonwhitelist_count": 23234,
+  "unexpected_changes": [],
+  "retaining_wall_sha256": "c21da760162b6a2d39b3a134547284a719be46174b5a989b01d7c30e4cb3f843",
+  "explicit_mutations": [
+    {
+      "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+      "operation": "closed_exact_difference",
+      "box": [
+        [
+          -10,
+          40.0,
+          8.19
+        ],
+        [
+          2.1627,
+          42.0,
+          10.0
+        ]
+      ],
+      "vertices_before": 74,
+      "vertices_after": 79,
+      "evidence": "C inferred interface correction"
+    },
+    {
+      "object": "GUEST_CONNECTOR_canopy_042",
+      "operation": "closed_exact_difference",
+      "box": [
+        [
+          1.24504,
+          37.15272,
+          9.9
+        ],
+        [
+          3.45256,
+          40,
+          13.0
+        ]
+      ],
+      "vertices_before": 8,
+      "vertices_after": 14,
+      "evidence": "C inferred interface correction"
+    },
+    {
+      "object": "GUEST_CONNECTOR_canopy_043",
+      "operation": "closed_exact_difference",
+      "box": [
+        [
+          1.24504,
+          37.15272,
+          9.9
+        ],
+        [
+          3.45256,
+          40,
+          13.0
+        ]
+      ],
+      "vertices_before": 8,
+      "vertices_after": 16,
+      "evidence": "C inferred interface correction"
+    },
+    {
+      "object": "GUEST_CONNECTOR_canopy_044",
+      "operation": "closed_exact_difference",
+      "box": [
+        [
+          1.24504,
+          37.15272,
+          9.9
+        ],
+        [
+          3.45256,
+          40,
+          13.0
+        ]
+      ],
+      "vertices_before": 8,
+      "vertices_after": 14,
+      "evidence": "C inferred interface correction"
+    },
+    {
+      "object": "GUEST_C10_CONNECTOR_WALL_042",
+      "operation": "closed_exact_difference",
+      "box": [
+        [
+          1.24504,
+          37.15272,
+          5
+        ],
+        [
+          3.45256,
+          40,
+          10
+        ]
+      ],
+      "vertices_before": 8,
+      "vertices_after": 8,
+      "evidence": "C inferred interface correction"
+    },
+    {
+      "object": "GUEST_C10_CONNECTOR_WALL_043",
+      "operation": "closed_exact_difference",
+      "box": [
+        [
+          1.24504,
+          37.15272,
+          5
+        ],
+        [
+          3.45256,
+          40,
+          10
+        ]
+      ],
+      "vertices_before": 8,
+      "vertices_after": 8,
+      "evidence": "C inferred interface correction"
+    },
+    {
+      "object": "GUEST_C10_CONNECTOR_WALL_044",
+      "operation": "closed_exact_difference",
+      "box": [
+        [
+          1.24504,
+          37.15272,
+          5
+        ],
+        [
+          3.45256,
+          40,
+          10
+        ]
+      ],
+      "vertices_before": 8,
+      "vertices_after": 0,
+      "evidence": "C inferred interface correction"
+    }
+  ],
+  "excavation_summary": {
+    "zones": [
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_000",
+        "poly": [
+          [
+            5.440436363220215,
+            22.610248565673828
+          ],
+          [
+            5.45876407623291,
+            24.330150604248047
+          ],
+          [
+            5.066800117492676,
+            24.334306716918945
+          ],
+          [
+            5.060234069824219,
+            22.614320755004883
+          ]
+        ],
+        "cap": 5.02615
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_001",
+        "poly": [
+          [
+            5.060234069824219,
+            22.614320755004883
+          ],
+          [
+            5.066800117492676,
+            24.334306716918945
+          ],
+          [
+            4.523402214050293,
+            24.333738327026367
+          ],
+          [
+            4.512035369873047,
+            22.6137752532959
+          ]
+        ],
+        "cap": 5.164282142857143
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_002",
+        "poly": [
+          [
+            4.512035369873047,
+            22.6137752532959
+          ],
+          [
+            4.523402214050293,
+            24.333738327026367
+          ],
+          [
+            3.908125400543213,
+            24.341726303100586
+          ],
+          [
+            3.85587739944458,
+            22.62251853942871
+          ]
+        ],
+        "cap": 5.164282142857143
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_003",
+        "poly": [
+          [
+            3.85587739944458,
+            22.62251853942871
+          ],
+          [
+            3.908125400543213,
+            24.341726303100586
+          ],
+          [
+            3.2926628589630127,
+            24.370433807373047
+          ],
+          [
+            3.159663438796997,
+            22.655582427978516
+          ]
+        ],
+        "cap": 5.302414285714286
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_004",
+        "poly": [
+          [
+            3.159663438796997,
+            22.655582427978516
+          ],
+          [
+            3.2926628589630127,
+            24.370433807373047
+          ],
+          [
+            2.7435593605041504,
+            24.43107795715332
+          ],
+          [
+            2.4964404106140137,
+            22.72892189025879
+          ]
+        ],
+        "cap": 5.302414285714286
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_005",
+        "poly": [
+          [
+            2.4964404106140137,
+            22.72892189025879
+          ],
+          [
+            2.7435593605041504,
+            24.43107795715332
+          ],
+          [
+            2.224757194519043,
+            24.52595329284668
+          ],
+          [
+            1.8796296119689941,
+            22.8409366607666
+          ]
+        ],
+        "cap": 5.4405464285714285
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_006",
+        "poly": [
+          [
+            1.8796296119689941,
+            22.8409366607666
+          ],
+          [
+            2.224757194519043,
+            24.52595329284668
+          ],
+          [
+            1.6866768598556519,
+            24.648120880126953
+          ],
+          [
+            1.265748381614685,
+            22.980422973632812
+          ]
+        ],
+        "cap": 5.4405464285714285
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_007",
+        "poly": [
+          [
+            1.265748381614685,
+            22.980422973632812
+          ],
+          [
+            1.6866768598556519,
+            24.648120880126953
+          ],
+          [
+            1.1624144315719604,
+            24.793806076049805
+          ],
+          [
+            0.6556556224822998,
+            23.1501522064209
+          ]
+        ],
+        "cap": 5.4405464285714285
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_008",
+        "poly": [
+          [
+            0.6556556224822998,
+            23.1501522064209
+          ],
+          [
+            1.1624144315719604,
+            24.793806076049805
+          ],
+          [
+            0.6723191738128662,
+            24.96027946472168
+          ],
+          [
+            0.06295746564865112,
+            23.351839065551758
+          ]
+        ],
+        "cap": 5.578678571428572
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_009",
+        "poly": [
+          [
+            0.06295746564865112,
+            23.351839065551758
+          ],
+          [
+            0.6723191738128662,
+            24.96027946472168
+          ],
+          [
+            0.2343703955411911,
+            25.1445255279541
+          ],
+          [
+            -0.4963703751564026,
+            23.587472915649414
+          ]
+        ],
+        "cap": 5.578678571428572
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_010",
+        "poly": [
+          [
+            -0.4963703751564026,
+            23.587472915649414
+          ],
+          [
+            0.2343703955411911,
+            25.1445255279541
+          ],
+          [
+            -0.16429811716079712,
+            25.35262680053711
+          ],
+          [
+            -1.017845869064331,
+            23.859355926513672
+          ]
+        ],
+        "cap": 5.578678571428572
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_011",
+        "poly": [
+          [
+            -1.017845869064331,
+            23.859355926513672
+          ],
+          [
+            -0.16429811716079712,
+            25.35262680053711
+          ],
+          [
+            -0.5408728122711182,
+            25.587915420532227
+          ],
+          [
+            -1.5069191455841064,
+            24.16483497619629
+          ]
+        ],
+        "cap": 5.716810714285715
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_012",
+        "poly": [
+          [
+            -1.5069191455841064,
+            24.16483497619629
+          ],
+          [
+            -0.5408728122711182,
+            25.587915420532227
+          ],
+          [
+            -0.8860591053962708,
+            25.842500686645508
+          ],
+          [
+            -1.9603090286254883,
+            24.49922752380371
+          ]
+        ],
+        "cap": 5.716810714285715
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_013",
+        "poly": [
+          [
+            -1.9603090286254883,
+            24.49922752380371
+          ],
+          [
+            -0.8860591053962708,
+            25.842500686645508
+          ],
+          [
+            -1.1918091773986816,
+            26.108076095581055
+          ],
+          [
+            -2.3734865188598633,
+            24.858259201049805
+          ]
+        ],
+        "cap": 5.716810714285715
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_014",
+        "poly": [
+          [
+            -2.3734865188598633,
+            24.858259201049805
+          ],
+          [
+            -1.1918091773986816,
+            26.108076095581055
+          ],
+          [
+            -1.450386881828308,
+            26.375139236450195
+          ],
+          [
+            -2.7416129112243652,
+            25.238859176635742
+          ]
+        ],
+        "cap": 5.8549428571428574
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_015",
+        "poly": [
+          [
+            -2.7416129112243652,
+            25.238859176635742
+          ],
+          [
+            -1.450386881828308,
+            26.375139236450195
+          ],
+          [
+            -1.6585750579833984,
+            26.637104034423828
+          ],
+          [
+            -3.059520721435547,
+            25.63922882080078
+          ]
+        ],
+        "cap": 5.8549428571428574
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_016",
+        "poly": [
+          [
+            -3.059520721435547,
+            25.63922882080078
+          ],
+          [
+            -1.6585750579833984,
+            26.637104034423828
+          ],
+          [
+            -1.8257434368133545,
+            26.901268005371094
+          ],
+          [
+            -3.3262245655059814,
+            26.06045913696289
+          ]
+        ],
+        "cap": 5.8549428571428574
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_017",
+        "poly": [
+          [
+            -3.3262245655059814,
+            26.06045913696289
+          ],
+          [
+            -1.8257434368133545,
+            26.901268005371094
+          ],
+          [
+            -1.9631497859954834,
+            27.181352615356445
+          ],
+          [
+            -3.543041944503784,
+            26.501394271850586
+          ]
+        ],
+        "cap": 5.8549428571428574
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_018",
+        "poly": [
+          [
+            -3.543041944503784,
+            26.501394271850586
+          ],
+          [
+            -1.9631497859954834,
+            27.181352615356445
+          ],
+          [
+            -2.0787901878356934,
+            27.491825103759766
+          ],
+          [
+            -3.7145538330078125,
+            26.96015167236328
+          ]
+        ],
+        "cap": 5.993075
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_019",
+        "poly": [
+          [
+            -3.7145538330078125,
+            26.96015167236328
+          ],
+          [
+            -2.0787901878356934,
+            27.491825103759766
+          ],
+          [
+            -2.1756515502929688,
+            27.837081909179688
+          ],
+          [
+            -3.850348472595215,
+            27.44491958618164
+          ]
+        ],
+        "cap": 5.993075
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_020",
+        "poly": [
+          [
+            -3.850348472595215,
+            27.44491958618164
+          ],
+          [
+            -2.1756515502929688,
+            27.837081909179688
+          ],
+          [
+            -2.251805305480957,
+            28.23213768005371
+          ],
+          [
+            -3.9523544311523438,
+            27.974199295043945
+          ]
+        ],
+        "cap": 5.993075
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_021",
+        "poly": [
+          [
+            -3.9523544311523438,
+            27.974199295043945
+          ],
+          [
+            -2.251805305480957,
+            28.23213768005371
+          ],
+          [
+            -2.302565336227417,
+            28.678205490112305
+          ],
+          [
+            -4.016874313354492,
+            28.53840446472168
+          ]
+        ],
+        "cap": 6.131207142857143
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_022",
+        "poly": [
+          [
+            -4.016874313354492,
+            28.53840446472168
+          ],
+          [
+            -2.302565336227417,
+            28.678205490112305
+          ],
+          [
+            -2.32609486579895,
+            29.14860725402832
+          ],
+          [
+            -4.045744895935059,
+            29.113901138305664
+          ]
+        ],
+        "cap": 6.131207142857143
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_023",
+        "poly": [
+          [
+            -4.045744895935059,
+            29.113901138305664
+          ],
+          [
+            -2.32609486579895,
+            29.14860725402832
+          ],
+          [
+            -2.3214359283447266,
+            29.610809326171875
+          ],
+          [
+            -4.039923191070557,
+            29.682937622070312
+          ]
+        ],
+        "cap": 6.131207142857143
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_024",
+        "poly": [
+          [
+            -4.039923191070557,
+            29.682937622070312
+          ],
+          [
+            -2.3214359283447266,
+            29.610809326171875
+          ],
+          [
+            -2.2896556854248047,
+            30.031532287597656
+          ],
+          [
+            -3.9983444213867188,
+            30.228466033935547
+          ]
+        ],
+        "cap": 6.2693392857142864
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_025",
+        "poly": [
+          [
+            -3.9983444213867188,
+            30.228466033935547
+          ],
+          [
+            -2.2896556854248047,
+            30.031532287597656
+          ],
+          [
+            -2.230602264404297,
+            30.405101776123047
+          ],
+          [
+            -3.9169654846191406,
+            30.74359893798828
+          ]
+        ],
+        "cap": 6.2693392857142864
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_026",
+        "poly": [
+          [
+            -3.9169654846191406,
+            30.74359893798828
+          ],
+          [
+            -2.230602264404297,
+            30.405101776123047
+          ],
+          [
+            -2.143160820007324,
+            30.760297775268555
+          ],
+          [
+            -3.796903610229492,
+            31.233091354370117
+          ]
+        ],
+        "cap": 6.2693392857142864
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_027",
+        "poly": [
+          [
+            -3.796903610229492,
+            31.233091354370117
+          ],
+          [
+            -2.143160820007324,
+            30.760297775268555
+          ],
+          [
+            -2.0272421836853027,
+            31.113731384277344
+          ],
+          [
+            -3.644534111022949,
+            31.699195861816406
+          ]
+        ],
+        "cap": 6.407471428571428
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_028",
+        "poly": [
+          [
+            -3.644534111022949,
+            31.699195861816406
+          ],
+          [
+            -2.0272421836853027,
+            31.113731384277344
+          ],
+          [
+            -1.8825199604034424,
+            31.47786521911621
+          ],
+          [
+            -3.4664723873138428,
+            32.14830780029297
+          ]
+        ],
+        "cap": 6.407471428571428
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_029",
+        "poly": [
+          [
+            -3.4664723873138428,
+            32.14830780029297
+          ],
+          [
+            -1.8825199604034424,
+            31.47786521911621
+          ],
+          [
+            -1.7129513025283813,
+            31.855396270751953
+          ],
+          [
+            -3.2650489807128906,
+            32.59660720825195
+          ]
+        ],
+        "cap": 6.407471428571428
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_030",
+        "poly": [
+          [
+            -3.2650489807128906,
+            32.59660720825195
+          ],
+          [
+            -1.7129513025283813,
+            31.855396270751953
+          ],
+          [
+            -1.515641212463379,
+            32.24635314941406
+          ],
+          [
+            -3.0305824279785156,
+            33.060821533203125
+          ]
+        ],
+        "cap": 6.407471428571428
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_031",
+        "poly": [
+          [
+            -3.0305824279785156,
+            33.060821533203125
+          ],
+          [
+            -1.515641212463379,
+            32.24635314941406
+          ],
+          [
+            -1.2869786024093628,
+            32.64760971069336
+          ],
+          [
+            -2.76249361038208,
+            33.531497955322266
+          ]
+        ],
+        "cap": 6.545603571428572
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_032",
+        "poly": [
+          [
+            -2.76249361038208,
+            33.531497955322266
+          ],
+          [
+            -1.2869786024093628,
+            32.64760971069336
+          ],
+          [
+            -1.034609317779541,
+            33.049015045166016
+          ],
+          [
+            -2.471998691558838,
+            33.9936408996582
+          ]
+        ],
+        "cap": 6.545603571428572
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_033",
+        "poly": [
+          [
+            -2.471998691558838,
+            33.9936408996582
+          ],
+          [
+            -1.034609317779541,
+            33.049015045166016
+          ],
+          [
+            -0.7694277167320251,
+            33.435089111328125
+          ],
+          [
+            -2.1670680046081543,
+            34.437583923339844
+          ]
+        ],
+        "cap": 6.545603571428572
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_034",
+        "poly": [
+          [
+            -2.1670680046081543,
+            34.437583923339844
+          ],
+          [
+            -0.7694277167320251,
+            33.435089111328125
+          ],
+          [
+            -0.5038701295852661,
+            33.789268493652344
+          ],
+          [
+            -1.8541299104690552,
+            34.85472869873047
+          ]
+        ],
+        "cap": 6.683735714285715
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_035",
+        "poly": [
+          [
+            -1.8541299104690552,
+            34.85472869873047
+          ],
+          [
+            -0.5038701295852661,
+            33.789268493652344
+          ],
+          [
+            -0.23731589317321777,
+            34.109825134277344
+          ],
+          [
+            -1.530869722366333,
+            35.24345397949219
+          ]
+        ],
+        "cap": 6.683735714285715
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_036",
+        "poly": [
+          [
+            -1.530869722366333,
+            35.24345397949219
+          ],
+          [
+            -0.23731589317321777,
+            34.109825134277344
+          ],
+          [
+            0.04060208797454834,
+            34.41042709350586
+          ],
+          [
+            -1.19507896900177,
+            35.606876373291016
+          ]
+        ],
+        "cap": 6.683735714285715
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_037",
+        "poly": [
+          [
+            -1.19507896900177,
+            35.606876373291016
+          ],
+          [
+            0.04060208797454834,
+            34.41042709350586
+          ],
+          [
+            0.3303804099559784,
+            34.69580078125
+          ],
+          [
+            -0.8516557216644287,
+            35.945274353027344
+          ]
+        ],
+        "cap": 6.821867857142857
+      },
+      {
+        "id": "GUEST_C10_CONNECTOR_TREAD_038",
+        "poly": [
+          [
+            -0.8516557216644287,
+            35.945274353027344
+          ],
+          [
+            0.3303804099559784,
+            34.69580078125
+          ],
+          [
+            0.6306794285774231,
+            34.96834945678711
+          ],
+          [
+            -0.5036621689796448,
+            36.26128005981445
+          ]
+        ],
+        "cap": 6.821867857142857
+      },
+      {
+        "id": "GUEST_C10_P_SOUTH_LOW",
+        "poly": [
+          [
+            -0.5036621689796448,
+            36.26128005981445
+          ],
+          [
+            0.6306794285774231,
+            34.96834945678711
+          ],
+          [
+            0.9296928644180298,
+            35.22201919555664
+          ],
+          [
+            -0.14369285106658936,
+            36.565982818603516
+          ]
+        ],
+        "cap": 6.96
+      },
+      {
+        "id": "GUEST_C10_P_SOUTH_LOW",
+        "poly": [
+          [
+            -0.14369285106658936,
+            36.565982818603516
+          ],
+          [
+            0.9296928644180298,
+            35.22201919555664
+          ],
+          [
+            1.257007360458374,
+            35.46910095214844
+          ],
+          [
+            0.2598678469657898,
+            36.870567321777344
+          ]
+        ],
+        "cap": 6.96
+      },
+      {
+        "id": "GUEST_C10_P_SOUTH_LOW",
+        "poly": [
+          [
+            0.2598678469657898,
+            36.870567321777344
+          ],
+          [
+            1.257007360458374,
+            35.46910095214844
+          ],
+          [
+            1.630475401878357,
+            35.71989822387695
+          ],
+          [
+            0.6921020746231079,
+            37.161373138427734
+          ]
+        ],
+        "cap": 6.96
+      },
+      {
+        "id": "GUEST_C10_P_SOUTH_LOW",
+        "poly": [
+          [
+            0.6921020746231079,
+            37.161373138427734
+          ],
+          [
+            1.630475401878357,
+            35.71989822387695
+          ],
+          [
+            2.0093984603881836,
+            35.958248138427734
+          ],
+          [
+            1.1019039154052734,
+            37.41936111450195
+          ]
+        ],
+        "cap": 6.96
+      },
+      {
+        "id": "GUEST_C10_P_SOUTH_LOW",
+        "poly": [
+          [
+            1.1019039154052734,
+            37.41936111450195
+          ],
+          [
+            2.0093984603881836,
+            35.958248138427734
+          ],
+          [
+            2.3475239276885986,
+            36.1650276184082
+          ],
+          [
+            1.4437205791473389,
+            37.6284294128418
+          ]
+        ],
+        "cap": 6.96
+      },
+      {
+        "id": "GUEST_C10_P_SOUTH_LOW",
+        "poly": [
+          [
+            1.4437205791473389,
+            37.6284294128418
+          ],
+          [
+            2.3475239276885986,
+            36.1650276184082
+          ],
+          [
+            2.5916929244995117,
+            36.31789016723633
+          ],
+          [
+            1.6789069175720215,
+            37.77570724487305
+          ]
+        ],
+        "cap": 6.96
+      },
+      {
+        "id": "GUEST_C10_W1_FRONT_WEST_TREAD_00",
+        "poly": [
+          [
+            3.347440004348755,
+            34.46399688720703
+          ],
+          [
+            3.662799835205078,
+            34.46399688720703
+          ],
+          [
+            3.662799835205078,
+            35.62384033203125
+          ],
+          [
+            3.347440004348755,
+            35.62384033203125
+          ]
+        ],
+        "cap": 7.128571428571429
+      },
+      {
+        "id": "GUEST_C10_W1_FRONT_WEST_TREAD_01",
+        "poly": [
+          [
+            3.662799835205078,
+            34.46399688720703
+          ],
+          [
+            3.9781599044799805,
+            34.46399688720703
+          ],
+          [
+            3.9781599044799805,
+            35.62384033203125
+          ],
+          [
+            3.662799835205078,
+            35.62384033203125
+          ]
+        ],
+        "cap": 7.297142857142858
+      },
+      {
+        "id": "P_SOUTH_LOW",
+        "poly": [
+          [
+            1.24504,
+            37.96988
+          ],
+          [
+            3.45256,
+            37.96988
+          ],
+          [
+            3.45256,
+            35.62384
+          ],
+          [
+            3.3474399999999997,
+            35.62384
+          ],
+          [
+            3.3474399999999997,
+            34.464
+          ],
+          [
+            1.24504,
+            34.464
+          ]
+        ],
+        "cap": 6.960000000000001
+      },
+      {
+        "id": "P_FRONT_MIDDLE",
+        "poly": [
+          [
+            3.97816,
+            35.94016
+          ],
+          [
+            8.81368,
+            35.94016
+          ],
+          [
+            8.81368,
+            34.464
+          ],
+          [
+            3.97816,
+            34.464
+          ]
+        ],
+        "cap": 7.465714285714286
+      }
+    ],
+    "changed_vertices": 4673,
+    "maximum_lowering_m": 0.9282099623543871,
+    "changed_xy_bounds": [
+      [
+        -4.418749809265137,
+        9.149999618530273
+      ],
+      [
+        29.299999237060547,
+        36.693748474121094
+      ]
+    ],
+    "plant_contacts": [],
+    "river_bedrock_objects_untouched": true
+  },
+  "thresholds": {
+    "headroom_m": 1.95,
+    "body_radius_m": 0.18,
+    "ground_error_m": 0.004,
+    "stair_legal_riser_band_m": 0.2
+  },
+  "evaluated_geometry": {
+    "evaluated_objects": 2790,
+    "vertices": 1853467,
+    "faces": 1645366,
+    "epsilon_m": 1e-06
+  },
+  "ray_count": 304162,
+  "checks": [
+    {
+      "id": "F1_B1_LEFT_SOUTH",
+      "status": "FAIL",
+      "samples": 84,
+      "failed_samples": 7,
+      "failures": [
+        {
+          "sample": 11,
+          "point": [
+            1.794292,
+            39.6729813,
+            6.1875
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.1875,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.794292,
+                  39.6729813,
+                  6.335001
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.794292,
+                  39.6729813,
+                  6.335001
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 6.1875,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.9742919,
+                  39.6729813,
+                  6.335001
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.9742919,
+                  39.6729813,
+                  6.335001
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 6.1875,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.614292,
+                  39.6729813,
+                  6.335001
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.614292,
+                  39.6729813,
+                  6.335001
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 23,
+          "point": [
+            1.794292,
+            39.3980865,
+            6.335
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.335000038146973,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.794292,
+                  39.3980865,
+                  6.482501
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.794292,
+                  39.3980865,
+                  6.482501
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 6.335000038146973,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.9742919,
+                  39.3980865,
+                  6.482501
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.9742919,
+                  39.3980865,
+                  6.482501
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 6.335000038146973,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.614292,
+                  39.3980865,
+                  6.482501
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.614292,
+                  39.3980865,
+                  6.482501
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 35,
+          "point": [
+            1.794292,
+            39.123188,
+            6.4825001
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.482500076293945,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.794292,
+                  39.123188,
+                  6.6300011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.794292,
+                  39.123188,
+                  6.6300011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 6.482500076293945,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.9742919,
+                  39.123188,
+                  6.6300011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.9742919,
+                  39.123188,
+                  6.6300011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 6.482500076293945,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.614292,
+                  39.123188,
+                  6.6300011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.614292,
+                  39.123188,
+                  6.6300011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 47,
+          "point": [
+            1.794292,
+            38.8482895,
+            6.6300001
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.630000114440918,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.794292,
+                  38.8482895,
+                  6.7775011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.794292,
+                  38.8482895,
+                  6.7775011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 6.630000114440918,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.9742919,
+                  38.8482895,
+                  6.7775011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.9742919,
+                  38.8482895,
+                  6.7775011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 6.630000114440918,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.614292,
+                  38.8482895,
+                  6.7775011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.614292,
+                  38.8482895,
+                  6.7775011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 59,
+          "point": [
+            1.794292,
+            38.573391,
+            6.7775002
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.777500152587891,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.794292,
+                  38.573391,
+                  6.9250011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.794292,
+                  38.573391,
+                  6.9250011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 6.777500152587891,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.9742919,
+                  38.573391,
+                  6.9250011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.9742919,
+                  38.573391,
+                  6.9250011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 6.777500152587891,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.614292,
+                  38.573391,
+                  6.9250011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.614292,
+                  38.573391,
+                  6.9250011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 71,
+          "point": [
+            1.794292,
+            38.2984962,
+            6.9250002
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.925000190734863,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.794292,
+                  38.2984962,
+                  7.0725012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.794292,
+                  38.2984962,
+                  7.0725012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 6.925000190734863,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.9742919,
+                  38.2984962,
+                  7.0725012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.9742919,
+                  38.2984962,
+                  7.0725012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 6.925000190734863,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.614292,
+                  38.2984962,
+                  7.0725012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.614292,
+                  38.2984962,
+                  7.0725012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 83,
+          "point": [
+            1.794292,
+            38.0235977,
+            7.0725002
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.072500228881836,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.794292,
+                  38.0235977,
+                  7.2200007
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.794292,
+                  38.0235977,
+                  7.2200007
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 7.072500228881836,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.9742919,
+                  38.0235977,
+                  7.2200007
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.9742919,
+                  38.0235977,
+                  7.2200007
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 7.072500228881836,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.614292,
+                  38.0235977,
+                  7.2200007
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.614292,
+                  38.0235977,
+                  7.2200007
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          1.794292,
+          39.9458809,
+          6.1875
+        ],
+        "clearance": 2.002498599999999,
+        "hit": {
+          "object": "GUEST_C10_P_L1_LEFT_APPROACH",
+          "location": [
+            1.794292,
+            39.9458809,
+            8.1899986
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.8024988
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "F1_B1_LEFT_SOUTH_JOINTS",
+      "status": "FAIL",
+      "samples": 16,
+      "failed_samples": 7,
+      "failures": [
+        {
+          "sample": 2,
+          "point": [
+            1.794292,
+            39.6739807,
+            6.1875
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.187500000000001,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.794292,
+                  39.6739807,
+                  6.335001
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.794292,
+                  39.6739807,
+                  6.335001
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 4,
+          "point": [
+            1.794292,
+            39.399086,
+            6.335
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.335000000000001,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.794292,
+                  39.399086,
+                  6.482501
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.794292,
+                  39.399086,
+                  6.482501
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 6,
+          "point": [
+            1.794292,
+            39.1241875,
+            6.4825
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.482500000000001,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.794292,
+                  39.1241875,
+                  6.6300011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.794292,
+                  39.1241875,
+                  6.6300011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724986
+              }
+            }
+          ]
+        },
+        {
+          "sample": 8,
+          "point": [
+            1.794292,
+            38.8492889,
+            6.63
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.630000000000001,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.794292,
+                  38.8492889,
+                  6.7775011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.794292,
+                  38.8492889,
+                  6.7775011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724986
+              }
+            }
+          ]
+        },
+        {
+          "sample": 10,
+          "point": [
+            1.794292,
+            38.5743942,
+            6.7775
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.777500000000001,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.794292,
+                  38.5743942,
+                  6.9250011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.794292,
+                  38.5743942,
+                  6.9250011
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724986
+              }
+            }
+          ]
+        },
+        {
+          "sample": 12,
+          "point": [
+            1.794292,
+            38.2994957,
+            6.925
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 6.925000000000001,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.794292,
+                  38.2994957,
+                  7.0725012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.794292,
+                  38.2994957,
+                  7.0725012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724986
+              }
+            }
+          ]
+        },
+        {
+          "sample": 14,
+          "point": [
+            1.794292,
+            38.024601,
+            7.0725
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.072500000000001,
+              "hit": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.794292,
+                  38.024601,
+                  7.2200007
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F1_B1_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.794292,
+                  38.024601,
+                  7.2200007
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          1.794292,
+          39.9448814,
+          6.1875
+        ],
+        "clearance": 2.0024985999999982,
+        "hit": {
+          "object": "GUEST_C10_P_L1_LEFT_APPROACH",
+          "location": [
+            1.794292,
+            39.9448814,
+            8.1899986
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.8024988
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "F2_LOWER_RIGHT_NORTH",
+      "status": "FAIL",
+      "samples": 119,
+      "failed_samples": 7,
+      "failures": [
+        {
+          "sample": 16,
+          "point": [
+            2.9453559,
+            38.5992584,
+            7.3674998
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.367499828338623,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.9453559,
+                  38.5992584,
+                  7.5150008
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.9453559,
+                  38.5992584,
+                  7.5150008
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724992
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.17999998927116392,
+                0.0
+              ],
+              "expected": 7.367499828338623,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.7653558,
+                  38.5992584,
+                  7.5150008
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.7653558,
+                  38.5992584,
+                  7.5150008
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724992
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.17999998927116392,
+                -0.0
+              ],
+              "expected": 7.367499828338623,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  3.125356,
+                  38.5992584,
+                  7.5150008
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  3.125356,
+                  38.5992584,
+                  7.5150008
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 33,
+          "point": [
+            2.9453559,
+            38.9818573,
+            7.5149999
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.514999866485596,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.9453559,
+                  38.9818573,
+                  7.6625009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.9453559,
+                  38.9818573,
+                  7.6625009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.17999998927116392,
+                0.0
+              ],
+              "expected": 7.514999866485596,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.7653558,
+                  38.9818573,
+                  7.6625009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.7653558,
+                  38.9818573,
+                  7.6625009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.17999998927116392,
+                -0.0
+              ],
+              "expected": 7.514999866485596,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  3.125356,
+                  38.9818573,
+                  7.6625009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  3.125356,
+                  38.9818573,
+                  7.6625009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 50,
+          "point": [
+            2.9453559,
+            39.3644524,
+            7.6624999
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.662499904632568,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.9453559,
+                  39.3644524,
+                  7.8100009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.9453559,
+                  39.3644524,
+                  7.8100009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.17999998927116392,
+                0.0
+              ],
+              "expected": 7.662499904632568,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.7653558,
+                  39.3644524,
+                  7.8100009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.7653558,
+                  39.3644524,
+                  7.8100009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.17999998927116392,
+                -0.0
+              ],
+              "expected": 7.662499904632568,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  3.125356,
+                  39.3644524,
+                  7.8100009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  3.125356,
+                  39.3644524,
+                  7.8100009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 67,
+          "point": [
+            2.9453559,
+            39.7470512,
+            7.8099999
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.809999942779541,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.9453559,
+                  39.7470512,
+                  7.9575009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.9453559,
+                  39.7470512,
+                  7.9575009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.17999998927116392,
+                0.0
+              ],
+              "expected": 7.809999942779541,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.7653558,
+                  39.7470512,
+                  7.9575009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.7653558,
+                  39.7470512,
+                  7.9575009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.17999998927116392,
+                -0.0
+              ],
+              "expected": 7.809999942779541,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  3.125356,
+                  39.7470512,
+                  7.9575009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  3.125356,
+                  39.7470512,
+                  7.9575009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 84,
+          "point": [
+            2.9453559,
+            40.1296463,
+            7.9575
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.957499980926514,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_05",
+                "location": [
+                  2.9453559,
+                  40.1296463,
+                  8.1050005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574999
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_05",
+                "location": [
+                  2.9453559,
+                  40.1296463,
+                  8.1050005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.17999998927116392,
+                0.0
+              ],
+              "expected": 7.957499980926514,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_05",
+                "location": [
+                  2.7653558,
+                  40.1296463,
+                  8.1050005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574999
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_05",
+                "location": [
+                  2.7653558,
+                  40.1296463,
+                  8.1050005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.17999998927116392,
+                -0.0
+              ],
+              "expected": 7.957499980926514,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_05",
+                "location": [
+                  3.125356,
+                  40.1296463,
+                  8.1050005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574999
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_05",
+                "location": [
+                  3.125356,
+                  40.1296463,
+                  8.1050005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            }
+          ]
+        },
+        {
+          "sample": 101,
+          "point": [
+            2.9453559,
+            40.5122452,
+            8.1049995
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.104999542236328,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_06",
+                "location": [
+                  2.9453559,
+                  40.5122452,
+                  8.2525005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574988
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_06",
+                "location": [
+                  2.9453559,
+                  40.5122452,
+                  8.2525005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724987
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.17999998927116392,
+                0.0
+              ],
+              "expected": 8.104999542236328,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_06",
+                "location": [
+                  2.7653558,
+                  40.5122452,
+                  8.2525005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574988
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_06",
+                "location": [
+                  2.7653558,
+                  40.5122452,
+                  8.2525005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724987
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.17999998927116392,
+                -0.0
+              ],
+              "expected": 8.104999542236328,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_06",
+                "location": [
+                  3.125356,
+                  40.5122452,
+                  8.2525005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574988
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_06",
+                "location": [
+                  3.125356,
+                  40.5122452,
+                  8.2525005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724987
+              }
+            }
+          ]
+        },
+        {
+          "sample": 118,
+          "point": [
+            2.9453559,
+            40.8948402,
+            8.2524996
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.2524995803833,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_07",
+                "location": [
+                  2.9453559,
+                  40.8948402,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574988
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_07",
+                "location": [
+                  2.9453559,
+                  40.8948402,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724986
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.17999998927116392,
+                0.0
+              ],
+              "expected": 8.2524995803833,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_07",
+                "location": [
+                  2.7653558,
+                  40.8948402,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574988
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_07",
+                "location": [
+                  2.7653558,
+                  40.8948402,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724986
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.17999998927116392,
+                -0.0
+              ],
+              "expected": 8.2524995803833,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_07",
+                "location": [
+                  3.125356,
+                  40.8948402,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574988
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_07",
+                "location": [
+                  3.125356,
+                  40.8948402,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724986
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          2.9453559,
+          40.5142441,
+          8.2524996
+        ],
+        "clearance": 2.2901745196166985,
+        "hit": {
+          "object": "GUEST_C10_P_L2_NORTH",
+          "location": [
+            2.9453559,
+            40.5142441,
+            10.5426741
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.0901747
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "F2_LOWER_RIGHT_NORTH_JOINTS",
+      "status": "FAIL",
+      "samples": 16,
+      "failed_samples": 7,
+      "failures": [
+        {
+          "sample": 2,
+          "point": [
+            2.9453559,
+            38.598259,
+            7.3675
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.367500000000001,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.9453559,
+                  38.598259,
+                  7.5150008
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.9453559,
+                  38.598259,
+                  7.5150008
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724992
+              }
+            }
+          ]
+        },
+        {
+          "sample": 4,
+          "point": [
+            2.9453559,
+            38.9808578,
+            7.515
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.515000000000001,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.9453559,
+                  38.9808578,
+                  7.6625009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.9453559,
+                  38.9808578,
+                  7.6625009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 6,
+          "point": [
+            2.9453559,
+            39.3634529,
+            7.6625
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.6625000000000005,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.9453559,
+                  39.3634529,
+                  7.8100009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574989
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.9453559,
+                  39.3634529,
+                  7.8100009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 8,
+          "point": [
+            2.9453559,
+            39.7460518,
+            7.81
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.8100000000000005,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.9453559,
+                  39.7460518,
+                  7.9575009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574994
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.9453559,
+                  39.7460518,
+                  7.9575009
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724991
+              }
+            }
+          ]
+        },
+        {
+          "sample": 10,
+          "point": [
+            2.9453559,
+            40.1286469,
+            7.9575
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.9575000000000005,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_05",
+                "location": [
+                  2.9453559,
+                  40.1286469,
+                  8.1050005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574999
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_05",
+                "location": [
+                  2.9453559,
+                  40.1286469,
+                  8.1050005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            }
+          ]
+        },
+        {
+          "sample": 12,
+          "point": [
+            2.9453559,
+            40.5112419,
+            8.105
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.105,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_06",
+                "location": [
+                  2.9453559,
+                  40.5112419,
+                  8.2525005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574997
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_06",
+                "location": [
+                  2.9453559,
+                  40.5112419,
+                  8.2525005
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            }
+          ]
+        },
+        {
+          "sample": 14,
+          "point": [
+            2.9453559,
+            40.8938408,
+            8.2525
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.252500000000001,
+              "hit": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_07",
+                "location": [
+                  2.9453559,
+                  40.8938408,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0574997
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F2_LOWER_RIGHT_NORTH_RISER_07",
+                "location": [
+                  2.9453559,
+                  40.8938408,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1724996
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          2.9453559,
+          40.8978386,
+          8.4
+        ],
+        "clearance": 2.142674099999999,
+        "hit": {
+          "object": "GUEST_C10_P_L2_NORTH",
+          "location": [
+            2.9453559,
+            40.8978386,
+            10.5426741
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9426736
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "F3_UPPER_LEFT_SOUTH",
+      "status": "FAIL",
+      "samples": 84,
+      "failed_samples": 7,
+      "failures": [
+        {
+          "sample": 11,
+          "point": [
+            1.91518,
+            39.6202621,
+            8.5809746
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.580974578857422,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.91518,
+                  39.6202621,
+                  8.7619505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.91518,
+                  39.6202621,
+                  8.7619505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 8.580974578857422,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_01",
+                "location": [
+                  2.09518,
+                  39.6202621,
+                  8.7619505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_01",
+                "location": [
+                  2.09518,
+                  39.6202621,
+                  8.7619505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 8.580974578857422,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.73518,
+                  39.6202621,
+                  8.7619505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.73518,
+                  39.6202621,
+                  8.7619505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 23,
+          "point": [
+            1.91518,
+            39.3453674,
+            8.7619495
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.76194953918457,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.91518,
+                  39.3453674,
+                  8.9429264
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.024023
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.91518,
+                  39.3453674,
+                  8.9429264
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390228
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 8.76194953918457,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_02",
+                "location": [
+                  2.09518,
+                  39.3453674,
+                  8.9429264
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.024023
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_02",
+                "location": [
+                  2.09518,
+                  39.3453674,
+                  8.9429264
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390228
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 8.76194953918457,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.73518,
+                  39.3453674,
+                  8.9429264
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.024023
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.73518,
+                  39.3453674,
+                  8.9429264
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390228
+              }
+            }
+          ]
+        },
+        {
+          "sample": 35,
+          "point": [
+            1.91518,
+            39.0704689,
+            8.9429255
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.942925453186035,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.91518,
+                  39.0704689,
+                  9.1239014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.91518,
+                  39.0704689,
+                  9.1239014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 8.942925453186035,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_03",
+                "location": [
+                  2.09518,
+                  39.0704689,
+                  9.1239014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_03",
+                "location": [
+                  2.09518,
+                  39.0704689,
+                  9.1239014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 8.942925453186035,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.73518,
+                  39.0704689,
+                  9.1239014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.73518,
+                  39.0704689,
+                  9.1239014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 47,
+          "point": [
+            1.91518,
+            38.7955704,
+            9.1239004
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 9.123900413513184,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.91518,
+                  38.7955704,
+                  9.3048763
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.91518,
+                  38.7955704,
+                  9.3048763
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 9.123900413513184,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_04",
+                "location": [
+                  2.09518,
+                  38.7955704,
+                  9.3048763
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_04",
+                "location": [
+                  2.09518,
+                  38.7955704,
+                  9.3048763
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 9.123900413513184,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.73518,
+                  38.7955704,
+                  9.3048763
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.73518,
+                  38.7955704,
+                  9.3048763
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 59,
+          "point": [
+            1.91518,
+            38.5206718,
+            9.3048754
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 9.304875373840332,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.91518,
+                  38.5206718,
+                  9.4858513
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.91518,
+                  38.5206718,
+                  9.4858513
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 9.304875373840332,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_05",
+                "location": [
+                  2.09518,
+                  38.5206718,
+                  9.4858513
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_05",
+                "location": [
+                  2.09518,
+                  38.5206718,
+                  9.4858513
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 9.304875373840332,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.73518,
+                  38.5206718,
+                  9.4858513
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.73518,
+                  38.5206718,
+                  9.4858513
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 71,
+          "point": [
+            1.91518,
+            38.2457771,
+            9.4858503
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 9.48585033416748,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.91518,
+                  38.2457771,
+                  9.6668262
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.91518,
+                  38.2457771,
+                  9.6668262
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 9.48585033416748,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_06",
+                "location": [
+                  2.09518,
+                  38.2457771,
+                  9.6668262
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_06",
+                "location": [
+                  2.09518,
+                  38.2457771,
+                  9.6668262
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 9.48585033416748,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.73518,
+                  38.2457771,
+                  9.6668262
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.73518,
+                  38.2457771,
+                  9.6668262
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 83,
+          "point": [
+            1.91518,
+            37.9708786,
+            9.6668253
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 9.666825294494629,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.91518,
+                  37.9708786,
+                  9.8478012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.91518,
+                  37.9708786,
+                  9.8478012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                0.0
+              ],
+              "expected": 9.666825294494629,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_07",
+                "location": [
+                  2.09518,
+                  37.9708786,
+                  9.8478012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_07",
+                "location": [
+                  2.09518,
+                  37.9708786,
+                  9.8478012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                -0.0
+              ],
+              "expected": 9.666825294494629,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.73518,
+                  37.9708786,
+                  9.8478012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.73518,
+                  37.9708786,
+                  9.8478012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          1.91518,
+          39.8931618,
+          8.5809746
+        ],
+        "clearance": 1.9616995211425774,
+        "hit": {
+          "object": "GUEST_C10_P_L2_NORTH",
+          "location": [
+            2.0710645,
+            39.9831619,
+            10.5426741
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.7616997
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "F3_UPPER_LEFT_SOUTH_JOINTS",
+      "status": "FAIL",
+      "samples": 16,
+      "failed_samples": 7,
+      "failures": [
+        {
+          "sample": 2,
+          "point": [
+            1.91518,
+            39.6212616,
+            8.580975
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.580975,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.91518,
+                  39.6212616,
+                  8.7619505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240249
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_01",
+                "location": [
+                  1.91518,
+                  39.6212616,
+                  8.7619505
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390247
+              }
+            }
+          ]
+        },
+        {
+          "sample": 4,
+          "point": [
+            1.91518,
+            39.3463669,
+            8.76195
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.76195,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.91518,
+                  39.3463669,
+                  8.9429264
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_02",
+                "location": [
+                  1.91518,
+                  39.3463669,
+                  8.9429264
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 6,
+          "point": [
+            1.91518,
+            39.0714684,
+            8.942925
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.942925,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.91518,
+                  39.0714684,
+                  9.1239014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_03",
+                "location": [
+                  1.91518,
+                  39.0714684,
+                  9.1239014
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 8,
+          "point": [
+            1.91518,
+            38.7965698,
+            9.1239
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 9.1239,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.91518,
+                  38.7965698,
+                  9.3048763
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_04",
+                "location": [
+                  1.91518,
+                  38.7965698,
+                  9.3048763
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 10,
+          "point": [
+            1.91518,
+            38.5216751,
+            9.304875
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 9.304875000000001,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.91518,
+                  38.5216751,
+                  9.4858513
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_05",
+                "location": [
+                  1.91518,
+                  38.5216751,
+                  9.4858513
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 12,
+          "point": [
+            1.91518,
+            38.2467766,
+            9.48585
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 9.485850000000001,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.91518,
+                  38.2467766,
+                  9.6668262
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_06",
+                "location": [
+                  1.91518,
+                  38.2467766,
+                  9.6668262
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 14,
+          "point": [
+            1.91518,
+            37.9718819,
+            9.666825
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 9.666825,
+              "hit": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.91518,
+                  37.9718819,
+                  9.8478012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_07",
+                "location": [
+                  1.91518,
+                  37.9718819,
+                  9.8478012
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          1.91518,
+          39.8921623,
+          8.580975
+        ],
+        "clearance": 1.9616990999999988,
+        "hit": {
+          "object": "GUEST_C10_P_L2_NORTH",
+          "location": [
+            2.0710645,
+            39.9821625,
+            10.5426741
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.7616987
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "F4_UPPER_RIGHT_NORTH",
+      "status": "FAIL",
+      "samples": 56,
+      "failed_samples": 4,
+      "failures": [
+        {
+          "sample": 13,
+          "point": [
+            2.9453559,
+            38.2786102,
+            10.0287752
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 10.028775215148926,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.9453559,
+                  38.2786102,
+                  10.2097511
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.9453559,
+                  38.2786102,
+                  10.2097511
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                0.0
+              ],
+              "expected": 10.028775215148926,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.7653558,
+                  38.2786102,
+                  10.2097511
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.7653558,
+                  38.2786102,
+                  10.2097511
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                -0.0
+              ],
+              "expected": 10.028775215148926,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  3.125356,
+                  38.2786102,
+                  10.2097511
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  3.125356,
+                  38.2786102,
+                  10.2097511
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 27,
+          "point": [
+            2.9453559,
+            38.5883408,
+            10.2097502
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 10.209750175476074,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.9453559,
+                  38.5883408,
+                  10.3907261
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.9453559,
+                  38.5883408,
+                  10.3907261
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                0.0
+              ],
+              "expected": 10.209750175476074,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.7653558,
+                  38.5883408,
+                  10.3907261
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.7653558,
+                  38.5883408,
+                  10.3907261
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                -0.0
+              ],
+              "expected": 10.209750175476074,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  3.125356,
+                  38.5883408,
+                  10.3907261
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  3.125356,
+                  38.5883408,
+                  10.3907261
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 41,
+          "point": [
+            2.9453559,
+            38.8980713,
+            10.3907251
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 10.390725135803223,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.9453559,
+                  38.8980713,
+                  10.571701
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.9453559,
+                  38.8980713,
+                  10.571701
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                0.0
+              ],
+              "expected": 10.390725135803223,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.7653558,
+                  38.8980713,
+                  10.571701
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.7653558,
+                  38.8980713,
+                  10.571701
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                -0.0
+              ],
+              "expected": 10.390725135803223,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  3.125356,
+                  38.8980713,
+                  10.571701
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  3.125356,
+                  38.8980713,
+                  10.571701
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 55,
+          "point": [
+            2.9453559,
+            39.2078018,
+            10.5717001
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 10.571700096130371,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.9453559,
+                  39.2078018,
+                  10.752676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.9453559,
+                  39.2078018,
+                  10.752676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.18,
+                0.0
+              ],
+              "expected": 10.571700096130371,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.7653558,
+                  39.2078018,
+                  10.752676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.7653558,
+                  39.2078018,
+                  10.752676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.18,
+                -0.0
+              ],
+              "expected": 10.571700096130371,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  3.125356,
+                  39.2078018,
+                  10.752676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  3.125356,
+                  39.2078018,
+                  10.752676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          2.9453559,
+          38.9000702,
+          10.5717001
+        ],
+        "clearance": 2.300973903869629,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            2.9453559,
+            38.9000702,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.1009741
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "F4_UPPER_RIGHT_NORTH_JOINTS",
+      "status": "FAIL",
+      "samples": 10,
+      "failed_samples": 4,
+      "failures": [
+        {
+          "sample": 2,
+          "point": [
+            2.9453559,
+            38.2776108,
+            10.028775
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 10.028775,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.9453559,
+                  38.2776108,
+                  10.2097511
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_01",
+                "location": [
+                  2.9453559,
+                  38.2776108,
+                  10.2097511
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 4,
+          "point": [
+            2.9453559,
+            38.5873413,
+            10.20975
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 10.20975,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.9453559,
+                  38.5873413,
+                  10.3907261
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_02",
+                "location": [
+                  2.9453559,
+                  38.5873413,
+                  10.3907261
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 6,
+          "point": [
+            2.9453559,
+            38.8970718,
+            10.390725
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 10.390725,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.9453559,
+                  38.8970718,
+                  10.571701
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_03",
+                "location": [
+                  2.9453559,
+                  38.8970718,
+                  10.571701
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        },
+        {
+          "sample": 8,
+          "point": [
+            2.9453559,
+            39.2067986,
+            10.5717
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 10.5717,
+              "hit": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.9453559,
+                  39.2067986,
+                  10.752676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0240239
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_RISER_04",
+                "location": [
+                  2.9453559,
+                  39.2067986,
+                  10.752676
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1390237
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          2.9453559,
+          39.2107964,
+          10.752675
+        ],
+        "clearance": 2.119999,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            2.9453559,
+            39.2107964,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9199991
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "W1_FRONT_WEST",
+      "status": "FAIL",
+      "samples": 28,
+      "failed_samples": 2,
+      "failures": [
+        {
+          "sample": 13,
+          "point": [
+            3.6617999,
+            35.0439186,
+            7.3885713
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.388571262359619,
+              "hit": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_01",
+                "location": [
+                  3.6617999,
+                  35.0439186,
+                  7.5571437
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364275
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_01",
+                "location": [
+                  3.6617999,
+                  35.0439186,
+                  7.5571437
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514277
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.0,
+                0.18
+              ],
+              "expected": 7.388571262359619,
+              "hit": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_01",
+                "location": [
+                  3.6617999,
+                  35.2239189,
+                  7.5571437
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364275
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_01",
+                "location": [
+                  3.6617999,
+                  35.2239189,
+                  7.5571437
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514277
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.0,
+                -0.18
+              ],
+              "expected": 7.388571262359619,
+              "hit": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_01",
+                "location": [
+                  3.6617999,
+                  34.8639183,
+                  7.5571437
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364275
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_01",
+                "location": [
+                  3.6617999,
+                  34.8639183,
+                  7.5571437
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514277
+              }
+            }
+          ]
+        },
+        {
+          "sample": 27,
+          "point": [
+            3.97716,
+            35.0439186,
+            7.5571427
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.557142734527588,
+              "hit": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_02",
+                "location": [
+                  3.97716,
+                  35.0439186,
+                  7.7257152
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364275
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_02",
+                "location": [
+                  3.97716,
+                  35.0439186,
+                  7.7257152
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514277
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.0,
+                0.18
+              ],
+              "expected": 7.557142734527588,
+              "hit": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_02",
+                "location": [
+                  3.97716,
+                  35.2239189,
+                  7.7257152
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364275
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_02",
+                "location": [
+                  3.97716,
+                  35.2239189,
+                  7.7257152
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514277
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.0,
+                -0.18
+              ],
+              "expected": 7.557142734527588,
+              "hit": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_02",
+                "location": [
+                  3.97716,
+                  34.8639183,
+                  7.7257152
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364275
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_02",
+                "location": [
+                  3.97716,
+                  34.8639183,
+                  7.7257152
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514277
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          3.8084276,
+          35.0439186,
+          7.5571432
+        ],
+        "clearance": 3.002856288635254,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            3.8084276,
+            35.0439186,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.8028564
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "W1_FRONT_WEST_JOINTS",
+      "status": "FAIL",
+      "samples": 6,
+      "failed_samples": 2,
+      "failures": [
+        {
+          "sample": 2,
+          "point": [
+            3.6608,
+            35.0439186,
+            7.3885714
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.388571428571429,
+              "hit": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_01",
+                "location": [
+                  3.6608,
+                  35.0439186,
+                  7.5571437
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364279
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_01",
+                "location": [
+                  3.6608,
+                  35.0439186,
+                  7.5571437
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514277
+              }
+            }
+          ]
+        },
+        {
+          "sample": 4,
+          "point": [
+            3.9761598,
+            35.0439186,
+            7.5571429
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.557142857142858,
+              "hit": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_02",
+                "location": [
+                  3.9761598,
+                  35.0439186,
+                  7.7257152
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364275
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W1_FRONT_WEST_RISER_02",
+                "location": [
+                  3.9761598,
+                  35.0439186,
+                  7.7257152
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514277
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          3.98016,
+          35.0439186,
+          7.7257143
+        ],
+        "clearance": 2.834285214285714,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            3.98016,
+            35.0439186,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.634285
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "W2_FRONT_EAST",
+      "status": "FAIL",
+      "samples": 45,
+      "failed_samples": 3,
+      "failures": [
+        {
+          "sample": 14,
+          "point": [
+            9.1630793,
+            35.0439186,
+            7.8942857
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.894285678863525,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_01",
+                "location": [
+                  9.1630793,
+                  35.0439186,
+                  8.0628576
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364284
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_01",
+                "location": [
+                  9.1630793,
+                  35.0439186,
+                  8.0628576
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514282
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.0,
+                0.18
+              ],
+              "expected": 7.894285678863525,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_01",
+                "location": [
+                  9.1630793,
+                  35.2239189,
+                  8.0628576
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364284
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_01",
+                "location": [
+                  9.1630793,
+                  35.2239189,
+                  8.0628576
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514282
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.0,
+                -0.18
+              ],
+              "expected": 7.894285678863525,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_01",
+                "location": [
+                  9.1630793,
+                  34.8639183,
+                  8.0628576
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364284
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_01",
+                "location": [
+                  9.1630793,
+                  34.8639183,
+                  8.0628576
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514282
+              }
+            }
+          ]
+        },
+        {
+          "sample": 29,
+          "point": [
+            9.5134792,
+            35.0439186,
+            8.0628567
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.062856674194336,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_02",
+                "location": [
+                  9.5134792,
+                  35.0439186,
+                  8.2314291
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364274
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_02",
+                "location": [
+                  9.5134792,
+                  35.0439186,
+                  8.2314291
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514272
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.0,
+                0.18
+              ],
+              "expected": 8.062856674194336,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_02",
+                "location": [
+                  9.5134792,
+                  35.2239189,
+                  8.2314291
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364274
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_02",
+                "location": [
+                  9.5134792,
+                  35.2239189,
+                  8.2314291
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514272
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.0,
+                -0.18
+              ],
+              "expected": 8.062856674194336,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_02",
+                "location": [
+                  9.5134792,
+                  34.8639183,
+                  8.2314291
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364274
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_02",
+                "location": [
+                  9.5134792,
+                  34.8639183,
+                  8.2314291
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514272
+              }
+            }
+          ]
+        },
+        {
+          "sample": 44,
+          "point": [
+            9.8638792,
+            35.0439186,
+            8.2314281
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.231428146362305,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_03",
+                "location": [
+                  9.8638792,
+                  35.0439186,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364274
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_03",
+                "location": [
+                  9.8638792,
+                  35.0439186,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514272
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                -0.0,
+                0.18
+              ],
+              "expected": 8.231428146362305,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_03",
+                "location": [
+                  9.8638792,
+                  35.2239189,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364274
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_03",
+                "location": [
+                  9.8638792,
+                  35.2239189,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514272
+              }
+            },
+            {
+              "reason": "GROUND",
+              "offset": [
+                0.0,
+                -0.18
+              ],
+              "expected": 8.231428146362305,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_03",
+                "location": [
+                  9.8638792,
+                  34.8639183,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364274
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_03",
+                "location": [
+                  9.8638792,
+                  34.8639183,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514272
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          9.51548,
+          35.0439186,
+          8.2314281
+        ],
+        "clearance": 2.3285713536376953,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            9.51548,
+            35.0439186,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.1285715
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "W2_FRONT_EAST_JOINTS",
+      "status": "FAIL",
+      "samples": 8,
+      "failed_samples": 3,
+      "failures": [
+        {
+          "sample": 2,
+          "point": [
+            9.1620798,
+            35.0439186,
+            7.8942857
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 7.894285714285714,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_01",
+                "location": [
+                  9.1620798,
+                  35.0439186,
+                  8.0628576
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364284
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_01",
+                "location": [
+                  9.1620798,
+                  35.0439186,
+                  8.0628576
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514282
+              }
+            }
+          ]
+        },
+        {
+          "sample": 4,
+          "point": [
+            9.5124798,
+            35.0439186,
+            8.0628571
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.062857142857142,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_02",
+                "location": [
+                  9.5124798,
+                  35.0439186,
+                  8.2314291
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364283
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_02",
+                "location": [
+                  9.5124798,
+                  35.0439186,
+                  8.2314291
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514281
+              }
+            }
+          ]
+        },
+        {
+          "sample": 6,
+          "point": [
+            9.8628798,
+            35.0439186,
+            8.2314286
+          ],
+          "issues": [
+            {
+              "reason": "GROUND",
+              "offset": [
+                0,
+                0
+              ],
+              "expected": 8.231428571428571,
+              "hit": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_03",
+                "location": [
+                  9.8628798,
+                  35.0439186,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.0364283
+              },
+              "nearby_vertical": {
+                "object": "GUEST_C10_W2_FRONT_EAST_RISER_03",
+                "location": [
+                  9.8628798,
+                  35.0439186,
+                  8.4000006
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.1514281
+              }
+            }
+          ]
+        }
+      ],
+      "lowest_overhead": {
+        "point": [
+          9.8668795,
+          35.0439186,
+          8.4
+        ],
+        "clearance": 2.1599994999999996,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            9.8668795,
+            35.0439186,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9599991
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "B1_DOOR_APPROACH",
+      "status": "PASS",
+      "samples": 46,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          1.1026024,
+          40.1577606,
+          6.04
+        ],
+        "clearance": 2.0049991381469727,
+        "hit": {
+          "object": "GUEST_B1_BASE_EAST_door_head_0",
+          "location": [
+            1.2826023,
+            40.1577606,
+            8.0449991
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.804999
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "LOWER_RETURN",
+      "status": "PASS",
+      "samples": 74,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          2.2106342,
+          37.8380814,
+          7.2200003
+        ],
+        "clearance": 2.3168230329711914,
+        "hit": {
+          "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_TREAD_06",
+          "location": [
+            2.1206343,
+            37.9939651,
+            9.5368233
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.1168237
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "NORTH_L1_CROSSOVER",
+      "status": "PASS",
+      "samples": 128,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          1.939708,
+          41.4230385,
+          8.3999996
+        ],
+        "clearance": 2.1405391814697268,
+        "hit": {
+          "object": "GUEST_C10_P_L2_NORTH",
+          "location": [
+            1.7838234,
+            41.5130386,
+            10.5405388
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9405396
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "CHAUFFEUR_NORTH_DOOR",
+      "status": "PASS",
+      "samples": 44,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          1.0488161,
+          40.3818207,
+          8.3999996
+        ],
+        "clearance": 2.0749997814697263,
+        "hit": {
+          "object": "GUEST_L1_CHAUFFEUR_EAST_door_head_0",
+          "location": [
+            1.228816,
+            40.3818207,
+            10.4749994
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.8750002
+        }
+      },
+      "stair_mode": false
+    },
+    {
+      "id": "UPPER_RETURN",
+      "status": "PASS",
+      "samples": 75,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          1.91518,
+          37.9672432,
+          9.8478003
+        ],
+        "clearance": 3.0248737451782226,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            1.91518,
+            37.9672432,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.8248739
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "NORTH_L2_APPROACH",
+      "status": "PASS",
+      "samples": 90,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          2.9453559,
+          39.2114372,
+          10.7526751
+        ],
+        "clearance": 2.1199989435424804,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            2.9453559,
+            39.2114372,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9199991
+        }
+      },
+      "stair_mode": false
+    },
+    {
+      "id": "FRONT_LOW_TO_W1",
+      "status": "PASS",
+      "samples": 123,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          2.3487999,
+          37.0472794,
+          7.2199998
+        ],
+        "clearance": 2.4177985098083496,
+        "hit": {
+          "object": "GUEST_C10_P_UPPER_RETURN",
+          "location": [
+            2.3487999,
+            37.2272797,
+            9.6377983
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.2177992
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "FRONT_MIDDLE",
+      "status": "PASS",
+      "samples": 195,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          4.8024306,
+          35.0439186,
+          7.7257147
+        ],
+        "clearance": 2.834284816467285,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            4.8024306,
+            35.0439186,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.6342847
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "FRONT_EAST",
+      "status": "PASS",
+      "samples": 577,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          9.8675079,
+          35.0439186,
+          8.3999996
+        ],
+        "clearance": 2.1599998814697265,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            9.8675079,
+            35.0439186,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.96
+        }
+      },
+      "stair_mode": false
+    },
+    {
+      "id": "GUEST_EAST_DOOR",
+      "status": "PASS",
+      "samples": 56,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          19.7117577,
+          38.8397598,
+          8.3999996
+        ],
+        "clearance": 2.0749997814697263,
+        "hit": {
+          "object": "GUEST_L1_BED_EAST_door_head_0",
+          "location": [
+            19.5558739,
+            38.92976,
+            10.4749994
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.875
+        }
+      },
+      "stair_mode": false
+    },
+    {
+      "id": "GUEST_TO_GALLERY",
+      "status": "PASS",
+      "samples": 194,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          14.769558,
+          39.6305618,
+          8.3999996
+        ],
+        "clearance": 2.156634281469726,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            14.9495583,
+            39.6305618,
+            10.5566339
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9566348
+        }
+      },
+      "stair_mode": false
+    },
+    {
+      "id": "GALLERY_TO_LOUNGE",
+      "status": "PASS",
+      "samples": 137,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          11.5467997,
+          39.5251198,
+          8.3999996
+        ],
+        "clearance": 2.1599998814697265,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            11.5467997,
+            39.5251198,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9600003
+        }
+      },
+      "stair_mode": false
+    },
+    {
+      "id": "REAL_SOUTHEAST_LOUNGE_ENTRY",
+      "status": "PASS",
+      "samples": 218,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          10.8109598,
+          36.4951096,
+          8.3999996
+        ],
+        "clearance": 2.029998781469727,
+        "hit": {
+          "object": "GUEST_C10_SOUTHEAST_ENTRY_HEAD",
+          "location": [
+            10.8109598,
+            36.6751099,
+            10.4299984
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.829999
+        }
+      },
+      "stair_mode": false
+    },
+    {
+      "id": "MAIN_GUEST_CONNECTOR",
+      "status": "PASS",
+      "samples": 930,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          2.6180322,
+          23.5803585,
+          5.7005463
+        ],
+        "clearance": 2.5494527353515632,
+        "hit": {
+          "object": "GUEST_CONNECTOR_roof_riser_005",
+          "location": [
+            2.6180322,
+            23.5803585,
+            8.249999
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.349453
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "CONNECTOR_SEAMS",
+      "status": "PASS",
+      "samples": 88,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          2.6180322,
+          23.5803585,
+          5.7005463
+        ],
+        "clearance": 2.5494527353515632,
+        "hit": {
+          "object": "GUEST_CONNECTOR_roof_riser_005",
+          "location": [
+            2.6180322,
+            23.5803585,
+            8.249999
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.349453
+        }
+      },
+      "stair_mode": true
+    },
+    {
+      "id": "CONNECTOR_MAIN_INTERFACE",
+      "status": "PASS",
+      "samples": 12,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          5.4496002,
+          23.4701996,
+          5.28615
+        ],
+        "clearance": 2.9638490213623054,
+        "hit": {
+          "object": "GUEST_CONNECTOR_canopy_000",
+          "location": [
+            5.4496002,
+            23.6501999,
+            8.249999
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.7638493
+        }
+      },
+      "stair_mode": false
+    },
+    {
+      "id": "CONNECTOR_SOUTH_INTERFACE",
+      "status": "PASS",
+      "samples": 10,
+      "failed_samples": 0,
+      "failures": [],
+      "lowest_overhead": {
+        "point": [
+          2.1352999,
+          37.0467987,
+          7.2199998
+        ],
+        "clearance": 2.4177985098083496,
+        "hit": {
+          "object": "GUEST_C10_P_UPPER_RETURN",
+          "location": [
+            2.1352999,
+            37.226799,
+            9.6377983
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.2177992
+        }
+      },
+      "stair_mode": false
+    }
+  ],
+  "counts": {
+    "PASS": 17,
+    "FAIL": 12,
+    "NOT_RUN": 0
+  },
+  "west_window_closure": [
+    {
+      "source_y": 417,
+      "relative_z": 0.15,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_SILL",
+        "location": [
+          3.502799,
+          37.3636017,
+          8.5500002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.1399991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 417,
+      "relative_z": 0.9,
+      "hit": {
+        "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+        "location": [
+          3.5925586,
+          37.3636017,
+          9.3000002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2297588
+      },
+      "passed": true
+    },
+    {
+      "source_y": 417,
+      "relative_z": 1.8,
+      "hit": {
+        "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+        "location": [
+          3.5925589,
+          37.3636017,
+          10.1999998
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2297591
+      },
+      "passed": true
+    },
+    {
+      "source_y": 421,
+      "relative_z": 0.15,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_SILL",
+        "location": [
+          3.502799,
+          37.1527214,
+          8.5500002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.1399991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 421,
+      "relative_z": 0.9,
+      "hit": {
+        "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+        "location": [
+          3.5925586,
+          37.1527214,
+          9.3000002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2297588
+      },
+      "passed": true
+    },
+    {
+      "source_y": 421,
+      "relative_z": 1.8,
+      "hit": {
+        "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+        "location": [
+          3.5925589,
+          37.1527214,
+          10.1999998
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2297591
+      },
+      "passed": true
+    },
+    {
+      "source_y": 425,
+      "relative_z": 0.15,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_SILL",
+        "location": [
+          3.502799,
+          36.9418411,
+          8.5500002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.1399991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 425,
+      "relative_z": 0.9,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_glass_1",
+        "location": [
+          3.6587989,
+          36.9418411,
+          9.3000002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2959991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 425,
+      "relative_z": 1.8,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_glass_1",
+        "location": [
+          3.6587989,
+          36.9418411,
+          10.1999998
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2959991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 430,
+      "relative_z": 0.15,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_SILL",
+        "location": [
+          3.502799,
+          36.6782417,
+          8.5500002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.1399991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 430,
+      "relative_z": 0.9,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_glass_2",
+        "location": [
+          3.6587989,
+          36.6782417,
+          9.3000002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2959991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 430,
+      "relative_z": 1.8,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_glass_2",
+        "location": [
+          3.6587989,
+          36.6782417,
+          10.1999998
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2959991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 434,
+      "relative_z": 0.15,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_SILL",
+        "location": [
+          3.502799,
+          36.4673615,
+          8.5500002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.1399991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 434,
+      "relative_z": 0.9,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_glass_2",
+        "location": [
+          3.6587989,
+          36.4673615,
+          9.3000002
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2959991
+      },
+      "passed": true
+    },
+    {
+      "source_y": 434,
+      "relative_z": 1.8,
+      "hit": {
+        "object": "GUEST_C10_WEST_LOUNGE_WINDOW_glass_2",
+        "location": [
+          3.6587992,
+          36.4673615,
+          10.1999998
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.2959992
+      },
+      "passed": true
+    }
+  ],
+  "west_window_all_closed": true,
+  "full_tour": "NOT_RUN_CANDIDATE_LOCAL_SCOPE",
+  "elapsed_seconds": 141.6766992999983
+}

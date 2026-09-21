@@ -1,0 +1,103 @@
+{
+  "source_sha256": "2a7630b8024c37bd768e563236807f8049469172c7e44b03379a450f91637063",
+  "shape_keys": {
+    "name": "Key",
+    "keys": [
+      {
+        "select": false,
+        "value": 1.0,
+        "interpolation": "KEY_LINEAR",
+        "vertex_group": "",
+        "mute": false,
+        "lock_shape": false,
+        "slider_min": 0.0,
+        "slider_max": 1.0
+      },
+      {
+        "select": false,
+        "value": -0.30901700258255005,
+        "interpolation": "KEY_LINEAR",
+        "vertex_group": "",
+        "mute": false,
+        "lock_shape": false,
+        "slider_min": -1.0,
+        "slider_max": 1.0
+      },
+      {
+        "select": false,
+        "value": -0.9510565400123596,
+        "interpolation": "KEY_LINEAR",
+        "vertex_group": "",
+        "mute": false,
+        "lock_shape": false,
+        "slider_min": -1.0,
+        "slider_max": 1.0
+      }
+    ],
+    "animation": {
+      "action": null,
+      "action_extrapolation": "HOLD",
+      "action_blend_type": "REPLACE",
+      "action_influence": 1.0,
+      "action_tweak_storage": null,
+      "action_slot_handle_tweak_storage": 0,
+      "use_nla": true,
+      "use_tweak_mode": false,
+      "use_pin": false,
+      "action_slot_handle": 0,
+      "last_slot_identifier": "",
+      "action_slot": null
+    }
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "seconds": 3.937373699998716,
+      "vertices": 205392,
+      "faces": 205068,
+      "triangles": 410775
+    },
+    {
+      "frame": 24,
+      "seconds": 1.948869800005923,
+      "vertices": 205401,
+      "faces": 205073,
+      "triangles": 410798
+    }
+  ],
+  "rendered": false,
+  "application": {
+    "status": "ANIMATED_BOOLEAN_CANDIDATE_UNVALIDATED",
+    "water": "WATER_BearRun_Continuous_Upstream_Downstream",
+    "new_modifiers": [
+      "Bridge10 SW actual solid difference",
+      "Bridge10 SE actual solid difference"
+    ],
+    "actual_cutters": [
+      "SITE_Bridge10_Stone_Return_SW",
+      "SITE_Bridge10_Stone_Return_SE"
+    ],
+    "static_masks": [
+      {
+        "name": "WATERTRIM10_SW_Actual_Masonry_Union",
+        "source_actual_masonry": "SITE_Bridge10_Stone_Return_SW",
+        "union_seconds": 11.897733799996786,
+        "vertices": 9831,
+        "polygons": 5918,
+        "source_geometry_changed": false
+      },
+      {
+        "name": "WATERTRIM10_SE_Actual_Masonry_Union",
+        "source_actual_masonry": "SITE_Bridge10_Stone_Return_SE",
+        "union_seconds": 9.762915899998916,
+        "vertices": 7898,
+        "polygons": 4833,
+        "source_geometry_changed": false
+      }
+    ],
+    "preserved": "original shape keys/drivers, base mesh and physical volume modifier",
+    "strategy": "evaluate animated water and Solidify, then subtract the actual closed SW/SE masonry solids each frame",
+    "new_proxy_geometry": "Two exact static unions of actual masonry, not bounding boxes",
+    "baked_frame": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "label": "before",
+      "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_navigation_candidate11a.blend",
+      "source_sha256": "d66ded0f23b7d19c20b81d2f59f94aa5aa77747be4568e85e1d105395fc219ff",
+      "read_only_file_hash_unchanged": true,
+      "geometry_file": "terrace12-independent-12b-before-geometry.json",
+      "snapshot_sha256": "f455db467e68b4978e791223751590fc056e73bbfa85370549ecb022c5ac16ad",
+      "object_count": 23434
+    },
+    {
+      "label": "after",
+      "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_terrace_interface_candidate12b.blend",
+      "source_sha256": "285ea6d0c29b0ff483fb6f582c644f5286b23e83f1d894bedf32546fbca3a14c",
+      "read_only_file_hash_unchanged": true,
+      "geometry_file": "terrace12-independent-12b-after-geometry.json",
+      "snapshot_sha256": "c52449813e4ae36e7565fc2ff429a2be67069e8ab56b9e83e0af96eae7d5d9d2",
+      "object_count": 23434
+    }
+  ],
+  "all_snapshot_differences": [
+    "/global/scene/custom_properties/terrace12b_slab_interface",
+    "/objects/MAIN_L2_TERRACE_S_slab/data_hash",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/custom_properties/terrace12b_slab_interface",
+    "/objects/MAIN_L2_TERRACE_W_slab/data_hash",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/custom_properties/terrace12b_slab_interface",
+    "/meshes/MAIN_L2_TERRACE_W_slab_terrace11",
+    "/meshes/MAIN_L2_TERRACE_S_slab_terrace11"
+  ],
+  "explicit_allowed_differences": [
+    "/objects/MAIN_L2_TERRACE_S_slab/data_hash",
+    "/objects/MAIN_L2_TERRACE_W_slab/data_hash",
+    "/meshes/MAIN_L2_TERRACE_W_slab_terrace11",
+    "/meshes/MAIN_L2_TERRACE_S_slab_terrace11"
+  ],
+  "unexpected_snapshot_differences": [
+    "/global/scene/custom_properties/terrace12b_slab_interface",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/custom_properties/terrace12b_slab_interface",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/custom_properties/terrace12b_slab_interface"
+  ],
+  "non_target_objects_exact": true,
+  "object_sets_identical": true,
+  "materials_exact": true,
+  "camera_objects_exact": true,
+  "action_keyframes_exact": true,
+  "seconds": 95.24583970000094,
+  "rendered": false,
+  "saved": false
+}

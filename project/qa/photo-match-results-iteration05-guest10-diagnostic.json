@@ -1,0 +1,589 @@
+{
+  "test_id": "GEO-07",
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+  "scene_sha256": "6bcfee7841c22e8e2b636352cfca79ae94968afb4235fc20cdc57e250ae046ff",
+  "scene_label": "iteration05",
+  "blender_version": "5.2.1 LTS",
+  "camera_mode": "fit",
+  "camera_source": null,
+  "camera_fit": "7-parameter perspective camera, principal point fixed to scan center; fit geometry frozen; holdouts excluded from fit",
+  "results": [
+    {
+      "id": "guest_exterior_10",
+      "result": "NOT_RUN",
+      "diagnostic_residual_threshold": "WITHIN_1_PERCENT",
+      "reason": "Provisional correspondences require independent visual verification; diagnostic fit is not final GEO-07 acceptance",
+      "fit_points": 8,
+      "holdout_points": 9,
+      "camera": {
+        "location": [
+          1.5045561111018098,
+          33.89808337561401,
+          7.820065664769517
+        ],
+        "rotation_world_to_opencv": [
+          [
+            0.3179862233701167,
+            -0.9469915839092474,
+            -0.045735126017807326
+          ],
+          [
+            0.16034336545772587,
+            0.10125980018537947,
+            -0.9818535827811126
+          ],
+          [
+            0.9344382092468715,
+            0.30488258866565593,
+            0.18404303906431266
+          ]
+        ],
+        "focal_pixels": 704.5885853965254,
+        "sensor_width_mm": 36,
+        "lens_mm": 34.18489093568048,
+        "principal_point": [
+          371.0,
+          512.0
+        ],
+        "resolution": [
+          742,
+          1024
+        ],
+        "distortion": "none fitted; unknown original lens; no crop/warp",
+        "blender_matrix_world_rotation": [
+          [
+            0.3179862233701167,
+            -0.16034336545772587,
+            -0.9344382092468715
+          ],
+          [
+            -0.9469915839092474,
+            -0.10125980018537947,
+            -0.30488258866565593
+          ],
+          [
+            -0.045735126017807326,
+            0.9818535827811126,
+            -0.18404303906431266
+          ]
+        ],
+        "lens_mm_for_36mm_long_edge": 24.770692455346598,
+        "status": "Diagnostic fit only; not a production camera or calibrated source lens"
+      },
+      "median_px": 5.510374365550671,
+      "median_percent_diagonal": 0.435750467562402,
+      "max_percent_diagonal": 18.386073311361415,
+      "fit_median_percent_diagonal": 0.4114977438418332,
+      "holdout_median_percent_diagonal": 0.5170737545527988,
+      "coverage": {
+        "photo_convex_hull_percent": 17.584310773247978,
+        "photo_xy_span_percent": [
+          76.81940700808624,
+          46.09375
+        ],
+        "world_xyz_span_m": [
+          5.701709032058716,
+          0.2973213195800781,
+          1.880000114440918
+        ],
+        "fit_world_rank": 2,
+        "points_behind_camera": 0
+      },
+      "points": [
+        {
+          "id": "W0H",
+          "label": "South facade post 0 west-to-east / H",
+          "photo_px": [
+            87,
+            95
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_0",
+          "edge_vertices": [
+            4,
+            5
+          ],
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            3.9529311656951904,
+            36.0265998840332,
+            10.5
+          ],
+          "projection_px": [
+            91.69235912588164,
+            96.40080772501722
+          ],
+          "residual_px": 4.896988508125437,
+          "residual_percent_diagonal": 0.38724502012126427
+        },
+        {
+          "id": "W0S",
+          "label": "South facade post 0 west-to-east / S",
+          "photo_px": [
+            87,
+            461
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_0",
+          "edge_vertices": [
+            0,
+            1
+          ],
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            3.9529311656951904,
+            36.0265998840332,
+            8.680000305175781
+          ],
+          "projection_px": [
+            80.41379508347944,
+            458.22568990370416
+          ],
+          "residual_px": 7.146669973687645,
+          "residual_percent_diagonal": 0.5651457734010711
+        },
+        {
+          "id": "W1H",
+          "label": "South facade post 1 west-to-east / H",
+          "photo_px": [
+            174,
+            181
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_1",
+          "edge_vertices": [
+            4,
+            5
+          ],
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            4.733522415161133,
+            36.0265998840332,
+            10.5
+          ],
+          "projection_px": [
+            182.71951683534726,
+            190.483692277454
+          ],
+          "residual_px": 12.882949703206364,
+          "residual_percent_diagonal": 1.0187604297542276
+        },
+        {
+          "id": "W1S",
+          "label": "South facade post 1 west-to-east / S",
+          "photo_px": [
+            174,
+            485
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_1",
+          "edge_vertices": [
+            0,
+            1
+          ],
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            4.733522415161133,
+            36.0265998840332,
+            8.680000305175781
+          ],
+          "projection_px": [
+            181.56442689883093,
+            491.54050375144936
+          ],
+          "residual_px": 9.999937181326697,
+          "residual_percent_diagonal": 0.7907769986735372
+        },
+        {
+          "id": "W2H",
+          "label": "South facade post 2 west-to-east / H",
+          "photo_px": [
+            245,
+            254
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_2",
+          "edge_vertices": [
+            4,
+            5
+          ],
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            5.514113426208496,
+            36.0265998840332,
+            10.5
+          ],
+          "projection_px": [
+            246.58425933920387,
+            256.49233571043067
+          ],
+          "residual_px": 2.953238044476369,
+          "residual_percent_diagonal": 0.23353673876476258
+        },
+        {
+          "id": "W2S",
+          "label": "South facade post 2 west-to-east / S",
+          "photo_px": [
+            245,
+            510
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_2",
+          "edge_vertices": [
+            0,
+            1
+          ],
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            5.514113426208496,
+            36.0265998840332,
+            8.680000305175781
+          ],
+          "projection_px": [
+            250.31170559139537,
+            514.1829999086929
+          ],
+          "residual_px": 6.761043153669802,
+          "residual_percent_diagonal": 0.5346510999034049
+        },
+        {
+          "id": "W3H",
+          "label": "South facade post 3 west-to-east / H",
+          "photo_px": [
+            298,
+            309
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_3",
+          "edge_vertices": [
+            4,
+            5
+          ],
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            6.294704437255859,
+            36.0265998840332,
+            10.5
+          ],
+          "projection_px": [
+            293.8660131580831,
+            305.36130951906557
+          ],
+          "residual_px": 5.507260264885341,
+          "residual_percent_diagonal": 0.43550421009767554
+        },
+        {
+          "id": "W3S",
+          "label": "South facade post 3 west-to-east / S",
+          "photo_px": [
+            298,
+            530
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_3",
+          "edge_vertices": [
+            0,
+            1
+          ],
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            6.294704437255859,
+            36.0265998840332,
+            8.680000305175781
+          ],
+          "projection_px": [
+            300.0764790307794,
+            530.5734478332769
+          ],
+          "residual_px": 2.154206949844081,
+          "residual_percent_diagonal": 0.1703508007530677
+        },
+        {
+          "id": "W4H",
+          "label": "South facade post 4 west-to-east / H",
+          "photo_px": [
+            336,
+            348
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_4",
+          "edge_vertices": [
+            4,
+            5
+          ],
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            7.075295925140381,
+            36.0265998840332,
+            10.5
+          ],
+          "projection_px": [
+            330.2814662636343,
+            342.9992074460705
+          ],
+          "residual_px": 7.596680476457434,
+          "residual_percent_diagonal": 0.6007317924229076
+        },
+        {
+          "id": "W4S",
+          "label": "South facade post 4 west-to-east / S",
+          "photo_px": [
+            336,
+            542
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_4",
+          "edge_vertices": [
+            0,
+            1
+          ],
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            7.075295925140381,
+            36.0265998840332,
+            8.680000305175781
+          ],
+          "projection_px": [
+            337.76716986057244,
+            542.9871947990857
+          ],
+          "residual_px": 2.024214140711777,
+          "residual_percent_diagonal": 0.1600712038325251
+        },
+        {
+          "id": "W5H",
+          "label": "South facade post 5 west-to-east / H",
+          "photo_px": [
+            365,
+            378
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_5",
+          "edge_vertices": [
+            4,
+            5
+          ],
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            7.855886936187744,
+            36.0265998840332,
+            10.5
+          ],
+          "projection_px": [
+            359.19044771389406,
+            372.87864598675674
+          ],
+          "residual_px": 7.744621662415901,
+          "residual_percent_diagonal": 0.6124307146152289
+        },
+        {
+          "id": "W5S",
+          "label": "South facade post 5 west-to-east / S",
+          "photo_px": [
+            365,
+            551
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_5",
+          "edge_vertices": [
+            0,
+            1
+          ],
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            7.855886936187744,
+            36.0265998840332,
+            8.680000305175781
+          ],
+          "projection_px": [
+            367.3025289595394,
+            552.714914464788
+          ],
+          "residual_px": 2.870987849339781,
+          "residual_percent_diagonal": 0.22703254166121695
+        },
+        {
+          "id": "W6H",
+          "label": "South facade post 6 west-to-east / H",
+          "photo_px": [
+            388,
+            401
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_6",
+          "edge_vertices": [
+            4,
+            5
+          ],
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            8.636478424072266,
+            36.0265998840332,
+            10.5
+          ],
+          "projection_px": [
+            382.6971267790894,
+            397.17443010604904
+          ],
+          "residual_px": 6.53876512887218,
+          "residual_percent_diagonal": 0.5170737545527988
+        },
+        {
+          "id": "W6S",
+          "label": "South facade post 6 west-to-east / S",
+          "photo_px": [
+            388,
+            561
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_6",
+          "edge_vertices": [
+            0,
+            1
+          ],
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            8.636478424072266,
+            36.0265998840332,
+            8.680000305175781
+          ],
+          "projection_px": [
+            391.07109291008425,
+            560.543291502374
+          ],
+          "residual_px": 3.1048662312849338,
+          "residual_percent_diagonal": 0.24552722233526833
+        },
+        {
+          "id": "W7H",
+          "label": "South facade post 7 west-to-east / H",
+          "photo_px": [
+            407,
+            420
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_7",
+          "edge_vertices": [
+            4,
+            5
+          ],
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            9.417069435119629,
+            36.0265998840332,
+            10.5
+          ],
+          "projection_px": [
+            402.18639540956866,
+            417.3179417427102
+          ],
+          "residual_px": 5.510374365550671,
+          "residual_percent_diagonal": 0.435750467562402
+        },
+        {
+          "id": "W7S",
+          "label": "South facade post 7 west-to-east / S",
+          "photo_px": [
+            407,
+            567
+          ],
+          "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_7",
+          "edge_vertices": [
+            0,
+            1
+          ],
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "B eight visible sequential posts; C model equal division, not independent bay survey",
+          "observation_basis": "Viewed original A10 plus 3x unretouched crop before fit; center of physical frame junction, not top of rough stone",
+          "world": [
+            9.417069435119629,
+            36.0265998840332,
+            8.680000305175781
+          ],
+          "projection_px": [
+            410.6115753903133,
+            566.9791142415966
+          ],
+          "residual_px": 3.6116357810306385,
+          "residual_percent_diagonal": 0.2856016444341761
+        },
+        {
+          "id": "R01",
+          "label": "Candidate outer soffit step; noncoplanar independent diagnostic holdout",
+          "photo_px": [
+            657,
+            467
+          ],
+          "object": "GUEST_LOW_ARM_ROOF",
+          "vertex": 1,
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "independently_verified": false,
+          "correspondence_confidence": "U candidate local step association; not a confirmed roof corner",
+          "blocker": "Exact longitudinal station of photographed soffit step not independently identified; exclude from acceptance",
+          "world": [
+            9.654640197753906,
+            35.729278564453125,
+            10.5600004196167
+          ],
+          "projection_px": [
+            430.44510724186256,
+            414.73682792276986
+          ],
+          "residual_px": 232.50496465285494,
+          "residual_percent_diagonal": 18.386073311361415
+        }
+      ],
+      "overlay": "D:\\zx\\test\\project\\qa\\photo-match-guest_exterior_10-iteration05-guest10-diagnostic.png"
+    }
+  ],
+  "points_file": "D:\\zx\\test\\project\\data\\photo-match-points-iteration05.json",
+  "points_sha256": "db487c3a2d8506601b15adf61e180dc07e6e49c7d269097088781089dbf6fa27"
+}

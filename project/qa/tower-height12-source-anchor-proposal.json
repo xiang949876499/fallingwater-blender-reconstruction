@@ -1,0 +1,247 @@
+{
+  "status": "PROPOSED_ONE_NEW_ANCHOR_NOT_ADDED_TO_CENTRAL_TABLE",
+  "anchor_id": "MAIN_TOWER_CONTINUOUS_COPING_RELATIVE_MAIN_TERRACE",
+  "source": {
+    "sheet": "HABS PA-5346, sheet 10, Section Looking West",
+    "path": "research\\references\\architecture\\main-10-original.tif",
+    "sha256": "db6591996c049961a50ba593c002dc394d5708f1c15c5935e1c3671aed1e2ac7",
+    "archive_url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/",
+    "original_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00010a.tif",
+    "nominal_label": "MAIN TOWER 32 feet 9 1/2 inches",
+    "datum_label": "MAIN LEVEL TERRACE 0 feet 0 inches",
+    "nominal_m": 9.9949,
+    "label_evidence": "A: directly read printed label",
+    "graphic_endpoint_evidence": "C: witness aligns continuous masonry/coping upper silhouette; raised outlets above it are excluded",
+    "exact_sheet_survey_date": "UNKNOWN",
+    "collection_date": "circa 2010, official museum collection-level description, independently reopened 2026-09-21",
+    "date_url": "https://fallingwater.org/learn/preservation-and-collections/research-resources/architectural-drawings/",
+    "retrieval_date": "2026-09-20; not a survey date"
+  },
+  "mesh_probe": {
+    "source_blend": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration10.blend",
+    "source_sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+    "frame": 48,
+    "upper_object": "MAIN_chimney_cap",
+    "upper_face": {
+      "polygon": 1,
+      "world_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "z_m": 9.5600004196167,
+      "world_vertices": [
+        [
+          -1.1003999710083008,
+          8.283599853515625,
+          9.5600004196167
+        ],
+        [
+          0.41920000314712524,
+          8.283599853515625,
+          9.5600004196167
+        ],
+        [
+          0.41920000314712524,
+          11.682000160217285,
+          9.5600004196167
+        ],
+        [
+          -1.1003999710083008,
+          11.682000160217285,
+          9.5600004196167
+        ]
+      ],
+      "evaluated_vertex_ids": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "centroid_world": [
+        -0.34059998393058777,
+        9.982799530029297,
+        9.5600004196167
+      ]
+    },
+    "nominal_endpoint_role": "continuous tower masonry/coping upper finished silhouette",
+    "component_name_mapping": "C; source does not name a model component or a separate slab construction"
+  },
+  "datum_options": [
+    {
+      "object": "MAIN_L1_TERRACE_W_finish",
+      "face": {
+        "polygon": 1,
+        "world_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "z_m": 0.02199999988079071,
+        "world_vertices": [
+          [
+            -4.611199855804443,
+            0.10620000213384628,
+            0.02199999988079071
+          ],
+          [
+            -0.15719999372959137,
+            0.10620000213384628,
+            0.02199999988079071
+          ],
+          [
+            -0.15719999372959137,
+            4.460400104522705,
+            0.02199999988079071
+          ],
+          [
+            -4.611199855804443,
+            4.460400104522705,
+            0.02199999988079071
+          ]
+        ],
+        "evaluated_vertex_ids": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "centroid_world": [
+          -2.384199857711792,
+          2.2832999229431152,
+          0.02199999988079071
+        ]
+      },
+      "rationale": "Preferred visible terrace-surface correspondence; C, consistent with MAIN_LEVEL_2.",
+      "actual_relative_height_m": 9.538000419735909,
+      "error_m": -0.45689958026409094
+    },
+    {
+      "object": "MAIN_L1_TERRACE_W_slab",
+      "face": {
+        "polygon": 1,
+        "world_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "z_m": 0.0,
+        "world_vertices": [
+          [
+            -4.611199855804443,
+            0.10620000213384628,
+            0.0
+          ],
+          [
+            -0.15719999372959137,
+            0.10620000213384628,
+            0.0
+          ],
+          [
+            -0.15719999372959137,
+            4.460400104522705,
+            0.0
+          ],
+          [
+            -4.611199855804443,
+            4.460400104522705,
+            0.0
+          ]
+        ],
+        "evaluated_vertex_ids": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "centroid_world": [
+          -2.384199857711792,
+          2.2832999229431152,
+          0.0
+        ]
+      },
+      "rationale": "Existing structural-datum convention used by MAIN_LEVEL_3 and MAIN_ROOF_WEST; C.",
+      "actual_relative_height_m": 9.5600004196167,
+      "error_m": -0.43489958038330023
+    }
+  ],
+  "datum_decision": "Do not silently reconcile the current 22mm mixed table convention. Both explicit options fail the nominal target.",
+  "nominal_comparison_tolerance_m": 0.0499745,
+  "numeric_status_both_datums": "FAIL",
+  "absolute_survey_accuracy": "UNKNOWN",
+  "source_pixel_locator": [
+    {
+      "role": "continuous_coping_top",
+      "crop": "project\\qa\\tower-height12-source-tower-top-native.png",
+      "window_in_crop_xyxy": [
+        400,
+        290,
+        2600,
+        360
+      ],
+      "black_pixel_peak": 2200,
+      "peak95_native_y_rows": [
+        7637,
+        7638
+      ],
+      "native_x_range": [
+        8231,
+        10431
+      ],
+      "use": "Reproducible visual locator only, not metric survey."
+    },
+    {
+      "role": "tower_witness_middle",
+      "crop": "project\\qa\\tower-height12-source-tower-line-middle-native.png",
+      "window_in_crop_xyxy": [
+        300,
+        80,
+        3500,
+        210
+      ],
+      "black_pixel_peak": 2792,
+      "peak95_native_y_rows": [
+        7636
+      ],
+      "native_x_range": [
+        11122,
+        14322
+      ],
+      "use": "Reproducible visual locator only, not metric survey."
+    },
+    {
+      "role": "main_terrace_zero_line",
+      "crop": "project\\qa\\tower-height12-source-main-zero-label-native.png",
+      "window_in_crop_xyxy": [
+        50,
+        260,
+        1350,
+        375
+      ],
+      "black_pixel_peak": 1135,
+      "peak95_native_y_rows": [
+        10839,
+        10840
+      ],
+      "native_x_range": [
+        14485,
+        15785
+      ],
+      "use": "Reproducible visual locator only, not metric survey."
+    }
+  ],
+  "central_dimensions_sha256_read": "3b3c72b9fc27ad8daaed16df485e915f6fb9df365df089b91449c6c3ec645ffd",
+  "repeat_checks_count_as_additional_anchors": false,
+  "prohibited_substitutions": [
+    "MAIN_chimney_flue top",
+    "MAIN_chimney_flue.001 top",
+    "MAIN_stone_tower_west structural top",
+    "MAIN_stone_tower_north structural top"
+  ],
+  "scope": {
+    "source_blend_changed": false,
+    "tower_candidate_changed": false,
+    "production_changed": false,
+    "rendered": false
+  }
+}

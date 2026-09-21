@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "source_module_sha256": "17f42fda4280050f72d10ed7fc1b5c2b9a6891e156e54e86b2ccc103e053a54f",
+  "fresh_guest_build": true,
+  "room_count": 20,
+  "object_count": 859,
+  "wall_bounds": [
+    [
+      1.2976000308990479,
+      2.3626999855041504
+    ],
+    [
+      38.15439987182617,
+      41.14604187011719
+    ],
+    [
+      5.800000190734863,
+      9.199999809265137
+    ]
+  ],
+  "candidate_bounds_match": true,
+  "treads": [
+    "GUEST_LAUNDRY_DESCENT_tread_00",
+    "GUEST_LAUNDRY_DESCENT_tread_01",
+    "GUEST_LAUNDRY_DESCENT_tread_02",
+    "GUEST_LAUNDRY_DESCENT_tread_03",
+    "GUEST_LAUNDRY_DESCENT_tread_04",
+    "GUEST_LAUNDRY_DESCENT_tread_05",
+    "GUEST_LAUNDRY_DESCENT_tread_06",
+    "GUEST_LAUNDRY_DESCENT_tread_07",
+    "GUEST_LAUNDRY_DESCENT_tread_08",
+    "GUEST_LAUNDRY_DESCENT_tread_09",
+    "GUEST_LAUNDRY_DESCENT_tread_10",
+    "GUEST_LAUNDRY_DESCENT_tread_11",
+    "GUEST_LAUNDRY_DESCENT_tread_12",
+    "GUEST_LAUNDRY_DESCENT_tread_13"
+  ],
+  "outer_rails": [],
+  "inner_rails": [
+    "GUEST_LAUNDRY_DESCENT_baluster_1_0.1",
+    "GUEST_LAUNDRY_DESCENT_baluster_1_0.5",
+    "GUEST_LAUNDRY_DESCENT_baluster_1_0.9",
+    "GUEST_LAUNDRY_DESCENT_handrail_1"
+  ],
+  "wall_custom_properties": {
+    "room_id": "GUEST_B1_STAIR",
+    "reference": "HABS PA-5346-A guest01 basement inset; guest03 south elevation/guest04 section reviewed",
+    "role": "architecture",
+    "evidence": "A/C",
+    "component_type": "solid_stair_retaining_wall",
+    "plan_evidence": "A: independent solid outer wall with rounded south end and thick north return; guest01 2ft5in opposite-face dimension",
+    "mapping_evidence": "C: basement inset mapped to existing fixed east-wall/door/stair controls; rounded detail and 0.20m thickness traced approximately",
+    "height_evidence": "C: top is L1+0.80m, buried base B1-0.24m; no directly identified height dimension. Nearby rounded wall ends in south elevation are qualitative only.",
+    "material_evidence": "C: ochre finished concrete inference; plan/section hatching does not prove finish identity",
+    "nominal_clear_width_m": 0.7365999999999999,
+    "dimension_endpoints": "Existing laundry east finished stone surface to this straight west inner face; rough finish plane is C and actual visible projections are measured in QA",
+    "nominal_finish_plane_offset_m": 0.0185,
+    "finish_plane_evidence": "C: midpoint of existing 0..37mm rough stone projection envelope, not an independently dimensioned archival surface",
+    "outer_generic_rail_replaced": "Only pre-existing inferred east rail/balusters occupying this solid wall are omitted; stairs and inner rail retained"
+  },
+  "scope": "Module wiring only; does not replace complete-world navigation or visual evidence"
+}

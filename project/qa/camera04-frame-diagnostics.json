@@ -1,0 +1,675 @@
+[
+  {
+    "room": {
+      "id": "MAIN_B_BATH",
+      "label": "Bath",
+      "building": "MAIN",
+      "level": "B",
+      "z": -2.15,
+      "height": 2.15,
+      "polygon": [
+        [
+          -1.8864,
+          15.558300000000001
+        ],
+        [
+          -0.4192,
+          15.558300000000001
+        ],
+        [
+          -0.4192,
+          13.6998
+        ],
+        [
+          -1.8864,
+          13.6998
+        ]
+      ],
+      "center": [
+        -1.1528,
+        14.6556,
+        -2.15
+      ],
+      "entry": [
+        -1.9388,
+        14.337,
+        -2.15
+      ],
+      "kind": "bathroom",
+      "reference": "HABS PA-5346 sheet 03",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          291,
+          247
+        ],
+        [
+          319,
+          247
+        ],
+        [
+          319,
+          282
+        ],
+        [
+          291,
+          282
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_B_BATH_A",
+        "CAM_MAIN_B_BATH_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    "assets": [
+      {
+        "name": "FW_FURN_MAIN_B_BATH_washbasin_00",
+        "type": "washbasin",
+        "location": [
+          -1.1528,
+          14.05291,
+          -2.15
+        ],
+        "views": {
+          "A": {
+            "xmin": -14.539520263671875,
+            "xmax": -0.1184358075261116,
+            "ymin": -8.28400993347168,
+            "ymax": 2.3808529376983643,
+            "mindepth": 0.05831993371248245
+          },
+          "B": {
+            "xmin": 0.6946466565132141,
+            "xmax": 1.2071336507797241,
+            "ymin": -1.1294126510620117,
+            "ymax": 0.7543812990188599,
+            "mindepth": 0.9281135201454163
+          }
+        }
+      },
+      {
+        "name": "FW_FURN_MAIN_B_BATH_water_closet_01",
+        "type": "water_closet",
+        "location": [
+          -1.17646,
+          15.13864,
+          -2.15
+        ],
+        "views": {
+          "A": {
+            "xmin": 0.20862890779972076,
+            "xmax": 1.484649658203125,
+            "ymin": -4.204914093017578,
+            "ymax": -0.6641960144042969,
+            "mindepth": 0.3898923099040985
+          },
+          "B": {
+            "xmin": 0.047448351979255676,
+            "xmax": 0.49119627475738525,
+            "ymin": -0.9187940955162048,
+            "ymax": 0.02890239842236042,
+            "mindepth": 1.3088825941085815
+          }
+        }
+      },
+      {
+        "name": "FW_FURN_MAIN_B_BATH_towel_rail_02",
+        "type": "towel_rail",
+        "location": [
+          -1.1528,
+          13.99716,
+          -2.15
+        ],
+        "views": {
+          "A": {
+            "xmin": -1.5388983488082886,
+            "xmax": -0.4217677712440491,
+            "ymin": -3.9773647785186768,
+            "ymax": -0.9882730841636658,
+            "mindepth": 0.30172187089920044
+          },
+          "B": {
+            "xmin": 0.7789227962493896,
+            "xmax": 0.8388054370880127,
+            "ymin": -0.6296930909156799,
+            "ymax": -0.028531784191727638,
+            "mindepth": 1.203691005706787
+          }
+        }
+      },
+      {
+        "name": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03",
+        "type": "practical_ceiling_lamp_C",
+        "location": [
+          -1.1528,
+          14.6556,
+          -0.12
+        ],
+        "views": {
+          "A": {
+            "xmin": -0.21224547922611237,
+            "xmax": 0.2282148003578186,
+            "ymin": 1.3233166933059692,
+            "ymax": 2.344817638397217,
+            "mindepth": 0.3336150050163269
+          },
+          "B": {
+            "xmin": 0.44685977697372437,
+            "xmax": 0.5489727258682251,
+            "ymin": 0.8782077431678772,
+            "ymax": 1.0874727964401245,
+            "mindepth": 1.28232741355896
+          }
+        }
+      }
+    ],
+    "cameras": {
+      "A": {
+        "location": [
+          -0.66373,
+          14.83555,
+          -0.5278
+        ],
+        "target": [
+          -1.37288,
+          14.92641,
+          -0.60294
+        ],
+        "lens": 28,
+        "exposure": 3.0,
+        "room_id": "MAIN_B_BATH",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_B_BATH_finish",
+        "support_z": -2.1278,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "B": {
+        "location": [
+          -2.5388,
+          14.337,
+          -0.5278
+        ],
+        "target": [
+          -1.1528,
+          14.6556,
+          -0.67727
+        ],
+        "lens": 28,
+        "exposure": 3.0,
+        "room_id": "MAIN_B_BATH",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_B_WINE_finish",
+        "support_z": -2.1278,
+        "outside_room_polygon": true,
+        "render_reviewed": false
+      }
+    }
+  },
+  {
+    "room": {
+      "id": "MAIN_L1_SERVANT",
+      "label": "Servant Sitting Room",
+      "building": "MAIN",
+      "level": "L1",
+      "z": 0.1,
+      "height": 2.4,
+      "polygon": [
+        [
+          -7.5194,
+          16.5672
+        ],
+        [
+          -7.0216,
+          16.6734
+        ],
+        [
+          -6.550000000000001,
+          16.6203
+        ],
+        [
+          -6.3666,
+          17.27343
+        ],
+        [
+          -4.323,
+          17.27343
+        ],
+        [
+          -4.323,
+          16.49286
+        ],
+        [
+          -4.663600000000001,
+          16.49286
+        ],
+        [
+          -4.663600000000001,
+          14.3901
+        ],
+        [
+          -7.5194,
+          14.3901
+        ]
+      ],
+      "center": [
+        -6.130800000000001,
+        15.3459,
+        0.1
+      ],
+      "entry": [
+        -4.8208,
+        16.7265,
+        0.1
+      ],
+      "kind": "sitting",
+      "reference": "HABS PA-5346 sheet 04",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          183.5,
+          228
+        ],
+        [
+          193,
+          226
+        ],
+        [
+          202,
+          227
+        ],
+        [
+          205.5,
+          214.7
+        ],
+        [
+          244.5,
+          214.7
+        ],
+        [
+          244.5,
+          229.4
+        ],
+        [
+          238,
+          229.4
+        ],
+        [
+          238,
+          269
+        ],
+        [
+          183.5,
+          269
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L1_SERVANT_A",
+        "CAM_MAIN_L1_SERVANT_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    "assets": [
+      {
+        "name": "FW_FURN_MAIN_L1_SERVANT_service_settee_00",
+        "type": "service_settee",
+        "location": [
+          -5.97275,
+          16.25031,
+          0.1
+        ],
+        "views": {
+          "A": {
+            "xmin": -0.13796494901180267,
+            "xmax": 0.9305853247642517,
+            "ymin": -0.8814621567726135,
+            "ymax": 0.20247723162174225,
+            "mindepth": 1.2300664186477661
+          },
+          "B": {
+            "xmin": -0.8305695056915283,
+            "xmax": 0.9070839881896973,
+            "ymin": -4.190920829772949,
+            "ymax": 0.2128036469221115,
+            "mindepth": 0.28360515832901
+          }
+        }
+      },
+      {
+        "name": "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01",
+        "type": "small_sitting_table",
+        "location": [
+          -5.97275,
+          15.50623,
+          0.1
+        ],
+        "views": {
+          "A": {
+            "xmin": -0.36289548873901367,
+            "xmax": 0.6547240018844604,
+            "ymin": -2.2620182037353516,
+            "ymax": -0.625018298625946,
+            "mindepth": 0.6021118760108948
+          },
+          "B": {
+            "xmin": 0.5556216835975647,
+            "xmax": 1.0927844047546387,
+            "ymin": -1.1236478090286255,
+            "ymax": -0.14661505818367004,
+            "mindepth": 1.011702299118042
+          }
+        }
+      },
+      {
+        "name": "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02",
+        "type": "sitting_room_casework",
+        "location": [
+          -6.90074,
+          14.94816,
+          0.1
+        ],
+        "views": {
+          "A": {
+            "xmin": -4.247132301330566,
+            "xmax": -0.23388302326202393,
+            "ymin": -7.3847832679748535,
+            "ymax": -0.6018452048301697,
+            "mindepth": 0.17301201820373535
+          },
+          "B": {
+            "xmin": 1.017103672027588,
+            "xmax": 64.70719146728516,
+            "ymin": -68.32131958007812,
+            "ymax": -0.06568212062120438,
+            "mindepth": 0.01336977630853653
+          }
+        }
+      }
+    ],
+    "cameras": {
+      "A": {
+        "location": [
+          -5.5806,
+          14.73525,
+          1.7222
+        ],
+        "target": [
+          -5.69064,
+          15.68043,
+          1.62219
+        ],
+        "lens": 28,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_SERVANT",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_L1_SERVANT_finish",
+        "support_z": 0.1222,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "B": {
+        "location": [
+          -7.24797,
+          16.26028,
+          1.7222
+        ],
+        "target": [
+          -6.16224,
+          16.04682,
+          1.6059
+        ],
+        "lens": 28,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_SERVANT",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_L1_SERVANT_finish",
+        "support_z": 0.1222,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      }
+    }
+  },
+  {
+    "room": {
+      "id": "MAIN_L1_SERVICE_STAIR",
+      "label": "Service Stair",
+      "building": "MAIN",
+      "level": "L1",
+      "z": 0.1,
+      "height": 2.4,
+      "polygon": [
+        [
+          -6.288,
+          17.9478
+        ],
+        [
+          -2.5676,
+          17.9478
+        ],
+        [
+          -2.5676,
+          16.461000000000002
+        ],
+        [
+          -4.5064,
+          16.461000000000002
+        ],
+        [
+          -4.5064,
+          17.0451
+        ],
+        [
+          -6.288,
+          17.0451
+        ]
+      ],
+      "center": [
+        -3.7204,
+        17.416800000000002,
+        0.1
+      ],
+      "entry": [
+        -3.4584,
+        16.461000000000002,
+        0.1
+      ],
+      "kind": "stair",
+      "reference": "HABS PA-5346 sheet 04",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          207,
+          202
+        ],
+        [
+          278,
+          202
+        ],
+        [
+          278,
+          230
+        ],
+        [
+          241,
+          230
+        ],
+        [
+          241,
+          219
+        ],
+        [
+          207,
+          219
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L1_SERVICE_STAIR_A",
+        "CAM_MAIN_L1_SERVICE_STAIR_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    "assets": [],
+    "cameras": {
+      "A": {
+        "location": [
+          -5.3579,
+          17.5348,
+          0.31558
+        ],
+        "target": [
+          -3.7204,
+          17.4168,
+          0.61558
+        ],
+        "lens": 28,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_SERVICE_STAIR",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_service_stair_04",
+        "support_z": -1.28442,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "B": {
+        "location": [
+          -2.70047,
+          17.2044,
+          1.7222
+        ],
+        "target": [
+          -4.49068,
+          17.5761,
+          1.1
+        ],
+        "lens": 28,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_SERVICE_STAIR",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_floor_threshold_service_top_finish",
+        "support_z": 0.1222,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      }
+    }
+  },
+  {
+    "room": {
+      "id": "MAIN_L1_STAIR",
+      "label": "Main Stair",
+      "building": "MAIN",
+      "level": "L1",
+      "z": 0.1,
+      "height": 2.4,
+      "polygon": [
+        [
+          4.3492,
+          13.6998
+        ],
+        [
+          7.6504,
+          13.6998
+        ],
+        [
+          7.6504,
+          12.531600000000001
+        ],
+        [
+          4.3492,
+          12.531600000000001
+        ]
+      ],
+      "center": [
+        5.9736,
+        13.1157,
+        0.1
+      ],
+      "entry": [
+        6.969200000000001,
+        12.213000000000001,
+        0.1
+      ],
+      "kind": "stair",
+      "reference": "HABS PA-5346 sheet 04",
+      "evidence": "C",
+      "notes": "Room name and topology from HABS; manually traced boundaries, pixel tolerance 1–3 pixels; construction thickness/door heights approximated. Baths remain separate as drawn.",
+      "source_polygon": [
+        [
+          410,
+          282
+        ],
+        [
+          473,
+          282
+        ],
+        [
+          473,
+          304
+        ],
+        [
+          410,
+          304
+        ]
+      ],
+      "furniture": [],
+      "qa_cameras": [
+        "CAM_MAIN_L1_STAIR_A",
+        "CAM_MAIN_L1_STAIR_B"
+      ],
+      "model_status": "built; integrated visual and traversal QA pending",
+      "qa_status": "NOT_ACCEPTED"
+    },
+    "assets": [],
+    "cameras": {
+      "A": {
+        "location": [
+          5.58715,
+          12.7263,
+          -1.6498
+        ],
+        "target": [
+          5.48628,
+          13.29093,
+          -1.3498
+        ],
+        "lens": 28,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_STAIR",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "SITE_Continuous_BearRun_Terrain",
+        "support_z": -3.2498,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "B": {
+        "location": [
+          5.58715,
+          13.2455,
+          3.5852
+        ],
+        "target": [
+          6.47664,
+          12.94047,
+          1.1
+        ],
+        "lens": 28,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_STAIR",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_stair1_10",
+        "support_z": 1.9852,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      }
+    }
+  }
+]

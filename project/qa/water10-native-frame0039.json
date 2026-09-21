@@ -1,0 +1,386 @@
+{
+  "frame": 39,
+  "scene_time_from_frame1_s": 1.5833333333333333,
+  "native_config": {
+    "resolution": [
+      320,
+      307,
+      37
+    ],
+    "dx_internal": 0.0031250000465661287,
+    "last_substep_dt_internal": 0.028062894940376282,
+    "T_internal": 4.062500953674316
+  },
+  "mesh_vertices": 130680,
+  "mesh_triangles": 261368,
+  "mesh_volume_m3": 127.59964810039583,
+  "mesh_volume_below_source_plane_m3": 127.57915497312109,
+  "mesh_volume_inside_removal_interfaces_below_source_m3": 127.57166501632688,
+  "mesh_boundary_edges": 0,
+  "mesh_nonmanifold_edges": 0,
+  "phi_negative_center_volume_proxy_m3": 139.45543849938244,
+  "Fluid_flag_center_volume_proxy_m3": 117.68035777859073,
+  "source_planes": {
+    "-5.62": {
+      "world_z_m": -5.62,
+      "subsamples": 8,
+      "full_plane_down_positive": {
+        "positive_out_m3_s": 0.6163767709185864,
+        "negative_out_m3_s": 0.0,
+        "net_out_m3_s": 0.6163767709185864,
+        "wet_area_m2": 0.08595703808125127
+      },
+      "jet_X03_15_Yminus27_minus165": {
+        "positive_out_m3_s": 0.6163767709185864,
+        "negative_out_m3_s": 0.0,
+        "net_out_m3_s": 0.6163767709185864,
+        "wet_area_m2": 0.08595703808125127
+      },
+      "outside_jet_window_net_down_m3_s": 0.0
+    },
+    "-5.64": {
+      "world_z_m": -5.64,
+      "subsamples": 8,
+      "full_plane_down_positive": {
+        "positive_out_m3_s": 0.6198555156900686,
+        "negative_out_m3_s": 0.0,
+        "net_out_m3_s": 0.6198555156900686,
+        "wet_area_m2": 0.08613281934522113
+      },
+      "jet_X03_15_Yminus27_minus165": {
+        "positive_out_m3_s": 0.6198555156900686,
+        "negative_out_m3_s": 0.0,
+        "net_out_m3_s": 0.6198555156900686,
+        "wet_area_m2": 0.08613281934522113
+      },
+      "outside_jet_window_net_down_m3_s": 0.0
+    },
+    "-5.68": {
+      "world_z_m": -5.68,
+      "subsamples": 8,
+      "full_plane_down_positive": {
+        "positive_out_m3_s": 0.6322029536496805,
+        "negative_out_m3_s": 0.0,
+        "net_out_m3_s": 0.6322029536496805,
+        "wet_area_m2": 0.08727539756102506
+      },
+      "jet_X03_15_Yminus27_minus165": {
+        "positive_out_m3_s": 0.6322029536496805,
+        "negative_out_m3_s": 0.0,
+        "net_out_m3_s": 0.6322029536496805,
+        "wet_area_m2": 0.08727539756102506
+      },
+      "outside_jet_window_net_down_m3_s": 0.0
+    }
+  },
+  "outflow_removal_interfaces": {
+    "Xminus": {
+      "axis": 0,
+      "sign": -1,
+      "MAC_index": 1,
+      "actual_removal_interface_world_m": -15.925000474036217,
+      "geometric_external_face_flux": "UNMEASURED_NOT_SAVED_FOR_XPLUS",
+      "interface_gate_cells": 4052,
+      "inner_flags": {
+        "1": 360,
+        "2": 6965,
+        "4": 3692,
+        "20": 342
+      },
+      "outflow_layer_flags": {
+        "2": 342,
+        "20": 11017
+      },
+      "outflow_phi_half_count": 11017,
+      "methods": {
+        "inner_phi_constant": {
+          "positive_out_m3_s": 4.328374973009007,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 4.328374973009007,
+          "wet_area_m2": 2.0112892223428966
+        },
+        "inner_phi_linear_extrapolated": {
+          "positive_out_m3_s": 4.097103177476162,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 4.097103177476162,
+          "wet_area_m2": 1.8987892134021997
+        },
+        "post_delete_phi_blend_BIASED": {
+          "positive_out_m3_s": 3.3707902297012033,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 3.3707902297012033,
+          "wet_area_m2": 1.5180469956435285
+        },
+        "inner_Fluid_flag_binary": {
+          "positive_out_m3_s": 4.358372688293457,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 4.358372688293457,
+          "wet_area_m2": 2.025000160932544
+        }
+      },
+      "interpretation": "POST_STEP_OUTFLOW_REMOVAL_INTERFACE_FLUX_PROXY; resetOutflow destroys pre-deletion phi/particles; negative outward velocity is not verified replenishment from an external reservoir."
+    },
+    "Yminus": {
+      "axis": 1,
+      "sign": -1,
+      "MAC_index": 1,
+      "actual_removal_interface_world_m": -16.93750044307695,
+      "geometric_external_face_flux": "UNMEASURED_NOT_SAVED_FOR_XPLUS",
+      "interface_gate_cells": 2877,
+      "inner_flags": {
+        "1": 223,
+        "2": 8573,
+        "4": 2654,
+        "20": 390
+      },
+      "outflow_layer_flags": {
+        "2": 320,
+        "20": 11520
+      },
+      "outflow_phi_half_count": 11520,
+      "methods": {
+        "inner_phi_constant": {
+          "positive_out_m3_s": 2.1433206711864905,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 2.1433206711864905,
+          "wet_area_m2": 1.2403125985711831
+        },
+        "inner_phi_linear_extrapolated": {
+          "positive_out_m3_s": 2.020491195558792,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 2.020491195558792,
+          "wet_area_m2": 1.16753915528767
+        },
+        "post_delete_phi_blend_BIASED": {
+          "positive_out_m3_s": 1.5915789301458068,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 1.5915789301458068,
+          "wet_area_m2": 0.9059766345005494
+        },
+        "inner_Fluid_flag_binary": {
+          "positive_out_m3_s": 2.177379846572876,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 2.177379846572876,
+          "wet_area_m2": 1.2543750996887704
+        }
+      },
+      "interpretation": "POST_STEP_OUTFLOW_REMOVAL_INTERFACE_FLUX_PROXY; resetOutflow destroys pre-deletion phi/particles; negative outward velocity is not verified replenishment from an external reservoir."
+    },
+    "Xplus": {
+      "axis": 0,
+      "sign": 1,
+      "MAC_index": 319,
+      "actual_removal_interface_world_m": 7.925000473677635,
+      "geometric_external_face_flux": "UNMEASURED_NOT_SAVED_FOR_XPLUS",
+      "interface_gate_cells": 209,
+      "inner_flags": {
+        "1": 206,
+        "2": 10808,
+        "4": 3,
+        "20": 342
+      },
+      "outflow_layer_flags": {
+        "2": 342,
+        "20": 11017
+      },
+      "outflow_phi_half_count": 11017,
+      "methods": {
+        "inner_phi_constant": {
+          "positive_out_m3_s": 2.094875895569783,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 2.094875895569783,
+          "wet_area_m2": 1.1587500920891782
+        },
+        "inner_phi_linear_extrapolated": {
+          "positive_out_m3_s": 2.0936724955775237,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 2.0936724955775237,
+          "wet_area_m2": 1.158046967033299
+        },
+        "post_delete_phi_blend_BIASED": {
+          "positive_out_m3_s": 1.993034642778597,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 1.993034642778597,
+          "wet_area_m2": 1.0947657120041567
+        },
+        "inner_Fluid_flag_binary": {
+          "positive_out_m3_s": 2.102696657180786,
+          "negative_out_m3_s": 0.0,
+          "net_out_m3_s": 2.102696657180786,
+          "wet_area_m2": 1.158750092089178
+        }
+      },
+      "interpretation": "POST_STEP_OUTFLOW_REMOVAL_INTERFACE_FLUX_PROXY; resetOutflow destroys pre-deletion phi/particles; negative outward velocity is not verified replenishment from an external reservoir."
+    }
+  },
+  "source_cell_wet_count": 33,
+  "source_cell_median_velocity_world_m_s": [
+    -1.5062255859375,
+    -1.0015869140625,
+    -6.9111328125
+  ],
+  "source_C_design_velocity_world_m_s": [
+    -1.5031434297561646,
+    -1.0052733421325684,
+    -6.694818496704102
+  ],
+  "native_source_ring_at_minus5_35": {
+    "plane_z_m": -5.35,
+    "segments": 31,
+    "components": 1,
+    "bad_degree_vertices": 10,
+    "assembled_upstream_join": false,
+    "status": "NATIVE_CROSS_SECTION_ONLY_NOT_A_COMPOSITE_JOIN"
+  },
+  "secondary_metadata": [
+    {
+      "name": "kinetic_energy_secondary",
+      "type": "float",
+      "metadata": {
+        "class": "fog volume",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(317, 288, 33)",
+        "file_bbox_min": "(2, 2, 5)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "3140548",
+        "file_voxel_count": "201738",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "kinetic_energy_secondary"
+      }
+    },
+    {
+      "name": "particles_secondary",
+      "type": "ptdataidx32",
+      "metadata": {
+        "class": "unknown",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(291, 254, 25)",
+        "file_bbox_min": "(0, 0, 6)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "1433128",
+        "file_voxel_count": "5709",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "particles_secondary"
+      }
+    },
+    {
+      "name": "trapped_air_secondary",
+      "type": "float",
+      "metadata": {
+        "class": "fog volume",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(317, 281, 33)",
+        "file_bbox_min": "(2, 2, 5)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "2846820",
+        "file_voxel_count": "72998",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "trapped_air_secondary"
+      }
+    },
+    {
+      "name": "wave_crest_secondary",
+      "type": "float",
+      "metadata": {
+        "class": "fog volume",
+        "file_base_resolution": "(320, 307, 37)",
+        "file_bbox_max": "(315, 286, 25)",
+        "file_bbox_min": "(2, 2, 5)",
+        "file_compression": "blosc",
+        "file_mem_bytes": "2306532",
+        "file_voxel_count": "9522",
+        "file_voxel_size": "0.07500000298023224",
+        "is_saved_as_half_float": "True",
+        "name": "wave_crest_secondary"
+      }
+    }
+  ],
+  "heads_npz": "water10-native-heads0039.npz",
+  "groups": {
+    "AUTHORED_INITIAL_STEEP_REGION": {
+      "points": 440,
+      "head_valid_below_source_plane": 344,
+      "head_missing": 96,
+      "head_median_m": -6.311108589172363,
+      "head_p05_p95_m": [
+        -6.3672631025314335,
+        -6.184717440605164
+      ],
+      "raw_delta_from_initial_geometry_median_m": -0.10733222961425781,
+      "raw_delta_from_initial_geometry_p05_p95_m": [
+        -0.2712223768234253,
+        0.21256973743438723
+      ],
+      "higher_upward_hits_in_source_band_count": 0
+    },
+    "CAM_HERO": {
+      "points": 88,
+      "head_valid_below_source_plane": 88,
+      "head_missing": 0,
+      "head_median_m": -5.858744382858276,
+      "head_p05_p95_m": [
+        -5.902013993263244,
+        -5.8090678453445435
+      ],
+      "raw_delta_from_initial_geometry_median_m": 0.025388717651367188,
+      "raw_delta_from_initial_geometry_p05_p95_m": [
+        -0.10319862365722657,
+        0.08298890590667721
+      ],
+      "higher_upward_hits_in_source_band_count": 1
+    },
+    "CAM_WATER_DETAIL": {
+      "points": 9,
+      "head_valid_below_source_plane": 9,
+      "head_missing": 0,
+      "head_median_m": -5.841935157775879,
+      "head_p05_p95_m": [
+        -5.9015766143798825,
+        -5.785927200317383
+      ],
+      "raw_delta_from_initial_geometry_median_m": -0.04700803756713867,
+      "raw_delta_from_initial_geometry_p05_p95_m": [
+        -0.12473497390747071,
+        0.003042411804199215
+      ],
+      "higher_upward_hits_in_source_band_count": 1
+    },
+    "ORIGINAL_IMPACT_REFERENCE": {
+      "points": 1,
+      "head_valid_below_source_plane": 0,
+      "head_missing": 1,
+      "head_median_m": null,
+      "head_p05_p95_m": null,
+      "raw_delta_from_initial_geometry_median_m": null,
+      "raw_delta_from_initial_geometry_p05_p95_m": null,
+      "higher_upward_hits_in_source_band_count": 0
+    }
+  },
+  "unassembled_upstream_join": "SOURCE_FLOATING_PARTIAL_FALL_INJECTION; source top-5.176m, lip about-3.05m, no original continuous upstream branch in this scene; stability here cannot pass that join or10seconds",
+  "audit_seconds": 1.3966096000003745,
+  "cache_file_provenance": {
+    "config": {
+      "path": "caches\\fluid_water10\\natural48\\config\\config_0039.uni",
+      "bytes": 92,
+      "sha256": "1ea3b526dec206407ea241a5a5af6e5a114fe6aaa7616b48d8a240e91f3e2893"
+    },
+    "mesh": {
+      "path": "caches\\fluid_water10\\natural48\\mesh\\fluid_mesh_0039.bobj.gz",
+      "bytes": 3214819,
+      "sha256": "117d20a7ac85b19e25375e20e539585dfcce66867220f0bbaf756d89afd2fddf"
+    },
+    "data": {
+      "path": "caches\\fluid_water10\\natural48\\data\\fluid_data_0039.vdb",
+      "bytes": 47767782,
+      "sha256": "6ba68a4baad9438cb19e8658acb6e4c436b4bde20cdc0c5197590939682b2105"
+    },
+    "secondary": {
+      "path": "caches\\fluid_water10\\natural48\\particles\\fluid_particles_0039.vdb",
+      "bytes": 1765555,
+      "sha256": "4c83802ba6d1aa963cd6d9957b99343ddfd4d2490380779a5f402dd586ad2737"
+    }
+  }
+}

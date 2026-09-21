@@ -1,0 +1,61 @@
+{
+  "status": "FROZEN_PASS_LOCAL_NORTH_FINISHED_FACE_GEOMETRY_PENDING_INDEPENDENT_VISUAL_REVIEW",
+  "source11b_sha256": "c025c0e1d6adc55077d4bcaa0c3d028174eb5643aa002f466e9c162067c17f74",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_guest_bays_candidate12a.blend",
+  "candidate_sha256": "ebe6748261e9716ea9f9bd07e9137da1955798a7b3356bedc0d6a14d06638548",
+  "candidate_bytes": 46409878,
+  "helper_sha256": "0b0e1816ac5581c3ec75aeb6d8a760b042d0c05616d12b53f70a865b5fef6e3e",
+  "integration_call": "guest_bays12.apply(scene) once AFTER guest_bays11.apply(scene, resolve_seats=True); on11b only call12",
+  "changed_objects": [
+    "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0",
+    "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+    "GUEST_LAYERED_SANDSTONE_COURSES",
+    "GUEST_BAYS11_NORTH_window_base",
+    "GUEST_BAYS11_NORTH_header",
+    "GUEST_BAYS11_NORTH_end_return"
+  ],
+  "all_other_object_fingerprints_identical": true,
+  "all_object_matrices_centers_camera_values_identical": true,
+  "course_blocks_changed": 92,
+  "unselected_course_vertices_unchanged": 75504,
+  "nominal_finished_span_m": 2.486025,
+  "finished_span_min_m": 2.4699841141700745,
+  "finished_span_max_m": 2.502110540866852,
+  "max_absolute_finished_error_m": 0.016085540866851655,
+  "tolerance_m": 0.02,
+  "actual_finished_samples_initial": 2556,
+  "actual_finished_samples_independent_saved_reopen": 2556,
+  "finished_sample_failures": 0,
+  "backing_included_in_completed_surface_probes": true,
+  "actual_joint_union_occupied_samples": 574,
+  "actual_joint_union_failures": 0,
+  "source_reproduction_all_saved_objects_equal": true,
+  "floor_support_pass_count": 42,
+  "new_north_door_pass_count": 21,
+  "normal_camera_proposals_pass_count": 2,
+  "numeric_route_and_entry_sample_pass_count": 154,
+  "numeric_body_sweep_failure_count": 0,
+  "mesh_closed_positive_volume": true,
+  "scene_settings_unchanged": true,
+  "protected_source_files_unchanged": {
+    "D:\\zx\\test\\project\\scene\\Fallingwater_guest_bays_candidate11b.blend": true,
+    "D:\\zx\\test\\project\\scripts\\guest_bays11.py": true,
+    "D:\\zx\\test\\project\\scripts\\guest_house.py": true,
+    "D:\\zx\\test\\project\\scripts\\furnishings.py": true,
+    "D:\\zx\\test\\project\\data\\guest_house.json": true
+  },
+  "rendered": false,
+  "limits": [
+    "C relief amplitude +/-8mm and8mm backing allocation; not archival individual stones.",
+    "Independent source-dimension/visual acceptance is separate; no claim all20 GEO02 anchors pass.",
+    "Middle nonparallel AB dimension remains NOT_PASS and unchanged.",
+    "No saved7584 animation claim: accepted10 numeric local routes only, original camera matrices unchanged."
+  ],
+  "evidence": [
+    "guest-bays12-source-plan.md",
+    "guest-bays12-build-check.json",
+    "guest-bays12-reopen.json",
+    "guest-bays12-finished-profile.png"
+  ],
+  "profile_plot_view_status": "ACTUALLY_OPENED"
+}

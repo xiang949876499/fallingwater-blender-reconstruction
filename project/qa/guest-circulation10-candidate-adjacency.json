@@ -1,0 +1,226 @@
+{
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "adjacency": [
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_THEATER",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_STAIR_HALL",
+      "connection": "open passage",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "CHAUFFEUR_NORTH_DOOR"
+      ]
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_BOILER",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L1_TERRACE",
+      "connection": "two stepped front groups via low south arrival",
+      "evidence": "A two source DOWN groups; C3+4risers and relative south-1.18m",
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "F2_LOWER_RIGHT_NORTH",
+        "F2_LOWER_RIGHT_NORTH_JOINTS",
+        "LOWER_RETURN",
+        "FRONT_LOW_TO_W1",
+        "W1_FRONT_WEST",
+        "W1_FRONT_WEST_JOINTS",
+        "FRONT_MIDDLE",
+        "W2_FRONT_EAST",
+        "W2_FRONT_EAST_JOINTS",
+        "FRONT_EAST"
+      ]
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_LOUNGE",
+      "connection": "southeast glazed entrance door",
+      "evidence": "A guest01 plan door/swing; B MCAH entrance-face3; C detailed frame/pose",
+      "source_threshold_px": [
+        [
+          466,
+          434
+        ],
+        [
+          466,
+          424
+        ]
+      ],
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "REAL_SOUTHEAST_LOUNGE_ENTRY"
+      ]
+    },
+    {
+      "from": "GUEST_L1_LOUNGE",
+      "to": "GUEST_L1_GALLERY",
+      "connection": "open passage",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "GALLERY_TO_LOUNGE"
+      ]
+    },
+    {
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_GUEST_ROOM",
+      "connection": "open passage",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "GUEST_TO_GALLERY"
+      ]
+    },
+    {
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_BATH",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L1_GUEST_ROOM",
+      "to": "GUEST_L1_TERRACE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "GUEST_EAST_DOOR"
+      ]
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_POOL",
+      "connection": "steps",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_B1_STAIR",
+      "connection": "stair",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "F1_B1_LEFT_SOUTH",
+        "F1_B1_LEFT_SOUTH_JOINTS",
+        "LOWER_RETURN",
+        "F2_LOWER_RIGHT_NORTH",
+        "F2_LOWER_RIGHT_NORTH_JOINTS",
+        "NORTH_L1_CROSSOVER"
+      ]
+    },
+    {
+      "from": "GUEST_B1_STAIR",
+      "to": "GUEST_B1_LAUNDRY",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "B1_DOOR_APPROACH"
+      ]
+    },
+    {
+      "from": "GUEST_B1_LAUNDRY",
+      "to": "GUEST_B1_BATH",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L2_HALL",
+      "connection": "stair",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "PASS_LOCAL_PHYSICAL_GROUPS",
+      "actual_check_ids": [
+        "F3_UPPER_LEFT_SOUTH",
+        "F3_UPPER_LEFT_SOUTH_JOINTS",
+        "UPPER_RETURN",
+        "F4_UPPER_RIGHT_NORTH",
+        "F4_UPPER_RIGHT_NORTH_JOINTS",
+        "NORTH_L2_APPROACH"
+      ]
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_SOUTH",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_MIDDLE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_NORTH",
+      "connection": "door",
+      "evidence": "A guest02 direct Hall door below Bath south wall, y266.9..280.3; old model opening inside Bath was misplaced",
+      "verified_source": "qa/guest-iteration05-grid-guest-02-270.png",
+      "requires_retest": "iteration05 actual integrated meshes",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BATH",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    },
+    {
+      "from": "GUEST_L2_BEDROOM_NORTH",
+      "to": "GUEST_L2_TERRACE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "candidate_validation": "NOT_RUN_OUTSIDE_LOCAL_SCOPE",
+      "actual_check_ids": []
+    }
+  ],
+  "retracted_adjacency": [
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_LOUNGE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings",
+      "status": "RETRACTED_FALSE_WEST_ROUTE_IDENTITY",
+      "reason": "West corner is glazing. Same room pair has a real southeast door evidenced by guest01 and MCAH2001 entrance panorama."
+    }
+  ],
+  "validated_candidate_sha256": "7286427d1f47ae9219204ed5dd54a970387683c8b384d1b4259244a7b991d852",
+  "scope": "Guest edge overlay only: local group evidence is named; no full 60-edge or camera-frame claim."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "OWNED_HANDOFF_AND_RUNTIME_DATA_RECONCILED",
+  "date": "2026-09-21",
+  "reviewed": {
+    "data/bridge_detail10.json": "Helper SHA matches accepted endfix dependency; exact77 names and139 retain names match source; no QA runtime dependency",
+    "qa/bridge10-handoff.md": "Historical meshclean labeled; appended accepted endfix, corrected face diagnostic, watertrim rejected",
+    "qa/bridge10-watertrim-handoff.md": "Fresh six-frame failure authoritative; original audit false positives explicitly corrected; playback not passed",
+    "qa/bridge10-source-design.md": "Construction evidence and C dimension limits remain valid",
+    "qa/bridge10-reference-manifest-append.csv": "Reference-only photos remain excluded from public assets"
+  },
+  "neat_freak_scope": "Owned handoff files only; parent owns global documentation",
+  "line_counts": {
+    "qa/bridge10-handoff.md": 69,
+    "qa/bridge10-watertrim-handoff.md": 52,
+    "data/bridge_detail10.json": 269
+  },
+  "runtime_whitelist_count": 77,
+  "runtime_retain_count": 139,
+  "helper_sha256": "5176abb7b749e424918ae713baa2866ccbdef1703f9505a551f2dc1a8d736aac",
+  "fresh_readback": "FRESH_REOPEN_PASS_CANDIDATE_PHYSICAL_FAIL",
+  "not_modified": [
+    "AGENTS.md",
+    "project/STATUS.md",
+    "project/reference_manifest.csv",
+    "project/scripts/site.py",
+    "project/scripts/build_scene.py",
+    "project/config.json"
+  ],
+  "historical_failures_preserved": true,
+  "rendered": false,
+  "commit_made": false
+}

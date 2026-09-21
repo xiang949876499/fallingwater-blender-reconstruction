@@ -1,0 +1,35 @@
+{
+  "candidate_sha256": "7286427d1f47ae9219204ed5dd54a970387683c8b384d1b4259244a7b991d852",
+  "attempt": "02",
+  "local_counts": {
+    "PASS": 7,
+    "FAIL": 1,
+    "NOT_RUN": 0
+  },
+  "production_files_unchanged": {
+    "data/main_house.json": true,
+    "data/guest_house.json": true,
+    "config.json": true,
+    "adjacency.csv": true,
+    "data/tour-route.json": true,
+    "data/camera-settings-reviewed.json": true,
+    "scripts/tour.py": true,
+    "scripts/main_house.py": true,
+    "scripts/guest_house.py": true,
+    "scripts/furnishings.py": true,
+    "scripts/guest_circulation10.py": true
+  },
+  "full_run": false,
+  "checked_scene_saved": false,
+  "accepted_for_delivery": false,
+  "limits": {
+    "global_legacy_body_column_top_m": 1.71,
+    "global_legacy_ground_tolerance_m": 0.19,
+    "global_body_radius_m": 0.18,
+    "changed_geometry_local_headroom_screen_m": 1.95,
+    "local_body_evidence": "qa/guest-circulation10-final-audit.json; no imported navigation PASS",
+    "camera_and_global_navigation_not_equal_to_local_construction_screen": true
+  },
+  "source_scene_unchanged": true,
+  "saved_room_camera_changes": []
+}

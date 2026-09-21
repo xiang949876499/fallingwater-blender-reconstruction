@@ -1,0 +1,25 @@
+{
+  "status": "PASS_EXACT_GEOMETRY_CAMERAS_AND_ANIMATION",
+  "candidate": "D:\\zx\\test\\project\\qa\\checkpoint10-entry03-scoped-workspace\\scene\\Fallingwater_iteration10_rebuilt02_frozen_shot.blend",
+  "candidate_sha256": "4fad11d6a5f2ba66a16ef44338ab656547cbd0fec7dc5c59c32afe2847f7b2b0",
+  "files": {
+    "scripts/build_iteration10.py": "7c6976c83ae16b48970a45b7cd1351ee3389b847128ac07420df87a5910923e3",
+    "data/iteration10-room-shots-frozen.json": "78488808499b39edf6046928c4967ec09c8d139c78ffec8510000e93346808ad",
+    "qa/checkpoint10-entry02-independent.json": "700fb37fe86ba8a5c295d0373565bb082bff4c6ce54416318ff8c72a6bfdabf1",
+    "qa/terrain10-rebuild02-independent.json": "4154a46f8f536b70bbea0607905b2e2400d502d1a0a1fcf26c7d7693f0411001",
+    "qa/checkpoint10-entry02-independent-animation-probe.json": "f58beec0805cd85934d40b70558bb060edb536d3e3b7a41b26c2999d0b766bc6",
+    "qa/checkpoint10-entry03-scoped-reinstall02.py": "7deef627a5f2aa32103d9c4a47f7895ca462d6d6a7061c1863d7ef2fc69c6a62",
+    "qa/checkpoint10-entry03-scoped-reinstall02.json": "41d06676c70eadaf32496c37242cf3b2380a35f7023eea84cd33a21fd8290f66",
+    "qa/checkpoint10-entry03-saved-compare.py": "05492f2c3d6a9d3c1b469a509a1454b4868bb8177dd221b92a6e14ba38ddf9ea",
+    "qa/checkpoint10-entry03-saved-compare.json": "5c4e54b37975175df111c014ce8a80d4f1457a07cecffec1eb73970d4717d065",
+    "qa/checkpoint10-entry03-review.md": "dbecbfd62f734ab314efff7fe41a78cba48bf2ba0ef57139a86f20eabe0d9784"
+  },
+  "02_status": "FAIL_TRUE_SAVED_ANIMATION_DIFFERENCE_RETAINED",
+  "03_scoped_actual96_pass": true,
+  "03_fresh_all_object_camera_compare_pass": true,
+  "exact_camera_key_count": 1281,
+  "exact_saved_world_matrix_frame_count": 98,
+  "from_scratch_second_rebuild": "NOT_RUN",
+  "full_navigation_retest": "NOT_RUN",
+  "source_precision_photo_gui_movie_acceptance": "NOT_ESTABLISHED"
+}

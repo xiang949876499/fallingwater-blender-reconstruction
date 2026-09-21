@@ -1,0 +1,2459 @@
+{
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_preview_iteration05.blend",
+  "source_sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+  "lights": [
+    {
+      "name": "FW_LIGHT_PhysicalSun",
+      "type": "SUN",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visible_source": null,
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "2.5",
+          "description": "Sunlight strength in watts per meter squared (W/m\u00b2)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.0",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        },
+        "shadow_cascade_max_distance": {
+          "value": "200.0",
+          "description": "End distance of the cascaded shadow map (only in perspective view)"
+        },
+        "shadow_cascade_count": {
+          "value": "4",
+          "description": "Number of texture used by the cascaded shadow map"
+        },
+        "shadow_cascade_exponent": {
+          "value": "0.800000011920929",
+          "description": "Higher value increase resolution towards the viewpoint"
+        },
+        "shadow_cascade_fade": {
+          "value": "0.10000000149011612",
+          "description": "How smooth is the transition between each cascade"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        -2.619999885559082,
+        13.168800354003906,
+        -0.24000000953674316
+      ],
+      "visible_source": "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "22.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        -1.1527999639511108,
+        14.655599594116211,
+        -0.24000000953674316
+      ],
+      "visible_source": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "18.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        1.5720000267028809,
+        12.584699630737305,
+        -0.24000000953674316
+      ],
+      "visible_source": "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "32.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        9.536800384521484,
+        13.22189998626709,
+        2.380000114440918
+      ],
+      "visible_source": "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "9.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        1.729200005531311,
+        15.239700317382812,
+        4.880000114440918
+      ],
+      "visible_source": "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "12.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        6.130799770355225,
+        11.575799942016602,
+        4.880000114440918
+      ],
+      "visible_source": "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "12.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        6.078400135040283,
+        8.389800071716309,
+        4.880000114440918
+      ],
+      "visible_source": "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "12.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        1.1527999639511108,
+        14.974200248718262,
+        7.184150218963623
+      ],
+      "visible_source": "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "12.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        4.827159881591797,
+        41.84978103637695,
+        10.440000534057617
+      ],
+      "visible_source": "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "24.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        13.333840370178223,
+        37.41632080078125,
+        10.440000534057617
+      ],
+      "visible_source": "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "12.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        -0.24766400456428528,
+        38.78704071044922,
+        8.039999961853027
+      ],
+      "visible_source": "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "30.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        -2.672499895095825,
+        38.32794189453125,
+        8.039999961853027
+      ],
+      "visible_source": "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "18.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        2.4539198875427246,
+        46.74776077270508,
+        12.75267505645752
+      ],
+      "visible_source": "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "18.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    },
+    {
+      "name": "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy",
+      "type": "POINT",
+      "location": [
+        2.4539198875427246,
+        42.63560104370117,
+        12.75267505645752
+      ],
+      "visible_source": "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_clear_visible_bulb",
+      "properties": {
+        "use_shadow": {
+          "value": "True",
+          "description": ""
+        },
+        "energy": {
+          "value": "22.0",
+          "description": "Light energy emitted over the entire area of the light in all directions, in units of radiant power (W)"
+        },
+        "shadow_buffer_clip_start": {
+          "value": "0.05000000074505806",
+          "description": "Shadow map clip start, below which objects will not generate shadows"
+        },
+        "shadow_soft_size": {
+          "value": "0.027000000700354576",
+          "description": "Light size for ray shadow sampling (Raytraced shadows)"
+        },
+        "shadow_filter_radius": {
+          "value": "1.0",
+          "description": "Blur shadow aliasing using Percentage Closer Filtering"
+        },
+        "shadow_maximum_resolution": {
+          "value": "0.0010000000474974513",
+          "description": "Minimum size of a shadow map pixel. Higher values use less memory at the cost of shadow quality."
+        },
+        "use_shadow_jitter": {
+          "value": "False",
+          "description": "Enable jittered soft shadows to increase shadow precision (disabled in viewport unless enabled in the render settings). Has a high performance impact."
+        },
+        "shadow_jitter_overblur": {
+          "value": "10.0",
+          "description": "Apply shadow tracing to each jittered sample to reduce under-sampling artifacts"
+        }
+      }
+    }
+  ],
+  "views": [
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "samples": [
+        {
+          "label": "dark_center",
+          "pixel": [
+            505,
+            325
+          ],
+          "camera_hit": {
+            "object": "MAIN_B_bath_1",
+            "point": [
+              -0.3994002640247345,
+              14.752950668334961,
+              -0.9202192425727844
+            ],
+            "normal": [
+              -1.0,
+              4.371138828673793e-08,
+              0.0
+            ],
+            "face": 50,
+            "front_face": true,
+            "distance": 2.2145064970116257,
+            "material": "FW_cork"
+          },
+          "source_rays": [
+            {
+              "source": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+              "source_origin": [
+                -1.1527999639511108,
+                14.655599594116211,
+                -0.24000000953674316
+              ],
+              "endpoint": [
+                -0.3994002640247345,
+                14.752950668334961,
+                -0.9202192425727844
+              ],
+              "hits": [
+                {
+                  "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+                  "point": [
+                    -1.1525437831878662,
+                    14.655632972717285,
+                    -0.24023133516311646
+                  ],
+                  "normal": [
+                    -0.16034626960754395,
+                    0.3777311146259308,
+                    -0.9119256138801575
+                  ],
+                  "face": 198,
+                  "front_face": false,
+                  "distance": 0.00034677695985066236,
+                  "material": "FW_service_filament_C",
+                  "source_distance": 0.00034677695985066236
+                },
+                {
+                  "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+                  "point": [
+                    -1.1509186029434204,
+                    14.655842781066895,
+                    -0.24169860780239105
+                  ],
+                  "normal": [
+                    -0.7863657474517822,
+                    0.3810756802558899,
+                    -0.48622041940689087
+                  ],
+                  "face": 222,
+                  "front_face": true,
+                  "distance": 0.0016995765027613549,
+                  "material": "FW_service_filament_C",
+                  "source_distance": 0.002546349357278772
+                },
+                {
+                  "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+                  "point": [
+                    -1.142251968383789,
+                    14.656962394714355,
+                    -0.2495233714580536
+                  ],
+                  "normal": [
+                    0.34752702713012695,
+                    0.3791183531284332,
+                    -0.8576096296310425
+                  ],
+                  "face": 294,
+                  "front_face": false,
+                  "distance": 0.01122992371060644,
+                  "material": "FW_service_filament_C",
+                  "source_distance": 0.014276268962835676
+                },
+                {
+                  "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+                  "point": [
+                    -1.115060806274414,
+                    14.660475730895996,
+                    -0.2740733027458191
+                  ],
+                  "normal": [
+                    0.6712015271186829,
+                    0.0661076083779335,
+                    -0.7383212447166443
+                  ],
+                  "face": 32,
+                  "front_face": false,
+                  "distance": 0.03630220495903865,
+                  "material": "FW_service_clear_bulb_C",
+                  "source_distance": 0.0510784691877761
+                },
+                {
+                  "object": "MAIN_B_bath_1",
+                  "point": [
+                    -0.3993999660015106,
+                    14.752950668334961,
+                    -0.9202193021774292
+                  ],
+                  "normal": [
+                    -1.0,
+                    4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 50,
+                  "front_face": true,
+                  "distance": 0.9681209970769202,
+                  "material": "FW_cork",
+                  "source_distance": 1.0196994792510476
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "left_bright",
+          "pixel": [
+            170,
+            300
+          ],
+          "camera_hit": {
+            "object": "MAIN_B_bath_0",
+            "point": [
+              -0.8830169439315796,
+              15.526399612426758,
+              -0.802107572555542
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "face": 50,
+            "front_face": true,
+            "distance": 2.0570692084954127,
+            "material": "FW_cork"
+          },
+          "source_rays": [
+            {
+              "source": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+              "source_origin": [
+                -1.1527999639511108,
+                14.655599594116211,
+                -0.24000000953674316
+              ],
+              "endpoint": [
+                -0.8830169439315796,
+                15.526399612426758,
+                -0.802107572555542
+              ],
+              "hits": [
+                {
+                  "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+                  "point": [
+                    -1.152738332748413,
+                    14.65579891204834,
+                    -0.24012842774391174
+                  ],
+                  "normal": [
+                    -0.16034626960754395,
+                    0.3777311146259308,
+                    -0.9119256138801575
+                  ],
+                  "face": 198,
+                  "front_face": false,
+                  "distance": 0.0002449842408366885,
+                  "material": "FW_service_filament_C",
+                  "source_distance": 0.0002449842408366885
+                },
+                {
+                  "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+                  "point": [
+                    -1.1394896507263184,
+                    14.698562622070312,
+                    -0.2677326202392578
+                  ],
+                  "normal": [
+                    0.1957823485136032,
+                    0.6454076170921326,
+                    -0.7383212447166443
+                  ],
+                  "face": 38,
+                  "front_face": false,
+                  "distance": 0.052095394038846755,
+                  "material": "FW_service_clear_bulb_C",
+                  "source_distance": 0.05284017294215375
+                },
+                {
+                  "object": "MAIN_B_bath_0",
+                  "point": [
+                    -0.88301682472229,
+                    15.526399612426758,
+                    -0.8021074533462524
+                  ],
+                  "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                  ],
+                  "face": 50,
+                  "front_face": true,
+                  "distance": 1.0176597716219153,
+                  "material": "FW_cork",
+                  "source_distance": 1.0709997219324419
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "right_bright",
+          "pixel": [
+            850,
+            300
+          ],
+          "camera_hit": {
+            "object": "MAIN_B_bath_1",
+            "point": [
+              -0.3994002938270569,
+              13.817974090576172,
+              -0.8150327205657959
+            ],
+            "normal": [
+              -1.0,
+              4.371138828673793e-08,
+              0.0
+            ],
+            "face": 50,
+            "front_face": true,
+            "distance": 2.220117461546063,
+            "material": "FW_cork"
+          },
+          "source_rays": [
+            {
+              "source": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+              "source_origin": [
+                -1.1527999639511108,
+                14.655599594116211,
+                -0.24000000953674316
+              ],
+              "endpoint": [
+                -0.3994002938270569,
+                13.817974090576172,
+                -0.8150327205657959
+              ],
+              "hits": [
+                {
+                  "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+                  "point": [
+                    -1.1526089906692505,
+                    14.655386924743652,
+                    -0.24014578759670258
+                  ],
+                  "normal": [
+                    -0.16038566827774048,
+                    -0.37717095017433167,
+                    -0.912150502204895
+                  ],
+                  "face": 197,
+                  "front_face": false,
+                  "distance": 0.0003208586900061528,
+                  "material": "FW_service_filament_C",
+                  "source_distance": 0.0003208586900061528
+                },
+                {
+                  "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_clear_visible_bulb",
+                  "point": [
+                    -1.1204582452774048,
+                    14.61964225769043,
+                    -0.26468485593795776
+                  ],
+                  "normal": [
+                    0.4278660714626312,
+                    -0.5213562846183777,
+                    -0.7383213043212891
+                  ],
+                  "face": 59,
+                  "front_face": false,
+                  "distance": 0.05347715619292667,
+                  "material": "FW_service_clear_bulb_C",
+                  "source_distance": 0.05429786755834706
+                },
+                {
+                  "object": "MAIN_B_bath_1",
+                  "point": [
+                    -0.399399995803833,
+                    13.817974090576172,
+                    -0.815032958984375
+                  ],
+                  "normal": [
+                    -1.0,
+                    4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 50,
+                  "front_face": true,
+                  "distance": 1.210070244113701,
+                  "material": "FW_cork",
+                  "source_distance": 1.2648679329231467
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "samples": [
+        {
+          "label": "dark_center",
+          "pixel": [
+            820,
+            260
+          ],
+          "camera_hit": {
+            "object": "MAIN_L1_kitchen_east_south",
+            "point": [
+              0.02620016038417816,
+              12.35074520111084,
+              1.2420796155929565
+            ],
+            "normal": [
+              1.0,
+              -4.371138828673793e-08,
+              0.0
+            ],
+            "face": 52,
+            "front_face": true,
+            "distance": 5.784511461971912,
+            "material": "FW_stone"
+          },
+          "source_rays": [
+            {
+              "source": "FW_LIGHT_PhysicalSun",
+              "source_origin": [
+                -31.268051147460938,
+                -32.34208679199219,
+                59.75037384033203
+              ],
+              "endpoint": [
+                0.02620016038417816,
+                12.35074520111084,
+                1.2420796155929565
+              ],
+              "hits": [
+                {
+                  "object": "MAIN_L2_core_course01_02_-1",
+                  "point": [
+                    -0.913561224937439,
+                    11.008633613586426,
+                    2.9990689754486084
+                  ],
+                  "normal": [
+                    -1.0,
+                    4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 50,
+                  "front_face": true,
+                  "distance": 77.59762036322478,
+                  "material": "FW_stone",
+                  "source_distance": 77.59762036322478
+                },
+                {
+                  "object": "MAIN_L2_core_course01_02_-1",
+                  "point": [
+                    -0.8938947916030884,
+                    11.036720275878906,
+                    2.9623000621795654
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    -1.0
+                  ],
+                  "face": 49,
+                  "front_face": false,
+                  "distance": 0.04977498004144132,
+                  "material": "FW_stone",
+                  "source_distance": 77.6478966992436
+                },
+                {
+                  "object": "MAIN_L2_master_hearth",
+                  "point": [
+                    -0.8863999247550964,
+                    11.04742431640625,
+                    2.9482874870300293
+                  ],
+                  "normal": [
+                    -1.0,
+                    4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 50,
+                  "front_face": true,
+                  "distance": 0.018659814714137732,
+                  "material": "FW_stone",
+                  "source_distance": 77.66705509901806
+                },
+                {
+                  "object": "MAIN_L2_master_hearth",
+                  "point": [
+                    -0.831047773361206,
+                    11.12647533416748,
+                    2.8447999954223633
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    -1.0
+                  ],
+                  "face": 49,
+                  "front_face": false,
+                  "distance": 0.14100109990436835,
+                  "material": "FW_stone",
+                  "source_distance": 77.80855717608584
+                },
+                {
+                  "object": "MAIN_L1_kitchen_east_south",
+                  "point": [
+                    -0.34060001373291016,
+                    11.826908111572266,
+                    1.9278498888015747
+                  ],
+                  "normal": [
+                    -1.0,
+                    4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 50,
+                  "front_face": true,
+                  "distance": 1.253271262986698,
+                  "material": "FW_stone",
+                  "source_distance": 79.06232823289147
+                },
+                {
+                  "object": "MAIN_L1_kitchen_east_south",
+                  "point": [
+                    0.02620004117488861,
+                    12.350752830505371,
+                    1.242073893547058
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": false,
+                  "distance": 0.9371801784492694,
+                  "material": "FW_stone",
+                  "source_distance": 80.00000801086385
+                }
+              ]
+            }
+          ],
+          "emission_surface_rays": [
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_0",
+              "origin": [
+                1.2571429014205933,
+                9.949999809265137,
+                2.5415000915527344
+              ],
+              "target": [
+                0.02620016038417816,
+                12.35074520111084,
+                1.2420796155929565
+              ],
+              "hits": [
+                {
+                  "object": "MAIN_L1_kitchen_east_south",
+                  "point": [
+                    0.02620004117488861,
+                    12.35074520111084,
+                    1.242079496383667
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": true,
+                  "distance": 2.9945437961776333,
+                  "material": "FW_stone",
+                  "source_distance": 2.9945437961776333
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_1",
+              "origin": [
+                1.9714285135269165,
+                9.949999809265137,
+                2.5415000915527344
+              ],
+              "target": [
+                0.02620016038417816,
+                12.35074520111084,
+                1.2420796155929565
+              ],
+              "hits": [
+                {
+                  "object": "MAIN_L1_kitchen_east_south",
+                  "point": [
+                    0.02620004117488861,
+                    12.35074520111084,
+                    1.242079496383667
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": true,
+                  "distance": 3.352012248418594,
+                  "material": "FW_stone",
+                  "source_distance": 3.352012248418594
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_4",
+              "origin": [
+                1.125,
+                9.260000228881836,
+                2.5415000915527344
+              ],
+              "target": [
+                0.02620016038417816,
+                12.35074520111084,
+                1.2420796155929565
+              ],
+              "hits": [
+                {
+                  "object": "MAIN_L1_kitchen_east_south",
+                  "point": [
+                    0.02620004117488861,
+                    12.350746154785156,
+                    1.2420793771743774
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": true,
+                  "distance": 3.528252553196796,
+                  "material": "FW_stone",
+                  "source_distance": 3.528252553196796
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_2",
+              "origin": [
+                2.6857142448425293,
+                9.949999809265137,
+                2.5415000915527344
+              ],
+              "target": [
+                0.02620016038417816,
+                12.35074520111084,
+                1.2420796155929565
+              ],
+              "hits": [
+                {
+                  "object": "MAIN_L1_kitchen_east_south",
+                  "point": [
+                    0.026200398802757263,
+                    12.35074520111084,
+                    1.242079734802246
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": true,
+                  "distance": 3.8111790729452624,
+                  "material": "FW_stone",
+                  "source_distance": 3.8111790729452624
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "fireplace_dark",
+          "pixel": [
+            395,
+            195
+          ],
+          "camera_hit": {
+            "object": "FW_MASONRY_MAIN_HEARTH",
+            "point": [
+              0.2797508239746094,
+              9.387592315673828,
+              1.7001008987426758
+            ],
+            "normal": [
+              0.9968846440315247,
+              -0.005565552040934563,
+              0.07867702096700668
+            ],
+            "face": 1160,
+            "front_face": true,
+            "distance": 4.826521310590434,
+            "material": "FW_stone"
+          },
+          "source_rays": [
+            {
+              "source": "FW_LIGHT_PhysicalSun",
+              "source_origin": [
+                -31.01449966430664,
+                -35.305240631103516,
+                60.20839309692383
+              ],
+              "endpoint": [
+                0.2797508239746094,
+                9.387592315673828,
+                1.7001008987426758
+              ],
+              "hits": [
+                {
+                  "object": "MAIN_L2_elongated_roof",
+                  "point": [
+                    -1.626546859741211,
+                    6.665119171142578,
+                    5.2641448974609375
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "face": 445,
+                  "front_face": true,
+                  "distance": 75.12678127112964,
+                  "material": "FW_ochre",
+                  "source_distance": 75.12678127112964
+                },
+                {
+                  "object": "MAIN_L2_elongated_roof",
+                  "point": [
+                    -1.5035299062728882,
+                    6.840805530548096,
+                    5.034150123596191
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    -1.0
+                  ],
+                  "face": 433,
+                  "front_face": false,
+                  "distance": 0.3139779709582662,
+                  "material": "FW_ochre",
+                  "source_distance": 75.44126011691046
+                },
+                {
+                  "object": "MAIN_L2_master_west_glass_0",
+                  "point": [
+                    -0.5279999375343323,
+                    8.234006881713867,
+                    3.2102816104888916
+                  ],
+                  "normal": [
+                    -1.0,
+                    4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 1,
+                  "front_face": true,
+                  "distance": 2.49332527568819,
+                  "material": "FW_glass",
+                  "source_distance": 77.93508361643542
+                },
+                {
+                  "object": "MAIN_L2_master_west_glass_0",
+                  "point": [
+                    -0.5199999809265137,
+                    8.245431900024414,
+                    3.195324659347534
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 3,
+                  "front_face": false,
+                  "distance": 0.019950849376255197,
+                  "material": "FW_glass",
+                  "source_distance": 77.95553690959534
+                },
+                {
+                  "object": "MAIN_L2_master_hearth",
+                  "point": [
+                    -0.38173168897628784,
+                    8.442899703979492,
+                    2.9368157386779785
+                  ],
+                  "normal": [
+                    -4.371138828673793e-08,
+                    -1.0,
+                    0.0
+                  ],
+                  "face": 51,
+                  "front_face": true,
+                  "distance": 0.35296634289502066,
+                  "material": "FW_stone",
+                  "source_distance": 78.30900089761094
+                },
+                {
+                  "object": "MAIN_L2_master_hearth",
+                  "point": [
+                    -0.3325153887271881,
+                    8.513188362121582,
+                    2.8447999954223633
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    -1.0
+                  ],
+                  "face": 49,
+                  "front_face": false,
+                  "distance": 0.1253157869910323,
+                  "material": "FW_stone",
+                  "source_distance": 78.43481927067492
+                },
+                {
+                  "object": "MAIN_L1_hearth_jamb_s",
+                  "point": [
+                    -0.18018487095832825,
+                    8.730738639831543,
+                    2.559999942779541
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "face": 53,
+                  "front_face": true,
+                  "distance": 0.38891456445685446,
+                  "material": "FW_stone",
+                  "source_distance": 78.82423297812574
+                },
+                {
+                  "object": "MAIN_L1_hearth_lintel",
+                  "point": [
+                    -0.08428386598825455,
+                    8.86769962310791,
+                    2.3807015419006348
+                  ],
+                  "normal": [
+                    -4.371138828673793e-08,
+                    -1.0,
+                    0.0
+                  ],
+                  "face": 51,
+                  "front_face": true,
+                  "distance": 0.2446595056701881,
+                  "material": "FW_stone",
+                  "source_distance": 79.06939044825991
+                },
+                {
+                  "object": "MAIN_L1_hearth_jamb_s",
+                  "point": [
+                    -0.07679159939289093,
+                    8.878399848937988,
+                    2.3666939735412598
+                  ],
+                  "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": false,
+                  "distance": 0.01865299306654924,
+                  "material": "FW_stone",
+                  "source_distance": 79.08854445347652
+                },
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.26420003175735474,
+                    9.365386962890625,
+                    1.7291698455810547
+                  ],
+                  "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "face": 1259,
+                  "front_face": true,
+                  "distance": 0.8712044162332571,
+                  "material": "FW_stone",
+                  "source_distance": 79.96025166107924
+                },
+                {
+                  "object": "MAIN_L1_hearth_lintel",
+                  "point": [
+                    0.26499995589256287,
+                    9.36652946472168,
+                    1.7276742458343506
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": false,
+                  "distance": 0.001544898627885096,
+                  "material": "FW_stone",
+                  "source_distance": 79.9622946575105
+                },
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.269432932138443,
+                    9.3728609085083,
+                    1.7193862199783325
+                  ],
+                  "normal": [
+                    0.0,
+                    -0.0026227154303342104,
+                    0.9999966025352478
+                  ],
+                  "face": 1171,
+                  "front_face": true,
+                  "distance": 0.010832591566790301,
+                  "material": "FW_stone",
+                  "source_distance": 79.97362655791107
+                },
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.2797509729862213,
+                    9.38759708404541,
+                    1.7000954151153564
+                  ],
+                  "normal": [
+                    0.9968846440315247,
+                    -0.005565552040934563,
+                    0.07867702096700668
+                  ],
+                  "face": 1160,
+                  "front_face": false,
+                  "distance": 0.02587701415509061,
+                  "material": "FW_stone",
+                  "source_distance": 80.00000343322746
+                }
+              ]
+            }
+          ],
+          "emission_surface_rays": [
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_4",
+              "origin": [
+                1.125,
+                9.260000228881836,
+                2.5415000915527344
+              ],
+              "target": [
+                0.2797508239746094,
+                9.387592315673828,
+                1.7001008987426758
+              ],
+              "hits": [
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.2797504663467407,
+                    9.387592315673828,
+                    1.7001005411148071
+                  ],
+                  "normal": [
+                    0.9968846440315247,
+                    -0.005565552040934563,
+                    0.07867702096700668
+                  ],
+                  "face": 1160,
+                  "front_face": true,
+                  "distance": 1.1994497646713818,
+                  "material": "FW_stone",
+                  "source_distance": 1.1994497646713818
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_0",
+              "origin": [
+                1.2571429014205933,
+                9.949999809265137,
+                2.5415000915527344
+              ],
+              "target": [
+                0.2797508239746094,
+                9.387592315673828,
+                1.7001008987426758
+              ],
+              "hits": [
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.27975064516067505,
+                    9.387592315673828,
+                    1.7001006603240967
+                  ],
+                  "normal": [
+                    0.9968846440315247,
+                    -0.005565552040934563,
+                    0.07867702096700668
+                  ],
+                  "face": 1160,
+                  "front_face": true,
+                  "distance": 1.4069650951128156,
+                  "material": "FW_stone",
+                  "source_distance": 1.4069650951128156
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_3",
+              "origin": [
+                1.125,
+                8.380000114440918,
+                2.5415000915527344
+              ],
+              "target": [
+                0.2797508239746094,
+                9.387592315673828,
+                1.7001008987426758
+              ],
+              "hits": [
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.27975064516067505,
+                    9.387592315673828,
+                    1.7001006603240967
+                  ],
+                  "normal": [
+                    0.9968846440315247,
+                    -0.005565552040934563,
+                    0.07867702096700668
+                  ],
+                  "face": 1160,
+                  "front_face": true,
+                  "distance": 1.5612948347545832,
+                  "material": "FW_stone",
+                  "source_distance": 1.5612948347545832
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_1",
+              "origin": [
+                1.9714285135269165,
+                9.949999809265137,
+                2.5415000915527344
+              ],
+              "target": [
+                0.2797508239746094,
+                9.387592315673828,
+                1.7001008987426758
+              ],
+              "hits": [
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.2797507047653198,
+                    9.387592315673828,
+                    1.7001007795333862
+                  ],
+                  "normal": [
+                    0.9968846440315247,
+                    -0.005565552040934563,
+                    0.07867702096700668
+                  ],
+                  "face": 1160,
+                  "front_face": true,
+                  "distance": 1.971301272517074,
+                  "material": "FW_stone",
+                  "source_distance": 1.971301272517074
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "top_bright",
+          "pixel": [
+            480,
+            95
+          ],
+          "camera_hit": {
+            "object": "FW_MASONRY_MAIN_HEARTH",
+            "point": [
+              0.27491044998168945,
+              9.932297706604004,
+              2.3323605060577393
+            ],
+            "normal": [
+              0.999992311000824,
+              -0.0009360436233691871,
+              -0.003825827268883586
+            ],
+            "face": 1644,
+            "front_face": true,
+            "distance": 4.874586741189097,
+            "material": "FW_stone"
+          },
+          "source_rays": [
+            {
+              "source": "FW_LIGHT_PhysicalSun",
+              "source_origin": [
+                -31.01934051513672,
+                -34.760536193847656,
+                60.84065246582031
+              ],
+              "endpoint": [
+                0.27491044998168945,
+                9.932297706604004,
+                2.3323605060577393
+              ],
+              "hits": [
+                {
+                  "object": "MAIN_L2_elongated_roof",
+                  "point": [
+                    -1.2932167053222656,
+                    7.692783355712891,
+                    5.264156341552734
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "face": 445,
+                  "front_face": true,
+                  "distance": 75.99127307779739,
+                  "material": "FW_ochre",
+                  "source_distance": 75.99127307779739
+                },
+                {
+                  "object": "MAIN_L2_elongated_roof",
+                  "point": [
+                    -1.1701935529708862,
+                    7.868478775024414,
+                    5.034150123596191
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    -1.0
+                  ],
+                  "face": 433,
+                  "front_face": false,
+                  "distance": 0.31399382936510106,
+                  "material": "FW_ochre",
+                  "source_distance": 76.30576734031662
+                },
+                {
+                  "object": "MAIN_L2_master_hearth",
+                  "point": [
+                    -0.7679798603057861,
+                    8.442899703979492,
+                    4.282164096832275
+                  ],
+                  "normal": [
+                    -4.371138828673793e-08,
+                    -1.0,
+                    0.0
+                  ],
+                  "face": 51,
+                  "front_face": true,
+                  "distance": 1.0277110701397647,
+                  "material": "FW_stone",
+                  "source_distance": 77.33397902295884
+                },
+                {
+                  "object": "MAIN_L2_core_course03_05_1",
+                  "point": [
+                    -0.28126204013824463,
+                    9.138005256652832,
+                    3.372187614440918
+                  ],
+                  "normal": [
+                    -0.9238796234130859,
+                    3.8770654242625824e-08,
+                    0.38268327713012695
+                  ],
+                  "face": 36,
+                  "front_face": true,
+                  "distance": 1.2437358778722094,
+                  "material": "FW_stone",
+                  "source_distance": 78.57821393723839
+                },
+                {
+                  "object": "MAIN_L2_master_hearth",
+                  "point": [
+                    -0.266400009393692,
+                    9.15923023223877,
+                    3.3444013595581055
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": false,
+                  "distance": 0.03749273766601149,
+                  "material": "FW_stone",
+                  "source_distance": 78.61620734072984
+                },
+                {
+                  "object": "MAIN_L2_core_course03_05_1",
+                  "point": [
+                    -0.26060959696769714,
+                    9.167499542236328,
+                    3.333575487136841
+                  ],
+                  "normal": [
+                    4.371138828673793e-08,
+                    1.0,
+                    0.0
+                  ],
+                  "face": 48,
+                  "front_face": false,
+                  "distance": 0.014302263484360615,
+                  "material": "FW_stone",
+                  "source_distance": 78.63100974398952
+                },
+                {
+                  "object": "MAIN_L1_hearth_lintel",
+                  "point": [
+                    0.15315166115760803,
+                    9.75841236114502,
+                    2.559999942779541
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "face": 53,
+                  "front_face": true,
+                  "distance": 1.0572311880481617,
+                  "material": "FW_stone",
+                  "source_distance": 79.68873965028422
+                },
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.26420003175735474,
+                    9.91700553894043,
+                    2.352381944656372
+                  ],
+                  "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "face": 1658,
+                  "front_face": true,
+                  "distance": 0.2833815193647357,
+                  "material": "FW_stone",
+                  "source_distance": 79.97262333697975
+                },
+                {
+                  "object": "MAIN_L1_hearth_lintel",
+                  "point": [
+                    0.26499998569488525,
+                    9.918148040771484,
+                    2.350886344909668
+                  ],
+                  "normal": [
+                    1.0,
+                    -4.371138828673793e-08,
+                    0.0
+                  ],
+                  "face": 52,
+                  "front_face": false,
+                  "distance": 0.0015449102916249894,
+                  "material": "FW_stone",
+                  "source_distance": 79.97466754373205
+                },
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.27491018176078796,
+                    9.93230152130127,
+                    2.3323581218719482
+                  ],
+                  "normal": [
+                    0.999992311000824,
+                    -0.0009360436233691871,
+                    -0.003825827268883586
+                  ],
+                  "face": 1644,
+                  "front_face": false,
+                  "distance": 0.024834228251726445,
+                  "material": "FW_stone",
+                  "source_distance": 80.0000019073486
+                }
+              ]
+            }
+          ],
+          "emission_surface_rays": [
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_0",
+              "origin": [
+                1.2571429014205933,
+                9.949999809265137,
+                2.5415000915527344
+              ],
+              "target": [
+                0.27491044998168945,
+                9.932297706604004,
+                2.3323605060577393
+              ],
+              "hits": [
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.27491021156311035,
+                    9.932297706604004,
+                    2.3323605060577393
+                  ],
+                  "normal": [
+                    0.999992311000824,
+                    -0.0009360436233691871,
+                    -0.003825827268883586
+                  ],
+                  "face": 1644,
+                  "front_face": true,
+                  "distance": 1.0044071772070895,
+                  "material": "FW_stone",
+                  "source_distance": 1.0044071772070895
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_4",
+              "origin": [
+                1.125,
+                9.260000228881836,
+                2.5415000915527344
+              ],
+              "target": [
+                0.27491044998168945,
+                9.932297706604004,
+                2.3323605060577393
+              ],
+              "hits": [
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.2749102711677551,
+                    9.932297706604004,
+                    2.3323605060577393
+                  ],
+                  "normal": [
+                    0.999992311000824,
+                    -0.0009360436233691871,
+                    -0.003825827268883586
+                  ],
+                  "face": 1644,
+                  "front_face": true,
+                  "distance": 1.103800625415003,
+                  "material": "FW_stone",
+                  "source_distance": 1.103800625415003
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_1",
+              "origin": [
+                1.9714285135269165,
+                9.949999809265137,
+                2.5415000915527344
+              ],
+              "target": [
+                0.27491044998168945,
+                9.932297706604004,
+                2.3323605060577393
+              ],
+              "hits": [
+                {
+                  "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_crossbar_0",
+                  "point": [
+                    1.6342856884002686,
+                    9.946481704711914,
+                    2.499938488006592
+                  ],
+                  "normal": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "face": 51,
+                  "front_face": true,
+                  "distance": 0.3397131535903906,
+                  "material": "FW_DETAIL_LightScreen_WarmBrownFrame",
+                  "source_distance": 0.3397131535903906
+                },
+                {
+                  "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_crossbar_0",
+                  "point": [
+                    1.5942857265472412,
+                    9.946064949035645,
+                    2.495007276535034
+                  ],
+                  "normal": [
+                    -1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "face": 48,
+                  "front_face": false,
+                  "distance": 0.039804871932772955,
+                  "material": "FW_DETAIL_LightScreen_WarmBrownFrame",
+                  "source_distance": 0.38001808468170667
+                },
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.27491021156311035,
+                    9.93229866027832,
+                    2.332360029220581
+                  ],
+                  "normal": [
+                    0.999992311000824,
+                    -0.0009360436233691871,
+                    -0.003825827268883586
+                  ],
+                  "face": 1644,
+                  "front_face": true,
+                  "distance": 1.3289341763801141,
+                  "material": "FW_stone",
+                  "source_distance": 1.709452310055334
+                }
+              ]
+            },
+            {
+              "emitter": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_3",
+              "origin": [
+                1.125,
+                8.380000114440918,
+                2.5415000915527344
+              ],
+              "target": [
+                0.27491044998168945,
+                9.932297706604004,
+                2.3323605060577393
+              ],
+              "hits": [
+                {
+                  "object": "FW_MASONRY_MAIN_HEARTH",
+                  "point": [
+                    0.2749102711677551,
+                    9.932297706604004,
+                    2.3323605060577393
+                  ],
+                  "normal": [
+                    0.999992311000824,
+                    -0.0009360436233691871,
+                    -0.003825827268883586
+                  ],
+                  "face": 1644,
+                  "front_face": true,
+                  "distance": 1.782139118087352,
+                  "material": "FW_stone",
+                  "source_distance": 1.782139118087352
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "living_emissive_meshes": [
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_cove_diffuser_0",
+      "material": "FW_DETAIL_LightScreen_VisibleCove",
+      "emission": 2.5,
+      "center": [
+        3.4000000953674316,
+        5.447500228881836,
+        2.5820000171661377
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_cove_diffuser_1",
+      "material": "FW_DETAIL_LightScreen_VisibleCove",
+      "emission": 2.5,
+      "center": [
+        3.4000000953674316,
+        9.552499771118164,
+        2.5820000171661377
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_cove_diffuser_2",
+      "material": "FW_DETAIL_LightScreen_VisibleCove",
+      "emission": 2.5,
+      "center": [
+        1.497499942779541,
+        7.5,
+        2.5820000171661377
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_cove_diffuser_3",
+      "material": "FW_DETAIL_LightScreen_VisibleCove",
+      "emission": 2.5,
+      "center": [
+        5.302499771118164,
+        7.5,
+        2.5820000171661377
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_south_panel_0",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.2571429014205933,
+        5.050000190734863,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_south_panel_1",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.9714285135269165,
+        5.050000190734863,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_south_panel_2",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        2.6857142448425293,
+        5.050000190734863,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_south_panel_3",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        3.4000000953674316,
+        5.050000190734863,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_south_panel_4",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        4.114285945892334,
+        5.050000190734863,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_south_panel_5",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        4.828571319580078,
+        5.050000190734863,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_south_panel_6",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        5.5428571701049805,
+        5.050000190734863,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_0",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.2571429014205933,
+        9.949999809265137,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_1",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.9714285135269165,
+        9.949999809265137,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_2",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        2.6857142448425293,
+        9.949999809265137,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_3",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        3.4000000953674316,
+        9.949999809265137,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_4",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        4.114285945892334,
+        9.949999809265137,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_5",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        4.828571319580078,
+        9.949999809265137,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_north_panel_6",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        5.5428571701049805,
+        9.949999809265137,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_0",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.125,
+        5.739999771118164,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_1",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.125,
+        6.619999885559082,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_2",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.125,
+        7.5,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_3",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.125,
+        8.380000114440918,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_west_panel_4",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        1.125,
+        9.260000228881836,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_east_panel_0",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        5.675000190734863,
+        5.739999771118164,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_east_panel_1",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        5.675000190734863,
+        6.619999885559082,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_east_panel_2",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        5.675000190734863,
+        7.5,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_east_panel_3",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        5.675000190734863,
+        8.380000114440918,
+        2.5450000762939453
+      ]
+    },
+    {
+      "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_east_panel_4",
+      "material": "FW_DETAIL_LightScreen_DiffusingPanel",
+      "emission": 0.75,
+      "center": [
+        5.675000190734863,
+        9.260000228881836,
+        2.5450000762939453
+      ]
+    }
+  ],
+  "shadow_linking_api": {
+    "light_linking_properties": [
+      [
+        "rna_type",
+        "POINTER",
+        "RNA type definition"
+      ],
+      [
+        "receiver_collection",
+        "POINTER",
+        "Collection which defines light linking relation of this emitter"
+      ],
+      [
+        "blocker_collection",
+        "POINTER",
+        "Collection which defines objects which block light from this emitter"
+      ]
+    ],
+    "collection_properties": [
+      "rna_type",
+      "name",
+      "name_full",
+      "id_type",
+      "session_uid",
+      "is_evaluated",
+      "original",
+      "users",
+      "use_fake_user",
+      "use_extra_user",
+      "is_embedded_data",
+      "is_linked_packed",
+      "is_missing",
+      "is_runtime_data",
+      "is_editable",
+      "tag",
+      "is_library_indirect",
+      "library",
+      "library_weak_reference",
+      "asset_data",
+      "override_library",
+      "preview",
+      "instance_offset",
+      "objects",
+      "all_objects",
+      "children",
+      "collection_objects",
+      "collection_children",
+      "exporters",
+      "active_exporter_index",
+      "hide_select",
+      "hide_viewport",
+      "hide_render",
+      "lineart_usage",
+      "lineart_use_intersection_mask",
+      "lineart_intersection_mask",
+      "lineart_intersection_priority",
+      "use_lineart_intersection_priority",
+      "color_tag"
+    ],
+    "member_properties": [
+      "rna_type",
+      "light_linking"
+    ],
+    "member_light_linking": [
+      {
+        "identifier": "rna_type",
+        "type": "POINTER",
+        "enum": []
+      },
+      {
+        "identifier": "link_state",
+        "type": "ENUM",
+        "enum": [
+          "INCLUDE",
+          "EXCLUDE"
+        ]
+      }
+    ]
+  }
+}

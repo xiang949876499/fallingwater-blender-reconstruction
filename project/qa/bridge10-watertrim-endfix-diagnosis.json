@@ -1,0 +1,20 @@
+{
+  "source_meshclean_sha256": "15260dcfd92783a4695ce7fc0de83072531e5c09564bcdb26dbf2f2ac6717588",
+  "endfix_sha256": "2a7630b8024c37bd768e563236807f8049469172c7e44b03379a450f91637063",
+  "exact_changed_objects": [
+    "SITE_Bridge10_Stone_Return_SW",
+    "SITE_Bridge10_Stone_Return_SE",
+    "SITE_Bridge10_Stone_Return_NW",
+    "SITE_Bridge10_Stone_Return_NE"
+  ],
+  "all_other_objects_identical": true,
+  "global_identical": true,
+  "source_images_actual_viewed": [
+    "renders/previews/bridge10/CAM_HERO.png",
+    "renders/previews/bridge10/CAM_WATER_DETAIL.png"
+  ],
+  "source_visual_status": "FAIL_VISIBLE_BLACK_END_STRIPES",
+  "cause": "Zero-projection end stone panels exactly coplanar with complete core finished faces; same FW_stone and outward normals, source photos do not show black ends",
+  "fix": "Do not generate exact_end panels; consume unchanged RNG partition draws to preserve all other surface panels. Full core faces at source nominal coordinates remain.",
+  "new_image_status": "NOT_RENDERED_NOT_VISUALLY_ACCEPTED"
+}

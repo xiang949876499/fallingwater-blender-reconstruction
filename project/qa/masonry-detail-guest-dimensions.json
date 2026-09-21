@@ -1,0 +1,867 @@
+{
+  "status": "INCOMPLETE",
+  "source_scene": "D:\\zx\\test\\project\\qa\\masonry-detail-guest-geometry.blend",
+  "source_scene_sha256": "6a58ace58c800cb172f9beebe394840feae4b6c7bdd79889b7c032b65c62cf0c",
+  "source_scene_mtime": "2026-09-20T17:18:40.147483",
+  "blender_version": "5.2.1 LTS",
+  "threads": 4,
+  "rendered": false,
+  "measurement_method": "Loaded fresh guest05 with masonry finish .blend; evaluated object meshes transformed into world coordinates; measured ray intersections/extrema. Source model_value_m fields were never used. Reference values are only comparison targets.",
+  "tolerance_rule": "research/qa-spec.md GEO-02: abs(error)<=max(0.020m,0.005×referenceLength); larger source uncertainty disclosed separately, never silently widens acceptance.",
+  "coordinate_registration": {
+    "image": "guest-01-original.tif, normalized to 1024×790",
+    "origin_px": [
+      325,
+      422
+    ],
+    "meters_per_pixel": [
+      0.05256,
+      0.05272
+    ],
+    "world_origin": [
+      3.4,
+      37.1,
+      8.4
+    ],
+    "evidence": "A/C: site2 sheet scale and homologous roof/service corner constrain XY; absolute guest datum C",
+    "scan_original_size": [
+      17673,
+      13632
+    ],
+    "uncertainty_m": 0.12,
+    "calibration": {
+      "x": {
+        "dimension": "31′6⅝″",
+        "meters": 9.617075,
+        "endpoints_normalized_px": [
+          [
+            698.1,
+            529
+          ],
+          [
+            880.9,
+            529
+          ]
+        ],
+        "derived_m_per_px": 0.05260981947483588,
+        "uncertainty_px": 1.0,
+        "source": "guest sheet1 bottom pool exterior chain"
+      },
+      "y": {
+        "dimension": "50′10¼″",
+        "meters": 15.50035,
+        "endpoints_normalized_px": [
+          [
+            159,
+            126.3
+          ],
+          [
+            159,
+            420.4
+          ]
+        ],
+        "derived_m_per_px": 0.052704352261135665,
+        "uncertainty_px": 1.0,
+        "source": "guest sheet1 west vertical chain"
+      },
+      "selected_scaling_note": "Rounded independent X/Y scale .05256,.05272; source JPEG/raw resampling introduces about1px tracing uncertainty."
+    },
+    "world_origin_uncertainty_m": [
+      0.25,
+      0.35,
+      1.0
+    ],
+    "site_registration": {
+      "source": "HABS PA-5346 main sheet2, original TIFF viewed via site-02-review.jpg",
+      "normalized_site_origin_px": [
+        507,
+        476
+      ],
+      "guest_service_southeast_px": [
+        533,
+        193
+      ],
+      "meters_per_pixel": 0.131,
+      "computed_origin_xy_m": [
+        3.406,
+        37.073
+      ],
+      "selected_origin_xy_m": [
+        3.4,
+        37.1
+      ],
+      "note": "Root supplied main origin; source site roof/service corner differs slightly from first-floor wall-face trace; retain XY uncertainty."
+    },
+    "absolute_z_review": {
+      "selected_m": 8.4,
+      "range_m": [
+        7.4,
+        9.4
+      ],
+      "evidence": "C",
+      "reviewed": [
+        "guest sheet4 full original west elevation",
+        "guest sheet4 original section looking north",
+        "main sheet8 west/north elevations JPEG",
+        "main sheet9 east elevation JPEG",
+        "main sheet10 sections JPEG and research level crops",
+        "main sheet11 detail sheet JPEG"
+      ],
+      "finding": "No shared numerical cross-building benchmark located. Guest main-level0′0 belongs to its own sheet datum. Main11 contains fireplace, lamp, hatch and desk details, not a cross-building level survey. Partial stepped canopies in main8/guest4 give qualitative uphill correspondence but are insufficient to claim measured absolute Z."
+    }
+  },
+  "floor_datum_actual": {
+    "object": "GUEST_L1_MAIN_FLOOR",
+    "point_m": [
+      3.4525599,
+      34.3058395,
+      8.3999996
+    ],
+    "coordinate_m": 8.399999618530273
+  },
+  "counts": {
+    "PASS": 17,
+    "FAIL": 0,
+    "NOT_RUN": 5
+  },
+  "measurements": [
+    {
+      "id": "GUEST_THEATER_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "27 ft 9 in",
+      "reference_m": 8.4582,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.042291,
+      "status": "NOT_RUN",
+      "actual_mesh_measurement_m": null,
+      "delta_m": null,
+      "endpoints": null,
+      "method": "NOT_RUN: Nominal27′9×19′5 is printed inside a skew, recessed theater. Neither dimension is drawn with explicit endpoints; true door recess and nonparallel walls make world-axis extent an invalid substitute.",
+      "evidence": "A printed source; U exact source-to-mesh endpoints"
+    },
+    {
+      "id": "GUEST_THEATER_DEPTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "19 ft 5 in",
+      "reference_m": 5.9182,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.029591,
+      "status": "NOT_RUN",
+      "actual_mesh_measurement_m": null,
+      "delta_m": null,
+      "endpoints": null,
+      "method": "NOT_RUN: Same nonrectangular theater endpoint ambiguity; no independent source principal-axis endpoint correspondence has been established.",
+      "evidence": "A printed source; U exact source-to-mesh endpoints"
+    },
+    {
+      "id": "GUEST_POOL_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "30 ft 1 in",
+      "reference_m": 9.1694,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.045847,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 9.1693992,
+      "delta_m": -8e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_POOL_shell_17",
+          "point_m": [
+            23.2031403,
+            34.9648399,
+            8.3999996
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 4.584699630737305
+        },
+        {
+          "object": "GUEST_POOL_shell_35",
+          "point_m": [
+            32.3725395,
+            34.9648399,
+            8.3999996
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 4.584699630737305
+        }
+      ],
+      "method": "Opposed ray intersections with evaluated pool shell inner faces at guest datum; finite water mesh deliberately not used as the clear-basin size.",
+      "evidence": "A printed pool dimensions; unambiguous inner shell face intersections"
+    },
+    {
+      "id": "GUEST_POOL_WIDTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "13 ft 0 in",
+      "reference_m": 3.9624,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 3.9624023,
+      "delta_m": 2.3e-06,
+      "endpoints": [
+        {
+          "object": "GUEST_POOL_shell_26",
+          "point_m": [
+            27.7878399,
+            32.9836388,
+            8.3999996
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance_m": 1.981201171875
+        },
+        {
+          "object": "GUEST_POOL_shell_08",
+          "point_m": [
+            27.7878399,
+            36.9460411,
+            8.3999996
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance_m": 1.981201171875
+        }
+      ],
+      "method": "Opposed ray intersections with evaluated pool shell inner faces at guest datum; finite water mesh deliberately not used as the clear-basin size.",
+      "evidence": "A printed pool dimensions; unambiguous inner shell face intersections"
+    },
+    {
+      "id": "GUEST_BOILER_DIM_1",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "4 ft 7 in",
+      "reference_m": 1.397,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 1.3969955,
+      "delta_m": -4.5e-06,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_BOILER_SOUTH_pier_end",
+          "point_m": [
+            4.8716798,
+            41.1512833,
+            8.75
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance_m": 0.6407966017723083
+        },
+        {
+          "object": "GUEST_L1_BOILER_NORTH_pier_end",
+          "point_m": [
+            4.8716798,
+            42.5482788,
+            8.75
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance_m": 0.7561988234519958
+        }
+      ],
+      "method": "Opposed world axis1 rays to actual named structural/finish faces from drawing pixel(353, 333),Z8.75000. Opening-free section selected; decorative coursing and furnishings excluded. Nominal room dimension axis follows plan aspect and adjacent dimension chain.",
+      "evidence": "A printed label; C endpoint interpretation from plan/elevation; actual evaluated mesh"
+    },
+    {
+      "id": "GUEST_BOILER_DIM_2",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "8 ft 2 in",
+      "reference_m": 2.4892,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 2.4891999,
+      "delta_m": -1e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_BOILER_WEST_pier_end",
+          "point_m": [
+            3.5625598,
+            41.2648811,
+            8.75
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 1.3091199398040771
+        },
+        {
+          "object": "GUEST_L1_BOILER_EAST_pier_end",
+          "point_m": [
+            6.0517597,
+            41.2648811,
+            8.75
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 1.1800800561904907
+        }
+      ],
+      "method": "Opposed world axis0 rays to actual named structural/finish faces from drawing pixel(353, 343),Z8.75000. Opening-free section selected; decorative coursing and furnishings excluded. Nominal room dimension axis follows plan aspect and adjacent dimension chain.",
+      "evidence": "A printed label; C endpoint interpretation from plan/elevation; actual evaluated mesh"
+    },
+    {
+      "id": "GUEST_GUEST_ROOM_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "15 ft 9 in",
+      "reference_m": 4.8006,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.024003,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 4.8005982,
+      "delta_m": -1.8e-06,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_BATH_EAST_pier_end",
+          "point_m": [
+            14.6253204,
+            36.9418411,
+            8.75
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 2.177478790283203
+        },
+        {
+          "object": "GUEST_L1_BED_EAST_sill_1",
+          "point_m": [
+            19.4259186,
+            36.9418411,
+            8.75
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 2.6231191158294678
+        }
+      ],
+      "method": "Opposed world axis0 rays to actual named structural/finish faces from drawing pixel(580, 425),Z8.75000. Opening-free section selected; decorative coursing and furnishings excluded. Nominal room dimension axis follows plan aspect and adjacent dimension chain.",
+      "evidence": "A printed label; C endpoint interpretation from plan/elevation; actual evaluated mesh"
+    },
+    {
+      "id": "GUEST_GUEST_ROOM_DEPTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "14 ft 1 in",
+      "reference_m": 4.2926,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.021463000000000003,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 4.2925987,
+      "delta_m": -1.3e-06,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_BED_FRONT_sill_0",
+          "point_m": [
+            16.8027992,
+            36.3932419,
+            8.75
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance_m": 1.8665962219238281
+        },
+        {
+          "object": "GUEST_L1_NORTH_STONE_SPINE_pier_end",
+          "point_m": [
+            16.8027992,
+            40.6858406,
+            8.75
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance_m": 2.4260025024414062
+        }
+      ],
+      "method": "Opposed world axis1 rays to actual named structural/finish faces from drawing pixel(580, 400),Z8.75000. Opening-free section selected; decorative coursing and furnishings excluded. Nominal room dimension axis follows plan aspect and adjacent dimension chain.",
+      "evidence": "A printed label; C endpoint interpretation from plan/elevation; actual evaluated mesh"
+    },
+    {
+      "id": "GUEST_LAUNDRY_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "11 ft 7 in",
+      "reference_m": 3.5306,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 3.5305977,
+      "delta_m": -2.3e-06,
+      "endpoints": [
+        {
+          "object": "GUEST_B1_BASE_SOUTH_sill_0",
+          "point_m": [
+            -0.12152,
+            37.3354416,
+            6.54
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance_m": 1.2934379577636719
+        },
+        {
+          "object": "GUEST_B1_BASE_NORTH_pier_end",
+          "point_m": [
+            -0.12152,
+            40.8660393,
+            6.54
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance_m": 2.237159490585327
+        }
+      ],
+      "method": "Opposed world axis1 rays to actual named structural/finish faces from drawing pixel(258, 393),Z6.54000. Opening-free section selected; decorative coursing and furnishings excluded. Nominal room dimension axis follows plan aspect and adjacent dimension chain.",
+      "evidence": "A printed label; C endpoint interpretation from plan/elevation; actual evaluated mesh"
+    },
+    {
+      "id": "GUEST_LAUNDRY_DEPTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "9 ft 8 in",
+      "reference_m": 2.9464,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 2.9464,
+      "delta_m": -0.0,
+      "endpoints": [
+        {
+          "object": "GUEST_B1_BASE_BATH_EAST_pier_end",
+          "point_m": [
+            -1.7588,
+            37.9435196,
+            6.54
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance_m": 1.4796000719070435
+        },
+        {
+          "object": "GUEST_B1_BASE_EAST_pier_end",
+          "point_m": [
+            1.1876,
+            37.9435196,
+            6.54
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 1.4667999744415283
+        }
+      ],
+      "method": "Opposed world axis0 rays to actual named structural/finish faces from drawing pixel(255, 406),Z6.54000. Opening-free section selected; decorative coursing and furnishings excluded. Nominal room dimension axis follows plan aspect and adjacent dimension chain.",
+      "evidence": "A printed label; C endpoint interpretation from plan/elevation; actual evaluated mesh"
+    },
+    {
+      "id": "GUEST_BASE_BATH_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "6 ft 8 in",
+      "reference_m": 2.032,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 2.0319976,
+      "delta_m": -2.4e-06,
+      "endpoints": [
+        {
+          "object": "GUEST_B1_BASE_SOUTH_pier_0_cork_lining",
+          "point_m": [
+            -2.3290401,
+            37.3444405,
+            6.54
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance_m": 0.9153977036476135
+        },
+        {
+          "object": "GUEST_B1_BASE_BATH_NORTH_pier_end_cork_lining",
+          "point_m": [
+            -2.3290401,
+            39.3764381,
+            6.54
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance_m": 1.1166001558303833
+        }
+      ],
+      "method": "Opposed world axis1 rays to actual named structural/finish faces from drawing pixel(216, 400),Z6.54000. Opening-free section selected; decorative coursing and furnishings excluded. Nominal room dimension axis follows plan aspect and adjacent dimension chain.",
+      "evidence": "A printed label; C endpoint interpretation from plan/elevation; actual evaluated mesh"
+    },
+    {
+      "id": "GUEST_BASE_BATH_WIDTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "5 ft 1 in",
+      "reference_m": 1.5494,
+      "source_reading_uncertainty_m": 0.0254,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 1.5493998,
+      "delta_m": -2e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_B1_BASE_BATH_WEST_pier_end_cork_lining",
+          "point_m": [
+            -3.4471998,
+            38.0489616,
+            6.54
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 1.1181598901748657
+        },
+        {
+          "object": "GUEST_B1_BASE_BATH_EAST_pier_end_cork_lining",
+          "point_m": [
+            -1.8978,
+            38.0489616,
+            6.54
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance_m": 0.431240051984787
+        }
+      ],
+      "method": "Opposed world axis0 rays to actual named structural/finish faces from drawing pixel(216, 404),Z6.54000. Opening-free section selected; decorative coursing and furnishings excluded. Nominal room dimension axis follows plan aspect and adjacent dimension chain.",
+      "evidence": "A printed label; C endpoint interpretation from plan/elevation; actual evaluated mesh"
+    },
+    {
+      "id": "GUEST_SERVICE_Y_CHAIN",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "50 ft 10.25 in",
+      "reference_m": 15.50035,
+      "source_reading_uncertainty_m": 0.0127,
+      "tolerance_m": 0.07750175,
+      "status": "NOT_RUN",
+      "actual_mesh_measurement_m": null,
+      "delta_m": null,
+      "endpoints": null,
+      "method": "NOT_RUN: Printed50′10¼ vertical witness line starts at an angled service-wall projection. Mapping that witness to a specific inner/outer finished vertex is unresolved.",
+      "evidence": "A printed source; U exact source-to-mesh endpoints"
+    },
+    {
+      "id": "GUEST_POOL_OUTER_WIDTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "31 ft 6.625 in",
+      "reference_m": 9.617075,
+      "source_reading_uncertainty_m": 0.0127,
+      "tolerance_m": 0.048085375,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 9.617075,
+      "delta_m": -0.0,
+      "endpoints": [
+        {
+          "object": "GUEST_POOL_coping_16",
+          "point_m": [
+            22.9793034,
+            36.3960419,
+            9.0348501
+          ],
+          "coordinate_m": 22.97930335998535
+        },
+        {
+          "object": "GUEST_POOL_coping_00",
+          "point_m": [
+            32.5963783,
+            36.3960419,
+            9.0348501
+          ],
+          "coordinate_m": 32.596378326416016
+        }
+      ],
+      "method": "WorldX extrema of actual evaluated outer coping ring; compared with the separate printed pool exterior horizontal chain.",
+      "evidence": "A source pool exterior chain; actual mesh extrema"
+    },
+    {
+      "id": "GUEST_THEATER_NORTH_RISE",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "14 ft 5.625 in",
+      "reference_m": 4.410075,
+      "source_reading_uncertainty_m": 0.0127,
+      "tolerance_m": 0.022050375,
+      "status": "NOT_RUN",
+      "actual_mesh_measurement_m": null,
+      "delta_m": null,
+      "endpoints": null,
+      "method": "NOT_RUN: Printed14′5⅝ north angled-wall projected rise lacks established inner/outer vertex identity in the current traced mesh. Do not substitute whole object boundingbox.",
+      "evidence": "A printed source; U exact source-to-mesh endpoints"
+    },
+    {
+      "id": "GUEST_THEATER_EAST_SEGMENT",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "12 ft 8.75 in",
+      "reference_m": 3.87985,
+      "source_reading_uncertainty_m": 0.0127,
+      "tolerance_m": 0.02,
+      "status": "NOT_RUN",
+      "actual_mesh_measurement_m": null,
+      "delta_m": null,
+      "endpoints": null,
+      "method": "NOT_RUN: Printed12′8¾ is a partial east-wall interval terminating at a projection line; no named mesh vertex fixes that witness endpoint, so whole east-wall length is not equivalent.",
+      "evidence": "A printed source; U exact source-to-mesh endpoints"
+    },
+    {
+      "id": "GUEST_SECOND_LEVEL",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "7 ft 8.625 in",
+      "reference_m": 2.352675,
+      "source_reading_uncertainty_m": 0.00635,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 2.3526754,
+      "delta_m": 4e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_MAIN_FLOOR",
+          "point_m": [
+            3.4525599,
+            34.3058395,
+            8.3999996
+          ],
+          "coordinate_m": 8.399999618530273
+        },
+        {
+          "object": "GUEST_L2_BEDROOM_FLOOR",
+          "point_m": [
+            -3.4853599,
+            37.0999985,
+            10.7526751
+          ],
+          "coordinate_m": 10.75267505645752
+        }
+      ],
+      "method": "Difference between actual mesh topZ and actual guest L1 slab topZ. TOP_STONE uses pointed service terrace enclosing stone walls visible at west elevation left; roof finish/other chimneys are not substituted.",
+      "evidence": "A elevation label; C wall identity mapping for TOP_STONE, A direct object mapping for other levels"
+    },
+    {
+      "id": "GUEST_TOP_STONE",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "14 ft 9.625 in",
+      "reference_m": 4.511675,
+      "source_reading_uncertainty_m": 0.00635,
+      "tolerance_m": 0.022558375000000002,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 4.5116758,
+      "delta_m": 8e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_MAIN_FLOOR",
+          "point_m": [
+            3.4525599,
+            34.3058395,
+            8.3999996
+          ],
+          "coordinate_m": 8.399999618530273
+        },
+        {
+          "object": "GUEST_L2_UPPER_TERRACE_DIAGONAL_pier_end",
+          "point_m": [
+            -3.4569476,
+            52.6337547,
+            12.9116755
+          ],
+          "coordinate_m": 12.911675453186035
+        }
+      ],
+      "method": "Difference between actual mesh topZ and actual guest L1 slab topZ. TOP_STONE uses pointed service terrace enclosing stone walls visible at west elevation left; roof finish/other chimneys are not substituted.",
+      "evidence": "A elevation label; C wall identity mapping for TOP_STONE, A direct object mapping for other levels"
+    },
+    {
+      "id": "GUEST_PARAPET",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "10 ft 9.75 in",
+      "reference_m": 3.29565,
+      "source_reading_uncertainty_m": 0.00635,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 3.2956505,
+      "delta_m": 5e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_MAIN_FLOOR",
+          "point_m": [
+            3.4525599,
+            34.3058395,
+            8.3999996
+          ],
+          "coordinate_m": 8.399999618530273
+        },
+        {
+          "object": "GUEST_LOW_ARM_ROOF_parapet_0",
+          "point_m": [
+            3.4595604,
+            41.0487213,
+            11.6956501
+          ],
+          "coordinate_m": 11.695650100708008
+        }
+      ],
+      "method": "Difference between actual mesh topZ and actual guest L1 slab topZ. TOP_STONE uses pointed service terrace enclosing stone walls visible at west elevation left; roof finish/other chimneys are not substituted.",
+      "evidence": "A elevation label; C wall identity mapping for TOP_STONE, A direct object mapping for other levels"
+    },
+    {
+      "id": "GUEST_CHIMNEY",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "17 ft 2.75 in",
+      "reference_m": 5.25145,
+      "source_reading_uncertainty_m": 0.00635,
+      "tolerance_m": 0.026257250000000003,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 5.2514505,
+      "delta_m": 5e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_MAIN_FLOOR",
+          "point_m": [
+            3.4525599,
+            34.3058395,
+            8.3999996
+          ],
+          "coordinate_m": 8.399999618530273
+        },
+        {
+          "object": "GUEST_STONE_CHIMNEY_pier_end",
+          "point_m": [
+            3.3806441,
+            40.941555,
+            13.6514502
+          ],
+          "coordinate_m": 13.651450157165527
+        }
+      ],
+      "method": "Difference between actual mesh topZ and actual guest L1 slab topZ. TOP_STONE uses pointed service terrace enclosing stone walls visible at west elevation left; roof finish/other chimneys are not substituted.",
+      "evidence": "A elevation label; C wall identity mapping for TOP_STONE, A direct object mapping for other levels"
+    },
+    {
+      "id": "GUEST_LOW_STONE",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "6 ft 11.75 in",
+      "reference_m": 2.12725,
+      "source_reading_uncertainty_m": 0.00635,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 2.1272507,
+      "delta_m": 7e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_MAIN_FLOOR",
+          "point_m": [
+            3.4525599,
+            34.3058395,
+            8.3999996
+          ],
+          "coordinate_m": 8.399999618530273
+        },
+        {
+          "object": "GUEST_L1_NORTH_STONE_SPINE_pier_end",
+          "point_m": [
+            6.1926804,
+            40.6928406,
+            10.5272503
+          ],
+          "coordinate_m": 10.527250289916992
+        }
+      ],
+      "method": "Difference between actual mesh topZ and actual guest L1 slab topZ. TOP_STONE uses pointed service terrace enclosing stone walls visible at west elevation left; roof finish/other chimneys are not substituted.",
+      "evidence": "A elevation label; C wall identity mapping for TOP_STONE, A direct object mapping for other levels"
+    },
+    {
+      "id": "GUEST_POOL_TOP",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "2 ft 3.75 in",
+      "reference_m": 0.70485,
+      "source_reading_uncertainty_m": 0.00635,
+      "tolerance_m": 0.02,
+      "status": "PASS",
+      "actual_mesh_measurement_m": 0.7048502,
+      "delta_m": 2e-07,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_MAIN_FLOOR",
+          "point_m": [
+            3.4525599,
+            34.3058395,
+            8.3999996
+          ],
+          "coordinate_m": 8.399999618530273
+        },
+        {
+          "object": "GUEST_POOL_coping_00",
+          "point_m": [
+            32.5963783,
+            36.3960419,
+            9.1048498
+          ],
+          "coordinate_m": 9.104849815368652
+        }
+      ],
+      "method": "Difference between actual mesh topZ and actual guest L1 slab topZ. TOP_STONE uses pointed service terrace enclosing stone walls visible at west elevation left; roof finish/other chimneys are not substituted.",
+      "evidence": "A elevation label; C wall identity mapping for TOP_STONE, A direct object mapping for other levels"
+    }
+  ],
+  "limitations": [
+    "Decorative ashlar projections excluded from clear-room dimensions; cork wall linings included when intersected.",
+    "Room label axes inferred from plan geometry; finished-face definition remains a stated modeling interpretation.",
+    "TOP_STONE identity is the pointed upper service terrace enclosure; other stone elements must not be substituted to get the desired number.",
+    "NOT_RUN anchors remain unmeasured for acceptance, rather than borrowing data-file targets.",
+    "This subtask reports evidence only and intentionally changes no scene/data dimensions."
+  ]
+}

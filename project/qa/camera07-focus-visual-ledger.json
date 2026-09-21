@@ -1,0 +1,265 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration07.blend",
+  "scene_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "config_sha256": "4def78dcbae91f3292562f41796adec71c4680b64e04301f051fdc1833ce8666",
+  "render_benchmark_sha256": "e4f0c9ac63a26ae661c699128ff5242e927e4feb0f0e468112d923aab3f401bb",
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "engine": "CYCLES",
+  "device": "CPU",
+  "reviewed_camera_count": 6,
+  "room_camera_count_in_120": 5,
+  "distinct_room_records": 4,
+  "actually_opened_current_png_count": 20,
+  "previous_comparison": {
+    "path": "renders/previews/iteration07-lighting-skyfill/CAM_MAIN_L3_STUDY_B_EV3p2.png",
+    "sha256": "cebf62a13426219b36d3316f204a46b5b7f6b2e14f7a8a10aab1e693d4b81133",
+    "scene_sha256": "682db2912eeb0cac78709f0bb17253c3691bd4ffd331021a0f2ab55e06db5d69",
+    "actually_opened_by": "camera04",
+    "purpose": "SameStudyB3.2EV before/after bright strip comparison; not a current07 image."
+  },
+  "scope": "Actual visual review of six cameras and the explicitly listed same-EXR brackets only. All24 bracket filenames were not automatically counted as reviewed. Five room camera views are part of the120, HERO is separate. No full120 visual, photo-match, navigation, final-water or final-quality acceptance.",
+  "production_config_unchanged": true,
+  "final_quality_accepted": false,
+  "cameras": [
+    {
+      "camera": "CAM_HERO",
+      "room_id": "",
+      "current_ev": 0.800000011920929,
+      "status": "READABLE_ARCHITECTURE_WATER_VISUAL_FAIL",
+      "opened_brackets": [
+        1.6
+      ],
+      "recommended_ev": 0.8,
+      "observation": "Exterior house and terrace massing readable. Current procedural waterfall is visibly segmented into parallel pale strips with artificial-looking perforation/foam. This is not the separate07a water prototype.",
+      "remaining": "Water visual failure; overly smooth pale terrain and stepped geology, synthetic vegetation and overall photoreal quality remain unresolved. Composition/brightness cannot turn this into final visual acceptance.",
+      "exposure_reason": "Current0.8 keeps exterior tonal detail.1.6 is brighter and flatter; no exposure increase recommended.",
+      "actually_opened_images": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_HERO.png",
+          "sha256": "7cb83bd5b12e7f73b230f14dde02ab48b55a88e7c4229c3d743e9efa0ee6ca2d",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_HERO_EV1p6.png",
+          "sha256": "bbbe25a2dcd1b55a999020adb5d203e540571360158fb5ee47e506f4438714cc",
+          "actually_opened_by": "camera04"
+        }
+      ],
+      "identical_content_aliases": [],
+      "final_quality_accepted": false,
+      "config_change_made": false
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "room_id": "MAIN_L1_LIVING",
+      "current_ev": 2.4000000953674316,
+      "status": "STAGED_COMPOSITION_EXPOSURE_ACCEPTED",
+      "opened_brackets": [
+        1.6,
+        3.2
+      ],
+      "recommended_ev": 2.4,
+      "observation": "Living room structure, desk/chair, glass openings and creek stair relationship are readable in the current2.4EV image with sky strength0.36. Terrace framing remains clear.",
+      "remaining": "Large central column obscures part of the room by design of this view. Exterior is bright, glass edges/black lines and simplified material/furniture quality remain visibly synthetic.",
+      "exposure_reason": "1.6 dims the interior;3.2 washes out more terrace/forest detail. Current2.4 is the preferred balance among the actually opened brackets.",
+      "actually_opened_images": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_L1_LIVING_A.png",
+          "sha256": "99ca32db3cd458ae50a1604b567ee81ab399b8ef27a459c52295ce938da131ef",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_L1_LIVING_A_EV1p6.png",
+          "sha256": "4cbea166a96cfe021fef9b226d84acbc992fa0acdf93056c21a478f0018d2941",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_L1_LIVING_A_EV3p2.png",
+          "sha256": "a35996c536c4b117470d3e44eea7647feec98ec8a529c332e5546bd7448bf592",
+          "actually_opened_by": "camera04"
+        }
+      ],
+      "identical_content_aliases": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_L1_LIVING_A_EV2p4.png",
+          "sha256": "99ca32db3cd458ae50a1604b567ee81ab399b8ef27a459c52295ce938da131ef",
+          "viewed_as_identical_content": true
+        }
+      ],
+      "final_quality_accepted": false,
+      "config_change_made": false
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_B",
+      "room_id": "MAIN_L3_STUDY",
+      "current_ev": 3.0,
+      "status": "LIMITED_DESK_VIEW_LOCAL_FLOOR_STRIP_RESOLVED",
+      "opened_brackets": [
+        2.4,
+        3.2,
+        3.6
+      ],
+      "recommended_ev": 3.0,
+      "observation": "The bright white horizontal strip under the desk visible in the earlier skyfill candidate is absent in integrated07 at the same camera and matching3.2EV bracket. The observed area is now continuous dark floor. Desk, chair and bookcase remain recognizable.",
+      "remaining": "Chair feet and desk base are cropped; only a limited portion of the floor is visible. Whole-room floor, final composition and all source dimensions cannot be accepted from this image.",
+      "exposure_reason": "Current3.0 is somewhat dark but readable.3.2 modestly improves detail;3.6 lifts the stone wall further, and2.4 is darker. Keep existing3.0 at this stage; raising exposure does not fix cropped framing.",
+      "local_defect_status": "OBSERVED_BRIGHT_FLOOR_STRIP_ABSENT_IN_NEW_RENDER",
+      "actually_opened_images": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_L3_STUDY_B.png",
+          "sha256": "d6364ac0e156d7317668e457d49025347d40ca7d4ef2a78dc4b698d494fdd1df",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_L3_STUDY_B_EV2p4.png",
+          "sha256": "d4fb43a837ac479e99731e900ec55f1ffd37a5b956ecbb3b8cf509e428b4ea5b",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_L3_STUDY_B_EV3p2.png",
+          "sha256": "5772d7d4a9ed0b0ee22f023accbd8d90e8efb43564620b9fd9189f7b0ec15da7",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_L3_STUDY_B_EV3p6.png",
+          "sha256": "3ff631c0cd9918f21d8c2562422d6a463b12c80f4113aecc2346d05a77629d89",
+          "actually_opened_by": "camera04"
+        }
+      ],
+      "identical_content_aliases": [],
+      "final_quality_accepted": false,
+      "config_change_made": false
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "room_id": "GUEST_L1_LOUNGE",
+      "current_ev": 3.5999999046325684,
+      "status": "STAGED_COMPOSITION_ACCEPTED",
+      "opened_brackets": [
+        1.6,
+        2.4,
+        3.2
+      ],
+      "recommended_ev": 3.6,
+      "observation": "Seating-side broad view retains left windows and sofa, glass door, table edge, fireplace opening/hearth at right and bookcase edge. Large bookcase no longer blocks the firebox bottom. A and B together explain complementary room relationships.",
+      "remaining": "Firebox interior is dark; table is cropped and large central stone pier occupies substantial frame. Materials and final photoreal lighting are not accepted.",
+      "exposure_reason": "Current3.6 is not materially overbright. EV3.2 is slightly moodier and2.4/1.6 lose stone and seating shadow detail. Keep3.6; do not force dark unlit firebrick bright through global exposure.",
+      "actually_opened_images": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_A.png",
+          "sha256": "553ce39046267fc15ab7bb8bf6182806976379ac9268ec92a6a434423b73c33d",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_A_EV1p6.png",
+          "sha256": "f8532e449f85ddc80cfb7f52c0fb60dcaa0af8cf4717d78cb2a8479a391f683a",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_A_EV2p4.png",
+          "sha256": "7782bb404666d7903cd3f5d18f0e6455c772793ecf250fa9ee4dc9aa14ae1b41",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_A_EV3p2.png",
+          "sha256": "5e201daf633f4b1acdd35e9a949e3d1e016e0b317c432fe2317ef571afad847f",
+          "actually_opened_by": "camera04"
+        }
+      ],
+      "identical_content_aliases": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_A_EV3p6.png",
+          "sha256": "553ce39046267fc15ab7bb8bf6182806976379ac9268ec92a6a434423b73c33d",
+          "viewed_as_identical_content": true
+        }
+      ],
+      "final_quality_accepted": false,
+      "config_change_made": false
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "room_id": "GUEST_L1_LOUNGE",
+      "current_ev": 3.0,
+      "status": "READABLE_SECONDARY_VIEW",
+      "opened_brackets": [
+        1.6,
+        2.4,
+        3.2,
+        3.6
+      ],
+      "recommended_ev": 3.0,
+      "observation": "Bookcase, armchair, correct southeast screen/cabinet, and window-side bench are readable; screen sits in the room rather than filling the lens with foreground slats. Complements A, without claiming this view shows the fireplace.",
+      "remaining": "Central screen/cabinet occupies much of the view; foreground floor is dark and table partly cropped. Generic furniture and materials need refinement.",
+      "exposure_reason": "Current3.0 is readable and not materially underexposed for diagnostic use.3.2 gives a small shadow improvement and3.6 is brighter but changes mood;2.4/1.6 are weaker. No necessary config change.",
+      "actually_opened_images": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_B.png",
+          "sha256": "1b0b9ba427121a9b9a95537cc3023e662b3ed128c4b9e374a27583c426c16a12",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_B_EV1p6.png",
+          "sha256": "c3bfe8c141ee64de848c8e17864a8defa385acdb7db38e6130aeff20edefd36c",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_B_EV2p4.png",
+          "sha256": "52d2d473e4be01dc14b0397b046f604f17b1f6aa834dc4d33b5e0797192902a2",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_B_EV3p2.png",
+          "sha256": "b00d61d8819d7d0f6697f718dd98db8eac65c50206bc1f61cd56ca0a6fd9e54e",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_GUEST_L1_LOUNGE_B_EV3p6.png",
+          "sha256": "be26a5a1a5c8ac71d4b24b9353d4d301fcd550235fe7b820180bd97f4fb57788",
+          "actually_opened_by": "camera04"
+        }
+      ],
+      "identical_content_aliases": [],
+      "final_quality_accepted": false,
+      "config_change_made": false
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "room_id": "MAIN_B_BATH",
+      "current_ev": 1.600000023841858,
+      "status": "LIMITED_FIXTURE_VIEW_LOCAL_CURVE_FIX_VISIBLE",
+      "opened_brackets": [
+        2.4
+      ],
+      "recommended_ev": 1.6,
+      "observation": "No previous giant pipe/ring crosses the room. Narrow bent metal fixture/rail segments stay around the sink; WC seat and tank, sink and floor are readable.",
+      "remaining": "WC pedestal/base is cut off by the lower edge, right sink is cropped and the room is not shown in full. Fixture shape/source fidelity and final materials still need refinement.",
+      "exposure_reason": "Current1.6 retains ceramic shape and warm wall texture.2.4 is brighter without resolving framing or fixture fidelity; retain1.6.",
+      "local_defect_status": "GIANT_CURVE_OVERSHOOT_NOT_VISIBLE",
+      "actually_opened_images": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_B_BATH_A.png",
+          "sha256": "ea08763a5a0f222e17b42a6d3452b6515f87b60b938b4c49c31e13484febd653",
+          "actually_opened_by": "camera04"
+        },
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_B_BATH_A_EV2p4.png",
+          "sha256": "37cebcce98c8fcda843c794e85ef3aa70afec63b2b30ecf31ee1fa285f64ae69",
+          "actually_opened_by": "camera04"
+        }
+      ],
+      "identical_content_aliases": [
+        {
+          "path": "renders/previews/iteration07-focus/CAM_MAIN_B_BATH_A_EV1p6.png",
+          "sha256": "ea08763a5a0f222e17b42a6d3452b6515f87b60b938b4c49c31e13484febd653",
+          "viewed_as_identical_content": true
+        }
+      ],
+      "final_quality_accepted": false,
+      "config_change_made": false
+    }
+  ]
+}

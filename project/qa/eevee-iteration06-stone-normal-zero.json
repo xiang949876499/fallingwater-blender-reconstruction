@@ -1,0 +1,1329 @@
+{
+  "status": "REVIEWED",
+  "source_sha256": "cee741ac1c25c84f487c4967158a4c29bb3552871102338442f9b9fc85488ebf",
+  "source": "D:\\zx\\test\\project\\qa\\eevee-iteration06-practical\\Fallingwater_main_l3_coverage_candidate.blend",
+  "camera": "CAM_MAIN_L3_STUDY_B",
+  "camera_location": [
+    -0.5522199869155884,
+    11.97404956817627,
+    6.886350154876709
+  ],
+  "camera_rotation": [
+    1.4660768508911133,
+    4.958859989301345e-08,
+    0.4986268877983093
+  ],
+  "lens": 28.0,
+  "frame": 1,
+  "exposure": 2.4,
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "cpu_preparation_threads": 4,
+  "raytracing": true,
+  "fast_gi": false,
+  "material": "FW_stone",
+  "node": "Bump.001",
+  "only_change": {
+    "input": "Strength",
+    "before": 0.5,
+    "after": 0.0
+  },
+  "distance_unchanged": 0.02199999988079071,
+  "relevant_links": [
+    [
+      "PH_Displacement",
+      "Color",
+      "Bump.001",
+      "Height"
+    ],
+    [
+      "Bump.001",
+      "Normal",
+      "Principled BSDF",
+      "Normal"
+    ]
+  ],
+  "before_stone_graph": {
+    "diffuse_color": [
+      0.2800000011920929,
+      0.2549999952316284,
+      0.20000000298023224,
+      1.0
+    ],
+    "use_nodes": true,
+    "nodes": {
+      "Principled BSDF": {
+        "type": "ShaderNodeBsdfPrincipled",
+        "inputs": [
+          [
+            "Base Color",
+            [
+              0.2800000011920929,
+              0.2549999952316284,
+              0.20000000298023224,
+              1.0
+            ]
+          ],
+          [
+            "Metallic",
+            0.0
+          ],
+          [
+            "Roughness",
+            0.7900000214576721
+          ],
+          [
+            "IOR",
+            1.5
+          ],
+          [
+            "Alpha",
+            1.0
+          ],
+          [
+            "Thin Wall",
+            false
+          ],
+          [
+            "Normal",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Weight",
+            0.0
+          ],
+          [
+            "Diffuse Roughness",
+            0.0
+          ],
+          [
+            "Subsurface Weight",
+            0.0
+          ],
+          [
+            "Subsurface Radius",
+            [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ]
+          ],
+          [
+            "Subsurface Scale",
+            0.004999999888241291
+          ],
+          [
+            "Subsurface IOR",
+            1.399999976158142
+          ],
+          [
+            "Subsurface Anisotropy",
+            0.0
+          ],
+          [
+            "Specular IOR Level",
+            0.5
+          ],
+          [
+            "Specular Tint",
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            "Anisotropic",
+            0.0
+          ],
+          [
+            "Anisotropic Rotation",
+            0.0
+          ],
+          [
+            "Tangent",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Transmission Weight",
+            0.0
+          ],
+          [
+            "Coat Weight",
+            0.0
+          ],
+          [
+            "Coat Roughness",
+            0.029999999329447746
+          ],
+          [
+            "Coat IOR",
+            1.5
+          ],
+          [
+            "Coat Tint",
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            "Coat Normal",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Sheen Weight",
+            0.0
+          ],
+          [
+            "Sheen Roughness",
+            0.5
+          ],
+          [
+            "Sheen Tint",
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            "Emission Color",
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            "Emission Strength",
+            0.0
+          ],
+          [
+            "Thin Film Thickness",
+            0.0
+          ],
+          [
+            "Thin Film IOR",
+            1.3300000429153442
+          ]
+        ],
+        "outputs": [
+          [
+            "BSDF",
+            null
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Material Output": {
+        "type": "ShaderNodeOutputMaterial",
+        "inputs": [
+          [
+            "Surface",
+            null
+          ],
+          [
+            "Volume",
+            null
+          ],
+          [
+            "Displacement",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Thickness",
+            0.0
+          ]
+        ],
+        "outputs": [],
+        "image": null,
+        "target": "ALL",
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Texture Coordinate": {
+        "type": "ShaderNodeTexCoord",
+        "inputs": [],
+        "outputs": [
+          [
+            "Generated",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Normal",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "UV",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Object",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Camera",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Window",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Reflection",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Vector Math": {
+        "type": "ShaderNodeVectorMath",
+        "inputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Vector_001",
+            [
+              0.75,
+              0.75,
+              2.299999952316284
+            ]
+          ],
+          [
+            "Vector_002",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Scale",
+            1.0
+          ]
+        ],
+        "outputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Value",
+            0.0
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Noise Texture": {
+        "type": "ShaderNodeTexNoise",
+        "inputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "W",
+            0.0
+          ],
+          [
+            "Scale",
+            7.0
+          ],
+          [
+            "Detail",
+            3.0
+          ],
+          [
+            "Roughness",
+            0.7200000286102295
+          ],
+          [
+            "Lacunarity",
+            2.0
+          ],
+          [
+            "Offset",
+            0.0
+          ],
+          [
+            "Gain",
+            1.0
+          ],
+          [
+            "Distortion",
+            0.0
+          ]
+        ],
+        "outputs": [
+          [
+            "Fac",
+            0.0
+          ],
+          [
+            "Color",
+            [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Color Ramp": {
+        "type": "ShaderNodeValToRGB",
+        "inputs": [
+          [
+            "Fac",
+            0.5
+          ]
+        ],
+        "outputs": [
+          [
+            "Color",
+            [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          ],
+          [
+            "Alpha",
+            0.0
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Noise Texture.001": {
+        "type": "ShaderNodeTexNoise",
+        "inputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "W",
+            0.0
+          ],
+          [
+            "Scale",
+            126.0
+          ],
+          [
+            "Detail",
+            2.0
+          ],
+          [
+            "Roughness",
+            0.5
+          ],
+          [
+            "Lacunarity",
+            2.0
+          ],
+          [
+            "Offset",
+            0.0
+          ],
+          [
+            "Gain",
+            1.0
+          ],
+          [
+            "Distortion",
+            0.0
+          ]
+        ],
+        "outputs": [
+          [
+            "Fac",
+            0.0
+          ],
+          [
+            "Color",
+            [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Bump": {
+        "type": "ShaderNodeBump",
+        "inputs": [
+          [
+            "Strength",
+            0.41999998688697815
+          ],
+          [
+            "Distance",
+            0.017999999225139618
+          ],
+          [
+            "Filter Width",
+            0.10000000149011612
+          ],
+          [
+            "Height",
+            1.0
+          ],
+          [
+            "Normal",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "outputs": [
+          [
+            "Normal",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": false,
+        "mute": false
+      },
+      "Texture Coordinate.001": {
+        "type": "ShaderNodeTexCoord",
+        "inputs": [],
+        "outputs": [
+          [
+            "Generated",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Normal",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "UV",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Object",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Camera",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Window",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Reflection",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Vector Math.001": {
+        "type": "ShaderNodeVectorMath",
+        "inputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Vector_001",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Vector_002",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Scale",
+            0.5
+          ]
+        ],
+        "outputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "Value",
+            0.0
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "PH_Diffuse": {
+        "type": "ShaderNodeTexImage",
+        "inputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "outputs": [
+          [
+            "Color",
+            [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          ],
+          [
+            "Alpha",
+            0.0
+          ]
+        ],
+        "image": "worn_rock_natural_01_diff_2k.jpg",
+        "target": null,
+        "projection": "BOX",
+        "invert": null,
+        "mute": false
+      },
+      "PH_Rough": {
+        "type": "ShaderNodeTexImage",
+        "inputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "outputs": [
+          [
+            "Color",
+            [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          ],
+          [
+            "Alpha",
+            0.0
+          ]
+        ],
+        "image": "worn_rock_natural_01_rough_2k.jpg",
+        "target": null,
+        "projection": "BOX",
+        "invert": null,
+        "mute": false
+      },
+      "PH_Displacement": {
+        "type": "ShaderNodeTexImage",
+        "inputs": [
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "outputs": [
+          [
+            "Color",
+            [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          ],
+          [
+            "Alpha",
+            0.0
+          ]
+        ],
+        "image": "worn_rock_natural_01_disp_2k.jpg",
+        "target": null,
+        "projection": "BOX",
+        "invert": null,
+        "mute": false
+      },
+      "Mix (Legacy)": {
+        "type": "ShaderNodeMixRGB",
+        "inputs": [
+          [
+            "Fac",
+            1.0
+          ],
+          [
+            "Color1",
+            [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          ],
+          [
+            "Color2",
+            [
+              0.6800000071525574,
+              0.7300000190734863,
+              0.7200000286102295,
+              1.0
+            ]
+          ]
+        ],
+        "outputs": [
+          [
+            "Color",
+            [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Map Range": {
+        "type": "ShaderNodeMapRange",
+        "inputs": [
+          [
+            "Value",
+            1.0
+          ],
+          [
+            "From Min",
+            0.0
+          ],
+          [
+            "From Max",
+            1.0
+          ],
+          [
+            "To Min",
+            0.6299999952316284
+          ],
+          [
+            "To Max",
+            0.8999999761581421
+          ],
+          [
+            "Steps",
+            4.0
+          ],
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "From_Min_FLOAT3",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "From_Max_FLOAT3",
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            "To_Min_FLOAT3",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "To_Max_FLOAT3",
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            "Steps_FLOAT3",
+            [
+              4.0,
+              4.0,
+              4.0
+            ]
+          ]
+        ],
+        "outputs": [
+          [
+            "Result",
+            0.0
+          ],
+          [
+            "Vector",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": null,
+        "mute": false
+      },
+      "Bump.001": {
+        "type": "ShaderNodeBump",
+        "inputs": [
+          [
+            "Strength",
+            0.5
+          ],
+          [
+            "Distance",
+            0.02199999988079071
+          ],
+          [
+            "Filter Width",
+            0.10000000149011612
+          ],
+          [
+            "Height",
+            1.0
+          ],
+          [
+            "Normal",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "outputs": [
+          [
+            "Normal",
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "image": null,
+        "target": null,
+        "projection": null,
+        "invert": false,
+        "mute": false
+      }
+    },
+    "links": [
+      [
+        "Bump.001",
+        "Normal",
+        "Principled BSDF",
+        "Normal"
+      ],
+      [
+        "Map Range",
+        "Result",
+        "Principled BSDF",
+        "Roughness"
+      ],
+      [
+        "Mix (Legacy)",
+        "Color",
+        "Principled BSDF",
+        "Base Color"
+      ],
+      [
+        "Noise Texture",
+        "Fac",
+        "Color Ramp",
+        "Fac"
+      ],
+      [
+        "Noise Texture.001",
+        "Fac",
+        "Bump",
+        "Height"
+      ],
+      [
+        "PH_Diffuse",
+        "Color",
+        "Mix (Legacy)",
+        "Color1"
+      ],
+      [
+        "PH_Displacement",
+        "Color",
+        "Bump.001",
+        "Height"
+      ],
+      [
+        "PH_Rough",
+        "Color",
+        "Map Range",
+        "Value"
+      ],
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ],
+      [
+        "Texture Coordinate",
+        "Object",
+        "Vector Math",
+        "Vector"
+      ],
+      [
+        "Texture Coordinate.001",
+        "Object",
+        "Vector Math.001",
+        "Vector"
+      ],
+      [
+        "Vector Math",
+        "Vector",
+        "Noise Texture",
+        "Vector"
+      ],
+      [
+        "Vector Math",
+        "Vector",
+        "Noise Texture.001",
+        "Vector"
+      ],
+      [
+        "Vector Math.001",
+        "Vector",
+        "PH_Diffuse",
+        "Vector"
+      ],
+      [
+        "Vector Math.001",
+        "Vector",
+        "PH_Displacement",
+        "Vector"
+      ],
+      [
+        "Vector Math.001",
+        "Vector",
+        "PH_Rough",
+        "Vector"
+      ]
+    ]
+  },
+  "before_all_material_graph_hashes": {
+    "FW_bark": "2bb478001174b7872f55ecc5c32ef6ef6024d373170ef400a34c76af5a3501bd",
+    "FW_BearRun_Aerated_Cascade": "298803f4c14c67cd0ddc63c37ab556375f137af3b65f777d5a2ffb7099f27d80",
+    "FW_BearRun_Looping_Water": "ad682998c04c526a4ecbc184721d6df30a4c540345d52dadea418f01d5d70ccb",
+    "FW_bluegrey": "584f14751279d418130554cbf109f31b991ba957b8ee6aa529144c6574226f86",
+    "FW_book_ochre": "38d495ff18de895033c04de0fe6bb20f4d85c2185e22491631d4bf77511d4272",
+    "FW_book_rust": "4988f12aa218a7fcbf0f683d0aa82f12731647b3e78d1678f6b9cbeaeaf82f6f",
+    "FW_book_sage": "8fa8e42746f34859164dab0b22ee83cd5bfd2ca7413e1500980c1aaac4a4c5d6",
+    "FW_books": "e2cda0209bc6587d6bc69901a488cb9c2ce9362f0c30826a14759b697fc8ed92",
+    "FW_bottle_glass": "b77551e31716d1e78d2a2917b19ebd9f4feb9f1d5aa39ad490ea197b941a16fb",
+    "FW_brass": "48489cf462a7cd387b9e0ee0e1795874c4a2dc9ac1f42b8ffb3bb5fb4edbe98a",
+    "FW_ceiling": "eb71243803f42df12849efaf3d8fdcc4b3af1feba42c17f16670721b2d7a3a6e",
+    "FW_ceramic": "7ab6d7404ce8dc09fcc53317bac87d0172de07b877989b4af9d1965ae8ab313f",
+    "FW_Continuous_Forest_Floor": "1250a3dbb9aab00d4065b4685fff2335ca4313181a298ff057bc12bf31d895ae",
+    "FW_cork": "ea53207b086d2b4602878e156bda7e3a4c1d661e991ffc35bd946d11fb2c05e1",
+    "FW_counter": "6beaa83b8bd2ccc9650dedb0c482ddb46b7411eacbf65f49147c07cf70bae513",
+    "FW_cream_fabric": "7e4ad610ae25d8f0dc2d6424ccfcfa164489a59aa13963497e684c6af9f3a9d8",
+    "FW_dark": "87741f74a1ddf95ff275fa70ea3c19b21c139470e50ad73fb40529461a046e78",
+    "FW_DETAIL_LightScreen_DarkEdge": "4d8f650d8fc3b54d3115e7a754d95acc6a82a2eec86bf61a26b70b33a621bea5",
+    "FW_DETAIL_LightScreen_DiffusingPanel": "5781582b601a6a5725918a7fa7ee8a654aa752db50b90388fb6f63a6ead449a0",
+    "FW_DETAIL_LightScreen_VisibleCove": "cbac9fad3baa6dfe5cb0d8fc61e0c99c2823dd18a6d462192ebfbeb6581df79b",
+    "FW_DETAIL_LightScreen_WarmBrownFrame": "aac1c88bf50befe36b547b629f03c688db5b21df2bdfe9eb5449ec791a4a40f8",
+    "FW_earth_pottery": "67004a23664e1e90845837845fd863e1054304bab097571fef85ced9bf5e9a37",
+    "FW_foam": "8e1d057492b1291cd836dada9804b9d4dfd3ab5cafc6807cd18f737485a23bd0",
+    "FW_glass": "d5595e999f2f62d584171c44a95453fd738ce686881489fa5d4df26ad7730b0f",
+    "FW_gravel": "59b97cef83b0180a0d47063771120f31cdc8c0b9ad457de4ee56f3af528725c8",
+    "FW_GUEST_firebrick": "d744dfb3ea0cbd3ce1512596e2db0c740f59b4865e2572d2b5a21ae1ce002ae6",
+    "FW_lamp_diffuser": "5073f8f367a59202e135104a38b07cc10911f52016168c8f73d401c63721bec5",
+    "FW_leather": "8124feeb1af6cf2cf72549e441df2c65239355b193903c4456b1a0e9d71d3541",
+    "FW_linen": "73bd16d2aabc2cc041d47be108593c59fac227cfb3c973a5a2065e42a32c9630",
+    "FW_metal": "a09eae5d5c37ad4e06a87c9932948cacdf8011001d9a00f1449b974c9312228e",
+    "FW_mirror": "235f2f90e14841e2f75946136764aeb4880cefaee7457f6512df742824952c00",
+    "FW_moss": "74f9a63f018b0a78e7caabcb014e3b635f43a481e41fc87df308d6e44fd92643",
+    "FW_native_hearth_sandstone_C": "85ab0fece4a0f7b3ca5baf91d6a546f773f0d8ed53f1673c79d9b1b4f6a517cf",
+    "FW_ochre": "6f9fd9dc91a2fd0b5d2714e22ea52bc5a3ecff10678e930248b6b8a7bb9551f2",
+    "FW_paper": "c9aa930247a7c8d60d4738dc662e65354683343a2313731f7ee5cfece1f09ecb",
+    "FW_red": "47646023b4309089c4f8b244b388f6a15fa97a69eb230b355d8b0cce8955293c",
+    "FW_rock": "c72c199ec5b4ec3309a724f376fa9b3a97f18ce53b52ebc37191400af42e96db",
+    "FW_rust_fabric": "0cb155bad78fa477574974c67b2642255ff2438fba9342b1a48683d87a257263",
+    "FW_service_clear_bulb_C": "b7d82fcd296568da577efc8c0f502f5e62c4a8284f5e85a22c246bdca23f4ee4",
+    "FW_service_filament_C": "7e593f86c907e1f922707804b6af4c9a0c198f4cc19b8451eb7c52aaea9d8160",
+    "FW_Site_Textured_leaf": "8d614b31621e9227f79aa6cb365a86aec56270c9f85935b900d137727e85893d",
+    "FW_Site_Textured_leaf_dark": "bf4cc900d169226174a36158c6c13204fd466525690ab4a45f9eed153774ddbc",
+    "FW_Site_Textured_leaf_light": "f8bf6c56455a166e5de983c731069567b8524d75166ec7aa6ffc88505b468c68",
+    "FW_steel_cream": "56d7985cac05ade6f674457cadb4c359e1aced881e875f51142c5c99f6e1fad0",
+    "FW_steel_shadow": "524c1a6300d31b0624d5e4213620a2989dfc6cf4f09b110af158ea5ddf53b7aa",
+    "FW_stone": "3ad2eb92ca3052eb858e0e6c727c6eb8f955ab983250c0ebb2d369b230efda45",
+    "FW_stone_floor": "f415190027c32efa6442104306b63ada601333b26588ad96d125f9265a822720",
+    "FW_water": "e532b66d91cb97f0c7d278b43b1d1fe5873d13869bf3dcd7a8c32d0a8d8bab1a",
+    "FW_Weathered_Forest_Litter_0": "405ef387b1505f1b9860c9233a19b13e977c0c6e065c8be3d6f2116377de06d3",
+    "FW_Weathered_Forest_Litter_1": "5081a3a1bfe88cb91043f52019defd71c0a31d53d82fe96da0f7272f858c11a8",
+    "FW_Weathered_Forest_Litter_2": "6ce5745488eaaa3358a8762cb714df1bdcaf73b46a4137c47f0e47304828cf70",
+    "FW_wet_rock": "ae54b70a18b214f55de9338f7576d33cd3907a140369877a743bf72ce2232c36",
+    "FW_wood": "c403a96a823b3337fa8321d28426bd6db705c4ee980bc6fb743c89006321f157",
+    "MAIN_Kitchen_9inch_Cherokee_Rubber": "6bcdea1de1ce332c87c9b4894e3bd5f44755a3fcb8eed85a683c3711f5dc4ce6"
+  },
+  "after_all_material_graph_hashes": {
+    "FW_bark": "2bb478001174b7872f55ecc5c32ef6ef6024d373170ef400a34c76af5a3501bd",
+    "FW_BearRun_Aerated_Cascade": "298803f4c14c67cd0ddc63c37ab556375f137af3b65f777d5a2ffb7099f27d80",
+    "FW_BearRun_Looping_Water": "ad682998c04c526a4ecbc184721d6df30a4c540345d52dadea418f01d5d70ccb",
+    "FW_bluegrey": "584f14751279d418130554cbf109f31b991ba957b8ee6aa529144c6574226f86",
+    "FW_book_ochre": "38d495ff18de895033c04de0fe6bb20f4d85c2185e22491631d4bf77511d4272",
+    "FW_book_rust": "4988f12aa218a7fcbf0f683d0aa82f12731647b3e78d1678f6b9cbeaeaf82f6f",
+    "FW_book_sage": "8fa8e42746f34859164dab0b22ee83cd5bfd2ca7413e1500980c1aaac4a4c5d6",
+    "FW_books": "e2cda0209bc6587d6bc69901a488cb9c2ce9362f0c30826a14759b697fc8ed92",
+    "FW_bottle_glass": "b77551e31716d1e78d2a2917b19ebd9f4feb9f1d5aa39ad490ea197b941a16fb",
+    "FW_brass": "48489cf462a7cd387b9e0ee0e1795874c4a2dc9ac1f42b8ffb3bb5fb4edbe98a",
+    "FW_ceiling": "eb71243803f42df12849efaf3d8fdcc4b3af1feba42c17f16670721b2d7a3a6e",
+    "FW_ceramic": "7ab6d7404ce8dc09fcc53317bac87d0172de07b877989b4af9d1965ae8ab313f",
+    "FW_Continuous_Forest_Floor": "1250a3dbb9aab00d4065b4685fff2335ca4313181a298ff057bc12bf31d895ae",
+    "FW_cork": "ea53207b086d2b4602878e156bda7e3a4c1d661e991ffc35bd946d11fb2c05e1",
+    "FW_counter": "6beaa83b8bd2ccc9650dedb0c482ddb46b7411eacbf65f49147c07cf70bae513",
+    "FW_cream_fabric": "7e4ad610ae25d8f0dc2d6424ccfcfa164489a59aa13963497e684c6af9f3a9d8",
+    "FW_dark": "87741f74a1ddf95ff275fa70ea3c19b21c139470e50ad73fb40529461a046e78",
+    "FW_DETAIL_LightScreen_DarkEdge": "4d8f650d8fc3b54d3115e7a754d95acc6a82a2eec86bf61a26b70b33a621bea5",
+    "FW_DETAIL_LightScreen_DiffusingPanel": "5781582b601a6a5725918a7fa7ee8a654aa752db50b90388fb6f63a6ead449a0",
+    "FW_DETAIL_LightScreen_VisibleCove": "cbac9fad3baa6dfe5cb0d8fc61e0c99c2823dd18a6d462192ebfbeb6581df79b",
+    "FW_DETAIL_LightScreen_WarmBrownFrame": "aac1c88bf50befe36b547b629f03c688db5b21df2bdfe9eb5449ec791a4a40f8",
+    "FW_earth_pottery": "67004a23664e1e90845837845fd863e1054304bab097571fef85ced9bf5e9a37",
+    "FW_foam": "8e1d057492b1291cd836dada9804b9d4dfd3ab5cafc6807cd18f737485a23bd0",
+    "FW_glass": "d5595e999f2f62d584171c44a95453fd738ce686881489fa5d4df26ad7730b0f",
+    "FW_gravel": "59b97cef83b0180a0d47063771120f31cdc8c0b9ad457de4ee56f3af528725c8",
+    "FW_GUEST_firebrick": "d744dfb3ea0cbd3ce1512596e2db0c740f59b4865e2572d2b5a21ae1ce002ae6",
+    "FW_lamp_diffuser": "5073f8f367a59202e135104a38b07cc10911f52016168c8f73d401c63721bec5",
+    "FW_leather": "8124feeb1af6cf2cf72549e441df2c65239355b193903c4456b1a0e9d71d3541",
+    "FW_linen": "73bd16d2aabc2cc041d47be108593c59fac227cfb3c973a5a2065e42a32c9630",
+    "FW_metal": "a09eae5d5c37ad4e06a87c9932948cacdf8011001d9a00f1449b974c9312228e",
+    "FW_mirror": "235f2f90e14841e2f75946136764aeb4880cefaee7457f6512df742824952c00",
+    "FW_moss": "74f9a63f018b0a78e7caabcb014e3b635f43a481e41fc87df308d6e44fd92643",
+    "FW_native_hearth_sandstone_C": "85ab0fece4a0f7b3ca5baf91d6a546f773f0d8ed53f1673c79d9b1b4f6a517cf",
+    "FW_ochre": "6f9fd9dc91a2fd0b5d2714e22ea52bc5a3ecff10678e930248b6b8a7bb9551f2",
+    "FW_paper": "c9aa930247a7c8d60d4738dc662e65354683343a2313731f7ee5cfece1f09ecb",
+    "FW_red": "47646023b4309089c4f8b244b388f6a15fa97a69eb230b355d8b0cce8955293c",
+    "FW_rock": "c72c199ec5b4ec3309a724f376fa9b3a97f18ce53b52ebc37191400af42e96db",
+    "FW_rust_fabric": "0cb155bad78fa477574974c67b2642255ff2438fba9342b1a48683d87a257263",
+    "FW_service_clear_bulb_C": "b7d82fcd296568da577efc8c0f502f5e62c4a8284f5e85a22c246bdca23f4ee4",
+    "FW_service_filament_C": "7e593f86c907e1f922707804b6af4c9a0c198f4cc19b8451eb7c52aaea9d8160",
+    "FW_Site_Textured_leaf": "8d614b31621e9227f79aa6cb365a86aec56270c9f85935b900d137727e85893d",
+    "FW_Site_Textured_leaf_dark": "bf4cc900d169226174a36158c6c13204fd466525690ab4a45f9eed153774ddbc",
+    "FW_Site_Textured_leaf_light": "f8bf6c56455a166e5de983c731069567b8524d75166ec7aa6ffc88505b468c68",
+    "FW_steel_cream": "56d7985cac05ade6f674457cadb4c359e1aced881e875f51142c5c99f6e1fad0",
+    "FW_steel_shadow": "524c1a6300d31b0624d5e4213620a2989dfc6cf4f09b110af158ea5ddf53b7aa",
+    "FW_stone": "e7fad96b62135263ab744355bb84b4d2dad0b0380cf7495a9090d3b45a0274a9",
+    "FW_stone_floor": "f415190027c32efa6442104306b63ada601333b26588ad96d125f9265a822720",
+    "FW_water": "e532b66d91cb97f0c7d278b43b1d1fe5873d13869bf3dcd7a8c32d0a8d8bab1a",
+    "FW_Weathered_Forest_Litter_0": "405ef387b1505f1b9860c9233a19b13e977c0c6e065c8be3d6f2116377de06d3",
+    "FW_Weathered_Forest_Litter_1": "5081a3a1bfe88cb91043f52019defd71c0a31d53d82fe96da0f7272f858c11a8",
+    "FW_Weathered_Forest_Litter_2": "6ce5745488eaaa3358a8762cb714df1bdcaf73b46a4137c47f0e47304828cf70",
+    "FW_wet_rock": "ae54b70a18b214f55de9338f7576d33cd3907a140369877a743bf72ce2232c36",
+    "FW_wood": "c403a96a823b3337fa8321d28426bd6db705c4ee980bc6fb743c89006321f157",
+    "MAIN_Kitchen_9inch_Cherokee_Rubber": "6bcdea1de1ce332c87c9b4894e3bd5f44755a3fcb8eed85a683c3711f5dc4ce6"
+  },
+  "changed_materials": [
+    "FW_stone"
+  ],
+  "lights_and_links_unchanged": true,
+  "all_probe_settings_and_transforms_unchanged": true,
+  "all_object_transforms_and_render_visibility_unchanged": true,
+  "cycles_glass_signature": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+  "glazing_geometry_signature": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+  "gi_rebaked": false,
+  "production_saved": false,
+  "scope": "Unsaved shading-normal ablation only. Existing captured GI retained; not a capture-normal experiment. Stone surface edit is engine-independent in memory; original source and physical Cycles files not changed.",
+  "render_seconds": 63.04093220000141,
+  "png": "D:\\zx\\test\\project\\qa\\eevee-iteration06-stone-normal-zero.png",
+  "png_sha256": "9fe1073e75e9157cd13b7e1bd85bd6aa1f8aaddf8acef4b48d5809234374272d",
+  "visual_acceptance": "FAIL_LARGE_DARK_PATTERN_UNCHANGED",
+  "source_unchanged": true,
+  "viewed_native": true,
+  "process_exit_code": 0,
+  "gpu_released": true,
+  "production_adopted": false,
+  "baseline": {
+    "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06-practical\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+    "sha256": "92718e1e6a1c6c3763b49e30dccc81c11b5b6a2eba8ab5aac49446697dc23d9d",
+    "viewed_native": true
+  },
+  "mean_absolute_display_rgb_difference": 0.12115869341563786,
+  "pixel_evidence": [
+    {
+      "pixel": [
+        720,
+        275
+      ],
+      "display_rgb": {
+        "baseline": [
+          5,
+          4,
+          3
+        ],
+        "candidate": [
+          5,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "pixel": [
+        720,
+        125
+      ],
+      "display_rgb": {
+        "baseline": [
+          34,
+          36,
+          31
+        ],
+        "candidate": [
+          33,
+          35,
+          31
+        ]
+      }
+    },
+    {
+      "pixel": [
+        710,
+        454
+      ],
+      "display_rgb": {
+        "baseline": [
+          25,
+          25,
+          20
+        ],
+        "candidate": [
+          25,
+          25,
+          20
+        ]
+      }
+    },
+    {
+      "pixel": [
+        600,
+        60
+      ],
+      "display_rgb": {
+        "baseline": [
+          7,
+          8,
+          8
+        ],
+        "candidate": [
+          7,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "pixel": [
+        350,
+        230
+      ],
+      "display_rgb": {
+        "baseline": [
+          1,
+          1,
+          0
+        ],
+        "candidate": [
+          1,
+          1,
+          0
+        ]
+      }
+    }
+  ],
+  "finding": "Strength zero leaves large wall lobes/ceiling bands effectively unchanged. Do not adopt bump disabling; does not test capture normals because GI was not rebaked.",
+  "report": "D:\\zx\\test\\project\\qa\\eevee-iteration06-stone-normal-review.md"
+}

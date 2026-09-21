@@ -1,0 +1,28 @@
+{
+  "source_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+  "capture_bounds": [
+    [
+      -25.6364001083374,
+      -12.855199699401854,
+      -15.43785012435913
+    ],
+    [
+      31.829799537658694,
+      45.722746734619136,
+      28.121999866485595
+    ]
+  ],
+  "mesh_count": 10515,
+  "vertices": 7333831,
+  "triangles": 7742037,
+  "overlapping_triangles": 5295622,
+  "projected_area_m2": 29528.446247530846,
+  "density32_per_m": 3.4449448020153377,
+  "estimated_surfels": 350434,
+  "surfel_bytes": 224,
+  "planning_allowance_bytes": 476423808,
+  "guard_bytes": 8589934592,
+  "available_physical_bytes": 39896956928,
+  "grid_sample_count": 5313,
+  "method": "World triangle projected area, capture-AABB culling;6x main surfel buffer plus1024B per grid sample. Planning estimate, not hard/observed GPU bound."
+}

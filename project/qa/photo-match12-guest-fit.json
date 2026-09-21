@@ -1,0 +1,631 @@
+{
+  "status": "UNVERIFIED_DIAGNOSTIC_NOT_GEO07_PASS",
+  "source": "D:\\zx\\test\\project\\data\\photo_refs\\guest_exterior_10.jpg",
+  "source_sha256": "3861068b7a43ed1d08941b215192cc2a60ca2d29472b71141fb0d75afc9ed247",
+  "source_date": "1985 February/March caption batch; drawings2010, no inferred date equivalence",
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_guest_bays_candidate12a.blend",
+  "scene_sha256": "ebe6748261e9716ea9f9bd07e9137da1955798a7b3356bedc0d6a14d06638548",
+  "locked_points_sha256": "279325fcd9a85851cb6e2f6d326fc6158cb26d09e5286074bcb248bdfe2b39b4",
+  "optimization": {
+    "runs": 1,
+    "function_evaluations": 9,
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "objective": "unweighted squared pixel errors on fixed8fitpoints; holdouts never included; no outlier deletion"
+  },
+  "camera": {
+    "eye_m": [
+      1.0793428189377867,
+      33.61567506005069,
+      7.7052832006021825
+    ],
+    "world_to_opencv": [
+      [
+        0.330227327589551,
+        -0.9439004819926204,
+        -0.0013387334171297005
+      ],
+      [
+        0.18803973238666555,
+        0.06717618303533338,
+        -0.9798614287116085
+      ],
+      [
+        0.9249816058479297,
+        0.3233252859380195,
+        0.19967420543496175
+      ]
+    ],
+    "blender_rotation_world": [
+      [
+        0.330227327589551,
+        -0.18803973238666555,
+        -0.9249816058479297
+      ],
+      [
+        -0.9439004819926204,
+        -0.06717618303533338,
+        -0.3233252859380195
+      ],
+      [
+        -0.0013387334171297005,
+        0.9798614287116085,
+        -0.19967420543496175
+      ]
+    ],
+    "focal_px": 809.8349279823476,
+    "lens_mm_36mm_long_edge": 28.47075918687941,
+    "lens_mm_36mm_width": 39.29118248970959,
+    "principal_point_px": [
+      371.0,
+      512.0
+    ],
+    "resolution_px": [
+      742,
+      1024
+    ],
+    "up_world": [
+      -0.18803973238666555,
+      -0.06717618303533338,
+      0.9798614287116085
+    ],
+    "forward_world": [
+      0.9249816058479297,
+      0.3233252859380195,
+      0.19967420543496175
+    ],
+    "distortion": "not fitted; original lens/camera calibration unknown",
+    "production_camera_created": false
+  },
+  "coverage": {
+    "fit": 8,
+    "holdout": 7,
+    "fit_world_rank": 3,
+    "world_span_m": [
+      18.158429384231567,
+      2.5147438049316406,
+      1.880000114440918
+    ],
+    "observed_hull_pct": 18.377669095350406,
+    "behind_camera": 0
+  },
+  "statistics": {
+    "fit_median_px": 11.807082623021191,
+    "fit_max_px": 19.16920362910474,
+    "holdout_median_px": 9.647160146271704,
+    "holdout_max_px": 37.22464434470709,
+    "all_median_px": 10.376586879529276,
+    "all_max_px": 37.22464434470709,
+    "one_percent_diagonal_px": 12.64571073526514
+  },
+  "points": [
+    {
+      "id": "W0H",
+      "pixel": [
+        87,
+        95
+      ],
+      "role": "fit",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_0",
+      "actual_edge_vertices": [
+        4,
+        5
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        1,
+        5
+      ],
+      "world_m": [
+        3.9529311656951904,
+        36.0265998840332,
+        10.5
+      ],
+      "identity": "Visible sequential south-window post 0 of8, west to east; upper outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        101.33411435477677,
+        99.30990450988821
+      ],
+      "depth_m": 3.9955621779542745,
+      "residual_px": 14.968036318107071,
+      "residual_pct_diagonal": 1.1836453190697818
+    },
+    {
+      "id": "W0S",
+      "pixel": [
+        87,
+        461
+      ],
+      "role": "fit",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_0",
+      "actual_edge_vertices": [
+        0,
+        1
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        0,
+        1
+      ],
+      "world_m": [
+        3.9529311656951904,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "identity": "Visible sequential south-window post 0 of8, west to east; lower outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        74.89655719142462,
+        455.6390156511028
+      ],
+      "depth_m": 3.6321551849983753,
+      "residual_px": 13.237578366513109,
+      "residual_pct_diagonal": 1.0468038249204472
+    },
+    {
+      "id": "W2H",
+      "pixel": [
+        245,
+        254
+      ],
+      "role": "holdout",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_2",
+      "actual_edge_vertices": [
+        4,
+        5
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        1,
+        5
+      ],
+      "world_m": [
+        5.514113426208496,
+        36.0265998840332,
+        10.5
+      ],
+      "identity": "Visible sequential south-window post 2 of8, west to east; upper outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        249.675427191924,
+        252.57222969260744
+      ],
+      "depth_m": 5.439627052305173,
+      "residual_px": 4.8885731535545425,
+      "residual_pct_diagonal": 0.38657954905782876
+    },
+    {
+      "id": "W2S",
+      "pixel": [
+        245,
+        510
+      ],
+      "role": "holdout",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_2",
+      "actual_edge_vertices": [
+        0,
+        1
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        0,
+        1
+      ],
+      "world_m": [
+        5.514113426208496,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "identity": "Visible sequential south-window post 2 of8, west to east; lower outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        241.37849770347285,
+        518.5061753337576
+      ],
+      "depth_m": 5.076220059349275,
+      "residual_px": 9.245014748088703,
+      "residual_pct_diagonal": 0.7310790940604941
+    },
+    {
+      "id": "W3H",
+      "pixel": [
+        298,
+        309
+      ],
+      "role": "fit",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_3",
+      "actual_edge_vertices": [
+        4,
+        5
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        1,
+        5
+      ],
+      "world_m": [
+        6.294704437255859,
+        36.0265998840332,
+        10.5
+      ],
+      "identity": "Visible sequential south-window post 3 of8, west to east; upper outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        297.7717931224548,
+        302.2641242455735
+      ],
+      "depth_m": 6.161659379214222,
+      "residual_px": 6.7397403924802415,
+      "residual_pct_diagonal": 0.532966515965378
+    },
+    {
+      "id": "W3S",
+      "pixel": [
+        298,
+        530
+      ],
+      "role": "fit",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_3",
+      "actual_edge_vertices": [
+        0,
+        1
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        0,
+        1
+      ],
+      "world_m": [
+        6.294704437255859,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "identity": "Visible sequential south-window post 3 of8, west to east; lower outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        293.5224982411637,
+        538.1968709023753
+      ],
+      "depth_m": 5.798252386258324,
+      "residual_px": 9.340059667399812,
+      "residual_pct_diagonal": 0.7385950748780891
+    },
+    {
+      "id": "W5H",
+      "pixel": [
+        365,
+        378
+      ],
+      "role": "holdout",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_5",
+      "actual_edge_vertices": [
+        4,
+        5
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        1,
+        5
+      ],
+      "world_m": [
+        7.855886936187744,
+        36.0265998840332,
+        10.5
+      ],
+      "identity": "Visible sequential south-window post 5 of8, west to east; upper outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        366.5690192206899,
+        373.3436005982753
+      ],
+      "depth_m": 7.60572447409792,
+      "residual_px": 4.913641898152152,
+      "residual_pct_diagonal": 0.3885619401722879
+    },
+    {
+      "id": "W5S",
+      "pixel": [
+        365,
+        551
+      ],
+      "role": "holdout",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_5",
+      "actual_edge_vertices": [
+        0,
+        1
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        0,
+        1
+      ],
+      "world_m": [
+        7.855886936187744,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "identity": "Visible sequential south-window post 5 of8, west to east; lower outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        366.61912871611725,
+        565.7997299644388
+      ],
+      "depth_m": 7.242317481142022,
+      "residual_px": 14.888034954944992,
+      "residual_pct_diagonal": 1.1773189555432952
+    },
+    {
+      "id": "W7H",
+      "pixel": [
+        407,
+        420
+      ],
+      "role": "fit",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_7",
+      "actual_edge_vertices": [
+        4,
+        5
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        1,
+        5
+      ],
+      "world_m": [
+        9.417069435119629,
+        36.0265998840332,
+        10.5
+      ],
+      "identity": "Visible sequential south-window post 7 of8, west to east; upper outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        413.4104479877251,
+        421.7389272298917
+      ],
+      "depth_m": 9.049789568981618,
+      "residual_px": 6.642116478517036,
+      "residual_pct_diagonal": 0.5252465929015869
+    },
+    {
+      "id": "W7S",
+      "pixel": [
+        407,
+        567
+      ],
+      "role": "fit",
+      "object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_mullion_7",
+      "actual_edge_vertices": [
+        0,
+        1
+      ],
+      "edge_midpoint": true,
+      "adjacent_base_faces": [
+        0,
+        1
+      ],
+      "world_m": [
+        9.417069435119629,
+        36.0265998840332,
+        8.680000305175781
+      ],
+      "identity": "Visible sequential south-window post 7 of8, west to east; lower outer post/frame meeting. Guest01 locates facade; equal7bay spacing and sill/head heights remain C.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        415.41190388683265,
+        584.2249307915234
+      ],
+      "depth_m": 8.686382576025718,
+      "residual_px": 19.16920362910474,
+      "residual_pct_diagonal": 1.5158660537479725
+    },
+    {
+      "id": "R01",
+      "pixel": [
+        657,
+        467
+      ],
+      "role": "fit",
+      "object": "GUEST_LOW_ARM_ROOF",
+      "vertex_index": 1,
+      "adjacent_base_faces": [
+        10,
+        22,
+        23
+      ],
+      "world_m": [
+        11.967280387878418,
+        33.58357620239258,
+        10.5600004196167
+      ],
+      "identity": "South slab outer elbow: guest02(x488,y488.7), immediately west of first rectangular canopy aperture. Replaces old05 U longitudinal assignment with explicit source-topology hypothesis.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 3,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        646.9157287223541,
+        454.71246458914504
+      ],
+      "depth_m": 10.630776997008343,
+      "residual_px": 15.89578729331043,
+      "residual_pct_diagonal": 1.257010193106963
+    },
+    {
+      "id": "R02",
+      "pixel": [
+        601,
+        469
+      ],
+      "role": "fit",
+      "object": "GUEST_LOW_ARM_ROOF",
+      "vertex_index": 2,
+      "adjacent_base_faces": [
+        0,
+        10,
+        23,
+        24
+      ],
+      "world_m": [
+        11.967280387878418,
+        34.189857482910156,
+        10.5600004196167
+      ],
+      "identity": "South slab concave elbow: guest02(x488,y477.2); short Y-directed step R01-R02, then continuous narrow south canopy beam to east tip.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 3,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        599.1148910233424,
+        458.79608313369107
+      ],
+      "depth_m": 10.826803065390557,
+      "residual_px": 10.376586879529276,
+      "residual_pct_diagonal": 0.8205617775671594
+    },
+    {
+      "id": "R03",
+      "pixel": [
+        596,
+        540
+      ],
+      "role": "holdout",
+      "object": "GUEST_LOW_ARM_ROOF",
+      "vertex_index": 3,
+      "adjacent_base_faces": [
+        0,
+        24,
+        25
+      ],
+      "world_m": [
+        22.111360549926758,
+        34.189857482910156,
+        10.5600004196167
+      ],
+      "identity": "East/south lower termination of long canopy beam, guest02(x681,y477.2); last transverse canopy member meets this end. Far narrow profile; independent of R01/R02 fit.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 4,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        627.4379314102594,
+        559.9331536700483
+      ],
+      "depth_m": 20.209890623532157,
+      "residual_px": 37.22464434470709,
+      "residual_pct_diagonal": 2.943657744827152
+    },
+    {
+      "id": "O0N",
+      "pixel": [
+        445,
+        475
+      ],
+      "role": "holdout",
+      "object": "GUEST_LOW_ARM_ROOF",
+      "vertex_index": 22,
+      "adjacent_base_faces": [
+        10,
+        34,
+        35
+      ],
+      "world_m": [
+        12.004072189331055,
+        36.09832000732422,
+        10.5600004196167
+      ],
+      "identity": "First rectangular aperture west/north lower corner, guest02(x488.7,y441). Same X station as near aperture margin; this is soffit opening, not sky-facing upper rim.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 3,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        459.93261082836807,
+        471.3477353732392
+      ],
+      "depth_m": 11.477888996388428,
+      "residual_px": 15.372764977562875,
+      "residual_pct_diagonal": 1.215650531582443
+    },
+    {
+      "id": "O0S",
+      "pixel": [
+        563,
+        472
+      ],
+      "role": "holdout",
+      "object": "GUEST_LOW_ARM_ROOF",
+      "vertex_index": 21,
+      "adjacent_base_faces": [
+        0,
+        10,
+        32,
+        35
+      ],
+      "world_m": [
+        12.004072189331055,
+        34.648521423339844,
+        10.5600004196167
+      ],
+      "identity": "First rectangular aperture west/south lower corner, guest02(x488.7,y468.5), across same aperture edge from O0N.",
+      "confidence": "B photo/plan topology; C modeled location and height",
+      "pixel_uncertainty_px": 3,
+      "visibility": "Visible structural intersection; small frame/rim thickness contributes pixel uncertainty",
+      "independently_reviewed": false,
+      "acceptance": "UNVERIFIED identity candidate, frozen before fit",
+      "projection_px": [
+        564.3839810023854,
+        462.45262887110545
+      ],
+      "depth_m": 11.009132454669142,
+      "residual_px": 9.647160146271704,
+      "residual_pct_diagonal": 0.7628800269302881
+    }
+  ],
+  "scope": "Fixed mesh; no image warp/crop, no rendered image, no scene or productioncamera save; numericalfit not independent historical verification."
+}

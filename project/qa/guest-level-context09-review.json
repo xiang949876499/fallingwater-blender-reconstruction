@@ -1,0 +1,322 @@
+{
+  "schema": "fallingwater.guest_level_context_review.v1",
+  "reviewed_at_utc": "2026-09-20T16:53:50.165612+00:00",
+  "scope": "Existing original guest01-04 full-sheet context only; no web, model, source alteration, or Blender render",
+  "datum_convention": "Relative to each guest panel MAIN LEVEL; not main-house or world Z",
+  "pixel_coordinate_convention": "Raw TIFF pixels; width1024 coordinates are locators. Distinct panels have their own Y origins.",
+  "status": "SOURCE_RELATIVE_HEIGHT_CANDIDATE_WITH_UNRESOLVED_FACE_ASSIGNMENT",
+  "image_manifest": "guest-level-context09-images.json",
+  "calibrations": [
+    {
+      "sheet": "guest03",
+      "panel": "south",
+      "raw_main_y": 10036,
+      "raw_reference_y": 9339.5,
+      "reference_z_m": 2.12725,
+      "reference_label": "STONE WALL 6 ft 11 3/4 in",
+      "raw_px_per_m": 327.4180279703843,
+      "fine_line_uncertainty_px": 2
+    },
+    {
+      "sheet": "guest03",
+      "panel": "south",
+      "raw_main_y": 10036,
+      "raw_reference_y": 9805.5,
+      "reference_z_m": 0.70485,
+      "reference_label": "TOP OF POOL WALL 2 ft 3 3/4 in",
+      "raw_px_per_m": 327.01993331914593,
+      "fine_line_uncertainty_px": 2
+    },
+    {
+      "sheet": "guest03",
+      "panel": "east",
+      "raw_main_y": 4552,
+      "raw_reference_y": 3855.5,
+      "reference_z_m": 2.12725,
+      "raw_px_per_m": 327.4180279703843
+    },
+    {
+      "sheet": "guest04",
+      "panel": "west",
+      "raw_main_y": 4209.5,
+      "raw_reference_y": 3437.5,
+      "reference_z_m": 2.352675,
+      "reference_label": "SECOND LEVEL 7 ft 8 5/8 in",
+      "raw_px_per_m": 328.13712051175787
+    },
+    {
+      "sheet": "guest04",
+      "panel": "section north",
+      "raw_main_y": 9931.5,
+      "raw_reference_y": 9235.5,
+      "reference_z_m": 2.12725,
+      "raw_px_per_m": 327.1829827241744
+    }
+  ],
+  "south_grade_candidate": {
+    "sheet": "guest03",
+    "panel": "south",
+    "right_feature_raw_y_span": [
+      10406,
+      10422
+    ],
+    "left_feature_raw_y_span": [
+      10407,
+      10423
+    ],
+    "right_x_width1024_range": [
+      264,
+      273
+    ],
+    "left_x_width1024_range": [
+      245,
+      255
+    ],
+    "right_center_z_m": -1.1544874371859297,
+    "left_center_z_m": -1.1575416367552047,
+    "read_envelope_m": [
+      -1.2,
+      -1.11
+    ],
+    "pixel_pick_budget_raw_px": 15,
+    "feature_semantics": "Heavy continuous ground/terminal outline at both service stair strip bottoms, with adjacent exterior ground continuation",
+    "specific_model_landing_face_assignment": "UNRESOLVED B/U",
+    "absolute_as_built_accuracy": "UNKNOWN; pixel envelope is not building survey accuracy",
+    "fit_to_hypothesis_minus1_633846": false
+  },
+  "right_visible_stair_edges": {
+    "sheet": "guest03",
+    "panel": "south",
+    "raw_y_centers": [
+      9957.5,
+      10008,
+      10058.5,
+      10109,
+      10161,
+      10211.5,
+      10262.5,
+      10313,
+      10363.5,
+      10414
+    ],
+    "visible_edge_count": 10,
+    "visible_interval_count": 9,
+    "first_z_m": 0.23975466618808328,
+    "last_z_m": -1.1544874371859297,
+    "first_last_difference_m": 1.3942421033740129,
+    "semantics": "In narrow strip between round-topped central stair divider and chimney, not adjacent windows. Interpreted as tread/riser edge projection by plan correlation; terminal heavy line included.",
+    "uppermost_edge_is_main_datum": false,
+    "validated_total_risers": null,
+    "endpoint_platform_level_identity": null
+  },
+  "section_finish_candidates": {
+    "sheet": "guest04",
+    "panel": "section north",
+    "west_slab_top_raw_y": [
+      9888,
+      9899
+    ],
+    "west_slab_top_z_m": 0.11614295977011495,
+    "west_slab_underside_raw_y": [
+      9931,
+      9942
+    ],
+    "west_slab_underside_z_m": -0.015281968390804599,
+    "east_interior_fine_line_raw_y_centers": [
+      9965.5,
+      9968.5
+    ],
+    "east_lower_heavy_outline_raw_y": [
+      10005,
+      10022
+    ],
+    "east_finish_line_identification": "UNRESOLVED: cabinet/interior base fine line versus lower outline must not be silently assigned as FFL",
+    "upper_slab_top_raw_y": [
+      9161,
+      9172
+    ],
+    "upper_slab_top_z_m": 2.3381411637931033,
+    "matches_second_nominal_within_graphic_read_uncertainty": true
+  },
+  "panel_ground_correspondences": {
+    "guest03_east": {
+      "main_raw_y": 4552,
+      "ground_raw_y": [
+        4544,
+        4561
+      ],
+      "finding": "Own-panel main datum aligns own east grade; cannot transfer to west chauffeur FFL"
+    },
+    "guest04_west": {
+      "main_raw_y": 4209.5,
+      "ground_raw_y": [
+        4201,
+        4218
+      ],
+      "finding": "West courtyard/garage-front ground aligns main datum"
+    }
+  },
+  "section_room_correspondence": {
+    "confidence": "B by whole-sheet arrangement and visible fixtures, not labelled cutting station",
+    "probable_west": "basement under chauffeur lounge; service strip; upper south single room",
+    "probable_east": "lounge fireplace/cabinets, guest room cabinets, pool",
+    "not_proven_cut": [
+      "boiler room",
+      "theater/car court",
+      "bathroom fixtures"
+    ],
+    "exact_plan_cutting_station": "UNRESOLVED"
+  },
+  "plan_context": {
+    "guest01_north_entry": "Chauffeur door opens to north service vestibule shared with boiler entry; source does not equate this to south paved entry",
+    "guest01_south_paving": "Two west-directed DOWN step groups at approximate source X325-336 and X431-448, additional south-directed DOWN and canopy DOWN; exact rise unknown",
+    "guest02_right_top": "Right visible top about width1024 Y382 meets north paved hall with no extra step symbol, supports B upper-hall correspondence",
+    "same_stone_hatch_equals_same_z": false
+  },
+  "implementation_limits": [
+    "Do not promote four-half-run hypothesis from these observations",
+    "Do not force lower grade to -1.633846m",
+    "Do not lower chauffeur/boiler/north hall merely because south grade is lower",
+    "Do not derive exact B1 datum, landing number, or total risers",
+    "Actual model mesh/face matching NOT_RUN"
+  ],
+  "raw_source_distribution": "LOCAL_REFERENCE_ONLY; authored report and metadata may be published",
+  "neat_freak_scope": "Owned artifacts reconciled; no shared documentation or production changes",
+  "basement_lowest_line": {
+    "sheet": "guest04",
+    "panel": "section north",
+    "raw_x_probe_width1024": [
+      172,
+      223
+    ],
+    "raw_y_span": [
+      10542,
+      10558
+    ],
+    "raw_y_center": 10550,
+    "width1024_y_center": 611.00616,
+    "main_raw_y_center": 9931.5,
+    "raw_y_delta": 618.5,
+    "relative_z_m": -1.8903794899425288,
+    "read_envelope_m": [
+      -1.94,
+      -1.84
+    ],
+    "semantics": "Bottom heavy outline of underground rectangular space; neither finished-floor nor footing-bottom identity is established",
+    "actual_B1_floor_datum": "UNRESOLVED",
+    "absolute_survey_accuracy": "UNKNOWN",
+    "crop": "guest-level-context09-g04-basement-bottom.png"
+  },
+  "walkway_visible_step_groups": [
+    {
+      "id": "west_lounge_front_DOWN",
+      "bbox_width1024": [
+        324,
+        450,
+        336,
+        475
+      ],
+      "direction": "DOWN page-left/west",
+      "visible_crosswalk_edges_including_end_boundaries": 3,
+      "visible_bands": 2,
+      "sheet": "guest01",
+      "coordinate_uncertainty_normalized_px": 1.5,
+      "raw_crop_locator_bbox": [
+        5592,
+        7766,
+        5799,
+        8198
+      ],
+      "validated_total_risers": null,
+      "reference_image": "guest-level-context09-g01-south-paving.png"
+    },
+    {
+      "id": "east_lounge_front_DOWN",
+      "bbox_width1024": [
+        428,
+        450,
+        448,
+        475
+      ],
+      "direction": "DOWN page-left/west",
+      "visible_crosswalk_edges_including_end_boundaries": 4,
+      "visible_bands": 3,
+      "sheet": "guest01",
+      "coordinate_uncertainty_normalized_px": 1.5,
+      "raw_crop_locator_bbox": [
+        7387,
+        7766,
+        7732,
+        8198
+      ],
+      "validated_total_risers": null,
+      "reference_image": "guest-level-context09-g01-south-paving.png"
+    },
+    {
+      "id": "terrace_south_external_DOWN",
+      "bbox_width1024": [
+        427,
+        477,
+        688,
+        506
+      ],
+      "direction": "DOWN page-down/south",
+      "visible_external_step_outline_edges_below_outer_terrace_edge": 4,
+      "count_limit": "Exclude dashed canopy projection. Outer terrace/curb boundary is additional; no exact riser total assigned.",
+      "sheet": "guest01",
+      "coordinate_uncertainty_normalized_px": 1.5,
+      "raw_crop_locator_bbox": [
+        7370,
+        8232,
+        11874,
+        8733
+      ],
+      "validated_total_risers": null,
+      "reference_image": "guest-level-context09-g01-south-paving.png"
+    },
+    {
+      "id": "pool_west_entry_UP",
+      "bbox_width1024": [
+        697,
+        425,
+        723,
+        446
+      ],
+      "direction": "UP page-right/east",
+      "visible_crosswalk_edges_including_end_boundaries": 4,
+      "visible_bands": 3,
+      "sheet": "guest01",
+      "coordinate_uncertainty_normalized_px": 1.5,
+      "raw_crop_locator_bbox": [
+        12029,
+        7335,
+        12478,
+        7697
+      ],
+      "validated_total_risers": null,
+      "reference_image": "guest-level-context09-g01-pool-walkway.png"
+    },
+    {
+      "id": "pool_northeast_UP",
+      "bbox_width1024": [
+        854,
+        351,
+        879,
+        415
+      ],
+      "direction": "UP page-right/east",
+      "visible_crosswalk_edges_including_end_boundaries": 5,
+      "visible_bands": 4,
+      "sheet": "guest01",
+      "coordinate_uncertainty_normalized_px": 1.5,
+      "raw_crop_locator_bbox": [
+        14739,
+        6058,
+        15170,
+        7162
+      ],
+      "validated_total_risers": null,
+      "reference_image": "guest-level-context09-g01-pool-walkway.png"
+    }
+  ]
+}

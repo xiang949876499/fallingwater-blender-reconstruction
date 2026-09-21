@@ -1,0 +1,404 @@
+{
+  "test_id": "GEO-07",
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_working.blend",
+  "scene_sha256": "2f4f904a0364cf2792036ad59b7a112280cd64a15405945a13e975615a561bf4",
+  "scene_label": "iteration03",
+  "blender_version": "5.2.1 LTS",
+  "camera_fit": "7-parameter perspective camera, principal point fixed to scan center; fit geometry frozen; holdouts excluded from fit",
+  "results": [
+    {
+      "id": "main_sw_87",
+      "result": "NOT_RUN",
+      "reason": "Fewer than 6 verified model correspondences",
+      "identified_photo_points": 9,
+      "model_points": 0
+    },
+    {
+      "id": "main_east_88",
+      "result": "NOT_RUN",
+      "diagnostic_residual_threshold": "OVER_1_PERCENT",
+      "reason": "Provisional correspondences require independent visual verification; diagnostic fit is not final GEO-07 acceptance",
+      "fit_points": 8,
+      "holdout_points": 4,
+      "camera": {
+        "location": [
+          28.075012662957853,
+          -4.2390133770827045,
+          1.5854237832291496
+        ],
+        "rotation_world_to_opencv": [
+          [
+            0.5736911332751811,
+            0.8187990787194085,
+            -0.021131783873740984
+          ],
+          [
+            0.02165696477389445,
+            -0.04095449507658144,
+            -0.9989262761634637
+          ],
+          [
+            -0.8187853561698699,
+            0.5726174971316108,
+            -0.04122793349792028
+          ]
+        ],
+        "focal_pixels": 603.1538918969645,
+        "sensor_width_mm": 36,
+        "lens_mm": 21.20462901200266,
+        "principal_point": [
+          512.0,
+          371.5
+        ],
+        "resolution": [
+          1024,
+          743
+        ],
+        "distortion": "none fitted; unknown original lens; no crop/warp",
+        "blender_matrix_world_rotation": [
+          [
+            0.5736911332751811,
+            -0.02165696477389445,
+            0.8187853561698699
+          ],
+          [
+            0.8187990787194085,
+            0.04095449507658144,
+            -0.5726174971316108
+          ],
+          [
+            -0.021131783873740984,
+            0.9989262761634637,
+            0.04122793349792028
+          ]
+        ],
+        "lens_mm_for_36mm_long_edge": 21.20462901200266,
+        "status": "Diagnostic fit only; not a production camera or calibrated source lens"
+      },
+      "median_px": 17.71053745666319,
+      "median_percent_diagonal": 1.3998675387860042,
+      "max_percent_diagonal": 2.0264440161575905,
+      "fit_median_percent_diagonal": 1.2358138057941004,
+      "holdout_median_percent_diagonal": 1.7705517274701748,
+      "points": [
+        {
+          "id": "E01",
+          "label": "east terrace southeast top",
+          "photo_px": [
+            305,
+            386
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 5,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            14.30519962310791,
+            -0.2793000042438507,
+            0.49000000953674316
+          ],
+          "projection_px": [
+            306.2772050584516,
+            399.6384466769304
+          ],
+          "residual_px": 13.698119597988939,
+          "residual_percent_diagonal": 1.0827199916747154
+        },
+        {
+          "id": "E02",
+          "label": "east terrace southwest top",
+          "photo_px": [
+            226,
+            375
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 4,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            6.8643999099731445,
+            -0.2793000042438507,
+            0.49000000953674316
+          ],
+          "projection_px": [
+            239.13392436745193,
+            385.9883814096744
+          ],
+          "residual_px": 17.124383063177056,
+          "residual_percent_diagonal": 1.353537013234995
+        },
+        {
+          "id": "E03",
+          "label": "east terrace southeast base",
+          "photo_px": [
+            305,
+            456
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 1,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            14.30519962310791,
+            -0.2793000042438507,
+            -0.24000000953674316
+          ],
+          "projection_px": [
+            307.41517100111787,
+            431.87586258619353
+          ],
+          "residual_px": 24.244732560390467,
+          "residual_percent_diagonal": 1.916340155169586
+        },
+        {
+          "id": "E04",
+          "label": "east terrace southwest base",
+          "photo_px": [
+            226,
+            400
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 0,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            6.8643999099731445,
+            -0.2793000042438507,
+            -0.24000000953674316
+          ],
+          "projection_px": [
+            240.0226618215159,
+            408.2817597521469
+          ],
+          "residual_px": 16.285655932534006,
+          "residual_percent_diagonal": 1.2872427583621933
+        },
+        {
+          "id": "E05",
+          "label": "east terrace northeast top",
+          "photo_px": [
+            608,
+            377
+          ],
+          "object": "MAIN_L1_east_parapet_1",
+          "vertex": 5,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            14.425199508666992,
+            8.336700439453125,
+            0.49000000953674316
+          ],
+          "projection_px": [
+            593.5016167579624,
+            380.7851490357355
+          ],
+          "residual_px": 14.98434082152849,
+          "residual_percent_diagonal": 1.1843848532260075
+        },
+        {
+          "id": "E06",
+          "label": "east terrace northeast base",
+          "photo_px": [
+            608,
+            426
+          ],
+          "object": "MAIN_L1_east_parapet_1",
+          "vertex": 1,
+          "role": "holdout",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            14.425199508666992,
+            8.336700439453125,
+            -0.24000000953674316
+          ],
+          "projection_px": [
+            593.8729178087976,
+            404.6056488864053
+          ],
+          "residual_px": 25.637720468262362,
+          "residual_percent_diagonal": 2.0264440161575905
+        },
+        {
+          "id": "E08",
+          "label": "upper east terrace southeast top",
+          "photo_px": [
+            703,
+            246
+          ],
+          "object": "MAIN_L2_east_parapet_0",
+          "vertex": 5,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            19.75480079650879,
+            6.517499923706055,
+            3.5299999713897705
+          ],
+          "projection_px": [
+            698.8225183517734,
+            251.57693735590578
+          ],
+          "residual_px": 6.968040125671454,
+          "residual_percent_diagonal": 0.5507643799491794
+        },
+        {
+          "id": "E09",
+          "label": "upper east terrace southeast base",
+          "photo_px": [
+            703,
+            315
+          ],
+          "object": "MAIN_L2_east_parapet_0",
+          "vertex": 1,
+          "role": "holdout",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            19.75480079650879,
+            6.517499923706055,
+            2.580000162124634
+          ],
+          "projection_px": [
+            699.1930467256823,
+            296.20499037069067
+          ],
+          "residual_px": 19.176685850236712,
+          "residual_percent_diagonal": 1.515754114686311
+        },
+        {
+          "id": "E11",
+          "label": "upper east terrace northeast top",
+          "photo_px": [
+            790,
+            264
+          ],
+          "object": "MAIN_L2_east_parapet_1",
+          "vertex": 5,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            19.874801635742188,
+            10.248299598693848,
+            3.5299999713897705
+          ],
+          "projection_px": [
+            799.5119524825714,
+            261.8799330586535
+          ],
+          "residual_px": 9.745353963119342,
+          "residual_percent_diagonal": 0.7702874461225193
+        },
+        {
+          "id": "E12",
+          "label": "upper east terrace northeast base",
+          "photo_px": [
+            790,
+            316
+          ],
+          "object": "MAIN_L2_east_parapet_1",
+          "vertex": 1,
+          "role": "holdout",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            19.874801635742188,
+            10.248299598693848,
+            2.580000162124634
+          ],
+          "projection_px": [
+            799.5685755017691,
+            300.40476689734123
+          ],
+          "residual_px": 18.29669185014932,
+          "residual_percent_diagonal": 1.446198064337013
+        },
+        {
+          "id": "E13",
+          "label": "Master terrace southeast top; separate terrace from guest terrace",
+          "photo_px": [
+            191,
+            300
+          ],
+          "object": "MAIN_L2_south_parapet_2",
+          "vertex": 4,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            7.246400356292725,
+            -2.17710018157959,
+            3.5900001525878906
+          ],
+          "projection_px": [
+            169.6476629619939,
+            287.16995573843644
+          ],
+          "residual_px": 24.91048640107791,
+          "residual_percent_diagonal": 1.9689623408418695
+        },
+        {
+          "id": "E14",
+          "label": "Master terrace southeast base",
+          "photo_px": [
+            191,
+            337
+          ],
+          "object": "MAIN_L2_south_parapet_2",
+          "vertex": 0,
+          "role": "holdout",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3,
+          "world": [
+            7.246400356292725,
+            -2.17710018157959,
+            2.5799999237060547
+          ],
+          "projection_px": [
+            171.13876084137564,
+            320.81006644264403
+          ],
+          "residual_px": 25.62387108747768,
+          "residual_percent_diagonal": 2.025349340254039
+        }
+      ],
+      "overlay": "D:\\zx\\test\\project\\qa\\photo-match-main_east_88-iteration03.png"
+    },
+    {
+      "id": "main_living_48",
+      "result": "NOT_RUN",
+      "reason": "Fewer than 6 verified model correspondences",
+      "identified_photo_points": 10,
+      "model_points": 0
+    },
+    {
+      "id": "main_kitchen_56",
+      "result": "NOT_RUN",
+      "reason": "Fewer than 6 verified model correspondences",
+      "identified_photo_points": 12,
+      "model_points": 0
+    },
+    {
+      "id": "guest_exterior_10",
+      "result": "NOT_RUN",
+      "reason": "Fewer than 6 verified model correspondences",
+      "identified_photo_points": 12,
+      "model_points": 0
+    },
+    {
+      "id": "guest_living_11",
+      "result": "NOT_RUN",
+      "reason": "Fewer than 6 verified model correspondences",
+      "identified_photo_points": 12,
+      "model_points": 0
+    }
+  ]
+}

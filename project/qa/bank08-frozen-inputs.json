@@ -1,0 +1,90 @@
+{
+  "status": "PASS_FROZEN_INPUTS_MATCH_COMPLETE07",
+  "source_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "frozen_context": "D:\\zx\\test\\project\\qa\\bank08-frozen-context",
+  "source_embedded_config": {
+    "version": "5.2.1 LTS",
+    "seed": 5346,
+    "units": "meters",
+    "baseline": "HABS circa-2010 geometry with documented contemporary conservation interpretation",
+    "main_registration": {
+      "image": "main-04-sheet.jpg",
+      "origin_px": [
+        327,
+        540
+      ],
+      "meters_per_pixel": [
+        0.0524,
+        0.0531
+      ],
+      "y_up": true,
+      "z_datum": "Main Level Terrace"
+    },
+    "render": {
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 512,
+      "preview_samples": 48,
+      "width": 3840,
+      "height": 2160,
+      "view_transform": "AgX"
+    },
+    "navigation": {
+      "eye_height": 1.6,
+      "speed": 1.0,
+      "near_clip": 0.02,
+      "far_clip": 2500
+    },
+    "water": {
+      "start_frame": 1,
+      "end_frame": 240,
+      "fps": 24
+    },
+    "status": "iteration06_build",
+    "site_registration": {
+      "source": "HABS PA-5346 sheet02",
+      "origin_normalized_px": [
+        507.2,
+        476.0
+      ],
+      "meters_per_pixel": 0.131,
+      "uncertainty_m": 0.3,
+      "evidence": "C graphical alignment from four plan landmarks; scale bar A"
+    },
+    "guest_registration": {
+      "world_origin": [
+        3.4,
+        37.1,
+        8.4
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "file": "scripts/site.py",
+      "sha256": "2efde333707891a0a75237657b14057259ec2ae00e51c9df0ccc7db52858e1a6",
+      "equal_to_07_embedded_input": true
+    },
+    {
+      "file": "scripts/fwlib.py",
+      "sha256": "8cdce8685c07727e721daf7cb0982cd4451a6533b72cf1daf08ba85b1c06e77f",
+      "equal_to_07_embedded_input": true
+    },
+    {
+      "file": "data/site.json",
+      "sha256": "2b4d5c712e7358dacc11458749d7dabc45bee98f43ec660fa9be4f36aa070c3d",
+      "equal_to_07_embedded_input": true
+    },
+    {
+      "file": "data/main_house.json",
+      "sha256": "1dee3a6d5b19b10b8c45de24a1b57472000a9cdab4f34ab3cb211351d3696e4c",
+      "equal_to_07_embedded_input": true
+    },
+    {
+      "file": "data/guest_house.json",
+      "sha256": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+      "equal_to_07_embedded_input": true
+    }
+  ],
+  "exclusions_note": "main_house.py may be edited by another agent; it is neither imported nor read. Only matching07 JSON data and site resolver are copied once."
+}

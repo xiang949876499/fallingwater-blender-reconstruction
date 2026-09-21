@@ -1,0 +1,1074 @@
+{
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_master_detail_candidate10g.blend",
+  "source_sha256": "34dbbb2b6639718a11d876f9ef44d2de251513a701c4c04ba4611a763bda7631",
+  "in_memory_bath_apply": true,
+  "master_refresh_true": true,
+  "mesh": {
+    "objects": 932,
+    "vertices": 405935,
+    "triangles": 487020,
+    "evaluated": true
+  },
+  "paths": {
+    "REAL_HALL_MASTER_DOOR": {
+      "rows": [
+        {
+          "edge": 0,
+          "from": [
+            1.6768,
+            13.009500000000001,
+            4.4668
+          ],
+          "to": [
+            1.6768,
+            12.372300000000001,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 1,
+          "from": [
+            1.6768,
+            12.372300000000001,
+            4.4668
+          ],
+          "to": [
+            1.6768,
+            11.682,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 2,
+          "from": [
+            1.6768,
+            11.682,
+            4.4668
+          ],
+          "to": [
+            1.6768,
+            10.7262,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 3,
+          "from": [
+            1.6768,
+            10.7262,
+            4.4668
+          ],
+          "to": [
+            1.6768,
+            9.1332,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 4,
+          "from": [
+            1.6768,
+            9.1332,
+            4.4668
+          ],
+          "to": [
+            1.6768,
+            8.4429,
+            4.4668
+          ],
+          "failure": null
+        }
+      ],
+      "adapter_result": {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L2_HALL",
+        "to": "MAIN_L2_MASTER",
+        "points": [
+          [
+            1.6768,
+            13.009500000000001,
+            4.4668
+          ],
+          [
+            1.6768,
+            12.372300000000001,
+            4.4668
+          ],
+          [
+            1.6768,
+            11.682,
+            4.4668
+          ],
+          [
+            1.6768,
+            10.7262,
+            4.4668
+          ],
+          [
+            1.6768,
+            9.1332,
+            4.4668
+          ],
+          [
+            1.6768,
+            8.4429,
+            4.4668
+          ]
+        ],
+        "failure": null,
+        "candidate_path_id": "REAL_HALL_MASTER_DOOR",
+        "endpoint_inside_room_envelopes": [
+          true,
+          true
+        ],
+        "strict_local_limits": {
+          "ground_m": 0.004,
+          "body_radius_m": 0.18,
+          "head_m": 1.95,
+          "segment_sample_step_m": 0.01
+        },
+        "whole_path_checked": true,
+        "common_master_anchor": [
+          1.6768,
+          8.4429,
+          2.8668
+        ]
+      }
+    },
+    "REAL_MASTER_BATH_DOOR": {
+      "rows": [
+        {
+          "edge": 0,
+          "from": [
+            1.6768,
+            8.4429,
+            4.4668
+          ],
+          "to": [
+            1.6768,
+            7.965,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 1,
+          "from": [
+            1.6768,
+            7.965,
+            4.4668
+          ],
+          "to": [
+            3.668,
+            7.965,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 2,
+          "from": [
+            3.668,
+            7.965,
+            4.4668
+          ],
+          "to": [
+            3.8252,
+            7.5933,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 3,
+          "from": [
+            3.8252,
+            7.5933,
+            4.4668
+          ],
+          "to": [
+            4.527359999999999,
+            7.5933,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 4,
+          "from": [
+            4.527359999999999,
+            7.5933,
+            4.4668
+          ],
+          "to": [
+            6.2,
+            7.5933,
+            4.4668
+          ],
+          "failure": null
+        },
+        {
+          "edge": 5,
+          "from": [
+            6.2,
+            7.5933,
+            4.4668
+          ],
+          "to": [
+            6.2,
+            8.35,
+            4.4668
+          ],
+          "failure": null
+        }
+      ],
+      "adapter_result": {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L2_MASTER",
+        "to": "MAIN_L2_BATH_M",
+        "points": [
+          [
+            1.6768,
+            8.4429,
+            4.4668
+          ],
+          [
+            1.6768,
+            7.965,
+            4.4668
+          ],
+          [
+            3.668,
+            7.965,
+            4.4668
+          ],
+          [
+            3.8252,
+            7.5933,
+            4.4668
+          ],
+          [
+            4.527359999999999,
+            7.5933,
+            4.4668
+          ],
+          [
+            6.2,
+            7.5933,
+            4.4668
+          ],
+          [
+            6.2,
+            8.35,
+            4.4668
+          ]
+        ],
+        "failure": null,
+        "candidate_path_id": "REAL_MASTER_BATH_DOOR",
+        "endpoint_inside_room_envelopes": [
+          true,
+          true
+        ],
+        "strict_local_limits": {
+          "ground_m": 0.004,
+          "body_radius_m": 0.18,
+          "head_m": 1.95,
+          "segment_sample_step_m": 0.01
+        },
+        "whole_path_checked": true,
+        "common_master_anchor": [
+          1.6768,
+          8.4429,
+          2.8668
+        ]
+      }
+    },
+    "MASTER_TERRACE_DOOR": {
+      "rows": [
+        {
+          "edge": 0,
+          "from": [
+            1.6768,
+            8.4429,
+            4.4668
+          ],
+          "to": [
+            2.2532,
+            7.7526,
+            4.4668
+          ],
+          "failure": {
+            "reason": "STRICT_1_95M_BODY_COLUMN",
+            "eye": [
+              2.2532001,
+              7.7526002,
+              4.4668002
+            ],
+            "body_offset": [
+              0.12727922061357852,
+              -0.12727922061357858
+            ],
+            "height_above_floor_m": 0.04933058713989258,
+            "hit": {
+              "object": "MAIN_L2_master_south_open_casement_mullion_1",
+              "location": [
+                2.3804793,
+                7.6253209,
+                2.9161308
+              ],
+              "normal": [
+                0.3826957,
+                0.0,
+                -0.9238744
+              ],
+              "distance": 0.04333065077662468
+            },
+            "sample": 90,
+            "sample_count": 91
+          }
+        },
+        {
+          "edge": 1,
+          "from": [
+            2.2532,
+            7.7526,
+            4.4668
+          ],
+          "to": [
+            2.5676,
+            7.2747,
+            4.4668
+          ],
+          "failure": {
+            "reason": "STRICT_1_95M_BODY_COLUMN",
+            "eye": [
+              2.2532001,
+              7.7526002,
+              4.4668002
+            ],
+            "body_offset": [
+              0.12727922061357852,
+              -0.12727922061357858
+            ],
+            "height_above_floor_m": 0.04933058713989258,
+            "hit": {
+              "object": "MAIN_L2_master_south_open_casement_mullion_1",
+              "location": [
+                2.3804793,
+                7.6253209,
+                2.9161308
+              ],
+              "normal": [
+                0.3826957,
+                0.0,
+                -0.9238744
+              ],
+              "distance": 0.04333065077662468
+            },
+            "sample": 0,
+            "sample_count": 59
+          }
+        },
+        {
+          "edge": 2,
+          "from": [
+            2.5676,
+            7.2747,
+            4.4668
+          ],
+          "to": [
+            2.62,
+            7.0092,
+            4.4668
+          ],
+          "failure": {
+            "reason": "STRICT_1_95M_BODY_COLUMN",
+            "eye": [
+              2.6106427,
+              7.0566106,
+              4.4668002
+            ],
+            "body_offset": [
+              -3.306546357697853e-17,
+              -0.18
+            ],
+            "height_above_floor_m": 0.015737187139892583,
+            "hit": {
+              "object": "MAIN_L2_master_south_sill",
+              "location": [
+                2.6106427,
+                6.8766108,
+                2.8825374
+              ],
+              "normal": [
+                0.0,
+                0.3826872,
+                -0.923878
+              ],
+              "distance": 0.009737186133861542
+            },
+            "sample": 23,
+            "sample_count": 29
+          }
+        },
+        {
+          "edge": 3,
+          "from": [
+            2.62,
+            7.0092,
+            4.4668
+          ],
+          "to": [
+            2.62,
+            6.8499,
+            4.4668
+          ],
+          "failure": {
+            "reason": "STRICT_1_95M_BODY_COLUMN",
+            "eye": [
+              2.6199999,
+              7.0092001,
+              4.4668002
+            ],
+            "body_offset": [
+              -0.06888301782571626,
+              -0.16629831585203156
+            ],
+            "height_above_floor_m": 0.01419978713989245,
+            "hit": {
+              "object": "MAIN_L2_master_south_sill",
+              "location": [
+                2.5511169,
+                6.8429017,
+                2.881
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              "distance": 0.008199929259717464
+            },
+            "sample": 0,
+            "sample_count": 17
+          }
+        },
+        {
+          "edge": 4,
+          "from": [
+            2.62,
+            6.8499,
+            4.4668
+          ],
+          "to": [
+            2.62,
+            6.5844000000000005,
+            4.4668
+          ],
+          "failure": {
+            "reason": "STRICT_4MM_GROUND",
+            "eye": [
+              2.6199999,
+              6.8498998,
+              4.4668002
+            ],
+            "foot_offset": [
+              0,
+              0
+            ],
+            "expected_ground_z": 2.8668002128601073,
+            "delta_m": 0.05219988713989254,
+            "hit": {
+              "object": "MAIN_L2_master_south_sill",
+              "location": [
+                2.6199999,
+                6.8498998,
+                2.9190001
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "distance": 0.14779996871948242
+            },
+            "sample": 0,
+            "sample_count": 28
+          }
+        },
+        {
+          "edge": 5,
+          "from": [
+            2.62,
+            6.5844000000000005,
+            4.4668
+          ],
+          "to": [
+            2.62,
+            6.2658000000000005,
+            4.4668
+          ],
+          "failure": null
+        }
+      ],
+      "adapter_result": {
+        "status": "FAIL_MASTER10_STRICT_PATH",
+        "from": "MAIN_L2_MASTER",
+        "to": "MAIN_L2_TERRACE_S",
+        "points": [
+          [
+            1.6768,
+            8.4429,
+            4.4668
+          ],
+          [
+            2.2532,
+            7.7526,
+            4.4668
+          ],
+          [
+            2.5676,
+            7.2747,
+            4.4668
+          ],
+          [
+            2.62,
+            7.0092,
+            4.4668
+          ],
+          [
+            2.62,
+            6.8499,
+            4.4668
+          ],
+          [
+            2.62,
+            6.5844000000000005,
+            4.4668
+          ],
+          [
+            2.62,
+            6.2658000000000005,
+            4.4668
+          ]
+        ],
+        "failure": {
+          "reason": "STRICT_1_95M_BODY_COLUMN",
+          "eye": [
+            2.2532001,
+            7.7526002,
+            4.4668002
+          ],
+          "body_offset": [
+            0.12727922061357852,
+            -0.12727922061357858
+          ],
+          "height_above_floor_m": 0.04933058713989258,
+          "hit": {
+            "object": "MAIN_L2_master_south_open_casement_mullion_1",
+            "location": [
+              2.3804793,
+              7.6253209,
+              2.9161308
+            ],
+            "normal": [
+              0.3826957,
+              0.0,
+              -0.9238744
+            ],
+            "distance": 0.04333065077662468
+          },
+          "sample": 90,
+          "sample_count": 91,
+          "edge": 0
+        },
+        "candidate_path_id": "MASTER_TERRACE_DOOR",
+        "endpoint_inside_room_envelopes": [
+          true,
+          true
+        ],
+        "strict_local_limits": {
+          "ground_m": 0.004,
+          "body_radius_m": 0.18,
+          "head_m": 1.95,
+          "segment_sample_step_m": 0.01
+        },
+        "whole_path_checked": true,
+        "common_master_anchor": [
+          1.6768,
+          8.4429,
+          2.8668
+        ]
+      }
+    }
+  },
+  "old_cameras": {
+    "CAM_MAIN_L2_MASTER_A": {
+      "eye": [
+        0.22427000105381012,
+        7.608170032501221,
+        4.4670000076293945
+      ],
+      "failure": {
+        "reason": "STRICT_1_95M_BODY_COLUMN",
+        "eye": [
+          0.22427,
+          7.60817,
+          4.467
+        ],
+        "body_offset": [
+          0,
+          0
+        ],
+        "height_above_floor_m": 0.6417997923706054,
+        "hit": {
+          "object": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_thick_horizontal_top",
+          "location": [
+            0.22427,
+            7.60817,
+            3.5087998
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 0.6357998251914978
+        }
+      }
+    },
+    "CAM_MAIN_L2_MASTER_B": {
+      "eye": [
+        3.9416399002075195,
+        12.059289932250977,
+        4.4670000076293945
+      ],
+      "failure": {
+        "reason": "STRICT_4MM_GROUND",
+        "eye": [
+          3.9416399,
+          12.0592899,
+          4.467
+        ],
+        "foot_offset": [
+          0,
+          0
+        ],
+        "expected_ground_z": 2.8670000076293944,
+        "delta_m": 0.1947999923706054,
+        "hit": {
+          "object": "MASTER_DETAIL10_wardrobe_base",
+          "location": [
+            3.9416399,
+            12.0592899,
+            3.0618
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.005199909210205078
+        }
+      }
+    },
+    "CAM_MAIN_L2_BATH_M_A": {
+      "eye": [
+        4.535200119018555,
+        8.65530014038086,
+        4.4670000076293945
+      ],
+      "failure": {
+        "reason": "STRICT_4MM_GROUND",
+        "eye": [
+          4.5352001,
+          8.6553001,
+          4.467
+        ],
+        "foot_offset": [
+          0,
+          0
+        ],
+        "expected_ground_z": 2.8670000076293944,
+        "delta_m": 0.07230009237060564,
+        "hit": {
+          "object": "MASTER_DETAIL10_south_open_bedside_open_shelf_0",
+          "location": [
+            4.5352001,
+            8.6553001,
+            2.9393001
+          ],
+          "normal": [
+            0.0,
+            -0.0,
+            0.9999999
+          ],
+          "distance": 0.1276998370885849
+        }
+      }
+    },
+    "CAM_MAIN_L2_BATH_M_B": {
+      "eye": [
+        6.85181999206543,
+        9.608980178833008,
+        4.4670000076293945
+      ],
+      "failure": {
+        "reason": "STRICT_4MM_GROUND",
+        "eye": [
+          6.85182,
+          9.6089802,
+          4.467
+        ],
+        "foot_offset": [
+          0,
+          0
+        ],
+        "expected_ground_z": 2.8670000076293944,
+        "delta_m": 0.034799892370605434,
+        "hit": {
+          "object": "MASTER_BATH10_shower_pan",
+          "location": [
+            6.85182,
+            9.6089802,
+            2.9017999
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.16519999504089355
+        }
+      }
+    }
+  },
+  "proposed_cameras": {
+    "CAM_MAIN_L2_MASTER_A": {
+      "eye": [
+        1.6768,
+        8.4429,
+        4.4668
+      ],
+      "failure": null
+    },
+    "CAM_MAIN_L2_MASTER_B": {
+      "eye": [
+        2.7772,
+        8.230500000000001,
+        4.4668
+      ],
+      "failure": null
+    },
+    "CAM_MAIN_L2_BATH_M_A": {
+      "eye": [
+        6.45,
+        7.75,
+        4.4668
+      ],
+      "failure": null
+    },
+    "CAM_MAIN_L2_BATH_M_B": {
+      "eye": [
+        5.6,
+        9.0,
+        4.4668
+      ],
+      "failure": null
+    }
+  },
+  "room_shots": {
+    "MAIN_L2_MASTER": {
+      "candidates": [
+        [
+          1.676800012588501,
+          8.442899703979492,
+          4.466800212860107
+        ],
+        [
+          1.676800012588501,
+          10.726200103759766,
+          4.466800212860107
+        ],
+        [
+          1.676800012588501,
+          11.522700309753418,
+          4.466800212860107
+        ],
+        [
+          1.676800012588501,
+          11.257200241088867,
+          4.466800212860107
+        ],
+        [
+          2.515199899673462,
+          11.416500091552734,
+          4.466800212860107
+        ],
+        [
+          2.7771999835968018,
+          11.416500091552734,
+          4.466800212860107
+        ]
+      ],
+      "shot": {
+        "points": [
+          [
+            1.6768,
+            8.4429,
+            4.4668
+          ],
+          [
+            1.6768,
+            10.7262,
+            4.4668
+          ]
+        ],
+        "target": [
+          3.5946400000000014,
+          10.237680000000001,
+          3.6668000000000003
+        ],
+        "mode": "NORMAL_WALK",
+        "ground_height_tested": true,
+        "body_clearance_tested": true,
+        "selection_sample_step_m": 0.01,
+        "strict_local_limits": {
+          "ground_m": 0.004,
+          "body_radius_m": 0.18,
+          "head_m": 1.95,
+          "segment_sample_step_m": 0.01
+        }
+      },
+      "issue": null
+    },
+    "MAIN_L2_BATH_M": {
+      "candidates": [
+        [
+          6.449999809265137,
+          7.75,
+          4.466800212860107
+        ],
+        [
+          5.599999904632568,
+          9.0,
+          4.466800212860107
+        ]
+      ],
+      "shot": {
+        "points": [
+          [
+            6.45,
+            7.75,
+            4.4668
+          ],
+          [
+            5.6,
+            9.0,
+            4.4668
+          ]
+        ],
+        "target": [
+          6.45,
+          8.8,
+          3.8167999999999997
+        ],
+        "mode": "NORMAL_WALK",
+        "ground_height_tested": true,
+        "body_clearance_tested": true,
+        "selection_sample_step_m": 0.01,
+        "strict_local_limits": {
+          "ground_m": 0.004,
+          "body_radius_m": 0.18,
+          "head_m": 1.95,
+          "segment_sample_step_m": 0.01
+        }
+      },
+      "issue": null
+    },
+    "MAIN_L2_CLOSET_M": {
+      "candidates": [
+        [
+          1.676800012588501,
+          11.522700309753418,
+          4.466800212860107
+        ],
+        [
+          1.676800012588501,
+          11.257200241088867,
+          4.466800212860107
+        ],
+        [
+          2.515199899673462,
+          11.416500091552734,
+          4.466800212860107
+        ],
+        [
+          2.7771999835968018,
+          11.416500091552734,
+          4.466800212860107
+        ]
+      ],
+      "shot": {
+        "points": [
+          [
+            1.6768,
+            11.5227,
+            4.4668
+          ],
+          [
+            1.5206,
+            11.70491,
+            4.4668
+          ]
+        ],
+        "target": [
+          2.1262,
+          11.9079504,
+          3.8968
+        ],
+        "mode": "NORMAL_WALK_STORAGE_INSPECTION",
+        "ground_height_tested": true,
+        "body_clearance_tested": true,
+        "inspection_only": true,
+        "body_entry_into_storage": false,
+        "observer_room_id": "MAIN_L2_MASTER",
+        "strict_local_limits": {
+          "ground_m": 0.004,
+          "body_radius_m": 0.18,
+          "head_m": 1.95,
+          "segment_sample_step_m": 0.01
+        }
+      },
+      "issue": null
+    }
+  },
+  "saved": false,
+  "storage": {
+    "status": "PASS_INSPECTION_ONLY_STORAGE",
+    "acceptance_type": "INSPECTION_ONLY_STORAGE",
+    "observer": [
+      1.6768,
+      11.5227,
+      4.4668
+    ],
+    "inspection_motion": [
+      [
+        1.6768,
+        11.5227,
+        4.4668
+      ],
+      [
+        1.5206,
+        11.70491,
+        4.4668
+      ]
+    ],
+    "visible_target_hit": {
+      "object": "MASTER_DETAIL10_wardrobe_flat_door_00",
+      "location": [
+        2.1262,
+        11.9079504,
+        3.8968
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "distance": 0.8217529654502869
+    },
+    "visible_patch_rays": [
+      {
+        "object": "MASTER_DETAIL10_wardrobe_flat_door_00",
+        "location": [
+          2.1262,
+          11.9079504,
+          3.8968
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.8217529654502869
+      },
+      {
+        "object": "MAIN_L2_master_entry_open_door",
+        "location": [
+          2.0478692,
+          11.8697004,
+          3.9961517
+        ],
+        "normal": [
+          -0.0,
+          -1.0,
+          -0.0
+        ],
+        "distance": 0.6925398111343384
+      },
+      {
+        "object": "MASTER_DETAIL10_wardrobe_flat_door_00",
+        "location": [
+          2.1505785,
+          11.8919506,
+          3.8658793
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          -0.0
+        ],
+        "distance": 0.8496574759483337
+      },
+      {
+        "object": "MASTER_DETAIL10_wardrobe_flat_door_00",
+        "location": [
+          2.1262004,
+          11.9079504,
+          3.8617992
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 0.8464069366455078
+      },
+      {
+        "object": "MASTER_DETAIL10_wardrobe_flat_door_00",
+        "location": [
+          2.1262002,
+          11.9079504,
+          3.9317999
+        ],
+        "normal": [
+          -1.0,
+          -0.0,
+          -0.0
+        ],
+        "distance": 0.797874391078949
+      }
+    ],
+    "normal_body_and_ground_at_observer": true,
+    "camera_sweep_checked": true,
+    "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+    "body_entry_into_storage": false,
+    "storage_identity": "Actual source10 north Master wardrobe; old semantic Closet M floor is not traversed",
+    "strict_local_limits": {
+      "ground_m": 0.004,
+      "body_radius_m": 0.18,
+      "head_m": 1.95,
+      "segment_sample_step_m": 0.01
+    }
+  },
+  "source_helpers_sha256": {
+    "master_detail10.py": "243a642da59bbf28030b65a916b5e031467785eea3664818e88b33982c1ef837",
+    "master_bath_detail10.py": "6d13723236de78c790a23f50a608d390d4744ec8e9a94a640bab412ec4b0e60e",
+    "master_navigation10.py": "263d61d1038e6219a772a65c1b82386b1c4c4ef38e1348c9e16c7ac158a5342b"
+  }
+}

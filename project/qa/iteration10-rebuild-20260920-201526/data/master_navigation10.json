@@ -1,0 +1,268 @@
+{
+  "schema": "fallingwater.master_navigation10.v1",
+  "paths": {
+    "REAL_HALL_MASTER_DOOR": {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_MASTER",
+      "feet": [
+        [
+          1.6768,
+          13.009500000000001,
+          2.8668
+        ],
+        [
+          1.6768,
+          12.372300000000001,
+          2.8668
+        ],
+        [
+          1.6768,
+          11.682,
+          2.8668
+        ],
+        [
+          1.6768,
+          10.7262,
+          2.8668
+        ],
+        [
+          1.6768,
+          9.1332,
+          2.8668
+        ],
+        [
+          1.6768,
+          8.4429,
+          2.8668
+        ]
+      ]
+    },
+    "REAL_MASTER_BATH_DOOR": {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_BATH_M",
+      "feet": [
+        [
+          1.6768,
+          8.4429,
+          2.8668
+        ],
+        [
+          1.6768,
+          7.965,
+          2.8668
+        ],
+        [
+          3.668,
+          7.965,
+          2.8668
+        ],
+        [
+          3.8252,
+          7.5933,
+          2.8668
+        ],
+        [
+          4.527359999999999,
+          7.5933,
+          2.8668
+        ],
+        [
+          6.2,
+          7.5933,
+          2.8668
+        ],
+        [
+          6.2,
+          8.35,
+          2.8668
+        ]
+      ]
+    },
+    "MASTER_TERRACE_DOOR": {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_TERRACE_S",
+      "feet": [
+        [
+          1.6768,
+          8.4429,
+          2.8668
+        ],
+        [
+          3.3012,
+          7.965,
+          2.8668
+        ],
+        [
+          3.3012,
+          7.434,
+          2.8668
+        ],
+        [
+          2.62,
+          7.1685,
+          2.8668
+        ],
+        [
+          2.62,
+          7.0092,
+          2.8668
+        ],
+        [
+          2.62,
+          6.8499,
+          2.8668
+        ],
+        [
+          2.62,
+          6.5844000000000005,
+          2.8668
+        ],
+        [
+          2.62,
+          6.2658000000000005,
+          2.8668
+        ]
+      ]
+    }
+  },
+  "room_moves": {
+    "MAIN_L2_MASTER": {
+      "feet": [
+        [
+          1.6768,
+          8.4429,
+          2.8668
+        ],
+        [
+          1.6768,
+          10.7262,
+          2.8668
+        ]
+      ],
+      "target": [
+        3.5946400000000014,
+        10.237680000000001,
+        3.6668000000000003
+      ]
+    },
+    "MAIN_L2_BATH_M": {
+      "feet": [
+        [
+          6.45,
+          7.75,
+          2.8668
+        ],
+        [
+          5.6,
+          9.0,
+          2.8668
+        ]
+      ],
+      "target": [
+        6.45,
+        8.8,
+        3.8167999999999997
+      ]
+    }
+  },
+  "cameras": {
+    "CAM_MAIN_L2_MASTER_A": {
+      "room_id": "MAIN_L2_MASTER",
+      "eye": [
+        1.6768,
+        8.4429,
+        4.4668
+      ],
+      "target": [
+        3.4584,
+        10.9917,
+        3.8868
+      ],
+      "lens_mm": 24,
+      "exposure_proposal": 2.4,
+      "exposure_basis": "Root opened integration10a EV1.4/1.9/2.4; 2.4 improves legibility, still not photo acceptance"
+    },
+    "CAM_MAIN_L2_MASTER_B": {
+      "room_id": "MAIN_L2_MASTER",
+      "eye": [
+        2.7772,
+        8.230500000000001,
+        4.4668
+      ],
+      "target": [
+        -0.1048,
+        10.4076,
+        3.8868
+      ],
+      "lens_mm": 24,
+      "exposure_proposal": 2.4,
+      "exposure_basis": "Root opened integration10a EV1.4/1.9/2.4; 2.4 improves legibility, still not photo acceptance"
+    },
+    "CAM_MAIN_L2_BATH_M_A": {
+      "room_id": "MAIN_L2_BATH_M",
+      "eye": [
+        6.45,
+        7.75,
+        4.4668
+      ],
+      "target": [
+        6.1,
+        9.5,
+        3.8167999999999997
+      ],
+      "lens_mm": 24
+    },
+    "CAM_MAIN_L2_BATH_M_B": {
+      "room_id": "MAIN_L2_BATH_M",
+      "eye": [
+        5.6,
+        9.0,
+        4.4668
+      ],
+      "target": [
+        6.5,
+        7.15,
+        3.6668000000000003
+      ],
+      "lens_mm": 24
+    }
+  },
+  "storage_observer_feet": [
+    [
+      2.5152,
+      11.416500000000001,
+      2.8668
+    ],
+    [
+      2.7772,
+      11.416500000000001,
+      2.8668
+    ],
+    [
+      1.6768,
+      11.257200000000001,
+      2.8668
+    ],
+    [
+      1.6768,
+      11.5227,
+      2.8668
+    ]
+  ],
+  "floor_top_m": 2.8668,
+  "limits": {
+    "ground_m": 0.004,
+    "body_radius_m": 0.18,
+    "head_m": 1.95,
+    "segment_sample_step_m": 0.01
+  },
+  "claim": "Local proposal; every call checks actual geometry, failures are retained. No camera pose is a photographic match.",
+  "adapter_sha256": "dafbd4ded6c14112e8d07292ada5bb880eb65433b81e507a87afeb4661eb6e9a",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration10_rebuilt02_physical.blend",
+  "mesh_index": {
+    "objects": 932,
+    "vertices": 425591,
+    "triangles": 526332,
+    "evaluated": true
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "iteration": "05 main-house source freeze",
+  "artifacts": {
+    "scripts\\main_house.py": "fb343bdca7a131e009328dd4e692f7179b03c42c21ac4c14268e89dbee6481cf",
+    "data\\main_house.json": "dd65b00383af742f54bfab4cca5a842b746cb4b4fd72fa075939914b221026b5",
+    "qa\\main-geometry-smoke.blend": "a030455b5da33eedad1929cf330a38f111c2ef978c61ce61fefbfb54a15578b2"
+  },
+  "preserved_checkpoint": {
+    "path": "scene/Fallingwater_iteration04.blend",
+    "sha256": "247d20f7863e4f7e9c18587d4c032bd663857a420bcfb828d271195665841ac2",
+    "modified": false
+  },
+  "source_review": [
+    {
+      "artifact": "D:\\zx\\test\\project\\qa\\main-geometry-iteration05-source-03.png",
+      "sha256": "7295e3bde9c597fc30838bddf52b2716cbf643d0cf6bc19aa6da500a3786dbad",
+      "viewed": true,
+      "derivation": "Saved main03 JPEG crop enlarged with coordinate grid, not original-resolution TIFF. North internal wine access and west rock boundary.",
+      "geometry_evidence": "C"
+    },
+    {
+      "artifact": "D:\\zx\\test\\project\\qa\\main-geometry-iteration05-source-05.png",
+      "sha256": "ad196fc6f82497839942e6c7b07b0a65f8ffaa59f07267cea06e3e42e5ec44aa",
+      "viewed": true,
+      "derivation": "Saved main05 JPEG crop enlarged with coordinate grid. Lower curved-stair approach and UP direction.",
+      "geometry_evidence": "C"
+    },
+    {
+      "artifact": "D:\\zx\\test\\project\\qa\\main-geometry-iteration05-source-06.png",
+      "sha256": "1611b9d85b65d17c2d874ed42ff8666002eeade478b1b711fc84ce544ecf1d31",
+      "viewed": true,
+      "derivation": "Saved main06 JPEG crop enlarged with coordinate grid. DOWN direction, north upper walk, and explicitly labeled stepped canopy.",
+      "geometry_evidence": "C"
+    },
+    {
+      "artifact": "D:\\zx\\test\\project\\qa\\main-dimension-resolution-spine-source.png",
+      "sha256": "1b179aa3ec099d25539ba9566bd2d1cfca1326ace31b5be1d1b2d0ebcea12c84",
+      "viewed": true,
+      "derivation": "Original main04 TIFF-derived extension-line evidence.",
+      "geometry_evidence": "C"
+    },
+    {
+      "artifact": "D:\\zx\\test\\project\\qa\\main-dimension-resolution-spine-grid.png",
+      "sha256": "3b9cbccfc64ad966266b983f1b1f55bcae568d99a85ac5d347198e9e6bcab4ff",
+      "viewed": true,
+      "derivation": "Original main04 TIFF-derived coordinate overlay; analytical lines are C.",
+      "geometry_evidence": "C"
+    },
+    {
+      "artifact": "D:\\zx\\test\\project\\qa\\main-dimension-resolution-east-parapet-grid.png",
+      "sha256": "1582f70e8db260022f910f48836b2f68c2808b7b99d203132dbba16eaa9a12b2",
+      "viewed": true,
+      "derivation": "Main09 JPEG elevation contour crop, not a surveyed dimension label.",
+      "geometry_evidence": "C"
+    },
+    {
+      "artifact": "D:\\zx\\test\\project\\qa\\main-dimension-resolution-east-parapet-datums.png",
+      "sha256": "66c957f9f65ed1f6d7dccd267eb00aed5fc59b89456acea8415c34240e6a74e5",
+      "viewed": true,
+      "derivation": "Main09 JPEG two-datum comparison; 55mm graphical uncertainty.",
+      "geometry_evidence": "C"
+    }
+  ],
+  "topology": {
+    "wine": "Basement Stair -> internal north passage -> Wine. No west outside doorway.",
+    "bath_guest": "Main L2 Hall -> Guest Bath; guest bedroom is not the direct neighbor of that door.",
+    "exterior_stair": "L2 North Terrace -> south-low curved stair -> north-high upper walk -> guest connector.",
+    "canopy": "Roof over stair is tagged non-walkable; removed old southward L3 false walking floor."
+  },
+  "handoff": {
+    "main_px": [
+      431,
+      98
+    ],
+    "world_xyz": [
+      5.4496,
+      23.470200000000002,
+      5.26415
+    ],
+    "reference": "Sheet06 north upper walk, cross-check site point549,297",
+    "evidence": "C plan registration; elevation inherited fromL3 datum",
+    "replaces_invalid_canopy_point": [
+      6.4976,
+      22.302,
+      5.26415
+    ],
+    "next_guest_point": [
+      2.62,
+      23.58,
+      5.83
+    ]
+  },
+  "bounded_main_only_clearance": {
+    "checks": 352,
+    "summary": {
+      "wine_failures": 0,
+      "bath_failures": 0,
+      "spiral_failures": 0,
+      "approach_failures": {
+        "lower": 0,
+        "upper": 0,
+        "handoff": 0
+      },
+      "old_west_boundary": "PASS"
+    },
+    "scene_sha256": "a030455b5da33eedad1929cf330a38f111c2ef978c61ce61fefbfb54a15578b2",
+    "body_width_m": 0.36,
+    "head_height_m": 1.95,
+    "continuous_swept_body": false,
+    "integrated_site_furniture_guest": false
+  },
+  "bath_wine_floor_seam": {
+    "viewed_image": "renders/previews/camera04-review/CAM_MAIN_B_BATH_B.png",
+    "black_pixel_rays": 6,
+    "black_pixel_findings": "All six ray samples first hit sound floor. Visible black strips coincide with old coplanar overlap; cause requires same-camera render confirmation.",
+    "grid_before": {
+      "samples": 8829,
+      "failures": 135
+    },
+    "grid_after": {
+      "samples": 8829,
+      "failures": 0
+    },
+    "new_threshold_source_rect": [
+      285,
+      244,
+      291,
+      283
+    ],
+    "actual_door_source_y": [
+      255,
+      275
+    ],
+    "walls_unchanged": true,
+    "visible_finish_overlap_removed": true,
+    "same_camera_rerender_status": "NOT_RUN by this subagent"
+  },
+  "dimensions": {
+    "standard": "GEO-02: max(0.020 m,0.005*reference length). Source reading uncertainty is separate and never substitutes for this threshold.",
+    "counts": {
+      "NOT_RUN": 16,
+      "PASS": 5
+    },
+    "north_spine": {
+      "id": "MAIN_CHAIN_03",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "11 ft",
+      "reference_m": 3.3528000000000002,
+      "source_axis": "x",
+      "source_pixels": [
+        328.3714301871854,
+        392.4184810269751
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.01,
+      "actual_mesh_m": 3.3527998998761177,
+      "delta_m": -1.0012388251823268e-07,
+      "tolerance_m": 0.02,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_north_spine_1",
+          "axis": "X",
+          "boundary": "max",
+          "world_coordinate_m": 0.06780003756284714,
+          "evaluated_vertex_count": 56,
+          "vertex_ids": [
+            14,
+            22,
+            42,
+            51
+          ],
+          "representative_vertex_world_m": [
+            0.06779996305704117,
+            15.140501022338867,
+            0.10699999332427979
+          ]
+        },
+        {
+          "object": "MAIN_L1_north_spine_3",
+          "axis": "X",
+          "boundary": "max",
+          "world_coordinate_m": 3.420599937438965,
+          "evaluated_vertex_count": 56,
+          "vertex_ids": [
+            14,
+            22,
+            42,
+            51
+          ],
+          "representative_vertex_world_m": [
+            3.420599937438965,
+            14.184700012207031,
+            0.10699999332427979
+          ]
+        }
+      ],
+      "status": "PASS",
+      "correspondence": "East outer faces of the two successive north masonry returns. Original TIFF extension centers are source x=328.3714301872 and x=392.4184810270; the former rounded trace x=328..393 was corrected by 53.2 mm at the east return. Evaluated outer-face vertices measured independently; scan registration remains C.",
+      "within_source_reading_uncertainty": true,
+      "source_uncertainty_exceeds_geo02": false
+    },
+    "all_dimensions_accepted": false
+  },
+  "superseded_checks": [
+    "Old arc landing assertions in main-geometry-living-fixes.json belong to the old reversed stair. Use iteration05-check for current geometry.",
+    "Old main-dimension-resolution-initial-measured.json used source reading uncertainty as tolerance; it is preserved but not a GEO-02 PASS."
+  ],
+  "remaining": [
+    "Full integrated 05 guest/site/furniture traversal and updated same-camera imagery.",
+    "Stair count/canopy clearance/cross-building Z remain explicitly C.",
+    "16 nominal or unregistered dimension correspondences remain NOT_RUN."
+  ],
+  "documentation_cleanup": "Owned current notes and dimension-resolution document reconciled; root README/AGENTS/STATUS remain integrator-owned."
+}

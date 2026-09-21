@@ -1,0 +1,222 @@
+[
+  {
+    "id": "MAIN_LIVING_NOMINAL_WIDTH",
+    "name": "living-width",
+    "crop": [
+      300,
+      250,
+      541,
+      546
+    ],
+    "room": "MAIN_L1_LIVING",
+    "title": "33 ft 8 in: un-arrowed room annotation, not maximum floor bounding width",
+    "lines": [
+      [
+        [
+          [
+            314,
+            424
+          ],
+          [
+            528,
+            424
+          ]
+        ],
+        "red",
+        "Current whole-floor X extrema: 11.2136 m"
+      ],
+      [
+        [
+          [
+            328,
+            400
+          ],
+          [
+            514.5,
+            400
+          ]
+        ],
+        "blue",
+        "Seat-front / stone-face diagnostic: 9.7726 m; NOT a proven label span"
+      ]
+    ],
+    "conclusion": "No OCR error. The plan is stepped and includes fixed furniture. The visible seat-front-to-pier-face diagnostic and full bounding width measure different things, and neither is identified by source arrows for33ft8in. No scaling or wall shift applied.",
+    "source": "D:\\zx\\test\\research\\references\\architecture\\main-04-original.tif",
+    "source_sha256": "3db8199eeb84cd4226cfbae2ea9192880454c1012afa6e33bf84bae6449d8d56",
+    "upright_size": [
+      17683,
+      13632
+    ],
+    "original_upright_crop": [
+      5181,
+      4319,
+      9342,
+      9434
+    ],
+    "normalized_frame": [
+      1024,
+      789
+    ],
+    "artifact": "D:\\zx\\test\\project\\qa\\main-dimension-resolution-living-width-annotated.png",
+    "artifact_sha256": "ea21c62437594e3cbbcd06216b1fc25fae4a18077d5adde70bac625ff41d1596",
+    "annotation_evidence": "C interpretation; neither source arrows nor measured survey points"
+  },
+  {
+    "id": "MAIN_KITCHEN_NOMINAL_LENGTH",
+    "name": "kitchen-length",
+    "crop": [
+      245,
+      216,
+      340,
+      338
+    ],
+    "room": "MAIN_L1_KITCHEN",
+    "title": "15 ft 9 in: core body and projecting south window bay are distinct spans",
+    "lines": [
+      [
+        [
+          [
+            300,
+            230
+          ],
+          [
+            300,
+            321
+          ]
+        ],
+        "blue",
+        "Core diagnostic Y230-321: 4.8321 m; label endpoints not specified"
+      ],
+      [
+        [
+          [
+            290,
+            230
+          ],
+          [
+            290,
+            331
+          ]
+        ],
+        "red",
+        "Full floor now includes traced bay: 5.3631 m"
+      ]
+    ],
+    "conclusion": "No OCR error. Corrected original floor-end trace and real projecting glazing bay; full bounding length includes a projection and cannot certify the nominal label. Main core span is measured separately; +31.5mm exceeds GEO-02 24.0mm if that span were established, which it is not.",
+    "source": "D:\\zx\\test\\research\\references\\architecture\\main-04-original.tif",
+    "source_sha256": "3db8199eeb84cd4226cfbae2ea9192880454c1012afa6e33bf84bae6449d8d56",
+    "upright_size": [
+      17683,
+      13632
+    ],
+    "original_upright_crop": [
+      4231,
+      3732,
+      5871,
+      5840
+    ],
+    "normalized_frame": [
+      1024,
+      789
+    ],
+    "artifact": "D:\\zx\\test\\project\\qa\\main-dimension-resolution-kitchen-length-annotated.png",
+    "artifact_sha256": "f7910efc3cd8c570a00bbdebf4898ca13c4df567b77d7b77775e5e10d76716a9",
+    "annotation_evidence": "C interpretation; neither source arrows nor measured survey points"
+  },
+  {
+    "id": "MAIN_SERVANT_NOMINAL_LENGTH",
+    "name": "servant-length",
+    "crop": [
+      170,
+      195,
+      269,
+      291
+    ],
+    "room": "MAIN_L1_SERVANT",
+    "title": "11 ft 5 in: no X/Y arrows; missing north bay restored from rock/stair edges",
+    "lines": [
+      [
+        [
+          [
+            183.5,
+            222
+          ],
+          [
+            244.5,
+            222
+          ]
+        ],
+        "blue",
+        "Corrected floor X extrema: 3.1964 m; nominal-axis meaning unresolved"
+      ]
+    ],
+    "conclusion": "No OCR error. Prior X assignment was an assumption. The 10 ft11in extension-line dimension below the room is a separate outside span and must not be relabeled as room length. Restored the missing bay without stretching any wall to satisfy 11ft5in.",
+    "source": "D:\\zx\\test\\research\\references\\architecture\\main-04-original.tif",
+    "source_sha256": "3db8199eeb84cd4226cfbae2ea9192880454c1012afa6e33bf84bae6449d8d56",
+    "upright_size": [
+      17683,
+      13632
+    ],
+    "original_upright_crop": [
+      2936,
+      3369,
+      4645,
+      5028
+    ],
+    "normalized_frame": [
+      1024,
+      789
+    ],
+    "artifact": "D:\\zx\\test\\project\\qa\\main-dimension-resolution-servant-length-annotated.png",
+    "artifact_sha256": "42547bee5b51ab7eac27534b1a9a3cbde39a6a65c2eb0a7696ad4d75301a0b8d",
+    "annotation_evidence": "C interpretation; neither source arrows nor measured survey points"
+  },
+  {
+    "id": "MAIN_SERVANT_NOMINAL_WIDTH",
+    "name": "servant-width",
+    "crop": [
+      170,
+      195,
+      269,
+      291
+    ],
+    "room": "MAIN_L1_SERVANT",
+    "title": "9 ft 4 in: old lower rectangle omitted northern room floor",
+    "lines": [
+      [
+        [
+          [
+            222,
+            214.7
+          ],
+          [
+            222,
+            269
+          ]
+        ],
+        "blue",
+        "Corrected floor Y extrema: 2.88333 m; old span was 2.0709 m"
+      ]
+    ],
+    "conclusion": "No OCR error. Room continues north to the stair partition at about y214.7, following the natural rock edge. Corrected actual Y span differs +38.53mm from9ft4in, beyond GEO-02 20mm; the room label still provides no endpoints/axis assignment, so this remains an unresolved comparison, not PASS.",
+    "source": "D:\\zx\\test\\research\\references\\architecture\\main-04-original.tif",
+    "source_sha256": "3db8199eeb84cd4226cfbae2ea9192880454c1012afa6e33bf84bae6449d8d56",
+    "upright_size": [
+      17683,
+      13632
+    ],
+    "original_upright_crop": [
+      2936,
+      3369,
+      4645,
+      5028
+    ],
+    "normalized_frame": [
+      1024,
+      789
+    ],
+    "artifact": "D:\\zx\\test\\project\\qa\\main-dimension-resolution-servant-width-annotated.png",
+    "artifact_sha256": "dcacb8c801aa127f7718ce092d05a897b8773a22c868502724455dca4e009b21",
+    "annotation_evidence": "C interpretation; neither source arrows nor measured survey points"
+  }
+]

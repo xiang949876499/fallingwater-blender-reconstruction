@@ -1,0 +1,1187 @@
+{
+  "status": "DIAGNOSIS_WITH_EXECUTED_COUNTEREXAMPLES_CURRENT_WATER_FAIL",
+  "date": "2026-09-20",
+  "scope": {
+    "new_bakes": 0,
+    "renders_by_this_diagnosis": 0,
+    "blend_files_written": 0,
+    "production_installed": false,
+    "production_guard_changed": false
+  },
+  "sources": {
+    "pilot": "D:\\zx\\test\\project\\scene\\Fallingwater_hybrid07_impact36.blend",
+    "pilot_sha256": "7093200e28e1c135e559ccc8605fad04e14de7cf92399baef3151f5523f7537e",
+    "motion": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid07_motion36.blend",
+    "motion_sha256": "3c7638bd5866f48eca88a2c184cc958cae3bdfb578892e7e58a59e9c967f55d7",
+    "frozen_core_geometry_sha256": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+    "raw_audit": "qa/water08-readonly-audit.json",
+    "md": "qa/water08-diagnosis-proposal.md",
+    "root_actual_visual_review": "qa/water-hybrid07-motion-root-visual.md"
+  },
+  "visual_viewed": {
+    "root_rendered_frames": [
+      1,
+      36
+    ],
+    "this_agent_actually_opened_contact_pages": [
+      "renders/previews/hybrid07-motion36-foot/review-page-1.png",
+      "renders/previews/hybrid07-motion36-foot/review-page-2.png",
+      "renders/previews/hybrid07-motion36-foot/review-page-3.png"
+    ],
+    "assessment": "FAIL: narrow fixed transparent ribbon, opaque foam disk, coarse pond refraction",
+    "limits": "480x270 / 12 samples; macro defects visible, droplet detail uncertain"
+  },
+  "head_diagnosis": {
+    "most_likely_joint_causes": [
+      "Initialization only filled old displayed river footprint, leaving connected low real pool bed dry; subsequent lateral spreading dilutes depth",
+      "Open vertical domain cuts lack external water pressure; boundary INFLOW columns are not fixed-head constraints and prescribed velocity budget is already unbalanced"
+    ],
+    "verified_saved_settings": {
+      "resolution_max": 128,
+      "cache_type": "ALL",
+      "cache_directory": "D:\\zx\\test\\project\\caches\\fluid_hybrid07\\impact36",
+      "cache_frame_start": 1,
+      "cache_frame_end": 36,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9399999976158142,
+      "use_fractions": true,
+      "delete_in_obstacle": true,
+      "timesteps_min": 2,
+      "timesteps_max": 12,
+      "cfl_condition": 2.0,
+      "time_scale": 1.0,
+      "use_collision_border_bottom": true,
+      "use_collision_border_top": false,
+      "use_collision_border_front": false,
+      "use_collision_border_back": false,
+      "use_collision_border_left": false,
+      "use_collision_border_right": false
+    },
+    "basis_domain_aabb_m": [
+      [
+        -0.40265852212905884,
+        1.9973416328430176
+      ],
+      [
+        -3.2114176750183105,
+        -1.2114176750183105
+      ],
+      [
+        -6.449999809265137,
+        -5.199999809265137
+      ]
+    ],
+    "initial_pool_area_m2": 2.9399999551212055,
+    "initial_pool_nominal_volume_m3": 1.7043237968136888,
+    "frame1_mesh_volume_m3": 1.684860339000668,
+    "frame36_mesh_volume_m3": 1.0835403707410842,
+    "minimum_mesh_volume": {
+      "frame": 23,
+      "vertices": 207954,
+      "triangles": 416004,
+      "signed_closed_mesh_volume_m3": 0.980212843017557,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "world_bounds_m": [
+        [
+          -0.3785958901083629,
+          1.9732789426471826
+        ],
+        [
+          -3.1904800436822125,
+          -1.232355296682412
+        ],
+        [
+          -6.429062276811967,
+          -5.251876187255935
+        ]
+      ]
+    },
+    "net_mesh_volume_loss_m3": 0.6013199682595838,
+    "net_mesh_volume_loss_fraction": 0.35689603128544256,
+    "mean_net_loss_rate_m3_s": 0.4123336925208575,
+    "max_one_interval_loss_rate_m3_s": 1.4767568674017681,
+    "all36_cache_meshes_closed": true,
+    "volume_proxy_limitation": "Float64 closed render triangle integral after raw bobj affine mapping validated against actual evaluated frame1; mesh reconstruction volume is proxy, not solver phi volume or exact conserved particle mass",
+    "raw_bobj_world_max_error_m": 3.4418040230147303e-07,
+    "area_samples": [
+      {
+        "frame": 1,
+        "raw_height_hits": 2075,
+        "upward_free_surface_samples": 2046,
+        "projected_area_proxy_m2": 2.8416666666666774,
+        "raw_all_domain_upward_median_z_m": -5.796414375305176
+      },
+      {
+        "frame": 12,
+        "raw_height_hits": 3339,
+        "upward_free_surface_samples": 3275,
+        "projected_area_proxy_m2": 4.5486111111111285,
+        "raw_all_domain_upward_median_z_m": -6.162020206451416
+      },
+      {
+        "frame": 23,
+        "raw_height_hits": 3339,
+        "upward_free_surface_samples": 3235,
+        "projected_area_proxy_m2": 4.493055555555572,
+        "raw_all_domain_upward_median_z_m": -6.245316028594971
+      },
+      {
+        "frame": 36,
+        "raw_height_hits": 3339,
+        "upward_free_surface_samples": 3205,
+        "projected_area_proxy_m2": 4.451388888888906,
+        "raw_all_domain_upward_median_z_m": -6.215124130249023
+      }
+    ],
+    "rough_average_depth_proxy_m": [
+      0.592912729267095,
+      0.24341624553309754
+    ],
+    "path_dependent_scale_decomposition_not_exact_physics": {
+      "spreading_at_initial_volume_m": 0.21441056262732083,
+      "mass_loss_at_final_area_m": 0.13508592110667664
+    },
+    "fixed_speed_cut_estimates": [
+      {
+        "side": "x_min",
+        "wet_edge_length_m": 2.0,
+        "wet_cross_section_m2": 0.9004560513651825,
+        "velocity_outward_m_s": 0.15882353484630585,
+        "kinematic_Q_outward_m3_s": 0.14301361305156501,
+        "free_outfall_scale_m3_s": 1.0342540490156162,
+        "edge_depths": [
+          [
+            0.058823585510253906,
+            0.4087791442871094
+          ],
+          [
+            0.058823585510253906,
+            0.4133894443511963
+          ],
+          [
+            0.058823347091674805,
+            0.4209005832672119
+          ],
+          [
+            0.058823585510253906,
+            0.42841219902038574
+          ],
+          [
+            0.058823585510253906,
+            0.4304924011230469
+          ],
+          [
+            0.058823585510253906,
+            0.42174696922302246
+          ],
+          [
+            0.058823347091674805,
+            0.41276121139526367
+          ],
+          [
+            0.058823585510253906,
+            0.40418219566345215
+          ],
+          [
+            0.058823585510253906,
+            0.39691948890686035
+          ],
+          [
+            0.058823585510253906,
+            0.39105701446533203
+          ],
+          [
+            0.058823347091674805,
+            0.38693952560424805
+          ],
+          [
+            0.058823585510253906,
+            0.3908259868621826
+          ],
+          [
+            0.058823585510253906,
+            0.4045121669769287
+          ],
+          [
+            0.058823585510253906,
+            0.42470526695251465
+          ],
+          [
+            0.058823347091674805,
+            0.446444034576416
+          ],
+          [
+            0.058823585510253906,
+            0.45032811164855957
+          ],
+          [
+            0.058823585510253906,
+            0.4493114948272705
+          ],
+          [
+            0.058823585510253906,
+            0.44864559173583984
+          ],
+          [
+            0.058823585510253906,
+            0.44797825813293457
+          ],
+          [
+            0.058823347091674805,
+            0.4473574161529541
+          ],
+          [
+            0.058823585510253906,
+            0.4468100070953369
+          ],
+          [
+            0.058823585510253906,
+            0.44530797004699707
+          ],
+          [
+            0.058823466300964355,
+            0.44949793815612793
+          ],
+          [
+            0.058823585510253906,
+            0.45313143730163574
+          ],
+          [
+            0.058823466300964355,
+            0.4579770565032959
+          ],
+          [
+            0.058823585510253906,
+            0.46282315254211426
+          ],
+          [
+            0.058823466300964355,
+            0.4713475704193115
+          ],
+          [
+            0.058823585510253906,
+            0.48600316047668457
+          ],
+          [
+            0.058823466300964355,
+            0.49996471405029297
+          ],
+          [
+            0.058823585510253906,
+            0.5139265060424805
+          ],
+          [
+            0.058823466300964355,
+            0.5278885364532471
+          ],
+          [
+            0.058823585510253906,
+            0.541703462600708
+          ],
+          [
+            0.058823466300964355,
+            0.5555660724639893
+          ],
+          [
+            0.058823585510253906,
+            0.5701167583465576
+          ]
+        ]
+      },
+      {
+        "side": "x_max",
+        "wet_edge_length_m": 0,
+        "wet_cross_section_m2": 0,
+        "velocity_outward_m_s": -0.15882353484630585,
+        "kinematic_Q_outward_m3_s": -0.0,
+        "free_outfall_scale_m3_s": 0,
+        "edge_depths": []
+      },
+      {
+        "side": "y_min",
+        "wet_edge_length_m": 2.159999966621399,
+        "wet_cross_section_m2": 1.1638213161238933,
+        "velocity_outward_m_s": 0.0847059041261673,
+        "kinematic_Q_outward_m3_s": 0.09858253682358034,
+        "free_outfall_scale_m3_s": 1.47840419622808,
+        "edge_depths": [
+          [
+            0.06000000238418579,
+            0.40883922576904297
+          ],
+          [
+            0.0599999725818634,
+            0.4017624855041504
+          ],
+          [
+            0.060000017285346985,
+            0.3954653739929199
+          ],
+          [
+            0.06000000238418579,
+            0.38907694816589355
+          ],
+          [
+            0.059999994933605194,
+            0.38233113288879395
+          ],
+          [
+            0.05999999865889549,
+            0.3761134147644043
+          ],
+          [
+            0.06000000052154064,
+            0.370729923248291
+          ],
+          [
+            0.06000000052154064,
+            0.3742196559906006
+          ],
+          [
+            0.06000000238418579,
+            0.38370823860168457
+          ],
+          [
+            0.06000000238418579,
+            0.41017723083496094
+          ],
+          [
+            0.06000000238418579,
+            0.436631441116333
+          ],
+          [
+            0.06000000238418579,
+            0.46155333518981934
+          ],
+          [
+            0.06000000238418579,
+            0.4843776226043701
+          ],
+          [
+            0.0599999725818634,
+            0.5065491199493408
+          ],
+          [
+            0.06000000238418579,
+            0.5286464691162109
+          ],
+          [
+            0.06000000238418579,
+            0.5507433414459229
+          ],
+          [
+            0.06000000238418579,
+            0.5737884044647217
+          ],
+          [
+            0.06000000238418579,
+            0.5978949069976807
+          ],
+          [
+            0.06000000238418579,
+            0.6048946380615234
+          ],
+          [
+            0.06000000238418579,
+            0.6085238456726074
+          ],
+          [
+            0.06000000238418579,
+            0.6118032932281494
+          ],
+          [
+            0.06000000238418579,
+            0.6148908138275146
+          ],
+          [
+            0.06000000238418579,
+            0.6175382137298584
+          ],
+          [
+            0.059999942779541016,
+            0.6195881366729736
+          ],
+          [
+            0.060000061988830566,
+            0.6216378211975098
+          ],
+          [
+            0.059999942779541016,
+            0.6243500709533691
+          ],
+          [
+            0.060000061988830566,
+            0.6277792453765869
+          ],
+          [
+            0.059999942779541016,
+            0.6312117576599121
+          ],
+          [
+            0.060000061988830566,
+            0.6341307163238525
+          ],
+          [
+            0.059999942779541016,
+            0.6380462646484375
+          ],
+          [
+            0.060000061988830566,
+            0.6426818370819092
+          ],
+          [
+            0.059999942779541016,
+            0.6464886665344238
+          ],
+          [
+            0.060000061988830566,
+            0.6501531600952148
+          ],
+          [
+            0.059999942779541016,
+            0.6536393165588379
+          ],
+          [
+            0.060000061988830566,
+            0.6569995880126953
+          ],
+          [
+            0.059999942779541016,
+            0.6600565910339355
+          ]
+        ]
+      },
+      {
+        "side": "y_max",
+        "wet_edge_length_m": 0.47999998927116394,
+        "wet_cross_section_m2": 0.30811072196010914,
+        "velocity_outward_m_s": -0.0847059041261673,
+        "kinematic_Q_outward_m3_s": -0.026098797274597192,
+        "free_outfall_scale_m3_s": 0.421480766574654,
+        "edge_depths": [
+          [
+            0.06000000238418579,
+            0.5729982852935791
+          ],
+          [
+            0.0599999725818634,
+            0.5956282615661621
+          ],
+          [
+            0.060000017285346985,
+            0.6188592910766602
+          ],
+          [
+            0.06000000238418579,
+            0.6422057151794434
+          ],
+          [
+            0.059999994933605194,
+            0.6655244827270508
+          ],
+          [
+            0.05999999865889549,
+            0.6760880947113037
+          ],
+          [
+            0.06000000052154064,
+            0.6800427436828613
+          ],
+          [
+            0.06000000052154064,
+            0.6838319301605225
+          ]
+        ]
+      }
+    ],
+    "nominal_flow_budget": {
+      "branch_Q_m3_s": 0.10170974120841708,
+      "cuts_in_m3_s": 0.026098797274597192,
+      "cuts_out_m3_s": 0.24159614987514536,
+      "net_m3_s": -0.11378761139213109,
+      "estimated_delta_V_over35_intervals_m3": -0.1659402666135245,
+      "not_measured_cache_flux": true,
+      "ideal_free_outfall_scale_m3_s": 2.9341390118183504,
+      "ideal_free_outfall_formula": "sqrt(g)*(2*depth/3)**1.5 per meter wet width; C critical-flow scale only, not actual simulated discharge"
+    },
+    "head_failure_preserved": {
+      "frame36_near_impact_median_z_m": -6.162335,
+      "original_pool_z_m": -5.771274,
+      "frame36_original_matched_surface_delta_stats_m": {
+        "count": 2009,
+        "min": -0.6092081069946289,
+        "max": 0.1327800750732422,
+        "mean": -0.30224016758266997
+      },
+      "frame36_boundary_drift_m": -0.4320540428161621
+    },
+    "floor_limitation": {
+      "max_depth_cut_m": 0.05000048,
+      "bed_samples_below_domain": 55,
+      "bed_sample_count": 81,
+      "full_domain_absolute_missing_capacity_upper_m3": 0.24,
+      "not_sufficient_cause_for_39cm_decline": true
+    },
+    "unresolved": [
+      "No phi-volume or signed boundary velocity flux extracted: exact loss attribution unknown",
+      "Mesh reconstruction introduces volume error; FLIP particle count is not conserved mass",
+      "Initialization shared internal coplanar column faces and delete_in_obstacle are possible secondary effects; first-frame loss is only about1.14%",
+      "Whole connected basin/outlet backwater beyond local ROI is not yet established"
+    ]
+  },
+  "normal_freeze_feasibility": {
+    "source": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid07_motion36.blend",
+    "sha256": "3c7638bd5866f48eca88a2c184cc958cae3bdfb578892e7e58a59e9c967f55d7",
+    "vertices": 214563,
+    "render_triangles": 429122,
+    "active_vertices": 6620,
+    "unchanged_base_cross_magnitude_threshold": 1e-09,
+    "bad_union_triangles": 16,
+    "bad_union_vertices": 33,
+    "bad_active_vertices": 33,
+    "one_ring_vertices": 155,
+    "one_ring_active_vertices": 155,
+    "one_ring_active_fraction": 0.023413897280966767,
+    "one_ring_world_bounds_m": [
+      [
+        0.4053235948085785,
+        0.9012416005134583
+      ],
+      [
+        -2.468675136566162,
+        -2.0083019733428955
+      ],
+      [
+        -5.793750762939453,
+        -5.7233662605285645
+      ]
+    ],
+    "one_ring_along_cross_z_bounds_m": [
+      [
+        1.0549567004482312,
+        1.4127614140223037
+      ],
+      [
+        -1.6342254901596507,
+        -1.0482297385362191
+      ],
+      [
+        -5.793750762939453,
+        -5.7233662605285645
+      ]
+    ],
+    "fall_weight_nonzero_in_ring": 0,
+    "pond_weight_nonzero_in_ring": 155,
+    "max_frozen_original_displacement_m": 0.04478883743286133,
+    "bad_base_triangle_area_m2": {
+      "count": 16,
+      "min": 1.3432088797126258e-09,
+      "max": 3.73305761628146e-05,
+      "mean": 1.0685990616876941e-05
+    },
+    "all_adjacent_triangle_area_m2": 0.023646085062586197,
+    "new_bad_union_count": 0,
+    "matches_existing_evaluated_frame_failure_counts": true,
+    "counterfactual_frames": [
+      {
+        "frame": 1,
+        "before_bad_triangles": [
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 2,
+        "before_bad_triangles": [
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 3,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428708,
+          428715,
+          428717,
+          428726
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 4,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428708,
+          428715,
+          428717,
+          428718,
+          428724,
+          428726,
+          428730,
+          428761,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 5,
+        "before_bad_triangles": [
+          428690,
+          428708,
+          428715,
+          428718,
+          428724,
+          428726,
+          428730,
+          428761,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 6,
+        "before_bad_triangles": [
+          428708,
+          428715,
+          428730,
+          428761,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 7,
+        "before_bad_triangles": [
+          428701,
+          428708,
+          428715,
+          428730,
+          428761,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 8,
+        "before_bad_triangles": [
+          422756,
+          428701,
+          428708,
+          428715,
+          428730,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 9,
+        "before_bad_triangles": [
+          428701,
+          428708,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 10,
+        "before_bad_triangles": [
+          428701,
+          428708,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 11,
+        "before_bad_triangles": [
+          428701,
+          428708,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 12,
+        "before_bad_triangles": [
+          428701,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 13,
+        "before_bad_triangles": [
+          428701,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 14,
+        "before_bad_triangles": [
+          428701,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 15,
+        "before_bad_triangles": [
+          428701,
+          428712,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 16,
+        "before_bad_triangles": [
+          428701,
+          428712
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 17,
+        "before_bad_triangles": [
+          428701,
+          428712,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 18,
+        "before_bad_triangles": [
+          428695,
+          428701,
+          428708,
+          428712,
+          428717,
+          428726,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 19,
+        "before_bad_triangles": [
+          428695,
+          428701,
+          428708,
+          428712,
+          428715,
+          428717,
+          428724,
+          428726
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 20,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428701,
+          428708,
+          428712,
+          428715,
+          428717,
+          428726
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 21,
+        "before_bad_triangles": [
+          428701,
+          428708,
+          428712,
+          428715,
+          428726,
+          428761,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 22,
+        "before_bad_triangles": [
+          428701,
+          428708,
+          428712,
+          428715,
+          428761,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 23,
+        "before_bad_triangles": [
+          428701,
+          428708,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 24,
+        "before_bad_triangles": [
+          428701,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 25,
+        "before_bad_triangles": [
+          428701,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 26,
+        "before_bad_triangles": [
+          428701,
+          428708,
+          428712,
+          428715,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 27,
+        "before_bad_triangles": [
+          428690,
+          428701,
+          428708,
+          428715,
+          428726,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 28,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428708,
+          428715,
+          428726,
+          429115
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 29,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428717,
+          428718,
+          428726,
+          428730,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 30,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428717,
+          428718,
+          428726,
+          428730,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 31,
+        "before_bad_triangles": [
+          413513,
+          428690,
+          428695,
+          428708,
+          428717,
+          428718,
+          428726,
+          428730,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 32,
+        "before_bad_triangles": [
+          413513,
+          428690,
+          428695,
+          428708,
+          428715,
+          428717,
+          428718,
+          428724,
+          428726,
+          428730,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 33,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428708,
+          428715,
+          428717,
+          428718,
+          428724,
+          428726,
+          428730,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 34,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428708,
+          428715,
+          428717,
+          428718,
+          428724,
+          428726,
+          428730,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 35,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428708,
+          428715,
+          428717,
+          428718,
+          428724,
+          428726,
+          428730,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      },
+      {
+        "frame": 36,
+        "before_bad_triangles": [
+          428690,
+          428695,
+          428708,
+          428715,
+          428717,
+          428718,
+          428724,
+          428726,
+          428730,
+          428762
+        ],
+        "after_freeze_bad_triangles": [],
+        "new_bad_triangles": []
+      }
+    ],
+    "counterfactual_only": "Coordinates changed only in NumPy arrays; no object/key/topology or scene files changed; intermediate subframes and new face-interior collision are not tested"
+  },
+  "one_next_simulation": {
+    "status": "EXECUTED_ONCE_FAILED_SEE_EXECUTION_FOLLOWUP",
+    "name": "water08_static_head_control24",
+    "purpose": "Verify complete connected initialization and retained pool head above exact frozen bed before any further impact simulation",
+    "domain_aabb_m": [
+      [
+        -0.40265852212905884,
+        1.9973416328430176
+      ],
+      [
+        -3.2114176750183105,
+        -1.2114176750183105
+      ],
+      [
+        -6.56,
+        -5.55
+      ]
+    ],
+    "initial_head_z_m": -5.771274,
+    "initial_liquid": "One closed union of all fluid-accessible connected space below the original pool head inside the domain; exact collider subtraction; no displayed-surface footprint clipping",
+    "boundaries": "Four vertical walls and bottom closed, top open; artificial C control only, never final river boundary",
+    "flow_sources_enabled": false,
+    "initial_velocity_m_s": [
+      0,
+      0,
+      0
+    ],
+    "Q_in_m3_s": 0,
+    "Q_out_m3_s": 0,
+    "exact_initial_volume_before_bake_required": true,
+    "initial_volume_rough_m3_before_rock_subtraction": [
+      2.3,
+      3.5
+    ],
+    "resolution": 96,
+    "estimated_grid": [
+      96,
+      80,
+      41
+    ],
+    "estimated_grid_cells": 314880,
+    "cell_m": 0.025,
+    "frame_range": [
+      1,
+      24
+    ],
+    "fps": 24,
+    "threads": 8,
+    "mesh_scale": 1,
+    "secondary_particles": false,
+    "depth_cells_from_sampled_bed": [
+      19,
+      29
+    ],
+    "estimated_seconds": [
+      120,
+      300
+    ],
+    "stop_budget_seconds": 360,
+    "estimated_cache_GB_decimal": [
+      0.08,
+      0.3
+    ],
+    "cost_reference": {
+      "prior_seconds": 963.3298037999994,
+      "prior_frames": 36,
+      "prior_grid_cells": 917632,
+      "prior_bytes": 1054473339,
+      "linear_cell_frame_seconds": 220.37395427981568,
+      "linear_cost_not_guaranteed": true
+    },
+    "diagnostic_acceptance": {
+      "all_frame_raw_volume_and_head_required": true,
+      "frame5_24_median_head_drift_max_m": 0.025,
+      "interior95percent_height_error_max_m": 0.05,
+      "mesh_volume_drift_from_frame1_fraction_max": 0.03,
+      "frame1_vs_initial_volume_error_must_be_reported": true
+    },
+    "not_a_single_variable_causal_experiment": true,
+    "passing_does_not_prove_open_flow_or_visual_realism": true,
+    "no_automatic_extension": true
+  },
+  "bounded_visual_proposals": {
+    "geometry": {
+      "scope": "Same single closed falling body only; keep inlet/impact joins and stone fixed",
+      "C_edge_wave_amplitude_m": [
+        0.005,
+        0.015
+      ],
+      "C_thickness_variation_fraction_max": 0.15,
+      "reject_if": "New core contact, flipped triangles, local thickness loss, self intersection, visible fixed join",
+      "new_plane_or_holes": false
+    },
+    "foam": {
+      "cause": "Saturating particle density with circular taper and opaque shader creates dense disk",
+      "same_body_only": true,
+      "C_starting_mean_coverage_fraction": [
+        0.2,
+        0.35
+      ],
+      "C_starting_local_peak_max": 0.7,
+      "flow_advected_sparse_clusters_and_age_decay": true,
+      "raw_particle_ids_not_claimed": true,
+      "spray_material": "Clear water, not opaque foam balls"
+    },
+    "not_executed": true
+  },
+  "references": [
+    {
+      "title": "Blender5.2 Flow",
+      "url": "https://docs.blender.org/manual/id/5.2/physics/fluid/type/flow.html"
+    },
+    {
+      "title": "Blender Domain settings",
+      "url": "https://docs.blender.org/manual/id/4.3/physics/fluid/type/domain/settings.html"
+    }
+  ],
+  "execution_followup": {
+    "report": "qa/water08-static-head24-review.md",
+    "static_control_status": "FAIL",
+    "finding": "Complete initialization and closed borders did not preserve raw head; secondary OFF assignment unexpectedly enabled systems before save. Initial geometric diagnosis insufficient. No repeat bake.",
+    "freeze_report": "qa/water08-freeze-review.md",
+    "freeze_status": "NORMALS_FIXED_LOCAL_THICKNESS_REGRESSION_NOT_ADOPTED"
+  },
+  "scope_note": "scope counts describe the completed read-only diagnosis stage; later authorized executions are recorded in execution_followup"
+}

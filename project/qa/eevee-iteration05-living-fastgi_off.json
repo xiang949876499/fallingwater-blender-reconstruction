@@ -1,0 +1,44 @@
+{
+  "status": "RENDERED",
+  "source_sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+  "variant": "use_fast_gi_false",
+  "before": {
+    "use_fast_gi": true,
+    "use_raytracing": true,
+    "ray_tracing_method": "SCREEN",
+    "fast_gi_method": "GLOBAL_ILLUMINATION",
+    "trace_max_roughness": 0.5
+  },
+  "change": {
+    "property": "scene.eevee.use_fast_gi",
+    "before": true,
+    "after": false
+  },
+  "camera": "CAM_MAIN_L1_LIVING_B",
+  "exposure": 0.8,
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "screen_raytracing_retained": true,
+  "all_light_shadows_retained": true,
+  "volume_intensities": {
+    "FW_PROBE_MAIN_B": 1.0,
+    "FW_PROBE_MAIN_L1": 1.0,
+    "FW_PROBE_MAIN_L2": 1.0,
+    "FW_PROBE_MAIN_L3": 1.0,
+    "FW_PROBE_GUEST_L1": 1.0,
+    "FW_PROBE_GUEST_B1": 1.0,
+    "FW_PROBE_GUEST_L2": 1.0
+  },
+  "materials_geometry_lights_unchanged": true,
+  "production_saved": false,
+  "gi_rebaked": false,
+  "scope": "Disables rough-surface Fast GI horizon scan; 5.2.1 internally sets tracing max roughness to 1, keeping full ray tracing.",
+  "seconds": 79.72053830000004,
+  "path": "D:\\zx\\test\\project\\qa\\eevee-iteration05-living-fastgi_off.png",
+  "sha256": "9526f0456a1b1d154c0daacbf69c1e42a0a891b784d7f219a397637509bd8b1f",
+  "visual_acceptance": "PASS_LOCAL_SYMPTOM: horizontal band removed; stone-joint detail weakens and image remains noisy/dim; not final acceptance",
+  "viewed_native": true
+}

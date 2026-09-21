@@ -1,0 +1,3162 @@
+{
+  "baseline_equivalence": {
+    "status": "PASS_FRAME48_RENDER_TARGET_EQUIVALENT",
+    "old_file_sha256": "3abc1f571a541e57542581a375a68176e52849d89ed85508c86a6ae2d56885e8",
+    "new_file_sha256": "238586cc14956d4269c86bdcc25ef9599bfdb4a4567e888f62e40399ffa5cb23",
+    "object_count_old": 23436,
+    "object_count_new": 23436,
+    "changed_objects": [],
+    "scope": "Frame48 object transforms/visibility, mesh vertices/faces/material indices/smooth flags/shape keys, full material nodes/socket defaults/links/packed image bytes, lights and camera projection properties. No save or render."
+  },
+  "candidate_scene_sha256": "ccce649fe071b1a9c9aea8c0475dd190fa101afce5a714c10d2cfe948b06e008",
+  "evaluated_rock": [
+    {
+      "object": "SITE_Core_Continuous_Fractured_Sandstone",
+      "slots": [
+        "FW_wet_rock",
+        "FW_rock"
+      ],
+      "actual_polygon_material_index_counts": {
+        "1": 418,
+        "0": 591
+      },
+      "front_surface_polygons": 860,
+      "front_surface_material_index_counts": {
+        "1": 313,
+        "0": 547
+      },
+      "front_surface_dot_flow_range": [
+        0.36205673962831497,
+        0.9998695999383926
+      ],
+      "front_sample_normals": [
+        [
+          -0.31732943654060364,
+          -0.7559215426445007,
+          -0.5726121068000793
+        ],
+        [
+          -0.8523080348968506,
+          -0.49330660700798035,
+          0.17383794486522675
+        ],
+        [
+          -0.3830021619796753,
+          -0.17154932022094727,
+          -0.9076784253120422
+        ],
+        [
+          -0.8229724764823914,
+          -0.39850345253944397,
+          0.40485990047454834
+        ],
+        [
+          -0.8389538526535034,
+          -0.43779951333999634,
+          -0.3232462406158447
+        ],
+        [
+          -0.8914796113967896,
+          -0.4513181149959564,
+          0.03970057889819145
+        ],
+        [
+          -0.8568949103355408,
+          -0.4911404848098755,
+          -0.15656350553035736
+        ],
+        [
+          -0.8818126916885376,
+          -0.4699050784111023,
+          0.03994423896074295
+        ]
+      ],
+      "evaluated_polygons": 1009,
+      "flat_polygons": 1009,
+      "materials": [
+        {
+          "name": "FW_wet_rock",
+          "diffuse": [
+            0.11999999731779099,
+            0.14000000059604645,
+            0.12999999523162842,
+            1.0
+          ],
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                [
+                  "Base Color",
+                  [
+                    0.11999999731779099,
+                    0.14000000059604645,
+                    0.12999999523162842,
+                    1.0
+                  ]
+                ],
+                [
+                  "Metallic",
+                  0.0
+                ],
+                [
+                  "Roughness",
+                  0.23000000417232513
+                ],
+                [
+                  "IOR",
+                  1.5
+                ],
+                [
+                  "Alpha",
+                  1.0
+                ],
+                [
+                  "Thin Wall",
+                  false
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Weight",
+                  0.0
+                ],
+                [
+                  "Diffuse Roughness",
+                  0.0
+                ],
+                [
+                  "Subsurface Weight",
+                  0.0
+                ],
+                [
+                  "Subsurface Radius",
+                  [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                ],
+                [
+                  "Subsurface Scale",
+                  0.004999999888241291
+                ],
+                [
+                  "Subsurface IOR",
+                  1.399999976158142
+                ],
+                [
+                  "Subsurface Anisotropy",
+                  0.0
+                ],
+                [
+                  "Specular IOR Level",
+                  0.5
+                ],
+                [
+                  "Specular Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Anisotropic",
+                  0.0
+                ],
+                [
+                  "Anisotropic Rotation",
+                  0.0
+                ],
+                [
+                  "Tangent",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Transmission Weight",
+                  0.0
+                ],
+                [
+                  "Coat Weight",
+                  0.0
+                ],
+                [
+                  "Coat Roughness",
+                  0.029999999329447746
+                ],
+                [
+                  "Coat IOR",
+                  1.5
+                ],
+                [
+                  "Coat Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Coat Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Sheen Weight",
+                  0.0
+                ],
+                [
+                  "Sheen Roughness",
+                  0.5
+                ],
+                [
+                  "Sheen Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Emission Color",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Emission Strength",
+                  0.0
+                ],
+                [
+                  "Thin Film Thickness",
+                  0.0
+                ],
+                [
+                  "Thin Film IOR",
+                  1.3300000429153442
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                [
+                  "Displacement",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Thickness",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Texture Coordinate",
+              "type": "ShaderNodeTexCoord",
+              "inputs": [],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Vector Math",
+              "type": "ShaderNodeVectorMath",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.75,
+                    0.75,
+                    2.299999952316284
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Scale",
+                  1.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Noise Texture",
+              "type": "ShaderNodeTexNoise",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "W",
+                  0.0
+                ],
+                [
+                  "Scale",
+                  5.0
+                ],
+                [
+                  "Detail",
+                  3.0
+                ],
+                [
+                  "Roughness",
+                  0.7200000286102295
+                ],
+                [
+                  "Lacunarity",
+                  2.0
+                ],
+                [
+                  "Offset",
+                  0.0
+                ],
+                [
+                  "Gain",
+                  1.0
+                ],
+                [
+                  "Distortion",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Color Ramp",
+              "type": "ShaderNodeValToRGB",
+              "inputs": [
+                [
+                  "Factor",
+                  0.5
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Noise Texture.001",
+              "type": "ShaderNodeTexNoise",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "W",
+                  0.0
+                ],
+                [
+                  "Scale",
+                  90.0
+                ],
+                [
+                  "Detail",
+                  2.0
+                ],
+                [
+                  "Roughness",
+                  0.5
+                ],
+                [
+                  "Lacunarity",
+                  2.0
+                ],
+                [
+                  "Offset",
+                  0.0
+                ],
+                [
+                  "Gain",
+                  1.0
+                ],
+                [
+                  "Distortion",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Bump",
+              "type": "ShaderNodeBump",
+              "inputs": [
+                [
+                  "Strength",
+                  0.30000001192092896
+                ],
+                [
+                  "Distance",
+                  0.012000000104308128
+                ],
+                [
+                  "Filter Width",
+                  0.10000000149011612
+                ],
+                [
+                  "Height",
+                  1.0
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Texture Coordinate.001",
+              "type": "ShaderNodeTexCoord",
+              "inputs": [],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Vector Math.001",
+              "type": "ShaderNodeVectorMath",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Scale",
+                  0.5
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "PH_Diffuse",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_diff_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "PH_Rough",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_rough_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "PH_Displacement",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_disp_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "inputs": [
+                [
+                  "Factor",
+                  1.0
+                ],
+                [
+                  "Color1",
+                  [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ]
+                ],
+                [
+                  "Color2",
+                  [
+                    0.30000001192092896,
+                    0.36000001430511475,
+                    0.3499999940395355,
+                    1.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Map Range",
+              "type": "ShaderNodeMapRange",
+              "inputs": [
+                [
+                  "Value",
+                  1.0
+                ],
+                [
+                  "From Min",
+                  0.0
+                ],
+                [
+                  "From Max",
+                  1.0
+                ],
+                [
+                  "To Min",
+                  0.15000000596046448
+                ],
+                [
+                  "To Max",
+                  0.3400000035762787
+                ],
+                [
+                  "Steps",
+                  4.0
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "From Min",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "From Max",
+                  [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "To Min",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "To Max",
+                  [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Steps",
+                  [
+                    4.0,
+                    4.0,
+                    4.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Bump.001",
+              "type": "ShaderNodeBump",
+              "inputs": [
+                [
+                  "Strength",
+                  0.5
+                ],
+                [
+                  "Distance",
+                  0.02199999988079071
+                ],
+                [
+                  "Filter Width",
+                  0.10000000149011612
+                ],
+                [
+                  "Height",
+                  1.0
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            }
+          ],
+          "links": [
+            [
+              "Bump.001",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Map Range",
+              "Result",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Noise Texture",
+              "Factor",
+              "Color Ramp",
+              "Factor"
+            ],
+            [
+              "Noise Texture.001",
+              "Factor",
+              "Bump",
+              "Height"
+            ],
+            [
+              "PH_Diffuse",
+              "Color",
+              "Mix (Legacy)",
+              "Color1"
+            ],
+            [
+              "PH_Displacement",
+              "Color",
+              "Bump.001",
+              "Height"
+            ],
+            [
+              "PH_Rough",
+              "Color",
+              "Map Range",
+              "Value"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Texture Coordinate",
+              "Object",
+              "Vector Math",
+              "Vector"
+            ],
+            [
+              "Texture Coordinate.001",
+              "Object",
+              "Vector Math.001",
+              "Vector"
+            ],
+            [
+              "Vector Math",
+              "Vector",
+              "Noise Texture",
+              "Vector"
+            ],
+            [
+              "Vector Math",
+              "Vector",
+              "Noise Texture.001",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Diffuse",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Displacement",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Rough",
+              "Vector"
+            ]
+          ]
+        },
+        {
+          "name": "FW_rock",
+          "diffuse": [
+            0.23999999463558197,
+            0.24500000476837158,
+            0.20499999821186066,
+            1.0
+          ],
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                [
+                  "Base Color",
+                  [
+                    0.23999999463558197,
+                    0.24500000476837158,
+                    0.20499999821186066,
+                    1.0
+                  ]
+                ],
+                [
+                  "Metallic",
+                  0.0
+                ],
+                [
+                  "Roughness",
+                  0.8999999761581421
+                ],
+                [
+                  "IOR",
+                  1.5
+                ],
+                [
+                  "Alpha",
+                  1.0
+                ],
+                [
+                  "Thin Wall",
+                  false
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Weight",
+                  0.0
+                ],
+                [
+                  "Diffuse Roughness",
+                  0.0
+                ],
+                [
+                  "Subsurface Weight",
+                  0.0
+                ],
+                [
+                  "Subsurface Radius",
+                  [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                ],
+                [
+                  "Subsurface Scale",
+                  0.004999999888241291
+                ],
+                [
+                  "Subsurface IOR",
+                  1.399999976158142
+                ],
+                [
+                  "Subsurface Anisotropy",
+                  0.0
+                ],
+                [
+                  "Specular IOR Level",
+                  0.5
+                ],
+                [
+                  "Specular Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Anisotropic",
+                  0.0
+                ],
+                [
+                  "Anisotropic Rotation",
+                  0.0
+                ],
+                [
+                  "Tangent",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Transmission Weight",
+                  0.0
+                ],
+                [
+                  "Coat Weight",
+                  0.0
+                ],
+                [
+                  "Coat Roughness",
+                  0.029999999329447746
+                ],
+                [
+                  "Coat IOR",
+                  1.5
+                ],
+                [
+                  "Coat Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Coat Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Sheen Weight",
+                  0.0
+                ],
+                [
+                  "Sheen Roughness",
+                  0.5
+                ],
+                [
+                  "Sheen Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Emission Color",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Emission Strength",
+                  0.0
+                ],
+                [
+                  "Thin Film Thickness",
+                  0.0
+                ],
+                [
+                  "Thin Film IOR",
+                  1.3300000429153442
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                [
+                  "Displacement",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Thickness",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Texture Coordinate",
+              "type": "ShaderNodeTexCoord",
+              "inputs": [],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Vector Math",
+              "type": "ShaderNodeVectorMath",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.75,
+                    0.75,
+                    2.299999952316284
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Scale",
+                  1.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Noise Texture",
+              "type": "ShaderNodeTexNoise",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "W",
+                  0.0
+                ],
+                [
+                  "Scale",
+                  4.0
+                ],
+                [
+                  "Detail",
+                  3.0
+                ],
+                [
+                  "Roughness",
+                  0.7200000286102295
+                ],
+                [
+                  "Lacunarity",
+                  2.0
+                ],
+                [
+                  "Offset",
+                  0.0
+                ],
+                [
+                  "Gain",
+                  1.0
+                ],
+                [
+                  "Distortion",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Color Ramp",
+              "type": "ShaderNodeValToRGB",
+              "inputs": [
+                [
+                  "Factor",
+                  0.5
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Noise Texture.001",
+              "type": "ShaderNodeTexNoise",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "W",
+                  0.0
+                ],
+                [
+                  "Scale",
+                  72.0
+                ],
+                [
+                  "Detail",
+                  2.0
+                ],
+                [
+                  "Roughness",
+                  0.5
+                ],
+                [
+                  "Lacunarity",
+                  2.0
+                ],
+                [
+                  "Offset",
+                  0.0
+                ],
+                [
+                  "Gain",
+                  1.0
+                ],
+                [
+                  "Distortion",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Bump",
+              "type": "ShaderNodeBump",
+              "inputs": [
+                [
+                  "Strength",
+                  0.6000000238418579
+                ],
+                [
+                  "Distance",
+                  0.02800000086426735
+                ],
+                [
+                  "Filter Width",
+                  0.10000000149011612
+                ],
+                [
+                  "Height",
+                  1.0
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Texture Coordinate.001",
+              "type": "ShaderNodeTexCoord",
+              "inputs": [],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Vector Math.001",
+              "type": "ShaderNodeVectorMath",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Scale",
+                  0.5
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "PH_Diffuse",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_diff_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "PH_Rough",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_rough_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "PH_Displacement",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_disp_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "inputs": [
+                [
+                  "Factor",
+                  1.0
+                ],
+                [
+                  "Color1",
+                  [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ]
+                ],
+                [
+                  "Color2",
+                  [
+                    0.6800000071525574,
+                    0.7300000190734863,
+                    0.7200000286102295,
+                    1.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Map Range",
+              "type": "ShaderNodeMapRange",
+              "inputs": [
+                [
+                  "Value",
+                  1.0
+                ],
+                [
+                  "From Min",
+                  0.0
+                ],
+                [
+                  "From Max",
+                  1.0
+                ],
+                [
+                  "To Min",
+                  0.6299999952316284
+                ],
+                [
+                  "To Max",
+                  0.8999999761581421
+                ],
+                [
+                  "Steps",
+                  4.0
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "From Min",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "From Max",
+                  [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "To Min",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "To Max",
+                  [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Steps",
+                  [
+                    4.0,
+                    4.0,
+                    4.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Bump.001",
+              "type": "ShaderNodeBump",
+              "inputs": [
+                [
+                  "Strength",
+                  0.5
+                ],
+                [
+                  "Distance",
+                  0.02199999988079071
+                ],
+                [
+                  "Filter Width",
+                  0.10000000149011612
+                ],
+                [
+                  "Height",
+                  1.0
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            }
+          ],
+          "links": [
+            [
+              "Bump.001",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Map Range",
+              "Result",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Noise Texture",
+              "Factor",
+              "Color Ramp",
+              "Factor"
+            ],
+            [
+              "Noise Texture.001",
+              "Factor",
+              "Bump",
+              "Height"
+            ],
+            [
+              "PH_Diffuse",
+              "Color",
+              "Mix (Legacy)",
+              "Color1"
+            ],
+            [
+              "PH_Displacement",
+              "Color",
+              "Bump.001",
+              "Height"
+            ],
+            [
+              "PH_Rough",
+              "Color",
+              "Map Range",
+              "Value"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Texture Coordinate",
+              "Object",
+              "Vector Math",
+              "Vector"
+            ],
+            [
+              "Texture Coordinate.001",
+              "Object",
+              "Vector Math.001",
+              "Vector"
+            ],
+            [
+              "Vector Math",
+              "Vector",
+              "Noise Texture",
+              "Vector"
+            ],
+            [
+              "Vector Math",
+              "Vector",
+              "Noise Texture.001",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Diffuse",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Displacement",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Rough",
+              "Vector"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "object": "SITE_Cascade_Shoulder_Continuous_0",
+      "slots": [
+        "FW_wet_rock"
+      ],
+      "actual_polygon_material_index_counts": {
+        "0": 169
+      },
+      "front_surface_polygons": 57,
+      "front_surface_material_index_counts": {
+        "0": 57
+      },
+      "front_surface_dot_flow_range": [
+        0.364190898835659,
+        0.9909957498311996
+      ],
+      "front_sample_normals": [
+        [
+          -0.9467002749443054,
+          -0.24093416333198547,
+          -0.21379733085632324
+        ],
+        [
+          -0.7785615921020508,
+          -0.6194333434104919,
+          -0.10071878135204315
+        ],
+        [
+          -0.02644212543964386,
+          -0.9814659357070923,
+          -0.18980373442173004
+        ],
+        [
+          -0.12184157222509384,
+          -0.9634310007095337,
+          -0.23865336179733276
+        ],
+        [
+          -0.9081531167030334,
+          -0.005856743082404137,
+          0.41859719157218933
+        ],
+        [
+          -0.31112396717071533,
+          -0.9149622917175293,
+          -0.2569938004016876
+        ],
+        [
+          -0.5924056768417358,
+          -0.7999316453933716,
+          -0.09573393315076828
+        ],
+        [
+          -0.9638888239860535,
+          0.15265117585659027,
+          -0.21821077167987823
+        ]
+      ],
+      "evaluated_polygons": 169,
+      "flat_polygons": 169,
+      "materials": [
+        {
+          "name": "FW_wet_rock",
+          "diffuse": [
+            0.11999999731779099,
+            0.14000000059604645,
+            0.12999999523162842,
+            1.0
+          ],
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                [
+                  "Base Color",
+                  [
+                    0.11999999731779099,
+                    0.14000000059604645,
+                    0.12999999523162842,
+                    1.0
+                  ]
+                ],
+                [
+                  "Metallic",
+                  0.0
+                ],
+                [
+                  "Roughness",
+                  0.23000000417232513
+                ],
+                [
+                  "IOR",
+                  1.5
+                ],
+                [
+                  "Alpha",
+                  1.0
+                ],
+                [
+                  "Thin Wall",
+                  false
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Weight",
+                  0.0
+                ],
+                [
+                  "Diffuse Roughness",
+                  0.0
+                ],
+                [
+                  "Subsurface Weight",
+                  0.0
+                ],
+                [
+                  "Subsurface Radius",
+                  [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                ],
+                [
+                  "Subsurface Scale",
+                  0.004999999888241291
+                ],
+                [
+                  "Subsurface IOR",
+                  1.399999976158142
+                ],
+                [
+                  "Subsurface Anisotropy",
+                  0.0
+                ],
+                [
+                  "Specular IOR Level",
+                  0.5
+                ],
+                [
+                  "Specular Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Anisotropic",
+                  0.0
+                ],
+                [
+                  "Anisotropic Rotation",
+                  0.0
+                ],
+                [
+                  "Tangent",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Transmission Weight",
+                  0.0
+                ],
+                [
+                  "Coat Weight",
+                  0.0
+                ],
+                [
+                  "Coat Roughness",
+                  0.029999999329447746
+                ],
+                [
+                  "Coat IOR",
+                  1.5
+                ],
+                [
+                  "Coat Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Coat Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Sheen Weight",
+                  0.0
+                ],
+                [
+                  "Sheen Roughness",
+                  0.5
+                ],
+                [
+                  "Sheen Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Emission Color",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Emission Strength",
+                  0.0
+                ],
+                [
+                  "Thin Film Thickness",
+                  0.0
+                ],
+                [
+                  "Thin Film IOR",
+                  1.3300000429153442
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                [
+                  "Displacement",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Thickness",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Texture Coordinate",
+              "type": "ShaderNodeTexCoord",
+              "inputs": [],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Vector Math",
+              "type": "ShaderNodeVectorMath",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.75,
+                    0.75,
+                    2.299999952316284
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Scale",
+                  1.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Noise Texture",
+              "type": "ShaderNodeTexNoise",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "W",
+                  0.0
+                ],
+                [
+                  "Scale",
+                  5.0
+                ],
+                [
+                  "Detail",
+                  3.0
+                ],
+                [
+                  "Roughness",
+                  0.7200000286102295
+                ],
+                [
+                  "Lacunarity",
+                  2.0
+                ],
+                [
+                  "Offset",
+                  0.0
+                ],
+                [
+                  "Gain",
+                  1.0
+                ],
+                [
+                  "Distortion",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Color Ramp",
+              "type": "ShaderNodeValToRGB",
+              "inputs": [
+                [
+                  "Factor",
+                  0.5
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Noise Texture.001",
+              "type": "ShaderNodeTexNoise",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "W",
+                  0.0
+                ],
+                [
+                  "Scale",
+                  90.0
+                ],
+                [
+                  "Detail",
+                  2.0
+                ],
+                [
+                  "Roughness",
+                  0.5
+                ],
+                [
+                  "Lacunarity",
+                  2.0
+                ],
+                [
+                  "Offset",
+                  0.0
+                ],
+                [
+                  "Gain",
+                  1.0
+                ],
+                [
+                  "Distortion",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Bump",
+              "type": "ShaderNodeBump",
+              "inputs": [
+                [
+                  "Strength",
+                  0.30000001192092896
+                ],
+                [
+                  "Distance",
+                  0.012000000104308128
+                ],
+                [
+                  "Filter Width",
+                  0.10000000149011612
+                ],
+                [
+                  "Height",
+                  1.0
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Texture Coordinate.001",
+              "type": "ShaderNodeTexCoord",
+              "inputs": [],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Vector Math.001",
+              "type": "ShaderNodeVectorMath",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Scale",
+                  0.5
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "PH_Diffuse",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_diff_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "PH_Rough",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_rough_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "PH_Displacement",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_disp_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "inputs": [
+                [
+                  "Factor",
+                  1.0
+                ],
+                [
+                  "Color1",
+                  [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ]
+                ],
+                [
+                  "Color2",
+                  [
+                    0.30000001192092896,
+                    0.36000001430511475,
+                    0.3499999940395355,
+                    1.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Map Range",
+              "type": "ShaderNodeMapRange",
+              "inputs": [
+                [
+                  "Value",
+                  1.0
+                ],
+                [
+                  "From Min",
+                  0.0
+                ],
+                [
+                  "From Max",
+                  1.0
+                ],
+                [
+                  "To Min",
+                  0.15000000596046448
+                ],
+                [
+                  "To Max",
+                  0.3400000035762787
+                ],
+                [
+                  "Steps",
+                  4.0
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "From Min",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "From Max",
+                  [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "To Min",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "To Max",
+                  [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Steps",
+                  [
+                    4.0,
+                    4.0,
+                    4.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Bump.001",
+              "type": "ShaderNodeBump",
+              "inputs": [
+                [
+                  "Strength",
+                  0.5
+                ],
+                [
+                  "Distance",
+                  0.02199999988079071
+                ],
+                [
+                  "Filter Width",
+                  0.10000000149011612
+                ],
+                [
+                  "Height",
+                  1.0
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            }
+          ],
+          "links": [
+            [
+              "Bump.001",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Map Range",
+              "Result",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Noise Texture",
+              "Factor",
+              "Color Ramp",
+              "Factor"
+            ],
+            [
+              "Noise Texture.001",
+              "Factor",
+              "Bump",
+              "Height"
+            ],
+            [
+              "PH_Diffuse",
+              "Color",
+              "Mix (Legacy)",
+              "Color1"
+            ],
+            [
+              "PH_Displacement",
+              "Color",
+              "Bump.001",
+              "Height"
+            ],
+            [
+              "PH_Rough",
+              "Color",
+              "Map Range",
+              "Value"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Texture Coordinate",
+              "Object",
+              "Vector Math",
+              "Vector"
+            ],
+            [
+              "Texture Coordinate.001",
+              "Object",
+              "Vector Math.001",
+              "Vector"
+            ],
+            [
+              "Vector Math",
+              "Vector",
+              "Noise Texture",
+              "Vector"
+            ],
+            [
+              "Vector Math",
+              "Vector",
+              "Noise Texture.001",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Diffuse",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Displacement",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Rough",
+              "Vector"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "object": "SITE_Cascade_Shoulder_Continuous_1",
+      "slots": [
+        "FW_wet_rock"
+      ],
+      "actual_polygon_material_index_counts": {
+        "0": 127
+      },
+      "front_surface_polygons": 36,
+      "front_surface_material_index_counts": {
+        "0": 36
+      },
+      "front_surface_dot_flow_range": [
+        0.35040389001369476,
+        0.934577614068985
+      ],
+      "front_sample_normals": [
+        [
+          -0.8915586471557617,
+          0.4448435306549072,
+          0.08507264405488968
+        ],
+        [
+          -0.4372324049472809,
+          -0.8926177620887756,
+          0.10982423275709152
+        ],
+        [
+          -0.21140001714229584,
+          -0.9716026186943054,
+          -0.10629396140575409
+        ],
+        [
+          -0.21024420857429504,
+          -0.9702282547950745,
+          -0.12022670358419418
+        ],
+        [
+          -0.7525761127471924,
+          0.2607412040233612,
+          0.6046844720840454
+        ],
+        [
+          -0.5558371543884277,
+          -0.8178268074989319,
+          -0.14901110529899597
+        ],
+        [
+          -0.9502420425415039,
+          0.2823874354362488,
+          0.13151973485946655
+        ],
+        [
+          -0.58662348985672,
+          -0.7815404534339905,
+          0.21229049563407898
+        ]
+      ],
+      "evaluated_polygons": 127,
+      "flat_polygons": 127,
+      "materials": [
+        {
+          "name": "FW_wet_rock",
+          "diffuse": [
+            0.11999999731779099,
+            0.14000000059604645,
+            0.12999999523162842,
+            1.0
+          ],
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                [
+                  "Base Color",
+                  [
+                    0.11999999731779099,
+                    0.14000000059604645,
+                    0.12999999523162842,
+                    1.0
+                  ]
+                ],
+                [
+                  "Metallic",
+                  0.0
+                ],
+                [
+                  "Roughness",
+                  0.23000000417232513
+                ],
+                [
+                  "IOR",
+                  1.5
+                ],
+                [
+                  "Alpha",
+                  1.0
+                ],
+                [
+                  "Thin Wall",
+                  false
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Weight",
+                  0.0
+                ],
+                [
+                  "Diffuse Roughness",
+                  0.0
+                ],
+                [
+                  "Subsurface Weight",
+                  0.0
+                ],
+                [
+                  "Subsurface Radius",
+                  [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                ],
+                [
+                  "Subsurface Scale",
+                  0.004999999888241291
+                ],
+                [
+                  "Subsurface IOR",
+                  1.399999976158142
+                ],
+                [
+                  "Subsurface Anisotropy",
+                  0.0
+                ],
+                [
+                  "Specular IOR Level",
+                  0.5
+                ],
+                [
+                  "Specular Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Anisotropic",
+                  0.0
+                ],
+                [
+                  "Anisotropic Rotation",
+                  0.0
+                ],
+                [
+                  "Tangent",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Transmission Weight",
+                  0.0
+                ],
+                [
+                  "Coat Weight",
+                  0.0
+                ],
+                [
+                  "Coat Roughness",
+                  0.029999999329447746
+                ],
+                [
+                  "Coat IOR",
+                  1.5
+                ],
+                [
+                  "Coat Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Coat Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Sheen Weight",
+                  0.0
+                ],
+                [
+                  "Sheen Roughness",
+                  0.5
+                ],
+                [
+                  "Sheen Tint",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Emission Color",
+                  [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Emission Strength",
+                  0.0
+                ],
+                [
+                  "Thin Film Thickness",
+                  0.0
+                ],
+                [
+                  "Thin Film IOR",
+                  1.3300000429153442
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                [
+                  "Displacement",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Thickness",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Texture Coordinate",
+              "type": "ShaderNodeTexCoord",
+              "inputs": [],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Vector Math",
+              "type": "ShaderNodeVectorMath",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.75,
+                    0.75,
+                    2.299999952316284
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Scale",
+                  1.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Noise Texture",
+              "type": "ShaderNodeTexNoise",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "W",
+                  0.0
+                ],
+                [
+                  "Scale",
+                  5.0
+                ],
+                [
+                  "Detail",
+                  3.0
+                ],
+                [
+                  "Roughness",
+                  0.7200000286102295
+                ],
+                [
+                  "Lacunarity",
+                  2.0
+                ],
+                [
+                  "Offset",
+                  0.0
+                ],
+                [
+                  "Gain",
+                  1.0
+                ],
+                [
+                  "Distortion",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Color Ramp",
+              "type": "ShaderNodeValToRGB",
+              "inputs": [
+                [
+                  "Factor",
+                  0.5
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Noise Texture.001",
+              "type": "ShaderNodeTexNoise",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "W",
+                  0.0
+                ],
+                [
+                  "Scale",
+                  90.0
+                ],
+                [
+                  "Detail",
+                  2.0
+                ],
+                [
+                  "Roughness",
+                  0.5
+                ],
+                [
+                  "Lacunarity",
+                  2.0
+                ],
+                [
+                  "Offset",
+                  0.0
+                ],
+                [
+                  "Gain",
+                  1.0
+                ],
+                [
+                  "Distortion",
+                  0.0
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Bump",
+              "type": "ShaderNodeBump",
+              "inputs": [
+                [
+                  "Strength",
+                  0.30000001192092896
+                ],
+                [
+                  "Distance",
+                  0.012000000104308128
+                ],
+                [
+                  "Filter Width",
+                  0.10000000149011612
+                ],
+                [
+                  "Height",
+                  1.0
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Texture Coordinate.001",
+              "type": "ShaderNodeTexCoord",
+              "inputs": [],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Vector Math.001",
+              "type": "ShaderNodeVectorMath",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "Scale",
+                  0.5
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "PH_Diffuse",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_diff_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "PH_Rough",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_rough_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "PH_Displacement",
+              "type": "ShaderNodeTexImage",
+              "inputs": [
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": "worn_rock_natural_01_disp_2k.jpg",
+              "image_packed_sha256": null,
+              "projection": "BOX"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "inputs": [
+                [
+                  "Factor",
+                  1.0
+                ],
+                [
+                  "Color1",
+                  [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ]
+                ],
+                [
+                  "Color2",
+                  [
+                    0.30000001192092896,
+                    0.36000001430511475,
+                    0.3499999940395355,
+                    1.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Map Range",
+              "type": "ShaderNodeMapRange",
+              "inputs": [
+                [
+                  "Value",
+                  1.0
+                ],
+                [
+                  "From Min",
+                  0.0
+                ],
+                [
+                  "From Max",
+                  1.0
+                ],
+                [
+                  "To Min",
+                  0.15000000596046448
+                ],
+                [
+                  "To Max",
+                  0.3400000035762787
+                ],
+                [
+                  "Steps",
+                  4.0
+                ],
+                [
+                  "Vector",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "From Min",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "From Max",
+                  [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "To Min",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                [
+                  "To Max",
+                  [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                [
+                  "Steps",
+                  [
+                    4.0,
+                    4.0,
+                    4.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            },
+            {
+              "name": "Bump.001",
+              "type": "ShaderNodeBump",
+              "inputs": [
+                [
+                  "Strength",
+                  0.5
+                ],
+                [
+                  "Distance",
+                  0.02199999988079071
+                ],
+                [
+                  "Filter Width",
+                  0.10000000149011612
+                ],
+                [
+                  "Height",
+                  1.0
+                ],
+                [
+                  "Normal",
+                  [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ]
+              ],
+              "image": null,
+              "image_packed_sha256": null,
+              "projection": null
+            }
+          ],
+          "links": [
+            [
+              "Bump.001",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Map Range",
+              "Result",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Noise Texture",
+              "Factor",
+              "Color Ramp",
+              "Factor"
+            ],
+            [
+              "Noise Texture.001",
+              "Factor",
+              "Bump",
+              "Height"
+            ],
+            [
+              "PH_Diffuse",
+              "Color",
+              "Mix (Legacy)",
+              "Color1"
+            ],
+            [
+              "PH_Displacement",
+              "Color",
+              "Bump.001",
+              "Height"
+            ],
+            [
+              "PH_Rough",
+              "Color",
+              "Map Range",
+              "Value"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Texture Coordinate",
+              "Object",
+              "Vector Math",
+              "Vector"
+            ],
+            [
+              "Texture Coordinate.001",
+              "Object",
+              "Vector Math.001",
+              "Vector"
+            ],
+            [
+              "Vector Math",
+              "Vector",
+              "Noise Texture",
+              "Vector"
+            ],
+            [
+              "Vector Math",
+              "Vector",
+              "Noise Texture.001",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Diffuse",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Displacement",
+              "Vector"
+            ],
+            [
+              "Vector Math.001",
+              "Vector",
+              "PH_Rough",
+              "Vector"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

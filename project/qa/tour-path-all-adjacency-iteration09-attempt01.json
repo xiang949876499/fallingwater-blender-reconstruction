@@ -1,0 +1,5416 @@
+{
+  "status": "INCOMPLETE_FULL_ADJACENCY_ACCEPTANCE",
+  "source_sha256": {
+    "data\\main_house.json": "be830b3d37b53726bb4919f4732b9439792bc82af2f418480199d4cd2ec4e3ac",
+    "data\\guest_house.json": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd"
+  },
+  "node_count": 61,
+  "declared_room_count": 60,
+  "edge_count": 60,
+  "nodes": [
+    {
+      "id": "MAIN_B_WINE",
+      "kind": "storage",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_BATH",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_BOILER",
+      "kind": "mechanical",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_1",
+      "kind": "foundation",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_2",
+      "kind": "foundation",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_3",
+      "kind": "foundation",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_PLUNGE",
+      "kind": "pool",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_LIVING",
+      "kind": "living",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_KITCHEN",
+      "kind": "kitchen",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_SERVANT",
+      "kind": "sitting",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_SERVICE_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_ENTRY",
+      "kind": "entry",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_COAT",
+      "kind": "closet",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_LOGGIA",
+      "kind": "loggia",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_TERRACE_W",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_TERRACE_E",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_HATCH",
+      "kind": "water_stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_DRESSING",
+      "kind": "dressing",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_MASTER",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_BATH_N",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_BATH_G",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_BATH_M",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_HALL",
+      "kind": "hall",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_GUEST",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_TERRACE_W",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_TERRACE_S",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_TERRACE_E",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_TERRACE_N",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_CLOSET_M",
+      "kind": "closet",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_CLOSET_G",
+      "kind": "closet",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_STUDY",
+      "kind": "study",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_BATH",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_GALLERY",
+      "kind": "gallery",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_ALCOVE",
+      "kind": "sleeping_alcove",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_TERRACE",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_LINK",
+      "kind": "loggia",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_THEATER",
+      "kind": "theater",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_CAR_COURT",
+      "kind": "exterior",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "kind": "lounge",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_BOILER",
+      "kind": "utility",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_STAIR_HALL",
+      "kind": "circulation",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_LOUNGE",
+      "kind": "lounge",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_GALLERY",
+      "kind": "circulation",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_BATH",
+      "kind": "bath",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_GUEST_ROOM",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_TERRACE",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_POOL",
+      "kind": "pool",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_B1_LAUNDRY",
+      "kind": "laundry",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_B1_BATH",
+      "kind": "bath",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_B1_STAIR",
+      "kind": "circulation",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_SOUTH",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_MIDDLE",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_NORTH",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_BATH",
+      "kind": "bath",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_HALL",
+      "kind": "circulation",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_TERRACE",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "EXTERIOR_UNDERCROFT",
+      "kind": "undeclared_endpoint",
+      "declared_room": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "MAIN_B_STAIR",
+      "to": "MAIN_B_WINE",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_001",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -3.3012,
+          15.9831,
+          -0.55
+        ],
+        [
+          -3.3012,
+          15.9831,
+          -0.55
+        ],
+        [
+          -3.3012,
+          15.399,
+          -0.55
+        ],
+        [
+          -3.3012,
+          15.399,
+          -0.55
+        ]
+      ],
+      "hint": "stair_wine",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_B_WINE",
+      "to": "MAIN_B_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_002",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -2.4104,
+          14.6025,
+          -0.55
+        ],
+        [
+          -2.4104,
+          14.6025,
+          -0.55
+        ],
+        [
+          -1.6244,
+          14.6025,
+          -0.55
+        ],
+        [
+          -1.6244,
+          14.6025,
+          -0.55
+        ]
+      ],
+      "hint": "wine_bath",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_B_WINE",
+      "to": "MAIN_B_BOILER",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_003",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -0.78443,
+          12.81834,
+          -0.55
+        ],
+        [
+          0.3668,
+          12.8502,
+          -0.55
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_B_STAIR",
+      "to": "MAIN_L1_SERVICE_STAIR",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_004",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "prefix": "MAIN_service_stair_",
+      "stair_points": [
+        [
+          -6.173123359680176,
+          17.708850860595703,
+          -0.3769232273101806
+        ],
+        [
+          -5.943369388580322,
+          17.708850860595703,
+          -0.20384624004364005
+        ],
+        [
+          -5.713615417480469,
+          17.708850860595703,
+          -0.03076937198638907
+        ],
+        [
+          -5.483860969543457,
+          17.708850860595703,
+          0.14230761528015146
+        ],
+        [
+          -5.254107475280762,
+          17.708850860595703,
+          0.31538448333740243
+        ],
+        [
+          -5.024353981018066,
+          17.708850860595703,
+          0.4884613513946534
+        ],
+        [
+          -4.794600009918213,
+          17.708850860595703,
+          0.6615383386611939
+        ],
+        [
+          -4.564846038818359,
+          17.708850860595703,
+          0.8346153259277345
+        ],
+        [
+          -4.335092544555664,
+          17.708850860595703,
+          1.0076922535896302
+        ],
+        [
+          -4.1053385734558105,
+          17.708850860595703,
+          1.1807691216468812
+        ],
+        [
+          -3.875584602355957,
+          17.708850860595703,
+          1.353846049308777
+        ],
+        [
+          -3.6458308696746826,
+          17.708850860595703,
+          1.526922917366028
+        ],
+        [
+          -3.416076898574829,
+          17.708850860595703,
+          1.6999999046325684
+        ]
+      ],
+      "approaches": [
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "MAIN_B_STAIR",
+          "to": "TOPOLOGY_QA_MAIN_B_STAIR",
+          "points": [
+            [
+              -6.17312,
+              17.70885,
+              -0.37692
+            ],
+            [
+              -6.17312,
+              17.70885,
+              -0.37692
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        },
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "TOPOLOGY_QA_MAIN_L1_SERVICE_STAIR",
+          "to": "MAIN_L1_SERVICE_STAIR",
+          "points": [
+            [
+              -3.41608,
+              17.70885,
+              1.7
+            ],
+            [
+              -3.41608,
+              17.70885,
+              1.7
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        }
+      ],
+      "points": [
+        [
+          -6.17312,
+          17.70885,
+          -0.37692
+        ],
+        [
+          -6.17312,
+          17.70885,
+          -0.37692
+        ],
+        [
+          -5.943369388580322,
+          17.708850860595703,
+          -0.20384624004364005
+        ],
+        [
+          -5.713615417480469,
+          17.708850860595703,
+          -0.03076937198638907
+        ],
+        [
+          -5.483860969543457,
+          17.708850860595703,
+          0.14230761528015146
+        ],
+        [
+          -5.254107475280762,
+          17.708850860595703,
+          0.31538448333740243
+        ],
+        [
+          -5.024353981018066,
+          17.708850860595703,
+          0.4884613513946534
+        ],
+        [
+          -4.794600009918213,
+          17.708850860595703,
+          0.6615383386611939
+        ],
+        [
+          -4.564846038818359,
+          17.708850860595703,
+          0.8346153259277345
+        ],
+        [
+          -4.335092544555664,
+          17.708850860595703,
+          1.0076922535896302
+        ],
+        [
+          -4.1053385734558105,
+          17.708850860595703,
+          1.1807691216468812
+        ],
+        [
+          -3.875584602355957,
+          17.708850860595703,
+          1.353846049308777
+        ],
+        [
+          -3.6458308696746826,
+          17.708850860595703,
+          1.526922917366028
+        ],
+        [
+          -3.41608,
+          17.70885,
+          1.7
+        ],
+        [
+          -3.41608,
+          17.70885,
+          1.7
+        ]
+      ]
+    },
+    {
+      "from": "MAIN_L1_SERVICE_STAIR",
+      "to": "MAIN_L1_KITCHEN",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_005",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -2.9868,
+          16.6734,
+          1.7
+        ],
+        [
+          -2.9868,
+          16.6734,
+          1.7
+        ],
+        [
+          -2.9868,
+          16.1424,
+          1.7
+        ],
+        [
+          -2.9868,
+          16.1424,
+          1.7
+        ]
+      ],
+      "hint": "service_top",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L1_SERVICE_STAIR",
+      "to": "MAIN_L1_SERVANT",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_006",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -5.17188,
+          17.13006,
+          1.7
+        ],
+        [
+          -5.09014,
+          16.8986,
+          1.7
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_L1_KITCHEN",
+      "to": "MAIN_L1_LIVING",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_007",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -0.524,
+          13.88565,
+          1.7
+        ],
+        [
+          -0.524,
+          13.88565,
+          1.7
+        ],
+        [
+          0.3668,
+          13.88565,
+          1.7
+        ],
+        [
+          0.3668,
+          13.88565,
+          1.7
+        ]
+      ],
+      "hint": "kitchen_living",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_L1_ENTRY",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_008",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          11.1612,
+          11.7882,
+          1.7
+        ],
+        [
+          11.1612,
+          11.7882,
+          1.7
+        ],
+        [
+          9.3796,
+          11.7882,
+          1.7
+        ],
+        [
+          9.3796,
+          11.7882,
+          1.7
+        ]
+      ],
+      "hint": "entry_loggia",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L1_ENTRY",
+      "to": "MAIN_L1_COAT",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_009",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          9.0107,
+          12.47,
+          1.7
+        ],
+        [
+          9.02957,
+          12.89693,
+          1.7
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+      "threshold_attempts": [
+        {
+          "hint": "entry_coat",
+          "failure": {
+            "reason": "BODY_COLUMN",
+            "point": [
+              9.3272,
+              13.1688,
+              1.7
+            ],
+            "hit": {
+              "object": "FW_FURN_MAIN_L1_COAT_coat_storage_00_lower_shelf",
+              "location": [
+                9.3272,
+                13.3488,
+                0.239
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              "distance": 0.049
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": "MAIN_L1_ENTRY",
+      "to": "MAIN_L1_LIVING",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_010",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          7.90192,
+          11.26357,
+          1.7
+        ],
+        [
+          7.7552,
+          10.38,
+          1.7
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_L1_ENTRY",
+      "to": "MAIN_L1_STAIR",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_011",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "points": [
+        [
+          7.90192,
+          12.01122,
+          1.7
+        ],
+        [
+          7.54724,
+          13.1688,
+          1.87155
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_L1_STAIR",
+      "to": "MAIN_L2_HALL",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_012",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "prefix": "MAIN_stair1_",
+      "stair_points": [
+        [
+          7.547237873077393,
+          13.168800354003906,
+          1.8715499997138978
+        ],
+        [
+          7.340912818908691,
+          13.168800354003906,
+          2.04310000538826
+        ],
+        [
+          7.13458776473999,
+          13.168800354003906,
+          2.214650011062622
+        ],
+        [
+          6.928262710571289,
+          13.168800354003906,
+          2.3862000465393067
+        ],
+        [
+          6.721937656402588,
+          13.168800354003906,
+          2.5577499628067017
+        ],
+        [
+          6.515612602233887,
+          13.168800354003906,
+          2.7292999982833863
+        ],
+        [
+          6.3092875480651855,
+          13.168800354003906,
+          2.900850033760071
+        ],
+        [
+          6.102962493896484,
+          13.168800354003906,
+          3.072399950027466
+        ],
+        [
+          5.896637439727783,
+          13.168800354003906,
+          3.2439499855041505
+        ],
+        [
+          5.690312385559082,
+          13.168800354003906,
+          3.415500020980835
+        ],
+        [
+          5.483987331390381,
+          13.168800354003906,
+          3.5870500564575196
+        ],
+        [
+          5.27766227722168,
+          13.168800354003906,
+          3.758600091934204
+        ],
+        [
+          5.071337699890137,
+          13.168800354003906,
+          3.9301501274108888
+        ],
+        [
+          4.865012168884277,
+          13.168800354003906,
+          4.101699924468994
+        ],
+        [
+          4.658687591552734,
+          13.168800354003906,
+          4.273249959945678
+        ],
+        [
+          4.452362060546875,
+          13.168800354003906,
+          4.444799995422363
+        ]
+      ],
+      "approaches": [
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "MAIN_L1_STAIR",
+          "to": "TOPOLOGY_QA_MAIN_L1_STAIR",
+          "points": [
+            [
+              7.54724,
+              13.1688,
+              1.87155
+            ],
+            [
+              7.54724,
+              13.1688,
+              1.87155
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        },
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "TOPOLOGY_QA_MAIN_L2_HALL",
+          "to": "MAIN_L2_HALL",
+          "points": [
+            [
+              4.45236,
+              13.1688,
+              4.4448
+            ],
+            [
+              2.6724,
+              12.8502,
+              4.4448
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        }
+      ],
+      "points": [
+        [
+          7.54724,
+          13.1688,
+          1.87155
+        ],
+        [
+          7.54724,
+          13.1688,
+          1.87155
+        ],
+        [
+          7.340912818908691,
+          13.168800354003906,
+          2.04310000538826
+        ],
+        [
+          7.13458776473999,
+          13.168800354003906,
+          2.214650011062622
+        ],
+        [
+          6.928262710571289,
+          13.168800354003906,
+          2.3862000465393067
+        ],
+        [
+          6.721937656402588,
+          13.168800354003906,
+          2.5577499628067017
+        ],
+        [
+          6.515612602233887,
+          13.168800354003906,
+          2.7292999982833863
+        ],
+        [
+          6.3092875480651855,
+          13.168800354003906,
+          2.900850033760071
+        ],
+        [
+          6.102962493896484,
+          13.168800354003906,
+          3.072399950027466
+        ],
+        [
+          5.896637439727783,
+          13.168800354003906,
+          3.2439499855041505
+        ],
+        [
+          5.690312385559082,
+          13.168800354003906,
+          3.415500020980835
+        ],
+        [
+          5.483987331390381,
+          13.168800354003906,
+          3.5870500564575196
+        ],
+        [
+          5.27766227722168,
+          13.168800354003906,
+          3.758600091934204
+        ],
+        [
+          5.071337699890137,
+          13.168800354003906,
+          3.9301501274108888
+        ],
+        [
+          4.865012168884277,
+          13.168800354003906,
+          4.101699924468994
+        ],
+        [
+          4.658687591552734,
+          13.168800354003906,
+          4.273249959945678
+        ],
+        [
+          4.45236,
+          13.1688,
+          4.4448
+        ],
+        [
+          2.6724,
+          12.8502,
+          4.4448
+        ]
+      ]
+    },
+    {
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_TERRACE_W",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_013",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          0.3668,
+          2.7081,
+          1.7
+        ],
+        [
+          0.3668,
+          2.7081,
+          1.7
+        ],
+        [
+          -0.3668,
+          2.7081,
+          1.7
+        ],
+        [
+          -0.3972,
+          2.7612,
+          1.6
+        ]
+      ],
+      "hint": "living_west_n",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_TERRACE_E",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_014",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          10.3228,
+          5.31,
+          1.7
+        ],
+        [
+          10.3228,
+          5.31,
+          1.7
+        ],
+        [
+          11.0564,
+          5.31,
+          1.7
+        ],
+        [
+          11.25552,
+          5.1507,
+          1.6
+        ]
+      ],
+      "hint": "living_east",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_HATCH",
+      "types": [
+        "hatch_stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_INSPECTION_ONLY_DRY_EDGE",
+      "id": "ADJ_015",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "acceptance_type": "INSPECTION_ONLY_DRY_EDGE",
+      "observer": [
+        7.7552,
+        10.38,
+        1.7
+      ],
+      "inspection_motion": [
+        [
+          7.7552,
+          10.38,
+          1.7
+        ],
+        [
+          7.99497,
+          10.36952,
+          1.7
+        ]
+      ],
+      "visible_target_hit": {
+        "object": "MAIN_water_stair_14",
+        "location": [
+          7.44096,
+          3.1897,
+          -0.24567
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 7.45553
+      },
+      "visible_patch_rays": [
+        {
+          "object": "MAIN_water_stair_14",
+          "location": [
+            7.44096,
+            3.1897,
+            -0.24567
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 7.45552
+        },
+        {
+          "object": "MAIN_water_stair_14",
+          "location": [
+            7.40596,
+            3.1897,
+            -0.24567
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 7.45708
+        },
+        {
+          "object": "MAIN_water_stair_14",
+          "location": [
+            7.47596,
+            3.1897,
+            -0.24567
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 7.45413
+        },
+        {
+          "object": "MAIN_water_stair_14",
+          "location": [
+            7.44096,
+            3.1547,
+            -0.24567
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 7.48928
+        },
+        {
+          "object": "MAIN_water_stair_14",
+          "location": [
+            7.44096,
+            3.2247,
+            -0.24567
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 7.42177
+        }
+      ],
+      "normal_body_and_ground_at_observer": true,
+      "camera_sweep_checked": true,
+      "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+      "prefix": "MAIN_water_stair_",
+      "dry_observer_room": "MAIN_L1_LIVING",
+      "body_entry_into_water": false,
+      "stair_run_status": "PASS_MESH_AND_GROUND",
+      "stair_failure": null,
+      "stair_points": [
+        [
+          10.375199317932129,
+          3.186000108718872,
+          -1.0733646392822265
+        ],
+        [
+          10.165599822998047,
+          3.186000108718872,
+          -0.9000293254852294
+        ],
+        [
+          9.955999374389648,
+          3.186000108718872,
+          -0.7266940116882323
+        ],
+        [
+          9.746399879455566,
+          3.186000108718872,
+          -0.5533586978912353
+        ],
+        [
+          9.536799430847168,
+          3.186000108718872,
+          -0.38002350330352774
+        ],
+        [
+          9.327199935913086,
+          3.186000108718872,
+          -0.20668807029724112
+        ],
+        [
+          9.117599487304688,
+          3.186000108718872,
+          -0.03335299491882315
+        ],
+        [
+          8.907999992370605,
+          3.186000108718872,
+          0.13998255729675302
+        ],
+        [
+          8.698399543762207,
+          3.186000108718872,
+          0.313317632675171
+        ],
+        [
+          8.488800048828125,
+          3.186000108718872,
+          0.48665294647216806
+        ],
+        [
+          8.279199600219727,
+          3.186000108718872,
+          0.6599883198738099
+        ],
+        [
+          8.069600105285645,
+          3.186000108718872,
+          0.8333235740661622
+        ],
+        [
+          7.859999656677246,
+          3.186000108718872,
+          1.0066588878631593
+        ],
+        [
+          7.650400161743164,
+          3.186000108718872,
+          1.1799942016601563
+        ],
+        [
+          7.440799713134766,
+          3.186000108718872,
+          1.3533293962478639
+        ],
+        [
+          7.231200218200684,
+          3.186000108718872,
+          1.526664710044861
+        ],
+        [
+          7.021599769592285,
+          3.186000108718872,
+          1.700000023841858
+        ]
+      ],
+      "inspection_status": "PASS_INSPECTION_ONLY_DRY_EDGE"
+    },
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_B_PLUNGE",
+      "types": [
+        "exterior_steps"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_INSPECTION_ONLY_DRY_EDGE",
+      "id": "ADJ_016",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "acceptance_type": "INSPECTION_ONLY_DRY_EDGE",
+      "observer": [
+        14.4624,
+        9.849,
+        1.7
+      ],
+      "inspection_motion": [
+        [
+          14.4624,
+          9.849,
+          1.7
+        ],
+        [
+          14.69484,
+          9.90876,
+          1.7
+        ]
+      ],
+      "visible_target_hit": {
+        "object": "MAIN_B_plunge_water",
+        "location": [
+          15.11725,
+          7.30183,
+          -2.699
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 5.12524
+      },
+      "visible_patch_rays": [
+        {
+          "object": "MAIN_B_plunge_water",
+          "location": [
+            15.11709,
+            7.30245,
+            -2.69793
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 5.124
+        },
+        {
+          "object": "MAIN_B_plunge_water",
+          "location": [
+            15.08225,
+            7.30183,
+            -2.699
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 5.12089
+        },
+        {
+          "object": "MAIN_B_plunge_water",
+          "location": [
+            15.15225,
+            7.30183,
+            -2.699
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 5.12983
+        },
+        {
+          "object": "MAIN_B_plunge_water",
+          "location": [
+            15.11725,
+            7.26683,
+            -2.699
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 5.14273
+        },
+        {
+          "object": "MAIN_B_plunge_water",
+          "location": [
+            15.11725,
+            7.33683,
+            -2.699
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 5.10794
+        }
+      ],
+      "normal_body_and_ground_at_observer": true,
+      "camera_sweep_checked": true,
+      "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+      "prefix": "MAIN_loggia_pool_stair_",
+      "dry_observer_room": "MAIN_L1_LOGGIA",
+      "body_entry_into_water": false,
+      "stair_run_status": "PASS_MESH_AND_GROUND",
+      "stair_failure": null,
+      "stair_points": [
+        [
+          18.82033348083496,
+          9.451800346374512,
+          -0.7266668319702148
+        ],
+        [
+          18.41860008239746,
+          9.451800346374512,
+          -0.5533331871032714
+        ],
+        [
+          18.01686668395996,
+          9.451800346374512,
+          -0.38000001907348624
+        ],
+        [
+          17.61513328552246,
+          9.451800346374512,
+          -0.20666673183441153
+        ],
+        [
+          17.21339988708496,
+          9.451800346374512,
+          -0.033333206176757724
+        ],
+        [
+          16.81166648864746,
+          9.451800346374512,
+          0.13999996185302743
+        ],
+        [
+          16.40993309020996,
+          9.451800346374512,
+          0.3133333683013917
+        ],
+        [
+          16.00819969177246,
+          9.451800346374512,
+          0.4866666555404664
+        ],
+        [
+          15.606466293334961,
+          9.451800346374512,
+          0.6600000023841859
+        ],
+        [
+          15.204733848571777,
+          9.451800346374512,
+          0.8333334088325501
+        ],
+        [
+          14.803000450134277,
+          9.451800346374512,
+          1.00666663646698
+        ],
+        [
+          14.401267051696777,
+          9.451800346374512,
+          1.1800000429153443
+        ],
+        [
+          13.999533653259277,
+          9.451800346374512,
+          1.353333330154419
+        ],
+        [
+          13.597800254821777,
+          9.451800346374512,
+          1.5266666173934937
+        ],
+        [
+          13.196066856384277,
+          9.451800346374512,
+          1.700000023841858
+        ]
+      ],
+      "inspection_status": "PASS_INSPECTION_ONLY_DRY_EDGE"
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_DRESSING",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_017",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          0.524,
+          13.5405,
+          4.4448
+        ],
+        [
+          0.524,
+          13.5405,
+          4.4448
+        ],
+        [
+          -0.2096,
+          13.5405,
+          4.4448
+        ],
+        [
+          -0.2096,
+          13.5405,
+          4.4448
+        ]
+      ],
+      "hint": "hall_dressing",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L2_DRESSING",
+      "to": "MAIN_L2_BATH_N",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_018",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -0.0744,
+          13.806,
+          4.4448
+        ],
+        [
+          0.4716,
+          14.5494,
+          4.4448
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_L2_DRESSING",
+      "to": "MAIN_L2_TERRACE_W",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_019",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -3.5632,
+          13.3281,
+          4.4448
+        ],
+        [
+          -3.5632,
+          13.3281,
+          4.4448
+        ],
+        [
+          -4.7684,
+          13.3281,
+          4.4448
+        ],
+        [
+          -4.7684,
+          13.3281,
+          4.4448
+        ]
+      ],
+      "hint": "dressing_terrace",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_MASTER",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_020",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          2.6724,
+          12.8502,
+          4.4448
+        ],
+        [
+          2.6724,
+          12.8502,
+          4.4448
+        ],
+        [
+          2.6724,
+          12.213,
+          4.4448
+        ],
+        [
+          2.6724,
+          12.213,
+          4.4448
+        ]
+      ],
+      "hint": "hall_master",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_BATH_M",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_021",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          4.3492,
+          8.7615,
+          4.4448
+        ],
+        [
+          4.3492,
+          8.7615,
+          4.4448
+        ],
+        [
+          5.3972,
+          8.7615,
+          4.4448
+        ],
+        [
+          5.3972,
+          8.7615,
+          4.4448
+        ]
+      ],
+      "hint": "master_bath",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_CLOSET_M",
+      "types": [
+        "cabinet"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_INSPECTION_ONLY_STORAGE",
+      "id": "ADJ_022",
+      "method": "Retain storage access as non-walkthrough; do not claim room-body traversal",
+      "acceptance_type": "INSPECTION_ONLY_STORAGE",
+      "observer": [
+        2.7772,
+        12.4254,
+        4.4448
+      ],
+      "inspection_motion": [
+        [
+          2.7772,
+          12.4254,
+          4.4448
+        ],
+        [
+          2.89228,
+          12.21479,
+          4.4448
+        ]
+      ],
+      "visible_target_hit": {
+        "object": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_door.001",
+        "location": [
+          1.79985,
+          11.89135,
+          3.90036
+        ],
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 1.2397
+      },
+      "visible_patch_rays": [
+        {
+          "object": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_door.001",
+          "location": [
+            1.79985,
+            11.89135,
+            3.90036
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.2397
+        },
+        null,
+        {
+          "object": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_side.001",
+          "location": [
+            1.80735,
+            11.93018,
+            3.90454
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.21563
+        },
+        {
+          "object": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_door.001",
+          "location": [
+            1.7999,
+            11.89138,
+            3.86539
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.2554
+        },
+        {
+          "object": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_door.001",
+          "location": [
+            1.79985,
+            11.89135,
+            3.93536
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.22473
+        }
+      ],
+      "normal_body_and_ground_at_observer": true,
+      "camera_sweep_checked": true,
+      "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+      "body_entry_into_storage": false
+    },
+    {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_TERRACE_S",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_023",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          2.62,
+          7.3809,
+          4.4448
+        ],
+        [
+          2.62,
+          7.3809,
+          4.4448
+        ],
+        [
+          2.62,
+          6.372,
+          4.4448
+        ],
+        [
+          2.62,
+          6.372,
+          4.4448
+        ]
+      ],
+      "hint": "master_terrace",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_GUEST",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_024",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          7.7028,
+          11.5227,
+          4.4448
+        ],
+        [
+          7.7856,
+          10.4607,
+          4.4448
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_BATH_G",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_025",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          7.7028,
+          11.5227,
+          4.4448
+        ],
+        [
+          7.7028,
+          11.5227,
+          4.4448
+        ],
+        [
+          6.7596,
+          11.5227,
+          4.4448
+        ],
+        [
+          6.7596,
+          11.5227,
+          4.4448
+        ]
+      ],
+      "hint": "guest_bath",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L2_GUEST",
+      "to": "MAIN_L2_CLOSET_G",
+      "types": [
+        "cabinet"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_INSPECTION_ONLY_STORAGE",
+      "id": "ADJ_026",
+      "method": "Retain storage access as non-walkthrough; do not claim room-body traversal",
+      "acceptance_type": "INSPECTION_ONLY_STORAGE",
+      "observer": [
+        7.5456,
+        10.4607,
+        4.4448
+      ],
+      "inspection_motion": [
+        [
+          7.5456,
+          10.4607,
+          4.4448
+        ],
+        [
+          7.63581,
+          10.2383,
+          4.4448
+        ]
+      ],
+      "visible_target_hit": {
+        "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door",
+        "location": [
+          8.85513,
+          10.99187,
+          3.90022
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 1.51446
+      },
+      "visible_patch_rays": [
+        {
+          "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door",
+          "location": [
+            8.85513,
+            10.99187,
+            3.90022
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.51446
+        },
+        {
+          "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_side",
+          "location": [
+            8.84763,
+            11.02363,
+            3.90334
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.51834
+        },
+        null,
+        {
+          "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door",
+          "location": [
+            8.85513,
+            10.99187,
+            3.86522
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.52739
+        },
+        {
+          "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door",
+          "location": [
+            8.85513,
+            10.99187,
+            3.93522
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.50223
+        }
+      ],
+      "normal_body_and_ground_at_observer": true,
+      "camera_sweep_checked": true,
+      "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+      "body_entry_into_storage": false
+    },
+    {
+      "from": "MAIN_L2_GUEST",
+      "to": "MAIN_L2_TERRACE_E",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_027",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          10.6372,
+          8.6022,
+          4.4448
+        ],
+        [
+          10.6372,
+          8.6022,
+          4.4448
+        ],
+        [
+          11.7376,
+          8.6022,
+          4.4448
+        ],
+        [
+          11.7376,
+          8.6022,
+          4.4448
+        ]
+      ],
+      "hint": "guest_terrace",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_TERRACE_N",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_028",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          6.6548,
+          14.61153,
+          4.4448
+        ],
+        [
+          7.18718,
+          16.54171,
+          4.4448
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_L2_TERRACE_N",
+      "to": "MAIN_L3_LINK",
+      "types": [
+        "curved_exterior_stair"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_029",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "prefix": "MAIN_north_spiral_",
+      "stair_points": [
+        [
+          7.798094272613525,
+          20.270334243774414,
+          4.596009349822998
+        ],
+        [
+          8.08927059173584,
+          20.320703506469727,
+          4.7472187042236325
+        ],
+        [
+          8.367931365966797,
+          20.420007705688477,
+          4.898428058624267
+        ],
+        [
+          8.626127243041992,
+          20.565412521362305,
+          5.049637413024902
+        ],
+        [
+          8.856496810913086,
+          20.75277328491211,
+          5.200846767425537
+        ],
+        [
+          9.052468299865723,
+          20.97674560546875,
+          5.352056360244751
+        ],
+        [
+          9.208454132080078,
+          21.230941772460938,
+          5.503265714645385
+        ],
+        [
+          9.320003509521484,
+          21.50811195373535,
+          5.654474830627441
+        ],
+        [
+          9.38393783569336,
+          21.800350189208984,
+          5.805684185028076
+        ],
+        [
+          9.398431777954102,
+          22.09932518005371,
+          5.956893539428711
+        ],
+        [
+          9.363073348999023,
+          22.396507263183594,
+          6.108102893829345
+        ],
+        [
+          9.278868675231934,
+          22.68342399597168,
+          6.259312725067138
+        ],
+        [
+          9.148221969604492,
+          22.951889038085938,
+          6.410522079467773
+        ],
+        [
+          8.974857330322266,
+          23.19424819946289,
+          6.561731433868408
+        ],
+        [
+          8.76371955871582,
+          23.403587341308594,
+          6.712940788269043
+        ],
+        [
+          8.520832061767578,
+          23.573938369750977,
+          6.864150142669677
+        ]
+      ],
+      "approaches": [
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "MAIN_L2_TERRACE_N",
+          "to": "TOPOLOGY_QA_MAIN_L2_TERRACE_N",
+          "points": [
+            [
+              7.42351,
+              20.42863,
+              4.4448
+            ],
+            [
+              7.79809,
+              20.27033,
+              4.59601
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        },
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "TOPOLOGY_QA_MAIN_L3_LINK",
+          "to": "MAIN_L3_LINK",
+          "points": [
+            [
+              8.52083,
+              23.57394,
+              6.86415
+            ],
+            [
+              8.32761,
+              23.55739,
+              6.86415
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        }
+      ],
+      "points": [
+        [
+          7.42351,
+          20.42863,
+          4.4448
+        ],
+        [
+          7.79809,
+          20.27033,
+          4.59601
+        ],
+        [
+          8.08927059173584,
+          20.320703506469727,
+          4.7472187042236325
+        ],
+        [
+          8.367931365966797,
+          20.420007705688477,
+          4.898428058624267
+        ],
+        [
+          8.626127243041992,
+          20.565412521362305,
+          5.049637413024902
+        ],
+        [
+          8.856496810913086,
+          20.75277328491211,
+          5.200846767425537
+        ],
+        [
+          9.052468299865723,
+          20.97674560546875,
+          5.352056360244751
+        ],
+        [
+          9.208454132080078,
+          21.230941772460938,
+          5.503265714645385
+        ],
+        [
+          9.320003509521484,
+          21.50811195373535,
+          5.654474830627441
+        ],
+        [
+          9.38393783569336,
+          21.800350189208984,
+          5.805684185028076
+        ],
+        [
+          9.398431777954102,
+          22.09932518005371,
+          5.956893539428711
+        ],
+        [
+          9.363073348999023,
+          22.396507263183594,
+          6.108102893829345
+        ],
+        [
+          9.278868675231934,
+          22.68342399597168,
+          6.259312725067138
+        ],
+        [
+          9.148221969604492,
+          22.951889038085938,
+          6.410522079467773
+        ],
+        [
+          8.974857330322266,
+          23.19424819946289,
+          6.561731433868408
+        ],
+        [
+          8.76371955871582,
+          23.403587341308594,
+          6.712940788269043
+        ],
+        [
+          8.52083,
+          23.57394,
+          6.86415
+        ],
+        [
+          8.32761,
+          23.55739,
+          6.86415
+        ]
+      ]
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_STAIR",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_030",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          5.0435,
+          14.61153,
+          4.4448
+        ],
+        [
+          5.18131,
+          14.5786,
+          4.4448
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_L2_STAIR",
+      "to": "MAIN_L3_STAIR",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_031",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "prefix": "MAIN_stair2_",
+      "stair_points": [
+        [
+          5.380356788635254,
+          13.821929931640625,
+          4.6176105499267575
+        ],
+        [
+          5.137071132659912,
+          13.821929931640625,
+          4.79042158126831
+        ],
+        [
+          4.89378547668457,
+          13.821929931640625,
+          4.963232135772705
+        ],
+        [
+          4.6504998207092285,
+          13.821929931640625,
+          5.136042690277099
+        ],
+        [
+          4.407214164733887,
+          13.821929931640625,
+          5.308853721618652
+        ],
+        [
+          4.163928508758545,
+          13.821929931640625,
+          5.4816642761230465
+        ],
+        [
+          3.920642852783203,
+          13.821929931640625,
+          5.654474830627441
+        ],
+        [
+          3.6773571968078613,
+          13.821929931640625,
+          5.827285861968994
+        ],
+        [
+          3.4340713024139404,
+          13.821929931640625,
+          6.000096416473388
+        ],
+        [
+          3.1907856464385986,
+          13.821929931640625,
+          6.172906970977783
+        ],
+        [
+          2.947499990463257,
+          13.821929931640625,
+          6.345718002319336
+        ],
+        [
+          2.704214096069336,
+          13.821929931640625,
+          6.51852855682373
+        ],
+        [
+          2.460928440093994,
+          13.821929931640625,
+          6.691339111328125
+        ],
+        [
+          2.2176427841186523,
+          13.821929931640625,
+          6.864149665832519
+        ]
+      ],
+      "approaches": [
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "MAIN_L2_STAIR",
+          "to": "TOPOLOGY_QA_MAIN_L2_STAIR",
+          "points": [
+            [
+              5.6288,
+              14.337,
+              4.4448
+            ],
+            [
+              5.38036,
+              13.82193,
+              4.61761
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        },
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "TOPOLOGY_QA_MAIN_L3_STAIR",
+          "to": "MAIN_L3_STAIR",
+          "points": [
+            [
+              2.21764,
+              13.82193,
+              6.86415
+            ],
+            [
+              2.21764,
+              13.82193,
+              6.86415
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        }
+      ],
+      "points": [
+        [
+          5.6288,
+          14.337,
+          4.4448
+        ],
+        [
+          5.38036,
+          13.82193,
+          4.61761
+        ],
+        [
+          5.137071132659912,
+          13.821929931640625,
+          4.79042158126831
+        ],
+        [
+          4.89378547668457,
+          13.821929931640625,
+          4.963232135772705
+        ],
+        [
+          4.6504998207092285,
+          13.821929931640625,
+          5.136042690277099
+        ],
+        [
+          4.407214164733887,
+          13.821929931640625,
+          5.308853721618652
+        ],
+        [
+          4.163928508758545,
+          13.821929931640625,
+          5.4816642761230465
+        ],
+        [
+          3.920642852783203,
+          13.821929931640625,
+          5.654474830627441
+        ],
+        [
+          3.6773571968078613,
+          13.821929931640625,
+          5.827285861968994
+        ],
+        [
+          3.4340713024139404,
+          13.821929931640625,
+          6.000096416473388
+        ],
+        [
+          3.1907856464385986,
+          13.821929931640625,
+          6.172906970977783
+        ],
+        [
+          2.947499990463257,
+          13.821929931640625,
+          6.345718002319336
+        ],
+        [
+          2.704214096069336,
+          13.821929931640625,
+          6.51852855682373
+        ],
+        [
+          2.460928440093994,
+          13.821929931640625,
+          6.691339111328125
+        ],
+        [
+          2.21764,
+          13.82193,
+          6.86415
+        ],
+        [
+          2.21764,
+          13.82193,
+          6.86415
+        ]
+      ]
+    },
+    {
+      "from": "MAIN_L3_STAIR",
+      "to": "MAIN_L3_GALLERY",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_032",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          2.21764,
+          13.82193,
+          6.86415
+        ],
+        [
+          1.82876,
+          13.73272,
+          6.86415
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_STUDY",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_033",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          0.524,
+          13.2219,
+          6.86415
+        ],
+        [
+          0.524,
+          13.2219,
+          6.86415
+        ],
+        [
+          -0.5764,
+          13.2219,
+          6.86415
+        ],
+        [
+          -0.5764,
+          13.2219,
+          6.86415
+        ]
+      ],
+      "hint": "study_gallery",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_034",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          1.82876,
+          13.58086,
+          6.86415
+        ],
+        [
+          1.572,
+          13.9653,
+          6.86415
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+      "threshold_attempts": [
+        {
+          "hint": "gallery_bath",
+          "failure": {
+            "reason": "BODY_COLUMN",
+            "point": [
+              1.2052,
+              14.0007,
+              6.86415
+            ],
+            "hit": {
+              "object": "FW_FURN_MAIN_L3_BATH_washbasin_00_mirror_glass_shelf",
+              "location": [
+                1.2052,
+                14.0007,
+                6.29215
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              "distance": 0.938
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_ALCOVE",
+      "types": [
+        "open_alcove"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_035",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          5.3448,
+          12.9033,
+          6.86415
+        ],
+        [
+          5.3448,
+          12.9033,
+          6.86415
+        ],
+        [
+          6.026,
+          12.9033,
+          6.86415
+        ],
+        [
+          6.026,
+          12.9033,
+          6.86415
+        ]
+      ],
+      "hint": "gallery_alcove",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_TERRACE",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_036",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          2.9344,
+          12.744,
+          6.86415
+        ],
+        [
+          2.9344,
+          12.744,
+          6.86415
+        ],
+        [
+          2.9344,
+          12.0006,
+          6.86415
+        ],
+        [
+          2.9344,
+          12.0006,
+          6.86415
+        ]
+      ],
+      "hint": "gallery_terrace",
+      "hint_source": "main HABS threshold probes",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_1",
+      "to": "EXTERIOR_UNDERCROFT",
+      "types": [
+        "open_bay"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_INSPECTION_ONLY_FREE_FLY",
+      "id": "ADJ_037",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "acceptance_type": "INSPECTION_ONLY_FREE_FLY",
+      "observer": [
+        1.1528,
+        7.9119,
+        -1.2467
+      ],
+      "inspection_motion": [
+        [
+          1.1528,
+          7.9119,
+          -1.2467
+        ],
+        [
+          1.19341,
+          7.67536,
+          -1.2467
+        ]
+      ],
+      "visible_target_hit": {
+        "object": "MAIN_B_pier_0_course10_03_1",
+        "location": [
+          -0.52023,
+          7.62469,
+          -1.68266
+        ],
+        "normal": [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        "distance": 1.7526
+      },
+      "visible_patch_rays": [
+        {
+          "object": "MAIN_B_pier_0_course10_03_1",
+          "location": [
+            -0.52023,
+            7.62469,
+            -1.68266
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 1.7526
+        },
+        {
+          "object": "MAIN_B_pier_0_course10_03_1",
+          "location": [
+            -0.52023,
+            7.58969,
+            -1.68266
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 1.75867
+        },
+        {
+          "object": "MAIN_B_pier_0_course10_03_1",
+          "location": [
+            -0.52023,
+            7.65969,
+            -1.68266
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 1.7472
+        },
+        {
+          "object": "MAIN_B_pier_0_course10_03_1",
+          "location": [
+            -0.52023,
+            7.62469,
+            -1.71766
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 1.76163
+        },
+        {
+          "object": "MAIN_B_foundation_pier_0",
+          "location": [
+            -0.5474,
+            7.62003,
+            -1.65417
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 1.77254
+        }
+      ],
+      "normal_body_and_ground_at_observer": false,
+      "camera_sweep_checked": true,
+      "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+      "external_endpoint": {
+        "id": "EXTERIOR_UNDERCROFT",
+        "definition": "Point-defined free inspection location for this open bay; not an added room polygon",
+        "world_xyz": [
+          1.1528,
+          7.9119,
+          -1.2467
+        ]
+      }
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_2",
+      "to": "EXTERIOR_UNDERCROFT",
+      "types": [
+        "open_bay"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_INSPECTION_ONLY_FREE_FLY",
+      "id": "ADJ_038",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "acceptance_type": "INSPECTION_ONLY_FREE_FLY",
+      "observer": [
+        5.0304,
+        8.7084,
+        -1.2467
+      ],
+      "inspection_motion": [
+        [
+          5.0304,
+          8.7084,
+          -1.2467
+        ],
+        [
+          4.95809,
+          8.47955,
+          -1.2467
+        ]
+      ],
+      "visible_target_hit": {
+        "object": "MAIN_B_pier_1_course10_06_1",
+        "location": [
+          3.458,
+          9.20527,
+          -1.68334
+        ],
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 1.70586
+      },
+      "visible_patch_rays": [
+        {
+          "object": "MAIN_B_pier_1_course10_06_1",
+          "location": [
+            3.458,
+            9.20527,
+            -1.68334
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.70586
+        },
+        {
+          "object": "MAIN_B_pier_1_course10_06_1",
+          "location": [
+            3.458,
+            9.17027,
+            -1.68334
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.696
+        },
+        {
+          "object": "MAIN_B_pier_1_course10_06_1",
+          "location": [
+            3.458,
+            9.24027,
+            -1.68334
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.71639
+        },
+        {
+          "object": "MAIN_B_pier_1_course10_06_1",
+          "location": [
+            3.458,
+            9.20527,
+            -1.71834
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.71516
+        },
+        {
+          "object": "MAIN_B_foundation_pier_1",
+          "location": [
+            3.435,
+            9.21254,
+            -1.65421
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 1.72207
+        }
+      ],
+      "normal_body_and_ground_at_observer": false,
+      "camera_sweep_checked": true,
+      "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+      "external_endpoint": {
+        "id": "EXTERIOR_UNDERCROFT",
+        "definition": "Point-defined free inspection location for this open bay; not an added room polygon",
+        "world_xyz": [
+          5.0304,
+          8.7084,
+          -1.2467
+        ]
+      }
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_3",
+      "to": "EXTERIOR_UNDERCROFT",
+      "types": [
+        "open_bay"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "PASS_INSPECTION_ONLY_FREE_FLY",
+      "id": "ADJ_039",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "acceptance_type": "INSPECTION_ONLY_FREE_FLY",
+      "observer": [
+        8.5412,
+        8.7615,
+        -1.2467
+      ],
+      "inspection_motion": [
+        [
+          8.5412,
+          8.7615,
+          -1.2467
+        ],
+        [
+          8.46692,
+          8.53328,
+          -1.2467
+        ]
+      ],
+      "visible_target_hit": {
+        "object": "MAIN_B_pier_2_course10_06_1",
+        "location": [
+          7.1784,
+          9.20504,
+          -1.68233
+        ],
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 1.49791
+      },
+      "visible_patch_rays": [
+        {
+          "object": "MAIN_B_pier_2_course10_06_1",
+          "location": [
+            7.1784,
+            9.20504,
+            -1.68233
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.49791
+        },
+        {
+          "object": "MAIN_B_pier_2_course10_06_1",
+          "location": [
+            7.1784,
+            9.17004,
+            -1.68233
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.48792
+        },
+        {
+          "object": "MAIN_B_pier_2_course10_06_1",
+          "location": [
+            7.1784,
+            9.24004,
+            -1.68233
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.50864
+        },
+        {
+          "object": "MAIN_B_pier_2_course10_06_1",
+          "location": [
+            7.1784,
+            9.20504,
+            -1.71733
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.50846
+        },
+        {
+          "object": "MAIN_B_foundation_pier_2",
+          "location": [
+            7.1554,
+            9.21253,
+            -1.65409
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.51322
+        }
+      ],
+      "normal_body_and_ground_at_observer": false,
+      "camera_sweep_checked": true,
+      "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+      "external_endpoint": {
+        "id": "EXTERIOR_UNDERCROFT",
+        "definition": "Point-defined free inspection location for this open bay; not an added room polygon",
+        "world_xyz": [
+          8.5412,
+          8.7615,
+          -1.2467
+        ]
+      }
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_THEATER",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_040",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -0.94146,
+          45.42554,
+          10.0
+        ],
+        [
+          -0.82251,
+          45.44402,
+          10.0
+        ],
+        [
+          -1.23385,
+          46.04709,
+          10.0
+        ],
+        [
+          -1.14992,
+          45.85152,
+          10.0
+        ]
+      ],
+      "hint": "GUEST_L1_THEATER_ENTRY_door_0",
+      "hint_source": "guest actual wall/opening span; architecture registration",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_STAIR_HALL",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "FAIL_NO_VALIDATED_BODY_PATH",
+      "id": "ADJ_041",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "claim": "Straight and bounded turning searches did not prove connection; missing geometry or search resolution may need review.",
+      "examples": [
+        {
+          "reason": "BODY_COLUMN",
+          "point": [
+            0.84932,
+            41.15311,
+            10.0
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              0.84932,
+              40.97311,
+              8.49604
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "distance": 0.00604
+          }
+        },
+        {
+          "reason": "CAMERA_CLEARANCE",
+          "point": [
+            1.07422,
+            41.05479,
+            10.0
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              1.07422,
+              40.99604,
+              10.0
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "distance": 0.05875
+          }
+        },
+        {
+          "reason": "BODY_COLUMN",
+          "point": [
+            1.14553,
+            41.0656,
+            10.0
+          ],
+          "hit": {
+            "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+            "location": [
+              1.32553,
+              41.0656,
+              9.199
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.709
+          }
+        },
+        {
+          "reason": "BODY_COLUMN",
+          "point": [
+            0.42155,
+            40.98672,
+            10.0
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              0.42155,
+              40.98672,
+              8.74646
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "distance": 0.25646
+          }
+        }
+      ],
+      "search": {
+        "status": "GRID_PATH_NOT_FOUND",
+        "visited_nodes": 388,
+        "tested_nodes": 549,
+        "grid_m": 0.24
+      }
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_042",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          1.58983,
+          40.16988,
+          10.0
+        ],
+        [
+          0.95248,
+          40.38182,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+      "threshold_attempts": [
+        {
+          "hint": "GUEST_L1_CHAUFFEUR_EAST_door_0",
+          "failure": {
+            "reason": "BODY_COLUMN",
+            "point": [
+              1.62004,
+              40.38182,
+              10.0
+            ],
+            "hit": {
+              "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+              "location": [
+                1.62004,
+                40.56182,
+                9.199
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "distance": 0.709
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_BOILER",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_043",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -2.13982,
+          41.9397,
+          10.0
+        ],
+        [
+          3.56819,
+          41.70246,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+      "threshold_attempts": [
+        {
+          "hint": "GUEST_L1_BOILER_WEST_door_0",
+          "failure": {
+            "reason": "GROUND_HEIGHT_OR_NORMAL",
+            "point": [
+              3.45256,
+              41.70246,
+              10.0
+            ],
+            "expected_ground_z": 8.4,
+            "delta": 0.0010099999999990672,
+            "hit": {
+              "object": "GUEST_L1_HALL_NORTH",
+              "location": [
+                3.45256,
+                41.70246,
+                8.40101
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "distance": 0.31899
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L1_TERRACE",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_044",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          3.11986,
+          35.34126,
+          10.0
+        ],
+        [
+          7.98533,
+          35.43405,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_LOUNGE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_045",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          11.95151,
+          35.43405,
+          10.0
+        ],
+        [
+          10.33424,
+          36.7394,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "GUEST_L1_LOUNGE",
+      "to": "GUEST_L1_GALLERY",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_046",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          10.33424,
+          37.90134,
+          10.0
+        ],
+        [
+          10.31992,
+          38.88826,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_GUEST_ROOM",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_047",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          13.97179,
+          39.74654,
+          10.0
+        ],
+        [
+          14.82788,
+          39.63056,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_048",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          12.58305,
+          38.88826,
+          10.0
+        ],
+        [
+          12.48184,
+          38.768,
+          10.0
+        ],
+        [
+          12.48184,
+          38.068,
+          10.0
+        ],
+        [
+          12.81542,
+          37.99186,
+          10.0
+        ]
+      ],
+      "hint": "GUEST_L1_BATH_NORTH_TUB_door_0",
+      "hint_source": "guest actual wall/opening span; architecture registration",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "GUEST_L1_GUEST_ROOM",
+      "to": "GUEST_L1_TERRACE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_049",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          18.79959,
+          38.96928,
+          10.0
+        ],
+        [
+          19.15592,
+          38.85505,
+          10.0
+        ],
+        [
+          19.91592,
+          38.85505,
+          10.0
+        ],
+        [
+          19.9336,
+          38.83976,
+          10.0
+        ]
+      ],
+      "hint": "GUEST_L1_BED_EAST_door_0",
+      "hint_source": "guest actual wall/opening span; architecture registration",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_POOL",
+      "types": [
+        "steps"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_INSPECTION_ONLY_DRY_EDGE",
+      "id": "ADJ_050",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "acceptance_type": "INSPECTION_ONLY_DRY_EDGE",
+      "observer": [
+        20.53456,
+        35.57112,
+        10.0
+      ],
+      "inspection_motion": [
+        [
+          20.53456,
+          35.57112,
+          10.0
+        ],
+        [
+          20.56842,
+          35.80872,
+          10.0
+        ]
+      ],
+      "visible_target_hit": {
+        "object": "GUEST_POOL_water",
+        "location": [
+          28.49712,
+          34.43634,
+          8.96585
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 8.10922
+      },
+      "visible_patch_rays": [
+        {
+          "object": "GUEST_POOL_water",
+          "location": [
+            28.49712,
+            34.43634,
+            8.96585
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 8.10923
+        },
+        {
+          "object": "GUEST_POOL_water",
+          "location": [
+            28.46212,
+            34.43634,
+            8.96585
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 8.07486
+        },
+        {
+          "object": "GUEST_POOL_water",
+          "location": [
+            28.53212,
+            34.43634,
+            8.96585
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 8.14359
+        },
+        {
+          "object": "GUEST_POOL_water",
+          "location": [
+            28.49711,
+            34.40134,
+            8.96585
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 8.11419
+        },
+        {
+          "object": "GUEST_POOL_water",
+          "location": [
+            28.49712,
+            34.47134,
+            8.96585
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 8.1044
+        }
+      ],
+      "normal_body_and_ground_at_observer": true,
+      "camera_sweep_checked": true,
+      "claim": "Observed target surface and a short clear camera sweep; no traversal through the inspected storage/water/bay is asserted.",
+      "prefix": "GUEST_POOL_coping_ascent_tread_",
+      "dry_observer_room": "GUEST_L1_TERRACE",
+      "body_entry_into_water": false,
+      "stair_run_status": "PASS_MESH_AND_GROUND",
+      "stair_failure": null,
+      "stair_points": [
+        [
+          23.090290069580078,
+          36.41463851928711,
+          10.176212882995605
+        ],
+        [
+          23.41878890991211,
+          36.41463851928711,
+          10.35242519378662
+        ],
+        [
+          23.747291564941406,
+          36.41463851928711,
+          10.528637504577636
+        ],
+        [
+          24.075790405273438,
+          36.41463851928711,
+          10.704849815368652
+        ]
+      ],
+      "inspection_status": "PASS_INSPECTION_ONLY_DRY_EDGE"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_B1_STAIR",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_051",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "prefix": "GUEST_LAUNDRY_DESCENT_tread_",
+      "stair_points": [
+        [
+          1.7706400156021118,
+          38.22218322753906,
+          9.831428146362304
+        ],
+        [
+          1.7706400156021118,
+          38.357749938964844,
+          9.662856674194336
+        ],
+        [
+          1.7706400156021118,
+          38.49331283569336,
+          9.494285678863525
+        ],
+        [
+          1.7706400156021118,
+          38.62887954711914,
+          9.325714206695556
+        ],
+        [
+          1.7706400156021118,
+          38.76444625854492,
+          9.157142734527588
+        ],
+        [
+          1.7706400156021118,
+          38.90000915527344,
+          8.988571262359619
+        ],
+        [
+          1.7706400156021118,
+          39.03557586669922,
+          8.820000267028808
+        ],
+        [
+          1.7706400156021118,
+          39.171142578125,
+          8.65142879486084
+        ],
+        [
+          1.7706400156021118,
+          39.30670928955078,
+          8.48285732269287
+        ],
+        [
+          1.7706400156021118,
+          39.4422721862793,
+          8.314285850524902
+        ],
+        [
+          1.7706400156021118,
+          39.57783889770508,
+          8.145714378356933
+        ],
+        [
+          1.7706400156021118,
+          39.71340560913086,
+          7.9771429061889645
+        ],
+        [
+          1.7706400156021118,
+          39.848968505859375,
+          7.808571434020996
+        ],
+        [
+          1.7706400156021118,
+          39.984535217285156,
+          7.639999961853027
+        ]
+      ],
+      "approaches": [
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "GUEST_L1_STAIR_HALL",
+          "to": "TOPOLOGY_QA_GUEST_L1_STAIR_HALL",
+          "points": [
+            [
+              2.21477,
+              37.31351,
+              10.0
+            ],
+            [
+              1.77064,
+              38.22218,
+              9.83143
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        },
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "TOPOLOGY_QA_GUEST_B1_STAIR",
+          "to": "GUEST_B1_STAIR",
+          "points": [
+            [
+              1.77064,
+              39.98454,
+              7.64
+            ],
+            [
+              1.77064,
+              39.98454,
+              7.64
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        }
+      ],
+      "points": [
+        [
+          2.21477,
+          37.31351,
+          10.0
+        ],
+        [
+          1.77064,
+          38.22218,
+          9.83143
+        ],
+        [
+          1.7706400156021118,
+          38.357749938964844,
+          9.662856674194336
+        ],
+        [
+          1.7706400156021118,
+          38.49331283569336,
+          9.494285678863525
+        ],
+        [
+          1.7706400156021118,
+          38.62887954711914,
+          9.325714206695556
+        ],
+        [
+          1.7706400156021118,
+          38.76444625854492,
+          9.157142734527588
+        ],
+        [
+          1.7706400156021118,
+          38.90000915527344,
+          8.988571262359619
+        ],
+        [
+          1.7706400156021118,
+          39.03557586669922,
+          8.820000267028808
+        ],
+        [
+          1.7706400156021118,
+          39.171142578125,
+          8.65142879486084
+        ],
+        [
+          1.7706400156021118,
+          39.30670928955078,
+          8.48285732269287
+        ],
+        [
+          1.7706400156021118,
+          39.4422721862793,
+          8.314285850524902
+        ],
+        [
+          1.7706400156021118,
+          39.57783889770508,
+          8.145714378356933
+        ],
+        [
+          1.7706400156021118,
+          39.71340560913086,
+          7.9771429061889645
+        ],
+        [
+          1.7706400156021118,
+          39.848968505859375,
+          7.808571434020996
+        ],
+        [
+          1.77064,
+          39.98454,
+          7.64
+        ],
+        [
+          1.77064,
+          39.98454,
+          7.64
+        ]
+      ]
+    },
+    {
+      "from": "GUEST_B1_STAIR",
+      "to": "GUEST_B1_LAUNDRY",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_052",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          1.24504,
+          40.05232,
+          7.64
+        ],
+        [
+          0.94197,
+          40.10504,
+          7.64
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+      "threshold_attempts": [
+        {
+          "hint": "GUEST_B1_BASE_EAST_door_0",
+          "failure": {
+            "reason": "BODY_COLUMN",
+            "point": [
+              1.6776,
+              40.06102,
+              7.64
+            ],
+            "hit": {
+              "object": "GUEST_LAUNDRY_DESCENT_tread_12",
+              "location": [
+                1.6776,
+                39.88102,
+                6.20757
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "distance": 0.07757
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": "GUEST_B1_LAUNDRY",
+      "to": "GUEST_B1_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_053",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -1.36719,
+          38.92704,
+          7.64
+        ],
+        [
+          -1.4888,
+          38.9104,
+          7.64
+        ],
+        [
+          -2.1588,
+          38.9104,
+          7.64
+        ],
+        [
+          -2.14264,
+          38.9104,
+          7.64
+        ]
+      ],
+      "hint": "GUEST_B1_BASE_BATH_EAST_door_0",
+      "hint_source": "guest actual wall/opening span; architecture registration",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L2_HALL",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "FAIL_STAIR_ROOM_ATTACHMENT",
+      "id": "ADJ_054",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "prefix": "GUEST_SERVICE_ASCENT_tread_",
+      "stair_points": [
+        [
+          2.926959991455078,
+          40.590816497802734,
+          10.168047523498535
+        ],
+        [
+          2.926959991455078,
+          40.402530670166016,
+          10.336096382141113
+        ],
+        [
+          2.926959991455078,
+          40.2142448425293,
+          10.504144287109375
+        ],
+        [
+          2.926959991455078,
+          40.02595901489258,
+          10.672192192077636
+        ],
+        [
+          2.926959991455078,
+          39.83767318725586,
+          10.840241050720214
+        ],
+        [
+          2.926959991455078,
+          39.64938735961914,
+          11.008288955688476
+        ],
+        [
+          2.926959991455078,
+          39.46110153198242,
+          11.176336860656738
+        ],
+        [
+          2.926959991455078,
+          39.27281951904297,
+          11.344385719299316
+        ],
+        [
+          2.926959991455078,
+          39.08453369140625,
+          11.512433624267578
+        ],
+        [
+          2.926959991455078,
+          38.89624786376953,
+          11.68048152923584
+        ],
+        [
+          2.926959991455078,
+          38.70796203613281,
+          11.848530387878418
+        ],
+        [
+          2.926959991455078,
+          38.519676208496094,
+          12.01657829284668
+        ],
+        [
+          2.926959991455078,
+          38.331390380859375,
+          12.184626197814941
+        ],
+        [
+          2.926959991455078,
+          38.143104553222656,
+          12.35267505645752
+        ]
+      ],
+      "approaches": [
+        {
+          "status": "BLOCKED_NO_VALIDATED_PATH",
+          "from": "GUEST_L1_STAIR_HALL",
+          "to": "TOPOLOGY_QA_GUEST_L1_STAIR_HALL",
+          "claim": "Straight and bounded turning searches did not prove connection; missing geometry or search resolution may need review.",
+          "examples": [
+            {
+              "reason": "BODY_COLUMN",
+              "point": [
+                2.09861,
+                40.25407,
+                10.03361
+              ],
+              "hit": {
+                "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+                "location": [
+                  2.27861,
+                  40.25407,
+                  9.199
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.52539
+              }
+            },
+            {
+              "reason": "BODY_COLUMN",
+              "point": [
+                2.03554,
+                40.3102,
+                10.05602
+              ],
+              "hit": {
+                "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+                "location": [
+                  2.21554,
+                  40.3102,
+                  9.199
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.50298
+              }
+            },
+            {
+              "reason": "NO_GROUND",
+              "point": [
+                2.89542,
+                38.24989,
+                10.04801
+              ],
+              "expected_ground_z": 8.44801368713379
+            },
+            {
+              "reason": "NO_GROUND",
+              "point": [
+                2.64914,
+                38.24989,
+                10.04801
+              ],
+              "expected_ground_z": 8.44801368713379
+            }
+          ],
+          "search": {
+            "status": "GRID_PATH_NOT_FOUND",
+            "visited_nodes": 156,
+            "tested_nodes": 235,
+            "grid_m": 0.24
+          }
+        },
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "TOPOLOGY_QA_GUEST_L2_HALL",
+          "to": "GUEST_L2_HALL",
+          "points": [
+            [
+              2.92696,
+              38.1431,
+              12.35268
+            ],
+            [
+              2.6116,
+              37.9144,
+              12.35268
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        }
+      ],
+      "points": []
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_SOUTH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_055",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          1.67813,
+          39.7729,
+          12.35268
+        ],
+        [
+          1.6376,
+          40.03914,
+          12.35268
+        ],
+        [
+          0.9576,
+          40.03914,
+          12.35268
+        ],
+        [
+          0.84736,
+          40.10504,
+          12.35268
+        ]
+      ],
+      "hint": "GUEST_L2_UPPER_ROOM_EAST_door_2",
+      "hint_source": "guest actual wall/opening span; architecture registration",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_MIDDLE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_056",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          1.67813,
+          43.38633,
+          12.35268
+        ],
+        [
+          1.6376,
+          43.6183,
+          12.35268
+        ],
+        [
+          0.9576,
+          43.6183,
+          12.35268
+        ],
+        [
+          1.08736,
+          43.7136,
+          12.35268
+        ]
+      ],
+      "hint": "GUEST_L2_UPPER_ROOM_EAST_door_1",
+      "hint_source": "guest actual wall/opening span; architecture registration",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_NORTH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A guest02 direct Hall door below Bath south wall, y266.9..280.3; old model opening inside Bath was misplaced",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_057",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          1.67813,
+          44.25041,
+          12.35268
+        ],
+        [
+          1.6376,
+          44.92365,
+          12.35268
+        ],
+        [
+          0.9576,
+          44.92365,
+          12.35268
+        ],
+        [
+          0.95248,
+          44.92365,
+          12.35268
+        ]
+      ],
+      "hint": "GUEST_L2_UPPER_ROOM_EAST_door_0",
+      "hint_source": "guest actual wall/opening span; architecture registration",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_058",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          2.58006,
+          44.25041,
+          12.35268
+        ],
+        [
+          2.64136,
+          45.48248,
+          12.35268
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+      "threshold_attempts": [
+        {
+          "hint": "GUEST_L2_UPPER_BATH_SOUTH_door_0",
+          "failure": {
+            "reason": "BODY_COLUMN",
+            "point": [
+              2.3559,
+              45.66932,
+              12.35268
+            ],
+            "hit": {
+              "object": "FW_FURN_GUEST_L2_BATH_washbasin_00_washbasin",
+              "location": [
+                2.3559,
+                45.84932,
+                11.50679
+              ],
+              "normal": [
+                -0.16733,
+                -0.74536,
+                -0.64533
+              ],
+              "distance": 0.66412
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": "GUEST_L2_BEDROOM_NORTH",
+      "to": "GUEST_L2_TERRACE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_059",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "points": [
+        [
+          -0.52098,
+          47.94134,
+          12.35268
+        ],
+        [
+          -0.81426,
+          48.3284,
+          12.35268
+        ],
+        [
+          -0.81426,
+          49.0684,
+          12.35268
+        ],
+        [
+          -1.22528,
+          48.99112,
+          12.35268
+        ]
+      ],
+      "hint": "GUEST_L2_UPPER_NORTH_door_0",
+      "hint_source": "guest actual wall/opening span; architecture registration",
+      "claim": "Door core and both room approaches are body/ground tested."
+    },
+    {
+      "from": "MAIN_L3_LINK",
+      "to": "GUEST_L1_STAIR_HALL",
+      "types": [
+        "covered_exterior_stair_canopy"
+      ],
+      "declarations": [
+        {
+          "source": "scripts/build_scene.py save_manifests",
+          "evidence": "C cross-building elevation provisional"
+        }
+      ],
+      "status": "PASS_MESH_AND_GROUND",
+      "id": "ADJ_060",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "prefix": "GUEST_CONNECTOR_step_",
+      "stair_points": [
+        [
+          5.256558418273926,
+          23.47225570678711,
+          7.009150123596191
+        ],
+        [
+          4.790617942810059,
+          23.474035263061523,
+          7.154150104522705
+        ],
+        [
+          4.199860095977783,
+          23.47793960571289,
+          7.299150085449218
+        ],
+        [
+          3.554082155227661,
+          23.49756622314453,
+          7.444150066375732
+        ],
+        [
+          2.923081398010254,
+          23.5465030670166,
+          7.444150066375732
+        ],
+        [
+          2.33609676361084,
+          23.63172149658203,
+          7.589150047302246
+        ],
+        [
+          1.7642030715942383,
+          23.748859405517578,
+          7.589150047302246
+        ],
+        [
+          1.1926238536834717,
+          23.893125534057617,
+          7.734150028228759
+        ],
+        [
+          0.638336718082428,
+          24.06401824951172,
+          7.734150028228759
+        ],
+        [
+          0.11831916868686676,
+          24.261028289794922,
+          7.734150028228759
+        ],
+        [
+          -0.3610360026359558,
+          24.48599624633789,
+          7.879150009155273
+        ],
+        [
+          -0.807483971118927,
+          24.741182327270508,
+          7.879150009155273
+        ],
+        [
+          -1.2235400676727295,
+          25.02362060546875,
+          8.024149990081787
+        ],
+        [
+          -1.6029160022735596,
+          25.327016830444336,
+          8.024149990081787
+        ],
+        [
+          -1.939323902130127,
+          25.645084381103516,
+          8.1691499710083
+        ],
+        [
+          -2.2275238037109375,
+          25.97258186340332,
+          8.1691499710083
+        ],
+        [
+          -2.4675159454345703,
+          26.309513092041016,
+          8.1691499710083
+        ],
+        [
+          -2.6645400524139404,
+          26.66111946105957,
+          8.314149951934814
+        ],
+        [
+          -2.8248839378356934,
+          27.033681869506836,
+          8.314149951934814
+        ],
+        [
+          -2.954835891723633,
+          27.433494567871094,
+          8.459149932861328
+        ],
+        [
+          -3.057539939880371,
+          27.87208366394043,
+          8.459149932861328
+        ],
+        [
+          -3.1308999061584473,
+          28.355737686157227,
+          8.604149913787841
+        ],
+        [
+          -3.1728198528289795,
+          28.869779586791992,
+          8.604149913787841
+        ],
+        [
+          -3.1832995414733887,
+          29.38906478881836,
+          8.604149913787841
+        ],
+        [
+          -3.162339687347412,
+          29.88843536376953,
+          8.749150371551513
+        ],
+        [
+          -3.1088919639587402,
+          30.352174758911133,
+          8.749150371551513
+        ],
+        [
+          -3.0219080448150635,
+          30.7855224609375,
+          8.894150352478027
+        ],
+        [
+          -2.9029603004455566,
+          31.20157814025879,
+          8.894150352478027
+        ],
+        [
+          -2.755192279815674,
+          31.60977554321289,
+          9.03915033340454
+        ],
+        [
+          -2.5817480087280273,
+          32.0195426940918,
+          9.03915033340454
+        ],
+        [
+          -2.3810558319091797,
+          32.439796447753906,
+          9.184150314331054
+        ],
+        [
+          -2.148923873901367,
+          32.8715705871582,
+          9.184150314331054
+        ],
+        [
+          -1.8890200853347778,
+          33.30543899536133,
+          9.184150314331054
+        ],
+        [
+          -1.6107759475708008,
+          33.72883224487305,
+          9.329150295257568
+        ],
+        [
+          -1.3236238956451416,
+          34.12916564941406,
+          9.329150295257568
+        ],
+        [
+          -1.0315463542938232,
+          34.49932098388672,
+          9.474150276184082
+        ],
+        [
+          -0.7306656241416931,
+          34.84264373779297,
+          9.474150276184082
+        ],
+        [
+          -0.4189380407333374,
+          35.16459655761719,
+          9.619149780273437
+        ],
+        [
+          -0.0985645055770874,
+          35.467674255371094,
+          9.619149780273437
+        ],
+        [
+          0.2282543182373047,
+          35.7544059753418,
+          9.764150238037109
+        ],
+        [
+          0.5757188200950623,
+          36.031917572021484,
+          9.764150238037109
+        ],
+        [
+          0.9598631858825684,
+          36.30523681640625,
+          9.909149742126464
+        ],
+        [
+          1.3584699630737305,
+          36.564720153808594,
+          9.909149742126464
+        ],
+        [
+          1.7256367206573486,
+          36.79276657104492,
+          9.999999618530273
+        ],
+        [
+          2.015460968017578,
+          36.971763610839844,
+          9.999999618530273
+        ]
+      ],
+      "approaches": [
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "MAIN_L3_LINK",
+          "to": "TOPOLOGY_QA_MAIN_L3_LINK",
+          "points": [
+            [
+              5.6896,
+              23.4702,
+              6.86415
+            ],
+            [
+              5.25656,
+              23.47226,
+              7.00915
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        },
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "TOPOLOGY_QA_GUEST_L1_STAIR_HALL",
+          "to": "GUEST_L1_STAIR_HALL",
+          "points": [
+            [
+              2.01546,
+              36.97176,
+              10.0
+            ],
+            [
+              1.89153,
+              37.31351,
+              10.0
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        }
+      ],
+      "points": [
+        [
+          5.6896,
+          23.4702,
+          6.86415
+        ],
+        [
+          5.25656,
+          23.47226,
+          7.00915
+        ],
+        [
+          4.790617942810059,
+          23.474035263061523,
+          7.154150104522705
+        ],
+        [
+          4.199860095977783,
+          23.47793960571289,
+          7.299150085449218
+        ],
+        [
+          3.554082155227661,
+          23.49756622314453,
+          7.444150066375732
+        ],
+        [
+          2.923081398010254,
+          23.5465030670166,
+          7.444150066375732
+        ],
+        [
+          2.33609676361084,
+          23.63172149658203,
+          7.589150047302246
+        ],
+        [
+          1.7642030715942383,
+          23.748859405517578,
+          7.589150047302246
+        ],
+        [
+          1.1926238536834717,
+          23.893125534057617,
+          7.734150028228759
+        ],
+        [
+          0.638336718082428,
+          24.06401824951172,
+          7.734150028228759
+        ],
+        [
+          0.11831916868686676,
+          24.261028289794922,
+          7.734150028228759
+        ],
+        [
+          -0.3610360026359558,
+          24.48599624633789,
+          7.879150009155273
+        ],
+        [
+          -0.807483971118927,
+          24.741182327270508,
+          7.879150009155273
+        ],
+        [
+          -1.2235400676727295,
+          25.02362060546875,
+          8.024149990081787
+        ],
+        [
+          -1.6029160022735596,
+          25.327016830444336,
+          8.024149990081787
+        ],
+        [
+          -1.939323902130127,
+          25.645084381103516,
+          8.1691499710083
+        ],
+        [
+          -2.2275238037109375,
+          25.97258186340332,
+          8.1691499710083
+        ],
+        [
+          -2.4675159454345703,
+          26.309513092041016,
+          8.1691499710083
+        ],
+        [
+          -2.6645400524139404,
+          26.66111946105957,
+          8.314149951934814
+        ],
+        [
+          -2.8248839378356934,
+          27.033681869506836,
+          8.314149951934814
+        ],
+        [
+          -2.954835891723633,
+          27.433494567871094,
+          8.459149932861328
+        ],
+        [
+          -3.057539939880371,
+          27.87208366394043,
+          8.459149932861328
+        ],
+        [
+          -3.1308999061584473,
+          28.355737686157227,
+          8.604149913787841
+        ],
+        [
+          -3.1728198528289795,
+          28.869779586791992,
+          8.604149913787841
+        ],
+        [
+          -3.1832995414733887,
+          29.38906478881836,
+          8.604149913787841
+        ],
+        [
+          -3.162339687347412,
+          29.88843536376953,
+          8.749150371551513
+        ],
+        [
+          -3.1088919639587402,
+          30.352174758911133,
+          8.749150371551513
+        ],
+        [
+          -3.0219080448150635,
+          30.7855224609375,
+          8.894150352478027
+        ],
+        [
+          -2.9029603004455566,
+          31.20157814025879,
+          8.894150352478027
+        ],
+        [
+          -2.755192279815674,
+          31.60977554321289,
+          9.03915033340454
+        ],
+        [
+          -2.5817480087280273,
+          32.0195426940918,
+          9.03915033340454
+        ],
+        [
+          -2.3810558319091797,
+          32.439796447753906,
+          9.184150314331054
+        ],
+        [
+          -2.148923873901367,
+          32.8715705871582,
+          9.184150314331054
+        ],
+        [
+          -1.8890200853347778,
+          33.30543899536133,
+          9.184150314331054
+        ],
+        [
+          -1.6107759475708008,
+          33.72883224487305,
+          9.329150295257568
+        ],
+        [
+          -1.3236238956451416,
+          34.12916564941406,
+          9.329150295257568
+        ],
+        [
+          -1.0315463542938232,
+          34.49932098388672,
+          9.474150276184082
+        ],
+        [
+          -0.7306656241416931,
+          34.84264373779297,
+          9.474150276184082
+        ],
+        [
+          -0.4189380407333374,
+          35.16459655761719,
+          9.619149780273437
+        ],
+        [
+          -0.0985645055770874,
+          35.467674255371094,
+          9.619149780273437
+        ],
+        [
+          0.2282543182373047,
+          35.7544059753418,
+          9.764150238037109
+        ],
+        [
+          0.5757188200950623,
+          36.031917572021484,
+          9.764150238037109
+        ],
+        [
+          0.9598631858825684,
+          36.30523681640625,
+          9.909149742126464
+        ],
+        [
+          1.3584699630737305,
+          36.564720153808594,
+          9.909149742126464
+        ],
+        [
+          1.7256367206573486,
+          36.79276657104492,
+          9.999999618530273
+        ],
+        [
+          2.01546,
+          36.97176,
+          10.0
+        ],
+        [
+          1.89153,
+          37.31351,
+          10.0
+        ]
+      ]
+    }
+  ],
+  "csv_only_declarations": [],
+  "retracted_edges": [
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_L1_TERRACE_E",
+      "previous_type": "exterior_steps",
+      "status": "SOURCE_UNSUPPORTED_AS_DRY_WALKEDGE",
+      "previous_case": "iteration06 ADJ017 remains a historical FAIL",
+      "reason": "The inferred path joined two stairs across pool/perimeter stonework. Main03/04 do not establish a continuous dry deck at the stair-foot level; current broad deck strips cannot serve as source evidence. East Terrace remains accessible through Living glazed doors.",
+      "source_crops": [
+        "qa/main-pool-iteration06-plan04.png",
+        "qa/main-pool-iteration06-plan04-grid.png",
+        "qa/main-pool-iteration06-plan03.png"
+      ],
+      "source": "data\\main_house.json",
+      "acceptance": "RETRACTED_SOURCE_UNSUPPORTED; not a navigation PASS and not a valid current edge"
+    }
+  ],
+  "limits": [
+    "No old tour PASS values are carried forward.",
+    "Every declared space is retained, including storage, water and missing exterior endpoints.",
+    "Search failure is not proof of an impossible building; it remains FAIL/NOT_RUN with exact evidence.",
+    "Film cuts cannot satisfy a graph edge."
+  ],
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "counts": {
+    "PASS": 58,
+    "FAIL": 2,
+    "NOT_RUN": 0
+  },
+  "validated_components": [
+    [
+      "GUEST_B1_BATH",
+      "GUEST_B1_LAUNDRY",
+      "GUEST_B1_STAIR",
+      "GUEST_L1_BATH",
+      "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "GUEST_L1_GALLERY",
+      "GUEST_L1_GUEST_ROOM",
+      "GUEST_L1_LOUNGE",
+      "GUEST_L1_STAIR_HALL",
+      "GUEST_L1_TERRACE",
+      "MAIN_B_BATH",
+      "MAIN_B_BOILER",
+      "MAIN_B_STAIR",
+      "MAIN_B_WINE",
+      "MAIN_L1_COAT",
+      "MAIN_L1_ENTRY",
+      "MAIN_L1_KITCHEN",
+      "MAIN_L1_LIVING",
+      "MAIN_L1_LOGGIA",
+      "MAIN_L1_SERVANT",
+      "MAIN_L1_SERVICE_STAIR",
+      "MAIN_L1_STAIR",
+      "MAIN_L1_TERRACE_E",
+      "MAIN_L1_TERRACE_W",
+      "MAIN_L2_BATH_G",
+      "MAIN_L2_BATH_M",
+      "MAIN_L2_BATH_N",
+      "MAIN_L2_DRESSING",
+      "MAIN_L2_GUEST",
+      "MAIN_L2_HALL",
+      "MAIN_L2_MASTER",
+      "MAIN_L2_STAIR",
+      "MAIN_L2_TERRACE_E",
+      "MAIN_L2_TERRACE_N",
+      "MAIN_L2_TERRACE_S",
+      "MAIN_L2_TERRACE_W",
+      "MAIN_L3_ALCOVE",
+      "MAIN_L3_BATH",
+      "MAIN_L3_GALLERY",
+      "MAIN_L3_LINK",
+      "MAIN_L3_STAIR",
+      "MAIN_L3_STUDY",
+      "MAIN_L3_TERRACE"
+    ],
+    [
+      "MAIN_B_FOUNDATION_1"
+    ],
+    [
+      "MAIN_B_FOUNDATION_2"
+    ],
+    [
+      "MAIN_B_FOUNDATION_3"
+    ],
+    [
+      "MAIN_B_PLUNGE"
+    ],
+    [
+      "MAIN_L1_HATCH"
+    ],
+    [
+      "MAIN_L2_CLOSET_M"
+    ],
+    [
+      "MAIN_L2_CLOSET_G"
+    ],
+    [
+      "GUEST_L1_BOILER",
+      "GUEST_L1_CAR_COURT",
+      "GUEST_L1_THEATER"
+    ],
+    [
+      "GUEST_L1_POOL"
+    ],
+    [
+      "GUEST_L2_BATH",
+      "GUEST_L2_BEDROOM_MIDDLE",
+      "GUEST_L2_BEDROOM_NORTH",
+      "GUEST_L2_BEDROOM_SOUTH",
+      "GUEST_L2_HALL",
+      "GUEST_L2_TERRACE"
+    ],
+    [
+      "EXTERIOR_UNDERCROFT"
+    ]
+  ],
+  "normal_walk_edge_pass_count": 50,
+  "inspection_edge_pass_count": 8,
+  "component_semantics": "Connected components include only normal walking edges. Inspection-only observations never merge walking components.",
+  "nonplanar_stair_anchor_evidence": [
+    {
+      "room_id": "MAIN_B_STAIR",
+      "prefix": "MAIN_service_stair_",
+      "point": [
+        -6.17312,
+        17.70885,
+        -0.37692
+      ],
+      "accepted": true,
+      "point_inside_declared_stair_polygon": true,
+      "floor_offset_from_room_datum_m": 0.17307676672935468,
+      "failure": null,
+      "basis": "Actual endpoint tread top inside the declared stair polygon, with ground and body clearance checked in stair mode"
+    },
+    {
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "prefix": "MAIN_service_stair_",
+      "point": [
+        -3.41608,
+        17.70885,
+        1.7
+      ],
+      "accepted": true,
+      "point_inside_declared_stair_polygon": true,
+      "floor_offset_from_room_datum_m": -7.152557382483771e-08,
+      "failure": null,
+      "basis": "Actual endpoint tread top inside the declared stair polygon, with ground and body clearance checked in stair mode"
+    },
+    {
+      "room_id": "MAIN_L1_STAIR",
+      "prefix": "MAIN_stair1_",
+      "point": [
+        7.54724,
+        13.1688,
+        1.87155
+      ],
+      "accepted": true,
+      "point_inside_declared_stair_polygon": true,
+      "floor_offset_from_room_datum_m": 0.17154996395111075,
+      "failure": null,
+      "basis": "Actual endpoint tread top inside the declared stair polygon, with ground and body clearance checked in stair mode"
+    },
+    {
+      "room_id": "MAIN_L2_STAIR",
+      "prefix": "MAIN_stair2_",
+      "point": [
+        5.38036,
+        13.82193,
+        4.61761
+      ],
+      "accepted": false,
+      "point_inside_declared_stair_polygon": false,
+      "floor_offset_from_room_datum_m": 0.17281045455932587,
+      "failure": null,
+      "basis": "Actual endpoint tread top inside the declared stair polygon, with ground and body clearance checked in stair mode"
+    },
+    {
+      "room_id": "MAIN_L3_STAIR",
+      "prefix": "MAIN_stair2_",
+      "point": [
+        2.21764,
+        13.82193,
+        6.86415
+      ],
+      "accepted": true,
+      "point_inside_declared_stair_polygon": true,
+      "floor_offset_from_room_datum_m": -4.295349116389957e-07,
+      "failure": null,
+      "basis": "Actual endpoint tread top inside the declared stair polygon, with ground and body clearance checked in stair mode"
+    },
+    {
+      "room_id": "GUEST_B1_STAIR",
+      "prefix": "GUEST_LAUNDRY_DESCENT_tread_",
+      "point": [
+        1.77064,
+        39.98454,
+        7.64
+      ],
+      "accepted": true,
+      "point_inside_declared_stair_polygon": true,
+      "floor_offset_from_room_datum_m": -1.335144048653092e-07,
+      "failure": null,
+      "basis": "Actual endpoint tread top inside the declared stair polygon, with ground and body clearance checked in stair mode"
+    }
+  ],
+  "maximum_turning_search_nodes_per_edge": 1800,
+  "maximum_stair_attachment_search_nodes": 1200,
+  "claim": "Tests all declared edges; retained FAIL/NOT_RUN edges prevent full navigation acceptance. Cuts and camera coverage do not satisfy edges.",
+  "source_scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "iteration": 9,
+  "attempt": "01",
+  "checked_scene_saved": false,
+  "accepted_for_delivery": false
+}

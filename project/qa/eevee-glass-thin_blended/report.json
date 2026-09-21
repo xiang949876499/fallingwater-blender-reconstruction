@@ -1,0 +1,2893 @@
+{
+  "source": "D:\\zx\\test\\project\\qa\\eevee-glass-source.blend",
+  "source_sha256": "1f2a55b63aa331db2e26fb9bd9382239d4bcea1b273c433414cc5c7f64832835",
+  "api": {
+    "version": "5.2.1 LTS",
+    "material_properties": {
+      "surface_render_method": {
+        "value": "DITHERED",
+        "description": "Controls the blending and the compatibility with certain features",
+        "enum": [
+          "DITHERED",
+          "BLENDED"
+        ]
+      },
+      "use_transparency_overlap": {
+        "value": "True",
+        "description": "Render multiple transparent layers (may introduce transparency sorting problems)",
+        "enum": []
+      },
+      "show_transparent_back": {
+        "value": "True",
+        "description": "Render multiple transparent layers (may introduce transparency sorting problems) (Deprecated: use 'use_tranparency_overlap')",
+        "enum": []
+      },
+      "use_backface_culling": {
+        "value": "False",
+        "description": "Use back face culling to hide the back side of faces",
+        "enum": []
+      },
+      "use_backface_culling_shadow": {
+        "value": "False",
+        "description": "Use back face culling when casting shadows",
+        "enum": []
+      },
+      "use_backface_culling_lightprobe_volume": {
+        "value": "True",
+        "description": "Consider material single sided for light probe volume capture. Additionally helps rejecting probes inside the object to avoid light leaks.",
+        "enum": []
+      },
+      "use_transparent_shadow": {
+        "value": "True",
+        "description": "Use transparent shadows for this material if it contains a Transparent BSDF, disabling will render faster but not give accurate shadows",
+        "enum": []
+      },
+      "use_raytrace_refraction": {
+        "value": "True",
+        "description": "Use raytracing to determine transmitted color instead of using only light probes. This prevents the surface from contributing to the lighting of surfaces not using this setting.",
+        "enum": []
+      },
+      "use_screen_refraction": {
+        "value": "True",
+        "description": "Use raytracing to determine transmitted color instead of using only light probes. This prevents the surface from contributing to the lighting of surfaces not using this setting. Deprecated: use 'use_raytrace_refraction'.",
+        "enum": []
+      },
+      "refraction_depth": {
+        "value": "0.0",
+        "description": "Approximate the thickness of the object to compute two refraction events (0 is disabled) (Deprecated)",
+        "enum": []
+      },
+      "thickness_mode": {
+        "value": "SLAB",
+        "description": "Approximation used to model the light interactions inside the object",
+        "enum": [
+          "SPHERE",
+          "SLAB"
+        ]
+      },
+      "use_thickness_from_shadow": {
+        "value": "False",
+        "description": "Use the shadow maps from shadow casting lights to refine the thickness defined by the material node tree",
+        "enum": []
+      }
+    },
+    "outputs": [
+      {
+        "name": "Material Output",
+        "target": "ALL",
+        "active": true,
+        "inputs": [
+          {
+            "name": "Surface",
+            "linked": true,
+            "value": "None"
+          },
+          {
+            "name": "Volume",
+            "linked": false,
+            "value": "None"
+          },
+          {
+            "name": "Displacement",
+            "linked": false,
+            "value": "<bpy_float[3], NodeSocketVector.default_value>"
+          },
+          {
+            "name": "Thickness",
+            "linked": false,
+            "value": "0.00800000037997961"
+          }
+        ]
+      }
+    ],
+    "ray_tracing_properties": {
+      "resolution_scale": {
+        "value": "1",
+        "description": "Determines the number of rays per pixel. Higher resolution uses more memory."
+      },
+      "use_backface_hit": {
+        "value": "True",
+        "description": "Consider rays hitting backfaces as valid"
+      },
+      "backface_radiance_scale": {
+        "value": "0.25",
+        "description": "Amount of the front face lighting to reuse for backface lighting approximation"
+      },
+      "use_denoise": {
+        "value": "True",
+        "description": "Enable noise reduction techniques for raytraced effects"
+      },
+      "denoise_spatial": {
+        "value": "True",
+        "description": "Reuse neighbor pixels' rays"
+      },
+      "denoise_temporal": {
+        "value": "True",
+        "description": "Accumulate samples by reprojecting last tracing results"
+      },
+      "denoise_bilateral": {
+        "value": "True",
+        "description": "Blur the resolved radiance using a bilateral filter"
+      },
+      "screen_trace_thickness": {
+        "value": "0.10000000149011612",
+        "description": "Surface thickness used to detect intersection when using screen-tracing"
+      },
+      "trace_max_roughness": {
+        "value": "0.5",
+        "description": "Maximum roughness to use the tracing pipeline for. Higher roughness surfaces will use fast GI approximation. A value of 1 will disable fast GI approximation."
+      },
+      "screen_trace_quality": {
+        "value": "1.0",
+        "description": "Precision of the screen space ray-tracing"
+      }
+    },
+    "panes": [
+      {
+        "name": "MAIN_L1_servant_south_glass_0",
+        "dimensions": [
+          0.6039000749588013,
+          0.00800000037997961,
+          1.5820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_servant_south_glass_1",
+        "dimensions": [
+          0.6039000749588013,
+          0.00800000037997961,
+          1.5820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_servant_south_glass_2",
+        "dimensions": [
+          0.6039000749588013,
+          0.00800000037997961,
+          1.5820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_servant_south_glass_3",
+        "dimensions": [
+          0.6039000749588013,
+          0.00800000037997961,
+          1.5820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_kitchen_south_glass_0",
+        "dimensions": [
+          0.5515000224113464,
+          0.00800000037997961,
+          1.281999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_kitchen_south_glass_1",
+        "dimensions": [
+          0.5515000224113464,
+          0.00800000037997961,
+          1.281999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_kitchen_south_glass_2",
+        "dimensions": [
+          0.5515000224113464,
+          0.00800000037997961,
+          1.281999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_kitchen_south_glass_3",
+        "dimensions": [
+          0.5515000224113464,
+          0.00800000037997961,
+          1.281999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_0",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_1",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_2",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_3",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_4",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_5",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_6",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_7",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_south_glass_8",
+        "dimensions": [
+          0.6548444032669067,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_west_glass_0",
+        "dimensions": [
+          0.6735400557518005,
+          0.00800000037997961,
+          2.01200008392334
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_west_glass_1",
+        "dimensions": [
+          0.6735400557518005,
+          0.00800000037997961,
+          2.01200008392334
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_west_glass_2",
+        "dimensions": [
+          0.6735400557518005,
+          0.00800000037997961,
+          2.01200008392334
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_west_glass_3",
+        "dimensions": [
+          0.6735400557518005,
+          0.00800000037997961,
+          2.01200008392334
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_west_glass_4",
+        "dimensions": [
+          0.6735400557518005,
+          0.00800000037997961,
+          2.01200008392334
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_west_terrace_door_n_glass_0",
+        "dimensions": [
+          0.9974501132965088,
+          0.00800000037997961,
+          2.242000102996826
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_west_terrace_door_n_open_casement_glass_0",
+        "dimensions": [
+          0.9554499983787537,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_west_terrace_door_s_glass_0",
+        "dimensions": [
+          0.8647000789642334,
+          0.00800000037997961,
+          2.242000102996826
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_west_terrace_door_s_open_casement_glass_0",
+        "dimensions": [
+          0.822700023651123,
+          0.00800000037997961,
+          2.2119998931884766
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_east_glass_0",
+        "dimensions": [
+          0.6641600728034973,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_east_glass_1",
+        "dimensions": [
+          0.6641600728034973,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_east_glass_2",
+        "dimensions": [
+          0.6641600728034973,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_east_glass_3",
+        "dimensions": [
+          0.6641600728034973,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_living_east_glass_4",
+        "dimensions": [
+          0.6641600728034973,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_east_terrace_access_glass_0",
+        "dimensions": [
+          0.7850500345230103,
+          0.00800000037997961,
+          2.2320001125335693
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_east_terrace_access_open_casement_glass_0",
+        "dimensions": [
+          0.7430505156517029,
+          0.00800000037997961,
+          2.2019999027252197
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_southeast_door_glass_0",
+        "dimensions": [
+          0.8381500244140625,
+          0.00800000037997961,
+          2.26200008392334
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L1_southeast_door_open_casement_glass_0",
+        "dimensions": [
+          0.7961499094963074,
+          0.00800000037997961,
+          2.2320001125335693
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_hatch_open_leaf_glass_0",
+        "dimensions": [
+          0.6746399998664856,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_hatch_open_leaf_glass_1",
+        "dimensions": [
+          0.6746399998664856,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_hatch_open_leaf_glass_2",
+        "dimensions": [
+          0.6746399998664856,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_hatch_open_leaf_glass_3",
+        "dimensions": [
+          0.6746399998664856,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_hatch_open_leaf_glass_4",
+        "dimensions": [
+          0.6746399998664856,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_dressing_north_window_glass_0",
+        "dimensions": [
+          0.3288000524044037,
+          0.00800000037997961,
+          1.2619999647140503
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_dressing_north_window_glass_1",
+        "dimensions": [
+          0.3288000524044037,
+          0.00800000037997961,
+          1.2619999647140503
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_bath_n_window_glass_0",
+        "dimensions": [
+          0.45980003476142883,
+          0.00800000037997961,
+          0.671999990940094
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_bath_n_window_glass_1",
+        "dimensions": [
+          0.45980003476142883,
+          0.00800000037997961,
+          0.671999990940094
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_bath_n_window_glass_2",
+        "dimensions": [
+          0.45980003476142883,
+          0.00800000037997961,
+          0.671999990940094
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_bath_n_window_glass_3",
+        "dimensions": [
+          0.45980003476142883,
+          0.00800000037997961,
+          0.671999990940094
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_dressing_west_glass_0",
+        "dimensions": [
+          0.4133501946926117,
+          0.00800000037997961,
+          1.7020000219345093
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_dressing_west_open_casement_glass_0",
+        "dimensions": [
+          0.3713499903678894,
+          0.00800000037997961,
+          1.6720000505447388
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_dressing_terrace_glass_0",
+        "dimensions": [
+          0.6523000001907349,
+          0.00800000037997961,
+          2.072000026702881
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_dressing_terrace_open_casement_glass_0",
+        "dimensions": [
+          0.610299825668335,
+          0.00800000037997961,
+          2.0420000553131104
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_master_south_glass_0",
+        "dimensions": [
+          0.7829333543777466,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_master_south_glass_1",
+        "dimensions": [
+          0.7829333543777466,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_master_south_glass_2",
+        "dimensions": [
+          0.7829333543777466,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_master_south_glass_4",
+        "dimensions": [
+          0.7829333543777466,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_master_south_glass_5",
+        "dimensions": [
+          0.7829333543777466,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_master_south_open_casement_glass_0",
+        "dimensions": [
+          0.7409334778785706,
+          0.00800000037997961,
+          2.062000036239624
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_master_west_glass_0",
+        "dimensions": [
+          0.625749945640564,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_master_west_glass_1",
+        "dimensions": [
+          0.625749945640564,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_south_glass_0",
+        "dimensions": [
+          0.6641599535942078,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_south_glass_1",
+        "dimensions": [
+          0.6641599535942078,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_south_glass_2",
+        "dimensions": [
+          0.6641599535942078,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_south_glass_3",
+        "dimensions": [
+          0.6641599535942078,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_south_glass_4",
+        "dimensions": [
+          0.6641599535942078,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_east_glass_0",
+        "dimensions": [
+          0.684160053730011,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_east_glass_1",
+        "dimensions": [
+          0.684160053730011,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_east_glass_3",
+        "dimensions": [
+          0.684160053730011,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_east_glass_4",
+        "dimensions": [
+          0.684160053730011,
+          0.00800000037997961,
+          2.0920000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_guest_east_open_casement_glass_0",
+        "dimensions": [
+          0.6421595811843872,
+          0.00800000037997961,
+          2.062000036239624
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_hall_north_glass_0",
+        "dimensions": [
+          0.5488799214363098,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_hall_north_glass_1",
+        "dimensions": [
+          0.5488799214363098,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_hall_north_glass_3",
+        "dimensions": [
+          0.5488799214363098,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_hall_north_glass_4",
+        "dimensions": [
+          0.5488799214363098,
+          0.00800000037997961,
+          1.8819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_hall_north_open_casement_glass_0",
+        "dimensions": [
+          0.5068802237510681,
+          0.00800000037997961,
+          1.8519999980926514
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_north_terrace_door_glass_0",
+        "dimensions": [
+          0.9051998853683472,
+          0.00800000037997961,
+          2.111999988555908
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L2_north_terrace_door_open_casement_glass_0",
+        "dimensions": [
+          0.8631992936134338,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_study_west_glass_0",
+        "dimensions": [
+          0.4133497178554535,
+          0.00800000037997961,
+          1.722000002861023
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_study_west_open_casement_glass_0",
+        "dimensions": [
+          0.3713499903678894,
+          0.00800000037997961,
+          1.6920000314712524
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_study_south_glass_0",
+        "dimensions": [
+          0.5209332704544067,
+          0.00800000037997961,
+          2.131999969482422
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_study_south_glass_1",
+        "dimensions": [
+          0.5209332704544067,
+          0.00800000037997961,
+          2.131999969482422
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_study_south_glass_2",
+        "dimensions": [
+          0.5209332704544067,
+          0.00800000037997961,
+          2.131999969482422
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_gallery_south_glass_0",
+        "dimensions": [
+          0.6956000328063965,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_gallery_south_glass_1",
+        "dimensions": [
+          0.6956000328063965,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_gallery_south_glass_2",
+        "dimensions": [
+          0.6956000328063965,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_gallery_south_glass_4",
+        "dimensions": [
+          0.6956000328063965,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_gallery_south_glass_5",
+        "dimensions": [
+          0.6956000328063965,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_gallery_south_glass_6",
+        "dimensions": [
+          0.6956000328063965,
+          0.00800000037997961,
+          2.0820000171661377
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_gallery_south_open_casement_glass_0",
+        "dimensions": [
+          0.6536000967025757,
+          0.00800000037997961,
+          2.052000045776367
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_alcove_south_glass_0",
+        "dimensions": [
+          0.5383999943733215,
+          0.00800000037997961,
+          2.131999969482422
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_alcove_south_glass_1",
+        "dimensions": [
+          0.5383999943733215,
+          0.00800000037997961,
+          2.131999969482422
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_alcove_south_glass_2",
+        "dimensions": [
+          0.5383999943733215,
+          0.00800000037997961,
+          2.131999969482422
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_alcove_east_glass_0",
+        "dimensions": [
+          0.5460997819900513,
+          0.00800000037997961,
+          2.111999988555908
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "MAIN_L3_alcove_east_glass_1",
+        "dimensions": [
+          0.5460997819900513,
+          0.00800000037997961,
+          2.111999988555908
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_LOUNGE_FRONT_steel_window_0_glass_0",
+        "dimensions": [
+          0.742591142654419,
+          0.00800000037997961,
+          1.781999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_LOUNGE_FRONT_steel_window_0_glass_1",
+        "dimensions": [
+          0.742591142654419,
+          0.00800000037997961,
+          1.781999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_LOUNGE_FRONT_steel_window_0_glass_2",
+        "dimensions": [
+          0.742591142654419,
+          0.00800000037997961,
+          1.781999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_LOUNGE_FRONT_steel_window_0_glass_3",
+        "dimensions": [
+          0.742591142654419,
+          0.00800000037997961,
+          1.781999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_LOUNGE_FRONT_steel_window_0_glass_4",
+        "dimensions": [
+          0.742591142654419,
+          0.00800000037997961,
+          1.781999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_LOUNGE_FRONT_steel_window_0_glass_5",
+        "dimensions": [
+          0.742591142654419,
+          0.00800000037997961,
+          1.781999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_LOUNGE_FRONT_steel_window_0_glass_6",
+        "dimensions": [
+          0.742591142654419,
+          0.00800000037997961,
+          1.781999945640564
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_BED_FRONT_steel_window_0_glass_0",
+        "dimensions": [
+          0.7328800559043884,
+          0.00800000037997961,
+          1.4119999408721924
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_BED_FRONT_steel_window_0_glass_1",
+        "dimensions": [
+          0.7328800559043884,
+          0.00800000037997961,
+          1.4119999408721924
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_BED_FRONT_steel_window_0_glass_2",
+        "dimensions": [
+          0.7328800559043884,
+          0.00800000037997961,
+          1.4119999408721924
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_BED_FRONT_steel_window_0_glass_3",
+        "dimensions": [
+          0.7328800559043884,
+          0.00800000037997961,
+          1.4119999408721924
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_BED_FRONT_steel_window_0_glass_4",
+        "dimensions": [
+          0.7328800559043884,
+          0.00800000037997961,
+          1.4119999408721924
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_BED_FRONT_steel_window_0_glass_5",
+        "dimensions": [
+          0.7328800559043884,
+          0.00800000037997961,
+          1.4119999408721924
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_BED_EAST_steel_window_1_glass_0",
+        "dimensions": [
+          0.5171414613723755,
+          0.00800000037997961,
+          1.4119999408721924
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_BED_EAST_steel_window_1_glass_1",
+        "dimensions": [
+          0.5171414613723755,
+          0.00800000037997961,
+          1.4119999408721924
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_CHAUFFEUR_WEST_steel_window_0_glass_0",
+        "dimensions": [
+          0.5404702425003052,
+          0.00800000037997961,
+          1.5520000457763672
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_CHAUFFEUR_WEST_steel_window_0_glass_1",
+        "dimensions": [
+          0.5404702425003052,
+          0.00800000037997961,
+          1.5520000457763672
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_CHAUFFEUR_WEST_steel_window_0_glass_2",
+        "dimensions": [
+          0.5404702425003052,
+          0.00800000037997961,
+          1.5520000457763672
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_CHAUFFEUR_WEST_steel_window_0_glass_3",
+        "dimensions": [
+          0.5404702425003052,
+          0.00800000037997961,
+          1.5520000457763672
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_0",
+        "dimensions": [
+          0.7567470669746399,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_1",
+        "dimensions": [
+          0.7567470669746399,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_2",
+        "dimensions": [
+          0.7567470669746399,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_3",
+        "dimensions": [
+          0.7567470669746399,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_4",
+        "dimensions": [
+          0.7567470669746399,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_NORTHEAST_steel_window_0_glass_0",
+        "dimensions": [
+          0.8214417695999146,
+          0.00800000037997961,
+          1.3819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_NORTHEAST_steel_window_0_glass_1",
+        "dimensions": [
+          0.8214417695999146,
+          0.00800000037997961,
+          1.3819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_NORTHEAST_steel_window_0_glass_2",
+        "dimensions": [
+          0.8214417695999146,
+          0.00800000037997961,
+          1.3819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_NORTHEAST_steel_window_0_glass_3",
+        "dimensions": [
+          0.8214417695999146,
+          0.00800000037997961,
+          1.3819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_NORTHEAST_steel_window_0_glass_4",
+        "dimensions": [
+          0.8214417695999146,
+          0.00800000037997961,
+          1.3819999694824219
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_SOUTH_DIAGONAL_steel_window_0_glass_0",
+        "dimensions": [
+          0.8559278249740601,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_SOUTH_DIAGONAL_steel_window_0_glass_1",
+        "dimensions": [
+          0.8559278249740601,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_SOUTH_DIAGONAL_steel_window_0_glass_2",
+        "dimensions": [
+          0.8559278249740601,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_SOUTH_DIAGONAL_steel_window_0_glass_3",
+        "dimensions": [
+          0.8559278249740601,
+          0.00800000037997961,
+          1.3420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+        "dimensions": [
+          0.5492783188819885,
+          0.007999999448657036,
+          1.8420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+        "dimensions": [
+          0.5492783188819885,
+          0.007999999448657036,
+          1.8420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+        "dimensions": [
+          0.5492783188819885,
+          0.007999999448657036,
+          1.8420000076293945
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_B1_BASE_SOUTH_steel_window_0_glass_0",
+        "dimensions": [
+          0.4141911268234253,
+          0.00800000037997961,
+          0.5519999861717224
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_B1_BASE_SOUTH_steel_window_0_glass_1",
+        "dimensions": [
+          0.4141911268234253,
+          0.00800000037997961,
+          0.5519999861717224
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_B1_BASE_SOUTH_steel_window_0_glass_2",
+        "dimensions": [
+          0.4141911268234253,
+          0.00800000037997961,
+          0.5519999861717224
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_0_glass_0",
+        "dimensions": [
+          0.6836053133010864,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_0_glass_1",
+        "dimensions": [
+          0.6836053133010864,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_0_glass_2",
+        "dimensions": [
+          0.6836053133010864,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_0_glass_3",
+        "dimensions": [
+          0.6836053133010864,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_1_glass_0",
+        "dimensions": [
+          0.6258755922317505,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_1_glass_1",
+        "dimensions": [
+          0.6258755922317505,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_1_glass_2",
+        "dimensions": [
+          0.6258755922317505,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_1_glass_3",
+        "dimensions": [
+          0.6258755922317505,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_2_glass_0",
+        "dimensions": [
+          0.5104199647903442,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_2_glass_1",
+        "dimensions": [
+          0.5104199647903442,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_2_glass_2",
+        "dimensions": [
+          0.5104199647903442,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_WEST_steel_window_2_glass_3",
+        "dimensions": [
+          0.5104199647903442,
+          0.00800000037997961,
+          1.3919999599456787
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_SOUTH_steel_window_0_glass_0",
+        "dimensions": [
+          0.586412787437439,
+          0.00800000037997961,
+          1.4420000314712524
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_SOUTH_steel_window_0_glass_1",
+        "dimensions": [
+          0.586412787437439,
+          0.00800000037997961,
+          1.4420000314712524
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_SOUTH_steel_window_0_glass_2",
+        "dimensions": [
+          0.586412787437439,
+          0.00800000037997961,
+          1.4420000314712524
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_SOUTH_steel_window_0_glass_3",
+        "dimensions": [
+          0.586412787437439,
+          0.00800000037997961,
+          1.4420000314712524
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_EAST_steel_window_0_glass_0",
+        "dimensions": [
+          0.41960981488227844,
+          0.00800000037997961,
+          1.1920000314712524
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_EAST_steel_window_0_glass_1",
+        "dimensions": [
+          0.41960981488227844,
+          0.00800000037997961,
+          1.1920000314712524
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "GUEST_L2_UPPER_EAST_steel_window_0_glass_2",
+        "dimensions": [
+          0.41960981488227844,
+          0.00800000037997961,
+          1.1920000314712524
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.00800000037997961
+      },
+      {
+        "name": "FW_FURN_MAIN_B_BATH_washbasin_00_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      },
+      {
+        "name": "FW_FURN_MAIN_L2_BATH_N_washbasin_01_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      },
+      {
+        "name": "FW_FURN_MAIN_L2_BATH_G_washbasin_00_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      },
+      {
+        "name": "FW_FURN_MAIN_L2_BATH_M_washbasin_01_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      },
+      {
+        "name": "FW_FURN_MAIN_L3_BATH_washbasin_00_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      },
+      {
+        "name": "FW_FURN_GUEST_L1_BATH_washbasin_01_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      },
+      {
+        "name": "FW_FURN_GUEST_B1_LAUNDRY_laundry_sink_00_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      },
+      {
+        "name": "FW_FURN_GUEST_B1_BATH_washbasin_00_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      },
+      {
+        "name": "FW_FURN_GUEST_L2_BATH_washbasin_00_mirror_glass_shelf",
+        "dimensions": [
+          0.5699999928474426,
+          0.17000000178813934,
+          0.012000000104308128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "faces": 6,
+        "normals_outward_convex_origin": true,
+        "min_local_dimension": 0.012000000104308128
+      }
+    ],
+    "pane_count": 159
+  },
+  "modification": {
+    "mode": "thin_blended",
+    "fresnel_ior": 1.5,
+    "reflection_roughness": 0.025,
+    "cycles_surface_unchanged": true,
+    "pane_geometry_unchanged": true,
+    "limitation": "Thin parallel glazing: unbent transmitted ray plus IOR 1.5 Fresnel reflection; real 8 mm geometry and Cycles original shader preserved. Not a physically exact refraction simulation."
+  },
+  "invariants": {
+    "geometry_sha256_before": "4398333f4a0f33d80751e3f5cecff773e438a385da2547fa117883e8a04a4d5a",
+    "geometry_sha256_after": "4398333f4a0f33d80751e3f5cecff773e438a385da2547fa117883e8a04a4d5a",
+    "cycles_surface_sha256_before": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+    "cycles_surface_sha256_after": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d"
+  },
+  "exposure": 0.8,
+  "camera": "CAM_MAIN_L1_LIVING_B",
+  "camera_location": [
+    5.695879936218262,
+    11.835989952087402,
+    1.7000000476837158
+  ],
+  "camera_rotation": [
+    1.546580195426941,
+    -8.970081211145953e-08,
+    2.833179473876953
+  ],
+  "camera_lens": 28.0,
+  "frames": [
+    {
+      "frame": 1,
+      "seconds": 63.09747349999998,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-glass-thin_blended\\frame_0001.png",
+      "location": [
+        5.695879936218262,
+        11.835989952087402,
+        1.7000000476837158
+      ],
+      "offset_m": 0,
+      "sha256": "5c4d0705765e7cf112718b25be8de9fe80b9717c087b1ab37ccb4e42cc4f9182"
+    }
+  ]
+}

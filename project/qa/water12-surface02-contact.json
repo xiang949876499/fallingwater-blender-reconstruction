@@ -1,0 +1,947 @@
+{
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_water12_surface02.blend",
+  "source_sha256": "fae868a2220ea87ac30b9348191c8a81106ba1baea0d89062802c7fd4227d0ac",
+  "tiny_triangles": [
+    {
+      "id": 487776,
+      "area_m2": 6.821210263296962e-13,
+      "vertices": [
+        [
+          -3.7047059535980225,
+          -4.261177062988281,
+          -5.9497785568237305
+        ],
+        [
+          -3.7047083377838135,
+          -4.261178016662598,
+          -5.9497785568237305
+        ],
+        [
+          -3.7047080993652344,
+          -4.261178493499756,
+          -5.9497785568237305
+        ]
+      ],
+      "indices": [
+        244149,
+        244813,
+        244814
+      ]
+    },
+    {
+      "id": 487778,
+      "area_m2": 6.821210263296962e-13,
+      "vertices": [
+        [
+          -3.7047059535980225,
+          -4.261177062988281,
+          -5.9497785568237305
+        ],
+        [
+          -3.7047080993652344,
+          -4.261178493499756,
+          -5.9497785568237305
+        ],
+        [
+          -3.7047057151794434,
+          -4.2611775398254395,
+          -5.9497785568237305
+        ]
+      ],
+      "indices": [
+        244149,
+        244814,
+        244151
+      ]
+    },
+    {
+      "id": 495270,
+      "area_m2": 4.547473508864641e-13,
+      "vertices": [
+        [
+          -4.160121917724609,
+          -4.172272682189941,
+          -5.9606804847717285
+        ],
+        [
+          -4.160123825073242,
+          -4.172273635864258,
+          -5.9606804847717285
+        ],
+        [
+          -4.160123825073242,
+          -4.172274112701416,
+          -5.9606804847717285
+        ]
+      ],
+      "indices": [
+        247939,
+        248555,
+        248556
+      ]
+    },
+    {
+      "id": 495272,
+      "area_m2": 4.547473508864641e-13,
+      "vertices": [
+        [
+          -4.160121917724609,
+          -4.172272682189941,
+          -5.9606804847717285
+        ],
+        [
+          -4.160123825073242,
+          -4.172274112701416,
+          -5.9606804847717285
+        ],
+        [
+          -4.160121917724609,
+          -4.1722731590271,
+          -5.9606804847717285
+        ]
+      ],
+      "indices": [
+        247939,
+        248556,
+        247941
+      ]
+    },
+    {
+      "id": 498858,
+      "area_m2": 6.821210263296962e-13,
+      "vertices": [
+        [
+          -4.365679740905762,
+          -4.169351577758789,
+          -5.968266487121582
+        ],
+        [
+          -4.3656816482543945,
+          -4.1693525314331055,
+          -5.968266487121582
+        ],
+        [
+          -4.365681171417236,
+          -4.169353008270264,
+          -5.968266487121582
+        ]
+      ],
+      "indices": [
+        249751,
+        250345,
+        250346
+      ]
+    },
+    {
+      "id": 498860,
+      "area_m2": 6.821210263296962e-13,
+      "vertices": [
+        [
+          -4.365679740905762,
+          -4.169351577758789,
+          -5.968266487121582
+        ],
+        [
+          -4.365681171417236,
+          -4.169353008270264,
+          -5.968266487121582
+        ],
+        [
+          -4.3656792640686035,
+          -4.169352054595947,
+          -5.968266487121582
+        ]
+      ],
+      "indices": [
+        249751,
+        250346,
+        249753
+      ]
+    }
+  ],
+  "groups": {
+    "falling_vertices": {
+      "tested": 31232,
+      "nearest_normal_inside_over_05mm": 212,
+      "signed_nearest_min_m": -0.925556093454361,
+      "worst_examples": [
+        {
+          "point": [
+            6.110589027404785,
+            -8.51235294342041,
+            -3.119999885559082
+          ],
+          "signed_nearest_distance_m": -0.2752295695245266,
+          "euclidean_distance_m": 0.2752295434474945,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            2.6374573707580566,
+            -6.284689903259277,
+            -5.2038397789001465
+          ],
+          "signed_nearest_distance_m": -0.10645968094468117,
+          "euclidean_distance_m": 0.39752304553985596,
+          "rock": "SITE_Bank_0146"
+        },
+        {
+          "point": [
+            2.6355748176574707,
+            -6.281160354614258,
+            -5.203884124755859
+          ],
+          "signed_nearest_distance_m": -0.10478009283542633,
+          "euclidean_distance_m": 0.3998531401157379,
+          "rock": "SITE_Bank_0146"
+        },
+        {
+          "point": [
+            2.6111085414886475,
+            -6.298742294311523,
+            -5.273241996765137
+          ],
+          "signed_nearest_distance_m": -0.0433660764247179,
+          "euclidean_distance_m": 0.3839089274406433,
+          "rock": "SITE_Bank_0146"
+        },
+        {
+          "point": [
+            2.6092262268066406,
+            -6.295212745666504,
+            -5.273285865783691
+          ],
+          "signed_nearest_distance_m": -0.041686978191137314,
+          "euclidean_distance_m": 0.3863290548324585,
+          "rock": "SITE_Bank_0146"
+        },
+        {
+          "point": [
+            1.0496845245361328,
+            -0.7470569610595703,
+            -3.0302810668945312
+          ],
+          "signed_nearest_distance_m": -0.031515200971625745,
+          "euclidean_distance_m": 0.047610051929950714,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.06550931930542,
+            -0.7650613784790039,
+            -3.031095027923584
+          ],
+          "signed_nearest_distance_m": -0.03130129992496222,
+          "euclidean_distance_m": 0.04721858724951744,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.4015707969665527,
+            -1.0090701580047607,
+            -3.0333192348480225
+          ],
+          "signed_nearest_distance_m": -0.027991879993351176,
+          "euclidean_distance_m": 0.049325063824653625,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.3767051696777344,
+            -0.9941936731338501,
+            -3.0331079959869385
+          ],
+          "signed_nearest_distance_m": -0.02790396632917691,
+          "euclidean_distance_m": 0.0493050180375576,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.2384755611419678,
+            -0.9108129739761353,
+            -3.0323562622070312
+          ],
+          "signed_nearest_distance_m": -0.027635170335997827,
+          "euclidean_distance_m": 0.048751287162303925,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.2278884649276733,
+            -0.9047353267669678,
+            -3.0323004722595215
+          ],
+          "signed_nearest_distance_m": -0.027400942621170543,
+          "euclidean_distance_m": 0.04871656000614166,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            0.9858213663101196,
+            -0.6753394603729248,
+            -3.0336973667144775
+          ],
+          "signed_nearest_distance_m": -0.026948786806315184,
+          "euclidean_distance_m": 0.04266742616891861,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.2024786472320557,
+            -0.8901491165161133,
+            -3.0321664810180664
+          ],
+          "signed_nearest_distance_m": -0.026838114950805902,
+          "euclidean_distance_m": 0.048638585954904556,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0016485452651978,
+            -0.6933426856994629,
+            -3.0344908237457275
+          ],
+          "signed_nearest_distance_m": -0.026752033038064837,
+          "euclidean_distance_m": 0.04229365661740303,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.017475962638855,
+            -0.7113461494445801,
+            -3.0352842807769775
+          ],
+          "signed_nearest_distance_m": -0.02655522059649229,
+          "euclidean_distance_m": 0.04191995784640312,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0242575407028198,
+            -0.7190625667572021,
+            -3.0356240272521973
+          ],
+          "signed_nearest_distance_m": -0.026469973614439368,
+          "euclidean_distance_m": 0.04176020249724388,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0333009958267212,
+            -0.7293503284454346,
+            -3.0360774993896484
+          ],
+          "signed_nearest_distance_m": -0.0263571934774518,
+          "euclidean_distance_m": 0.04154690355062485,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.177069067955017,
+            -0.8755631446838379,
+            -3.0320324897766113
+          ],
+          "signed_nearest_distance_m": -0.026275396812707186,
+          "euclidean_distance_m": 0.048568908125162125,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.049128532409668,
+            -0.7473535537719727,
+            -3.0368709564208984
+          ],
+          "signed_nearest_distance_m": -0.026160577544942498,
+          "euclidean_distance_m": 0.04117328301072121,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0649547576904297,
+            -0.7653570175170898,
+            -3.0376641750335693
+          ],
+          "signed_nearest_distance_m": -0.02596344775520265,
+          "euclidean_distance_m": 0.04080013558268547,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "falling_triangle_centroids": {
+      "tested": 62609,
+      "nearest_normal_inside_over_05mm": 673,
+      "signed_nearest_min_m": -0.2540506534278393,
+      "worst_examples": [
+        {
+          "point": [
+            2.6274194717407227,
+            -6.287021001180013,
+            -5.227003256479899
+          ],
+          "signed_nearest_distance_m": -0.08430912345647812,
+          "euclidean_distance_m": 0.3929966390132904,
+          "rock": "SITE_Bank_0146"
+        },
+        {
+          "point": [
+            2.6192640463511148,
+            -6.2928816477457685,
+            -5.250122547149658
+          ],
+          "signed_nearest_distance_m": -0.06383753940463066,
+          "euclidean_distance_m": 0.3876606822013855,
+          "rock": "SITE_Bank_0146"
+        },
+        {
+          "point": [
+            2.6142441431681314,
+            -6.283469994862874,
+            -5.250293095906575
+          ],
+          "signed_nearest_distance_m": -0.059311140328645706,
+          "euclidean_distance_m": 0.39411601424217224,
+          "rock": "SITE_Bank_0146"
+        },
+        {
+          "point": [
+            0.9796471993128458,
+            -0.6610027949015299,
+            -3.030937671661377
+          ],
+          "signed_nearest_distance_m": -0.03196245618164539,
+          "euclidean_distance_m": 0.04463198781013489,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0125730435053508,
+            -0.705146074295044,
+            -3.0305925210316977
+          ],
+          "signed_nearest_distance_m": -0.030217814724892378,
+          "euclidean_distance_m": 0.04636012390255928,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0223692655563354,
+            -0.7162918249766032,
+            -3.0310932795206704
+          ],
+          "signed_nearest_distance_m": -0.030087571125477552,
+          "euclidean_distance_m": 0.0461202971637249,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0306583642959595,
+            -0.7257227102915446,
+            -3.031515677769979
+          ],
+          "signed_nearest_distance_m": -0.029978665057569742,
+          "euclidean_distance_m": 0.045918986201286316,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0442238251368205,
+            -0.7411545117696127,
+            -3.0322064558664956
+          ],
+          "signed_nearest_distance_m": -0.02980119176208973,
+          "euclidean_distance_m": 0.04558923840522766,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.4121893246968586,
+            -1.0159127712249756,
+            -3.0300539334615073
+          ],
+          "signed_nearest_distance_m": -0.029670625997823663,
+          "euclidean_distance_m": 0.05270224064588547,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0600495338439941,
+            -0.7591584523518881,
+            -3.033013423283895
+          ],
+          "signed_nearest_distance_m": -0.02959339483641088,
+          "euclidean_distance_m": 0.04520407319068909,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.406874378522237,
+            -1.0124944845835369,
+            -3.0316938559214273
+          ],
+          "signed_nearest_distance_m": -0.028822557258536108,
+          "euclidean_distance_m": 0.05100635439157486,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            0.9912843306859335,
+            -0.6812407175699869,
+            -3.031737963358561
+          ],
+          "signed_nearest_distance_m": -0.02868981147184968,
+          "euclidean_distance_m": 0.04470636323094368,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.231675386428833,
+            -0.906623641649882,
+            -3.0308276812235513
+          ],
+          "signed_nearest_distance_m": -0.02856172592146322,
+          "euclidean_distance_m": 0.05021259933710098,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0071110328038533,
+            -0.6992442607879639,
+            -3.0325382550557456
+          ],
+          "signed_nearest_distance_m": -0.02848767419345677,
+          "euclidean_distance_m": 0.0443267747759819,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0199226935704548,
+            -0.7138189474741617,
+            -3.0331873099009194
+          ],
+          "signed_nearest_distance_m": -0.028322555124759674,
+          "euclidean_distance_m": 0.044018179178237915,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0274580717086792,
+            -0.7223925590515137,
+            -3.0335679054260254
+          ],
+          "signed_nearest_distance_m": -0.028225850081071258,
+          "euclidean_distance_m": 0.04383809119462967,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.21120289961497,
+            -0.8948755264282227,
+            -3.0307394663492837
+          ],
+          "signed_nearest_distance_m": -0.02809407091990579,
+          "euclidean_distance_m": 0.05012582242488861,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0387626489003499,
+            -0.735252300898234,
+            -3.0341386000315347
+          ],
+          "signed_nearest_distance_m": -0.028081911150366068,
+          "euclidean_distance_m": 0.04356786608695984,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.0545892715454102,
+            -0.7532558441162109,
+            -3.0349387327829995
+          ],
+          "signed_nearest_distance_m": -0.02787969307973981,
+          "euclidean_distance_m": 0.04318850487470627,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "point": [
+            1.1857895851135254,
+            -0.8802913824717203,
+            -3.030625104904175
+          ],
+          "signed_nearest_distance_m": -0.027516867296071723,
+          "euclidean_distance_m": 0.050029877573251724,
+          "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+          "core_ray_parity_counts": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "near_layer_centroids": {
+      "tested": 155329,
+      "nearest_normal_inside_over_05mm": 12013,
+      "signed_nearest_min_m": -2.4086130261421204,
+      "worst_examples": [
+        {
+          "point": [
+            -0.05176393191019694,
+            -11.152941703796387,
+            -6.084058920542399
+          ],
+          "signed_nearest_distance_m": -0.39951496198773384,
+          "euclidean_distance_m": 0.39951497316360474,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            14.368394215901693,
+            -5.720735232035319,
+            -3.0115837256113687
+          ],
+          "signed_nearest_distance_m": -0.3993054236052558,
+          "euclidean_distance_m": 0.39930543303489685,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -2.624706506729126,
+            0.42882347106933594,
+            -6.012927214304606
+          ],
+          "signed_nearest_distance_m": -0.39910783618688583,
+          "euclidean_distance_m": 0.39910784363746643,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -2.8576464653015137,
+            -13.329412778218588,
+            -6.0570729573567705
+          ],
+          "signed_nearest_distance_m": -0.39885685592889786,
+          "euclidean_distance_m": 0.39885684847831726,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -9.221176783243815,
+            -2.035295009613037,
+            -6.185345967610677
+          ],
+          "signed_nearest_distance_m": -0.3987195733934641,
+          "euclidean_distance_m": 0.39871954917907715,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -9.464706738789877,
+            -1.961177666982015,
+            -6.070341428120931
+          ],
+          "signed_nearest_distance_m": -0.3986406438052654,
+          "euclidean_distance_m": 0.39944103360176086,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -2.974118232727051,
+            0.4464702606201172,
+            -5.8996578852335615
+          ],
+          "signed_nearest_distance_m": -0.39803347922861576,
+          "euclidean_distance_m": 0.39803346991539,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -3.228236118952433,
+            0.41294097900390625,
+            -5.905026435852051
+          ],
+          "signed_nearest_distance_m": -0.39789856392599177,
+          "euclidean_distance_m": 0.3990522623062134,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -17.77539316813151,
+            -6.863640308380127,
+            -6.757850011189778
+          ],
+          "signed_nearest_distance_m": -0.3978296536952257,
+          "euclidean_distance_m": 0.39782968163490295,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -6.785882790883382,
+            -0.5664710998535156,
+            -5.986861864725749
+          ],
+          "signed_nearest_distance_m": -0.397707162424922,
+          "euclidean_distance_m": 0.3977075219154358,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            11.113530794779459,
+            -6.524117151896159,
+            -2.9293600718180337
+          ],
+          "signed_nearest_distance_m": -0.3977005761116743,
+          "euclidean_distance_m": 0.39770057797431946,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            7.89853032430013,
+            -7.830784161885579,
+            -2.978287617365519
+          ],
+          "signed_nearest_distance_m": -0.3975123558193445,
+          "euclidean_distance_m": 0.39751237630844116,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -18.452261606852215,
+            -25.14451026916504,
+            -6.921095848083496
+          ],
+          "signed_nearest_distance_m": -0.3974708020687103,
+          "euclidean_distance_m": 0.3974708020687103,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            0.3717656930287679,
+            -10.927059173583984,
+            -6.07332197825114
+          ],
+          "signed_nearest_distance_m": -0.3972645066678524,
+          "euclidean_distance_m": 0.3972644805908203,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            12.382675488789877,
+            -6.1412638028462725,
+            -2.9102140267690024
+          ],
+          "signed_nearest_distance_m": -0.3968831328675151,
+          "euclidean_distance_m": 0.396883100271225,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -12.516867955525717,
+            -21.18587303161621,
+            -6.675132592519124
+          ],
+          "signed_nearest_distance_m": -0.39644328504800797,
+          "euclidean_distance_m": 0.39644330739974976,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -8.919600486755371,
+            -18.368248621622723,
+            -6.605178991953532
+          ],
+          "signed_nearest_distance_m": -0.39623432233929634,
+          "euclidean_distance_m": 0.39623430371284485,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -12.196401278177897,
+            -20.93674914042155,
+            -6.66803503036499
+          ],
+          "signed_nearest_distance_m": -0.3961314260959625,
+          "euclidean_distance_m": 0.3969408869743347,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -6.224706331888835,
+            -0.4711772600809733,
+            -6.093453566233317
+          ],
+          "signed_nearest_distance_m": -0.39607653580605984,
+          "euclidean_distance_m": 0.396076500415802,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        },
+        {
+          "point": [
+            -10.978823979695639,
+            -2.9047069549560547,
+            -6.535910606384277
+          ],
+          "signed_nearest_distance_m": -0.39591883920365945,
+          "euclidean_distance_m": 0.3959188163280487,
+          "rock": "SITE_Continuous_BearRun_Terrain"
+        }
+      ]
+    }
+  },
+  "limitations": "Nearest normal signs are contact diagnostics, not a complete inside predicate for open terrain. Worst core examples have independent three-ray parity counts. Layer centroid sampling is every third eligible triangle; all falling vertex/centroid points tested.",
+  "source_unchanged": true
+}

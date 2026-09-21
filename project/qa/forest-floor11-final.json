@@ -1,0 +1,41 @@
+{
+  "status": "READY_FOR_ROOT_SAME_VIEW_RENDER_VISUAL_NOT_RUN",
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_forest_floor_candidate11a.blend",
+  "sha256": "5bc4e480237bfa202b205370aea647e4501797ec46e8e335b5106f4ca9fc1d27",
+  "helper_sha256": "87205666e7338cd35886a51bede1b56585d1b3797d3290e92dc128fc31fc0009",
+  "source_sha256": "2a7630b8024c37bd768e563236807f8049469172c7e44b03379a450f91637063",
+  "compared_objects": 23315,
+  "only_object_change": [
+    "SITE_Continuous_BearRun_Terrain.material_slots[0]"
+  ],
+  "reopen": {
+    "status": "PASS_FRESH_REOPEN_MATERIAL_SLOT_AND_DEPENDENCIES",
+    "candidate_sha256": "5bc4e480237bfa202b205370aea647e4501797ec46e8e335b5106f4ca9fc1d27",
+    "full_snapshot_equal_after_explicit_save_normalization": true,
+    "serialization_differences": {
+      "new_image_path_slashes": [
+        "FLOOR11_forrest_ground_01_diff",
+        "FLOOR11_forrest_ground_01_disp",
+        "FLOOR11_forrest_ground_01_rough",
+        "FLOOR11_leaves_forest_ground_diff",
+        "FLOOR11_leaves_forest_ground_disp",
+        "FLOOR11_leaves_forest_ground_rough"
+      ],
+      "unreferenced_source_material_not_saved": "FW_Continuous_Forest_Floor",
+      "source_material_referenced_only_by": [
+        "SITE_Continuous_BearRun_Terrain"
+      ],
+      "original_material_preserved_in_frozen_source_sha256": "2a7630b8024c37bd768e563236807f8049469172c7e44b03379a450f91637063"
+    },
+    "shader_equal": true,
+    "image_files_unchanged": true,
+    "rendered": false,
+    "saved": false
+  },
+  "camera_settings": "qa/forest-floor11-camera-settings.json",
+  "camera_settings_sha256": "91638ead0d0ce12124e634ce5d08441480e781e4501bf87e83bf96abf274bc54",
+  "frame_for_comparison": 48,
+  "rendered": false,
+  "production_installed": false,
+  "handoff": "qa/forest-floor11-handoff.md"
+}

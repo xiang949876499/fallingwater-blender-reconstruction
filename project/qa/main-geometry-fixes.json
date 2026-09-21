@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "name": "stair2",
+      "centerline_obstacles": [],
+      "status": "PASS",
+      "limitation": "centerline samples; not a swept-body navigation test"
+    },
+    {
+      "name": "pool_stair",
+      "centerline_obstacles": [],
+      "status": "PASS",
+      "limitation": "centerline samples; not a swept-body navigation test"
+    },
+    {
+      "name": "hatch",
+      "centerline_obstacles": [],
+      "status": "PASS",
+      "limitation": "centerline samples; not a swept-body navigation test"
+    }
+  ],
+  "pool_opening": {
+    "first_hit": "MAIN_B_plunge_water",
+    "world_z": -2.700000047683716,
+    "status": "PASS"
+  },
+  "door_clearances": {
+    "MAIN_L1_east_terrace_access": 0.785,
+    "MAIN_L1_southeast_door": 0.838,
+    "MAIN_L1_west_terrace_door_n": 0.997,
+    "MAIN_L1_west_terrace_door_s": 0.865,
+    "MAIN_L2_dressing_terrace": 0.652,
+    "MAIN_L2_guest_east": 0.684,
+    "MAIN_L2_master_south": 0.783,
+    "MAIN_L2_north_terrace_door": 0.905,
+    "MAIN_L3_gallery_south": 0.696
+  },
+  "minimum_terrace_door_m": 0.6522999999999997
+}

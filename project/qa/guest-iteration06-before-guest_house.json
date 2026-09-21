@@ -1,0 +1,3776 @@
+{
+  "version": 1,
+  "basis": "HABS PA-5346-A circa 2010, guest sheets 1–4; true 2010 theater use",
+  "registration": {
+    "image": "guest-01-original.tif, normalized to 1024×790",
+    "origin_px": [
+      325,
+      422
+    ],
+    "meters_per_pixel": [
+      0.05256,
+      0.05272
+    ],
+    "world_origin": [
+      3.4,
+      37.1,
+      8.4
+    ],
+    "evidence": "A/C: site2 sheet scale and homologous roof/service corner constrain XY; absolute guest datum C",
+    "scan_original_size": [
+      17673,
+      13632
+    ],
+    "uncertainty_m": 0.12,
+    "calibration": {
+      "x": {
+        "dimension": "31′6⅝″",
+        "meters": 9.617075,
+        "endpoints_normalized_px": [
+          [
+            698.1,
+            529
+          ],
+          [
+            880.9,
+            529
+          ]
+        ],
+        "derived_m_per_px": 0.05260981947483588,
+        "uncertainty_px": 1.0,
+        "source": "guest sheet1 bottom pool exterior chain"
+      },
+      "y": {
+        "dimension": "50′10¼″",
+        "meters": 15.50035,
+        "endpoints_normalized_px": [
+          [
+            159,
+            126.3
+          ],
+          [
+            159,
+            420.4
+          ]
+        ],
+        "derived_m_per_px": 0.052704352261135665,
+        "uncertainty_px": 1.0,
+        "source": "guest sheet1 west vertical chain"
+      },
+      "selected_scaling_note": "Rounded independent X/Y scale .05256,.05272; source JPEG/raw resampling introduces about1px tracing uncertainty."
+    },
+    "world_origin_uncertainty_m": [
+      0.25,
+      0.35,
+      1.0
+    ],
+    "site_registration": {
+      "source": "HABS PA-5346 main sheet2, original TIFF viewed via site-02-review.jpg",
+      "normalized_site_origin_px": [
+        507,
+        476
+      ],
+      "guest_service_southeast_px": [
+        533,
+        193
+      ],
+      "meters_per_pixel": 0.131,
+      "computed_origin_xy_m": [
+        3.406,
+        37.073
+      ],
+      "selected_origin_xy_m": [
+        3.4,
+        37.1
+      ],
+      "note": "Root supplied main origin; source site roof/service corner differs slightly from first-floor wall-face trace; retain XY uncertainty."
+    },
+    "absolute_z_review": {
+      "selected_m": 8.4,
+      "range_m": [
+        7.4,
+        9.4
+      ],
+      "evidence": "C",
+      "reviewed": [
+        "guest sheet4 full original west elevation",
+        "guest sheet4 original section looking north",
+        "main sheet8 west/north elevations JPEG",
+        "main sheet9 east elevation JPEG",
+        "main sheet10 sections JPEG and research level crops",
+        "main sheet11 detail sheet JPEG"
+      ],
+      "finding": "No shared numerical cross-building benchmark located. Guest main-level0′0 belongs to its own sheet datum. Main11 contains fireplace, lamp, hatch and desk details, not a cross-building level survey. Partial stepped canopies in main8/guest4 give qualitative uphill correspondence but are insufficient to claim measured absolute Z."
+    }
+  },
+  "levels": {
+    "B1": {
+      "offset": -2.36,
+      "height": 2.18,
+      "evidence": "C section-derived preliminary"
+    },
+    "L1": {
+      "offset": 0,
+      "height": 2.16,
+      "evidence": "A/C: first-floor roof aligned beneath surveyed upper level2.352675; clear height2.16 inferred from slab"
+    },
+    "L2": {
+      "offset": 2.352675,
+      "height": 2.12,
+      "evidence": "A: second level7′8⅝″ sheet4; clear height C"
+    }
+  },
+  "rooms": [
+    {
+      "id": "GUEST_L1_THEATER",
+      "label": "Theater (2010 surveyed use)",
+      "level": "L1",
+      "polygon": [
+        [
+          199,
+          128
+        ],
+        [
+          273,
+          85
+        ],
+        [
+          319,
+          163
+        ],
+        [
+          319,
+          241
+        ],
+        [
+          269,
+          268
+        ],
+        [
+          254,
+          248
+        ],
+        [
+          226,
+          265
+        ],
+        [
+          198,
+          222
+        ],
+        [
+          218,
+          211
+        ],
+        [
+          189,
+          171
+        ]
+      ],
+      "center": [
+        269,
+        202
+      ],
+      "entry": [
+        243,
+        256
+      ],
+      "kind": "theater",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained.",
+      "furniture": []
+    },
+    {
+      "id": "GUEST_L1_CAR_COURT",
+      "label": "Car Court",
+      "level": "L1",
+      "polygon": [
+        [
+          174,
+          290
+        ],
+        [
+          227,
+          267
+        ],
+        [
+          254,
+          249
+        ],
+        [
+          287,
+          320
+        ],
+        [
+          326,
+          326
+        ],
+        [
+          325,
+          347
+        ],
+        [
+          207,
+          347
+        ],
+        [
+          176,
+          365
+        ]
+      ],
+      "center": [
+        245,
+        319
+      ],
+      "entry": [
+        184,
+        310
+      ],
+      "kind": "exterior",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "label": "Chauffeur's Lounge",
+      "level": "L1",
+      "polygon": [
+        [
+          196,
+          366
+        ],
+        [
+          207,
+          355
+        ],
+        [
+          282,
+          355
+        ],
+        [
+          282,
+          416
+        ],
+        [
+          196,
+          416
+        ]
+      ],
+      "center": [
+        240,
+        390
+      ],
+      "entry": [
+        283,
+        359.75
+      ],
+      "kind": "lounge",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L1_BOILER",
+      "label": "Boiler Room",
+      "level": "L1",
+      "polygon": [
+        [
+          328.2,
+          318.8110773899848
+        ],
+        [
+          375.30593607305934,
+          318.8110773899848
+        ],
+        [
+          375.30593607305934,
+          345.1
+        ],
+        [
+          328.2,
+          345.1
+        ]
+      ],
+      "center": [
+        352.15296803652967,
+        331.9055386949924
+      ],
+      "entry": [
+        328.2,
+        334.7
+      ],
+      "kind": "utility",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L1_STAIR_HALL",
+      "label": "Service Stair Hall",
+      "level": "L1",
+      "polygon": [
+        [
+          284,
+          347
+        ],
+        [
+          325,
+          347
+        ],
+        [
+          325,
+          476
+        ],
+        [
+          284,
+          476
+        ]
+      ],
+      "center": [
+        306,
+        425
+      ],
+      "entry": [
+        298,
+        348
+      ],
+      "kind": "circulation",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L1_LOUNGE",
+      "label": "Lounge",
+      "level": "L1",
+      "polygon": [
+        [
+          346,
+          365
+        ],
+        [
+          440,
+          365
+        ],
+        [
+          440,
+          397
+        ],
+        [
+          475,
+          397
+        ],
+        [
+          475,
+          430
+        ],
+        [
+          440,
+          430
+        ],
+        [
+          440,
+          441
+        ],
+        [
+          336,
+          441
+        ],
+        [
+          336,
+          376
+        ],
+        [
+          346,
+          376
+        ]
+      ],
+      "center": [
+        383,
+        394
+      ],
+      "entry": [
+        335,
+        430
+      ],
+      "kind": "lounge",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained.",
+      "furniture": [
+        {
+          "type": "sofa",
+          "center": [
+            386,
+            430
+          ],
+          "width": 4.5,
+          "depth": 0.78,
+          "angle": 180
+        },
+        {
+          "type": "table",
+          "center": [
+            388,
+            408
+          ],
+          "width": 1.55,
+          "depth": 0.8,
+          "angle": 0
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_GALLERY",
+      "label": "Guest room connecting gallery",
+      "level": "L1",
+      "polygon": [
+        [
+          441,
+          357
+        ],
+        [
+          538.8592085235921,
+          357
+        ],
+        [
+          538.8592085235921,
+          381
+        ],
+        [
+          506,
+          381
+        ],
+        [
+          506,
+          394
+        ],
+        [
+          442,
+          394
+        ]
+      ],
+      "center": [
+        478,
+        374
+      ],
+      "entry": [
+        442,
+        379
+      ],
+      "kind": "circulation",
+      "sheet": 1,
+      "notes": "Unlabelled open circulation traced between LOUNGE and GUEST ROOM, not an invented enclosed room."
+    },
+    {
+      "id": "GUEST_L1_BATH",
+      "label": "Guest Bath",
+      "level": "L1",
+      "polygon": [
+        [
+          479,
+          399
+        ],
+        [
+          502,
+          399
+        ],
+        [
+          502,
+          385
+        ],
+        [
+          534.8592085235921,
+          385
+        ],
+        [
+          534.8592085235921,
+          435.2078907435508
+        ],
+        [
+          479,
+          435.2078907435508
+        ]
+      ],
+      "center": [
+        514,
+        416
+      ],
+      "entry": [
+        496,
+        399
+      ],
+      "kind": "bath",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained.",
+      "furniture": []
+    },
+    {
+      "id": "GUEST_L1_GUEST_ROOM",
+      "label": "Guest Room",
+      "level": "L1",
+      "polygon": [
+        [
+          538.9592085235921,
+          354.1
+        ],
+        [
+          629.8,
+          354.1
+        ],
+        [
+          629.8,
+          435.2078907435508
+        ],
+        [
+          538.9592085235921,
+          435.2078907435508
+        ]
+      ],
+      "center": [
+        584.429604261796,
+        395.6039453717754
+      ],
+      "entry": [
+        537.8592085235921,
+        374
+      ],
+      "kind": "bedroom",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained.",
+      "furniture": [
+        {
+          "type": "bed",
+          "center": [
+            565,
+            379
+          ],
+          "width": 1.1,
+          "depth": 1.98,
+          "angle": 0
+        },
+        {
+          "type": "bed",
+          "center": [
+            599,
+            379
+          ],
+          "width": 1.1,
+          "depth": 1.98,
+          "angle": 0
+        },
+        {
+          "type": "cabinet",
+          "center": [
+            566,
+            428.2078907435508
+          ],
+          "width": 2.75,
+          "depth": 0.42,
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_TERRACE",
+      "label": "Pool and guest room Terrace",
+      "level": "L1",
+      "polygon": [
+        [
+          326,
+          444
+        ],
+        [
+          446,
+          444
+        ],
+        [
+          446,
+          439.30789074355084
+        ],
+        [
+          634,
+          439.30789074355084
+        ],
+        [
+          634,
+          357
+        ],
+        [
+          854,
+          357
+        ],
+        [
+          865,
+          365
+        ],
+        [
+          865,
+          417
+        ],
+        [
+          697,
+          417
+        ],
+        [
+          697,
+          472
+        ],
+        [
+          326,
+          472
+        ]
+      ],
+      "center": [
+        651,
+        451
+      ],
+      "entry": [
+        635,
+        389
+      ],
+      "kind": "terrace",
+      "sheet": 1,
+      "notes": "Flat terrace census excludes sourceX697+ south ofY417, which belongs to raised pool coping/stairs/planter/water. Original failing point(730.25,443.25) is in pool region; no flat slab added over it. Guest/bath south facade moved to clear printed room dimensions; terrace census follows south exterior face plus trace margin, pool exclusion retained."
+    },
+    {
+      "id": "GUEST_L1_POOL",
+      "label": "Pool",
+      "level": "L1",
+      "polygon": [
+        [
+          706,
+          428
+        ],
+        [
+          869,
+          428
+        ],
+        [
+          875,
+          438
+        ],
+        [
+          875,
+          493
+        ],
+        [
+          868,
+          500
+        ],
+        [
+          705,
+          500
+        ],
+        [
+          699,
+          493
+        ],
+        [
+          699,
+          433
+        ]
+      ],
+      "center": [
+        793,
+        464
+      ],
+      "entry": [
+        710,
+        443
+      ],
+      "kind": "pool",
+      "sheet": 1,
+      "notes": "Nominal surveyed water-plan label 30′1″ × 13′0″. Pool floor/water elevations initially C.",
+      "eye_height": 1.5
+    },
+    {
+      "id": "GUEST_B1_LAUNDRY",
+      "label": "Laundry Room",
+      "level": "B1",
+      "polygon": [
+        [
+          220,
+          350.60971168437027
+        ],
+        [
+          282.8,
+          350.60971168437027
+        ],
+        [
+          282.8,
+          417.4
+        ],
+        [
+          226.91263318112635,
+          417.4
+        ],
+        [
+          226.91263318112635,
+          376.1165402124431
+        ],
+        [
+          194.61811263318114,
+          376.1165402124431
+        ],
+        [
+          194.61811263318114,
+          364.5
+        ]
+      ],
+      "center": [
+        255.6,
+        390
+      ],
+      "entry": [
+        282.8,
+        365
+      ],
+      "kind": "laundry",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained. Corrected finished-face dimensions and adjacent envelope from sheet1 labels; east stairs and entrance retained. See qa/guest-dimension-fixes.json.",
+      "furniture": []
+    },
+    {
+      "id": "GUEST_B1_BATH",
+      "label": "Basement Bath",
+      "level": "B1",
+      "polygon": [
+        [
+          194.74811263318114,
+          378.84654021244313
+        ],
+        [
+          224.18263318112633,
+          378.84654021244313
+        ],
+        [
+          224.18263318112633,
+          417.34
+        ],
+        [
+          194.74811263318114,
+          417.34
+        ]
+      ],
+      "center": [
+        209.46537290715372,
+        398.70827010622156
+      ],
+      "entry": [
+        224.11263318112634,
+        387.66
+      ],
+      "kind": "bath",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained. Corrected finished-face dimensions and adjacent envelope from sheet1 labels; east stairs and entrance retained. See qa/guest-dimension-fixes.json."
+    },
+    {
+      "id": "GUEST_B1_STAIR",
+      "label": "Basement Stair",
+      "level": "B1",
+      "polygon": [
+        [
+          284,
+          364
+        ],
+        [
+          302,
+          364
+        ],
+        [
+          302,
+          405
+        ],
+        [
+          284,
+          405
+        ]
+      ],
+      "center": [
+        294,
+        388
+      ],
+      "entry": [
+        284,
+        366
+      ],
+      "kind": "circulation",
+      "sheet": 1,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_SOUTH",
+      "label": "Single Room — south",
+      "level": "L2",
+      "polygon": [
+        [
+          199,
+          358
+        ],
+        [
+          283,
+          358
+        ],
+        [
+          283,
+          419
+        ],
+        [
+          199,
+          419
+        ]
+      ],
+      "center": [
+        239,
+        390
+      ],
+      "entry": [
+        281,
+        365
+      ],
+      "kind": "bedroom",
+      "sheet": 2,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_MIDDLE",
+      "label": "Single Room — middle",
+      "level": "L2",
+      "polygon": [
+        [
+          199,
+          287
+        ],
+        [
+          283,
+          287
+        ],
+        [
+          283,
+          350
+        ],
+        [
+          199,
+          350
+        ]
+      ],
+      "center": [
+        240,
+        319
+      ],
+      "entry": [
+        281,
+        292
+      ],
+      "kind": "bedroom",
+      "sheet": 2,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_NORTH",
+      "label": "Double Room — north",
+      "level": "L2",
+      "polygon": [
+        [
+          200,
+          207
+        ],
+        [
+          284,
+          207
+        ],
+        [
+          284,
+          279
+        ],
+        [
+          200,
+          279
+        ]
+      ],
+      "center": [
+        241,
+        244
+      ],
+      "entry": [
+        283,
+        273.6
+      ],
+      "kind": "bedroom",
+      "sheet": 2,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L2_BATH",
+      "label": "Service Bath",
+      "level": "L2",
+      "polygon": [
+        [
+          290,
+          208
+        ],
+        [
+          323,
+          208
+        ],
+        [
+          323,
+          263
+        ],
+        [
+          290,
+          263
+        ]
+      ],
+      "center": [
+        307,
+        239
+      ],
+      "entry": [
+        306,
+        263
+      ],
+      "kind": "bath",
+      "sheet": 2,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L2_HALL",
+      "label": "Service upstairs Hall",
+      "level": "L2",
+      "polygon": [
+        [
+          286,
+          267
+        ],
+        [
+          325,
+          267
+        ],
+        [
+          325,
+          351
+        ],
+        [
+          306,
+          351
+        ],
+        [
+          306,
+          404
+        ],
+        [
+          325,
+          404
+        ],
+        [
+          325,
+          416
+        ],
+        [
+          286,
+          416
+        ]
+      ],
+      "center": [
+        307,
+        317
+      ],
+      "entry": [
+        310,
+        402
+      ],
+      "kind": "circulation",
+      "sheet": 2,
+      "notes": "Manual HABS trace; openings and graph retained."
+    },
+    {
+      "id": "GUEST_L2_TERRACE",
+      "label": "Service upper Terrace",
+      "level": "L2",
+      "polygon": [
+        [
+          199,
+          125
+        ],
+        [
+          273,
+          83
+        ],
+        [
+          324,
+          163
+        ],
+        [
+          324,
+          200
+        ],
+        [
+          199,
+          200
+        ]
+      ],
+      "center": [
+        257,
+        167
+      ],
+      "entry": [
+        237,
+        201
+      ],
+      "kind": "terrace",
+      "sheet": 2,
+      "notes": "Manual HABS trace; openings and graph retained."
+    }
+  ],
+  "slabs": [
+    {
+      "id": "GUEST_L1_MAIN_FLOOR",
+      "polygon": [
+        [
+          326,
+          350
+        ],
+        [
+          856,
+          350
+        ],
+        [
+          879,
+          364
+        ],
+        [
+          923,
+          364
+        ],
+        [
+          923,
+          372
+        ],
+        [
+          869,
+          372
+        ],
+        [
+          869,
+          418
+        ],
+        [
+          699,
+          418
+        ],
+        [
+          699,
+          475
+        ],
+        [
+          326,
+          475
+        ]
+      ],
+      "level": "L1",
+      "thickness": 0.23
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_FLOOR",
+      "polygon": [
+        [
+          193,
+          364
+        ],
+        [
+          207,
+          350
+        ],
+        [
+          284,
+          350
+        ],
+        [
+          284,
+          421
+        ],
+        [
+          193,
+          421
+        ]
+      ],
+      "level": "L1",
+      "thickness": 0.24
+    },
+    {
+      "id": "GUEST_L1_HALL_SOUTH",
+      "polygon": [
+        [
+          284,
+          404
+        ],
+        [
+          326,
+          404
+        ],
+        [
+          326,
+          476
+        ],
+        [
+          284,
+          476
+        ]
+      ],
+      "level": "L1",
+      "thickness": 0.22
+    },
+    {
+      "id": "GUEST_L1_HALL_NORTH",
+      "polygon": [
+        [
+          284,
+          319
+        ],
+        [
+          326,
+          319
+        ],
+        [
+          326,
+          351
+        ],
+        [
+          284,
+          351
+        ]
+      ],
+      "level": "L1",
+      "thickness": 0.22
+    },
+    {
+      "id": "GUEST_L1_CAR_COURT",
+      "polygon": [
+        [
+          171,
+          291
+        ],
+        [
+          251,
+          246
+        ],
+        [
+          290,
+          320
+        ],
+        [
+          326,
+          320
+        ],
+        [
+          326,
+          350
+        ],
+        [
+          207,
+          350
+        ],
+        [
+          175,
+          369
+        ]
+      ],
+      "level": "L1",
+      "thickness": 0.2
+    },
+    {
+      "id": "GUEST_L1_THEATER_FLOOR",
+      "polygon": [
+        [
+          192,
+          125
+        ],
+        [
+          274,
+          77
+        ],
+        [
+          325,
+          162
+        ],
+        [
+          325,
+          326
+        ],
+        [
+          288,
+          326
+        ],
+        [
+          251,
+          249
+        ],
+        [
+          228,
+          265
+        ],
+        [
+          195,
+          218
+        ]
+      ],
+      "level": "L1",
+      "thickness": 0.25
+    },
+    {
+      "id": "GUEST_L1_BOILER_FLOOR",
+      "polygon": [
+        [
+          326,
+          315.8110773899848
+        ],
+        [
+          378.30593607305934,
+          315.8110773899848
+        ],
+        [
+          378.30593607305934,
+          348
+        ],
+        [
+          326,
+          348
+        ]
+      ],
+      "level": "L1",
+      "thickness": 0.21
+    },
+    {
+      "id": "GUEST_B1_FLOOR",
+      "polygon": [
+        [
+          175.36862633181127,
+          364
+        ],
+        [
+          219,
+          347.9097116843703
+        ],
+        [
+          285,
+          347.9097116843703
+        ],
+        [
+          285,
+          420
+        ],
+        [
+          175.36862633181127,
+          420
+        ]
+      ],
+      "level": "B1",
+      "thickness": 0.18
+    },
+    {
+      "id": "GUEST_B1_STAIR_LANDING",
+      "polygon": [
+        [
+          284,
+          358
+        ],
+        [
+          304,
+          358
+        ],
+        [
+          304,
+          371
+        ],
+        [
+          284,
+          371
+        ]
+      ],
+      "level": "B1",
+      "thickness": 0.18
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_FLOOR",
+      "polygon": [
+        [
+          194,
+          201
+        ],
+        [
+          287,
+          201
+        ],
+        [
+          287,
+          422
+        ],
+        [
+          194,
+          422
+        ]
+      ],
+      "level": "L2",
+      "thickness": 0.21
+    },
+    {
+      "id": "GUEST_L2_CORRIDOR_FLOOR",
+      "polygon": [
+        [
+          287,
+          204
+        ],
+        [
+          326,
+          204
+        ],
+        [
+          326,
+          351
+        ],
+        [
+          287,
+          351
+        ]
+      ],
+      "level": "L2",
+      "thickness": 0.21,
+      "notes": "P1 fix: service-stair void starts at drawingY351, before first riserY354. No floor above lower ascent."
+    },
+    {
+      "id": "GUEST_L2_STAIR_TOP_LANDING",
+      "polygon": [
+        [
+          287,
+          404
+        ],
+        [
+          326,
+          404
+        ],
+        [
+          326,
+          422
+        ],
+        [
+          287,
+          422
+        ]
+      ],
+      "level": "L2",
+      "thickness": 0.21
+    },
+    {
+      "id": "GUEST_L2_NORTH_TERRACE",
+      "polygon": [
+        [
+          194,
+          125
+        ],
+        [
+          274,
+          77
+        ],
+        [
+          326,
+          162
+        ],
+        [
+          326,
+          204
+        ],
+        [
+          194,
+          204
+        ]
+      ],
+      "level": "L2",
+      "thickness": 0.21
+    },
+    {
+      "id": "GUEST_L2_STAIR_PASSAGE",
+      "polygon": [
+        [
+          287,
+          351
+        ],
+        [
+          306,
+          351
+        ],
+        [
+          306,
+          404
+        ],
+        [
+          287,
+          404
+        ]
+      ],
+      "level": "L2",
+      "thickness": 0.19,
+      "notes": "Continuous west return strip alongside open stair voidx306..326,y351..404; meets retained top landingy404..422."
+    },
+    {
+      "id": "GUEST_B1_CEILING_EXTENSION",
+      "level": "L1",
+      "thickness": 0.24,
+      "polygon": [
+        [
+          175.36862633181127,
+          364
+        ],
+        [
+          219,
+          347.9097116843703
+        ],
+        [
+          285,
+          347.9097116843703
+        ],
+        [
+          285,
+          350
+        ],
+        [
+          207,
+          350
+        ],
+        [
+          193,
+          364
+        ],
+        [
+          193,
+          420
+        ],
+        [
+          175.36862633181127,
+          420
+        ]
+      ],
+      "notes": "Below-grade basement extension follows printed room dimensions and18ft9 7/8in overall width; top remains guest L1datum, no room above this extension."
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_DOOR_LANDING",
+      "polygon": [
+        [
+          284,
+          351
+        ],
+        [
+          306,
+          351
+        ],
+        [
+          306,
+          369
+        ],
+        [
+          284,
+          369
+        ]
+      ],
+      "level": "L1",
+      "thickness": 0.18,
+      "reference": "HABS guest1: unhatched flagstone vestibule north of basement descent; ends before descending run",
+      "evidence": "A plan topology / C pixel trace"
+    }
+  ],
+  "walls": [
+    {
+      "id": "GUEST_L1_NORTH_STONE_SPINE",
+      "a": [
+        378,
+        350
+      ],
+      "b": [
+        857,
+        350
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.42,
+      "openings": [],
+      "height": 2.12725
+    },
+    {
+      "id": "GUEST_L1_WEST_LOUNGE",
+      "a": [
+        330,
+        363
+      ],
+      "b": [
+        330,
+        440
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.32,
+      "openings": [
+        {
+          "span": [
+            0,
+            0.1584415584415583
+          ],
+          "type": "firebox",
+          "sill": 0.2,
+          "head": 1.08,
+          "reference": "Guest1 NW lounge corner cutout + guest4 section + HABS A11; real void with west/north back walls built separately",
+          "evidence": "B form / C opening height"
+        },
+        {
+          "span": [
+            0.68,
+            0.94
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1,
+          "leaf": false
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_LOUNGE_FRONT",
+      "a": [
+        331,
+        442
+      ],
+      "b": [
+        444,
+        442
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.18,
+      "openings": [
+        {
+          "span": [
+            0.04,
+            0.96
+          ],
+          "type": "window",
+          "sill": 0.28,
+          "head": 2.1,
+          "divisions": 7
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_LOUNGE_EAST_PIER",
+      "a": [
+        444,
+        397
+      ],
+      "b": [
+        444,
+        442
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.23,
+      "openings": [
+        {
+          "span": [
+            0.1,
+            0.54
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1,
+          "leaf": false
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_BATH_WEST",
+      "a": [
+        477,
+        397
+      ],
+      "b": [
+        477,
+        437.2078907435508
+      ],
+      "level": "L1",
+      "material": "plaster",
+      "thickness": 0.16,
+      "openings": [],
+      "interior_finish": {
+        "material": "cork",
+        "side": 1,
+        "room_id": "GUEST_L1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L1_BATH_NORTH_TUB",
+      "a": [
+        477,
+        397
+      ],
+      "b": [
+        504,
+        397
+      ],
+      "level": "L1",
+      "material": "plaster",
+      "thickness": 0.16,
+      "openings": [
+        {
+          "span": [
+            0.56,
+            0.98
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1
+        }
+      ],
+      "interior_finish": {
+        "material": "cork",
+        "side": -1,
+        "room_id": "GUEST_L1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L1_BATH_WC_NORTH",
+      "a": [
+        504,
+        383
+      ],
+      "b": [
+        536.8592085235921,
+        383
+      ],
+      "level": "L1",
+      "material": "plaster",
+      "thickness": 0.17,
+      "openings": [],
+      "interior_finish": {
+        "material": "cork",
+        "side": -1,
+        "room_id": "GUEST_L1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L1_BATH_WC_WEST",
+      "a": [
+        504,
+        383
+      ],
+      "b": [
+        504,
+        397
+      ],
+      "level": "L1",
+      "material": "plaster",
+      "thickness": 0.15,
+      "openings": [],
+      "interior_finish": {
+        "material": "cork",
+        "side": 1,
+        "room_id": "GUEST_L1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L1_BATH_EAST",
+      "a": [
+        536.8592085235921,
+        383
+      ],
+      "b": [
+        536.8592085235921,
+        437.2078907435508
+      ],
+      "level": "L1",
+      "material": "plaster",
+      "thickness": 0.18,
+      "openings": [],
+      "interior_finish": {
+        "material": "cork",
+        "side": -1,
+        "room_id": "GUEST_L1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L1_BATH_SOUTH",
+      "a": [
+        477,
+        437.2078907435508
+      ],
+      "b": [
+        536.8592085235921,
+        437.2078907435508
+      ],
+      "level": "L1",
+      "material": "plaster",
+      "thickness": 0.18,
+      "openings": [],
+      "interior_finish": {
+        "material": "cork",
+        "side": 1,
+        "room_id": "GUEST_L1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L1_BED_FRONT",
+      "a": [
+        536.8592085235921,
+        437.2078907435508
+      ],
+      "b": [
+        632,
+        437.2078907435508
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.19,
+      "openings": [
+        {
+          "span": [
+            0.03,
+            0.91
+          ],
+          "type": "window",
+          "sill": 0.65,
+          "head": 2.1,
+          "divisions": 6
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_BED_EAST",
+      "a": [
+        632,
+        354
+      ],
+      "b": [
+        632,
+        437.2078907435508
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.22,
+      "openings": [
+        {
+          "span": [
+            0.22497866287339974,
+            0.6093172119487911
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1,
+          "leaf": false
+        },
+        {
+          "span": [
+            0.637439544807966,
+            0.8905405405405407
+          ],
+          "type": "window",
+          "sill": 0.65,
+          "head": 2.1,
+          "divisions": 2
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_POOL_BACK",
+      "a": [
+        857,
+        350
+      ],
+      "b": [
+        882,
+        364
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.3,
+      "openings": [],
+      "height": 2.12725
+    },
+    {
+      "id": "GUEST_L1_POOL_BACK_END",
+      "a": [
+        882,
+        364
+      ],
+      "b": [
+        922,
+        364
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.3,
+      "openings": [],
+      "height": 2.12725
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_WEST",
+      "a": [
+        192,
+        364
+      ],
+      "b": [
+        192,
+        421
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.29,
+      "openings": [
+        {
+          "span": [
+            0.1,
+            0.87
+          ],
+          "type": "window",
+          "sill": 0.51,
+          "head": 2.1,
+          "divisions": 4
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_NORTH_BEVEL",
+      "a": [
+        192,
+        364
+      ],
+      "b": [
+        208,
+        351
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.36,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_NORTH",
+      "a": [
+        208,
+        351
+      ],
+      "b": [
+        284,
+        351
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.24,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_EAST",
+      "a": [
+        284,
+        351
+      ],
+      "b": [
+        284,
+        421
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.21,
+      "openings": [
+        {
+          "span": [
+            0.007142857142857143,
+            0.24285714285714285
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1,
+          "reference": "Guest sheet1 original: open north end of east wall, y351.5..368; C tracing ~1px",
+          "swing": -1
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_SOUTH",
+      "a": [
+        192,
+        421
+      ],
+      "b": [
+        284,
+        421
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.26,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_SERVICE_EAST",
+      "a": [
+        326,
+        349
+      ],
+      "b": [
+        326,
+        423
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.29,
+      "openings": [
+        {
+          "span": [
+            0.38,
+            0.66
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1,
+          "leaf": false
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_BOILER_NORTH",
+      "a": [
+        326,
+        315.8110773899848
+      ],
+      "b": [
+        378.30593607305934,
+        315.8110773899848
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.3,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_BOILER_EAST",
+      "a": [
+        378.30593607305934,
+        315.8110773899848
+      ],
+      "b": [
+        378.30593607305934,
+        348
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.3,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_BOILER_SOUTH",
+      "a": [
+        326,
+        348
+      ],
+      "b": [
+        378.30593607305934,
+        348
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.3,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_BOILER_WEST",
+      "a": [
+        326,
+        315.8110773899848
+      ],
+      "b": [
+        326,
+        348
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.22,
+      "openings": [
+        {
+          "span": [
+            0.3476016499705367,
+            0.8260271066588091
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 1.98
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_THEATER_DIAGONAL_BACK",
+      "a": [
+        190,
+        126
+      ],
+      "b": [
+        275,
+        77
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.38,
+      "openings": [
+        {
+          "span": [
+            0.1,
+            0.87
+          ],
+          "type": "window",
+          "sill": 0.72,
+          "head": 2.1,
+          "divisions": 5
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_THEATER_NORTHEAST",
+      "a": [
+        275,
+        77
+      ],
+      "b": [
+        325,
+        163
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.39,
+      "openings": [
+        {
+          "span": [
+            0.1,
+            0.92
+          ],
+          "type": "window",
+          "sill": 0.68,
+          "head": 2.1,
+          "divisions": 5
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_THEATER_EAST",
+      "a": [
+        325,
+        163
+      ],
+      "b": [
+        325,
+        326
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.41,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_THEATER_SOUTHEAST",
+      "a": [
+        325,
+        326
+      ],
+      "b": [
+        287,
+        326
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.3,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_THEATER_SOUTH_DIAGONAL",
+      "a": [
+        287,
+        326
+      ],
+      "b": [
+        254,
+        249
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.29,
+      "openings": [
+        {
+          "span": [
+            0.09,
+            0.9
+          ],
+          "type": "window",
+          "sill": 0.72,
+          "head": 2.1,
+          "divisions": 4
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_THEATER_ENTRY",
+      "a": [
+        254,
+        249
+      ],
+      "b": [
+        229,
+        266
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.19,
+      "openings": [
+        {
+          "span": [
+            0.17,
+            0.89
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1,
+          "leaf": false
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_THEATER_WEST",
+      "a": [
+        229,
+        266
+      ],
+      "b": [
+        190,
+        126
+      ],
+      "level": "L1",
+      "material": "plaster",
+      "thickness": 0.16,
+      "openings": [
+        {
+          "span": [
+            0.02,
+            0.18
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1
+        },
+        {
+          "span": [
+            0.31,
+            0.54
+          ],
+          "type": "window",
+          "sill": 0.22,
+          "head": 2.1,
+          "divisions": 3
+        },
+        {
+          "span": [
+            0.78,
+            0.92
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.1
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L1_CARPORT_RETAINED_PIER_0",
+      "a": [
+        179,
+        293
+      ],
+      "b": [
+        210,
+        276
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.44,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_CARPORT_RETAINED_PIER_1",
+      "a": [
+        182,
+        235
+      ],
+      "b": [
+        215,
+        217
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.44,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L1_CARPORT_RETAINED_PIER_2",
+      "a": [
+        189,
+        174
+      ],
+      "b": [
+        221,
+        157
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.44,
+      "openings": []
+    },
+    {
+      "id": "GUEST_B1_BASE_WEST",
+      "a": [
+        175.36862633181127,
+        364
+      ],
+      "b": [
+        175.36862633181127,
+        420
+      ],
+      "level": "B1",
+      "material": "stone",
+      "thickness": 0.27,
+      "openings": []
+    },
+    {
+      "id": "GUEST_B1_BASE_NORTH_SPLAY",
+      "a": [
+        175.36862633181127,
+        364
+      ],
+      "b": [
+        219,
+        347.9097116843703
+      ],
+      "level": "B1",
+      "material": "stone",
+      "thickness": 0.27,
+      "openings": []
+    },
+    {
+      "id": "GUEST_B1_BASE_NORTH",
+      "a": [
+        219,
+        347.9097116843703
+      ],
+      "b": [
+        285,
+        347.9097116843703
+      ],
+      "level": "B1",
+      "material": "stone",
+      "thickness": 0.28,
+      "openings": []
+    },
+    {
+      "id": "GUEST_B1_BASE_EAST",
+      "a": [
+        285,
+        347.9097116843703
+      ],
+      "b": [
+        285,
+        420
+      ],
+      "level": "B1",
+      "material": "stone",
+      "thickness": 0.22,
+      "openings": [
+        {
+          "span": [
+            0.13858022417512966,
+            0.35872083355259654
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.03
+        }
+      ]
+    },
+    {
+      "id": "GUEST_B1_BASE_SOUTH",
+      "a": [
+        175.36862633181127,
+        420
+      ],
+      "b": [
+        285,
+        420
+      ],
+      "level": "B1",
+      "material": "stone",
+      "thickness": 0.26,
+      "openings": [
+        {
+          "span": [
+            0.6,
+            0.89
+          ],
+          "type": "window",
+          "sill": 1.35,
+          "head": 1.94,
+          "divisions": 3
+        }
+      ],
+      "interior_finish": {
+        "material": "cork",
+        "side": 1,
+        "room_id": "GUEST_B1_BATH",
+        "thickness": 0.008,
+        "span": [
+          0.16372581771798217,
+          0.4582995283939798
+        ]
+      }
+    },
+    {
+      "id": "GUEST_B1_BASE_BATH_NORTH",
+      "a": [
+        193.31811263318113,
+        377.4165402124431
+      ],
+      "b": [
+        225.61263318112634,
+        377.4165402124431
+      ],
+      "level": "B1",
+      "material": "plaster",
+      "thickness": 0.13,
+      "openings": [],
+      "interior_finish": {
+        "material": "cork",
+        "side": -1,
+        "room_id": "GUEST_B1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_B1_BASE_BATH_EAST",
+      "a": [
+        225.61263318112634,
+        377.4165402124431
+      ],
+      "b": [
+        225.61263318112634,
+        420
+      ],
+      "level": "B1",
+      "material": "plaster",
+      "thickness": 0.13,
+      "openings": [
+        {
+          "span": [
+            0.04798717149220379,
+            0.43311322939866365
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.02
+        }
+      ],
+      "interior_finish": {
+        "material": "cork",
+        "side": -1,
+        "room_id": "GUEST_B1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_B1_BASE_BATH_WEST",
+      "a": [
+        193.31811263318113,
+        377.4165402124431
+      ],
+      "b": [
+        193.31811263318113,
+        420
+      ],
+      "level": "B1",
+      "material": "plaster",
+      "thickness": 0.13,
+      "openings": [],
+      "interior_finish": {
+        "material": "cork",
+        "side": 1,
+        "room_id": "GUEST_B1_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L2_UPPER_WEST",
+      "a": [
+        194,
+        202
+      ],
+      "b": [
+        194,
+        421
+      ],
+      "level": "L2",
+      "material": "plaster",
+      "thickness": 0.21,
+      "openings": [
+        {
+          "span": [
+            0.05,
+            0.3
+          ],
+          "type": "window",
+          "sill": 0.65,
+          "head": 2.08,
+          "divisions": 4
+        },
+        {
+          "span": [
+            0.42,
+            0.65
+          ],
+          "type": "window",
+          "sill": 0.65,
+          "head": 2.08,
+          "divisions": 4
+        },
+        {
+          "span": [
+            0.77,
+            0.96
+          ],
+          "type": "window",
+          "sill": 0.65,
+          "head": 2.08,
+          "divisions": 4
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L2_UPPER_SOUTH",
+      "a": [
+        194,
+        421
+      ],
+      "b": [
+        326,
+        421
+      ],
+      "level": "L2",
+      "material": "plaster",
+      "thickness": 0.22,
+      "openings": [
+        {
+          "span": [
+            0.12,
+            0.48
+          ],
+          "type": "window",
+          "sill": 0.6,
+          "head": 2.08,
+          "divisions": 4
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L2_UPPER_EAST",
+      "a": [
+        326,
+        204
+      ],
+      "b": [
+        326,
+        421
+      ],
+      "level": "L2",
+      "material": "stone",
+      "thickness": 0.27,
+      "openings": [
+        {
+          "span": [
+            0.3,
+            0.42
+          ],
+          "type": "window",
+          "sill": 0.85,
+          "head": 2.08,
+          "divisions": 3
+        }
+      ],
+      "interior_finish": {
+        "material": "cork",
+        "side": -1,
+        "room_id": "GUEST_L2_BATH",
+        "thickness": 0.008,
+        "span": [
+          0,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "id": "GUEST_L2_UPPER_NORTH",
+      "a": [
+        194,
+        202
+      ],
+      "b": [
+        326,
+        202
+      ],
+      "level": "L2",
+      "material": "plaster",
+      "thickness": 0.2,
+      "openings": [
+        {
+          "span": [
+            0.29,
+            0.48
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.08
+        }
+      ],
+      "interior_finish": {
+        "material": "cork",
+        "side": -1,
+        "room_id": "GUEST_L2_BATH",
+        "thickness": 0.008,
+        "span": [
+          0.7045454545454546,
+          1
+        ]
+      }
+    },
+    {
+      "id": "GUEST_L2_UPPER_PARTITION_1",
+      "a": [
+        194,
+        282
+      ],
+      "b": [
+        285,
+        282
+      ],
+      "level": "L2",
+      "material": "plaster",
+      "thickness": 0.16,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L2_UPPER_PARTITION_2",
+      "a": [
+        194,
+        354
+      ],
+      "b": [
+        285,
+        354
+      ],
+      "level": "L2",
+      "material": "plaster",
+      "thickness": 0.16,
+      "openings": []
+    },
+    {
+      "id": "GUEST_L2_UPPER_ROOM_EAST",
+      "a": [
+        285,
+        202
+      ],
+      "b": [
+        285,
+        421
+      ],
+      "level": "L2",
+      "material": "plaster",
+      "thickness": 0.14,
+      "openings": [
+        {
+          "span": [
+            0.29634703196347023,
+            0.3575342465753425
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.08,
+          "reference": "Guest sheet2 actual original: short hall-facing gap between bath south wall and north/middle partition; source y266.9..280.3",
+          "swing": -1
+        },
+        {
+          "span": [
+            0.4,
+            0.48
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.08
+        },
+        {
+          "span": [
+            0.71,
+            0.79
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.08
+        }
+      ]
+    },
+    {
+      "id": "GUEST_L2_UPPER_BATH_WEST",
+      "a": [
+        287,
+        202
+      ],
+      "b": [
+        287,
+        266
+      ],
+      "level": "L2",
+      "material": "plaster",
+      "thickness": 0.15,
+      "openings": [],
+      "interior_finish": {
+        "material": "cork",
+        "side": 1,
+        "room_id": "GUEST_L2_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L2_UPPER_BATH_SOUTH",
+      "a": [
+        287,
+        266
+      ],
+      "b": [
+        326,
+        266
+      ],
+      "level": "L2",
+      "material": "plaster",
+      "thickness": 0.15,
+      "openings": [
+        {
+          "span": [
+            0.22,
+            0.71
+          ],
+          "type": "door",
+          "sill": 0,
+          "head": 2.08
+        }
+      ],
+      "interior_finish": {
+        "material": "cork",
+        "side": 1,
+        "room_id": "GUEST_L2_BATH",
+        "thickness": 0.008
+      }
+    },
+    {
+      "id": "GUEST_L2_UPPER_TERRACE_DIAGONAL",
+      "a": [
+        193,
+        125
+      ],
+      "b": [
+        275,
+        77
+      ],
+      "level": "L2",
+      "material": "stone",
+      "thickness": 0.31,
+      "openings": [],
+      "height": 2.1590000000000003,
+      "reference": "HABS sheet4 west TOP OF STONE WALL14ft9 5/8in relative MAIN LEVEL0; floor SECOND LEVEL7ft8 5/8in",
+      "evidence": "A datum; B/C matching pointed upperterrace enclosure acrossplan/elevation"
+    },
+    {
+      "id": "GUEST_L2_UPPER_TERRACE_NORTHEAST",
+      "a": [
+        275,
+        77
+      ],
+      "b": [
+        326,
+        163
+      ],
+      "level": "L2",
+      "material": "stone",
+      "thickness": 0.31,
+      "openings": [],
+      "height": 2.1590000000000003,
+      "reference": "HABS sheet4 west TOP OF STONE WALL14ft9 5/8in relative MAIN LEVEL0; floor SECOND LEVEL7ft8 5/8in",
+      "evidence": "A datum; B/C matching pointed upperterrace enclosure acrossplan/elevation"
+    },
+    {
+      "id": "GUEST_L2_UPPER_TERRACE_EAST",
+      "a": [
+        326,
+        163
+      ],
+      "b": [
+        326,
+        202
+      ],
+      "level": "L2",
+      "material": "stone",
+      "thickness": 0.31,
+      "openings": [],
+      "height": 2.1590000000000003,
+      "reference": "HABS sheet4 west TOP OF STONE WALL14ft9 5/8in relative MAIN LEVEL0; floor SECOND LEVEL7ft8 5/8in",
+      "evidence": "A datum; B/C matching pointed upperterrace enclosure acrossplan/elevation"
+    },
+    {
+      "id": "GUEST_L2_UPPER_TERRACE_WEST",
+      "a": [
+        193,
+        125
+      ],
+      "b": [
+        193,
+        202
+      ],
+      "level": "L2",
+      "material": "stone",
+      "thickness": 0.21,
+      "openings": [],
+      "height": 2.1590000000000003,
+      "reference": "HABS sheet4 west TOP OF STONE WALL14ft9 5/8in relative MAIN LEVEL0; floor SECOND LEVEL7ft8 5/8in",
+      "evidence": "A datum; B/C matching pointed upperterrace enclosure acrossplan/elevation"
+    },
+    {
+      "id": "GUEST_STONE_CHIMNEY",
+      "a": [
+        327.4,
+        349
+      ],
+      "b": [
+        327.4,
+        361.9
+      ],
+      "level": "L1",
+      "material": "stone",
+      "thickness": 0.305,
+      "height": 5.25145,
+      "openings": [],
+      "reference": "HABS guest1 plan and guest4 section looking north: chimney at service EAST/living WEST wall, not chauffeur east wall; exact back/flue footprint C",
+      "evidence": "A section height retained; B/C plan identity and trace"
+    }
+  ],
+  "roofs": [
+    {
+      "id": "GUEST_LOW_ARM_ROOF",
+      "level": "L1",
+      "height": 2.16,
+      "polygon": [
+        [
+          326,
+          346
+        ],
+        [
+          638,
+          346
+        ],
+        [
+          638,
+          441
+        ],
+        [
+          444,
+          441
+        ],
+        [
+          444,
+          448
+        ],
+        [
+          326,
+          448
+        ]
+      ],
+      "parapet": true,
+      "parapet_top": 3.29565
+    },
+    {
+      "id": "GUEST_SERVICE_BEDROOM_ROOF",
+      "level": "L2",
+      "height": 2.12,
+      "polygon": [
+        [
+          189,
+          197
+        ],
+        [
+          331,
+          197
+        ],
+        [
+          331,
+          426
+        ],
+        [
+          189,
+          426
+        ]
+      ],
+      "parapet": false
+    },
+    {
+      "id": "GUEST_BOILER_ROOF",
+      "level": "L1",
+      "height": 2.16,
+      "polygon": [
+        [
+          323.8,
+          312.9110773899848
+        ],
+        [
+          381.30593607305934,
+          312.9110773899848
+        ],
+        [
+          381.30593607305934,
+          346
+        ],
+        [
+          323.8,
+          346
+        ]
+      ],
+      "parapet": false,
+      "reference": "HABS PA-5346-A sheet2 roof footprint at boiler projection, alongside upper service circulation",
+      "evidence": "A/C traced footprint; same low roof datum",
+      "notes": "Closes boiler room north of low-arm roof. Southern edge joins existinglow roofY346; source-supported enclosure, not a room-test proxy."
+    }
+  ],
+  "stairs": [
+    {
+      "id": "GUEST_SERVICE_ASCENT",
+      "a": [
+        316,
+        354
+      ],
+      "b": [
+        316,
+        404
+      ],
+      "from": "L1",
+      "to": "L2",
+      "width": 0.96,
+      "count": 14,
+      "clearance_qa": {
+        "status": "PASS",
+        "report": "qa/guest-geometry-clearance-report.json",
+        "actual_mesh_samples": 47,
+        "minimum_clearance_m": 2.12,
+        "required_m": 1.95,
+        "void_normalized_px": [
+          [
+            306,
+            351
+          ],
+          [
+            326,
+            351
+          ],
+          [
+            326,
+            404
+          ],
+          [
+            306,
+            404
+          ]
+        ],
+        "note": "Old solid corridor floor detected12 failures when reintroduced only in memory; corrected geometry passed all stair/landing/west-return samples."
+      }
+    },
+    {
+      "id": "GUEST_LAUNDRY_DESCENT",
+      "a": [
+        294,
+        402
+      ],
+      "b": [
+        294,
+        366
+      ],
+      "from": "L1",
+      "to": "B1",
+      "width": 0.83,
+      "count": 14
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "GUEST_THEATER_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "27 ft 9 in",
+      "meters": 8.4582,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        246,
+        188,
+        300,
+        204
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Theater nominal length; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_THEATER_DEPTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "19 ft 5 in",
+      "meters": 5.9182,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        246,
+        188,
+        300,
+        204
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Theater nominal depth; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_POOL_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "30 ft 1 in",
+      "meters": 9.1694,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        773,
+        451,
+        826,
+        471
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": 9.1694,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Pool water-plan length; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_POOL_WIDTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "13 ft 0 in",
+      "meters": 3.9624,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        773,
+        451,
+        826,
+        471
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": 3.9624,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Pool water-plan width; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_BOILER_DIM_1",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "4 ft 7 in",
+      "meters": 1.397,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        338,
+        327,
+        375,
+        344
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Boiler room nominal shorter dimension; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_BOILER_DIM_2",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "8 ft 2 in",
+      "meters": 2.4892,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        338,
+        327,
+        375,
+        344
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Boiler room nominal longer dimension; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_GUEST_ROOM_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "15 ft 9 in",
+      "meters": 4.8006,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        556,
+        377,
+        604,
+        399
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Guest room nominal width; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_GUEST_ROOM_DEPTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "14 ft 1 in",
+      "meters": 4.2926,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        556,
+        377,
+        604,
+        399
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Guest room nominal depth; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_LAUNDRY_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "11 ft 7 in",
+      "meters": 3.5306,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        229,
+        642,
+        280,
+        672
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Laundry room nominal width; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_LAUNDRY_DEPTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "9 ft 8 in",
+      "meters": 2.9464,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        229,
+        642,
+        280,
+        672
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Laundry room nominal depth; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_BASE_BATH_LENGTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "6 ft 8 in",
+      "meters": 2.032,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        196,
+        651,
+        222,
+        672
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Basement bath nominal length; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_BASE_BATH_WIDTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "5 ft 1 in",
+      "meters": 1.5494,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        196,
+        651,
+        222,
+        672
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0254,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Basement bath nominal width; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_SERVICE_Y_CHAIN",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "50 ft 10.25 in",
+      "meters": 15.50035,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        140,
+        254,
+        164,
+        284
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0127,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Service wing surveyed vertical chain; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_POOL_OUTER_WIDTH",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "31 ft 6.625 in",
+      "meters": 9.617075,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        770,
+        523,
+        830,
+        538
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0127,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Pool exterior dimension chain; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_THEATER_NORTH_RISE",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "14 ft 5.625 in",
+      "meters": 4.410075,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        356,
+        114,
+        371,
+        135
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0127,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Theater angled end Y projection; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_THEATER_EAST_SEGMENT",
+      "source": "HABS PA-5346-A sheet 1 original TIFF",
+      "original": "12 ft 8.75 in",
+      "meters": 3.87985,
+      "reading": "printed dimension label independently viewed",
+      "label_bbox_normalized_px": [
+        356,
+        182,
+        371,
+        205
+      ],
+      "source_original_size": [
+        17673,
+        13632
+      ],
+      "uncertainty_m": 0.0127,
+      "model_value_m": null,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Theater eastern wall dimension segment; nominal room dimensions do not imply rectangular boundary"
+    },
+    {
+      "id": "GUEST_SECOND_LEVEL",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "7 ft 8.625 in",
+      "meters": 2.352675,
+      "reading": "printed elevation label independently viewed",
+      "label_bbox_normalized_px": [
+        900,
+        194,
+        951,
+        209
+      ],
+      "uncertainty_m": 0.00635,
+      "model_value_m": 2.352675,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Second floor top datum relative guest main level0′0, not mainhouse datum"
+    },
+    {
+      "id": "GUEST_TOP_STONE",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "14 ft 9.625 in",
+      "meters": 4.511675,
+      "reading": "printed elevation label independently viewed",
+      "label_bbox_normalized_px": [
+        888,
+        148,
+        951,
+        167
+      ],
+      "uncertainty_m": 0.00635,
+      "model_value_m": 4.511675,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Upper stone top relative guest main level0′0, not mainhouse datum"
+    },
+    {
+      "id": "GUEST_PARAPET",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "10 ft 9.75 in",
+      "meters": 3.29565,
+      "reading": "printed elevation label independently viewed",
+      "label_bbox_normalized_px": [
+        888,
+        174,
+        951,
+        189
+      ],
+      "uncertainty_m": 0.00635,
+      "model_value_m": 3.29565,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Low-roof parapet top relative guest main level0′0, not mainhouse datum"
+    },
+    {
+      "id": "GUEST_CHIMNEY",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "17 ft 2.75 in",
+      "meters": 5.25145,
+      "reading": "printed elevation label independently viewed",
+      "label_bbox_normalized_px": [
+        884,
+        470,
+        951,
+        490
+      ],
+      "uncertainty_m": 0.00635,
+      "model_value_m": 5.25145,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Chimney top relative guest main level0′0, not mainhouse datum"
+    },
+    {
+      "id": "GUEST_LOW_STONE",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "6 ft 11.75 in",
+      "meters": 2.12725,
+      "reading": "printed elevation label independently viewed",
+      "label_bbox_normalized_px": [
+        884,
+        533,
+        951,
+        553
+      ],
+      "uncertainty_m": 0.00635,
+      "model_value_m": 2.12725,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Low guest arm stone top relative guest main level0′0, not mainhouse datum"
+    },
+    {
+      "id": "GUEST_POOL_TOP",
+      "source": "HABS PA-5346-A sheet4 original TIFF",
+      "original": "2 ft 3.75 in",
+      "meters": 0.70485,
+      "reading": "printed elevation label independently viewed",
+      "label_bbox_normalized_px": [
+        876,
+        559,
+        951,
+        579
+      ],
+      "uncertainty_m": 0.00635,
+      "model_value_m": 0.70485,
+      "evidence": "A",
+      "verification_status": "viewed_original_crop",
+      "note": "Pool wall top relative guest main level0′0, not mainhouse datum"
+    }
+  ],
+  "notes": [
+    "Wall lines are manually traced and original dimension labels independently transcribed; small opening positions retain roughly 0.1 m uncertainty.",
+    "Guest relative elevations tied to guest sheet4 labels. XY placement frozen from main site2 at(3.4,37.1); absolute guest main-level8.4m remains C with provisional7.4–9.4m range.",
+    "THEATER is the enclosed circa 2010 use. Its original four-car carport history does not override measured partitions.",
+    "Basement laundry plan is separately printed on sheet 1 and registered under the chauffeur room/stair.",
+    "Artwork identities and fine furnishings are not asserted by architecture geometry."
+  ],
+  "pool": {
+    "center": [
+      789,
+      462.5
+    ],
+    "size_m": [
+      9.1694,
+      3.9624
+    ],
+    "evidence": "A label30′1×13′0; water/depthC",
+    "coping_width_m": 0.22383750000000013,
+    "coping_reference": "HABS PA-5346-A sheet1 exterior31ft6 5/8in chain; source round-corner ring; same offset onall sides C.",
+    "dry_west_notch": {
+      "x_max_px": 733,
+      "y_max_px": 477,
+      "stair_from": [
+        696.5,
+        435
+      ],
+      "stair_to": [
+        721.5,
+        435
+      ],
+      "stair_width_m": 1.0544,
+      "count": 4,
+      "landing_px": [
+        [
+          721.5,
+          425
+        ],
+        [
+          733,
+          425
+        ],
+        [
+          733,
+          449
+        ],
+        [
+          721.5,
+          449
+        ]
+      ],
+      "reference": "HABS guest01 pool: dry raised stair/planter projection at NW corner; unchanged maximum inner/outer shell dimensions",
+      "evidence": "A plan topology; C trace and riser division"
+    }
+  },
+  "connector": {
+    "width": 1.72,
+    "canopy_width": 2.48,
+    "evidence": "A/C: curved XY centerline digitized from HABS main site2; roof width approximates19 sitepx×.131; walking width and stepped elevations C",
+    "points": [
+      [
+        5.4496,
+        23.4702,
+        5.26415
+      ],
+      [
+        2.62,
+        23.58,
+        5.83
+      ],
+      [
+        -0.131,
+        24.366,
+        6.12
+      ],
+      [
+        -2.096,
+        25.807,
+        6.43
+      ],
+      [
+        -3.013,
+        27.641,
+        6.75
+      ],
+      [
+        -3.144,
+        30.13,
+        7.06
+      ],
+      [
+        -2.489,
+        32.226,
+        7.38
+      ],
+      [
+        -1.179,
+        34.322,
+        7.72
+      ],
+      [
+        0.393,
+        35.894,
+        8.08
+      ],
+      [
+        2.1353,
+        37.0468,
+        8.4
+      ]
+    ],
+    "source_centerline_normalized_px": [
+      [
+        549,
+        297
+      ],
+      [
+        527,
+        296
+      ],
+      [
+        506,
+        290
+      ],
+      [
+        491,
+        279
+      ],
+      [
+        484,
+        265
+      ],
+      [
+        483,
+        246
+      ],
+      [
+        488,
+        230
+      ],
+      [
+        498,
+        214
+      ],
+      [
+        510,
+        202
+      ],
+      [
+        523.3,
+        193.2
+      ]
+    ],
+    "source_coordinate_transform": {
+      "origin_px": [
+        507,
+        476
+      ],
+      "meters_per_pixel": 0.131,
+      "y_up": true
+    },
+    "main_endpoint_reference": "Iteration05 main06 north walking band px431,98 -> world5.4496,23.4702,5.26415; matches site02 first control within57mm; old point on canopy/stone cap removed",
+    "notes": [
+      "Canopy is wider than the walkway as indicated by guest2 roof plan.",
+      "Roof steps and treads interpolate C absolute guest datum; no false claim of surveyed total riser count.",
+      "Final point meets guest service south landing near normalizedguest(301,423).",
+      "Iteration05: connector now begins at genuine north-side main landing, not old canopy/stone cap. First rise distribution remains C and integrated head/body clearance must be rechecked."
+    ]
+  },
+  "adjacency": [
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_THEATER",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_STAIR_HALL",
+      "connection": "open passage",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_BOILER",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L1_TERRACE",
+      "connection": "open passage",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_LOUNGE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_LOUNGE",
+      "to": "GUEST_L1_GALLERY",
+      "connection": "open passage",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_GUEST_ROOM",
+      "connection": "open passage",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_BATH",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_GUEST_ROOM",
+      "to": "GUEST_L1_TERRACE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_POOL",
+      "connection": "steps",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_B1_STAIR",
+      "connection": "stair",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_B1_STAIR",
+      "to": "GUEST_B1_LAUNDRY",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_B1_LAUNDRY",
+      "to": "GUEST_B1_BATH",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L2_HALL",
+      "connection": "stair",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_SOUTH",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_MIDDLE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_NORTH",
+      "connection": "door",
+      "evidence": "A guest02 direct Hall door below Bath south wall, y266.9..280.3; old model opening inside Bath was misplaced",
+      "verified_source": "qa/guest-iteration05-grid-guest-02-270.png",
+      "requires_retest": "iteration05 actual integrated meshes"
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BATH",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    },
+    {
+      "from": "GUEST_L2_BEDROOM_NORTH",
+      "to": "GUEST_L2_TERRACE",
+      "connection": "door",
+      "evidence": "A plan topology; C exact openings"
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "GUEST_HABS_01_HIRES",
+      "title": "HABS PA-5346-A guest sheet 1",
+      "institution": "Library of Congress / HABS",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-original.tif",
+      "bytes": 30126942,
+      "sha256": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+      "verification_status": "downloaded_verified; viewed_image and original crops",
+      "rights_note": "HABS government-created material generally no known restrictions; copied works may differ. Retained as private architectural reference; do not silently treat source imagery as redistributable textures.",
+      "source_date": "circa 2010",
+      "accessed_date": "2026-09-20"
+    },
+    {
+      "ref_id": "GUEST_HABS_02_HIRES",
+      "title": "HABS PA-5346-A guest sheet 2",
+      "institution": "Library of Congress / HABS",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00002a.tif",
+      "local_path": "project/data/guest_refs/guest-02-original.tif",
+      "bytes": 30072414,
+      "sha256": "bd469539c51be86060e635ac3ce247c0128082536f777f59193ffa6bb083d7a1",
+      "verification_status": "downloaded_verified; viewed_image and original crops",
+      "rights_note": "HABS government-created material generally no known restrictions; copied works may differ. Retained as private architectural reference; do not silently treat source imagery as redistributable textures.",
+      "source_date": "circa 2010",
+      "accessed_date": "2026-09-20"
+    },
+    {
+      "ref_id": "GUEST_HABS_03_HIRES",
+      "title": "HABS PA-5346-A guest sheet 3",
+      "institution": "Library of Congress / HABS",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00003a.tif",
+      "local_path": "project/data/guest_refs/guest-03-original.tif",
+      "bytes": 30113310,
+      "sha256": "28709c04784e762416de960bcb9b1281b304db8675fd3f7a9f28aaac6a0a3185",
+      "verification_status": "downloaded_verified; viewed_image and original crops",
+      "rights_note": "HABS government-created material generally no known restrictions; copied works may differ. Retained as private architectural reference; do not silently treat source imagery as redistributable textures.",
+      "source_date": "circa 2010",
+      "accessed_date": "2026-09-20"
+    },
+    {
+      "ref_id": "GUEST_HABS_04_HIRES",
+      "title": "HABS PA-5346-A guest sheet 4",
+      "institution": "Library of Congress / HABS",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00004a.tif",
+      "local_path": "project/data/guest_refs/guest-04-original.tif",
+      "bytes": 30140574,
+      "sha256": "d050cbda164c03f1b4f232104c75b7efe00903f613c09f04650cc3b2e775c49c",
+      "verification_status": "downloaded_verified; viewed_image and original crops",
+      "rights_note": "HABS government-created material generally no known restrictions; copied works may differ. Retained as private architectural reference; do not silently treat source imagery as redistributable textures.",
+      "source_date": "circa 2010",
+      "accessed_date": "2026-09-20"
+    }
+  ],
+  "dimension_fix_revision": "iteration04 guest corrections; 10 repaired anchors verified on actual evaluated module mesh; overall17PASS/0FAIL/5NOT_RUN; integrationpending",
+  "dimension_mesh_qa": {
+    "baseline": "qa/guest-dimensions-measured.json",
+    "corrected": "qa/guest-dimension-fixes-measured.json",
+    "counts": {
+      "PASS": 17,
+      "FAIL": 0,
+      "NOT_RUN": 5
+    },
+    "scene_sha256": "ac0ef3be17ab7bc5970ca9afb74b7f7b0f713490c3c5b157c4afd5ee58b5187b",
+    "method": "Actual evaluatedmesh rays/extrema, no reference-value substitution",
+    "scope": "guest module; iteration05 remeasured same17 PASS/5 NOT_RUN. Full integration still requires rebuild.",
+    "latest_regression": "qa/guest-iteration05-dimensions.json"
+  },
+  "fireplace_detail": {
+    "enabled": true,
+    "source_bounds_px": [
+      329.4,
+      361.9,
+      345.0,
+      375.2
+    ],
+    "back_x_px": [
+      324.5,
+      329.4
+    ],
+    "north_back_y_px": [
+      358.0,
+      361.9
+    ],
+    "hearth_top_m": 0.2,
+    "opening_head_m": 1.08,
+    "hood_top_m": 2.12725,
+    "reference": [
+      "HABS guest01 original NW lounge cutout",
+      "HABS guest04 section looking north visible brick-lined opening",
+      "HABS PA-5346-A-11 photo circa1985 visible unsupported corner fireplace"
+    ],
+    "evidence": "A source existence and plan registration; B corner-opening identity; C heights, chamber lining and unseen back thickness",
+    "do_not_copy": "1985 vessels, books, lamp or furniture arrangement not treated as contemporary surveyed objects"
+  },
+  "iteration05_revision": {
+    "status": "MODULE_GEOMETRY_VERIFIED_NOT_INTEGRATED",
+    "basis_scene": "scene/Fallingwater_iteration04.blend",
+    "basis_sha256": "247d20f7863e4f7e9c18587d4c032bd663857a420bcfb828d271195665841ac2",
+    "changes": [
+      "Source chauffeur threshold, vestibule and chimney registration",
+      "North bedroom direct Hall door relocated from false Bath opening",
+      "Actual corner fireplace cavity",
+      "Dry pool stair/planter water exclusion"
+    ],
+    "qa": "qa/guest-iteration05-review.md; 17 dimensions PASS/5 NOT_RUN, 47 upper-stair and42 basement-stair samples PASS, 7 doorway sections PASS,12 dry pool tread probes PASS,4 real firebox cavity rays PASS; full integrated scene remains NOT_RUN."
+  }
+}

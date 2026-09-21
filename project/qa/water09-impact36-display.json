@@ -1,0 +1,164 @@
+{
+  "status": "DISPLAY_ONLY_READY_NOT_RENDERED_FLOW_RATE_FAIL",
+  "output": "D:\\zx\\test\\project\\scene\\Fallingwater_water09_impact36_display.blend",
+  "output_sha256": "9a085dfe75e19194acf660efc6be4f8f073ada642a213c861f4564a07bd53db3",
+  "full_context_source": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid07_motion36.blend",
+  "full_context_source_sha256": "3c7638bd5866f48eca88a2c184cc958cae3bdfb578892e7e58a59e9c967f55d7",
+  "native_source": "D:\\zx\\test\\project\\scene\\Fallingwater_water09_impact36.blend",
+  "native_source_sha256": "43f9a05a4eb3e1b677d1c5d04dbdbca76cc403ac6373a0cd01cfb8c0177d0423",
+  "camera": {
+    "name": "CAM_WATER_FOOT",
+    "matrix_world": [
+      [
+        0.8562912940979004,
+        0.09321568161249161,
+        -0.5080118775367737,
+        -3.0026583671569824
+      ],
+      [
+        -0.5164932012557983,
+        0.15454168617725372,
+        -0.8422301411628723,
+        -8.511417388916016
+      ],
+      [
+        -4.166653866377601e-08,
+        0.9835790395736694,
+        0.18047796189785004,
+        -4.050000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens_mm": 45.0,
+    "source": "Existing root-rendered CAM_WATER_FOOT in hybrid07_motion36; unchanged"
+  },
+  "frame_range": [
+    1,
+    36
+  ],
+  "requested_review_frames": [
+    1,
+    18,
+    36
+  ],
+  "render_suggestion": {
+    "resolution": [
+      960,
+      540
+    ],
+    "samples": 24,
+    "engine": "CYCLES",
+    "device": "CPU",
+    "threads": 8,
+    "exposure": 0.8
+  },
+  "hidden_previous_water_or_sim_objects": [
+    "WATER_BearRun_Continuous_Upstream_Downstream",
+    "WATER_Broken_Sandstone_Ledge_Cascades",
+    "WATER_Impact_Foam_Rivulets",
+    "WATER_Dispersed_Impact_Arcs",
+    "WATER_Downstream_Advecting_Foam_00",
+    "WATER_Downstream_Advecting_Foam_01",
+    "WATER_Downstream_Advecting_Foam_02",
+    "WATER_Downstream_Advecting_Foam_03",
+    "WATER_Downstream_Advecting_Foam_04",
+    "WATER_Downstream_Advecting_Foam_05",
+    "WATER_Downstream_Advecting_Foam_06",
+    "WATER_Downstream_Advecting_Foam_07",
+    "WATER_Downstream_Advecting_Foam_08",
+    "WATER_Downstream_Advecting_Foam_09",
+    "WATER_Downstream_Advecting_Foam_10",
+    "WATER_Downstream_Advecting_Foam_11",
+    "WATER_Downstream_Advecting_Foam_12",
+    "WATER_Downstream_Advecting_Foam_13",
+    "WATER_Downstream_Advecting_Foam_14",
+    "WATER_Downstream_Advecting_Foam_15",
+    "WATER_Downstream_Advecting_Foam_16",
+    "WATER_Downstream_Advecting_Foam_17",
+    "WATER_Downstream_Advecting_Foam_18",
+    "WATER_Downstream_Advecting_Foam_19",
+    "WATER_Downstream_Advecting_Foam_20",
+    "WATER_Downstream_Advecting_Foam_21",
+    "WATER_Downstream_Advecting_Foam_22",
+    "WATER_Downstream_Advecting_Foam_23",
+    "WATER_Downstream_Advecting_Foam_24",
+    "WATER_Downstream_Advecting_Foam_25",
+    "WATER_Downstream_Advecting_Foam_26",
+    "WATER_Downstream_Advecting_Foam_27",
+    "WATER_Downstream_Advecting_Foam_28",
+    "WATER_Downstream_Advecting_Foam_29",
+    "WATER_Downstream_Advecting_Foam_30",
+    "WATER_Downstream_Advecting_Foam_31",
+    "WATER_Downstream_Advecting_Foam_32",
+    "WATER_Downstream_Advecting_Foam_33",
+    "WATER_Downstream_Advecting_Foam_34",
+    "WATER_Downstream_Advecting_Foam_35",
+    "WATER_Downstream_Advecting_Foam_36",
+    "WATER_Downstream_Advecting_Foam_37",
+    "WATER_Downstream_Advecting_Foam_38",
+    "WATER_Downstream_Advecting_Foam_39",
+    "WATER_Downstream_Advecting_Foam_40",
+    "WATER_Downstream_Advecting_Foam_41",
+    "WATER_Downstream_Advecting_Foam_42",
+    "WATER_Downstream_Advecting_Foam_43",
+    "WATER_Downstream_Advecting_Foam_44",
+    "WATER_Downstream_Advecting_Foam_45",
+    "WATER_Downstream_Advecting_Foam_46",
+    "WATER_Downstream_Advecting_Foam_47",
+    "WATER_Downstream_Advecting_Foam_48",
+    "WATER_Downstream_Advecting_Foam_49",
+    "WATER_Downstream_Advecting_Foam_50",
+    "WATER_Downstream_Advecting_Foam_51",
+    "WATER_Downstream_Advecting_Foam_52",
+    "WATER_Downstream_Advecting_Foam_53",
+    "WATER_Downstream_Advecting_Foam_54",
+    "WATER_Aerated_Droplets",
+    "SITE_Remote_Upstream_Creek_Continuation",
+    "WATER_Hybrid07a_Closed_Branch",
+    "WATER_Hybrid07a_Continuous_River_Branch_Pool",
+    "HYBRID07_Branch_Exact_Source",
+    "HYBRID07_Initial_Original_Pool",
+    "HYBRID07_Original_Pool_Boundary",
+    "HYBRID07_Impact_Liquid_Domain",
+    "HYBRID07_Exact_Local_Terrain_Top",
+    "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+    "WATER_Hybrid07_Mapped_Actual_Spray_36"
+  ],
+  "native_domain": "WATER09_Native_Impact36_DIAGNOSTIC",
+  "display_particle_settings": [
+    {
+      "type": "FLIP",
+      "render_type": "NONE",
+      "particle_size": 0.05000000074505806,
+      "size_random": 0.0,
+      "instance": null
+    },
+    {
+      "type": "FOAM",
+      "render_type": "OBJECT",
+      "particle_size": 0.001500000013038516,
+      "size_random": 0.3499999940395355,
+      "instance": "WATER09_Display_FOAM_UnitSphere"
+    },
+    {
+      "type": "SPRAY",
+      "render_type": "OBJECT",
+      "particle_size": 0.0024999999441206455,
+      "size_random": 0.3499999940395355,
+      "instance": "WATER09_Display_SPRAY_UnitSphere"
+    }
+  ],
+  "display_particle_geometry": "C millimeter sphere instances at actual cachedFOAM/SPRAY positions; no flat foam disc, no hidden-gap surface",
+  "old_cache_hashes_unchanged": true,
+  "candidate_and_base_hashes_unchanged": true,
+  "outer_water_join": "NOT_ATTEMPTED_ALL_OLD_WATER_HIDDEN",
+  "bakes": 0,
+  "renders": 0,
+  "production_install": false,
+  "frozen07_context_not_current_architecture_delivery": true
+}

@@ -1,0 +1,74 @@
+{
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_working.blend",
+  "blender_version": "5.2.1 LTS",
+  "settings": {
+    "engine": "BLENDER_EEVEE",
+    "samples": 32,
+    "raytracing": true,
+    "ray_resolution_scale": "1",
+    "screen_trace_quality": 1.0,
+    "geometry_or_material_colors_changed": false
+  },
+  "first_views": [
+    {
+      "camera": "CAM_HERO",
+      "exposure": 0.800000011920929,
+      "seconds": 16.971,
+      "path": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee\\CAM_HERO_first.png",
+      "status": "PASS"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "exposure": 2.4000000953674316,
+      "seconds": 6.986,
+      "path": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee\\CAM_MAIN_L1_LIVING_B_first.png",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "probe_bakes": [
+    {
+      "name": "FW_PROBE_MAIN_L1",
+      "rooms": [
+        "MAIN_L1_LIVING",
+        "MAIN_L1_KITCHEN",
+        "MAIN_L1_SERVANT",
+        "MAIN_L1_SERVICE_STAIR",
+        "MAIN_L1_ENTRY",
+        "MAIN_L1_COAT",
+        "MAIN_L1_STAIR",
+        "MAIN_L1_LOGGIA",
+        "MAIN_L1_HATCH"
+      ],
+      "bounds": [
+        [
+          -7.695600000000001,
+          0.009300000000000003,
+          0.22
+        ],
+        [
+          19.9572,
+          18.0978,
+          2.38
+        ]
+      ],
+      "resolution": [
+        20,
+        14,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 31.173,
+      "status": "PASS"
+    }
+  ],
+  "saved_scene": "D:\\zx\\test\\project\\qa\\animation-benchmark-eevee\\Fallingwater_eevee_baked.blend",
+  "visual_acceptance": "NOT_RUN: inspect first images before sequence"
+}

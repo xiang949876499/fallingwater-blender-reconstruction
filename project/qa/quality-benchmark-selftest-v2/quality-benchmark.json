@@ -1,0 +1,101 @@
+{
+  "status": "PASS_OUTPUT_ONLY",
+  "source": "factory self-test",
+  "source_sha256": null,
+  "source_bytes": null,
+  "blender_version": "5.2.1 LTS",
+  "camera": "Camera",
+  "full_frame": [
+    32,
+    32
+  ],
+  "crop_top_left_xywh": [
+    8,
+    8,
+    16,
+    16
+  ],
+  "frame": 1,
+  "threads": 8,
+  "device": "CPU",
+  "max_samples": 2,
+  "seed": 19,
+  "exposure": 0.0,
+  "view_transform": "AgX",
+  "look": "None",
+  "denoiser": "OPENIMAGEDENOISE",
+  "denoiser_gpu": false,
+  "variants": [
+    {
+      "name": "baseline",
+      "threshold": 0.01,
+      "max_bounces": 12,
+      "diffuse_bounces": 6,
+      "glossy_bounces": 4,
+      "transmission_bounces": 8,
+      "transparent_bounces": 8,
+      "adaptive_min_samples": 0,
+      "status": "PASS_OUTPUT",
+      "files": [
+        {
+          "name": "denoised_image.png",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-selftest-v2\\baseline\\denoised_image.png",
+          "bytes": 1037,
+          "sha256": "3ea9112e5e13b7824686dbfa627bec15aff4fb91ed94e7c99f66ed60b560341c",
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "name": "denoised_linear_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-selftest-v2\\baseline\\denoised_linear_image.exr",
+          "bytes": 5014,
+          "sha256": "1644c61b366913f57ef908508b9ba9c858e234987aa7169feacff59213d81399"
+        },
+        {
+          "name": "raw_image.png",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-selftest-v2\\baseline\\raw_image.png",
+          "bytes": 844,
+          "sha256": "fabdbf3d6f3beb46070ba121c6e05a15cba9be4f429f41ec09044ddd278d7702",
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "name": "raw_linear_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-selftest-v2\\baseline\\raw_linear_image.exr",
+          "bytes": 5014,
+          "sha256": "5010272e68ce1bb837f3b39b21fe3e6074c25e23669860061d9be659dc935e64"
+        },
+        {
+          "name": "sample_count_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-selftest-v2\\baseline\\sample_count_image.exr",
+          "bytes": 5014,
+          "sha256": "aaf8a715c3c00ffd592c3bde36dcca34ded76e726d1eb5115024341d3ba8087e"
+        }
+      ],
+      "compositor": {
+        "render_layer_outputs": [
+          "Image",
+          "Alpha",
+          "Debug Sample Count",
+          "Noisy Image",
+          "Denoising Albedo",
+          "Denoising Specular Albedo",
+          "Denoising Normal",
+          "Denoising Roughness",
+          "Denoising Depth"
+        ],
+        "output_api": "scene.compositing_node_group; file_output_items.new(RGBA,name)",
+        "noisy_source": "Noisy Image",
+        "denoised_source": "Image",
+        "same_path_tracing_result": true
+      },
+      "seconds": 0.1639
+    }
+  ],
+  "scope": "Fixed 4K-pixel-density border; no full-frame speed guarantee or visual acceptance",
+  "visual_review": "NOT_RUN: inspect both raw and denoised images at 100%"
+}

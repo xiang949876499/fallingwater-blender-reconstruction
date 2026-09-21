@@ -1,0 +1,559 @@
+{
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "candidate_sha256": "2c7e8259b24936caad76979b985af86e5360548162cba3d666a9c7bd2b9dcca5",
+  "common_source_materials": 54,
+  "changed_or_missing_global_materials": [],
+  "new_materials": [
+    "FW_MasterBath_Ivory10",
+    "FW_MasterBath_Walnut10"
+  ],
+  "cabinet_material": {
+    "diffuse_color": [
+      0.23999999463558197,
+      0.11999999731779099,
+      0.04600000008940697,
+      1.0
+    ],
+    "nodes": [
+      {
+        "name": "Bump",
+        "type": "ShaderNodeBump",
+        "inputs": {
+          "Strength": 0.12999999523162842,
+          "Distance": 0.003000000026077032,
+          "Filter Width": 0.10000000149011612,
+          "Height": 1.0,
+          "Normal": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "Bump.001",
+        "type": "ShaderNodeBump",
+        "inputs": {
+          "Strength": 0.5,
+          "Distance": 0.001500000013038516,
+          "Filter Width": 0.10000000149011612,
+          "Height": 1.0,
+          "Normal": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "Color Ramp",
+        "type": "ShaderNodeValToRGB",
+        "inputs": {
+          "Fac": 0.5
+        }
+      },
+      {
+        "name": "Map Range",
+        "type": "ShaderNodeMapRange",
+        "inputs": {
+          "Value": 1.0,
+          "From Min": 0.0,
+          "From Max": 1.0,
+          "To Min": 0.2199999988079071,
+          "To Max": 0.46000000834465027,
+          "Steps": 4.0,
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "From_Min_FLOAT3": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "From_Max_FLOAT3": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "To_Min_FLOAT3": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "To_Max_FLOAT3": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Steps_FLOAT3": [
+            4.0,
+            4.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "name": "Material Output",
+        "type": "ShaderNodeOutputMaterial",
+        "inputs": {
+          "Displacement": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Thickness": 0.0
+        }
+      },
+      {
+        "name": "Mix (Legacy)",
+        "type": "ShaderNodeMixRGB",
+        "inputs": {
+          "Fac": 1.0,
+          "Color1": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "Color2": [
+            0.8500000238418579,
+            0.7400000095367432,
+            0.6200000047683716,
+            1.0
+          ]
+        },
+        "blend_type": "MULTIPLY"
+      },
+      {
+        "name": "Noise Texture",
+        "type": "ShaderNodeTexNoise",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "W": 0.0,
+          "Scale": 4.0,
+          "Detail": 3.0,
+          "Roughness": 0.7200000286102295,
+          "Lacunarity": 2.0,
+          "Offset": 0.0,
+          "Gain": 1.0,
+          "Distortion": 0.0
+        }
+      },
+      {
+        "name": "Noise Texture.001",
+        "type": "ShaderNodeTexNoise",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "W": 0.0,
+          "Scale": 72.0,
+          "Detail": 2.0,
+          "Roughness": 0.5,
+          "Lacunarity": 2.0,
+          "Offset": 0.0,
+          "Gain": 1.0,
+          "Distortion": 0.0
+        }
+      },
+      {
+        "name": "PH_Diffuse",
+        "type": "ShaderNodeTexImage",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "projection": "BOX",
+        "interpolation": "Linear",
+        "extension": "REPEAT",
+        "image": "walnut_veneer_diff_2k.jpg"
+      },
+      {
+        "name": "PH_Displacement",
+        "type": "ShaderNodeTexImage",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "projection": "BOX",
+        "interpolation": "Linear",
+        "extension": "REPEAT",
+        "image": "walnut_veneer_disp_2k.jpg"
+      },
+      {
+        "name": "PH_Rough",
+        "type": "ShaderNodeTexImage",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "projection": "BOX",
+        "interpolation": "Linear",
+        "extension": "REPEAT",
+        "image": "walnut_veneer_rough_2k.jpg"
+      },
+      {
+        "name": "Principled BSDF",
+        "type": "ShaderNodeBsdfPrincipled",
+        "inputs": {
+          "Base Color": [
+            0.23999999463558197,
+            0.11999999731779099,
+            0.04600000008940697,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.3400000035762787,
+          "IOR": 1.5,
+          "Alpha": 1.0,
+          "Thin Wall": false,
+          "Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Weight": 0.0,
+          "Diffuse Roughness": 0.0,
+          "Subsurface Weight": 0.0,
+          "Subsurface Radius": [
+            1.0,
+            0.20000000298023224,
+            0.10000000149011612
+          ],
+          "Subsurface Scale": 0.004999999888241291,
+          "Subsurface IOR": 1.399999976158142,
+          "Subsurface Anisotropy": 0.0,
+          "Specular IOR Level": 0.5,
+          "Specular Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Anisotropic": 0.0,
+          "Anisotropic Rotation": 0.0,
+          "Tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Transmission Weight": 0.0,
+          "Coat Weight": 0.0,
+          "Coat Roughness": 0.029999999329447746,
+          "Coat IOR": 1.5,
+          "Coat Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Coat Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Sheen Weight": 0.0,
+          "Sheen Roughness": 0.5,
+          "Sheen Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Emission Color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Emission Strength": 0.0,
+          "Thin Film Thickness": 0.0,
+          "Thin Film IOR": 1.3300000429153442
+        },
+        "distribution": "MULTI_GGX",
+        "subsurface_method": "RANDOM_WALK"
+      },
+      {
+        "name": "Texture Coordinate",
+        "type": "ShaderNodeTexCoord",
+        "inputs": {},
+        "object": null
+      },
+      {
+        "name": "Texture Coordinate.001",
+        "type": "ShaderNodeTexCoord",
+        "inputs": {},
+        "object": null
+      },
+      {
+        "name": "Texture Coordinate.002",
+        "type": "ShaderNodeTexCoord",
+        "inputs": {},
+        "object": "MASTER_BATH10_cabinet_texture_anchor"
+      },
+      {
+        "name": "Vector Math",
+        "type": "ShaderNodeVectorMath",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Vector_001": [
+            0.4000000059604645,
+            25.0,
+            25.0
+          ],
+          "Vector_002": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": 1.0
+        },
+        "operation": "MULTIPLY"
+      },
+      {
+        "name": "Vector Math.001",
+        "type": "ShaderNodeVectorMath",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Vector_001": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Vector_002": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": 0.5555555820465088
+        },
+        "operation": "SCALE"
+      },
+      {
+        "name": "Vector Math.002",
+        "type": "ShaderNodeVectorMath",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Vector_001": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Vector_002": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": 0.5555555820465088
+        },
+        "operation": "SCALE"
+      },
+      {
+        "name": "Vector Rotate",
+        "type": "ShaderNodeVectorRotate",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "Angle": 1.5707963705062866,
+          "Rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "rotation_type": "AXIS_ANGLE"
+      }
+    ],
+    "links": [
+      [
+        "Bump.001",
+        "Normal",
+        "Principled BSDF",
+        "Normal"
+      ],
+      [
+        "Map Range",
+        "Result",
+        "Principled BSDF",
+        "Roughness"
+      ],
+      [
+        "Mix (Legacy)",
+        "Color",
+        "Principled BSDF",
+        "Base Color"
+      ],
+      [
+        "Noise Texture",
+        "Fac",
+        "Color Ramp",
+        "Fac"
+      ],
+      [
+        "Noise Texture.001",
+        "Fac",
+        "Bump",
+        "Height"
+      ],
+      [
+        "PH_Diffuse",
+        "Color",
+        "Mix (Legacy)",
+        "Color1"
+      ],
+      [
+        "PH_Displacement",
+        "Color",
+        "Bump.001",
+        "Height"
+      ],
+      [
+        "PH_Rough",
+        "Color",
+        "Map Range",
+        "Value"
+      ],
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ],
+      [
+        "Texture Coordinate",
+        "Object",
+        "Vector Math",
+        "Vector"
+      ],
+      [
+        "Texture Coordinate.001",
+        "Object",
+        "Vector Math.001",
+        "Vector"
+      ],
+      [
+        "Texture Coordinate.002",
+        "Object",
+        "Vector Rotate",
+        "Vector"
+      ],
+      [
+        "Vector Math",
+        "Vector",
+        "Noise Texture",
+        "Vector"
+      ],
+      [
+        "Vector Math",
+        "Vector",
+        "Noise Texture.001",
+        "Vector"
+      ],
+      [
+        "Vector Math.002",
+        "Vector",
+        "PH_Diffuse",
+        "Vector"
+      ],
+      [
+        "Vector Math.002",
+        "Vector",
+        "PH_Displacement",
+        "Vector"
+      ],
+      [
+        "Vector Math.002",
+        "Vector",
+        "PH_Rough",
+        "Vector"
+      ],
+      [
+        "Vector Rotate",
+        "Vector",
+        "Vector Math.002",
+        "Vector"
+      ]
+    ]
+  },
+  "cabinet_anchor_world_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      5.059999942779541
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      8.130000114440918
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      2.86680006980896
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "cabinet_actual_slots": {
+    "MASTER_BATH10_cabinet_case": [
+      "FW_MasterBath_Walnut10"
+    ],
+    "MASTER_BATH10_cabinet_door_0": [
+      "FW_MasterBath_Walnut10"
+    ],
+    "MASTER_BATH10_cabinet_door_1": [
+      "FW_MasterBath_Walnut10"
+    ]
+  },
+  "status": "PASS",
+  "no_save_no_render": true
+}

@@ -1,0 +1,170 @@
+{
+  "status": "PASS_OUTPUT_ONLY",
+  "source": "D:\\zx\\test\\project\\qa\\quality-benchmark-source.blend",
+  "source_sha256": "2f4f904a0364cf2792036ad59b7a112280cd64a15405945a13e975615a561bf4",
+  "source_bytes": 31218549,
+  "blender_version": "5.2.1 LTS",
+  "camera": "CAM_MAIN_L1_LIVING_B",
+  "full_frame": [
+    3840,
+    2160
+  ],
+  "crop_top_left_xywh": [
+    3120,
+    1380,
+    640,
+    640
+  ],
+  "frame": 1,
+  "threads": 8,
+  "device": "CPU",
+  "max_samples": 512,
+  "seed": 19,
+  "exposure": 2.4000000953674316,
+  "view_transform": "AgX",
+  "look": "None",
+  "denoiser": "OPENIMAGEDENOISE",
+  "denoiser_gpu": false,
+  "variants": [
+    {
+      "name": "baseline",
+      "threshold": 0.01,
+      "max_bounces": 12,
+      "diffuse_bounces": 6,
+      "glossy_bounces": 4,
+      "transmission_bounces": 8,
+      "transparent_bounces": 12,
+      "adaptive_min_samples": 0,
+      "status": "PASS_OUTPUT",
+      "files": [
+        {
+          "name": "denoised_image.png",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\baseline\\denoised_image.png",
+          "bytes": 497096,
+          "sha256": "24ed69b369e2d171583903e46e05e4a256afe4feed49080cb95ddb5bf584b806",
+          "dimensions": [
+            640,
+            640
+          ]
+        },
+        {
+          "name": "denoised_linear_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\baseline\\denoised_linear_image.exr",
+          "bytes": 6564544,
+          "sha256": "ef9ca6774d30e0162e0790c8c90ed37c554267d624feebc77d541bc405269026"
+        },
+        {
+          "name": "raw_image.png",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\baseline\\raw_image.png",
+          "bytes": 1012899,
+          "sha256": "8165cc2bba6d34743d651858c32311c803dab7bf9da7ade04454692d3f92e021",
+          "dimensions": [
+            640,
+            640
+          ]
+        },
+        {
+          "name": "raw_linear_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\baseline\\raw_linear_image.exr",
+          "bytes": 6564544,
+          "sha256": "ed163870e34a2c3639964cc97c0fb79ed2c954ad6dcb3250090dbf5cd55fd24b"
+        },
+        {
+          "name": "sample_count_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\baseline\\sample_count_image.exr",
+          "bytes": 6564544,
+          "sha256": "78c47afc1f8430a4a389b44e685cbed9b64a578d14030480ee7259ddd3c16390"
+        }
+      ],
+      "compositor": {
+        "render_layer_outputs": [
+          "Image",
+          "Alpha",
+          "Debug Sample Count",
+          "Noisy Image",
+          "Denoising Albedo",
+          "Denoising Specular Albedo",
+          "Denoising Normal",
+          "Denoising Roughness",
+          "Denoising Depth"
+        ],
+        "output_api": "scene.compositing_node_group; file_output_items.new(RGBA,name)",
+        "noisy_source": "Noisy Image",
+        "denoised_source": "Image",
+        "same_path_tracing_result": true
+      },
+      "seconds": 241.394
+    },
+    {
+      "name": "candidate",
+      "threshold": 0.025,
+      "max_bounces": 8,
+      "diffuse_bounces": 4,
+      "glossy_bounces": 4,
+      "transmission_bounces": 8,
+      "transparent_bounces": 12,
+      "adaptive_min_samples": 0,
+      "status": "PASS_OUTPUT",
+      "files": [
+        {
+          "name": "denoised_image.png",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\candidate\\denoised_image.png",
+          "bytes": 514019,
+          "sha256": "f0cabd4445fee59d791096cd7852c89e42e65282a9cf05fff232473713ad82bc",
+          "dimensions": [
+            640,
+            640
+          ]
+        },
+        {
+          "name": "denoised_linear_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\candidate\\denoised_linear_image.exr",
+          "bytes": 6564544,
+          "sha256": "f14036bcdfade15ef693500de0c159017bd465374a2746bd8b953fed28de1974"
+        },
+        {
+          "name": "raw_image.png",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\candidate\\raw_image.png",
+          "bytes": 1132285,
+          "sha256": "0450fb7ed545964301f66c109666ebcaf025b2ec37214b8671ac7944cf4e1b50",
+          "dimensions": [
+            640,
+            640
+          ]
+        },
+        {
+          "name": "raw_linear_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\candidate\\raw_linear_image.exr",
+          "bytes": 6564544,
+          "sha256": "5c5322c5d0b63a3c8958b810898c464aaf7ae9f2669e28332e08af96fbd0aa6c"
+        },
+        {
+          "name": "sample_count_image.exr",
+          "path": "D:\\zx\\test\\project\\qa\\quality-benchmark-living\\candidate\\sample_count_image.exr",
+          "bytes": 6564544,
+          "sha256": "a8129e22061e02978344216ac6424062b91e5d5fa03ebff4ab657a3236dcea96"
+        }
+      ],
+      "compositor": {
+        "render_layer_outputs": [
+          "Image",
+          "Alpha",
+          "Debug Sample Count",
+          "Noisy Image",
+          "Denoising Albedo",
+          "Denoising Specular Albedo",
+          "Denoising Normal",
+          "Denoising Roughness",
+          "Denoising Depth"
+        ],
+        "output_api": "scene.compositing_node_group; file_output_items.new(RGBA,name)",
+        "noisy_source": "Noisy Image",
+        "denoised_source": "Image",
+        "same_path_tracing_result": true
+      },
+      "seconds": 92.4324
+    }
+  ],
+  "scope": "Fixed 4K-pixel-density border; no full-frame speed guarantee or visual acceptance",
+  "visual_review": "NOT_RUN: inspect both raw and denoised images at 100%"
+}

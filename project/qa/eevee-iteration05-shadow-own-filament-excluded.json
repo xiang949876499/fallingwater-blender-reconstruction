@@ -1,0 +1,40 @@
+{
+  "source_sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+  "variant": "single_bath_light_own_filament_shadow_excluded",
+  "light": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+  "before": {
+    "use_shadow": true,
+    "use_shadow_jitter": false,
+    "shadow_jitter_overblur": 10.0,
+    "shadow_buffer_clip_start": 0.05000000074505806,
+    "shadow_soft_size": 0.027000000700354576,
+    "energy": 18.0,
+    "location": [
+      -1.1527999639511108,
+      14.655599594116211,
+      -0.24000000953674316
+    ],
+    "blocker_collection": null
+  },
+  "excluded_object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+  "blocker_link_state": "EXCLUDE",
+  "other_casters_preserved": true,
+  "light_energy_radius_position_unchanged": true,
+  "glass_bulb_and_cage_preserved": true,
+  "geometry_hash_before": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+  "cycles_original_surface_hash_before": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+  "all_shadows_still_enabled": true,
+  "exposure": 0.8,
+  "camera": "CAM_MAIN_B_BATH_B",
+  "status": "RENDERED",
+  "production_saved": false,
+  "gi_rebaked": false,
+  "scope": "Diagnostic only. Shadow linking would also affect Cycles if persisted; no scene saved.",
+  "seconds": 94.20862379999926,
+  "path": "D:\\zx\\test\\project\\qa\\eevee-iteration05-shadow-own-filament-excluded.png",
+  "sha256": "0cc3c7ce81c53284308260670c2e4b38524d409d42e575723c9cf88257f35ae3",
+  "visual_acceptance": "PASS_LOCAL_SYMPTOM: broad triangle removed; narrow corner shadow remains; no whole-scene acceptance",
+  "geometry_hash_after": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+  "cycles_original_surface_hash_after": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+  "viewed_native": true
+}

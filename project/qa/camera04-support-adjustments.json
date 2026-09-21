@@ -1,0 +1,200 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration04.blend",
+  "scope": "Only three failed non-flat/support-change cameras. Preserve XY and framing where the support alone changed; pool camera moves to measured dry floor. No geometry edits.",
+  "adjustments": [
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_B",
+      "old": {
+        "location": [
+          8.25062,
+          5.4025,
+          -1.69534
+        ],
+        "target": [
+          8.5412,
+          8.7615,
+          -1.7967
+        ],
+        "lens": 28,
+        "exposure": 2.0,
+        "room_id": "MAIN_B_FOUNDATION_3",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "SITE_Continuous_BearRun_Terrain",
+        "support_z": -3.29534,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "new": {
+        "location": [
+          8.25062,
+          5.4025,
+          -1.6498000000000002
+        ],
+        "target": [
+          8.5412,
+          8.7615,
+          -1.75116
+        ],
+        "lens": 28,
+        "exposure": 2.0,
+        "room_id": "MAIN_B_FOUNDATION_3",
+        "evidence": "Iteration04 actual mesh support remeasured. XY and relative framing preserved; vertical shift only. Full independent geometry verification and actual render review remain required.",
+        "support_object": "SITE_Continuous_BearRun_Terrain",
+        "support_z": -3.2498,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "delta_z_m": 0.045539999999999914,
+      "support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "location": [
+          8.25062,
+          5.4025,
+          -3.2498
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.25446
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_A",
+      "old": {
+        "location": [
+          -11.98159,
+          15.15415,
+          4.57401
+        ],
+        "target": [
+          -8.908,
+          15.2397,
+          4.25084
+        ],
+        "lens": 32,
+        "exposure": 0.8,
+        "room_id": "MAIN_L2_TERRACE_W",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "SITE_Continuous_BearRun_Terrain",
+        "support_z": 2.97401,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "new": {
+        "location": [
+          -11.98159,
+          15.15415,
+          4.4670000000000005
+        ],
+        "target": [
+          -8.908,
+          15.2397,
+          4.14383
+        ],
+        "lens": 32,
+        "exposure": 0.8,
+        "room_id": "MAIN_L2_TERRACE_W",
+        "evidence": "Iteration04 actual mesh support remeasured. XY and relative framing preserved; vertical shift only. Full independent geometry verification and actual render review remain required.",
+        "support_object": "MAIN_L2_TERRACE_W_finish",
+        "support_z": 2.867,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "delta_z_m": -0.10700999999999983,
+      "support": {
+        "object": "MAIN_L2_TERRACE_W_finish",
+        "location": [
+          -11.98159,
+          15.15415,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.40701
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "old": {
+        "location": [
+          23.20198,
+          34.47906,
+          10.70505
+        ],
+        "target": [
+          27.99808,
+          34.88576,
+          8.6
+        ],
+        "lens": 32,
+        "exposure": 0.8,
+        "room_id": "GUEST_L1_POOL",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "GUEST_POOL_coping_17",
+        "support_z": 9.10505,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "new": {
+        "location": [
+          22.70198,
+          34.47906,
+          10.0002
+        ],
+        "target": [
+          27.99808,
+          34.88576,
+          8.6
+        ],
+        "lens": 32,
+        "exposure": 0.8,
+        "room_id": "GUEST_L1_POOL",
+        "evidence": "Iteration04: former coping position had water under the +13cm footprint. Moved to measured dry floor near the same pool-side view; actual support/body/eye clearance checked. Visual review pending.",
+        "support_object": "GUEST_L1_MAIN_FLOOR",
+        "support_z": 8.4002,
+        "outside_room_polygon": true,
+        "render_reviewed": false
+      },
+      "support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          22.70198,
+          34.47906,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 2.9998
+      },
+      "view": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.24,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "GUEST_POOL_water",
+          "location": [
+            26.61732,
+            34.77973,
+            8.96505
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 4.06101
+        }
+      },
+      "dry_candidates": 42
+    }
+  ]
+}

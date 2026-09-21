@@ -1,0 +1,127 @@
+{
+  "scene_sha256": "6bcfee7841c22e8e2b636352cfca79ae94968afb4235fc20cdc57e250ae046ff",
+  "reviewer": "independent photo05 agent",
+  "review_scope": "Five actual CPU Cycles 960x540 24-sample preview PNGs, all opened; 4K, motion, dimensions and hidden geometry not assessed",
+  "scale": {
+    "1": "major unreadability or blockout",
+    "2": "readable prototype with obvious artificial form/material",
+    "3": "plausible intermediate scene; needs improvement",
+    "4": "near-photographic quality with small defects",
+    "5": "finished photographic acceptance"
+  },
+  "result": "NOT_ACCEPTED",
+  "items": [
+    {
+      "file": "D:\\zx\\test\\project\\renders\\previews\\iteration05-focus\\CAM_MAIN_B_BATH_B_EV1p6.png",
+      "sha256": "9caff6b95e4dc00b56be993fa50cfa75745347bcf53d5934bcd078f5c8cd42de",
+      "image_size": [
+        960,
+        540
+      ],
+      "actually_viewed": true,
+      "scores": {
+        "architecture": 3,
+        "materials": 2,
+        "lighting": 3,
+        "environment_context": 2,
+        "photographic_realism": 2
+      },
+      "observations": "Two previous wide black floor strips are absent in this view; doorway floor continuity visually improved. Sink basin/faucet readable. Pedestal cut by frame; room geometry beyond view unassessed. Generic fixture profile and flat broad material response remain.",
+      "status": "VISUAL_NOT_ACCEPTED"
+    },
+    {
+      "file": "D:\\zx\\test\\project\\renders\\previews\\iteration05-focus\\CAM_MAIN_L1_LIVING_B_EV2p4.png",
+      "sha256": "283b86173bcfc6198ec302ddd4023ff158560bc33c57e62c8772a25b32cf06e1",
+      "image_size": [
+        960,
+        540
+      ],
+      "actually_viewed": true,
+      "scores": {
+        "architecture": 2,
+        "materials": 2,
+        "lighting": 3,
+        "environment_context": 3,
+        "photographic_realism": 2
+      },
+      "observations": "Fireplace opening and masonry relief readable; dominant hearth is a clean concentric stepped plinth rather than the visibly irregular natural exposed bedrock of photo48. Stone courses are nearly machine-regular. Ceiling panel cropped, dark dining corner, flat smooth kettle.",
+      "status": "VISUAL_NOT_ACCEPTED"
+    },
+    {
+      "file": "D:\\zx\\test\\project\\renders\\previews\\iteration05-focus\\CAM_GUEST_L1_LOUNGE_A_EV2p4.png",
+      "sha256": "d9201bc335ba9fd25fed969b780909541b3687f6a768fd651fe6e51a7055c7bc",
+      "image_size": [
+        960,
+        540
+      ],
+      "actually_viewed": true,
+      "scores": {
+        "architecture": 2,
+        "materials": 2,
+        "lighting": 2,
+        "environment_context": 2,
+        "photographic_realism": 2
+      },
+      "observations": "View faces the bookcase and timber screen; new northwest fireplace entirely outside frame. Cannot approve the fireplace or compare to A11 from this image. Books are repeated blocks; furniture and stone remain simplified; deep shadows hide corner construction.",
+      "status": "VISUAL_NOT_ACCEPTED"
+    },
+    {
+      "file": "D:\\zx\\test\\project\\renders\\previews\\iteration05-focus\\CAM_GUEST_POOL.png",
+      "sha256": "18281b0c473c55250ef68515db62730d8e7cc1e35e65a8085382eae929ae4510",
+      "image_size": [
+        960,
+        540
+      ],
+      "actually_viewed": true,
+      "scores": {
+        "architecture": 3,
+        "materials": 2,
+        "lighting": 3,
+        "environment_context": 2,
+        "photographic_realism": 2
+      },
+      "observations": "Pool, slab, retaining wall and building relationship readable. Water is dominated by a broad pale reflection with little visible depth/edge detail at this resolution. Vegetation silhouette repeats and large near leaves frame architecture heavily. No claim of below-water geometry or dynamic-water continuity.",
+      "status": "VISUAL_NOT_ACCEPTED"
+    },
+    {
+      "file": "D:\\zx\\test\\project\\renders\\previews\\iteration05-focus\\CAM_MAIN_B_BATH_A_EV1p6.png",
+      "sha256": "199c8ea7c19147fde9903d1df4e7f2797b3646ba025f0ad99f15c7ec1f8182ef",
+      "image_size": [
+        960,
+        540
+      ],
+      "actually_viewed": true,
+      "scores": {
+        "architecture": 3,
+        "materials": 2,
+        "lighting": 3,
+        "environment_context": 2,
+        "photographic_realism": 2
+      },
+      "observations": "Toilet and washbasin visible at useful scale but both cropped. Warm cork enclosure coherent; generic highly smooth porcelain lacks drain/seat-detail evidence. This does not independently verify fixture dimensions or original historical model.",
+      "status": "VISUAL_NOT_ACCEPTED"
+    }
+  ],
+  "source_photos_actually_viewed": [
+    "main_living_48.jpg",
+    "guest_living_11.jpg",
+    "guest_exterior_10.jpg"
+  ],
+  "priority_findings": [
+    {
+      "priority": "P1",
+      "issue": "Main hearth visible natural bedrock identity not established by stepped manufactured plinth",
+      "action": "Compare main11/hearth drawings and archival views, confirm whether current visible object substitutes the exposed boulder; source-supported rebuild of outline if confirmed. Do not hide discrepancy with camera crop."
+    },
+    {
+      "priority": "P1",
+      "issue": "Guest lounge focus view excludes newly built fireplace",
+      "action": "Render a confirmed east-to-west structural view that contains open corner, west window return and floor/ceiling connections; current image cannot close this QA item."
+    },
+    {
+      "priority": "P1",
+      "issue": "A10 noncoplanar soffit fails independent candidate projection by 18.386% diagonal despite low planar window residual",
+      "action": "Verify low-arm roof polygon from guest02 before changing geometry. R01 station is unconfirmed, so residual alone is not a measured offset."
+    }
+  ]
+}

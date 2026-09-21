@@ -1,0 +1,1348 @@
+{
+  "schema_version": 1,
+  "scope": "Independent source review + CPU4 read-only frozen09 evaluated mesh probes. Only project/qa/dimensions10* written; no central CSV/data/production/geometry modification.",
+  "review_status": "READY_FOR_COMBINED10_REMEASUREMENT_GEO02_NOT_PASS",
+  "sources": {
+    "main04": {
+      "path": "../research/references/architecture/main-04-original.tif",
+      "sha256": "3db8199eeb84cd4226cfbae2ea9192880454c1012afa6e33bf84bae6449d8d56",
+      "source_authority": "HABS PA-5346 sheet4",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/"
+    },
+    "main05": {
+      "path": "qa/dimension-sources08-main05-original.tif",
+      "sha256": "b8ecfc0128d9f5452e768032afd766976eb1e1b39cf85924a256e45baf50c891",
+      "source_authority": "HABS PA-5346 sheet5",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00005a/"
+    },
+    "main10": {
+      "path": "../research/references/architecture/main-10-original.tif",
+      "sha256": "db6591996c049961a50ba593c002dc394d5708f1c15c5935e1c3671aed1e2ac7",
+      "source_authority": "HABS PA-5346 sheet10",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/"
+    },
+    "guest01": {
+      "path": "data/guest_refs/guest-01-original.tif",
+      "sha256": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+      "source_authority": "HABS PA-5346-A sheet1",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/"
+    }
+  },
+  "viewing": "Local original TIFF crops actually viewed. URLs are archive identifiers, not a fresh online verification.",
+  "source_crop_manifest": "qa/dimensions10-source-crops.json",
+  "source_witness_annotations": [
+    {
+      "source_excerpt": "dimensions10-main05-westchain.png",
+      "sha256": "51618fa979e7cc8633119b3577cc8fc5a78ab697dcd5694b50ca4788366f0a9b",
+      "annotation": "dimensions10-main05-west-witnesses-annotated.png",
+      "green_lines": "manually selected SOURCE witness/face planes",
+      "red_circles": "printed dimension ticks and physical faces",
+      "source_face_points_excerpt_pixels": [
+        [
+          116,
+          55
+        ],
+        [
+          116,
+          526
+        ],
+        [
+          400,
+          55
+        ],
+        [
+          400,
+          526
+        ],
+        [
+          137,
+          1913
+        ],
+        [
+          918,
+          1913
+        ],
+        [
+          137,
+          300
+        ],
+        [
+          918,
+          400
+        ]
+      ],
+      "explanations": [
+        "17 ft 6 3/8 in: NORTH outer face -> SOUTH outer face (not centre/clear span).",
+        "28 ft 11 1/4 in: WEST terrace outer face -> dressing stone WEST face.",
+        "Green source planes are chosen from the drawing, not fitted to mesh values."
+      ],
+      "view_status": "ACTUALLY_VIEWED"
+    },
+    {
+      "source_excerpt": "dimensions10-main05-southwidth-detail.png",
+      "sha256": "d9694e562e09ffc18817bfa5664ec4c8004eb42d3150560d93a194647b401127",
+      "annotation": "dimensions10-main05-southwidth-annotated.png",
+      "green_lines": "manually selected SOURCE witness/face planes",
+      "red_circles": "printed dimension ticks and physical faces",
+      "source_face_points_excerpt_pixels": [
+        [
+          82,
+          288
+        ],
+        [
+          785,
+          288
+        ],
+        [
+          82,
+          100
+        ],
+        [
+          785,
+          100
+        ]
+      ],
+      "explanations": [
+        "25 ft 5 1/4 in: opposite OUTER parapet faces.",
+        "Both witness marks align with the exterior corner/edge."
+      ],
+      "view_status": "ACTUALLY_VIEWED"
+    },
+    {
+      "source_excerpt": "dimensions10-main04-service.png",
+      "sha256": "d2791891c14a8bdcea283198101b2b10f57e78750ae98d1c1ef4c1aa9c1a52ad",
+      "annotation": "dimensions10-main04-service-witnesses-annotated.png",
+      "green_lines": "manually selected SOURCE witness/face planes",
+      "red_circles": "printed dimension ticks and physical faces",
+      "source_face_points_excerpt_pixels": [
+        [
+          284,
+          1726
+        ],
+        [
+          1336,
+          1726
+        ],
+        [
+          284,
+          940
+        ],
+        [
+          1336,
+          900
+        ]
+      ],
+      "explanations": [
+        "10 ft 11 in: WEST pier OUTSIDE face -> kitchen stone WEST face.",
+        "Not room net width; west pier thickness is included. Existing plaster substitute is C."
+      ],
+      "view_status": "ACTUALLY_VIEWED"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "MAIN10_L2_WEST_TERRACE_X",
+      "source_id": "main05",
+      "printed_label": "28 ft 11 1/4 in",
+      "category": "plan_projection",
+      "source_value_evidence": "A printed label",
+      "source_to_mesh_evidence": "C independently checked face identity, see qualification",
+      "view_status": "ACTUALLY_VIEWED",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "source_endpoint_semantics": "West terrace exterior parapet plane to dressing-room WEST stone face. Both source witnesses traced through actual physical outer faces; NOT a cantilever.",
+      "endpoint_identity_status": "SOURCE_FACE_IDENTITY_CONFIRMED",
+      "qualified_result": "FAIL",
+      "qualifies_as_independent_measured_assertion": true,
+      "measurement": {
+        "id": "MAIN10_L2_WEST_TERRACE_X",
+        "ray_a": {
+          "selectors": [
+            "MAIN_L2_west_parapet_0"
+          ],
+          "origin": [
+            -20,
+            14,
+            3.1
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L2_west_parapet_0",
+            "face": 146,
+            "point": [
+              -13.472000122070312,
+              14.0,
+              3.0999999046325684
+            ],
+            "normal": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "distance_from_origin": 6.5279998779296875
+          }
+        },
+        "ray_b": {
+          "selectors": [
+            "MAIN_L2_dressing_shell_middle"
+          ],
+          "origin": [
+            -10,
+            14.0,
+            4.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L2_dressing_shell_middle",
+            "face": 50,
+            "point": [
+              -4.474399566650391,
+              14.0,
+              4.0
+            ],
+            "normal": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "distance_from_origin": 5.525600433349609
+          }
+        },
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "reference_m": 8.82015,
+        "actual_mesh_m": 8.997600555419922,
+        "signed_error_m": 0.17745055541992194,
+        "tolerance_m": 0.04410075,
+        "numeric_result": "FAIL"
+      },
+      "source_tolerance_rule": "max(0.020m,0.005*printed_nominal_m)",
+      "nominal_pass_eligible": true
+    },
+    {
+      "id": "MAIN10_L2_WEST_TERRACE_Y",
+      "source_id": "main05",
+      "printed_label": "17 ft 6 3/8 in",
+      "category": "plan_span",
+      "source_value_evidence": "A printed label",
+      "source_to_mesh_evidence": "C independently checked face identity, see qualification",
+      "view_status": "ACTUALLY_VIEWED",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "source_endpoint_semantics": "North OUTER parapet face to south OUTER parapet face. The upper dimension tick is on the top outside outline; lower tick on the bottom outside outline. Neither is a centerline or inner finish face.",
+      "endpoint_identity_status": "SOURCE_FACE_IDENTITY_CONFIRMED",
+      "qualified_result": "FAIL",
+      "qualifies_as_independent_measured_assertion": true,
+      "measurement": {
+        "id": "MAIN10_L2_WEST_TERRACE_Y",
+        "ray_a": {
+          "selectors": [
+            "MAIN_L2_west_north_0"
+          ],
+          "origin": [
+            -10,
+            25,
+            3.1
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L2_west_north_0",
+            "face": 52,
+            "point": [
+              -10.0,
+              18.11090087890625,
+              3.0999999046325684
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "distance_from_origin": 6.88909912109375
+          }
+        },
+        "ray_b": {
+          "selectors": [
+            "MAIN_L2_west_parapet_1"
+          ],
+          "origin": [
+            -10,
+            8,
+            3.1
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L2_west_parapet_1",
+            "face": 146,
+            "point": [
+              -10.0,
+              12.527799606323242,
+              3.0999999046325684
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "distance_from_origin": 4.5278000831604
+          }
+        },
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "reference_m": 5.343525,
+        "actual_mesh_m": 5.583101272583008,
+        "signed_error_m": 0.23957627258300818,
+        "tolerance_m": 0.026717625,
+        "numeric_result": "FAIL"
+      },
+      "source_tolerance_rule": "max(0.020m,0.005*printed_nominal_m)",
+      "nominal_pass_eligible": true
+    },
+    {
+      "id": "MAIN10_L2_SOUTH_TERRACE_X",
+      "source_id": "main05",
+      "printed_label": "25 ft 5 1/4 in",
+      "category": "plan_span",
+      "source_value_evidence": "A printed label",
+      "source_to_mesh_evidence": "C independently checked face identity, see qualification",
+      "view_status": "ACTUALLY_VIEWED",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "source_endpoint_semantics": "Opposite OUTER faces of the master-bedroom south terrace parapets. Both chain witnesses align with exterior lower corner outlines.",
+      "endpoint_identity_status": "SOURCE_FACE_IDENTITY_CONFIRMED",
+      "qualified_result": "FAIL",
+      "qualifies_as_independent_measured_assertion": true,
+      "measurement": {
+        "id": "MAIN10_L2_SOUTH_TERRACE_X",
+        "ray_a": {
+          "selectors": [
+            "MAIN_L2_south_parapet_0"
+          ],
+          "origin": [
+            -5,
+            0,
+            3.1
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L2_south_parapet_0",
+            "face": 146,
+            "point": [
+              -0.5915999412536621,
+              0.0,
+              3.0999999046325684
+            ],
+            "normal": [
+              -1.0,
+              4.5649915847434386e-08,
+              0.0
+            ],
+            "distance_from_origin": 4.408400058746338
+          }
+        },
+        "ray_b": {
+          "selectors": [
+            "MAIN_L2_south_parapet_2"
+          ],
+          "origin": [
+            15,
+            0,
+            3.1
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L2_south_parapet_2",
+            "face": 146,
+            "point": [
+              7.246399879455566,
+              0.0,
+              3.0999999046325684
+            ],
+            "normal": [
+              0.9999999403953552,
+              6.20012130525538e-08,
+              0.0
+            ],
+            "distance_from_origin": 7.753600120544434
+          }
+        },
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "reference_m": 7.75335,
+        "actual_mesh_m": 7.8379998207092285,
+        "signed_error_m": 0.08464982070922833,
+        "tolerance_m": 0.03876675,
+        "numeric_result": "FAIL"
+      },
+      "source_tolerance_rule": "max(0.020m,0.005*printed_nominal_m)",
+      "nominal_pass_eligible": true
+    },
+    {
+      "id": "MAIN10_L1_SERVICE_OUTER_X",
+      "source_id": "main04",
+      "printed_label": "10 ft 11 in",
+      "category": "plan_span_diagnostic",
+      "source_value_evidence": "A printed label",
+      "source_to_mesh_evidence": "C independently checked face identity, see qualification",
+      "view_status": "ACTUALLY_VIEWED",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "source_endpoint_semantics": "West stone pier OUTSIDE face to kitchen stone WEST face, not room clear width. Frozen09 substitutes a continuous plaster wall for the source west pier; the chosen model wall is only a C correspondence.",
+      "endpoint_identity_status": "SOURCE_TO_MODEL_IDENTITY_LIMIT",
+      "qualified_result": "DIAGNOSTIC_NUMERIC_FAIL_NOT_QUALIFIED",
+      "qualifies_as_independent_measured_assertion": false,
+      "measurement": {
+        "id": "MAIN10_L1_SERVICE_OUTER_X",
+        "ray_a": {
+          "selectors": [
+            "MAIN_L1_servant_wall_0"
+          ],
+          "origin": [
+            -12,
+            15.9,
+            1.4
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L1_servant_wall_0",
+            "face": 50,
+            "point": [
+              -7.81279993057251,
+              15.899999618530273,
+              1.399999976158142
+            ],
+            "normal": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "distance_from_origin": 4.18720006942749
+          }
+        },
+        "ray_b": {
+          "selectors": [
+            "MAIN_L1_kitchen_west_0"
+          ],
+          "origin": [
+            -6,
+            15.9,
+            1.4
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L1_kitchen_west_0",
+            "face": 50,
+            "point": [
+              -4.327199935913086,
+              15.899999618530273,
+              1.399999976158142
+            ],
+            "normal": [
+              -1.0,
+              8.215990732196587e-08,
+              0.0
+            ],
+            "distance_from_origin": 1.672800064086914
+          }
+        },
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "reference_m": 3.3274,
+        "actual_mesh_m": 3.485599994659424,
+        "signed_error_m": 0.15819999465942391,
+        "tolerance_m": 0.02,
+        "numeric_result": "FAIL"
+      },
+      "source_tolerance_rule": "max(0.020m,0.005*printed_nominal_m)",
+      "nominal_pass_eligible": false
+    },
+    {
+      "id": "MAIN10_GRAPHICAL_L2_SOUTH_CANTILEVER",
+      "source_id": "main10",
+      "printed_label": null,
+      "category": "cantilever",
+      "source_value_evidence": "C graphical with A printed calibration",
+      "source_to_mesh_evidence": "C independently checked face identity, see qualification",
+      "view_status": "ACTUALLY_VIEWED",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "source_endpoint_semantics": "L2 south free exterior slab/parapet edge to the SOUTH face of the first full-height L1 stone pier in the west-looking section. Low window seat and glazing are not supports. This is graphical C, not an explicit cantilever dimension.",
+      "endpoint_identity_status": "C_GRAPHICAL_SUPPORT_IDENTITY",
+      "qualified_result": "GRAPHICAL_MISMATCH_SUPPORT_INTERFACE_UNRESOLVED",
+      "qualifies_as_independent_measured_assertion": true,
+      "measurement": {
+        "id": "MAIN10_GRAPHICAL_L2_SOUTH_CANTILEVER",
+        "ray_a": {
+          "selectors": [
+            "MAIN_L2_south_parapet_1"
+          ],
+          "origin": [
+            0,
+            -6,
+            2.7
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L2_south_parapet_1",
+            "face": 146,
+            "point": [
+              0.0,
+              -2.2970998287200928,
+              2.700000047683716
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "distance_from_origin": 3.7029001712799072
+          }
+        },
+        "ray_b": {
+          "selectors": [
+            "MAIN_L1_south_stone_pier_0"
+          ],
+          "origin": [
+            -0.45,
+            1,
+            2.0
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "max_distance": 50,
+          "hit": {
+            "object": "MAIN_L1_south_stone_pier_0",
+            "face": 50,
+            "point": [
+              -0.44999998807907104,
+              4.326599597930908,
+              2.0
+            ],
+            "normal": [
+              0.0,
+              -0.9999999403953552,
+              0.0
+            ],
+            "distance_from_origin": 3.326599597930908
+          }
+        },
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "reference_m": null,
+        "actual_mesh_m": 6.623699188232422,
+        "signed_error_m": null,
+        "tolerance_m": null,
+        "numeric_result": "GRAPHICAL_ONLY"
+      },
+      "graphical_reading": {
+        "source_excerpt": "D:\\zx\\test\\project\\qa\\dimensions10-main10-section-west.png",
+        "excerpt_sha256": "67ef31144ad9c801610e8fb396e0668689e028d155f2604c860157261d8046ce",
+        "annotation": "D:\\zx\\test\\project\\qa\\dimensions10-main10-cantilever-annotated.png",
+        "source_normalized_x": {
+          "free_edge_source_x": 268.1,
+          "first_fullheight_stone_face_source_x": 387.0,
+          "calibration_end_source_x": 657.8
+        },
+        "calibration_printed_label": "67 ft 2 in",
+        "calibration_m": 20.4724,
+        "calibration_normalized_span_px": 389.69999999999993,
+        "meters_per_normalized_pixel": 0.0525337439055684,
+        "graphical_span_normalized_px": 118.89999999999998,
+        "graphical_target_m": 6.246262150372082,
+        "endpoint_reading_bound_normalized_px_each": 0.5,
+        "calibration_tick_bound_normalized_px_each": 0.5,
+        "conservative_total_reading_bound_m": 0.08,
+        "survey_absolute_accuracy_m": null,
+        "evidence": "C graphical, A printed calibration label, source-to-pier model identity C",
+        "source_image_unmodified": true,
+        "annotation_is_not_source_geometry": true,
+        "view_status": "ACTUALLY_VIEWED"
+      },
+      "graphical_error_m": 0.3774370378603402,
+      "source_tolerance_rule": "Graphical reading interval only; NOT max(20mm,.5%) printed-dimension PASS",
+      "nominal_pass_eligible": false
+    },
+    {
+      "id": "GUEST10_THEATER_NORTH_BAY",
+      "source_id": "guest01",
+      "printed_label": "8 ft 1 7/8 in",
+      "category": "openings",
+      "source_value_evidence": "A printed label",
+      "source_to_mesh_evidence": "C independently checked face identity, see qualification",
+      "view_status": "ACTUALLY_VIEWED",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "source_endpoint_semantics": "Whole slanted north masonry bay between diagonal-back stone and retained pier 2 inward reveal faces. This is an architectural framed opening, not one door leaf or post-frame net walking width. The mesh hits are those actual stone faces.",
+      "endpoint_identity_status": "SOURCE_FACE_IDENTITY_CONFIRMED_BUT_LAYOUT_INCORRECT",
+      "qualified_result": "FAIL",
+      "qualifies_as_independent_measured_assertion": true,
+      "measurement": {
+        "id": "GUEST10_THEATER_NORTH_BAY",
+        "ray_a": {
+          "selectors": [
+            "GUEST_L1_THEATER_DIAGONAL_BACK_lintel_0",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_pier_end",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_sill_0",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_0",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_1",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_2",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_3",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_4",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_head",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_0",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_1",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_2",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_3",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_4",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_5",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_sill",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_0",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_1",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_2",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_3",
+            "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_4"
+          ],
+          "origin": [
+            -2.9702720642089844,
+            51.60063552856445,
+            9.5
+          ],
+          "direction": [
+            -0.5044148564338684,
+            0.8634614944458008,
+            -0.0
+          ],
+          "max_distance": 10,
+          "hit": {
+            "object": "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0",
+            "face": 50,
+            "point": [
+              -3.539874792098999,
+              52.575687408447266,
+              9.5
+            ],
+            "normal": [
+              0.5005678534507751,
+              -0.8656972646713257,
+              0.0
+            ],
+            "distance_from_origin": 1.1292346715927124
+          }
+        },
+        "ray_b": {
+          "selectors": [
+            "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end"
+          ],
+          "origin": [
+            -2.9702720642089844,
+            51.60063552856445,
+            9.5
+          ],
+          "direction": [
+            0.5044148564338684,
+            -0.8634614944458008,
+            0.0
+          ],
+          "max_distance": 10,
+          "hit": {
+            "object": "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+            "face": 52,
+            "point": [
+              -2.630678415298462,
+              51.019317626953125,
+              9.5
+            ],
+            "normal": [
+              -0.4702679216861725,
+              0.8825236558914185,
+              0.0
+            ],
+            "distance_from_origin": 0.6732426285743713
+          }
+        },
+        "axis": [
+          0.5044147968292236,
+          -0.8634613752365112,
+          0.0
+        ],
+        "reference_m": 2.486025,
+        "actual_mesh_m": 1.8024775683879852,
+        "signed_error_m": -0.6835474316120149,
+        "tolerance_m": 0.02,
+        "numeric_result": "FAIL",
+        "source_locator_endpoints_world": [
+          [
+            -3.606247901916504,
+            52.68930435180664,
+            9.5
+          ],
+          [
+            -2.3342959880828857,
+            50.511966705322266,
+            9.5
+          ]
+        ],
+        "source_direction_normal_dot": [
+          0.9999899566173553,
+          0.999235212802887
+        ],
+        "existing_straight_facade_diagnostic": [
+          {
+            "selectors": [
+              "GUEST_L1_THEATER_WEST_door_head_0",
+              "GUEST_L1_THEATER_WEST_door_head_2",
+              "GUEST_L1_THEATER_WEST_handle_0",
+              "GUEST_L1_THEATER_WEST_handle_2",
+              "GUEST_L1_THEATER_WEST_jamb_0_a",
+              "GUEST_L1_THEATER_WEST_jamb_0_b",
+              "GUEST_L1_THEATER_WEST_jamb_2_a",
+              "GUEST_L1_THEATER_WEST_jamb_2_b",
+              "GUEST_L1_THEATER_WEST_lintel_0",
+              "GUEST_L1_THEATER_WEST_lintel_1",
+              "GUEST_L1_THEATER_WEST_lintel_2",
+              "GUEST_L1_THEATER_WEST_open_leaf_0",
+              "GUEST_L1_THEATER_WEST_open_leaf_2",
+              "GUEST_L1_THEATER_WEST_pier_0",
+              "GUEST_L1_THEATER_WEST_pier_1",
+              "GUEST_L1_THEATER_WEST_pier_2",
+              "GUEST_L1_THEATER_WEST_pier_end",
+              "GUEST_L1_THEATER_WEST_sill_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+              "GUEST_L1_THEATER_WEST_steel_window_1_head",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3",
+              "GUEST_L1_THEATER_WEST_steel_window_1_sill",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_2"
+            ],
+            "origin": [
+              -2.9702720642089844,
+              51.60063552856445,
+              9.5
+            ],
+            "direction": [
+              0.8634614944458008,
+              0.5044148564338684,
+              0.0
+            ],
+            "max_distance": 5,
+            "hit": null
+          },
+          {
+            "selectors": [
+              "GUEST_L1_THEATER_WEST_door_head_0",
+              "GUEST_L1_THEATER_WEST_door_head_2",
+              "GUEST_L1_THEATER_WEST_handle_0",
+              "GUEST_L1_THEATER_WEST_handle_2",
+              "GUEST_L1_THEATER_WEST_jamb_0_a",
+              "GUEST_L1_THEATER_WEST_jamb_0_b",
+              "GUEST_L1_THEATER_WEST_jamb_2_a",
+              "GUEST_L1_THEATER_WEST_jamb_2_b",
+              "GUEST_L1_THEATER_WEST_lintel_0",
+              "GUEST_L1_THEATER_WEST_lintel_1",
+              "GUEST_L1_THEATER_WEST_lintel_2",
+              "GUEST_L1_THEATER_WEST_open_leaf_0",
+              "GUEST_L1_THEATER_WEST_open_leaf_2",
+              "GUEST_L1_THEATER_WEST_pier_0",
+              "GUEST_L1_THEATER_WEST_pier_1",
+              "GUEST_L1_THEATER_WEST_pier_2",
+              "GUEST_L1_THEATER_WEST_pier_end",
+              "GUEST_L1_THEATER_WEST_sill_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+              "GUEST_L1_THEATER_WEST_steel_window_1_head",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3",
+              "GUEST_L1_THEATER_WEST_steel_window_1_sill",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_2"
+            ],
+            "origin": [
+              -2.9702720642089844,
+              51.60063552856445,
+              9.5
+            ],
+            "direction": [
+              -0.8634614944458008,
+              -0.5044148564338684,
+              0.0
+            ],
+            "max_distance": 5,
+            "hit": null
+          }
+        ]
+      },
+      "source_tolerance_rule": "max(0.020m,0.005*printed_nominal_m)",
+      "nominal_pass_eligible": true
+    },
+    {
+      "id": "GUEST10_THEATER_MIDDLE_BAY",
+      "source_id": "guest01",
+      "printed_label": "7 ft 1 1/8 in",
+      "category": "openings",
+      "source_value_evidence": "A printed label",
+      "source_to_mesh_evidence": "C independently checked face identity, see qualification",
+      "view_status": "ACTUALLY_VIEWED",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "source_endpoint_semantics": "Whole slanted middle bay between retained piers 2 and 1. The source-derived axis misses pier1; the actual straight-wall glass cannot substitute for its absent source reveal.",
+      "endpoint_identity_status": "SOURCE_REVEAL_ABSENT_ON_AXIS",
+      "qualified_result": "GEOMETRY_CORRESPONDENCE_FAIL_NUMERIC_NOT_RUN",
+      "qualifies_as_independent_measured_assertion": false,
+      "measurement": {
+        "id": "GUEST10_THEATER_MIDDLE_BAY",
+        "ray_a": {
+          "selectors": [
+            "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end"
+          ],
+          "origin": [
+            -2.491976022720337,
+            48.65885925292969,
+            9.5
+          ],
+          "direction": [
+            -0.5079918503761292,
+            0.8613619804382324,
+            -0.0
+          ],
+          "max_distance": 10,
+          "hit": {
+            "object": "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+            "face": 50,
+            "point": [
+              -3.360633611679077,
+              50.13177490234375,
+              9.5
+            ],
+            "normal": [
+              0.4702679216861725,
+              -0.8825236558914185,
+              0.0
+            ],
+            "distance_from_origin": 1.709983468055725
+          }
+        },
+        "ray_b": {
+          "selectors": [
+            "GUEST_L1_CARPORT_RETAINED_PIER_1_pier_end"
+          ],
+          "origin": [
+            -2.491976022720337,
+            48.65885925292969,
+            9.5
+          ],
+          "direction": [
+            0.5079918503761292,
+            -0.8613619804382324,
+            0.0
+          ],
+          "max_distance": 10,
+          "hit": null
+        },
+        "axis": [
+          0.5079917907714844,
+          -0.8613618612289429,
+          0.0
+        ],
+        "reference_m": 2.162175,
+        "actual_mesh_m": null,
+        "numeric_result": "MISSING_SOURCE_RAY_ENDPOINT",
+        "source_locator_endpoints_world": [
+          [
+            -3.043855905532837,
+            49.59463882446289,
+            9.5
+          ],
+          [
+            -1.9400960206985474,
+            47.723079681396484,
+            9.5
+          ]
+        ],
+        "source_direction_normal_dot": [
+          0.999064490199089,
+          null
+        ],
+        "existing_straight_facade_diagnostic": [
+          {
+            "selectors": [
+              "GUEST_L1_THEATER_WEST_door_head_0",
+              "GUEST_L1_THEATER_WEST_door_head_2",
+              "GUEST_L1_THEATER_WEST_handle_0",
+              "GUEST_L1_THEATER_WEST_handle_2",
+              "GUEST_L1_THEATER_WEST_jamb_0_a",
+              "GUEST_L1_THEATER_WEST_jamb_0_b",
+              "GUEST_L1_THEATER_WEST_jamb_2_a",
+              "GUEST_L1_THEATER_WEST_jamb_2_b",
+              "GUEST_L1_THEATER_WEST_lintel_0",
+              "GUEST_L1_THEATER_WEST_lintel_1",
+              "GUEST_L1_THEATER_WEST_lintel_2",
+              "GUEST_L1_THEATER_WEST_open_leaf_0",
+              "GUEST_L1_THEATER_WEST_open_leaf_2",
+              "GUEST_L1_THEATER_WEST_pier_0",
+              "GUEST_L1_THEATER_WEST_pier_1",
+              "GUEST_L1_THEATER_WEST_pier_2",
+              "GUEST_L1_THEATER_WEST_pier_end",
+              "GUEST_L1_THEATER_WEST_sill_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+              "GUEST_L1_THEATER_WEST_steel_window_1_head",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3",
+              "GUEST_L1_THEATER_WEST_steel_window_1_sill",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_2"
+            ],
+            "origin": [
+              -2.491976022720337,
+              48.65885925292969,
+              9.5
+            ],
+            "direction": [
+              0.8613619804382324,
+              0.5079918503761292,
+              0.0
+            ],
+            "max_distance": 5,
+            "hit": null
+          },
+          {
+            "selectors": [
+              "GUEST_L1_THEATER_WEST_door_head_0",
+              "GUEST_L1_THEATER_WEST_door_head_2",
+              "GUEST_L1_THEATER_WEST_handle_0",
+              "GUEST_L1_THEATER_WEST_handle_2",
+              "GUEST_L1_THEATER_WEST_jamb_0_a",
+              "GUEST_L1_THEATER_WEST_jamb_0_b",
+              "GUEST_L1_THEATER_WEST_jamb_2_a",
+              "GUEST_L1_THEATER_WEST_jamb_2_b",
+              "GUEST_L1_THEATER_WEST_lintel_0",
+              "GUEST_L1_THEATER_WEST_lintel_1",
+              "GUEST_L1_THEATER_WEST_lintel_2",
+              "GUEST_L1_THEATER_WEST_open_leaf_0",
+              "GUEST_L1_THEATER_WEST_open_leaf_2",
+              "GUEST_L1_THEATER_WEST_pier_0",
+              "GUEST_L1_THEATER_WEST_pier_1",
+              "GUEST_L1_THEATER_WEST_pier_2",
+              "GUEST_L1_THEATER_WEST_pier_end",
+              "GUEST_L1_THEATER_WEST_sill_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+              "GUEST_L1_THEATER_WEST_steel_window_1_head",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2",
+              "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3",
+              "GUEST_L1_THEATER_WEST_steel_window_1_sill",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_0",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_1",
+              "GUEST_L1_THEATER_WEST_steel_window_1_transom_2"
+            ],
+            "origin": [
+              -2.491976022720337,
+              48.65885925292969,
+              9.5
+            ],
+            "direction": [
+              -0.8613619804382324,
+              -0.5079918503761292,
+              0.0
+            ],
+            "max_distance": 5,
+            "hit": {
+              "object": "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+              "face": 1,
+              "point": [
+                -2.5570404529571533,
+                48.620487213134766,
+                9.5
+              ],
+              "normal": [
+                0.9635307192802429,
+                0.2675977945327759,
+                0.0
+              ],
+              "distance_from_origin": 0.07553659379482269
+            }
+          }
+        ]
+      },
+      "source_tolerance_rule": "max(0.020m,0.005*printed_nominal_m)",
+      "nominal_pass_eligible": false
+    }
+  ],
+  "actualmesh_report": "qa/dimensions10-actualmesh09-attempt02.json",
+  "preserved_initial_attempt": "qa/dimensions10-actualmesh09-attempt01.json",
+  "support_interface": {
+    "pier_top": {
+      "selectors": [
+        "MAIN_L1_south_stone_pier_0"
+      ],
+      "origin": [
+        -0.2,
+        4.5666,
+        4
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "max_distance": 50,
+      "hit": {
+        "object": "MAIN_L1_south_stone_pier_0",
+        "face": 53,
+        "point": [
+          -0.20000000298023224,
+          4.5665998458862305,
+          2.4900002479553223
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance_from_origin": 1.5099998712539673
+      }
+    },
+    "slab_underside": {
+      "selectors": [
+        "MAIN_L2_TERRACE_S_slab"
+      ],
+      "origin": [
+        -0.2,
+        4.5666,
+        1
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "max_distance": 50,
+      "hit": {
+        "object": "MAIN_L2_TERRACE_S_slab",
+        "face": 0,
+        "point": [
+          -0.20000000298023224,
+          4.5665998458862305,
+          2.6247997283935547
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "distance_from_origin": 1.6247998476028442
+      }
+    },
+    "vertical_gap_m": 0.13479948043823242,
+    "adjacent_fascia": {
+      "pier_top": {
+        "selectors": [
+          "MAIN_L1_south_stone_pier_0"
+        ],
+        "origin": [
+          -0.45,
+          4.5666,
+          4
+        ],
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L1_south_stone_pier_0",
+          "face": 53,
+          "point": [
+            -0.44999998807907104,
+            4.5665998458862305,
+            2.490000009536743
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_from_origin": 1.5099999904632568
+        }
+      },
+      "fascia_underside": {
+        "selectors": [
+          "MAIN_L2_south_parapet_0"
+        ],
+        "origin": [
+          -0.45,
+          4.5666,
+          1
+        ],
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_south_parapet_0",
+          "face": 145,
+          "point": [
+            -0.44999998807907104,
+            4.5665998458862305,
+            2.5799999237060547
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance_from_origin": 1.5799999237060547
+        }
+      },
+      "vertical_gap_m": 0.08999991416931152
+    }
+  },
+  "frozen09_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "frozen_scene_unchanged": true,
+  "rendered": false,
+  "existing_qualified_09_anchors_not_rerun": [
+    {
+      "id": "MAIN_CHAIN_03",
+      "label": "11 ft",
+      "category": "plan_span",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "MAIN_LEVEL_2",
+      "label": "9 ft 4 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "MAIN_LEVEL_3",
+      "label": "17 ft 3.25 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "MAIN_ROOF_EAST",
+      "label": "24 ft 7.375 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "MAIN_ROOF_WEST",
+      "label": "24 ft 11.75 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_POOL_LENGTH",
+      "label": "30 ft 1 in",
+      "category": "pool",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_POOL_WIDTH",
+      "label": "13 ft 0 in",
+      "category": "pool",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_POOL_OUTER_WIDTH",
+      "label": "31 ft 6.625 in",
+      "category": "pool",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_SECOND_LEVEL",
+      "label": "7 ft 8.625 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_TOP_STONE",
+      "label": "14 ft 9.625 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_PARAPET",
+      "label": "10 ft 9.75 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_CHIMNEY",
+      "label": "17 ft 2.75 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_LOW_STONE",
+      "label": "6 ft 11.75 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_POOL_TOP",
+      "label": "2 ft 3.75 in",
+      "category": "elevation",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    },
+    {
+      "id": "GUEST_LAUNDRY_STAIR_CLEAR",
+      "label": "2 ft 5 in",
+      "category": "connections",
+      "source_result": "PASS",
+      "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+      "remeasured_by_this_script": false
+    }
+  ],
+  "bridge_anchor": {
+    "id": "SOURCE08_MAIN_BRIDGE_SOUTH_STONE_GAP",
+    "nominal_m": 4.0386,
+    "evidence_report": "qa/bridge10-handoff.md",
+    "actual_m_reported_by_owner": 4.038599014,
+    "remeasured_by_this_script": false,
+    "independent_count": 1,
+    "multiple_ray_stations_are_repeats": true
+  },
+  "independence_accounting": {
+    "baseline09_nominal_anchors": 15,
+    "bridge10_nominal_anchor": 1,
+    "new_qualified_nominal_measured_assertions": 4,
+    "new_qualified_nominal_PASS": 0,
+    "new_qualified_nominal_FAIL": 4,
+    "new_graphical_cantilever_assertions": 1,
+    "service_diagnostic_excluded_from_strict_count": 1,
+    "middle_opening_missing_endpoint_excluded_from_measured_count": 1,
+    "cross_candidate_nominal_measured_assertions_after_merge_and_retest": 20,
+    "cross_candidate_with_graphical_after_merge_and_retest": 21,
+    "same_combined_scene_verified_count": null,
+    "standard_PASS_not_20": true,
+    "dependence_note": "Same anchor across stations/frames/candidates counts once. Eight room-label source-precision-limit numeric PASS rows excluded. X/Y plan spans constrain different physical face pairs; the total chain sum is not added. Bridge and laundry repeat rays are not new anchors."
+  },
+  "excluded_cantilever_substitutions": [
+    "main05 west terrace 28 ft11 1/4 in overall projection; lower service pier lies within its projection",
+    "main04 west terrace 16 ft2 3/8 in overall depth",
+    "main04 top11 ft8 in chain without verified support pair",
+    "main10 overall80 ft3 7/8 in and67 ft2 in are calibrations/overall spans, not cantilever lengths"
+  ],
+  "retained_source_only_candidates_not_counted": [
+    {
+      "id": "MAIN05_WEST_CHAIN_33FT6_7_8",
+      "label": "33 ft 6 7/8 in",
+      "status": "SOURCE_READ_NOT_MEASURED",
+      "reason": "No extra value needed after three fully traced terrace spans; avoid speculative chimney projection station."
+    }
+  ],
+  "next_run": "Run dimensions10-measure.py against parent-provided combination10 SHA, retaining original09 results. Central audit integration is parent-owned."
+}

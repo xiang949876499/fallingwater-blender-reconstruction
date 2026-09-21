@@ -1,0 +1,150 @@
+{
+  "status": "PASS_CAMERA_VALUES_AND_COVERAGE",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_integration_candidate10a.blend",
+  "checked_blend": "D:\\zx\\test\\project\\scene\\Fallingwater_master_navigation_candidate10a.blend",
+  "method": "At every delivered integer frame, evaluate FCurves and actual dependency-graph camera world matrix; compare to identical-timing polyline, then test actual camera position and previous-frame sweep against mesh. Walking modes additionally test body and ground; cuts never receive a cross-segment sweep.",
+  "integer_frame_mesh_ray_calls": 206798,
+  "main_frames": 168,
+  "supplemental_frames": 192,
+  "room_count": 3,
+  "covered_room_count": 3,
+  "segment_checks": [
+    {
+      "id": "MASTER_LOCAL",
+      "camera": "QA_MASTER10_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 1,
+      "end_frame": 168,
+      "frames_checked": 168,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_MASTER"
+      ],
+      "keyframes": [
+        1,
+        168
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.5367431640625e-07,
+      "invalid_rotation_frames": [],
+      "animation_values_status": "PASS",
+      "frame_geometry_status": "PASS",
+      "actual_evaluated_world_matrix_checked": true,
+      "max_evaluated_matrix_error_m": 0.0,
+      "integer_frame_mesh_test": "BODY_GROUND_AND_CAMERA",
+      "intra_segment_previous_frame_sweeps_checked": true,
+      "stair_mode": false,
+      "geometry_failure_frame_count": 0,
+      "geometry_failures": []
+    },
+    {
+      "id": "MASTER_BATH_LOCAL",
+      "camera": "QA_MASTER10_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 169,
+      "end_frame": 264,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_BATH_M"
+      ],
+      "keyframes": [
+        169,
+        264
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": [],
+      "animation_values_status": "PASS",
+      "frame_geometry_status": "PASS",
+      "actual_evaluated_world_matrix_checked": true,
+      "max_evaluated_matrix_error_m": 0.0,
+      "integer_frame_mesh_test": "BODY_GROUND_AND_CAMERA",
+      "intra_segment_previous_frame_sweeps_checked": true,
+      "stair_mode": false,
+      "geometry_failure_frame_count": 0,
+      "geometry_failures": []
+    },
+    {
+      "id": "MASTER_WARDROBE_INSPECTION_LOCAL",
+      "camera": "QA_MASTER10_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 265,
+      "end_frame": 360,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK_STORAGE_INSPECTION",
+      "room_ids": [
+        "MAIN_L2_CLOSET_M"
+      ],
+      "keyframes": [
+        265,
+        360
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.830249847454215e-07,
+      "invalid_rotation_frames": [],
+      "animation_values_status": "PASS",
+      "frame_geometry_status": "PASS",
+      "actual_evaluated_world_matrix_checked": true,
+      "max_evaluated_matrix_error_m": 0.0,
+      "integer_frame_mesh_test": "BODY_GROUND_AND_CAMERA",
+      "intra_segment_previous_frame_sweeps_checked": true,
+      "stair_mode": false,
+      "geometry_failure_frame_count": 0,
+      "geometry_failures": []
+    }
+  ],
+  "room_coverage": [
+    {
+      "room_id": "MAIN_L2_MASTER",
+      "label": "Master Bedroom",
+      "inspection_segments": [
+        {
+          "camera": "QA_MASTER10_TOUR",
+          "segment": "MASTER_LOCAL",
+          "start_frame": 1,
+          "end_frame": 168,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_BATH_M",
+      "label": "Bath (master)",
+      "inspection_segments": [
+        {
+          "camera": "QA_MASTER10_SUPPLEMENTAL",
+          "segment": "MASTER_BATH_LOCAL",
+          "start_frame": 169,
+          "end_frame": 264,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "label": "Master Bedroom Wardrobe",
+      "inspection_segments": [
+        {
+          "camera": "QA_MASTER10_SUPPLEMENTAL",
+          "segment": "MASTER_WARDROBE_INSPECTION_LOCAL",
+          "start_frame": 265,
+          "end_frame": 360,
+          "mode": "NORMAL_WALK_STORAGE_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    }
+  ],
+  "limits": [
+    "A room identifier includes terraces, stairs, pool and service inspection spaces; it is not a count of habitable rooms.",
+    "A camera covering a room is geometric inspection coverage, not proof of a satisfactory rendered view.",
+    "Explicit cuts do not establish connected walking. GUI navigation and tour exposure remain unverified."
+  ],
+  "scope": "LOCAL_3_SEGMENTS_ONLY_NOT_FULL_60_OR_7584"
+}

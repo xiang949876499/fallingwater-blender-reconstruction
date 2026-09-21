@@ -1,0 +1,132 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration06.blend",
+  "sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+  "records": [
+    {
+      "id": "GAP_GUEST_THEATER_NORTH_BAY",
+      "source_label": "8 ft 1 7/8 in",
+      "target_m": 2.486025,
+      "axis_world": [
+        0.5044147968292236,
+        -0.8634613752365112,
+        0.0
+      ],
+      "ray_origin": [
+        -2.78031063079834,
+        51.711605072021484,
+        9.350000381469727
+      ],
+      "source_plane_inset_m": 0.22,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0",
+          "xyz": [
+            -3.3494205474853516,
+            52.68581008911133,
+            9.350000381469727
+          ],
+          "normal": [
+            0.5005678534507751,
+            -0.8656972646713257,
+            0.0
+          ],
+          "face_index": 50,
+          "distance": 1.128257393836975
+        },
+        {
+          "object": "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+          "xyz": [
+            -2.436375379562378,
+            51.12285232543945,
+            9.350000381469727
+          ],
+          "normal": [
+            -0.4702679216861725,
+            0.8825236558914185,
+            0.0
+          ],
+          "face_index": 52,
+          "distance": 0.6818497776985168
+        }
+      ],
+      "actual_m": 1.8101072013378143,
+      "delta_m": -0.6759177986621858,
+      "status": "FAIL"
+    },
+    {
+      "id": "GAP_GUEST_THEATER_MIDDLE_BAY",
+      "source_label": "7 ft 1 1/8 in",
+      "target_m": 2.162175,
+      "axis_world": [
+        0.5079917907714844,
+        -0.8613618612289429,
+        0.0
+      ],
+      "ray_origin": [
+        -2.302476406097412,
+        48.7706184387207,
+        9.350000381469727
+      ],
+      "source_plane_inset_m": 0.22,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+          "xyz": [
+            -3.1662962436676025,
+            50.235328674316406,
+            9.350000381469727
+          ],
+          "normal": [
+            0.4702679216861725,
+            -0.8825236558914185,
+            0.0
+          ],
+          "face_index": 50,
+          "distance": 1.7004600763320923
+        },
+        null
+      ],
+      "actual_m": null,
+      "delta_m": null,
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "GAP_GUEST_THEATER_SOUTH_BAY",
+      "source_label": "7 ft 1 1/8 in",
+      "target_m": 2.162175,
+      "axis_world": [
+        0.5104654431343079,
+        -0.8598982691764832,
+        0.0
+      ],
+      "ray_origin": [
+        -2.5366904735565186,
+        45.745033264160156,
+        9.350000381469727
+      ],
+      "source_plane_inset_m": 0.22,
+      "endpoints": [
+        {
+          "object": "GUEST_L1_CARPORT_RETAINED_PIER_1_pier_end",
+          "xyz": [
+            -3.355339527130127,
+            47.12407684326172,
+            9.350000381469727
+          ],
+          "normal": [
+            0.4799749553203583,
+            -0.8772821426391602,
+            0.0
+          ],
+          "face_index": 50,
+          "distance": 1.603730320930481
+        },
+        null
+      ],
+      "actual_m": null,
+      "delta_m": null,
+      "status": "NOT_RUN"
+    }
+  ],
+  "method": "Actual evaluated stone mesh opposed rays parallel to original printed bay dimension line; not glazing-width substitution. .22m transverse locator is C and must lie within both end reveal polygons."
+}

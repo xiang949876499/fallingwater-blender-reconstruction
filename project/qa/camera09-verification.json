@@ -1,0 +1,6368 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "settings": "D:\\zx\\test\\project\\qa\\camera09-saved-geometry-input.json",
+  "settings_sha256": "dd4f7fc70be966c159701b5f7fb091c5d8791bf1dd499e378b9f891dc1658074",
+  "geometry": {
+    "vertices": 1013224,
+    "polygons": 1079070,
+    "objects": 9632
+  },
+  "rays_cast": 3840,
+  "status": "GEOMETRY_ONLY_PASS",
+  "scope": "No rendering or illumination acceptance. Vegetation excluded from this room geometry index.",
+  "cameras": [
+    {
+      "camera": "CAM_MAIN_B_WINE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 1,
+        "median_depth_m": 1.433,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "MAIN_B_cellar_bath_south_1",
+          "location": [
+            -0.61053,
+            13.4103,
+            -0.5278
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 2.80015
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.38155001401901245
+      ],
+      "stored_support": {
+        "object": "MAIN_B_WINE_finish",
+        "z": -2.1278
+      },
+      "actual_center_support": {
+        "object": "MAIN_B_WINE_finish",
+        "location": [
+          -3.31168,
+          12.67232,
+          -2.1278
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_WINE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 4,
+        "median_depth_m": 1.156,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_B_cellar_bath_south_1",
+          "location": [
+            -1.2903,
+            13.4103,
+            -0.5278
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 1.12104
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "MAIN_B_WINE_finish",
+        "z": -2.1278
+      },
+      "actual_center_support": {
+        "object": "MAIN_B_WINE_finish",
+        "location": [
+          -0.45346,
+          12.66435,
+          -2.1278
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.825,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_B_bath_1",
+          "location": [
+            -0.3996,
+            14.82874,
+            -0.5278
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.19499
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.550000011920929
+      ],
+      "stored_support": {
+        "object": "MAIN_B_WINE_finish",
+        "z": -2.1278
+      },
+      "actual_center_support": {
+        "object": "MAIN_B_WINE_finish",
+        "location": [
+          -2.5388,
+          14.337,
+          -2.1278
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.681,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "MAIN_B_bath_west_bottom",
+          "location": [
+            -1.906,
+            13.72878,
+            -0.5278
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.00852
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "MAIN_B_BATH_finish",
+        "z": -2.1278
+      },
+      "actual_center_support": {
+        "object": "MAIN_B_BATH_finish",
+        "location": [
+          -0.63928,
+          15.28749,
+          -2.1278
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.066,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_B_WINE_wine_storage_rack_00_rack_upright.001",
+          "location": [
+            -1.91505,
+            13.34053,
+            -1.01803
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.69005
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_B_BOILER_finish",
+        "z": -2.1278
+      },
+      "actual_center_support": {
+        "object": "MAIN_B_BOILER_finish",
+        "location": [
+          2.489,
+          11.80413,
+          -2.1278
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.872,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "MAIN_B_boiler_2",
+          "location": [
+            2.8042,
+            13.06247,
+            -0.86982
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 3.06158
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_B_connection_floor",
+        "z": -2.1498
+      },
+      "actual_center_support": {
+        "object": "MAIN_B_connection_floor",
+        "location": [
+          -0.2332,
+          12.8502,
+          -2.1498
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.592,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "MAIN_service_stair_07",
+          "location": [
+            -4.55785,
+            17.74469,
+            -0.76518
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.59168
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_SERVANT_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_SERVANT_finish",
+        "location": [
+          -4.69729,
+          17.03035,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.518,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "MAIN_service_stair_09",
+          "location": [
+            -4.22442,
+            17.69692,
+            -0.47253
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.04616
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_service_stair_00",
+        "z": -1.97672
+      },
+      "actual_center_support": {
+        "object": "MAIN_service_stair_00",
+        "location": [
+          -6.25656,
+          17.91594,
+          -1.97672
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.864,
+        "different_visible_objects": 13,
+        "center_hit": {
+          "object": "MAIN_B_pier_1_course06_04_-1",
+          "location": [
+            2.82247,
+            10.52104,
+            -2.25175
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.75858
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "z": -3.2498
+      },
+      "actual_center_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "location": [
+          -0.2882,
+          5.71244,
+          -3.2498
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.671,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_B_pier_0_course08_06_1",
+          "location": [
+            -0.51687,
+            5.2331,
+            -1.97004
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 6.01255
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "z": -3.2498
+      },
+      "actual_center_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "location": [
+          2.5938,
+          10.36847,
+          -3.2498
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.434,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_B_pier_2_course08_10_-1",
+          "location": [
+            6.54287,
+            5.92592,
+            -1.96357
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.96317
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "z": -3.2498
+      },
+      "actual_center_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "location": [
+          3.69896,
+          11.15785,
+          -3.2498
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.381,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_B_pier_1_course08_01_1",
+          "location": [
+            3.46137,
+            12.39278,
+            -1.98987
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.99031
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "z": -3.2498
+      },
+      "actual_center_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "location": [
+          6.14271,
+          7.04688,
+          -3.2498
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.395,
+        "different_visible_objects": 13,
+        "center_hit": {
+          "object": "MAIN_B_pier_3_course08_04_-1",
+          "location": [
+            10.27591,
+            7.36137,
+            -2.02527
+          ],
+          "normal": [
+            -0.38269,
+            0.0,
+            -0.92388
+          ],
+          "distance": 5.44237
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "z": -3.2498
+      },
+      "actual_center_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "location": [
+          7.42175,
+          11.98005,
+          -3.2498
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.358,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            9.53442,
+            20.24274,
+            -2.09761
+          ],
+          "normal": [
+            -0.0039,
+            -0.95588,
+            0.29375
+          ],
+          "distance": 14.90239
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "z": -3.2498
+      },
+      "actual_center_support": {
+        "object": "SITE_Continuous_BearRun_Terrain",
+        "location": [
+          8.25062,
+          5.4025,
+          -3.2498
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.457,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_loggia_pool_stair_12",
+          "location": [
+            14.06108,
+            9.14934,
+            -0.24647
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.45737
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "location": [
+          13.81788,
+          10.59982,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.661,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_B_plunge_water",
+          "location": [
+            13.73472,
+            7.31281,
+            -2.6998
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 5.73746
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_loggia_pool_stair_00",
+        "z": -2.32647
+      },
+      "actual_center_support": {
+        "object": "MAIN_loggia_pool_stair_00",
+        "location": [
+          18.81,
+          9.12,
+          -2.32647
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.679,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L1_east_parapet_1",
+          "location": [
+            14.185,
+            2.47012,
+            0.38832
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 12.76092
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_LIVING_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_LIVING_finish",
+        "location": [
+          1.59656,
+          4.0804,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.453,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_L1_hearth_relief_course07_02_1",
+          "location": [
+            -0.3479,
+            9.97311,
+            1.1483
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 5.49047
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_LIVING_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_LIVING_finish",
+        "location": [
+          5.10081,
+          9.61608,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.809,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "MAIN_L1_servant_wall_2",
+          "location": [
+            -4.669,
+            14.96419,
+            1.7222
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.9427
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_SERVANT_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_SERVANT_finish",
+        "location": [
+          -7.38622,
+          16.09389,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.842,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_L1_servant_rock_edge_0",
+          "location": [
+            -7.35322,
+            16.52065,
+            1.7222
+          ],
+          "normal": [
+            0.20864,
+            -0.97799,
+            0.0
+          ],
+          "distance": 2.934
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_SERVANT_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_SERVANT_finish",
+        "location": [
+          -4.98892,
+          14.78328,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.321,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "MAIN_service_stair_08",
+          "location": [
+            -4.3833,
+            17.71887,
+            -0.59211
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.46432
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_service_stair_12",
+        "z": 0.1002
+      },
+      "actual_center_support": {
+        "object": "MAIN_service_stair_12",
+        "location": [
+          -3.4977,
+          17.5348,
+          0.1002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.834,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            16.6978,
+            16.08934,
+            -0.71325
+          ],
+          "normal": [
+            -0.88618,
+            -0.02354,
+            0.46275
+          ],
+          "distance": 22.15099
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_service_stair_04",
+        "z": -1.28442
+      },
+      "actual_center_support": {
+        "object": "MAIN_service_stair_04",
+        "location": [
+          -5.3579,
+          17.8652,
+          -1.28442
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.521,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L1_entry_southshort",
+          "location": [
+            8.5934,
+            11.01053,
+            1.53713
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.77047
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "location": [
+          7.31271,
+          12.2189,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.26,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L1_entry_west_0",
+          "location": [
+            6.835,
+            11.98441,
+            1.44459
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.65578
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "location": [
+          9.45529,
+          11.6525,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.213,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L1_COAT_coat_storage_00_door",
+          "location": [
+            9.22385,
+            13.17322,
+            1.7222
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 0.96629
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "location": [
+          8.8032,
+          12.3033,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.995,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "MAIN_stair1_09",
+          "location": [
+            5.79768,
+            12.9033,
+            1.7222
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 3.60553
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_floor_threshold_entry_coat_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_COAT_finish",
+        "location": [
+          9.4032,
+          12.9033,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": true,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 2,
+        "median_depth_m": 1.312,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_stair1_11",
+          "location": [
+            5.31004,
+            13.18843,
+            2.1588
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.20772
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_stair1_14",
+        "z": 2.6714
+      },
+      "actual_center_support": {
+        "object": "MAIN_stair1_14",
+        "location": [
+          4.76185,
+          12.8561,
+          2.6714
+        ],
+        "normal": [
+          0.38271,
+          0.0,
+          0.92387
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.71,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_stair1_10",
+          "location": [
+            5.59135,
+            13.14729,
+            1.92309
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 1.70956
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_stair1_02",
+        "z": 0.6128
+      },
+      "actual_center_support": {
+        "object": "MAIN_stair1_02",
+        "location": [
+          7.23775,
+          13.5051,
+          0.6128
+        ],
+        "normal": [
+          0.38269,
+          0.0,
+          0.92388
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.142,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L1_ENTRY_finish",
+          "location": [
+            8.85917,
+            12.67262,
+            0.1222
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 5.60761
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "location": [
+          13.81788,
+          10.59982,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 10.665,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            25.70605,
+            9.51163,
+            0.43478
+          ],
+          "normal": [
+            -0.75985,
+            -0.42687,
+            0.49031
+          ],
+          "distance": 12.31694
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "location": [
+          13.54376,
+          10.97046,
+          0.1222
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.262,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_L1_living_west_glass_3",
+          "location": [
+            -0.6854,
+            6.00309,
+            0.96763
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 6.26211
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_TERRACE_W_finish",
+        "z": 0.0222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_TERRACE_W_finish",
+        "location": [
+          -4.47201,
+          1.05868,
+          0.0222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 25.673,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            -23.91935,
+            -6.58115,
+            -0.96141
+          ],
+          "normal": [
+            0.44278,
+            -0.70126,
+            0.55873
+          ],
+          "distance": 25.67335
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_floor_threshold_living_west_n_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_floor_threshold_living_west_n_finish",
+        "location": [
+          -0.1572,
+          2.7612,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.581,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_hatch_open_leaf_glass_4",
+          "location": [
+            10.01876,
+            4.1907,
+            1.10424
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.95519
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_TERRACE_E_finish",
+        "z": 0.0222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_TERRACE_E_finish",
+        "location": [
+          12.89645,
+          0.19013,
+          0.0222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.408,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "MAIN_L1_east_parapet_0",
+          "location": [
+            13.24327,
+            -0.0391,
+            0.81476
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 7.72455
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_TERRACE_E_finish",
+        "z": 0.0222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_TERRACE_E_finish",
+        "location": [
+          12.3402,
+          7.58987,
+          0.0222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.208,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_water_stair_13",
+          "location": [
+            7.67209,
+            3.21512,
+            -0.41981
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.02612
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_water_stair_15",
+        "z": -0.07435
+      },
+      "actual_center_support": {
+        "object": "MAIN_water_stair_15",
+        "location": [
+          7.33398,
+          2.7612,
+          -0.07435
+        ],
+        "normal": [
+          0.38271,
+          -0.0,
+          0.92387
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.468,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_water_stair_16",
+          "location": [
+            7.12873,
+            3.03896,
+            0.09557
+          ],
+          "normal": [
+            0.92388,
+            0.0,
+            0.38268
+          ],
+          "distance": 2.58023
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_water_stair_04",
+        "z": -1.97982
+      },
+      "actual_center_support": {
+        "object": "MAIN_water_stair_04",
+        "location": [
+          9.63636,
+          2.66031,
+          -1.97982
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.333,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L2_core_north_backing",
+          "location": [
+            -0.85744,
+            11.576,
+            3.96527
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.79988
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_DRESSING_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_DRESSING_finish",
+        "location": [
+          -2.63048,
+          16.00809,
+          2.867
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.41,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_L2_dressing_north",
+          "location": [
+            -1.26224,
+            16.377,
+            3.96865
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.76752
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_DRESSING_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_DRESSING_finish",
+        "location": [
+          -2.09949,
+          11.71011,
+          2.867
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.969,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_stair2_09",
+          "location": [
+            3.09996,
+            13.41173,
+            3.78624
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 6.51263
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "location": [
+          0.22427,
+          7.60817,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.622,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L2_south_parapet_1",
+          "location": [
+            0.82933,
+            -2.0569,
+            2.94768
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 14.53484
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "location": [
+          3.94164,
+          12.05929,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.023,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_L2_bath_n_shell_0",
+          "location": [
+            2.71838,
+            16.2546,
+            4.467
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 3.219
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.35491999983787537
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_HALL_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_HALL_finish",
+        "location": [
+          0.4716,
+          13.9494,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.288,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "MAIN_L2_bath_n_shell_1",
+          "location": [
+            3.4106,
+            15.19508,
+            4.467
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.6827
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_BATH_N_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_BATH_N_finish",
+        "location": [
+          0.72884,
+          15.26625,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.107,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "MAIN_L2_bath_guest_left",
+          "location": [
+            5.0582,
+            11.69657,
+            4.467
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.02854
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "MAIN_floor_threshold_guest_bath_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_BATH_G_finish",
+        "location": [
+          7.074,
+          11.4696,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": true,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.238,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "MAIN_L2_hall_east",
+          "location": [
+            12.14894,
+            12.7762,
+            4.467
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 7.05153
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_BATH_G_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_BATH_G_finish",
+        "location": [
+          5.35738,
+          10.87913,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 3,
+        "median_depth_m": 1.565,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L2_BATH_M_washbasin_01_mirror",
+          "location": [
+            5.74531,
+            9.5723,
+            4.467
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 1.5183
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.4357599914073944
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "location": [
+          4.5352,
+          8.6553,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.786,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_L2_bath_master_south",
+          "location": [
+            5.08503,
+            6.8239,
+            4.467
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 3.29821
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.4429199993610382
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_BATH_M_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_BATH_M_finish",
+        "location": [
+          6.85182,
+          9.60898,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.404,
+        "different_visible_objects": 15,
+        "center_hit": {
+          "object": "MAIN_L2_bath_n_shell_1",
+          "location": [
+            3.611,
+            14.65881,
+            3.67323
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 7.59381
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_HALL_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_HALL_finish",
+        "location": [
+          10.57432,
+          11.7351,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.947,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_L2_hall_northeast",
+          "location": [
+            10.9586,
+            13.94988,
+            3.84542
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.94656
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_HALL_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_HALL_finish",
+        "location": [
+          5.07707,
+          14.56858,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.032,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door.001",
+          "location": [
+            9.72786,
+            10.97858,
+            4.02063
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.27033
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_GUEST_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_GUEST_finish",
+        "location": [
+          7.5718,
+          7.31963,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.969,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_L2_guest_south_glass_2",
+          "location": [
+            9.05747,
+            6.7479,
+            4.05691
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 3.92319
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_GUEST_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_GUEST_finish",
+        "location": [
+          10.66864,
+          10.3014,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 7.911,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L2_dressing_shell_north_0",
+          "location": [
+            -4.4746,
+            15.3631,
+            3.67769
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 7.55126
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_TERRACE_W_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_TERRACE_W_finish",
+        "location": [
+          -11.98159,
+          15.15415,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 16.647,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_L2_west_parapet_0",
+          "location": [
+            -13.25371,
+            15.40403,
+            3.54461
+          ],
+          "normal": [
+            0.98079,
+            0.0,
+            0.19509
+          ],
+          "distance": 8.82424
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_TERRACE_W_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_TERRACE_W_finish",
+        "location": [
+          -4.64231,
+          17.09525,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.746,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_L2_master_south_glass_5",
+          "location": [
+            4.56196,
+            6.8457,
+            3.58387
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 8.44872
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_TERRACE_S_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_TERRACE_S_finish",
+        "location": [
+          4.18909,
+          -1.54846,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.869,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "MAIN_L2_south_parapet_1",
+          "location": [
+            4.54522,
+            -2.06761,
+            3.56587
+          ],
+          "normal": [
+            0.0,
+            0.83147,
+            0.55557
+          ],
+          "distance": 8.62099
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_TERRACE_S_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_TERRACE_S_finish",
+        "location": [
+          4.18909,
+          6.49875,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 8.243,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L2_guest_east_glass_0",
+          "location": [
+            11.113,
+            10.31901,
+            3.58126
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 8.47366
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_TERRACE_E_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_TERRACE_E_finish",
+        "location": [
+          19.30217,
+          8.33006,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 14.343,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            37.95301,
+            9.3593,
+            1.77515
+          ],
+          "normal": [
+            -0.041,
+            -0.63348,
+            0.77267
+          ],
+          "distance": 25.75249
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_TERRACE_E_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_TERRACE_E_finish",
+        "location": [
+          12.39079,
+          7.77251,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 7.471,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_L2_bath_guest_north",
+          "location": [
+            7.22436,
+            12.66485,
+            3.52541
+          ],
+          "normal": [
+            0.3827,
+            0.92387,
+            0.0
+          ],
+          "distance": 9.00789
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_TERRACE_N_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_TERRACE_N_finish",
+        "location": [
+          6.32876,
+          21.57851,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 9.705,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "location": [
+            10.18655,
+            27.15796,
+            3.20129
+          ],
+          "normal": [
+            -0.25299,
+            0.0,
+            0.96747
+          ],
+          "distance": 12.10821
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_TERRACE_N_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_TERRACE_N_finish",
+        "location": [
+          5.88627,
+          15.91009,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.17,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_stair2_09",
+          "location": [
+            3.24685,
+            13.82193,
+            4.57311
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.51179
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_stair2_13",
+        "z": 5.26435
+      },
+      "actual_center_support": {
+        "object": "MAIN_stair2_13",
+        "location": [
+          2.21764,
+          13.82193,
+          5.26435
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.195,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_stair2_09",
+          "location": [
+            3.31663,
+            13.79951,
+            4.51975
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.195
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_stair2_00",
+        "z": 3.01781
+      },
+      "actual_center_support": {
+        "object": "MAIN_stair2_00",
+        "location": [
+          5.47056,
+          14.21062,
+          3.01781
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 3,
+        "rays_under_09m": 6,
+        "median_depth_m": 2.288,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "MAIN_L2_master_east_n",
+          "location": [
+            4.73228,
+            12.42251,
+            4.467
+          ],
+          "normal": [
+            -0.9239,
+            0.38264,
+            0.0
+          ],
+          "distance": 4.1946
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_CLOSET_M_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "location": [
+          0.60842,
+          11.65545,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": true,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.338,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_L2_core_course11_03_1",
+          "location": [
+            -0.2432,
+            10.52671,
+            4.467
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 2.56036
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_CLOSET_M_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "location": [
+          1.95918,
+          11.83245,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": true,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.436,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door",
+          "location": [
+            9.44932,
+            10.97858,
+            4.07294
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 2.25873
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.029999999329447746
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_GUEST_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_GUEST_finish",
+        "location": [
+          7.72,
+          9.58,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.834,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L2_CLOSET_G_coat_storage_00_door.001",
+          "location": [
+            9.60917,
+            10.97858,
+            3.93078
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 1.83372
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.019999999552965164
+      ],
+      "stored_support": {
+        "object": "MAIN_L2_GUEST_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_GUEST_finish",
+        "location": [
+          10.64,
+          9.56,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.771,
+        "different_visible_objects": 13,
+        "center_hit": {
+          "object": "MAIN_L3_study_south_mullion_1",
+          "location": [
+            -1.94968,
+            11.2764,
+            6.39206
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.72907
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_STUDY_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_STUDY_finish",
+        "location": [
+          -2.41443,
+          15.95655,
+          5.28635
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.243,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "MAIN_L3_study_core_1",
+          "location": [
+            -2.96774,
+            16.4101,
+            6.35546
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 5.07889
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_STUDY_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_STUDY_finish",
+        "location": [
+          -0.55222,
+          11.97405,
+          5.28635
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.713,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L3_BATH_water_closet_01_bowl_shell",
+          "location": [
+            1.06169,
+            15.62578,
+            5.56289
+          ],
+          "normal": [
+            0.70422,
+            -0.60488,
+            0.37175
+          ],
+          "distance": 1.59356
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_BATH_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_BATH_finish",
+        "location": [
+          1.6,
+          14.92,
+          5.28635
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.303,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L3_BATH_washbasin_00_mirror",
+          "location": [
+            1.32444,
+            14.02587,
+            6.88635
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 1.31089
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_BATH_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_BATH_finish",
+        "location": [
+          0.69867,
+          15.17775,
+          5.28635
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.456,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L3_alcove_east_glass_1",
+          "location": [
+            7.5938,
+            12.86524,
+            6.12124
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 7.31966
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "location": [
+          0.34453,
+          13.5287,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.608,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L3_GALLERY_gallery_art_placeholder_00_frame_vertical.001",
+          "location": [
+            3.17235,
+            13.14363,
+            6.64453
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 2.31342
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "location": [
+          5.47187,
+          13.0685,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.472,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L3_GALLERY_gallery_art_placeholder_00_art_backing",
+          "location": [
+            3.00719,
+            13.1893,
+            6.45473
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.12943
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_ALCOVE_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_ALCOVE_finish",
+        "location": [
+          7.1002,
+          13.52575,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.284,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "FW_FURN_MAIN_L3_ALCOVE_single_bed_00_woven_bedcover",
+          "location": [
+            6.37518,
+            14.14313,
+            5.78985
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 1.97234
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "location": [
+          5.2,
+          13.0,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.637,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "MAIN_L3_gallery_south_open_casement_glass_0",
+          "location": [
+            2.61384,
+            12.62276,
+            6.06636
+          ],
+          "normal": [
+            0.97815,
+            -0.20791,
+            0.0
+          ],
+          "distance": 7.84466
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_TERRACE_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_TERRACE_finish",
+        "location": [
+          9.6416,
+          9.23498,
+          5.28635
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.804,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_L3_terrace_parapet_1",
+          "location": [
+            10.4696,
+            10.20665,
+            5.83315
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 10.07572
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_TERRACE_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_TERRACE_finish",
+        "location": [
+          0.524,
+          11.42978,
+          5.28635
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.097,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "MAIN_north_spiral_15",
+          "location": [
+            8.35127,
+            23.08295,
+            5.26435
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 3.13484
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_LINK_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_LINK_finish",
+        "location": [
+          5.82688,
+          23.99058,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 9.692,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_CONNECTOR_step_001",
+          "location": [
+            4.57235,
+            23.31097,
+            5.55435
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 4.05826
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_LINK_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_LINK_finish",
+        "location": [
+          8.34415,
+          23.9956,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 1,
+        "median_depth_m": 2.488,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_L2_HALL_finish",
+          "location": [
+            5.64733,
+            14.36309,
+            2.867
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 5.65461
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "z": 5.28635
+      },
+      "actual_center_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "location": [
+          1.85,
+          13.18,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.973,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "MAIN_floor_threshold_gallery_bath_finish",
+          "location": [
+            1.32691,
+            13.70767,
+            5.28635
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.45587
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_stair2_07",
+        "z": 4.22749
+      },
+      "actual_center_support": {
+        "object": "MAIN_stair2_07",
+        "location": [
+          3.7204,
+          13.806,
+          4.22749
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.67,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "GUEST_L1_THEATER_WEST_pier_1",
+          "location": [
+            -1.93937,
+            46.68059,
+            9.32862
+          ],
+          "normal": [
+            0.99259,
+            -0.12148,
+            0.0
+          ],
+          "distance": 6.42479
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_THEATER_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_THEATER_FLOOR",
+        "location": [
+          2.94798,
+          50.79649,
+          8.4002
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.593,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_L1_THEATER_NORTHEAST_steel_window_0_glass_3",
+          "location": [
+            2.65816,
+            52.02596,
+            9.19921
+          ],
+          "normal": [
+            -0.86517,
+            -0.50148,
+            0.0
+          ],
+          "distance": 7.66287
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_THEATER_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_THEATER_FLOOR",
+        "location": [
+          -1.97163,
+          45.97261,
+          8.4002
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.612,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_L1_THEATER_SOUTH_DIAGONAL_steel_window_0_glass_1",
+          "location": [
+            0.80986,
+            43.53797,
+            9.52165
+          ],
+          "normal": [
+            -0.91958,
+            -0.39291,
+            0.0
+          ],
+          "distance": 4.57811
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_CAR_COURT",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_CAR_COURT",
+        "location": [
+          -3.02138,
+          41.07796,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.8,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            -3.30758,
+            40.63285,
+            9.40014
+          ],
+          "normal": [
+            -0.63174,
+            0.77518,
+            0.0
+          ],
+          "distance": 5.74076
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_CAR_COURT",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_CAR_COURT",
+        "location": [
+          -0.41691,
+          45.55629,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.291,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_boiler_body",
+          "location": [
+            3.8818,
+            41.72056,
+            9.14121
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 8.21797
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+        "location": [
+          -3.14898,
+          37.55339,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.981,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_L1_CHAUFFEUR_WEST_steel_window_0_glass_3",
+          "location": [
+            -3.58628,
+            37.68192,
+            9.46121
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.15639
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+        "location": [
+          1.00697,
+          39.96226,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 2,
+        "median_depth_m": 1.667,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_SERVICE_ASCENT_tread_10",
+          "location": [
+            2.93488,
+            38.74014,
+            10.24873
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.17705
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_SERVICE_ASCENT_tread_13",
+        "z": 10.75287
+      },
+      "actual_center_support": {
+        "object": "GUEST_SERVICE_ASCENT_tread_13",
+        "location": [
+          2.8014,
+          38.19763,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 1e-05
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.139,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+          "location": [
+            1.89137,
+            40.47915,
+            9.03483
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 6.1811
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_HALL_SOUTH",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_HALL_SOUTH",
+        "location": [
+          2.32252,
+          34.38914,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.869,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            3.83455,
+            38.33882,
+            10.0002
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.0936
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.07999999821186066
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          8.85,
+          37.45,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.541,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L1_LOUNGE_walnut_vertical_screen_04_screen_slat.009",
+          "location": [
+            9.4537,
+            37.98822,
+            10.0002
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.04622
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.2131696492433548
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          5.46639,
+          37.30034,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.632,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L1_LOUNGE_window_cantilever_bench_00_back_cushion.004",
+          "location": [
+            5.76402,
+            36.46233,
+            9.2404
+          ],
+          "normal": [
+            0.0,
+            0.96815,
+            0.25036
+          ],
+          "distance": 7.26891
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          12.07678,
+          39.98496,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.869,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            13.42385,
+            40.66719,
+            9.55053
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.30182
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          9.63274,
+          38.68453,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.348,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "GUEST_L1_BED_EAST_pier_end",
+          "location": [
+            19.5146,
+            36.77861,
+            9.3616
+          ],
+          "normal": [
+            2e-05,
+            1.0,
+            0.0
+          ],
+          "distance": 6.10943
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          14.62929,
+          40.39123,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.169,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_L1_BATH_WC_NORTH_pier_end",
+          "location": [
+            14.53552,
+            39.22887,
+            9.49543
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.82901
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          19.08143,
+          37.67992,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 20.276,
+        "different_visible_objects": 8,
+        "center_hit": null
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          16.28952,
+          35.70412,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.952,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "GUEST_POOL_water",
+          "location": [
+            30.63591,
+            35.70074,
+            8.96505
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 22.36517
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          8.32175,
+          34.60179,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.357,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "GUEST_POOL_water",
+          "location": [
+            26.58236,
+            34.78004,
+            8.96505
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 4.17308
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4043
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          22.55198,
+          34.47906,
+          8.40137
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16293
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": -0.00293
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.284,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "GUEST_POOL_water",
+          "location": [
+            28.80323,
+            35.55566,
+            8.96505
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 3.14525
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          31.08634,
+          37.45525,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 3,
+        "median_depth_m": 1.129,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "GUEST_LAUNDRY_DESCENT_tread_06",
+          "location": [
+            1.77805,
+            38.98848,
+            7.2202
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 2.97598
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_CHAUFFEUR_DOOR_LANDING",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_CHAUFFEUR_DOOR_LANDING",
+        "location": [
+          1.61296,
+          40.03768,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 6,
+        "median_depth_m": 1.255,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "GUEST_LAUNDRY_DESCENT_tread_05",
+          "location": [
+            1.76294,
+            38.97399,
+            7.32984
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 1.30774
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_B1_STAIR_LANDING",
+        "z": 6.0402
+      },
+      "actual_center_support": {
+        "object": "GUEST_B1_STAIR_LANDING",
+        "location": [
+          1.92064,
+          40.23454,
+          6.0402
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.848,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_SOUTH_pier_end",
+          "location": [
+            0.65372,
+            37.26292,
+            11.84396
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 4.86856
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "z": 10.75287
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "location": [
+          -3.08459,
+          40.34008,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 1e-05
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.93,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_WEST_steel_window_2_glass_1",
+          "location": [
+            -3.48116,
+            39.12696,
+            11.9031
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.3029
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "z": 10.75288
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "location": [
+          0.77857,
+          39.5361,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.717,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_ROOM_EAST_pier_1",
+          "location": [
+            1.2274,
+            44.19823,
+            11.79075
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.37775
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "z": 10.75287
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "location": [
+          -3.08459,
+          41.03423,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 1e-05
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.871,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_WEST_steel_window_1_glass_2",
+          "location": [
+            -3.48116,
+            42.07487,
+            11.87992
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.52466
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "z": 10.75288
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "location": [
+          0.77857,
+          43.52525,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.871,
+        "different_visible_objects": 11,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_ROOM_EAST_pier_0",
+          "location": [
+            1.2274,
+            47.796,
+            11.81998
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.09815
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "z": 10.75287
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "location": [
+          -3.03203,
+          45.04566,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 1e-05
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.04,
+        "different_visible_objects": 9,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L2_BEDROOM_NORTH_service_wardrobe_04_door.001",
+          "location": [
+            -2.5703,
+            46.43442,
+            11.9306
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.0399
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "z": 10.75288
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_BEDROOM_FLOOR",
+        "location": [
+          1.01903,
+          48.23974,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.193,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L2_BATH_washbasin_00_mirror",
+          "location": [
+            2.46756,
+            45.7536,
+            12.36188
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 2.23164
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.26534000039100647
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_BATH_cork_finish",
+        "z": 10.76188
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_BATH_cork_finish",
+        "location": [
+          1.82846,
+          47.89178,
+          10.76188
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16001
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.193,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_NORTH_pier_end_cork_lining",
+          "location": [
+            2.23742,
+            48.5892,
+            12.36188
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 3.07255
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.3910500109195709
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_BATH_cork_finish",
+        "z": 10.76188
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_BATH_cork_finish",
+        "location": [
+          3.0058,
+          45.61428,
+          10.76188
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16001
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.871,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_ROOM_EAST_pier_2",
+          "location": [
+            1.3678,
+            42.62504,
+            12.08489
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "distance": 2.56369
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_CORRIDOR_FLOOR",
+        "z": 10.75287
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_CORRIDOR_FLOOR",
+        "location": [
+          3.11618,
+          44.4808,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 1e-05
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.549,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_BATH_SOUTH_pier_end",
+          "location": [
+            3.30604,
+            45.24912,
+            11.8633
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 4.68369
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_STAIR_PASSAGE",
+        "z": 10.75288
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_STAIR_PASSAGE",
+        "location": [
+          1.91956,
+          40.80222,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 5.603,
+        "different_visible_objects": 7,
+        "center_hit": {
+          "object": "GUEST_L2_UPPER_NORTH_pier_end",
+          "location": [
+            1.07758,
+            48.7986,
+            11.76717
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 5.60336
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_NORTH_TERRACE",
+        "z": 10.75288
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_NORTH_TERRACE",
+        "location": [
+          0.19931,
+          54.30162,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 6.16,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            -2.41904,
+            53.20385,
+            11.67328
+          ],
+          "normal": [
+            0.50632,
+            -0.86235,
+            0.0
+          ],
+          "distance": 6.50166
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_L2_NORTH_TERRACE",
+        "z": 10.75288
+      },
+      "actual_center_support": {
+        "object": "GUEST_L2_NORTH_TERRACE",
+        "location": [
+          2.66307,
+          49.20612,
+          10.75288
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.437,
+        "different_visible_objects": 14,
+        "center_hit": {
+          "object": "MAIN_L1_kitchen_east_south",
+          "location": [
+            -0.3408,
+            12.49997,
+            1.24263
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 4.58799
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_KITCHEN_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_floor_threshold_service_top_finish",
+        "location": [
+          -2.82557,
+          16.32692,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": true,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 4.367,
+        "different_visible_objects": 10,
+        "center_hit": {
+          "object": "MAIN_L1_north_spine_0",
+          "location": [
+            -1.83983,
+            16.5013,
+            1.19202
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 5.07216
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "MAIN_L1_KITCHEN_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_KITCHEN_finish",
+        "location": [
+          -1.18102,
+          11.50013,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 2,
+        "rays_under_09m": 6,
+        "median_depth_m": 1.611,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L1_BOILER_service_pressure_vessel_01_tank_connection",
+          "location": [
+            5.45349,
+            42.19612,
+            10.0002
+          ],
+          "normal": [
+            -0.71321,
+            -0.38098,
+            0.58838
+          ],
+          "distance": 2.53385
+        }
+      },
+      "outside_current_room_polygon": true,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Adjacent/doorway/exterior inspection viewpoint; spatial and actual image review required, not accepted room occupancy.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.15640999376773834
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_HALL_NORTH",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_CAR_COURT",
+        "location": [
+          2.96819,
+          41.70246,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": true,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 1,
+        "median_depth_m": 1.663,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            3.95412,
+            42.51347,
+            9.47671
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 2.24506
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.05000000074505806
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "location": [
+          5.82,
+          41.38,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.793,
+        "different_visible_objects": 6,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_L1_BATH_washbasin_01_mirror",
+          "location": [
+            12.2052,
+            38.00696,
+            10.0092
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 1.47089
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.4165700078010559
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_BATH_cork_finish",
+        "z": 8.4092
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_BATH_cork_finish",
+        "location": [
+          11.82537,
+          36.58596,
+          8.4092
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 2.364,
+        "different_visible_objects": 3,
+        "center_hit": {
+          "object": "GUEST_L1_BATH_SOUTH_pier_end_cork_lining",
+          "location": [
+            13.03122,
+            36.39745,
+            10.0092
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 2.41312
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.42083001136779785
+      ],
+      "stored_support": {
+        "object": "GUEST_L1_BATH_cork_finish",
+        "z": 8.4092
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_BATH_cork_finish",
+        "location": [
+          14.10129,
+          38.56034,
+          8.4092
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.473,
+        "different_visible_objects": 12,
+        "center_hit": {
+          "object": "GUEST_B1_BASE_BATH_WEST_pier_end_cork_lining",
+          "location": [
+            -3.447,
+            37.83564,
+            7.10727
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "distance": 5.0985
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_B1_FLOOR",
+        "z": 6.0402
+      },
+      "actual_center_support": {
+        "object": "GUEST_B1_FLOOR",
+        "location": [
+          1.04565,
+          40.18655,
+          6.0402
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 3.022,
+        "different_visible_objects": 8,
+        "center_hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            -0.27369,
+            40.84336,
+            7.2766
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 3.47853
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        0.0
+      ],
+      "stored_support": {
+        "object": "GUEST_B1_FLOOR",
+        "z": 6.0402
+      },
+      "actual_center_support": {
+        "object": "GUEST_B1_FLOOR",
+        "location": [
+          -1.48407,
+          37.60253,
+          6.0402
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_A",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.729,
+        "different_visible_objects": 5,
+        "center_hit": {
+          "object": "FW_FURN_GUEST_B1_BATH_washbasin_00_mirror",
+          "location": [
+            -2.62351,
+            37.45146,
+            7.6492
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance": 1.71436
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.35311999917030334
+      ],
+      "stored_support": {
+        "object": "GUEST_B1_BATH_cork_finish",
+        "z": 6.0492
+      },
+      "actual_center_support": {
+        "object": "GUEST_B1_BATH_cork_finish",
+        "location": [
+          -3.21398,
+          39.06092,
+          6.0492
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_B",
+      "status": "GEOMETRY_ONLY_PASS",
+      "issue": null,
+      "framing": {
+        "near_rays_under_045m": 0,
+        "rays_under_09m": 0,
+        "median_depth_m": 1.791,
+        "different_visible_objects": 4,
+        "center_hit": {
+          "object": "GUEST_B1_BASE_BATH_NORTH_pier_end_cork_lining",
+          "location": [
+            -2.80636,
+            39.37624,
+            7.6492
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance": 1.86263
+        }
+      },
+      "outside_current_room_polygon": false,
+      "stored_outside_flag_matches": true,
+      "viewpoint_scope": "Eye XY lies in current room polygon; this alone does not prove useful framing or navigation.",
+      "framing_scope": "Legacy unshifted 15-ray diagnostic; use post-image composition witnesses and actual renders for shifted camera framing.",
+      "lens_shift": [
+        0.0,
+        -0.5799999833106995
+      ],
+      "stored_support": {
+        "object": "GUEST_B1_BATH_cork_finish",
+        "z": 6.0492
+      },
+      "actual_center_support": {
+        "object": "GUEST_B1_BATH_cork_finish",
+        "location": [
+          -2.13102,
+          37.64035,
+          6.0492
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_object_changed": false,
+      "support_delta_z_m": 0.0
+    }
+  ],
+  "production_settings_sha256": "f011c9462431e12137a49d3829a85586da0804a5a934086e03d7143c7d5dc1d0",
+  "frozen_settings": "D:\\zx\\test\\project\\qa\\camera09-settings-frozen.json",
+  "geometry_pose_source": "Actual persisted world pose/lens/shifts/exposure read first; target reconstructed along actual camera -Z at the expected target distance. Stored ground is the frozen reference. No camera mutation.",
+  "saved_settings_status": "SAVED_SETTINGS_MATCH",
+  "method_module_sha256": "c288a3f848a19f0eed072678f2dd43110f52fb299d6c4c93ee06759b0a94ef88"
+}

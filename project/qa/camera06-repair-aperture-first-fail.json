@@ -1,0 +1,1023 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration06.blend",
+  "geometry": {
+    "vertices": 952728,
+    "polygons": 1020405,
+    "objects": 9683
+  },
+  "scope": "Only camera selection, no geometry mutation; all four revisions require actual images.",
+  "embedded_camera_checks": [
+    {
+      "camera": "CAM_MAIN_B_WINE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999329447746,
+      "actual_shift_y": -0.38155001401901245
+    },
+    {
+      "camera": "CAM_MAIN_B_WINE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000707805157,
+      "actual_shift_y": -0.550000011920929
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999403953552,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000596046448,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000521540642,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000637955964,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000451691449,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.000000006519258,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.999999996740371,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999050050974,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999937135726,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999734573066,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999750289135,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999925494194,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999850988388,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999348074198,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999469146132,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000149011612,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999520368874,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999492429197,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000735744834,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.999999932013452,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.999999925494194,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999403953552,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000558793545,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999422580004,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999403953552,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000409781933,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999292194843,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000465661287,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999962747097,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999888241291,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000149011612,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000037252903,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000558793545,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999636784196,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000344589353,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "actual_shift_y": -0.35491999983787537
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999987194315,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999925494194,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999925494194,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999403953552,
+      "actual_shift_y": -0.4357599914073944
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999701976776,
+      "actual_shift_y": -0.4429199993610382
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999897554517,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999394640326,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999823048711,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999878928065,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999979045242,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999832361937,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999639112502,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000160653144,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000027939677,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000093132257,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999795109034,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000316649675,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000200234354,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999776482582,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999666470103,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999403953552,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999998863786459,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000866129994,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999403953552,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999133870006,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000693835318,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999352730811,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999776482582,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999990686774,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000027939677,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999180436134,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999664723873,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999643478077,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999933643267,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.000000030733645,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999469146132,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.999999986961484,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000167638063,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999506399035,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999199062586,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000782310963,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999012798071,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999944120646,
+      "actual_shift_y": -0.23134000599384308
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.000000037252903,
+      "actual_shift_y": -0.2583099901676178
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999813735485,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000381842256,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999981373549,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.000000019557774,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.000000024214387,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999541323632,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999795109034,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999701976776,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999762512743,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999208375812,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000353902578,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999813735485,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.000000011175871,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000540167093,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000791624188,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000298023224,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999925494194,
+      "actual_shift_y": -0.26534000039100647
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000001192092896,
+      "actual_shift_y": -0.3910500109195709
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999394640326,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999776482582,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000046566129,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999841675162,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999785795808,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000484287739,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999552965164,
+      "actual_shift_y": -0.15640999376773834
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000437230483,
+      "actual_shift_y": -0.5799999833106995
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000223517418,
+      "actual_shift_y": -0.4165700078010559
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999701976776,
+      "actual_shift_y": -0.42083001136779785
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000670552254,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.9999999897554517,
+      "actual_shift_y": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_A",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 1.0000000149011612,
+      "actual_shift_y": -0.35311999917030334
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_B",
+      "matches_v2_pose": true,
+      "position_error": 0.0,
+      "forward_dot": 0.999999925494194,
+      "actual_shift_y": -0.5799999833106995
+    }
+  ],
+  "repairs": [
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "before": {
+        "location": [
+          19.66801,
+          9.95094,
+          1.7222
+        ],
+        "target": [
+          11.88956,
+          11.40588,
+          1.1
+        ],
+        "lens": 28,
+        "exposure": 0.8,
+        "room_id": "MAIN_L1_LOGGIA",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_L1_LOGGIA_finish",
+        "support_z": 0.1222,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "selected": {
+        "eye": [
+          13.81788,
+          10.59982,
+          1.7222
+        ],
+        "target": [
+          11.88956,
+          11.40588,
+          1.1
+        ],
+        "support": {
+          "object": "MAIN_L1_LOGGIA_finish",
+          "location": [
+            13.81788,
+            10.59982,
+            0.1222
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.2978
+        },
+        "view": {
+          "near_rays_under_045m": 0,
+          "rays_under_09m": 0,
+          "median_depth_m": 3.188,
+          "different_visible_objects": 9,
+          "center_hit": {
+            "object": "MAIN_L1_ENTRY_finish",
+            "location": [
+              8.85917,
+              12.67262,
+              0.1222
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 5.60761
+          }
+        },
+        "score": -2.5156235668081584
+      },
+      "description": "06 support repair: shift inward on actual loggia finish after terrain removal exposes an unsupported old foot."
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "before": {
+        "location": [
+          19.99843,
+          8.98481,
+          1.5782
+        ],
+        "target": [
+          14.3576,
+          7.3809,
+          -2.6467
+        ],
+        "lens": 32,
+        "exposure": 0.8,
+        "room_id": "MAIN_B_PLUNGE",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "SITE_Path_bridge_north_approach",
+        "support_z": -0.0218,
+        "outside_room_polygon": true,
+        "render_reviewed": false
+      },
+      "selected": {
+        "eye": [
+          13.81788,
+          10.59982,
+          1.7222
+        ],
+        "target": [
+          14.3576,
+          7.3809,
+          -2.6467
+        ],
+        "support": {
+          "object": "MAIN_L1_LOGGIA_finish",
+          "location": [
+            13.81788,
+            10.59982,
+            0.1222
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.2978
+        },
+        "view": {
+          "near_rays_under_045m": 0,
+          "rays_under_09m": 0,
+          "median_depth_m": 2.457,
+          "different_visible_objects": 11,
+          "center_hit": {
+            "object": "MAIN_loggia_pool_stair_12",
+            "location": [
+              14.06108,
+              9.14935,
+              -0.24647
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 2.45737
+          }
+        },
+        "score": -3.134745423204537
+      },
+      "description": "06 support repair: move from the removed bridge approach to the actual upper loggia floor, preserving the pool target. This is an adjacent upper dry observation point, not pool-room floor occupancy."
+    }
+  ],
+  "support_searches": [
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "clear_candidates": 91,
+      "rejections": {
+        "FOOTPRINT_NO_SUPPORT:NONE": 54,
+        "BODY_INTERSECTION:MAIN_loggia_stair_retaining": 56,
+        "NO_SUPPORT": 4,
+        "FOOTPRINT_UNSAFE_SUPPORT:MAIN_loggia_pool_stair_13": 1
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "clear_candidates": 91,
+      "rejections": {
+        "BODY_INTERSECTION:MAIN_loggia_stair_retaining": 51,
+        "NO_SUPPORT": 4,
+        "FOOTPRINT_NO_SUPPORT:NONE": 49,
+        "FOOTPRINT_UNSAFE_SUPPORT:MAIN_loggia_pool_stair_13": 1
+      }
+    }
+  ],
+  "lounge_first_search": {
+    "clear_candidates": 0,
+    "rejections": {
+      "APERTURE_OCCLUDED": 30
+    }
+  }
+}

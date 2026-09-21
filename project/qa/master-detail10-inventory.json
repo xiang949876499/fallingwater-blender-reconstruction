@@ -1,0 +1,4204 @@
+[
+  {
+    "name": "MAIN_L2_MASTER_slab",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        -0.20960000157356262,
+        4.611199855804443
+      ],
+      [
+        7.168499946594238,
+        12.478500366210938
+      ],
+      [
+        2.624799966812134,
+        2.8447999954223633
+      ]
+    ],
+    "materials": [
+      "FW_ochre"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C",
+      "component_type": "architecture"
+    }
+  },
+  {
+    "name": "MAIN_L2_MASTER_finish",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        -0.20960000157356262,
+        4.611199855804443
+      ],
+      [
+        7.168499946594238,
+        12.478500366210938
+      ],
+      [
+        2.8447999954223633,
+        2.86680006980896
+      ]
+    ],
+    "materials": [
+      "FW_cork"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C",
+      "component_type": "architecture"
+    }
+  },
+  {
+    "name": "MAIN_L2_CLOSET_M_slab",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        0.25699999928474426,
+        2.148400068283081
+      ],
+      [
+        12.106800079345703,
+        12.479700088500977
+      ],
+      [
+        2.624799966812134,
+        2.8447999954223633
+      ]
+    ],
+    "materials": [
+      "FW_ochre"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C source trace; no doorway/stair identity change",
+      "component_type": "architecture",
+      "physical_revision": "interface10 source-bounded closed stone / shared floor edges"
+    }
+  },
+  {
+    "name": "MAIN_L2_CLOSET_M_finish",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        0.25699999928474426,
+        2.148400068283081
+      ],
+      [
+        12.106800079345703,
+        12.479700088500977
+      ],
+      [
+        2.8447999954223633,
+        2.86680006980896
+      ]
+    ],
+    "materials": [
+      "FW_stone_floor"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C source trace; no doorway/stair identity change",
+      "component_type": "architecture",
+      "physical_revision": "interface10 source-bounded closed stone / shared floor edges"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_hearth",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5763999819755554,
+      9.929699897766113,
+      4.027400016784668
+    ],
+    "bounds": [
+      [
+        -0.886400043964386,
+        -0.26639991998672485
+      ],
+      [
+        8.442899703979492,
+        11.416500091552734
+      ],
+      [
+        2.8447999954223633,
+        5.210000038146973
+      ]
+    ],
+    "materials": [
+      "FW_stone"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "wall",
+      "evidence": "C",
+      "component_type": "wall"
+    }
+  },
+  {
+    "name": "MAIN_L2_core_north_backing",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        -0.8907999992370605,
+        0.2619999945163727
+      ],
+      [
+        11.204099655151367,
+        12.584699630737305
+      ],
+      [
+        2.8447999954223633,
+        5.210000038146973
+      ]
+    ],
+    "materials": [
+      "FW_stone"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C",
+      "component_type": "architecture"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_north",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      1.1790000200271606,
+      12.584699630737305,
+      3.9423999786376953
+    ],
+    "bounds": [
+      [
+        0.26200002431869507,
+        2.0959999561309814
+      ],
+      [
+        12.474699974060059,
+        12.69469928741455
+      ],
+      [
+        2.8447999954223633,
+        5.039999961853027
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "wall",
+      "evidence": "C",
+      "component_type": "wall"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_north_east",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      4.034800052642822,
+      12.584699630737305,
+      3.9423999786376953
+    ],
+    "bounds": [
+      [
+        3.3011999130249023,
+        4.768400192260742
+      ],
+      [
+        12.474699974060059,
+        12.69469928741455
+      ],
+      [
+        2.8447999954223633,
+        5.039999961853027
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "wall",
+      "evidence": "C",
+      "component_type": "wall"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_entry_lintel",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.6985998153686523,
+      12.584699630737305,
+      4.929800033569336
+    ],
+    "bounds": [
+      [
+        2.0959997177124023,
+        3.3011999130249023
+      ],
+      [
+        12.484699249267578,
+        12.684700012207031
+      ],
+      [
+        4.82480001449585,
+        5.034800052642822
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "wall",
+      "evidence": "C",
+      "component_type": "wall"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_east_n",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      4.820799827575684,
+      11.124449729919434,
+      3.9474000930786133
+    ],
+    "bounds": [
+      [
+        4.730799674987793,
+        4.910799980163574
+      ],
+      [
+        9.82349967956543,
+        12.425399780273438
+      ],
+      [
+        2.8447999954223633,
+        5.050000190734863
+      ]
+    ],
+    "materials": [
+      "FW_ceiling"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "wall",
+      "evidence": "C",
+      "component_type": "wall"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_east_s",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      4.820799827575684,
+      7.5667500495910645,
+      3.9474000930786133
+    ],
+    "bounds": [
+      [
+        4.730799674987793,
+        4.910799980163574
+      ],
+      [
+        6.9029998779296875,
+        8.230500221252441
+      ],
+      [
+        2.8447999954223633,
+        5.050000190734863
+      ]
+    ],
+    "materials": [
+      "FW_ceiling"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "wall",
+      "evidence": "C",
+      "component_type": "wall"
+    }
+  },
+  {
+    "name": "MAIN_L2_MASTER_ceiling",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        -0.20960000157356262,
+        4.611199855804443
+      ],
+      [
+        7.168499946594238,
+        12.478500366210938
+      ],
+      [
+        5.0,
+        5.01800012588501
+      ]
+    ],
+    "materials": [
+      "FW_ceiling"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C",
+      "component_type": "architecture"
+    }
+  },
+  {
+    "name": "MAIN_L2_CLOSET_M_ceiling",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        0.5239999890327454,
+        2.148400068283081
+      ],
+      [
+        12.106800079345703,
+        12.319199562072754
+      ],
+      [
+        5.0,
+        5.01800012588501
+      ]
+    ],
+    "materials": [
+      "FW_ceiling"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C",
+      "component_type": "architecture"
+    }
+  },
+  {
+    "name": "MAIN_floor_threshold_hall_master",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        2.0959999561309814,
+        3.353600025177002
+      ],
+      [
+        12.372300148010254,
+        12.744000434875488
+      ],
+      [
+        2.664799928665161,
+        2.8447999954223633
+      ]
+    ],
+    "materials": [
+      "FW_cork"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C",
+      "component_type": "floor",
+      "threshold_id": "hall_master"
+    }
+  },
+  {
+    "name": "MAIN_floor_threshold_hall_master_finish",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        2.0959999561309814,
+        3.353600025177002
+      ],
+      [
+        12.372300148010254,
+        12.744000434875488
+      ],
+      [
+        2.8447999954223633,
+        2.86680006980896
+      ]
+    ],
+    "materials": [
+      "FW_cork"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "architecture",
+      "evidence": "C",
+      "component_type": "floor",
+      "threshold_id": "hall_master"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_sill",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2007999420166016,
+      6.849899768829346,
+      2.9000000953674316
+    ],
+    "bounds": [
+      [
+        -0.26200008392333984,
+        4.663599967956543
+      ],
+      [
+        6.819899559020996,
+        6.879899978637695
+      ],
+      [
+        2.88100004196167,
+        2.9190001487731934
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_head",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2007999420166016,
+      6.849899768829346,
+      5.03000020980835
+    ],
+    "bounds": [
+      [
+        -0.26200008392333984,
+        4.663599967956543
+      ],
+      [
+        6.819899559020996,
+        6.879899978637695
+      ],
+      [
+        5.011000156402588,
+        5.049000263214111
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_mullion_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.2619999945163727,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        -0.2809999883174896,
+        -0.24300000071525574
+      ],
+      [
+        6.830899715423584,
+        6.868899822235107
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_mullion_1",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.5589333772659302,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        0.5399333834648132,
+        0.5779333710670471
+      ],
+      [
+        6.830899715423584,
+        6.868899822235107
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_mullion_2",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      1.3798667192459106,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        1.360866665840149,
+        1.3988667726516724
+      ],
+      [
+        6.830899715423584,
+        6.868899822235107
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_mullion_3",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2007999420166016,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        2.18179988861084,
+        2.2197999954223633
+      ],
+      [
+        6.830899715423584,
+        6.868899822235107
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_mullion_4",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      3.021733283996582,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        3.0027332305908203,
+        3.0407333374023438
+      ],
+      [
+        6.830899715423584,
+        6.868899822235107
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_mullion_5",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      3.8426666259765625,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        3.823666572570801,
+        3.861666679382324
+      ],
+      [
+        6.830899715423584,
+        6.868899822235107
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_mullion_6",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      4.663599967956543,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        4.644599914550781,
+        4.682600021362305
+      ],
+      [
+        6.830899715423584,
+        6.868899822235107
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_transom_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.14846669137477875,
+      6.849899768829346,
+      4.433599948883057
+    ],
+    "bounds": [
+      [
+        -0.2619999647140503,
+        0.5589333772659302
+      ],
+      [
+        6.825899600982666,
+        6.873899936676025
+      ],
+      [
+        4.420599937438965,
+        4.446599960327148
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_transom_1",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.9694000482559204,
+      6.849899768829346,
+      4.433599948883057
+    ],
+    "bounds": [
+      [
+        0.5589333772659302,
+        1.3798667192459106
+      ],
+      [
+        6.825899600982666,
+        6.873899936676025
+      ],
+      [
+        4.420599937438965,
+        4.446599960327148
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_transom_2",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      1.7903332710266113,
+      6.849899768829346,
+      4.433599948883057
+    ],
+    "bounds": [
+      [
+        1.379866600036621,
+        2.2007999420166016
+      ],
+      [
+        6.825899600982666,
+        6.873899936676025
+      ],
+      [
+        4.420599937438965,
+        4.446599960327148
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_transom_4",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      3.4321999549865723,
+      6.849899768829346,
+      4.433599948883057
+    ],
+    "bounds": [
+      [
+        3.021733283996582,
+        3.8426666259765625
+      ],
+      [
+        6.825899600982666,
+        6.873899936676025
+      ],
+      [
+        4.420599937438965,
+        4.446599960327148
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_transom_5",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      4.253133296966553,
+      6.849899768829346,
+      4.433599948883057
+    ],
+    "bounds": [
+      [
+        3.8426666259765625,
+        4.663599967956543
+      ],
+      [
+        6.825899600982666,
+        6.873899936676025
+      ],
+      [
+        4.420599937438965,
+        4.446599960327148
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_glass_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.14846667647361755,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        -0.24300000071525574,
+        0.5399333238601685
+      ],
+      [
+        6.84589958190918,
+        6.853899955749512
+      ],
+      [
+        2.9189999103546143,
+        5.01099967956543
+      ]
+    ],
+    "materials": [
+      "FW_glass"
+    ],
+    "properties": {
+      "surface_type": "glazing",
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_glass_1",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      0.9694000482559204,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        0.5779333710670471,
+        1.3608667850494385
+      ],
+      [
+        6.84589958190918,
+        6.853899955749512
+      ],
+      [
+        2.9189999103546143,
+        5.01099967956543
+      ]
+    ],
+    "materials": [
+      "FW_glass"
+    ],
+    "properties": {
+      "surface_type": "glazing",
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_glass_2",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      1.7903333902359009,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        1.3988666534423828,
+        2.181800127029419
+      ],
+      [
+        6.84589958190918,
+        6.853899955749512
+      ],
+      [
+        2.9189999103546143,
+        5.01099967956543
+      ]
+    ],
+    "materials": [
+      "FW_glass"
+    ],
+    "properties": {
+      "surface_type": "glazing",
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_glass_4",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      3.4321999549865723,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        3.0407333374023438,
+        3.823666572570801
+      ],
+      [
+        6.84589958190918,
+        6.853899955749512
+      ],
+      [
+        2.9189999103546143,
+        5.01099967956543
+      ]
+    ],
+    "materials": [
+      "FW_glass"
+    ],
+    "properties": {
+      "surface_type": "glazing",
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_glass_5",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      4.253133296966553,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        3.861666679382324,
+        4.644599914550781
+      ],
+      [
+        6.84589958190918,
+        6.853899955749512
+      ],
+      [
+        2.9189999103546143,
+        5.01099967956543
+      ]
+    ],
+    "materials": [
+      "FW_glass"
+    ],
+    "properties": {
+      "surface_type": "glazing",
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_open_casement_sill",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2817745208740234,
+      7.230855941772461,
+      2.9149999618530273
+    ],
+    "bounds": [
+      [
+        2.1714553833007812,
+        2.3920936584472656
+      ],
+      [
+        6.843662738800049,
+        7.618049144744873
+      ],
+      [
+        2.8959999084472656,
+        2.934000015258789
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_open_casement_head",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2817745208740234,
+      7.230855941772461,
+      5.014999866485596
+    ],
+    "bounds": [
+      [
+        2.1714553833007812,
+        2.3920936584472656
+      ],
+      [
+        6.843662738800049,
+        7.618049144744873
+      ],
+      [
+        4.995999813079834,
+        5.033999919891357
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_open_casement_mullion_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2007999420166016,
+      6.849899768829346,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        2.18179988861084,
+        2.2197999954223633
+      ],
+      [
+        6.830899715423584,
+        6.868899822235107
+      ],
+      [
+        2.9149999618530273,
+        5.014999866485596
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_open_casement_mullion_1",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.3627493381500244,
+      7.611811637878418,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        2.3437492847442627,
+        2.381749391555786
+      ],
+      [
+        7.592811584472656,
+        7.63081169128418
+      ],
+      [
+        2.9149999618530273,
+        5.014999866485596
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_open_casement_transom_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2817745208740234,
+      7.230855941772461,
+      4.427000045776367
+    ],
+    "bounds": [
+      [
+        2.1773242950439453,
+        2.3862247467041016
+      ],
+      [
+        6.844910144805908,
+        7.616801738739014
+      ],
+      [
+        4.414000034332275,
+        4.440000057220459
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_open_casement_glass_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2817745208740234,
+      7.230855941772461,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        2.2008376121520996,
+        2.3627114295959473
+      ],
+      [
+        6.8676533699035645,
+        7.594058513641357
+      ],
+      [
+        2.934000015258789,
+        4.995999813079834
+      ]
+    ],
+    "materials": [
+      "FW_glass"
+    ],
+    "properties": {
+      "surface_type": "glazing",
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_hinge",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2007999420166016,
+      6.849899768829346,
+      3.0999999046325684
+    ],
+    "bounds": [
+      [
+        2.178799867630005,
+        2.2228000164031982
+      ],
+      [
+        6.827899932861328,
+        6.871899604797363
+      ],
+      [
+        3.047499895095825,
+        3.1524999141693115
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_hinge.001",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.2007999420166016,
+      6.849899768829346,
+      4.829999923706055
+    ],
+    "bounds": [
+      [
+        2.178799867630005,
+        2.2228000164031982
+      ],
+      [
+        6.827899932861328,
+        6.871899604797363
+      ],
+      [
+        4.777500152587891,
+        4.882499694824219
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_south_latch",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.3335983753204346,
+      7.474667549133301,
+      3.994999885559082
+    ],
+    "bounds": [
+      [
+        2.3215982913970947,
+        2.3455984592437744
+      ],
+      [
+        7.462667465209961,
+        7.486667633056641
+      ],
+      [
+        3.929999828338623,
+        4.059999942779541
+      ]
+    ],
+    "materials": [
+      "FW_metal"
+    ],
+    "properties": {
+      "opening_use": "terrace_door",
+      "clear_width_m": "0.7829333333333335",
+      "room_id": "MAIN_L2_MASTER",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_sill",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      7.619850158691406,
+      2.9000000953674316
+    ],
+    "bounds": [
+      [
+        -0.5540000200271606,
+        -0.4939999580383301
+      ],
+      [
+        6.956099987030029,
+        8.283599853515625
+      ],
+      [
+        2.88100004196167,
+        2.9190001487731934
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_head",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      7.619850158691406,
+      5.03000020980835
+    ],
+    "bounds": [
+      [
+        -0.5540000200271606,
+        -0.4939999580383301
+      ],
+      [
+        6.956099987030029,
+        8.283599853515625
+      ],
+      [
+        5.011000156402588,
+        5.049000263214111
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_mullion_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      8.283599853515625,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        -0.5429999828338623,
+        -0.5049999952316284
+      ],
+      [
+        8.264599800109863,
+        8.302599906921387
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_mullion_1",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      7.619850158691406,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        -0.5429999828338623,
+        -0.5049999952316284
+      ],
+      [
+        7.6008501052856445,
+        7.638850212097168
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_mullion_2",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      6.956099987030029,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        -0.5429999828338623,
+        -0.5049999952316284
+      ],
+      [
+        6.937099933624268,
+        6.975100040435791
+      ],
+      [
+        2.8999998569488525,
+        5.029999732971191
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_transom_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      7.951725006103516,
+      4.433599948883057
+    ],
+    "bounds": [
+      [
+        -0.5479999780654907,
+        -0.4999999701976776
+      ],
+      [
+        7.619850158691406,
+        8.283599853515625
+      ],
+      [
+        4.420599937438965,
+        4.446599960327148
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_transom_1",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      7.287975311279297,
+      4.433599948883057
+    ],
+    "bounds": [
+      [
+        -0.5479999780654907,
+        -0.4999999701976776
+      ],
+      [
+        6.956099987030029,
+        7.6198506355285645
+      ],
+      [
+        4.420599937438965,
+        4.446599960327148
+      ]
+    ],
+    "materials": [
+      "FW_red"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_glass_0",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      7.951725006103516,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        -0.527999997138977,
+        -0.5199999809265137
+      ],
+      [
+        7.638850212097168,
+        8.264599800109863
+      ],
+      [
+        2.9189999103546143,
+        5.01099967956543
+      ]
+    ],
+    "materials": [
+      "FW_glass"
+    ],
+    "properties": {
+      "surface_type": "glazing",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_west_glass_1",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      -0.5239999890327454,
+      7.287974834442139,
+      3.9649999141693115
+    ],
+    "bounds": [
+      [
+        -0.527999997138977,
+        -0.5199999809265137
+      ],
+      [
+        6.975100040435791,
+        7.600849628448486
+      ],
+      [
+        2.9189999103546143,
+        5.01099967956543
+      ]
+    ],
+    "materials": [
+      "FW_glass"
+    ],
+    "properties": {
+      "surface_type": "glazing",
+      "reference": "HABS PA-5346 plan trace",
+      "role": "window",
+      "evidence": "C",
+      "component_type": "window"
+    }
+  },
+  {
+    "name": "MAIN_L2_master_entry_open_door",
+    "type": "MESH",
+    "parent": null,
+    "location": [
+      2.0959999561309814,
+      13.102935791015625,
+      3.8348000049591064
+    ],
+    "bounds": [
+      [
+        2.073499917984009,
+        2.118499994277954
+      ],
+      [
+        12.584699630737305,
+        13.621171951293945
+      ],
+      [
+        2.8447999954223633,
+        4.82480001449585
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "reference": "HABS PA-5346 plan trace",
+      "role": "open_door",
+      "evidence": "C",
+      "component_type": "open_door"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      1.5740959644317627,
+      10.407600402832031,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey",
+      "placement_evidence": "C",
+      "footprint_width": "1.55",
+      "footprint_depth": "2.02"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_walnut_platform",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      10.407600402832031,
+      3.0648000240325928
+    ],
+    "bounds": [
+      [
+        0.7490959763526917,
+        2.3990960121154785
+      ],
+      [
+        9.347600936889648,
+        11.467599868774414
+      ],
+      [
+        2.989799976348877,
+        3.1398000717163086
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_recessed_support",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      10.407600402832031,
+      2.9398000240325928
+    ],
+    "bounds": [
+      [
+        0.8890959620475769,
+        2.2590959072113037
+      ],
+      [
+        9.497600555419922,
+        11.31760025024414
+      ],
+      [
+        2.8447999954223633,
+        3.0348000526428223
+      ]
+    ],
+    "materials": [
+      "FW_dark"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_mattress",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      10.382600784301758,
+      3.234799861907959
+    ],
+    "bounds": [
+      [
+        0.7990959882736206,
+        2.3490958213806152
+      ],
+      [
+        9.372600555419922,
+        11.392601013183594
+      ],
+      [
+        3.119799852371216,
+        3.349799871444702
+      ]
+    ],
+    "materials": [
+      "FW_linen"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_woven_bedcover",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      10.34260082244873,
+      3.357800006866455
+    ],
+    "bounds": [
+      [
+        0.776595950126648,
+        2.371595859527588
+      ],
+      [
+        9.372600555419922,
+        11.312601089477539
+      ],
+      [
+        3.3452999591827393,
+        3.370300054550171
+      ]
+    ],
+    "materials": [
+      "FW_cream_fabric"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_cover_foot_drop",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      9.391600608825684,
+      3.2248001098632812
+    ],
+    "bounds": [
+      [
+        0.7815959453582764,
+        2.366595983505249
+      ],
+      [
+        9.37760066986084,
+        9.405600547790527
+      ],
+      [
+        3.0898001194000244,
+        3.359800100326538
+      ]
+    ],
+    "materials": [
+      "FW_cream_fabric"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_cover_side_drop",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      0.7960959672927856,
+      10.207600593566895,
+      3.244800090789795
+    ],
+    "bounds": [
+      [
+        0.7835959792137146,
+        0.8085959553718567
+      ],
+      [
+        9.407600402832031,
+        11.007600784301758
+      ],
+      [
+        3.1298000812530518,
+        3.359800100326538
+      ]
+    ],
+    "materials": [
+      "FW_cream_fabric"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_cover_side_drop.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      2.3520960807800293,
+      10.207600593566895,
+      3.244800090789795
+    ],
+    "bounds": [
+      [
+        2.3395960330963135,
+        2.364596128463745
+      ],
+      [
+        9.407600402832031,
+        11.007600784301758
+      ],
+      [
+        3.1298000812530518,
+        3.359800100326538
+      ]
+    ],
+    "materials": [
+      "FW_cream_fabric"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_pillow",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.1865959167480469,
+      11.13759994506836,
+      3.420799970626831
+    ],
+    "bounds": [
+      [
+        0.8506834506988525,
+        1.5225083827972412
+      ],
+      [
+        10.90263843536377,
+        11.37256145477295
+      ],
+      [
+        3.370300054550171,
+        3.490799903869629
+      ]
+    ],
+    "materials": [
+      "FW_linen"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey",
+      "softgoods_revision": "09 isolated pillow candidate; C cloth shape, actual bed contact",
+      "softgoods_historical_claim": "None; inferred cloth construction only"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_pillow.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.9615960121154785,
+      11.13759994506836,
+      3.420799970626831
+    ],
+    "bounds": [
+      [
+        1.6268126964569092,
+        2.296379327774048
+      ],
+      [
+        10.90428638458252,
+        11.3709135055542
+      ],
+      [
+        3.370300054550171,
+        3.490799903869629
+      ]
+    ],
+    "materials": [
+      "FW_linen"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey",
+      "softgoods_revision": "09 isolated pillow candidate; C cloth shape, actual bed contact",
+      "softgoods_historical_claim": "None; inferred cloth construction only"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_low_horizontal_headboard",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      11.457600593566895,
+      3.4647998809814453
+    ],
+    "bounds": [
+      [
+        0.7190959453582764,
+        2.429095983505249
+      ],
+      [
+        11.425100326538086,
+        11.490100860595703
+      ],
+      [
+        3.0097999572753906,
+        3.9197998046875
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_headboard_top_ledge",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      11.437600135803223,
+      3.929800033569336
+    ],
+    "bounds": [
+      [
+        0.6690959930419922,
+        2.479095935821533
+      ],
+      [
+        11.337599754333496,
+        11.53760051727295
+      ],
+      [
+        3.9098000526428223,
+        3.9498000144958496
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_cover_hem",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      9.497600555419922,
+      3.373800039291382
+    ],
+    "bounds": [
+      [
+        0.8140959739685059,
+        2.3340959548950195
+      ],
+      [
+        9.495600700378418,
+        9.499600410461426
+      ],
+      [
+        3.37280011177063,
+        3.374799966812134
+      ]
+    ],
+    "materials": [
+      "FW_cream_fabric"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_cover_hem.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+    "location": [
+      1.5740959644317627,
+      9.522600173950195,
+      3.373800039291382
+    ],
+    "bounds": [
+      [
+        0.8140959739685059,
+        2.3340959548950195
+      ],
+      [
+        9.520600318908691,
+        9.5246000289917
+      ],
+      [
+        3.37280011177063,
+        3.374799966812134
+      ]
+    ],
+    "materials": [
+      "FW_cream_fabric"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "walnut_bed",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey",
+      "placement_evidence": "C",
+      "footprint_width": "0.75",
+      "footprint_depth": "0.42"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_recessed_plinth",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      2.914799928665161
+    ],
+    "bounds": [
+      [
+        3.197415828704834,
+        3.8074159622192383
+      ],
+      [
+        10.899799346923828,
+        11.189800262451172
+      ],
+      [
+        2.8447999954223633,
+        2.984799861907959
+      ]
+    ],
+    "materials": [
+      "FW_dark"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_lower_shelf",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      3.0048000812530518
+    ],
+    "bounds": [
+      [
+        3.127415895462036,
+        3.877415895462036
+      ],
+      [
+        10.834799766540527,
+        11.254799842834473
+      ],
+      [
+        2.984800100326538,
+        3.0248000621795654
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_top_board",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      3.359799861907959
+    ],
+    "bounds": [
+      [
+        3.1174159049987793,
+        3.887415885925293
+      ],
+      [
+        10.824799537658691,
+        11.264800071716309
+      ],
+      [
+        3.3347997665405273,
+        3.3847999572753906
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_side",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.14741587638855,
+      11.0447998046875,
+      3.164799928665161
+    ],
+    "bounds": [
+      [
+        3.127415895462036,
+        3.1674158573150635
+      ],
+      [
+        10.834799766540527,
+        11.254799842834473
+      ],
+      [
+        2.974799871444702,
+        3.35479998588562
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_side.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.8574159145355225,
+      11.0447998046875,
+      3.164799928665161
+    ],
+    "bounds": [
+      [
+        3.837415933609009,
+        3.877415895462036
+      ],
+      [
+        10.834799766540527,
+        11.254799842834473
+      ],
+      [
+        2.974799871444702,
+        3.35479998588562
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_back",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.242799758911133,
+      3.164799928665161
+    ],
+    "bounds": [
+      [
+        3.127415895462036,
+        3.877415895462036
+      ],
+      [
+        11.230799674987793,
+        11.254799842834473
+      ],
+      [
+        2.9697999954223633,
+        3.359799861907959
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_division",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.139415979385376,
+      11.0447998046875,
+      3.174799919128418
+    ],
+    "bounds": [
+      [
+        3.127916097640991,
+        3.1509158611297607
+      ],
+      [
+        10.8548002243042,
+        11.2347993850708
+      ],
+      [
+        2.994799852371216,
+        3.35479998588562
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_drawer",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.314915895462036,
+      10.828800201416016,
+      3.0814666748046875
+    ],
+    "bounds": [
+      [
+        3.134915828704834,
+        3.4949159622192383
+      ],
+      [
+        10.815299987792969,
+        10.842300415039062
+      ],
+      [
+        3.0308001041412354,
+        3.1321332454681396
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_pull",
+    "type": "CURVE",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_drawer.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.314915895462036,
+      10.828800201416016,
+      3.1947999000549316
+    ],
+    "bounds": [
+      [
+        3.134915828704834,
+        3.4949159622192383
+      ],
+      [
+        10.815299987792969,
+        10.842300415039062
+      ],
+      [
+        3.1441333293914795,
+        3.245466470718384
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_pull.001",
+    "type": "CURVE",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_drawer.002",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.314915895462036,
+      10.828800201416016,
+      3.308133363723755
+    ],
+    "bounds": [
+      [
+        3.134915828704834,
+        3.4949159622192383
+      ],
+      [
+        10.815299987792969,
+        10.842300415039062
+      ],
+      [
+        3.2574667930603027,
+        3.358799934387207
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_pull.002",
+    "type": "CURVE",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_division.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.514415979385376,
+      11.0447998046875,
+      3.174799919128418
+    ],
+    "bounds": [
+      [
+        3.502916097640991,
+        3.5259158611297607
+      ],
+      [
+        10.8548002243042,
+        11.2347993850708
+      ],
+      [
+        2.994799852371216,
+        3.35479998588562
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_drawer.003",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.689915895462036,
+      10.828800201416016,
+      3.0814666748046875
+    ],
+    "bounds": [
+      [
+        3.509915828704834,
+        3.8699159622192383
+      ],
+      [
+        10.815299987792969,
+        10.842300415039062
+      ],
+      [
+        3.0308001041412354,
+        3.1321332454681396
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_pull.003",
+    "type": "CURVE",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_drawer.004",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.689915895462036,
+      10.828800201416016,
+      3.1947999000549316
+    ],
+    "bounds": [
+      [
+        3.509915828704834,
+        3.8699159622192383
+      ],
+      [
+        10.815299987792969,
+        10.842300415039062
+      ],
+      [
+        3.1441333293914795,
+        3.245466470718384
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_pull.004",
+    "type": "CURVE",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_drawer.005",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.689915895462036,
+      10.828800201416016,
+      3.308133363723755
+    ],
+    "bounds": [
+      [
+        3.509915828704834,
+        3.8699159622192383
+      ],
+      [
+        10.815299987792969,
+        10.842300415039062
+      ],
+      [
+        3.2574667930603027,
+        3.358799934387207
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01_pull.005",
+    "type": "CURVE",
+    "parent": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "cantilever_bedside_drawers",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_cantilever_bedside_drawers_01",
+      "reference": "https://fallingwater.org/learn/preservation-and-collections/materials/",
+      "evidence": "B",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      3.261375904083252,
+      8.124300003051758,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedroom_desk",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey",
+      "placement_evidence": "C",
+      "footprint_width": "1.5",
+      "footprint_depth": "0.5"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_thick_horizontal_top",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+    "location": [
+      3.261375904083252,
+      8.124300003051758,
+      3.536799907684326
+    ],
+    "bounds": [
+      [
+        2.511375904083252,
+        4.011375904083252
+      ],
+      [
+        7.874300003051758,
+        8.374300003051758
+      ],
+      [
+        3.5087997913360596,
+        3.5648000240325928
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedroom_desk",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_leg",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+    "location": [
+      3.89137601852417,
+      8.274299621582031,
+      3.169800043106079
+    ],
+    "bounds": [
+      [
+        3.8643760681152344,
+        3.9183759689331055
+      ],
+      [
+        8.247299194335938,
+        8.301300048828125
+      ],
+      [
+        2.8447999954223633,
+        3.494800090789795
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedroom_desk",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_leg.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+    "location": [
+      3.89137601852417,
+      7.974299907684326,
+      3.169800043106079
+    ],
+    "bounds": [
+      [
+        3.8643760681152344,
+        3.9183759689331055
+      ],
+      [
+        7.947299957275391,
+        8.001299858093262
+      ],
+      [
+        2.8447999954223633,
+        3.494800090789795
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedroom_desk",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_leg.002",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+    "location": [
+      2.631375789642334,
+      8.274299621582031,
+      3.169800043106079
+    ],
+    "bounds": [
+      [
+        2.6043758392333984,
+        2.6583757400512695
+      ],
+      [
+        8.247299194335938,
+        8.301300048828125
+      ],
+      [
+        2.8447999954223633,
+        3.494800090789795
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedroom_desk",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_leg.003",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+    "location": [
+      2.631375789642334,
+      7.974299907684326,
+      3.169800043106079
+    ],
+    "bounds": [
+      [
+        2.6043758392333984,
+        2.6583757400512695
+      ],
+      [
+        7.947299957275391,
+        8.001299858093262
+      ],
+      [
+        2.8447999954223633,
+        3.494800090789795
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedroom_desk",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_front_apron",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+    "location": [
+      3.261375904083252,
+      8.284299850463867,
+      3.4697999954223633
+    ],
+    "bounds": [
+      [
+        2.621375799179077,
+        3.9013760089874268
+      ],
+      [
+        8.266799926757812,
+        8.301799774169922
+      ],
+      [
+        3.41729998588562,
+        3.5223000049591064
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedroom_desk",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_rear_apron",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+    "location": [
+      3.261375904083252,
+      7.964300155639648,
+      3.4697999954223633
+    ],
+    "bounds": [
+      [
+        2.621375799179077,
+        3.9013760089874268
+      ],
+      [
+        7.946800231933594,
+        7.981800079345703
+      ],
+      [
+        3.41729998588562,
+        3.5223000049591064
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedroom_desk",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      3.261375904083252,
+      8.973899841308594,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey",
+      "placement_evidence": "C",
+      "footprint_width": "0.43",
+      "footprint_depth": "0.45"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_seat",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "location": [
+      3.261375904083252,
+      8.998899459838867,
+      3.2848000526428223
+    ],
+    "bounds": [
+      [
+        3.0563759803771973,
+        3.4663758277893066
+      ],
+      [
+        8.793899536132812,
+        9.203899383544922
+      ],
+      [
+        3.2573001384735107,
+        3.312299966812134
+      ]
+    ],
+    "materials": [
+      "FW_cream_fabric"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_leg",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "location": [
+      3.4313759803771973,
+      9.148900032043457,
+      3.0648000240325928
+    ],
+    "bounds": [
+      [
+        3.4113759994506836,
+        3.451375961303711
+      ],
+      [
+        9.128899574279785,
+        9.168900489807129
+      ],
+      [
+        2.8447999954223633,
+        3.2848000526428223
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_leg.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "location": [
+      3.4313759803771973,
+      8.79889965057373,
+      3.0648000240325928
+    ],
+    "bounds": [
+      [
+        3.4113759994506836,
+        3.451375961303711
+      ],
+      [
+        8.778899192810059,
+        8.818900108337402
+      ],
+      [
+        2.8447999954223633,
+        3.2848000526428223
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_back_upright",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "location": [
+      3.4313759803771973,
+      8.788899421691895,
+      3.494800090789795
+    ],
+    "bounds": [
+      [
+        3.4128758907318115,
+        3.449876070022583
+      ],
+      [
+        8.768898963928223,
+        8.808899879455566
+      ],
+      [
+        3.2548000812530518,
+        3.734800100326538
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_leg.002",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "location": [
+      3.0913758277893066,
+      9.148900032043457,
+      3.0648000240325928
+    ],
+    "bounds": [
+      [
+        3.071375846862793,
+        3.1113758087158203
+      ],
+      [
+        9.128899574279785,
+        9.168900489807129
+      ],
+      [
+        2.8447999954223633,
+        3.2848000526428223
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_leg.003",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "location": [
+      3.0913758277893066,
+      8.79889965057373,
+      3.0648000240325928
+    ],
+    "bounds": [
+      [
+        3.071375846862793,
+        3.1113758087158203
+      ],
+      [
+        8.778899192810059,
+        8.818900108337402
+      ],
+      [
+        2.8447999954223633,
+        3.2848000526428223
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_back_upright.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "location": [
+      3.0913758277893066,
+      8.788899421691895,
+      3.494800090789795
+    ],
+    "bounds": [
+      [
+        3.072875738143921,
+        3.1098759174346924
+      ],
+      [
+        8.768898963928223,
+        8.808899879455566
+      ],
+      [
+        3.2548000812530518,
+        3.734800100326538
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_upholstered_back",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+    "location": [
+      3.261375904083252,
+      8.783900260925293,
+      3.5248000621795654
+    ],
+    "bounds": [
+      [
+        3.083875894546509,
+        3.438875913619995
+      ],
+      [
+        8.76140022277832,
+        8.806400299072266
+      ],
+      [
+        3.359800100326538,
+        3.6898000240325928
+      ]
+    ],
+    "materials": [
+      "FW_cream_fabric"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "desk_chair",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_desk_chair_03",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      3.3847999572753906
+    ],
+    "bounds": null,
+    "materials": [],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedside_reading_lamp",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey",
+      "placement_evidence": "C",
+      "footprint_width": "0.25",
+      "footprint_depth": "0.25"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04_base",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      3.4098000526428223
+    ],
+    "bounds": [
+      [
+        3.382416009902954,
+        3.622415781021118
+      ],
+      [
+        10.924799919128418,
+        11.164799690246582
+      ],
+      [
+        3.3847999572753906,
+        3.434800148010254
+      ]
+    ],
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedside_reading_lamp",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04_stem",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      3.674799919128418
+    ],
+    "bounds": [
+      [
+        3.4874157905578613,
+        3.517416000366211
+      ],
+      [
+        11.029799461364746,
+        11.059800148010254
+      ],
+      [
+        3.414799928665161,
+        3.934799909591675
+      ]
+    ],
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedside_reading_lamp",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04_shade",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      3.3847999572753906
+    ],
+    "bounds": [
+      [
+        3.3024158477783203,
+        3.702415943145752
+      ],
+      [
+        10.844799995422363,
+        11.244799613952637
+      ],
+      [
+        3.8148000240325928,
+        4.084799766540527
+      ]
+    ],
+    "materials": [
+      "FW_lamp_diffuser"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedside_reading_lamp",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04_cap",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+    "location": [
+      3.502415895462036,
+      11.0447998046875,
+      4.104800224304199
+    ],
+    "bounds": [
+      [
+        3.4764158725738525,
+        3.5284159183502197
+      ],
+      [
+        11.018799781799316,
+        11.070799827575684
+      ],
+      [
+        4.0923004150390625,
+        4.117300033569336
+      ]
+    ],
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_MASTER",
+      "component_type": "furniture",
+      "asset_type": "bedside_reading_lamp",
+      "asset_id": "FW_FURN_MAIN_L2_MASTER_bedside_reading_lamp_04",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      1.259290337562561,
+      12.087958335876465,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey",
+      "placement_evidence": "C",
+      "footprint_width": "1.094112",
+      "footprint_depth": "0.38232",
+      "functional_note": "Closet interior represented by side/back/shelf; doors closed, inspectable in outliner."
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_recessed_plinth",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.259290337562561,
+      12.087958335876465,
+      2.914799928665161
+    ],
+    "bounds": [
+      [
+        0.7822343111038208,
+        1.7363463640213013
+      ],
+      [
+        11.961798667907715,
+        12.214118003845215
+      ],
+      [
+        2.8447999954223633,
+        2.984799861907959
+      ]
+    ],
+    "materials": [
+      "FW_dark"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_lower_shelf",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.259290337562561,
+      12.087958335876465,
+      3.0048000812530518
+    ],
+    "bounds": [
+      [
+        0.7122343182563782,
+        1.8063464164733887
+      ],
+      [
+        11.896798133850098,
+        12.279118537902832
+      ],
+      [
+        2.984800100326538,
+        3.0248000621795654
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_top_board",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.259290337562561,
+      12.087958335876465,
+      4.769800186157227
+    ],
+    "bounds": [
+      [
+        0.7022343277931213,
+        1.8163464069366455
+      ],
+      [
+        11.886797904968262,
+        12.289118766784668
+      ],
+      [
+        4.744800090789795,
+        4.794800281524658
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_side",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      0.7322343587875366,
+      12.087958335876465,
+      3.869800090789795
+    ],
+    "bounds": [
+      [
+        0.712234377861023,
+        0.7522343397140503
+      ],
+      [
+        11.896798133850098,
+        12.279118537902832
+      ],
+      [
+        2.9748001098632812,
+        4.764800071716309
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_side.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.7863463163375854,
+      12.087958335876465,
+      3.869800090789795
+    ],
+    "bounds": [
+      [
+        1.7663463354110718,
+        1.8063462972640991
+      ],
+      [
+        11.896798133850098,
+        12.279118537902832
+      ],
+      [
+        2.9748001098632812,
+        4.764800071716309
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_back",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.259290337562561,
+      12.267118453979492,
+      3.869800090789795
+    ],
+    "bounds": [
+      [
+        0.7122343182563782,
+        1.8063464164733887
+      ],
+      [
+        12.255118370056152,
+        12.279118537902832
+      ],
+      [
+        2.9697999954223633,
+        4.769800186157227
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_division",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      0.7242343425750732,
+      12.087958335876465,
+      3.8797998428344727
+    ],
+    "bounds": [
+      [
+        0.7127343416213989,
+        0.7357343435287476
+      ],
+      [
+        11.91679859161377,
+        12.25911808013916
+      ],
+      [
+        2.994799852371216,
+        4.764800071716309
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_door",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      0.985762357711792,
+      11.890798568725586,
+      3.8997998237609863
+    ],
+    "bounds": [
+      [
+        0.7197343707084656,
+        1.2517902851104736
+      ],
+      [
+        11.877298355102539,
+        11.904298782348633
+      ],
+      [
+        3.0197997093200684,
+        4.779799938201904
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_pull",
+    "type": "CURVE",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.259290337562561,
+      12.087958335876465,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_division.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.2712903022766113,
+      12.087958335876465,
+      3.8797998428344727
+    ],
+    "bounds": [
+      [
+        1.259790301322937,
+        1.2827903032302856
+      ],
+      [
+        11.91679859161377,
+        12.25911808013916
+      ],
+      [
+        2.994799852371216,
+        4.764800071716309
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_door.001",
+    "type": "MESH",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.53281831741333,
+      11.890798568725586,
+      3.8997998237609863
+    ],
+    "bounds": [
+      [
+        1.2667903900146484,
+        1.7988462448120117
+      ],
+      [
+        11.877298355102539,
+        11.904298782348633
+      ],
+      [
+        3.0197997093200684,
+        4.779799938201904
+      ]
+    ],
+    "materials": [
+      "FW_wood"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  },
+  {
+    "name": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00_pull.001",
+    "type": "CURVE",
+    "parent": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+    "location": [
+      1.259290337562561,
+      12.087958335876465,
+      2.8447999954223633
+    ],
+    "bounds": null,
+    "materials": [
+      "FW_brass"
+    ],
+    "properties": {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "component_type": "furniture",
+      "asset_type": "coat_storage",
+      "asset_id": "FW_FURN_MAIN_L2_CLOSET_M_coat_storage_00",
+      "reference": "HABS PA-5346 sheets 3\u20136 and 11 / 2010",
+      "evidence": "C",
+      "dimensions_evidence": "C: photograph-informed, not measured furniture survey"
+    }
+  }
+]

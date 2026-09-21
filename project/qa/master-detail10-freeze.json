@@ -1,0 +1,210 @@
+{
+  "status": "FROZEN_LOCAL_LAYOUT_IMPROVEMENT_GLOBAL_PHOTOREAL_AND_ROUTE_NOT_PASSED",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_master_detail_candidate10f.blend",
+  "candidate_sha256": "f7ff5b0ab1317b0d375b884b651497bbc26e573cceebe5a9d15139a9c8e9ba5c",
+  "candidate_bytes": 44371522,
+  "helper_sha256": "751fa855c78add9e98b055a8a9bfd993640fc28c60cf8225fd351ffc7422572c",
+  "source_sha256": "f85d813129fab175257f00be12c8d1116505b62d2ca1f9f8a6ffae57926e4a2a",
+  "geometry_counts": {
+    "target_meshes": 151,
+    "mesh_fails": 0,
+    "floor_samples": 8717,
+    "floor_fails": 0,
+    "proposed_path_body_samples": 177,
+    "body_fails": 8,
+    "cavity_samples": 15,
+    "cavity_fails": 0,
+    "legacy_route_target_hits": 29
+  },
+  "floor_joins": {
+    "samples": 6075,
+    "failures": 0
+  },
+  "contact_counts": {
+    "furniture_architecture_intersections": 4,
+    "between_asset_intersections": 0,
+    "contact_failures": 0,
+    "support_failures": 0,
+    "proposal_camera_failures": 0,
+    "updated_path_samples": 119,
+    "updated_path_fails": 0
+  },
+  "material_status": "PASS_SCOPED_MATERIAL_AND_DOOR_NO_SAVE",
+  "actual_visual_review": {
+    "scene_version": "10e",
+    "views": [
+      "renders/previews/master-detail10e/CAM_MAIN_L2_MASTER_A.png",
+      "renders/previews/master-detail10e/CAM_MAIN_L2_MASTER_B.png"
+    ],
+    "camera_pose_record": "qa/master-detail10-root-cameras.json",
+    "opened_by_this_agent": true,
+    "verdict": "LOCAL_LAYOUT_IMPROVED; fullphotorealFAIL; final10f_visualNOT_RUN"
+  },
+  "production_unchanged": {
+    "scripts/main_house.py": true,
+    "scripts/furnishings.py": true,
+    "scripts/camera_review.py": true,
+    "scripts/tour.py": true,
+    "data/main_house.json": true,
+    "data/camera-settings-reviewed.json": true,
+    "data/tour-route.json": true,
+    "config.json": true
+  },
+  "camera_proposals": [
+    {
+      "name": "PROPOSED_MASTER_NORTH_EAST",
+      "eye_source": [
+        359,
+        381
+      ],
+      "target_source": [
+        393,
+        333
+      ],
+      "location_world": [
+        1.6768,
+        8.4429,
+        4.4668
+      ],
+      "target_world": [
+        3.4584,
+        10.9917,
+        3.8868
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "body_check": {
+        "source_xy": [
+          359,
+          381
+        ],
+        "body_hits": [],
+        "floor": "MAIN_L2_MASTER_finish",
+        "pass": true
+      },
+      "scene_camera_created": false
+    },
+    {
+      "name": "PROPOSED_MASTER_WEST_HEARTH",
+      "eye_source": [
+        380,
+        385
+      ],
+      "target_source": [
+        325,
+        344
+      ],
+      "location_world": [
+        2.7772,
+        8.230500000000001,
+        4.4668
+      ],
+      "target_world": [
+        -0.1048,
+        10.4076,
+        3.8868
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "body_check": {
+        "source_xy": [
+          380,
+          385
+        ],
+        "body_hits": [],
+        "floor": "MAIN_L2_MASTER_finish",
+        "pass": true
+      },
+      "scene_camera_created": false
+    }
+  ],
+  "integration_refresh": {
+    "not_saved": true,
+    "info": {
+      "objects": [
+        "MAIN_L2_MASTER_slab",
+        "MAIN_L2_MASTER_finish"
+      ],
+      "bath_source10": true,
+      "east_source_x": 417.37786259541986,
+      "east_world_x": 4.7358,
+      "source_polygon": [
+        [
+          330,
+          312
+        ],
+        [
+          368,
+          312
+        ],
+        [
+          368,
+          305
+        ],
+        [
+          417.37786259541986,
+          305
+        ],
+        [
+          417.37786259541986,
+          410.5291902071563
+        ],
+        [
+          317.4770992366412,
+          410.5291902071563
+        ],
+        [
+          317.4770992366412,
+          381
+        ],
+        [
+          330,
+          381
+        ],
+        [
+          330,
+          350
+        ],
+        [
+          333,
+          350
+        ],
+        [
+          333,
+          333
+        ],
+        [
+          327,
+          333
+        ],
+        [
+          327,
+          330
+        ],
+        [
+          330,
+          330
+        ]
+      ],
+      "finish_z": 2.8668
+    },
+    "actual_east_world_x": 4.735799789428711,
+    "old_floor_area_m2": 25.702864099999985,
+    "combined_floor_area_m2": 25.828573039999995,
+    "restored_old_notch_area_m2": 0.12570894000000976,
+    "bath_threshold_required_west_x": 4.735799789428711,
+    "new_bath_entry_source_y": [
+      390.5,
+      405
+    ]
+  },
+  "handoff": "qa/master-detail10-handoff.md",
+  "source_reference_rights": "Columbia panoramas and derived images REFERENCE_ONLY_EXCLUDE_PUBLIC_PACKAGE",
+  "completion_limits": [
+    "Original A/B bodyFAIL; proposed source-layout cameras clear.",
+    "Original MASTER route29targetcollisions FAIL; local revised119points PASS only.",
+    "Full120cameras/60connections/7584frames NOT_RUN.",
+    "Four shelf-to-wall/header intersections recorded as C embedded support, not zero-crossing claim.",
+    "Root accepted local10e layout only; photorealism not passed."
+  ]
+}

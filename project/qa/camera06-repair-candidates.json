@@ -1,0 +1,91 @@
+{
+  "CAM_MAIN_L1_LOGGIA_A": {
+    "location": [
+      13.81788,
+      10.59982,
+      1.7222
+    ],
+    "target": [
+      11.88956,
+      11.40588,
+      1.1
+    ],
+    "lens": 28,
+    "exposure": 0.8,
+    "room_id": "MAIN_L1_LOGGIA",
+    "evidence": "06 support repair: shift inward on actual loggia finish after terrain removal exposes an unsupported old foot. Actual06 geometric checks only; new render review pending.",
+    "support_object": "MAIN_L1_LOGGIA_finish",
+    "support_z": 0.1222,
+    "outside_room_polygon": false,
+    "render_reviewed": false,
+    "shift_x": 0,
+    "shift_y": 0
+  },
+  "CAM_MAIN_B_PLUNGE_A": {
+    "location": [
+      13.81788,
+      10.59982,
+      1.7222
+    ],
+    "target": [
+      14.3576,
+      7.3809,
+      -2.6467
+    ],
+    "lens": 32,
+    "exposure": 0.8,
+    "room_id": "MAIN_B_PLUNGE",
+    "evidence": "06 support repair: move from the removed bridge approach to the actual upper loggia floor, preserving the pool target. This is an adjacent upper dry observation point, not pool-room floor occupancy. Actual06 geometric checks only; new render review pending.",
+    "support_object": "MAIN_L1_LOGGIA_finish",
+    "support_z": 0.1222,
+    "outside_room_polygon": true,
+    "render_reviewed": false,
+    "shift_x": 0,
+    "shift_y": 0
+  },
+  "CAM_GUEST_L1_LOUNGE_A": {
+    "location": [
+      7.90167,
+      39.97148,
+      10.0002
+    ],
+    "target": [
+      4.4562,
+      39.91788,
+      10.0002
+    ],
+    "lens": 28,
+    "shift_x": 0,
+    "shift_y": -0.12111145690558323,
+    "support_z": 8.4002,
+    "support_object": "GUEST_L1_MAIN_FLOOR",
+    "outside_room_polygon": false,
+    "exposure": 2.8,
+    "room_id": "GUEST_L1_LOUNGE",
+    "evidence": "LIMITED wide room/fireplace candidate: complete hood/hearth projection fits, but the existing screen occludes part of the aperture. This does NOT pass the full-firebox requirement; a separate detail view is mandatory. Aperture projection and actual obstruction rays are recorded; image review pending. Actual06 geometric checks only; new render review pending.",
+    "render_reviewed": false,
+    "exposure_evidence": "Root actually viewed iteration05 focus exposure bracket; chosen EV 2.8. A changed pose must still be rendered and reviewed."
+  },
+  "CAM_GUEST_L1_LOUNGE_B": {
+    "location": [
+      5.46639,
+      37.30034,
+      10.0002
+    ],
+    "target": [
+      9.73679,
+      38.03706,
+      10.0002
+    ],
+    "lens": 28,
+    "shift_x": 0,
+    "shift_y": -0.2131696531419042,
+    "support_z": 8.4002,
+    "support_object": "GUEST_L1_MAIN_FLOOR",
+    "outside_room_polygon": false,
+    "exposure": 3.0,
+    "room_id": "GUEST_L1_LOUNGE",
+    "evidence": "Actual06 image-driven complementary room view from the east side of the existing screen; near foreground limited to <=5/77 rays, screen <=9/77. Furnishing visibility counts supplement but never replace the required new image. Actual06 geometric checks only; new render review pending.",
+    "render_reviewed": false
+  }
+}

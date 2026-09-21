@@ -1,0 +1,17 @@
+{
+  "status": "FAILED_NO_PRODUCTION_INTEGRATION",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_bridge_candidate10.blend",
+  "source_frame": 73,
+  "comparison_frame": 48,
+  "rendered": false,
+  "production_changed": false,
+  "dependencies": {
+    "scripts\\bridge_detail10.py": "2bd1c6bd05de299cf8920dfcf8a96905f1b412b70ea4ca3606c29368b3bf29d4",
+    "qa\\shrub08_auditlib.py": "1b499095de9b516db524dd8cbd2c90e0a6f070edddda0570a8c6481d49da3ae8",
+    "qa\\bridge10-source-probe.json": "5d6e624e22b131c6b657068cd086d71fd543f712fd4273de5d44788af1062a89",
+    "qa\\bridge10-frozen-route09.json": "032d3980ccdb013a1bd03481db439104f487902978e9aef1e4443648de67c767"
+  },
+  "exception": "AttributeError(\"'int' object has no attribute 'x'\")",
+  "elapsed_s": 29.156443300002138
+}

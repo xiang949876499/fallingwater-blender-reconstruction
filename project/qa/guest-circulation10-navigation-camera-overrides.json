@@ -1,0 +1,112 @@
+{
+  "CAM_GUEST_B1_STAIR_A": {
+    "location": [
+      1.7942919731140137,
+      40.15776062011719,
+      7.639999866485596
+    ],
+    "target": [
+      1.7942919731140137,
+      38.5761604309082,
+      6.889999866485596
+    ],
+    "lens": 22,
+    "exposure": 2.6,
+    "shift_x": 0,
+    "shift_y": 0,
+    "support_z": 6.040000000000001,
+    "room_id": "GUEST_B1_STAIR",
+    "evidence": "Candidate10 actual mesh test only. Old camera was at L1; relocate to actual B1 platform and lower flight",
+    "render_reviewed": false,
+    "candidate_only": true,
+    "mode": "GROUNDED_DIAGNOSTIC"
+  },
+  "CAM_GUEST_L1_STAIR_HALL_A": {
+    "location": [
+      1.915179967880249,
+      40.38182067871094,
+      10.0
+    ],
+    "target": [
+      2.9453558921813965,
+      40.526798248291016,
+      9.5
+    ],
+    "lens": 24,
+    "exposure": 2.6,
+    "shift_x": 0,
+    "shift_y": 0,
+    "support_z": 8.4,
+    "room_id": "GUEST_L1_STAIR_HALL",
+    "evidence": "Candidate10 actual mesh test only. Old pose above new upper-right flight belongs to wrong level; use northern L1 platform",
+    "render_reviewed": false,
+    "candidate_only": true,
+    "mode": "GROUNDED_DIAGNOSTIC"
+  },
+  "CAM_GUEST_L1_STAIR_HALL_B": {
+    "location": [
+      2.34879994392395,
+      37.047279357910156,
+      8.819999694824219
+    ],
+    "target": [
+      2.9453558921813965,
+      38.523441314697266,
+      8.25
+    ],
+    "lens": 22,
+    "exposure": 2.6,
+    "shift_x": 0,
+    "shift_y": 0,
+    "support_z": 7.220000000000001,
+    "room_id": "GUEST_L1_STAIR_HALL",
+    "evidence": "Candidate10 actual mesh test only. Old south flat0 floor was removed; use real low south arrival",
+    "render_reviewed": false,
+    "candidate_only": true,
+    "mode": "GROUNDED_DIAGNOSTIC"
+  },
+  "CAM_GUEST_L2_HALL_A": {
+    "location": [
+      2.375080108642578,
+      37.521759033203125,
+      11.447800636291504
+    ],
+    "target": [
+      2.4250121116638184,
+      38.997920989990234,
+      10.699999809265137
+    ],
+    "lens": 20,
+    "exposure": 2.6,
+    "shift_x": 0,
+    "shift_y": 0,
+    "support_z": 9.8478,
+    "room_id": "GUEST_L2_HALL",
+    "evidence": "Candidate10 actual mesh test only. Inspect source upper divider and south intermediate return; explicit nonplanar Hall camera",
+    "render_reviewed": false,
+    "candidate_only": true,
+    "mode": "GROUNDED_DIAGNOSTIC"
+  },
+  "CAM_GUEST_L1_TERRACE_B": {
+    "location": [
+      8.235520362854004,
+      35.04391860961914,
+      9.325714111328125
+    ],
+    "target": [
+      7.3420000076293945,
+      35.992881774902344,
+      9.25
+    ],
+    "lens": 24,
+    "exposure": 1.8,
+    "shift_x": 0,
+    "shift_y": 0,
+    "support_z": 7.725714285714286,
+    "room_id": "GUEST_L1_TERRACE",
+    "evidence": "Candidate10 actual mesh test only. Old west paving camera retains former flat0 eye height; use actual intermediate front paving",
+    "render_reviewed": false,
+    "candidate_only": true,
+    "mode": "GROUNDED_DIAGNOSTIC"
+  }
+}

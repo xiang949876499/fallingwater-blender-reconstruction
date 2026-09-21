@@ -1,0 +1,1223 @@
+{
+  "status": "RENDERED",
+  "variant": "laundry_own_filament_excluded",
+  "source_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+  "camera": "CAM_GUEST_B1_LAUNDRY_B",
+  "camera_location": [
+    -1.4840699434280396,
+    37.60253143310547,
+    7.640200138092041
+  ],
+  "camera_rotation": [
+    1.4660786390304565,
+    3.0810731743713404e-10,
+    -0.3574379086494446
+  ],
+  "lens": 28.0,
+  "exposure": 0.8,
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "cpu_preparation_threads": 4,
+  "before_lights": {
+    "FW_LIGHT_PhysicalSun": {
+      "matrix": [
+        [
+          0.8191521763801575,
+          0.4194871485233307,
+          -0.39117807149887085,
+          0.0
+        ],
+        [
+          -0.5735762715339661,
+          0.5990899801254272,
+          -0.5586603879928589,
+          0.0
+        ],
+        [
+          1.0798938632206045e-08,
+          0.6819983720779419,
+          0.7313537001609802,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 2.5,
+      "color": [
+        1.0,
+        0.9599999785423279,
+        0.8899999856948853
+      ],
+      "type": "SUN",
+      "shadow": true,
+      "radius": 0.0,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.619999885559082
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.168800354003906
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 22.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.1527999639511108
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.655599594116211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": "FW_EEVEE_SELF_EMITTER_28ed1988e362"
+    },
+    "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5720000267028809
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          12.584699630737305
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 32.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          9.536800384521484
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.22189998626709
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.380000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 9.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.729200005531311
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.239700317382812
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.130799770355225
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.575799942016602
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.078400135040283
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.389800071716309
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.1527999639511108
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.974200248718262
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.184150218963623
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.827159881591797
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          41.84978103637695
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.440000534057617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 24.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          13.333840370178223
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          37.41632080078125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.440000534057617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.24766400456428528
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38.78704071044922
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.039999961853027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 30.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.672499895095825
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38.32794189453125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.039999961853027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.4539198875427246
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          46.74776077270508
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.75267505645752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.4539198875427246
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          42.63560104370117
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.75267505645752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 22.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    }
+  },
+  "before_volume_intensities": {
+    "FW_PROBE_MAIN_B": 1.0,
+    "FW_PROBE_MAIN_L1": 1.0,
+    "FW_PROBE_MAIN_L2": 1.0,
+    "FW_PROBE_MAIN_L3": 1.0,
+    "FW_PROBE_GUEST_L1": 1.0,
+    "FW_PROBE_GUEST_B1": 1.0,
+    "FW_PROBE_GUEST_L2": 1.0
+  },
+  "cycles_glass_surface_before": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+  "glazing_geometry_before": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+  "production_saved": false,
+  "gi_rebaked": false,
+  "change": [
+    {
+      "light": "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy",
+      "excluded_object": "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_visible_emissive_filament",
+      "blocker_collection": "FW_EEVEE_SELF_EMITTER_2e26a6fc6925",
+      "link_state": "EXCLUDE",
+      "created": true,
+      "other_shadow_casters_preserved": true,
+      "energy_radius_pose_unchanged": true,
+      "scope": "EEVEE preview approximation; restore before Cycles rendering"
+    }
+  ],
+  "after_lights": {
+    "FW_LIGHT_PhysicalSun": {
+      "matrix": [
+        [
+          0.8191521763801575,
+          0.4194871485233307,
+          -0.39117807149887085,
+          0.0
+        ],
+        [
+          -0.5735762715339661,
+          0.5990899801254272,
+          -0.5586603879928589,
+          0.0
+        ],
+        [
+          1.0798938632206045e-08,
+          0.6819983720779419,
+          0.7313537001609802,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 2.5,
+      "color": [
+        1.0,
+        0.9599999785423279,
+        0.8899999856948853
+      ],
+      "type": "SUN",
+      "shadow": true,
+      "radius": 0.0,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.619999885559082
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.168800354003906
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 22.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.1527999639511108
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.655599594116211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": "FW_EEVEE_SELF_EMITTER_28ed1988e362"
+    },
+    "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5720000267028809
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          12.584699630737305
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 32.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          9.536800384521484
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.22189998626709
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.380000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 9.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.729200005531311
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.239700317382812
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.130799770355225
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.575799942016602
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.078400135040283
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.389800071716309
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.1527999639511108
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.974200248718262
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.184150218963623
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.827159881591797
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          41.84978103637695
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.440000534057617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 24.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          13.333840370178223
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          37.41632080078125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.440000534057617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.24766400456428528
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38.78704071044922
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.039999961853027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 30.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": "FW_EEVEE_SELF_EMITTER_2e26a6fc6925"
+    },
+    "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.672499895095825
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38.32794189453125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.039999961853027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.4539198875427246
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          46.74776077270508
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.75267505645752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.4539198875427246
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          42.63560104370117
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.75267505645752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 22.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "radius": 0.027000000700354576,
+      "blocker_collection": null
+    }
+  },
+  "actual_flags": {
+    "raytracing": true,
+    "fast_gi": false,
+    "all_visible_light_shadows": true
+  },
+  "invariants_passed": true,
+  "seconds": 26.32524569999805,
+  "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06-followup-laundry_own_filament_excluded.png",
+  "sha256": "0b31251523c8a1b0c8d9e9a2bb30ece6ef5453594158c247f1008078c06c9356",
+  "visual_acceptance": "PASS_LOCAL_SYMPTOM: giant V-shaped door shadow disappears; real door-handle/fixture/wall shadows retained",
+  "exposure_bracket": [
+    {
+      "exposure": 1.6,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06-followup-laundry_own_filament_excluded_EV1p6.png",
+      "sha256": "d0f3fe76c9f4564b65ed0a688a5edae32a3241b67b9bf92a82bc9c7af9f52fc2",
+      "same_linear_render": true,
+      "viewed": true,
+      "viewed_native": true
+    },
+    {
+      "exposure": 2.4,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06-followup-laundry_own_filament_excluded_EV2p4.png",
+      "sha256": "03c353aba98f222cbd9b020abb4a81d6c2590b2e6bb31db48b4f0acdb1f1217e",
+      "same_linear_render": true,
+      "viewed": true,
+      "viewed_native": true
+    }
+  ],
+  "source_unchanged": true,
+  "viewed_native": true
+}

@@ -1,0 +1,90 @@
+{
+  "status": "BUILDING_ONE_C_STATIC_GEOMETRY",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "output": "D:\\zx\\test\\project\\scene\\Fallingwater_water12_complete_geometry01.blend",
+  "frame": 48,
+  "bake_started": false,
+  "render_started": false,
+  "production_changed": false,
+  "scope": "Complete visible original river body + all9 authored gravity branches; near-field rock/bed contact and upstream/downstream seams",
+  "native_flow_claim": false,
+  "animation_status": "STATIC ONLY; original surface keys frozen into new volume, no old shape keys or 5sec proof",
+  "branches": [],
+  "water_only_boolean_operations": [],
+  "body": {
+    "used_top_vertices": 7161,
+    "top_faces": 6870,
+    "bottom_depth_m": {
+      "count": 7161,
+      "min": 0.02499999999999991,
+      "max": 1.2000000000000002,
+      "mean": 0.5426005668762364
+    },
+    "terrain_ray_missing": 0,
+    "maximum_authored_depth_cap_m": 1.2,
+    "input_top_world_sha256": "257f206d42441baab3c932835cb21ab6f18dc1d3c5c88f05ebfa2234c8258aff",
+    "original_top_frozen_frame": 48,
+    "original_shape_keys_copied": false,
+    "initial_topology": {
+      "vertices": 14322,
+      "faces": 14318,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 563.7572365436401
+    },
+    "near_only_csg": true
+  },
+  "current_stage": "CLOSED_UPSTREAM_DOWNSTREAM_VOLUME",
+  "near_field_csg_repair": {
+    "repair_scope": "Near-field CSG only; far geometry attached by deleting coincident caps and sharing exact boundary vertices, not Boolean over the1km river",
+    "previous_failed_report": "qa/water12-complete-geometry01.json",
+    "previous_failure_retained": true,
+    "boolean_self_intersection_support": true,
+    "far_geometry_self_intersection_certified": false,
+    "interface_original_rows": [
+      149,
+      396
+    ],
+    "interface_center_x_m": [
+      30.200000762939453,
+      -55.09554487659085
+    ],
+    "parts": [
+      {
+        "name": "W12_Near_Top",
+        "top_faces": 6870,
+        "closed": {
+          "vertices": 14322,
+          "faces": 14318,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "signed_volume_m3": 563.7572365436401
+        }
+      },
+      {
+        "name": "W12_Far_Up_Top",
+        "top_faces": 4470,
+        "closed": {
+          "vertices": 9300,
+          "faces": 9298,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "signed_volume_m3": 227.4668723396462
+        }
+      },
+      {
+        "name": "W12_Far_Down_Top",
+        "top_faces": 87600,
+        "closed": {
+          "vertices": 181102,
+          "faces": 181100,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "signed_volume_m3": 3480.494705066851
+        }
+      }
+    ],
+    "far_interface_tolerance_m": 1e-05
+  }
+}

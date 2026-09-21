@@ -1,0 +1,31 @@
+{
+  "source_sha256": "2f4f904a0364cf2792036ad59b7a112280cd64a15405945a13e975615a561bf4",
+  "verified_output_files": 20,
+  "all_hashes_match": true,
+  "png_count": 8,
+  "exr_count": 12,
+  "views": {
+    "hero": {
+      "baseline_seconds": 216.5216,
+      "candidate_seconds": 121.8995,
+      "visual_result": "Exterior candidate merits further validation; no whole-scene acceptance"
+    },
+    "living": {
+      "baseline_seconds": 241.394,
+      "candidate_seconds": 92.4324,
+      "visual_result": "Candidate REJECTED: new structured dark-floor changes after denoising"
+    }
+  },
+  "all_8_pngs_viewed_at_native_640px": true,
+  "further_rendering_started": false,
+  "timing_caveats": [
+    "Candidate second with persistent data",
+    "Other coordinated CPU work could overlap; not isolated hardware timing",
+    "Threshold and bounce limits changed together"
+  ],
+  "interior_luminance_change_percent": {
+    "inner_crop": -8.972837646032605,
+    "dark_floor": -14.279820045907831
+  },
+  "recommendation": "Retain interior threshold0.01 total12 diffuse6 baseline. Exterior candidate provisional only; final/full-frame/motion validation not run."
+}

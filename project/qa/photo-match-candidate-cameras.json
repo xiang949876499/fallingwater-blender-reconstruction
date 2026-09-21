@@ -1,0 +1,132 @@
+{
+  "warning": "Candidate framing only. No six-view GEO-07 PASS. Do not use withdrawn SW camera.",
+  "source_scene_sha256": "2f4f904a0364cf2792036ad59b7a112280cd64a15405945a13e975615a561bf4",
+  "cameras": [
+    {
+      "id": "CAM_REF_EAST_88",
+      "reference": "main_east_88",
+      "type": "fitted diagnostic",
+      "location": [
+        28.075012662957853,
+        -4.2390133770827045,
+        1.5854237832291496
+      ],
+      "rotation_world_to_opencv": [
+        [
+          0.5736911332751811,
+          0.8187990787194085,
+          -0.021131783873740984
+        ],
+        [
+          0.02165696477389445,
+          -0.04095449507658144,
+          -0.9989262761634637
+        ],
+        [
+          -0.8187853561698699,
+          0.5726174971316108,
+          -0.04122793349792028
+        ]
+      ],
+      "focal_pixels": 603.1538918969645,
+      "sensor_width_mm": 36,
+      "lens_mm": 21.20462901200266,
+      "principal_point": [
+        512.0,
+        371.5
+      ],
+      "resolution": [
+        1024,
+        743
+      ],
+      "distortion": "none fitted; unknown original lens; no crop/warp",
+      "blender_matrix_world_rotation": [
+        [
+          0.5736911332751811,
+          -0.02165696477389445,
+          0.8187853561698699
+        ],
+        [
+          0.8187990787194085,
+          0.04095449507658144,
+          -0.5726174971316108
+        ],
+        [
+          -0.021131783873740984,
+          0.9989262761634637,
+          0.04122793349792028
+        ]
+      ],
+      "lens_mm_for_36mm_long_edge": 21.20462901200266,
+      "status": "Diagnostic fit only; not a production camera or calibrated source lens"
+    },
+    {
+      "id": "CAM_REF_MAIN_LIVING_48",
+      "reference": "main_living_48",
+      "type": "unverified composition seed",
+      "eye": [
+        -0.1,
+        12.3,
+        1.65
+      ],
+      "target": [
+        3.5,
+        3,
+        1.2
+      ],
+      "focal_pixels": 770,
+      "status": "Compositional candidate from plan/caption only; NOT a calibrated camera"
+    },
+    {
+      "id": "CAM_REF_MAIN_KITCHEN_56",
+      "reference": "main_kitchen_56",
+      "type": "unverified composition seed",
+      "eye": [
+        -1.2,
+        16.1,
+        1.55
+      ],
+      "target": [
+        -2.4,
+        12.0,
+        1.1
+      ],
+      "focal_pixels": 795,
+      "status": "Compositional candidate from plan/caption only; NOT a calibrated camera"
+    },
+    {
+      "id": "CAM_REF_GUEST_EXTERIOR_10",
+      "reference": "guest_exterior_10",
+      "type": "unverified composition seed",
+      "eye": [
+        3.1,
+        35.4,
+        8.85
+      ],
+      "target": [
+        17,
+        35.4,
+        9.4
+      ],
+      "focal_pixels": 765,
+      "status": "Compositional candidate from plan/caption only; NOT a calibrated camera"
+    },
+    {
+      "id": "CAM_REF_GUEST_LIVING_11",
+      "reference": "guest_living_11",
+      "type": "unverified composition seed",
+      "eye": [
+        9.6,
+        38.4,
+        9.95
+      ],
+      "target": [
+        3.8,
+        38.2,
+        9.35
+      ],
+      "focal_pixels": 795,
+      "status": "Compositional candidate from plan/caption only; NOT a calibrated camera"
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+{
+  "status": "STATIC_GEOMETRY_PROGRESS_VISUAL_FAIL_CONTACT_PARTIAL",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_water12_surface07.blend",
+  "candidate_sha256": "46bbc92557fe24259accae4e2d808c49f74331d4cf024bc00c7201519548fef7",
+  "display_candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_water12_surface07_display.blend",
+  "display_sha256": "875daf50b19c652c7e25a772b2e325578cafd7d9e6e23806c578f3d22dab21f1",
+  "geometry": {
+    "topology": {
+      "vertices": 700646,
+      "faces": 1400980,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4018.1633487382564
+    },
+    "degenerate_triangles": 0,
+    "min_triangle_area_m2": 3.7826806579280455e-07,
+    "nonshared_BVH_pairs": 0,
+    "confirmed_segment_triangle_crossings": 0,
+    "crossing_examples": [],
+    "limitations": "Excludes shared-vertex pairs and strictly coplanar triangles; injective layer projection additionally checked by construction."
+  },
+  "contact_by_actual_role": {
+    "all_branch_vertices": {
+      "tested_points": 44620,
+      "terrain_below_over_05mm": 0,
+      "terrain_max_penetration_m": 0,
+      "solid_vertical_parity_inside_over_05mm": 0,
+      "solid_max_distance_m": 0,
+      "terrain_examples": [],
+      "solid_examples": []
+    },
+    "all_branch_triangle_centroids": {
+      "tested_points": 88320,
+      "terrain_below_over_05mm": 0,
+      "terrain_max_penetration_m": 0,
+      "solid_vertical_parity_inside_over_05mm": 5,
+      "solid_max_distance_m": 0.0010249614715576172,
+      "terrain_examples": [],
+      "solid_examples": [
+        {
+          "point": [
+            2.879197835922241,
+            -3.875305652618408,
+            -3.0560251077016196
+          ],
+          "solid": "SITE_Core_Continuous_Fractured_Sandstone",
+          "distance_to_surface_m": 0.0010249614715576172,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            2.8934335708618164,
+            -3.8951022624969482,
+            -3.0558528105417886
+          ],
+          "solid": "SITE_Core_Continuous_Fractured_Sandstone",
+          "distance_to_surface_m": 0.0008528232574462891,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            2.8983378410339355,
+            -3.9019309679667153,
+            -3.0557754039764404
+          ],
+          "solid": "SITE_Core_Continuous_Fractured_Sandstone",
+          "distance_to_surface_m": 0.0007753372774459422,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            2.8645644982655845,
+            -3.8553434213002524,
+            -3.0556325117746987
+          ],
+          "solid": "SITE_Core_Continuous_Fractured_Sandstone",
+          "distance_to_surface_m": 0.000632524723187089,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            2.9080620606740317,
+            -3.915444771448771,
+            -3.0555651982625327
+          ],
+          "solid": "SITE_Core_Continuous_Fractured_Sandstone",
+          "distance_to_surface_m": 0.0005650520324707031,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "near_free_surface_all_triangle_centroids": {
+      "tested_points": 229597,
+      "terrain_below_over_05mm": 0,
+      "terrain_max_penetration_m": 0,
+      "solid_vertical_parity_inside_over_05mm": 0,
+      "solid_max_distance_m": 0,
+      "terrain_examples": [],
+      "solid_examples": []
+    },
+    "near_shore_actual_top_edge_midpoints": {
+      "tested_points": 2783,
+      "terrain_below_over_05mm": 0,
+      "terrain_max_penetration_m": 0,
+      "solid_vertical_parity_inside_over_05mm": 0,
+      "solid_max_distance_m": 0,
+      "terrain_examples": [],
+      "solid_examples": []
+    },
+    "near_shore_side_all_triangle_centroids": {
+      "tested_points": 5380,
+      "terrain_below_over_05mm": 3,
+      "terrain_max_penetration_m": 0.017021894454956055,
+      "solid_vertical_parity_inside_over_05mm": 70,
+      "solid_max_distance_m": 0.03999998793005943,
+      "terrain_examples": [
+        {
+          "point": [
+            8.305882771809896,
+            -7.10352897644043,
+            -3.0892226696014404
+          ],
+          "terrain_penetration_vertical_m": 0.017021894454956055
+        },
+        {
+          "point": [
+            -25.930116653442383,
+            -11.761037826538086,
+            -6.812317530314128
+          ],
+          "terrain_penetration_vertical_m": 0.00573031107584665
+        },
+        {
+          "point": [
+            9.671765645345053,
+            -6.477058410644531,
+            -3.071035623550415
+          ],
+          "terrain_penetration_vertical_m": 0.001863718032836914
+        }
+      ],
+      "solid_examples": [
+        {
+          "point": [
+            5.845883210500081,
+            -7.97352917989095,
+            -3.0985450744628906
+          ],
+          "solid": "SITE_Core_Continuous_Fractured_Sandstone",
+          "distance_to_surface_m": 0.03999998793005943,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -19.797487258911133,
+            -24.747214635213215,
+            -6.949724356333415
+          ],
+          "solid": "SITE_Bank_0187",
+          "distance_to_surface_m": 0.03682065010070801,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -14.133042653401693,
+            -7.105546156565349,
+            -6.714271704355876
+          ],
+          "solid": "SITE_Bank_0161",
+          "distance_to_surface_m": 0.03334011882543564,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            4.074118614196777,
+            -7.796470642089844,
+            -5.81693156560262
+          ],
+          "solid": "SITE_Bank_0144",
+          "distance_to_surface_m": 0.02431178279221058,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -20.678308486938477,
+            -10.34567896525065,
+            -6.793976465861003
+          ],
+          "solid": "SITE_Split_Talus_056",
+          "distance_to_surface_m": 0.02399023436009884,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -18.774133682250977,
+            -22.84100341796875,
+            -6.910600821177165
+          ],
+          "solid": "SITE_Bank_0182",
+          "distance_to_surface_m": 0.022803999483585358,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -4.622352123260498,
+            -12.740589459737143,
+            -6.428764343261719
+          ],
+          "solid": "SITE_Bank_0158",
+          "distance_to_surface_m": 0.021831296384334564,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -4.915293375651042,
+            -12.658824920654297,
+            -6.643278439839681
+          ],
+          "solid": "SITE_Bank_0157",
+          "distance_to_surface_m": 0.021577099338173866,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            13.039301554361979,
+            -3.866187254587809,
+            -3.0038746198018393
+          ],
+          "solid": "SITE_Bank_0135",
+          "distance_to_surface_m": 0.02100573293864727,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -6.420670668284099,
+            -12.85374387105306,
+            -6.564570585886638
+          ],
+          "solid": "SITE_Bank_0157",
+          "distance_to_surface_m": 0.01854206994175911,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -0.12235244115193684,
+            -9.490589141845703,
+            -6.0241929690043134
+          ],
+          "solid": "SITE_Bank_0147",
+          "distance_to_surface_m": 0.018276341259479523,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -4.671764055887858,
+            -12.732942581176758,
+            -6.446262359619141
+          ],
+          "solid": "SITE_Bank_0158",
+          "distance_to_surface_m": 0.016174038872122765,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "near_C_closure_bottom_triangle_centroids_every_third": {
+      "tested_points": 76680,
+      "terrain_below_over_05mm": 5052,
+      "terrain_max_penetration_m": 0.11203551292419434,
+      "solid_vertical_parity_inside_over_05mm": 850,
+      "solid_max_distance_m": 0.10766145586967468,
+      "terrain_examples": [
+        {
+          "point": [
+            9.80152161916097,
+            1.3546489874521892,
+            -3.725045919418335
+          ],
+          "terrain_penetration_vertical_m": 0.11203551292419434
+        },
+        {
+          "point": [
+            11.100064913431803,
+            -0.8676190376281738,
+            -3.735341469446818
+          ],
+          "terrain_penetration_vertical_m": 0.10818998018900539
+        },
+        {
+          "point": [
+            12.413160641988119,
+            -3.2234244346618652,
+            -3.4157890478769937
+          ],
+          "terrain_penetration_vertical_m": 0.10219041506449367
+        },
+        {
+          "point": [
+            11.107277870178223,
+            -0.7748934427897135,
+            -3.696974754333496
+          ],
+          "terrain_penetration_vertical_m": 0.10143566131591797
+        },
+        {
+          "point": [
+            8.49773089090983,
+            3.4805053075154624,
+            -4.1931813557942705
+          ],
+          "terrain_penetration_vertical_m": 0.10019429524739554
+        },
+        {
+          "point": [
+            8.497461318969727,
+            4.331010818481445,
+            -3.386380592981974
+          ],
+          "terrain_penetration_vertical_m": 0.09562436739603664
+        },
+        {
+          "point": [
+            9.14958922068278,
+            3.108270804087321,
+            -3.6186877886454263
+          ],
+          "terrain_penetration_vertical_m": 0.09426991144816066
+        },
+        {
+          "point": [
+            9.79699420928955,
+            1.6818863948186238,
+            -3.7147933642069497
+          ],
+          "terrain_penetration_vertical_m": 0.09321133295694972
+        },
+        {
+          "point": [
+            11.752306938171387,
+            -2.4093236128489175,
+            -3.824655214945475
+          ],
+          "terrain_penetration_vertical_m": 0.09265295664469386
+        },
+        {
+          "point": [
+            10.459464073181152,
+            0.12100712458292644,
+            -3.7773518562316895
+          ],
+          "terrain_penetration_vertical_m": 0.09175920486450195
+        },
+        {
+          "point": [
+            9.147762934366861,
+            2.7929464975992837,
+            -3.6635783513387046
+          ],
+          "terrain_penetration_vertical_m": 0.09164460500081395
+        },
+        {
+          "point": [
+            9.147730827331543,
+            2.4742561976114907,
+            -3.950746218363444
+          ],
+          "terrain_penetration_vertical_m": 0.09029165903727199
+        }
+      ],
+      "solid_examples": [
+        {
+          "point": [
+            -19.10199801127116,
+            -13.726257960001627,
+            -7.097866058349609
+          ],
+          "solid": "SITE_Split_Talus_054",
+          "distance_to_surface_m": 0.10766145586967468,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -11.828627268473307,
+            -14.826325098673502,
+            -7.1351542472839355
+          ],
+          "solid": "SITE_Split_Talus_058",
+          "distance_to_surface_m": 0.07843752950429916,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -18.73994318644206,
+            -13.76761245727539,
+            -7.0839487711588545
+          ],
+          "solid": "SITE_Split_Talus_054",
+          "distance_to_surface_m": 0.07046836614608765,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -13.211103757222494,
+            -15.209182421366373,
+            -6.957405726114909
+          ],
+          "solid": "SITE_Split_Talus_028",
+          "distance_to_surface_m": 0.07004855573177338,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -13.556239446004232,
+            -7.54955514272054,
+            -6.723461627960205
+          ],
+          "solid": "SITE_Split_Talus_073",
+          "distance_to_surface_m": 0.06779678165912628,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -13.646847407023111,
+            -7.379665533701579,
+            -6.719828128814697
+          ],
+          "solid": "SITE_Split_Talus_073",
+          "distance_to_surface_m": 0.06779170036315918,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -13.623370488484701,
+            -7.423684438069661,
+            -6.72116740544637
+          ],
+          "solid": "SITE_Split_Talus_073",
+          "distance_to_surface_m": 0.0668562576174736,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -10.426235834757486,
+            -10.23080825805664,
+            -6.797359148661296
+          ],
+          "solid": "SITE_Split_Talus_067",
+          "distance_to_surface_m": 0.06578265875577927,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -13.671743710835775,
+            -7.332984606424968,
+            -6.720345656077067
+          ],
+          "solid": "SITE_Split_Talus_073",
+          "distance_to_surface_m": 0.06568820774555206,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -13.18343734741211,
+            -7.186057726542155,
+            -6.725636959075928
+          ],
+          "solid": "SITE_Split_Talus_073",
+          "distance_to_surface_m": 0.06567669659852982,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -10.237351735432943,
+            -10.159964879353842,
+            -6.806401411692302
+          ],
+          "solid": "SITE_Split_Talus_067",
+          "distance_to_surface_m": 0.06539353728294373,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "point": [
+            -12.224684715270996,
+            -13.233718872070312,
+            -7.186123371124268
+          ],
+          "solid": "SITE_Split_Talus_035",
+          "distance_to_surface_m": 0.06478399783372879,
+          "vertical_crossings": 1,
+          "independent_three_direction_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "shared_interfaces": {
+    "branch_01": {
+      "upper_shared_edges": 28,
+      "pool_shared_edges": 28,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    },
+    "branch_02": {
+      "upper_shared_edges": 40,
+      "pool_shared_edges": 40,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    },
+    "branch_03": {
+      "upper_shared_edges": 16,
+      "pool_shared_edges": 16,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    },
+    "branch_04": {
+      "upper_shared_edges": 76,
+      "pool_shared_edges": 76,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    },
+    "branch_05": {
+      "upper_shared_edges": 106,
+      "pool_shared_edges": 106,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    },
+    "branch_06": {
+      "upper_shared_edges": 22,
+      "pool_shared_edges": 22,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    },
+    "branch_07": {
+      "upper_shared_edges": 54,
+      "pool_shared_edges": 54,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    },
+    "branch_08": {
+      "upper_shared_edges": 90,
+      "pool_shared_edges": 90,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    },
+    "branch_09": {
+      "upper_shared_edges": 28,
+      "pool_shared_edges": 28,
+      "unpaired_edges": 0,
+      "all_join_edges_have_two_actual_faces": true
+    }
+  },
+  "nine_branches_one_component": true,
+  "connected_components": 91,
+  "largest_component_bounds": [
+    {
+      "label": 148440,
+      "vertices": 541895,
+      "aabb_m": [
+        [
+          -365.760498046875,
+          92.51839447021484
+        ],
+        [
+          -155.1127471923828,
+          8.21425724029541
+        ],
+        [
+          -11.78058910369873,
+          -2.528555393218994
+        ]
+      ]
+    },
+    {
+      "label": 611372,
+      "vertices": 65012,
+      "aabb_m": [
+        [
+          -741.2577514648438,
+          -546.0845947265625
+        ],
+        [
+          -347.4493408203125,
+          -216.78973388671875
+        ],
+        [
+          -14.60175609588623,
+          -12.65717601776123
+        ]
+      ]
+    },
+    {
+      "label": 655572,
+      "vertices": 26562,
+      "aabb_m": [
+        [
+          -997.72021484375,
+          -852.0668334960938
+        ],
+        [
+          -490.0372619628906,
+          -399.9177551269531
+        ],
+        [
+          -16.19634246826172,
+          -14.948070526123047
+        ]
+      ]
+    },
+    {
+      "label": 521676,
+      "vertices": 24588,
+      "aabb_m": [
+        [
+          -450.00225830078125,
+          -374.72705078125
+        ],
+        [
+          -194.68783569335938,
+          -161.23159790039062
+        ],
+        [
+          -12.465743064880371,
+          -11.234123229980469
+        ]
+      ]
+    },
+    {
+      "label": 532950,
+      "vertices": 19116,
+      "aabb_m": [
+        [
+          -517.9326782226562,
+          -464.9145812988281
+        ],
+        [
+          -182.15432739257812,
+          -162.96145629882812
+        ],
+        [
+          -13.0297269821167,
+          -11.976032257080078
+        ]
+      ]
+    },
+    {
+      "label": 628148,
+      "vertices": 16748,
+      "aabb_m": [
+        [
+          -823.5735473632812,
+          -742.1084594726562
+        ],
+        [
+          -405.0455017089844,
+          -366.0115051269531
+        ],
+        [
+          -15.341689109802246,
+          -14.328399658203125
+        ]
+      ]
+    },
+    {
+      "label": 543602,
+      "vertices": 1530,
+      "aabb_m": [
+        [
+          -535.4071044921875,
+          -529.752685546875
+        ],
+        [
+          -204.43777465820312,
+          -187.20938110351562
+        ],
+        [
+          -13.074990272521973,
+          -12.460335731506348
+        ]
+      ]
+    },
+    {
+      "label": 656618,
+      "vertices": 1206,
+      "aabb_m": [
+        [
+          -1011.96484375,
+          -1001.3090209960938
+        ],
+        [
+          -490.16937255859375,
+          -486.7305908203125
+        ],
+        [
+          -15.993300437927246,
+          -15.748344421386719
+        ]
+      ]
+    },
+    {
+      "label": 545686,
+      "vertices": 844,
+      "aabb_m": [
+        [
+          -538.77587890625,
+          -533.5242309570312
+        ],
+        [
+          -216.1310272216797,
+          -204.43777465820312
+        ],
+        [
+          -12.945414543151855,
+          -12.552444458007812
+        ]
+      ]
+    },
+    {
+      "label": 628558,
+      "vertices": 260,
+      "aabb_m": [
+        [
+          -845.7559814453125,
+          -840.0724487304688
+        ],
+        [
+          -402.65423583984375,
+          -401.53765869140625
+        ],
+        [
+          -15.28159236907959,
+          -14.90804672241211
+        ]
+      ]
+    }
+  ],
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "visual_review": {
+    "root_rendered": true,
+    "root_and_water_agent_opened_both": true,
+    "files": [
+      "renders/previews/water12-surface07/CAM_HERO.png",
+      "renders/previews/water12-surface07/CAM_WATER_DETAIL.png"
+    ],
+    "actual_root_settings": {
+      "width": 1280,
+      "height": 720,
+      "samples": 48,
+      "frame": 48
+    },
+    "findings": [
+      "Transparent blue-grey bands are smooth, parallel and near-uniform in width.",
+      "Landing transitions share a conspicuous horizontal line.",
+      "Natural fanning, broken highlights, aeration and impact foam are absent.",
+      "Static geometry closure does not satisfy visual realism or motion."
+    ]
+  },
+  "physics_claims": false,
+  "new_FLIP_or_cache_changes": false,
+  "production_install": false,
+  "animation_status": "NOT_IMPLEMENTED_STATIC_ONLY",
+  "bounded_CSG_failure": "water12-surface06a.json: 180-second supervised hard stop, no output, observed working set 41.214GB",
+  "next_parent_authorized_task": "One visual hybrid candidate from the closed body, frame48, CPU4 geometry; preserve07. Root schedules rendering. No long bake."
+}

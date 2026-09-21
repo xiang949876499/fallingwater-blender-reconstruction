@@ -1,0 +1,105 @@
+{
+  "status": "PASS_BOUNDED_PHYSICAL_CANDIDATE_VISUAL_NOT_RUN",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_navigation_candidate11a.blend",
+  "source_sha256": "d66ded0f23b7d19c20b81d2f59f94aa5aa77747be4568e85e1d105395fc219ff",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_forest_undergrowth_candidate13a.blend",
+  "candidate_sha256": "95590f217243ebff86072449fcf8bbb069960963119916ef90b702d3105261f5",
+  "helper": "scripts/forest_undergrowth13.py",
+  "helper_sha256": "e599cbfbe04a4e6e5d9a84e99fa9789946af255f2e32fabe1735547dff0a2f2c",
+  "plan": "qa/forest-undergrowth13-plan.json",
+  "plan_sha256": "e34d4e4a4aef1ba667bbedfbfbe3752bb58759c9ece3754ae3093d4863dbd6ce",
+  "metrics": {
+    "selected_roots": 189,
+    "target_objects": 378,
+    "asset_instance_counts": {
+      "2": 98,
+      "3": 91
+    },
+    "root_gap_minmax_m": [
+      -0.012030601501464844,
+      -0.011961854994297028
+    ],
+    "leaf_terrain_gap_min_m": 0.04749727249145508,
+    "branch_above_basal_gap_min_m": 0.013628005981445312,
+    "basal_branch_gap_minmax_m": [
+      -0.05664396286010742,
+      0.14869165420532227
+    ],
+    "leaf_petiole_contact_upper_bound_max_m": 4.491746765749506e-07,
+    "path_boundary_minus_crown_radius_min_m": 0.4349428836250428,
+    "actual_leaf_terrain_triangle_hits": 0,
+    "actual_nonbasal_branch_terrain_triangle_hits": 0,
+    "leaf_count_before": 17199,
+    "leaf_count_after": 49154,
+    "instance_triangles_after": 797048,
+    "net_instance_triangles_added": 654542,
+    "saved_camera_count": 131,
+    "saved_camera_minimum_clearance": {
+      "name": "CAM_MAIN_L3_LINK_B",
+      "nearest_new_mesh_m": 3.286212921142578,
+      "object": "TREE_Understory_1778_Leaves"
+    },
+    "movie_position_count": 7584,
+    "movie_minimum_clearance_m": 4.065430641174316,
+    "route_ray_count": 12264,
+    "route_new_obstacles": [],
+    "route_candidate_hits": 0,
+    "physics_protected_count": 242,
+    "non_target_objects_unchanged": 23056
+  },
+  "fresh_process_readback": {
+    "status": "PASS_FRESH_PROCESS_EXACT_REOPEN",
+    "candidate_sha256": "95590f217243ebff86072449fcf8bbb069960963119916ef90b702d3105261f5",
+    "helper_sha256": "e599cbfbe04a4e6e5d9a84e99fa9789946af255f2e32fabe1735547dff0a2f2c",
+    "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_forest_undergrowth_candidate13a.blend",
+    "instances": 189,
+    "target_objects": 378,
+    "snapshot_exact": true,
+    "repeat_no_mutation": true,
+    "native_shared_signatures": {
+      "CANDIDATE08_RhododendronLike_2_Branches": "9d534eba6fabf45fddae1cb442d82eb1f8743ab11d2dc6cb13ff2bc492d4bfe5",
+      "CANDIDATE08_RhododendronLike_2_Leaves": "994efaea1b941fde110900624178a8a55e72c4a2cbba31d9d69958e703467385",
+      "CANDIDATE08_RhododendronLike_3_Branches": "d3be8d51e6454d9ff8246d5d949cc8b090374782877f0832c1b9e5164059facd",
+      "CANDIDATE08_RhododendronLike_3_Leaves": "7711ae8385e4a76d86326a58b46eefe09a29ea1ae81fb7b1d69131f5c62bb2e3"
+    },
+    "protected_physics_count": 242,
+    "source_unchanged": true,
+    "saved": false,
+    "rendered": false,
+    "seconds": 143.00615340000513
+  },
+  "viewed_source_images": [
+    "renders/previews/integration11a/CAM_HERO.png",
+    "renders/previews/integration11a/CAM_MAIN_OVERVIEW.png",
+    "qa/forest-canopy11-source-official-classic.jpg",
+    "qa/forest-canopy11-source-official-east.jpg"
+  ],
+  "zone_counts": {
+    "hero_west_bank": 55,
+    "hero_south_bank": 69,
+    "overview_near_slope": 24,
+    "loggia_east_bank": 41
+  },
+  "rejected_roots": 28,
+  "soft_edge_retained_old": 9,
+  "accepted16_unchanged": true,
+  "root_matrix_and_labels_unchanged": true,
+  "native_meshes_reused": 4,
+  "new_meshes": 0,
+  "new_materials": 0,
+  "new_objects": 0,
+  "terrain_material_unchanged": [
+    "FW_ForestFloor11a_C_OrganicZones"
+  ],
+  "source_scene_unchanged": true,
+  "scene_frame": 48,
+  "rendered": false,
+  "visual_status": "NOT_RUN",
+  "production_status": "NOT_INTEGRATED",
+  "limits": [
+    "C authored root locations, photographic zone interpretation and shrub morphology; exact species/cultivar U.",
+    "717 coarse camera protection rays are not a pixel-exact visibility proof; root must inspect all three images.",
+    "Route helper scope text retains a legacy frozen08 label; actual inputs are frozen11 route and current d66 movie FCurves.",
+    "Existing terrain, sky, water, architecture, tree trunks and accepted canopy are unchanged; whole-environment acceptance remains open."
+  ]
+}

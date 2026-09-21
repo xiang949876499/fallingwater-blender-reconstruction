@@ -1,0 +1,3013 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-20T12:35:00.064621+00:00",
+  "status": "PENDING_FINAL_ACCEPTANCE",
+  "scope": "Local publication planning only; no repository created, no remote write, no login or credential changes.",
+  "proposed_repository": {
+    "owner": "xiang949876499",
+    "name": "fallingwater-blender-reconstruction",
+    "visibility": "public",
+    "exists_or_reserved": "NOT_CHECKED",
+    "owner_provenance": "Parent reports read-only GitHub connector get_profile confirmed this public login; this subtask did not query credentials.",
+    "authorization": "User explicitly requested creation of a public GitHub project and upload after completion. Completion gate still applies.",
+    "gh_auth": "Parent reports existing gh token invalid. No token inspected or modified here; connector binary-upload capability has not been verified."
+  },
+  "inputs": [
+    {
+      "path": "project/reference_manifest.csv",
+      "bytes": 83802,
+      "sha256": "899fc94a94b3dd0dbd633b80473738de0ff2eedfd1e070fdf9fbc52b7d1e8cea",
+      "stable_during_hash": true
+    },
+    {
+      "path": "project/assets_manifest.csv",
+      "bytes": 39667,
+      "sha256": "c35c9a387654581f5f72b9d6908d6c5003c278aec4fbd32455eeeb1e0fb8fd3c",
+      "stable_during_hash": true
+    },
+    {
+      "path": "project/assets/LICENSES.md",
+      "bytes": 1444,
+      "sha256": "4b9617e9c8de43c437d14c1308d4a59d3f7e14f8fa25cf9b030f0685433be5cb",
+      "stable_during_hash": true
+    },
+    {
+      "path": "project/scripts/scene_dependencies.py",
+      "bytes": 6573,
+      "sha256": "997ab7a6d29cad5c01618fc8e093553679aed40ed37143423211e5aee4482685",
+      "stable_during_hash": true
+    },
+    {
+      "path": "prompt.md",
+      "bytes": 23833,
+      "sha256": "f2709ecc9db238519f10c3fd4c027e16fe259c3216d25aac45348dfd61b0ada5",
+      "stable_during_hash": true
+    }
+  ],
+  "github_policy_checked_utc": "2026-09-20T12:35:00.064621+00:00",
+  "github_limits": {
+    "regular_git_warning_bytes": 52428800,
+    "regular_git_hard_limit_bytes": 104857600,
+    "browser_upload_limit_bytes": 26214400,
+    "release_asset_must_be_below_bytes": 2147483648,
+    "release_max_assets": 1000,
+    "package_policy_max_bytes": 1500000000,
+    "release_total_size_and_bandwidth": "No aggregate size/bandwidth cap stated by official About releases documentation; avoid abusive backup use.",
+    "lfs_default": "NOT_SELECTED; no plan, quota, billing entitlement or paid spend assumed.",
+    "lfs_per_file_documented_GB": {
+      "Free": 2,
+      "Pro": 2,
+      "Team": 4,
+      "Enterprise Cloud": 5
+    }
+  },
+  "policy_sources": [
+    {
+      "title": "GitHub: About releases",
+      "url": "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+      "observed": "Up to 1000 assets, each under 2 GiB; no total release size or delivery bandwidth limit."
+    },
+    {
+      "title": "GitHub: About large files",
+      "url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+      "observed": "Git warns above 50 MiB and blocks above 100 MiB; browser limit 25 MiB; ideally keep repo below 1 GB."
+    },
+    {
+      "title": "GitHub: About Git LFS",
+      "url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage",
+      "observed": "Plan-specific single-object size limits. LFS stores pointer files in Git; actual objects are separate."
+    },
+    {
+      "title": "Poly Haven: License",
+      "url": "https://polyhaven.com/license",
+      "observed": "Downloadable texture assets are CC0 and may be redistributed; website example renders, logos and text have separate terms."
+    },
+    {
+      "title": "LOC HABS rights advisory",
+      "url": "https://www.loc.gov/rr/print/res/114_habs.html",
+      "observed": "Current browser fetch returned HTTP 403. Prior local reference ledger preserves the government-created / copied-source distinction; no fresh item-level blanket release clearance claimed."
+    }
+  ],
+  "required_delivery": [
+    {
+      "id": "MODEL",
+      "required": "Editable final scene including architecture, site, furnishing, water, materials, lighting and named cameras",
+      "target": "project/delivery/Fallingwater.blend",
+      "channel": "release/model",
+      "status": "PENDING_FINAL_ACCEPTANCE",
+      "currently_exists": false
+    },
+    {
+      "id": "RESOURCES",
+      "required": "All actually used textures, authored rebuild assets, licenses, dependencies and verified water caches",
+      "target": "project/assets plus final selected project/caches",
+      "channel": "release/resources+water",
+      "status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "SOURCE",
+      "required": "Build, render, navigation, validation scripts plus data, seed, version and manifests",
+      "target": "project/scripts; project/data; project/config.json; project/*.csv",
+      "channel": "git and release/source",
+      "status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "STILLS",
+      "required": "At least 12 visually accepted 3840x2160 Cycles showcase stills",
+      "target": "project/renders/stills",
+      "channel": "release/stills",
+      "status": "PENDING_FINAL_ACCEPTANCE",
+      "current_files": 0
+    },
+    {
+      "id": "ROOM_QA",
+      "required": "At least 2 complementary accepted QA images for every one of 60 surveyed spaces (40 main / 20 guest, not 60 bedrooms)",
+      "target": "project/renders/rooms/final",
+      "channel": "release/room-qa",
+      "status": "PENDING_FINAL_ACCEPTANCE",
+      "currently_exists": false
+    },
+    {
+      "id": "FILM",
+      "required": "1080p 24 or 30 fps 2-4 min main tour plus remaining-space clips and continuous water proof",
+      "target": "project/animation/final",
+      "channel": "release/film",
+      "status": "PENDING_FINAL_ACCEPTANCE",
+      "current_animation_files": 0
+    },
+    {
+      "id": "GUIDE",
+      "required": "Actually verified Blender 5.2.1 operation, camera/quality controls and water playback",
+      "target": "START_HERE.md",
+      "channel": "git and release/model",
+      "status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "QA",
+      "required": "Closed P0/P1 issues, dimension/photo/room/navigation/performance/portability evidence with explicit limits",
+      "target": "qa/acceptance-summary.json; docs/qa-report.md; checksums.sha256",
+      "channel": "git; larger accepted evidence in release",
+      "status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "ROLLBACK",
+      "required": "Selected provenance-identified clean rollback checkpoints; retain all experiments locally",
+      "target": "release/checkpoints",
+      "channel": "release/checkpoint zip",
+      "status": "PENDING_FINAL_ACCEPTANCE"
+    }
+  ],
+  "directory_inventory": [
+    {
+      "path": "project/animation",
+      "file_count": 0,
+      "bytes": 0,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    },
+    {
+      "path": "project/assets",
+      "file_count": 23,
+      "bytes": 44925933,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    },
+    {
+      "path": "project/caches",
+      "file_count": 1440,
+      "bytes": 10123827703,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    },
+    {
+      "path": "project/data",
+      "file_count": 68,
+      "bytes": 170203968,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    },
+    {
+      "path": "project/delivery",
+      "file_count": 2,
+      "bytes": 64674336,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    },
+    {
+      "path": "project/qa",
+      "file_count": 916,
+      "bytes": 1918949956,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    },
+    {
+      "path": "project/renders",
+      "file_count": 389,
+      "bytes": 193816350,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    },
+    {
+      "path": "project/scene",
+      "file_count": 37,
+      "bytes": 945283077,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    },
+    {
+      "path": "project/scripts",
+      "file_count": 51,
+      "bytes": 1356613,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE"
+    }
+  ],
+  "cache_experiments": [
+    {
+      "path": "project/caches/fluid_pilot/entry01",
+      "file_count": 144,
+      "bytes": 946618327,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE",
+      "action": "EXCLUDE_PILOT_NOT_FINAL_ACCEPTED_CACHE"
+    },
+    {
+      "path": "project/caches/fluid_pilot/run01",
+      "file_count": 144,
+      "bytes": 152167274,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE",
+      "action": "EXCLUDE_PILOT_NOT_FINAL_ACCEPTED_CACHE"
+    },
+    {
+      "path": "project/caches/fluid_pilot/run02",
+      "file_count": 192,
+      "bytes": 471288235,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE",
+      "action": "EXCLUDE_PILOT_NOT_FINAL_ACCEPTED_CACHE"
+    },
+    {
+      "path": "project/caches/fluid_pilot/run03",
+      "file_count": 240,
+      "bytes": 660747715,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE",
+      "action": "EXCLUDE_PILOT_NOT_FINAL_ACCEPTED_CACHE"
+    },
+    {
+      "path": "project/caches/fluid_pilot/run04",
+      "file_count": 240,
+      "bytes": 446208097,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE",
+      "action": "EXCLUDE_PILOT_NOT_FINAL_ACCEPTED_CACHE"
+    },
+    {
+      "path": "project/caches/fluid_pilot/run05",
+      "file_count": 192,
+      "bytes": 1631355145,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE",
+      "action": "EXCLUDE_PILOT_NOT_FINAL_ACCEPTED_CACHE"
+    },
+    {
+      "path": "project/caches/fluid_pilot/run06",
+      "file_count": 288,
+      "bytes": 5815442910,
+      "scope": "LIVE_NON_ATOMIC_SNAPSHOT_NOT_FINAL_PACKAGE",
+      "action": "EXCLUDE_PILOT_NOT_FINAL_ACCEPTED_CACHE"
+    }
+  ],
+  "checkpoint_candidates": [
+    {
+      "path": "project/scene/Fallingwater_iteration06.blend",
+      "bytes": 43423921,
+      "sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+      "stable_during_hash": true,
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "action": "DO_NOT_PUBLISH_AS_FINAL_CURRENT_CHECKPOINT"
+    },
+    {
+      "path": "project/scene/Fallingwater_iteration05.blend",
+      "bytes": 43415677,
+      "sha256": "6bcfee7841c22e8e2b636352cfca79ae94968afb4235fc20cdc57e250ae046ff",
+      "stable_during_hash": true,
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "action": "DO_NOT_PUBLISH_AS_FINAL_CURRENT_CHECKPOINT"
+    },
+    {
+      "path": "project/scene/Fallingwater_preview_iteration05.blend",
+      "bytes": 65108076,
+      "sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+      "stable_during_hash": true,
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "action": "DO_NOT_PUBLISH_AS_FINAL_CURRENT_CHECKPOINT"
+    },
+    {
+      "path": "project/scene/Fallingwater_tour_checked_iteration05.blend",
+      "bytes": 43400412,
+      "sha256": "21b15a19e7a2887ad03819b65d0e7f0a7f930ec7e6ea69f1956fae8c043b6a9d",
+      "stable_during_hash": true,
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "action": "DO_NOT_PUBLISH_AS_FINAL_CURRENT_CHECKPOINT"
+    },
+    {
+      "path": "project/delivery/iteration04-checkpoint/Fallingwater.blend",
+      "bytes": 64669898,
+      "sha256": "22eb945797cf30307cc62d686dda1b9545c0bd48b8cbe4bae47a15da3bd7fab7",
+      "stable_during_hash": true,
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "action": "DO_NOT_PUBLISH_AS_FINAL_CURRENT_CHECKPOINT"
+    },
+    {
+      "path": "project/assets/models/site_near_trees.blend",
+      "bytes": 17561826,
+      "sha256": "633f9215cbf590556e190f5ff41045464b111beaa1d6c968ed12e567828eb1e2",
+      "stable_during_hash": true,
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "action": "REBUILD_RESOURCE_CANDIDATE"
+    }
+  ],
+  "source_candidates": [
+    {
+      "path": "project/scripts/architectural_detail.py",
+      "bytes": 19355,
+      "sha256": "bb73935519f67e77012ade9b33de3fe53a55429980fe87655ad3850e8a96aaf4",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/asset_materials.py",
+      "bytes": 3241,
+      "sha256": "725b4f36db6fba66afa1bb20aceff4b17b068daa2d2e8721ec9ba3c4c159a0ac",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/build_scene.py",
+      "bytes": 11641,
+      "sha256": "7b3c59307570adf9128bb0f0867ba38d2388bf3592614496e5eb3a2b9b5df634",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/camera_review.py",
+      "bytes": 23230,
+      "sha256": "c288a3f848a19f0eed072678f2dd43110f52fb299d6c4c93ee06759b0a94ef88",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/dimension_audit.py",
+      "bytes": 18693,
+      "sha256": "c57f2ef1100d67b1bdc5f70ec691559332e2221e33530131168371248614c443",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/download_texture.py",
+      "bytes": 2270,
+      "sha256": "2ea87ff647f7e9fb2456ef286558e7a4e17b22907e5c803e70e14b8449aaba5c",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/eevee_glass.py",
+      "bytes": 16223,
+      "sha256": "5ccc9326bc33bac735e76cf6a85051f7da31f86a7243e1979052c6710654a476",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/eevee_preview.py",
+      "bytes": 15147,
+      "sha256": "f96bccad337767e7ea0305e056f96e933acbeaad66d76e39c1f284c173ad4bf8",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/fluid_water.py",
+      "bytes": 25097,
+      "sha256": "1a069e6d6493ca8c5a31189aacb8bfffb8a5df2643a6288c98202b4eb7b861bb",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/furnishings.py",
+      "bytes": 62985,
+      "sha256": "198f4381906a953e343c7d005790fcf77699bfda4f440378a9ba0e9bf567d6de",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/fwlib.py",
+      "bytes": 5177,
+      "sha256": "8cdce8685c07727e721daf7cb0982cd4451a6533b72cf1daf08ba85b1c06e77f",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/guest_architectural_detail.py",
+      "bytes": 2841,
+      "sha256": "f67903c16dc87f82b41b49fa30d8105470f8aeee80be8290711487d67c70e06c",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/guest_house.py",
+      "bytes": 16484,
+      "sha256": "2e93e24799229e4ef9f2c77acc92bcc2c0efb3b9898006bbfc533cc1a17b400f",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/lighting.py",
+      "bytes": 10172,
+      "sha256": "e970de420dbdd8668bab9576374487c4bd4f23da6fe23b9c978f1d4e1d21a3df",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/main_house.py",
+      "bytes": 43466,
+      "sha256": "fb343bdca7a131e009328dd4e692f7179b03c42c21ac4c14268e89dbee6481cf",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/masonry_detail.py",
+      "bytes": 11006,
+      "sha256": "96caf0bb28e7388d4e962786a0ff7c1ce218cb8c28566715b4eb9ec10b0ca465",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/materials.py",
+      "bytes": 6298,
+      "sha256": "25a4e1d162695c4354752066b178aca088e90348bc082e0265f36c8a6bc44a85",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/navigation.py",
+      "bytes": 7624,
+      "sha256": "93695a8a4f4fc4d775ea45d1a5ce0e904eee5761d0836e6183a01b30ad392a59",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/photo_match.py",
+      "bytes": 10804,
+      "sha256": "c5109a892d1c17dcdb5fd2580b40199d25a86737befce47cc352df30d89499be",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/preflight.py",
+      "bytes": 11930,
+      "sha256": "f432bf0dd0e6dd95be9c6dd188cb14736e6ba90fb6497c3e2d7c87995eb08ea8",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/render_animation.py",
+      "bytes": 12870,
+      "sha256": "ea0ce26ba9467f33a0301bdef4e8c174508ceba0fa80d0c73273443580b7f926",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/render_quality_benchmark.py",
+      "bytes": 8467,
+      "sha256": "96f89236bf4db729c1e64e0220f67cb958d0c04ebd15f08bc3e9e5cc77fecedf",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/render_views.py",
+      "bytes": 11394,
+      "sha256": "cc24a7d3b8833f97d56a02875bb5dedcb98472730d1369739b62f265f2c64aa6",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/room_contact_sheets.py",
+      "bytes": 1589,
+      "sha256": "fb1da3d1b19b52163877c326c13f62f8163077569da8e93cf87da63e93f833df",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 1
+    },
+    {
+      "path": "project/scripts/scene_dependencies.py",
+      "bytes": 6573,
+      "sha256": "997ab7a6d29cad5c01618fc8e093553679aed40ed37143423211e5aee4482685",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/site.py",
+      "bytes": 59113,
+      "sha256": "89ee4826adac2793ddc1e728bad57f28052e7160c15ad233f91d38e2182e4fac",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/tour.py",
+      "bytes": 65045,
+      "sha256": "b2f14d9d6afed2130f6e71c4d086e09db3f8e70c4d3d9d047b7688660c3a222a",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/validate_scene.py",
+      "bytes": 20560,
+      "sha256": "3cbcc7258d45a8601c429d492b3269bfdce522d98a83484148e38c2a96c6a794",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/scripts/water_integration.py",
+      "bytes": 28194,
+      "sha256": "3f2205f8f88d7145da3ab30abee3acd5067396c7b33a9bd1967ff5e7a51ad0f3",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/architectural-detail.json",
+      "bytes": 114656,
+      "sha256": "f4732a962abf2387c61fdd6d8a013e1e11d6296b0249e2ae39f50b789fff45a9",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/camera-settings-reviewed.json",
+      "bytes": 71810,
+      "sha256": "34e4bc6b9ca8555ba57832b830c575658955da7fc9c947b9c5721dfede31bd9e",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/fluid.json",
+      "bytes": 2867,
+      "sha256": "75b135ce70e1e23350030943faed357ccf7b3fb2f202b326bd9e313dde7f05c9",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/furnishing-evidence.json",
+      "bytes": 15627,
+      "sha256": "a3d4576e9995edf0d144e106e6da23d46b1c6188260d5cb54e14b6e6ef30a42c",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/guest_house.json",
+      "bytes": 85749,
+      "sha256": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/main_house.json",
+      "bytes": 89864,
+      "sha256": "dd65b00383af742f54bfab4cca5a842b746cb4b4fd72fa075939914b221026b5",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/masonry-detail.json",
+      "bytes": 2361,
+      "sha256": "f07f3f9d5df1045f68e530f88d0cf876a93d6061dfdce3acf8a63ff6dae229cd",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/photo-match-points.json",
+      "bytes": 60135,
+      "sha256": "4132f5f8461f33ddaf758fff2c80673f4835c1bd937c3ac872a086940532a6a5",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/site.json",
+      "bytes": 55182,
+      "sha256": "edcf3b3f6375eb6eaf7fa676e36389ed0ce416857e0646120a9b52fe90b40a66",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    },
+    {
+      "path": "project/data/tour-route.json",
+      "bytes": 67187,
+      "sha256": "56c63d6032bffe2bdd2262971a7960125665355ae8a2db0ad23f13342ad8cbe1",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 2
+    },
+    {
+      "path": "project/config.json",
+      "bytes": 1195,
+      "sha256": "b3ad2067dc28b7254511a3e4da726de3eb4544be8a19388e83e09a5b5ffd3513",
+      "stable_during_hash": true,
+      "action": "COPY_TO_PUBLIC_STAGING_AFTER_CONTENT_REVIEW",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE",
+      "absolute_path_mentions": 0
+    }
+  ],
+  "used_cc0_textures": [
+    {
+      "path": "project/assets/textures/walnut_veneer_diff_2k.jpg",
+      "bytes": 2060618,
+      "sha256": "66c73defcc62ac090cb838e8455b8c1febbfea29a15c8f40a5e2d398b2ba4733",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/walnut_veneer_rough_2k.jpg",
+      "bytes": 2426374,
+      "sha256": "e3a8a7e035a378ce6ce2252fcd4352f62b16a2a6b2f453baacd4e081c2fedb34",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/walnut_veneer_disp_2k.jpg",
+      "bytes": 851317,
+      "sha256": "f43ff69bc7fcfe111ab72af3f3ce6d07b0286c39b502a8403ce6b0f8a1a2e7af",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/forrest_ground_01_diff_2k.jpg",
+      "bytes": 3077552,
+      "sha256": "e4d557ff61a0b42712a58e8a2e91c6010738977d4e172b7af47abd7d406ae735",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/forrest_ground_01_rough_2k.jpg",
+      "bytes": 920422,
+      "sha256": "e09258c7f055156a7607f1b21dccf38c7efd847e7d030271d5ffcc4a722df37d",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/forrest_ground_01_disp_2k.jpg",
+      "bytes": 1036491,
+      "sha256": "1d5c63d39e67af44e96cc9d5752273982bc5c82c9855695dada4abc2fc20575d",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/worn_rock_natural_01_diff_2k.jpg",
+      "bytes": 3376056,
+      "sha256": "084e528a8b63684cf6cd9c9c1d44cef32a8f4c9e8404394a4a1a40c70cbf000d",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/worn_rock_natural_01_rough_2k.jpg",
+      "bytes": 2166423,
+      "sha256": "1aac2cf72392f1207b5dbf880cbe0ef58d4c7eecd9dadc12640f031670969395",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/worn_rock_natural_01_disp_2k.jpg",
+      "bytes": 791031,
+      "sha256": "39f2680f1c09926cd6350e4e3e39d6e203c2394708a97559c4ae6536dcbb10ea",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/slate_floor_02_diff_2k.jpg",
+      "bytes": 2358310,
+      "sha256": "8442da3364bf1884a19830d6689e8b5fd1cde00aab33f03d999d762a3c4930f0",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/slate_floor_02_rough_2k.jpg",
+      "bytes": 1960490,
+      "sha256": "f9da62eeffb7841951444245d67674953778d1ea8efdab0a3904c2f094f56d06",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    },
+    {
+      "path": "project/assets/textures/slate_floor_02_disp_2k.jpg",
+      "bytes": 549301,
+      "sha256": "266cc5d9a53ad5a0ff5d01739f616096f615e67afa04040cb75b25cb400ff5ef",
+      "stable_during_hash": true,
+      "action": "INCLUDE_AFTER_FINAL_DEPENDENCY_VERIFICATION",
+      "license": "CC0"
+    }
+  ],
+  "reference_summary": {
+    "rows": 97,
+    "classes": {
+      "original_archive_reference": 28,
+      "local_derived_reference": 34,
+      "online_text_reference": 26,
+      "online_photo_reference": 9
+    },
+    "local_file_rows": 62,
+    "publication_action": "Metadata/source links only. Original scans/photos and overlays are excluded from the default public package."
+  },
+  "reference_items": [
+    {
+      "ref_id": "MAIN_HABS_01_JPEG",
+      "title": "HABS PA-5346 sheet 1: Title sheet",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00001v.jpg",
+      "local_path": "research/references/architecture/main-01-sheet.jpg",
+      "local_bytes": 282462,
+      "source_sha256_from_ledger": "f8820aae5f0b4afeb8bd10b0fe6456ff3109edc409b1609e1e5217e46065a0f3",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_02_JPEG",
+      "title": "HABS PA-5346 sheet 2: Site plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00002v.jpg",
+      "local_path": "research/references/architecture/main-02-sheet.jpg",
+      "local_bytes": 297286,
+      "source_sha256_from_ledger": "b7c418fc54006d1c097eb8013b03ab167b8fc3aeddec00e1201d38da7e107a71",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_03_JPEG",
+      "title": "HABS PA-5346 sheet 3: Basement plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00003a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00003v.jpg",
+      "local_path": "research/references/architecture/main-03-sheet.jpg",
+      "local_bytes": 148009,
+      "source_sha256_from_ledger": "6593e92de4b03e629a6528839143831345f6c7e0dfcef8c2fc232006828d80dc",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_04_JPEG",
+      "title": "HABS PA-5346 sheet 4: First floor plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00004v.jpg",
+      "local_path": "research/references/architecture/main-04-sheet.jpg",
+      "local_bytes": 191488,
+      "source_sha256_from_ledger": "63bd12eed8ab0ee249657e380302499f19f32195dc15fe830064e9c45094560e",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_05_JPEG",
+      "title": "HABS PA-5346 sheet 5: Second floor plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00005a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00005v.jpg",
+      "local_path": "research/references/architecture/main-05-sheet.jpg",
+      "local_bytes": 182048,
+      "source_sha256_from_ledger": "27b063106362f41df7b138e52bced2d95cf6add47381999a0e5cc33bbddce664",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_06_JPEG",
+      "title": "HABS PA-5346 sheet 6: Third floor plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00006a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00006v.jpg",
+      "local_path": "research/references/architecture/main-06-sheet.jpg",
+      "local_bytes": 156591,
+      "source_sha256_from_ledger": "66da60392a0cb16d11b2f1db5e0fa481082fedc3f93f09dcb097ae45bf50e45d",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_07_JPEG",
+      "title": "HABS PA-5346 sheet 7: South elevation",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00007a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00007v.jpg",
+      "local_path": "research/references/architecture/main-07-sheet.jpg",
+      "local_bytes": 139921,
+      "source_sha256_from_ledger": "8a61f5c093cfc0a915c52f29261bfe06447cce2ff99a9f674796274725f3ea41",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_08_JPEG",
+      "title": "HABS PA-5346 sheet 8: North and west elevations",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00008a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00008v.jpg",
+      "local_path": "research/references/architecture/main-08-sheet.jpg",
+      "local_bytes": 174241,
+      "source_sha256_from_ledger": "88094ddd3d5611866995d684452d2647229b7eb2fa2c29dec2bed3eaff3066fe",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_09_JPEG",
+      "title": "HABS PA-5346 sheet 9: East elevation",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00009a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00009v.jpg",
+      "local_path": "research/references/architecture/main-09-sheet.jpg",
+      "local_bytes": 96506,
+      "source_sha256_from_ledger": "bc6039d67b2b105fbf14203dc9d1ab1e877de16fc23a6b5f34586f1dadc7242d",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_10_JPEG",
+      "title": "HABS PA-5346 sheet 10: Sections looking east and west",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00010v.jpg",
+      "local_path": "research/references/architecture/main-10-sheet.jpg",
+      "local_bytes": 138286,
+      "source_sha256_from_ledger": "709e9906c911e936a5d392e9098d5726d055a624f413ee1ab7f1663b46175a27",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_11_JPEG",
+      "title": "HABS PA-5346 sheet 11: Fireplaces, hatch, desk and lamp details",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00011a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00011v.jpg",
+      "local_path": "research/references/architecture/main-11-sheet.jpg",
+      "local_bytes": 186412,
+      "source_sha256_from_ledger": "e19874fc454b049a7372471740169232ee0b70be9628af6a3f615dc777e4ab45",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GUEST_HABS_01_JPEG",
+      "title": "HABS PA-5346-A sheet 1: Basement and first floor plans",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/sheet/00001v.jpg",
+      "local_path": "research/references/architecture/guest-01-sheet.jpg",
+      "local_bytes": 147559,
+      "source_sha256_from_ledger": "9854543565868c94727d07aa8b3bd305e5b29bcd98c7958c6de41c695203cd76",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GUEST_HABS_02_JPEG",
+      "title": "HABS PA-5346-A sheet 2: Second floor plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/sheet/00002v.jpg",
+      "local_path": "research/references/architecture/guest-02-sheet.jpg",
+      "local_bytes": 124915,
+      "source_sha256_from_ledger": "31181d2fef066cea76b77118d2c5f3a750414242aca07bb884f1cb4482580c21",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GUEST_HABS_03_JPEG",
+      "title": "HABS PA-5346-A sheet 3: East and south elevations",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00003a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/sheet/00003v.jpg",
+      "local_path": "research/references/architecture/guest-03-sheet.jpg",
+      "local_bytes": 125434,
+      "source_sha256_from_ledger": "90cafcdcb103faa42601eb1070e1278086f180f643bf0f3204b176ceec0616ac",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GUEST_HABS_04_JPEG",
+      "title": "HABS PA-5346-A sheet 4: West elevation and section looking north",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/sheet/00004v.jpg",
+      "local_path": "research/references/architecture/guest-04-sheet.jpg",
+      "local_bytes": 119787,
+      "source_sha256_from_ledger": "2d2b69ce1bbf84b28fbb443f8e713e8ab8ed06f9dc5eabb7919e65b4105229a8",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_04_HIRES",
+      "title": "HABS PA-5346 sheet 4: First floor plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00004a.tif",
+      "local_path": "research/references/architecture/main-04-original.tif",
+      "local_bytes": 30143777,
+      "source_sha256_from_ledger": "3db8199eeb84cd4226cfbae2ea9192880454c1012afa6e33bf84bae6449d8d56",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_10_HIRES",
+      "title": "HABS PA-5346 sheet 10: Sections looking east and west",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00010a.tif",
+      "local_path": "research/references/architecture/main-10-original.tif",
+      "local_bytes": 30171041,
+      "source_sha256_from_ledger": "db6591996c049961a50ba593c002dc394d5708f1c15c5935e1c3671aed1e2ac7",
+      "source_rights_note": "LOC item advisory: US Government images have no known restrictions; copied-source images may be restricted",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GUEST_HABS_01_HIRES",
+      "title": "HABS PA-5346-A guest sheet 1: Basement and first floor plans",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-original.tif",
+      "local_bytes": 30126942,
+      "source_sha256_from_ledger": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+      "source_rights_note": "HABS government-created material generally no known restrictions; copied works may differ. Retained as private architectural reference; do not silently treat source imagery as redistributable textures.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GUEST_HABS_02_HIRES",
+      "title": "HABS PA-5346-A guest sheet 2: Second floor plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00002a.tif",
+      "local_path": "project/data/guest_refs/guest-02-original.tif",
+      "local_bytes": 30072414,
+      "source_sha256_from_ledger": "bd469539c51be86060e635ac3ce247c0128082536f777f59193ffa6bb083d7a1",
+      "source_rights_note": "HABS government-created material generally no known restrictions; copied works may differ. Retained as private architectural reference; do not silently treat source imagery as redistributable textures.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GUEST_HABS_03_HIRES",
+      "title": "HABS PA-5346-A guest sheet 3: East and south elevations",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00003a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00003a.tif",
+      "local_path": "project/data/guest_refs/guest-03-original.tif",
+      "local_bytes": 30113310,
+      "source_sha256_from_ledger": "28709c04784e762416de960bcb9b1281b304db8675fd3f7a9f28aaac6a0a3185",
+      "source_rights_note": "HABS government-created material generally no known restrictions; copied works may differ. Retained as private architectural reference; do not silently treat source imagery as redistributable textures.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GUEST_HABS_04_HIRES",
+      "title": "HABS PA-5346-A guest sheet 4: West elevation and section looking north",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00004a.tif",
+      "local_path": "project/data/guest_refs/guest-04-original.tif",
+      "local_bytes": 30140574,
+      "source_sha256_from_ledger": "d050cbda164c03f1b4f232104c75b7efe00903f613c09f04650cc3b2e775c49c",
+      "source_rights_note": "HABS government-created material generally no known restrictions; copied works may differ. Retained as private architectural reference; do not silently treat source imagery as redistributable textures.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "MAIN_HABS_02_HIRES",
+      "title": "HABS PA-5346 sheet 2: high-resolution site plan",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00002a.tif",
+      "local_path": "project/data/site-02-original.tif",
+      "local_bytes": 30130145,
+      "source_sha256_from_ledger": "ec218ba0f6fb61af17e39d689458eb43702685ebad22885e9a39ce2f8b3669e7",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_OVERVIEW",
+      "title": "Locally derived inspection: guest-01-overview.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-overview.png",
+      "local_bytes": 79145,
+      "source_sha256_from_ledger": "9391a12063579d11a2a6c01e0ed8a5ede34814dc215636f79245fc6b0e56adf1",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_SERVICE",
+      "title": "Locally derived inspection: guest-01-service.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-service.png",
+      "local_bytes": 112976,
+      "source_sha256_from_ledger": "78efbf6dd2b47438ebc993fad94bef7044212990744f4e2cdc23f4e4702496f1",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_GUEST",
+      "title": "Locally derived inspection: guest-01-guest.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-guest.png",
+      "local_bytes": 54181,
+      "source_sha256_from_ledger": "a347c0ddbcad005930cf6688eff6b302f59a444c8846c88c9ed7251bb4eb7244",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_BASEMENT",
+      "title": "Locally derived inspection: guest-01-basement.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-basement.png",
+      "local_bytes": 44627,
+      "source_sha256_from_ledger": "9b708cc6c9c7a97cfe03f484e23edc30096d3f5dc70a20a4c94f23ccb8009def",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_GRID",
+      "title": "Locally derived inspection: guest-01-grid.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-grid.png",
+      "local_bytes": 545561,
+      "source_sha256_from_ledger": "30dce1dc997a16dd5c8d5bcf23e5fee6367d02aca7a364cf33b2f3ae01515862",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_TOPDIMENSION",
+      "title": "Locally derived inspection: guest-01-topdimension.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-topdimension.png",
+      "local_bytes": 2220,
+      "source_sha256_from_ledger": "a57be2dd951874b52f75aab891081dae6d25ccfd382f71eb2d5131ccdbb9c79d",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_LOUNGE_LABEL",
+      "title": "Locally derived inspection: guest-01-lounge-label.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-lounge-label.png",
+      "local_bytes": 14464,
+      "source_sha256_from_ledger": "dba3d5672cd6ec7fae4a437d1adc020d9202362570892fe067fe3b57eb432bca",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_BOTTOM_DIMENSIONS",
+      "title": "Locally derived inspection: guest-01-bottom-dimensions.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-bottom-dimensions.png",
+      "local_bytes": 1327,
+      "source_sha256_from_ledger": "23df0612143dd45d4a9fda97902947dc3f0d4999cee8d87d9699bee41c4ba1fa",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_01_BOILER",
+      "title": "Locally derived inspection: guest-01-boiler.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00001a.tif",
+      "local_path": "project/data/guest_refs/guest-01-boiler.png",
+      "local_bytes": 29322,
+      "source_sha256_from_ledger": "07bbd31b2a5c6b0ffa1b9de7afc89f9b94aab16239c32569a6bb385a6f3a3bf1",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_02_OVERVIEW",
+      "title": "Locally derived inspection: guest-02-overview.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00002a.tif",
+      "local_path": "project/data/guest_refs/guest-02-overview.png",
+      "local_bytes": 58547,
+      "source_sha256_from_ledger": "f46736a0bc90fd11eda041148124282307bb8521a42189349a23edb81d2c482c",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_02_ROOMS",
+      "title": "Locally derived inspection: guest-02-rooms.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00002a.tif",
+      "local_path": "project/data/guest_refs/guest-02-rooms.png",
+      "local_bytes": 108386,
+      "source_sha256_from_ledger": "f4a59dd95139b986bcad83d6548947accd888b31980db1b6b5d22a980c50b84d",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_03_OVERVIEW",
+      "title": "Locally derived inspection: guest-03-overview.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00003a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00003a.tif",
+      "local_path": "project/data/guest_refs/guest-03-overview.png",
+      "local_bytes": 67010,
+      "source_sha256_from_ledger": "1d85131cdfe9d5e25bfcab1d1d746bb1d02eb700a0a58633fe0470e32d08ae61",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_03_LABELS",
+      "title": "Locally derived inspection: guest-03-labels.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00003a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00003a.tif",
+      "local_path": "project/data/guest_refs/guest-03-labels.png",
+      "local_bytes": 33132,
+      "source_sha256_from_ledger": "7be1e69f2c78b549cd7fc975bdd144f18d384e04ccc800b65acc727f7574add1",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_04_OVERVIEW",
+      "title": "Locally derived inspection: guest-04-overview.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00004a.tif",
+      "local_path": "project/data/guest_refs/guest-04-overview.png",
+      "local_bytes": 63119,
+      "source_sha256_from_ledger": "666da0d120739714f42178561236886d0f8299669a44e260847c79d6f8e63cc9",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_04_LABELS",
+      "title": "Locally derived inspection: guest-04-labels.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00004a.tif",
+      "local_path": "project/data/guest_refs/guest-04-labels.png",
+      "local_bytes": 17775,
+      "source_sha256_from_ledger": "72bcbee440368690a54330ebe1408e6221048ce1d5518ce24f74cfbf8ffe166a",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_04_SECTIONLABELS",
+      "title": "Locally derived inspection: guest-04-sectionlabels.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00004a.tif",
+      "local_path": "project/data/guest_refs/guest-04-sectionlabels.png",
+      "local_bytes": 29818,
+      "source_sha256_from_ledger": "8b6b0001a3a9092e6f83001b39f199c086096b03984f65b890b9df0abe24648d",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_GUEST_04_SECTION",
+      "title": "Locally derived inspection: guest-04-section.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/sheet/00004a.tif",
+      "local_path": "project/data/guest_refs/guest-04-section.png",
+      "local_bytes": 35718,
+      "source_sha256_from_ledger": "52e420b04c3740ecd34d9b7e6f2d496d4b6e966d073a098b3fb0c9057587afcb",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_SITE_CONNECTOR_GRID",
+      "title": "Locally derived inspection: site-connector-grid.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00002a.tif",
+      "local_path": "project/data/guest_refs/site-connector-grid.png",
+      "local_bytes": 555945,
+      "source_sha256_from_ledger": "7b75a181ad25dcaad358b729b10b2b10c30da9f6277991fc244f6ec4518d54c2",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_04_INSPECTION_ROOMS",
+      "title": "Research inspection crop: main-04-inspection-rooms.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00004a.tif",
+      "local_path": "research/references/architecture/main-04-inspection-rooms.png",
+      "local_bytes": 67524,
+      "source_sha256_from_ledger": "78f4b1a72792594945277a25e3e74e3c5a2fff98300c42c160cc9480a916f2d6",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_10_INSPECTION_LEVELS",
+      "title": "Research inspection crop: main-10-inspection-levels.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00010a.tif",
+      "local_path": "research/references/architecture/main-10-inspection-levels.png",
+      "local_bytes": 6779,
+      "source_sha256_from_ledger": "384eeffff36b776784daf1434349101697a2e3484917a644a412dcbcb75eddcd",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_10_EAST_ROOF_LABEL",
+      "title": "Research inspection crop: main-10-east-roof-label.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00010a.tif",
+      "local_path": "research/references/architecture/main-10-east-roof-label.png",
+      "local_bytes": 3162,
+      "source_sha256_from_ledger": "cb3f3f54ef3341f1be6c2a64e71843f103433b21fa753e7909b90aacbe4ca342",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_10_THIRD_LEVEL_LABEL",
+      "title": "Research inspection crop: main-10-third-level-label.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00010a.tif",
+      "local_path": "research/references/architecture/main-10-third-level-label.png",
+      "local_bytes": 5520,
+      "source_sha256_from_ledger": "2b7ca07cc03050bf249eab0e83847cb021a2e35ba5e8b3dba6479f558249e0c8",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_10_WEST_ROOF_LABEL",
+      "title": "Research inspection crop: main-10-west-roof-label.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00010a.tif",
+      "local_path": "research/references/architecture/main-10-west-roof-label.png",
+      "local_bytes": 3719,
+      "source_sha256_from_ledger": "37771e1a7dbecec2e10284d113c6a529ae8e41f73f26ac2d2f3b9db220de7dcc",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S01",
+      "title": "Preservation History",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/preservation-history/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权；单项图片授权未核实",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S02",
+      "title": "Fallingwater Facts",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/media-resources/fallingwater-facts/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S03",
+      "title": "Designing Fallingwater",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S04",
+      "title": "Timeline",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/history/timeline/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S05",
+      "title": "Grant Received for Kitchen Preservation",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/grant-received-for-kitchen-preservation/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权；图片不得默认变成交付贴图",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S06",
+      "title": "Fallingwater Fireside",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/fallingwater-fireside/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S07",
+      "title": "Fallingwater From Home",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/fallingwater-from-home/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权；YouTube内单条许可未核实",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S08",
+      "title": "HABS PA-5346-A Guest House photograph index",
+      "asset_class": "online_text_reference",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/data/pa2187cap.pdf",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "LOC/HABS 条目权利声明须随原片核对，不把所有 LOC 内容一概视为无版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S09",
+      "title": "Bear Run Nature Reserve / Fallingwater",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/bear-run-nature-reserve/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S10",
+      "title": "Bear Run Nature Reserve / WPC",
+      "asset_class": "online_text_reference",
+      "url": "https://waterlandlife.org/land-conservation/explore-our-preserves/bear-run-nature-reserve/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "WPC网页；未确认开放媒体许可",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S11",
+      "title": "Sustainability",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/what-is-fallingwater/sustainability/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S12",
+      "title": "Fallingwater Tours",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/visit/fallingwater-tours/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S13",
+      "title": "World Heritage Preserved Blog",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/projects/world-heritage-preservation/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S14",
+      "title": "The Fallingwater Collection",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/learn/preservation-and-collections/the-fallingwater-collection/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权；对象级授权未知",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S15",
+      "title": "Virtual Experiences",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/virtualexperiences/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S16",
+      "title": "Fallingwater Livestreams Offer Unique Interior Tours",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/fallingwater-livestreams-offer-unique-interior-tours/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S17",
+      "title": "Photography and Videography Policy",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/what-is-fallingwater/photography-and-videography-policy/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "非许可授予；仅记录政策，不提供法律判断",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S18",
+      "title": "2026 reopening and preservation completion",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/fallingwater-to-reopen-for-its-90th-anniversary-and-63rd-tour-season/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S19",
+      "title": "FW_ACL_Bedrooms_5",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/fw_acl_bedrooms_5/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "官方版权；画作本身的权利另计、未核实",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S20",
+      "title": "HABS 客房 A-11",
+      "asset_class": "online_text_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.photos.134234p/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "条目提示美国政府制作图像无已知限制、复制他源材料可能受限；继续保留作者与调查号",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S21",
+      "title": "HABS 客房 A-22",
+      "asset_class": "online_text_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.photos.134245p/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "同上，未以总括声明抹掉作品层面的权利",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S22",
+      "title": "HABS 主屋56",
+      "asset_class": "online_text_reference",
+      "url": "https://www.loc.gov/pictures/resource/hhh.pa1690.photos.134195p/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "HABS条件声明；按具体原片保留出处",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S23_1",
+      "title": "LOC 主屋",
+      "asset_class": "online_text_reference",
+      "url": "https://www.loc.gov/item/pa1690/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "图纸逐项权利及文件清单见建筑研究",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S23_2",
+      "title": "客房",
+      "asset_class": "online_text_reference",
+      "url": "https://www.loc.gov/item/pa2187/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "图纸逐项权利及文件清单见建筑研究",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_S24",
+      "title": "HABS 主屋照片图注",
+      "asset_class": "online_text_reference",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/data/pa1690cap.pdf",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "图注用于定位原片；不得把索引文字当作图像尺寸",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_V01",
+      "title": "Fireside 客厅壁炉原图",
+      "asset_class": "online_photo_reference",
+      "url": "https://fallingwater.org/fallingwater-fireside/",
+      "source_url": "https://fallingwater.org/wp-content/uploads/2023/04/FW_Page-Hero_1600x600_TEMPLATE%402x-scaled.jpg",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "Official photo copyright not licensed for redistribution; not downloaded or used as texture. Depicted artworks may have separate rights.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_V02",
+      "title": "厨房柜维护图",
+      "asset_class": "online_photo_reference",
+      "url": "https://fallingwater.org/grant-received-for-kitchen-preservation/",
+      "source_url": "https://fallingwater.org/wp-content/uploads/2020/06/Small.-cabinet.jpg",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "Official photo copyright not licensed for redistribution; not downloaded or used as texture. Depicted artworks may have separate rights.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_V03",
+      "title": "客房卧室",
+      "asset_class": "online_photo_reference",
+      "url": "https://fallingwater.org/fw_acl_bedrooms_5/",
+      "source_url": "https://fallingwater.org/wp-content/uploads/2021/03/FW_ACL_Bedrooms_5.jpg",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "Official photo copyright not licensed for redistribution; not downloaded or used as texture. Depicted artworks may have separate rights.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_V04",
+      "title": "Edgar jr. Study 小图",
+      "asset_class": "online_photo_reference",
+      "url": "https://fallingwater.org/fallingwater-from-home/",
+      "source_url": "https://fallingwater.org/wp-content/uploads/2019/04/FW-TOURS-EdgarsStudy-Windows-Fall_1953_4_5_fused-EDITED-451x208.jpg",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "Official photo copyright not licensed for redistribution; not downloaded or used as texture. Depicted artworks may have separate rights.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_V05",
+      "title": "通往 Bear Run 的水阶",
+      "asset_class": "online_photo_reference",
+      "url": "https://fallingwater.org/fallingwater-from-home/",
+      "source_url": "https://fallingwater.org/wp-content/uploads/2017/07/House-Stairs-FW-Summer-InteriorExterior-451x208.jpg",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "Official photo copyright not licensed for redistribution; not downloaded or used as texture. Depicted artworks may have separate rights.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_V06",
+      "title": "客房 A-11 原片",
+      "asset_class": "online_photo_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.photos.134234p/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134234pv.jpg",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_V07",
+      "title": "客房 A-22 原片",
+      "asset_class": "online_photo_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.photos.134245p/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134245pv.jpg",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "INT_V08",
+      "title": "主屋 56 厨房原片",
+      "asset_class": "online_photo_reference",
+      "url": "https://www.loc.gov/pictures/resource/hhh.pa1690.photos.134195p/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/photos/134195pv.jpg",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "LOC item advisory: US Government-produced images have no known restrictions; copied-source images may be restricted. Reference only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "ARCH_DRAWING_GUIDANCE",
+      "title": "Fallingwater architectural drawings research guidance",
+      "asset_class": "online_text_reference",
+      "url": "https://fallingwater.org/learn/preservation-and-collections/research-resources/architectural-drawings/",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "Institutional website; not a blanket source-image redistribution license",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_MAIN1_DIMENSIONS",
+      "title": "Local main-house inspection: main1_dimensions.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00004a.tif",
+      "local_path": "project/data/main_refs/main1_dimensions.png",
+      "local_bytes": 5487,
+      "source_sha256_from_ledger": "9838aadfab027b50e2a54608f95de06038b8caae798c576b73d2cd04f377cc77",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_MAIN1_DIMLEFT",
+      "title": "Local main-house inspection: main1_dimleft.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00004a.tif",
+      "local_path": "project/data/main_refs/main1_dimleft.png",
+      "local_bytes": 130020,
+      "source_sha256_from_ledger": "f51552613780258396b87ea76411c9acf9c1b128dc3643bb49d5434cf9e411bc",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_MAIN1_DIMTOP",
+      "title": "Local main-house inspection: main1_dimtop.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00004a.tif",
+      "local_path": "project/data/main_refs/main1_dimtop.png",
+      "local_bytes": 34219,
+      "source_sha256_from_ledger": "4963b0edcd3f97d8dc6c9a954f34d9bf49fc2cd0fef15dad35c6da26c8928ebc",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_MAIN1_DIMZOOM",
+      "title": "Local main-house inspection: main1_dimzoom.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00004a.tif",
+      "local_path": "project/data/main_refs/main1_dimzoom.png",
+      "local_bytes": 4286,
+      "source_sha256_from_ledger": "e6362c78bf2fcdac60fe800ac858ef06fc2944d38977684a83ec38b5678d2509",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_MAIN1_MEDIUM",
+      "title": "Local main-house inspection: main1_medium.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00004a.tif",
+      "local_path": "project/data/main_refs/main1_medium.png",
+      "local_bytes": 48129,
+      "source_sha256_from_ledger": "a8363503b7a9985f4dae20bfeda2aafd272fb6132ec14930100e71bbacaa8f82",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_MAIN1_ROOMS",
+      "title": "Local main-house inspection: main1_rooms.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00004a.tif",
+      "local_path": "project/data/main_refs/main1_rooms.png",
+      "local_bytes": 117215,
+      "source_sha256_from_ledger": "ea0f0089fe2e9cf758a029e45b0cfc1b56fa1b32d6784d59eab5d4a30df87ec2",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_MAIN6_REGISTRATION",
+      "title": "Local main-house inspection: main6-registration.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00006a/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/sheet/00006v.jpg",
+      "local_path": "project/data/main_refs/main6-registration.png",
+      "local_bytes": 810437,
+      "source_sha256_from_ledger": "608dee336afd71bc037f3356401605511b955bcf7875faed99b8cd4f3da6fa3f",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_SITE_CORE_CLEAN",
+      "title": "Local main-house inspection: site-core-clean.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00002a.tif",
+      "local_path": "project/data/main_refs/site-core-clean.png",
+      "local_bytes": 187175,
+      "source_sha256_from_ledger": "f8febbe5a7b46f18376cabb91825fbff748dad4a03dce0ed1f7015c8981abdf8",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_MAIN_SITE_REGISTRATION",
+      "title": "Local main-house inspection: site-registration.png",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00002a.tif",
+      "local_path": "project/data/main_refs/site-registration.png",
+      "local_bytes": 507367,
+      "source_sha256_from_ledger": "9fac2c93762bb4d4427b89d743deb41660edb9d3c66780a62e7a058b3211608f",
+      "source_rights_note": "LOC/HABS source conditions retained; local derivative for reference, not texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_SITE_02_REVIEW",
+      "title": "Normalized site-plan review image",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00002a.tif",
+      "local_path": "project/data/site-02-review.jpg",
+      "local_bytes": 653239,
+      "source_sha256_from_ledger": "c5764573c7c954e32d5a7603ac9bd327d486ee94b27d12caf9ae30ff753cb185",
+      "source_rights_note": "LOC/HABS source conditions retained; reference only.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "DERIV_SITE_02_SCALE",
+      "title": "Site-plan metric scale inspection crop",
+      "asset_class": "local_derived_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00002a/",
+      "source_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00002a.tif",
+      "local_path": "project/data/site-02-scale.png",
+      "local_bytes": 47466,
+      "source_sha256_from_ledger": "2fa5e9825caefaecb36df2e71223a782cee3b9d0e90e17875379f440f83420d2",
+      "source_rights_note": "LOC/HABS source conditions retained; reference only.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GEO07_MAIN_SW_87",
+      "title": "southwest",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.color.570317c/",
+      "source_url": "https://cdn.loc.gov/service/pnp/habshaer/pa/pa1600/pa1690/color/570317cv.jpg",
+      "local_path": "project/data/photo_refs/main_sw_87.jpg",
+      "local_bytes": 416258,
+      "source_sha256_from_ledger": "3cb9d4b007be1fab6f0582b23e64782b93731b622735f3b77d2facc9714a7475",
+      "source_rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GEO07_MAIN_EAST_88",
+      "title": "east, south end of bridge",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.color.570318c/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/color/570318cv.jpg",
+      "local_path": "project/data/photo_refs/main_east_88.jpg",
+      "local_bytes": 421152,
+      "source_sha256_from_ledger": "fe4c71c25236eb25eb1c97665f283be8193cdeccbbbcb286d415c89c14fb27fe",
+      "source_rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GEO07_MAIN_LIVING_48",
+      "title": "from kitchen door in northwest corner",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.photos.134187p/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/photos/134187pv.jpg",
+      "local_path": "project/data/photo_refs/main_living_48.jpg",
+      "local_bytes": 327583,
+      "source_sha256_from_ledger": "d2712f49a72dd0be5340d0d16a53baec1f0bf04c67af384d409ee341da61a3e7",
+      "source_rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GEO07_MAIN_KITCHEN_56",
+      "title": "west kitchen cabinets",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa1690.photos.134195p/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/photos/134195pv.jpg",
+      "local_path": "project/data/photo_refs/main_kitchen_56.jpg",
+      "local_bytes": 209273,
+      "source_sha256_from_ledger": "595360f28177178641a0ef05bfc41c1dd18ab59b82c5dfe3d752a64a89719d1e",
+      "source_rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GEO07_GUEST_EXTERIOR_10",
+      "title": "from west along south facade",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.photos.134233p/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134233pv.jpg",
+      "local_path": "project/data/photo_refs/guest_exterior_10.jpg",
+      "local_bytes": 255794,
+      "source_sha256_from_ledger": "3861068b7a43ed1d08941b215192cc2a60ca2d29472b71141fb0d75afc9ed247",
+      "source_rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "GEO07_GUEST_LIVING_11",
+      "title": "living room from east",
+      "asset_class": "original_archive_reference",
+      "url": "https://www.loc.gov/pictures/item/pa2187.photos.134234p/",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134234pv.jpg",
+      "local_path": "project/data/photo_refs/guest_living_11.jpg",
+      "local_bytes": 282297,
+      "source_sha256_from_ledger": "9a75b17d5138e7c33b2eff9e3ed5e37d15c065c27740362d3cf450420f439b23",
+      "source_rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    },
+    {
+      "ref_id": "CONTEMPORARY_CEILING_ERITAK_2011",
+      "title": "Fallingwater interior, central ceiling fixture",
+      "asset_class": "online_photo_reference",
+      "url": "https://commons.wikimedia.org/wiki/File:Fallingwater_interior.JPG",
+      "source_url": "",
+      "local_path": "",
+      "local_bytes": null,
+      "source_sha256_from_ledger": "",
+      "source_rights_note": "Eritak, CC BY-SA 3.0; online reference only, not downloaded or used as texture",
+      "action": "LINKS_AND_METADATA_ONLY",
+      "include_source_image": false,
+      "reason": "Default public package retains evidence/citation without distributing reference photographs, drawing scans, or derivative overlays; item-level clearance is not asserted."
+    }
+  ],
+  "asset_summary": {
+    "rows": 51,
+    "origins": {
+      "authored_procedural_not_scan": 44,
+      "CC0 photographed material on authored geometry": 3,
+      "unused_external_candidate": 2,
+      "downloaded_CC0_texture": 2
+    },
+    "used_cc0_files": 12,
+    "used_cc0_bytes": 21574385
+  },
+  "asset_items": [
+    {
+      "asset_id": "MAIN_ARCHITECTURE",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/main_house.py",
+        "project/data/main_house.json"
+      ],
+      "local_bytes": 133330,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "20_MAIN",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "GUEST_ARCHITECTURE",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/guest_house.py",
+        "project/data/guest_house.json"
+      ],
+      "local_bytes": 102233,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "30_GUEST_SERVICE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SITE_TERRAIN",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/site.py",
+        "project/data/site.json"
+      ],
+      "local_bytes": 114295,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "10_SITE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SITE_STRATIFIED_ROCK",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/site.py",
+        "project/data/site.json"
+      ],
+      "local_bytes": 114295,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "10_SITE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SITE_BRIDGE_PATHS",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/site.py",
+        "project/data/site.json"
+      ],
+      "local_bytes": 114295,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "10_SITE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "BEAR_RUN_WATER",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/site.py",
+        "project/data/site.json"
+      ],
+      "local_bytes": 114295,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "60_WATER",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "BEAR_RUN_FOAM",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/site.py",
+        "project/data/site.json"
+      ],
+      "local_bytes": 114295,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "60_WATER",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FOREST_TREE_VARIANTS",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/site.py",
+        "project/data/site.json"
+      ],
+      "local_bytes": 114295,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "50_VEGETATION",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FOREST_UNDERSTORY",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/site.py",
+        "project/data/site.json"
+      ],
+      "local_bytes": 114295,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "50_VEGETATION",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SURFACE_STONE_ROCK",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/materials.py",
+        "project/scripts/asset_materials.py"
+      ],
+      "local_bytes": 9539,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "stone;stone_floor;rock;wet_rock",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SURFACE_WALNUT",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/materials.py",
+        "project/scripts/asset_materials.py"
+      ],
+      "local_bytes": 9539,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "wood",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SURFACE_OCHRE_PLASTER",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/materials.py"
+      ],
+      "local_bytes": 6298,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "ochre;ceiling",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SURFACE_STEEL_METAL",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/materials.py"
+      ],
+      "local_bytes": 6298,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "red;metal;brass;dark",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SURFACE_GLASS",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/materials.py",
+        "project/scripts/eevee_glass.py"
+      ],
+      "local_bytes": 22521,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "glass",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SURFACE_WATER",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/materials.py"
+      ],
+      "local_bytes": 6298,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "water",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SURFACE_FABRIC_CORK",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/materials.py"
+      ],
+      "local_bytes": 6298,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "cream_fabric;rust_fabric;linen;leather;cork",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "SURFACE_EARTH_VEGETATION",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/materials.py"
+      ],
+      "local_bytes": 6298,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "earth;moss;gravel;bark;leaf variants",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "KITCHEN_RUBBER_TILES",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/main_house.py"
+      ],
+      "local_bytes": 43466,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_KITCHEN",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_MAIN_FIXED_BENCHES",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_LIVING",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_MAIN_HEARTH",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_LIVING",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_MAIN_DINING",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_LIVING",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_STUDY",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L3_STUDY;MAIN_L2_DRESSING",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_KITCHEN_STEEL_CASEWORK",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_KITCHEN",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_AGA",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_KITCHEN",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_FRIGIDAIRE",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_KITCHEN",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_KITCHENAID",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_KITCHEN",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_KITCHEN_TABLE",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L1_KITCHEN",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_GUEST_LOUNGE",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "GUEST_L1_LOUNGE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_GUEST_BEDROOM",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "GUEST_L1_GUEST_ROOM",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_MAIN_BEDROOMS",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_L2_MASTER;MAIN_L2_GUEST;MAIN_L3_ALCOVE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_SERVICE_BEDROOMS",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "GUEST_L2_*",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_SANITARY",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "all surveyed Bath records",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_WINE_CELLAR",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_B_WINE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_BOILER_ROOMS",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "MAIN_B_BOILER;GUEST_L1_BOILER",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_LAUNDRY",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "GUEST_B1_LAUNDRY",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "FURN_THEATER",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py",
+        "project/data/furnishing-evidence.json"
+      ],
+      "local_bytes": 78612,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "GUEST_L1_THEATER",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "ARTWORK_CONTROLLED_SUBSTITUTES",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py"
+      ],
+      "local_bytes": 62985,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "40_FURNITURE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "DAYLIGHT_AND_EVENING_LIGHTS",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/build_scene.py",
+        "project/scripts/lighting.py"
+      ],
+      "local_bytes": 21813,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Original project implementation; rights in referenced architecture/designs/artworks remain distinct.",
+      "used_by": "70_LIGHTS",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "PH_WALNUT_VENEER",
+      "provider": "Poly Haven",
+      "author": "Jenelle van Heerden",
+      "local_files": [
+        "project/assets/textures/walnut_veneer_diff_2k.jpg",
+        "project/assets/textures/walnut_veneer_rough_2k.jpg",
+        "project/assets/textures/walnut_veneer_disp_2k.jpg"
+      ],
+      "local_bytes": 5338309,
+      "source_url": "https://polyhaven.com/a/walnut_veneer",
+      "license_url": "https://polyhaven.com/license",
+      "license_note": "CC0 asset; website text/example images are not used as textures",
+      "used_by": "FW_wood",
+      "action": "INCLUDE_CC0_USED_TEXTURE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "UNUSED_XANDERKLINGE",
+      "provider": "Poly Haven research candidate",
+      "author": "Andreas Mischok",
+      "local_files": [],
+      "local_bytes": 0,
+      "source_url": "https://polyhaven.com/a/xanderklinge",
+      "license_url": "https://polyhaven.com/license",
+      "license_note": "Prior research recorded CC0 for downloadable assets; no asset downloaded or embedded",
+      "used_by": "",
+      "action": "EXCLUDE_UNUSED_CANDIDATE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "UNUSED_LYTHWOOD_FIELD",
+      "provider": "Poly Haven research candidate",
+      "author": "Greg Zaal",
+      "local_files": [],
+      "local_bytes": 0,
+      "source_url": "https://polyhaven.com/a/lythwood_field",
+      "license_url": "https://polyhaven.com/license",
+      "license_note": "Prior research recorded CC0 for downloadable assets; no asset downloaded or embedded",
+      "used_by": "",
+      "action": "EXCLUDE_UNUSED_CANDIDATE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "PH_FORREST_GROUND_01",
+      "provider": "Poly Haven",
+      "author": "Rob Tuytel",
+      "local_files": [
+        "project/assets/textures/forrest_ground_01_diff_2k.jpg",
+        "project/assets/textures/forrest_ground_01_rough_2k.jpg",
+        "project/assets/textures/forrest_ground_01_disp_2k.jpg"
+      ],
+      "local_bytes": 5034465,
+      "source_url": "https://polyhaven.com/a/forrest_ground_01",
+      "license_url": "https://polyhaven.com/license",
+      "license_note": "CC0 asset; website text/example images are not used as textures",
+      "used_by": "FW_Continuous_Forest_Floor",
+      "action": "INCLUDE_CC0_USED_TEXTURE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "PH_WORN_ROCK_NATURAL_01",
+      "provider": "Poly Haven",
+      "author": "Dimitrios Savva (photography); Rob Tuytel (processing)",
+      "local_files": [
+        "project/assets/textures/worn_rock_natural_01_diff_2k.jpg",
+        "project/assets/textures/worn_rock_natural_01_rough_2k.jpg",
+        "project/assets/textures/worn_rock_natural_01_disp_2k.jpg"
+      ],
+      "local_bytes": 6333510,
+      "source_url": "https://polyhaven.com/a/worn_rock_natural_01",
+      "license_url": "https://polyhaven.com/license",
+      "license_note": "CC0 asset; website text/example images are not used as textures",
+      "used_by": "FW_stone;FW_rock;FW_wet_rock",
+      "action": "INCLUDE_CC0_USED_TEXTURE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "PH_SLATE_FLOOR_02",
+      "provider": "Poly Haven",
+      "author": "Dimitrios Savva",
+      "local_files": [
+        "project/assets/textures/slate_floor_02_diff_2k.jpg",
+        "project/assets/textures/slate_floor_02_rough_2k.jpg",
+        "project/assets/textures/slate_floor_02_disp_2k.jpg"
+      ],
+      "local_bytes": 4868101,
+      "source_url": "https://polyhaven.com/a/slate_floor_02",
+      "license_url": "https://polyhaven.com/license",
+      "license_note": "CC0; source author retained; original texture pixels unedited",
+      "used_by": "FW_stone_floor",
+      "action": "INCLUDE_CC0_USED_TEXTURE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "PH_MONASTERY_STONE_FLOOR",
+      "provider": "Poly Haven",
+      "author": "Amal Kumar",
+      "local_files": [
+        "project/assets/textures/monastery_stone_floor_diff_2k.jpg",
+        "project/assets/textures/monastery_stone_floor_rough_2k.jpg",
+        "project/assets/textures/monastery_stone_floor_disp_2k.jpg"
+      ],
+      "local_bytes": 5613073,
+      "source_url": "https://polyhaven.com/a/monastery_stone_floor",
+      "license_url": "https://polyhaven.com/license",
+      "license_note": "CC0; source author retained; original texture pixels unedited",
+      "used_by": "not_used",
+      "action": "EXCLUDE_UNUSED_CANDIDATE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "LIVING_CEILING_LIGHT_SCREEN",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/architectural_detail.py",
+        "project/data/architectural-detail.json"
+      ],
+      "local_bytes": 134011,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "Authored geometry; photograph rights retained separately",
+      "used_by": "MAIN_L1_LIVING",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "PRESERVED_NEAR_TREE_LIBRARY",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/assets/models/site_near_trees.blend"
+      ],
+      "local_bytes": 17561826,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "Project-authored geometry",
+      "used_by": "50_VEGETATION; site.py build input",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "HEARTH_MASONRY_RELIEF",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/masonry_detail.py",
+        "project/data/masonry-detail.json"
+      ],
+      "local_bytes": 13367,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Referenced design/photo rights remain distinct.",
+      "used_by": "MAIN_L1_LIVING;GUEST_L1_LOUNGE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "GUEST_CORNER_FIREPLACE",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/guest_architectural_detail.py"
+      ],
+      "local_bytes": 2841,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Referenced design/photo rights remain distinct.",
+      "used_by": "GUEST_L1_LOUNGE",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "VISIBLE_SERVICE_LIGHT_FIXTURES",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/furnishings.py"
+      ],
+      "local_bytes": 62985,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Referenced design/photo rights remain distinct.",
+      "used_by": "Eight bath/service spaces from iteration04 plus six additional bath/boiler spaces in iteration05",
+      "action": "INCLUDE_AUTHORED_DELIVERABLE_AFTER_ACCEPTANCE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    },
+    {
+      "asset_id": "BEAR_RUN_MANTAFLOW_PILOTS",
+      "provider": "Project-authored",
+      "author": "Codex-assisted project implementation",
+      "local_files": [
+        "project/scripts/fluid_water.py",
+        "project/scripts/water_integration.py",
+        "project/data/fluid.json"
+      ],
+      "local_bytes": 56158,
+      "source_url": "",
+      "license_url": "",
+      "license_note": "No external asset license asserted. Referenced design/photo rights remain distinct.",
+      "used_by": "Separate fluid pilot scenes; not yet accepted or installed in working iteration05",
+      "action": "EXCLUDE_PILOT_NOT_FINAL_ACCEPTED_CACHE",
+      "publication_status": "PENDING_FINAL_ACCEPTANCE"
+    }
+  ],
+  "exclude_patterns": [
+    ".codex/**",
+    ".agents/**",
+    ".git/**",
+    ".env*",
+    "**/*credential*",
+    "**/*token*",
+    "**/*secret*",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "**/*.blend1",
+    "**/*.blend2",
+    "**/*.crash.txt",
+    "**/*.log",
+    "project/caches/fluid_pilot/**",
+    "project/data/*_refs/**",
+    "research/references/**",
+    "project/data/*-original.tif",
+    "project/data/site02-part.bin",
+    "project/qa/** (except individually allowlisted sanitized accepted evidence)",
+    "project/renders/previews/**",
+    "project/scene/** (except selected sanitized frozen checkpoints)"
+  ],
+  "privacy_audit": {
+    "status": "NOT_RUN_ON_FINAL_PUBLIC_STAGING",
+    "scope_this_run": "Only path mentions in explicit candidate scripts/top-level JSON were counted. No credential values searched or printed.",
+    "findings": "room_contact_sheets.py and tour-route.json currently include machine-specific path mentions; final .blend metadata, packed text blocks, image/cache/font/library paths and reports also require inspection in a public copy.",
+    "release_rule": "Do not publish this local inventory automatically; generate sanitized public release manifest containing only relative member paths, hashes, sizes, versions and evidence status."
+  },
+  "packaging_algorithm": {
+    "format": "Independent ZIP archives, same common top-level Fallingwater/ directory, no overlapping member paths across packs; Python zipfile supports extraction without 7-Zip.",
+    "part_budget_bytes": 1500000000,
+    "order": "model, rebuild assets/textures, final cache grouped by frame where possible, stills, room QA, films, selected rollback checkpoint",
+    "large_single_file": "If one accepted artifact exceeds budget, split its byte stream into 1000000000-byte .partNNN files with a join script and original SHA-256, then verify reassembled bytes before publication. Never strip cache channels or lower video quality to fit.",
+    "max_release_assets": 1000,
+    "verification": "Hash source/member/archive, reject traversal and absolute paths, extract all packs into a new directory, reassemble any splits, verify exact selected file list, reopen Blender and render a representative frame plus beginning/end water frames. Only then create public repository/release."
+  },
+  "unverified": [
+    "Final acceptance and final package do not exist yet.",
+    "Current cache totals are live snapshots and can change while calibration is running.",
+    "Frozen checkpoint filenames are provenance only, not final labels.",
+    "GitHub connector binary upload capability is not yet verified; invalid gh credentials must not be silently replaced.",
+    "No plan or token values have been inspected.",
+    "No license for reuse of original project code/geometry is silently granted; public visibility is distinct from an open-source license.",
+    "No final packaged Blender content privacy inspection has run."
+  ]
+}

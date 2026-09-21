@@ -1,0 +1,778 @@
+{
+  "status": "READ_ONLY_PIXEL_TO_SAVED_MESH_DIAGNOSIS",
+  "render_path": "renders/previews/iteration07b-near-terrain/CAM_MAIN_L1_LOGGIA_B.png",
+  "candidate_sha256": "fd07ec36e53258df3e577b39ac8949096651c5fb739900535f71f562cd77eebe",
+  "frame": 48,
+  "resolution": [
+    960,
+    540
+  ],
+  "camera": "CAM_MAIN_L1_LOGGIA_B",
+  "camera_position": [
+    13.543760299682617,
+    10.970459938049316,
+    1.7222000360488892
+  ],
+  "camera_shift": [
+    0.0,
+    0.0
+  ],
+  "records": [
+    {
+      "label": "A_crest",
+      "pixel_top_left": [
+        357,
+        136
+      ],
+      "world": [
+        25.329442977905273,
+        11.455750465393066,
+        2.5644724369049072
+      ],
+      "normal": [
+        -0.8561060428619385,
+        -0.10030300915241241,
+        0.5069730281829834
+      ],
+      "distance_from_camera_m": 11.825702667236328,
+      "first_scene_hit_chain": [
+        {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "point": [
+            25.329442977905273,
+            11.455750465393066,
+            2.5644724369049072
+          ],
+          "hide_render": false
+        }
+      ],
+      "baseline_z_same_xy": 2.564472198486328,
+      "actual_delta_same_xy_m": 2.384185791015625e-07,
+      "baseline_same_pixel_world": [
+        25.329442977905273,
+        11.455750465393066,
+        2.5644724369049072
+      ],
+      "reproject_pixel": [
+        357.00000953674316,
+        135.99998784065247
+      ],
+      "triangle": 106962,
+      "triangle_vertex_indices": [
+        53643,
+        53644,
+        53974
+      ],
+      "triangle_vertices": [
+        [
+          24.75,
+          11.100000381469727,
+          1.515602707862854
+        ],
+        [
+          25.399999618530273,
+          11.100000381469727,
+          2.613232374191284
+        ],
+        [
+          25.399999618530273,
+          11.75,
+          2.741832733154297
+        ]
+      ],
+      "triangle_vertex_material_weights": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpolated_material_weight": 0.0,
+      "triangle_vertex_z_deltas_m": [
+        0,
+        0,
+        0
+      ],
+      "shading_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": 0.46890729043623325
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 2.3294429779052734
+        },
+        {
+          "name": "bridge",
+          "clearance_m": 4.355848633071248
+        },
+        {
+          "name": "building:main_plunge_and_stair",
+          "clearance_m": 4.774687377632247
+        },
+        {
+          "name": "building:main_final_MAIN_L1_LOGGIA",
+          "clearance_m": 5.402242977905271
+        },
+        {
+          "name": "river_segment:3",
+          "clearance_m": 5.408444759403459
+        },
+        {
+          "name": "building:main_final_MAIN_B_PLUNGE",
+          "clearance_m": 5.518269189705198
+        },
+        {
+          "name": "river_segment:2",
+          "clearance_m": 5.532383724814369
+        }
+      ],
+      "geometry_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": 0.46890729043623325
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_002",
+          "clearance_m": 1.9836782032844409
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 2.3294429779052734
+        },
+        {
+          "name": "camera:CAM_MAIN_L1_LOGGIA_A",
+          "clearance_m": 3.85800900001294
+        },
+        {
+          "name": "camera:CAM_MAIN_B_PLUNGE_A",
+          "clearance_m": 3.8758185882310263
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_000",
+          "clearance_m": 4.000908863820404
+        },
+        {
+          "name": "bridge",
+          "clearance_m": 4.355848633071248
+        },
+        {
+          "name": "existing_rock:SITE_Bank_0119",
+          "clearance_m": 4.482496547698974
+        }
+      ],
+      "formula_point_material_weight": 0.0,
+      "zone_inside_distances": {
+        "west": -34.26580999604476,
+        "north_bridge": 1.4557504653930664
+      },
+      "proposed_delta_current_field": [
+        0.0,
+        "north_bridge"
+      ]
+    },
+    {
+      "label": "B_mid",
+      "pixel_top_left": [
+        400,
+        200
+      ],
+      "world": [
+        25.026445388793945,
+        10.812572479248047,
+        1.5862672328948975
+      ],
+      "normal": [
+        -0.7041447162628174,
+        -0.5747215151786804,
+        0.41698381304740906
+      ],
+      "distance_from_camera_m": 11.484573364257812,
+      "first_scene_hit_chain": [
+        {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "point": [
+            25.026443481445312,
+            10.812572479248047,
+            1.5862672328948975
+          ],
+          "hide_render": false
+        }
+      ],
+      "baseline_z_same_xy": 1.5862693786621094,
+      "actual_delta_same_xy_m": -2.1457672119140625e-06,
+      "baseline_same_pixel_world": [
+        25.026445388793945,
+        10.812572479248047,
+        1.5862672328948975
+      ],
+      "reproject_pixel": [
+        399.9999828338623,
+        199.99999475479126
+      ],
+      "triangle": 106305,
+      "triangle_vertex_indices": [
+        53313,
+        53644,
+        53643
+      ],
+      "triangle_vertices": [
+        [
+          24.75,
+          10.449999809265137,
+          0.6197183728218079
+        ],
+        [
+          25.399999618530273,
+          11.100000381469727,
+          2.613232374191284
+        ],
+        [
+          24.75,
+          11.100000381469727,
+          1.515602707862854
+        ]
+      ],
+      "triangle_vertex_material_weights": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpolated_material_weight": 0.0,
+      "triangle_vertex_z_deltas_m": [
+        0,
+        0,
+        0
+      ],
+      "shading_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": -0.12357584471029459
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 2.0264453887939453
+        },
+        {
+          "name": "bridge",
+          "clearance_m": 3.7260769595010284
+        },
+        {
+          "name": "building:main_plunge_and_stair",
+          "clearance_m": 4.426463243630248
+        },
+        {
+          "name": "river_segment:3",
+          "clearance_m": 4.76510640034389
+        },
+        {
+          "name": "river_segment:2",
+          "clearance_m": 4.949717564923206
+        },
+        {
+          "name": "building:main_final_MAIN_B_PLUNGE",
+          "clearance_m": 5.096511095905572
+        },
+        {
+          "name": "building:main_final_MAIN_L1_LOGGIA",
+          "clearance_m": 5.099245388793943
+        }
+      ],
+      "geometry_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": -0.12357584471029459
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_002",
+          "clearance_m": 1.715408364686878
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 2.0264453887939453
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_000",
+          "clearance_m": 3.2900733117848846
+        },
+        {
+          "name": "camera:CAM_MAIN_B_PLUNGE_A",
+          "clearance_m": 3.3499207798597865
+        },
+        {
+          "name": "camera:CAM_MAIN_L1_LOGGIA_A",
+          "clearance_m": 3.427267497607451
+        },
+        {
+          "name": "bridge",
+          "clearance_m": 3.7260769595010284
+        },
+        {
+          "name": "existing_rock:SITE_Bank_0119",
+          "clearance_m": 3.839318561553955
+        }
+      ],
+      "formula_point_material_weight": 0.0,
+      "zone_inside_distances": {
+        "west": -33.82631832291603,
+        "north_bridge": 0.8125724792480469
+      },
+      "proposed_delta_current_field": [
+        0.0,
+        "north_bridge"
+      ]
+    },
+    {
+      "label": "C_foot",
+      "pixel_top_left": [
+        400,
+        280
+      ],
+      "world": [
+        24.27991485595703,
+        10.835532188415527,
+        0.44815921783447266
+      ],
+      "normal": [
+        -0.9032021760940552,
+        -0.08917664736509323,
+        0.41984933614730835
+      ],
+      "distance_from_camera_m": 10.812326431274414,
+      "first_scene_hit_chain": [
+        {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "point": [
+            24.27991485595703,
+            10.835532188415527,
+            0.44815921783447266
+          ],
+          "hide_render": false
+        }
+      ],
+      "baseline_z_same_xy": 0.44815826416015625,
+      "actual_delta_same_xy_m": 9.5367431640625e-07,
+      "baseline_same_pixel_world": [
+        24.27991485595703,
+        10.835532188415527,
+        0.44815921783447266
+      ],
+      "reproject_pixel": [
+        399.9999828338623,
+        279.9999953508377
+      ],
+      "triangle": 106303,
+      "triangle_vertex_indices": [
+        53312,
+        53643,
+        53642
+      ],
+      "triangle_vertices": [
+        [
+          24.100000381469727,
+          10.449999809265137,
+          -0.02077210322022438
+        ],
+        [
+          24.75,
+          11.100000381469727,
+          1.515602707862854
+        ],
+        [
+          24.100000381469727,
+          11.100000381469727,
+          0.11728910356760025
+        ]
+      ],
+      "triangle_vertex_material_weights": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpolated_material_weight": 0.0,
+      "triangle_vertex_z_deltas_m": [
+        0,
+        0,
+        0
+      ],
+      "shading_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": -0.7501070809187802
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 1.2799148559570312
+        },
+        {
+          "name": "building:main_plunge_and_stair",
+          "clearance_m": 3.6800863962014323
+        },
+        {
+          "name": "bridge",
+          "clearance_m": 3.874249688518821
+        },
+        {
+          "name": "building:main_final_MAIN_L1_LOGGIA",
+          "clearance_m": 4.352714855957029
+        },
+        {
+          "name": "building:main_final_MAIN_B_PLUNGE",
+          "clearance_m": 4.36229347021781
+        },
+        {
+          "name": "building:main_final_MAIN_L2_TERRACE_E",
+          "clearance_m": 4.754223906202791
+        },
+        {
+          "name": "river_segment:3",
+          "clearance_m": 4.788067681415498
+        }
+      ],
+      "geometry_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": -0.7501070809187802
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 1.2799148559570312
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_002",
+          "clearance_m": 2.3572406829606107
+        },
+        {
+          "name": "camera:CAM_MAIN_B_PLUNGE_A",
+          "clearance_m": 2.6643631390409537
+        },
+        {
+          "name": "camera:CAM_MAIN_L1_LOGGIA_A",
+          "clearance_m": 2.6959730559402075
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_000",
+          "clearance_m": 3.0495025251314463
+        },
+        {
+          "name": "camera:CAM_MAIN_L2_TERRACE_E_A",
+          "clearance_m": 3.5727315299569264
+        },
+        {
+          "name": "building:main_plunge_and_stair",
+          "clearance_m": 3.6800863962014323
+        }
+      ],
+      "formula_point_material_weight": 0.0,
+      "zone_inside_distances": {
+        "west": -33.102914306675714,
+        "north_bridge": 0.7799148559570312
+      },
+      "proposed_delta_current_field": [
+        0.0,
+        "north_bridge"
+      ]
+    },
+    {
+      "label": "D_left",
+      "pixel_top_left": [
+        310,
+        220
+      ],
+      "world": [
+        24.50057601928711,
+        12.108952522277832,
+        1.3081880807876587
+      ],
+      "normal": [
+        -0.9002329707145691,
+        -0.07816995680332184,
+        0.42833414673805237
+      ],
+      "distance_from_camera_m": 11.023582458496094,
+      "first_scene_hit_chain": [
+        {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "point": [
+            24.50057601928711,
+            12.108952522277832,
+            1.3081880807876587
+          ],
+          "hide_render": false
+        }
+      ],
+      "baseline_z_same_xy": 1.3081855773925781,
+      "actual_delta_same_xy_m": 2.5033950805664062e-06,
+      "baseline_same_pixel_world": [
+        24.50057601928711,
+        12.108952522277832,
+        1.3081880807876587
+      ],
+      "reproject_pixel": [
+        309.9999828338623,
+        219.9999828338623
+      ],
+      "triangle": 107618,
+      "triangle_vertex_indices": [
+        53972,
+        53973,
+        54303
+      ],
+      "triangle_vertices": [
+        [
+          24.100000381469727,
+          11.75,
+          0.4007851481437683
+        ],
+        [
+          24.75,
+          11.75,
+          1.7668941020965576
+        ],
+        [
+          24.75,
+          12.399999618530273,
+          1.8855174779891968
+        ]
+      ],
+      "triangle_vertex_material_weights": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpolated_material_weight": 0.0,
+      "triangle_vertex_z_deltas_m": [
+        0,
+        0,
+        0
+      ],
+      "shading_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": 0.09861781181828122
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 1.5005760192871094
+        },
+        {
+          "name": "building:main_plunge_and_stair",
+          "clearance_m": 4.1143468482634225
+        },
+        {
+          "name": "building:main_final_MAIN_L1_LOGGIA",
+          "clearance_m": 4.573376019287107
+        },
+        {
+          "name": "building:main_final_MAIN_B_PLUNGE",
+          "clearance_m": 4.946096653888883
+        },
+        {
+          "name": "bridge",
+          "clearance_m": 5.076803535537869
+        },
+        {
+          "name": "building:main_final_MAIN_L2_TERRACE_E",
+          "clearance_m": 5.274106876105509
+        },
+        {
+          "name": "river_segment:3",
+          "clearance_m": 6.06180345608147
+        }
+      ],
+      "geometry_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": 0.09861781181828122
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 1.5005760192871094
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_002",
+          "clearance_m": 3.0035486305493846
+        },
+        {
+          "name": "camera:CAM_MAIN_L1_LOGGIA_A",
+          "clearance_m": 3.2925140461191784
+        },
+        {
+          "name": "camera:CAM_MAIN_B_PLUNGE_A",
+          "clearance_m": 3.479925527478761
+        },
+        {
+          "name": "building:main_plunge_and_stair",
+          "clearance_m": 4.1143468482634225
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_000",
+          "clearance_m": 4.338937196039216
+        },
+        {
+          "name": "camera:CAM_MAIN_L2_TERRACE_E_A",
+          "clearance_m": 4.426776476467121
+        }
+      ],
+      "formula_point_material_weight": 0.0,
+      "zone_inside_distances": {
+        "west": -33.6214441259785,
+        "north_bridge": 1.0005760192871094
+      },
+      "proposed_delta_current_field": [
+        0.0,
+        "north_bridge"
+      ]
+    },
+    {
+      "label": "E_right",
+      "pixel_top_left": [
+        460,
+        240
+      ],
+      "world": [
+        25.337909698486328,
+        9.867673873901367,
+        0.9487111568450928
+      ],
+      "normal": [
+        -0.4607106149196625,
+        -0.8190017938613892,
+        0.34202566742897034
+      ],
+      "distance_from_camera_m": 11.870820999145508,
+      "first_scene_hit_chain": [
+        {
+          "object": "SITE_Continuous_BearRun_Terrain",
+          "point": [
+            25.337909698486328,
+            9.867673873901367,
+            0.9487111568450928
+          ],
+          "hide_render": false
+        }
+      ],
+      "baseline_z_same_xy": 0.9487075805664062,
+      "actual_delta_same_xy_m": 3.5762786865234375e-06,
+      "baseline_same_pixel_world": [
+        25.337909698486328,
+        9.867673873901367,
+        0.9487111568450928
+      ],
+      "reproject_pixel": [
+        460.0000114440918,
+        240.00000309944153
+      ],
+      "triangle": 105646,
+      "triangle_vertex_indices": [
+        52983,
+        52984,
+        53314
+      ],
+      "triangle_vertices": [
+        [
+          24.75,
+          9.800000190734863,
+          -0.005258501507341862
+        ],
+        [
+          25.399999618530273,
+          9.800000190734863,
+          0.8702949285507202
+        ],
+        [
+          25.399999618530273,
+          10.449999809265137,
+          2.426759719848633
+        ]
+      ],
+      "triangle_vertex_material_weights": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpolated_material_weight": 0.0,
+      "triangle_vertex_z_deltas_m": [
+        0,
+        0,
+        0
+      ],
+      "shading_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": -0.34873744089802705
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 2.337909698486328
+        },
+        {
+          "name": "bridge",
+          "clearance_m": 2.7677508981639103
+        },
+        {
+          "name": "river_segment:3",
+          "clearance_m": 3.81997633857935
+        },
+        {
+          "name": "river_segment:2",
+          "clearance_m": 3.963982235539441
+        },
+        {
+          "name": "building:main_plunge_and_stair",
+          "clearance_m": 4.737909698486327
+        },
+        {
+          "name": "building:main_final_MAIN_B_PLUNGE",
+          "clearance_m": 5.358309698486327
+        },
+        {
+          "name": "building:main_final_MAIN_L1_LOGGIA",
+          "clearance_m": 5.410709698486325
+        }
+      ],
+      "geometry_clearances": [
+        {
+          "name": "path:bridge_north_approach",
+          "clearance_m": -0.34873744089802705
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_002",
+          "clearance_m": 1.023247843840021
+        },
+        {
+          "name": "building:main_north_entry",
+          "clearance_m": 2.337909698486328
+        },
+        {
+          "name": "existing_rock:SITE_Split_Talus_000",
+          "clearance_m": 2.6697364557175556
+        },
+        {
+          "name": "bridge",
+          "clearance_m": 2.7677508981639103
+        },
+        {
+          "name": "existing_rock:SITE_Bank_0119",
+          "clearance_m": 2.894419956207275
+        },
+        {
+          "name": "existing_rock:SITE_Bank_0118",
+          "clearance_m": 2.989359664916992
+        },
+        {
+          "name": "camera:CAM_MAIN_B_PLUNGE_A",
+          "clearance_m": 3.41197649646974
+        }
+      ],
+      "formula_point_material_weight": 0.0,
+      "zone_inside_distances": {
+        "west": -33.94058770305539,
+        "north_bridge": -0.1323261260986328
+      },
+      "proposed_delta_current_field": [
+        0.0,
+        null
+      ]
+    }
+  ],
+  "limits": "Pixel centers are ray-projected through the actual saved camera and independently reprojected. Scene first-hit record flags any intervening object. Terrain masks are analyzed from current helper without invoking build. No scene save/render."
+}

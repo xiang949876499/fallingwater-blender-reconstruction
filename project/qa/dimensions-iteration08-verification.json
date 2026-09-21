@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "test": "Fallingwater_iteration07_all_missing_values_are_null",
+      "pass": true
+    },
+    {
+      "test": "old_scene_missing_new_wall_is_NOT_RUN",
+      "pass": true
+    },
+    {
+      "test": "Fallingwater_iteration08_all_missing_values_are_null",
+      "pass": true
+    },
+    {
+      "test": "new_scene_visible_finish_stair_target_PASS",
+      "pass": true
+    },
+    {
+      "test": "new_stair_rough_finish_not_base_plane_measurement",
+      "pass": true
+    },
+    {
+      "test": "all_three_stair_stations_within_original_tolerance",
+      "pass": true
+    },
+    {
+      "test": "nominal_review_does_not_invent_source_survey_precision",
+      "pass": true
+    },
+    {
+      "test": "MAIN_LEVEL_2_actual_review_matches",
+      "pass": true
+    },
+    {
+      "test": "MAIN_LEVEL_2_reject_source_label",
+      "pass": true
+    },
+    {
+      "test": "MAIN_LEVEL_2_reject_source",
+      "pass": true
+    },
+    {
+      "test": "MAIN_LEVEL_2_reject_reference_m",
+      "pass": true
+    },
+    {
+      "test": "MAIN_LEVEL_2_reject_endpoints",
+      "pass": true
+    },
+    {
+      "test": "MAIN_LEVEL_2_reject_actual_mesh_m",
+      "pass": true
+    },
+    {
+      "test": "GUEST_POOL_WIDTH_actual_review_matches",
+      "pass": true
+    },
+    {
+      "test": "GUEST_POOL_WIDTH_reject_source_label",
+      "pass": true
+    },
+    {
+      "test": "GUEST_POOL_WIDTH_reject_source",
+      "pass": true
+    },
+    {
+      "test": "GUEST_POOL_WIDTH_reject_reference_m",
+      "pass": true
+    },
+    {
+      "test": "GUEST_POOL_WIDTH_reject_endpoints",
+      "pass": true
+    },
+    {
+      "test": "GUEST_POOL_WIDTH_reject_actual_mesh_m",
+      "pass": true
+    },
+    {
+      "test": "GUEST_LAUNDRY_STAIR_CLEAR_actual_review_matches",
+      "pass": true
+    },
+    {
+      "test": "GUEST_LAUNDRY_STAIR_CLEAR_reject_source_label",
+      "pass": true
+    },
+    {
+      "test": "GUEST_LAUNDRY_STAIR_CLEAR_reject_source",
+      "pass": true
+    },
+    {
+      "test": "GUEST_LAUNDRY_STAIR_CLEAR_reject_reference_m",
+      "pass": true
+    },
+    {
+      "test": "GUEST_LAUNDRY_STAIR_CLEAR_reject_endpoints",
+      "pass": true
+    },
+    {
+      "test": "GUEST_LAUNDRY_STAIR_CLEAR_reject_actual_mesh_m",
+      "pass": true
+    },
+    {
+      "test": "room_face_inferences_not_upgraded",
+      "pass": true
+    },
+    {
+      "test": "connection_present_does_not_close_other_missing_categories",
+      "pass": true
+    },
+    {
+      "test": "fresh_mesh_detects_50mm_wrong_wall",
+      "pass": true
+    },
+    {
+      "test": "Fallingwater_iteration07_file_unchanged",
+      "pass": true
+    },
+    {
+      "test": "Fallingwater_iteration08_file_unchanged",
+      "pass": true
+    }
+  ],
+  "scene_sha256": {
+    "Fallingwater_iteration07.blend": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+    "Fallingwater_iteration08.blend": "c5cd501e4c8ae0205ecb2437cd2d06d0c92bcc9a87e7d93d3986aeef976070d7"
+  },
+  "audit_reports": [
+    "dimensions-iteration08-independent-0.json",
+    "dimensions-iteration08-independent-1.json"
+  ],
+  "negative_control": "Temporary in-memory wall translation only; no save, render or production mutation."
+}

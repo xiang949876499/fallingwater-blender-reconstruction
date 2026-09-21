@@ -1,0 +1,57 @@
+{
+  "version": "5.2.1 LTS",
+  "seed": 5346,
+  "units": "meters",
+  "baseline": "HABS circa-2010 geometry with documented contemporary conservation interpretation",
+  "main_registration": {
+    "image": "main-04-sheet.jpg",
+    "origin_px": [
+      327,
+      540
+    ],
+    "meters_per_pixel": [
+      0.0524,
+      0.0531
+    ],
+    "y_up": true,
+    "z_datum": "Main Level Terrace"
+  },
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "samples": 512,
+    "preview_samples": 48,
+    "width": 3840,
+    "height": 2160,
+    "view_transform": "AgX"
+  },
+  "navigation": {
+    "eye_height": 1.6,
+    "speed": 1.0,
+    "near_clip": 0.02,
+    "far_clip": 2500
+  },
+  "water": {
+    "start_frame": 1,
+    "end_frame": 240,
+    "fps": 24
+  },
+  "status": "iteration06_build",
+  "site_registration": {
+    "source": "HABS PA-5346 sheet02",
+    "origin_normalized_px": [
+      507.2,
+      476.0
+    ],
+    "meters_per_pixel": 0.131,
+    "uncertainty_m": 0.3,
+    "evidence": "C graphical alignment from four plan landmarks; scale bar A"
+  },
+  "guest_registration": {
+    "world_origin": [
+      3.4,
+      37.1,
+      8.4
+    ]
+  }
+}

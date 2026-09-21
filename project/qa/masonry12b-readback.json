@@ -1,0 +1,67 @@
+{
+  "status": "PASS_FRESH_PROCESS_EXACT_REOPEN",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_masonry_tower_candidate12b.blend",
+  "candidate_sha256": "35d743a55af14290daa4a12e647a6d1d7717b3adeddc073a83739001f78f17c4",
+  "physical_comparison_frame": 48,
+  "snapshot_exact": true,
+  "repeat_no_mutation": true,
+  "repeat": {
+    "status": "SKIPPED_ALREADY_APPLIED",
+    "objects": [
+      "MASONRY12b_TopCompletion_W",
+      "MASONRY12b_TopCompletion_E",
+      "MASONRY12b_TopCompletion_South_Return"
+    ]
+  },
+  "protected_geometry_count": 77,
+  "camera_count": 131,
+  "source_unchanged": true,
+  "helper_sha256": "8f801ada246e6c492785d3174b11532e1d5ed495578498864258d2687eca05c4",
+  "rendered": false,
+  "saved": false,
+  "seconds": 117.08198219999758,
+  "oriented_edge_mismatch_components": [],
+  "nonadjacent_self_or_cross_component_intersections": [],
+  "five_modified_evaluated_meshes_closed": [
+    {
+      "object": "MAIN_chimney_cap",
+      "evaluated_triangles": 12,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 0.09117663124282838,
+      "signed_volume_m3": 0.6197136441866545
+    },
+    {
+      "object": "MAIN_chimney_flue",
+      "evaluated_triangles": 12,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 0.00314407243916069,
+      "signed_volume_m3": 0.004673684636751809
+    },
+    {
+      "object": "MAIN_chimney_flue.001",
+      "evaluated_triangles": 12,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 0.003144071860614996,
+      "signed_volume_m3": 0.0046743092437585175
+    },
+    {
+      "object": "MAIN_stone_tower_north",
+      "evaluated_triangles": 108,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 1.1282701509399581e-05,
+      "signed_volume_m3": 2.714097412104214
+    },
+    {
+      "object": "MAIN_stone_tower_west",
+      "evaluated_triangles": 108,
+      "bad_oriented_edges": 0,
+      "nonadjacent_self_intersections": 0,
+      "minimum_triangle_area_m2": 1.1282624941281417e-05,
+      "signed_volume_m3": 10.130089804768735
+    }
+  ]
+}

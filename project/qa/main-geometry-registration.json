@@ -1,0 +1,92 @@
+{
+  "source": "project/data/site-02-original.tif",
+  "source_sha256": "ec218ba0f6fb61af17e39d689458eb43702685ebad22885e9a39ce2f8b3669e7",
+  "method": "Rotate clockwise90; resize1024\u00d7790 for pixel registration. Metric0\u20134m scale approximately30.5px. Match multiple distinct outline corners, retain spread.",
+  "site_origin_px": [
+    507.2,
+    476.0
+  ],
+  "site_scale_m_per_px": 0.131,
+  "uncertainty_m": 0.3,
+  "anchors": [
+    {
+      "label": "Study northwest",
+      "main_px": [
+        241,
+        223
+      ],
+      "site_px": [
+        473,
+        349
+      ],
+      "inferred_site_origin": [
+        507.4,
+        477.493893129771
+      ],
+      "evidence": "C manually matched graphically corresponding wall/parapet/roof lines"
+    },
+    {
+      "label": "Third terrace southeast",
+      "main_px": [
+        530,
+        383
+      ],
+      "site_px": [
+        589,
+        411
+      ],
+      "inferred_site_origin": [
+        507.8,
+        474.6389312977099
+      ],
+      "evidence": "C manually matched graphically corresponding wall/parapet/roof lines"
+    },
+    {
+      "label": "Second south terrace southeast",
+      "main_px": [
+        463,
+        580
+      ],
+      "site_px": [
+        561,
+        492
+      ],
+      "inferred_site_origin": [
+        506.6,
+        475.78625954198475
+      ],
+      "evidence": "C manually matched graphically corresponding wall/parapet/roof lines"
+    },
+    {
+      "label": "Elongated roof southeast",
+      "main_px": [
+        731,
+        427
+      ],
+      "site_px": [
+        669,
+        430
+      ],
+      "inferred_site_origin": [
+        507.4,
+        475.80381679389313
+      ],
+      "evidence": "C manually matched graphically corresponding wall/parapet/roof lines"
+    }
+  ],
+  "guest_plan_anchor_px": [
+    533,
+    193
+  ],
+  "guest_main_world_xy": [
+    3.3798,
+    37.073
+  ],
+  "guest_world_z": {
+    "value_m": 8.4,
+    "uncertainty_m": 1.0,
+    "evidence": "C not solved by a shared surveyed benchmark"
+  },
+  "vertical_review": "Inspected main08/09 elevations,10 sections,11 details. Main11 contains lamps/fireplace/hatch/desk, no shared main/guest datum;08 shows partial uphill canopy but provides no direct guest level. Guest worker independently inspected guest04 with same conclusion.",
+  "north": "+Y means drawing up. Arrow points approximately45\u00b0east of +Y; no surveyed geographic bearing is claimed."
+}

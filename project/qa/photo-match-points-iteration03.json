@@ -1,0 +1,1310 @@
+{
+  "test_id": "GEO-07",
+  "version": 1,
+  "method": "Manual structural landmarks; frozen camera fit on training points; independent holdouts reported separately; no geometry change",
+  "photos": [
+    {
+      "id": "main_sw_87",
+      "kind": "exterior",
+      "item_id": "pa1690.color.570317c",
+      "title": "southwest",
+      "view_direction": "southwest",
+      "source_date": "1985-03",
+      "date_basis": "Original HABS caption index explicitly dates photographer batch; individual day unknown",
+      "photographer": "Jack E. Boucher, HABS",
+      "record_url": "https://www.loc.gov/pictures/item/pa1690.color.570317c/",
+      "caption_index_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/data/pa1690cap.pdf",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/color/570317cv.jpg",
+      "download_url": "https://cdn.loc.gov/service/pnp/habshaer/pa/pa1600/pa1690/color/570317cv.jpg",
+      "local_path": "project/data/photo_refs/main_sw_87.jpg",
+      "sha256": "3cb9d4b007be1fab6f0582b23e64782b93731b622735f3b77d2facc9714a7475",
+      "bytes": 416258,
+      "image_size": [
+        738,
+        1024
+      ],
+      "accessed_date": "2026-09-20",
+      "verification_status": "downloaded_verified + viewed_image",
+      "rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "points": [
+        {
+          "id": "SW01",
+          "label": "master terrace west/north upper",
+          "photo_px": [
+            258,
+            356
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_L2_south_parapet_0",
+          "candidate_vertex": 4,
+          "object": null,
+          "vertex": null
+        },
+        {
+          "id": "SW02",
+          "label": "master terrace southwest upper",
+          "photo_px": [
+            410,
+            318
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_L2_south_parapet_0",
+          "candidate_vertex": 5,
+          "object": null,
+          "vertex": null
+        },
+        {
+          "id": "SW03",
+          "label": "master terrace southwest lower",
+          "photo_px": [
+            409,
+            381
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_L2_south_parapet_0",
+          "candidate_vertex": 1,
+          "object": null,
+          "vertex": null
+        },
+        {
+          "id": "SW04",
+          "label": "master terrace west/north lower",
+          "photo_px": [
+            258,
+            413
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_L2_south_parapet_0",
+          "candidate_vertex": 0,
+          "object": null,
+          "vertex": null
+        },
+        {
+          "id": "SW05",
+          "label": "master terrace southeast upper",
+          "photo_px": [
+            601,
+            495
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_L2_south_parapet_1",
+          "candidate_vertex": 5,
+          "object": null,
+          "vertex": null
+        },
+        {
+          "id": "SW06",
+          "label": "master terrace southeast lower",
+          "photo_px": [
+            600,
+            527
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_L2_south_parapet_1",
+          "candidate_vertex": 1,
+          "object": null,
+          "vertex": null
+        },
+        {
+          "id": "SW07",
+          "label": "chimney cap southwest",
+          "photo_px": [
+            253,
+            178
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_chimney_cap",
+          "candidate_vertex": 4,
+          "object": null,
+          "vertex": null
+        },
+        {
+          "id": "SW08",
+          "label": "chimney cap southeast",
+          "photo_px": [
+            276,
+            195
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_chimney_cap",
+          "candidate_vertex": 5,
+          "object": null,
+          "vertex": null
+        },
+        {
+          "id": "SW09",
+          "label": "chimney cap northwest",
+          "photo_px": [
+            200,
+            211
+          ],
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently agrees terrace layering is ambiguous; prior fit withdrawn",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_chimney_cap",
+          "candidate_vertex": 7,
+          "object": null,
+          "vertex": null
+        }
+      ],
+      "camera_seed": {
+        "eye": [
+          -16,
+          -9,
+          -5
+        ],
+        "target": [
+          3,
+          7,
+          3
+        ],
+        "focal_pixels": 650
+      },
+      "gates": "NOT_RUN: provisional terrace level/corner identification, insufficient training points; camera must not be promoted to production"
+    },
+    {
+      "id": "main_east_88",
+      "kind": "exterior",
+      "item_id": "pa1690.color.570318c",
+      "title": "east, south end of bridge",
+      "view_direction": "east, south end of bridge",
+      "source_date": "1985-03",
+      "date_basis": "Original HABS caption index explicitly dates photographer batch; individual day unknown",
+      "photographer": "Jack E. Boucher, HABS",
+      "record_url": "https://www.loc.gov/pictures/item/pa1690.color.570318c/",
+      "caption_index_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/data/pa1690cap.pdf",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/color/570318cv.jpg",
+      "download_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/color/570318cv.jpg",
+      "local_path": "project/data/photo_refs/main_east_88.jpg",
+      "sha256": "fe4c71c25236eb25eb1c97665f283be8193cdeccbbbcb286d415c89c14fb27fe",
+      "bytes": 421152,
+      "image_size": [
+        1024,
+        743
+      ],
+      "accessed_date": "2026-09-20",
+      "verification_status": "downloaded_verified + viewed_image",
+      "rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "points": [
+        {
+          "id": "E01",
+          "label": "east terrace southeast top",
+          "photo_px": [
+            305,
+            386
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 5,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E02",
+          "label": "east terrace southwest top",
+          "photo_px": [
+            226,
+            375
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 4,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E03",
+          "label": "east terrace southeast base",
+          "photo_px": [
+            305,
+            456
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 1,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E04",
+          "label": "east terrace southwest base",
+          "photo_px": [
+            226,
+            400
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 0,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E05",
+          "label": "east terrace northeast top",
+          "photo_px": [
+            608,
+            377
+          ],
+          "object": "MAIN_L1_east_parapet_1",
+          "vertex": 5,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E06",
+          "label": "east terrace northeast base",
+          "photo_px": [
+            608,
+            426
+          ],
+          "object": "MAIN_L1_east_parapet_1",
+          "vertex": 1,
+          "role": "holdout",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E07",
+          "label": "upper east terrace southwest top",
+          "photo_px": [
+            350,
+            304
+          ],
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently confirms overlap of two terrace edges, not a single vertex",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_L2_east_parapet_0",
+          "object": null,
+          "blocker": "Screen-space edge intersection cannot be matched to one model vertex"
+        },
+        {
+          "id": "E08",
+          "label": "upper east terrace southeast top",
+          "photo_px": [
+            703,
+            246
+          ],
+          "object": "MAIN_L2_east_parapet_0",
+          "vertex": 5,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E09",
+          "label": "upper east terrace southeast base",
+          "photo_px": [
+            703,
+            315
+          ],
+          "object": "MAIN_L2_east_parapet_0",
+          "vertex": 1,
+          "role": "holdout",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E10",
+          "label": "upper east terrace southwest base",
+          "photo_px": [
+            350,
+            335
+          ],
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U: main-house author independently confirms overlap of two terrace edges, not a single vertex",
+          "pixel_pick_uncertainty": 3,
+          "candidate_object": "MAIN_L2_east_parapet_0",
+          "object": null,
+          "blocker": "Screen-space edge intersection cannot be matched to one model vertex"
+        },
+        {
+          "id": "E11",
+          "label": "upper east terrace northeast top",
+          "photo_px": [
+            790,
+            264
+          ],
+          "object": "MAIN_L2_east_parapet_1",
+          "vertex": 5,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E12",
+          "label": "upper east terrace northeast base",
+          "photo_px": [
+            790,
+            316
+          ],
+          "object": "MAIN_L2_east_parapet_1",
+          "vertex": 1,
+          "role": "holdout",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E13",
+          "label": "Master terrace southeast top; separate terrace from guest terrace",
+          "photo_px": [
+            191,
+            300
+          ],
+          "object": "MAIN_L2_south_parapet_2",
+          "vertex": 4,
+          "role": "fit",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E14",
+          "label": "Master terrace southeast base",
+          "photo_px": [
+            191,
+            337
+          ],
+          "object": "MAIN_L2_south_parapet_2",
+          "vertex": 0,
+          "role": "holdout",
+          "correspondence_confidence": "B/C observed corner; level association reviewed with main-house author, exact base-mesh face corner not independently measured",
+          "pixel_pick_uncertainty": 3
+        }
+      ],
+      "camera_seed": {
+        "eye": [
+          30,
+          -2,
+          2
+        ],
+        "target": [
+          5,
+          8,
+          3
+        ],
+        "focal_pixels": 900
+      },
+      "gates": "NOT_RUN: diagnostic fit performed but structural correspondence ambiguity prevents acceptance; model-error conclusion not supported"
+    },
+    {
+      "id": "main_living_48",
+      "kind": "interior",
+      "item_id": "pa1690.photos.134187p",
+      "title": "from kitchen door in northwest corner",
+      "view_direction": "from kitchen door in northwest corner",
+      "source_date": "1985-02/03",
+      "date_basis": "Original HABS caption index explicitly dates photographer batch; individual day unknown",
+      "photographer": "Jack E. Boucher, HABS",
+      "record_url": "https://www.loc.gov/pictures/item/pa1690.photos.134187p/",
+      "caption_index_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/data/pa1690cap.pdf",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/photos/134187pv.jpg",
+      "download_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/photos/134187pv.jpg",
+      "local_path": "project/data/photo_refs/main_living_48.jpg",
+      "sha256": "d2712f49a72dd0be5340d0d16a53baec1f0bf04c67af384d409ee341da61a3e7",
+      "bytes": 327583,
+      "image_size": [
+        1024,
+        750
+      ],
+      "accessed_date": "2026-09-20",
+      "verification_status": "downloaded_verified + viewed_image",
+      "rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "points": [
+        {
+          "id": "P01",
+          "label": "east stone pier ceiling junction",
+          "photo_px": [
+            276,
+            218
+          ],
+          "category": "architecture",
+          "candidate_object": "MAIN_L1_east_pier",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Exact visible pier face/ceiling intersection needs manual correspondence review"
+        },
+        {
+          "id": "P02",
+          "label": "east stone pier foot",
+          "photo_px": [
+            312,
+            385
+          ],
+          "category": "architecture",
+          "candidate_object": "MAIN_L1_east_pier",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Floor/pier foot partly occluded by desk"
+        },
+        {
+          "id": "P03",
+          "label": "south window east corner head",
+          "photo_px": [
+            379,
+            247
+          ],
+          "category": "architecture",
+          "candidate_object": "MAIN_L1_living_south_head",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Window corner identification; scene has nine equal bays, photo bay count differs"
+        },
+        {
+          "id": "P04",
+          "label": "south window west head termination",
+          "photo_px": [
+            778,
+            246
+          ],
+          "category": "architecture",
+          "candidate_object": "MAIN_L1_living_south_head",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Head termination at stone pier partly obscured by plant"
+        },
+        {
+          "id": "P05",
+          "label": "ceiling recess near left corner",
+          "photo_px": [
+            73,
+            122
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Current flat ceiling lacks this recess"
+        },
+        {
+          "id": "P06",
+          "label": "ceiling recess far left corner",
+          "photo_px": [
+            712,
+            82
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Current flat ceiling lacks this recess"
+        },
+        {
+          "id": "P07",
+          "label": "ceiling recess far right corner",
+          "photo_px": [
+            701,
+            181
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Current flat ceiling lacks this recess"
+        },
+        {
+          "id": "P08",
+          "label": "ceiling recess near right corner",
+          "photo_px": [
+            305,
+            191
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Current flat ceiling lacks this recess"
+        },
+        {
+          "id": "P09",
+          "label": "west-side header to masonry junction",
+          "photo_px": [
+            835,
+            208
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Header layout not securely paired to source-plan element"
+        },
+        {
+          "id": "P10",
+          "label": "ceiling beam crossing at east stone pier",
+          "photo_px": [
+            280,
+            204
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Ceiling beam/recess framing topology not reproduced"
+        }
+      ],
+      "camera_seed": {
+        "eye": [
+          -0.1,
+          12.3,
+          1.65
+        ],
+        "target": [
+          3.5,
+          3,
+          1.2
+        ],
+        "focal_pixels": 770,
+        "status": "Compositional candidate from plan/caption only; NOT a calibrated camera"
+      },
+      "gates": "NOT_RUN: 8 independently verified, dispersed 3D correspondences not available; no fake residual is reported"
+    },
+    {
+      "id": "main_kitchen_56",
+      "kind": "interior",
+      "item_id": "pa1690.photos.134195p",
+      "title": "west kitchen cabinets",
+      "view_direction": "west kitchen cabinets",
+      "source_date": "1985-02/03",
+      "date_basis": "Original HABS caption index explicitly dates photographer batch; individual day unknown",
+      "photographer": "Jack E. Boucher, HABS",
+      "record_url": "https://www.loc.gov/pictures/item/pa1690.photos.134195p/",
+      "caption_index_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/data/pa1690cap.pdf",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/photos/134195pv.jpg",
+      "download_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa1600/pa1690/photos/134195pv.jpg",
+      "local_path": "project/data/photo_refs/main_kitchen_56.jpg",
+      "sha256": "595360f28177178641a0ef05bfc41c1dd18ab59b82c5dfe3d752a64a89719d1e",
+      "bytes": 209273,
+      "image_size": [
+        737,
+        1024
+      ],
+      "accessed_date": "2026-09-20",
+      "verification_status": "downloaded_verified + viewed_image",
+      "rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "points": [
+        {
+          "id": "P01",
+          "label": "south window right jamb at head",
+          "photo_px": [
+            235,
+            197
+          ],
+          "category": "architecture",
+          "candidate_object": "MAIN_L1_kitchen_south_head",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Present model opening is sill 1.00 m rather than photograph floor-height opening"
+        },
+        {
+          "id": "P02",
+          "label": "south window right jamb foot",
+          "photo_px": [
+            237,
+            681
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Floor-height window jamb absent in iteration03"
+        },
+        {
+          "id": "P03",
+          "label": "south window center jamb foot",
+          "photo_px": [
+            144,
+            680
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Full-height tall/short asymmetric window partition absent"
+        },
+        {
+          "id": "P04",
+          "label": "south window center jamb at head",
+          "photo_px": [
+            146,
+            187
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Four equal model bays do not identify this wider fixed leaf"
+        },
+        {
+          "id": "P05",
+          "label": "left window transom 1 intersection",
+          "photo_px": [
+            130,
+            251
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Multiple horizontal operable-light divisions absent in model"
+        },
+        {
+          "id": "P06",
+          "label": "left window transom 2 intersection",
+          "photo_px": [
+            130,
+            328
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Multiple horizontal operable-light divisions absent in model"
+        },
+        {
+          "id": "P07",
+          "label": "left window transom 3 intersection",
+          "photo_px": [
+            130,
+            397
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Multiple horizontal operable-light divisions absent in model"
+        },
+        {
+          "id": "P08",
+          "label": "left window transom 4 intersection",
+          "photo_px": [
+            130,
+            463
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Multiple horizontal operable-light divisions absent in model"
+        },
+        {
+          "id": "P09",
+          "label": "ceiling to stone wall reentrant corner",
+          "photo_px": [
+            359,
+            211
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Need corresponding west/south wall face intersection after opening correction"
+        },
+        {
+          "id": "P10",
+          "label": "far countertop corner",
+          "photo_px": [
+            239,
+            525
+          ],
+          "category": "fixed_cabinet",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Cabinet proxy has no independently measured exact corner; excluded from structural calibration"
+        },
+        {
+          "id": "P11",
+          "label": "upper cabinet far top corner",
+          "photo_px": [
+            297,
+            336
+          ],
+          "category": "fixed_cabinet",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Cabinet layout approximate, cannot count as independent structural point"
+        },
+        {
+          "id": "P12",
+          "label": "upper cabinet near lower corner",
+          "photo_px": [
+            565,
+            485
+          ],
+          "category": "fixed_cabinet",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Cabinet layout approximate, cannot count as independent structural point"
+        }
+      ],
+      "camera_seed": {
+        "eye": [
+          -1.2,
+          16.1,
+          1.55
+        ],
+        "target": [
+          -2.4,
+          12.0,
+          1.1
+        ],
+        "focal_pixels": 795,
+        "status": "Compositional candidate from plan/caption only; NOT a calibrated camera"
+      },
+      "gates": "NOT_RUN: 8 independently verified, dispersed 3D correspondences not available; no fake residual is reported"
+    },
+    {
+      "id": "guest_exterior_10",
+      "kind": "exterior",
+      "item_id": "pa2187.photos.134233p",
+      "title": "from west along south facade",
+      "view_direction": "from west along south facade",
+      "source_date": "1985-02/03",
+      "date_basis": "Original HABS caption index explicitly dates photographer batch; individual day unknown",
+      "photographer": "Jack E. Boucher, HABS",
+      "record_url": "https://www.loc.gov/pictures/item/pa2187.photos.134233p/",
+      "caption_index_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/data/pa2187cap.pdf",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134233pv.jpg",
+      "download_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134233pv.jpg",
+      "local_path": "project/data/photo_refs/guest_exterior_10.jpg",
+      "sha256": "3861068b7a43ed1d08941b215192cc2a60ca2d29472b71141fb0d75afc9ed247",
+      "bytes": 255794,
+      "image_size": [
+        742,
+        1024
+      ],
+      "accessed_date": "2026-09-20",
+      "verification_status": "downloaded_verified + viewed_image",
+      "rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "points": [
+        {
+          "id": "P01",
+          "label": "south window west head corner",
+          "photo_px": [
+            88,
+            75
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_head",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Seven repeated model bays; observed framing sequence requires identification against plan"
+        },
+        {
+          "id": "P02",
+          "label": "south window west sill corner",
+          "photo_px": [
+            88,
+            465
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_sill",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Sill/stone relation in model at 0.28 m above room floor; facade stair height affects correspondence"
+        },
+        {
+          "id": "P03",
+          "label": "south window second mullion head",
+          "photo_px": [
+            174,
+            162
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Repeated mullions ambiguous without independent bay identification"
+        },
+        {
+          "id": "P04",
+          "label": "south window second mullion sill",
+          "photo_px": [
+            174,
+            500
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Repeated mullions ambiguous without independent bay identification"
+        },
+        {
+          "id": "P05",
+          "label": "south window east head corner",
+          "photo_px": [
+            405,
+            417
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_head",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "East termination at lounge/gallery change not yet securely paired"
+        },
+        {
+          "id": "P06",
+          "label": "south window east sill corner",
+          "photo_px": [
+            405,
+            556
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_sill",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Sill termination not yet securely paired"
+        },
+        {
+          "id": "P07",
+          "label": "low roof outer east step corner",
+          "photo_px": [
+            657,
+            467
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_LOW_ARM_ROOF",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Projection of exact roof polygon corner not yet identified"
+        },
+        {
+          "id": "P08",
+          "label": "pergola near left corner",
+          "photo_px": [
+            445,
+            474
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_pergola_00",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Pergola spacing/roof junction differs from procedural evenly spaced bars"
+        },
+        {
+          "id": "P09",
+          "label": "pergola near right corner",
+          "photo_px": [
+            560,
+            472
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_pergola_00",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Exact pergola member identification unresolved"
+        },
+        {
+          "id": "P10",
+          "label": "front step upper left corner",
+          "photo_px": [
+            457,
+            642
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Local facade stair steps not present as source-corresponding element"
+        },
+        {
+          "id": "P11",
+          "label": "front step upper right corner",
+          "photo_px": [
+            601,
+            642
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Local facade stair steps not present as source-corresponding element"
+        },
+        {
+          "id": "P12",
+          "label": "foreground step left corner",
+          "photo_px": [
+            236,
+            895
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Source facade approach staircase correspondence unresolved"
+        }
+      ],
+      "camera_seed": {
+        "eye": [
+          3.1,
+          35.4,
+          8.85
+        ],
+        "target": [
+          17,
+          35.4,
+          9.4
+        ],
+        "focal_pixels": 765,
+        "status": "Compositional candidate from plan/caption only; NOT a calibrated camera"
+      },
+      "gates": "NOT_RUN: 8 independently verified, dispersed 3D correspondences not available; no fake residual is reported"
+    },
+    {
+      "id": "guest_living_11",
+      "kind": "interior",
+      "item_id": "pa2187.photos.134234p",
+      "title": "living room from east",
+      "view_direction": "living room from east",
+      "source_date": "1985-02/03",
+      "date_basis": "Original HABS caption index explicitly dates photographer batch; individual day unknown",
+      "photographer": "Jack E. Boucher, HABS",
+      "record_url": "https://www.loc.gov/pictures/item/pa2187.photos.134234p/",
+      "caption_index_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/data/pa2187cap.pdf",
+      "source_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134234pv.jpg",
+      "download_url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134234pv.jpg",
+      "local_path": "project/data/photo_refs/guest_living_11.jpg",
+      "sha256": "9a75b17d5138e7c33b2eff9e3ed5e37d15c065c27740362d3cf450420f439b23",
+      "bytes": 282297,
+      "image_size": [
+        1024,
+        738
+      ],
+      "accessed_date": "2026-09-20",
+      "verification_status": "downloaded_verified + viewed_image",
+      "rights_note": "LOC advisory: US Government-made images have no known restrictions; copied-source images may be restricted. Jack E. Boucher HABS photograph; reference/QA only, not a scene texture.",
+      "points": [
+        {
+          "id": "P01",
+          "label": "west wall ceiling south corner",
+          "photo_px": [
+            418,
+            247
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_L1_WEST_LOUNGE_pier_0",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Photo west corner fireplace changes wall topology; exact face identification pending"
+        },
+        {
+          "id": "P02",
+          "label": "west/north wall ceiling inside corner",
+          "photo_px": [
+            704,
+            230
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Ceiling notch/back wall return topology not securely mapped"
+        },
+        {
+          "id": "P03",
+          "label": "north ceiling recess upper corner",
+          "photo_px": [
+            741,
+            181
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Single low-arm roof does not reproduce visible stepped ceiling junction"
+        },
+        {
+          "id": "P04",
+          "label": "corner fireplace opening left top",
+          "photo_px": [
+            571,
+            350
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Source corner fireplace aperture not identified in exported architecture meshes"
+        },
+        {
+          "id": "P05",
+          "label": "corner fireplace opening left bottom",
+          "photo_px": [
+            571,
+            412
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Source corner fireplace aperture not identified in exported architecture meshes"
+        },
+        {
+          "id": "P06",
+          "label": "corner fireplace opening right top",
+          "photo_px": [
+            677,
+            351
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Fireplace right edge covered by lamp; pixel is inspection area, not measurable corner",
+          "visibility": "occluded by lamp; approximate location only, excluded from fitting and structural point count"
+        },
+        {
+          "id": "P07",
+          "label": "corner fireplace opening right bottom",
+          "photo_px": [
+            677,
+            414
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Fireplace right edge covered by lamp; pixel is inspection area, not measurable corner",
+          "visibility": "occluded by lamp; approximate location only, excluded from fitting and structural point count"
+        },
+        {
+          "id": "P08",
+          "label": "south window near head",
+          "photo_px": [
+            244,
+            271
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_head",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Near end hidden by wood screen; exact bay unknown"
+        },
+        {
+          "id": "P09",
+          "label": "south window middle head",
+          "photo_px": [
+            365,
+            287
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Photo visible segment bay identifier unresolved"
+        },
+        {
+          "id": "P10",
+          "label": "south window middle sill",
+          "photo_px": [
+            365,
+            382
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Photo visible segment bay identifier unresolved"
+        },
+        {
+          "id": "P11",
+          "label": "south window near sill",
+          "photo_px": [
+            244,
+            414
+          ],
+          "category": "architecture",
+          "candidate_object": "GUEST_L1_LOUNGE_FRONT_steel_window_0_sill",
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Near end occluded by wood screen"
+        },
+        {
+          "id": "P12",
+          "label": "rear stone ledge corner",
+          "photo_px": [
+            702,
+            420
+          ],
+          "category": "architecture",
+          "candidate_object": null,
+          "object": null,
+          "vertex": null,
+          "role": "unresolved",
+          "correspondence_confidence": "U for 3D match; observed photo feature B",
+          "pixel_pick_uncertainty": 3,
+          "blocker": "Hearth/stone ledge silhouette differs from generic furnished prototype"
+        }
+      ],
+      "camera_seed": {
+        "eye": [
+          9.6,
+          38.4,
+          9.95
+        ],
+        "target": [
+          3.8,
+          38.2,
+          9.35
+        ],
+        "focal_pixels": 795,
+        "status": "Compositional candidate from plan/caption only; NOT a calibrated camera"
+      },
+      "gates": "NOT_RUN: 8 independently verified, dispersed 3D correspondences not available; no fake residual is reported"
+    }
+  ]
+}

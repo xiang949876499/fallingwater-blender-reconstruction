@@ -1,0 +1,50 @@
+{
+  "variant": "raytracing_off",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_preview_iteration05.blend",
+  "source_sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+  "camera": "CAM_MAIN_B_BATH_B",
+  "camera_location": [
+    -2.538800001144409,
+    14.336999893188477,
+    -0.5278000235557556
+  ],
+  "camera_rotation": [
+    1.4660792350769043,
+    3.30721050545435e-08,
+    -1.3448517322540283
+  ],
+  "exposure": 0.800000011920929,
+  "engine": "BLENDER_EEVEE",
+  "samples": 32,
+  "resolution": [
+    960,
+    540
+  ],
+  "status": "RENDERED",
+  "production_scene_saved": false,
+  "gi_rebaked": false,
+  "changes": [
+    {
+      "property": "scene.eevee.use_raytracing",
+      "before": true,
+      "after": false
+    }
+  ],
+  "eevee_before": {
+    "use_fast_gi": "True",
+    "fast_gi_thickness_near": "0.10000000149011612",
+    "fast_gi_quality": "0.25",
+    "fast_gi_step_count": "8",
+    "fast_gi_ray_count": "2",
+    "fast_gi_method": "GLOBAL_ILLUMINATION",
+    "fast_gi_distance": "0.0",
+    "fast_gi_bias": "0.05000000074505806",
+    "fast_gi_resolution": "2",
+    "use_raytracing": "True"
+  },
+  "seconds": 63.78792670000075,
+  "path": "D:\\zx\\test\\project\\qa\\eevee-iteration05-dark-raytracing_off.png",
+  "sha256": "a31707bfaed1f2db6a75e2f9ed11539e9ef87de53218cd867a682c1acc1cc23b",
+  "visual_acceptance": "FAIL: inverted triangle remains",
+  "viewed_native": true
+}

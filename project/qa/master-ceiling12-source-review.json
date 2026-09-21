@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-09-21",
+  "status": "SOURCE_HEIGHT_OPEN_NO_JUSTIFIED_CEILING_ONLY_CORRECTION",
+  "scope": "Read-only local raster source review; new ceiling12 QA files only; no Blender, model edits, rendering, download or navigation rerun.",
+  "source": {
+    "path": "research\\references\\architecture\\main-10-original.tif",
+    "sha256": "db6591996c049961a50ba593c002dc394d5708f1c15c5935e1c3671aed1e2ac7",
+    "native_raw_size": [
+      13632,
+      17702
+    ],
+    "orientation": "clockwise 90 degrees, no resampling",
+    "oriented_size": [
+      17702,
+      13632
+    ],
+    "tiff_dpi_metadata": [
+      400,
+      400
+    ],
+    "dpi_limit": "Metadata does not establish the scale or isotropy of the drawn artwork.",
+    "url": "https://www.loc.gov/pictures/item/pa1690.sheet.00010a/"
+  },
+  "printed_levels_A": [
+    {
+      "id": "main",
+      "text": "MAIN LEVEL TERRACE",
+      "printed_value": "0'-0\"",
+      "metres": 0.0,
+      "west_tail_line_y": 10839.5
+    },
+    {
+      "id": "second",
+      "text": "SECOND LEVEL TERRACE",
+      "printed_value": "9'-4\"",
+      "metres": 2.8448,
+      "west_tail_line_y": 9907.5
+    },
+    {
+      "id": "third",
+      "text": "THIRD LEVEL TERRACE",
+      "printed_value": "17'-3 1/4\"",
+      "metres": 5.26415,
+      "west_tail_line_y": 9075.5
+    },
+    {
+      "id": "roof",
+      "text": "ROOF",
+      "printed_value": "24'-11 3/4\"",
+      "metres": 7.61365,
+      "west_tail_line_y": 8346.5
+    },
+    {
+      "id": "tower",
+      "text": "MAIN TOWER",
+      "printed_value": "32'-9 1/2\"",
+      "metres": 9.9949,
+      "west_tail_line_y": 7635.5
+    }
+  ],
+  "level_identity_findings": {
+    "tower": "WEST coping top, not the tops of chimney caps. Ink7637..7640 vs near datum7636..7637.",
+    "roof": "WEST sectioned upper roof plate TOP, not underside; ink8343..8354 contains near datum8347..8349.",
+    "third": "WEST continuous plate TOP directly above Master, ink9073..9084 contains near datum9077..9078. Right interior floor9178..9184 is a different local surface and excluded.",
+    "second": "Label identifies second TERRACE datum. The continuous left terrace-to-Master upper hatched boundary is at9921..9933,9919..9931,9918..9929: about16px BELOW the label datum. Finish equivalence is UNRESOLVED, not assumed. No stair tread selected.",
+    "main": "WEST exterior ground/terrace line10833..10849 and L1 sectioned slab upper edge10838..10849 overlap datum10839..10840; upper nearby furniture line10799..10803 excluded.",
+    "east_exclusion": "EAST is a separate section. ROOF there is24ft7 3/8in, not WEST24ft11 3/4in. East L2/L3 label pixel intervals confirm a similar pattern only; never mixed into Master calibration."
+  },
+  "ink_probes": {
+    "tower_datum_tail": {
+      "native_box": [
+        15820,
+        7600,
+        15900,
+        7670
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          7635,
+          7636
+        ]
+      ]
+    },
+    "roof_datum_tail": {
+      "native_box": [
+        15820,
+        8310,
+        15900,
+        8380
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          8346,
+          8347
+        ]
+      ]
+    },
+    "third_datum_tail": {
+      "native_box": [
+        15820,
+        9040,
+        15900,
+        9110
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9075,
+          9076
+        ]
+      ]
+    },
+    "second_datum_tail": {
+      "native_box": [
+        15820,
+        9870,
+        15900,
+        9950
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9907,
+          9908
+        ]
+      ]
+    },
+    "main_datum_tail": {
+      "native_box": [
+        15820,
+        10810,
+        15900,
+        10880
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          10839,
+          10840
+        ]
+      ]
+    },
+    "tower_datum_near_building": {
+      "native_box": [
+        11100,
+        7580,
+        11400,
+        7690
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          7636,
+          7637
+        ]
+      ]
+    },
+    "tower_coping": {
+      "native_box": [
+        8500,
+        7580,
+        8900,
+        7690
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          7637,
+          7640
+        ]
+      ]
+    },
+    "roof_datum_near_building": {
+      "native_box": [
+        11600,
+        8300,
+        11900,
+        8390
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          8347,
+          8349
+        ]
+      ]
+    },
+    "roof_plane": {
+      "native_box": [
+        9900,
+        8300,
+        10200,
+        8390
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          8343,
+          8354
+        ]
+      ]
+    },
+    "third_datum_near_building": {
+      "native_box": [
+        11300,
+        9020,
+        11600,
+        9130
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9077,
+          9078
+        ]
+      ]
+    },
+    "third_datum_middle": {
+      "native_box": [
+        12300,
+        9020,
+        12500,
+        9130
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9076,
+          9077
+        ]
+      ]
+    },
+    "third_common_top": {
+      "native_box": [
+        8700,
+        9020,
+        9250,
+        9130
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9073,
+          9084
+        ]
+      ]
+    },
+    "third_right_interior_REJECTED_AS_TERRACE_DATUM": {
+      "native_box": [
+        10430,
+        9020,
+        10630,
+        9230
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9178,
+          9184
+        ]
+      ]
+    },
+    "second_datum_near_building": {
+      "native_box": [
+        11480,
+        9870,
+        11900,
+        9960
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9908,
+          9909
+        ]
+      ]
+    },
+    "second_datum_middle": {
+      "native_box": [
+        12700,
+        9870,
+        12900,
+        9960
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9907,
+          9908
+        ]
+      ]
+    },
+    "second_left_terrace_top": {
+      "native_box": [
+        4900,
+        9870,
+        5400,
+        9960
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9921,
+          9933
+        ]
+      ]
+    },
+    "second_terrace_near_window_top": {
+      "native_box": [
+        6500,
+        9870,
+        7000,
+        9960
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9919,
+          9931
+        ]
+      ]
+    },
+    "master_floor_top": {
+      "native_box": [
+        7900,
+        9870,
+        9200,
+        9960
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9918,
+          9929
+        ]
+      ]
+    },
+    "master_floor_top_east_probe": {
+      "native_box": [
+        9600,
+        9870,
+        9700,
+        9960
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9917,
+          9928
+        ]
+      ]
+    },
+    "master_low_soffit": {
+      "native_box": [
+        7700,
+        9240,
+        8150,
+        9300
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9277,
+          9288
+        ]
+      ]
+    },
+    "master_high_soffit": {
+      "native_box": [
+        8700,
+        9110,
+        9250,
+        9190
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          9139,
+          9151
+        ]
+      ]
+    },
+    "main_datum_middle": {
+      "native_box": [
+        13900,
+        10790,
+        14100,
+        10890
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          10840,
+          10840
+        ]
+      ]
+    },
+    "main_ground_right": {
+      "native_box": [
+        11700,
+        10790,
+        12200,
+        10890
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          10833,
+          10849
+        ]
+      ]
+    },
+    "main_floor_left": {
+      "native_box": [
+        7300,
+        10790,
+        7550,
+        10890
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          10799,
+          10803
+        ],
+        [
+          10838,
+          10849
+        ]
+      ]
+    },
+    "east_labels_SEPARATE_VIEW_NOT_CALIBRATION": {
+      "native_box": [
+        15700,
+        2000,
+        15800,
+        5800
+      ],
+      "black_fraction_threshold": 0.7,
+      "ink_bands_y_inclusive": [
+        [
+          2237,
+          2238
+        ],
+        [
+          2932,
+          2932
+        ],
+        [
+          3764,
+          3765
+        ],
+        [
+          4696,
+          4698
+        ],
+        [
+          5623,
+          5624
+        ]
+      ]
+    }
+  },
+  "adjacent_vertical_scales": [
+    {
+      "pair": [
+        "main",
+        "second"
+      ],
+      "delta_printed_m": 2.8448,
+      "delta_datum_native_px": 932.0,
+      "conditional_m_per_px": 0.0030523605150214596,
+      "qualification": "Adjacent labelled datums, not proof of uniform graphic scale or finish identity."
+    },
+    {
+      "pair": [
+        "second",
+        "third"
+      ],
+      "delta_printed_m": 2.4193499999999997,
+      "delta_datum_native_px": 832.0,
+      "conditional_m_per_px": 0.0029078725961538456,
+      "qualification": "Adjacent labelled datums, not proof of uniform graphic scale or finish identity."
+    },
+    {
+      "pair": [
+        "third",
+        "roof"
+      ],
+      "delta_printed_m": 2.3495,
+      "delta_datum_native_px": 729.0,
+      "conditional_m_per_px": 0.0032229080932784635,
+      "qualification": "Adjacent labelled datums, not proof of uniform graphic scale or finish identity."
+    },
+    {
+      "pair": [
+        "roof",
+        "tower"
+      ],
+      "delta_printed_m": 2.3812499999999996,
+      "delta_datum_native_px": 711.0,
+      "conditional_m_per_px": 0.0033491561181434593,
+      "qualification": "Adjacent labelled datums, not proof of uniform graphic scale or finish identity."
+    }
+  ],
+  "scale_causality": "Not established. Adjacent span differences persist after identifying sections/datums, but do not demonstrate nonuniform scan, wrong storey heights, or wrong printed labels. No single vertical scale is certified.",
+  "graphical_picks_C": {
+    "nominal_y": {
+      "top": 9078.5,
+      "high": 9145.0,
+      "low": 9282.5,
+      "floor": 9923.5
+    },
+    "ink_envelopes_y": {
+      "top": [
+        9073,
+        9085
+      ],
+      "high": [
+        9139,
+        9151
+      ],
+      "low": [
+        9277,
+        9288
+      ],
+      "floor": [
+        9917,
+        9929
+      ]
+    },
+    "master_floor_identity": "Upper boundary of sectioned floor slab, visibly continuous through terrace and room. Separate finished-floor build-up is not drawn legibly: exact finish identity U.",
+    "ceiling_identity": "Lowest broad south underside and highest broad north underside of same sectioned plate; thin window head and fireplace lines excluded."
+  },
+  "local_conditional_metrics_C": [
+    {
+      "id": "step",
+      "pair": [
+        "low",
+        "high"
+      ],
+      "nominal_native_px": 137.5,
+      "ink_band_distance_px": [
+        126,
+        149
+      ],
+      "conditional_nominal_m": 0.3998324819711538,
+      "conditional_ink_and_datum_range_m": [
+        0.3646388755980861,
+        0.4353661231884058
+      ]
+    },
+    {
+      "id": "low_clear",
+      "pair": [
+        "floor",
+        "low"
+      ],
+      "nominal_native_px": 641.0,
+      "ink_band_distance_px": [
+        629,
+        652
+      ],
+      "conditional_nominal_m": 1.863946334134615,
+      "conditional_ink_and_datum_range_m": [
+        1.8203004186602871,
+        1.9050920289855071
+      ]
+    },
+    {
+      "id": "high_clear",
+      "pair": [
+        "floor",
+        "high"
+      ],
+      "nominal_native_px": 778.5,
+      "ink_band_distance_px": [
+        766,
+        790
+      ],
+      "conditional_nominal_m": 2.263778816105769,
+      "conditional_ink_and_datum_range_m": [
+        2.216772846889952,
+        2.308317028985507
+      ]
+    },
+    {
+      "id": "north_plate_graphic_thickness",
+      "pair": [
+        "high",
+        "top"
+      ],
+      "nominal_native_px": 66.5,
+      "ink_band_distance_px": [
+        54,
+        78
+      ],
+      "conditional_nominal_m": 0.19337352764423074,
+      "conditional_ink_and_datum_range_m": [
+        0.1562738038277512,
+        0.22790978260869565
+      ]
+    },
+    {
+      "id": "south_plate_graphic_thickness",
+      "pair": [
+        "low",
+        "top"
+      ],
+      "nominal_native_px": 204.0,
+      "ink_band_distance_px": [
+        192,
+        215
+      ],
+      "conditional_nominal_m": 0.5932060096153845,
+      "conditional_ink_and_datum_range_m": [
+        0.5556401913875598,
+        0.6282128623188405
+      ]
+    }
+  ],
+  "local_calibration_qualification": "Uses the two printed WEST terrace datums as a local vertical mapping, with their non-coincidence to Master floor explicitly unresolved; not an A dimension assertion or navigation authority.",
+  "alternative_physical_plane_assumption_C": {
+    "hypothesis": "Only if actual Master floor/top slab ink centres are treated as exactly the printed L2/L3 terrace elevations. Not established by source.",
+    "m_per_px": 0.0028631360946745565,
+    "step_m": 0.3936812130177515,
+    "low_clear_m": 1.8352702366863907,
+    "high_clear_m": 2.2289514497041423
+  },
+  "sensitivity_not_a_confidence_interval": [
+    {
+      "mapping": [
+        "main",
+        "second"
+      ],
+      "m_per_px": 0.0030523605150214596,
+      "step_m": 0.4196995708154507,
+      "low_clear_m": 1.9565630901287556,
+      "high_clear_m": 2.376262660944206
+    },
+    {
+      "mapping": [
+        "second",
+        "third"
+      ],
+      "m_per_px": 0.0029078725961538456,
+      "step_m": 0.3998324819711538,
+      "low_clear_m": 1.863946334134615,
+      "high_clear_m": 2.263778816105769
+    },
+    {
+      "mapping": [
+        "third",
+        "roof"
+      ],
+      "m_per_px": 0.0032229080932784635,
+      "step_m": 0.4431498628257887,
+      "low_clear_m": 2.065884087791495,
+      "high_clear_m": 2.509033950617284
+    },
+    {
+      "mapping": [
+        "roof",
+        "tower"
+      ],
+      "m_per_px": 0.0033491561181434593,
+      "step_m": 0.46050896624472565,
+      "low_clear_m": 2.1468090717299573,
+      "high_clear_m": 2.607318037974683
+    }
+  ],
+  "old_ceiling11_estimate_preserved": {
+    "classification": "C_GRAPHICAL_NOT_PRINTED_DIMENSION_PASS",
+    "calibration_source": "research/references/architecture/main-10-original.tif",
+    "calibration_source_sha256": "db6591996c049961a50ba593c002dc394d5708f1c15c5935e1c3671aed1e2ac7",
+    "calibration_printed_span": "67ft 2in",
+    "calibration_m": 20.4724,
+    "calibration_witness_x_in_oriented_width1024_coordinates": [
+      268.1,
+      657.8
+    ],
+    "calibration_description": "Bottom dimension line of SECTION LOOKING WEST; two outer building extent witnesses. Calibrates sheet graphical scale only, not a cantilever or room dimension.",
+    "calibration_scale_m_per_normalized_pixel": 0.052533743905568385,
+    "target_crop": "master-ceiling11-source-main10-master-section.png",
+    "target_crop_normalized_box": [
+      416,
+      514,
+      558,
+      582
+    ],
+    "target_crop_output_size": [
+      1700,
+      814
+    ],
+    "pick_coordinates_in_output_pixels": {
+      "low_underside_horizontal_segment": [
+        [
+          325,
+          275
+        ],
+        [
+          730,
+          275
+        ]
+      ],
+      "high_underside_horizontal_segment": [
+        [
+          1000,
+          180
+        ],
+        [
+          1540,
+          180
+        ]
+      ],
+      "master_floor_upper_finish_line": [
+        [
+          1020,
+          720
+        ],
+        [
+          1400,
+          720
+        ]
+      ]
+    },
+    "pick_y_in_oriented_width1024_coordinates": {
+      "low": 536.9705882352941,
+      "high": 529.035294117647,
+      "floor": 574.1411764705882
+    },
+    "method": "Apply width1024 graphical calibration to vertical sheet distances, assuming isotropic architectural drawing. Delta-output-y * (142/1700) * (20.4724/389.7). No photo pixel ratios and no model-derived endpoint selection.",
+    "graphical_step_m": 0.4168707089918338,
+    "graphical_low_clearance_m": 1.9527101631722745,
+    "graphical_high_clearance_m": 2.3695808721641085,
+    "conservative_uncertainty_m_each": 0.04,
+    "uncertainty_description": "Manual 3px output line choice at each target, calibration-witness choice, line thickness and finish-line identification allowance. Conservative reading bound, not statistical confidence interval; source not a local soffit elevation survey.",
+    "qualifications": [
+      "No 20mm/0.5% pass threshold applied to these graphical readings.",
+      "Low-clearance interval crosses 1.95m; cannot lower the project's navigation standard.",
+      "Current model step0.1532m differs materially from the graphical0.417m estimate.",
+      "Do not solve the step discrepancy by lowering the low plane into the navigable room."
+    ]
+  },
+  "old_estimate_status": "Preserved negative/superseded evidence. Absolute clearances are not accepted as source height; horizontal-to-vertical isotropy was unverified. Earlier suggestion to consider raising high face is superseded by this boundary audit.",
+  "current_model_values_from_existing_11_QA_NOT_FRESH_MEASUREMENT": {
+    "master_finish_z": 2.8668,
+    "l2_source_datum_z": 2.8448,
+    "l3_source_top_z": 5.26415,
+    "low_underside_z": 4.8468,
+    "high_underside_z": 5.0,
+    "ceiling_panel_thickness": 0.018,
+    "overhead_elongated_roof_bottom_z": 5.03415,
+    "overhead_l3_terrace_slab_bottom_z": 5.04415
+  },
+  "compatibility_arithmetic_NOT_PROPOSED_GEOMETRY": {
+    "current_datum_storey_height_m": 2.4193499999999997,
+    "current_finish_to_upper_top_m": 2.39735,
+    "current_low_clear_m": 1.98,
+    "current_high_clear_m": 2.1332,
+    "current_step_m": 0.1532,
+    "retain_low_plus_conditional_step_high_z": 5.246632481971154,
+    "remaining_to_l3_top_if_raise_high_m": 0.01751751802884627,
+    "source_graphical_north_plate_thickness_m": 0.19337352764423074,
+    "raise_existing_18mm_ceiling_before_upper_roof_intersection_m": 0.016150000000000553,
+    "retain_low_plus_source_graphic_step_and_north_thickness_required_top_z": 5.440006009615384,
+    "retain_l3_top_plus_source_graphic_thickness_and_step_low_z": 4.6709439903846155
+  },
+  "correction_boundary": [
+    "Continuous low-field topology remains supported; exact plan break and all local underside elevations remain C/U.",
+    "Printed L2/L3 values match existing model source datums; this audit does not establish a wrong global storey height.",
+    "Source graphic step remains materially larger than model0.1532m; using old or revised C values cannot justify raising high ceiling through existing upper structure.",
+    "No sufficient A/B evidence to thin upper slab, move L3, move the room floor, or raise/lower the low soffit. A ceiling-only metric correction is not authorized by this evidence.",
+    "Keep source-height OPEN. Navigation1.95m/0.18m tests neither determine real architectural heights nor validate source scale.",
+    "Exact constructed thickness, finish build-ups and the terrace-datum/floor offset require independent surveyed vertical detail; no more unrelated research in this bounded task."
+  ],
+  "GEO07_status": "NOT_RUN; no camera registration or photo-scale height recovery",
+  "artifact_manifest": "master-ceiling12-source-crops.json"
+}

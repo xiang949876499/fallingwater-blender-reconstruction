@@ -1,0 +1,159 @@
+{
+  "status": "P1_EVIDENCE_BACKED_FURNITURE_PLACEMENT_ERROR_NOT_FIXED_BY_REVIEWER",
+  "created_utc": "2026-09-20T13:02:25.720099+00:00",
+  "review_role": "independent_readonly_not_author",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration06.blend",
+  "source_scene_sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+  "actual_blender_read": {
+    "version": "5.2.1 LTS",
+    "threads": 4,
+    "exit_code": 0,
+    "scene_saved": false,
+    "rendered": false
+  },
+  "images": [
+    {
+      "path": "renders/previews/iteration06-focus/CAM_GUEST_L1_LOUNGE_A.png",
+      "sha256": "b2a185bf6a33f65d4d94c7aeac88adef27b70df09688fa639bf5964f340e7407",
+      "actual_view_status": "VIEWED",
+      "finding": "炉口不可读"
+    },
+    {
+      "path": "renders/previews/iteration06-focus/CAM_GUEST_L1_LOUNGE_B.png",
+      "sha256": "0f51920f25369d694fbd4fdbccbed415949777f65745c2f2b8d6574509a8dc45",
+      "actual_view_status": "VIEWED",
+      "finding": "近屏风遮满画面"
+    },
+    {
+      "path": "renders/previews/iteration06-camera-repairs/CAM_GUEST_L1_LOUNGE_A.png",
+      "sha256": "f2a3394c340c192eb423e71105206d849b9ed10afb00f9f7969a0ebf25365f43",
+      "actual_view_status": "VIEWED",
+      "finding": "柜体与末端竖条遮炉口"
+    },
+    {
+      "path": "renders/previews/iteration06-camera-repairs/CAM_GUEST_L1_LOUNGE_B.png",
+      "sha256": "a2054b250865386afca1e422cc81acb3923c5d59373fafc6150d1bf7429abbe1",
+      "actual_view_status": "VIEWED",
+      "finding": "互补窗侧可读但无炉口"
+    },
+    {
+      "path": "renders/previews/iteration06-firebox-detail/CAM_GUEST_L1_LOUNGE_A.png",
+      "sha256": "92fee82361e1b65c4fed576fbaa277148cc77c4d83233517a2c6b6302471a9d2",
+      "actual_view_status": "VIEWED",
+      "finding": "近景倾斜暗口不代表房间照片"
+    },
+    {
+      "path": "data/photo_refs/guest_living_11.jpg",
+      "sha256": "9a75b17d5138e7c33b2eff9e3ed5e37d15c065c27740362d3cf450420f439b23",
+      "actual_view_status": "VIEWED",
+      "finding": "屏风在入口近景左侧，炉口在远墙"
+    },
+    {
+      "path": "qa/photo-match-guest_exterior_10-iteration05-observed.png",
+      "sha256": "ba35ea27c7f0c921dc0f70f52caed6631a33ca3ddf4086d12d91e8501efb607f",
+      "actual_view_status": "VIEWED",
+      "finding": "宽屋檐参考"
+    },
+    {
+      "path": "qa/guest-iteration06-grid-guest-01.png",
+      "sha256": "f7ee3464b37e042943e0003e1d2ef604df52010de03526b0cafb9c010dd6034d",
+      "actual_view_status": "VIEWED",
+      "finding": "竖条行x约440 y394..430"
+    },
+    {
+      "path": "qa/guest-iteration06-grid-guest-02.png",
+      "sha256": "78d487031abe668864ef4035dd7e9e2e43a0ff4e02fa602765c733f2735ab5ad",
+      "actual_view_status": "VIEWED",
+      "finding": "深屋檐与退后女儿墙分离"
+    },
+    {
+      "path": "qa/guest-iteration05-source-guest-01.png",
+      "sha256": "1d9558a2b888f361b3705c83dbb70e78fa15455f9294ce8d40440e3ea9dbf128",
+      "actual_view_status": "VIEWED",
+      "finding": "炉区和入口屏风空间分离"
+    },
+    {
+      "path": "qa/photo-match-guest11-hearth-review.png",
+      "sha256": "102ac68bd5beb210b4635c22646b779b99766c6f5c56085bae42202349d57738",
+      "actual_view_status": "VIEWED",
+      "finding": "炉口石墙参考"
+    }
+  ],
+  "actual_screen": {
+    "object": "FW_FURN_GUEST_L1_LOUNGE_walnut_vertical_screen_04",
+    "root_world": [
+      4.927919387817383,
+      39.143428802490234,
+      8.399999618530273
+    ],
+    "rotation_z": 0,
+    "placement_evidence": "C",
+    "identity_evidence": "A is existence only",
+    "width": 0.5,
+    "depth": 1.5225536000000006,
+    "inverse_guest01_px": [
+      354.07000357339007,
+      383.23996960375126
+    ],
+    "drawercase_bounds": [
+      [
+        4.687919616699219,
+        5.167919158935547
+      ],
+      [
+        38.38215255737305,
+        39.90470504760742
+      ],
+      [
+        8.449999809265137,
+        8.929999351501465
+      ]
+    ]
+  },
+  "source_trace": {
+    "sheet": "guest01",
+    "slat_centerline_px_x_approx": 440,
+    "slat_px_y_range_approx": [
+      394,
+      430
+    ],
+    "surrounding_cabinet_px_x_range_approx": [
+      427,
+      447
+    ],
+    "evidence": "B/C traced shape, not A measured furnishing survey",
+    "trace_uncertainty_px_approx": 1,
+    "reuse_source_crop": "qa/guest-iteration06-grid-guest-01.png"
+  },
+  "single_priority_recommendation": {
+    "action": "Relocate complete real screen and low-drawercase assembly to source-supported entrance position; retain geometry initially; then check actual passage and limited room views.",
+    "candidate_center_guest01_px": [
+      440,
+      412
+    ],
+    "candidate_center_world": [
+      9.4444,
+      37.6272,
+      8.4
+    ],
+    "candidate_translation_world": [
+      4.516480612182617,
+      -1.5162288024902324,
+      3.8146972691777137e-07
+    ],
+    "orientation": "unchanged, along world Y",
+    "requires": "Explicit source placement rather than generic .13,.76 auto-layout; floor support/body clearance/no furniture overlap; actual rendered room review.",
+    "not_authorized_by_evidence": "Removing slats/cabinet, moving architecture/firebox or shrinking correct eaves to make camera pass."
+  },
+  "other_causes": {
+    "camera": "Contributes, but cannot solve source-displaced furniture by repeated search.",
+    "deep_eave": "Source-supported and affects exposure; cannot remove geometric occlusion.",
+    "structural_registration": "Previously unresolved corner/window correspondences remain; this review provides no evidence requiring structural relocation."
+  },
+  "geo07": "NOT_RUN",
+  "final_visual_acceptance": "FAIL",
+  "changes_made": [
+    "qa/guest-lounge-visual-review06.md",
+    "qa/guest-lounge-visual-review06.json"
+  ]
+}

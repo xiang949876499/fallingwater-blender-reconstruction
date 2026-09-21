@@ -1,0 +1,87 @@
+{
+  "variant": "volume_intensity_zero",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_preview_iteration05.blend",
+  "source_sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+  "camera": "CAM_MAIN_B_BATH_B",
+  "camera_location": [
+    -2.538800001144409,
+    14.336999893188477,
+    -0.5278000235557556
+  ],
+  "camera_rotation": [
+    1.4660792350769043,
+    3.30721050545435e-08,
+    -1.3448517322540283
+  ],
+  "exposure": 0.800000011920929,
+  "engine": "BLENDER_EEVEE",
+  "samples": 32,
+  "resolution": [
+    960,
+    540
+  ],
+  "status": "RENDERED",
+  "production_scene_saved": false,
+  "gi_rebaked": false,
+  "changes": [
+    {
+      "object": "FW_PROBE_MAIN_B",
+      "property": "intensity",
+      "before": 1.0,
+      "after": 0
+    },
+    {
+      "object": "FW_PROBE_MAIN_L1",
+      "property": "intensity",
+      "before": 1.0,
+      "after": 0
+    },
+    {
+      "object": "FW_PROBE_MAIN_L2",
+      "property": "intensity",
+      "before": 1.0,
+      "after": 0
+    },
+    {
+      "object": "FW_PROBE_MAIN_L3",
+      "property": "intensity",
+      "before": 1.0,
+      "after": 0
+    },
+    {
+      "object": "FW_PROBE_GUEST_L1",
+      "property": "intensity",
+      "before": 1.0,
+      "after": 0
+    },
+    {
+      "object": "FW_PROBE_GUEST_B1",
+      "property": "intensity",
+      "before": 1.0,
+      "after": 0
+    },
+    {
+      "object": "FW_PROBE_GUEST_L2",
+      "property": "intensity",
+      "before": 1.0,
+      "after": 0
+    }
+  ],
+  "eevee_before": {
+    "use_fast_gi": "True",
+    "fast_gi_thickness_near": "0.10000000149011612",
+    "fast_gi_quality": "0.25",
+    "fast_gi_step_count": "8",
+    "fast_gi_ray_count": "2",
+    "fast_gi_method": "GLOBAL_ILLUMINATION",
+    "fast_gi_distance": "0.0",
+    "fast_gi_bias": "0.05000000074505806",
+    "fast_gi_resolution": "2",
+    "use_raytracing": "True"
+  },
+  "seconds": 28.623891400000502,
+  "path": "D:\\zx\\test\\project\\qa\\eevee-iteration05-dark-volume_intensity_zero.png",
+  "sha256": "bd3798e18999e61a82af2e1f5deaa4d913250c99b440a086ecb1d6b9ae5ce883",
+  "visual_acceptance": "FAIL: inverted triangle remains and deepens",
+  "viewed_native": true
+}

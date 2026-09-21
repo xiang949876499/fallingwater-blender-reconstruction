@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "blender_version": "5.2.1 LTS",
+  "method": "Built current guest module; evaluated actual mesh rays at all previous boiler/terrace probes. Independently confirmed excluded terrace point still hits pool water, not a new slab. No rendering.",
+  "boiler_original_probes": [
+    {
+      "xy": [
+        4.87168,
+        41.597519999999996
+      ],
+      "floor": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "z": 8.4,
+        "normal_z": 1.0
+      },
+      "ceiling": {
+        "object": "GUEST_BOILER_ROOF",
+        "z": 10.56,
+        "normal_z": -1.0
+      },
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        4.28038,
+        41.38664
+      ],
+      "floor": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "z": 8.4,
+        "normal_z": 1.0
+      },
+      "ceiling": {
+        "object": "GUEST_BOILER_ROOF",
+        "z": 10.56,
+        "normal_z": -1.0
+      },
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        5.41042,
+        41.38664
+      ],
+      "floor": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "z": 8.4,
+        "normal_z": 1.0
+      },
+      "ceiling": {
+        "object": "GUEST_BOILER_ROOF",
+        "z": 10.56,
+        "normal_z": -1.0
+      },
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        5.41042,
+        41.91383999999999
+      ],
+      "floor": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "z": 8.4,
+        "normal_z": 1.0
+      },
+      "ceiling": {
+        "object": "GUEST_BOILER_ROOF",
+        "z": 10.56,
+        "normal_z": -1.0
+      },
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        4.8454,
+        41.65024
+      ],
+      "floor": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "z": 8.4,
+        "normal_z": 1.0
+      },
+      "ceiling": {
+        "object": "GUEST_BOILER_ROOF",
+        "z": 10.56,
+        "normal_z": -1.0
+      },
+      "status": "PASS"
+    }
+  ],
+  "terrace_original_probes": [
+    {
+      "xy": [
+        20.53456,
+        35.271119999999996
+      ],
+      "inside_revised_terrace": true,
+      "flat_surface": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4,
+        "normal_z": 1.0
+      },
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        10.53502,
+        35.6797
+      ],
+      "inside_revised_terrace": true,
+      "flat_surface": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4,
+        "normal_z": 1.0
+      },
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        24.699939999999998,
+        35.6797
+      ],
+      "inside_revised_terrace": false,
+      "flat_surface": null,
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        24.699939999999998,
+        38.711099999999995
+      ],
+      "inside_revised_terrace": true,
+      "flat_surface": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4,
+        "normal_z": 1.0
+      },
+      "status": "PASS"
+    }
+  ],
+  "pool_preservation_check": {
+    "xy": [
+      24.69994,
+      35.6797
+    ],
+    "outside_terrace": true,
+    "inside_pool_census": true,
+    "actual_downward_hit": {
+      "object": "GUEST_POOL_water",
+      "z": 8.96485,
+      "normal_z": 1.0
+    },
+    "status": "PASS"
+  },
+  "limits": [
+    "Integrated scene must be rebuilt; no furniture/site/main geometry included in this focused check.",
+    "No final visual or navigation acceptance claimed."
+  ]
+}

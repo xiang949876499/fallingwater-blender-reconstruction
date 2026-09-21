@@ -1,0 +1,686 @@
+{
+  "status": "PASS_LOCAL_CONTACT_AND_EXCLUSIONS_VISUAL_NOT_RUN",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_geology_candidate07c.blend",
+  "source_sha256": "24a2ca01d276cde137ff3e041ecbf5bdc028289f5b83e8be20167cb4a0c561f3",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_bank_candidate07.blend",
+  "candidate_sha256": "20027642d9aa54e3f48243889aedbe19c565acaa1ec71a511140364e69d25f38",
+  "frame": 48,
+  "settings_enabled_only_in_candidate": true,
+  "production_integration": false,
+  "result": {
+    "status": "BUILT_GEOMETRY_VISUAL_PENDING",
+    "settings": {
+      "enabled": true,
+      "seed": 534607,
+      "regions": {
+        "west": [
+          [
+            -16.6,
+            -3.6
+          ],
+          [
+            -10.0,
+            -3.0
+          ],
+          [
+            -7.4,
+            0.8
+          ],
+          [
+            -7.8,
+            5.0
+          ],
+          [
+            -14.8,
+            5.0
+          ],
+          [
+            -17.0,
+            0.6
+          ]
+        ],
+        "south": [
+          [
+            -1.1,
+            -15.6
+          ],
+          [
+            5.8,
+            -15.0
+          ],
+          [
+            7.1,
+            -9.1
+          ],
+          [
+            3.1,
+            -8.8
+          ],
+          [
+            -0.4,
+            -11.8
+          ]
+        ],
+        "east": [
+          [
+            15.4,
+            -13.6
+          ],
+          [
+            24.8,
+            -13.3
+          ],
+          [
+            24.8,
+            -6.4
+          ],
+          [
+            18.0,
+            -6.0
+          ],
+          [
+            15.2,
+            -8.3
+          ]
+        ],
+        "north_bridge": [
+          [
+            24.3,
+            9.4
+          ],
+          [
+            30.6,
+            9.4
+          ],
+          [
+            30.6,
+            16.4
+          ],
+          [
+            25.0,
+            16.4
+          ]
+        ]
+      },
+      "clusters": [
+        [
+          -14.3,
+          -0.8,
+          2.0
+        ],
+        [
+          -11.6,
+          -0.4,
+          2.1
+        ],
+        [
+          -10,
+          2.4,
+          1.7
+        ],
+        [
+          -8.8,
+          3.5,
+          1.3
+        ],
+        [
+          1,
+          -12.5,
+          2.0
+        ],
+        [
+          4,
+          -10.6,
+          1.5
+        ],
+        [
+          17.2,
+          -8,
+          2.0
+        ],
+        [
+          20,
+          -10.4,
+          2.5
+        ],
+        [
+          23,
+          -7.8,
+          1.2
+        ],
+        [
+          26,
+          12.3,
+          1.7
+        ],
+        [
+          27.8,
+          14.8,
+          2.1
+        ],
+        [
+          29.5,
+          10.8,
+          1.6
+        ]
+      ],
+      "leaves_per_cluster": 1400,
+      "leaf_attempts_per_cluster": 6000,
+      "max_angular_stones": 28,
+      "max_ferns": 24,
+      "fern_asset": "assets/candidates/fern_02_2k/fern_02_2k.blend",
+      "max_radius_from_main_m": 30.0,
+      "min_path_margin_m": 0.4,
+      "min_building_margin_m": 0.35,
+      "min_water_margin_m": 0.75
+    },
+    "substrate_faces": 276,
+    "leaf_count": 16800,
+    "leaves_per_cluster_actual": [
+      1400,
+      1400,
+      1400,
+      1400,
+      1400,
+      1400,
+      1400,
+      1400,
+      1400,
+      1400,
+      1400,
+      1400
+    ],
+    "leaf_vertices": 117600,
+    "leaf_contact_gap_range_m": [
+      0.001500006264185911,
+      0.0065
+    ],
+    "angular_stones": [
+      "BANK07_Angular_Fragment_00",
+      "BANK07_Angular_Fragment_01",
+      "BANK07_Angular_Fragment_02",
+      "BANK07_Angular_Fragment_03",
+      "BANK07_Angular_Fragment_04",
+      "BANK07_Angular_Fragment_05",
+      "BANK07_Angular_Fragment_06",
+      "BANK07_Angular_Fragment_07",
+      "BANK07_Angular_Fragment_08",
+      "BANK07_Angular_Fragment_09",
+      "BANK07_Angular_Fragment_10",
+      "BANK07_Angular_Fragment_11",
+      "BANK07_Angular_Fragment_12",
+      "BANK07_Angular_Fragment_13",
+      "BANK07_Angular_Fragment_14",
+      "BANK07_Angular_Fragment_15",
+      "BANK07_Angular_Fragment_16",
+      "BANK07_Angular_Fragment_17",
+      "BANK07_Angular_Fragment_18",
+      "BANK07_Angular_Fragment_19",
+      "BANK07_Angular_Fragment_20",
+      "BANK07_Angular_Fragment_21",
+      "BANK07_Angular_Fragment_22",
+      "BANK07_Angular_Fragment_23",
+      "BANK07_Angular_Fragment_24",
+      "BANK07_Angular_Fragment_25",
+      "BANK07_Angular_Fragment_26",
+      "BANK07_Angular_Fragment_27"
+    ],
+    "stone_bottom_gap_m": -0.012,
+    "fern_instances": [
+      {
+        "object": "BANK07_Fern_00",
+        "source_variant": "fern_02_a",
+        "position": [
+          20.11665153503418,
+          -9.458202362060547,
+          0.013346211053431034
+        ],
+        "central_low_anchor_vertices": 126,
+        "anchor_gap_min_m": -0.04313666895168134,
+        "anchor_gap_max_m": 0.022336395315800416,
+        "whole_mesh_min_gap_m": -0.04313666895168134,
+        "scale": 0.9392590641146985
+      },
+      {
+        "object": "BANK07_Fern_01",
+        "source_variant": "fern_02_b",
+        "position": [
+          20.554767608642578,
+          -11.236003875732422,
+          -0.21515056490898132
+        ],
+        "central_low_anchor_vertices": 285,
+        "anchor_gap_min_m": -0.04640522666219088,
+        "anchor_gap_max_m": 0.02155310051631401,
+        "whole_mesh_min_gap_m": -0.04727102888567164,
+        "scale": 0.8578829555234031
+      },
+      {
+        "object": "BANK07_Fern_02",
+        "source_variant": "fern_02_c",
+        "position": [
+          26.884681701660156,
+          13.251420974731445,
+          3.6089677810668945
+        ],
+        "central_low_anchor_vertices": 304,
+        "anchor_gap_min_m": -0.04010314460829534,
+        "anchor_gap_max_m": 0.029903652443919793,
+        "whole_mesh_min_gap_m": -0.04435783661934556,
+        "scale": 0.9386481560408403
+      },
+      {
+        "object": "BANK07_Fern_03",
+        "source_variant": "fern_02_d",
+        "position": [
+          28.65837287902832,
+          15.830358505249023,
+          3.9569578170776367
+        ],
+        "central_low_anchor_vertices": 119,
+        "anchor_gap_min_m": -0.044247281355769275,
+        "anchor_gap_max_m": 0.04068493505516724,
+        "whole_mesh_min_gap_m": -0.044247281355769275,
+        "scale": 0.9802440774908401
+      },
+      {
+        "object": "BANK07_Fern_04",
+        "source_variant": "fern_02_a",
+        "position": [
+          21.540082931518555,
+          -9.324864387512207,
+          0.06780786067247391
+        ],
+        "central_low_anchor_vertices": 126,
+        "anchor_gap_min_m": -0.03783162578778203,
+        "anchor_gap_max_m": 0.02168571800261565,
+        "whole_mesh_min_gap_m": -0.03783162578778203,
+        "scale": 0.8676821347222652
+      },
+      {
+        "object": "BANK07_Fern_05",
+        "source_variant": "fern_02_b",
+        "position": [
+          18.06243133544922,
+          -11.25318717956543,
+          -0.2083422839641571
+        ],
+        "central_low_anchor_vertices": 285,
+        "anchor_gap_min_m": -0.04585339369721603,
+        "anchor_gap_max_m": 0.019124054674290902,
+        "whole_mesh_min_gap_m": -0.04585339369721603,
+        "scale": 0.8560188392543244
+      },
+      {
+        "object": "BANK07_Fern_06",
+        "source_variant": "fern_02_c",
+        "position": [
+          19.507080078125,
+          -11.424424171447754,
+          -0.15084728598594666
+        ],
+        "central_low_anchor_vertices": 304,
+        "anchor_gap_min_m": -0.04601115678215026,
+        "anchor_gap_max_m": 0.02184034927798184,
+        "whole_mesh_min_gap_m": -0.04638742856739622,
+        "scale": 0.8850558272404593
+      },
+      {
+        "object": "BANK07_Fern_07",
+        "source_variant": "fern_02_d",
+        "position": [
+          27.431787490844727,
+          13.731195449829102,
+          3.6280057430267334
+        ],
+        "central_low_anchor_vertices": 119,
+        "anchor_gap_min_m": -0.03695311210176788,
+        "anchor_gap_max_m": 0.029998498081005742,
+        "whole_mesh_min_gap_m": -0.04761382403934622,
+        "scale": 0.9399829853045998
+      },
+      {
+        "object": "BANK07_Fern_08",
+        "source_variant": "fern_02_a",
+        "position": [
+          27.64137840270996,
+          15.254962921142578,
+          3.8658766746520996
+        ],
+        "central_low_anchor_vertices": 126,
+        "anchor_gap_min_m": -0.0381601125445723,
+        "anchor_gap_max_m": 0.026266009203542495,
+        "whole_mesh_min_gap_m": -0.04978435112799673,
+        "scale": 0.9196622388853085
+      },
+      {
+        "object": "BANK07_Fern_09",
+        "source_variant": "fern_02_b",
+        "position": [
+          17.91305923461914,
+          -9.08021354675293,
+          -0.21693028509616852
+        ],
+        "central_low_anchor_vertices": 285,
+        "anchor_gap_min_m": -0.04557312009262757,
+        "anchor_gap_max_m": 0.026126288754121152,
+        "whole_mesh_min_gap_m": -0.048161901811816704,
+        "scale": 0.8621748073472214
+      },
+      {
+        "object": "BANK07_Fern_10",
+        "source_variant": "fern_02_c",
+        "position": [
+          19.24407196044922,
+          -10.14468002319336,
+          -0.09677513688802719
+        ],
+        "central_low_anchor_vertices": 304,
+        "anchor_gap_min_m": -0.03979348404139445,
+        "anchor_gap_max_m": 0.02443756481031685,
+        "whole_mesh_min_gap_m": -0.0433151455762939,
+        "scale": 0.8945698379301732
+      },
+      {
+        "object": "BANK07_Fern_11",
+        "source_variant": "fern_02_d",
+        "position": [
+          26.40642547607422,
+          14.623010635375977,
+          3.757786273956299
+        ],
+        "central_low_anchor_vertices": 119,
+        "anchor_gap_min_m": -0.03683195298578168,
+        "anchor_gap_max_m": 0.029291504268700308,
+        "whole_mesh_min_gap_m": -0.03683195298578168,
+        "scale": 1.0460108349693957
+      },
+      {
+        "object": "BANK07_Fern_12",
+        "source_variant": "fern_02_a",
+        "position": [
+          18.64849090576172,
+          -10.68796157836914,
+          -0.16772407293319702
+        ],
+        "central_low_anchor_vertices": 126,
+        "anchor_gap_min_m": -0.04607237031152786,
+        "anchor_gap_max_m": 0.018423680315329483,
+        "whole_mesh_min_gap_m": -0.04954304331873752,
+        "scale": 0.8733800895291036
+      }
+    ],
+    "rejected_attempt_reasons": {
+      "outside_regions": 658,
+      "too_steep": 1550,
+      "existing_rock_above_terrain": 38,
+      "leaf_crosses_surface_crease": 189,
+      "access_path": 1
+    },
+    "owner": "fw_bank_detail",
+    "limits": "Local C forest detail. Exact original terrain triangles/BVH provide contact. Fern central-low anchor is a geometric proxy, not identified biological roots. Actual render and path regression still required before enabling production."
+  },
+  "contact": {
+    "leaf_vertices_and_face_centers": {
+      "count": 218400,
+      "min_m": -0.0008976459503173828,
+      "max_m": 0.011818885803222656,
+      "mean_m": 0.0034099810780996334
+    },
+    "substrate_vertices_and_face_centers": {
+      "count": 1104,
+      "min_m": 0.0024912357330322266,
+      "max_m": 0.0025072097778320312,
+      "mean_m": 0.0025001663901924116
+    },
+    "embedded_stone_bottom_vertices": {
+      "count": 196,
+      "min_m": -0.012000083923339844,
+      "max_m": -0.011999964714050293,
+      "mean_m": -0.012000033033213444
+    },
+    "fern_anchor_records": [
+      {
+        "object": "BANK07_Fern_00",
+        "source_variant": "fern_02_a",
+        "position": [
+          20.11665153503418,
+          -9.458202362060547,
+          0.013346211053431034
+        ],
+        "central_low_anchor_vertices": 126,
+        "anchor_gap_min_m": -0.04313666895168134,
+        "anchor_gap_max_m": 0.022336395315800416,
+        "whole_mesh_min_gap_m": -0.04313666895168134,
+        "scale": 0.9392590641146985
+      },
+      {
+        "object": "BANK07_Fern_01",
+        "source_variant": "fern_02_b",
+        "position": [
+          20.554767608642578,
+          -11.236003875732422,
+          -0.21515056490898132
+        ],
+        "central_low_anchor_vertices": 285,
+        "anchor_gap_min_m": -0.04640522666219088,
+        "anchor_gap_max_m": 0.02155310051631401,
+        "whole_mesh_min_gap_m": -0.04727102888567164,
+        "scale": 0.8578829555234031
+      },
+      {
+        "object": "BANK07_Fern_02",
+        "source_variant": "fern_02_c",
+        "position": [
+          26.884681701660156,
+          13.251420974731445,
+          3.6089677810668945
+        ],
+        "central_low_anchor_vertices": 304,
+        "anchor_gap_min_m": -0.04010314460829534,
+        "anchor_gap_max_m": 0.029903652443919793,
+        "whole_mesh_min_gap_m": -0.04435783661934556,
+        "scale": 0.9386481560408403
+      },
+      {
+        "object": "BANK07_Fern_03",
+        "source_variant": "fern_02_d",
+        "position": [
+          28.65837287902832,
+          15.830358505249023,
+          3.9569578170776367
+        ],
+        "central_low_anchor_vertices": 119,
+        "anchor_gap_min_m": -0.044247281355769275,
+        "anchor_gap_max_m": 0.04068493505516724,
+        "whole_mesh_min_gap_m": -0.044247281355769275,
+        "scale": 0.9802440774908401
+      },
+      {
+        "object": "BANK07_Fern_04",
+        "source_variant": "fern_02_a",
+        "position": [
+          21.540082931518555,
+          -9.324864387512207,
+          0.06780786067247391
+        ],
+        "central_low_anchor_vertices": 126,
+        "anchor_gap_min_m": -0.03783162578778203,
+        "anchor_gap_max_m": 0.02168571800261565,
+        "whole_mesh_min_gap_m": -0.03783162578778203,
+        "scale": 0.8676821347222652
+      },
+      {
+        "object": "BANK07_Fern_05",
+        "source_variant": "fern_02_b",
+        "position": [
+          18.06243133544922,
+          -11.25318717956543,
+          -0.2083422839641571
+        ],
+        "central_low_anchor_vertices": 285,
+        "anchor_gap_min_m": -0.04585339369721603,
+        "anchor_gap_max_m": 0.019124054674290902,
+        "whole_mesh_min_gap_m": -0.04585339369721603,
+        "scale": 0.8560188392543244
+      },
+      {
+        "object": "BANK07_Fern_06",
+        "source_variant": "fern_02_c",
+        "position": [
+          19.507080078125,
+          -11.424424171447754,
+          -0.15084728598594666
+        ],
+        "central_low_anchor_vertices": 304,
+        "anchor_gap_min_m": -0.04601115678215026,
+        "anchor_gap_max_m": 0.02184034927798184,
+        "whole_mesh_min_gap_m": -0.04638742856739622,
+        "scale": 0.8850558272404593
+      },
+      {
+        "object": "BANK07_Fern_07",
+        "source_variant": "fern_02_d",
+        "position": [
+          27.431787490844727,
+          13.731195449829102,
+          3.6280057430267334
+        ],
+        "central_low_anchor_vertices": 119,
+        "anchor_gap_min_m": -0.03695311210176788,
+        "anchor_gap_max_m": 0.029998498081005742,
+        "whole_mesh_min_gap_m": -0.04761382403934622,
+        "scale": 0.9399829853045998
+      },
+      {
+        "object": "BANK07_Fern_08",
+        "source_variant": "fern_02_a",
+        "position": [
+          27.64137840270996,
+          15.254962921142578,
+          3.8658766746520996
+        ],
+        "central_low_anchor_vertices": 126,
+        "anchor_gap_min_m": -0.0381601125445723,
+        "anchor_gap_max_m": 0.026266009203542495,
+        "whole_mesh_min_gap_m": -0.04978435112799673,
+        "scale": 0.9196622388853085
+      },
+      {
+        "object": "BANK07_Fern_09",
+        "source_variant": "fern_02_b",
+        "position": [
+          17.91305923461914,
+          -9.08021354675293,
+          -0.21693028509616852
+        ],
+        "central_low_anchor_vertices": 285,
+        "anchor_gap_min_m": -0.04557312009262757,
+        "anchor_gap_max_m": 0.026126288754121152,
+        "whole_mesh_min_gap_m": -0.048161901811816704,
+        "scale": 0.8621748073472214
+      },
+      {
+        "object": "BANK07_Fern_10",
+        "source_variant": "fern_02_c",
+        "position": [
+          19.24407196044922,
+          -10.14468002319336,
+          -0.09677513688802719
+        ],
+        "central_low_anchor_vertices": 304,
+        "anchor_gap_min_m": -0.03979348404139445,
+        "anchor_gap_max_m": 0.02443756481031685,
+        "whole_mesh_min_gap_m": -0.0433151455762939,
+        "scale": 0.8945698379301732
+      },
+      {
+        "object": "BANK07_Fern_11",
+        "source_variant": "fern_02_d",
+        "position": [
+          26.40642547607422,
+          14.623010635375977,
+          3.757786273956299
+        ],
+        "central_low_anchor_vertices": 119,
+        "anchor_gap_min_m": -0.03683195298578168,
+        "anchor_gap_max_m": 0.029291504268700308,
+        "whole_mesh_min_gap_m": -0.03683195298578168,
+        "scale": 1.0460108349693957
+      },
+      {
+        "object": "BANK07_Fern_12",
+        "source_variant": "fern_02_a",
+        "position": [
+          18.64849090576172,
+          -10.68796157836914,
+          -0.16772407293319702
+        ],
+        "central_low_anchor_vertices": 126,
+        "anchor_gap_min_m": -0.04607237031152786,
+        "anchor_gap_max_m": 0.018423680315329483,
+        "whole_mesh_min_gap_m": -0.04954304331873752,
+        "scale": 0.8733800895291036
+      }
+    ],
+    "all_new_world_vertices_exclusion_checked": 131825,
+    "exclusion_failures": [],
+    "method": "Actual saved-ready mesh world vertices/triangle centers raycast to unchanged triangulated terrain; planned offsets are not substituted for measurements."
+  },
+  "new_objects": [
+    "BANK07_ActualSurface_FallenLeaves",
+    "BANK07_Angular_Fragment_00",
+    "BANK07_Angular_Fragment_01",
+    "BANK07_Angular_Fragment_02",
+    "BANK07_Angular_Fragment_03",
+    "BANK07_Angular_Fragment_04",
+    "BANK07_Angular_Fragment_05",
+    "BANK07_Angular_Fragment_06",
+    "BANK07_Angular_Fragment_07",
+    "BANK07_Angular_Fragment_08",
+    "BANK07_Angular_Fragment_09",
+    "BANK07_Angular_Fragment_10",
+    "BANK07_Angular_Fragment_11",
+    "BANK07_Angular_Fragment_12",
+    "BANK07_Angular_Fragment_13",
+    "BANK07_Angular_Fragment_14",
+    "BANK07_Angular_Fragment_15",
+    "BANK07_Angular_Fragment_16",
+    "BANK07_Angular_Fragment_17",
+    "BANK07_Angular_Fragment_18",
+    "BANK07_Angular_Fragment_19",
+    "BANK07_Angular_Fragment_20",
+    "BANK07_Angular_Fragment_21",
+    "BANK07_Angular_Fragment_22",
+    "BANK07_Angular_Fragment_23",
+    "BANK07_Angular_Fragment_24",
+    "BANK07_Angular_Fragment_25",
+    "BANK07_Angular_Fragment_26",
+    "BANK07_Angular_Fragment_27",
+    "BANK07_Fern_00",
+    "BANK07_Fern_01",
+    "BANK07_Fern_02",
+    "BANK07_Fern_03",
+    "BANK07_Fern_04",
+    "BANK07_Fern_05",
+    "BANK07_Fern_06",
+    "BANK07_Fern_07",
+    "BANK07_Fern_08",
+    "BANK07_Fern_09",
+    "BANK07_Fern_10",
+    "BANK07_Fern_11",
+    "BANK07_Fern_12",
+    "BANK07_Organic_Substrate"
+  ],
+  "new_object_count": 43,
+  "original_compared_objects": 23430,
+  "original_changed_objects": [],
+  "bank_module_sha256": "c98214a2e67d1ba33b2ade16412cfddf98cf9e7fb9bbd2237c69a5eb140634d0",
+  "site_script_sha256": "2efde333707891a0a75237657b14057259ec2ae00e51c9df0ccc7db52858e1a6",
+  "site_config_sha256": "2b4d5c712e7358dacc11458749d7dabc45bee98f43ec660fa9be4f36aa070c3d",
+  "limits": [
+    "No render or GUI. Same HERO/LivingA/LoggiaB image review required before production integration.",
+    "All original geometry/material bindings/transforms/visibility unchanged; complete navigable-route sweep is not repeated in this local contact test.",
+    "Fern central low-vertex anchor is a C geometric proxy; foliage appearance/alpha/shadows need actual images."
+  ]
+}

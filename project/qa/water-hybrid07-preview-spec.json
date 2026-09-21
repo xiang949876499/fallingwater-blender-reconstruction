@@ -1,0 +1,90 @@
+{
+  "status": "ROOT_RENDERED36_AND_VISUALLY_REVIEWED_FAIL",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid07_motion36.blend",
+  "source_sha256": "3c7638bd5866f48eca88a2c184cc958cae3bdfb578892e7e58a59e9c967f55d7",
+  "camera": "CAM_WATER_FOOT",
+  "camera_matrix_world": [
+    [
+      0.8562912940979004,
+      0.09321568161249161,
+      -0.5080118775367737,
+      -3.0026583671569824
+    ],
+    [
+      -0.5164932012557983,
+      0.15454168617725372,
+      -0.8422301411628723,
+      -8.511417388916016
+    ],
+    [
+      -4.166653866377601e-08,
+      0.9835790395736694,
+      0.18047796189785004,
+      -4.050000190734863
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_lens_mm": 45.0,
+  "camera_sensor_width_mm": 36.0,
+  "camera_clip_m": [
+    0.019999999552965164,
+    250.0
+  ],
+  "frame_start": 1,
+  "frame_end": 36,
+  "frame_step": 1,
+  "fps": 24,
+  "duration_seconds": 1.5,
+  "resolution": [
+    480,
+    270
+  ],
+  "resolution_percentage": 100,
+  "engine": "CYCLES",
+  "device": "CPU",
+  "threads": 8,
+  "samples": 12,
+  "denoising": true,
+  "use_persistent_data": true,
+  "motion_blur": false,
+  "exposure": 0.8,
+  "view_transform": "AgX",
+  "sequence_format": "PNG_RGBA_8bit",
+  "output_directory": "project/renders/previews/hybrid07-motion36-foot",
+  "optional_static_views": [
+    {
+      "camera": "CAM_WATER_FOOT",
+      "frame": 24,
+      "resolution": [
+        960,
+        540
+      ],
+      "samples": 32
+    },
+    {
+      "camera": "CAM_HERO",
+      "frame": 24,
+      "resolution": [
+        960,
+        540
+      ],
+      "samples": 32
+    }
+  ],
+  "review_focus": [
+    "Full impact foot and entry into original pool",
+    "Mappedfoam follows the same displayed surface",
+    "Clear0.55mm droplets, nowhiteconfetti",
+    "Remaining thin-face normal reversals or pinching",
+    "Visible effects of drift removal and filtered/clamped wave field"
+  ],
+  "budget_note": "Measure first frame then stable frame; prior1280x72064sample84–94s is not a reliable36frame total; do not start final-quality or ten-second output",
+  "production_status": "FAIL; preview is diagnostic, not acceptance or permission to install",
+  "actual_review": "qa/water-hybrid07-motion-root-visual.md",
+  "actual_output": "renders/previews/hybrid07-motion36-foot/"
+}

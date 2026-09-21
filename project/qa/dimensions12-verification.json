@@ -1,0 +1,95 @@
+{
+  "status": "PASS_MERGE_SERIALIZATION_AND_READONLY_PROTECTION",
+  "scene_sha256": "50e0a8fc0bab10fdec0e0b9d26c4ef4a4c71fa56aea6401e75197787c8c0e75a",
+  "scene_measurement_status": "21 independent printed nominal PASS; GEO02 INCOMPLETE",
+  "merged_rows": 50,
+  "unique_source_ids": 50,
+  "qualified_nominal_pass": 21,
+  "source_precision_limit": 8,
+  "not_run": 21,
+  "finished_bay_samples": 2556,
+  "actual_hit_object_counts": {
+    "GUEST_LAYERED_SANDSTONE_COURSES": 4680,
+    "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0": 168,
+    "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end": 264
+  },
+  "csv_actual_values_exactly_equal_json": true,
+  "full_scene_snapshot_unchanged": true,
+  "protected_files_still_unchanged": {
+    "D:\\zx\\test\\project\\scene\\Fallingwater_integration_candidate12a.blend": true,
+    "D:\\zx\\test\\project\\dimensions.csv": true,
+    "D:\\zx\\test\\project\\scripts\\dimension_audit.py": true,
+    "D:\\zx\\test\\project\\scripts\\dimension_supplement12.py": true,
+    "D:\\zx\\test\\project\\data\\main_house.json": true,
+    "D:\\zx\\test\\project\\data\\guest_house.json": true,
+    "D:\\zx\\test\\project\\data\\dimension-anchors-extra.json": true,
+    "D:\\zx\\test\\project\\data\\dimension-target-reviews.json": true
+  },
+  "all_review_local_links_exist": true,
+  "source_crops_actually_viewed_this_task": [
+    {
+      "path": "D:\\zx\\test\\project\\qa\\guest-bays11-source-north.png",
+      "sha256": "9f0417b820af4ec25e51c881fcc93d3fa10421a19eb39d8d95b759f5fc379c4c"
+    },
+    {
+      "path": "D:\\zx\\test\\project\\qa\\guest-bays11-source-endpoints-final.png",
+      "sha256": "67bb4ddf7d626410a1b23d8d9bc78a350dacd597c1bf8e2886fb60021977de5b"
+    },
+    {
+      "path": "D:\\zx\\test\\project\\qa\\master-ceiling12-source-west-tower-labelled.png",
+      "sha256": "a1681ba8b0146f20df5887a16372f8ebe67fb8c5e9ff60d47a43e0fc575b06d0"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "qa\\dimensions12-finalize.py",
+      "sha256": "55c52a427d7151fcb6940612d6475c375414416c40145189731e4e954f93f8ce",
+      "bytes": 2895
+    },
+    {
+      "path": "qa\\dimensions12-integration12a-attempt02.log",
+      "sha256": "3fe9b2a1e6ecbdef49e7d7dc8a2be418a41101cbd17c452632465736065994e8",
+      "bytes": 1316
+    },
+    {
+      "path": "qa\\dimensions12-integration12a-central44.json",
+      "sha256": "77d94440d68074c047463d436dd2eaad904f343980e39f9c0ac2065d6a4423c2",
+      "bytes": 290978
+    },
+    {
+      "path": "qa\\dimensions12-integration12a-extra.json",
+      "sha256": "6203cb11f33429b42913b4756b0435840f00f1fa1eb2ecc339a138631f0a944c",
+      "bytes": 6534798
+    },
+    {
+      "path": "qa\\dimensions12-integration12a-four.json",
+      "sha256": "7736b974a21f446066c83abbee386f363a1f55afb8386b3dccd4b0bf99361421",
+      "bytes": 90829
+    },
+    {
+      "path": "qa\\dimensions12-integration12a-merge-proposal.csv",
+      "sha256": "a231905b1794896f045d054dff85009d0e6ceb37b9b34ee6253bd879781e4e3f",
+      "bytes": 69215
+    },
+    {
+      "path": "qa\\dimensions12-integration12a-merged.json",
+      "sha256": "c93d9a78565bf6a9769f895725670e7a0eacfc9248db7251a5899a3bd0bd7816",
+      "bytes": 6850588
+    },
+    {
+      "path": "qa\\dimensions12-launch-attempt01.json",
+      "sha256": "9a12d2d23f3a2eb0fa6391bf300b6a87d1bae1486abbd22c6bd073d14bab1ecf",
+      "bytes": 417
+    },
+    {
+      "path": "qa\\dimensions12-review.md",
+      "sha256": "063a1a9b89c72506b8469cf0a374a719a52c2bc689eaa401fd2a2014ba031547",
+      "bytes": 8376
+    },
+    {
+      "path": "qa\\dimensions12-run.py",
+      "sha256": "4dc9fa9c2b714852dbed7a5dec781d1d41c06d478e08e1349a570275b0f2119a",
+      "bytes": 868
+    }
+  ]
+}

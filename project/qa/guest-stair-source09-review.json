@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-21",
+  "scope": "Bounded source-only service stair review for iteration09; original guest01/02/04 TIFF crops actually opened. No production modules, geometry, scene, central dimensions or render changed.",
+  "coordinate_convention": "Each numeric XY is approximate normalized image pixel on its explicitly named sheet, width1024. Drawing-up/down are page directions, not asserted geographic north. Different sheets/basement inset cannot be silently treated as common registered world XY. Pixel coordinates locate drawn evidence and are not measured model dimensions.",
+  "finding_status": "PARTIAL_SOURCE_GEOMETRY_VERIFIED; STOREY_ASSIGNMENT_UNRESOLVED",
+  "raster_crops_manifest": "guest-stair-source09-crops.json",
+  "facts": [
+    {
+      "id": "G01_RIGHT_UP",
+      "sheet": "guest01 first-floor plan",
+      "bbox_normalized_px_approx": [
+        308.4,
+        350.0,
+        324.3,
+        400.8
+      ],
+      "arrow_tip_normalized_px_approx": [
+        316.3,
+        358.6
+      ],
+      "arrow_tail_normalized_px_approx": [
+        316.3,
+        375.3
+      ],
+      "printed_label": "UP",
+      "direction": "toward drawing-up / decreasing page Y",
+      "evidence": "A explicit arrow and label",
+      "visible_edge_line_count": 10,
+      "visible_edge_line_scope": "Including both run-end/landing boundaries; about9 successive drawn horizontal intervals. This is not a validated total riser count.",
+      "platform_storey_at_each_end": "UNRESOLVED FROM PLAN ALONE",
+      "note": "Current data GUEST_SERVICE_ASCENT a[316,354] low -> b[316,404] high is opposite this drawn right-side UP direction, if that model flight corresponds to this source run."
+    },
+    {
+      "id": "G01_LEFT_UP_DOWN",
+      "sheet": "guest01 first-floor plan",
+      "bbox_normalized_px_approx": [
+        289,
+        368,
+        304.5,
+        404.5
+      ],
+      "up_arrow_tip_normalized_px_approx": [
+        296.8,
+        377.1
+      ],
+      "up_arrow_tail_normalized_px_approx": [
+        296.8,
+        371.1
+      ],
+      "up_direction": "toward drawing-down / increasing page Y",
+      "down_arrow_tip_normalized_px_approx": [
+        296.8,
+        390.0
+      ],
+      "down_arrow_tail_normalized_px_approx": [
+        296.8,
+        396.0
+      ],
+      "down_direction": "toward drawing-up / decreasing page Y",
+      "break_symbol_y_range_normalized_px_approx": [
+        378,
+        386.7
+      ],
+      "evidence": "A explicit UP, DOWN and stair break symbol",
+      "total_riser_count": null,
+      "level_assignment": "U; two height portions/projected levels are represented around the break. Do not assume all left edges belong to a new L1-to-L2 run.",
+      "note": "Basement laundry stairs occupy a related west/left projection. The inset and first-floor plan need explicit registration before same-XY or level correspondence is declared."
+    },
+    {
+      "id": "G02_CONTINUOUS_UP_PATH",
+      "sheet": "guest02 second-floor plan",
+      "left_run_bbox_normalized_px_approx": [
+        289,
+        372.6,
+        304.5,
+        405.5
+      ],
+      "left_opening_north_boundary_y_normalized_px_approx": 369.0,
+      "right_run_bbox_normalized_px_approx": [
+        308.4,
+        382.0,
+        324.3,
+        405.5
+      ],
+      "south_paved_return_bbox_normalized_px_approx": [
+        289,
+        405.5,
+        324.3,
+        419.6
+      ],
+      "arrow_polyline_normalized_px_approx": [
+        [
+          296.6,
+          382.0
+        ],
+        [
+          296.6,
+          412.3
+        ],
+        [
+          316.4,
+          412.3
+        ],
+        [
+          316.4,
+          394.4
+        ]
+      ],
+      "printed_label": "UP",
+      "evidence": "A continuous direction line visible: left down-page, across south return, right up-page",
+      "left_visible_horizontal_edge_count": 7,
+      "right_visible_horizontal_edge_count": 5,
+      "count_limit": "Line counts include opening/landing boundaries and do not establish total treads/risers, hidden portions or storey-by-storey counts. Right visible outline gives4 rectangular intervals. Left north cap has extra bevel/closure lines; count cannot be used as riser count.",
+      "south_return_z_m": null,
+      "left_start_z_m": null,
+      "right_end_z_m": null,
+      "same_storey_two_flight_status": "NOT_ESTABLISHED",
+      "note": "Continuous plan UP is a direction statement, not a numerical height/level label. The possibility that the left run comes from B1 and returns through an L1 south platform to an upper right run is not excluded by this crop."
+    },
+    {
+      "id": "G01_B1_LAUNDRY",
+      "sheet": "guest01 separate basement inset",
+      "stair_bbox_normalized_px_approx": [
+        289,
+        648,
+        303.5,
+        676
+      ],
+      "door_north_landing_y_normalized_px_approx": 648,
+      "visible_step_edge_y_normalized_px_approx": [
+        655.8,
+        661.6,
+        667.4,
+        673.1
+      ],
+      "visible_horizontal_step_edge_count": 4,
+      "printed_width": "2 ft 5 in",
+      "printed_longitudinal_station": "7 ft 6 1/8 in",
+      "evidence": "A basement inset and door/outer curved retaining wall; explicit width and different longitudinal station line",
+      "printed_up_down_label_in_this_crop": null,
+      "total_riser_count": null,
+      "floor_z_m": null,
+      "note": "These inset XY values are not world XY or first-floor Y. Four visible step edges are not proof of4 or14 total risers. Do not identify this route by a name alone or change its direction to make a new upper return fit."
+    },
+    {
+      "id": "G04_LEVEL_DATUMS",
+      "sheet": "guest04 west elevation and section looking north",
+      "main_level_label": "0 ft 0 in",
+      "second_level_label": "7 ft 8 5/8 in",
+      "relative_second_level_m": 2.352675,
+      "evidence": "A printed nominal datums actually opened",
+      "basement_floor_numeric_label_found": false,
+      "stair_south_return_numeric_label_found": false,
+      "direct_section_through_both_runs_found": false,
+      "note": "The reviewed transverse section shows floor slabs/rooms but not the two stair tread profiles or a south-return level label. West elevation is occluded by masonry/window assembly in this region. Floor datums cannot assign an unlabeled projected return slab to a storey."
+    }
+  ],
+  "excluded_inferences": [
+    "Do not add a new left upper flight merely because guest02 has an UP U-shaped line.",
+    "Do not treat current data L1/L2/B1 values or old floor-void QA as archival evidence.",
+    "Do not use the old count14 as the source step count.",
+    "Do not infer a same-storey landing at half of2.352675m from the plan path.",
+    "Do not silently put a landing over B1 high treads and later enlarge clearances or move walls to pass.",
+    "Do not reuse first-floor or basement normalized XY as sheet02 world coordinates without verified registration."
+  ],
+  "remaining_to_establish": [
+    "Storey and actual relative Z of the south paved return visible in guest02.",
+    "Whether left visible run is B1-to-L1, an L1-to-L2 run, or another overlapped portion.",
+    "Which drawn right flight outline belongs to the actual modeled service ascent and how plan cut/overlap explains the different visible north endpoints.",
+    "Source-backed per-flight riser count and terminal level identity."
+  ],
+  "recommendation": "Preserve the independent direction finding, but keep new return-flight geometry on hold until source-to-storey correspondence is resolved. A read-only source check has not approved either a two-flight same-storey rebuild or a cross-storey interpretation.",
+  "scoped_neat_freak": "Owned report, crop manifest and actual images reconciled. Shared STATUS/AGENTS/modules unchanged by ownership instruction."
+}

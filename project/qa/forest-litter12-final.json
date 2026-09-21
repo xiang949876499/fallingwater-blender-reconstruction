@@ -1,0 +1,60 @@
+{
+  "status": "READY_FOR_ROOT_RENDER_LOCAL_PHYSICAL_PASS_VISUAL_NOT_RUN",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_forest_litter_candidate12a.blend",
+  "candidate_sha256": "5fed8ce2d7513565ce978af32f494c74ae40e09c101e18ce8578e56b0b1bcdb9",
+  "source_sha256": "5bc4e480237bfa202b205370aea647e4501797ec46e8e335b5106f4ca9fc1d27",
+  "helper_sha256": "68f43c9a0e629fbc46d443531cde97c7ab0af8111142848c9dc8cb4620be5417",
+  "new_objects": 31,
+  "original_objects_unchanged": 23315,
+  "counts": {
+    "fallen_leaves": 24000,
+    "low_ferns": 29,
+    "twigs": 65
+  },
+  "saved_contact_samples": 656269,
+  "saved_contact_failures": 0,
+  "local_path_positions": 2829,
+  "local_path_rays": 113160,
+  "local_path_failures": 0,
+  "serialization_normalization": {
+    "status": "PASS_FRESH_REOPEN_LOCAL_CONTACT_AND_PROTECTION",
+    "candidate_sha256": "5fed8ce2d7513565ce978af32f494c74ae40e09c101e18ce8578e56b0b1bcdb9",
+    "full_snapshot_equal_after_explicit_serialization_normalization": true,
+    "normalized_new_images": [
+      "LITTER12_fern_02_alpha.png",
+      "LITTER12_fern_02_diff.png",
+      "LITTER12_fern_02_nor_gl.png",
+      "LITTER12_fern_02_rough.png"
+    ],
+    "source_zero_user_legacy_image_ids_omitted": {
+      "forrest_ground_01_diff_2k.jpg": 0,
+      "forrest_ground_01_disp_2k.jpg": 0,
+      "forrest_ground_01_rough_2k.jpg": 0
+    },
+    "new_fern_matrix_save_recomposition_max_element_error": 2.4586915969848633e-07,
+    "new_fern_derived_dimensions_max_error_m": 1.1920928955078125e-07,
+    "new_fern_translation_exact": true,
+    "contact_samples": 656269,
+    "contact_failures": 0,
+    "road_building_footprint_failures": 0,
+    "protected_mesh_contact_failures": 0,
+    "rendered": false,
+    "saved": false,
+    "visual_status": "NOT_RUN"
+  },
+  "camera_overlay": "qa/forest-litter12-camera-settings.json",
+  "camera_overlay_sha256": "91638ead0d0ce12124e634ce5d08441480e781e4501bf87e83bf96abf274bc54",
+  "comparison": {
+    "frame": 48,
+    "resolution": [
+      1280,
+      720
+    ],
+    "samples": 48,
+    "rendered_by_this_agent": false
+  },
+  "handoff": "qa/forest-litter12-handoff.md",
+  "design_and_licenses": "qa/forest-litter12-design.md",
+  "production_installed": false,
+  "limits": "C morphology/placement. Local new-object regression only, not full navigation or photorealistic acceptance."
+}

@@ -1,0 +1,1217 @@
+{
+  "status": "FAILED_STATIC_INPUTS_READONLY_AUDIT",
+  "failed_scene_sha256": "26d31f4108ad6d178ce95a20e0547ca7765b1e24bedb728c6f8505bf99b5daf5",
+  "reconstructed_near_body_matches_preunion_volume": true,
+  "near_river": {
+    "object": "WATER12_Complete_Closed_Upstream_Branches_Pool_Downstream.001",
+    "topology": {
+      "vertices": 14322,
+      "faces": 14318,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 563.7572365436401
+    },
+    "components": [
+      {
+        "label": 2170,
+        "triangles": 8800,
+        "signed_volume_m3": 180.34209437408842
+      },
+      {
+        "label": 7130,
+        "triangles": 19836,
+        "signed_volume_m3": 383.4665096757988
+      }
+    ],
+    "triangle_count": 28636,
+    "degenerate_triangles_below1e12_m2": 0,
+    "minimum_triangle_area_m2": 0.0001975176935139309,
+    "nonadjacent_BVH_candidate_pairs": 834,
+    "segment_triangle_pairs_tested": 834,
+    "confirmed_nonadjacent_segment_triangle_crossings": 829,
+    "crossing_examples": [
+      {
+        "triangle_pair": [
+          25507,
+          28484
+        ],
+        "point": [
+          -44.960350036621094,
+          -24.585054397583008,
+          -7.531835556030273
+        ],
+        "segment_fraction": 0.9726417693890472,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25507,
+          28489
+        ],
+        "point": [
+          -44.90864944458008,
+          -24.586383819580078,
+          -7.528395652770996
+        ],
+        "segment_fraction": 0.998807338405529,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25507,
+          26101
+        ],
+        "point": [
+          -44.969730377197266,
+          -24.598295211791992,
+          -7.534928321838379
+        ],
+        "segment_fraction": 0.03317295042307455,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25507,
+          26100
+        ],
+        "point": [
+          -44.960350036621094,
+          -24.585054397583008,
+          -7.531835556030273
+        ],
+        "segment_fraction": 0.027358246781156798,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25507,
+          28485
+        ],
+        "point": [
+          -44.909637451171875,
+          -24.586462020874023,
+          -7.5284810066223145
+        ],
+        "segment_fraction": 0.9992358227622302,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25507,
+          28488
+        ],
+        "point": [
+          -44.908180236816406,
+          -24.586502075195312,
+          -7.528384208679199
+        ],
+        "segment_fraction": 0.9988307123382265,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25507,
+          26161
+        ],
+        "point": [
+          -45.18821716308594,
+          -24.515525817871094,
+          -7.535334587097168
+        ],
+        "segment_fraction": 0.2888007067425879,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25506,
+          26101
+        ],
+        "point": [
+          -45.03758239746094,
+          -24.934968948364258,
+          -7.600523471832275
+        ],
+        "segment_fraction": 0.7961493369164575,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25506,
+          26161
+        ],
+        "point": [
+          -45.09675598144531,
+          -24.81509017944336,
+          -7.583134174346924
+        ],
+        "segment_fraction": 0.3230586224929578,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25506,
+          26160
+        ],
+        "point": [
+          -45.1056022644043,
+          -24.944171905517578,
+          -7.606935501098633
+        ],
+        "segment_fraction": 0.2714704092169878,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25506,
+          26163
+        ],
+        "point": [
+          -45.1117057800293,
+          -24.96955108642578,
+          -7.611920356750488
+        ],
+        "segment_fraction": 0.010741622013723681,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25509,
+          26101
+        ],
+        "point": [
+          -45.03758239746094,
+          -24.934968948364258,
+          -7.600523471832275
+        ],
+        "segment_fraction": 0.20385065243984626,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25509,
+          26161
+        ],
+        "point": [
+          -44.99911117553711,
+          -24.971364974975586,
+          -7.604608058929443
+        ],
+        "segment_fraction": 0.0009076837244229646,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25509,
+          26160
+        ],
+        "point": [
+          -45.0004768371582,
+          -24.97138214111328,
+          -7.604703426361084
+        ],
+        "segment_fraction": 0.004170102993005835,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25509,
+          26163
+        ],
+        "point": [
+          -45.10481262207031,
+          -24.97543716430664,
+          -7.612512588500977
+        ],
+        "segment_fraction": 0.9916677039655871,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26101,
+          26402
+        ],
+        "point": [
+          -46.76282501220703,
+          -24.941843032836914,
+          -7.715066432952881
+        ],
+        "segment_fraction": 0.999574406472509,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26100,
+          26281
+        ],
+        "point": [
+          -45.82496643066406,
+          -24.561067581176758,
+          -7.5830583572387695
+        ],
+        "segment_fraction": 0.48076961951621217,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26100,
+          26280
+        ],
+        "point": [
+          -46.03277587890625,
+          -24.555301666259766,
+          -7.595369815826416
+        ],
+        "segment_fraction": 0.5897464740513917,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26100,
+          26403
+        ],
+        "point": [
+          -46.619956970214844,
+          -24.539011001586914,
+          -7.630156517028809
+        ],
+        "segment_fraction": 0.8976687014734966,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26100,
+          26402
+        ],
+        "point": [
+          -46.76282501220703,
+          -24.941843032836914,
+          -7.715066432952881
+        ],
+        "segment_fraction": 0.00042553890566954515,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25504,
+          28489
+        ],
+        "point": [
+          -45.189453125,
+          -24.51521110534668,
+          -7.535363674163818
+        ],
+        "segment_fraction": 0.7143390825314588,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25504,
+          26161
+        ],
+        "point": [
+          -45.26517868041992,
+          -24.5455265045166,
+          -7.546093463897705
+        ],
+        "segment_fraction": 0.8787402109702959,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25504,
+          26160
+        ],
+        "point": [
+          -45.31992721557617,
+          -24.563169479370117,
+          -7.552973747253418
+        ],
+        "segment_fraction": 0.8005123577856919,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25504,
+          26221
+        ],
+        "point": [
+          -45.32575607299805,
+          -24.56524085998535,
+          -7.553745746612549
+        ],
+        "segment_fraction": 0.04505744341433551,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25504,
+          28492
+        ],
+        "point": [
+          -45.30193328857422,
+          -24.486703872680664,
+          -7.536213397979736
+        ],
+        "segment_fraction": 0.9940345574070419,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25504,
+          28493
+        ],
+        "point": [
+          -45.380950927734375,
+          -24.46098518371582,
+          -7.535642623901367
+        ],
+        "segment_fraction": 0.31569522520474647,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          12361,
+          12483
+        ],
+        "point": [
+          -45.420867919921875,
+          -24.964675903320312,
+          -7.223613739013672
+        ],
+        "segment_fraction": 0.23914134504943177,
+        "skin_pair": [
+          "top",
+          "top"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25508,
+          26163
+        ],
+        "point": [
+          -45.097408294677734,
+          -24.996559143066406,
+          -7.615814208984375
+        ],
+        "segment_fraction": 0.9420853344311334,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25568,
+          26163
+        ],
+        "point": [
+          -45.127201080322266,
+          -25.31532859802246,
+          -7.675246715545654
+        ],
+        "segment_fraction": 0.11392686751572666,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25568,
+          26103
+        ],
+        "point": [
+          -45.3500862121582,
+          -25.37000274658203,
+          -7.698949813842773
+        ],
+        "segment_fraction": 0.8412193066099574,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25568,
+          26162
+        ],
+        "point": [
+          -45.38226318359375,
+          -25.19309425354004,
+          -7.671100616455078
+        ],
+        "segment_fraction": 0.14231356908305054,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25568,
+          26104
+        ],
+        "point": [
+          -45.35285949707031,
+          -25.370527267456055,
+          -7.699218273162842
+        ],
+        "segment_fraction": 0.47811081566139424,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25569,
+          26163
+        ],
+        "point": [
+          -45.11323165893555,
+          -24.97577667236328,
+          -7.613144874572754
+        ],
+        "segment_fraction": 0.9893673995934545,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25569,
+          26162
+        ],
+        "point": [
+          -45.382259368896484,
+          -25.19309425354004,
+          -7.671100616455078
+        ],
+        "segment_fraction": 0.8576804267100067,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26103,
+          26344
+        ],
+        "point": [
+          -46.61476516723633,
+          -25.33462905883789,
+          -7.772127151489258
+        ],
+        "segment_fraction": 0.9435798964933033,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26102,
+          26344
+        ],
+        "point": [
+          -46.61476516723633,
+          -25.33462905883789,
+          -7.772127151489258
+        ],
+        "segment_fraction": 0.056420129317074824,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26102,
+          26402
+        ],
+        "point": [
+          -46.76283645629883,
+          -24.942007064819336,
+          -7.715097427368164
+        ],
+        "segment_fraction": 0.9995590577305621,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          26102,
+          26405
+        ],
+        "point": [
+          -46.762306213378906,
+          -24.952363967895508,
+          -7.716823101043701
+        ],
+        "segment_fraction": 0.025029461097603355,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          12362,
+          12483
+        ],
+        "point": [
+          -45.420867919921875,
+          -24.964675903320312,
+          -7.223613739013672
+        ],
+        "segment_fraction": 0.7608586740926699,
+        "skin_pair": [
+          "top",
+          "top"
+        ]
+      },
+      {
+        "triangle_pair": [
+          25565,
+          26221
+        ],
+        "point": [
+          -45.3973503112793,
+          -24.55311393737793,
+          -7.556484699249268
+        ],
+        "segment_fraction": 0.14373641730747252,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      }
+    ],
+    "crossing_point_bounds_m": [
+      [
+        -48.7202033996582,
+        6.913740158081055
+      ],
+      [
+        -29.91172981262207,
+        -0.4492039382457733
+      ],
+      [
+        -7.87453031539917,
+        -2.9491336345672607
+      ]
+    ],
+    "crossings_inside_current_contact_ROI": 70,
+    "crossings_in_water10_XY_domain": 70,
+    "crossings_above_minus4m": 15,
+    "crossing_examples_in_current_contact_ROI": [
+      {
+        "triangle_pair": [
+          4440,
+          27948
+        ],
+        "point": [
+          -1.7902802228927612,
+          -0.4492039382457733,
+          -5.880520820617676
+        ],
+        "segment_fraction": 0.259328208497232,
+        "skin_pair": [
+          "top",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          4440,
+          27949
+        ],
+        "point": [
+          -1.8405537605285645,
+          -0.4842972755432129,
+          -5.867733001708984
+        ],
+        "segment_fraction": 0.9043137757326165,
+        "skin_pair": [
+          "top",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          4501,
+          27948
+        ],
+        "point": [
+          -1.7902802228927612,
+          -0.4492039680480957,
+          -5.880520820617676
+        ],
+        "segment_fraction": 0.7406716377187904,
+        "skin_pair": [
+          "top",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          4501,
+          27949
+        ],
+        "point": [
+          -1.813372254371643,
+          -0.4653232991695404,
+          -5.881125450134277
+        ],
+        "segment_fraction": 0.1532385973077258,
+        "skin_pair": [
+          "top",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          4501,
+          27956
+        ],
+        "point": [
+          -1.8559211492538452,
+          -0.4704550504684448,
+          -5.882050037384033
+        ],
+        "segment_fraction": 0.13620878793012875,
+        "skin_pair": [
+          "top",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          4501,
+          27952
+        ],
+        "point": [
+          -1.869417667388916,
+          -0.5044456720352173,
+          -5.882591724395752
+        ],
+        "segment_fraction": 0.3209941299290768,
+        "skin_pair": [
+          "top",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          4501,
+          27953
+        ],
+        "point": [
+          -1.8651195764541626,
+          -0.493620902299881,
+          -5.882419109344482
+        ],
+        "segment_fraction": 0.3184620595355495,
+        "skin_pair": [
+          "top",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          4441,
+          27949
+        ],
+        "point": [
+          -1.8405537605285645,
+          -0.4842973053455353,
+          -5.867733001708984
+        ],
+        "segment_fraction": 0.09568629869642468,
+        "skin_pair": [
+          "top",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18063,
+          18243
+        ],
+        "point": [
+          -1.6721532344818115,
+          -0.7186708450317383,
+          -6.01393985748291
+        ],
+        "segment_fraction": 0.9837941551067033,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18060,
+          18243
+        ],
+        "point": [
+          -1.6787720918655396,
+          -0.7170178890228271,
+          -6.0135650634765625
+        ],
+        "segment_fraction": 0.9976666888415983,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18060,
+          18181
+        ],
+        "point": [
+          -1.76970374584198,
+          -0.5019159317016602,
+          -5.988900184631348
+        ],
+        "segment_fraction": 0.18004478962062104,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18060,
+          18180
+        ],
+        "point": [
+          -1.8045177459716797,
+          -0.5397066473960876,
+          -5.988779067993164
+        ],
+        "segment_fraction": 0.3220232161160444,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18061,
+          18121
+        ],
+        "point": [
+          -1.8346362113952637,
+          -0.5002869963645935,
+          -5.98488712310791
+        ],
+        "segment_fraction": 0.12073158832152331,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18061,
+          18181
+        ],
+        "point": [
+          -1.76970374584198,
+          -0.5019159317016602,
+          -5.988900184631348
+        ],
+        "segment_fraction": 0.8199551380734718,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18061,
+          18180
+        ],
+        "point": [
+          -1.832905888557434,
+          -0.5014615654945374,
+          -5.984457969665527
+        ],
+        "segment_fraction": 0.14418197182861842,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18121,
+          27949
+        ],
+        "point": [
+          -1.8442192077636719,
+          -0.4868559241294861,
+          -5.983116626739502
+        ],
+        "segment_fraction": 0.0663753534460232,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18121,
+          18243
+        ],
+        "point": [
+          -1.6806559562683105,
+          -0.7160980701446533,
+          -6.013340473175049
+        ],
+        "segment_fraction": 0.9941321632725209,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18120,
+          18243
+        ],
+        "point": [
+          -1.6812456846237183,
+          -0.7157242894172668,
+          -6.013247966766357
+        ],
+        "segment_fraction": 0.9914423962838546,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18241,
+          27949
+        ],
+        "point": [
+          -1.7902802228927612,
+          -0.4492039382457733,
+          -5.983998775482178
+        ],
+        "segment_fraction": 0.2593282015156884,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18241,
+          27952
+        ],
+        "point": [
+          -1.869417667388916,
+          -0.5044456720352173,
+          -5.975746154785156
+        ],
+        "segment_fraction": 0.9680132084233711,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18241,
+          27953
+        ],
+        "point": [
+          -1.8562120199203491,
+          -0.47118762135505676,
+          -5.977838039398193
+        ],
+        "segment_fraction": 0.9784467503917047,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18181,
+          27949
+        ],
+        "point": [
+          -1.7965351343154907,
+          -0.4535702168941498,
+          -5.9876813888549805
+        ],
+        "segment_fraction": 0.2121549818153195,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18180,
+          27949
+        ],
+        "point": [
+          -1.8439083099365234,
+          -0.4866389334201813,
+          -5.98278284072876
+        ],
+        "segment_fraction": 0.0752558813313346,
+        "skin_pair": [
+          "bottom",
+          "side"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18180,
+          18243
+        ],
+        "point": [
+          -1.6973607540130615,
+          -0.6840704083442688,
+          -6.005091667175293
+        ],
+        "segment_fraction": 0.9933218955613496,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18062,
+          18183
+        ],
+        "point": [
+          -1.6462535858154297,
+          -0.7490996718406677,
+          -6.021288871765137
+        ],
+        "segment_fraction": 0.4163148107421914,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18062,
+          18243
+        ],
+        "point": [
+          -1.672153115272522,
+          -0.7186708450317383,
+          -6.01393985748291
+        ],
+        "segment_fraction": 0.01620610268693424,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18062,
+          18185
+        ],
+        "point": [
+          -1.5690674781799316,
+          -0.9563025236129761,
+          -6.06924295425415
+        ],
+        "segment_fraction": 0.09329048656951279,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18062,
+          18245
+        ],
+        "point": [
+          -1.5807912349700928,
+          -0.9309836030006409,
+          -6.063334941864014
+        ],
+        "segment_fraction": 0.189443239290768,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18062,
+          18182
+        ],
+        "point": [
+          -1.6770305633544922,
+          -0.7231433391571045,
+          -6.014837265014648
+        ],
+        "segment_fraction": 0.9787506824474902,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      },
+      {
+        "triangle_pair": [
+          18122,
+          18245
+        ],
+        "point": [
+          -1.6023253202438354,
+          -0.8835493326187134,
+          -6.0557780265808105
+        ],
+        "segment_fraction": 0.2433785920516836,
+        "skin_pair": [
+          "bottom",
+          "bottom"
+        ]
+      }
+    ],
+    "skin_pair_counts": {
+      "bottom/bottom": 653,
+      "bottom/side": 40,
+      "side/side": 2,
+      "side/top": 64,
+      "top/top": 70
+    },
+    "limitations": "Pairs sharing mesh vertices and strictly coplanar overlaps not tested; zero crossings is not a full self-intersection certificate."
+  },
+  "branch1": {
+    "object": "W12_C_Branch_Region_01",
+    "topology": {
+      "vertices": 3904,
+      "faces": 3874,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.02622024098723079
+    },
+    "components": [
+      {
+        "label": 28,
+        "triangles": 7804,
+        "signed_volume_m3": 0.02621826878320241
+      }
+    ],
+    "triangle_count": 7804,
+    "degenerate_triangles_below1e12_m2": 0,
+    "minimum_triangle_area_m2": 3.3852176326352627e-06,
+    "nonadjacent_BVH_candidate_pairs": 0,
+    "segment_triangle_pairs_tested": 0,
+    "confirmed_nonadjacent_segment_triangle_crossings": 0,
+    "crossing_examples": [],
+    "crossing_point_bounds_m": null,
+    "crossings_inside_current_contact_ROI": 0,
+    "crossings_in_water10_XY_domain": 0,
+    "crossings_above_minus4m": 0,
+    "crossing_examples_in_current_contact_ROI": [],
+    "skin_pair_counts": {},
+    "limitations": "Pairs sharing mesh vertices and strictly coplanar overlaps not tested; zero crossings is not a full self-intersection certificate."
+  },
+  "new_bake": false,
+  "new_render": false,
+  "new_scene_save": false,
+  "failed_scene_file_unchanged": true
+}

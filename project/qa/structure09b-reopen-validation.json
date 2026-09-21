@@ -1,0 +1,146 @@
+{
+  "status": "PASS_SCOPED_STRUCTURE09B_INDEPENDENT_REOPEN_VISUAL_NOT_RUN",
+  "source_sha256": "4fa1fc1f56795a2da88c97bacc9bd3b2a0730d3d085076173425b00addd744a0",
+  "candidate_sha256": "852b4f3c50ed7530bbba0f9957e2af4e4717496a4129a9169d17a234c86665a1",
+  "source_script_sha256": "d80558f5780773f8f3b2e8324dea32da616500958c83a70d7637a9e3fc180caf",
+  "evaluated_source_match": [
+    {
+      "object": "MAIN_L1_LOGGIA_slab",
+      "vertices_same": true,
+      "faces_same": true,
+      "max_error_m": 0.0
+    },
+    {
+      "object": "MAIN_L1_LOGGIA_finish",
+      "vertices_same": true,
+      "faces_same": true,
+      "max_error_m": 0.0
+    },
+    {
+      "object": "MAIN_L3_ALCOVE_slab",
+      "vertices_same": true,
+      "faces_same": true,
+      "max_error_m": 0.0
+    },
+    {
+      "object": "MAIN_L3_ALCOVE_finish",
+      "vertices_same": true,
+      "faces_same": true,
+      "max_error_m": 0.0
+    },
+    {
+      "object": "MAIN_L1_coat_1",
+      "vertices_same": true,
+      "faces_same": true,
+      "max_error_m": 0.0
+    }
+  ],
+  "cap_grid_samples": 54384,
+  "previous_duplicate_cap_samples": 1764,
+  "candidate_duplicate_cap_samples": 882,
+  "new_duplicate_cap_samples": [],
+  "actual_reopen_targets": [
+    {
+      "label": "Alcove floor",
+      "source_px": [
+        433,
+        265
+      ],
+      "down": {
+        "object": "MAIN_L3_ALCOVE_finish",
+        "point": [
+          5.5543999671936035,
+          14.602499961853027,
+          5.286149978637695
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "up": {
+        "object": "MAIN_L3_gallery_roof",
+        "point": [
+          5.5543999671936035,
+          14.602499961853027,
+          7.3225250244140625
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "label": "Loggia solid corner",
+      "source_px": [
+        534.767522972,
+        300.727693806
+      ],
+      "down": {
+        "object": "MAIN_L1_coat_1",
+        "point": [
+          10.887018203735352,
+          12.70535945892334,
+          0.10000000149011612
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "up": {
+        "object": "MAIN_L1_coat_1",
+        "point": [
+          10.887018203735352,
+          12.70535945892334,
+          2.5
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "label": "Loggia paving",
+      "source_px": [
+        534,
+        304
+      ],
+      "down": {
+        "object": "MAIN_L1_LOGGIA_finish",
+        "point": [
+          10.846799850463867,
+          12.531599998474121,
+          0.12200000137090683
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "up": {
+        "object": "MAIN_L2_HALL_slab",
+        "point": [
+          10.846799850463867,
+          12.531599998474121,
+          2.624800205230713
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    }
+  ],
+  "initial_assertion_failure_preserved": "qa/structure09b-initial-assertion-fail.json/log/py",
+  "assertion_correction": "Source-classified solid point is no longer a free-ceiling sample; it correctly intersects the solid cap from inside. Other walking/opening ceiling controls stay unchanged.",
+  "candidate_not_resaved": true
+}

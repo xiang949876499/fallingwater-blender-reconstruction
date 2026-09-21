@@ -1,0 +1,131 @@
+{
+  "status": "ONE_ASSEMBLY_GEOMETRY_PASS_VISUAL_NOT_RUN",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_ceramic_candidate10.blend",
+  "candidate_sha256": "2cc9f029cb8fba653ef8f93ac7ba3ab1d5ed9d9323249e6391cc157623cd5157",
+  "assembly": "FW_FURN_MAIN_L3_BATH_water_closet_01",
+  "changed_objects": [
+    "FW_FURN_MAIN_L3_BATH_water_closet_01_bowl_shell",
+    "FW_FURN_MAIN_L3_BATH_water_closet_01_foot",
+    "FW_FURN_MAIN_L3_BATH_water_closet_01_open_seat"
+  ],
+  "checks": {
+    "foot": {
+      "vertices": 5954,
+      "faces": 6048,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume_m3": 0.018283845605018008,
+      "min_face_area_m2": 1.2994860298931599e-07,
+      "old_bounds": [
+        [
+          -0.1720000058412552,
+          0.1720000058412552
+        ],
+        [
+          -0.26899999380111694,
+          0.17900000512599945
+        ],
+        [
+          0.0,
+          0.3100000023841858
+        ]
+      ],
+      "new_bounds": [
+        [
+          -0.14781250059604645,
+          0.14781250059604645
+        ],
+        [
+          -0.23749999701976776,
+          0.14749999344348907
+        ],
+        [
+          0.0,
+          0.3100000023841858
+        ]
+      ],
+      "old_mesh": "FW_FURN_MAIN_L3_BATH_water_closet_01_foot_mesh",
+      "new_mesh": "FW_FURN_MAIN_L3_BATH_water_closet_01_foot_SmoothCeramic10"
+    },
+    "bowl_shell": {
+      "vertices": 8258,
+      "faces": 8352,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume_m3": 0.02499786597918489,
+      "min_face_area_m2": 1.025910023599863e-08,
+      "old_bounds": [
+        [
+          -0.2321999967098236,
+          0.2321999967098236
+        ],
+        [
+          -0.41440001130104065,
+          0.2443999946117401
+        ],
+        [
+          0.18000000715255737,
+          0.4050000011920929
+        ]
+      ],
+      "new_bounds": [
+        [
+          -0.2321999967098236,
+          0.2321999967098236
+        ],
+        [
+          -0.41440001130104065,
+          0.2443999946117401
+        ],
+        [
+          0.18000000715255737,
+          0.4050000011920929
+        ]
+      ],
+      "old_mesh": "FW_FURN_MAIN_L3_BATH_water_closet_01_bowl_shell_mesh",
+      "new_mesh": "FW_FURN_MAIN_L3_BATH_water_closet_01_bowl_shell_SmoothCeramic10"
+    },
+    "open_seat": {
+      "vertices": 4608,
+      "faces": 4608,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume_m3": 0.0023837156067432266,
+      "min_face_area_m2": 2.2956230168347247e-05,
+      "old_bounds": [
+        [
+          -0.22446000576019287,
+          0.22446000576019287
+        ],
+        [
+          -0.40081000328063965,
+          0.2308100014925003
+        ],
+        [
+          0.40700000524520874,
+          0.4410000145435333
+        ]
+      ],
+      "new_bounds": [
+        [
+          -0.22287437319755554,
+          0.22287437319755554
+        ],
+        [
+          -0.39857906103134155,
+          0.2285790592432022
+        ],
+        [
+          0.40700000524520874,
+          0.4410000145435333
+        ]
+      ],
+      "old_mesh": "FW_FURN_MAIN_L3_BATH_water_closet_01_open_seat_mesh",
+      "new_mesh": "FW_FURN_MAIN_L3_BATH_water_closet_01_open_seat_SmoothCeramic10"
+    }
+  },
+  "unchanged_non_target_objects": 23382,
+  "seconds": 11.33322799999587,
+  "limits": "Only bounded C ceramic surface smoothing/closed shell. Existing furniture position/materials/other objects unchanged. No real fixture identity or whole-room realism claimed."
+}

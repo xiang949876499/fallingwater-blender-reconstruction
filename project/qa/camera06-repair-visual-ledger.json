@@ -1,0 +1,56 @@
+{
+  "scene": "scene/Fallingwater_iteration06.blend",
+  "images": [
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "variant": "iteration06-camera-repairs",
+      "file": "renders/previews/iteration06-camera-repairs/CAM_GUEST_L1_LOUNGE_A.png",
+      "sha256": "f2a3394c340c192eb423e71105206d849b9ed10afb00f9f7969a0ebf25365f43",
+      "actually_opened_by_camera_agent": true,
+      "status": "FRAMING_AND_ILLUMINATION_FAIL",
+      "finding": "Large cupboard/back surface fills left foreground, close stonework fills right, narrow dark recess in middle; this does not read as a complete room or acceptable fireplace view.",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "variant": "iteration06-camera-repairs",
+      "file": "renders/previews/iteration06-camera-repairs/CAM_GUEST_L1_LOUNGE_B.png",
+      "sha256": "a2054b250865386afca1e422cc81acb3923c5d59373fafc6150d1bf7429abbe1",
+      "actually_opened_by_camera_agent": true,
+      "status": "READABLE_DIAGNOSTIC",
+      "finding": "Bookshelf, chair, window bench and east part of room are readable without the former foreground screen bars. Table partially cropped; lighting and furnishing quality remain open. Root accepts this as one room viewpoint, not final visual quality.",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "variant": "iteration06-camera-repairs",
+      "file": "renders/previews/iteration06-camera-repairs/CAM_MAIN_L1_LOGGIA_A.png",
+      "sha256": "f28ab4904a0735f3d3666f1935cda090e40e4bd65958db398bd95a37070a85ac",
+      "actually_opened_by_camera_agent": true,
+      "status": "LIMITED_CIRCULATION_VIEW",
+      "finding": "Safe support but the image looks into narrow circulation between stone masses, with stairs at rear and dark transverse floor bands. This is not complete loggia framing; bands require separate geometric/material diagnosis.",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "variant": "iteration06-camera-repairs",
+      "file": "renders/previews/iteration06-camera-repairs/CAM_MAIN_B_PLUNGE_A.png",
+      "sha256": "2dba2075687ec95c77cf408dae11a63f027660a34ac64dbd6e621907dbb16a85",
+      "actually_opened_by_camera_agent": true,
+      "status": "LIMITED_STAIR_POOL_EDGE",
+      "finding": "Downward view clearly includes several real treads, with only a narrow portion of water/pool edge. Not a full plunge-pool view.",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "variant": "iteration06-firebox-detail",
+      "file": "renders/previews/iteration06-firebox-detail/CAM_GUEST_L1_LOUNGE_A.png",
+      "sha256": "92fee82361e1b65c4fed576fbaa277148cc77c4d83233517a2c6b6302471a9d2",
+      "actually_opened_by_camera_agent": true,
+      "status": "FRAMING_AND_ILLUMINATION_FAIL",
+      "finding": "The aperture is geometrically clear but appears as a dark square recess behind the screen, in an awkward close downward view. No visual fireplace acceptance.",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    }
+  ],
+  "decision": "Keep data/camera-settings-reviewed.json unchanged pending independent reference/layout review. Stop further camera search. All120 candidate positions passed geometric checks, which did not establish useful rendered framing."
+}

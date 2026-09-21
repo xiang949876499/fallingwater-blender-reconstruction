@@ -1,0 +1,108 @@
+{
+  "status": "PASS_FOR_10_CORRECTED_ANCHORS_AND_FOCUSED_REGRESSION",
+  "baseline": "qa/guest-dimensions-measured.json",
+  "changes": [
+    {
+      "anchors": [
+        "GUEST_GUEST_ROOM_LENGTH",
+        "GUEST_GUEST_ROOM_DEPTH"
+      ],
+      "change": "Move shared bath partition east and connected guest/bath south facade south; preserve north spine, east doorway endpoints and pool. Coordinate bath cork finish, guest/gallery/terrace polygons and south cabinet.",
+      "coordinates_normalized_px": {
+        "bath_east_x": 536.8592085235921,
+        "south_y": 437.2078907435508
+      }
+    },
+    {
+      "anchors": [
+        "GUEST_BOILER_DIM_1",
+        "GUEST_BOILER_DIM_2"
+      ],
+      "change": "Northern/eastern structural faces follow printed 4ft7in x8ft2in clear room label; floor/roof/census follow revised walls and existing west-door endpoints remain fixed.",
+      "coordinates_normalized_px": {
+        "north_y": 315.8110773899848,
+        "east_x": 378.30593607305934
+      }
+    },
+    {
+      "anchors": [
+        "GUEST_LAUNDRY_LENGTH",
+        "GUEST_LAUNDRY_DEPTH",
+        "GUEST_BASE_BATH_LENGTH",
+        "GUEST_BASE_BATH_WIDTH"
+      ],
+      "change": "Retain east stair and south datum; shift north envelope, shared bath partition and west bath wall; basement outer west face constrained by separately read18ft9 7/8in source chain. Revised slab, extension ceiling, room polygons, cork spans and opening fractions.",
+      "coordinates_normalized_px": {
+        "north_y": 347.9097116843703,
+        "bath_east_x": 225.61263318112634,
+        "bath_west_x": 193.31811263318113,
+        "bath_north_y": 377.4165402124431,
+        "outer_west_x": 175.36862633181127,
+        "overall_west_inner_to_east_outer_m": 5.737225
+      }
+    },
+    {
+      "anchors": [
+        "GUEST_POOL_OUTER_WIDTH"
+      ],
+      "change": "Keep clear shell, water and steps; widen only outside shell/coping ring to exterior31ft6 5/8in witness dimension.",
+      "coordinates_normalized_px": {
+        "coping_width_m": 0.22383750000000013
+      }
+    },
+    {
+      "anchors": [
+        "GUEST_TOP_STONE"
+      ],
+      "change": "Raise allfour pointed upperterrace enclosure walls to printed topdatum; floor remains2.352675m. Eye-level view through north/pointed terrace is correctly enclosed rather than low-parapet open.",
+      "coordinates_normalized_px": {
+        "wall_height_above_L2_m": 2.1590000000000003,
+        "top_above_L1_m": 4.511675
+      }
+    }
+  ],
+  "limitations": [
+    "Clear-face interpretation from printed roomlabels is explicit; source tracing isnot survey-grade.",
+    "Basement overall chain18ft9 7/8in read separately fromoriginal; footprint belowgrade expanded west to keep eaststair fixed.",
+    "Pool uniformcoping width inferred fromsource ring rather than separatelydimensioned transversecoping.",
+    "No working.blend overwritten; integrationscene and furnishing/terrainregression stillrequired."
+  ],
+  "measurement_counts": {
+    "PASS": 17,
+    "FAIL": 0,
+    "NOT_RUN": 5
+  },
+  "measurement_report": "qa/guest-dimension-fixes-measured.json",
+  "stair_regression": {
+    "status": "PASS",
+    "samples": 47,
+    "minimum_clearance_m": 2.12,
+    "negative_control_failure_count": 12
+  },
+  "door_regression": {
+    "status": "PASS",
+    "doors": 5,
+    "body_ray_samples": 60,
+    "minimum_actual_height_m": 1.9549995422363278
+  },
+  "changed_room_structural_regression": {
+    "status": "PASS",
+    "samples": 116,
+    "movable_leaf_occupied_samples": 1,
+    "note": "All116 structural floor/ceiling probes pass; one boiler sample first hits an open doorleaf. That occupancy is explicitly retained, not reported as free walking volume. Door passage has separate body-ray test."
+  },
+  "fixed_scene_sha256": "ac0ef3be17ab7bc5970ca9afb74b7f7b0f713490c3c5b157c4afd5ee58b5187b",
+  "overlays": [
+    "D:\\zx\\test\\project\\qa\\guest-dimension-fixes-plan-overlay.png",
+    "D:\\zx\\test\\project\\qa\\guest-dimension-fixes-west-overlay.png"
+  ],
+  "viewed": true,
+  "absolute_site_registration_unchanged": true,
+  "integration_requirements": [
+    "Root must rebuild latest complete scene; working.blend isstill iteration03 and wasnot modified bythissubtask.",
+    "Rebuild furnishings fromupdated guest room census; bath/laundry/guest positions changed.",
+    "Re-run complete surface/navigation/terrain tests, particularly corrected westbasement extent and L2upperterrace camera view.",
+    "Keep5 unresolvedsourceendpoint dimensions NOT_RUN; sourcebounds/printedroomlabels do not authorize invented survey endpoints.",
+    "Connector canopy elevation remains visibly approximate; thisreport doesnot declareGEO-03 complete."
+  ]
+}

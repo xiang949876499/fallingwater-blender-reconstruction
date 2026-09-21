@@ -1,0 +1,2066 @@
+{
+  "status": "READ_ONLY_SAVED_SHADER_AND_MAPPING_PROBE",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration08.blend",
+  "source_sha256": "c5cd501e4c8ae0205ecb2437cd2d06d0c92bcc9a87e7d93d3986aeef976070d7",
+  "frame": 48,
+  "render_benchmark_sha256": "6a9387ee0773e5d34fbcbcb786506b9dc60a89b98cd704ab8ddc7ee927141417",
+  "terrain": {
+    "object": "SITE_Continuous_BearRun_Terrain",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "dimensions": [
+      2080.0,
+      2080.0,
+      52.57960510253906
+    ],
+    "vertices": 108945,
+    "faces": 216572,
+    "smooth_faces": 216572,
+    "modifiers": [],
+    "material_slots": [
+      "FW_Continuous_Forest_Floor"
+    ],
+    "face_material_counts": {
+      "0": 216572
+    },
+    "attributes": [
+      ".select_vert",
+      ".select_edge",
+      ".select_poly",
+      "position",
+      ".edge_verts",
+      ".corner_vert",
+      ".corner_edge"
+    ],
+    "bridge08_marker": "{\"options\": {\"bounds\": [22.8, 27.35, 8.5, 13.7], \"edge_fade_m\": 0.65, \"enabled\": true, \"material_edge_fade_m\": 0.3, \"outside_max_lowering_m\": 1.2, \"path_name\": \"SITE_Path_bridge_north_approach\", \"soil_below_paving_m\": 0.06, \"surface_tint\": false}, \"revision\": \"bridge_front08\"}"
+  },
+  "material": {
+    "name": "FW_Continuous_Forest_Floor",
+    "use_nodes": true,
+    "properties": {
+      "texture_source": "https://polyhaven.com/a/forrest_ground_01",
+      "license": "CC0",
+      "texture_width_m": 2.0
+    },
+    "users": 1,
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "ShaderNodeBsdfPrincipled",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Base Color",
+            "identifier": "Base Color",
+            "linked": true,
+            "value": [
+              0.07500000298023224,
+              0.05400000140070915,
+              0.02800000086426735,
+              1.0
+            ]
+          },
+          {
+            "name": "Metallic",
+            "identifier": "Metallic",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Roughness",
+            "identifier": "Roughness",
+            "linked": true,
+            "value": 1.0
+          },
+          {
+            "name": "IOR",
+            "identifier": "IOR",
+            "linked": false,
+            "value": 1.5
+          },
+          {
+            "name": "Alpha",
+            "identifier": "Alpha",
+            "linked": false,
+            "value": 1.0
+          },
+          {
+            "name": "Thin Wall",
+            "identifier": "Thin Wall",
+            "linked": false,
+            "value": false
+          },
+          {
+            "name": "Normal",
+            "identifier": "Normal",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Weight",
+            "identifier": "Weight",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Diffuse Roughness",
+            "identifier": "Diffuse Roughness",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Subsurface Weight",
+            "identifier": "Subsurface Weight",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Subsurface Radius",
+            "identifier": "Subsurface Radius",
+            "linked": false,
+            "value": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ]
+          },
+          {
+            "name": "Subsurface Scale",
+            "identifier": "Subsurface Scale",
+            "linked": false,
+            "value": 0.004999999888241291
+          },
+          {
+            "name": "Subsurface IOR",
+            "identifier": "Subsurface IOR",
+            "linked": false,
+            "value": 1.399999976158142
+          },
+          {
+            "name": "Subsurface Anisotropy",
+            "identifier": "Subsurface Anisotropy",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Specular IOR Level",
+            "identifier": "Specular IOR Level",
+            "linked": false,
+            "value": 0.5
+          },
+          {
+            "name": "Specular Tint",
+            "identifier": "Specular Tint",
+            "linked": false,
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Anisotropic",
+            "identifier": "Anisotropic",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Anisotropic Rotation",
+            "identifier": "Anisotropic Rotation",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Tangent",
+            "identifier": "Tangent",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Transmission Weight",
+            "identifier": "Transmission Weight",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Coat Weight",
+            "identifier": "Coat Weight",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Coat Roughness",
+            "identifier": "Coat Roughness",
+            "linked": false,
+            "value": 0.029999999329447746
+          },
+          {
+            "name": "Coat IOR",
+            "identifier": "Coat IOR",
+            "linked": false,
+            "value": 1.5
+          },
+          {
+            "name": "Coat Tint",
+            "identifier": "Coat Tint",
+            "linked": false,
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Coat Normal",
+            "identifier": "Coat Normal",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Sheen Weight",
+            "identifier": "Sheen Weight",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Sheen Roughness",
+            "identifier": "Sheen Roughness",
+            "linked": false,
+            "value": 0.5
+          },
+          {
+            "name": "Sheen Tint",
+            "identifier": "Sheen Tint",
+            "linked": false,
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Emission Color",
+            "identifier": "Emission Color",
+            "linked": false,
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Emission Strength",
+            "identifier": "Emission Strength",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Thin Film Thickness",
+            "identifier": "Thin Film Thickness",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Thin Film IOR",
+            "identifier": "Thin Film IOR",
+            "linked": false,
+            "value": 1.3300000429153442
+          }
+        ]
+      },
+      {
+        "name": "Material Output",
+        "type": "ShaderNodeOutputMaterial",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Surface",
+            "identifier": "Surface",
+            "linked": true,
+            "value": null
+          },
+          {
+            "name": "Volume",
+            "identifier": "Volume",
+            "linked": false,
+            "value": null
+          },
+          {
+            "name": "Displacement",
+            "identifier": "Displacement",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Thickness",
+            "identifier": "Thickness",
+            "linked": false,
+            "value": 0.0
+          }
+        ],
+        "is_active_output": true
+      },
+      {
+        "name": "Texture Coordinate",
+        "type": "ShaderNodeTexCoord",
+        "label": "",
+        "mute": false,
+        "inputs": [],
+        "coordinate_object": null
+      },
+      {
+        "name": "Vector Math",
+        "type": "ShaderNodeVectorMath",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Vector",
+            "identifier": "Vector_001",
+            "linked": false,
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Vector",
+            "identifier": "Vector_002",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Scale",
+            "identifier": "Scale",
+            "linked": false,
+            "value": 1.0
+          }
+        ],
+        "operation": "MULTIPLY"
+      },
+      {
+        "name": "Noise Texture",
+        "type": "ShaderNodeTexNoise",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "W",
+            "identifier": "W",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Scale",
+            "identifier": "Scale",
+            "linked": false,
+            "value": 8.0
+          },
+          {
+            "name": "Detail",
+            "identifier": "Detail",
+            "linked": false,
+            "value": 3.0
+          },
+          {
+            "name": "Roughness",
+            "identifier": "Roughness",
+            "linked": false,
+            "value": 0.7200000286102295
+          },
+          {
+            "name": "Lacunarity",
+            "identifier": "Lacunarity",
+            "linked": false,
+            "value": 2.0
+          },
+          {
+            "name": "Offset",
+            "identifier": "Offset",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Gain",
+            "identifier": "Gain",
+            "linked": false,
+            "value": 1.0
+          },
+          {
+            "name": "Distortion",
+            "identifier": "Distortion",
+            "linked": false,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "name": "Color Ramp",
+        "type": "ShaderNodeValToRGB",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Factor",
+            "identifier": "Fac",
+            "linked": true,
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Noise Texture.001",
+        "type": "ShaderNodeTexNoise",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "W",
+            "identifier": "W",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Scale",
+            "identifier": "Scale",
+            "linked": false,
+            "value": 144.0
+          },
+          {
+            "name": "Detail",
+            "identifier": "Detail",
+            "linked": false,
+            "value": 2.0
+          },
+          {
+            "name": "Roughness",
+            "identifier": "Roughness",
+            "linked": false,
+            "value": 0.5
+          },
+          {
+            "name": "Lacunarity",
+            "identifier": "Lacunarity",
+            "linked": false,
+            "value": 2.0
+          },
+          {
+            "name": "Offset",
+            "identifier": "Offset",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Gain",
+            "identifier": "Gain",
+            "linked": false,
+            "value": 1.0
+          },
+          {
+            "name": "Distortion",
+            "identifier": "Distortion",
+            "linked": false,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "name": "Bump",
+        "type": "ShaderNodeBump",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Strength",
+            "identifier": "Strength",
+            "linked": false,
+            "value": 0.550000011920929
+          },
+          {
+            "name": "Distance",
+            "identifier": "Distance",
+            "linked": false,
+            "value": 0.017999999225139618
+          },
+          {
+            "name": "Filter Width",
+            "identifier": "Filter Width",
+            "linked": false,
+            "value": 0.10000000149011612
+          },
+          {
+            "name": "Height",
+            "identifier": "Height",
+            "linked": true,
+            "value": 1.0
+          },
+          {
+            "name": "Normal",
+            "identifier": "Normal",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "invert": false
+      },
+      {
+        "name": "Texture Coordinate.001",
+        "type": "ShaderNodeTexCoord",
+        "label": "",
+        "mute": false,
+        "inputs": [],
+        "coordinate_object": null
+      },
+      {
+        "name": "Noise Texture.002",
+        "type": "ShaderNodeTexNoise",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "W",
+            "identifier": "W",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Scale",
+            "identifier": "Scale",
+            "linked": false,
+            "value": 1.600000023841858
+          },
+          {
+            "name": "Detail",
+            "identifier": "Detail",
+            "linked": false,
+            "value": 4.400000095367432
+          },
+          {
+            "name": "Roughness",
+            "identifier": "Roughness",
+            "linked": false,
+            "value": 0.5
+          },
+          {
+            "name": "Lacunarity",
+            "identifier": "Lacunarity",
+            "linked": false,
+            "value": 2.0
+          },
+          {
+            "name": "Offset",
+            "identifier": "Offset",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "Gain",
+            "identifier": "Gain",
+            "linked": false,
+            "value": 1.0
+          },
+          {
+            "name": "Distortion",
+            "identifier": "Distortion",
+            "linked": false,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "name": "Color Ramp.001",
+        "type": "ShaderNodeValToRGB",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Factor",
+            "identifier": "Fac",
+            "linked": true,
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Texture Coordinate.002",
+        "type": "ShaderNodeTexCoord",
+        "label": "Object metres",
+        "mute": false,
+        "inputs": [],
+        "coordinate_object": null
+      },
+      {
+        "name": "Vector Math.001",
+        "type": "ShaderNodeVectorMath",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Vector",
+            "identifier": "Vector_001",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Vector",
+            "identifier": "Vector_002",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Scale",
+            "identifier": "Scale",
+            "linked": false,
+            "value": 0.5
+          }
+        ],
+        "operation": "SCALE"
+      },
+      {
+        "name": "PH_Diffuse",
+        "type": "ShaderNodeTexImage",
+        "label": "forrest_ground_01 / Diffuse",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "projection": "BOX",
+        "projection_blend": 0.2199999988079071,
+        "interpolation": "Linear",
+        "extension": "REPEAT",
+        "image": {
+          "name": "forrest_ground_01_diff_2k.jpg",
+          "filepath": "D:\\zx\\test\\project\\scene\\..\\assets\\textures\\forrest_ground_01_diff_2k.jpg",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "is_float": false,
+          "has_data": true,
+          "packed": false,
+          "exists": true,
+          "sha256": "e4d557ff61a0b42712a58e8a2e91c6010738977d4e172b7af47abd7d406ae735"
+        }
+      },
+      {
+        "name": "PH_Rough",
+        "type": "ShaderNodeTexImage",
+        "label": "forrest_ground_01 / Rough",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "projection": "BOX",
+        "projection_blend": 0.2199999988079071,
+        "interpolation": "Linear",
+        "extension": "REPEAT",
+        "image": {
+          "name": "forrest_ground_01_rough_2k.jpg",
+          "filepath": "D:\\zx\\test\\project\\scene\\..\\assets\\textures\\forrest_ground_01_rough_2k.jpg",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "is_float": false,
+          "has_data": true,
+          "packed": false,
+          "exists": true,
+          "sha256": "e09258c7f055156a7607f1b21dccf38c7efd847e7d030271d5ffcc4a722df37d"
+        }
+      },
+      {
+        "name": "PH_Displacement",
+        "type": "ShaderNodeTexImage",
+        "label": "forrest_ground_01 / Displacement",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": true,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "projection": "BOX",
+        "projection_blend": 0.2199999988079071,
+        "interpolation": "Linear",
+        "extension": "REPEAT",
+        "image": {
+          "name": "forrest_ground_01_disp_2k.jpg",
+          "filepath": "D:\\zx\\test\\project\\scene\\..\\assets\\textures\\forrest_ground_01_disp_2k.jpg",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "is_float": false,
+          "has_data": true,
+          "packed": false,
+          "exists": true,
+          "sha256": "1d5c63d39e67af44e96cc9d5752273982bc5c82c9855695dada4abc2fc20575d"
+        }
+      },
+      {
+        "name": "Mix (Legacy)",
+        "type": "ShaderNodeMixRGB",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Factor",
+            "identifier": "Fac",
+            "linked": false,
+            "value": 1.0
+          },
+          {
+            "name": "Color1",
+            "identifier": "Color1",
+            "linked": true,
+            "value": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          },
+          {
+            "name": "Color2",
+            "identifier": "Color2",
+            "linked": false,
+            "value": [
+              0.8500000238418579,
+              0.9200000166893005,
+              0.800000011920929,
+              1.0
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY"
+      },
+      {
+        "name": "Map Range",
+        "type": "ShaderNodeMapRange",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Value",
+            "identifier": "Value",
+            "linked": true,
+            "value": 1.0
+          },
+          {
+            "name": "From Min",
+            "identifier": "From Min",
+            "linked": false,
+            "value": 0.0
+          },
+          {
+            "name": "From Max",
+            "identifier": "From Max",
+            "linked": false,
+            "value": 1.0
+          },
+          {
+            "name": "To Min",
+            "identifier": "To Min",
+            "linked": false,
+            "value": 0.699999988079071
+          },
+          {
+            "name": "To Max",
+            "identifier": "To Max",
+            "linked": false,
+            "value": 1.0
+          },
+          {
+            "name": "Steps",
+            "identifier": "Steps",
+            "linked": false,
+            "value": 4.0
+          },
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "From Min",
+            "identifier": "From_Min_FLOAT3",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "From Max",
+            "identifier": "From_Max_FLOAT3",
+            "linked": false,
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "To Min",
+            "identifier": "To_Min_FLOAT3",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "To Max",
+            "identifier": "To_Max_FLOAT3",
+            "linked": false,
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Steps",
+            "identifier": "Steps_FLOAT3",
+            "linked": false,
+            "value": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bump.001",
+        "type": "ShaderNodeBump",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Strength",
+            "identifier": "Strength",
+            "linked": false,
+            "value": 0.5
+          },
+          {
+            "name": "Distance",
+            "identifier": "Distance",
+            "linked": false,
+            "value": 0.04500000178813934
+          },
+          {
+            "name": "Filter Width",
+            "identifier": "Filter Width",
+            "linked": false,
+            "value": 0.10000000149011612
+          },
+          {
+            "name": "Height",
+            "identifier": "Height",
+            "linked": true,
+            "value": 1.0
+          },
+          {
+            "name": "Normal",
+            "identifier": "Normal",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "invert": false
+      }
+    ],
+    "links": [
+      {
+        "from": [
+          "Principled BSDF",
+          "BSDF"
+        ],
+        "to": [
+          "Material Output",
+          "Surface"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Texture Coordinate",
+          "Object"
+        ],
+        "to": [
+          "Vector Math",
+          "Vector"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Vector Math",
+          "Vector"
+        ],
+        "to": [
+          "Noise Texture",
+          "Vector"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Noise Texture",
+          "Factor"
+        ],
+        "to": [
+          "Color Ramp",
+          "Factor"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Vector Math",
+          "Vector"
+        ],
+        "to": [
+          "Noise Texture.001",
+          "Vector"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Noise Texture.001",
+          "Factor"
+        ],
+        "to": [
+          "Bump",
+          "Height"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Texture Coordinate.001",
+          "Object"
+        ],
+        "to": [
+          "Noise Texture.002",
+          "Vector"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Noise Texture.002",
+          "Factor"
+        ],
+        "to": [
+          "Color Ramp.001",
+          "Factor"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Texture Coordinate.002",
+          "Object"
+        ],
+        "to": [
+          "Vector Math.001",
+          "Vector"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Vector Math.001",
+          "Vector"
+        ],
+        "to": [
+          "PH_Diffuse",
+          "Vector"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Vector Math.001",
+          "Vector"
+        ],
+        "to": [
+          "PH_Rough",
+          "Vector"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Vector Math.001",
+          "Vector"
+        ],
+        "to": [
+          "PH_Displacement",
+          "Vector"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "PH_Diffuse",
+          "Color"
+        ],
+        "to": [
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Mix (Legacy)",
+          "Color"
+        ],
+        "to": [
+          "Principled BSDF",
+          "Base Color"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "PH_Rough",
+          "Color"
+        ],
+        "to": [
+          "Map Range",
+          "Value"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Map Range",
+          "Result"
+        ],
+        "to": [
+          "Principled BSDF",
+          "Roughness"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "PH_Displacement",
+          "Color"
+        ],
+        "to": [
+          "Bump.001",
+          "Height"
+        ],
+        "valid": true
+      },
+      {
+        "from": [
+          "Bump.001",
+          "Normal"
+        ],
+        "to": [
+          "Principled BSDF",
+          "Normal"
+        ],
+        "valid": true
+      }
+    ],
+    "output_reachable_nodes": [
+      "Bump.001",
+      "Map Range",
+      "Material Output",
+      "Mix (Legacy)",
+      "PH_Diffuse",
+      "PH_Displacement",
+      "PH_Rough",
+      "Principled BSDF",
+      "Texture Coordinate.002",
+      "Vector Math.001"
+    ],
+    "displacement_method": "BUMP"
+  },
+  "mapping": {
+    "saved_scale": 0.5,
+    "local_metres_per_tile": 2.0,
+    "world_metres_per_tile_axes": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "all_image_nodes_reachable": true
+  },
+  "scene_view": {
+    "view_transform": "AgX",
+    "look": "None",
+    "saved_exposure": 0.800000011920929,
+    "render_camera_exposures": {
+      "CAM_HERO": 0.800000011920929,
+      "CAM_MAIN_L1_LOGGIA_B": 0.800000011920929,
+      "CAM_MAIN_L1_LIVING_A": 2.4000000953674316
+    },
+    "world_nodes": [
+      {
+        "name": "Physical atmosphere",
+        "type": "ShaderNodeTexSky",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "linked": false,
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Background",
+        "type": "ShaderNodeBackground",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Color",
+            "identifier": "Color",
+            "linked": true,
+            "value": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          },
+          {
+            "name": "Strength",
+            "identifier": "Strength",
+            "linked": false,
+            "value": 0.36000001430511475
+          },
+          {
+            "name": "Weight",
+            "identifier": "Weight",
+            "linked": false,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "name": "World Output",
+        "type": "ShaderNodeOutputWorld",
+        "label": "",
+        "mute": false,
+        "inputs": [
+          {
+            "name": "Surface",
+            "identifier": "Surface",
+            "linked": true,
+            "value": null
+          },
+          {
+            "name": "Volume",
+            "identifier": "Volume",
+            "linked": false,
+            "value": null
+          }
+        ],
+        "is_active_output": true
+      }
+    ],
+    "world_links": [
+      [
+        "Physical atmosphere",
+        "Color",
+        "Background",
+        "Color"
+      ],
+      [
+        "Background",
+        "Background",
+        "World Output",
+        "Surface"
+      ]
+    ],
+    "lights": [
+      {
+        "object": "FW_LIGHT_PhysicalSun",
+        "type": "SUN",
+        "energy": 2.5,
+        "color": [
+          1.0,
+          0.9599999785423279,
+          0.8899999856948853
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 22.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 18.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 32.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 9.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 12.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 12.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 12.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 12.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 24.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 12.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 30.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 18.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 18.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      },
+      {
+        "object": "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy",
+        "type": "POINT",
+        "energy": 22.0,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "hide_render": false
+      }
+    ]
+  },
+  "visible_samples": [
+    {
+      "camera": "CAM_HERO",
+      "pixel": [
+        100,
+        415
+      ],
+      "terrain_hit": [
+        -13.539332389831543,
+        -1.2022514343261719,
+        -1.331688642501831
+      ],
+      "normal": [
+        0.42970308661460876,
+        -0.7143248915672302,
+        0.5523543953895569
+      ],
+      "face_material_index": 0,
+      "distance_m": 29.396392822265625,
+      "first_scene_hit": "SITE_Continuous_BearRun_Terrain",
+      "scale_derivatives": [
+        {
+          "pixel_axis": [
+            1,
+            0
+          ],
+          "world_m_per_pixel": 0.036161127757763714,
+          "object_delta": [
+            0.03219890594482422,
+            0.015796661376953125,
+            -0.0046176910400390625
+          ],
+          "cycles_per_pixel_xyz": [
+            0.01609945297241211,
+            0.007898330688476562,
+            -0.0023088455200195312
+          ],
+          "projected_texels_per_pixel_XY": 36.72584372967148,
+          "projected_texels_per_pixel_XZ": 33.30901640521762,
+          "projected_texels_per_pixel_YZ": 16.85273698260706
+        },
+        {
+          "pixel_axis": [
+            0,
+            1
+          ],
+          "world_m_per_pixel": 0.03250448273241629,
+          "object_delta": [
+            -0.009660720825195312,
+            -0.022411346435546875,
+            -0.021469593048095703
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.004830360412597656,
+            -0.011205673217773438,
+            -0.010734796524047852
+          ],
+          "projected_texels_per_pixel_XY": 24.990592712480705,
+          "projected_texels_per_pixel_XZ": 24.108034483552494,
+          "projected_texels_per_pixel_YZ": 31.780510607795268
+        }
+      ],
+      "render_exposure_stops": 0.800000011920929,
+      "texture_xyz": [
+        -6.7696661949157715,
+        -0.6011257171630859,
+        -0.6658443212509155
+      ]
+    },
+    {
+      "camera": "CAM_HERO",
+      "pixel": [
+        220,
+        470
+      ],
+      "terrain_hit": [
+        -9.797348976135254,
+        -0.3792285919189453,
+        -3.276012420654297
+      ],
+      "normal": [
+        0.36602845788002014,
+        -0.7740513682365417,
+        0.5165923237800598
+      ],
+      "face_material_index": 0,
+      "distance_m": 32.052921295166016,
+      "first_scene_hit": "SITE_Continuous_BearRun_Terrain",
+      "scale_derivatives": [
+        {
+          "pixel_axis": [
+            1,
+            0
+          ],
+          "world_m_per_pixel": 0.04089931404778479,
+          "object_delta": [
+            0.03801727294921875,
+            0.01352691650390625,
+            -0.0066680908203125
+          ],
+          "cycles_per_pixel_xyz": [
+            0.019008636474609375,
+            0.006763458251953125,
+            -0.00333404541015625
+          ],
+          "projected_texels_per_pixel_XY": 41.320531113526435,
+          "projected_texels_per_pixel_XZ": 39.52396486725649,
+          "projected_texels_per_pixel_YZ": 15.443091488009493
+        },
+        {
+          "pixel_axis": [
+            0,
+            1
+          ],
+          "world_m_per_pixel": 0.03322873088001173,
+          "object_delta": [
+            -0.011559486389160156,
+            -0.020887374877929688,
+            -0.023113727569580078
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.005779743194580078,
+            -0.010443687438964844,
+            -0.011556863784790039
+          ],
+          "projected_texels_per_pixel_XY": 24.445609305784437,
+          "projected_texels_per_pixel_XZ": 26.463340593843064,
+          "projected_texels_per_pixel_YZ": 31.90095833322449
+        }
+      ],
+      "render_exposure_stops": 0.800000011920929,
+      "texture_xyz": [
+        -4.898674488067627,
+        -0.18961429595947266,
+        -1.6380062103271484
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "pixel": [
+        110,
+        210
+      ],
+      "terrain_hit": [
+        24.34354019165039,
+        14.778884887695312,
+        1.463396430015564
+      ],
+      "normal": [
+        -0.8952128887176514,
+        -0.024091847240924835,
+        0.44498711824417114
+      ],
+      "face_material_index": 0,
+      "distance_m": 11.4545316696167,
+      "first_scene_hit": "SITE_Continuous_BearRun_Terrain",
+      "scale_derivatives": [
+        {
+          "pixel_axis": [
+            1,
+            0
+          ],
+          "world_m_per_pixel": 0.012933113572634441,
+          "object_delta": [
+            0.000324249267578125,
+            -0.012928962707519531,
+            -4.696846008300781e-05
+          ],
+          "cycles_per_pixel_xyz": [
+            0.0001621246337890625,
+            -0.006464481353759766,
+            -2.3484230041503906e-05
+          ],
+          "projected_texels_per_pixel_XY": 13.243420964861725,
+          "projected_texels_per_pixel_XZ": 0.33549656873901207,
+          "projected_texels_per_pixel_YZ": 13.239345425594937
+        },
+        {
+          "pixel_axis": [
+            0,
+            1
+          ],
+          "world_m_per_pixel": 0.015158405673923162,
+          "object_delta": [
+            -0.006671905517578125,
+            -0.0016803741455078125,
+            -0.01350700855255127
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.0033359527587890625,
+            -0.0008401870727539062,
+            -0.006753504276275635
+          ],
+          "projected_texels_per_pixel_XY": 7.045386451101269,
+          "projected_texels_per_pixel_XZ": 15.426538939039284,
+          "projected_texels_per_pixel_YZ": 13.937800109095535
+        }
+      ],
+      "render_exposure_stops": 0.800000011920929,
+      "texture_xyz": [
+        12.171770095825195,
+        7.389442443847656,
+        0.731698215007782
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "pixel": [
+        320,
+        260
+      ],
+      "terrain_hit": [
+        24.45424461364746,
+        11.976259231567383,
+        0.7338834404945374
+      ],
+      "normal": [
+        -0.6208850741386414,
+        -0.46572795510292053,
+        0.6305546760559082
+      ],
+      "face_material_index": 0,
+      "distance_m": 11.001229286193848,
+      "first_scene_hit": "SITE_Continuous_BearRun_Terrain",
+      "scale_derivatives": [
+        {
+          "pixel_axis": [
+            1,
+            0
+          ],
+          "world_m_per_pixel": 0.016120360658536483,
+          "object_delta": [
+            0.009012222290039062,
+            -0.013330459594726562,
+            -0.0009719729423522949
+          ],
+          "cycles_per_pixel_xyz": [
+            0.004506111145019531,
+            -0.006665229797363281,
+            -0.00048598647117614746
+          ],
+          "projected_texels_per_pixel_XY": 16.477216306966493,
+          "projected_texels_per_pixel_XZ": 9.282032079530461,
+          "projected_texels_per_pixel_YZ": 13.686627893665092
+        },
+        {
+          "pixel_axis": [
+            0,
+            1
+          ],
+          "world_m_per_pixel": 0.018498268496543988,
+          "object_delta": [
+            -0.012842178344726562,
+            -0.0008668899536132812,
+            -0.013285815715789795
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.006421089172363281,
+            -0.0004334449768066406,
+            -0.0066429078578948975
+          ],
+          "projected_texels_per_pixel_XY": 13.180317626795839,
+          "projected_texels_per_pixel_XZ": 18.921415340721573,
+          "projected_texels_per_pixel_YZ": 13.633605234439553
+        }
+      ],
+      "render_exposure_stops": 0.800000011920929,
+      "texture_xyz": [
+        12.22712230682373,
+        5.988129615783691,
+        0.3669417202472687
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "pixel": [
+        380,
+        170
+      ],
+      "terrain_hit": [
+        26.019275665283203,
+        11.120222091674805,
+        2.065682888031006
+      ],
+      "normal": [
+        -0.5593205690383911,
+        -0.6201208829879761,
+        0.5501006245613098
+      ],
+      "face_material_index": 0,
+      "distance_m": 12.481142044067383,
+      "first_scene_hit": "SITE_Continuous_BearRun_Terrain",
+      "scale_derivatives": [
+        {
+          "pixel_axis": [
+            1,
+            0
+          ],
+          "world_m_per_pixel": 0.024443026964096663,
+          "object_delta": [
+            0.018390655517578125,
+            -0.016091346740722656,
+            0.0005602836608886719
+          ],
+          "cycles_per_pixel_xyz": [
+            0.009195327758789062,
+            -0.008045673370361328,
+            0.00028014183044433594
+          ],
+          "projected_texels_per_pixel_XY": 25.023083215373674,
+          "projected_texels_per_pixel_XZ": 18.84076835994115,
+          "projected_texels_per_pixel_YZ": 16.4875248146015
+        },
+        {
+          "pixel_axis": [
+            0,
+            1
+          ],
+          "world_m_per_pixel": 0.023479314163699114,
+          "object_delta": [
+            -0.0164794921875,
+            2.6702880859375e-05,
+            -0.016724348068237305
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.00823974609375,
+            1.33514404296875e-05,
+            -0.008362174034118652
+          ],
+          "projected_texels_per_pixel_XY": 16.875022153486615,
+          "projected_texels_per_pixel_XZ": 24.042802154682775,
+          "projected_texels_per_pixel_YZ": 17.12575423535801
+        }
+      ],
+      "render_exposure_stops": 0.800000011920929,
+      "texture_xyz": [
+        13.009637832641602,
+        5.560111045837402,
+        1.032841444015503
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "pixel": [
+        440,
+        170
+      ],
+      "terrain_hit": [
+        144.38401794433594,
+        -6.622325420379639,
+        5.692440509796143
+      ],
+      "normal": [
+        -0.28278589248657227,
+        0.39783886075019836,
+        0.8727865219116211
+      ],
+      "face_material_index": 0,
+      "distance_m": 143.2430419921875,
+      "first_scene_hit": "TREE_Distance_Ring0_0327_Branches",
+      "scale_derivatives": [
+        {
+          "pixel_axis": [
+            1,
+            0
+          ],
+          "world_m_per_pixel": 0.3104763362374257,
+          "object_delta": [
+            -0.2594451904296875,
+            -0.17041397094726562,
+            -0.0065441131591796875
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.12972259521484375,
+            -0.08520698547363281,
+            -0.0032720565795898438
+          ],
+          "projected_texels_per_pixel_XY": 317.85713796649276,
+          "projected_texels_per_pixel_XZ": 265.756378248008,
+          "projected_texels_per_pixel_YZ": 174.63252556654012
+        },
+        {
+          "pixel_axis": [
+            0,
+            1
+          ],
+          "world_m_per_pixel": 0.6033845511476079,
+          "object_delta": [
+            -0.5664215087890625,
+            0.04349517822265625,
+            -0.20334148406982422
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.28321075439453125,
+            0.021747589111328125,
+            -0.10167074203491211
+          ],
+          "projected_texels_per_pixel_XY": 581.7231755975894,
+          "projected_texels_per_pixel_XZ": 616.2583829297984,
+          "projected_texels_per_pixel_YZ": 212.9319082678633
+        }
+      ],
+      "render_exposure_stops": 2.4000000953674316,
+      "texture_xyz": [
+        72.19200897216797,
+        -3.3111627101898193,
+        2.8462202548980713
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "pixel": [
+        540,
+        200
+      ],
+      "terrain_hit": [
+        60.52668762207031,
+        -8.340669631958008,
+        1.0073891878128052
+      ],
+      "normal": [
+        -0.13923199474811554,
+        0.09169477969408035,
+        0.9860053658485413
+      ],
+      "face_material_index": 0,
+      "distance_m": 60.22917556762695,
+      "first_scene_hit": "SITE_Continuous_BearRun_Terrain",
+      "scale_derivatives": [
+        {
+          "pixel_axis": [
+            1,
+            0
+          ],
+          "world_m_per_pixel": 0.08081287390745792,
+          "object_delta": [
+            -0.02911376953125,
+            -0.07538604736328125,
+            0.0002300739288330078
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.014556884765625,
+            -0.037693023681640625,
+            0.0001150369644165039
+          ],
+          "projected_texels_per_pixel_XY": 82.75204751054501,
+          "projected_texels_per_pixel_XZ": 29.81343089255799,
+          "projected_texels_per_pixel_YZ": 77.19567161617827
+        },
+        {
+          "pixel_axis": [
+            0,
+            1
+          ],
+          "world_m_per_pixel": 0.47348066176880826,
+          "object_delta": [
+            -0.4578132629394531,
+            0.09581375122070312,
+            -0.07355731725692749
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.22890663146972656,
+            0.04790687561035156,
+            -0.036778658628463745
+          ],
+          "projected_texels_per_pixel_XY": 478.957605321507,
+          "projected_texels_per_pixel_XZ": 474.8133108662617,
+          "projected_texels_per_pixel_YZ": 123.69205358912006
+        }
+      ],
+      "render_exposure_stops": 2.4000000953674316,
+      "texture_xyz": [
+        30.263343811035156,
+        -4.170334815979004,
+        0.5036945939064026
+      ]
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "pixel": [
+        770,
+        190
+      ],
+      "terrain_hit": [
+        111.0817642211914,
+        -55.2163200378418,
+        1.8793916702270508
+      ],
+      "normal": [
+        -0.10033732652664185,
+        0.11542180180549622,
+        0.9882358908653259
+      ],
+      "face_material_index": 0,
+      "distance_m": 124.51158142089844,
+      "first_scene_hit": "MAIN_L1_southeast_door_glass_0",
+      "scale_derivatives": [
+        {
+          "pixel_axis": [
+            1,
+            0
+          ],
+          "world_m_per_pixel": 0.3044797680905414,
+          "object_delta": [
+            0.1668701171875,
+            -0.2546806335449219,
+            0.0002677440643310547
+          ],
+          "cycles_per_pixel_xyz": [
+            0.08343505859375,
+            -0.12734031677246094,
+            0.00013387203216552734
+          ],
+          "projected_texels_per_pixel_XY": 311.7871619791296,
+          "projected_texels_per_pixel_XZ": 170.875219953468,
+          "projected_texels_per_pixel_YZ": 260.7931055820803
+        },
+        {
+          "pixel_axis": [
+            0,
+            1
+          ],
+          "world_m_per_pixel": 1.6728794086675123,
+          "object_delta": [
+            -1.4674911499023438,
+            0.7882423400878906,
+            -0.15384793281555176
+          ],
+          "cycles_per_pixel_xyz": [
+            -0.7337455749511719,
+            0.3941211700439453,
+            -0.07692396640777588
+          ],
+          "projected_texels_per_pixel_XY": 1705.7689614950789,
+          "projected_texels_per_pixel_XZ": 1510.946455506035,
+          "projected_texels_per_pixel_YZ": 822.390686599897
+        }
+      ],
+      "render_exposure_stops": 2.4000000953674316,
+      "texture_xyz": [
+        55.5408821105957,
+        -27.6081600189209,
+        0.9396958351135254
+      ]
+    }
+  ],
+  "rendered": false,
+  "scene_saved": false,
+  "limits": "Graph reachability and nonzero bump settings prove the path is active, not numerical Cycles shading evaluation. Pixel derivatives are geometric footprints, not exact mip levels; first-hit objects flag intervening glass/foliage."
+}

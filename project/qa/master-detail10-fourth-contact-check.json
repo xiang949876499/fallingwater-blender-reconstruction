@@ -1,0 +1,1545 @@
+{
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_master_detail_candidate10d.blend",
+  "sha256": "2af70a9621a78c236f2c41a1d1deb10a91f1b99459a1749e49e5033cb09e0431",
+  "furniture_architecture_intersections": [
+    {
+      "furniture": "MASTER_DETAIL10_continuous_overdoor_wood_shelf",
+      "architecture": "MAIN_L2_master_north",
+      "triangle_pairs": 18,
+      "bounds_a": [
+        [
+          1.1228001117706299,
+          4.667400360107422
+        ],
+        [
+          11.850950241088867,
+          12.495399475097656
+        ],
+        [
+          4.8403000831604,
+          4.87529993057251
+        ]
+      ],
+      "bounds_b": [
+        [
+          0.2619999945163727,
+          1.309999942779541
+        ],
+        [
+          12.474699974060059,
+          12.694700241088867
+        ],
+        [
+          2.8447999954223633,
+          5.039999961853027
+        ]
+      ]
+    },
+    {
+      "furniture": "MASTER_DETAIL10_continuous_overdoor_wood_shelf",
+      "architecture": "MAIN_L2_master_north_east",
+      "triangle_pairs": 18,
+      "bounds_a": [
+        [
+          1.1228001117706299,
+          4.667400360107422
+        ],
+        [
+          11.850950241088867,
+          12.495399475097656
+        ],
+        [
+          4.8403000831604,
+          4.87529993057251
+        ]
+      ],
+      "bounds_b": [
+        [
+          2.043600082397461,
+          4.768400192260742
+        ],
+        [
+          12.474699974060059,
+          12.694700241088867
+        ],
+        [
+          2.8447999954223633,
+          5.039999961853027
+        ]
+      ]
+    },
+    {
+      "furniture": "MASTER_DETAIL10_continuous_overdoor_wood_shelf",
+      "architecture": "MAIN_L2_master_entry_lintel",
+      "triangle_pairs": 24,
+      "bounds_a": [
+        [
+          1.1228001117706299,
+          4.667400360107422
+        ],
+        [
+          11.850950241088867,
+          12.495399475097656
+        ],
+        [
+          4.8403000831604,
+          4.87529993057251
+        ]
+      ],
+      "bounds_b": [
+        [
+          1.309999942779541,
+          2.043600082397461
+        ],
+        [
+          12.474699974060059,
+          12.694700241088867
+        ],
+        [
+          4.82480001449585,
+          5.039999961853027
+        ]
+      ]
+    }
+  ],
+  "between_asset_intersections": [],
+  "contacts": [
+    {
+      "label": "wardrobe_support",
+      "support": "MASTER_DETAIL10_wardrobe_recessed_support",
+      "carried": "MASTER_DETAIL10_wardrobe_base",
+      "support_top": 3.0168001651763916,
+      "carried_bottom": 3.0117998123168945,
+      "gap_m": -0.00500035285949707,
+      "pass": true
+    },
+    {
+      "label": "wardrobe_upper_shelf",
+      "support": "MASTER_DETAIL10_wardrobe_top",
+      "carried": "MASTER_DETAIL10_continuous_overdoor_wood_shelf",
+      "support_top": 4.843800067901611,
+      "carried_bottom": 4.8403000831604,
+      "gap_m": -0.0034999847412109375,
+      "pass": true
+    },
+    {
+      "label": "north_bedside_light_standard",
+      "support": "MASTER_DETAIL10_north_bedside_open_shelf_2",
+      "carried": "MASTER_DETAIL10_north_bedside_vertical_light_standard",
+      "support_top": 3.5243000984191895,
+      "carried_bottom": 3.5067999362945557,
+      "gap_m": -0.01750016212463379,
+      "pass": true
+    },
+    {
+      "label": "south_open_bedside_light_standard",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_2",
+      "carried": "MASTER_DETAIL10_south_open_bedside_vertical_light_standard",
+      "support_top": 3.5243000984191895,
+      "carried_bottom": 3.5067999362945557,
+      "gap_m": -0.01750016212463379,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_00",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2043001651763916,
+      "gap_m": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_01",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2043001651763916,
+      "gap_m": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_02",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2042999267578125,
+      "gap_m": 0.0,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_03",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2043001651763916,
+      "gap_m": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_04",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2043001651763916,
+      "gap_m": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_05",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2042999267578125,
+      "gap_m": 0.0,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_06",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2043001651763916,
+      "gap_m": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_07",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2043001651763916,
+      "gap_m": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_08",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2042999267578125,
+      "gap_m": 0.0,
+      "pass": true
+    },
+    {
+      "label": "book_contact",
+      "support": "MASTER_DETAIL10_south_open_bedside_open_shelf_1",
+      "carried": "MASTER_DETAIL10_south_open_bedside_book_09",
+      "support_top": 3.2042999267578125,
+      "carried_bottom": 3.2043001651763916,
+      "gap_m": 2.384185791015625e-07,
+      "pass": true
+    }
+  ],
+  "support": [
+    {
+      "object": "FW_FURN_MAIN_L2_MASTER_walnut_bed_00_recessed_support",
+      "bounds": [
+        [
+          2.6846399307250977,
+          4.504640102386475
+        ],
+        [
+          9.552680015563965,
+          10.922680854797363
+        ],
+        [
+          2.8447999954223633,
+          3.0348000526428223
+        ]
+      ],
+      "first_scene_hit": "MAIN_L2_MASTER_finish",
+      "floor": "MAIN_L2_MASTER_finish",
+      "floor_z": 2.86680006980896,
+      "base_to_finish": -0.022000004577636734,
+      "pass": true
+    },
+    {
+      "object": "FW_FURN_MAIN_L2_MASTER_bedroom_desk_02_leg",
+      "bounds": [
+        [
+          1.022200107574463,
+          1.076200008392334
+        ],
+        [
+          7.716300010681152,
+          7.770299911499023
+        ],
+        [
+          2.8447999954223633,
+          3.494800090789795
+        ]
+      ],
+      "first_scene_hit": "MAIN_L2_MASTER_finish",
+      "floor": "MAIN_L2_MASTER_finish",
+      "floor_z": 2.86680006980896,
+      "base_to_finish": -0.022000004577636734,
+      "pass": true
+    },
+    {
+      "object": "FW_FURN_MAIN_L2_MASTER_desk_chair_03_leg",
+      "bounds": [
+        [
+          0.5436000227928162,
+          0.5835999846458435
+        ],
+        [
+          8.12576961517334,
+          8.165770530700684
+        ],
+        [
+          2.8447999954223633,
+          3.2848000526428223
+        ]
+      ],
+      "first_scene_hit": "MAIN_L2_MASTER_finish",
+      "floor": "MAIN_L2_MASTER_finish",
+      "floor_z": 2.86680006980896,
+      "base_to_finish": -0.022000004577636734,
+      "pass": true
+    },
+    {
+      "object": "MASTER_DETAIL10_wardrobe_recessed_support",
+      "bounds": [
+        [
+          2.202199935913086,
+          4.557400226593018
+        ],
+        [
+          11.97095012664795,
+          12.375399589538574
+        ],
+        [
+          2.86680006980896,
+          3.0168001651763916
+        ]
+      ],
+      "first_scene_hit": "MASTER_DETAIL10_wardrobe_recessed_support",
+      "floor": "MAIN_L2_MASTER_finish",
+      "floor_z": 2.86680006980896,
+      "base_to_finish": 6.98089599460161e-08,
+      "pass": true
+    },
+    {
+      "object": "MASTER_DETAIL10_north_bedside_side_-1",
+      "bounds": [
+        [
+          4.351240158081055,
+          4.721240043640137
+        ],
+        [
+          11.522780418395996,
+          11.552781105041504
+        ],
+        [
+          2.86680006980896,
+          3.5267999172210693
+        ]
+      ],
+      "first_scene_hit": "MASTER_DETAIL10_north_bedside_open_shelf_0",
+      "floor": "MAIN_L2_MASTER_finish",
+      "floor_z": 2.86680006980896,
+      "base_to_finish": 6.98089599460161e-08,
+      "pass": true
+    },
+    {
+      "object": "MASTER_DETAIL10_south_open_bedside_side_-1",
+      "bounds": [
+        [
+          4.301239967346191,
+          4.721240043640137
+        ],
+        [
+          9.288939476013184,
+          9.318940162658691
+        ],
+        [
+          2.86680006980896,
+          3.5267999172210693
+        ]
+      ],
+      "first_scene_hit": "MASTER_DETAIL10_south_open_bedside_open_shelf_0",
+      "floor": "MAIN_L2_MASTER_finish",
+      "floor_z": 2.86680006980896,
+      "base_to_finish": 6.98089599460161e-08,
+      "pass": true
+    }
+  ],
+  "camera_proposals": [
+    {
+      "name": "PROPOSED_MASTER_NORTH_EAST",
+      "eye_source": [
+        359,
+        381
+      ],
+      "target_source": [
+        393,
+        333
+      ],
+      "location_world": [
+        1.6768,
+        8.4429,
+        4.4668
+      ],
+      "target_world": [
+        3.4584,
+        10.9917,
+        3.8868
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "body_check": {
+        "source_xy": [
+          359,
+          381
+        ],
+        "body_hits": [],
+        "floor": "MAIN_L2_MASTER_finish",
+        "pass": true
+      },
+      "scene_camera_created": false
+    },
+    {
+      "name": "PROPOSED_MASTER_WEST_HEARTH",
+      "eye_source": [
+        380,
+        385
+      ],
+      "target_source": [
+        325,
+        344
+      ],
+      "location_world": [
+        2.7772,
+        8.230500000000001,
+        4.4668
+      ],
+      "target_world": [
+        -0.1048,
+        10.4076,
+        3.8868
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "body_check": {
+        "source_xy": [
+          380,
+          385
+        ],
+        "body_hits": [],
+        "floor": "MAIN_L2_MASTER_finish",
+        "pass": true
+      },
+      "scene_camera_created": false
+    }
+  ],
+  "updated_source_path": [
+    [
+      359,
+      342
+    ],
+    [
+      359,
+      390
+    ],
+    [
+      397,
+      390
+    ],
+    [
+      400,
+      397
+    ],
+    [
+      413.4,
+      397
+    ]
+  ],
+  "updated_path_samples": [
+    {
+      "source_xy": [
+        359.0,
+        342.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        342.94117647058823
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        343.88235294117646
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        344.8235294117647
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        345.7647058823529
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        346.70588235294116
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        347.6470588235294
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        348.5882352941176
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        349.52941176470586
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        350.47058823529414
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        351.4117647058824
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        352.3529411764706
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        353.29411764705884
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        354.2352941176471
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        355.1764705882353
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        356.11764705882354
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        357.05882352941177
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        358.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        358.94117647058823
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        359.88235294117646
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        360.8235294117647
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        361.7647058823529
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        362.70588235294116
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        363.6470588235294
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        364.5882352941176
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        365.52941176470586
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        366.47058823529414
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        367.4117647058824
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        368.3529411764706
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        369.29411764705884
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        370.2352941176471
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        371.1764705882353
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        372.11764705882354
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        373.05882352941177
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        374.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        374.94117647058823
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        375.88235294117646
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        376.8235294117647
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        377.7647058823529
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        378.70588235294116
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        379.6470588235294
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        380.5882352941176
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        381.52941176470586
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        382.47058823529414
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        383.4117647058824
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        384.3529411764706
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        385.29411764705884
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        386.2352941176471
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        387.1764705882353
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        388.11764705882354
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        389.05882352941177
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.0,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        359.95,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        360.9,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        361.85,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        362.8,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        363.75,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        364.7,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        365.65,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        366.6,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        367.55,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        368.5,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        369.45,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        370.4,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        371.35,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        372.3,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        373.25,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        374.2,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        375.15,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        376.1,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        377.05,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        378.0,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        378.95,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        379.9,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        380.85,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        381.8,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        382.75,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        383.7,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        384.65,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        385.6,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        386.55,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        387.5,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        388.45,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        389.4,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        390.35,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        391.3,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        392.25,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        393.2,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        394.15,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        395.1,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        396.05,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        397.0,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        397.0,
+        390.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        397.3333333333333,
+        390.77777777777777
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        397.6666666666667,
+        391.55555555555554
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        398.0,
+        392.3333333333333
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        398.3333333333333,
+        393.1111111111111
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        398.6666666666667,
+        393.8888888888889
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        399.0,
+        394.6666666666667
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        399.3333333333333,
+        395.44444444444446
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        399.6666666666667,
+        396.22222222222223
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        400.0,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        400.0,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        400.8933333333333,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        401.7866666666667,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        402.68,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        403.5733333333333,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        404.46666666666664,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        405.36,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        406.25333333333333,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        407.14666666666665,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        408.03999999999996,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        408.93333333333334,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        409.82666666666665,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        410.71999999999997,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        411.6133333333333,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        412.50666666666666,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    },
+    {
+      "source_xy": [
+        413.4,
+        397.0
+      ],
+      "body_hits": [],
+      "floor": "MAIN_L2_MASTER_finish",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "furniture_architecture_intersections": 3,
+    "between_asset_intersections": 0,
+    "contact_failures": 0,
+    "support_failures": 0,
+    "proposal_camera_failures": 0,
+    "updated_path_samples": 119,
+    "updated_path_fails": 0
+  },
+  "limits": [
+    "No scene edits or camera creation.",
+    "Path ends west of the still-old bath wall; actual bath entry must be checked after integration.",
+    "Triangle-overlap test supplements closed-mesh tests; it does not certify all potential containment cases."
+  ]
+}

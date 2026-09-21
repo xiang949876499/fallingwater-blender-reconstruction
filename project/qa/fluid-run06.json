@@ -1,0 +1,283 @@
+{
+  "settings": {
+    "resolution": 192,
+    "frames": 72,
+    "fps": 24,
+    "threads": 8,
+    "along_limits_m": [
+      -1.4,
+      5.7
+    ],
+    "cross_limits_m": [
+      -5.0,
+      5.0
+    ],
+    "z_limits_m": [
+      -6.9,
+      -2.3
+    ],
+    "inflow_speed_m_s": 1.8,
+    "inflow_cross_width_m": 7.1,
+    "mesh_scale": 2,
+    "cache_relative_path": "caches/fluid_pilot/run06",
+    "inflow_top_m": -2.67,
+    "inflow_bottom_m": -2.99,
+    "inflow_along_m": [
+      -1.0,
+      -0.42
+    ],
+    "inflow_half_width_m": 3.55,
+    "initial_upper_bottom_m": -3.01,
+    "delete_in_obstacle": true,
+    "initial_upper_top_m": -2.9,
+    "foam_radius_m": 0.008,
+    "spray_radius_m": 0.0025,
+    "wavecrest_sampling": 16,
+    "trapped_air_sampling": 12,
+    "frame_range_is_final": false,
+    "pool_boundary_along_m": [
+      3.5,
+      5.5
+    ],
+    "pool_boundary_cross_m": [
+      -5.0,
+      5.0
+    ],
+    "pool_boundary_level_m": -5.965,
+    "pool_boundary_velocity_m_s": 0.28
+  },
+  "domain_aabb_m": [
+    [
+      -4.982353210449219,
+      5.988235950469971
+    ],
+    [
+      -9.924118041992188,
+      2.240588426589966
+    ],
+    [
+      -6.9,
+      -2.3
+    ]
+  ],
+  "domain_dimensions_m": [
+    10.97058916091919,
+    12.164706468582153,
+    4.6000000000000005
+  ],
+  "nominal_solver_cell_m": 0.06335784619053204,
+  "lip_world_m": [
+    2.4,
+    -2.83,
+    -3.05,
+    8.7
+  ],
+  "down_direction_xy": [
+    -0.8823529481887817,
+    -0.470588356256485
+  ],
+  "collision_rocks": [
+    "SITE_Core_Continuous_Fractured_Sandstone",
+    "SITE_Cascade_Shoulder_0_0",
+    "SITE_Cascade_Shoulder_0_1",
+    "SITE_Cascade_Shoulder_0_2",
+    "SITE_Cascade_Shoulder_0_3",
+    "SITE_Cascade_Shoulder_1_0",
+    "SITE_Cascade_Shoulder_1_1",
+    "SITE_Cascade_Shoulder_1_2",
+    "SITE_Cascade_Shoulder_1_3",
+    "SITE_Secondary_Sandstone_Ledge_00",
+    "SITE_Bank_0144",
+    "SITE_Bank_0145",
+    "SITE_Bank_0146",
+    "SITE_Bank_0147",
+    "SITE_Bank_0148",
+    "SITE_Bank_0149",
+    "SITE_Bank_0150",
+    "SITE_Split_Talus_012",
+    "SITE_Split_Talus_019",
+    "SITE_Split_Talus_037",
+    "SITE_Split_Talus_038",
+    "SITE_Split_Talus_064",
+    "SITE_Split_Talus_074",
+    "SITE_Split_Talus_077",
+    "SITE_Split_Talus_079",
+    "SITE_Split_Talus_089"
+  ],
+  "collision_rock_count": 26,
+  "riverbed_vertices": 1322,
+  "source_site_sha256": "89ee4826adac2793ddc1e728bad57f28052e7160c15ad233f91d38e2182e4fac",
+  "material": "FW_Simulated_Water_Clear: neutral high transmission, weak absorption; C artistic calibration",
+  "foam_method": "Mantaflow simulated secondary foam/spray particles",
+  "downstream_level_boundary": {
+    "cells": 424,
+    "omitted_cells": 76,
+    "ray_checks_per_cell": 9,
+    "minimum_sampled_rock_clearance_m": 0.040000000000000036,
+    "top_level_m": -5.965,
+    "along_m": [
+      3.5,
+      5.5
+    ],
+    "cross_m": [
+      -5.0,
+      5.0
+    ],
+    "method": "Closed source columns above maximum 3x3 sampled collision top + 4cm, minimum water depth 13.5cm",
+    "inflow_rock_surface_intersections": []
+  },
+  "status": "BAKED_PENDING_VISUAL_REVIEW",
+  "blender_version": "5.2.1 LTS",
+  "bake_seconds": 1688.4576137999993,
+  "operator_result": [
+    "FINISHED"
+  ],
+  "cache": {
+    "file_count": 288,
+    "bytes": 5815442910,
+    "mesh_files": [
+      "mesh\\fluid_mesh_0001.bobj.gz",
+      "mesh\\fluid_mesh_0002.bobj.gz",
+      "mesh\\fluid_mesh_0003.bobj.gz",
+      "mesh\\fluid_mesh_0004.bobj.gz",
+      "mesh\\fluid_mesh_0005.bobj.gz",
+      "mesh\\fluid_mesh_0006.bobj.gz",
+      "mesh\\fluid_mesh_0007.bobj.gz",
+      "mesh\\fluid_mesh_0008.bobj.gz",
+      "mesh\\fluid_mesh_0009.bobj.gz",
+      "mesh\\fluid_mesh_0010.bobj.gz",
+      "mesh\\fluid_mesh_0011.bobj.gz",
+      "mesh\\fluid_mesh_0012.bobj.gz",
+      "mesh\\fluid_mesh_0013.bobj.gz",
+      "mesh\\fluid_mesh_0014.bobj.gz",
+      "mesh\\fluid_mesh_0015.bobj.gz",
+      "mesh\\fluid_mesh_0016.bobj.gz",
+      "mesh\\fluid_mesh_0017.bobj.gz",
+      "mesh\\fluid_mesh_0018.bobj.gz",
+      "mesh\\fluid_mesh_0019.bobj.gz",
+      "mesh\\fluid_mesh_0020.bobj.gz",
+      "mesh\\fluid_mesh_0021.bobj.gz",
+      "mesh\\fluid_mesh_0022.bobj.gz",
+      "mesh\\fluid_mesh_0023.bobj.gz",
+      "mesh\\fluid_mesh_0024.bobj.gz",
+      "mesh\\fluid_mesh_0025.bobj.gz",
+      "mesh\\fluid_mesh_0026.bobj.gz",
+      "mesh\\fluid_mesh_0027.bobj.gz",
+      "mesh\\fluid_mesh_0028.bobj.gz",
+      "mesh\\fluid_mesh_0029.bobj.gz",
+      "mesh\\fluid_mesh_0030.bobj.gz",
+      "mesh\\fluid_mesh_0031.bobj.gz",
+      "mesh\\fluid_mesh_0032.bobj.gz",
+      "mesh\\fluid_mesh_0033.bobj.gz",
+      "mesh\\fluid_mesh_0034.bobj.gz",
+      "mesh\\fluid_mesh_0035.bobj.gz",
+      "mesh\\fluid_mesh_0036.bobj.gz",
+      "mesh\\fluid_mesh_0037.bobj.gz",
+      "mesh\\fluid_mesh_0038.bobj.gz",
+      "mesh\\fluid_mesh_0039.bobj.gz",
+      "mesh\\fluid_mesh_0040.bobj.gz",
+      "mesh\\fluid_mesh_0041.bobj.gz",
+      "mesh\\fluid_mesh_0042.bobj.gz",
+      "mesh\\fluid_mesh_0043.bobj.gz",
+      "mesh\\fluid_mesh_0044.bobj.gz",
+      "mesh\\fluid_mesh_0045.bobj.gz",
+      "mesh\\fluid_mesh_0046.bobj.gz",
+      "mesh\\fluid_mesh_0047.bobj.gz",
+      "mesh\\fluid_mesh_0048.bobj.gz",
+      "mesh\\fluid_mesh_0049.bobj.gz",
+      "mesh\\fluid_mesh_0050.bobj.gz",
+      "mesh\\fluid_mesh_0051.bobj.gz",
+      "mesh\\fluid_mesh_0052.bobj.gz",
+      "mesh\\fluid_mesh_0053.bobj.gz",
+      "mesh\\fluid_mesh_0054.bobj.gz",
+      "mesh\\fluid_mesh_0055.bobj.gz",
+      "mesh\\fluid_mesh_0056.bobj.gz",
+      "mesh\\fluid_mesh_0057.bobj.gz",
+      "mesh\\fluid_mesh_0058.bobj.gz",
+      "mesh\\fluid_mesh_0059.bobj.gz",
+      "mesh\\fluid_mesh_0060.bobj.gz",
+      "mesh\\fluid_mesh_0061.bobj.gz",
+      "mesh\\fluid_mesh_0062.bobj.gz",
+      "mesh\\fluid_mesh_0063.bobj.gz",
+      "mesh\\fluid_mesh_0064.bobj.gz",
+      "mesh\\fluid_mesh_0065.bobj.gz",
+      "mesh\\fluid_mesh_0066.bobj.gz",
+      "mesh\\fluid_mesh_0067.bobj.gz",
+      "mesh\\fluid_mesh_0068.bobj.gz",
+      "mesh\\fluid_mesh_0069.bobj.gz",
+      "mesh\\fluid_mesh_0070.bobj.gz",
+      "mesh\\fluid_mesh_0071.bobj.gz",
+      "mesh\\fluid_mesh_0072.bobj.gz"
+    ]
+  },
+  "evaluated_meshes": [
+    {
+      "frame": 1,
+      "vertices": 172294,
+      "polygons": 344580
+    },
+    {
+      "frame": 36,
+      "vertices": 470968,
+      "polygons": 942648
+    },
+    {
+      "frame": 72,
+      "vertices": 446154,
+      "polygons": 892728
+    }
+  ],
+  "particle_counts": [
+    {
+      "frame": 1,
+      "systems": [
+        {
+          "name": "Liquid",
+          "count": 1168878
+        },
+        {
+          "name": "Foam",
+          "count": 0
+        },
+        {
+          "name": "Spray",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "systems": [
+        {
+          "name": "Liquid",
+          "count": 4970864
+        },
+        {
+          "name": "Foam",
+          "count": 225657
+        },
+        {
+          "name": "Spray",
+          "count": 95357
+        }
+      ]
+    },
+    {
+      "frame": 72,
+      "systems": [
+        {
+          "name": "Liquid",
+          "count": 6837151
+        },
+        {
+          "name": "Foam",
+          "count": 397401
+        },
+        {
+          "name": "Spray",
+          "count": 103082
+        }
+      ]
+    }
+  ]
+}

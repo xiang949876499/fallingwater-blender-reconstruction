@@ -1,0 +1,558 @@
+{
+  "original": {
+    "vertices": 205654,
+    "polygons": 204596,
+    "triangles": 409192,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_triangles": 0,
+    "zero_area_polygons": 0,
+    "finite": true,
+    "physical_triangles_sha256": "ddfa2c63fbedf4cf53646cdd8bbb67d96773c4d65b46924d5a57c7ffc33d59ad",
+    "unused_vertices": 1054
+  },
+  "triangulation": [
+    {
+      "mode": "FIXED",
+      "max_height_error": 7.152557373046875e-07,
+      "failures": 0
+    },
+    {
+      "mode": "BEAUTY",
+      "max_height_error": 0.008199453353881836,
+      "failures": 431
+    },
+    {
+      "mode": "SHORTEST_DIAGONAL",
+      "max_height_error": 0.008199453353881836,
+      "failures": 431
+    },
+    {
+      "mode": "LONGEST_DIAGONAL",
+      "max_height_error": 0.008258819580078125,
+      "failures": 414
+    },
+    {
+      "mode": "FIXED_ALTERNATE",
+      "max_height_error": 0.008258819580078125,
+      "failures": 845
+    }
+  ],
+  "masks": [
+    {
+      "name": "WATERTRIM10_SW_Actual_Masonry_Union",
+      "quality": {
+        "vertices": 9764,
+        "polygons": 19523,
+        "triangles": 19524,
+        "open_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "zero_area_polygons": 0,
+        "finite": true,
+        "physical_triangles_sha256": "1c3d04043230dae9694271187900899d2fd43743af40bdc7c9a095fa900434ca",
+        "unused_vertices": 0
+      }
+    },
+    {
+      "name": "WATERTRIM10_SE_Actual_Masonry_Union",
+      "quality": {
+        "vertices": 7840,
+        "polygons": 15676,
+        "triangles": 15676,
+        "open_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_triangles": 0,
+        "zero_area_polygons": 0,
+        "finite": true,
+        "physical_triangles_sha256": "703e50cef30a45b2d5fefda733ee4f195ceb6ae80d2ab103c80cb37b81c82f05",
+        "unused_vertices": 0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "seconds": 8.501168400005554,
+      "quality": {
+        "vertices": 205809,
+        "polygons": 410257,
+        "triangles": 411608,
+        "open_edges": 4,
+        "nonmanifold_edges": 4,
+        "zero_area_triangles": 32,
+        "zero_area_polygons": 0,
+        "finite": true,
+        "physical_triangles_sha256": "c5a7a46470937733aa98fcb08fa623a061f90cd7c23aa4d81809cf47134dafc2",
+        "unused_vertices": 0
+      },
+      "shore_at_1": {
+        "counts": {
+          "WET_OUTSIDE": 359,
+          "DRY_INSIDE": 398,
+          "WET_CHANNEL": 207
+        },
+        "sample_count": 964,
+        "max_retained_wet_height_error_m": 7.152557373046875e-07,
+        "failures": [
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -4.010000228881836,
+              -2.775892496109009
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.9506432414054871,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -4.010000228881836,
+              -2.7758922576904297
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -3.9100000858306885,
+              -2.775074005126953
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.8523649573326111,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -3.9100000858306885,
+              -2.7750742435455322
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -3.809999942779541,
+              -2.7742857933044434
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.754544198513031,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -3.809999942779541,
+              -2.7742857933044434
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -3.7100000381469727,
+              -2.7754476070404053
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.6577348113059998,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -3.7100000381469727,
+              -2.7754476070404053
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -3.609999895095825,
+              -2.7768452167510986
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.5620958209037781,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -3.609999895095825,
+              -2.7768452167510986
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -3.509999990463257,
+              -2.7776026725769043
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.4681183397769928,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -3.509999990463257,
+              -2.777602195739746
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -3.4100000858306885,
+              -2.7779173851013184
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.37710922956466675,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -3.4100000858306885,
+              -2.7779171466827393
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -3.309999942779541,
+              -2.778231620788574
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.29203999042510986,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -3.309999942779541,
+              -2.7782318592071533
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.43000030517578,
+              -3.2100000381469727,
+              -2.778614044189453
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.2199549823999405,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.43000030517578,
+              -3.2100000381469727,
+              -2.778613805770874
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -4.010000228881836,
+              -2.7763257026672363
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.9404019117355347,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -4.010000228881836,
+              -2.7763257026672363
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -3.9100000858306885,
+              -2.775743246078491
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.8409954905509949,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -3.9100000858306885,
+              -2.775743007659912
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -3.809999942779541,
+              -2.774958848953247
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.7417301535606384,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -3.809999942779541,
+              -2.774958848953247
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -3.7100000381469727,
+              -2.7747585773468018
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.6427562832832336,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -3.7100000381469727,
+              -2.7747585773468018
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -3.609999895095825,
+              -2.776156425476074
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.5443631410598755,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -3.609999895095825,
+              -2.776156425476074
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -3.509999990463257,
+              -2.7769079208374023
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.44658416509628296,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -3.509999990463257,
+              -2.7769079208374023
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -3.4100000858306885,
+              -2.775956869125366
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.3497190475463867,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -3.4100000858306885,
+              -2.775956869125366
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -3.309999942779541,
+              -2.776271104812622
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.25563204288482666,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -3.309999942779541,
+              -2.776271343231201
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.530000686645508,
+              -3.2100000381469727,
+              -2.7766919136047363
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.16854406893253326,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.530000686645508,
+              -3.2100000381469727,
+              -2.7766916751861572
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -4.010000228881836,
+              -2.775470018386841
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.9354390501976013,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -4.010000228881836,
+              -2.77547025680542
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -3.9100000858306885,
+              -2.7764124870300293
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.8355143070220947,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -3.9100000858306885,
+              -2.77641224861145
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -3.809999942779541,
+              -2.775631904602051
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.7355625033378601,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -3.809999942779541,
+              -2.775631904602051
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -3.7100000381469727,
+              -2.7751312255859375
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.6356353759765625,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -3.7100000381469727,
+              -2.7751309871673584
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -3.609999895095825,
+              -2.775467872619629
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.5357664227485657,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -3.609999895095825,
+              -2.77546763420105
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -3.509999990463257,
+              -2.7762317657470703
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.4359778165817261,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -3.509999990463257,
+              -2.776231527328491
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -3.4100000858306885,
+              -2.7748634815216064
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.3361870348453522,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -3.4100000858306885,
+              -2.7748637199401855
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -3.309999942779541,
+              -2.7743113040924072
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.2366432249546051,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -3.309999942779541,
+              -2.774311065673828
+            ]
+          },
+          {
+            "side": "SE",
+            "xyz": [
+              29.6299991607666,
+              -3.2100000381469727,
+              -2.7747232913970947
+            ],
+            "kind": "DRY_INSIDE",
+            "distance_to_core_m": 0.1378992646932602,
+            "failure": "WATER_REMAINS_STRICTLY_INSIDE_CORE",
+            "candidate_nearest": [
+              29.6299991607666,
+              -3.2100000381469727,
+              -2.774723529815674
+            ]
+          }
+        ],
+        "method": "Dry: no candidate water surface in a sphere strictly inside actual closed core. Wet/channel: original animated surface height unchanged outside real stone projections. Normal shore contact is not a failure."
+      }
+    },
+    {
+      "frame": 24,
+      "seconds": 6.3381699999954435,
+      "quality": {
+        "vertices": 205803,
+        "polygons": 410274,
+        "triangles": 411600,
+        "open_edges": 4,
+        "nonmanifold_edges": 4,
+        "zero_area_triangles": 34,
+        "zero_area_polygons": 0,
+        "finite": true,
+        "physical_triangles_sha256": "fb02a1ad6556a803d00160465f4e22a965452aaa910d92ecaa30bff131009c78",
+        "unused_vertices": 0
+      },
+      "shore_at_1": null
+    }
+  ],
+  "rendered": false,
+  "solver_enums": [
+    "FLOAT",
+    "EXACT",
+    "MANIFOLD"
+  ]
+}

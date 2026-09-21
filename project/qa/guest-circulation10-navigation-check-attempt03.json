@@ -1,0 +1,834 @@
+{
+  "status": "PASS_INSTALL_WITH_OPEN_ISSUES",
+  "source_scene": {
+    "file": "D:\\zx\\test\\project\\scene\\Fallingwater_guest_circulation_candidate10f.blend",
+    "frame": 73,
+    "file_size": 45548800,
+    "file_modified_unix": 1789927385.8353946
+  },
+  "ray_cast_calls": 1247913,
+  "body_radius_m": 0.18,
+  "eye_height_m": 1.6,
+  "sampling_step_m": 0.25,
+  "room_move_selection_sample_step_m": 0.01,
+  "ray_source": "BVH of actual world-transformed mesh polygons; curves evaluated. Base meshes conservatively retain unrounded bevel corners.",
+  "indexed_geometry": {
+    "vertices": 14312997,
+    "polygons": 12281317,
+    "evaluated_meshes": true
+  },
+  "indexed_world_bounds": [
+    [
+      -31,
+      38
+    ],
+    [
+      -43,
+      57.972080000000005
+    ],
+    [
+      -4.8467,
+      46
+    ]
+  ],
+  "spatial_filter": "Only objects whose world bounds intersect the full room/tour domain; every tested ray lies inside this domain.",
+  "stair_seam_ground_recoveries": 27,
+  "candidate_hints": "Embedded room centers/entries plus HABS-registered threshold probe coordinates; every candidate still passes actual mesh tests.",
+  "ground_tolerance_m": 0.19,
+  "ground_origin_above_expected_m": 0.32,
+  "normal_walk_tests": "Ground height/normal; five vertical body columns; path rays at 0.30,0.72,1.13,1.60m with lateral offsets; camera clearance.",
+  "free_inspection_tests": "Camera point clearance and continuous camera-radius ray sweep; no walking or ground claim.",
+  "door_connections": [
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "MAIN_L1_ENTRY",
+      "to": "MAIN_L1_LIVING",
+      "points": [
+        [
+          7.90192,
+          11.26357,
+          1.7
+        ],
+        [
+          7.7552,
+          10.38,
+          1.7
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_KITCHEN",
+      "points": [
+        [
+          0.3668,
+          13.88565,
+          1.7
+        ],
+        [
+          -0.1572,
+          13.88565,
+          1.7
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_MASTER",
+      "points": [
+        [
+          2.6724,
+          12.8502,
+          4.4448
+        ],
+        [
+          2.7772,
+          12.4254,
+          4.4448
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_STUDY",
+      "points": [
+        [
+          0.4496,
+          13.2219,
+          6.86415
+        ],
+        [
+          -0.4716,
+          13.2219,
+          6.86415
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "GUEST_L1_LOUNGE",
+      "to": "GUEST_L1_GALLERY",
+      "points": [
+        [
+          10.33424,
+          37.90134,
+          10.0
+        ],
+        [
+          10.31992,
+          38.88826,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_GUEST_ROOM",
+      "points": [
+        [
+          13.97179,
+          39.74654,
+          10.0
+        ],
+        [
+          14.82788,
+          39.63056,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    },
+    {
+      "status": "PASS_MESH_AND_GROUND",
+      "from": "GUEST_L1_GUEST_ROOM",
+      "to": "GUEST_L1_TERRACE",
+      "points": [
+        [
+          18.79959,
+          38.96928,
+          10.0
+        ],
+        [
+          20.45046,
+          39.07173,
+          10.0
+        ]
+      ],
+      "claim": "One straight body-clear path through actual geometry; not all door approaches."
+    }
+  ],
+  "connector": {
+    "status": "PASS_MESH_AND_GROUND",
+    "from": "MAIN_L3_LINK",
+    "to": "GUEST_L1_STAIR_HALL",
+    "points": [
+      [
+        5.4496002197265625,
+        23.470199584960938,
+        6.886150000000001
+      ],
+      [
+        5.256558656692505,
+        23.472256660461426,
+        6.886150000000001
+      ],
+      [
+        4.790617942810059,
+        23.474035263061523,
+        7.0242821428571425
+      ],
+      [
+        4.199860095977783,
+        23.47793960571289,
+        7.0242821428571425
+      ],
+      [
+        3.5540822744369507,
+        23.497565269470215,
+        7.162414285714286
+      ],
+      [
+        2.9230815172195435,
+        23.546504020690918,
+        7.162414285714286
+      ],
+      [
+        2.3360966444015503,
+        23.631722450256348,
+        7.300546428571428
+      ],
+      [
+        1.7642030119895935,
+        23.74885845184326,
+        7.300546428571428
+      ],
+      [
+        1.1926238238811493,
+        23.893125534057617,
+        7.300546428571428
+      ],
+      [
+        0.6383366733789444,
+        24.064019203186035,
+        7.4386785714285715
+      ],
+      [
+        0.11831916123628616,
+        24.26102924346924,
+        7.4386785714285715
+      ],
+      [
+        -0.361035980284214,
+        24.485995292663574,
+        7.4386785714285715
+      ],
+      [
+        -0.807483971118927,
+        24.741183280944824,
+        7.576810714285715
+      ],
+      [
+        -1.2235400080680847,
+        25.023619651794434,
+        7.576810714285715
+      ],
+      [
+        -1.6029159426689148,
+        25.32701587677002,
+        7.576810714285715
+      ],
+      [
+        -1.939323902130127,
+        25.6450834274292,
+        7.714942857142857
+      ],
+      [
+        -2.227523922920227,
+        25.972582817077637,
+        7.714942857142857
+      ],
+      [
+        -2.4675159454345703,
+        26.30951499938965,
+        7.714942857142857
+      ],
+      [
+        -2.664539933204651,
+        26.661118507385254,
+        7.714942857142857
+      ],
+      [
+        -2.8248839378356934,
+        27.03368091583252,
+        7.8530750000000005
+      ],
+      [
+        -2.9548360109329224,
+        27.433494567871094,
+        7.8530750000000005
+      ],
+      [
+        -3.057539939880371,
+        27.872084617614746,
+        7.8530750000000005
+      ],
+      [
+        -3.1308999061584473,
+        28.35573673248291,
+        7.991207142857142
+      ],
+      [
+        -3.1728198528289795,
+        28.869779586791992,
+        7.991207142857142
+      ],
+      [
+        -3.1832996606826782,
+        29.389063835144043,
+        7.991207142857142
+      ],
+      [
+        -3.1623398065567017,
+        29.888436317443848,
+        8.129339285714286
+      ],
+      [
+        -3.1088919639587402,
+        30.352174758911133,
+        8.129339285714286
+      ],
+      [
+        -3.0219080448150635,
+        30.7855224609375,
+        8.129339285714286
+      ],
+      [
+        -2.902960181236267,
+        31.201579093933105,
+        8.267471428571428
+      ],
+      [
+        -2.7551921606063843,
+        31.60977554321289,
+        8.267471428571428
+      ],
+      [
+        -2.581748127937317,
+        32.01954460144043,
+        8.267471428571428
+      ],
+      [
+        -2.3810559511184692,
+        32.43979454040527,
+        8.267471428571428
+      ],
+      [
+        -2.1489239931106567,
+        32.8715705871582,
+        8.405603571428571
+      ],
+      [
+        -1.8890200853347778,
+        33.30544090270996,
+        8.405603571428571
+      ],
+      [
+        -1.6107759475708008,
+        33.72883224487305,
+        8.405603571428571
+      ],
+      [
+        -1.3236239552497864,
+        34.129167556762695,
+        8.543735714285715
+      ],
+      [
+        -1.031546413898468,
+        34.499319076538086,
+        8.543735714285715
+      ],
+      [
+        -0.7306656241416931,
+        34.8426456451416,
+        8.543735714285715
+      ],
+      [
+        -0.4189380556344986,
+        35.164594650268555,
+        8.681867857142857
+      ],
+      [
+        -0.0985645167529583,
+        35.46767616271973,
+        8.681867857142857
+      ],
+      [
+        0.22825432196259499,
+        35.75440788269043,
+        8.82
+      ],
+      [
+        0.5757188200950623,
+        36.031917572021484,
+        8.82
+      ],
+      [
+        0.9598631858825684,
+        36.30523490905762,
+        8.82
+      ],
+      [
+        1.3584699630737305,
+        36.564720153808594,
+        8.82
+      ],
+      [
+        1.7256367206573486,
+        36.79276657104492,
+        8.82
+      ],
+      [
+        2.0154610872268677,
+        36.971763610839844,
+        8.82
+      ],
+      [
+        2.1352999210357666,
+        37.04679870605469,
+        8.82
+      ],
+      [
+        2.3487999999999998,
+        37.04728,
+        8.82
+      ],
+      [
+        2.3487999999999998,
+        37.611384,
+        8.82
+      ],
+      [
+        2.945356000000001,
+        37.611384,
+        8.82
+      ],
+      [
+        2.945356000000001,
+        38.217664,
+        8.82
+      ],
+      [
+        2.9453558921813965,
+        38.40896224975586,
+        8.967500000000001
+      ],
+      [
+        2.9453558921813965,
+        38.79155731201172,
+        9.115
+      ],
+      [
+        2.9453558921813965,
+        39.174156188964844,
+        9.262500000000001
+      ],
+      [
+        2.9453558921813965,
+        39.5567512512207,
+        9.41
+      ],
+      [
+        2.9453558921813965,
+        39.93934631347656,
+        9.557500000000001
+      ],
+      [
+        2.9453558921813965,
+        40.32194519042969,
+        9.705
+      ],
+      [
+        2.9453558921813965,
+        40.70454025268555,
+        9.852500000000001
+      ],
+      [
+        2.945356000000001,
+        40.89584,
+        10.0
+      ],
+      [
+        2.945356000000001,
+        41.42304,
+        10.0
+      ],
+      [
+        1.9151799999999999,
+        41.42304,
+        10.0
+      ],
+      [
+        1.9151799999999999,
+        40.381820000000005,
+        10.0
+      ]
+    ],
+    "failure": null,
+    "candidate_path_id": "MAIN_GUEST_CONNECTOR",
+    "endpoint_inside_room_envelopes": [
+      true,
+      true
+    ],
+    "stair_mode": true,
+    "claim": "Actual complete path including northern room attachments; no film cut or old PASS satisfies this edge."
+  },
+  "main_connector_access": {
+    "status": "PASS_SEGMENTS_NOT_GUI_ACCEPTANCE",
+    "required_room_sequence": [
+      "MAIN_L3_GALLERY",
+      "MAIN_L3_STAIR",
+      "MAIN_L2_STAIR",
+      "MAIN_L2_HALL",
+      "MAIN_L2_TERRACE_N",
+      "MAIN_L3_LINK",
+      "GUEST_L1_STAIR_HALL"
+    ],
+    "forbidden_inference": "No MAIN_L3_GALLERY/ALCOVE to LINK direct north-wall door exists.",
+    "segments": [
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L3_GALLERY",
+        "to": "TOUR_QA_GALLERY_TO_INNER_STAIR",
+        "points": [
+          [
+            1.82876,
+            13.73272,
+            6.86415
+          ],
+          [
+            2.21764,
+            13.82193,
+            6.86415
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "GALLERY_TO_INNER_STAIR"
+      },
+      {
+        "id": "INNER_STAIR_DESCENT",
+        "status": "PASS_MESH_AND_GROUND",
+        "points": [
+          [
+            2.2176427841186523,
+            13.821929931640625,
+            6.864149665832519
+          ],
+          [
+            2.460928440093994,
+            13.821929931640625,
+            6.691339111328125
+          ],
+          [
+            2.704214096069336,
+            13.821929931640625,
+            6.51852855682373
+          ],
+          [
+            2.947499990463257,
+            13.821929931640625,
+            6.345718002319336
+          ],
+          [
+            3.1907856464385986,
+            13.821929931640625,
+            6.172906970977783
+          ],
+          [
+            3.4340713024139404,
+            13.821929931640625,
+            6.000096416473388
+          ],
+          [
+            3.6773571968078613,
+            13.821929931640625,
+            5.827285861968994
+          ],
+          [
+            3.920642852783203,
+            13.821929931640625,
+            5.654474830627441
+          ],
+          [
+            4.163928508758545,
+            13.821929931640625,
+            5.4816642761230465
+          ],
+          [
+            4.407214164733887,
+            13.821929931640625,
+            5.308853721618652
+          ],
+          [
+            4.6504998207092285,
+            13.821929931640625,
+            5.136042690277099
+          ],
+          [
+            4.89378547668457,
+            13.821929931640625,
+            4.963232135772705
+          ],
+          [
+            5.137071132659912,
+            13.821929931640625,
+            4.79042158126831
+          ],
+          [
+            5.380356788635254,
+            13.821929931640625,
+            4.6176105499267575
+          ]
+        ],
+        "failure": null
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "TOUR_QA_INNER_STAIR_TO_L2_HALL",
+        "to": "MAIN_L2_HALL",
+        "points": [
+          [
+            5.38036,
+            13.82193,
+            4.61761
+          ],
+          [
+            6.6548,
+            14.08,
+            4.4448
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "INNER_STAIR_TO_L2_HALL"
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L2_HALL",
+        "to": "MAIN_L2_TERRACE_N",
+        "points": [
+          [
+            6.6548,
+            14.61153,
+            4.4448
+          ],
+          [
+            7.18718,
+            16.54171,
+            4.4448
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "L2_HALL_TO_NORTH_TERRACE"
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L2_TERRACE_N",
+        "to": "TOUR_QA_NORTH_TERRACE_TO_OUTER_STAIR",
+        "points": [
+          [
+            7.42351,
+            20.42863,
+            4.4448
+          ],
+          [
+            7.79809,
+            20.27033,
+            4.59601
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "NORTH_TERRACE_TO_OUTER_STAIR"
+      },
+      {
+        "id": "OUTER_CURVED_STAIR_ASCENT",
+        "status": "PASS_MESH_AND_GROUND",
+        "points": [
+          [
+            7.798094272613525,
+            20.270334243774414,
+            4.596009349822998
+          ],
+          [
+            8.08927059173584,
+            20.320703506469727,
+            4.7472187042236325
+          ],
+          [
+            8.367931365966797,
+            20.420007705688477,
+            4.898428058624267
+          ],
+          [
+            8.626127243041992,
+            20.565412521362305,
+            5.049637413024902
+          ],
+          [
+            8.856496810913086,
+            20.75277328491211,
+            5.200846767425537
+          ],
+          [
+            9.052468299865723,
+            20.97674560546875,
+            5.352056360244751
+          ],
+          [
+            9.208454132080078,
+            21.230941772460938,
+            5.503265714645385
+          ],
+          [
+            9.320003509521484,
+            21.50811195373535,
+            5.654474830627441
+          ],
+          [
+            9.38393783569336,
+            21.800350189208984,
+            5.805684185028076
+          ],
+          [
+            9.398431777954102,
+            22.09932518005371,
+            5.956893539428711
+          ],
+          [
+            9.363073348999023,
+            22.396507263183594,
+            6.108102893829345
+          ],
+          [
+            9.278868675231934,
+            22.68342399597168,
+            6.259312725067138
+          ],
+          [
+            9.148221969604492,
+            22.951889038085938,
+            6.410522079467773
+          ],
+          [
+            8.974857330322266,
+            23.19424819946289,
+            6.561731433868408
+          ],
+          [
+            8.76371955871582,
+            23.403587341308594,
+            6.712940788269043
+          ],
+          [
+            8.520832061767578,
+            23.573938369750977,
+            6.864150142669677
+          ]
+        ],
+        "failure": null
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "TOUR_QA_OUTER_STAIR_TO_UPPER_LANDING",
+        "to": "MAIN_L3_LINK",
+        "points": [
+          [
+            8.52083,
+            23.57394,
+            6.86415
+          ],
+          [
+            8.32761,
+            23.55739,
+            6.86415
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "OUTER_STAIR_TO_UPPER_LANDING"
+      },
+      {
+        "status": "PASS_MESH_AND_GROUND",
+        "from": "MAIN_L3_LINK",
+        "to": "TOUR_QA_UPPER_LANDING_TO_COVERED_CONNECTOR",
+        "points": [
+          [
+            5.4496,
+            23.4702,
+            6.86415
+          ],
+          [
+            5.4496,
+            23.4702,
+            6.88615
+          ]
+        ],
+        "claim": "One straight body-clear path through actual geometry; not all door approaches.",
+        "id": "UPPER_LANDING_TO_COVERED_CONNECTOR"
+      }
+    ],
+    "film_transition": "STUDY to CONNECTOR is an explicit cut, not proof of access from gallery."
+  },
+  "room_issues": [],
+  "camera_values_and_coverage": "PASS_CAMERA_VALUES_AND_COVERAGE",
+  "all_adjacency_status": "INCOMPLETE_FULL_ADJACENCY_ACCEPTANCE",
+  "all_adjacency_counts": {
+    "PASS": 59,
+    "FAIL": 1,
+    "NOT_RUN": 0
+  },
+  "exterior_lift_attempts": [
+    {
+      "height_adjustment_m": 0,
+      "failure": {
+        "reason": "CAMERA_CLEARANCE",
+        "point": [
+          -0.72857,
+          -39.87143,
+          5.91429
+        ],
+        "hit": {
+          "object": "TREE_Far_046_Leaves",
+          "location": [
+            -0.72857,
+            -39.87143,
+            5.79671
+          ],
+          "normal": [
+            -0.10772,
+            -0.07757,
+            0.99115
+          ],
+          "distance": 0.11758
+        },
+        "edge": 1
+      }
+    }
+  ],
+  "blocked_main_segments": [],
+  "limits": [
+    "Ray sampling does not prove full capsule collisions.",
+    "Rendered image and GUI performance remain untested.",
+    "Straight-line doorway failure may require a turn; no positive connectivity claim is made."
+  ],
+  "candidate_sha256": "7286427d1f47ae9219204ed5dd54a970387683c8b384d1b4259244a7b991d852",
+  "attempt": "03",
+  "candidate_only": true,
+  "accepted_for_delivery": false
+}

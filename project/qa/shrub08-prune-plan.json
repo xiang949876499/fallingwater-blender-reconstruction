@@ -1,0 +1,148 @@
+{
+  "status": "ONE_BOUNDED_SHARED_LEAF_PRUNING_PLAN_NO_SAVE_NO_RENDER",
+  "source_sha256": "c5cd501e4c8ae0205ecb2437cd2d06d0c92bcc9a87e7d93d3986aeef976070d7",
+  "removed_design_leaf_ids": {
+    "2": [
+      154,
+      160,
+      170,
+      182
+    ],
+    "3": [
+      100,
+      103
+    ]
+  },
+  "instance_evidence": [
+    {
+      "object": "TREE_Understory_0062_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_0558_Leaves",
+      "asset": 2,
+      "leaves_to_remove": [
+        {
+          "design_leaf_id": 154,
+          "min_gap_m": -0.02744746208190918,
+          "triangle_intersects": true
+        },
+        {
+          "design_leaf_id": 160,
+          "min_gap_m": -0.0112684965133667,
+          "triangle_intersects": true
+        },
+        {
+          "design_leaf_id": 170,
+          "min_gap_m": -0.12421077489852905,
+          "triangle_intersects": true
+        },
+        {
+          "design_leaf_id": 182,
+          "min_gap_m": -0.1204177737236023,
+          "triangle_intersects": true
+        }
+      ]
+    },
+    {
+      "object": "TREE_Understory_0679_Leaves",
+      "asset": 3,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_0895_Leaves",
+      "asset": 3,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_1191_Leaves",
+      "asset": 3,
+      "leaves_to_remove": [
+        {
+          "design_leaf_id": 100,
+          "min_gap_m": -0.05860710144042969,
+          "triangle_intersects": true
+        },
+        {
+          "design_leaf_id": 103,
+          "min_gap_m": -0.0436549186706543,
+          "triangle_intersects": true
+        }
+      ]
+    },
+    {
+      "object": "TREE_Understory_1590_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_1990_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_1998_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_0055_Leaves",
+      "asset": 3,
+      "leaves_to_remove": [
+        {
+          "design_leaf_id": 100,
+          "min_gap_m": -0.02379441261291504,
+          "triangle_intersects": true
+        },
+        {
+          "design_leaf_id": 103,
+          "min_gap_m": 0.0027740001678466797,
+          "triangle_intersects": false
+        }
+      ]
+    },
+    {
+      "object": "TREE_Understory_1071_Leaves",
+      "asset": 3,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_1334_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_2150_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_0110_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_1338_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_1342_Leaves",
+      "asset": 2,
+      "leaves_to_remove": []
+    },
+    {
+      "object": "TREE_Understory_1043_Leaves",
+      "asset": 3,
+      "leaves_to_remove": []
+    }
+  ],
+  "rule": "Union of actual leaf/terrain failures across approved roots; applies only to the two new shared meshes. No root, terrain, material or old shared asset change.",
+  "root_radius_local_m": [
+    0.0125,
+    0.0145
+  ],
+  "rendered": false,
+  "scene_saved": false
+}

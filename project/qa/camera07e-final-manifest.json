@@ -1,0 +1,142 @@
+{
+  "status": "FROZEN_GEOMETRY_ONLY_PASS_STAGED_COMPOSITION_ACCEPTED",
+  "scene": "scene/Fallingwater_furniture_candidate07e.blend",
+  "scene_sha256": "d6084c1ebca7e1328f1a008b673d86e55c738da4b5ee8a52c5b7e5ce86b8eadd",
+  "scene_scope": "Independent furniture candidate07e, not final integrated07. Geometry checks do not include vegetation or illumination acceptance.",
+  "config": "qa/camera07e-settings-frozen.json",
+  "active_config": "data/camera-settings-reviewed.json",
+  "config_sha256": "4def78dcbae91f3292562f41796adec71c4680b64e04301f051fdc1833ce8666",
+  "camera_count": 120,
+  "base_config": "qa/camera06-settings-candidate-frozen.json",
+  "base_config_sha256": "8ca887363c8b6a7d3ccadc613576726c9acb261c83691499e95742fbae5bbba6",
+  "previous_production_config": "qa/camera05-settings-frozen-v2.json",
+  "previous_production_sha256": "34e4bc6b9ca8555ba57832b830c575658955da7fc9c947b9c5721dfede31bd9e",
+  "changed_poses_vs_base": [
+    "CAM_GUEST_L1_LOUNGE_A"
+  ],
+  "changed_poses_vs_previous_production": [
+    "CAM_MAIN_B_PLUNGE_A",
+    "CAM_MAIN_L1_LOGGIA_A",
+    "CAM_GUEST_L1_LOUNGE_A",
+    "CAM_GUEST_L1_LOUNGE_B"
+  ],
+  "exposure_delta_vs_base": {
+    "CAM_MAIN_L1_LIVING_A": {
+      "before": 3.2,
+      "after": 2.4
+    },
+    "CAM_GUEST_L1_LOUNGE_A": {
+      "before": 2.8,
+      "after": 3.6
+    }
+  },
+  "preserved_support_repairs": [
+    "CAM_MAIN_L1_LOGGIA_A",
+    "CAM_MAIN_B_PLUNGE_A"
+  ],
+  "preserved_secondary_pose": "CAM_GUEST_L1_LOUNGE_B",
+  "reviewed_images": [
+    {
+      "path": "renders/previews/iteration07e-wide-seat/CAM_GUEST_L1_LOUNGE_A_EV3p6.png",
+      "sha256": "8d98dc75b04dffa5ae9015288f515a8dc63613c49be3af10b5132f310b687eac",
+      "scene_sha256": "d6084c1ebca7e1328f1a008b673d86e55c738da4b5ee8a52c5b7e5ce86b8eadd",
+      "actually_opened_by": [
+        "root",
+        "camera04"
+      ],
+      "status": "STAGED_COMPOSITION_ACCEPTED",
+      "observation": "Broad seating-side room view: fireplace opening and hearth at right, bookcase edge, left windows and sofa, glass door and table visible. Firebox is dark, table partly cropped, diagnostic material/lighting quality remains unfinished.",
+      "final_quality_accepted": false
+    },
+    {
+      "path": "renders/previews/iteration07e-wide-entry/CAM_GUEST_L1_LOUNGE_A_EV3p6.png",
+      "sha256": "7275642b463d780208be1a651c85ed50da4a4f2e410166629aa3f7be41e6d809",
+      "scene_sha256": "d6084c1ebca7e1328f1a008b673d86e55c738da4b5ee8a52c5b7e5ce86b8eadd",
+      "actually_opened_by": [
+        "root",
+        "camera04"
+      ],
+      "status": "FRAMING_FAIL_NOT_ADOPTED",
+      "observation": "Bookcase occupies the right foreground and obscures the fireplace opening; retain as rejected backup.",
+      "final_quality_accepted": false
+    },
+    {
+      "path": "renders/previews/iteration07-lighting-skyfill/CAM_MAIN_L1_LIVING_A_EV2p4.png",
+      "sha256": "563a8ba65cd78af57f8eaec49346b5e0aa5707b7ace943c48ec16c83b79d0195",
+      "scene_sha256": "682db2912eeb0cac78709f0bb17253c3691bd4ffd331021a0f2ab55e06db5d69",
+      "actually_opened_by": [
+        "root",
+        "camera04"
+      ],
+      "status": "STAGED_EXPOSURE_ACCEPTED",
+      "observation": "Root selected EV2.4 from sky-strength 0.36 lighting candidate. Room and terrace readable; new integrated07 lighting and geometry still require checks.",
+      "final_quality_accepted": false
+    }
+  ],
+  "final_quality_accepted": false,
+  "scope": "Production camera JSON only. No new pose search, render, sky, geometry, furnishings or navigation graph mutation. Source-related camera framing is C, not calibrated photo match.",
+  "verification": "qa/camera07e-final-verification.json",
+  "integration_next": "Use this exact config for root full07 build, then fresh geometry verification and exposure/visual review on that exact scene.",
+  "verification_summary": {
+    "status": "GEOMETRY_ONLY_PASS",
+    "camera_count": 120,
+    "rays_cast": 3840,
+    "geometry": {
+      "vertices": 956568,
+      "polygons": 1024245,
+      "objects": 9683
+    },
+    "blender_version": "5.2.1 LTS",
+    "threads": 4,
+    "process_exit_code": 0,
+    "report_sha256": "21941539ffb439ad4ffe4ebd182d0cbe20f8f13ca3d558ee00849ff94b339c7d",
+    "outside_check_count": 15,
+    "outside_flags_all_match": true,
+    "support_changes": [
+      {
+        "camera": "CAM_MAIN_L1_COAT_B",
+        "stored": {
+          "object": "MAIN_floor_threshold_entry_coat_finish",
+          "z": 0.1222
+        },
+        "actual": {
+          "object": "MAIN_L1_COAT_finish",
+          "location": [
+            9.4032,
+            12.9033,
+            0.1222
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.16
+        },
+        "delta_z_m": 0.0
+      },
+      {
+        "camera": "CAM_GUEST_L1_BOILER_A",
+        "stored": {
+          "object": "GUEST_L1_HALL_NORTH",
+          "z": 8.4002
+        },
+        "actual": {
+          "object": "GUEST_L1_CAR_COURT",
+          "location": [
+            2.96819,
+            41.70246,
+            8.4002
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.16
+        },
+        "delta_z_m": 0.0
+      }
+    ]
+  }
+}

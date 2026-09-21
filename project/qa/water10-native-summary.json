@@ -1,0 +1,616 @@
+{
+  "status": "NATIVE48_RAW_DIAGNOSTIC_COMPLETE_INITIALIZATION_AND_HEAD_NOT_STABLE_NO_JOIN_PASS",
+  "frames": 48,
+  "source_plane_native_Q_median_f5_48_m3_s": 0.6211304816989354,
+  "source_plane_native_Q_f5_48_p05_p95_m3_s": [
+    0.5079772221913949,
+    0.7857672905768562
+  ],
+  "source_Q_relative_author_design_error": 1.0744891791382125,
+  "source_velocity_actual_median_f5_48_m_s": [
+    -1.505859375,
+    -1.0015869140625,
+    -6.908203125
+  ],
+  "source_velocity_vs_encoded_vector_relative_error_median": 0.0307774727292247,
+  "source_native_to_previous_upstream_C_capacity_ratio": 1.9135664981755167,
+  "source_required_upstream_mean_velocity_if_area_01797263_m2": 3.4559796097563167,
+  "source_plane_sensitivity": {
+    "-5.62": {
+      "Q_median_f5_48_m3_s": 0.6168542427307923,
+      "native_wet_area_median_f5_48_m2": 0.08648438187316079,
+      "Q_integral_f1_f48_m3": 1.2094493117685037,
+      "outside_fixed_jet_window_Q_abs_max_m3_s": 0.14026416044466417,
+      "fixed_jet_window_Q_median_f5_48_m3_s": 0.617128275201315,
+      "fixed_jet_window_Q_p05_p95_f5_48_m3_s": [
+        0.5652824029535497,
+        0.661817965312166
+      ],
+      "fixed_jet_window_Q_integral_m3": 1.1969267844473817,
+      "fixed_jet_window_is_not_particle_provenance": true
+    },
+    "-5.64": {
+      "Q_median_f5_48_m3_s": 0.6211304816989354,
+      "native_wet_area_median_f5_48_m2": 0.0867041084531231,
+      "Q_integral_f1_f48_m3": 1.2239801792291947,
+      "outside_fixed_jet_window_Q_abs_max_m3_s": 0.21245847688745823,
+      "fixed_jet_window_Q_median_f5_48_m3_s": 0.621348976408266,
+      "fixed_jet_window_Q_p05_p95_f5_48_m3_s": [
+        0.5594016183104233,
+        0.6740598171724069
+      ],
+      "fixed_jet_window_Q_integral_m3": 1.2047116287612802,
+      "fixed_jet_window_is_not_particle_provenance": true
+    },
+    "-5.68": {
+      "Q_median_f5_48_m3_s": 0.6321669952494283,
+      "native_wet_area_median_f5_48_m2": 0.0932080152200071,
+      "Q_integral_f1_f48_m3": 1.2595576115009475,
+      "outside_fixed_jet_window_Q_abs_max_m3_s": 0.4795777845403918,
+      "fixed_jet_window_Q_median_f5_48_m3_s": 0.632082207282588,
+      "fixed_jet_window_Q_p05_p95_f5_48_m3_s": [
+        0.45153604189090707,
+        0.7356894794153936
+      ],
+      "fixed_jet_window_Q_integral_m3": 1.2245624449710235,
+      "fixed_jet_window_is_not_particle_provenance": true
+    }
+  },
+  "boundaries": {
+    "Xminus": {
+      "interface_coordinate_m": -15.925000474036217,
+      "MAC_index": 1,
+      "methods": {
+        "inner_phi_constant": {
+          "integral_m3": 8.704861666126938,
+          "f1_f24_f48_Q_m3_s": [
+            1.5302932441467567,
+            4.478756809930527,
+            4.258315667972201
+          ],
+          "minmax_Q_m3_s": [
+            1.5302932441467567,
+            5.245172433469465
+          ]
+        },
+        "inner_phi_linear_extrapolated": {
+          "integral_m3": 8.230562919398146,
+          "f1_f24_f48_Q_m3_s": [
+            1.5254531439505459,
+            4.202827346549597,
+            4.021414601915229
+          ],
+          "minmax_Q_m3_s": [
+            1.5254531439505459,
+            5.106531484646096
+          ]
+        },
+        "inner_Fluid_flag_binary": {
+          "integral_m3": 8.736360954741638,
+          "f1_f24_f48_Q_m3_s": [
+            1.5396031141281128,
+            4.493439674377441,
+            4.2276177406311035
+          ],
+          "minmax_Q_m3_s": [
+            1.5396031141281128,
+            5.246399879455566
+          ]
+        },
+        "post_delete_phi_blend_BIASED": {
+          "integral_m3": 7.129340031976172,
+          "f1_f24_f48_Q_m3_s": [
+            1.4534888534536972,
+            3.5776090103474294,
+            3.276146824848384
+          ],
+          "minmax_Q_m3_s": [
+            1.4534888534536972,
+            4.861101765720167
+          ]
+        }
+      }
+    },
+    "Yminus": {
+      "interface_coordinate_m": -16.93750044307695,
+      "MAC_index": 1,
+      "methods": {
+        "inner_phi_constant": {
+          "integral_m3": 4.2776443756082205,
+          "f1_f24_f48_Q_m3_s": [
+            0.8182514599562815,
+            2.199797923151477,
+            2.192933302158767
+          ],
+          "minmax_Q_m3_s": [
+            0.8182514599562815,
+            2.4703544815662966
+          ]
+        },
+        "inner_phi_linear_extrapolated": {
+          "integral_m3": 4.026945762500717,
+          "f1_f24_f48_Q_m3_s": [
+            0.8177189582760264,
+            2.0599869732051572,
+            2.0784802372042424
+          ],
+          "minmax_Q_m3_s": [
+            0.8177189582760264,
+            2.38202381810152
+          ]
+        },
+        "inner_Fluid_flag_binary": {
+          "integral_m3": 4.360701008389394,
+          "f1_f24_f48_Q_m3_s": [
+            0.8270367980003357,
+            2.1727800369262695,
+            2.2298977375030518
+          ],
+          "minmax_Q_m3_s": [
+            0.8270367980003357,
+            2.4696731567382812
+          ]
+        },
+        "post_delete_phi_blend_BIASED": {
+          "integral_m3": 3.3534790475613523,
+          "f1_f24_f48_Q_m3_s": [
+            0.7876345780598742,
+            1.649991353153487,
+            1.6343457102255512
+          ],
+          "minmax_Q_m3_s": [
+            0.7876345780598742,
+            2.2583485740527043
+          ]
+        }
+      }
+    },
+    "Xplus": {
+      "interface_coordinate_m": 7.925000473677635,
+      "MAC_index": 319,
+      "methods": {
+        "inner_phi_constant": {
+          "integral_m3": 2.7902746980040574,
+          "f1_f24_f48_Q_m3_s": [
+            0.07441978699573139,
+            1.5190260985713013,
+            2.3342435641482213
+          ],
+          "minmax_Q_m3_s": [
+            0.07441978699573139,
+            2.3342435641482213
+          ]
+        },
+        "inner_phi_linear_extrapolated": {
+          "integral_m3": 2.786249171416196,
+          "f1_f24_f48_Q_m3_s": [
+            0.07304164610140655,
+            1.5179526569805597,
+            2.334111803302102
+          ],
+          "minmax_Q_m3_s": [
+            0.07304164610140655,
+            2.334111803302102
+          ]
+        },
+        "inner_Fluid_flag_binary": {
+          "integral_m3": 2.802448755130171,
+          "f1_f24_f48_Q_m3_s": [
+            0.0751868486404419,
+            1.5256282091140747,
+            2.342555522918701
+          ],
+          "minmax_Q_m3_s": [
+            0.0751868486404419,
+            2.342555522918701
+          ]
+        },
+        "post_delete_phi_blend_BIASED": {
+          "integral_m3": 2.667710069757494,
+          "f1_f24_f48_Q_m3_s": [
+            0.070837413933866,
+            1.46312186305696,
+            2.2202670097563173
+          ],
+          "minmax_Q_m3_s": [
+            0.070837413933866,
+            2.2202670097563173
+          ]
+        }
+      }
+    }
+  },
+  "heads": {
+    "AUTHORED_INITIAL_STEEP_REGION": {
+      "first_ray_hit": {
+        "points": 440,
+        "valid_f1_f24_f48": [
+          329,
+          347,
+          344
+        ],
+        "valid_count_all48_minmax": [
+          329,
+          351
+        ],
+        "paired_f1_f48_count": 325,
+        "paired_change_median_m": -0.1726980209350586,
+        "paired_change_p05_p95_m": [
+          -0.33086471557617186,
+          0.16530141830444336
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.553715705871582,
+        "absolute_head_median_f1_f24_f48_m": [
+          -6.096529483795166,
+          -6.269126892089844,
+          -6.329089164733887
+        ]
+      },
+      "highest_upward": {
+        "points": 440,
+        "valid_f1_f24_f48": [
+          328,
+          346,
+          342
+        ],
+        "valid_count_all48_minmax": [
+          328,
+          350
+        ],
+        "paired_f1_f48_count": 322,
+        "paired_change_median_m": -0.1747426986694336,
+        "paired_change_p05_p95_m": [
+          -0.331090521812439,
+          0.16436057090759273
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.553715705871582,
+        "absolute_head_median_f1_f24_f48_m": [
+          -6.095383167266846,
+          -6.268808364868164,
+          -6.328756093978882
+        ]
+      },
+      "upward_below_source_plane": {
+        "points": 440,
+        "valid_f1_f24_f48": [
+          328,
+          346,
+          342
+        ],
+        "valid_count_all48_minmax": [
+          328,
+          350
+        ],
+        "paired_f1_f48_count": 322,
+        "paired_change_median_m": -0.1747426986694336,
+        "paired_change_p05_p95_m": [
+          -0.331090521812439,
+          0.16436057090759273
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.553715705871582,
+        "absolute_head_median_f1_f24_f48_m": [
+          -6.095383167266846,
+          -6.268808364868164,
+          -6.328756093978882
+        ]
+      },
+      "first_hit_minmax_normal_z_f1_f24_f48": [
+        [
+          0.2913789749145508,
+          0.9999992847442627
+        ],
+        [
+          0.26523852348327637,
+          0.9996727108955383
+        ],
+        [
+          0.18059614300727844,
+          0.999993622303009
+        ]
+      ]
+    },
+    "CAM_HERO": {
+      "first_ray_hit": {
+        "points": 88,
+        "valid_f1_f24_f48": [
+          88,
+          88,
+          88
+        ],
+        "valid_count_all48_minmax": [
+          88,
+          88
+        ],
+        "paired_f1_f48_count": 88,
+        "paired_change_median_m": -0.04975485801696777,
+        "paired_change_p05_p95_m": [
+          -0.18124499320983886,
+          0.019688057899475055
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.5239381790161133,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.832769155502319,
+          -5.812162160873413,
+          -5.878974437713623
+        ]
+      },
+      "highest_upward": {
+        "points": 88,
+        "valid_f1_f24_f48": [
+          88,
+          88,
+          88
+        ],
+        "valid_count_all48_minmax": [
+          86,
+          88
+        ],
+        "paired_f1_f48_count": 88,
+        "paired_change_median_m": -0.04975485801696777,
+        "paired_change_p05_p95_m": [
+          -0.18124499320983886,
+          0.019688057899475055
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.6332697868347168,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.832769155502319,
+          -5.812162160873413,
+          -5.878974437713623
+        ]
+      },
+      "upward_below_source_plane": {
+        "points": 88,
+        "valid_f1_f24_f48": [
+          88,
+          88,
+          88
+        ],
+        "valid_count_all48_minmax": [
+          86,
+          88
+        ],
+        "paired_f1_f48_count": 88,
+        "paired_change_median_m": -0.05032086372375488,
+        "paired_change_p05_p95_m": [
+          -0.19187889099121094,
+          0.019688057899475055
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.69647216796875,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.832769155502319,
+          -5.812162160873413,
+          -5.879705190658569
+        ]
+      },
+      "first_hit_minmax_normal_z_f1_f24_f48": [
+        [
+          0.7174198627471924,
+          0.9999998807907104
+        ],
+        [
+          0.7527540326118469,
+          0.9999997019767761
+        ],
+        [
+          0.7532355189323425,
+          0.9999842047691345
+        ]
+      ]
+    },
+    "CAM_WATER_DETAIL": {
+      "first_ray_hit": {
+        "points": 9,
+        "valid_f1_f24_f48": [
+          9,
+          9,
+          9
+        ],
+        "valid_count_all48_minmax": [
+          9,
+          9
+        ],
+        "paired_f1_f48_count": 9,
+        "paired_change_median_m": -0.1359729766845703,
+        "paired_change_p05_p95_m": [
+          -0.19187049865722655,
+          -0.04877748489379885
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.5239381790161133,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.732458114624023,
+          -5.755232334136963,
+          -5.889334678649902
+        ]
+      },
+      "highest_upward": {
+        "points": 9,
+        "valid_f1_f24_f48": [
+          9,
+          9,
+          9
+        ],
+        "valid_count_all48_minmax": [
+          8,
+          9
+        ],
+        "paired_f1_f48_count": 9,
+        "paired_change_median_m": -0.1359729766845703,
+        "paired_change_p05_p95_m": [
+          -0.19187049865722655,
+          -0.04877748489379885
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.6332697868347168,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.732458114624023,
+          -5.755232334136963,
+          -5.889334678649902
+        ]
+      },
+      "upward_below_source_plane": {
+        "points": 9,
+        "valid_f1_f24_f48": [
+          9,
+          9,
+          9
+        ],
+        "valid_count_all48_minmax": [
+          8,
+          9
+        ],
+        "paired_f1_f48_count": 9,
+        "paired_change_median_m": -0.14716100692749023,
+        "paired_change_p05_p95_m": [
+          -0.20006237030029297,
+          -0.10094099044799806
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.69647216796875,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.732458114624023,
+          -5.763388633728027,
+          -5.8925862312316895
+        ]
+      },
+      "first_hit_minmax_normal_z_f1_f24_f48": [
+        [
+          0.7174198627471924,
+          0.9999845623970032
+        ],
+        [
+          0.7527540326118469,
+          0.9996610283851624
+        ],
+        [
+          0.7532355189323425,
+          0.9998026490211487
+        ]
+      ]
+    },
+    "ORIGINAL_IMPACT_REFERENCE": {
+      "first_ray_hit": {
+        "points": 1,
+        "valid_f1_f24_f48": [
+          1,
+          1,
+          1
+        ],
+        "valid_count_all48_minmax": [
+          1,
+          1
+        ],
+        "paired_f1_f48_count": 1,
+        "paired_change_median_m": -0.05756235122680664,
+        "paired_change_p05_p95_m": [
+          -0.05756235122680664,
+          -0.05756235122680664
+        ],
+        "max_abs_delta_from_f1_any_frame_m": 0.08593082427978516,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.731081008911133,
+          -5.645150184631348,
+          -5.7886433601379395
+        ]
+      },
+      "highest_upward": {
+        "points": 1,
+        "valid_f1_f24_f48": [
+          1,
+          1,
+          0
+        ],
+        "valid_count_all48_minmax": [
+          0,
+          1
+        ],
+        "paired_f1_f48_count": 0,
+        "paired_change_median_m": null,
+        "paired_change_p05_p95_m": null,
+        "max_abs_delta_from_f1_any_frame_m": 0.08593082427978516,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.731081008911133,
+          -5.645150184631348,
+          null
+        ]
+      },
+      "upward_below_source_plane": {
+        "points": 1,
+        "valid_f1_f24_f48": [
+          1,
+          1,
+          0
+        ],
+        "valid_count_all48_minmax": [
+          0,
+          1
+        ],
+        "paired_f1_f48_count": 0,
+        "paired_change_median_m": null,
+        "paired_change_p05_p95_m": null,
+        "max_abs_delta_from_f1_any_frame_m": 0.08593082427978516,
+        "absolute_head_median_f1_f24_f48_m": [
+          -5.731081008911133,
+          -5.645150184631348,
+          null
+        ]
+      },
+      "first_hit_minmax_normal_z_f1_f24_f48": [
+        [
+          0.979855477809906,
+          0.979855477809906
+        ],
+        [
+          0.3578944504261017,
+          0.3578944504261017
+        ],
+        [
+          0.13006646931171417,
+          0.13006646931171417
+        ]
+      ]
+    }
+  },
+  "frame1_mesh_volume_m3": 137.18445222256855,
+  "frame48_mesh_volume_m3": 125.5422326179657,
+  "volume_change_m3": -11.642219604602857,
+  "volume_relative_change_f1_f48": -0.08486544514326211,
+  "frame1_initial_geometry_relative_volume_error": 0.19877086247475106,
+  "all48_meshes_closed_manifold": true,
+  "mass_balance_sensitivities": {
+    "inner_phi_constant": {
+      "source_integral_m3": 1.2239801792291944,
+      "outflow_proxy_integral_m3": 15.772780739739218,
+      "CV_change_m3": -11.550399168631287,
+      "residual_last_m3": 2.998401391878737,
+      "residual_max_abs_m3": 2.998401391878737,
+      "NOT_EXACT_CONSERVED_MASS": true
+    },
+    "inner_phi_linear_extrapolated": {
+      "source_integral_m3": 1.2239801792291944,
+      "outflow_proxy_integral_m3": 15.043757853315054,
+      "CV_change_m3": -11.550399168631287,
+      "residual_last_m3": 2.269378505454572,
+      "residual_max_abs_m3": 2.269378505454572,
+      "NOT_EXACT_CONSERVED_MASS": true
+    },
+    "inner_Fluid_flag_binary": {
+      "source_integral_m3": 1.2239801792291944,
+      "outflow_proxy_integral_m3": 15.899510718261201,
+      "CV_change_m3": -11.550399168631287,
+      "residual_last_m3": 3.1251313704007195,
+      "residual_max_abs_m3": 3.1251313704007195,
+      "NOT_EXACT_CONSERVED_MASS": true
+    },
+    "post_delete_phi_blend_BIASED": {
+      "source_integral_m3": 1.2239801792291944,
+      "outflow_proxy_integral_m3": 13.150529149295014,
+      "CV_change_m3": -11.550399168631287,
+      "residual_last_m3": 0.3761498014345328,
+      "residual_max_abs_m3": 0.3761498014345328,
+      "NOT_EXACT_CONSERVED_MASS": true
+    }
+  },
+  "normal_threshold_not_relaxed": 0.3,
+  "upstream_join": "NOT_ASSEMBLED",
+  "native_visual": "NOT_RENDERED",
+  "old_water09_flow_FAIL": "RETAINED_NOT_RECLASSIFIED",
+  "no_detrend_no_lowpass": true
+}

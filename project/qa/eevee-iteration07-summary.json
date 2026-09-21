@@ -1,0 +1,69 @@
+{
+  "status": "RENDERABLE_VISUAL_FAIL",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration07.blend",
+  "source_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "candidate_blend": "D:\\zx\\test\\project\\qa\\eevee-iteration07-study\\Fallingwater_preview_iteration07_study.blend",
+  "candidate_sha256": "3843e7262c6c2a5b2c5f77f61128942f062aeed8d69cf045913fdb3b178ce261",
+  "png": "D:\\zx\\test\\project\\qa\\eevee-iteration07-study\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+  "png_sha256": "2f4fa6743f0d45495b919e1902ec5b547838a0cb471d68f35a0578fc6cb4d80f",
+  "physical_reference": {
+    "png": "D:\\zx\\test\\project\\renders\\previews\\iteration07-focus\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+    "sha256": "d4fb43a837ac479e99731e900ec55f1ffd37a5b956ecbb3b8cf509e428b4ea5b",
+    "benchmark": "D:\\zx\\test\\project\\renders\\previews\\iteration07-focus\\render-benchmark.json",
+    "frame": 48,
+    "exposure": 2.4,
+    "same_saved_camera": true,
+    "selected_bracket_not_base_exposure": true
+  },
+  "level_status": {
+    "MAIN_B": "NOT_BAKED",
+    "MAIN_L1": "NOT_BAKED",
+    "MAIN_L2": "NOT_BAKED",
+    "MAIN_L3": "BAKED_VISUAL_FAIL",
+    "GUEST_L1": "NOT_BAKED",
+    "GUEST_B1": "NOT_BAKED",
+    "GUEST_L2": "NOT_BAKED"
+  },
+  "frame": 48,
+  "camera": "CAM_MAIN_L3_STUDY_B",
+  "exposure": 2.4,
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "bake_seconds": 53.52930930000002,
+  "render_seconds": 34.70686599999681,
+  "visual_acceptance": "FAIL",
+  "preview_readiness": "FAIL: one-level renderable evidence only; six other levels NOT_BAKED.",
+  "actual_findings": [
+    "Broad wall dark band persists relative to matched Cycles.",
+    "Dark lobes behind chair and dark ceiling field persist.",
+    "Upper wall is excessively bright relative to Cycles.",
+    "Previous narrow floor-perimeter bright strip is absent in both current images."
+  ],
+  "review_report": "D:\\zx\\test\\project\\qa\\eevee-iteration07-study-review.md",
+  "helper_hashes": {
+    "eevee_preview.py": "f68abbfde2ff6164618486a0df078bb144311e78482bfd794d15568d3b6803cd",
+    "eevee_glass.py": "5ccc9326bc33bac735e76cf6a85051f7da31f86a7243e1979052c6710654a476"
+  },
+  "production_adopted": false,
+  "gpu_job_complete": true,
+  "source_unchanged": true,
+  "scope": "07 structural/sky integration check; one MAIN_L3 cache versus previous seven-volume 06 preview. Not a single-variable causal test.",
+  "no_volume_followup": {
+    "status": "RENDERABLE_VISUAL_FAIL",
+    "candidate_blend": "D:\\zx\\test\\project\\qa\\eevee-iteration07-novolume\\Fallingwater_preview_iteration07_no_volume.blend",
+    "candidate_sha256": "a38639236bae8a08061bfc6f38218d24fe346ad476cdebdded1065f74266e3f3",
+    "png": "D:\\zx\\test\\project\\qa\\eevee-iteration07-novolume\\CAM_MAIN_L3_STUDY_B_NO_VOLUME_EV2p4.png",
+    "png_sha256": "e669ff344873de8c6b2676f9bc3f361e38c997eac3b48f9116695ece181bf7a8",
+    "render_seconds": 47.56892599999992,
+    "black_lobes_removed": true,
+    "overall_lighting": "FAIL: severe washed-out World/distant fallback and weak enclosure shading",
+    "fill_stage_status": "NOT_RUN: baseline is over-bright, not deficient in indirect light",
+    "render_count": 1,
+    "bake_count": 0,
+    "gpu_job_complete": true,
+    "review_report": "D:\\zx\\test\\project\\qa\\eevee-iteration07-novolume-review.md"
+  }
+}

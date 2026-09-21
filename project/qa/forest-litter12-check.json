@@ -1,0 +1,1492 @@
+{
+  "status": "PASS_ORIGINAL_SCENE_UNCHANGED_NEW_LOCAL_MORPHOLOGY_VISUAL_NOT_RUN",
+  "source_sha256": "5bc4e480237bfa202b205370aea647e4501797ec46e8e335b5106f4ca9fc1d27",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_forest_litter_candidate12a.blend",
+  "helper_sha256": "68f43c9a0e629fbc46d443531cde97c7ab0af8111142848c9dc8cb4620be5417",
+  "original_objects_unchanged": 23315,
+  "original_meshes_unchanged": 9428,
+  "original_materials_images_cameras_lights_world_actions_unchanged": true,
+  "new_objects": [
+    "LITTER12_Fallen_Leaves_Local_Windrows",
+    "LITTER12_Fallen_Twigs_Local",
+    "LITTER12_Fern_00",
+    "LITTER12_Fern_01",
+    "LITTER12_Fern_02",
+    "LITTER12_Fern_03",
+    "LITTER12_Fern_04",
+    "LITTER12_Fern_05",
+    "LITTER12_Fern_06",
+    "LITTER12_Fern_07",
+    "LITTER12_Fern_08",
+    "LITTER12_Fern_09",
+    "LITTER12_Fern_10",
+    "LITTER12_Fern_11",
+    "LITTER12_Fern_12",
+    "LITTER12_Fern_13",
+    "LITTER12_Fern_14",
+    "LITTER12_Fern_15",
+    "LITTER12_Fern_16",
+    "LITTER12_Fern_17",
+    "LITTER12_Fern_18",
+    "LITTER12_Fern_19",
+    "LITTER12_Fern_20",
+    "LITTER12_Fern_21",
+    "LITTER12_Fern_22",
+    "LITTER12_Fern_23",
+    "LITTER12_Fern_24",
+    "LITTER12_Fern_25",
+    "LITTER12_Fern_26",
+    "LITTER12_Fern_27",
+    "LITTER12_Fern_28"
+  ],
+  "new_images": [
+    {
+      "image": "LITTER12_fern_02_alpha.png",
+      "path": "D:\\zx\\test\\project\\scene\\..\\assets\\candidates\\fern_02_2k\\textures\\fern_02_alpha_2k.png",
+      "sha256": "f51eb9b8f9f4b25a882f8fe12d1ef53ba69448bac7e71396ec1f05b684e9ea75",
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "LITTER12_fern_02_diff.png",
+      "path": "D:\\zx\\test\\project\\scene\\..\\assets\\candidates\\fern_02_2k\\textures\\fern_02_diff_2k.jpg",
+      "sha256": "9ee18172170728050871772e2cd6d8d37b52f9138e61b49b04486623f9caf84b",
+      "colorspace": "sRGB"
+    },
+    {
+      "image": "LITTER12_fern_02_nor_gl.png",
+      "path": "D:\\zx\\test\\project\\scene\\..\\assets\\candidates\\fern_02_2k\\textures\\fern_02_nor_gl_2k.exr",
+      "sha256": "2787b69707c37a4b90627085f36e818b13816c6587aa0d06c5c6d004ccde7557",
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "LITTER12_fern_02_rough.png",
+      "path": "D:\\zx\\test\\project\\scene\\..\\assets\\candidates\\fern_02_2k\\textures\\fern_02_rough_2k.exr",
+      "sha256": "877fd64af4d815a2522700c676b2c32c6f075ce8bca59c6a2d267309b2fca550",
+      "colorspace": "Non-Color"
+    }
+  ],
+  "manifest": {
+    "schema": "fallingwater.forest_litter12.v1",
+    "seed": 120921,
+    "world_xy_bound": [
+      23.0,
+      40.0,
+      9.0,
+      19.0
+    ],
+    "evidence": "C photograph-informed low woodland structure; species, individual placement and density are not surveyed",
+    "source_views": "Official Spring east/classic photos and actual forest-floor11a render3; report forest-litter12 sources",
+    "clusters": [
+      {
+        "center": [
+          24.35,
+          15.45
+        ],
+        "length_sigma_m": 1.0619465295451112,
+        "width_sigma_m": 0.5071053344005254,
+        "angle": 1.3507507569757222,
+        "mass": 0.6787901181444496
+      },
+      {
+        "center": [
+          25.05,
+          14.0
+        ],
+        "length_sigma_m": 1.0030758028387448,
+        "width_sigma_m": 0.49513320468840394,
+        "angle": 1.8234452359753806,
+        "mass": 1.4807311663009615
+      },
+      {
+        "center": [
+          25.8,
+          12.8
+        ],
+        "length_sigma_m": 0.9792918432885998,
+        "width_sigma_m": 0.34045854818266363,
+        "angle": 2.5096074740414993,
+        "mass": 1.4251987601875677
+      },
+      {
+        "center": [
+          26.55,
+          11.1
+        ],
+        "length_sigma_m": 0.8661572936040927,
+        "width_sigma_m": 0.42107522115543117,
+        "angle": 2.2884637737904314,
+        "mass": 0.5690708276113877
+      },
+      {
+        "center": [
+          27.4,
+          15.25
+        ],
+        "length_sigma_m": 1.0691032548853985,
+        "width_sigma_m": 0.29216079358630176,
+        "angle": 3.065274754240832,
+        "mass": 1.1348548779990035
+      },
+      {
+        "center": [
+          28.0,
+          12.8
+        ],
+        "length_sigma_m": 0.800956282073425,
+        "width_sigma_m": 0.43102170580875127,
+        "angle": -2.1924061558454433,
+        "mass": 1.1897501549551686
+      },
+      {
+        "center": [
+          26.85,
+          17.3
+        ],
+        "length_sigma_m": 1.1545780954170888,
+        "width_sigma_m": 0.5194710416224602,
+        "angle": -2.8867739695034604,
+        "mass": 1.0061252044832407
+      },
+      {
+        "center": [
+          29.55,
+          10.6
+        ],
+        "length_sigma_m": 0.9909933394650514,
+        "width_sigma_m": 0.5681194921890083,
+        "angle": -2.947715819745399,
+        "mass": 0.9433019170362574
+      },
+      {
+        "center": [
+          31.3,
+          11.5
+        ],
+        "length_sigma_m": 1.0972387367028213,
+        "width_sigma_m": 0.5415898588445616,
+        "angle": 2.777086820385293,
+        "mass": 1.2957749162518402
+      },
+      {
+        "center": [
+          33.0,
+          10.9
+        ],
+        "length_sigma_m": 0.9564656426082173,
+        "width_sigma_m": 0.3669581979032865,
+        "angle": 3.2044970802074264,
+        "mass": 1.367552877837866
+      },
+      {
+        "center": [
+          35.2,
+          12.2
+        ],
+        "length_sigma_m": 1.0774561743826763,
+        "width_sigma_m": 0.4455394557746075,
+        "angle": -2.5146506885939552,
+        "mass": 1.4783083552381127
+      },
+      {
+        "center": [
+          37.4,
+          12.6
+        ],
+        "length_sigma_m": 0.760978970898276,
+        "width_sigma_m": 0.3178876342025733,
+        "angle": -2.6674020063877384,
+        "mass": 0.45483173610893934
+      },
+      {
+        "center": [
+          38.7,
+          14.6
+        ],
+        "length_sigma_m": 1.0382483551386181,
+        "width_sigma_m": 0.45199350083035733,
+        "angle": -3.309693783193247,
+        "mass": 1.082098546085411
+      },
+      {
+        "center": [
+          33.25,
+          16.6
+        ],
+        "length_sigma_m": 0.8256408756386526,
+        "width_sigma_m": 0.559814233074153,
+        "angle": -2.599516909069992,
+        "mass": 1.2053749377842295
+      },
+      {
+        "center": [
+          30.2,
+          17.5
+        ],
+        "length_sigma_m": 0.7663718118187697,
+        "width_sigma_m": 0.5647766904090158,
+        "angle": -2.905010713490081,
+        "mass": 0.7509825294521022
+      },
+      {
+        "center": [
+          36.6,
+          17.65
+        ],
+        "length_sigma_m": 0.8684693050117892,
+        "width_sigma_m": 0.5421098548869304,
+        "angle": 3.127327068264883,
+        "mass": 1.0492589836642028
+      }
+    ],
+    "leaves": {
+      "object": "LITTER12_Fallen_Leaves_Local_Windrows",
+      "leaf_count": 24000,
+      "vertices": 312000,
+      "triangles": 288000,
+      "surface_area_m2": 118.00223374603257,
+      "contact_min_m": 0.0002999999999999999,
+      "contact_max_m": 0.020753214645385744,
+      "leaf_length_range_m": [
+        0.06500107209531657,
+        0.14499840135448774
+      ],
+      "attempts": 30560,
+      "rejected": {
+        "SLOPE_THINNING": 2677,
+        "LEAF_EXTENT_EXCLUSION": 2553,
+        "OUTSIDE_BOUND": 243,
+        "PROTECTED_SURFACE": 909,
+        "PROTECTED_CONTACT": 127,
+        "TERRAIN_CREASE": 50,
+        "PATH": 1
+      }
+    },
+    "twigs": {
+      "object": "LITTER12_Fallen_Twigs_Local",
+      "count": 65,
+      "records": [
+        {
+          "first_vertex": 0,
+          "length_m": 0.3421364994384677,
+          "radius_m": 0.002528444076704103,
+          "contact_min_m": 0.00033164024353027344,
+          "contact_max_m": 0.010913372039794922
+        },
+        {
+          "first_vertex": 36,
+          "length_m": 0.5899922536406346,
+          "radius_m": 0.0025791495788701374,
+          "contact_min_m": 0.0002665519714355469,
+          "contact_max_m": 0.011696815490722656
+        },
+        {
+          "first_vertex": 72,
+          "length_m": 0.2155669106276675,
+          "radius_m": 0.003171534154550585,
+          "contact_min_m": 0.0016808509826660156,
+          "contact_max_m": 0.01146554946899414
+        },
+        {
+          "first_vertex": 108,
+          "length_m": 0.5635143560538776,
+          "radius_m": 0.004601280842188278,
+          "contact_min_m": 0.0016589164733886719,
+          "contact_max_m": 0.01434779167175293
+        },
+        {
+          "first_vertex": 144,
+          "length_m": 0.3988924808551517,
+          "radius_m": 0.0029466873519921654,
+          "contact_min_m": 0.0017366409301757812,
+          "contact_max_m": 0.011533737182617188
+        },
+        {
+          "first_vertex": 180,
+          "length_m": 0.5714413968436054,
+          "radius_m": 0.004320886562865507,
+          "contact_min_m": 0.001806497573852539,
+          "contact_max_m": 0.016198158264160156
+        },
+        {
+          "first_vertex": 216,
+          "length_m": 0.48987530860700423,
+          "radius_m": 0.0038021176222869553,
+          "contact_min_m": 0.0014190673828125,
+          "contact_max_m": 0.012992143630981445
+        },
+        {
+          "first_vertex": 252,
+          "length_m": 0.22333357582539567,
+          "radius_m": 0.003298561811607601,
+          "contact_min_m": 0.0017025470733642578,
+          "contact_max_m": 0.01168060302734375
+        },
+        {
+          "first_vertex": 288,
+          "length_m": 0.3284603307516405,
+          "radius_m": 0.004575256497338488,
+          "contact_min_m": 0.0013964176177978516,
+          "contact_max_m": 0.014477729797363281
+        },
+        {
+          "first_vertex": 324,
+          "length_m": 0.3223912976731303,
+          "radius_m": 0.004067391851445561,
+          "contact_min_m": 0.0014145374298095703,
+          "contact_max_m": 0.013526201248168945
+        },
+        {
+          "first_vertex": 360,
+          "length_m": 0.556766002126341,
+          "radius_m": 0.003278161280041438,
+          "contact_min_m": 0.0014019012451171875,
+          "contact_max_m": 0.011957645416259766
+        },
+        {
+          "first_vertex": 396,
+          "length_m": 0.542607470946274,
+          "radius_m": 0.00301813173400438,
+          "contact_min_m": 0.0017714500427246094,
+          "contact_max_m": 0.011026859283447266
+        },
+        {
+          "first_vertex": 432,
+          "length_m": 0.5074128125624509,
+          "radius_m": 0.004077094521557307,
+          "contact_min_m": 0.0006039142608642578,
+          "contact_max_m": 0.014955997467041016
+        },
+        {
+          "first_vertex": 468,
+          "length_m": 0.2666563681820797,
+          "radius_m": 0.0022785503582920075,
+          "contact_min_m": 0.0008766651153564453,
+          "contact_max_m": 0.010483503341674805
+        },
+        {
+          "first_vertex": 504,
+          "length_m": 0.2901342690951946,
+          "radius_m": 0.0022663009134620744,
+          "contact_min_m": 0.0015606880187988281,
+          "contact_max_m": 0.009651899337768555
+        },
+        {
+          "first_vertex": 540,
+          "length_m": 0.26182485370575415,
+          "radius_m": 0.00481969019632357,
+          "contact_min_m": 0.0014986991882324219,
+          "contact_max_m": 0.014951705932617188
+        },
+        {
+          "first_vertex": 576,
+          "length_m": 0.22008724799055068,
+          "radius_m": 0.004762459735907976,
+          "contact_min_m": 0.001955270767211914,
+          "contact_max_m": 0.014375925064086914
+        },
+        {
+          "first_vertex": 612,
+          "length_m": 0.5756506462765554,
+          "radius_m": 0.0023619692063429733,
+          "contact_min_m": 0.0015106201171875,
+          "contact_max_m": 0.010033130645751953
+        },
+        {
+          "first_vertex": 648,
+          "length_m": 0.2144457117912182,
+          "radius_m": 0.004227248891214723,
+          "contact_min_m": 0.0014121532440185547,
+          "contact_max_m": 0.013858795166015625
+        },
+        {
+          "first_vertex": 684,
+          "length_m": 0.4955294704425139,
+          "radius_m": 0.003399059923746353,
+          "contact_min_m": 0.001367330551147461,
+          "contact_max_m": 0.012243270874023438
+        },
+        {
+          "first_vertex": 720,
+          "length_m": 0.4920816999453961,
+          "radius_m": 0.003156194143032442,
+          "contact_min_m": 0.0017170906066894531,
+          "contact_max_m": 0.011402606964111328
+        },
+        {
+          "first_vertex": 756,
+          "length_m": 0.5117516035754612,
+          "radius_m": 0.0030298921545499533,
+          "contact_min_m": 0.0016150474548339844,
+          "contact_max_m": 0.01159214973449707
+        },
+        {
+          "first_vertex": 792,
+          "length_m": 0.40597304258902267,
+          "radius_m": 0.002362751939755227,
+          "contact_min_m": -0.0003304481506347656,
+          "contact_max_m": 0.018607139587402344
+        },
+        {
+          "first_vertex": 828,
+          "length_m": 0.43416397860775174,
+          "radius_m": 0.004722225961843032,
+          "contact_min_m": 0.0017981529235839844,
+          "contact_max_m": 0.01442861557006836
+        },
+        {
+          "first_vertex": 864,
+          "length_m": 0.26174725499279405,
+          "radius_m": 0.00329215250634648,
+          "contact_min_m": 0.0015730857849121094,
+          "contact_max_m": 0.012350082397460938
+        },
+        {
+          "first_vertex": 900,
+          "length_m": 0.2098108371346143,
+          "radius_m": 0.0028040063601666738,
+          "contact_min_m": 0.0018248558044433594,
+          "contact_max_m": 0.010586977005004883
+        },
+        {
+          "first_vertex": 936,
+          "length_m": 0.5468759729551128,
+          "radius_m": 0.0022237349064702493,
+          "contact_min_m": 0.0009739398956298828,
+          "contact_max_m": 0.01027989387512207
+        },
+        {
+          "first_vertex": 972,
+          "length_m": 0.5869495182472113,
+          "radius_m": 0.004588033446806082,
+          "contact_min_m": 0.0014448165893554688,
+          "contact_max_m": 0.014541864395141602
+        },
+        {
+          "first_vertex": 1008,
+          "length_m": 0.44473958684990833,
+          "radius_m": 0.0028782193881724347,
+          "contact_min_m": -0.0005643367767333984,
+          "contact_max_m": 0.013127803802490234
+        },
+        {
+          "first_vertex": 1044,
+          "length_m": 0.3290739002776392,
+          "radius_m": 0.0033138301904902146,
+          "contact_min_m": 0.0017671585083007812,
+          "contact_max_m": 0.011667728424072266
+        },
+        {
+          "first_vertex": 1080,
+          "length_m": 0.33653613547374417,
+          "radius_m": 0.004001669101319686,
+          "contact_min_m": 0.0016779899597167969,
+          "contact_max_m": 0.013128280639648438
+        },
+        {
+          "first_vertex": 1116,
+          "length_m": 0.6018942762778148,
+          "radius_m": 0.002466852166248973,
+          "contact_min_m": 0.0014569759368896484,
+          "contact_max_m": 0.010288476943969727
+        },
+        {
+          "first_vertex": 1152,
+          "length_m": 0.20683097420788588,
+          "radius_m": 0.002714499610545896,
+          "contact_min_m": 0.0016100406646728516,
+          "contact_max_m": 0.010631322860717773
+        },
+        {
+          "first_vertex": 1188,
+          "length_m": 0.46838227443835473,
+          "radius_m": 0.00417987109740628,
+          "contact_min_m": 0.0017747879028320312,
+          "contact_max_m": 0.013382673263549805
+        },
+        {
+          "first_vertex": 1224,
+          "length_m": 0.2482369006552493,
+          "radius_m": 0.004416970167240297,
+          "contact_min_m": 0.0014281272888183594,
+          "contact_max_m": 0.014219999313354492
+        },
+        {
+          "first_vertex": 1260,
+          "length_m": 0.40096177447351283,
+          "radius_m": 0.004429321687599004,
+          "contact_min_m": 0.0013914108276367188,
+          "contact_max_m": 0.01434326171875
+        },
+        {
+          "first_vertex": 1296,
+          "length_m": 0.4677594695502592,
+          "radius_m": 0.002905813577387984,
+          "contact_min_m": -0.0009639263153076172,
+          "contact_max_m": 0.015778064727783203
+        },
+        {
+          "first_vertex": 1332,
+          "length_m": 0.28691682354000064,
+          "radius_m": 0.004028913715914616,
+          "contact_min_m": 0.0015273094177246094,
+          "contact_max_m": 0.01334238052368164
+        },
+        {
+          "first_vertex": 1368,
+          "length_m": 0.45589731283684964,
+          "radius_m": 0.0035556433600882997,
+          "contact_min_m": 0.001590728759765625,
+          "contact_max_m": 0.0123138427734375
+        },
+        {
+          "first_vertex": 1404,
+          "length_m": 0.5832769291546669,
+          "radius_m": 0.003965649384643152,
+          "contact_min_m": 0.0006830692291259766,
+          "contact_max_m": 0.014055252075195312
+        },
+        {
+          "first_vertex": 1440,
+          "length_m": 0.4033594040326288,
+          "radius_m": 0.004213401688105247,
+          "contact_min_m": 0.0014505386352539062,
+          "contact_max_m": 0.013782978057861328
+        },
+        {
+          "first_vertex": 1476,
+          "length_m": 0.2496566712342563,
+          "radius_m": 0.0035913068752597005,
+          "contact_min_m": 0.0005552768707275391,
+          "contact_max_m": 0.013439416885375977
+        },
+        {
+          "first_vertex": 1512,
+          "length_m": 0.2670696251718348,
+          "radius_m": 0.004367646212966108,
+          "contact_min_m": 0.0014863014221191406,
+          "contact_max_m": 0.014047861099243164
+        },
+        {
+          "first_vertex": 1548,
+          "length_m": 0.2877703538539085,
+          "radius_m": 0.003861658998616795,
+          "contact_min_m": 0.0015215873718261719,
+          "contact_max_m": 0.0130157470703125
+        },
+        {
+          "first_vertex": 1584,
+          "length_m": 0.23514152717794318,
+          "radius_m": 0.002832512948236698,
+          "contact_min_m": 0.0014808177947998047,
+          "contact_max_m": 0.010987520217895508
+        },
+        {
+          "first_vertex": 1620,
+          "length_m": 0.5128020806677638,
+          "radius_m": 0.0035283350958483463,
+          "contact_min_m": 0.0013780593872070312,
+          "contact_max_m": 0.012479305267333984
+        },
+        {
+          "first_vertex": 1656,
+          "length_m": 0.38042189823580513,
+          "radius_m": 0.003943933138845115,
+          "contact_min_m": 0.0013654232025146484,
+          "contact_max_m": 0.013144254684448242
+        },
+        {
+          "first_vertex": 1692,
+          "length_m": 0.5105904463664841,
+          "radius_m": 0.004759401728273905,
+          "contact_min_m": 0.0014338493347167969,
+          "contact_max_m": 0.014885425567626953
+        },
+        {
+          "first_vertex": 1728,
+          "length_m": 0.4948565030485722,
+          "radius_m": 0.0032676408829052797,
+          "contact_min_m": 0.0014104843139648438,
+          "contact_max_m": 0.01192927360534668
+        },
+        {
+          "first_vertex": 1764,
+          "length_m": 0.5240821012146217,
+          "radius_m": 0.003544368268327435,
+          "contact_min_m": 0.0013561248779296875,
+          "contact_max_m": 0.012482643127441406
+        },
+        {
+          "first_vertex": 1800,
+          "length_m": 0.5294552314653704,
+          "radius_m": 0.004518850833549168,
+          "contact_min_m": 0.0013625621795654297,
+          "contact_max_m": 0.015138626098632812
+        },
+        {
+          "first_vertex": 1836,
+          "length_m": 0.5751439390990274,
+          "radius_m": 0.0034251100312177275,
+          "contact_min_m": 0.0016734600067138672,
+          "contact_max_m": 0.013150215148925781
+        },
+        {
+          "first_vertex": 1872,
+          "length_m": 0.2540893518555378,
+          "radius_m": 0.004000533344342506,
+          "contact_min_m": 0.0013761520385742188,
+          "contact_max_m": 0.013432741165161133
+        },
+        {
+          "first_vertex": 1908,
+          "length_m": 0.25757925482877836,
+          "radius_m": 0.0026744815136182025,
+          "contact_min_m": -0.0003037452697753906,
+          "contact_max_m": 0.012461662292480469
+        },
+        {
+          "first_vertex": 1944,
+          "length_m": 0.23088537267662182,
+          "radius_m": 0.002529529671862786,
+          "contact_min_m": 0.0016536712646484375,
+          "contact_max_m": 0.010220050811767578
+        },
+        {
+          "first_vertex": 1980,
+          "length_m": 0.4013232283073358,
+          "radius_m": 0.004260242881732433,
+          "contact_min_m": 0.0014147758483886719,
+          "contact_max_m": 0.013911724090576172
+        },
+        {
+          "first_vertex": 2016,
+          "length_m": 0.5564700320263871,
+          "radius_m": 0.0038492666168853914,
+          "contact_min_m": 0.0016169548034667969,
+          "contact_max_m": 0.012887716293334961
+        },
+        {
+          "first_vertex": 2052,
+          "length_m": 0.5989487424869928,
+          "radius_m": 0.0033425766384921588,
+          "contact_min_m": 0.0014972686767578125,
+          "contact_max_m": 0.012156009674072266
+        },
+        {
+          "first_vertex": 2088,
+          "length_m": 0.2555471939826061,
+          "radius_m": 0.003807080381095878,
+          "contact_min_m": 0.0015726089477539062,
+          "contact_max_m": 0.012851953506469727
+        },
+        {
+          "first_vertex": 2124,
+          "length_m": 0.4955096044068047,
+          "radius_m": 0.0042848614912604005,
+          "contact_min_m": 0.0018301010131835938,
+          "contact_max_m": 0.013542413711547852
+        },
+        {
+          "first_vertex": 2160,
+          "length_m": 0.6104692288951437,
+          "radius_m": 0.002246242483732601,
+          "contact_min_m": 0.001535177230834961,
+          "contact_max_m": 0.009741544723510742
+        },
+        {
+          "first_vertex": 2196,
+          "length_m": 0.5277793611280991,
+          "radius_m": 0.0024197074367634224,
+          "contact_min_m": 0.001499176025390625,
+          "contact_max_m": 0.01015329360961914
+        },
+        {
+          "first_vertex": 2232,
+          "length_m": 0.37228897088145696,
+          "radius_m": 0.002396907895084061,
+          "contact_min_m": 0.001470327377319336,
+          "contact_max_m": 0.010124683380126953
+        },
+        {
+          "first_vertex": 2268,
+          "length_m": 0.479700774984679,
+          "radius_m": 0.002721409878554317,
+          "contact_min_m": 0.001432657241821289,
+          "contact_max_m": 0.012124300003051758
+        },
+        {
+          "first_vertex": 2304,
+          "length_m": 0.20545652240075593,
+          "radius_m": 0.004345435101500648,
+          "contact_min_m": 0.0014452934265136719,
+          "contact_max_m": 0.014054298400878906
+        }
+      ],
+      "rejected": {
+        "CREASE_CONTACT": 6,
+        "PROTECTED_SURFACE": 4,
+        "SLOPE": 5,
+        "EXTENT": 13
+      }
+    },
+    "ferns": {
+      "count": 29,
+      "placements": [
+        {
+          "object": "LITTER12_Fern_00",
+          "source_variant": "fern_02_a",
+          "root": [
+            31.59347152709961,
+            11.000889778137207,
+            2.706371307373047
+          ],
+          "terrain_normal": [
+            -0.08468982577323914,
+            -0.273642897605896,
+            0.9580955505371094
+          ],
+          "scale": 1.0835466289338143,
+          "min_vertex_terrain_clearance_m": -0.03074479103088379,
+          "max_height_above_terrain_m": 0.3015778064727783,
+          "vertices_checked": 917,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_01",
+          "source_variant": "fern_02_b",
+          "root": [
+            28.609067916870117,
+            17.42238998413086,
+            4.441131591796875
+          ],
+          "terrain_normal": [
+            -0.10426680743694305,
+            -0.2677585780620575,
+            0.957827627658844
+          ],
+          "scale": 0.9558138218674322,
+          "min_vertex_terrain_clearance_m": -0.030610084533691406,
+          "max_height_above_terrain_m": 0.40187883377075195,
+          "vertices_checked": 2782,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_02",
+          "source_variant": "fern_02_c",
+          "root": [
+            26.035058975219727,
+            15.594732284545898,
+            3.938934326171875
+          ],
+          "terrain_normal": [
+            -0.5837485790252686,
+            -0.13579024374485016,
+            0.8004990816116333
+          ],
+          "scale": 0.8741316694744857,
+          "min_vertex_terrain_clearance_m": -0.030025720596313477,
+          "max_height_above_terrain_m": 0.3448481559753418,
+          "vertices_checked": 2624,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_03",
+          "source_variant": "fern_02_d",
+          "root": [
+            39.55081558227539,
+            14.690954208374023,
+            3.571063995361328
+          ],
+          "terrain_normal": [
+            -0.13663801550865173,
+            -0.1997038573026657,
+            0.9702826738357544
+          ],
+          "scale": 0.9347625715465446,
+          "min_vertex_terrain_clearance_m": -0.014105796813964844,
+          "max_height_above_terrain_m": 0.18640422821044922,
+          "vertices_checked": 953,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_04",
+          "source_variant": "fern_02_a",
+          "root": [
+            31.871917724609375,
+            9.789084434509277,
+            2.1606483459472656
+          ],
+          "terrain_normal": [
+            -0.10970567166805267,
+            -0.7492749094963074,
+            0.6531093716621399
+          ],
+          "scale": 0.9301047316047218,
+          "min_vertex_terrain_clearance_m": -0.035459280014038086,
+          "max_height_above_terrain_m": 0.4081552028656006,
+          "vertices_checked": 917,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_05",
+          "source_variant": "fern_02_b",
+          "root": [
+            29.762210845947266,
+            9.799091339111328,
+            2.256214141845703
+          ],
+          "terrain_normal": [
+            0.09638016670942307,
+            -0.772548496723175,
+            0.6275983452796936
+          ],
+          "scale": 0.842968767251184,
+          "min_vertex_terrain_clearance_m": -0.034853219985961914,
+          "max_height_above_terrain_m": 0.5565917491912842,
+          "vertices_checked": 2782,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_06",
+          "source_variant": "fern_02_c",
+          "root": [
+            26.946794509887695,
+            11.70064926147461,
+            3.340007781982422
+          ],
+          "terrain_normal": [
+            0.152956023812294,
+            -0.5210208892822266,
+            0.8397270441055298
+          ],
+          "scale": 0.9555921019701304,
+          "min_vertex_terrain_clearance_m": -0.029186725616455078,
+          "max_height_above_terrain_m": 0.3700683116912842,
+          "vertices_checked": 2624,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_07",
+          "source_variant": "fern_02_d",
+          "root": [
+            29.07106590270996,
+            10.528367042541504,
+            2.8165321350097656
+          ],
+          "terrain_normal": [
+            -0.00883430428802967,
+            -0.17804867029190063,
+            0.9839820861816406
+          ],
+          "scale": 0.8841568428074061,
+          "min_vertex_terrain_clearance_m": -0.01189422607421875,
+          "max_height_above_terrain_m": 0.23227143287658691,
+          "vertices_checked": 953,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_08",
+          "source_variant": "fern_02_a",
+          "root": [
+            27.462650299072266,
+            13.293737411499023,
+            3.566997528076172
+          ],
+          "terrain_normal": [
+            0.19844737648963928,
+            -0.15595996379852295,
+            0.9676233530044556
+          ],
+          "scale": 1.0168722333775573,
+          "min_vertex_terrain_clearance_m": -0.028867483139038086,
+          "max_height_above_terrain_m": 0.28812432289123535,
+          "vertices_checked": 917,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_09",
+          "source_variant": "fern_02_b",
+          "root": [
+            29.047636032104492,
+            9.79687213897705,
+            2.3232078552246094
+          ],
+          "terrain_normal": [
+            -0.0033697590697556734,
+            -0.7702628970146179,
+            0.6377176642417908
+          ],
+          "scale": 1.0941141872056637,
+          "min_vertex_terrain_clearance_m": -0.036704063415527344,
+          "max_height_above_terrain_m": 0.6736571788787842,
+          "vertices_checked": 2782,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_10",
+          "source_variant": "fern_02_c",
+          "root": [
+            37.528472900390625,
+            12.742436408996582,
+            2.9783172607421875
+          ],
+          "terrain_normal": [
+            0.1533530056476593,
+            -0.29505953192710876,
+            0.9430921673774719
+          ],
+          "scale": 0.865713177509796,
+          "min_vertex_terrain_clearance_m": -0.026459217071533203,
+          "max_height_above_terrain_m": 0.296356201171875,
+          "vertices_checked": 2624,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_11",
+          "source_variant": "fern_02_d",
+          "root": [
+            34.42503356933594,
+            11.964473724365234,
+            3.0610122680664062
+          ],
+          "terrain_normal": [
+            0.19857291877269745,
+            -0.22496017813682556,
+            0.9539191722869873
+          ],
+          "scale": 1.0702958610317526,
+          "min_vertex_terrain_clearance_m": -0.015020370483398438,
+          "max_height_above_terrain_m": 0.21712851524353027,
+          "vertices_checked": 953,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_12",
+          "source_variant": "fern_02_a",
+          "root": [
+            28.04984474182129,
+            15.214629173278809,
+            3.8612823486328125
+          ],
+          "terrain_normal": [
+            0.06124356389045715,
+            -0.21742290258407593,
+            0.9741542339324951
+          ],
+          "scale": 0.8471260504241055,
+          "min_vertex_terrain_clearance_m": -0.023929595947265625,
+          "max_height_above_terrain_m": 0.23090744018554688,
+          "vertices_checked": 917,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_13",
+          "source_variant": "fern_02_b",
+          "root": [
+            26.669754028320312,
+            12.572999954223633,
+            3.544158935546875
+          ],
+          "terrain_normal": [
+            -0.1579800546169281,
+            -0.13174691796302795,
+            0.9786138534545898
+          ],
+          "scale": 0.8883376358379869,
+          "min_vertex_terrain_clearance_m": -0.026828289031982422,
+          "max_height_above_terrain_m": 0.3829209804534912,
+          "vertices_checked": 2782,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_14",
+          "source_variant": "fern_02_c",
+          "root": [
+            32.93239974975586,
+            10.79310131072998,
+            2.878692626953125
+          ],
+          "terrain_normal": [
+            -0.07738400250673294,
+            -0.29106423258781433,
+            0.953568696975708
+          ],
+          "scale": 1.0501311782251572,
+          "min_vertex_terrain_clearance_m": -0.03133034706115723,
+          "max_height_above_terrain_m": 0.3540637493133545,
+          "vertices_checked": 2624,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_15",
+          "source_variant": "fern_02_d",
+          "root": [
+            32.290626525878906,
+            11.15034294128418,
+            2.8627662658691406
+          ],
+          "terrain_normal": [
+            -0.2163590043783188,
+            -0.22640328109264374,
+            0.9497000575065613
+          ],
+          "scale": 1.0087203222909098,
+          "min_vertex_terrain_clearance_m": -0.01621556282043457,
+          "max_height_above_terrain_m": 0.20992064476013184,
+          "vertices_checked": 953,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_16",
+          "source_variant": "fern_02_a",
+          "root": [
+            36.700950622558594,
+            11.876534461975098,
+            2.878101348876953
+          ],
+          "terrain_normal": [
+            0.1552741825580597,
+            -0.233445405960083,
+            0.9598922729492188
+          ],
+          "scale": 0.9274320573911943,
+          "min_vertex_terrain_clearance_m": -0.028983116149902344,
+          "max_height_above_terrain_m": 0.24948930740356445,
+          "vertices_checked": 917,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_17",
+          "source_variant": "fern_02_b",
+          "root": [
+            27.38846206665039,
+            13.719400405883789,
+            3.652088165283203
+          ],
+          "terrain_normal": [
+            0.1961420774459839,
+            -0.21647198498249054,
+            0.9563828110694885
+          ],
+          "scale": 1.0520288329858785,
+          "min_vertex_terrain_clearance_m": -0.032022714614868164,
+          "max_height_above_terrain_m": 0.43587636947631836,
+          "vertices_checked": 2782,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_18",
+          "source_variant": "fern_02_c",
+          "root": [
+            25.385196685791016,
+            13.142583847045898,
+            2.9297523498535156
+          ],
+          "terrain_normal": [
+            -0.8071008324623108,
+            -0.1792408674955368,
+            0.562548816204071
+          ],
+          "scale": 0.8535958186956214,
+          "min_vertex_terrain_clearance_m": -0.03842735290527344,
+          "max_height_above_terrain_m": 0.5013027191162109,
+          "vertices_checked": 2624,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_19",
+          "source_variant": "fern_02_d",
+          "root": [
+            29.03079605102539,
+            11.14405345916748,
+            2.924419403076172
+          ],
+          "terrain_normal": [
+            -0.012465276755392551,
+            -0.13008826971054077,
+            0.9914240837097168
+          ],
+          "scale": 1.0343567586859956,
+          "min_vertex_terrain_clearance_m": -0.014868736267089844,
+          "max_height_above_terrain_m": 0.2085127830505371,
+          "vertices_checked": 953,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_20",
+          "source_variant": "fern_02_a",
+          "root": [
+            27.57012176513672,
+            12.1531400680542,
+            3.3152389526367188
+          ],
+          "terrain_normal": [
+            0.27915918827056885,
+            -0.1945360153913498,
+            0.94033282995224
+          ],
+          "scale": 1.1280139949570263,
+          "min_vertex_terrain_clearance_m": -0.03309988975524902,
+          "max_height_above_terrain_m": 0.31110167503356934,
+          "vertices_checked": 917,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_21",
+          "source_variant": "fern_02_b",
+          "root": [
+            30.05510139465332,
+            10.421635627746582,
+            2.6823577880859375
+          ],
+          "terrain_normal": [
+            0.16971416771411896,
+            -0.5996680855751038,
+            0.7820456624031067
+          ],
+          "scale": 1.0868947240080875,
+          "min_vertex_terrain_clearance_m": -0.04091763496398926,
+          "max_height_above_terrain_m": 0.5717651844024658,
+          "vertices_checked": 2782,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_22",
+          "source_variant": "fern_02_c",
+          "root": [
+            29.731056213378906,
+            10.877191543579102,
+            2.861083984375
+          ],
+          "terrain_normal": [
+            0.1148163378238678,
+            -0.24361972510814667,
+            0.9630507230758667
+          ],
+          "scale": 1.0294074952259906,
+          "min_vertex_terrain_clearance_m": -0.028075456619262695,
+          "max_height_above_terrain_m": 0.34157609939575195,
+          "vertices_checked": 2624,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_23",
+          "source_variant": "fern_02_d",
+          "root": [
+            34.83216857910156,
+            11.715681076049805,
+            2.9398727416992188
+          ],
+          "terrain_normal": [
+            0.13566279411315918,
+            -0.23019829392433167,
+            0.9636412262916565
+          ],
+          "scale": 0.9685928543816303,
+          "min_vertex_terrain_clearance_m": -0.013945579528808594,
+          "max_height_above_terrain_m": 0.1946244239807129,
+          "vertices_checked": 953,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_24",
+          "source_variant": "fern_02_a",
+          "root": [
+            30.269617080688477,
+            11.860268592834473,
+            3.037250518798828
+          ],
+          "terrain_normal": [
+            0.07887697219848633,
+            -0.2899850904941559,
+            0.95377516746521
+          ],
+          "scale": 0.98120220888907,
+          "min_vertex_terrain_clearance_m": -0.03124094009399414,
+          "max_height_above_terrain_m": 0.25491881370544434,
+          "vertices_checked": 917,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_25",
+          "source_variant": "fern_02_b",
+          "root": [
+            30.851543426513672,
+            10.382447242736816,
+            2.508922576904297
+          ],
+          "terrain_normal": [
+            0.08225052803754807,
+            -0.5999947190284729,
+            0.7957645058631897
+          ],
+          "scale": 0.8474404589048111,
+          "min_vertex_terrain_clearance_m": -0.03615856170654297,
+          "max_height_above_terrain_m": 0.4137303829193115,
+          "vertices_checked": 2782,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_26",
+          "source_variant": "fern_02_c",
+          "root": [
+            27.391170501708984,
+            11.461304664611816,
+            3.2191505432128906
+          ],
+          "terrain_normal": [
+            0.27415764331817627,
+            -0.21430636942386627,
+            0.9375021457672119
+          ],
+          "scale": 1.0866764632133281,
+          "min_vertex_terrain_clearance_m": -0.0336003303527832,
+          "max_height_above_terrain_m": 0.3739180564880371,
+          "vertices_checked": 2624,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_27",
+          "source_variant": "fern_02_d",
+          "root": [
+            30.15663719177246,
+            18.050809860229492,
+            4.522098541259766
+          ],
+          "terrain_normal": [
+            0.10790667682886124,
+            -0.2573305666446686,
+            0.9602797627449036
+          ],
+          "scale": 1.036163619806724,
+          "min_vertex_terrain_clearance_m": -0.01471710205078125,
+          "max_height_above_terrain_m": 0.2156362533569336,
+          "vertices_checked": 953,
+          "root_depth_allowance_m": 0.045
+        },
+        {
+          "object": "LITTER12_Fern_28",
+          "source_variant": "fern_02_a",
+          "root": [
+            36.765411376953125,
+            17.789901733398438,
+            4.236663818359375
+          ],
+          "terrain_normal": [
+            -0.06378726661205292,
+            -0.2501510679721832,
+            0.9661033153533936
+          ],
+          "scale": 1.0722779383995467,
+          "min_vertex_terrain_clearance_m": -0.030406951904296875,
+          "max_height_above_terrain_m": 0.3035759925842285,
+          "vertices_checked": 917,
+          "root_depth_allowance_m": 0.045
+        }
+      ],
+      "rejected": {
+        "FERN_EXTENT_OR_CONTACT": 2565,
+        "STEEP_FERN_ROOT": 490,
+        "PROTECTED_SURFACE": 107,
+        "PROTECTED_CONTACT": 8,
+        "OUTSIDE_BOUND": 33,
+        "PATH": 1
+      },
+      "asset_sha256": "cf721e00ed5bb72f0b9c3fb59b8febc7b2b9b2082f162d5a80ba3a11e4e7028d",
+      "license": "CC0",
+      "species": "U"
+    },
+    "protected_objects": [
+      "MAIN_L2_elongated_roof",
+      "SITE_Split_Talus_000",
+      "SITE_Split_Talus_002",
+      "SITE_Split_Talus_080",
+      "SITE_Path_bridge_north_approach",
+      "SITE_Path_upper_access_road",
+      "SITE_Bridge10_Stone_Return_NW",
+      "SITE_Bridge10_Stone_Return_NE",
+      "TREE_Landmark_05_Branches",
+      "TREE_Near_000_Branches",
+      "TREE_Near_015_Branches",
+      "TREE_Near_035_Branches",
+      "TREE_Sapling_022_Branches",
+      "TREE_Sapling_032_Branches",
+      "TREE_Sapling_033_Branches",
+      "TREE_Sapling_078_Branches",
+      "TREE_Sapling_086_Branches",
+      "TREE_Sapling_091_Branches",
+      "TREE_Sapling_104_Branches",
+      "TREE_Understory_0055_Branches",
+      "TREE_Understory_0063_Branches",
+      "TREE_Understory_0102_Branches",
+      "TREE_Understory_0110_Branches",
+      "TREE_Understory_0111_Branches",
+      "TREE_Understory_0135_Branches",
+      "TREE_Understory_0148_Branches",
+      "TREE_Understory_0160_Branches",
+      "TREE_Understory_0173_Branches",
+      "TREE_Understory_0190_Branches",
+      "TREE_Understory_0192_Branches",
+      "TREE_Understory_0218_Branches",
+      "TREE_Understory_0247_Branches",
+      "TREE_Understory_0254_Branches",
+      "TREE_Understory_0265_Branches",
+      "TREE_Understory_0287_Branches",
+      "TREE_Understory_0299_Branches",
+      "TREE_Understory_0311_Branches",
+      "TREE_Understory_0314_Branches",
+      "TREE_Understory_0321_Branches",
+      "TREE_Understory_0322_Branches",
+      "TREE_Understory_0327_Branches",
+      "TREE_Understory_0433_Branches",
+      "TREE_Understory_0450_Branches",
+      "TREE_Understory_0464_Branches",
+      "TREE_Understory_0512_Branches",
+      "TREE_Understory_0520_Branches",
+      "TREE_Understory_0523_Branches",
+      "TREE_Understory_0564_Branches",
+      "TREE_Understory_0584_Branches",
+      "TREE_Understory_0605_Branches",
+      "TREE_Understory_0607_Branches",
+      "TREE_Understory_0621_Branches",
+      "TREE_Understory_0654_Branches",
+      "TREE_Understory_0657_Branches",
+      "TREE_Understory_0666_Branches",
+      "TREE_Understory_0684_Branches",
+      "TREE_Understory_0710_Branches",
+      "TREE_Understory_0726_Branches",
+      "TREE_Understory_0734_Branches",
+      "TREE_Understory_0737_Branches",
+      "TREE_Understory_0811_Branches",
+      "TREE_Understory_0815_Branches",
+      "TREE_Understory_0818_Branches",
+      "TREE_Understory_0830_Branches",
+      "TREE_Understory_0831_Branches",
+      "TREE_Understory_0836_Branches",
+      "TREE_Understory_0838_Branches",
+      "TREE_Understory_0869_Branches",
+      "TREE_Understory_0874_Branches",
+      "TREE_Understory_0882_Branches",
+      "TREE_Understory_0922_Branches",
+      "TREE_Understory_0959_Branches",
+      "TREE_Understory_0986_Branches",
+      "TREE_Understory_0998_Branches",
+      "TREE_Understory_1009_Branches",
+      "TREE_Understory_1043_Branches",
+      "TREE_Understory_1052_Branches",
+      "TREE_Understory_1071_Branches",
+      "TREE_Understory_1076_Branches",
+      "TREE_Understory_1111_Branches",
+      "TREE_Understory_1131_Branches",
+      "TREE_Understory_1143_Branches",
+      "TREE_Understory_1144_Branches",
+      "TREE_Understory_1153_Branches",
+      "TREE_Understory_1174_Branches",
+      "TREE_Understory_1177_Branches",
+      "TREE_Understory_1180_Branches",
+      "TREE_Understory_1248_Branches",
+      "TREE_Understory_1289_Branches",
+      "TREE_Understory_1324_Branches",
+      "TREE_Understory_1327_Branches",
+      "TREE_Understory_1334_Branches",
+      "TREE_Understory_1336_Branches",
+      "TREE_Understory_1338_Branches",
+      "TREE_Understory_1342_Branches",
+      "TREE_Understory_1353_Branches",
+      "TREE_Understory_1374_Branches",
+      "TREE_Understory_1391_Branches",
+      "TREE_Understory_1408_Branches",
+      "TREE_Understory_1472_Branches",
+      "TREE_Understory_1527_Branches",
+      "TREE_Understory_1569_Branches",
+      "TREE_Understory_1605_Branches",
+      "TREE_Understory_1633_Branches",
+      "TREE_Understory_1654_Branches",
+      "TREE_Understory_1716_Branches",
+      "TREE_Understory_1719_Branches",
+      "TREE_Understory_1763_Branches",
+      "TREE_Understory_1765_Branches",
+      "TREE_Understory_1771_Branches",
+      "TREE_Understory_1777_Branches",
+      "TREE_Understory_1795_Branches",
+      "TREE_Understory_1843_Branches",
+      "TREE_Understory_1896_Branches",
+      "TREE_Understory_1925_Branches",
+      "TREE_Understory_1926_Branches",
+      "TREE_Understory_1929_Branches",
+      "TREE_Understory_1942_Branches",
+      "TREE_Understory_1945_Branches",
+      "TREE_Understory_1947_Branches",
+      "TREE_Understory_1968_Branches",
+      "TREE_Understory_1978_Branches",
+      "TREE_Understory_2026_Branches",
+      "TREE_Understory_2036_Branches",
+      "TREE_Understory_2040_Branches",
+      "TREE_Understory_2056_Branches",
+      "TREE_Understory_2064_Branches",
+      "TREE_Understory_2070_Branches",
+      "TREE_Understory_2084_Branches",
+      "TREE_Understory_2095_Branches",
+      "TREE_Understory_2102_Branches",
+      "TREE_Understory_2140_Branches",
+      "TREE_Understory_2145_Branches",
+      "TREE_Understory_2150_Branches",
+      "TREE_Understory_2190_Branches",
+      "TREE_Understory_2196_Branches",
+      "TREE_Understory_2231_Branches",
+      "TREE_Understory_2266_Branches",
+      "TREE_Understory_2284_Branches",
+      "TREE_Understory_2289_Branches",
+      "TREE_Understory_2317_Branches",
+      "TREE_Understory_2325_Branches",
+      "TREE_Understory_2343_Branches",
+      "TREE_Understory_2381_Branches",
+      "TREE_Slope_Understory_000_Branches",
+      "TREE_Slope_Understory_065_Branches",
+      "TREE_Slope_Understory_101_Branches",
+      "TREE_Slope_Understory_132_Branches"
+    ],
+    "conservative_room_footprints": [],
+    "new_objects": [
+      "LITTER12_Fallen_Leaves_Local_Windrows",
+      "LITTER12_Fallen_Twigs_Local",
+      "LITTER12_Fern_00",
+      "LITTER12_Fern_01",
+      "LITTER12_Fern_02",
+      "LITTER12_Fern_03",
+      "LITTER12_Fern_04",
+      "LITTER12_Fern_05",
+      "LITTER12_Fern_06",
+      "LITTER12_Fern_07",
+      "LITTER12_Fern_08",
+      "LITTER12_Fern_09",
+      "LITTER12_Fern_10",
+      "LITTER12_Fern_11",
+      "LITTER12_Fern_12",
+      "LITTER12_Fern_13",
+      "LITTER12_Fern_14",
+      "LITTER12_Fern_15",
+      "LITTER12_Fern_16",
+      "LITTER12_Fern_17",
+      "LITTER12_Fern_18",
+      "LITTER12_Fern_19",
+      "LITTER12_Fern_20",
+      "LITTER12_Fern_21",
+      "LITTER12_Fern_22",
+      "LITTER12_Fern_23",
+      "LITTER12_Fern_24",
+      "LITTER12_Fern_25",
+      "LITTER12_Fern_26",
+      "LITTER12_Fern_27",
+      "LITTER12_Fern_28"
+    ],
+    "surface_ray_method": "Actual frozen terrain world-space triangle BVH",
+    "rendered": false,
+    "visual_status": "NOT_RUN",
+    "production_installed": false
+  },
+  "source_frame_preserved": 73,
+  "rendered": false,
+  "visual_status": "NOT_RUN",
+  "candidate_sha256": "5fed8ce2d7513565ce978af32f494c74ae40e09c101e18ce8578e56b0b1bcdb9",
+  "elapsed_s": 240.45054299999902
+}

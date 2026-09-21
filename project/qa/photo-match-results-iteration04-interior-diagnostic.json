@@ -1,0 +1,690 @@
+{
+  "test_id": "GEO-07",
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration04.blend",
+  "scene_sha256": "247d20f7863e4f7e9c18587d4c032bd663857a420bcfb828d271195665841ac2",
+  "scene_label": "iteration04",
+  "blender_version": "5.2.1 LTS",
+  "camera_mode": "fit",
+  "camera_source": null,
+  "camera_fit": "7-parameter perspective camera, principal point fixed to scan center; fit geometry frozen; holdouts excluded from fit",
+  "results": [
+    {
+      "id": "main_living_48",
+      "result": "NOT_RUN",
+      "diagnostic_residual_threshold": "WITHIN_1_PERCENT",
+      "reason": "Provisional correspondences require independent visual verification; diagnostic fit is not final GEO-07 acceptance",
+      "fit_points": 8,
+      "holdout_points": 2,
+      "camera": {
+        "location": [
+          0.6352375249053935,
+          18.68275109834055,
+          0.8695574759914748
+        ],
+        "rotation_world_to_opencv": [
+          [
+            -0.983592307023938,
+            -0.17972575209439473,
+            -0.015646967675290266
+          ],
+          [
+            0.002644438222126455,
+            0.0723593974531147,
+            -0.9973751172686792
+          ],
+          [
+            0.18038619822430085,
+            -0.9810518700019518,
+            -0.07069687302743188
+          ]
+        ],
+        "focal_pixels": 1023.4197786876562,
+        "sensor_width_mm": 36,
+        "lens_mm": 35.97960159448791,
+        "principal_point": [
+          512.0,
+          375.0
+        ],
+        "resolution": [
+          1024,
+          750
+        ],
+        "distortion": "none fitted; unknown original lens; no crop/warp",
+        "blender_matrix_world_rotation": [
+          [
+            -0.983592307023938,
+            -0.002644438222126455,
+            -0.18038619822430085
+          ],
+          [
+            -0.17972575209439473,
+            -0.0723593974531147,
+            0.9810518700019518
+          ],
+          [
+            -0.015646967675290266,
+            0.9973751172686792,
+            0.07069687302743188
+          ]
+        ],
+        "lens_mm_for_36mm_long_edge": 35.97960159448791,
+        "status": "Diagnostic fit only; not a production camera or calibrated source lens"
+      },
+      "median_px": 9.622015719008974,
+      "median_percent_diagonal": 0.7580677969599131,
+      "max_percent_diagonal": 5.298401299996495,
+      "fit_median_percent_diagonal": 0.6955460947181011,
+      "holdout_median_percent_diagonal": 3.6719533841251644,
+      "points": [
+        {
+          "id": "L01",
+          "label": "outer frame near east corner",
+          "photo_px": [
+            69,
+            122
+          ],
+          "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_outer_frame_north",
+          "vertex": 2,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            6.034999847412109,
+            10.369999885559082,
+            2.4750001430511475
+          ],
+          "projection_px": [
+            75.84768210813093,
+            126.57919804698457
+          ],
+          "residual_px": 8.237706295293837,
+          "residual_percent_diagonal": 0.6490053691077723
+        },
+        {
+          "id": "L02",
+          "label": "outer frame near west corner",
+          "photo_px": [
+            683,
+            88
+          ],
+          "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_outer_frame_north",
+          "vertex": 3,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            0.7650001049041748,
+            10.369999885559082,
+            2.4750001430511475
+          ],
+          "projection_px": [
+            682.1982130220887,
+            95.52953311382055
+          ],
+          "residual_px": 7.572102169811784,
+          "residual_percent_diagonal": 0.5965659356474019
+        },
+        {
+          "id": "L03",
+          "label": "outer frame far west corner",
+          "photo_px": [
+            699,
+            181
+          ],
+          "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_outer_frame_south",
+          "vertex": 0,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            0.7650001049041748,
+            4.630000114440918,
+            2.4750001430511475
+          ],
+          "projection_px": [
+            689.3066332662315,
+            179.39796935293867
+          ],
+          "residual_px": 9.82485932873611,
+          "residual_percent_diagonal": 0.7740487735913963
+        },
+        {
+          "id": "L04",
+          "label": "outer frame far east corner",
+          "photo_px": [
+            313,
+            192
+          ],
+          "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_outer_frame_south",
+          "vertex": 1,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            6.034999847412109,
+            4.630000114440918,
+            2.4750001430511475
+          ],
+          "projection_px": [
+            315.6140924227377,
+            193.06687566390886
+          ],
+          "residual_px": 2.8234204215553333,
+          "residual_percent_diagonal": 0.22244238227876506
+        },
+        {
+          "id": "L05",
+          "label": "solid center near east corner",
+          "photo_px": [
+            217,
+            136
+          ],
+          "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_solid_center",
+          "vertex": 2,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            5.25,
+            9.5,
+            2.56499981880188
+          ],
+          "projection_px": [
+            205.10072183628563,
+            128.31310763410826
+          ],
+          "residual_px": 14.166196915977638,
+          "residual_percent_diagonal": 1.1160798320231333
+        },
+        {
+          "id": "L06",
+          "label": "solid center near west corner",
+          "photo_px": [
+            591,
+            118
+          ],
+          "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_solid_center",
+          "vertex": 3,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            1.5500000715255737,
+            9.5,
+            2.56499981880188
+          ],
+          "projection_px": [
+            593.8490145406862,
+            109.02203144518586
+          ],
+          "residual_px": 9.419172109281838,
+          "residual_percent_diagonal": 0.74208682032843
+        },
+        {
+          "id": "L07",
+          "label": "solid center far west corner",
+          "photo_px": [
+            615,
+            165
+          ],
+          "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_solid_center",
+          "vertex": 0,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            1.5500000715255737,
+            5.5,
+            2.56499981880188
+          ],
+          "projection_px": [
+            625.7910323559946,
+            166.62183143761462
+          ],
+          "residual_px": 10.912227844036149,
+          "residual_percent_diagonal": 0.8597167956513283
+        },
+        {
+          "id": "L08",
+          "label": "solid center far east corner",
+          "photo_px": [
+            348,
+            174
+          ],
+          "object": "FW_DETAIL_MAIN_L1_LIVING_light_screen_solid_center",
+          "vertex": 1,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            5.25,
+            5.5,
+            2.56499981880188
+          ],
+          "projection_px": [
+            347.2772906715725,
+            177.54783294810653
+          ],
+          "residual_px": 3.6206943258257045,
+          "residual_percent_diagonal": 0.2852553821567281
+        },
+        {
+          "id": "L09",
+          "label": "south window east upper inside corner",
+          "photo_px": [
+            379,
+            247
+          ],
+          "object": "MAIN_L1_living_south_head",
+          "vertex": 6,
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            6.497600078582764,
+            0.24240000545978546,
+            2.4190001487731934
+          ],
+          "projection_px": [
+            378.8932250475568,
+            221.03699325191354
+          ],
+          "residual_px": 25.96322630744592,
+          "residual_percent_diagonal": 2.0455054682538325
+        },
+        {
+          "id": "L10",
+          "label": "south window west upper inside corner",
+          "photo_px": [
+            778,
+            246
+          ],
+          "object": "MAIN_L1_living_south_head",
+          "vertex": 7,
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            0.26200008392333984,
+            0.24240000545978546,
+            2.4190001487731934
+          ],
+          "projection_px": [
+            720.926423418974,
+            210.42768510237178
+          ],
+          "residual_px": 67.25163738472295,
+          "residual_percent_diagonal": 5.298401299996495
+        }
+      ],
+      "overlay": "D:\\zx\\test\\project\\qa\\photo-match-main_living_48-iteration04-interior-diagnostic.png",
+      "coverage_diagnostics": {
+        "image_bbox_fraction": [
+          0.6923828125,
+          0.21199999749660492
+        ],
+        "image_convex_hull_area_percent": 9.793424479166667,
+        "fit_world_extent": [
+          5.269999742507935,
+          5.739999771118164,
+          0.08999967575073242
+        ],
+        "fit_singular_values": [
+          6.996255953896809,
+          6.439168949231296,
+          0.12727876205586675
+        ],
+        "note": "Descriptive coverage only, not new pass thresholds; same-assembly or narrow-strip points cannot verify whole-room shape"
+      }
+    },
+    {
+      "id": "main_kitchen_56",
+      "result": "NOT_RUN",
+      "diagnostic_residual_threshold": "OVER_1_PERCENT",
+      "reason": "Provisional correspondences require independent visual verification; diagnostic fit is not final GEO-07 acceptance",
+      "fit_points": 8,
+      "holdout_points": 2,
+      "camera": {
+        "location": [
+          -3.6316231604867077,
+          22.309372183861285,
+          1.8319139455389497
+        ],
+        "rotation_world_to_opencv": [
+          [
+            -0.9992459724026265,
+            0.0376179711335764,
+            0.00961118540674377
+          ],
+          [
+            -0.006368954614830873,
+            0.08537790634552589,
+            -0.9963282840134415
+          ],
+          [
+            -0.0383004315151098,
+            -0.9956382381949018,
+            -0.0850739418970835
+          ]
+        ],
+        "focal_pixels": 2210.9999999999313,
+        "sensor_width_mm": 36,
+        "lens_mm": 107.99999999999665,
+        "principal_point": [
+          368.5,
+          512.0
+        ],
+        "resolution": [
+          737,
+          1024
+        ],
+        "distortion": "none fitted; unknown original lens; no crop/warp",
+        "blender_matrix_world_rotation": [
+          [
+            -0.9992459724026265,
+            0.006368954614830873,
+            0.0383004315151098
+          ],
+          [
+            0.0376179711335764,
+            -0.08537790634552589,
+            0.9956382381949018
+          ],
+          [
+            0.00961118540674377,
+            0.9963282840134415,
+            0.0850739418970835
+          ]
+        ],
+        "lens_mm_for_36mm_long_edge": 77.73046874999758,
+        "status": "Diagnostic fit only; not a production camera or calibrated source lens"
+      },
+      "median_px": 22.533787136270405,
+      "median_percent_diagonal": 1.7860657412920526,
+      "max_percent_diagonal": 3.5001018276855413,
+      "fit_median_percent_diagonal": 1.1588231224242953,
+      "holdout_median_percent_diagonal": 3.1869131964417305,
+      "points": [
+        {
+          "id": "K01",
+          "label": "inner tall window right upper corner",
+          "photo_px": [
+            235,
+            197
+          ],
+          "object": "MAIN_L1_kitchen_south_inner_head",
+          "vertex": 7,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -3.5107998847961426,
+            11.74385929107666,
+            2.4190001487731934
+          ],
+          "projection_px": [
+            260.21068733159825,
+            197.66783522934907
+          ],
+          "residual_px": 25.219531312559482,
+          "residual_percent_diagonal": 1.9989423267561732
+        },
+        {
+          "id": "K02",
+          "label": "inner tall window right lower corner",
+          "photo_px": [
+            237,
+            681
+          ],
+          "object": "MAIN_L1_kitchen_south_inner_sill",
+          "vertex": 7,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -3.5107998847961426,
+            11.74385929107666,
+            0.13899999856948853
+          ],
+          "projection_px": [
+            257.6357286383648,
+            674.6005178959351
+          ],
+          "residual_px": 21.60524629890796,
+          "residual_percent_diagonal": 1.7124680380309671
+        },
+        {
+          "id": "K03",
+          "label": "inner tall window left lower corner",
+          "photo_px": [
+            144,
+            680
+          ],
+          "object": "MAIN_L1_kitchen_south_inner_sill",
+          "vertex": 6,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -2.855800151824951,
+            11.74385929107666,
+            0.13899999856948853
+          ],
+          "projection_px": [
+            121.28727184057112,
+            674.1167344528569
+          ],
+          "residual_px": 23.462327973632846,
+          "residual_percent_diagonal": 1.859663444553138
+        },
+        {
+          "id": "K04",
+          "label": "inner tall window left upper corner",
+          "photo_px": [
+            146,
+            187
+          ],
+          "object": "MAIN_L1_kitchen_south_inner_head",
+          "vertex": 6,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -2.855800151824951,
+            11.74385929107666,
+            2.4190001487731934
+          ],
+          "projection_px": [
+            121.33509386472971,
+            196.02899356745246
+          ],
+          "residual_px": 26.265572895004436,
+          "residual_percent_diagonal": 2.081853336036306
+        },
+        {
+          "id": "K05",
+          "label": "front window outer return junction bar 2.13",
+          "photo_px": [
+            130,
+            251
+          ],
+          "object": "MAIN_L1_kitchen_south_front_horizontal_4",
+          "vertex": 7,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -2.855799913406372,
+            11.12190055847168,
+            2.1430001258850098
+          ],
+          "projection_px": [
+            130.47233113183492,
+            258.62056937220126
+          ],
+          "residual_px": 7.635193138004588,
+          "residual_percent_diagonal": 0.6051782068176237
+        },
+        {
+          "id": "K06",
+          "label": "front window outer return junction bar 1.79",
+          "photo_px": [
+            130,
+            328
+          ],
+          "object": "MAIN_L1_kitchen_south_front_horizontal_3",
+          "vertex": 7,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -2.855799913406372,
+            11.12190055847168,
+            1.8029999732971191
+          ],
+          "projection_px": [
+            130.44172037586264,
+            326.6865050719379
+          ],
+          "residual_px": 1.3857798585984198,
+          "residual_percent_diagonal": 0.10983923454354767
+        },
+        {
+          "id": "K07",
+          "label": "front window outer return junction bar 1.45",
+          "photo_px": [
+            130,
+            397
+          ],
+          "object": "MAIN_L1_kitchen_south_front_horizontal_2",
+          "vertex": 7,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -2.855799913406372,
+            11.12190055847168,
+            1.4630000591278076
+          ],
+          "projection_px": [
+            130.4112685987066,
+            394.3989362097841
+          ],
+          "residual_px": 2.633377052579904,
+          "residual_percent_diagonal": 0.2087258794571213
+        },
+        {
+          "id": "K08",
+          "label": "front window outer return junction bar 1.11",
+          "photo_px": [
+            130,
+            463
+          ],
+          "object": "MAIN_L1_kitchen_south_front_horizontal_1",
+          "vertex": 7,
+          "role": "fit",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -2.855799913406372,
+            11.12190055847168,
+            1.1230000257492065
+          ],
+          "projection_px": [
+            130.38097453329314,
+            461.7606802446596
+          ],
+          "residual_px": 1.296555070560003,
+          "residual_percent_diagonal": 0.10276712827815421
+        },
+        {
+          "id": "K09",
+          "label": "inner upper crossbar right end",
+          "photo_px": [
+            235,
+            249
+          ],
+          "object": "MAIN_L1_kitchen_south_inner_horizontal_0",
+          "vertex": 7,
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -3.5107998847961426,
+            11.737859725952148,
+            2.052999973297119
+          ],
+          "projection_px": [
+            259.8052431476791,
+            275.442570825742
+          ],
+          "residual_px": 36.25616691667589,
+          "residual_percent_diagonal": 2.8737245651979184
+        },
+        {
+          "id": "K10",
+          "label": "inner upper crossbar left end",
+          "photo_px": [
+            147,
+            238
+          ],
+          "object": "MAIN_L1_kitchen_south_inner_horizontal_0",
+          "vertex": 6,
+          "role": "holdout",
+          "pixel_pick_uncertainty": 4,
+          "correspondence_confidence": "B visible frame feature; C correspondence to explicitly approximate reconstructed frame; not independently surveyed",
+          "independently_verified": false,
+          "world": [
+            -2.855800151824951,
+            11.737859725952148,
+            2.052999973297119
+          ],
+          "projection_px": [
+            121.4205943427826,
+            273.9957649102016
+          ],
+          "residual_px": 44.15881661963992,
+          "residual_percent_diagonal": 3.5001018276855413
+        }
+      ],
+      "overlay": "D:\\zx\\test\\project\\qa\\photo-match-main_kitchen_56-iteration04-interior-diagnostic.png",
+      "coverage_diagnostics": {
+        "image_bbox_fraction": [
+          0.14518317580223083,
+          0.482421875
+        ],
+        "image_convex_hull_area_percent": 6.601072231173677,
+        "fit_world_extent": [
+          0.6549999713897705,
+          0.6219587326049805,
+          2.280000150203705
+        ],
+        "fit_singular_values": [
+          2.465089593244529,
+          1.036198965886128,
+          0.5420888643399586
+        ],
+        "note": "Descriptive coverage only, not new pass thresholds; same-assembly or narrow-strip points cannot verify whole-room shape"
+      }
+    }
+  ]
+}

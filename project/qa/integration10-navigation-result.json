@@ -1,0 +1,49 @@
+{
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_integration_candidate10a.blend",
+  "source_sha256": "dc7594d60b68effaf10b85dd1804827fc9cb16dd786656daa4da16c761b33518",
+  "status": "PASS_GEOMETRY_REOPEN_PENDING",
+  "graph_counts": {
+    "PASS": 60,
+    "FAIL": 0,
+    "NOT_RUN": 0
+  },
+  "normal_walk_pass": 52,
+  "inspection_pass": 8,
+  "frames": 7584,
+  "frame_failures": 0,
+  "camera_coverage_status": "PASS_CAMERA_VALUES_AND_COVERAGE",
+  "rooms_covered": 60,
+  "main_segments": 10,
+  "supplemental_segments": 49,
+  "adapter_inputs": {
+    "tour.py": "105c10dfb180448384ea6c9970b9d5d167295776f7475b280b43f341cbd26901",
+    "guest_circulation10_routes.py": "a9298ba4f340eb91c461988f6ff19698e49153742e6b08b376af9b8e3f173412",
+    "master_navigation10.py": "dafbd4ded6c14112e8d07292ada5bb880eb65433b81e507a87afeb4661eb6e9a"
+  },
+  "graph_pass": true,
+  "frame_pass": true,
+  "source_unchanged": true,
+  "protected_files_unchanged": {
+    "data/main_house.json": true,
+    "data/guest_house.json": true,
+    "config.json": true,
+    "adjacency.csv": true,
+    "data/tour-route.json": true,
+    "data/camera-settings-reviewed.json": true,
+    "scripts/tour.py": true,
+    "scripts/main_house.py": true,
+    "scripts/guest_house.py": true,
+    "scripts/furnishings.py": true
+  },
+  "limits": [
+    "Legacy global body-column top1.71m; changed Master/Guest zones have separate strict1.95m checks",
+    "Explicit Master terrace two-foot step proof does not lower flat-ground tolerance",
+    "Not a GUI or visual-film acceptance",
+    "No final room photography acceptance"
+  ],
+  "elapsed_seconds": 570.7913821999973,
+  "checked_scene_saved": true,
+  "checked_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_navigation_candidate10a.blend",
+  "checked_scene_sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+  "independent_reopen": "PENDING"
+}

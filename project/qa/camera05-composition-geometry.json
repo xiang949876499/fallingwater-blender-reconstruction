@@ -1,0 +1,1855 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+  "geometry": {
+    "vertices": 949419,
+    "polygons": 1015619,
+    "objects": 9696
+  },
+  "scope": "Post-image composition candidates, not visual acceptance. Stored 120-camera render settings remain unchanged. Framing emphasizes real room-owned fittings or the named stair flight; contains explicit safe support/body checks. Normal-room views use level camera with negative lens shift to include low furnishings.",
+  "rooms": [
+    {
+      "room_id": "MAIN_B_BATH",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 104,
+      "selected": [
+        {
+          "location": [
+            -2.5388,
+            14.337,
+            -0.5278
+          ],
+          "target": [
+            -1.1528,
+            14.6556,
+            -0.5278
+          ],
+          "lens": 28,
+          "shift_y": -0.44966,
+          "shift_x": 0,
+          "support_z": -2.1278,
+          "support_object": "MAIN_B_WINE_finish",
+          "outside_room_polygon": true,
+          "score": 13.325000000000001,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_B_BATH_water_closet_01": 5,
+            "FW_FURN_MAIN_B_BATH_towel_rail_02": 7
+          },
+          "framed_witnesses": 15,
+          "hidden_by": [
+            [
+              "FW_FURN_MAIN_B_BATH_towel_rail_02_rail",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 5
+          }
+        },
+        {
+          "location": [
+            -0.63928,
+            15.28749,
+            -0.5278
+          ],
+          "target": [
+            -1.1528,
+            14.6556,
+            -0.5278
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": -2.1278,
+          "support_object": "MAIN_B_BATH_finish",
+          "outside_room_polygon": false,
+          "score": 11.020000000000001,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_B_BATH_washbasin_00": 3,
+            "FW_FURN_MAIN_B_BATH_towel_rail_02": 3
+          },
+          "framed_witnesses": 12,
+          "hidden_by": [
+            [
+              "FW_FURN_MAIN_B_BATH_washbasin_00_washbasin",
+              4
+            ],
+            [
+              "FW_FURN_MAIN_B_BATH_towel_rail_02_folded_towel",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 4
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_MAIN_B_BATH_water_closet_01": 6,
+        "FW_FURN_MAIN_B_BATH_towel_rail_02": 7,
+        "FW_FURN_MAIN_B_BATH_washbasin_00": 3
+      },
+      "rejections": {
+        "FOOTPRINT_UNSAFE_SUPPORT": 32,
+        "EYE_CLEARANCE": 8,
+        "BODY_INTERSECTION": 18,
+        "FOOTPRINT_NO_SUPPORT": 3,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_B_BATH_water_closet_01_bowl_shell": 5,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_B_BATH_water_closet_01_foot": 1
+      }
+    },
+    {
+      "room_id": "MAIN_L1_SERVANT",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 97,
+      "selected": [
+        {
+          "location": [
+            -7.38622,
+            16.09389,
+            1.7222
+          ],
+          "target": [
+            -5.97275,
+            15.50623,
+            1.7222
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 0.1222,
+          "support_object": "MAIN_L1_SERVANT_finish",
+          "outside_room_polygon": false,
+          "score": 14.05,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L1_SERVANT_service_settee_00": 2,
+            "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01": 7,
+            "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02": 1
+          },
+          "framed_witnesses": 10,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 7
+          }
+        },
+        {
+          "location": [
+            -4.98892,
+            14.78328,
+            1.7222
+          ],
+          "target": [
+            -5.97275,
+            15.50623,
+            1.7222
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 0.1222,
+          "support_object": "MAIN_L1_SERVANT_finish",
+          "outside_room_polygon": false,
+          "score": 13.945,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L1_SERVANT_service_settee_00": 3,
+            "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01": 1,
+            "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02": 3
+          },
+          "framed_witnesses": 7,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 9
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_MAIN_L1_SERVANT_service_settee_00": 7,
+        "FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01": 7,
+        "FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02": 7
+      },
+      "rejections": {
+        "FOOTPRINT_UNSAFE_SUPPORT": 22,
+        "SEATING_REAR_VIEW": 46,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L1_SERVANT_service_settee_00_cantilevered_low_base": 14,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L1_SERVANT_service_settee_00_recessed_base": 11,
+        "EYE_CLEARANCE": 12,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_horizontal_cantilever_shelf": 9,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_cover.030": 1,
+        "BODY_INTERSECTION": 9,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L1_SERVANT_sitting_room_casework_02_book_pages.003": 1,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01_cross_foot_y": 1,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L1_SERVANT_small_sitting_table_01_cross_foot_x": 1
+      }
+    },
+    {
+      "room_id": "MAIN_L2_BATH_G",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 132,
+      "selected": [
+        {
+          "location": [
+            7.074,
+            11.4696,
+            4.467
+          ],
+          "target": [
+            6.1308,
+            11.5758,
+            4.467
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 2.867,
+          "support_object": "MAIN_floor_threshold_guest_bath_finish",
+          "outside_room_polygon": true,
+          "score": 13.22,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L2_BATH_G_washbasin_00": 4,
+            "FW_FURN_MAIN_L2_BATH_G_towel_rail_02": 7
+          },
+          "framed_witnesses": 12,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 4
+          }
+        },
+        {
+          "location": [
+            5.35738,
+            10.87913,
+            4.467
+          ],
+          "target": [
+            6.1046,
+            11.08785,
+            4.467
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 2.867,
+          "support_object": "MAIN_L2_BATH_G_finish",
+          "outside_room_polygon": false,
+          "score": 11.98,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L2_BATH_G_water_closet_01": 4,
+            "FW_FURN_MAIN_L2_BATH_G_towel_rail_02": 3
+          },
+          "framed_witnesses": 8,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 5
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_MAIN_L2_BATH_G_washbasin_00": 6,
+        "FW_FURN_MAIN_L2_BATH_G_towel_rail_02": 7,
+        "FW_FURN_MAIN_L2_BATH_G_water_closet_01": 5
+      },
+      "rejections": {
+        "FOOTPRINT_UNSAFE_SUPPORT": 3,
+        "BODY_INTERSECTION": 12,
+        "FOOTPRINT_NO_SUPPORT": 30,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_G_water_closet_01_bowl_shell": 7,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_G_washbasin_00_pedestal": 4,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_G_water_closet_01_foot": 1,
+        "NO_SUPPORT": 2
+      }
+    },
+    {
+      "room_id": "MAIN_L2_BATH_M",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 122,
+      "selected": [
+        {
+          "location": [
+            4.5352,
+            8.6553,
+            4.467
+          ],
+          "target": [
+            5.56907,
+            9.43875,
+            4.467
+          ],
+          "lens": 28,
+          "shift_y": -0.43576,
+          "shift_x": 0,
+          "support_z": 2.867,
+          "support_object": "MAIN_L2_MASTER_finish",
+          "outside_room_polygon": true,
+          "score": 12.085,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L2_BATH_M_washbasin_01": 3,
+            "FW_FURN_MAIN_L2_BATH_M_water_closet_02": 5
+          },
+          "framed_witnesses": 11,
+          "hidden_by": [
+            [
+              "FW_FURN_MAIN_L2_BATH_M_washbasin_01_washbasin",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 5
+          }
+        },
+        {
+          "location": [
+            6.85182,
+            9.60898,
+            4.467
+          ],
+          "target": [
+            6.0784,
+            8.3898,
+            4.467
+          ],
+          "lens": 28,
+          "shift_y": -0.44292,
+          "shift_x": 0,
+          "support_z": 2.867,
+          "support_object": "MAIN_L2_BATH_M_finish",
+          "outside_room_polygon": false,
+          "score": 6.54,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L2_BATH_M_bath_tub_00": 4
+          },
+          "framed_witnesses": 4,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 5
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_MAIN_L2_BATH_M_washbasin_01": 5,
+        "FW_FURN_MAIN_L2_BATH_M_water_closet_02": 6,
+        "FW_FURN_MAIN_L2_BATH_M_bath_tub_00": 5
+      },
+      "rejections": {
+        "FOOTPRINT_UNSAFE_SUPPORT": 15,
+        "BODY_INTERSECTION": 18,
+        "FOOTPRINT_NO_SUPPORT": 23,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_M_water_closet_02_bowl_shell": 5,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_M_bath_tub_00_basin_bottom": 18,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_floor_threshold_master_bath_finish": 4,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_M_washbasin_01_pedestal": 2,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_L2_BATH_M_finish": 2
+      }
+    },
+    {
+      "room_id": "MAIN_L2_BATH_N",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 159,
+      "selected": [
+        {
+          "location": [
+            0.4716,
+            13.9494,
+            4.467
+          ],
+          "target": [
+            1.7292,
+            15.2397,
+            4.467
+          ],
+          "lens": 28,
+          "shift_y": -0.35492,
+          "shift_x": 0,
+          "support_z": 2.867,
+          "support_object": "MAIN_L2_HALL_finish",
+          "outside_room_polygon": true,
+          "score": 15.360000000000001,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L2_BATH_N_bath_tub_00": 2,
+            "FW_FURN_MAIN_L2_BATH_N_washbasin_01": 2,
+            "FW_FURN_MAIN_L2_BATH_N_water_closet_02": 6
+          },
+          "framed_witnesses": 16,
+          "hidden_by": [
+            [
+              "MAIN_L2_bath_n_shell_2",
+              4
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 4
+          }
+        },
+        {
+          "location": [
+            0.72884,
+            15.26625,
+            4.467
+          ],
+          "target": [
+            1.7292,
+            15.2397,
+            4.467
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 2.867,
+          "support_object": "MAIN_L2_BATH_N_finish",
+          "outside_room_polygon": false,
+          "score": 13.255,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L2_BATH_N_bath_tub_00": 5,
+            "FW_FURN_MAIN_L2_BATH_N_water_closet_02": 6
+          },
+          "framed_witnesses": 13,
+          "hidden_by": [
+            [
+              "FW_FURN_MAIN_L2_BATH_N_water_closet_02_cistern",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 7
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_MAIN_L2_BATH_N_bath_tub_00": 6,
+        "FW_FURN_MAIN_L2_BATH_N_washbasin_01": 5,
+        "FW_FURN_MAIN_L2_BATH_N_water_closet_02": 6
+      },
+      "rejections": {
+        "FOOTPRINT_UNSAFE_SUPPORT": 18,
+        "BODY_INTERSECTION": 14,
+        "FOOTPRINT_NO_SUPPORT": 10,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_N_bath_tub_00_inner_long_wall.001": 2,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_N_bath_tub_00_basin_bottom": 16,
+        "EYE_CLEARANCE": 4,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_N_washbasin_01_pedestal": 1,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_N_water_closet_02_bowl_shell": 5,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_N_water_closet_02_foot": 1,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_N_bath_tub_00_end": 3,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L2_BATH_N_bath_tub_00_end.001": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_floor_threshold_dressing_bath_finish": 1,
+        "FLOOR_HEIGHT:MAIN_L1_LIVING_ceiling": 1,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_L2_dressing_east": 1
+      }
+    },
+    {
+      "room_id": "MAIN_L1_STAIR",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 563,
+      "selected": [
+        {
+          "location": [
+            4.76185,
+            12.8561,
+            4.2714
+          ],
+          "target": [
+            5.27766,
+            13.1688,
+            2.2836
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 2.6714,
+          "support_object": "MAIN_stair1_14",
+          "outside_room_polygon": false,
+          "score": 43.925000000000004,
+          "visible_witnesses": {
+            "MAIN_stair1_01": 1,
+            "MAIN_stair1_02": 1,
+            "MAIN_stair1_03": 1,
+            "MAIN_stair1_04": 1,
+            "MAIN_stair1_05": 1,
+            "MAIN_stair1_06": 1,
+            "MAIN_stair1_07": 1,
+            "MAIN_stair1_08": 1,
+            "MAIN_stair1_09": 1,
+            "MAIN_stair1_10": 1,
+            "MAIN_stair1_11": 1,
+            "MAIN_stair1_12": 1,
+            "MAIN_stair1_13": 1,
+            "MAIN_stair1_14": 1
+          },
+          "framed_witnesses": 15,
+          "hidden_by": [
+            [
+              "MAIN_stair1_01",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 3
+          }
+        },
+        {
+          "location": [
+            7.23775,
+            13.5051,
+            2.2128
+          ],
+          "target": [
+            5.69031,
+            13.1688,
+            1.9405
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 0.6128,
+          "support_object": "MAIN_stair1_02",
+          "outside_room_polygon": false,
+          "score": 3.31,
+          "visible_witnesses": {
+            "MAIN_stair1_08": 1
+          },
+          "framed_witnesses": 6,
+          "hidden_by": [
+            [
+              "MAIN_stair1_10",
+              1
+            ],
+            [
+              "MAIN_stair1_11",
+              1
+            ],
+            [
+              "MAIN_stair1_12",
+              1
+            ],
+            [
+              "MAIN_stair1_13",
+              1
+            ],
+            [
+              "MAIN_stair1_14",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 3
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "MAIN_stair1_01": 1,
+        "MAIN_stair1_02": 1,
+        "MAIN_stair1_03": 1,
+        "MAIN_stair1_04": 1,
+        "MAIN_stair1_05": 1,
+        "MAIN_stair1_06": 1,
+        "MAIN_stair1_07": 1,
+        "MAIN_stair1_08": 1,
+        "MAIN_stair1_09": 1,
+        "MAIN_stair1_10": 1,
+        "MAIN_stair1_11": 1,
+        "MAIN_stair1_12": 1,
+        "MAIN_stair1_13": 1,
+        "MAIN_stair1_14": 1,
+        "MAIN_stair1_15": 1,
+        "MAIN_stair1_00": 1
+      },
+      "rejections": {
+        "NOT_STAIR_OR_LANDING_SUPPORT:SITE_Continuous_BearRun_Terrain": 497,
+        "FOOTPRINT_NO_SUPPORT": 32,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_foundation_pier_2": 96,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair2_01": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair2_02": 1,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair2_03": 3,
+        "FOOTPRINT_UNSAFE_SUPPORT": 6,
+        "BODY_INTERSECTION": 85,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair1_03": 13,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair1_02": 4,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_pier_2_course19_00_1": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_pier_2_course13_00_1": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_pier_2_course08_00_1": 1,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair1_01": 11,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_pier_2_course19_01_1": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_pier_2_course12_01_1": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_pier_2_course08_01_1": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L1_ENTRY_ceiling": 2,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_master_north_east": 4,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_bath_guest_north": 9,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair1_05": 10,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair1_04": 10,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_bath_guest_righttop": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:FW_FURN_MAIN_L2_BATH_G_water_closet_01_bowl_shell": 2,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L1_entry_west_0": 1,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_floor_threshold_guest_bath_finish": 2
+      }
+    },
+    {
+      "room_id": "MAIN_L2_STAIR",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 173,
+      "selected": [
+        {
+          "location": [
+            2.21764,
+            13.82193,
+            6.86435
+          ],
+          "target": [
+            3.19079,
+            13.82193,
+            4.69791
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 5.26435,
+          "support_object": "MAIN_stair2_13",
+          "outside_room_polygon": true,
+          "score": 37.655,
+          "visible_witnesses": {
+            "MAIN_stair2_01": 1,
+            "MAIN_stair2_02": 1,
+            "MAIN_stair2_03": 1,
+            "MAIN_stair2_04": 1,
+            "MAIN_stair2_05": 1,
+            "MAIN_stair2_06": 1,
+            "MAIN_stair2_07": 1,
+            "MAIN_stair2_08": 1,
+            "MAIN_stair2_09": 1,
+            "MAIN_stair2_10": 1,
+            "MAIN_stair2_11": 1,
+            "MAIN_stair2_12": 1
+          },
+          "framed_witnesses": 13,
+          "hidden_by": [
+            [
+              "MAIN_stair2_01",
+              1
+            ]
+          ],
+          "frame_grid": {}
+        },
+        {
+          "location": [
+            5.47056,
+            14.21062,
+            4.61781
+          ],
+          "target": [
+            3.43407,
+            13.82193,
+            4.5251
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 3.01781,
+          "support_object": "MAIN_stair2_00",
+          "outside_room_polygon": false,
+          "score": 3.415,
+          "visible_witnesses": {
+            "MAIN_stair2_06": 1
+          },
+          "framed_witnesses": 9,
+          "hidden_by": [
+            [
+              "MAIN_stair2_13",
+              1
+            ],
+            [
+              "MAIN_stair2_10",
+              1
+            ],
+            [
+              "MAIN_stair2_11",
+              1
+            ],
+            [
+              "MAIN_stair2_12",
+              1
+            ]
+          ],
+          "frame_grid": {}
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "MAIN_stair2_01": 1,
+        "MAIN_stair2_02": 1,
+        "MAIN_stair2_03": 1,
+        "MAIN_stair2_04": 1,
+        "MAIN_stair2_05": 1,
+        "MAIN_stair2_06": 1,
+        "MAIN_stair2_07": 1,
+        "MAIN_stair2_08": 1,
+        "MAIN_stair2_09": 1,
+        "MAIN_stair2_10": 1,
+        "MAIN_stair2_11": 1,
+        "MAIN_stair2_12": 1,
+        "MAIN_stair2_13": 1,
+        "MAIN_stair2_00": 1
+      },
+      "rejections": {
+        "NOT_STAIR_OR_LANDING_SUPPORT:SITE_Continuous_BearRun_Terrain": 222,
+        "NOT_STAIR_OR_LANDING_SUPPORT:FW_FURN_MAIN_L3_ALCOVE_single_bed_00_woven_bedcover": 15,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L1_north_spine_4": 108,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L3_gallery_north": 11,
+        "FOOTPRINT_NO_SUPPORT": 9,
+        "BODY_INTERSECTION": 19,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_HALL_ceiling": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:FW_FURN_MAIN_L1_LIVING_dining_chair_05_seat": 9,
+        "NOT_STAIR_OR_LANDING_SUPPORT:FW_FURN_MAIN_L1_LIVING_dining_chair_05_upholstered_back": 3
+      }
+    },
+    {
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 1335,
+      "selected": [
+        {
+          "location": [
+            -3.4977,
+            17.5348,
+            1.7002
+          ],
+          "target": [
+            -4.33509,
+            17.70885,
+            -0.46731
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 0.1002,
+          "support_object": "MAIN_service_stair_12",
+          "outside_room_polygon": false,
+          "score": 35.02,
+          "visible_witnesses": {
+            "MAIN_service_stair_00": 1,
+            "MAIN_service_stair_01": 1,
+            "MAIN_service_stair_02": 1,
+            "MAIN_service_stair_03": 1,
+            "MAIN_service_stair_04": 1,
+            "MAIN_service_stair_05": 1,
+            "MAIN_service_stair_06": 1,
+            "MAIN_service_stair_07": 1,
+            "MAIN_service_stair_08": 1,
+            "MAIN_service_stair_09": 1,
+            "MAIN_service_stair_10": 1,
+            "MAIN_service_stair_11": 1
+          },
+          "framed_witnesses": 12,
+          "hidden_by": [],
+          "frame_grid": {
+            "terrain": 4,
+            "room_owned": 2
+          }
+        },
+        {
+          "location": [
+            -5.3579,
+            17.8652,
+            0.31558
+          ],
+          "target": [
+            -3.41608,
+            17.70885,
+            0.225
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": -1.28442,
+          "support_object": "MAIN_service_stair_04",
+          "outside_room_polygon": false,
+          "score": 1.905,
+          "visible_witnesses": {
+            "MAIN_service_stair_10": 1
+          },
+          "framed_witnesses": 3,
+          "hidden_by": [
+            [
+              "MAIN_service_stair_12",
+              1
+            ],
+            [
+              "MAIN_floor_threshold_service_top_finish",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "terrain": 2,
+            "room_owned": 1
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "MAIN_service_stair_00": 1,
+        "MAIN_service_stair_01": 1,
+        "MAIN_service_stair_02": 1,
+        "MAIN_service_stair_03": 1,
+        "MAIN_service_stair_04": 1,
+        "MAIN_service_stair_05": 1,
+        "MAIN_service_stair_06": 1,
+        "MAIN_service_stair_07": 1,
+        "MAIN_service_stair_08": 1,
+        "MAIN_service_stair_09": 1,
+        "MAIN_service_stair_10": 1,
+        "MAIN_service_stair_11": 1
+      },
+      "rejections": {
+        "FOOTPRINT_NO_SUPPORT": 23,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_dressing_shell_north_1": 13,
+        "BODY_INTERSECTION": 127,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L1_SERVANT_ceiling": 3,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_dressing_shell_north_0": 2,
+        "NOT_STAIR_OR_LANDING_SUPPORT:SITE_Continuous_BearRun_Terrain": 66,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_00": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_01": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_02": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_04": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_05": 2,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_06": 2,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_07": 2,
+        "EYE_CLEARANCE": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_08": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_09": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_10": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_11": 6,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_service_stair_12": 2,
+        "FOOTPRINT_UNSAFE_SUPPORT": 4,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L1_KITCHEN_ceiling": 2
+      }
+    },
+    {
+      "room_id": "MAIN_L3_BATH",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 96,
+      "selected": [
+        {
+          "location": [
+            1.572,
+            13.3653,
+            6.88635
+          ],
+          "target": [
+            1.1528,
+            14.15942,
+            6.88635
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 5.28635,
+          "support_object": "MAIN_L3_GALLERY_finish",
+          "outside_room_polygon": true,
+          "score": 13.360000000000001,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L3_BATH_washbasin_00": 4,
+            "FW_FURN_MAIN_L3_BATH_water_closet_01": 4
+          },
+          "framed_witnesses": 16,
+          "hidden_by": [
+            [
+              "FW_FURN_MAIN_L3_BATH_washbasin_00_drain",
+              4
+            ],
+            [
+              "FW_FURN_MAIN_L3_BATH_washbasin_00_mirror_frame",
+              3
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 5
+          }
+        },
+        {
+          "location": [
+            0.69867,
+            15.17775,
+            6.88635
+          ],
+          "target": [
+            1.1528,
+            14.34182,
+            6.88635
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 5.28635,
+          "support_object": "MAIN_L3_BATH_finish",
+          "outside_room_polygon": false,
+          "score": 10.985000000000001,
+          "visible_witnesses": {
+            "FW_FURN_MAIN_L3_BATH_washbasin_00": 2,
+            "FW_FURN_MAIN_L3_BATH_towel_rail_02": 7
+          },
+          "framed_witnesses": 11,
+          "hidden_by": [
+            [
+              "FW_FURN_MAIN_L3_BATH_towel_rail_02_folded_towel",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 3
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_MAIN_L3_BATH_washbasin_00": 4,
+        "FW_FURN_MAIN_L3_BATH_water_closet_01": 6,
+        "FW_FURN_MAIN_L3_BATH_towel_rail_02": 7
+      },
+      "rejections": {
+        "BODY_INTERSECTION": 22,
+        "FOOTPRINT_NO_SUPPORT": 22,
+        "FOOTPRINT_UNSAFE_SUPPORT": 17,
+        "EYE_CLEARANCE": 1,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L3_BATH_water_closet_01_foot": 2,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L3_BATH_water_closet_01_bowl_shell": 5,
+        "NON_WALKABLE_SUPPORT:FW_FURN_MAIN_L3_BATH_water_closet_01_inlet": 1
+      }
+    },
+    {
+      "room_id": "GUEST_B1_BATH",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 125,
+      "selected": [
+        {
+          "location": [
+            -3.21398,
+            39.06092,
+            7.6492
+          ],
+          "target": [
+            -2.6725,
+            37.585,
+            7.6492
+          ],
+          "lens": 28,
+          "shift_y": -0.35312,
+          "shift_x": 0,
+          "support_z": 6.0492,
+          "support_object": "GUEST_B1_BATH_cork_finish",
+          "outside_room_polygon": false,
+          "score": 12.155000000000001,
+          "visible_witnesses": {
+            "FW_FURN_GUEST_B1_BATH_washbasin_00": 4,
+            "FW_FURN_GUEST_B1_BATH_towel_rail_02": 3
+          },
+          "framed_witnesses": 13,
+          "hidden_by": [
+            [
+              "FW_FURN_GUEST_B1_BATH_washbasin_00_washbasin",
+              4
+            ],
+            [
+              "FW_FURN_GUEST_B1_BATH_towel_rail_02_folded_towel",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 6
+          }
+        },
+        {
+          "location": [
+            -2.13102,
+            37.64035,
+            7.6492
+          ],
+          "target": [
+            -2.67536,
+            39.03952,
+            7.6492
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 6.0492,
+          "support_object": "GUEST_B1_BATH_cork_finish",
+          "outside_room_polygon": false,
+          "score": 6.6450000000000005,
+          "visible_witnesses": {
+            "FW_FURN_GUEST_B1_BATH_water_closet_01": 6
+          },
+          "framed_witnesses": 7,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 8
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_GUEST_B1_BATH_washbasin_00": 4,
+        "FW_FURN_GUEST_B1_BATH_towel_rail_02": 7,
+        "FW_FURN_GUEST_B1_BATH_water_closet_01": 6
+      },
+      "rejections": {
+        "EYE_CLEARANCE": 19,
+        "BODY_INTERSECTION": 15,
+        "FOOTPRINT_UNSAFE_SUPPORT": 20,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_B1_BATH_water_closet_01_bowl_shell": 6,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_B1_BATH_water_closet_01_foot": 1,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_B1_BASE_BATH_NORTH_pier_end": 1
+      }
+    },
+    {
+      "room_id": "GUEST_L1_BATH",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 143,
+      "selected": [
+        {
+          "location": [
+            11.82537,
+            36.58596,
+            10.0092
+          ],
+          "target": [
+            12.16951,
+            37.87342,
+            10.0092
+          ],
+          "lens": 28,
+          "shift_y": -0.41657,
+          "shift_x": 0,
+          "support_z": 8.4092,
+          "support_object": "GUEST_L1_BATH_cork_finish",
+          "outside_room_polygon": false,
+          "score": 11.98,
+          "visible_witnesses": {
+            "FW_FURN_GUEST_L1_BATH_washbasin_01": 3,
+            "FW_FURN_GUEST_L1_BATH_water_closet_02": 4
+          },
+          "framed_witnesses": 8,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 8
+          }
+        },
+        {
+          "location": [
+            14.10129,
+            38.56034,
+            10.0092
+          ],
+          "target": [
+            13.24811,
+            36.83583,
+            10.0092
+          ],
+          "lens": 28,
+          "shift_y": -0.42083,
+          "shift_x": 0,
+          "support_z": 8.4092,
+          "support_object": "GUEST_L1_BATH_cork_finish",
+          "outside_room_polygon": false,
+          "score": 6.61,
+          "visible_witnesses": {
+            "FW_FURN_GUEST_L1_BATH_bath_tub_00": 5
+          },
+          "framed_witnesses": 6,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 9
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_GUEST_L1_BATH_washbasin_01": 6,
+        "FW_FURN_GUEST_L1_BATH_water_closet_02": 6,
+        "FW_FURN_GUEST_L1_BATH_bath_tub_00": 5
+      },
+      "rejections": {
+        "BODY_INTERSECTION": 27,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_L1_BATH_cork_finish": 2,
+        "EYE_CLEARANCE": 29,
+        "FOOTPRINT_UNSAFE_SUPPORT": 16,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L1_BATH_bath_tub_00_basin_bottom": 11,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L1_BATH_washbasin_01_pedestal": 2,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L1_BATH_water_closet_02_bowl_shell": 2,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L1_BATH_water_closet_02_foot": 1
+      }
+    },
+    {
+      "room_id": "GUEST_L2_BATH",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 216,
+      "selected": [
+        {
+          "location": [
+            1.82846,
+            47.89178,
+            12.36188
+          ],
+          "target": [
+            2.42764,
+            45.88715,
+            12.36188
+          ],
+          "lens": 28,
+          "shift_y": -0.26534,
+          "shift_x": 0,
+          "support_z": 10.76188,
+          "support_object": "GUEST_L2_BATH_cork_finish",
+          "outside_room_polygon": false,
+          "score": 12.190000000000001,
+          "visible_witnesses": {
+            "FW_FURN_GUEST_L2_BATH_washbasin_00": 4,
+            "FW_FURN_GUEST_L2_BATH_towel_rail_02": 3
+          },
+          "framed_witnesses": 14,
+          "hidden_by": [
+            [
+              "FW_FURN_GUEST_L2_BATH_washbasin_00_washbasin",
+              4
+            ],
+            [
+              "FW_FURN_GUEST_L2_BATH_towel_rail_02_folded_towel",
+              2
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 8
+          }
+        },
+        {
+          "location": [
+            3.0058,
+            45.61428,
+            12.36188
+          ],
+          "target": [
+            2.42478,
+            47.86379,
+            12.36188
+          ],
+          "lens": 28,
+          "shift_y": -0.39105,
+          "shift_x": 0,
+          "support_z": 10.76188,
+          "support_object": "GUEST_L2_BATH_cork_finish",
+          "outside_room_polygon": false,
+          "score": 6.6450000000000005,
+          "visible_witnesses": {
+            "FW_FURN_GUEST_L2_BATH_water_closet_01": 6
+          },
+          "framed_witnesses": 7,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 5
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_GUEST_L2_BATH_washbasin_00": 5,
+        "FW_FURN_GUEST_L2_BATH_towel_rail_02": 7,
+        "FW_FURN_GUEST_L2_BATH_water_closet_01": 6
+      },
+      "rejections": {
+        "FOOTPRINT_UNSAFE_SUPPORT": 24,
+        "BODY_INTERSECTION": 18,
+        "EYE_CLEARANCE": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_L2_UPPER_BATH_SOUTH_open_leaf_0": 3,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L2_BATH_water_closet_01_bowl_shell": 4,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L2_BATH_washbasin_00_pedestal": 1,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_L2_BATH_cork_finish": 2
+      }
+    },
+    {
+      "room_id": "GUEST_B1_STAIR",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 345,
+      "selected": [
+        {
+          "location": [
+            1.61296,
+            40.03768,
+            10.0002
+          ],
+          "target": [
+            1.77064,
+            39.03558,
+            7.345
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 8.4002,
+          "support_object": "GUEST_L1_CHAUFFEUR_DOOR_LANDING",
+          "outside_room_polygon": false,
+          "score": 30.05,
+          "visible_witnesses": {
+            "GUEST_LAUNDRY_DESCENT_tread_02": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_03": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_04": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_05": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_06": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_07": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_08": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_09": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_10": 1,
+            "GUEST_LAUNDRY_DESCENT_tread_11": 1
+          },
+          "framed_witnesses": 10,
+          "hidden_by": [],
+          "frame_grid": {
+            "terrain": 2
+          }
+        },
+        {
+          "location": [
+            1.92064,
+            40.23454,
+            7.6402
+          ],
+          "target": [
+            1.77064,
+            39.03558,
+            7.345
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 6.0402,
+          "support_object": "GUEST_B1_STAIR_LANDING",
+          "outside_room_polygon": true,
+          "score": 1.3249999999999997,
+          "visible_witnesses": {
+            "GUEST_LAUNDRY_DESCENT_tread_07": 1
+          },
+          "framed_witnesses": 5,
+          "hidden_by": [],
+          "frame_grid": {
+            "terrain": 3
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "GUEST_LAUNDRY_DESCENT_tread_02": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_03": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_04": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_05": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_06": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_07": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_08": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_09": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_10": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_11": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_01": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_00": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_12": 1,
+        "GUEST_LAUNDRY_DESCENT_tread_13": 1
+      },
+      "rejections": {
+        "BODY_INTERSECTION": 92,
+        "NOT_STAIR_OR_LANDING_SUPPORT:SITE_Continuous_BearRun_Terrain": 105,
+        "NO_SUPPORT": 480,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_L1_CHAUFFEUR_FLOOR": 3,
+        "FOOTPRINT_NO_SUPPORT": 21,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_B1_BASE_EAST_lintel_0": 2,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_LAUNDRY_DESCENT_tread_11": 4,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_L1_CHAUFFEUR_EAST_pier_end": 11,
+        "EYE_CLEARANCE": 3,
+        "FOOTPRINT_UNSAFE_SUPPORT": 8,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_LAYERED_SANDSTONE_COURSES": 8,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_B1_BASE_EAST_pier_end": 8,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_LAUNDRY_DESCENT_tread_04": 7,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_L1_CHAUFFEUR_DOOR_LANDING": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_B1_BASE_EAST_pier_0": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_L1_HALL_SOUTH": 12
+      }
+    },
+    {
+      "room_id": "MAIN_L1_HATCH",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 1446,
+      "selected": [
+        {
+          "location": [
+            7.33398,
+            2.7612,
+            1.52565
+          ],
+          "target": [
+            7.6504,
+            3.186,
+            -0.29501
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": -0.07435,
+          "support_object": "MAIN_water_stair_15",
+          "outside_room_polygon": false,
+          "score": 43.995000000000005,
+          "visible_witnesses": {
+            "MAIN_water_stair_02": 1,
+            "MAIN_water_stair_03": 1,
+            "MAIN_water_stair_04": 1,
+            "MAIN_water_stair_05": 1,
+            "MAIN_water_stair_06": 1,
+            "MAIN_water_stair_07": 1,
+            "MAIN_water_stair_08": 1,
+            "MAIN_water_stair_09": 1,
+            "MAIN_water_stair_10": 1,
+            "MAIN_water_stair_11": 1,
+            "MAIN_water_stair_12": 1,
+            "MAIN_water_stair_13": 1,
+            "MAIN_water_stair_14": 1,
+            "MAIN_water_stair_15": 1
+          },
+          "framed_witnesses": 17,
+          "hidden_by": [
+            [
+              "MAIN_water_stair_01",
+              1
+            ],
+            [
+              "MAIN_water_stair_02",
+              1
+            ],
+            [
+              "MAIN_floor_threshold_living_hatch_finish",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 8
+          }
+        },
+        {
+          "location": [
+            9.83709,
+            3.6108,
+            -0.55316
+          ],
+          "target": [
+            7.0216,
+            3.186,
+            0.225
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": -2.15316,
+          "support_object": "MAIN_water_stair_03",
+          "outside_room_polygon": false,
+          "score": 3.275,
+          "visible_witnesses": {
+            "MAIN_water_stair_16": 1
+          },
+          "framed_witnesses": 5,
+          "hidden_by": [
+            [
+              "MAIN_water_stair_13",
+              1
+            ],
+            [
+              "MAIN_water_stair_14",
+              1
+            ],
+            [
+              "MAIN_water_stair_15",
+              1
+            ],
+            [
+              "MAIN_water_stair_16",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 2
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "MAIN_water_stair_02": 1,
+        "MAIN_water_stair_03": 1,
+        "MAIN_water_stair_04": 1,
+        "MAIN_water_stair_05": 1,
+        "MAIN_water_stair_06": 1,
+        "MAIN_water_stair_07": 1,
+        "MAIN_water_stair_08": 1,
+        "MAIN_water_stair_09": 1,
+        "MAIN_water_stair_10": 1,
+        "MAIN_water_stair_11": 1,
+        "MAIN_water_stair_12": 1,
+        "MAIN_water_stair_13": 1,
+        "MAIN_water_stair_14": 1,
+        "MAIN_water_stair_15": 1,
+        "MAIN_water_stair_00": 1,
+        "MAIN_water_stair_01": 1,
+        "MAIN_water_stair_16": 1
+      },
+      "rejections": {
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_lower_platform": 224,
+        "NOT_STAIR_OR_LANDING_SUPPORT:WATER_BearRun_Continuous_Upstream_Downstream": 140,
+        "BODY_INTERSECTION": 290,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_water_stair_13": 6,
+        "FOOTPRINT_NO_SUPPORT": 96,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_water_stair_14": 9,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_south_parapet_2": 16,
+        "NOT_STAIR_OR_LANDING_SUPPORT:SITE_Core_Continuous_Fractured_Sandstone": 20,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_pergola_2": 14,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_water_handrail": 24,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_water_handrail.001": 4,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_water_stair_16": 18,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_pergola_3": 13,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_water_post.002": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_hatch_curved_rim.016": 1,
+        "FOOTPRINT_UNSAFE_SUPPORT": 4,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_pergola_edge": 3
+      }
+    },
+    {
+      "room_id": "MAIN_L3_STAIR",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 697,
+      "selected": [
+        {
+          "location": [
+            2.227,
+            13.8709,
+            6.86435
+          ],
+          "target": [
+            3.19079,
+            13.82193,
+            4.69791
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 5.26435,
+          "support_object": "MAIN_stair2_13",
+          "outside_room_polygon": false,
+          "score": 40.754999999999995,
+          "visible_witnesses": {
+            "MAIN_stair2_00": 1,
+            "MAIN_stair2_01": 1,
+            "MAIN_stair2_02": 1,
+            "MAIN_stair2_03": 1,
+            "MAIN_stair2_04": 1,
+            "MAIN_stair2_05": 1,
+            "MAIN_stair2_06": 1,
+            "MAIN_stair2_07": 1,
+            "MAIN_stair2_08": 1,
+            "MAIN_stair2_09": 1,
+            "MAIN_stair2_10": 1,
+            "MAIN_stair2_11": 1,
+            "MAIN_stair2_12": 1
+          },
+          "framed_witnesses": 13,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 3
+          }
+        },
+        {
+          "location": [
+            3.7204,
+            13.806,
+            5.82749
+          ],
+          "target": [
+            1.7816,
+            13.72635,
+            5.38915
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 4.22749,
+          "support_object": "MAIN_stair2_07",
+          "outside_room_polygon": false,
+          "score": 6.305000000000001,
+          "visible_witnesses": {
+            "MAIN_stair2_12": 1,
+            "MAIN_stair2_13": 1
+          },
+          "framed_witnesses": 3,
+          "hidden_by": [
+            [
+              "MAIN_L3_GALLERY_finish",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "room_owned": 1
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "MAIN_stair2_00": 1,
+        "MAIN_stair2_01": 1,
+        "MAIN_stair2_02": 1,
+        "MAIN_stair2_03": 1,
+        "MAIN_stair2_04": 1,
+        "MAIN_stair2_05": 1,
+        "MAIN_stair2_06": 1,
+        "MAIN_stair2_07": 1,
+        "MAIN_stair2_08": 1,
+        "MAIN_stair2_09": 1,
+        "MAIN_stair2_10": 1,
+        "MAIN_stair2_11": 1,
+        "MAIN_stair2_12": 1,
+        "MAIN_stair2_13": 1
+      },
+      "rejections": {
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L3_gallery_roof": 157,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L3_GALLERY_ceiling": 5,
+        "FOOTPRINT_NO_SUPPORT": 96,
+        "BODY_INTERSECTION": 157,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L1_LIVING_ceiling": 4,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair2_03": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair2_02": 2,
+        "SLOPING_OR_VERTICAL_SUPPORT:MAIN_stair2_01": 2,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L3_ALCOVE_ceiling": 2,
+        "FOOTPRINT_UNSAFE_SUPPORT": 2,
+        "NONFLAT_RANGE:MAIN_stair1_08": 3,
+        "NONFLAT_RANGE:MAIN_stair1_07": 3,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L2_bath_guest_north": 3,
+        "NONFLAT_RANGE:MAIN_L1_LIVING_finish": 13,
+        "NOT_STAIR_OR_LANDING_SUPPORT:FW_FURN_MAIN_L3_ALCOVE_single_bed_00_walnut_platform": 9
+      }
+    },
+    {
+      "room_id": "GUEST_L1_BOILER",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 37,
+      "selected": [
+        {
+          "location": [
+            2.96819,
+            41.70246,
+            10.0002
+          ],
+          "target": [
+            5.51079,
+            42.2075,
+            10.0002
+          ],
+          "lens": 28,
+          "shift_y": -0.15641,
+          "shift_x": 0,
+          "support_z": 8.4002,
+          "support_object": "GUEST_L1_HALL_NORTH",
+          "outside_room_polygon": true,
+          "score": 6.95,
+          "visible_witnesses": {
+            "FW_FURN_GUEST_L1_BOILER_service_boiler_00": 1,
+            "FW_FURN_GUEST_L1_BOILER_service_pressure_vessel_01": 3
+          },
+          "framed_witnesses": 10,
+          "hidden_by": [
+            [
+              "FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_boiler_body",
+              4
+            ],
+            [
+              "GUEST_L1_BOILER_WEST_open_leaf_0",
+              2
+            ]
+          ],
+          "frame_grid": {
+            "near_surface": 2,
+            "room_owned": 2
+          }
+        },
+        {
+          "location": [
+            5.63143,
+            41.84714,
+            10.0002
+          ],
+          "target": [
+            4.82716,
+            41.84978,
+            10.0002
+          ],
+          "lens": 28,
+          "shift_y": -0.58,
+          "shift_x": 0,
+          "support_z": 8.4002,
+          "support_object": "GUEST_L1_BOILER_FLOOR",
+          "outside_room_polygon": false,
+          "score": 6.54,
+          "visible_witnesses": {
+            "FW_FURN_GUEST_L1_BOILER_service_boiler_00": 4
+          },
+          "framed_witnesses": 4,
+          "hidden_by": [],
+          "frame_grid": {
+            "room_owned": 6
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "FW_FURN_GUEST_L1_BOILER_service_boiler_00": 5,
+        "FW_FURN_GUEST_L1_BOILER_service_pressure_vessel_01": 3
+      },
+      "rejections": {
+        "FOOTPRINT_UNSAFE_SUPPORT": 44,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L1_BOILER_service_boiler_00_cast_boiler_body": 18,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L1_BOILER_service_pressure_vessel_01_tank": 6,
+        "EYE_CLEARANCE": 8,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L1_BOILER_service_boiler_00_equipment_pad": 6,
+        "NON_WALKABLE_SUPPORT:FW_FURN_GUEST_L1_BOILER_service_boiler_00_burner_door": 1,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_LAYERED_SANDSTONE_COURSES": 2
+      }
+    },
+    {
+      "room_id": "MAIN_B_STAIR",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 604,
+      "selected": [
+        {
+          "location": [
+            -4.69729,
+            17.03035,
+            1.7222
+          ],
+          "target": [
+            -4.56485,
+            17.70885,
+            -0.64038
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 0.1222,
+          "support_object": "MAIN_L1_SERVANT_finish",
+          "outside_room_polygon": false,
+          "score": 35.67,
+          "visible_witnesses": {
+            "MAIN_service_stair_00": 1,
+            "MAIN_service_stair_01": 1,
+            "MAIN_service_stair_02": 1,
+            "MAIN_service_stair_03": 1,
+            "MAIN_service_stair_04": 1,
+            "MAIN_service_stair_05": 1,
+            "MAIN_service_stair_06": 1,
+            "MAIN_service_stair_07": 1,
+            "MAIN_service_stair_08": 1,
+            "MAIN_service_stair_09": 1,
+            "MAIN_service_stair_10": 1,
+            "MAIN_service_stair_11": 1
+          },
+          "framed_witnesses": 12,
+          "hidden_by": [],
+          "frame_grid": {
+            "terrain": 3,
+            "room_owned": 1
+          }
+        },
+        {
+          "location": [
+            -6.25656,
+            17.91594,
+            -0.37672
+          ],
+          "target": [
+            -4.33509,
+            17.70885,
+            -0.46731
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": -1.97672,
+          "support_object": "MAIN_service_stair_00",
+          "outside_room_polygon": false,
+          "score": 1.395,
+          "visible_witnesses": {
+            "MAIN_service_stair_06": 1
+          },
+          "framed_witnesses": 7,
+          "hidden_by": [
+            [
+              "MAIN_service_stair_08",
+              1
+            ],
+            [
+              "MAIN_service_stair_09",
+              1
+            ],
+            [
+              "MAIN_service_stair_10",
+              1
+            ],
+            [
+              "MAIN_service_stair_11",
+              1
+            ],
+            [
+              "MAIN_service_stair_12",
+              1
+            ]
+          ],
+          "frame_grid": {
+            "terrain": 3
+          }
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "MAIN_service_stair_00": 1,
+        "MAIN_service_stair_01": 1,
+        "MAIN_service_stair_02": 1,
+        "MAIN_service_stair_03": 1,
+        "MAIN_service_stair_04": 1,
+        "MAIN_service_stair_05": 1,
+        "MAIN_service_stair_06": 1,
+        "MAIN_service_stair_07": 1,
+        "MAIN_service_stair_08": 1,
+        "MAIN_service_stair_09": 1,
+        "MAIN_service_stair_10": 1,
+        "MAIN_service_stair_11": 1
+      },
+      "rejections": {
+        "NOT_STAIR_OR_LANDING_SUPPORT:SITE_Continuous_BearRun_Terrain": 200,
+        "NO_SUPPORT": 355,
+        "BODY_INTERSECTION": 64,
+        "FOOTPRINT_NO_SUPPORT": 8,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_L1_kitchen_west_0": 8,
+        "NOT_STAIR_OR_LANDING_SUPPORT:MAIN_B_cellar_0": 1,
+        "FOOTPRINT_UNSAFE_SUPPORT": 6,
+        "NOT_STAIR_OR_LANDING_SUPPORT:FW_FURN_MAIN_L1_SERVANT_service_settee_00_back_cushion": 1,
+        "EYE_CLEARANCE": 1
+      }
+    },
+    {
+      "room_id": "GUEST_L1_STAIR_HALL",
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+      "status": "CANDIDATE_RENDER_PENDING",
+      "clear_compositions": 624,
+      "selected": [
+        {
+          "location": [
+            2.8014,
+            38.19763,
+            12.35287
+          ],
+          "target": [
+            2.92696,
+            38.70796,
+            10.37353
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 10.75287,
+          "support_object": "GUEST_SERVICE_ASCENT_tread_13",
+          "outside_room_polygon": false,
+          "score": 40.79,
+          "visible_witnesses": {
+            "GUEST_SERVICE_ASCENT_tread_01": 1,
+            "GUEST_SERVICE_ASCENT_tread_02": 1,
+            "GUEST_SERVICE_ASCENT_tread_03": 1,
+            "GUEST_SERVICE_ASCENT_tread_04": 1,
+            "GUEST_SERVICE_ASCENT_tread_05": 1,
+            "GUEST_SERVICE_ASCENT_tread_06": 1,
+            "GUEST_SERVICE_ASCENT_tread_07": 1,
+            "GUEST_SERVICE_ASCENT_tread_08": 1,
+            "GUEST_SERVICE_ASCENT_tread_09": 1,
+            "GUEST_SERVICE_ASCENT_tread_10": 1,
+            "GUEST_SERVICE_ASCENT_tread_11": 1,
+            "GUEST_SERVICE_ASCENT_tread_12": 1,
+            "GUEST_SERVICE_ASCENT_tread_13": 1
+          },
+          "framed_witnesses": 14,
+          "hidden_by": [
+            [
+              "GUEST_SERVICE_ASCENT_tread_01",
+              1
+            ]
+          ],
+          "frame_grid": {}
+        },
+        {
+          "location": [
+            3.04084,
+            40.10188,
+            10.67239
+          ],
+          "target": [
+            2.92696,
+            38.70796,
+            10.37353
+          ],
+          "lens": 28,
+          "shift_y": 0,
+          "shift_x": 0,
+          "support_z": 9.07239,
+          "support_object": "GUEST_SERVICE_ASCENT_tread_03",
+          "outside_room_polygon": false,
+          "score": 6.375,
+          "visible_witnesses": {
+            "GUEST_SERVICE_ASCENT_tread_09": 1,
+            "GUEST_SERVICE_ASCENT_tread_10": 1
+          },
+          "framed_witnesses": 5,
+          "hidden_by": [],
+          "frame_grid": {}
+        }
+      ],
+      "max_visible_witnesses_per_target": {
+        "GUEST_SERVICE_ASCENT_tread_01": 1,
+        "GUEST_SERVICE_ASCENT_tread_02": 1,
+        "GUEST_SERVICE_ASCENT_tread_03": 1,
+        "GUEST_SERVICE_ASCENT_tread_04": 1,
+        "GUEST_SERVICE_ASCENT_tread_05": 1,
+        "GUEST_SERVICE_ASCENT_tread_06": 1,
+        "GUEST_SERVICE_ASCENT_tread_07": 1,
+        "GUEST_SERVICE_ASCENT_tread_08": 1,
+        "GUEST_SERVICE_ASCENT_tread_09": 1,
+        "GUEST_SERVICE_ASCENT_tread_10": 1,
+        "GUEST_SERVICE_ASCENT_tread_11": 1,
+        "GUEST_SERVICE_ASCENT_tread_12": 1,
+        "GUEST_SERVICE_ASCENT_tread_13": 1,
+        "GUEST_SERVICE_ASCENT_tread_00": 1
+      },
+      "rejections": {
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_L1_HALL_SOUTH": 209,
+        "NOT_STAIR_OR_LANDING_SUPPORT:SITE_Continuous_BearRun_Terrain": 778,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_L1_HALL_NORTH": 24,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_L2_UPPER_ROOM_EAST_pier_2": 3,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_B1_BASE_EAST_pier_0": 12,
+        "BODY_INTERSECTION": 38,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_SERVICE_ASCENT_tread_02": 1,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_SERVICE_ASCENT_tread_01": 6,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_LAYERED_SANDSTONE_COURSES": 31,
+        "NO_SUPPORT": 112,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_CONNECTOR_canopy_041": 6,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_CONNECTOR_canopy_040": 1,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_CONNECTOR_canopy_042": 10,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_CONNECTOR_canopy_043": 13,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_B1_BASE_EAST_pier_end": 19,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_CONNECTOR_canopy_044": 11,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_L2_UPPER_ROOM_EAST_pier_end": 6,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_LAUNDRY_DESCENT_tread_06": 5,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_LAUNDRY_DESCENT_handrail_1": 3,
+        "FOOTPRINT_UNSAFE_SUPPORT": 17,
+        "NOT_STAIR_OR_LANDING_SUPPORT:GUEST_L2_UPPER_SOUTH_pier_end": 5,
+        "FOOTPRINT_NO_SUPPORT": 22,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_LAUNDRY_DESCENT_tread_11": 1
+      }
+    }
+  ],
+  "rays_cast": 165179
+}

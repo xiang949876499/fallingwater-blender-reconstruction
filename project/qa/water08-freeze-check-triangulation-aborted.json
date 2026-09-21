@@ -1,0 +1,988 @@
+{
+  "status": "ACTUAL_EVALUATION_RUNNING",
+  "candidate_metadata": "DIAGNOSTIC_GEOMETRY_ONLY",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid07_motion36.blend",
+  "source_sha256": "3c7638bd5866f48eca88a2c184cc958cae3bdfb578892e7e58a59e9c967f55d7",
+  "source_unchanged_after_save": true,
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid08_freeze155.blend",
+  "candidate_sha256": "bb4920d86aef83c9fe54abc86f9e6f6b90d5c9847e3a504e418148b5c9c02fd2",
+  "selection_npz": "D:\\zx\\test\\project\\qa\\water08-normal-freeze-arrays.npz",
+  "selection_sha256": "977583f0e3f8c075dadef9c8b03f41c9fb01d0e29e48601277e0d6a765236331",
+  "mutations": "Exactly ring_vertices in all 36 C_flow_and_real_impact shape keys reset to Basis, plus diagnostic custom metadata",
+  "bake_run": false,
+  "render_run": false,
+  "production_installed": false,
+  "build": {
+    "source_mesh_coordinates_sha256": "c6a5f2584f6c954fe525fbe4be12529394003c7f4898b081ccf5bbcf1f098c4e",
+    "source_basis_sha256": "c6a5f2584f6c954fe525fbe4be12529394003c7f4898b081ccf5bbcf1f098c4e",
+    "source_render_triangles_sha256": "038ccb0598f34a49c1e86163f8cc07219ca8701553b39543c18acd42fec98ae6",
+    "source_core_world_sha256": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+    "unchanged_outside_ring_key_hashes": [
+      "8c381dcb2aae46599d5ac1e31dd855b6c8bd59f1e909810c70ffca7864325d13",
+      "c61364ade169d9cf71a8206f457dcc954fd90c1069b679d973d55bd0d3b68fe8",
+      "6c11482c77652718f21a5c2935a513bdcbf91bbf30231c089cc79cef79f7ffd8",
+      "a7530dd9d34d3f7661046886559c13eb9b0fc58190618bba1563e9bd8e930616",
+      "879d1d5feb1d1f75d5229c62dbb284f631fbf0a2d839302c602f1f6f1a8dfea1",
+      "1fa3c0d374d9d152a24e68f694f81b3cdce16a6d6ae18eced59ddd841e76f36e",
+      "6788da1ad860d7c767745e9e2baf0b9021644114ae043b0371ea912cf505ac28",
+      "52c9d9b629254bc580ee685d61ec415333531b580a69c85c682b79702f68b8f1",
+      "0cfbd3408d4c68c64ef230c4c6566d6029234417375fa7e60b1ef5b02d26b2f6",
+      "df5cb16b058b4a531b1ee60f5c933f0c60778febd4466d142dbffdb70b45cb1c",
+      "497b3918b93c7eabd2072a80f379283a673e803ec822a68671dd9a5eae92031a",
+      "25c1f2bbb3083b0d1828e574f5ccdeccf2cf30d73e0eab92a9494672fff2faa8",
+      "e5d6bf21940c283252d8eb2e8a346e1a93772e045621dfca7a704007382edaf1",
+      "4b217ab3e57b88acaab44cfdf5cf461fdae15860fe04048997f5aa635579155b",
+      "cefccf24e4d97486ebdb26219f82776e56c13a150889b26e7c5bcb07f7ca6fc3",
+      "986baab909077509eb8878efe8eb7e3c2325f75b7135166663eef7c3724b8fb7",
+      "b575991b456230dd8285a8a5a72c95abec72e376cc660954748547ea008b84e7",
+      "19a65a01c9e87c9fd00799535879530eda1e5bf7e92a215988e2029bc916c0d5",
+      "d8564238bc1f2788b8e2cb22c541b05eb3ac62ba1c070fca0e22bb036b576819",
+      "57b9a5fca1617593ab5824260d2ed83d0c04a0738248f5f5886e0705198a9e9c",
+      "dec26b0e0e68c9ba2e7fe77c82685f2bbbf91d977be9b449233ae788e453d08a",
+      "af641d66de00566a1693daf22152de0af0fc4d60a4625511a5b05589ac54f8a5",
+      "6b0d6b6d614fee87320839945c08da3ed1122f916c14e6eaf6f250099e443807",
+      "1b83229de129b638463af5cdba9355a6a1b5241176299dc190f61c08d2780b6f",
+      "538ed9eb0ef22c93ec9bee6287ef45e82ea5d3a4e8651c0fce38b84feb1eb1ee",
+      "b1e1798b4235ed329dadb309d044ef9dc8bf015c074ba790b696ffef455105c7",
+      "d5c7bf7118cf45c5c059000901f1c91f0961ca64f604f5f765661e309d498516",
+      "d4d671542a5557983d0dc239964322622524c18cc9a38971881180202a07019d",
+      "305baec85a6faef4e32af80b8c7599ef745d115f709ca4b6a78b96a23ebf8f7a",
+      "69bce5d6063f1ad82b5c33f54885a8b867483fa610895fa91afd02909907c991",
+      "5f6f8a17c89bafe6deec4ad4e20d5a6c23473524b6c945a82f1125f82af4b57a",
+      "b8c47b7528a631653c017e3ad3cee456679ce63611f1005de29a81fbe7ef1b13",
+      "94667b5d0b07b7ae82362e4f0ceedbb916c4c0d3f6960c9a5858d00f4c75f87e",
+      "4af8bfabcc91b5e0d5dd6f9081d17bed2c938d04e70713c8533d3fa4830c85f5",
+      "96e03efe0c850472ff1182c56117187cb4f7669622847ba8eb739205dbb189e2",
+      "2d61419daa4c822a0fa3bc235448e45a43d58a5e4c7e3f967454159e4c5235c6"
+    ],
+    "maximum_canceled_displacement_m": 0.04478883743286133,
+    "canceled_maximum_by_frame_m": [
+      0.00036525726318359375,
+      0.005921363830566406,
+      0.006268024444580078,
+      0.020732402801513672,
+      0.02585124969482422,
+      0.02765798568725586,
+      0.028680801391601562,
+      0.02995920181274414,
+      0.033725738525390625,
+      0.037016868591308594,
+      0.040323734283447266,
+      0.043292999267578125,
+      0.043726444244384766,
+      0.04311800003051758,
+      0.042398929595947266,
+      0.0421748161315918,
+      0.04304790496826172,
+      0.04306650161743164,
+      0.043309688568115234,
+      0.04367828369140625,
+      0.04421234130859375,
+      0.04476356506347656,
+      0.04472017288208008,
+      0.04395341873168945,
+      0.04294013977050781,
+      0.03961372375488281,
+      0.031447410583496094,
+      0.02685546875,
+      0.02687215805053711,
+      0.019327640533447266,
+      0.030953407287597656,
+      0.039379119873046875,
+      0.043366432189941406,
+      0.043779850006103516,
+      0.04433631896972656,
+      0.04478883743286133
+    ],
+    "shape_key_count": 37,
+    "fall_attribute_sha256": "885023abbdeb7a02daf9b499aa283cc8ac891002a46e78318607d8db219a77d3",
+    "pond_attribute_sha256": "1dd010782c7c953a687ca523811c1b73c40a688d38984c35dc18aacd669ad74a",
+    "water_materials": [
+      "FW_Hybrid07_Water_Microflow"
+    ],
+    "water_modifiers": [],
+    "objects_count": 23441,
+    "scene_frame_saved": 24,
+    "animation_action": "WATER_BearRun_Continuous_Upstream_Downstream_mesh.001Action",
+    "all_other_geometry_and_scene_settings": "No other mutation operators or property assignments used"
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "vertices": 214563,
+      "polygons": 224758,
+      "render_triangulation_matches_basis": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "fixed_207943_max_move_m": 0.0,
+      "frozen_155_max_move_m": 0.0,
+      "normal_flipped_triangles": [],
+      "new_degenerate_triangles": 0,
+      "max_remaining_active_move_m": 0.003199296839865456,
+      "face_collision": {
+        "inside_samples": 77,
+        "inherited_inside_samples": 77,
+        "new_inside_samples": 0,
+        "new_inside_examples": [],
+        "worsened_inherited_inside_samples": 4,
+        "worsened_examples": [
+          {
+            "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+            "triangle": 210884,
+            "sample_kind": 3,
+            "world_point_m": [
+              1.1114225089550018,
+              -0.5515101402997971,
+              -3.127061128616333
+            ],
+            "detail": {
+              "basis_m": 0.04207437112927437,
+              "frame_m": 0.0421098992228508
+            }
+          },
+          {
+            "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+            "triangle": 413601,
+            "sample_kind": 1,
+            "world_point_m": [
+              1.1114225089550018,
+              -0.5515101402997971,
+              -3.127061128616333
+            ],
+            "detail": {
+              "basis_m": 0.04207437112927437,
+              "frame_m": 0.0421098992228508
+            }
+          },
+          {
+            "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+            "triangle": 413654,
+            "sample_kind": 0,
+            "world_point_m": [
+              2.4959775606791177,
+              -2.669867197672526,
+              -3.109333038330078
+            ],
+            "detail": {
+              "basis_m": 0.005764124449342489,
+              "frame_m": 0.005800239741802216
+            }
+          },
+          {
+            "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+            "triangle": 413655,
+            "sample_kind": 0,
+            "world_point_m": [
+              2.497937520345052,
+              -2.9967835744222002,
+              -3.122168779373169
+            ],
+            "detail": {
+              "basis_m": 0.03618162125349045,
+              "frame_m": 0.036236926913261414
+            }
+          }
+        ],
+        "near_contact_samples": 154,
+        "new_near_samples": 0,
+        "new_near_examples": [],
+        "uncertain_samples": 0,
+        "new_uncertain_samples": 0,
+        "new_uncertain_examples": []
+      },
+      "vertical_thickness_m": {
+        "count": 3053,
+        "min": 0.07103490829467773,
+        "max": 0.40538740158081055,
+        "median": 0.07549238204956055,
+        "mean": 0.07778210363503639
+      },
+      "vertical_ratio_to_basis": {
+        "count": 3053,
+        "min": 0.9951785099299736,
+        "max": 1.0111991589493996,
+        "median": 0.9999936930800474,
+        "mean": 0.9997123868996951
+      },
+      "minimum_vertical_pair": {
+        "probe": 2559,
+        "xy_m": [
+          0.92954848,
+          -2.25527509
+        ],
+        "thickness_m": 0.07103490829467773,
+        "basis_thickness_m": 0.07103729248046875,
+        "hits": [
+          [
+            -5.767521381378174,
+            0.9933363795280457,
+            422805
+          ],
+          [
+            -5.838556289672852,
+            -0.9906452298164368,
+            420821
+          ]
+        ]
+      },
+      "vertical_pair_failures": 0,
+      "vertical_pair_failure_examples": [],
+      "inward_normal_thickness_m": {
+        "count": 400,
+        "min": 0.06962218460035324,
+        "max": 0.7892109486122131,
+        "median": 0.07579557922077179,
+        "mean": 0.09009487806227806
+      },
+      "inward_ratio_to_basis": {
+        "count": 400,
+        "min": 0.984918563648516,
+        "max": 3.7820662256414095,
+        "median": 0.9985531811781041,
+        "mean": 1.0054106388724542
+      },
+      "inward_probe_failures": 1,
+      "new_inward_probe_failures": 0,
+      "new_inward_failure_examples": []
+    },
+    {
+      "frame": 2,
+      "vertices": 214563,
+      "polygons": 224758,
+      "render_triangulation_matches_basis": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "fixed_207943_max_move_m": 0.0,
+      "frozen_155_max_move_m": 0.0,
+      "normal_flipped_triangles": [],
+      "new_degenerate_triangles": 0,
+      "max_remaining_active_move_m": 0.006726741790771484,
+      "face_collision": {
+        "inside_samples": 77,
+        "inherited_inside_samples": 77,
+        "new_inside_samples": 0,
+        "new_inside_examples": [],
+        "worsened_inherited_inside_samples": 3,
+        "worsened_examples": [
+          {
+            "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+            "triangle": 210884,
+            "sample_kind": 0,
+            "world_point_m": [
+              1.113112986087799,
+              -0.664128134648005,
+              -3.1248827775319414
+            ],
+            "detail": {
+              "basis_m": 0.02806711010634899,
+              "frame_m": 0.02811790630221367
+            }
+          },
+          {
+            "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+            "triangle": 210884,
+            "sample_kind": 3,
+            "world_point_m": [
+              1.1114955842494965,
+              -0.551471158862114,
+              -3.127061128616333
+            ],
+            "detail": {
+              "basis_m": 0.04207437112927437,
+              "frame_m": 0.0421576052904129
+            }
+          },
+          {
+            "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+            "triangle": 413601,
+            "sample_kind": 1,
+            "world_point_m": [
+              1.1114955842494965,
+              -0.551471158862114,
+              -3.127061128616333
+            ],
+            "detail": {
+              "basis_m": 0.04207437112927437,
+              "frame_m": 0.0421576052904129
+            }
+          }
+        ],
+        "near_contact_samples": 154,
+        "new_near_samples": 0,
+        "new_near_examples": [],
+        "uncertain_samples": 1,
+        "new_uncertain_samples": 1,
+        "new_uncertain_examples": [
+          {
+            "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+            "triangle": 409214,
+            "sample_kind": 0,
+            "world_point_m": [
+              1.6006606022516885,
+              -1.2760975360870361,
+              -3.11969510714213
+            ],
+            "detail": {
+              "nearest_m": 0.05980977788567543,
+              "parity": [
+                1,
+                0,
+                0
+              ]
+            }
+          }
+        ]
+      },
+      "vertical_thickness_m": {
+        "count": 3052,
+        "min": 0.0668492317199707,
+        "max": 0.40276098251342773,
+        "median": 0.0754697322845459,
+        "mean": 0.07759232102340358
+      },
+      "vertical_ratio_to_basis": {
+        "count": 3052,
+        "min": 0.9292265788306835,
+        "max": 1.005445605970578,
+        "median": 0.9999811159824881,
+        "mean": 0.9974427479824789
+      },
+      "minimum_vertical_pair": {
+        "probe": 2468,
+        "xy_m": [
+          0.89348714,
+          -2.27682853
+        ],
+        "thickness_m": 0.0668492317199707,
+        "basis_thickness_m": 0.07158088684082031,
+        "hits": [
+          [
+            -5.772459983825684,
+            0.9930768013000488,
+            418237
+          ],
+          [
+            -5.839309215545654,
+            -0.989220917224884,
+            420822
+          ]
+        ]
+      },
+      "vertical_pair_failures": 1,
+      "vertical_pair_failure_examples": [
+        {
+          "probe": 2538,
+          "xy_m": [
+            0.9212416,
+            -2.0550184
+          ],
+          "hits": [
+            [
+              -5.401077747344971,
+              -0.24862535297870636,
+              413085
+            ],
+            [
+              -5.7481889724731445,
+              0.9963560700416565,
+              429091
+            ],
+            [
+              -5.823650360107422,
+              -0.9953532814979553,
+              420900
+            ]
+          ]
+        }
+      ],
+      "inward_normal_thickness_m": {
+        "count": 400,
+        "min": 0.06319898691368103,
+        "max": 0.5271236034889221,
+        "median": 0.07588024761867523,
+        "mean": 0.09087344512683156
+      },
+      "inward_ratio_to_basis": {
+        "count": 400,
+        "min": 0.8602020580802952,
+        "max": 4.8863435374723885,
+        "median": 0.9956466032330644,
+        "mean": 1.0251594338053602
+      },
+      "inward_probe_failures": 1,
+      "new_inward_probe_failures": 0,
+      "new_inward_failure_examples": []
+    }
+  ],
+  "reopen_preservation": {
+    "base_mesh_and_basis_unchanged": true,
+    "render_triangle_indices_unchanged": true,
+    "all_36_keys_outside_ring_unchanged": true,
+    "fall_pond_attributes_unchanged": true,
+    "core_world_geometry_unchanged": true,
+    "source_file_unchanged": true,
+    "water_materials_unchanged": true,
+    "water_modifiers_unchanged": true,
+    "scene_objects_count_unchanged": true,
+    "shape_key_action_name_unchanged": true
+  },
+  "geometry": {
+    "vertices": 214563,
+    "polygons": 224758,
+    "render_triangles": 429122,
+    "active_vertices": 6620,
+    "fixed_external_vertices": 207943,
+    "frozen_vertices": 155,
+    "frozen_fraction_of_active": 0.023413897280966767,
+    "frozen_world_bounds_m": [
+      [
+        0.4053235948085785,
+        0.9012416005134583
+      ],
+      [
+        -2.468675136566162,
+        -2.0083019733428955
+      ],
+      [
+        -5.793750762939453,
+        -5.7233662605285645
+      ]
+    ],
+    "frozen_local_s_c_z_bounds_m": [
+      [
+        1.054956820499008,
+        1.4127615340730806
+      ],
+      [
+        -1.634225467720266,
+        -1.0482297160968344
+      ],
+      [
+        -5.793750762939453,
+        -5.7233662605285645
+      ]
+    ],
+    "freeze_adjacent_triangles": 410,
+    "freeze_adjacent_basis_area_m2": 0.08249227879048526,
+    "all_active_related_triangles": 13484,
+    "normal_base_cross_magnitude_threshold": 1e-09,
+    "normal_failure_rule": "Basis cross magnitude > 1e-9 and dot(Basis cross, evaluated cross) < 0",
+    "basis_boundary_edges": 0,
+    "basis_nonmanifold_edges": 0
+  },
+  "collision_method": {
+    "rocks": [
+      "SITE_Core_Continuous_Fractured_Sandstone"
+    ],
+    "faces": "Every render triangle touching any of 6620 active vertices",
+    "samples_per_face": 4,
+    "sample_locations": [
+      "centroid",
+      "edge01_midpoint",
+      "edge12_midpoint",
+      "edge20_midpoint"
+    ],
+    "classification": "Actual rock render-triangle BVH nearest point plus 3-direction parity for negative signed side; >0.5 mm = confirmed inside; nearer samples retained as contact/uncertainty, never silently pass",
+    "baseline": "Same face id and barycentric sample at immutable Basis; inherited contacts retained separately",
+    "limitation": "Four samples per triangle do not prove continuous triangle interiors or edges have no unsampled intersection; no exact all-pairs intersection proof"
+  },
+  "basis_face_contact": {
+    "inside_samples": 77,
+    "near_contact_samples": 154,
+    "uncertain_parity_samples": 0,
+    "inside_examples": [
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210780,
+        "sample_kind": 2,
+        "world_point_m": [
+          1.861840844154358,
+          -0.6137501895427704,
+          -3.0977063179016113
+        ],
+        "detail": 0.008121706545352936
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210835,
+        "sample_kind": 0,
+        "world_point_m": [
+          1.8459571997324624,
+          -0.9107495148976643,
+          -3.099978446960449
+        ],
+        "detail": 0.0007909825653769076
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210835,
+        "sample_kind": 2,
+        "world_point_m": [
+          1.7850579023361206,
+          -1.0041355192661285,
+          -3.1016759872436523
+        ],
+        "detail": 0.002053116448223591
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210835,
+        "sample_kind": 3,
+        "world_point_m": [
+          1.8155755400657654,
+          -0.8145936727523804,
+          -3.101097345352173
+        ],
+        "detail": 0.006658763624727726
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210884,
+        "sample_kind": 0,
+        "world_point_m": [
+          1.1130431095759072,
+          -0.6641654074192047,
+          -3.1248827775319414
+        ],
+        "detail": 0.02806711010634899
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210884,
+        "sample_kind": 1,
+        "world_point_m": [
+          1.196772277355194,
+          -0.6703187674283981,
+          -3.12272846698761
+        ],
+        "detail": 0.04738706722855568
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210884,
+        "sample_kind": 3,
+        "world_point_m": [
+          1.1113684177398682,
+          -0.5515389889478683,
+          -3.127061128616333
+        ],
+        "detail": 0.04207437112927437
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210885,
+        "sample_kind": 0,
+        "world_point_m": [
+          1.3047900994618733,
+          -0.8903265198071797,
+          -3.119266668955485
+        ],
+        "detail": 0.023207545280456543
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210885,
+        "sample_kind": 1,
+        "world_point_m": [
+          1.3989889025688171,
+          -0.8907806575298309,
+          -3.118636965751648
+        ],
+        "detail": 0.037799566984176636
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210885,
+        "sample_kind": 3,
+        "world_point_m": [
+          1.2758883833885193,
+          -0.7936533391475677,
+          -3.1191235780715942
+        ],
+        "detail": 0.0411396250128746
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210889,
+        "sample_kind": 0,
+        "world_point_m": [
+          1.8356721798578897,
+          -1.2913672526677449,
+          -3.1125567754109698
+        ],
+        "detail": 0.0005805532564409077
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210892,
+        "sample_kind": 0,
+        "world_point_m": [
+          2.5386383533477783,
+          -2.2010482947031655,
+          -3.090206623077392
+        ],
+        "detail": 0.007414460647851229
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210892,
+        "sample_kind": 1,
+        "world_point_m": [
+          2.5190420150756836,
+          -2.2682745456695557,
+          -3.093843460083008
+        ],
+        "detail": 0.012295928783714771
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210892,
+        "sample_kind": 2,
+        "world_point_m": [
+          2.4476813077926636,
+          -2.139610767364502,
+          -3.0966334342956543
+        ],
+        "detail": 0.006105165462940931
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210892,
+        "sample_kind": 3,
+        "world_point_m": [
+          2.649191737174988,
+          -2.1952595710754395,
+          -3.0801429748535156
+        ],
+        "detail": 0.00761033222079277
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210893,
+        "sample_kind": 0,
+        "world_point_m": [
+          2.6159442265828448,
+          -2.4933970769246416,
+          -3.0921199321746826
+        ],
+        "detail": 0.026288378983736038
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210893,
+        "sample_kind": 1,
+        "world_point_m": [
+          2.5636401176452637,
+          -2.5781339406967163,
+          -3.0995033979415894
+        ],
+        "detail": 0.0348590724170208
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210893,
+        "sample_kind": 2,
+        "world_point_m": [
+          2.5893428325653076,
+          -2.39763081073761,
+          -3.0967724323272705
+        ],
+        "detail": 0.027873588725924492
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210893,
+        "sample_kind": 3,
+        "world_point_m": [
+          2.694849729537964,
+          -2.5044264793395996,
+          -3.080083966255188
+        ],
+        "detail": 0.01650502160191536
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210894,
+        "sample_kind": 0,
+        "world_point_m": [
+          2.586687882741292,
+          -2.839224338531494,
+          -3.103496710459391
+        ],
+        "detail": 0.04179617762565613
+      }
+    ],
+    "near_examples": [
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 210889,
+        "sample_kind": 1,
+        "world_point_m": [
+          1.8414771556854248,
+          -1.2357692122459412,
+          -3.1102259159088135
+        ],
+        "detail": 8.02578724687919e-05
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409059,
+        "sample_kind": 3,
+        "world_point_m": [
+          1.7268667817115784,
+          -1.2788022756576538,
+          -3.1208449602127075
+        ],
+        "detail": 1.1920928955078125e-07
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409102,
+        "sample_kind": 0,
+        "world_point_m": [
+          1.515259027481079,
+          -1.0885192155838013,
+          -3.133472204208374
+        ],
+        "detail": 7.870819536037743e-05
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409102,
+        "sample_kind": 1,
+        "world_point_m": [
+          1.5159387588500977,
+          -1.087285339832306,
+          -3.136167526245117
+        ],
+        "detail": 0.0
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409102,
+        "sample_kind": 2,
+        "world_point_m": [
+          1.512499749660492,
+          -1.0889519453048706,
+          -3.12883985042572
+        ],
+        "detail": 0.0
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409102,
+        "sample_kind": 3,
+        "world_point_m": [
+          1.5173385739326477,
+          -1.0893203616142273,
+          -3.1354092359542847
+        ],
+        "detail": 0.00011804152018157765
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409103,
+        "sample_kind": 1,
+        "world_point_m": [
+          1.6664981842041016,
+          -1.234469473361969,
+          -3.1292964220046997
+        ],
+        "detail": 1.1920928955078125e-07
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409135,
+        "sample_kind": 0,
+        "world_point_m": [
+          1.503669778505961,
+          -1.0717886686325073,
+          -3.1376611391703286
+        ],
+        "detail": 0.0
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409135,
+        "sample_kind": 1,
+        "world_point_m": [
+          1.5038856863975525,
+          -1.070482075214386,
+          -3.1396031379699707
+        ],
+        "detail": 1.6858739115832577e-07
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409135,
+        "sample_kind": 2,
+        "world_point_m": [
+          1.5020991563796997,
+          -1.0713393688201904,
+          -3.135939836502075
+        ],
+        "detail": 1.1920928955078125e-07
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409135,
+        "sample_kind": 3,
+        "world_point_m": [
+          1.505024492740631,
+          -1.0735445618629456,
+          -3.1374404430389404
+        ],
+        "detail": 0.0
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409152,
+        "sample_kind": 0,
+        "world_point_m": [
+          1.5295328696568806,
+          -1.1068923473358154,
+          -3.130214770634969
+        ],
+        "detail": 0.00011258489394094795
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409152,
+        "sample_kind": 1,
+        "world_point_m": [
+          1.5251684188842773,
+          -1.1064030528068542,
+          -3.123854875564575
+        ],
+        "detail": 1.4127684153208975e-05
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409152,
+        "sample_kind": 2,
+        "world_point_m": [
+          1.5317334532737732,
+          -1.1072832942008972,
+          -3.1334115266799927
+        ],
+        "detail": 0.00016892461280804127
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409152,
+        "sample_kind": 3,
+        "world_point_m": [
+          1.5316967368125916,
+          -1.1069906949996948,
+          -3.1333779096603394
+        ],
+        "detail": 0.0
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409164,
+        "sample_kind": 0,
+        "world_point_m": [
+          1.5310242573420205,
+          -1.1091856559117634,
+          -3.129708369572957
+        ],
+        "detail": 0.000312391493935138
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409164,
+        "sample_kind": 1,
+        "world_point_m": [
+          1.5317334532737732,
+          -1.1072832942008972,
+          -3.1334115266799927
+        ],
+        "detail": 0.00016892461280804127
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409164,
+        "sample_kind": 2,
+        "world_point_m": [
+          1.5274055004119873,
+          -1.1098430156707764,
+          -3.1230952739715576
+        ],
+        "detail": 1.1920928955078125e-07
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409164,
+        "sample_kind": 3,
+        "world_point_m": [
+          1.5339338183403015,
+          -1.110430657863617,
+          -3.1326183080673218
+        ],
+        "detail": 0.00029963781707920134
+      },
+      {
+        "rock": "SITE_Core_Continuous_Fractured_Sandstone",
+        "triangle": 409165,
+        "sample_kind": 2,
+        "world_point_m": [
+          1.6046295166015625,
+          -1.1825653910636902,
+          -3.1386399269104004
+        ],
+        "detail": 0.0
+      }
+    ],
+    "uncertain_examples": []
+  },
+  "thickness_method": {
+    "vertical_candidates": 3232,
+    "baseline_regular_top_bottom_pairs": 3053,
+    "baseline_unpaired_or_multilayer_excluded": 179,
+    "vertical_probe_xy_bounds_m": [
+      [
+        -0.09513804,
+        1.52910459
+      ],
+      [
+        -2.94995856,
+        -1.55671565
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "ray_from_z_m": -5.4,
+    "ray_to_z_m": -6.4,
+    "ray_advance_epsilon_m": 2e-06,
+    "pair_rule": "Exactly two hits, first nz > 0.20 and second nz < -0.20, ordered z(top) > z(bottom)",
+    "basis_vertical_thickness_m": {
+      "count": 3053,
+      "min": 0.07103729248046875,
+      "max": 0.4029092788696289,
+      "median": 0.07549858093261719,
+      "mean": 0.07780058736142041
+    },
+    "inward_probe_faces": 401,
+    "basis_inward_thickness_m": {
+      "count": 400,
+      "min": 0.0702173742313385,
+      "max": 0.5186915728111267,
+      "median": 0.07593707692217827,
+      "mean": 0.08874960353937748
+    },
+    "basis_inward_failures": [
+      {
+        "triangle": 429115,
+        "reason": "no_opposite_hit_within_1.5m"
+      }
+    ],
+    "limits": [
+      "Vertical probes only where Basis has a regular top/bottom pair; branch intersections and multiple layers excluded and counted",
+      "Normal rays can be affected by micron triangles or concave shell shape; baseline exceptions retained",
+      "Finite ray samples are actual local measurements, not a proof of all continuous surface thickness or global self-intersection absence"
+    ]
+  }
+}

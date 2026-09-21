@@ -1,0 +1,1779 @@
+{
+  "status": "PASS_NATIVE_LIBRARY_FULL_NAV10A_REGRESSION_NO_RENDER",
+  "source_sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_navigation_candidate10a.blend",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_forest_canopy_integration11.blend",
+  "source_frame": 73,
+  "physical_comparison_frame": 48,
+  "dependencies": {
+    "scripts\\forest_canopy_detail11.py": "19e7b58bfd00e262eef3d508470d7323fb2f32d2d926d411567a4067d38b8c3e",
+    "data\\forest_canopy11.json": "bc5c8a738061c4f62b933ac813ca11e20384509df852bad2a7a7bece88e22780",
+    "assets\\models\\site_canopy18.blend": "e8b71be6374f278283148c4975835850dd80dfd4c08e1097b85091130ff82829"
+  },
+  "route_sha256": "1a6b3deab73cfc8124608884646fca34903a576ee98cf4a48b30739bd83a2614",
+  "rendered": false,
+  "production_wiring_changed": false,
+  "disabled": {
+    "status": "NOT_RUN_DISABLED"
+  },
+  "wrong_root_rejected": "No changes applied: [['TREE_Landmark_00_Branches', 'root/world matrix changed']]",
+  "wrong_data_rejected": "No changes applied: [['TREE_Landmark_00_Branches', 'unapproved assigned mesh name/strict content signature', 'TREE_Asset_7_Woody_Branches', 'ce3d53ab38000930cd643763fa5b18375e5c3f773e96978b81ac8a88df5db27f']]",
+  "source_original_signatures": {
+    "TREE_Asset_0_Woody_Branches": "f9c982b2bcacc17e57e753f9da82d9fca0cb07d4ef40c73a2d67cd6122047b24",
+    "TREE_Asset_0_Individual_Leaves": "af611476381b8bba40247db8620037e37871f90d6f8e668959527ee17ba6f91c",
+    "TREE_Asset_7_Woody_Branches": "ce3d53ab38000930cd643763fa5b18375e5c3f773e96978b81ac8a88df5db27f",
+    "TREE_Asset_7_Individual_Leaves": "b9926d2e07645bfcdf5f5f669b10a9b2dfc772ac37c57e6fa53bb24c97f7cab9",
+    "TREE_Asset_8_Woody_Branches": "a11dedd5200a4269a2b7cd2b97576af1b84210ddacf517afaacf8dbe3f4f8854",
+    "TREE_Asset_8_Individual_Leaves": "b0e1c74507c1b44242b62d11f2213dde74ce4d6f635b5fc50f1c6266205861f4"
+  },
+  "application": {
+    "status": "APPLIED_ACCEPTED_18_ROOT_CANOPY_VISUAL_SCOPE_ONLY",
+    "instances": 18,
+    "target_objects": 36,
+    "mutated_properties": [
+      "object.data"
+    ],
+    "labels_changed": false,
+    "accepted_candidate_sha256": "b8b46f839afa980229222be4ec92f58ad3d6c76ba88313d579a009a1a8a0c16b",
+    "library_sha256": "e8b71be6374f278283148c4975835850dd80dfd4c08e1097b85091130ff82829",
+    "mesh_signatures": {
+      "TREE_Forest11_0_Woody_Branches": "15459241be226a469b64913fd129f15dd6ce716e6f4696979108a503a05b0931",
+      "TREE_Forest11_0_Individual_Leaves": "96ef0e40808949f18aba1a00d873092c978ed1986121017ddc72832abb6aa327",
+      "TREE_Forest11_7_Woody_Branches": "0eba9effe658c86dfc0e8269cb37df4ca4de00498569b04259d136da71860b1e",
+      "TREE_Forest11_7_Individual_Leaves": "2e49646fa923b89f7010d36b6089e08e66a0f5360a1b09c98a9a1fab196bfd61",
+      "TREE_Forest11_8_Woody_Branches": "63c460a4fe489d7dc1c71eabad900e80d1c97c57268d23fef470f44640585848",
+      "TREE_Forest11_8_Individual_Leaves": "c0c215e7eabea0119894803aff3d23e2d1ff00813c367a38c2e606434493a115"
+    },
+    "limits": "Local canopy shape only; global forest/photographic acceptance still failed. Recheck current route and actual cameras."
+  },
+  "repeat": {
+    "status": "SKIPPED_ALREADY_APPLIED",
+    "instances": 18,
+    "target_objects": 36,
+    "mutated_properties": []
+  },
+  "partial_state_rejected": "Partial previous application; no changes applied",
+  "per_face_material_indices_exact": {
+    "TREE_Forest11_0_Woody_Branches": {
+      "0": 22754
+    },
+    "TREE_Forest11_0_Individual_Leaves": {
+      "0": 128232,
+      "1": 16752,
+      "2": 6552
+    },
+    "TREE_Forest11_7_Woody_Branches": {
+      "0": 5208
+    },
+    "TREE_Forest11_7_Individual_Leaves": {
+      "0": 23976,
+      "1": 3384,
+      "2": 1344
+    },
+    "TREE_Forest11_8_Woody_Branches": {
+      "0": 8162
+    },
+    "TREE_Forest11_8_Individual_Leaves": {
+      "0": 37116,
+      "1": 5580,
+      "2": 2232
+    }
+  },
+  "current_route_regression": {
+    "ray_count": 12264,
+    "baseline_target_hits": 0,
+    "candidate_target_hits": 0,
+    "new_obstacles": [],
+    "segments": [
+      {
+        "id": "EXTERIOR",
+        "mode": "EXTERIOR_FREE_FLIGHT",
+        "new_obstacles": 0
+      },
+      {
+        "id": "ENTRY_TO_LIVING",
+        "mode": "NORMAL_WALK_THROUGH_OPENING",
+        "new_obstacles": 0
+      },
+      {
+        "id": "LIVING",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "KITCHEN",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MASTER",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "STUDY",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "CONNECTOR",
+        "mode": "NORMAL_WALK_ON_STAIRS",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_LOUNGE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_BEDROOM",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "POOL_TERRACE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_WINE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_BOILER",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_STAIR",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_FOUNDATION_1",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_FOUNDATION_2",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_FOUNDATION_3",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_B_PLUNGE",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_SERVANT",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_SERVICE_STAIR",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_COAT",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_STAIR",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_LOGGIA",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_TERRACE_W",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_TERRACE_E",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L1_HATCH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_DRESSING",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_BATH_N",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_BATH_G",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_BATH_M",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_HALL",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_GUEST",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_TERRACE_W",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_TERRACE_S",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_TERRACE_E",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_TERRACE_N",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_STAIR",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_CLOSET_M",
+        "mode": "NORMAL_WALK_STORAGE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L2_CLOSET_G",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_GALLERY",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_ALCOVE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_TERRACE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "MAIN_L3_STAIR",
+        "mode": "FREE_INSPECTION",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_THEATER",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_CAR_COURT",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_BOILER",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_GALLERY",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L1_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_B1_LAUNDRY",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_B1_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_B1_STAIR",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_BEDROOM_SOUTH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_BEDROOM_MIDDLE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_BEDROOM_NORTH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_BATH",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_HALL",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      },
+      {
+        "id": "GUEST_L2_TERRACE",
+        "mode": "NORMAL_WALK",
+        "new_obstacles": 0
+      }
+    ],
+    "scope": "Full frozen08 segmented route against every modified object; all unmodified objects fingerprinted. Does not claim new room adjacency or GUI acceptance."
+  },
+  "all_current_cameras": [
+    {
+      "name": "CAM_MAIN_B_WINE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 10.312594413757324,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_WINE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.415846824645996,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_BATH_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.200432777404785,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_BATH_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.407155990600586,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_BOILER_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.846641540527344,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_BOILER_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.597332954406738,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_STAIR_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 10.15686321258545,
+      "nearest_owner": "TREE_Landmark_00_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_STAIR_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.807719230651855,
+      "nearest_owner": "TREE_Landmark_00_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_1_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.452384948730469,
+      "nearest_owner": "TREE_Sapling_088_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_1_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.547202110290527,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_2_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 14.34975528717041,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_2_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 14.279365539550781,
+      "nearest_owner": "TREE_Sapling_078_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_3_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.991191864013672,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_FOUNDATION_3_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.259026527404785,
+      "nearest_owner": "TREE_Sapling_078_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_PLUNGE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 6.949528217315674,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_B_PLUNGE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 3.527074098587036,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_LIVING_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.142105102539062,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_LIVING_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.064971923828125,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_KITCHEN_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 10.468524932861328,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_KITCHEN_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 8.872832298278809,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_SERVANT_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 8.902587890625,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_SERVANT_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 8.640216827392578,
+      "nearest_owner": "TREE_Landmark_00_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 10.981813430786133,
+      "nearest_owner": "TREE_Landmark_00_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.469182968139648,
+      "nearest_owner": "TREE_Landmark_00_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_ENTRY_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.56941032409668,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_ENTRY_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.366593360900879,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_COAT_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.209617614746094,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_COAT_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.908724784851074,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_STAIR_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.128273010253906,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_STAIR_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 14.102428436279297,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_LOGGIA_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 6.949528217315674,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_LOGGIA_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 7.3556976318359375,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_TERRACE_W_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 6.987387180328369,
+      "nearest_owner": "TREE_Sapling_088_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_TERRACE_W_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 10.275257110595703,
+      "nearest_owner": "TREE_Sapling_088_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_TERRACE_E_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.099802017211914,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_TERRACE_E_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 7.625740051269531,
+      "nearest_owner": "TREE_Sapling_078_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_HATCH_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.967238426208496,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L1_HATCH_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.151082992553711,
+      "nearest_owner": "TREE_Sapling_078_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_DRESSING_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 8.702567100524902,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_DRESSING_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 6.3415350914001465,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_MASTER_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 8.71987533569336,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_MASTER_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.647566795349121,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_N_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.070985794067383,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_N_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.969358444213867,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_G_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.67418384552002,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_G_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.137375831604004,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_M_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.73159408569336,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_BATH_M_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.04314136505127,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_HALL_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 10.506877899169922,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_HALL_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.94778060913086,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_GUEST_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.33112907409668,
+      "nearest_owner": "TREE_Sapling_078_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_GUEST_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.944145202636719,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_W_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 5.067559719085693,
+      "nearest_owner": "TREE_Sapling_037_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_W_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 8.641861915588379,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_S_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.397449493408203,
+      "nearest_owner": "TREE_Near_006_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_S_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 10.867311477661133,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_E_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 1.9840006828308105,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_E_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 7.679916858673096,
+      "nearest_owner": "TREE_Sapling_078_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_N_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 14.668436050415039,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_TERRACE_N_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 14.202398300170898,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_STAIR_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.471333503723145,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_STAIR_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.092667579650879,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_CLOSET_M_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 8.202995300292969,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_CLOSET_M_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.346244812011719,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_CLOSET_G_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.576251029968262,
+      "nearest_owner": "TREE_Sapling_078_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L2_CLOSET_G_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.787675857543945,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_STUDY_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 7.747042179107666,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_STUDY_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 6.295098304748535,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_BATH_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.540609359741211,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_BATH_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.0198974609375,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_GALLERY_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 7.773124694824219,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_GALLERY_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.033944129943848,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_ALCOVE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.626777648925781,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_ALCOVE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.774046897888184,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_TERRACE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.274198532104492,
+      "nearest_owner": "TREE_Sapling_078_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_TERRACE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 7.033145427703857,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_LINK_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.665570259094238,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_LINK_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.545352935791016,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_STAIR_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 8.861056327819824,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_L3_STAIR_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.034208297729492,
+      "nearest_owner": "TREE_Landmark_00_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_THEATER_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 27.60234832763672,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_THEATER_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 27.711360931396484,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_CAR_COURT_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 26.04636001586914,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_CAR_COURT_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 26.310565948486328,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 24.452739715576172,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 22.272640228271484,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_BOILER_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 21.619821548461914,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_BOILER_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 19.398365020751953,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_STAIR_HALL_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 21.757877349853516,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_STAIR_HALL_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 20.04450225830078,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_LOUNGE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 15.034612655639648,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_LOUNGE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.192914962768555,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_GALLERY_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 14.62574291229248,
+      "nearest_owner": "TREE_Near_000_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_GALLERY_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 15.328265190124512,
+      "nearest_owner": "TREE_Near_000_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_BATH_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.530755043029785,
+      "nearest_owner": "TREE_Near_000_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_BATH_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.367010116577148,
+      "nearest_owner": "TREE_Near_000_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 13.541274070739746,
+      "nearest_owner": "TREE_Near_000_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.592360496520996,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_TERRACE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 9.070011138916016,
+      "nearest_owner": "TREE_Near_000_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_TERRACE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 14.417778968811035,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_POOL_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 6.379454135894775,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L1_POOL_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 12.126659393310547,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_B1_LAUNDRY_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 23.140474319458008,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_B1_LAUNDRY_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 23.788433074951172,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_B1_BATH_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 25.88070297241211,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_B1_BATH_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 24.332054138183594,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_B1_STAIR_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 22.560932159423828,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_B1_STAIR_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 22.508647918701172,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 25.0662899017334,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 21.430938720703125,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 25.37727928161621,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 23.49911880493164,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 27.338407516479492,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 26.339664459228516,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BATH_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 25.545724868774414,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_BATH_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 23.183624267578125,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_HALL_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 19.49193000793457,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_HALL_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 21.110454559326172,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_TERRACE_A",
+      "frame": 48,
+      "nearest_added_geometry_m": 31.317462921142578,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_L2_TERRACE_B",
+      "frame": 48,
+      "nearest_added_geometry_m": 25.944416046142578,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_HERO",
+      "frame": 48,
+      "nearest_added_geometry_m": 15.460885047912598,
+      "nearest_owner": "TREE_Sapling_002_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_MAIN_OVERVIEW",
+      "frame": 48,
+      "nearest_added_geometry_m": 5.871187210083008,
+      "nearest_owner": "TREE_Landmark_03_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_UPSTREAM",
+      "frame": 48,
+      "nearest_added_geometry_m": 2.4301722049713135,
+      "nearest_owner": "TREE_Sapling_018_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_WATER_DETAIL",
+      "frame": 48,
+      "nearest_added_geometry_m": 6.139110088348389,
+      "nearest_owner": "TREE_Sapling_002_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_ENTRY",
+      "frame": 48,
+      "nearest_added_geometry_m": 4.248466491699219,
+      "nearest_owner": "TREE_Sapling_078_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_CONNECTOR",
+      "frame": 48,
+      "nearest_added_geometry_m": 3.6084306240081787,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_OVERVIEW",
+      "frame": 48,
+      "nearest_added_geometry_m": 0.40651026368141174,
+      "nearest_owner": "TREE_Near_015_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_GUEST_POOL",
+      "frame": 48,
+      "nearest_added_geometry_m": 6.007664680480957,
+      "nearest_owner": "TREE_Near_000_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_SITE_OVERVIEW",
+      "frame": 48,
+      "nearest_added_geometry_m": 48.10875701904297,
+      "nearest_owner": "TREE_Landmark_03_Branches",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_TOUR",
+      "frame": 48,
+      "nearest_added_geometry_m": 18.728269577026367,
+      "nearest_owner": "TREE_Sapling_002_Leaves",
+      "pass_0_40m": true
+    },
+    {
+      "name": "CAM_TOUR_SUPPLEMENTAL",
+      "frame": 48,
+      "nearest_added_geometry_m": 11.386972427368164,
+      "nearest_owner": "TREE_Landmark_00_Branches",
+      "pass_0_40m": true
+    }
+  ],
+  "movie_added_canopy_clearance": [
+    {
+      "camera": "CAM_TOUR",
+      "integer_frames": 2880,
+      "closest_added_canopy_m": 5.652801513671875,
+      "closest": {
+        "frame": 1776,
+        "segment": "STUDY",
+        "owner": "TREE_Landmark_00_Leaves",
+        "point": [
+          -2.8400800228118896,
+          13.606880187988281,
+          6.864150047302246
+        ]
+      },
+      "failures": [],
+      "camera_clearance_threshold_m": 0.13,
+      "direct_evaluated_matrix_sample_max_error_m": 0
+    },
+    {
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "integer_frames": 4704,
+      "closest_added_canopy_m": 3.3519697189331055,
+      "closest": {
+        "frame": 3553,
+        "segment": "MAIN_B_PLUNGE",
+        "owner": "TREE_Sapling_078_Leaves",
+        "point": [
+          19.313600540161133,
+          9.027000427246094,
+          -0.8999999761581421
+        ]
+      },
+      "failures": [],
+      "camera_clearance_threshold_m": 0.13,
+      "direct_evaluated_matrix_sample_max_error_m": 0
+    }
+  ],
+  "hard_added_intersection_pairs": 0,
+  "root_checks": [
+    {
+      "name": "TREE_Landmark_00_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012015223503112793
+    },
+    {
+      "name": "TREE_Landmark_03_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012000001966953278
+    },
+    {
+      "name": "TREE_Near_000_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Near_006_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.011999964714050293
+    },
+    {
+      "name": "TREE_Near_015_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Near_018_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012007594108581543
+    },
+    {
+      "name": "TREE_Sapling_002_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_018_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012015257030725479
+    },
+    {
+      "name": "TREE_Sapling_022_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_032_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_078_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012030601501464844
+    },
+    {
+      "name": "TREE_Sapling_086_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_088_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012007653713226318
+    },
+    {
+      "name": "TREE_Sapling_013_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.012000024318695068
+    },
+    {
+      "name": "TREE_Sapling_017_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.011992370709776878
+    },
+    {
+      "name": "TREE_Sapling_033_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.011981010437011719
+    },
+    {
+      "name": "TREE_Sapling_037_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.011999964714050293
+    },
+    {
+      "name": "TREE_Sapling_071_Leaves",
+      "matrix_error": 0.0,
+      "actual_terrain_root_gap_m": -0.01199999451637268
+    }
+  ],
+  "protected_physics": {
+    "SITE_Continuous_BearRun_Terrain": {
+      "sha256": "4973df898d33fdea97cbabaeb6aaf2a6a3277f0f09743bd92133a074c9ea6136",
+      "triangles": 255884
+    },
+    "SITE_Core_Continuous_Fractured_Sandstone": {
+      "sha256": "a5b9c216ab0f9897f3d74fcc0faf9d308b759795fb92944b7a60211309b70a22",
+      "triangles": 23750
+    },
+    "SITE_Cascade_Shoulder_Continuous_0": {
+      "sha256": "b499949a4326bb35c01284055c07a00a81542e285b95a8c63ccab1f9654f49ef",
+      "triangles": 13870
+    },
+    "SITE_Cascade_Shoulder_Continuous_1": {
+      "sha256": "ef119e981b47a96b8f4db2b7e7e66ea3042e95f30542008f3c9ecf94b6e42065",
+      "triangles": 10186
+    },
+    "SITE_Path_bridge_south_approach": {
+      "sha256": "743430504b3748738cd671cf4cbc639c265080d9735383ee2c11a71cc322f58a",
+      "triangles": 8
+    },
+    "SITE_Path_bridge_north_approach": {
+      "sha256": "887fdd325b0532f858b177071472cd70aad85d23d6ec766d615adc026da15a8e",
+      "triangles": 10
+    },
+    "SITE_Path_upper_access_road": {
+      "sha256": "1c8f90eefdda352d5e4db7190eedd11ca481ea3c52790e438ace97c17c893db3",
+      "triangles": 16
+    },
+    "SITE_Bridge10_Concrete_W": {
+      "sha256": "b1ab740a89981175123d9294bfadce2d3ee53621fdf0bfef4d7b8a94081b8a11",
+      "triangles": 540
+    },
+    "SITE_Bridge10_Concrete_E": {
+      "sha256": "4b8101b8ed6b92a1258d91274733fed68430d7553f4ecb38828c1159581be91a",
+      "triangles": 540
+    },
+    "SITE_Bridge10_Stone_Return_SW": {
+      "sha256": "c250a3356cdadbc42baedc221957f097a8ca5ac73525a9c20576e3e3f96baf43",
+      "triangles": 7360
+    },
+    "SITE_Bridge10_Stone_Return_SE": {
+      "sha256": "3e0a109625fdb821c5226d42b3b4d918d82063fa2cd49125a205211da484b504",
+      "triangles": 5868
+    },
+    "SITE_Bridge10_Stone_Return_NW": {
+      "sha256": "df456c4517a6f85af11a6a13b473ae10c57be454706d12c270aa323e6abe939f",
+      "triangles": 2376
+    },
+    "SITE_Bridge10_Stone_Return_NE": {
+      "sha256": "2eb74f4fc00b8438980781291f80b9edd6d3dcc7cd5d563232a12fd5bdf416cb",
+      "triangles": 3552
+    },
+    "SITE_Bridge10_West_Deck_Edge_Closure": {
+      "sha256": "764e8f7763be9dcf777d00775519074a870fef9c03d3bc1c75d519a83cab0db8",
+      "triangles": 12
+    },
+    "WATER_BearRun_Continuous_Upstream_Downstream": {
+      "sha256": "8cb3d45c362a841c39566034b9da9883cc655a42636ede08d857fd079df72439",
+      "triangles": 409192
+    },
+    "WATER_Broken_Sandstone_Ledge_Cascades": {
+      "sha256": "1537c8161b999819eaaa499b82bb59b4a18f6ba908041424006fe3ab895fd3dd",
+      "triangles": 16748
+    },
+    "WATER_Impact_Foam_Rivulets": {
+      "sha256": "de2bffb3ca1da5a6d4cb167e8b5e2b897288c04d9e16274dbd2a7ce803ecbdc3",
+      "triangles": 2040
+    },
+    "WATER_Dispersed_Impact_Arcs": {
+      "sha256": "61fbc0a1bfa2dd8415f4f286baf132184055118773579fcbc045380785018951",
+      "triangles": 1672
+    },
+    "WATER_Downstream_Advecting_Foam_00": {
+      "sha256": "59bdf4d646c60b4e5e19c4cb821311e4b2fdf73a92dadb8716c4b9acd8923a4f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_01": {
+      "sha256": "54e9f3e95fc1d39fb218b213f0407098f944c6625079dc9ef3746988e916c3f7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_02": {
+      "sha256": "e9723f019d033801eb7f1fd449d52ec49a5bdc2e49043e4bb7c7829076c2f6d7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_03": {
+      "sha256": "998467d801d3d770335103f5df1e228fa46d9881a5ee9fb76ef374de7e5926e0",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_04": {
+      "sha256": "6814bc6ba7c36f9030fe82ab2682e5c2f99cbce7ceedb81fc714eefbf7445933",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_05": {
+      "sha256": "fcb115357e662861f85f40a81092f2c4d3692b65133611c2d8ee52d749cd19a4",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_06": {
+      "sha256": "3d58b6f1c0eef200bbd6c3bb78e94405fdf4a22e42858729a0376569b2a0aa62",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_07": {
+      "sha256": "0d28bf3815419c8f600f93a199f5f503557a04ac697ca2ac7d1be0e3bb190803",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_08": {
+      "sha256": "76eeaeda53c85fee2d7d8e32b39a228d0010e24637812e7e542f0cf658bbf8a6",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_09": {
+      "sha256": "2ecdca72dd48a97f56c2cd38cb9c6e5b8e56d83ad71cf0ee15b46492336b59b5",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_10": {
+      "sha256": "dd2a0c5c1de5bd200ea5e82e067b04cfd02b855a336a763f6b78317fc9ce6067",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_11": {
+      "sha256": "0bc5df47471a05d49f3d0206743525a421843d5bd570ebb21e25203e305bf5b4",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_12": {
+      "sha256": "0eac58b646b9c4f292b357b3e064e3ca307530f35b2566126072308186d8521f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_13": {
+      "sha256": "d7b0a7bb63e55df55fbd5f6a9e80040b80b3457a7d2900b87425600d96210ca2",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_14": {
+      "sha256": "aa40e46ce2dfde0feb9c74c33dc2efadc8730e9e09633b5b822f73cc8ad4986e",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_15": {
+      "sha256": "6df438b9b3560bb4bc4ab74dc3bd21ded2eb56cd50a5a375211f0064436ecbe7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_16": {
+      "sha256": "ed4489844fd3248bf6d4c532d99555f5c86a978f4079e6ebf387de5f64a1515f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_17": {
+      "sha256": "c90b074506222b68a527a37790c1036133d82f2cd384571bd157fea76348db49",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_18": {
+      "sha256": "b9e84c319a06d2953033a65a860aaaf4d2ce015e1d7c1b5152ef996d3336e187",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_19": {
+      "sha256": "371a57cef90b6b86d8fb21ca22b70312630b9f9d46b85eaa3f22eccefc43f737",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_20": {
+      "sha256": "a818e5d8305467779e7fd5ae9655bf15a51e71189a029f92473848d70e56ca25",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_21": {
+      "sha256": "55d5214858c334b24832b10b3872f01fbb541deee4d2edb313d4681583010d85",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_22": {
+      "sha256": "8d59555f42ec8059a12f3bddb555b0fb5d1746096266bb47c99636daf7fa45f4",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_23": {
+      "sha256": "340386590fffc56a8b927c00d43e49ba2cccd7006fe77d0268d0dac3d3333d65",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_24": {
+      "sha256": "1c924f6d6ec3a3811fbdca8b22e4177d57f9a1c2975846615ae91692dabe8dd9",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_25": {
+      "sha256": "f3ef8d96e90fd2aa27267a7834d01f998c13fc4c35fff32cb7b0d4901ee15303",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_26": {
+      "sha256": "0e6cef344802ca2e483f4ce3c8dc53395ef3347847525c1eda4fe549a7b3d6ce",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_27": {
+      "sha256": "2288afc24da26a031433f27bb88cb986dde10592ea0ae732b2815385c3c2b60d",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_28": {
+      "sha256": "5ccdb4e7086b6f1291cd2fbb4375d8e9eae1404275e5b23aa697eda70076663f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_29": {
+      "sha256": "51607e17c2319ea9a2a6eebeaab26a9feda87e7478edfcae3e7700d92112d930",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_30": {
+      "sha256": "1737fef33426c264305895c83be7601f97f5e3e8f41e665c19f2c5d943ce93bb",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_31": {
+      "sha256": "95d158d37fe23ca41f63c23dd990eef62c9d7113d48f505864ee2b5ced1bb34e",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_32": {
+      "sha256": "86af586fe4097bb24228fa7c11aaade1e9d1e7b9fe18e66d7035fcb95ad848b5",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_33": {
+      "sha256": "acab209c4436a4aedae0a139727eddf8bef30d225d825bae8ce874913bcb31fc",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_34": {
+      "sha256": "de55262bacda2b583c09723cb4e36ef5a12938c45e92c7ab714bfdee12ad5ec6",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_35": {
+      "sha256": "f0e5d3edf9e39a5b16899da89bf84439a4a64d097af6759348d28f8418e2f4fc",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_36": {
+      "sha256": "e5899fa8d24d3eac89c075a203334526bc179bf0fea1139a2ee5fe54a394724f",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_37": {
+      "sha256": "6194a5ec2583fbea4b2c60ead13acd5480a1fedf883917473d59454347af6699",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_38": {
+      "sha256": "853be3fd594500801b4a29dce99acac55da4653268a782fc49d9ace218e1036d",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_39": {
+      "sha256": "189d9a8fc15566155ede3c77fd2e0fcb67fe9c3eb3f3db21ddb044808628ddf6",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_40": {
+      "sha256": "d8d1de474f316f1a7e43305f637e25322945eb6d04348f2071abe068a8af69c3",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_41": {
+      "sha256": "37925cb1dce6dd6e6fb6498b2a3b589506d7d9b29c8f294188c417a49f59af31",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_42": {
+      "sha256": "8398562c402b154bc80c36632087874b2b6922e9d3201e8197f908a6984e2d13",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_43": {
+      "sha256": "623e22f34f55ff4f2b7ed89b67b440d0a0303d4a27132e65ead5763cc2a0fcd0",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_44": {
+      "sha256": "4b6da400d69a95a2a915159416e75c8b4a45f27b3b5774dc0b6b10799883080e",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_45": {
+      "sha256": "ab899a136240ed7a10ebe578c731bb8abce48ef45c63756d2dd272c1bbd2dcaa",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_46": {
+      "sha256": "f9693ba90a056da56970430f62e47e4345d5b0ddad39f1258d5db4245dc76e8d",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_47": {
+      "sha256": "3b1e2abd63e63bfd78927c5ea9536275608c042d2f0dd516be6fe8a3bb34c1a7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_48": {
+      "sha256": "f24b715e0c71949d9238793c2390033b1ef9db44f49d993ce8cda63aa8523b2b",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_49": {
+      "sha256": "01cb8710d972cda4dabf121ecb8381abee1325ee68ff6cb18e4bc41d85a1d27c",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_50": {
+      "sha256": "7ca76218cb13835d1ecb6662614a66a9138910925bc471df43c12f875297f105",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_51": {
+      "sha256": "f47ca005f48628f16a53744b5329b966d88284a2e6e291480db4bb3e3c1dc94e",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_52": {
+      "sha256": "2abf6357909ab02aca295712d5ba6bf7a1966ac9fbb2df5f989a7b180fb14e1d",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_53": {
+      "sha256": "b3d02b27d0959f155aeb23a1f4b2b97d22601a8ff48ccb263c1b563541aa31d7",
+      "triangles": 3
+    },
+    "WATER_Downstream_Advecting_Foam_54": {
+      "sha256": "1a7da7a4337da6b4ecad44cf52905aa92d88c9ef50ace0908a8cc0a491a97030",
+      "triangles": 3
+    },
+    "WATER_Aerated_Droplets": {
+      "sha256": "e1db27987d8fe5ce9b622be5179c7699d36a13a9c8e511ff2385504f68899681",
+      "triangles": 880
+    }
+  },
+  "changed_objects": [
+    "TREE_Landmark_00_Branches",
+    "TREE_Landmark_00_Leaves",
+    "TREE_Landmark_03_Branches",
+    "TREE_Landmark_03_Leaves",
+    "TREE_Near_000_Branches",
+    "TREE_Near_000_Leaves",
+    "TREE_Near_006_Branches",
+    "TREE_Near_006_Leaves",
+    "TREE_Near_015_Branches",
+    "TREE_Near_015_Leaves",
+    "TREE_Near_018_Branches",
+    "TREE_Near_018_Leaves",
+    "TREE_Sapling_002_Branches",
+    "TREE_Sapling_002_Leaves",
+    "TREE_Sapling_013_Branches",
+    "TREE_Sapling_013_Leaves",
+    "TREE_Sapling_017_Branches",
+    "TREE_Sapling_017_Leaves",
+    "TREE_Sapling_018_Branches",
+    "TREE_Sapling_018_Leaves",
+    "TREE_Sapling_022_Branches",
+    "TREE_Sapling_022_Leaves",
+    "TREE_Sapling_032_Branches",
+    "TREE_Sapling_032_Leaves",
+    "TREE_Sapling_033_Branches",
+    "TREE_Sapling_033_Leaves",
+    "TREE_Sapling_037_Branches",
+    "TREE_Sapling_037_Leaves",
+    "TREE_Sapling_071_Branches",
+    "TREE_Sapling_071_Leaves",
+    "TREE_Sapling_078_Branches",
+    "TREE_Sapling_078_Leaves",
+    "TREE_Sapling_086_Branches",
+    "TREE_Sapling_086_Leaves",
+    "TREE_Sapling_088_Branches",
+    "TREE_Sapling_088_Leaves"
+  ],
+  "non_target_count_unchanged": 23401,
+  "all_original_meshes_unchanged": true,
+  "all_understory_objects_unchanged": 4800,
+  "all_globals_unchanged": true,
+  "source_unchanged": true,
+  "candidate_sha256": "dcbddb63a90f5a3ad743f23b9bfdf3c28833b69b72da37985d98c05cfa6156f4",
+  "elapsed_s": 121.7914249999958
+}

@@ -1,0 +1,40 @@
+{
+  "scene": "D:\\zx\\test\\project\\qa\\preflight\\preflight_glass_fixed.blend",
+  "scene_bytes": 117023,
+  "blender_version": "5.2.1 LTS",
+  "engine": "CYCLES",
+  "device": {
+    "device": "GPU",
+    "backend": "HIP",
+    "devices": [
+      "AMD Radeon(TM) 8060S Graphics"
+    ]
+  },
+  "resolution": [
+    512,
+    512
+  ],
+  "max_samples": 32,
+  "frame": 1,
+  "denoising": true,
+  "view_transform": "AgX",
+  "exposure": 0.0,
+  "look": "None",
+  "runs": [
+    {
+      "camera": "CAM_PREFLIGHT",
+      "room_id": "",
+      "reference": "",
+      "lens_mm": 48.0,
+      "clip_start": 0.10000000149011612,
+      "clip_end": 1000.0,
+      "png": "D:\\zx\\test\\project\\qa\\preflight\\render-script-test\\CAM_PREFLIGHT.png",
+      "status": "PASS",
+      "exr": "D:\\zx\\test\\project\\qa\\preflight\\render-script-test\\CAM_PREFLIGHT.exr",
+      "png_bytes": 304505,
+      "seconds": 3.703
+    }
+  ],
+  "status": "PASS",
+  "scope": "Offline rendering only. Does not measure viewport FPS or establish visual acceptance."
+}

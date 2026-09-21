@@ -1,0 +1,76 @@
+{
+  "run": "run05",
+  "frames": [
+    24,
+    48
+  ],
+  "sampled_integer_frames": 25,
+  "fixed_grid_points": 1665,
+  "sampling_seconds": 54.812076700000034,
+  "stable_section_support": [
+    {
+      "along_m": -1.0,
+      "tested_cross_m": [
+        -4,
+        4
+      ],
+      "samples": 33,
+      "continuously_supported_samples": 31
+    },
+    {
+      "along_m": -0.75,
+      "tested_cross_m": [
+        -4,
+        4
+      ],
+      "samples": 33,
+      "continuously_supported_samples": 29
+    },
+    {
+      "along_m": -0.5,
+      "tested_cross_m": [
+        -4,
+        4
+      ],
+      "samples": 33,
+      "continuously_supported_samples": 31
+    },
+    {
+      "along_m": 2.0,
+      "tested_cross_m": [
+        -4,
+        4
+      ],
+      "samples": 33,
+      "continuously_supported_samples": 11
+    },
+    {
+      "along_m": 3.0,
+      "tested_cross_m": [
+        -4,
+        4
+      ],
+      "samples": 33,
+      "continuously_supported_samples": 3
+    },
+    {
+      "along_m": 4.0,
+      "tested_cross_m": [
+        -4,
+        4
+      ],
+      "samples": 33,
+      "continuously_supported_samples": 0
+    },
+    {
+      "along_m": 5.0,
+      "tested_cross_m": [
+        -4,
+        4
+      ],
+      "samples": 33,
+      "continuously_supported_samples": 0
+    }
+  ],
+  "interpretation": "A lower-pool ray is not counted as upper water; all25frames must contain the local-level water hit."
+}

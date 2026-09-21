@@ -1,0 +1,425 @@
+{
+  "scene_sha256": "c5cd501e4c8ae0205ecb2437cd2d06d0c92bcc9a87e7d93d3986aeef976070d7",
+  "settings_sha256": "f011c9462431e12137a49d3829a85586da0804a5a934086e03d7143c7d5dc1d0",
+  "saved_settings_status": "SAVED_SETTINGS_MATCH",
+  "saved_settings_rows": 120,
+  "geometry_status": "GEOMETRY_ONLY_PASS",
+  "geometry_rows": 120,
+  "rays_cast": 3840,
+  "geometry": {
+    "vertices": 976540,
+    "polygons": 1042424,
+    "objects": 9631
+  },
+  "blender_version": "5.2.1 LTS",
+  "threads": 4,
+  "outside_count": 18,
+  "outside_flags_all_match": true,
+  "geometry_input_is_actual_saved_pose": true,
+  "active_settings_unchanged": true,
+  "scene_unchanged": true,
+  "scope": "Full integrated08 checked independently. Room geometry excludes vegetation. Legacy 15-ray view diagnostic excludes shift, and is not visual acceptance. Does not validate navigation or full120 framing/exposure/photo quality.",
+  "full08_visual_status": "NOT_REVIEWED_BY_THIS_CHECK",
+  "final_visual_quality_accepted": false,
+  "process_exit_code": 0,
+  "max_saved_field_errors": {
+    "position_m": 0.0,
+    "rotation_radians": 0.0,
+    "lens_mm": 0.0,
+    "shift_x": 0.0,
+    "shift_y": 1.6689300497141346e-08,
+    "exposure_ev": 0.0
+  },
+  "safety_support_body_eye_rays": 1920,
+  "legacy_unshifted_view_diagnostic_rays": 1920,
+  "actual_center_changes_since07": [
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "old07_actual_center": {
+        "object": "MAIN_B_pool_deck_south",
+        "location": [
+          11.85761,
+          6.29614,
+          -2.4998
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "new08_actual_center": {
+        "object": "MAIN_loggia_pool_stair_00",
+        "location": [
+          18.81,
+          9.12,
+          -2.32647
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "camera_adopted_new_pose": true
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "old07_actual_center": {
+        "object": "MAIN_floor_threshold_guest_bath_finish",
+        "location": [
+          7.074,
+          11.4696,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "new08_actual_center": {
+        "object": "MAIN_L2_BATH_G_finish",
+        "location": [
+          7.074,
+          11.4696,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "camera_adopted_new_pose": false
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "old07_actual_center": {
+        "object": "MAIN_L2_CLOSET_G_finish",
+        "location": [
+          10.70707,
+          10.8796,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "new08_actual_center": {
+        "object": "MAIN_L2_GUEST_finish",
+        "location": [
+          7.72,
+          9.58,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "camera_adopted_new_pose": true
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "old07_actual_center": {
+        "object": "MAIN_L2_CLOSET_G_finish",
+        "location": [
+          8.89752,
+          10.81647,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "new08_actual_center": {
+        "object": "MAIN_L2_GUEST_finish",
+        "location": [
+          10.64,
+          9.56,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "camera_adopted_new_pose": true
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "old07_actual_center": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "location": [
+          1.572,
+          13.3653,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "new08_actual_center": {
+        "object": "MAIN_L3_BATH_finish",
+        "location": [
+          1.6,
+          14.92,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "camera_adopted_new_pose": true
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "old07_actual_center": {
+        "object": "MAIN_L3_ALCOVE_finish",
+        "location": [
+          5.6592,
+          13.0626,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "new08_actual_center": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "location": [
+          5.2,
+          13.0,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "camera_adopted_new_pose": true
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "old07_actual_center": {
+        "object": "MAIN_stair2_13",
+        "location": [
+          2.227,
+          13.8709,
+          5.26435
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "new08_actual_center": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "location": [
+          1.85,
+          13.18,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "camera_adopted_new_pose": true
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "old07_actual_center": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          22.55198,
+          34.47906,
+          8.40137
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16293
+      },
+      "new08_actual_center": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          22.55198,
+          34.47906,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.1641
+      },
+      "camera_adopted_new_pose": false
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "old07_actual_center": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "location": [
+          5.63143,
+          41.84714,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "new08_actual_center": {
+        "object": "GUEST_L1_BOILER_FLOOR",
+        "location": [
+          5.82,
+          41.38,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "camera_adopted_new_pose": true
+    }
+  ],
+  "stored_support_name_differences": [
+    {
+      "camera": "CAM_MAIN_L1_COAT_B",
+      "stored_support": {
+        "object": "MAIN_floor_threshold_entry_coat_finish",
+        "z": 0.1222
+      },
+      "actual_center_support": {
+        "object": "MAIN_L1_COAT_finish",
+        "location": [
+          9.4032,
+          12.9033,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "stored_support": {
+        "object": "MAIN_floor_threshold_guest_bath_finish",
+        "z": 2.867
+      },
+      "actual_center_support": {
+        "object": "MAIN_L2_BATH_G_finish",
+        "location": [
+          7.074,
+          11.4696,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_delta_z_m": 0.0
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "stored_support": {
+        "object": "GUEST_L1_HALL_NORTH",
+        "z": 8.4002
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_CAR_COURT",
+        "location": [
+          2.96819,
+          41.70246,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "support_delta_z_m": 0.0
+    }
+  ],
+  "stored_support_height_differences": [
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "stored_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "z": 8.4043
+      },
+      "actual_center_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          22.55198,
+          34.47906,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.1641
+      },
+      "support_delta_z_m": -0.0041
+    }
+  ],
+  "reports": {
+    "camera08-verification.json": "c35bc71a18ac54a53a92e0a6c12622eae26ccc333a7515cfe41e887717f323d3",
+    "camera08-saved-settings-check.json": "0058e311c69917e9630d632e862a85e32f0fd08ea636b56737fedd8f31dfe43c",
+    "camera08-verification.log": "b2d3d1c2830b6e98f2bc563209025f3dfed5ee079143f22e694f13a6b2432709",
+    "camera08-saved-geometry-input.json": "dd4f7fc70be966c159701b5f7fb091c5d8791bf1dd499e378b9f891dc1658074",
+    "camera08-settings-frozen.json": "f011c9462431e12137a49d3829a85586da0804a5a934086e03d7143c7d5dc1d0",
+    "camera08-verify.py": "e1c0e5213002758a1ffc33dc1799e6565a036d905d142b05ca78f0c944707863"
+  }
+}

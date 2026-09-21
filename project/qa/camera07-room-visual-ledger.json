@@ -1,0 +1,4376 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration07.blend",
+  "scene_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "settings_sha256": "4def78dcbae91f3292562f41796adec71c4680b64e04301f051fdc1833ce8666",
+  "render_benchmark_sha256": "570564dcd3f29746d402286df99e9113669b63dcb8972203c2e89f29af6a5169",
+  "render_status": "PASS",
+  "successful_runs": 120,
+  "unique_images": 120,
+  "actual_images_reviewed": 120,
+  "contact_pages_actually_opened": 20,
+  "individual_images_reopened_count": 27,
+  "individual_images_reopened": [
+    "CAM_GUEST_L1_BOILER_B",
+    "CAM_GUEST_L1_STAIR_HALL_B",
+    "CAM_MAIN_B_PLUNGE_B",
+    "CAM_MAIN_L1_COAT_B",
+    "CAM_MAIN_L1_LOGGIA_A",
+    "CAM_MAIN_L1_SERVANT_A",
+    "CAM_MAIN_L1_SERVANT_B",
+    "CAM_MAIN_L2_BATH_G_A",
+    "CAM_MAIN_L2_BATH_G_B",
+    "CAM_MAIN_L2_BATH_M_B",
+    "CAM_MAIN_L2_BATH_N_A",
+    "CAM_MAIN_L2_BATH_N_B",
+    "CAM_MAIN_L2_CLOSET_G_A",
+    "CAM_MAIN_L2_CLOSET_G_B",
+    "CAM_MAIN_L2_CLOSET_M_B",
+    "CAM_MAIN_L2_DRESSING_A",
+    "CAM_MAIN_L2_DRESSING_B",
+    "CAM_MAIN_L2_GUEST_A",
+    "CAM_MAIN_L2_MASTER_A",
+    "CAM_MAIN_L2_TERRACE_N_B",
+    "CAM_MAIN_L3_ALCOVE_A",
+    "CAM_MAIN_L3_ALCOVE_B",
+    "CAM_MAIN_L3_BATH_A",
+    "CAM_MAIN_L3_BATH_B",
+    "CAM_MAIN_L3_GALLERY_A",
+    "CAM_MAIN_L3_GALLERY_B",
+    "CAM_MAIN_L3_STAIR_B"
+  ],
+  "resolution": [
+    640,
+    360
+  ],
+  "samples": 16,
+  "engine": "CYCLES",
+  "device": "CPU",
+  "counts": {
+    "LIMITED_COMPOSITION": 29,
+    "READABLE_DIAGNOSTIC": 81,
+    "FRAMING_FAIL": 10,
+    "ILLUMINATION_FAIL": 0
+  },
+  "diagnostic_definition": "READABLE_DIAGNOSTIC means the named inspection space or its principal feature and relationships are recognizable, even if other flagged defects exist. It is not photography, final lighting, materials, structural integrity, source fidelity, route or final quality PASS. LIMITED means useful partial view only. FRAMING_FAIL means blocking/semantic mismatch prevents useful space view. ILLUMINATION_FAIL means lighting prevents recognizing content. Dark but readable and bright but readable remain explicitly flagged.",
+  "scope": "All120 renders from60 inspection-space records, not60 bedrooms. All20 contact pages actually viewed, all10 framing failures and17 additional ambiguous views individually reopened. Reports only; no camera, geometry, production JSON or render mutation.",
+  "geometry_evidence": {
+    "root_bathN_probe": "qa/bathroom07-floor-probe.json",
+    "root_probe_sha256": "afdaa688366ce5e23c444e92f7eded7cd807d32070eb7f0c177ffeff06581721",
+    "confirmed": "Three BathN_A wall-base pixels hit SITE_Continuous_BearRun_Terrain; wall/floor control points hit correct surfaces. BathN_B shows the same continuous strip. Other black regions are not proven holes by color alone."
+  },
+  "comparison04": {
+    "ledger": "qa/camera04-visual-ledger.json",
+    "ledger_sha256": "a62474daa4ed4e69376ffd0f85034c30d021bf721ddc2af5fcdf0971e7f7bd60",
+    "counts": {
+      "READABLE_DIAGNOSTIC": 57,
+      "LIMITED_COMPOSITION": 22,
+      "FRAMING_FAIL": 28,
+      "ILLUMINATION_FAIL": 13
+    },
+    "transitions": [
+      {
+        "from": "FRAMING_FAIL",
+        "to": "FRAMING_FAIL",
+        "count": 6
+      },
+      {
+        "from": "FRAMING_FAIL",
+        "to": "LIMITED_COMPOSITION",
+        "count": 11
+      },
+      {
+        "from": "FRAMING_FAIL",
+        "to": "READABLE_DIAGNOSTIC",
+        "count": 11
+      },
+      {
+        "from": "ILLUMINATION_FAIL",
+        "to": "FRAMING_FAIL",
+        "count": 3
+      },
+      {
+        "from": "ILLUMINATION_FAIL",
+        "to": "LIMITED_COMPOSITION",
+        "count": 5
+      },
+      {
+        "from": "ILLUMINATION_FAIL",
+        "to": "READABLE_DIAGNOSTIC",
+        "count": 5
+      },
+      {
+        "from": "LIMITED_COMPOSITION",
+        "to": "FRAMING_FAIL",
+        "count": 1
+      },
+      {
+        "from": "LIMITED_COMPOSITION",
+        "to": "LIMITED_COMPOSITION",
+        "count": 10
+      },
+      {
+        "from": "LIMITED_COMPOSITION",
+        "to": "READABLE_DIAGNOSTIC",
+        "count": 11
+      },
+      {
+        "from": "READABLE_DIAGNOSTIC",
+        "to": "LIMITED_COMPOSITION",
+        "count": 3
+      },
+      {
+        "from": "READABLE_DIAGNOSTIC",
+        "to": "READABLE_DIAGNOSTIC",
+        "count": 54
+      }
+    ],
+    "scope": "Comparison to prior recorded04 human labels, not a new re-review of all04 images. Camera poses, geometry, lighting and review display size changed together (04 used426x240 thumbnails,07 uses640x360); label changes are not a controlled quality score or causal effect."
+  },
+  "rooms_with_two_readable_views": 34,
+  "rooms_with_one_readable_view": 13,
+  "rooms_with_no_readable_view": 13,
+  "structure_anomaly_camera_count": 16,
+  "issue_counts": {
+    "CROP": 46,
+    "TOO_CLOSE": 18,
+    "BRIGHT_INTERIOR": 3,
+    "DOOR_OCCLUSION": 4,
+    "UNDERSIDE_VIEW": 2,
+    "SIMPLIFIED_FIXTURES": 2,
+    "EQUIPMENT_OCCLUSION": 2,
+    "DARK_BUT_READABLE": 19,
+    "FEATURE_POOR": 3,
+    "EXTERIOR_BRIGHT": 13,
+    "FURNITURE_OCCLUSION": 6,
+    "WALL_DOMINATED": 5,
+    "DARK_FIREBOX": 1,
+    "SYNTHETIC_WATER": 2,
+    "STRUCTURE_CONTEXT_REVIEW": 10,
+    "SYNTHETIC_TERRAIN": 19,
+    "CEILING_REFLECTION": 2,
+    "PLAIN_SURFACES": 6,
+    "OVERBRIGHT_INTERIOR": 3,
+    "WATER_EDGE": 2,
+    "DARK_WATER": 1,
+    "CABINET_ONLY": 2,
+    "SEMANTIC_MISS": 4,
+    "FOREGROUND_COLUMN": 2,
+    "SIMPLIFIED_HEARTH": 1,
+    "VISUAL_SEAM_SUSPECT": 5,
+    "SPACE_CONTEXT_LIMITED": 4,
+    "VISIBLE_WALL_BASE_GAP": 4,
+    "SYNTHETIC_GLASS": 3,
+    "CEILING_SEAM_SUSPECT": 3,
+    "VISIBLE_MASONRY_GAPS": 2,
+    "EXPOSED_INTERIOR_EDGES": 2,
+    "VISIBLE_LANDING_GAP": 1,
+    "SYNTHETIC_VEGETATION": 3,
+    "MIRROR_OCCLUSION": 1,
+    "VISIBLE_FLOOR_BLACK_REGION": 2,
+    "DUPLICATE_VIEW_CONTEXT": 1
+  },
+  "room_pairs": [
+    {
+      "room_id": "GUEST_B1_BATH",
+      "camera_a": "CAM_GUEST_B1_BATH_A",
+      "camera_b": "CAM_GUEST_B1_BATH_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_B1_LAUNDRY",
+      "camera_a": "CAM_GUEST_B1_LAUNDRY_A",
+      "camera_b": "CAM_GUEST_B1_LAUNDRY_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_B1_STAIR",
+      "camera_a": "CAM_GUEST_B1_STAIR_A",
+      "camera_b": "CAM_GUEST_B1_STAIR_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_BATH",
+      "camera_a": "CAM_GUEST_L1_BATH_A",
+      "camera_b": "CAM_GUEST_L1_BATH_B",
+      "previous04_a": "ILLUMINATION_FAIL",
+      "previous04_b": "ILLUMINATION_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_BOILER",
+      "camera_a": "CAM_GUEST_L1_BOILER_A",
+      "camera_b": "CAM_GUEST_L1_BOILER_B",
+      "previous04_a": "ILLUMINATION_FAIL",
+      "previous04_b": "ILLUMINATION_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "FRAMING_FAIL",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_CAR_COURT",
+      "camera_a": "CAM_GUEST_L1_CAR_COURT_A",
+      "camera_b": "CAM_GUEST_L1_CAR_COURT_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "camera_a": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "camera_b": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "previous04_a": "ILLUMINATION_FAIL",
+      "previous04_b": "LIMITED_COMPOSITION",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_GALLERY",
+      "camera_a": "CAM_GUEST_L1_GALLERY_A",
+      "camera_b": "CAM_GUEST_L1_GALLERY_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_GUEST_ROOM",
+      "camera_a": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "camera_b": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_LOUNGE",
+      "camera_a": "CAM_GUEST_L1_LOUNGE_A",
+      "camera_b": "CAM_GUEST_L1_LOUNGE_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "LIMITED_COMPOSITION",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_POOL",
+      "camera_a": "CAM_GUEST_L1_POOL_A",
+      "camera_b": "CAM_GUEST_L1_POOL_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_STAIR_HALL",
+      "camera_a": "CAM_GUEST_L1_STAIR_HALL_A",
+      "camera_b": "CAM_GUEST_L1_STAIR_HALL_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_TERRACE",
+      "camera_a": "CAM_GUEST_L1_TERRACE_A",
+      "camera_b": "CAM_GUEST_L1_TERRACE_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L1_THEATER",
+      "camera_a": "CAM_GUEST_L1_THEATER_A",
+      "camera_b": "CAM_GUEST_L1_THEATER_B",
+      "previous04_a": "ILLUMINATION_FAIL",
+      "previous04_b": "ILLUMINATION_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L2_BATH",
+      "camera_a": "CAM_GUEST_L2_BATH_A",
+      "camera_b": "CAM_GUEST_L2_BATH_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L2_BEDROOM_MIDDLE",
+      "camera_a": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "camera_b": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L2_BEDROOM_NORTH",
+      "camera_a": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "camera_b": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L2_BEDROOM_SOUTH",
+      "camera_a": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "camera_b": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L2_HALL",
+      "camera_a": "CAM_GUEST_L2_HALL_A",
+      "camera_b": "CAM_GUEST_L2_HALL_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "GUEST_L2_TERRACE",
+      "camera_a": "CAM_GUEST_L2_TERRACE_A",
+      "camera_b": "CAM_GUEST_L2_TERRACE_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_B_BATH",
+      "camera_a": "CAM_MAIN_B_BATH_A",
+      "camera_b": "CAM_MAIN_B_BATH_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_B_BOILER",
+      "camera_a": "CAM_MAIN_B_BOILER_A",
+      "camera_b": "CAM_MAIN_B_BOILER_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_B_FOUNDATION_1",
+      "camera_a": "CAM_MAIN_B_FOUNDATION_1_A",
+      "camera_b": "CAM_MAIN_B_FOUNDATION_1_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_B_FOUNDATION_2",
+      "camera_a": "CAM_MAIN_B_FOUNDATION_2_A",
+      "camera_b": "CAM_MAIN_B_FOUNDATION_2_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_B_FOUNDATION_3",
+      "camera_a": "CAM_MAIN_B_FOUNDATION_3_A",
+      "camera_b": "CAM_MAIN_B_FOUNDATION_3_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_B_PLUNGE",
+      "camera_a": "CAM_MAIN_B_PLUNGE_A",
+      "camera_b": "CAM_MAIN_B_PLUNGE_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "ILLUMINATION_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "FRAMING_FAIL",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_B_STAIR",
+      "camera_a": "CAM_MAIN_B_STAIR_A",
+      "camera_b": "CAM_MAIN_B_STAIR_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_B_WINE",
+      "camera_a": "CAM_MAIN_B_WINE_A",
+      "camera_b": "CAM_MAIN_B_WINE_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "LIMITED_COMPOSITION",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_COAT",
+      "camera_a": "CAM_MAIN_L1_COAT_A",
+      "camera_b": "CAM_MAIN_L1_COAT_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "FRAMING_FAIL",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_ENTRY",
+      "camera_a": "CAM_MAIN_L1_ENTRY_A",
+      "camera_b": "CAM_MAIN_L1_ENTRY_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "LIMITED_COMPOSITION",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_HATCH",
+      "camera_a": "CAM_MAIN_L1_HATCH_A",
+      "camera_b": "CAM_MAIN_L1_HATCH_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_KITCHEN",
+      "camera_a": "CAM_MAIN_L1_KITCHEN_A",
+      "camera_b": "CAM_MAIN_L1_KITCHEN_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_LIVING",
+      "camera_a": "CAM_MAIN_L1_LIVING_A",
+      "camera_b": "CAM_MAIN_L1_LIVING_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_LOGGIA",
+      "camera_a": "CAM_MAIN_L1_LOGGIA_A",
+      "camera_b": "CAM_MAIN_L1_LOGGIA_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [
+        "CAM_MAIN_L1_LOGGIA_A"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_SERVANT",
+      "camera_a": "CAM_MAIN_L1_SERVANT_A",
+      "camera_b": "CAM_MAIN_L1_SERVANT_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "FRAMING_FAIL",
+      "current07_b": "FRAMING_FAIL",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [
+        "CAM_MAIN_L1_SERVANT_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "camera_a": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "camera_b": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_STAIR",
+      "camera_a": "CAM_MAIN_L1_STAIR_A",
+      "camera_b": "CAM_MAIN_L1_STAIR_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_TERRACE_E",
+      "camera_a": "CAM_MAIN_L1_TERRACE_E_A",
+      "camera_b": "CAM_MAIN_L1_TERRACE_E_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L1_TERRACE_W",
+      "camera_a": "CAM_MAIN_L1_TERRACE_W_A",
+      "camera_b": "CAM_MAIN_L1_TERRACE_W_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_BATH_G",
+      "camera_a": "CAM_MAIN_L2_BATH_G_A",
+      "camera_b": "CAM_MAIN_L2_BATH_G_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "ILLUMINATION_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [
+        "CAM_MAIN_L2_BATH_G_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_BATH_M",
+      "camera_a": "CAM_MAIN_L2_BATH_M_A",
+      "camera_b": "CAM_MAIN_L2_BATH_M_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "ILLUMINATION_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [
+        "CAM_MAIN_L2_BATH_M_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_BATH_N",
+      "camera_a": "CAM_MAIN_L2_BATH_N_A",
+      "camera_b": "CAM_MAIN_L2_BATH_N_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "ILLUMINATION_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [
+        "CAM_MAIN_L2_BATH_N_A",
+        "CAM_MAIN_L2_BATH_N_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_CLOSET_G",
+      "camera_a": "CAM_MAIN_L2_CLOSET_G_A",
+      "camera_b": "CAM_MAIN_L2_CLOSET_G_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "FRAMING_FAIL",
+      "current07_b": "FRAMING_FAIL",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [
+        "CAM_MAIN_L2_CLOSET_G_A"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "camera_a": "CAM_MAIN_L2_CLOSET_M_A",
+      "camera_b": "CAM_MAIN_L2_CLOSET_M_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "FRAMING_FAIL",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [
+        "CAM_MAIN_L2_CLOSET_M_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_DRESSING",
+      "camera_a": "CAM_MAIN_L2_DRESSING_A",
+      "camera_b": "CAM_MAIN_L2_DRESSING_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [
+        "CAM_MAIN_L2_DRESSING_A",
+        "CAM_MAIN_L2_DRESSING_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_GUEST",
+      "camera_a": "CAM_MAIN_L2_GUEST_A",
+      "camera_b": "CAM_MAIN_L2_GUEST_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [
+        "CAM_MAIN_L2_GUEST_A"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_HALL",
+      "camera_a": "CAM_MAIN_L2_HALL_A",
+      "camera_b": "CAM_MAIN_L2_HALL_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_MASTER",
+      "camera_a": "CAM_MAIN_L2_MASTER_A",
+      "camera_b": "CAM_MAIN_L2_MASTER_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [
+        "CAM_MAIN_L2_MASTER_A"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_STAIR",
+      "camera_a": "CAM_MAIN_L2_STAIR_A",
+      "camera_b": "CAM_MAIN_L2_STAIR_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_TERRACE_E",
+      "camera_a": "CAM_MAIN_L2_TERRACE_E_A",
+      "camera_b": "CAM_MAIN_L2_TERRACE_E_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_TERRACE_N",
+      "camera_a": "CAM_MAIN_L2_TERRACE_N_A",
+      "camera_b": "CAM_MAIN_L2_TERRACE_N_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [
+        "CAM_MAIN_L2_TERRACE_N_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_TERRACE_S",
+      "camera_a": "CAM_MAIN_L2_TERRACE_S_A",
+      "camera_b": "CAM_MAIN_L2_TERRACE_S_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L2_TERRACE_W",
+      "camera_a": "CAM_MAIN_L2_TERRACE_W_A",
+      "camera_b": "CAM_MAIN_L2_TERRACE_W_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L3_ALCOVE",
+      "camera_a": "CAM_MAIN_L3_ALCOVE_A",
+      "camera_b": "CAM_MAIN_L3_ALCOVE_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "FRAMING_FAIL",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "FRAMING_FAIL",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L3_BATH",
+      "camera_a": "CAM_MAIN_L3_BATH_A",
+      "camera_b": "CAM_MAIN_L3_BATH_B",
+      "previous04_a": "ILLUMINATION_FAIL",
+      "previous04_b": "ILLUMINATION_FAIL",
+      "current07_a": "FRAMING_FAIL",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 0,
+      "structure_findings": [
+        "CAM_MAIN_L3_BATH_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L3_GALLERY",
+      "camera_a": "CAM_MAIN_L3_GALLERY_A",
+      "camera_b": "CAM_MAIN_L3_GALLERY_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "LIMITED_COMPOSITION",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [
+        "CAM_MAIN_L3_GALLERY_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L3_LINK",
+      "camera_a": "CAM_MAIN_L3_LINK_A",
+      "camera_b": "CAM_MAIN_L3_LINK_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "LIMITED_COMPOSITION",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L3_STAIR",
+      "camera_a": "CAM_MAIN_L3_STAIR_A",
+      "camera_b": "CAM_MAIN_L3_STAIR_B",
+      "previous04_a": "FRAMING_FAIL",
+      "previous04_b": "LIMITED_COMPOSITION",
+      "current07_a": "LIMITED_COMPOSITION",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [
+        "CAM_MAIN_L3_STAIR_B"
+      ],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L3_STUDY",
+      "camera_a": "CAM_MAIN_L3_STUDY_A",
+      "camera_b": "CAM_MAIN_L3_STUDY_B",
+      "previous04_a": "LIMITED_COMPOSITION",
+      "previous04_b": "LIMITED_COMPOSITION",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "LIMITED_COMPOSITION",
+      "readable_diagnostic_views": 1,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "room_id": "MAIN_L3_TERRACE",
+      "camera_a": "CAM_MAIN_L3_TERRACE_A",
+      "camera_b": "CAM_MAIN_L3_TERRACE_B",
+      "previous04_a": "READABLE_DIAGNOSTIC",
+      "previous04_b": "READABLE_DIAGNOSTIC",
+      "current07_a": "READABLE_DIAGNOSTIC",
+      "current07_b": "READABLE_DIAGNOSTIC",
+      "readable_diagnostic_views": 2,
+      "structure_findings": [],
+      "final_room_acceptance": "NOT_ACCEPTED"
+    }
+  ],
+  "cameras": [
+    {
+      "camera": "CAM_GUEST_B1_BATH_A",
+      "room_id": "GUEST_B1_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_01.png",
+      "contact_sheet_sha256": "238f6a6cd9e52eafb83fe160b47d3a67ca347d222cfb3ce6eb61a5254dbdbec4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_B1_BATH_A.png",
+      "sha256": "4d9349e050d8aa09de8ebe708353d359832b914044264e9e13b51303304264de",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "TOO_CLOSE"
+      ],
+      "notes": "洗手盆与镜子明确可辨，但底座裁切，只有单件近景。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "镜头看向洗衣桌与近软木板，浴室洁具未展示",
+        "image_sha256": "a57a718bc8620ae14bed34214f4c7a915efeb9dbb12137eec3d6ada16d464f19"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_B",
+      "room_id": "GUEST_B1_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_01.png",
+      "contact_sheet_sha256": "238f6a6cd9e52eafb83fe160b47d3a67ca347d222cfb3ce6eb61a5254dbdbec4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_B1_BATH_B.png",
+      "sha256": "9a63ce44de83ef23d0d337b1afef3df09a0b97a496bd17a4d29f7d43dfcb844b",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "TOO_CLOSE"
+      ],
+      "notes": "马桶与水箱可辨，马桶底部出框，不能覆盖完整小室。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "几乎全是软木墙，浴室洁具未入画",
+        "image_sha256": "21bc474b02151252944efeef8a4e5e9d404b1f4fa5e5617c0594e31a577b35f8"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_A",
+      "room_id": "GUEST_B1_LAUNDRY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_01.png",
+      "contact_sheet_sha256": "238f6a6cd9e52eafb83fe160b47d3a67ca347d222cfb3ce6eb61a5254dbdbec4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_B1_LAUNDRY_A.png",
+      "sha256": "c94402c2ade5a472da908ee846b8d8e3e34c4ac84ff537343514680ab6afd5ae",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 4.5,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "BRIGHT_INTERIOR"
+      ],
+      "notes": "洗衣台、设备、门口及邻接湿区关系可读，室内较亮，家具细节仍简化。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "工作台、叠巾、洗手盆及洗衣机可辨，曝光偏亮待校准",
+        "image_sha256": "7cbf0f2bfb64dd9870f3e9402358706e1feda8b123b9b370d8e55ebe7de9c5e9"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_B",
+      "room_id": "GUEST_B1_LAUNDRY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_01.png",
+      "contact_sheet_sha256": "238f6a6cd9e52eafb83fe160b47d3a67ca347d222cfb3ce6eb61a5254dbdbec4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_B1_LAUNDRY_B.png",
+      "sha256": "6684155631c591dc83ffb71a24c7f9c80b90b4a564dcdf0b007fbd4422c08831",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 4.5,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "DOOR_OCCLUSION",
+        "CROP"
+      ],
+      "notes": "近处打开的木门占左半幅，洗衣机与通向楼梯的门口仍可辨。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "洗衣机及出入口可辨，门板占较大前景",
+        "image_sha256": "4d78f18d5519fc281b45f1c0b2728c87a4769f390f3abd1344a2f599b343fec9"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "room_id": "GUEST_B1_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_01.png",
+      "contact_sheet_sha256": "238f6a6cd9e52eafb83fe160b47d3a67ca347d222cfb3ce6eb61a5254dbdbec4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_B1_STAIR_A.png",
+      "sha256": "99fe7ffc317a2856ce42473b1d13d892324e866b1d693cee1318cd0e5329168c",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "UNDERSIDE_VIEW",
+        "CROP"
+      ],
+      "notes": "仰视梯底、石墙与平台，只能检查局部楼梯构造，完整上下路径不在画内。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "离踏步太近，局部几级横板占满画面",
+        "image_sha256": "271b3350b17cd6ca1c3326d0501738f7c552be9e3fe114255855f1c3bd95244c"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "room_id": "GUEST_B1_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_01.png",
+      "contact_sheet_sha256": "238f6a6cd9e52eafb83fe160b47d3a67ca347d222cfb3ce6eb61a5254dbdbec4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_B1_STAIR_B.png",
+      "sha256": "09e0e142f79d1f903a7632ac854f3bd21cef09aa3435bfe04740863d78ae0ec0",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "CROP"
+      ],
+      "notes": "紧贴踏步及扶手，楼梯可辨但两端和完整行走关系缺失。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要是梯底/近踏步，无法检查完整梯段",
+        "image_sha256": "9b12f068c52457c33ced4853e5617253abd0d81a403c340e798c11938a0a7e13"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_A",
+      "room_id": "GUEST_L1_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_02.png",
+      "contact_sheet_sha256": "1ad65c7f925135735ccc1a8dc9f63eee212dcd0dea550d09d51e1aa01be3a079",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_BATH_A.png",
+      "sha256": "dff897eb82413ad8fb9a24cb0ec05513c4f88aa20d431b66359b2fb2bbbefd44",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "盆、镜、马桶及狭窄房间关系可读，盆底部分裁切。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "近黑，无法检查浴室",
+        "image_sha256": "a410d71b72c0af789b12e653763ff0ad40b54a57d19678c109d808346345f59a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_B",
+      "room_id": "GUEST_L1_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_02.png",
+      "contact_sheet_sha256": "1ad65c7f925135735ccc1a8dc9f63eee212dcd0dea550d09d51e1aa01be3a079",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_BATH_B.png",
+      "sha256": "8d0857d8d63c635fb5f557f2188dac9a951e1b9fc027c313eb735e02a618e4ed",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SIMPLIFIED_FIXTURES"
+      ],
+      "notes": "浴缸主体及邻接墙面明确，材质和细节仍是诊断模型。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "近黑，无法检查浴室",
+        "image_sha256": "c7334c585ff973b9bb01ed8885533f7a0d01afd4c67d091511239fddbc5eb77d"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "room_id": "GUEST_L1_BOILER",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_02.png",
+      "contact_sheet_sha256": "1ad65c7f925135735ccc1a8dc9f63eee212dcd0dea550d09d51e1aa01be3a079",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_BOILER_A.png",
+      "sha256": "aefff2eb3b463a8001821e2172e1d4fe6b8d3651238f4a2d543a8e7ab8a4183f",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "DOOR_OCCLUSION",
+        "TOO_CLOSE"
+      ],
+      "notes": "门板与锅炉前景压缩画面，罐体和侧通道局部可辨。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "仅门口侧光可见，设备主体近黑",
+        "image_sha256": "b98bf2c8048d159d4b8d43cdcecc4d8b46ac9e5698c2e8dbd34a2ff7bc4da1d8"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "room_id": "GUEST_L1_BOILER",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_02.png",
+      "contact_sheet_sha256": "1ad65c7f925135735ccc1a8dc9f63eee212dcd0dea550d09d51e1aa01be3a079",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_BOILER_B.png",
+      "sha256": "239e87070d978d03c6ff665a4d5ad612c4e5cd07b55232c650a076ec46bb30de",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "EQUIPMENT_OCCLUSION"
+      ],
+      "notes": "大块设备箱正面填满大部画面，房间尺度与机房布置几乎不可读。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "设备及墙面近黑",
+        "image_sha256": "be7820fac20fdec72376af36b380c84ecb456abe0fc23233e421b012d8fc2026"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_A",
+      "room_id": "GUEST_L1_CAR_COURT",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_02.png",
+      "contact_sheet_sha256": "1ad65c7f925135735ccc1a8dc9f63eee212dcd0dea550d09d51e1aa01be3a079",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_CAR_COURT_A.png",
+      "sha256": "7ccaaf25cce96165e60a592347317f111c140231f6b7fd4d065eed8bbeb06c27",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "FEATURE_POOR"
+      ],
+      "notes": "主要为暗窗墙，缺少车庭整体范围与入口关系。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "阴影内立面与窗可辨，但车庭地面和范围不足",
+        "image_sha256": "2843fab80031962d3a8d08943ad2695490a92b85b289c7ce97b2d92a482d5fa1"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_B",
+      "room_id": "GUEST_L1_CAR_COURT",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_02.png",
+      "contact_sheet_sha256": "1ad65c7f925135735ccc1a8dc9f63eee212dcd0dea550d09d51e1aa01be3a079",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_CAR_COURT_B.png",
+      "sha256": "4349267944974e741079fe13f001248ffdf65a164ce1fea3411713ca089465ee",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "车庭下顶、实体墙、外侧开口和地面关系可读，室内外反差大。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "车庭地坪、侧立面与树林边界可辨",
+        "image_sha256": "ce5e3142faf446366afbecde11c3e5dcd5c4a7ffe968241bf995500bb72de4fe"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "room_id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_03.png",
+      "contact_sheet_sha256": "af8ac88aa846e100e01628117225ce78d1ef4a9b435af7a903b87f89f6bed96b",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A.png",
+      "sha256": "3d670cba245a32b94a1f893b077594495e80dd1a380cf9edf91ef652606c8c1b",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "CROP",
+        "FEATURE_POOR"
+      ],
+      "notes": "主要朝石墙与门口，沙发和桌子只在画边局部可见，暗部压缩。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "近墙与座椅轮廓很暗，空间不可读",
+        "image_sha256": "25ad683080ebaf836b0e4ead943976cffbb1ff8b01cb376652bab7ec2b3e7f96"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "room_id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_03.png",
+      "contact_sheet_sha256": "af8ac88aa846e100e01628117225ce78d1ef4a9b435af7a903b87f89f6bed96b",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B.png",
+      "sha256": "526954bcf3cce577bc5713b8c75869c25d42655a03ecd4e8d29e3bddcab5a256",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "窗、书架、桌边及沙发的关系可辨，窗外亮、室内暗。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "窗、柜与椅子局部可辨，室内仍暗",
+        "image_sha256": "6626a608b8b3a0819b52ed974dfe23569ae2648e9dbe67a70ba98f2ade31f216"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_A",
+      "room_id": "GUEST_L1_GALLERY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_03.png",
+      "contact_sheet_sha256": "af8ac88aa846e100e01628117225ce78d1ef4a9b435af7a903b87f89f6bed96b",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_GALLERY_A.png",
+      "sha256": "06ef7f27551fa59e57a7dcdb8bae14893ec1abe080d2ddd67f183b55fceb8d69",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "FURNITURE_OCCLUSION"
+      ],
+      "notes": "入口屏风、过道与起居室座席可辨，近书柜占右侧但没有堵满视线。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "走廊、门口和起居室联系可辨",
+        "image_sha256": "e258db988f3ee644dceb5bbc2e3a7dd97558e1d1eab1c04ef04515a94b2106a0"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_B",
+      "room_id": "GUEST_L1_GALLERY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_03.png",
+      "contact_sheet_sha256": "af8ac88aa846e100e01628117225ce78d1ef4a9b435af7a903b87f89f6bed96b",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_GALLERY_B.png",
+      "sha256": "c1c13976ae6f1ccdac3da5c2028c27e87c7f3f9c9dfb785ac7f137f26ca4533a",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "WALL_DOMINATED",
+        "DARK_BUT_READABLE"
+      ],
+      "notes": "狭长石墙占大部画面，远端卧室和过道可辨但缺少整体廊道关系。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "石墙占据大半画面，通道检查信息不足",
+        "image_sha256": "3d11526bea418731ec336806ab7810ffa264bd1fbef7adc5ab0501bbaf670e7c"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "room_id": "GUEST_L1_GUEST_ROOM",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_03.png",
+      "contact_sheet_sha256": "af8ac88aa846e100e01628117225ce78d1ef4a9b435af7a903b87f89f6bed96b",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_GUEST_ROOM_A.png",
+      "sha256": "a803e1c54e6aafb74a5c67013389ea110c5aa85b3fe100b4d282eccf2dd7ef81",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "床、玻璃窗门、柜、椅与露台关系清楚，室外较亮。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床、窗、椅子和矮柜可辨，床尾裁切",
+        "image_sha256": "cca495885ee66bd30a03324fc9365e19ca037ad7957c91e46ba5fb6a9dfc9990"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "room_id": "GUEST_L1_GUEST_ROOM",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_03.png",
+      "contact_sheet_sha256": "af8ac88aa846e100e01628117225ce78d1ef4a9b435af7a903b87f89f6bed96b",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_GUEST_ROOM_B.png",
+      "sha256": "279a6b98eae9be92709801586955c452eb8ee6a76221358feb5d7ecf74a514d5",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "床、隔墙和过道可辨，画边裁切部分家具。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床、床头墙与柜可辨，床尾裁切",
+        "image_sha256": "73dfdd650d10f71a0bfec5642747eae0536ecc8c6734a98b934f49d65a2ed354"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "room_id": "GUEST_L1_LOUNGE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_04.png",
+      "contact_sheet_sha256": "2fcf483de5a758e081bab0d560d66934dc18ba2aa464b097708ac9fffe5a430e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_LOUNGE_A.png",
+      "sha256": "61cec4a71f188646c882f329405890a2ddb3933f99df310c9e5b563ff23faaf9",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.5999999046325684,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "DARK_FIREBOX"
+      ],
+      "notes": "窗侧座席、桌边、远处炉口和书架边缘关系清楚，炉内暗、桌边裁切。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "书架、茶几、长椅与窗关系可辨",
+        "image_sha256": "0e325da90b6334f89d13a0d70b1ffead6cbd0b1317397e4be253e1c9eea341a8"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "room_id": "GUEST_L1_LOUNGE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_04.png",
+      "contact_sheet_sha256": "2fcf483de5a758e081bab0d560d66934dc18ba2aa464b097708ac9fffe5a430e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_LOUNGE_B.png",
+      "sha256": "f77457137d5fe4d2e99b48b8573111725592df08bb5530a36997fe45ff2042fb",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "DARK_BUT_READABLE"
+      ],
+      "notes": "书架、扶手椅、正确位置的屏风柜与窗侧座席形成互补关系，暗地面仍可辨。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "近隔栅遮住大半前景，沙发和窗仍可辨",
+        "image_sha256": "c63da5cd42d3c9e59cc531130e84ee2c72d43365c3a41d157dfe7701f581c50a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "room_id": "GUEST_L1_POOL",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_04.png",
+      "contact_sheet_sha256": "2fcf483de5a758e081bab0d560d66934dc18ba2aa464b097708ac9fffe5a430e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_POOL_A.png",
+      "sha256": "bedb035f048f1afc436638076e857e2bb3a7f8df63def1092001ecb3b15ca77d",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_WATER"
+      ],
+      "notes": "池口、池沿和远侧池形可读，水面均匀、材质合成感明显。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "池沿、水面及入水小阶可辨；材料真实性未验收",
+        "image_sha256": "6d28cc3f8da295cedb3d4f9f65a87618861919923b427af4cf85fcef6474ebb0"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_B",
+      "room_id": "GUEST_L1_POOL",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_04.png",
+      "contact_sheet_sha256": "2fcf483de5a758e081bab0d560d66934dc18ba2aa464b097708ac9fffe5a430e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_POOL_B.png",
+      "sha256": "2ad751de5d76f7db51e5f66bbda48b47208057bc17e2a58901f67367c7be48f5",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_WATER"
+      ],
+      "notes": "池身、台阶口及近侧池沿可辨，水面高光平滑且缺真实细节。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "水面与反向池沿可辨；材料真实性未验收",
+        "image_sha256": "a9802aa11e03e5c96bde63525ac240754739f861c3936ae572eac7f50152b75d"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "room_id": "GUEST_L1_STAIR_HALL",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_04.png",
+      "contact_sheet_sha256": "2fcf483de5a758e081bab0d560d66934dc18ba2aa464b097708ac9fffe5a430e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_STAIR_HALL_A.png",
+      "sha256": "1729e84bd6e1aee0c44c0b2f4fd8876be744ae2dc8207f311599a293edbd95a0",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "DARK_BUT_READABLE"
+      ],
+      "notes": "下行踏步与扶手可读，侧墙近、视野有限但楼梯用途明确。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要是外部弧形连廊，标称楼梯厅未充分展示",
+        "image_sha256": "858fdcdff9ccca7a258ddfa636f0644efc7ede729048025005a9c9b287b64c83"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_B",
+      "room_id": "GUEST_L1_STAIR_HALL",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_04.png",
+      "contact_sheet_sha256": "2fcf483de5a758e081bab0d560d66934dc18ba2aa464b097708ac9fffe5a430e",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_STAIR_HALL_B.png",
+      "sha256": "85e593f779ddfb1bc45c5bd7a88dbfec5f320ed1d6bfab74e25cd0a5478b0daa",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "STRUCTURE_CONTEXT_REVIEW",
+        "UNDERSIDE_VIEW"
+      ],
+      "notes": "梯底与小平台可辨，下方露出绿地及墙脚黑带，需单图核对室外/开口上下文，不能单凭黑带判孔洞。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "楼梯口与真实梯段可辨",
+        "image_sha256": "86185a5be8c967b56d1cea76a60ae50e1b525828abf754f8be59922cfbe4cebe"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_A",
+      "room_id": "GUEST_L1_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_05.png",
+      "contact_sheet_sha256": "6ed5c0e97a071c2a389de44dfd799ec1a82d6ce3cc24f2c1a8ee758301c86c4e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_TERRACE_A.png",
+      "sha256": "96800729fb28b5ab8ac7b3cfb0bc0ef47f8ad7696e1ba265f68cdc9756d61388",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "露台、檐下步道及接近阶梯关系可读，地形过于平滑。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台与弧形连廊关系可辨",
+        "image_sha256": "92ac0c9156c633eb8d0c32fc0b055d6f0f295e1d75ad724f5d11817c9b24a8b0"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_B",
+      "room_id": "GUEST_L1_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_05.png",
+      "contact_sheet_sha256": "6ed5c0e97a071c2a389de44dfd799ec1a82d6ce3cc24f2c1a8ee758301c86c4e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_TERRACE_B.png",
+      "sha256": "91fc9ed396eb838dd296909d923071fef552eb245a1d1c684eaf6c7724a17519",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "檐下长步道、窗墙、远端泳池关系清楚。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "沿客楼立面、泳池及廊架的露台方向可辨",
+        "image_sha256": "76180453bebd87cba597e0446112c1ebccd8988f5b291c8c81c6105749cf6a74"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_A",
+      "room_id": "GUEST_L1_THEATER",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_05.png",
+      "contact_sheet_sha256": "6ed5c0e97a071c2a389de44dfd799ec1a82d6ce3cc24f2c1a8ee758301c86c4e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_THEATER_A.png",
+      "sha256": "c96d8708e8389029d299a86e993af77dc94f328ec7259612d96c2e316033ed50",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "CEILING_REFLECTION"
+      ],
+      "notes": "多排座椅、窗门和空间可读，黑亮天花反射与暗部仍需材质/照明优化。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "桌椅、窗仅有暗部轮廓，检查照明不足",
+        "image_sha256": "3d3cfcbda92974d06d77697230f0ebd26e6f30fd5a903a3968000a4031fba7f0"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_B",
+      "room_id": "GUEST_L1_THEATER",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_05.png",
+      "contact_sheet_sha256": "6ed5c0e97a071c2a389de44dfd799ec1a82d6ce3cc24f2c1a8ee758301c86c4e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L1_THEATER_B.png",
+      "sha256": "5d3f719d3c7638b89e634675cac63fefcb7b2b72d4b974f4511da49d466f996e",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "CEILING_REFLECTION"
+      ],
+      "notes": "银幕、座椅和窗可读，暗部未完全吞没物体，但不是最终照明效果。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "座椅与墙面明显过暗，细节不可读",
+        "image_sha256": "ed3bfd8bfa6ea1d48488c45c28d5f04772ad0d54e3e390c6eb48d8e637831469"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_A",
+      "room_id": "GUEST_L2_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_05.png",
+      "contact_sheet_sha256": "6ed5c0e97a071c2a389de44dfd799ec1a82d6ce3cc24f2c1a8ee758301c86c4e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_BATH_A.png",
+      "sha256": "d425f5d6eab906c34df773955f630452b9598bc291bc5d79a20f22cf03afa18c",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "洗手盆、镜面、门口和墙地关系可读，盆底轻微裁切。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "洗手盆/镜子和门可辨，下缘裁切",
+        "image_sha256": "571f564605d80d90ed2997b212cec59ea69a709972ac91a6d03b77d44bbad334"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_B",
+      "room_id": "GUEST_L2_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_05.png",
+      "contact_sheet_sha256": "6ed5c0e97a071c2a389de44dfd799ec1a82d6ce3cc24f2c1a8ee758301c86c4e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_BATH_B.png",
+      "sha256": "74cda1f18e82696c65a5f85f42f0859371e5c893f0e3767e58c1bc7f1a6f97d3",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SIMPLIFIED_FIXTURES"
+      ],
+      "notes": "马桶全体与周边地坪清楚，小室尺度可辨。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "只拍到水箱顶，马桶主体在画面下方",
+        "image_sha256": "48d18e32c0b74036137e28dae4e4839f5915340dd1ce2267e3dec6d863f0d63f"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "room_id": "GUEST_L2_BEDROOM_MIDDLE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_06.png",
+      "contact_sheet_sha256": "8fa6acec7a8908a6d0cd634d51b994c813aa25d188ad941f30f8172e126be1fe",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_BEDROOM_MIDDLE_A.png",
+      "sha256": "c01a75dff9a2f1be8de9bf6ccdf1f6452c398a92ecd0ac318512cd8ddc58f8ef",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "床、柜、桌椅与门口可读，家具较密且简化。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床、柜、桌椅和门关系可辨",
+        "image_sha256": "a48ae4b63c5a149bc37a401dd9458fa68403ec195a3756c834129247255fab39"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "room_id": "GUEST_L2_BEDROOM_MIDDLE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_06.png",
+      "contact_sheet_sha256": "8fa6acec7a8908a6d0cd634d51b994c813aa25d188ad941f30f8172e126be1fe",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_BEDROOM_MIDDLE_B.png",
+      "sha256": "153ff5f47cfc1ec909f0b81ef8462b8fae1a5976fd60aa2b3bea7e498aa68a10",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "床头、窗墙与室内边界可辨，近床裁切、窗外较亮。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床与外窗关系可辨，床沿裁切",
+        "image_sha256": "d56d2cabe4aa8681457baf4859f6c5e0f2b839124980064e2194f6c35e512afc"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "room_id": "GUEST_L2_BEDROOM_NORTH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_06.png",
+      "contact_sheet_sha256": "8fa6acec7a8908a6d0cd634d51b994c813aa25d188ad941f30f8172e126be1fe",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_BEDROOM_NORTH_A.png",
+      "sha256": "6bf0d4cba2063b62be719bcb0ec37f76cf241473b87cfb158fdaf0c67eecce48",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "床边、床柜、书桌和门口关系可读，中心墙面较空。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床、柜和桌椅可辨",
+        "image_sha256": "c3da86a271730308ade07e842c29d72e2cd7205a064f822663c1514a2501cb19"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "room_id": "GUEST_L2_BEDROOM_NORTH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_06.png",
+      "contact_sheet_sha256": "8fa6acec7a8908a6d0cd634d51b994c813aa25d188ad941f30f8172e126be1fe",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_BEDROOM_NORTH_B.png",
+      "sha256": "21e558e11b1050401c0ce8837973c0e69506cffe94386bd2afabb5f04fc21923",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "FURNITURE_OCCLUSION"
+      ],
+      "notes": "床、衣柜、窗和门口可辨，衣柜遮住一部分窗。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床与外窗关系可辨，床沿裁切",
+        "image_sha256": "f8015c731aefa05c55c99d83dc482e08e2adf50f659100447a2d3228beb0fb5f"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "room_id": "GUEST_L2_BEDROOM_SOUTH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_06.png",
+      "contact_sheet_sha256": "8fa6acec7a8908a6d0cd634d51b994c813aa25d188ad941f30f8172e126be1fe",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_BEDROOM_SOUTH_A.png",
+      "sha256": "64dba3dbd69ecb668288796e93cd26ecbb19b30c98b653a54c10ff43c5ea3bcb",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "衣柜、书桌与转角窗清楚，玻璃外景偏亮。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "柜、桌椅、床与窗关系可辨",
+        "image_sha256": "c203e613947a2a426c6aa4b34ca3ec38077fe269d7c3b6fb4e335c554b323a2a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "room_id": "GUEST_L2_BEDROOM_SOUTH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_06.png",
+      "contact_sheet_sha256": "8fa6acec7a8908a6d0cd634d51b994c813aa25d188ad941f30f8172e126be1fe",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_BEDROOM_SOUTH_B.png",
+      "sha256": "6ed93b6b0f3b003398eff95ac44e5c5ba98c1691fc1f0b6d3b51d169517be539",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "床头、窗、三面室内边界可辨，床的近端出框。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床及两面窗可辨",
+        "image_sha256": "b365d72cc024a8ccb5cc148a64f538336425b667f6149316536121e80c9a293a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "room_id": "GUEST_L2_HALL",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_07.png",
+      "contact_sheet_sha256": "1aeb136aa9719ba7bfb83170bc3a8551ba157ccd3246c0a67b9966881027c0a4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_HALL_A.png",
+      "sha256": "da401d0bc67b9c563763eb943121e4b8546d0093539eafdca689fe0998024509",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "DOOR_OCCLUSION",
+        "BRIGHT_INTERIOR"
+      ],
+      "notes": "近门板与中间白墙占大部视线，能辨门洞但完整走廊范围有限。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "两侧门口与走廊墙可辨，空墙占比偏大",
+        "image_sha256": "364cb4ca212e19fb6c7050073ae53aa65280db2439f77e9d20fe6cabbc994f69"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_B",
+      "room_id": "GUEST_L2_HALL",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_07.png",
+      "contact_sheet_sha256": "1aeb136aa9719ba7bfb83170bc3a8551ba157ccd3246c0a67b9966881027c0a4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_HALL_B.png",
+      "sha256": "28e767c2575129ca95ae39d301c9b07d8ef29bc5a4a137d2e161abb86a2cfbce",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DOOR_OCCLUSION",
+        "BRIGHT_INTERIOR"
+      ],
+      "notes": "走廊地面、窗、门及远端浴室关系可读，近门板部分挡左侧。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "窄廊、墙材及门口关系可辨",
+        "image_sha256": "c1844aec84699322e1df7d01181e6777e314e6c625dadb5f4343f0f263b12427"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_A",
+      "room_id": "GUEST_L2_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_07.png",
+      "contact_sheet_sha256": "1aeb136aa9719ba7bfb83170bc3a8551ba157ccd3246c0a67b9966881027c0a4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_TERRACE_A.png",
+      "sha256": "1273b0f658252f9d9fc9862888e97e12f968f13ae15d272fc455d73e1743b280",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "PLAIN_SURFACES"
+      ],
+      "notes": "露台地面、围墙与入室门口可读，材质仍简单。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "真实高围墙及门口可辨；不为取景降低已校准墙高",
+        "image_sha256": "b32d80528a0b8bae47e91a5bdd07d79b764a43ca24b8ddc9b15cfeeaf1f92e0c"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_B",
+      "room_id": "GUEST_L2_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_07.png",
+      "contact_sheet_sha256": "1aeb136aa9719ba7bfb83170bc3a8551ba157ccd3246c0a67b9966881027c0a4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_GUEST_L2_TERRACE_B.png",
+      "sha256": "d645098e6511b8486330e7b3e8e6e5aa2ea8240df9a7443f6dd2197d7163734b",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "PLAIN_SURFACES"
+      ],
+      "notes": "围墙转角和露台地坪明确，地形/树木是远处背景。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "真实高石围墙、铺面及阴影可辨；不等于开阔观景露台",
+        "image_sha256": "41a8c8570c1a2b7b65a6d265a6fc5b327c2c86989a99d6b5b82c7b3956edfb40"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "room_id": "MAIN_B_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_07.png",
+      "contact_sheet_sha256": "1aeb136aa9719ba7bfb83170bc3a8551ba157ccd3246c0a67b9966881027c0a4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_BATH_A.png",
+      "sha256": "29a0c985d646d30411223e8a4edd822f23bf005371199539a17c7f6034a203ff",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 1.600000023841858,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "TOO_CLOSE"
+      ],
+      "notes": "马桶和洗手盆可辨，但马桶底座与右盆裁切，仍是有限小室近景。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "门口及软木墙为主，洁具投影落在画面下方或侧外",
+        "image_sha256": "c882211c8288513f1b2a4ce37740dd98701915da361f7bdd71c6a92ef672a54b"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "room_id": "MAIN_B_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_07.png",
+      "contact_sheet_sha256": "1aeb136aa9719ba7bfb83170bc3a8551ba157ccd3246c0a67b9966881027c0a4",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_BATH_B.png",
+      "sha256": "889c2c1bd62dd139b8cabf6b466a766ed8b01d4e4e60e5158d58fc04ee8fec04",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 1.600000023841858,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "TOO_CLOSE"
+      ],
+      "notes": "洗手盆和门口可读，盆底出框、另一洁具未在此机位展示。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "空软木墙为主，马桶主体未入画",
+        "image_sha256": "657a74254ea9b7353668df390181ddb8f8e8ecc6956ec295c1dbb68793c68e21"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_A",
+      "room_id": "MAIN_B_BOILER",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_08.png",
+      "contact_sheet_sha256": "a44fd557b424be88f4a6b0f62a637332f05cd35358f8b7d5f19c38287dac6358",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_BOILER_A.png",
+      "sha256": "863083c72d6b749aaa755b31871214fd9960c1c5955efc98ba4ab91c38a10ce4",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 4.5,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "OVERBRIGHT_INTERIOR",
+        "CROP"
+      ],
+      "notes": "锅炉、开门和邻接酒架关系可读，但浅色墙和设备过亮、细部层次弱。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "近墙和炉体各占一侧，设备明显裁切",
+        "image_sha256": "958b3dc9dc139e61bc6dfedf1b07ed1e0c8436e0f3cf664b0ce9fec840fcc33a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_B",
+      "room_id": "MAIN_B_BOILER",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_08.png",
+      "contact_sheet_sha256": "a44fd557b424be88f4a6b0f62a637332f05cd35358f8b7d5f19c38287dac6358",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_BOILER_B.png",
+      "sha256": "21ce0e608b24908563fe452a034530a864df0ca2f3eea3b6bf9e9d64641993f0",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 4.5,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "EQUIPMENT_OCCLUSION",
+        "OVERBRIGHT_INTERIOR"
+      ],
+      "notes": "近管道和设备占大部画面，罐体仍可辨，缺少完整机房布置。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "锅炉、烟管、压力容器可辨；曝光偏亮待校准",
+        "image_sha256": "92b4f59c626056114f4e10d01f8589fe19171974eb41d81f7f282511d6e50f45"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_A",
+      "room_id": "MAIN_B_FOUNDATION_1",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_08.png",
+      "contact_sheet_sha256": "a44fd557b424be88f4a6b0f62a637332f05cd35358f8b7d5f19c38287dac6358",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_FOUNDATION_1_A.png",
+      "sha256": "2882aec1cdf9dde551c870789f30df1891d4931d3e78e1a0f59e09ffa34a11ee",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 2.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "基础石墙、楼板下方与地面关系可读，土坡表面过于平滑。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "基础石墙和地面关系可辨，阴影较重",
+        "image_sha256": "3507db0f29769bc4b9f26f539509926bb991aee8676e0acce69f6937595948fa"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_B",
+      "room_id": "MAIN_B_FOUNDATION_1",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_08.png",
+      "contact_sheet_sha256": "a44fd557b424be88f4a6b0f62a637332f05cd35358f8b7d5f19c38287dac6358",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_FOUNDATION_1_B.png",
+      "sha256": "b826fc266fd9a02a38e45d01182aa518eee91141878c3a0f19d00cbfd3c83abf",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 2.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "SYNTHETIC_TERRAIN",
+        "WATER_EDGE"
+      ],
+      "notes": "基础墙与楼板下开口可辨，外侧水片/地形呈人工薄片边界。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "基础墙、顶板和溪流关系可辨",
+        "image_sha256": "510ce5707685379c20c5ded071d40e469723e0a79db9b4cef1c9daf52eb2fd97"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_A",
+      "room_id": "MAIN_B_FOUNDATION_2",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_08.png",
+      "contact_sheet_sha256": "a44fd557b424be88f4a6b0f62a637332f05cd35358f8b7d5f19c38287dac6358",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_FOUNDATION_2_A.png",
+      "sha256": "e4bde6fd2798429f5b25067ae55fee4d36f684021b4898cf7a500bf0511eb713",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 2.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN",
+        "WATER_EDGE"
+      ],
+      "notes": "两侧基础墙与溪流方向可辨，水片近缘黑直线仍明显。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "基础墙及溪流界面可辨",
+        "image_sha256": "2d44743ce159709459cd37cb627bde0f30d76770e08b1ff2fbaf7d64a2988364"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_B",
+      "room_id": "MAIN_B_FOUNDATION_2",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_08.png",
+      "contact_sheet_sha256": "a44fd557b424be88f4a6b0f62a637332f05cd35358f8b7d5f19c38287dac6358",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_FOUNDATION_2_B.png",
+      "sha256": "310b52c658f4b79ea1af71c38e0a1521d4dfeb9348531c8804a3469e44a6025d",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 2.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "基础墙、覆板和地坡可辨，近墙偏暗但不是全黑。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要对着近处土坡，未清楚展示该检查区的结构",
+        "image_sha256": "085e605379b5e195060af312a3bd6c8f66e521388b0bb0a06d98eca8ae61bc5d"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_A",
+      "room_id": "MAIN_B_FOUNDATION_3",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_09.png",
+      "contact_sheet_sha256": "00f2e463536422d3bccd55ca4d663a73f8170633112c525a205538c8f08482af",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_FOUNDATION_3_A.png",
+      "sha256": "df81785c4d0af2654b6193c8a0403cdd22c9980f6052f75db053bd629be32d2d",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 2.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "基础石墙与外侧实体楼梯关系明确，底部地形/构件接触需更真实处理。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "基础墙和邻接梯级可辨，阴影较重",
+        "image_sha256": "fdfcfe004cb1482978da38d94f95130c8cb1a64f243e905fb5f732662377b513"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_B",
+      "room_id": "MAIN_B_FOUNDATION_3",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_09.png",
+      "contact_sheet_sha256": "00f2e463536422d3bccd55ca4d663a73f8170633112c525a205538c8f08482af",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_FOUNDATION_3_B.png",
+      "sha256": "8d691e8a3c58d2f6dce69294093fa76362f052ba078f3efa17d07668515794a9",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 2.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "基础墙之间和楼板下的检查空间可辨，外侧土坡单调平滑。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "近处土坡占据主要开口，结构信息不足",
+        "image_sha256": "0a311b43a219e184e0eb9861019513a758d327f1dd27df380755bf21f6075e41"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "room_id": "MAIN_B_PLUNGE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_09.png",
+      "contact_sheet_sha256": "00f2e463536422d3bccd55ca4d663a73f8170633112c525a205538c8f08482af",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_PLUNGE_A.png",
+      "sha256": "a8393b5a21e766bd0ed53693db4f3346c1a73b7628fbe4d9b48f8761d7518fd0",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "STRUCTURE_CONTEXT_REVIEW"
+      ],
+      "notes": "上层干平台向下看踏步，水体仅窄条，黑池边须结合源图/结构上下文解释，不能表示完整水池。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "俯视池沿及局部水体，池整体仍有裁切",
+        "image_sha256": "08f6d293c13aa696f991f0e36a468e83436263f087b066696d0dad6e96e6af90"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "room_id": "MAIN_B_PLUNGE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_09.png",
+      "contact_sheet_sha256": "00f2e463536422d3bccd55ca4d663a73f8170633112c525a205538c8f08482af",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_PLUNGE_B.png",
+      "sha256": "e7302144776ef0d9fb3ab34151e32fdad2f1be47cb62e1eace563eb6e7053403",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "FEATURE_POOR",
+        "DARK_WATER"
+      ],
+      "notes": "仅有狭长暗水片和两侧近石面，缺少池体完整形状及人与池空间关系。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "水面及池壁近黑，不能据此验收池内细节",
+        "image_sha256": "526d89ea3545911f4b2de071fb70aadf042ef8ace174456285076b988a1e3c20"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_A",
+      "room_id": "MAIN_B_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_09.png",
+      "contact_sheet_sha256": "00f2e463536422d3bccd55ca4d663a73f8170633112c525a205538c8f08482af",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_STAIR_A.png",
+      "sha256": "e60d2ad2a8912c8c9679709bd43a1c28a5b0f220fe143122e76ddb9ec02f8ab6",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "俯视外部踏步、平台和土坡关系可辨，地形过于规则。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "梯级左侧与酒窖门口可辨，但飞行方向展示不完整",
+        "image_sha256": "d9397ca55369784902c8cc4443d1700caa4dc63b6578aa17f56b8ca474caf10d"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_B",
+      "room_id": "MAIN_B_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_09.png",
+      "contact_sheet_sha256": "00f2e463536422d3bccd55ca4d663a73f8170633112c525a205538c8f08482af",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_STAIR_B.png",
+      "sha256": "ff7962a305905703d099c8f59c793db322f846f51cb5645bd83accfb5aa60a50",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "上行梯、建筑与侧边门口可辨，土坡和构件边界仍很简化。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要是地坪边、孔洞和近坡，梯段主体未入画",
+        "image_sha256": "8fc021d77386c0ca9699fc4e29a0a6dab605af6de87ea360d856edd00d81bead"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_WINE_A",
+      "room_id": "MAIN_B_WINE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_10.png",
+      "contact_sheet_sha256": "20d46fd514f8180a48bf96b373a76b64550a7595ac294d17fbacd5b36b3308fb",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_WINE_A.png",
+      "sha256": "203a22da4b6bf9d1b14b57b04d53262d1a2cb0c6032d1dbfc4f76ab3e1208dcf",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 4.5,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "OVERBRIGHT_INTERIOR"
+      ],
+      "notes": "酒架、台面和狭窄通道关系可读，近瓶较大、地面反光偏亮。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "酒架及邻接门口可辨，亮度偏高待校准",
+        "image_sha256": "4586029a2432a7031d04c71e75b0f723f9608f4fce9e9ccfb34db4319eb77e50"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_WINE_B",
+      "room_id": "MAIN_B_WINE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_10.png",
+      "contact_sheet_sha256": "20d46fd514f8180a48bf96b373a76b64550a7595ac294d17fbacd5b36b3308fb",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_B_WINE_B.png",
+      "sha256": "3f16c3b5de1621bf7b306fc87e679a25bfff81b9598189e966b43ff31aeae4ea",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 4.5,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "FURNITURE_OCCLUSION",
+        "TOO_CLOSE"
+      ],
+      "notes": "台面与墙面占大部画幅，左侧酒架只显示局部。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "酒架端板遮住大块画面，架体仍可辨",
+        "image_sha256": "ec2e7e1304eba1c094abe9140fe46a83718bfdd93596c5ef10edc026de024908"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_A",
+      "room_id": "MAIN_L1_COAT",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_10.png",
+      "contact_sheet_sha256": "20d46fd514f8180a48bf96b373a76b64550a7595ac294d17fbacd5b36b3308fb",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_COAT_A.png",
+      "sha256": "dfe656dbffea8636f3d50633aff4b37c5142a8ba315c469b7966a0f7629cb73e",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "CABINET_ONLY"
+      ],
+      "notes": "主要显示柜门正面与拉手，不能展示衣帽间内外完整空间。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "只能看到关闭柜门局部，柜体上/下均裁切",
+        "image_sha256": "d969b875214ff5d0a545795d4ce6a3880c329a81b7c654b20dc4274ef18d3b39"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_B",
+      "room_id": "MAIN_L1_COAT",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_10.png",
+      "contact_sheet_sha256": "20d46fd514f8180a48bf96b373a76b64550a7595ac294d17fbacd5b36b3308fb",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_COAT_B.png",
+      "sha256": "ea5ee11034248f7d3d0716791ede935d94242ee33bff94d596153ff622d7dd80",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "SEMANTIC_MISS",
+        "WALL_DOMINATED"
+      ],
+      "notes": "反向图主要为石墙和楼梯，缺少衣帽柜/衣帽间的有效空间展示。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "镜头看向邻接楼梯，未展示衣帽储藏",
+        "image_sha256": "c6f9d14ce11e403e1ce6ac5f87db3ded7ee91f439f16cfbbf66fcd1ab8eddffd"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_A",
+      "room_id": "MAIN_L1_ENTRY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_10.png",
+      "contact_sheet_sha256": "20d46fd514f8180a48bf96b373a76b64550a7595ac294d17fbacd5b36b3308fb",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_ENTRY_A.png",
+      "sha256": "5466d350dab3f3e92402231be103b9fc6db7db4306e40400a692cdec51c557b1",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "FOREGROUND_COLUMN"
+      ],
+      "notes": "入口石柱、书架与起居室入口关系可读，近柱遮住部分画面。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "入口转折、书架和起居空间联系可辨",
+        "image_sha256": "8eb58363801690632800022c60e025a5e3141fc02d33741afbd0af08a031a7a8"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_B",
+      "room_id": "MAIN_L1_ENTRY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_10.png",
+      "contact_sheet_sha256": "20d46fd514f8180a48bf96b373a76b64550a7595ac294d17fbacd5b36b3308fb",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_ENTRY_B.png",
+      "sha256": "484478b2aacab6088127b60e1256a4157e227183b56a547701cd6828af74318e",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "WALL_DOMINATED",
+        "CROP"
+      ],
+      "notes": "石墙占中央大部，右侧楼梯可辨，但入口整体关系不足。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "入口邻接梯级可辨，近墙占比过大",
+        "image_sha256": "092b93541e2ddbde76b5b2afa5a0dbbd18ce87769012034ca88defc7feea7b2a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_A",
+      "room_id": "MAIN_L1_HATCH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_11.png",
+      "contact_sheet_sha256": "d4c648aaf8d5a030dfd81c48f99474ec9673a3204edc62ef57a65a298706a76f",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_HATCH_A.png",
+      "sha256": "1e2553cc76621a92c4d0cfcea0531dc4b926cdf4bf26252a23200fea72d69a9b",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "DARK_BUT_READABLE"
+      ],
+      "notes": "玻璃活门旁俯视下溪梯，连续踏步与扶手可辨，溪流终端不全。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "只见露台、树和架梁，水梯开口未入画",
+        "image_sha256": "45b5d50efc76305b603dd14fc74b680524adff1b9297dea78ba524d33e3caf0f"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_B",
+      "room_id": "MAIN_L1_HATCH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_11.png",
+      "contact_sheet_sha256": "d4c648aaf8d5a030dfd81c48f99474ec9673a3204edc62ef57a65a298706a76f",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_HATCH_B.png",
+      "sha256": "309aa6b0bbaa24200440cb76e8b389d8b1a834b78068274ac5b25d37b1b811b3",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "上视踏步、玻璃门和起居室入口，楼梯连接关系清楚。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "从真实梯级仰看阶梯、栏杆与玻璃开口，关系可辨",
+        "image_sha256": "835cb2677bd8fde6f4d07e6be4be530b3641101c17f5d44d29dfd56ccd245f4d"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_A",
+      "room_id": "MAIN_L1_KITCHEN",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_11.png",
+      "contact_sheet_sha256": "d4c648aaf8d5a030dfd81c48f99474ec9673a3204edc62ef57a65a298706a76f",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_KITCHEN_A.png",
+      "sha256": "9ad80dd63a6a21217b029762869309957b39c86694235970a5dc56a552c72447",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "炉灶、冰箱边、餐桌和出入门口关系可读，室外较亮。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "AGA、南窗和工作区可辨；局部明暗待校准",
+        "image_sha256": "362354fd7a57bd12158a0d5cbabb5e30349d8cc015344ae6030477bcf9034324"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_B",
+      "room_id": "MAIN_L1_KITCHEN",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_11.png",
+      "contact_sheet_sha256": "d4c648aaf8d5a030dfd81c48f99474ec9673a3204edc62ef57a65a298706a76f",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_KITCHEN_B.png",
+      "sha256": "4b872b095c837c0510ce866fba8a3e547491d4d0eb66865a6384c57f56d63ddf",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "水槽、操作台、柜与餐桌可辨，窗外亮且室内暗部较重。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "橱柜、台面和餐桌可辨，局部阴影偏重",
+        "image_sha256": "43d8d49579d225762c56960ba4798d0ef37c01a8c11a26ea7bf12e033419fb45"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "room_id": "MAIN_L1_LIVING",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_11.png",
+      "contact_sheet_sha256": "d4c648aaf8d5a030dfd81c48f99474ec9673a3204edc62ef57a65a298706a76f",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_LIVING_A.png",
+      "sha256": "ae4cc968b135e02a725dbaa879d6c46e0f0b8e3c5cc9755d024d73708fdeacb8",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 2.4000000953674316,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "FOREGROUND_COLUMN",
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "客厅柱、玻璃门、露台和溪梯关系可读，室外稍亮，石柱遮住部分房间。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "天花灯框、窗、起居地面与水梯口关系可辨",
+        "image_sha256": "11e6e2c4c07fd0a23c44f2fe9abeca8b1054436ea576ed2da921533292c6ba91"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "room_id": "MAIN_L1_LIVING",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_11.png",
+      "contact_sheet_sha256": "d4c648aaf8d5a030dfd81c48f99474ec9673a3204edc62ef57a65a298706a76f",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_LIVING_B.png",
+      "sha256": "ad7b54d24d2446db168add3af13a7d947189954d12fc9848e99dd0016c8a87b5",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 2.4000000953674316,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SIMPLIFIED_HEARTH",
+        "CROP"
+      ],
+      "notes": "壁炉、悬锅、天然石形体、窗和座席关系清楚，石体与材料写实度不足。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "壁炉、圆形水壶、座椅与窗可辨",
+        "image_sha256": "c372a13620a08e49230f21500b67756c80d92eef9aa2c8fd0617551e955a896c"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "room_id": "MAIN_L1_LOGGIA",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_12.png",
+      "contact_sheet_sha256": "abfd20a0c6031e09c720924e98748bb90e22680507395a0e5ee2017511aed43d",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_LOGGIA_A.png",
+      "sha256": "3a00b3d5d055e52e4955077f931cf8f5eae3914ffe75c0172ec666e967ff5dca",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "WALL_DOMINATED",
+        "VISUAL_SEAM_SUSPECT",
+        "DARK_BUT_READABLE"
+      ],
+      "notes": "近石柱和墙限制过道视野，地坪/门口有明显黑横带，单图复核并保留结构上下文待查。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "墙、顶板与局部通道可辨，观察范围局促",
+        "image_sha256": "44440df0baebbc18ae77f95256d40aba1b209ad766a230de60961afa2dbdd742"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "room_id": "MAIN_L1_LOGGIA",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_12.png",
+      "contact_sheet_sha256": "abfd20a0c6031e09c720924e98748bb90e22680507395a0e5ee2017511aed43d",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_LOGGIA_B.png",
+      "sha256": "1819f498f8124b3702108fd5071b4092c76f9d8ddb34f98de52da7020cbff2f7",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN",
+        "SPACE_CONTEXT_LIMITED"
+      ],
+      "notes": "主要展示檐下外沿路径、平滑土坡和水边，Loggia完整围合/出入关系不足。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要看土坡与溪流，柱廊本体未清楚展示",
+        "image_sha256": "44b8042dda176093a09d195b9ddf2288d196745a8ad7aaab9fbbadbda474d819"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "room_id": "MAIN_L1_SERVANT",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_12.png",
+      "contact_sheet_sha256": "abfd20a0c6031e09c720924e98748bb90e22680507395a0e5ee2017511aed43d",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_SERVANT_A.png",
+      "sha256": "e33f216935c73a8584bc5141ca42eed5de76f5387bb3ddda6cd962b2744febe8",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "FURNITURE_OCCLUSION"
+      ],
+      "notes": "近沙发和茶几填满画面，缺少完整房间边界及出入口关系。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "近土坡/背景占主要画面，沙发仅露边",
+        "image_sha256": "8ff1e3d7eeb48a671d08d3ec46f965ce9ec806a0caec9c419b49a41810b31859"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_B",
+      "room_id": "MAIN_L1_SERVANT",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_12.png",
+      "contact_sheet_sha256": "abfd20a0c6031e09c720924e98748bb90e22680507395a0e5ee2017511aed43d",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_SERVANT_B.png",
+      "sha256": "292a83ffa84e2161caecc969e2de499ada54fc3533b7b573c521f83f390749e4",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "FURNITURE_OCCLUSION",
+        "VISIBLE_WALL_BASE_GAP"
+      ],
+      "notes": "书架、茶几、沙发挤满画幅；后墙脚有透出绿色外景样纹理的细亮缝，已单图复核，几何原因待查。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "近墙和土坡占主要画面，起居家具未清楚展示",
+        "image_sha256": "31cda6a30dea431535cdb1e96d74160f529aeced5d359725b9124bd55c8292d4"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_12.png",
+      "contact_sheet_sha256": "abfd20a0c6031e09c720924e98748bb90e22680507395a0e5ee2017511aed43d",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_SERVICE_STAIR_A.png",
+      "sha256": "892752d518e6f454043d5f826a39681b92f82bae84977ed03d0286b3b447b480",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "斜俯视只见窄梯和大块平滑土坡，楼梯两端关系不足。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "镜头看上方冰箱与天空，梯段未入画",
+        "image_sha256": "70fbba5f8acc12629c2b5a281fc1e186610db79cd481e0710b09b8f0d80f5495"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_12.png",
+      "contact_sheet_sha256": "abfd20a0c6031e09c720924e98748bb90e22680507395a0e5ee2017511aed43d",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_SERVICE_STAIR_B.png",
+      "sha256": "82a0be5b88619207a081366d85c56906842dd32807c6ce9a0e3440aedf77f019",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "SPACE_CONTEXT_LIMITED"
+      ],
+      "notes": "只见近顶部踏步、厨房冰箱边与檐下，无法展示完整服务楼梯。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要看台面、地坪和近土坡，梯段未入画",
+        "image_sha256": "0346721e325c10e1e974c0e76ab4ba182f52eb190e637741ed32e9eb694214d6"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_A",
+      "room_id": "MAIN_L1_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_13.png",
+      "contact_sheet_sha256": "7d97f4fda597ed2861c77e9484245acfaa5b37a20415e4fecf47c6cee75936ad",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_STAIR_A.png",
+      "sha256": "7d70faf58519600a8710fb92ca5d598a0d7f6be1448b23f5f1d88435b9b7000d",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "STRUCTURE_CONTEXT_REVIEW"
+      ],
+      "notes": "俯视连续室内梯可辨，侧边黑开口需要作为楼梯洞口上下文保留，不能自动认定裂缝。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "实际支撑是该层下方地形，画面为外弧梯底和土坡",
+        "image_sha256": "d6b282f96979f2e04f196010346fd540a672eae818852fd1e588961b987bb46f"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_B",
+      "room_id": "MAIN_L1_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_13.png",
+      "contact_sheet_sha256": "7d97f4fda597ed2861c77e9484245acfaa5b37a20415e4fecf47c6cee75936ad",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_STAIR_B.png",
+      "sha256": "6d2fcf45b9814d10bf0de0d2ea8e57e7fe5ec774f65366bf630adc3919b367d0",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "上行踏步与后方客厅壁炉、座席关系清楚，近梯较大。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "真实主梯连续踏步可辨，俯视检查用途明确",
+        "image_sha256": "238ecadc638f92a6be2ec0ef6619c5220c1e9af791eb7b6c38bac22667e7f326"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_A",
+      "room_id": "MAIN_L1_TERRACE_E",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_13.png",
+      "contact_sheet_sha256": "7d97f4fda597ed2861c77e9484245acfaa5b37a20415e4fecf47c6cee75936ad",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_TERRACE_E_A.png",
+      "sha256": "1da9825e5e187a8c9169901417cea2c763302888344514bfdfefec17296fb385",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_GLASS"
+      ],
+      "notes": "露台、玻璃活门、室内外高差关系可辨，玻璃表现仍合成。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台与红色窗框关系可辨",
+        "image_sha256": "13cc457bbe83f4ec624654d648a7dfcf025e46322a2b12e42163704ae9952d6f"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_B",
+      "room_id": "MAIN_L1_TERRACE_E",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_13.png",
+      "contact_sheet_sha256": "7d97f4fda597ed2861c77e9484245acfaa5b37a20415e4fecf47c6cee75936ad",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_TERRACE_E_B.png",
+      "sha256": "507b6cda564ca0eee585330daf52bdeb4c104adae9b71a3dfd5cd56821aa0800",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "PLAIN_SURFACES"
+      ],
+      "notes": "东露台围墙、地坪与弯曲栏件边缘可辨，景观较简单。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台地坪、矮墙和树林关系可辨",
+        "image_sha256": "69b9bbe76e8ca9f6f55d133fd663e42745a028a5c479729fc29824b6311fa548"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_A",
+      "room_id": "MAIN_L1_TERRACE_W",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_13.png",
+      "contact_sheet_sha256": "7d97f4fda597ed2861c77e9484245acfaa5b37a20415e4fecf47c6cee75936ad",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_TERRACE_W_A.png",
+      "sha256": "4415b61fac5895d6efe2204805a6a8ef16a5107abbe2626d05a5088f080b4b68",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_GLASS"
+      ],
+      "notes": "西露台、转角窗、玻璃门和起居室可辨。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台与主楼窗、石墙关系可辨",
+        "image_sha256": "0358faa6b257fb235458c20caab0e0f85e5716b5d46fac7940443b3ab0af5376"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_B",
+      "room_id": "MAIN_L1_TERRACE_W",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_13.png",
+      "contact_sheet_sha256": "7d97f4fda597ed2861c77e9484245acfaa5b37a20415e4fecf47c6cee75936ad",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L1_TERRACE_W_B.png",
+      "sha256": "ae3a6749230d9dc3f05f40c1cb3572831ce60993d179d9edaeddfbb102559aaf",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "西露台围墙转角与林地关系可读，但未呈现真实细密植被和地形。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台矮墙及溪流关系可辨",
+        "image_sha256": "179e9d36525b034a458e20805af737273830d963a433c48421adc65834f54489"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "room_id": "MAIN_L2_BATH_G",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_14.png",
+      "contact_sheet_sha256": "04e92cec9d3d757a6f56ac81d5afdf14e51de88f57e2098c0a5414e45f37fb97",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_BATH_G_A.png",
+      "sha256": "02590a955e9b2f33c9a0507eb2f004aef548bd78b34a0815a26e3612448a63b3",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "STRUCTURE_CONTEXT_REVIEW"
+      ],
+      "notes": "洗手盆和软木墙地可辨，盆后大片黑竖面需核实是否缺口，不能按普通墙材接受。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "镜头主要看邻接空间，未展示浴室洁具",
+        "image_sha256": "21de5b13ee95a0feff209dbf1af064e1eb956dd70f64fdfc23f631419abba96d"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_B",
+      "room_id": "MAIN_L2_BATH_G",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_14.png",
+      "contact_sheet_sha256": "04e92cec9d3d757a6f56ac81d5afdf14e51de88f57e2098c0a5414e45f37fb97",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_BATH_G_B.png",
+      "sha256": "63ecb7f718c87a503b9cd6b10c0e9b5acfc8ea977b27c4b16e8e7f3bfaddc981",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "VISUAL_SEAM_SUSPECT"
+      ],
+      "notes": "门口软木地坪出现两道宽黑横缝，局部像分离薄片；马桶被左边裁切。已单图复核。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "洁具可见极少，浴室主体近黑",
+        "image_sha256": "e9ad318ab879b3dc96cd353399d754c17a76143620bb1f0d28a78b5a9fd59d7b"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_A",
+      "room_id": "MAIN_L2_BATH_M",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_14.png",
+      "contact_sheet_sha256": "04e92cec9d3d757a6f56ac81d5afdf14e51de88f57e2098c0a5414e45f37fb97",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_BATH_M_A.png",
+      "sha256": "8323df8b614e64a9319b74e2248ed25a72155c4ce86db54846268b3cc66f4624",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "洗手盆、马桶及墙面关系可读，近盆底出框。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要看邻接卧室与门，浴室主体未入画",
+        "image_sha256": "c9638891b23fc9230d83a5c6d2fb43e5e2a5c334ca0687e18e4fe64ce85cf6f2"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_B",
+      "room_id": "MAIN_L2_BATH_M",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_14.png",
+      "contact_sheet_sha256": "04e92cec9d3d757a6f56ac81d5afdf14e51de88f57e2098c0a5414e45f37fb97",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_BATH_M_B.png",
+      "sha256": "d526dc60af0e896369ef4762ac0cc5015b8666312cd1d767ec5c691464fa29d2",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "VISUAL_SEAM_SUSPECT"
+      ],
+      "notes": "浴缸与门口清楚，但门槛软木面有明显黑色横缝，需要几何/共面问题复核。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "墙及马桶仅有轮廓，不能检查细部",
+        "image_sha256": "e1425dceb26b1d84c033a7ef39841bbd3fd8e6394c420151801eee528c8b13fc"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_A",
+      "room_id": "MAIN_L2_BATH_N",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_14.png",
+      "contact_sheet_sha256": "04e92cec9d3d757a6f56ac81d5afdf14e51de88f57e2098c0a5414e45f37fb97",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_BATH_N_A.png",
+      "sha256": "03858bc87e4f413d85a12b20c2e01816fae2252462b50c0d04d1ddf506a97011",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "VISIBLE_WALL_BASE_GAP"
+      ],
+      "notes": "马桶、盆边与浴缸可辨；后墙脚整条浅绿外景样纹理贯通，已单图复核，不能接受为正常室内封闭面。",
+      "structure_assessment": "CONFIRMED_FLOOR_WALL_GAP_BY_ROOT_PROBE",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要看邻接更衣室，浴室主体未入画",
+        "image_sha256": "ceae8efd008d1e60f0e44a3615957fef4a8a8f55746b75e96f002607011f7801"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_B",
+      "room_id": "MAIN_L2_BATH_N",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_14.png",
+      "contact_sheet_sha256": "04e92cec9d3d757a6f56ac81d5afdf14e51de88f57e2098c0a5414e45f37fb97",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_BATH_N_B.png",
+      "sha256": "e96129dd54426844e43562d277bc7179880d48d4bc5aa102461516ef06f3a622",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "VISIBLE_WALL_BASE_GAP",
+        "CROP"
+      ],
+      "notes": "近马桶与浴缸可辨但马桶底部裁切；左侧同一墙脚绿条贯通，双视点确认可见异常。",
+      "structure_assessment": "CONFIRMED_FLOOR_WALL_GAP_BY_ROOT_PROBE",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "盆、马桶、浴缸有轮廓，但光照不足",
+        "image_sha256": "3351600f0062fa1b81ced28130f192c3419e4e5ba088b960d579bcb442c4a8f9"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "room_id": "MAIN_L2_CLOSET_G",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_15.png",
+      "contact_sheet_sha256": "9677280819b998e951e2049fbd6c8b0e57b264282436eb13682390b45388651e",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_CLOSET_G_A.png",
+      "sha256": "508cf7abc94d70686a351338f59043b29c1b87a8c28272324e217a77c52a81ae",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "FURNITURE_OCCLUSION",
+        "CEILING_SEAM_SUSPECT"
+      ],
+      "notes": "柜门侧面及拉手挤占大部画面，只有狭缝能看过道；顶部黑缝另需复核。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "柜门与把手局部可见，不能检查完整储藏空间",
+        "image_sha256": "5824587f662d691cedbf13ed5ffea642dfdb5612459afd944a29f40f0781ffa4"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "room_id": "MAIN_L2_CLOSET_G",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_15.png",
+      "contact_sheet_sha256": "9677280819b998e951e2049fbd6c8b0e57b264282436eb13682390b45388651e",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_CLOSET_G_B.png",
+      "sha256": "b2dce79c09264c990617411ed74b625d034e9dea743650c1808a620e4b859812",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "SEMANTIC_MISS",
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "主要拍转角玻璃窗与露台，衣柜仅剩左侧近边，不能有效展示储藏空间。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要看邻接卧室与外窗，柜内/柜体未展示",
+        "image_sha256": "284c27d25d68c807b19c56bc6f62ac63ed41a91b7abc0296237d0e46f2a37119"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_A",
+      "room_id": "MAIN_L2_CLOSET_M",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_15.png",
+      "contact_sheet_sha256": "9677280819b998e951e2049fbd6c8b0e57b264282436eb13682390b45388651e",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_CLOSET_M_A.png",
+      "sha256": "ed989e463ecce64d9c299619dd5a06c57eb613c5554564ae96d64904e110cadf",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "TOO_CLOSE",
+        "CABINET_ONLY"
+      ],
+      "notes": "一半柜门正面与另一半墙/台灯，储藏空间布局缺失。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "柜门局部与邻接灯具可辨，整体信息不足",
+        "image_sha256": "8c50bc4a57fce6e686f476f7da10d31ecfc7503289992ee106864dc9561f7803"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_B",
+      "room_id": "MAIN_L2_CLOSET_M",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_15.png",
+      "contact_sheet_sha256": "9677280819b998e951e2049fbd6c8b0e57b264282436eb13682390b45388651e",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_CLOSET_M_B.png",
+      "sha256": "1bfc6e9cba52e2955e54e5aa61dae65b736d220e58d94c96ff0fd5ec4d0f60cc",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "SEMANTIC_MISS",
+        "VISIBLE_MASONRY_GAPS"
+      ],
+      "notes": "石墙占大部画面，没有有效衣柜视图；石层之间有数条透亮缝隙需单图复核。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "近石墙为主，储藏空间未展示",
+        "image_sha256": "716fbb1178f447b951f001b591a02e60d56d4bd369fd9965dae0bfe7facfeb5a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_A",
+      "room_id": "MAIN_L2_DRESSING",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_15.png",
+      "contact_sheet_sha256": "9677280819b998e951e2049fbd6c8b0e57b264282436eb13682390b45388651e",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_DRESSING_A.png",
+      "sha256": "f106a250639cc2965363e09856fe84d39819d5905b7c39118e539cba9639e603",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "VISIBLE_MASONRY_GAPS",
+        "VISUAL_SEAM_SUSPECT"
+      ],
+      "notes": "柜、镜与窗边关系可辨；左侧石层呈贯通横缝，下方黑带，不能接受为完整封闭墙地。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "柜体、窗和平台关系可辨，部分阴影偏重",
+        "image_sha256": "f018f83767cfc2b9dd4e8dfd8e70586eba7ecd58d8a8a99664e300c83c748d7d"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_B",
+      "room_id": "MAIN_L2_DRESSING",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_15.png",
+      "contact_sheet_sha256": "9677280819b998e951e2049fbd6c8b0e57b264282436eb13682390b45388651e",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_DRESSING_B.png",
+      "sha256": "cc7afbe5dd6bd03f06e7f3f6e4472505198805b52fd9313934a252d66bbcc347",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "VISIBLE_WALL_BASE_GAP",
+        "CROP"
+      ],
+      "notes": "书架、桌椅与浴室门关系可辨，但后墙脚连续亮缝、近家具裁切。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "书架、椅子、桌面可辨，近景略裁切",
+        "image_sha256": "a5fa755f9bd677a80cdf851fe1b0da33810336c5806c27e8878dc71aa06302df"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_A",
+      "room_id": "MAIN_L2_GUEST",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_16.png",
+      "contact_sheet_sha256": "622b6b3d500aec22c3ad13b7f8dc923263063b6550e2279db4b005fd75e35231",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_GUEST_A.png",
+      "sha256": "861b0504aa035b1e4074c021bd84e84c39e0e83c53429586023e39e38d35f463",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CEILING_SEAM_SUSPECT",
+        "CROP"
+      ],
+      "notes": "床、柜、床头柜、窗和过道可辨，左上天花与柜顶附近黑缝需复核。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床、柜与床头灯可辨；床尾有裁切",
+        "image_sha256": "bf1bec1fb42c289405ba67ddf4c9475f2204372361138ad994cc639aeeda3ae9"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_B",
+      "room_id": "MAIN_L2_GUEST",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_16.png",
+      "contact_sheet_sha256": "622b6b3d500aec22c3ad13b7f8dc923263063b6550e2279db4b005fd75e35231",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_GUEST_B.png",
+      "sha256": "3d7338b366d625b7e0f32f9e9754e6dd4c1728db57dd154dd1a9fb3e07d1542f",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "EXTERIOR_BRIGHT",
+        "CROP"
+      ],
+      "notes": "桌椅、转角玻璃与露台可辨，窗外和灯罩过亮，近床只露局部。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "窗、桌与露台关系可辨",
+        "image_sha256": "b475562be6784056d5c477ccdfc8c410a8a87af9732f2e37ac00e14e49db50ca"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_A",
+      "room_id": "MAIN_L2_HALL",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_16.png",
+      "contact_sheet_sha256": "622b6b3d500aec22c3ad13b7f8dc923263063b6550e2279db4b005fd75e35231",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_HALL_A.png",
+      "sha256": "5bbc0e758c1a6904246f98a80a40367b9af8ae88a65072d95cd8bd0cf85c1229",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "STRUCTURE_CONTEXT_REVIEW",
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "上下楼梯、浴室与玻璃外廊关系可辨；玻璃底部与地面接触的黑边须按洞口/平台上下文核实。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "走廊、梯段与浴室门口关系可辨",
+        "image_sha256": "c45d621fdec7f240c9b6892c5dd4d96d18eb17d1b0ded35116a20cd43875a804"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_B",
+      "room_id": "MAIN_L2_HALL",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_16.png",
+      "contact_sheet_sha256": "622b6b3d500aec22c3ad13b7f8dc923263063b6550e2279db4b005fd75e35231",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_HALL_B.png",
+      "sha256": "c83f70048f35dac6f671f992d6dd639f538260e26143a221639631878dc2a322",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "EXTERIOR_BRIGHT",
+        "SPACE_CONTEXT_LIMITED"
+      ],
+      "notes": "廊道窗、柜、地面和实体墙关系可读，整体偏空、外景较亮。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "走廊地面及外窗可辨",
+        "image_sha256": "492d11ef6c81249a7ef43480a1b195699c0c57f940cb4cd731e228813f1777c5"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "room_id": "MAIN_L2_MASTER",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_16.png",
+      "contact_sheet_sha256": "622b6b3d500aec22c3ad13b7f8dc923263063b6550e2279db4b005fd75e35231",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_MASTER_A.png",
+      "sha256": "3469897e1176d02aa7ab28bdcf99eb7b77d58d5ccf777cbbac4e584ac5d1844e",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CEILING_SEAM_SUSPECT",
+        "STRUCTURE_CONTEXT_REVIEW"
+      ],
+      "notes": "床、柜和床头柜清楚，柜顶黑缝及上方阶梯状开口须核对源和封闭面。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "床、床头柜与灯可辨",
+        "image_sha256": "41ae52fd56dfa0e9a96064072ead2d82640d2a3a7cd1fb1fc0d8ac1baa4b3d7a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_B",
+      "room_id": "MAIN_L2_MASTER",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_16.png",
+      "contact_sheet_sha256": "622b6b3d500aec22c3ad13b7f8dc923263063b6550e2279db4b005fd75e35231",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_MASTER_B.png",
+      "sha256": "7bf255d3a6a2c2024d9f818f0238e920a945f8d22ff4288e20c0e7743b02268d",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "EXTERIOR_BRIGHT",
+        "CROP"
+      ],
+      "notes": "书桌、玻璃门与大露台关系可读，近灯罩/床边裁切。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "窗、桌及床沿可辨；近灯略裁切",
+        "image_sha256": "8c7d2657db16e0aefcdbe1111016559da2d5b96e39b84d979ec121a065575a34"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_A",
+      "room_id": "MAIN_L2_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_17.png",
+      "contact_sheet_sha256": "44bcd823f7b9995c65e824b1b54b4f085fcf162524fab137d01ec03b42a38630",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_STAIR_A.png",
+      "sha256": "91dac1c09dd112c436b016a41d5ff4a46d5276fb716f904895fc5e5e9b97604c",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP",
+        "STRUCTURE_CONTEXT_REVIEW"
+      ],
+      "notes": "上下连续梯段可辨，楼梯侧侧边及平台留洞需按真实洞口上下文检查。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "上层梯口/楼板洞口可辨，梯段未充分展示",
+        "image_sha256": "f2f41cfe76840c808a3580d64ca3b87070f98e6dad03fed884a392f0f59a1127"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_B",
+      "room_id": "MAIN_L2_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_17.png",
+      "contact_sheet_sha256": "44bcd823f7b9995c65e824b1b54b4f085fcf162524fab137d01ec03b42a38630",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_STAIR_B.png",
+      "sha256": "242e595025811580f603df8b5657890382229784efa966e5063ba5e0739869c9",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "CROP"
+      ],
+      "notes": "上行木饰面踏步、扶手、旁侧门与上层书架可辨。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "只有画面左缘少量梯级，主要是近墙",
+        "image_sha256": "f649a6ec4ebbc45fb58fbbff4f7b17e1b3fb1e113d2d7b0c00af1f99556d0638"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_A",
+      "room_id": "MAIN_L2_TERRACE_E",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_17.png",
+      "contact_sheet_sha256": "44bcd823f7b9995c65e824b1b54b4f085fcf162524fab137d01ec03b42a38630",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_TERRACE_E_A.png",
+      "sha256": "2cc17e652f837e86bcf2c7d04a7d734651abf5afe47d4fd5f8ead19cb99d4a10",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "EXPOSED_INTERIOR_EDGES"
+      ],
+      "notes": "东露台围墙、室内玻璃房和楼梯侧面可辨，局部构件边缘暴露需要来源核对。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台内侧与室内家具关系可辨",
+        "image_sha256": "bce50dd800dd90bf5f0d5a12f2e8776d13212676b3d2b20d6bdcf71b85c62a4a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_B",
+      "room_id": "MAIN_L2_TERRACE_E",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_17.png",
+      "contact_sheet_sha256": "44bcd823f7b9995c65e824b1b54b4f085fcf162524fab137d01ec03b42a38630",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_TERRACE_E_B.png",
+      "sha256": "7103c9c421946f4675a1e30f876cffb41f4d85406b333c0ea7065a95ccfa2e7f",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "檐下露台及围墙、土坡关系清楚，地貌过于平滑。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "矮墙、顶板及外部关系可辨",
+        "image_sha256": "2821ced2c8d34673e95c2a135cda0a542df86e93e25b00f99516022b4e0b7092"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_A",
+      "room_id": "MAIN_L2_TERRACE_N",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_17.png",
+      "contact_sheet_sha256": "44bcd823f7b9995c65e824b1b54b4f085fcf162524fab137d01ec03b42a38630",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_TERRACE_N_A.png",
+      "sha256": "99c35392bea8299785652f8e3e02e614bd9bc7aad9c9c2d78fb73c5c4d5e7c5d",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "EXPOSED_INTERIOR_EDGES",
+        "STRUCTURE_CONTEXT_REVIEW"
+      ],
+      "notes": "露台玻璃门、梯间与上层底部可辨，多个薄板和缝隙暴露，需检查是否真实结构。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "北露台、外窗及邻接梯段可辨",
+        "image_sha256": "2612e44a17c84765332334c618638f8f2f371e3a1f09bbd8af97703241adae74"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_B",
+      "room_id": "MAIN_L2_TERRACE_N",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_17.png",
+      "contact_sheet_sha256": "44bcd823f7b9995c65e824b1b54b4f085fcf162524fab137d01ec03b42a38630",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_TERRACE_N_B.png",
+      "sha256": "6af11d2c0fb0230944fc64f7b4b56de9130b457b55a575cb90ef77675967acb6",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "VISIBLE_LANDING_GAP",
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "弧形外梯与平台关系清楚，但首阶和平台交接有宽黑矩形带，需单图及几何核对。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "北露台与真实外弧梯关系可辨；土坡也如实入画",
+        "image_sha256": "d2c158c405ec53f2473b50c0eb069d38199ec7938ee58e825762b6a449c38d7f"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_A",
+      "room_id": "MAIN_L2_TERRACE_S",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_18.png",
+      "contact_sheet_sha256": "b1079408738caaa02d73f93f881677e212986f0b25cb23d97f1b9286fda15720",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_TERRACE_S_A.png",
+      "sha256": "0b3d997e26e60495dcd488f6448fd3876b7e2f637c2f1485f108fdc0f37a1f93",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "PLAIN_SURFACES"
+      ],
+      "notes": "大露台、围墙与卧室玻璃立面关系清楚。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台与南侧立面可辨",
+        "image_sha256": "d9c303ae13422cd25efeb886311a9e2ceafab1b646bb052a344fcaad999f49f3"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_B",
+      "room_id": "MAIN_L2_TERRACE_S",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_18.png",
+      "contact_sheet_sha256": "b1079408738caaa02d73f93f881677e212986f0b25cb23d97f1b9286fda15720",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_TERRACE_S_B.png",
+      "sha256": "d7501610f92dd96eed411b5346ae1b5e1c3a1e4c0c9cd3436fcc06a287d77e0d",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "PLAIN_SURFACES",
+        "SYNTHETIC_VEGETATION"
+      ],
+      "notes": "开阔露台、围墙和林地可辨，场景细节偏空。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台地坪和矮墙可辨",
+        "image_sha256": "71bb5013037707f96a914807364218fa64aa272d146aeff9ece82a546aa2e53a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_A",
+      "room_id": "MAIN_L2_TERRACE_W",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_18.png",
+      "contact_sheet_sha256": "b1079408738caaa02d73f93f881677e212986f0b25cb23d97f1b9286fda15720",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_TERRACE_W_A.png",
+      "sha256": "5693f5245bf6d6b3b3e39d5fd286822d97249882ddf804c51700bab8205e108b",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "西露台、卧室门窗和外部阶梯关系可辨，建筑/场地细部简化。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "实际露台铺面与墙、门窗可辨",
+        "image_sha256": "a600de5884b0cbe72afea5eb5bb07a4951c549613e66e042b7cd2ffd8dbe1827"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_B",
+      "room_id": "MAIN_L2_TERRACE_W",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_18.png",
+      "contact_sheet_sha256": "b1079408738caaa02d73f93f881677e212986f0b25cb23d97f1b9286fda15720",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L2_TERRACE_W_B.png",
+      "sha256": "67341437ad59f7aeb855977ad5add320436a8de6b0399c75363854cfb882043c",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN",
+        "SYNTHETIC_VEGETATION"
+      ],
+      "notes": "围墙、露台地面与林地可辨，后景均匀稀疏。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "矮墙、铺面和树林可辨",
+        "image_sha256": "688bd2a3e6582ef3749af2d3af08877d11607bc22967b708b736b02561af52fc"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_A",
+      "room_id": "MAIN_L3_ALCOVE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_18.png",
+      "contact_sheet_sha256": "b1079408738caaa02d73f93f881677e212986f0b25cb23d97f1b9286fda15720",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_ALCOVE_A.png",
+      "sha256": "8576fcfb5b16b4bf59c0c8243ce0722d11a5e2007aa9c4e0380d08f13608f1b1",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "SPACE_CONTEXT_LIMITED",
+        "STRUCTURE_CONTEXT_REVIEW"
+      ],
+      "notes": "主要展示玻璃边过道、楼梯口和远处书架，凹室用途不明确，地坪/墙脚有黑形异常待核。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "楼梯口、柜体和部分床可辨，卧榻主体展示不足",
+        "image_sha256": "b38168ffb3c63075d87be8f041872ecffb38355c292cb200f03e2c6280fffd35"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "room_id": "MAIN_L3_ALCOVE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_18.png",
+      "contact_sheet_sha256": "b1079408738caaa02d73f93f881677e212986f0b25cb23d97f1b9286fda15720",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_ALCOVE_B.png",
+      "sha256": "e37692294302a67aaa7acb8959fd21e37a79b56a4446a23d999c8d2e30ed7871",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "WALL_DOMINATED",
+        "SEMANTIC_MISS"
+      ],
+      "notes": "木墙/柜面占大部画幅，剩余为明亮窗景，缺少凹室用途及内部布置。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "柜板占大半画面，卧榻主体未展示",
+        "image_sha256": "2dad033ebd1c2b418de3d71d6fef08dcb84431379f4614ae7091b70d5081a0aa"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "room_id": "MAIN_L3_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_19.png",
+      "contact_sheet_sha256": "49b073c36aa9ae7952d4f2f8af014ffcd8ee1ab4e1dddfd581147051cebf9d11",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_BATH_A.png",
+      "sha256": "85003a96e03356d736d20868ca172d255f169e1d05ab1dc06a563d4f172da4fe",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "FRAMING_FAIL",
+      "issue_tags": [
+        "MIRROR_OCCLUSION",
+        "TOO_CLOSE"
+      ],
+      "notes": "近镜片和隔墙挡住洗手盆与马桶大部，构图像站在镜后，无法有效展示浴室。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "镜子与窗有轮廓，洁具及墙细节过暗",
+        "image_sha256": "d44c48855ea9f8162c88d0a08c469a992f5dadc5a065a5b4e39dc1900e7e742e"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_B",
+      "room_id": "MAIN_L3_BATH",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_19.png",
+      "contact_sheet_sha256": "49b073c36aa9ae7952d4f2f8af014ffcd8ee1ab4e1dddfd581147051cebf9d11",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_BATH_B.png",
+      "sha256": "99a6f120dd2705eb85b340dd4c5ddb31efc0e6c2fac056773d7428a583af3490",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "TOO_CLOSE",
+        "VISUAL_SEAM_SUSPECT"
+      ],
+      "notes": "盆与镜局部清楚，盆底出框，左下墙脚/地面有黑缺口样区域。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "ILLUMINATION_FAIL",
+        "notes": "近黑墙面及局部水箱，不能检查浴室",
+        "image_sha256": "51f8b1fc072552b847708bca1d3e65c8bf0f13360a20a26819d5aae320c354e9"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_A",
+      "room_id": "MAIN_L3_GALLERY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_19.png",
+      "contact_sheet_sha256": "49b073c36aa9ae7952d4f2f8af014ffcd8ee1ab4e1dddfd581147051cebf9d11",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_GALLERY_A.png",
+      "sha256": "eeed0de2195565909dbb02827e72f923c0054c01cbf35a3958d24fa930f9d7eb",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "STRUCTURE_CONTEXT_REVIEW",
+        "EXTERIOR_BRIGHT"
+      ],
+      "notes": "长玻璃廊、凹室床与楼梯洞口可辨，地面细黑边需上下文检查，室外很亮。",
+      "structure_assessment": "OPENING_CONTEXT_REVIEW_NO_FAILURE_INFERRED",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "长窗、卧榻和狭长通道关系可辨",
+        "image_sha256": "2117e741f694a99e3f2c8929231bf7db990836f6d2930705d89e7662634bd874"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_B",
+      "room_id": "MAIN_L3_GALLERY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_19.png",
+      "contact_sheet_sha256": "49b073c36aa9ae7952d4f2f8af014ffcd8ee1ab4e1dddfd581147051cebf9d11",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_GALLERY_B.png",
+      "sha256": "46308b695cf9444b81d8d53b67b9a746d77b8977ead28c561d4ef2286d84e61c",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "VISIBLE_FLOOR_BLACK_REGION"
+      ],
+      "notes": "过道到书房关系可读，浴室门边地面有宽纯黑矩形区域，须单图复核，不应随意当作地毯。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "玻璃开口及柜边可辨，近景裁切较多",
+        "image_sha256": "10b5f04139186132021e7556f88110f4bf2fcf8694d41f0de203b3437bb2a9b7"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_A",
+      "room_id": "MAIN_L3_LINK",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_19.png",
+      "contact_sheet_sha256": "49b073c36aa9ae7952d4f2f8af014ffcd8ee1ab4e1dddfd581147051cebf9d11",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_LINK_A.png",
+      "sha256": "f07a3cac49031a91abe7744312bc885c6b1e6ab9414290d8a2f5583f9eccf4b7",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN",
+        "CROP"
+      ],
+      "notes": "向下看弧形外梯及山坡/主楼关系可辨，材质和地形仍简化。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "平台、屋顶与连接起点可辨，路线不完整",
+        "image_sha256": "35715bea172d9b6f973af03ccf1ac603f12af5898dd0e018d8caaa2453a3af0a"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_B",
+      "room_id": "MAIN_L3_LINK",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_19.png",
+      "contact_sheet_sha256": "49b073c36aa9ae7952d4f2f8af014ffcd8ee1ab4e1dddfd581147051cebf9d11",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_LINK_B.png",
+      "sha256": "e459f8d08840f9046096ea6af72f1a5e19495f27908b722fc43e619198c1e199",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_TERRAIN"
+      ],
+      "notes": "外部弧形石梯、实墙扶边及金属扶手清楚，背景土坡过平。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "平台、梯口和远处客楼可辨，连廊连续性未完整展示",
+        "image_sha256": "2106554c5db9754e291ec8ba8dc486f04ae68794e509e089c6d9450919e79489"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "room_id": "MAIN_L3_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_20.png",
+      "contact_sheet_sha256": "e3b09eec58fde4e5a6625f0ca7ddfa3e8e5cb15ac0108eca9d3dfba6d05158c7",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_STAIR_A.png",
+      "sha256": "d9acb2819cb911901cf9d2270d0ac12500e9d95ebe2cd2ae90bfc4d1387269cd",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "DUPLICATE_VIEW_CONTEXT",
+        "CROP"
+      ],
+      "notes": "与L2_STAIR_A几乎相同的俯视梯段；参数核对眼点相距约5cm、相同目标/焦距/曝光，不能作为独立上层覆盖证据。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "FRAMING_FAIL",
+        "notes": "主要是邻接卧榻和楼板洞口，梯段未展示",
+        "image_sha256": "40c3c0e0211a86db9d30817333cd91f0aa6af0c3d580b4258fff98604cfdfcb1"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_B",
+      "room_id": "MAIN_L3_STAIR",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_20.png",
+      "contact_sheet_sha256": "e3b09eec58fde4e5a6625f0ca7ddfa3e8e5cb15ac0108eca9d3dfba6d05158c7",
+      "individual_image_reopened": true,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_STAIR_B.png",
+      "sha256": "14c9647cb1dbdaee9aa11dfa203a186160095e1b0f0f679b6e712a577720e735",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "VISIBLE_FLOOR_BLACK_REGION",
+        "CROP"
+      ],
+      "notes": "顶端踏步、平台与书房入口可辨，但浴室门旁同一宽黑矩形地面区域仍可见。",
+      "structure_assessment": "VISIBLE_ANOMALY_CAUSE_UNVERIFIED",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "近处木踏步可辨，但整体飞行方向未充分展示",
+        "image_sha256": "5e4a40636d460cafed28634f57f125f7bab2b4df1370c679d8babeff38f9481f"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_A",
+      "room_id": "MAIN_L3_STUDY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_20.png",
+      "contact_sheet_sha256": "e3b09eec58fde4e5a6625f0ca7ddfa3e8e5cb15ac0108eca9d3dfba6d05158c7",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_STUDY_A.png",
+      "sha256": "7784fa8b08dad807afe686e17662801ec4e6d58d5d5d653a01ed3d600a8cbdf8",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "DARK_BUT_READABLE",
+        "CROP"
+      ],
+      "notes": "沙发、书架与窗墙明确，室内暗部仍能识别结构与家具。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "沙发、书架与窗可辨，室内阴影很重",
+        "image_sha256": "319b8b72268a97c02f649a67adcf7f159d1b6ce9c46331d0266d1dd021ebdcc2"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_B",
+      "room_id": "MAIN_L3_STUDY",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_20.png",
+      "contact_sheet_sha256": "e3b09eec58fde4e5a6625f0ca7ddfa3e8e5cb15ac0108eca9d3dfba6d05158c7",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_STUDY_B.png",
+      "sha256": "6dfc6db4eff80974324ee8ea20798a54f31ea287a719c987a0efc7ec332ae339",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 3.0,
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "issue_tags": [
+        "CROP",
+        "DARK_BUT_READABLE"
+      ],
+      "notes": "桌椅、书架可辨但椅脚和桌底裁切，旧桌下亮白横条已消失，仍非完整书房摄影。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "LIMITED_COMPOSITION",
+        "notes": "椅子、书架与桌可辨，室内阴影很重",
+        "image_sha256": "901649b50279290841edfaf44b9515375cbaabc270e6144e58cfa1acee016fca"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_A",
+      "room_id": "MAIN_L3_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_20.png",
+      "contact_sheet_sha256": "e3b09eec58fde4e5a6625f0ca7ddfa3e8e5cb15ac0108eca9d3dfba6d05158c7",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_TERRACE_A.png",
+      "sha256": "046440d52d952e5e7e6e8ad507be9e95f5f17d3f61bbf7193bfd02b28c608a40",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "SYNTHETIC_GLASS"
+      ],
+      "notes": "上层露台、玻璃廊和石墙可辨，玻璃/饰面仍需要写实细化。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "主楼长窗与露台地坪可辨",
+        "image_sha256": "f2a7b59f89eab83410baf4650f4204455efe9277210fba7e06515775e6b0f3d6"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_B",
+      "room_id": "MAIN_L3_TERRACE",
+      "actually_viewed": true,
+      "review_method": "Original640x360 image on lossless1280x1170 contact page, each page2 columns x3 rows actually opened at original size; selected anomalies also individually reopened.",
+      "contact_sheet": "renders/room-contact-sheets/iteration07/contact-review/page_20.png",
+      "contact_sheet_sha256": "e3b09eec58fde4e5a6625f0ca7ddfa3e8e5cb15ac0108eca9d3dfba6d05158c7",
+      "individual_image_reopened": false,
+      "image": "renders/room-contact-sheets/iteration07/views/CAM_MAIN_L3_TERRACE_B.png",
+      "sha256": "c1990cd4fde006cb77dd8ee135df37f70933255d4123aade651b0451dc11e32d",
+      "dimensions": [
+        640,
+        360
+      ],
+      "exposure": 0.800000011920929,
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "issue_tags": [
+        "PLAIN_SURFACES",
+        "SYNTHETIC_VEGETATION"
+      ],
+      "notes": "露台平面、围墙、玻璃房与远景可读，场地细节偏空。",
+      "structure_assessment": "NO_SPECIFIC_VISIBLE_ANOMALY_FLAGGED_NOT_A_STRUCTURAL_PASS",
+      "previous04": {
+        "diagnostic_status": "READABLE_DIAGNOSTIC",
+        "notes": "露台矮墙、地坪和树林可辨",
+        "image_sha256": "ded92e16917e213f18de08eb419eb7a551c66853f3495e03b771f654925afaeb"
+      },
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    }
+  ],
+  "final_visual_acceptance": "NOT_ACCEPTED"
+}

@@ -1,0 +1,16 @@
+{
+  "changed": [
+    "MAIN_L2_TERRACE_W_slab",
+    "MAIN_L2_TERRACE_S_slab"
+  ],
+  "added": [],
+  "removed": [],
+  "cause": "Revision11 slab and parapet shared outward faces through0.22m slab height, causing black ray artifacts",
+  "method": "Exact orthogonal volume subtraction at existing solid inside parapet faces",
+  "geometry_scope": "Only two concrete slabs; exterior union, finish surfaces, parapet dimensions and Z datums retained",
+  "status": "APPLIED_RENDER_AND_SEAM_RECHECK_PENDING",
+  "source_sha256": "d66ded0f23b7d19c20b81d2f59f94aa5aa77747be4568e85e1d105395fc219ff",
+  "output": "D:\\zx\\test\\project\\scene\\Fallingwater_terrace_interface_candidate12a.blend",
+  "sha256": "0499c4594e4143ebc8ae28735417ae17765e1ffdafe20285903f654768958fa1",
+  "bytes": 55030386
+}

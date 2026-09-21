@@ -1,0 +1,1007 @@
+{
+  "status": "READ_ONLY_EXISTING_FAILED_CONTROL_DIAGNOSIS",
+  "candidate_sha256": "c108949a959351a2f0219a1f457b235b34903d9efb50dade5ab533a525d7ef2e",
+  "saved_domain_settings": {
+    "domain_type": "LIQUID",
+    "resolution_max": 96,
+    "time_scale": 1.0,
+    "simulation_method": "FLIP",
+    "flip_ratio": 0.9399999976158142,
+    "use_fractions": true,
+    "fractions_distance": 0.5,
+    "fractions_threshold": 0.05000000074505806,
+    "delete_in_obstacle": true,
+    "timesteps_min": 2,
+    "timesteps_max": 12,
+    "cfl_condition": 2.0,
+    "particle_radius": 1.0,
+    "particle_number": 2,
+    "particle_min": 8,
+    "particle_max": 16,
+    "particle_randomness": 0.10000000149011612,
+    "particle_band_width": 3.0,
+    "use_mesh": true,
+    "mesh_scale": 1,
+    "mesh_particle_radius": 1.25,
+    "mesh_smoothen_pos": 1,
+    "mesh_smoothen_neg": 1,
+    "use_collision_border_bottom": true,
+    "use_collision_border_top": false,
+    "use_collision_border_front": true,
+    "use_collision_border_back": true,
+    "use_collision_border_left": true,
+    "use_collision_border_right": true,
+    "use_viscosity": false,
+    "use_diffusion": false,
+    "cache_frame_start": 1,
+    "cache_frame_end": 24,
+    "use_foam_particles": true,
+    "use_spray_particles": true,
+    "use_bubble_particles": true,
+    "use_flip_particles": true,
+    "cache_directory": "D:\\zx\\test\\project\\caches\\fluid_water08\\static_head24",
+    "cache_frame_pause_particles": 0,
+    "actual_grid_resolution": null,
+    "scene_unit_scale_length": 1.0
+  },
+  "gravity_m_s2": [
+    0.0,
+    0.0,
+    -9.8100004196167
+  ],
+  "flow": {
+    "flow_type": "LIQUID",
+    "flow_behavior": "GEOMETRY",
+    "use_inflow": true,
+    "use_initial_velocity": true,
+    "velocity_coord": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "velocity_normal": 0.0,
+    "surface_distance": 0.0,
+    "subframes": 0,
+    "use_plane_init": false
+  },
+  "effectors": [
+    {
+      "name": "HYBRID07_Exact_Local_Terrain_Top",
+      "world_geometry_sha256": "173e3b6ac726623e067549229b45f8ee39b3fd4767dff06e44618a8d550de3d8",
+      "topology": {
+        "vertices": 64,
+        "faces": 83,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 19.9612843610567
+      },
+      "settings": {
+        "effector_type": "COLLISION",
+        "use_effector": true,
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "subframes": 0
+      }
+    },
+    {
+      "name": "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+      "world_geometry_sha256": "30d6b6cc01a24006d04dbb1da6ddd46267862b1a72122d908fdc6a11e87b7fc6",
+      "topology": {
+        "vertices": 11877,
+        "faces": 23750,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 309.74353308383644
+      },
+      "settings": {
+        "effector_type": "COLLISION",
+        "use_effector": true,
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "subframes": 0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 556588
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 0
+        },
+        {
+          "type": "BUBBLE",
+          "count": 0
+        }
+      ],
+      "particle_geometry": {
+        "world_bounds_m": [
+          [
+            -0.35813647508621216,
+            1.9527738094329834
+          ],
+          [
+            -3.167081832885742,
+            -1.2555063962936401
+          ],
+          [
+            -6.485389232635498,
+            -5.774082660675049
+          ]
+        ],
+        "z_quantiles_m": [
+          -6.485389232635498,
+          -6.480338382720947,
+          -6.448670387268066,
+          -6.273438453674316,
+          -5.810096263885498,
+          -5.78559684753418,
+          -5.774082660675049
+        ],
+        "outside_domain_points": 0,
+        "occupied_2p5cm_cells": 40230,
+        "cell_occupancy_proxy_volume_m3": 0.6285937500000002,
+        "points_per_occupied_cell_quantiles": [
+          1.0,
+          8.0,
+          16.0,
+          16.0,
+          24.0,
+          52.0
+        ],
+        "per_column_particle_top_quantiles_m": [
+          -5.785654544830322,
+          -5.774830341339111,
+          -5.7744975090026855,
+          -5.774265766143799,
+          -5.774116039276123
+        ],
+        "particle_inside_exact_solid_sample": {
+          "sample_count": 800,
+          "inside_depths_m": {
+            "HYBRID07_Exact_Local_Terrain_Top": {
+              "count": 0,
+              "min": null,
+              "max": null,
+              "mean": null
+            },
+            "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone": {
+              "count": 0,
+              "min": null,
+              "max": null,
+              "mean": null
+            }
+          },
+          "within1mm_surface_counts": {
+            "HYBRID07_Exact_Local_Terrain_Top": 0,
+            "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone": 0
+          },
+          "sampling_limit": "Fixed stride800 points; not all particles or all triangle interiors"
+        }
+      }
+    },
+    {
+      "frame": 2,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 553704
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 0
+        },
+        {
+          "type": "BUBBLE",
+          "count": 1504
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 609264
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 0
+        },
+        {
+          "type": "BUBBLE",
+          "count": 20439
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 664786
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 1
+        },
+        {
+          "type": "BUBBLE",
+          "count": 58405
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 697479
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 7
+        },
+        {
+          "type": "BUBBLE",
+          "count": 94428
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 749926
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 11
+        },
+        {
+          "type": "BUBBLE",
+          "count": 118070
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 790644
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 20
+        },
+        {
+          "type": "BUBBLE",
+          "count": 141571
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 838421
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 18
+        },
+        {
+          "type": "BUBBLE",
+          "count": 166571
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 875585
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 14
+        },
+        {
+          "type": "BUBBLE",
+          "count": 183357
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 915499
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 18
+        },
+        {
+          "type": "BUBBLE",
+          "count": 194016
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 952010
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 22
+        },
+        {
+          "type": "BUBBLE",
+          "count": 204431
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 982952
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 14
+        },
+        {
+          "type": "BUBBLE",
+          "count": 208510
+        }
+      ],
+      "particle_geometry": {
+        "world_bounds_m": [
+          [
+            -0.3526614308357239,
+            1.9473416805267334
+          ],
+          [
+            -3.1614177227020264,
+            -1.261417031288147
+          ],
+          [
+            -6.485395431518555,
+            -5.899851322174072
+          ]
+        ],
+        "z_quantiles_m": [
+          -6.485395431518555,
+          -6.483068466186523,
+          -6.475324630737305,
+          -6.437134742736816,
+          -6.26844596862793,
+          -5.944861888885498,
+          -5.899851322174072
+        ],
+        "outside_domain_points": 0,
+        "occupied_2p5cm_cells": 40758,
+        "cell_occupancy_proxy_volume_m3": 0.6368437500000002,
+        "points_per_occupied_cell_quantiles": [
+          1.0,
+          7.0,
+          11.0,
+          16.0,
+          90.0,
+          2066.0
+        ],
+        "per_column_particle_top_quantiles_m": [
+          -5.99549024105072,
+          -5.9718486070632935,
+          -5.94542932510376,
+          -5.921729564666748,
+          -5.908527851104736
+        ],
+        "particle_inside_exact_solid_sample": {
+          "sample_count": 800,
+          "inside_depths_m": {
+            "HYBRID07_Exact_Local_Terrain_Top": {
+              "count": 0,
+              "min": null,
+              "max": null,
+              "mean": null
+            },
+            "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone": {
+              "count": 0,
+              "min": null,
+              "max": null,
+              "mean": null
+            }
+          },
+          "within1mm_surface_counts": {
+            "HYBRID07_Exact_Local_Terrain_Top": 0,
+            "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone": 0
+          },
+          "sampling_limit": "Fixed stride800 points; not all particles or all triangle interiors"
+        }
+      }
+    },
+    {
+      "frame": 13,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 992598
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 16
+        },
+        {
+          "type": "BUBBLE",
+          "count": 209028
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1019196
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 14
+        },
+        {
+          "type": "BUBBLE",
+          "count": 209424
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1025167
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 9
+        },
+        {
+          "type": "BUBBLE",
+          "count": 208980
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1041666
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 13
+        },
+        {
+          "type": "BUBBLE",
+          "count": 205472
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1071856
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 9
+        },
+        {
+          "type": "BUBBLE",
+          "count": 204807
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1083355
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 15
+        },
+        {
+          "type": "BUBBLE",
+          "count": 206707
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1103708
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 17
+        },
+        {
+          "type": "BUBBLE",
+          "count": 203086
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1125894
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 10
+        },
+        {
+          "type": "BUBBLE",
+          "count": 204381
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1152507
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 15
+        },
+        {
+          "type": "BUBBLE",
+          "count": 206900
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1173288
+        },
+        {
+          "type": "FOAM",
+          "count": 0
+        },
+        {
+          "type": "SPRAY",
+          "count": 12
+        },
+        {
+          "type": "BUBBLE",
+          "count": 209973
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1193956
+        },
+        {
+          "type": "FOAM",
+          "count": 1
+        },
+        {
+          "type": "SPRAY",
+          "count": 11
+        },
+        {
+          "type": "BUBBLE",
+          "count": 214658
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 1202642
+        },
+        {
+          "type": "FOAM",
+          "count": 45
+        },
+        {
+          "type": "SPRAY",
+          "count": 12
+        },
+        {
+          "type": "BUBBLE",
+          "count": 218824
+        }
+      ],
+      "particle_geometry": {
+        "world_bounds_m": [
+          [
+            -0.35265856981277466,
+            1.9473421573638916
+          ],
+          [
+            -3.1614363193511963,
+            -1.2614176273345947
+          ],
+          [
+            -6.485349655151367,
+            -6.068397045135498
+          ]
+        ],
+        "z_quantiles_m": [
+          -6.485349655151367,
+          -6.483068466186523,
+          -6.483068466186523,
+          -6.445313453674316,
+          -6.296027660369873,
+          -6.117011547088623,
+          -6.068397045135498
+        ],
+        "outside_domain_points": 0,
+        "occupied_2p5cm_cells": 40424,
+        "cell_occupancy_proxy_volume_m3": 0.6316250000000001,
+        "points_per_occupied_cell_quantiles": [
+          1.0,
+          7.0,
+          11.0,
+          15.0,
+          128.0,
+          5503.0
+        ],
+        "per_column_particle_top_quantiles_m": [
+          -6.1501490592956545,
+          -6.1248393058776855,
+          -6.10774040222168,
+          -6.09022331237793,
+          -6.0780510902404785
+        ],
+        "particle_inside_exact_solid_sample": {
+          "sample_count": 800,
+          "inside_depths_m": {
+            "HYBRID07_Exact_Local_Terrain_Top": {
+              "count": 0,
+              "min": null,
+              "max": null,
+              "mean": null
+            },
+            "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone": {
+              "count": 0,
+              "min": null,
+              "max": null,
+              "mean": null
+            }
+          },
+          "within1mm_surface_counts": {
+            "HYBRID07_Exact_Local_Terrain_Top": 0,
+            "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone": 0
+          },
+          "sampling_limit": "Fixed stride800 points; not all particles or all triangle interiors"
+        }
+      }
+    }
+  ],
+  "velocity_grids": [
+    {
+      "frame": 1,
+      "available_grids": [
+        {
+          "name": "particles",
+          "type": "ptdataidx32"
+        },
+        {
+          "name": "velocity",
+          "type": "vec3s"
+        }
+      ],
+      "velocity_active_voxel_bbox": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          95,
+          79,
+          36
+        ]
+      ],
+      "transform_index0_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "transform_index111_world": [
+        0.02500000223517418,
+        0.02500000223517418,
+        0.02500000223517418
+      ],
+      "raw_velocity_units": "Stored grid velocity units not independently converted to world m/s here",
+      "raw_vector_component_min": [
+        -83.5625,
+        -77.75,
+        -81.1875
+      ],
+      "raw_vector_component_max": [
+        79.25,
+        78.9375,
+        25.59375
+      ],
+      "raw_component_median": [
+        0.007022857666015625,
+        -0.00937652587890625,
+        -4.609375
+      ],
+      "nonzero_vectors": 278909,
+      "interior_raw_velocity_mean": [
+        -0.03935101628303528,
+        -0.18405848741531372,
+        -4.643906116485596
+      ],
+      "interior_raw_vertical_quantiles": [
+        -26.171875,
+        -5.171875,
+        -4.6015625,
+        -4.13671875,
+        -2.6226043701171875e-05
+      ]
+    },
+    {
+      "frame": 12,
+      "available_grids": [
+        {
+          "name": "particles",
+          "type": "ptdataidx32"
+        },
+        {
+          "name": "velocity",
+          "type": "vec3s"
+        }
+      ],
+      "velocity_active_voxel_bbox": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          95,
+          79,
+          36
+        ]
+      ],
+      "transform_index0_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "transform_index111_world": [
+        0.02500000223517418,
+        0.02500000223517418,
+        0.02500000223517418
+      ],
+      "raw_velocity_units": "Stored grid velocity units not independently converted to world m/s here",
+      "raw_vector_component_min": [
+        -74.0,
+        -73.5,
+        -97.125
+      ],
+      "raw_vector_component_max": [
+        65.125,
+        69.0625,
+        42.78125
+      ],
+      "raw_component_median": [
+        -0.65576171875,
+        -0.41796875,
+        -4.4140625
+      ],
+      "nonzero_vectors": 228065,
+      "interior_raw_velocity_mean": [
+        -1.9928510189056396,
+        -1.33562171459198,
+        -5.581827163696289
+      ],
+      "interior_raw_vertical_quantiles": [
+        -46.625,
+        -8.428515625,
+        -5.109375,
+        -3.9296875,
+        17.375
+      ]
+    },
+    {
+      "frame": 24,
+      "available_grids": [
+        {
+          "name": "particles",
+          "type": "ptdataidx32"
+        },
+        {
+          "name": "velocity",
+          "type": "vec3s"
+        }
+      ],
+      "velocity_active_voxel_bbox": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          95,
+          79,
+          36
+        ]
+      ],
+      "transform_index0_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "transform_index111_world": [
+        0.02500000223517418,
+        0.02500000223517418,
+        0.02500000223517418
+      ],
+      "raw_velocity_units": "Stored grid velocity units not independently converted to world m/s here",
+      "raw_vector_component_min": [
+        -64.4375,
+        -63.78125,
+        -81.875
+      ],
+      "raw_vector_component_max": [
+        57.84375,
+        60.6875,
+        37.375
+      ],
+      "raw_component_median": [
+        -0.371337890625,
+        -0.10174560546875,
+        -2.65625
+      ],
+      "nonzero_vectors": 178810,
+      "interior_raw_velocity_mean": [
+        -4.5872578620910645,
+        -2.4881420135498047,
+        -4.439725399017334
+      ],
+      "interior_raw_vertical_quantiles": [
+        -38.34375,
+        -6.2962890625,
+        -4.2578125,
+        -3.4453125,
+        13.0625
+      ]
+    }
+  ],
+  "interpretation_limits": [
+    "FLIP particle count changes with reseeding/narrow-band behavior and is not conserved mass",
+    "Point occupancy/top envelope is a particle-based geometry proxy, not solver level-set integral",
+    "Cache is non-resumable and includes particles+velocity only; phi/pressure/flags/obstacle grids unavailable",
+    "Generic OpenVDB readAll failed on custom int32_trnc point attribute; read named velocity grid succeeded without changing cache",
+    "No step-level CFL/substep execution telemetry exists; only configured limits are verified"
+  ]
+}

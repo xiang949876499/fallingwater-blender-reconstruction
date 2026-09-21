@@ -1,0 +1,77 @@
+{
+  "method": "General evaluated-mesh volume and Boolean-result QA for candidate12b.\n\nSigned triangle tetrahedra are integrated by exact half-space polyhedral clipping\n(double precision). No source builder boxes or Boolean modifier calls. This\nsupports the non-orthogonal curved matching surfaces introduced in candidate12b.\n",
+  "parts": [
+    {
+      "part": "W",
+      "actual_slab_volume_m3": 9.37053756141235,
+      "actual_slab_inside_original_slab_volume_m3": 9.370537561412348,
+      "new_slab_volume_outside_original_slab_m3": 1.7763568394002505e-15,
+      "actual_parapet_volume_m3": 3.9276311653263014,
+      "actual_slab_parapet_overlap_m3": 1.2082300532528266e-07,
+      "before_union_volume_m3": 13.298168788200682,
+      "after_union_volume_m3": 13.298168605915647,
+      "lost_union_volume_m3": 1.8228503506634297e-07,
+      "edge_degree_counts": {
+        "2": 303
+      },
+      "degenerate_triangles": 0,
+      "slab_modifier_stack": [],
+      "closed_positive_status": "PASS",
+      "zero_intersection_status": "FAIL",
+      "same_union_status": "FAIL"
+    },
+    {
+      "part": "S",
+      "actual_slab_volume_m3": 13.922110137801118,
+      "actual_slab_inside_original_slab_volume_m3": 13.922110137801115,
+      "new_slab_volume_outside_original_slab_m3": 3.552713678800501e-15,
+      "actual_parapet_volume_m3": 5.981681059848092,
+      "actual_slab_parapet_overlap_m3": 6.457162773217363e-08,
+      "before_union_volume_m3": 19.90379129139442,
+      "after_union_volume_m3": 19.903791133077583,
+      "lost_union_volume_m3": 1.583168369734267e-07,
+      "edge_degree_counts": {
+        "2": 276
+      },
+      "degenerate_triangles": 0,
+      "slab_modifier_stack": [],
+      "closed_positive_status": "PASS",
+      "zero_intersection_status": "FAIL",
+      "same_union_status": "FAIL"
+    }
+  ],
+  "analytic_clipping_tests": [
+    [
+      0.16666666666666666,
+      0.16666666666666666
+    ],
+    [
+      0.14583333333333331,
+      0.14583333333333334
+    ],
+    [
+      0.0009999999999999998,
+      0.001
+    ],
+    [
+      0.0,
+      0
+    ],
+    [
+      0.16666666666666666,
+      0.16666666666666666
+    ],
+    [
+      0.020833333333333332,
+      0.020833333333333332
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "volume_numerical_tolerance_m3": 1e-08,
+  "seconds": 12.868899000000965,
+  "scene_mutated": false,
+  "rendered": false
+}

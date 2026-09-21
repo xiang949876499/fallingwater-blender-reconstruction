@@ -1,0 +1,166 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "samples": 32,
+  "resolution": [
+    512,
+    512
+  ],
+  "runs": [
+    {
+      "engine": "CYCLES",
+      "device_setting": "GPU",
+      "selected_gpu_devices": [
+        "AMD Radeon(TM) 8060S Graphics"
+      ],
+      "output": "D:\\zx\\test\\project\\qa\\preflight\\cycles_hip.png",
+      "status": "PASS",
+      "output_bytes": 302690,
+      "seconds": 3.119
+    },
+    {
+      "engine": "CYCLES",
+      "device_setting": "CPU",
+      "selected_gpu_devices": [],
+      "output": "D:\\zx\\test\\project\\qa\\preflight\\cycles_cpu.png",
+      "status": "PASS",
+      "output_bytes": 302583,
+      "seconds": 1.107
+    },
+    {
+      "engine": "BLENDER_EEVEE_NEXT",
+      "device_setting": "CPU",
+      "selected_gpu_devices": [],
+      "output": "D:\\zx\\test\\project\\qa\\preflight\\eevee.png",
+      "status": "FAIL",
+      "error": "Traceback (most recent call last):\n  File \"D:\\zx\\test\\project\\scripts\\preflight.py\", line 169, in main\n    s.render.engine = engine\n    ^^^^^^^^^^^^^^^\nTypeError: bpy_struct: item.attr = val: enum \"BLENDER_EEVEE_NEXT\" not found in ('BLENDER_EEVEE', 'BLENDER_WORKBENCH', 'CYCLES')\n",
+      "seconds": 0.001
+    }
+  ],
+  "gpu_usage_evidence": "Completed GPU-only configured render plus Blender device log; no utilization telemetry.",
+  "fresh_process_reopen": false,
+  "api": {
+    "principled_inputs": [
+      "Base Color",
+      "Metallic",
+      "Roughness",
+      "IOR",
+      "Alpha",
+      "Thin Wall",
+      "Normal",
+      "Weight",
+      "Diffuse Roughness",
+      "Subsurface Weight",
+      "Subsurface Radius",
+      "Subsurface Scale",
+      "Subsurface IOR",
+      "Subsurface Anisotropy",
+      "Specular IOR Level",
+      "Specular Tint",
+      "Anisotropic",
+      "Anisotropic Rotation",
+      "Tangent",
+      "Transmission Weight",
+      "Coat Weight",
+      "Coat Roughness",
+      "Coat IOR",
+      "Coat Tint",
+      "Coat Normal",
+      "Sheen Weight",
+      "Sheen Roughness",
+      "Sheen Tint",
+      "Emission Color",
+      "Emission Strength",
+      "Thin Film Thickness",
+      "Thin Film IOR"
+    ],
+    "sky_type_enum": [
+      "SINGLE_SCATTERING",
+      "MULTIPLE_SCATTERING",
+      "PREETHAM",
+      "HOSEK_WILKIE"
+    ],
+    "render_engine_enum": [
+      "BLENDER_EEVEE"
+    ],
+    "agx_active": "AgX",
+    "eevee_properties": [
+      "rna_type",
+      "gi_diffuse_bounces",
+      "gi_cubemap_resolution",
+      "gi_visibility_resolution",
+      "gi_glossy_clamp",
+      "gi_irradiance_pool_size",
+      "taa_samples",
+      "taa_render_samples",
+      "use_taa_reprojection",
+      "ray_tracing_method",
+      "use_shadow_jitter_viewport",
+      "clamp_surface_direct",
+      "clamp_surface_indirect",
+      "clamp_volume_direct",
+      "clamp_volume_indirect",
+      "direct_light_intensity",
+      "indirect_light_intensity",
+      "volumetric_start",
+      "volumetric_end",
+      "volumetric_tile_size",
+      "volumetric_samples",
+      "volumetric_sample_distribution",
+      "volumetric_ray_depth",
+      "volumetric_light_clamp",
+      "use_volumetric_shadows",
+      "volumetric_shadow_samples",
+      "use_volume_custom_range",
+      "use_fast_gi",
+      "fast_gi_thickness_near",
+      "fast_gi_quality",
+      "fast_gi_step_count",
+      "fast_gi_ray_count",
+      "fast_gi_method",
+      "fast_gi_distance",
+      "fast_gi_bias",
+      "fast_gi_resolution",
+      "bokeh_max_size",
+      "bokeh_threshold",
+      "bokeh_neighbor_max",
+      "use_bokeh_jittered",
+      "bokeh_overblur",
+      "motion_blur_depth_scale",
+      "motion_blur_max",
+      "motion_blur_steps",
+      "use_shadows",
+      "shadow_pool_size",
+      "shadow_ray_count",
+      "shadow_step_count",
+      "light_threshold",
+      "use_overscan",
+      "overscan_size",
+      "ray_tracing_options",
+      "use_raytracing",
+      "shadow_resolution_scale"
+    ]
+  },
+  "backend_candidates": [
+    "NONE",
+    "CUDA",
+    "OPTIX",
+    "HIP",
+    "ONEAPI"
+  ],
+  "devices": [
+    {
+      "name": "AMD RYZEN AI MAX+ 395",
+      "type": "CPU",
+      "use": false,
+      "id": "CPU"
+    },
+    {
+      "name": "AMD Radeon(TM) 8060S Graphics",
+      "type": "HIP",
+      "use": true,
+      "id": "HIP_AMD Radeon(TM) 8060S Graphics_0000:c7:00"
+    }
+  ],
+  "completed": true
+}

@@ -1,0 +1,1362 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "source_sha256": {
+    "data\\main_house.json": "0a6f5242cc72bd2cf9ea6b65b54f8419dff0dd9d26281ad928dbcf572f81ad17",
+    "data\\guest_house.json": "d821acfeb9c2777bb597c8dd8338ea0c39306154f9386c44453c6e08a4a8afff"
+  },
+  "node_count": 61,
+  "declared_room_count": 60,
+  "edge_count": 61,
+  "nodes": [
+    {
+      "id": "MAIN_B_WINE",
+      "kind": "storage",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_BATH",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_BOILER",
+      "kind": "mechanical",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_1",
+      "kind": "foundation",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_2",
+      "kind": "foundation",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_3",
+      "kind": "foundation",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_B_PLUNGE",
+      "kind": "pool",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_LIVING",
+      "kind": "living",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_KITCHEN",
+      "kind": "kitchen",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_SERVANT",
+      "kind": "sitting",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_SERVICE_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_ENTRY",
+      "kind": "entry",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_COAT",
+      "kind": "closet",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_LOGGIA",
+      "kind": "loggia",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_TERRACE_W",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_TERRACE_E",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L1_HATCH",
+      "kind": "water_stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_DRESSING",
+      "kind": "dressing",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_MASTER",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_BATH_N",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_BATH_G",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_BATH_M",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_HALL",
+      "kind": "hall",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_GUEST",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_TERRACE_W",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_TERRACE_S",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_TERRACE_E",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_TERRACE_N",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_CLOSET_M",
+      "kind": "closet",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L2_CLOSET_G",
+      "kind": "closet",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_STUDY",
+      "kind": "study",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_BATH",
+      "kind": "bathroom",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_GALLERY",
+      "kind": "gallery",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_ALCOVE",
+      "kind": "sleeping_alcove",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_TERRACE",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_LINK",
+      "kind": "loggia",
+      "declared_room": true
+    },
+    {
+      "id": "MAIN_L3_STAIR",
+      "kind": "stair",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_THEATER",
+      "kind": "theater",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_CAR_COURT",
+      "kind": "exterior",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "kind": "lounge",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_BOILER",
+      "kind": "utility",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_STAIR_HALL",
+      "kind": "circulation",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_LOUNGE",
+      "kind": "lounge",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_GALLERY",
+      "kind": "circulation",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_BATH",
+      "kind": "bath",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_GUEST_ROOM",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_TERRACE",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L1_POOL",
+      "kind": "pool",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_B1_LAUNDRY",
+      "kind": "laundry",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_B1_BATH",
+      "kind": "bath",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_B1_STAIR",
+      "kind": "circulation",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_SOUTH",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_MIDDLE",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_NORTH",
+      "kind": "bedroom",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_BATH",
+      "kind": "bath",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_HALL",
+      "kind": "circulation",
+      "declared_room": true
+    },
+    {
+      "id": "GUEST_L2_TERRACE",
+      "kind": "terrace",
+      "declared_room": true
+    },
+    {
+      "id": "EXTERIOR_UNDERCROFT",
+      "kind": "undeclared_endpoint",
+      "declared_room": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "MAIN_B_STAIR",
+      "to": "MAIN_B_WINE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_001",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_B_WINE",
+      "to": "MAIN_B_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_002",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_B_WINE",
+      "to": "MAIN_B_BOILER",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_003",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_B_STAIR",
+      "to": "MAIN_L1_SERVICE_STAIR",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_004",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "MAIN_L1_SERVICE_STAIR",
+      "to": "MAIN_L1_KITCHEN",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_005",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L1_SERVICE_STAIR",
+      "to": "MAIN_L1_SERVANT",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_006",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L1_KITCHEN",
+      "to": "MAIN_L1_LIVING",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_007",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_L1_ENTRY",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_008",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L1_ENTRY",
+      "to": "MAIN_L1_COAT",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_009",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L1_ENTRY",
+      "to": "MAIN_L1_LIVING",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_010",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L1_ENTRY",
+      "to": "MAIN_L1_STAIR",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_011",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "MAIN_L1_STAIR",
+      "to": "MAIN_L2_HALL",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_012",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_TERRACE_W",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_013",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_TERRACE_E",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_014",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_HATCH",
+      "types": [
+        "hatch_stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_015",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_B_PLUNGE",
+      "types": [
+        "exterior_steps"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_016",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_L1_TERRACE_E",
+      "types": [
+        "exterior_steps"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_017",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_DRESSING",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_018",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_DRESSING",
+      "to": "MAIN_L2_BATH_N",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_019",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_DRESSING",
+      "to": "MAIN_L2_TERRACE_W",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_020",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_MASTER",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_021",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_BATH_M",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_022",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_CLOSET_M",
+      "types": [
+        "cabinet"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_023",
+      "method": "Retain storage access as non-walkthrough; do not claim room-body traversal"
+    },
+    {
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_TERRACE_S",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_024",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_GUEST",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_025",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_GUEST",
+      "to": "MAIN_L2_BATH_G",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_026",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_GUEST",
+      "to": "MAIN_L2_CLOSET_G",
+      "types": [
+        "cabinet"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_027",
+      "method": "Retain storage access as non-walkthrough; do not claim room-body traversal"
+    },
+    {
+      "from": "MAIN_L2_GUEST",
+      "to": "MAIN_L2_TERRACE_E",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_028",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_TERRACE_N",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_029",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_TERRACE_N",
+      "to": "MAIN_L3_LINK",
+      "types": [
+        "curved_exterior_stair"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_030",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "MAIN_L2_HALL",
+      "to": "MAIN_L2_STAIR",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_031",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L2_STAIR",
+      "to": "MAIN_L3_STAIR",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_032",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "MAIN_L3_STAIR",
+      "to": "MAIN_L3_GALLERY",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_033",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_STUDY",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_034",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_035",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_ALCOVE",
+      "types": [
+        "open_alcove"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_036",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L3_GALLERY",
+      "to": "MAIN_L3_TERRACE",
+      "types": [
+        "glazed_door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_037",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_1",
+      "to": "EXTERIOR_UNDERCROFT",
+      "types": [
+        "open_bay"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_038",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_2",
+      "to": "EXTERIOR_UNDERCROFT",
+      "types": [
+        "open_bay"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_039",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_B_FOUNDATION_3",
+      "to": "EXTERIOR_UNDERCROFT",
+      "types": [
+        "open_bay"
+      ],
+      "declarations": [
+        {
+          "source": "data\\main_house.json",
+          "evidence": "C",
+          "source_status": "modeled; traversal not yet visually accepted"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_040",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_THEATER",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_041",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_STAIR_HALL",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_042",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_043",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_BOILER",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_044",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L1_TERRACE",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_045",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_LOUNGE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_046",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_LOUNGE",
+      "to": "GUEST_L1_GALLERY",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_047",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_GUEST_ROOM",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_048",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_GALLERY",
+      "to": "GUEST_L1_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_049",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_GUEST_ROOM",
+      "to": "GUEST_L1_TERRACE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_050",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_POOL",
+      "types": [
+        "steps"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_051",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_B1_STAIR",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_052",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "GUEST_B1_STAIR",
+      "to": "GUEST_B1_LAUNDRY",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_053",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_B1_LAUNDRY",
+      "to": "GUEST_B1_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_054",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L2_HALL",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_055",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_SOUTH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_056",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_MIDDLE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_057",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BEDROOM_NORTH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_058",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L2_HALL",
+      "to": "GUEST_L2_BATH",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_059",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "GUEST_L2_BEDROOM_NORTH",
+      "to": "GUEST_L2_TERRACE",
+      "types": [
+        "door"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_060",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed"
+    },
+    {
+      "from": "MAIN_L3_LINK",
+      "to": "GUEST_L1_STAIR_HALL",
+      "types": [
+        "covered_exterior_stair_canopy"
+      ],
+      "declarations": [
+        {
+          "source": "scripts/build_scene.py save_manifests",
+          "evidence": "C cross-building elevation provisional"
+        }
+      ],
+      "status": "NOT_RUN_PENDING_LATEST_INTEGRATED_SCENE",
+      "id": "ADJ_061",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut"
+    }
+  ],
+  "csv_only_declarations": [],
+  "limits": [
+    "No old tour PASS values are carried forward.",
+    "Every declared space is retained, including storage, water and missing exterior endpoints.",
+    "Search failure is not proof of an impossible building; it remains FAIL/NOT_RUN with exact evidence.",
+    "Film cuts cannot satisfy a graph edge."
+  ]
+}

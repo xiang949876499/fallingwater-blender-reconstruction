@@ -1,0 +1,216 @@
+{
+  "scene_sha256": "247d20f7863e4f7e9c18587d4c032bd663857a420bcfb828d271195665841ac2",
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 24,
+  "scope": "All seven actual unretouched preview images opened. These results supersede geometric framing guesses for the exact rendered candidates only.",
+  "images": [
+    {
+      "camera": "CAM_GUEST_OVERVIEW",
+      "image": "D:\\zx\\test\\project\\renders\\previews\\camera04-review\\CAM_GUEST_OVERVIEW.png",
+      "sha256": "73bb5332f6fd32e0aaa1b4a9ef5e44d544e5f864aba8cd987f62dbba2203af2a",
+      "actually_viewed_at_full_960x540": true,
+      "camera_settings": {
+        "location": [
+          28.0,
+          -4.0,
+          22.0
+        ],
+        "target": [
+          12.5,
+          39.5,
+          10.0
+        ],
+        "lens": 35,
+        "exposure": 0.8,
+        "evidence": "Iteration04 tree-aware geometry candidate; actual rendered image review pending.",
+        "render_reviewed": false
+      },
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "巨型近树干问题已消除，整个客楼/连廊布局可辨；中部枝叶仍遮低翼和部分泳池，不能称无遮挡。",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_GUEST_POOL",
+      "image": "D:\\zx\\test\\project\\renders\\previews\\camera04-review\\CAM_GUEST_POOL.png",
+      "sha256": "5a6adf525f6ccee01a95fe9b8e77e0f02b07fda86a30a46199518702be665733",
+      "actually_viewed_at_full_960x540": true,
+      "camera_settings": {
+        "location": [
+          41.0,
+          37.0,
+          11.0
+        ],
+        "target": [
+          22.0,
+          37.0,
+          9.6
+        ],
+        "lens": 35,
+        "exposure": 0.8,
+        "evidence": "Iteration04 tree-aware geometry candidate; actual rendered image review pending.",
+        "render_reviewed": false
+      },
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "泳池主体、池沿、临池翼与高围墙完整可辨，近树位于边缘，可保留该构图；05泳池阶与门口改变后需重看。",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "image": "D:\\zx\\test\\project\\renders\\previews\\camera04-review\\CAM_MAIN_B_BATH_A.png",
+      "sha256": "1082b0be96768c93ebe2b722a67fdeb0c649c1fafa34c944688d69c2e2aad9f4",
+      "actually_viewed_at_full_960x540": true,
+      "camera_settings": {
+        "location": [
+          -2.5388,
+          14.337,
+          -0.5278
+        ],
+        "target": [
+          -1.1528,
+          14.6556,
+          -0.5278
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.44966,
+        "support_z": -2.1278,
+        "support_object": "MAIN_B_WINE_finish",
+        "outside_room_polygon": true,
+        "exposure": 3.0,
+        "room_id": "MAIN_B_BATH",
+        "evidence": "Iteration04 post-image candidate. Measured support/body/eye clearance; actual room-owned fitting or named-stair witnesses in shifted camera frame. Actual render review pending.",
+        "render_reviewed": false
+      },
+      "diagnostic_status": "LIMITED_COMPOSITION",
+      "notes": "洁具已进入画面；马桶底部仍被裁切，洗手盆右侧裁切。照明比原图清楚，曝光待校准。",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "image": "D:\\zx\\test\\project\\renders\\previews\\camera04-review\\CAM_MAIN_B_BATH_B.png",
+      "sha256": "6a9d1d0107b63846ee9c128c62b6a9a5940feb4cee91b75b3a6b3cfd587a125f",
+      "actually_viewed_at_full_960x540": true,
+      "camera_settings": {
+        "location": [
+          -0.63928,
+          15.28749,
+          -0.5278
+        ],
+        "target": [
+          -1.1528,
+          14.6556,
+          -0.5278
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "support_z": -2.1278,
+        "support_object": "MAIN_B_BATH_finish",
+        "outside_room_polygon": false,
+        "exposure": 3.0,
+        "room_id": "MAIN_B_BATH",
+        "evidence": "Iteration04 post-image candidate. Measured support/body/eye clearance; actual room-owned fitting or named-stair witnesses in shifted camera frame. Actual render review pending.",
+        "render_reviewed": false
+      },
+      "diagnostic_status": "READABLE_WITH_GEOMETRY_ISSUE",
+      "notes": "洗手盆、门口和地材可辨。实际图暴露门口两条黑色带状区域，已交主楼几何负责人；05已按其报告补共面地坪，仍需同机位复渲确认。",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "image": "D:\\zx\\test\\project\\renders\\previews\\camera04-review\\CAM_MAIN_L1_SERVANT_A.png",
+      "sha256": "1df9d306072970d96983212b2b48b0ce5f4a28d560abe1add541adf372eeed40",
+      "actually_viewed_at_full_960x540": true,
+      "camera_settings": {
+        "location": [
+          -4.50378,
+          17.08068,
+          1.7222
+        ],
+        "target": [
+          -5.97275,
+          16.3572,
+          1.7222
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.53831,
+        "support_z": 0.1222,
+        "support_object": "MAIN_L1_SERVANT_finish",
+        "outside_room_polygon": false,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_SERVANT",
+        "evidence": "Iteration04 post-image candidate. Measured support/body/eye clearance; actual room-owned fitting or named-stair witnesses in shifted camera frame. Actual render review pending.",
+        "render_reviewed": false
+      },
+      "diagnostic_status": "FRAMING_FAIL",
+      "notes": "相机位于沙发背面方向，宽背板占据中央，不能把家具射线命中当作有用正面构图。下一版限制到已知沙发局部坐标正面。",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_A",
+      "image": "D:\\zx\\test\\project\\renders\\previews\\camera04-review\\CAM_MAIN_L1_STAIR_A.png",
+      "sha256": "21dd5733b0b6a3e8ef9658a69d8e3633c9b04718a22a89f95c33a5b7088c4805",
+      "actually_viewed_at_full_960x540": true,
+      "camera_settings": {
+        "location": [
+          4.76185,
+          12.8561,
+          4.2714
+        ],
+        "target": [
+          5.27766,
+          13.1688,
+          2.2836
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "support_z": 2.6714,
+        "support_object": "MAIN_stair1_14",
+        "outside_room_polygon": false,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_STAIR",
+        "evidence": "Iteration04 post-image candidate. Measured support/body/eye clearance; actual room-owned fitting or named-stair witnesses in shifted camera frame. Actual render review pending.",
+        "render_reviewed": false
+      },
+      "diagnostic_status": "READABLE_DIAGNOSTIC",
+      "notes": "连续真实踏步可辨，陡俯视适合梯面检查。不是最终美观或连续路径通过。",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_B",
+      "image": "D:\\zx\\test\\project\\renders\\previews\\camera04-review\\CAM_MAIN_L1_STAIR_B.png",
+      "sha256": "bb1bf259852f88db7f2f84639a14cc054ffdf558e786c47c6d60cb9ecc3ab214",
+      "actually_viewed_at_full_960x540": true,
+      "camera_settings": {
+        "location": [
+          5.58715,
+          13.3753,
+          3.5852
+        ],
+        "target": [
+          6.10296,
+          13.1688,
+          1.5974
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "support_z": 1.9852,
+        "support_object": "MAIN_stair1_10",
+        "outside_room_polygon": false,
+        "exposure": 3.0,
+        "room_id": "MAIN_L1_STAIR",
+        "evidence": "Iteration04 post-image candidate. Measured support/body/eye clearance; actual room-owned fitting or named-stair witnesses in shifted camera frame. Actual render review pending.",
+        "render_reviewed": false
+      },
+      "diagnostic_status": "LIMITED_COMPLEMENT",
+      "notes": "同样是陡俯视，和A方向接近。下一版寻找低处反看梯段的安全机位。",
+      "final_visual_acceptance": "NOT_ACCEPTED"
+    }
+  ]
+}

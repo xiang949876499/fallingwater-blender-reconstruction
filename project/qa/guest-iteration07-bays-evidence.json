@@ -1,0 +1,274 @@
+{
+  "scope": "Source endpoint audit only; no production geometry/data mutation; no candidate07 created",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration06.blend",
+  "scene_sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+  "source_tiff": "data/guest_refs/guest-01-original.tif",
+  "source_tiff_sha256": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+  "native_size_px": [
+    17673,
+    13632
+  ],
+  "tiff_dpi": [
+    400,
+    400
+  ],
+  "resolution_unit": "inch",
+  "new_standard_anchors": 0,
+  "candidate_created": false,
+  "printed_value_and_actual_mesh_kept_separate": true,
+  "records": [
+    {
+      "id": "GAP_GUEST_THEATER_NORTH_BAY",
+      "transcription": {
+        "label": "8 ft 1 7/8 in",
+        "target_m": 2.486025,
+        "status": "VERIFIED_ORIGINAL_TIFF",
+        "printed_increment_m": 0.003175,
+        "fraction_denominator": 8,
+        "glyph_ambiguity": null
+      },
+      "source_endpoints": {
+        "approx_normalized_locators": [
+          [
+            191.7,
+            126.3
+          ],
+          [
+            215.9,
+            167.6
+          ]
+        ],
+        "meaning": "Along-bay extent of full fixed glazing/door assembly; not a pane or operable leaf width",
+        "start_confidence": "Masonry reveal identifiable in drawing",
+        "end_confidence": "UNRESOLVED_PHYSICAL_INTERFACE_AT_SOUTH_JAMB_OR_REBATE",
+        "world_points": null,
+        "as_built_survey_accuracy_m": null
+      },
+      "mesh_diagnostic": {
+        "axis_world": [
+          0.5044147968292236,
+          -0.8634613752365112,
+          0.0
+        ],
+        "origin": [
+          -2.78031063079834,
+          51.711605072021484,
+          9.350000381469727
+        ],
+        "transverse_locator_m": 0.22,
+        "actual_selected_faces": [
+          {
+            "object": "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0",
+            "xyz": [
+              -3.3494205474853516,
+              52.68581008911133,
+              9.350000381469727
+            ],
+            "normal": [
+              0.5005678534507751,
+              -0.8656972646713257,
+              0.0
+            ],
+            "face_index": 50,
+            "distance": 1.128257393836975
+          },
+          {
+            "object": "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+            "xyz": [
+              -2.436375379562378,
+              51.12285232543945,
+              9.350000381469727
+            ],
+            "normal": [
+              -0.4702679216861725,
+              0.8825236558914185,
+              0.0
+            ],
+            "face_index": 52,
+            "distance": 0.6818497776985168
+          }
+        ],
+        "actual_distance_m": 1.8101072013378143,
+        "numeric_delta_m": -0.6759177986621858,
+        "applicability": "NOT_ESTABLISHED_AS_PRINTED_ENDPOINT_PAIR"
+      },
+      "standard_check": {
+        "tolerance_m": 0.02,
+        "result": "NOT_RUN",
+        "reason": "Source interface to actual model face identity unresolved; no selector invented"
+      }
+    },
+    {
+      "id": "GAP_GUEST_THEATER_MIDDLE_BAY",
+      "transcription": {
+        "label": "7 ft 1 1/8 in",
+        "target_m": 2.162175,
+        "status": "VERIFIED_ORIGINAL_TIFF",
+        "printed_increment_m": 0.003175,
+        "fraction_denominator": 8,
+        "glyph_ambiguity": null
+      },
+      "source_endpoints": {
+        "approx_normalized_locators": [
+          [
+            202.4,
+            185.0
+          ],
+          [
+            223.4,
+            220.5
+          ]
+        ],
+        "meaning": "Along-bay extent of full fixed glazing/door assembly; not a pane or operable leaf width",
+        "start_confidence": "Masonry reveal identifiable in drawing",
+        "end_confidence": "UNRESOLVED_PHYSICAL_INTERFACE_AT_SOUTH_JAMB_OR_REBATE",
+        "world_points": null,
+        "as_built_survey_accuracy_m": null
+      },
+      "mesh_diagnostic": {
+        "axis_world": [
+          0.5079917907714844,
+          -0.8613618612289429,
+          0.0
+        ],
+        "origin": [
+          -2.302476406097412,
+          48.7706184387207,
+          9.350000381469727
+        ],
+        "transverse_locator_m": 0.22,
+        "actual_selected_faces": [
+          {
+            "object": "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+            "xyz": [
+              -3.1662962436676025,
+              50.235328674316406,
+              9.350000381469727
+            ],
+            "normal": [
+              0.4702679216861725,
+              -0.8825236558914185,
+              0.0
+            ],
+            "face_index": 50,
+            "distance": 1.7004600763320923
+          },
+          null
+        ],
+        "actual_distance_m": null,
+        "numeric_delta_m": null,
+        "applicability": "NOT_ESTABLISHED_AS_PRINTED_ENDPOINT_PAIR"
+      },
+      "standard_check": {
+        "tolerance_m": 0.02,
+        "result": "NOT_RUN",
+        "reason": "Source interface to actual model face identity unresolved; no selector invented"
+      }
+    },
+    {
+      "id": "GAP_GUEST_THEATER_SOUTH_BAY",
+      "transcription": {
+        "label": "7 ft 1 1/8 in",
+        "target_m": 2.162175,
+        "status": "VERIFIED_ORIGINAL_TIFF",
+        "printed_increment_m": 0.003175,
+        "fraction_denominator": 8,
+        "glyph_ambiguity": null
+      },
+      "source_endpoints": {
+        "approx_normalized_locators": [
+          [
+            198.0,
+            242.6
+          ],
+          [
+            218.9,
+            277.7
+          ]
+        ],
+        "meaning": "Along-bay extent of full fixed glazing/door assembly; not a pane or operable leaf width",
+        "start_confidence": "Masonry reveal identifiable in drawing",
+        "end_confidence": "UNRESOLVED_PHYSICAL_INTERFACE_AT_SOUTH_JAMB_OR_REBATE",
+        "world_points": null,
+        "as_built_survey_accuracy_m": null
+      },
+      "mesh_diagnostic": {
+        "axis_world": [
+          0.5104654431343079,
+          -0.8598982691764832,
+          0.0
+        ],
+        "origin": [
+          -2.5366904735565186,
+          45.745033264160156,
+          9.350000381469727
+        ],
+        "transverse_locator_m": 0.22,
+        "actual_selected_faces": [
+          {
+            "object": "GUEST_L1_CARPORT_RETAINED_PIER_1_pier_end",
+            "xyz": [
+              -3.355339527130127,
+              47.12407684326172,
+              9.350000381469727
+            ],
+            "normal": [
+              0.4799749553203583,
+              -0.8772821426391602,
+              0.0
+            ],
+            "face_index": 50,
+            "distance": 1.603730320930481
+          },
+          null
+        ],
+        "actual_distance_m": null,
+        "numeric_delta_m": null,
+        "applicability": "NOT_ESTABLISHED_AS_PRINTED_ENDPOINT_PAIR"
+      },
+      "standard_check": {
+        "tolerance_m": 0.02,
+        "result": "NOT_RUN",
+        "reason": "Source interface to actual model face identity unresolved; no selector invented"
+      }
+    }
+  ],
+  "viewed_crops": [
+    {
+      "path": "project\\qa\\guest-iteration07-north-bay-rotated.png",
+      "source_normalized_rect": [
+        185,
+        118,
+        230,
+        174
+      ],
+      "rotation_degrees": -30,
+      "actually_viewed": true,
+      "sha256": "24f364e945ea851e55abf4e31c8afe5663cc57e90fd53cdce356f558664cb755"
+    },
+    {
+      "path": "project\\qa\\guest-iteration07-middle-bay-rotated.png",
+      "source_normalized_rect": [
+        195,
+        178,
+        235,
+        226
+      ],
+      "rotation_degrees": -30,
+      "actually_viewed": true,
+      "sha256": "b6a0b78cf74ca164e1b4af0d75a9a21ba2a997287376aa162330a21ac56f577a"
+    },
+    {
+      "path": "project\\qa\\guest-iteration07-south-bay-rotated.png",
+      "source_normalized_rect": [
+        192,
+        236,
+        237,
+        283
+      ],
+      "rotation_degrees": -30,
+      "actually_viewed": true,
+      "sha256": "26c8e10a1abbd706500f944ff12141f0776eea14ccbac77f5191532438697e12"
+    }
+  ]
+}

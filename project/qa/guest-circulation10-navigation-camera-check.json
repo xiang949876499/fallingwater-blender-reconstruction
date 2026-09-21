@@ -1,0 +1,956 @@
+{
+  "candidate_sha256": "7286427d1f47ae9219204ed5dd54a970387683c8b384d1b4259244a7b991d852",
+  "diagnostic_cameras": [
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "location": [
+        1.7942919999999993,
+        40.025960000000005,
+        7.640000000000001
+      ],
+      "target": [
+        1.7942919999999993,
+        38.57616,
+        6.890000000000001
+      ],
+      "lens": 22,
+      "exposure": 2.6,
+      "purpose": "Lower left B1 flight rising south, lower wall and overhead flight",
+      "mode": "GROUNDED_DIAGNOSTIC",
+      "body_failures": [],
+      "camera_radius_failures": [],
+      "target_first_hit": null,
+      "lowest_overhead": {
+        "clearance": 2.149998599999998,
+        "hit": {
+          "object": "GUEST_C10_P_L1_LEFT_APPROACH",
+          "location": [
+            1.794292,
+            40.025959,
+            8.1899986
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9499989
+        }
+      },
+      "visual_acceptance": false,
+      "status": "PASS_GEOMETRY_ONLY"
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "location": [
+        2.3750799999999996,
+        37.52176,
+        11.4478
+      ],
+      "target": [
+        2.4250119999999993,
+        38.99792,
+        10.7
+      ],
+      "lens": 20,
+      "exposure": 2.6,
+      "purpose": "Upper south return with solid source divider and both flight margins",
+      "mode": "GROUNDED_DIAGNOSTIC",
+      "body_failures": [],
+      "camera_radius_failures": [],
+      "target_first_hit": {
+        "object": "GUEST_C10_UPPER_SOURCE_SOLID_DIVIDER",
+        "location": [
+          2.3869512,
+          37.8727074,
+          11.2700138
+        ],
+        "normal": [
+          -0.3826702,
+          -0.923885,
+          0.0
+        ],
+        "distance": 0.3935919
+      },
+      "lowest_overhead": {
+        "clearance": 3.0248739999999987,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            2.3750801,
+            37.521759,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.8248739
+        }
+      },
+      "visual_acceptance": false,
+      "status": "PASS_GEOMETRY_ONLY"
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "location": [
+        10.81096,
+        36.09832,
+        10.0
+      ],
+      "target": [
+        10.81096,
+        37.1,
+        9.700000000000001
+      ],
+      "lens": 24,
+      "exposure": 2.2,
+      "purpose": "Actual southeast glazed entrance and screen-side passage",
+      "mode": "GROUNDED_DIAGNOSTIC",
+      "body_failures": [],
+      "camera_radius_failures": [],
+      "target_first_hit": null,
+      "lowest_overhead": {
+        "clearance": 2.1599994999999996,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            10.8109598,
+            36.09832,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9599991
+        }
+      },
+      "visual_acceptance": false,
+      "status": "PASS_GEOMETRY_ONLY"
+    },
+    {
+      "camera": "CAM_CONNECTOR",
+      "location": [
+        -1.6107759475708008,
+        33.72883224487305,
+        8.405603408813477
+      ],
+      "target": [
+        -2.9029603004455566,
+        31.201580047607422,
+        7.317471504211426
+      ],
+      "lens": 22,
+      "exposure": 1.2,
+      "purpose": "Physical canopy and stepped external connector, looking down toward main house",
+      "mode": "GROUNDED_DIAGNOSTIC",
+      "body_failures": [],
+      "camera_radius_failures": [],
+      "target_first_hit": null,
+      "lowest_overhead": {
+        "clearance": 3.3343949911865227,
+        "hit": {
+          "object": "GUEST_CONNECTOR_canopy_033",
+          "location": [
+            -1.6107759,
+            33.7288322,
+            10.1399984
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 3.1343949
+        }
+      },
+      "visual_acceptance": false,
+      "status": "PASS_GEOMETRY_ONLY"
+    }
+  ],
+  "saved_affected_cameras": [
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_A",
+      "saved_location": [
+        -3.0213799476623535,
+        41.07796096801758,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [
+        {
+          "reason": "BODY_COLUMN",
+          "offset": [
+            0.09000000000000001,
+            -0.15588457268119893
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -2.93138,
+              40.9220772,
+              8.5065556
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.081355
+          }
+        },
+        {
+          "reason": "BODY_RADIUS",
+          "height": 0.3,
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -2.9473462,
+              40.9497299,
+              8.7002001
+            ],
+            "normal": [
+              -0.6317524,
+              0.7751702,
+              0.0
+            ],
+            "distance": 0.1480674
+          }
+        },
+        {
+          "reason": "BODY_RADIUS",
+          "height": 0.72,
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -2.9486196,
+              40.9519348,
+              9.1202002
+            ],
+            "normal": [
+              -0.6317484,
+              0.7751735,
+              0.0
+            ],
+            "distance": 0.1455208
+          }
+        },
+        {
+          "reason": "BODY_RADIUS",
+          "height": 1.2,
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -2.9420505,
+              40.9405594,
+              9.6002007
+            ],
+            "normal": [
+              -0.6317573,
+              0.7751664,
+              0.0
+            ],
+            "distance": 0.1586592
+          }
+        },
+        {
+          "reason": "BODY_RADIUS",
+          "height": 1.65,
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -2.9384451,
+              40.9343147,
+              10.0502005
+            ],
+            "normal": [
+              -0.6317536,
+              0.7751691,
+              0.0
+            ],
+            "distance": 0.1658698
+          }
+        },
+        {
+          "reason": "BODY_RADIUS",
+          "height": 1.945,
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -2.9411383,
+              40.9389801,
+              10.3452005
+            ],
+            "normal": [
+              -0.6317564,
+              0.775167,
+              0.0
+            ],
+            "distance": 0.1604832
+          }
+        }
+      ],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": true,
+      "lowest_overhead": {
+        "clearance": 0.20820202839355417,
+        "hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            -2.93138,
+            40.9220772,
+            8.6084023
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 0.0082016
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_B",
+      "saved_location": [
+        -0.41690999269485474,
+        45.55628967285156,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [
+        {
+          "reason": "BODY_COLUMN",
+          "offset": [
+            0.18,
+            0.0
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -0.23691,
+              45.5562897,
+              8.5499983
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.1247977
+          }
+        },
+        {
+          "reason": "BODY_COLUMN",
+          "offset": [
+            0.15588457268119896,
+            0.08999999999999998
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -0.2610254,
+              45.6462898,
+              8.5589981
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "distance": 0.1337976
+          }
+        },
+        {
+          "reason": "BODY_RADIUS",
+          "height": 0.3,
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              -0.2672526,
+              45.6426926,
+              8.7002001
+            ],
+            "normal": [
+              -0.9195774,
+              -0.392909,
+              0.0
+            ],
+            "distance": 0.1728095
+          }
+        }
+      ],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": true,
+      "lowest_overhead": {
+        "clearance": 0.247198628393555,
+        "hit": {
+          "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+          "location": [
+            -0.23691,
+            45.5562897,
+            8.6473989
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.0471982
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "saved_location": [
+        2.8013999462127686,
+        38.1976318359375,
+        12.352869987487793
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [
+        {
+          "reason": "GROUND",
+          "offset": [
+            0,
+            0
+          ],
+          "expected": 10.752869987487793,
+          "hit": null,
+          "nearby_vertical": {
+            "object": "GUEST_C10_F4_UPPER_RIGHT_NORTH_TREAD_00",
+            "location": [
+              2.8013999,
+              38.1976318,
+              10.0287762
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 1.0440941
+          }
+        }
+      ],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": true,
+      "lowest_overhead": {
+        "clearance": 2.1198040125122066,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            2.8013999,
+            38.1976318,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9198036
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_B",
+      "saved_location": [
+        2.3225200176239014,
+        34.38914108276367,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [
+        {
+          "reason": "GROUND",
+          "offset": [
+            0,
+            0
+          ],
+          "expected": 8.400200271606446,
+          "hit": null,
+          "nearby_vertical": {
+            "object": "SITE_Continuous_BearRun_Terrain",
+            "location": [
+              2.32252,
+              34.3891411,
+              6.9628029
+            ],
+            "normal": [
+              -0.0007771,
+              0.0942775,
+              0.9955457
+            ],
+            "distance": 1.7573979
+          }
+        }
+      ],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": true,
+      "lowest_overhead": null
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "saved_location": [
+        8.850000381469727,
+        37.45000076293945,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": false,
+      "lowest_overhead": {
+        "clearance": 2.1597992283935543,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            8.8500004,
+            37.4500008,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9597989
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "saved_location": [
+        5.466390132904053,
+        37.30033874511719,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": false,
+      "lowest_overhead": {
+        "clearance": 2.1597992283935543,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            5.4663901,
+            37.3003387,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9597989
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_A",
+      "saved_location": [
+        12.076780319213867,
+        39.98495864868164,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": false,
+      "lowest_overhead": {
+        "clearance": 2.1597992283935543,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            12.0767803,
+            39.9849586,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9597989
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_B",
+      "saved_location": [
+        9.632740020751953,
+        38.68452835083008,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": false,
+      "lowest_overhead": {
+        "clearance": 2.1597992283935543,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            9.63274,
+            38.6845284,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9597989
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_A",
+      "saved_location": [
+        16.289520263671875,
+        35.70412063598633,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": false,
+      "lowest_overhead": {
+        "clearance": 4.747082328393555,
+        "hit": {
+          "object": "TREE_Sapling_012_Leaves",
+          "location": [
+            16.3795204,
+            35.5482368,
+            13.1472826
+          ],
+          "normal": [
+            0.5184473,
+            -0.1102825,
+            0.8479683
+          ],
+          "distance": 4.5470819
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_B",
+      "saved_location": [
+        8.321749687194824,
+        34.60179138183594,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [
+        {
+          "reason": "GROUND",
+          "offset": [
+            0,
+            0
+          ],
+          "expected": 8.400200271606446,
+          "hit": null,
+          "nearby_vertical": {
+            "object": "GUEST_C10_P_FRONT_MIDDLE",
+            "location": [
+              8.3217497,
+              34.6017914,
+              7.7257152
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999
+            ],
+            "distance": 0.9944853
+          }
+        }
+      ],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": true,
+      "lowest_overhead": {
+        "clearance": 2.1597992283935543,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            8.3217497,
+            34.6017914,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9597988
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "saved_location": [
+        1.6129599809646606,
+        40.037681579589844,
+        10.000200271606445
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [
+        {
+          "reason": "BODY_COLUMN",
+          "offset": [
+            -0.09000000000000008,
+            -0.15588457268119893
+          ],
+          "hit": {
+            "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_00",
+            "location": [
+              1.5229599,
+              39.8817978,
+              8.4509745
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.025774
+          }
+        },
+        {
+          "reason": "BODY_COLUMN",
+          "offset": [
+            -3.306546357697853e-17,
+            -0.18
+          ],
+          "hit": {
+            "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_TREAD_00",
+            "location": [
+              1.61296,
+              39.8576813,
+              8.4509745
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "distance": 0.025774
+          }
+        },
+        {
+          "reason": "BODY_COLUMN",
+          "offset": [
+            0.09000000000000001,
+            -0.15588457268119893
+          ],
+          "hit": {
+            "object": "GUEST_C10_F3_UPPER_LEFT_SOUTH_RISER_00",
+            "location": [
+              1.70296,
+              39.8817978,
+              8.4509745
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.025774
+          }
+        }
+      ],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": true,
+      "lowest_overhead": {
+        "clearance": 2.1424738283935536,
+        "hit": {
+          "object": "GUEST_C10_P_L2_NORTH",
+          "location": [
+            1.61296,
+            40.0376816,
+            10.5426741
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9424734
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "saved_location": [
+        1.920639991760254,
+        40.23453903198242,
+        7.640200138092041
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": false,
+      "lowest_overhead": {
+        "clearance": 2.1497984619079578,
+        "hit": {
+          "object": "GUEST_C10_P_L1_LEFT_APPROACH",
+          "location": [
+            1.92064,
+            40.234539,
+            8.1899986
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9497986
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "saved_location": [
+        3.116179943084717,
+        44.48080062866211,
+        12.352869987487793
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [
+        {
+          "reason": "BODY_COLUMN",
+          "offset": [
+            0.18,
+            0.0
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              3.29618,
+              44.4808006,
+              10.8642101
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.0863399
+          }
+        }
+      ],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": true,
+      "lowest_overhead": {
+        "clearance": 2.1198040125122066,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            3.1161799,
+            44.4808006,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9198036
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_B",
+      "saved_location": [
+        1.9195599555969238,
+        40.80221939086914,
+        12.352879524230957
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": false,
+      "lowest_overhead": {
+        "clearance": 2.1197944757690426,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            1.91956,
+            40.8022194,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9197941
+        }
+      }
+    },
+    {
+      "camera": "CAM_CONNECTOR",
+      "saved_location": [
+        17.0,
+        27.0,
+        11.0
+      ],
+      "camera_radius_failures": [],
+      "grounded_1p6_eye_diagnostic_failures": [
+        {
+          "reason": "GROUND",
+          "offset": [
+            0,
+            0
+          ],
+          "expected": 9.4,
+          "hit": null,
+          "nearby_vertical": null
+        }
+      ],
+      "diagnostic_not_assuming_saved_camera_eyeheight": true,
+      "requires_eye_relocation": false,
+      "needs_grounded_or_free_mode_review": true,
+      "lowest_overhead": {
+        "clearance": 2.1391969999999993,
+        "hit": {
+          "object": "TREE_Sapling_019_Leaves",
+          "location": [
+            16.8441162,
+            26.9099998,
+            11.539197
+          ],
+          "normal": [
+            0.1010051,
+            -0.435298,
+            0.8946024
+          ],
+          "distance": 1.9391966
+        }
+      }
+    }
+  ],
+  "geometric_method": "Actual evaluated regional meshes; 26 eye rays at0.13m. Grounded diagnostics additionally reuse13 body columns,0.18m radius,1.95m headroom and4mm foot support. Saved-camera grounded probe assumes1.6m eye only to identify review needs, not automatic failure.",
+  "rendered": false,
+  "scene_or_camera_saved": false,
+  "source_sha_unchanged": true
+}

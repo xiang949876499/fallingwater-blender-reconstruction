@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "source_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+  "rendered": false,
+  "saved": false,
+  "default_configure_retains_saved_fast_gi": {
+    "engine": "BLENDER_EEVEE",
+    "samples": 32,
+    "raytracing": true,
+    "ray_resolution_scale": "1",
+    "screen_trace_quality": 1.0,
+    "fast_gi": false,
+    "fast_gi_selection_source": "saved_scene_property",
+    "geometry_or_material_colors_changed": false
+  },
+  "glass_reapplied_after_configure": true,
+  "glazing_geometry_hash": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+  "original_cycles_glass_surface_hash": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+  "seven_bake_records": true,
+  "all_light_shadows_enabled": true,
+  "corrected_guest_pool_pose_retained": true,
+  "root_cycles_wrapper_restored_one_preview_shadow_link": {
+    "device": "CPU",
+    "backend": "CPU",
+    "devices": [],
+    "reason": "Explicit CPU request",
+    "preview_shadow_exclusions_restored": [
+      "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy"
+    ]
+  },
+  "scope": "No frame rendered. Original Cycles glass shader retained; shadow-link restoration separately tested through root wrapper."
+}

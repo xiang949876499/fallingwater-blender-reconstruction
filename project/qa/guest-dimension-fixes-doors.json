@@ -1,0 +1,502 @@
+{
+  "status": "PASS",
+  "source_scene": "qa/guest-dimension-fixes-module.blend",
+  "method": "Real scene.ray_cast cross-sections across wall thickness at5 affected door openings;3 lateral positions x4 body heights, plus true head underside. No furnishings or terrain included.",
+  "doors": [
+    {
+      "wall": "GUEST_L1_BATH_NORTH_TUB",
+      "opening_index": 0,
+      "center_world": [
+        12.481842041015625,
+        38.417999267578125,
+        8.4
+      ],
+      "actual_header_hit": "GUEST_L1_BATH_NORTH_TUB_door_head_0",
+      "actual_height_m": 2.075000381469726,
+      "body_width_m": 0.48,
+      "samples": [
+        {
+          "offset_m": -0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "wall": "GUEST_L1_BED_EAST",
+      "opening_index": 0,
+      "center_world": [
+        19.535919189453125,
+        38.85504913330078,
+        8.4
+      ],
+      "actual_header_hit": "GUEST_L1_BED_EAST_door_head_0",
+      "actual_height_m": 2.075000381469726,
+      "body_width_m": 0.48,
+      "samples": [
+        {
+          "offset_m": -0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "wall": "GUEST_L1_BOILER_WEST",
+      "opening_index": 0,
+      "center_world": [
+        3.4525599479675293,
+        41.702457427978516,
+        8.4
+      ],
+      "actual_header_hit": "GUEST_L1_BOILER_WEST_door_head_0",
+      "actual_height_m": 1.9549995422363278,
+      "body_width_m": 0.48,
+      "samples": [
+        {
+          "offset_m": -0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "wall": "GUEST_B1_BASE_EAST",
+      "opening_index": 0,
+      "center_world": [
+        1.2976000308990479,
+        40.06101608276367,
+        6.040000000000001
+      ],
+      "actual_header_hit": "GUEST_B1_BASE_EAST_door_head_0",
+      "actual_height_m": 2.0050000762939444,
+      "body_width_m": 0.48,
+      "samples": [
+        {
+          "offset_m": -0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "wall": "GUEST_B1_BASE_BATH_EAST",
+      "opening_index": 0,
+      "center_world": [
+        -1.823799967765808,
+        38.910404205322266,
+        6.040000000000001
+      ],
+      "actual_header_hit": "GUEST_B1_BASE_BATH_EAST_door_head_0",
+      "actual_height_m": 1.9949998474121085,
+      "body_width_m": 0.48,
+      "samples": [
+        {
+          "offset_m": -0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": -0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.3,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 0.9,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.7,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        },
+        {
+          "offset_m": 0.24,
+          "height_m": 1.94,
+          "hit": null,
+          "hit_xyz": null,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    }
+  ]
+}

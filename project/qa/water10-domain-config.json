@@ -1,0 +1,268 @@
+{
+  "status": "READ_ONLY_NATURAL_DOMAIN_DESIGN_READY_FOR_SEPARATE_PREPARE_AUTHORIZATION_NOT_BAKED",
+  "date": "2026-09-21",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "frozen_core_sha256": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+  "report": "qa/water10-domain-design.md",
+  "domain_aabb_m": [
+    [
+      -16,
+      8
+    ],
+    [
+      -17,
+      6
+    ],
+    [
+      -7.7,
+      -4.95
+    ]
+  ],
+  "preferred_first_prepare_resolution": 320,
+  "higher_resolution_comparison": 384,
+  "frame_range_proposed": [
+    1,
+    48
+  ],
+  "fps": 24,
+  "threads": 8,
+  "hard_stop_seconds_if_later_bake_authorized": 600,
+  "600s_completion_assurance": false,
+  "physics": {
+    "use_fractions": false,
+    "delete_in_obstacle": false,
+    "simulation_method": "FLIP",
+    "flip_ratio": 0.97,
+    "use_adaptive_timesteps": true,
+    "timesteps_min": 1,
+    "timesteps_max": 8,
+    "cfl_condition": 2,
+    "cache_resumable": true,
+    "mesh_scale": 1,
+    "mesh_particle_radius": 1.25,
+    "secondary_foam_spray": "idempotent actualflags assertion only; sampling8/8 life.25-1.2; no bubble/tracer"
+  },
+  "world_boundary_faces": {
+    "x_min": "OPEN_DOWNSTREAM",
+    "y_min": "OPEN_DOWNSTREAM",
+    "x_max": "CLOSED_DRY_GUARD_BEHIND_REAL_TERRAIN",
+    "y_max": "CLOSED_DRY_GUARD_BEHIND_REAL_TERRAIN",
+    "bottom": "CLOSED_BELOW_REAL_BED",
+    "top": "OPEN_AIR"
+  },
+  "boundary_RNA_axis_mapping_precheck_required": true,
+  "collision_geometry": "Exact frozen rendered triangles in domain+1m collar; topology-closed copies extended below-8m. Preserve all visible tops and banks. Actual geometrical source provided separately. No underwater crest modification in preferred design.",
+  "initialization": {
+    "connected_area_proxy_m2": 200.0,
+    "volume_proxy_m3": 95.37831625956372,
+    "data": "qa/water10-domain-proposed-head-grid.npz",
+    "head": "C path stage with mainpool-5.771274m; not a verified hydraulic equilibrium",
+    "method": "Build actual one-or-multiple closed connected volumes above frozen exact bed, retaining rocks as exclusions and natural islands; quarter-meter probe only is not sufficient volume proof"
+  },
+  "source_geometry_data": "qa/water10-domain-source-probe.json",
+  "source_Q_C_design_m3_s": 0.2994137004643072,
+  "single_branch_diagnostic_not_all_waterfall_flow": true,
+  "nominal_injection_m3_by_seconds": {
+    "2": 0.5988274009286144,
+    "5": 1.497068502321536,
+    "10": 2.994137004643072
+  },
+  "closed_storage_headrise_upper_scale_m_by_seconds": {
+    "2": 0.002994137004643072,
+    "5": 0.00748534251160768,
+    "10": 0.01497068502321536
+  },
+  "outlet_backpressure_unverified": true,
+  "open_boundaries_not_constant_head": true,
+  "old_water09_Q_FAIL_retained": true,
+  "required_prep_checks": [
+    "exactsource/colliderhash",
+    "complete3Dinitandboundarygeometry",
+    "source>=3cellsandclosedmanifoldnotinrock",
+    "shoreoutsidewetfield",
+    "actualconfigvaluesandreadbackofsecondary",
+    "RAMavailableandcachepath",
+    "fixedcamerafootprintcoverage",
+    "actualfreefallbranchjoinnotassumedfrominlet"
+  ],
+  "resource_cases": [
+    {
+      "resolution": 320,
+      "grid": [
+        320,
+        307,
+        37
+      ],
+      "grid_cells": 3634880,
+      "cell_m": 0.075,
+      "RAM_GB_planning_not_measured": [
+        3.81744,
+        9.26976
+      ],
+      "new_source_thickness_cells": 3.066666666666667,
+      "old_source_thickness_cells": 1.0849134133333334,
+      "estimated_completed_frames_in_600s_linear": 23.6539059865904,
+      "costs": [
+        {
+          "frames": 48,
+          "linear_seconds": 1217.5578957795371,
+          "planned_seconds_range": [
+            608.7789478897686,
+            3652.6736873386117
+          ],
+          "linear_cache_bytes": 4124903305.3851852,
+          "planned_cache_bytes_range": [
+            2062451652.6925926,
+            8249806610.7703705
+          ]
+        },
+        {
+          "frames": 120,
+          "linear_seconds": 3043.8947394488428,
+          "planned_seconds_range": [
+            1521.9473697244214,
+            9131.684218346529
+          ],
+          "linear_cache_bytes": 10312258263.462963,
+          "planned_cache_bytes_range": [
+            5156129131.731482,
+            20624516526.925926
+          ]
+        },
+        {
+          "frames": 240,
+          "linear_seconds": 6087.7894788976855,
+          "planned_seconds_range": [
+            3043.8947394488428,
+            18263.368436693057
+          ],
+          "linear_cache_bytes": 20624516526.925926,
+          "planned_cache_bytes_range": [
+            10312258263.462963,
+            41249033053.85185
+          ]
+        }
+      ]
+    },
+    {
+      "resolution": 384,
+      "grid": [
+        384,
+        368,
+        44
+      ],
+      "grid_cells": 6217728,
+      "cell_m": 0.0625,
+      "RAM_GB_planning_not_measured": [
+        5.1088640000000005,
+        14.435456
+      ],
+      "new_source_thickness_cells": 3.68,
+      "old_source_thickness_cells": 1.301896096,
+      "estimated_completed_frames_in_600s_linear": 13.828059026148733,
+      "costs": [
+        {
+          "frames": 48,
+          "linear_seconds": 2082.7218010524443,
+          "planned_seconds_range": [
+            1041.3609005262222,
+            6248.165403157333
+          ],
+          "linear_cache_bytes": 7055948691.342222,
+          "planned_cache_bytes_range": [
+            3527974345.671111,
+            14111897382.684444
+          ]
+        },
+        {
+          "frames": 120,
+          "linear_seconds": 5206.804502631112,
+          "planned_seconds_range": [
+            2603.402251315556,
+            15620.413507893336
+          ],
+          "linear_cache_bytes": 17639871728.355556,
+          "planned_cache_bytes_range": [
+            8819935864.177778,
+            35279743456.71111
+          ]
+        },
+        {
+          "frames": 240,
+          "linear_seconds": 10413.609005262224,
+          "planned_seconds_range": [
+            5206.804502631112,
+            31240.827015786672
+          ],
+          "linear_cache_bytes": 35279743456.71111,
+          "planned_cache_bytes_range": [
+            17639871728.355556,
+            70559486913.42223
+          ]
+        }
+      ]
+    },
+    {
+      "resolution": 885,
+      "grid": [
+        885,
+        848,
+        101
+      ],
+      "grid_cells": 75798480,
+      "cell_m": 0.02711864406779661,
+      "RAM_GB_planning_not_measured": [
+        39.89924,
+        153.59696
+      ],
+      "new_source_thickness_cells": 8.481250000000001,
+      "old_source_thickness_cells": 3.0004636587499998,
+      "estimated_completed_frames_in_600s_linear": 1.1343117934889684,
+      "costs": [
+        {
+          "frames": 48,
+          "linear_seconds": 25389.844454861603,
+          "planned_seconds_range": [
+            12694.922227430801,
+            76169.53336458481
+          ],
+          "linear_cache_bytes": 86016980119.06111,
+          "planned_cache_bytes_range": [
+            43008490059.530556,
+            172033960238.12222
+          ]
+        },
+        {
+          "frames": 120,
+          "linear_seconds": 63474.611137153996,
+          "planned_seconds_range": [
+            31737.305568576998,
+            190423.833411462
+          ],
+          "linear_cache_bytes": 215042450297.65277,
+          "planned_cache_bytes_range": [
+            107521225148.82639,
+            430084900595.30554
+          ]
+        },
+        {
+          "frames": 240,
+          "linear_seconds": 126949.22227430799,
+          "planned_seconds_range": [
+            63474.611137153996,
+            380847.666822924
+          ],
+          "linear_cache_bytes": 430084900595.30554,
+          "planned_cache_bytes_range": [
+            215042450297.65277,
+            860169801190.6111
+          ]
+        }
+      ]
+    }
+  ],
+  "new_bakes": 0,
+  "new_renders": 0,
+  "production_changed": false
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PHYSICS_BOUNDARY_LIMITATION_NOT_PRODUCTION_PASS",
+  "run": "hybrid07_impact36",
+  "discovered_during_frame": 24,
+  "domain_bottom_m": -6.45,
+  "actual_terrain_sample_min_m": -6.500000476837158,
+  "actual_terrain_sample_max_m": -6.256751537322998,
+  "sample_count": 81,
+  "bed_samples_below_closed_domain_bottom": 55,
+  "maximum_truncated_depth_m": 0.050000476837157846,
+  "cause": "Preparation copied exact terrain render triangles but omitted a vertical containment assertion; closed domain bottom truncates part of actual pool depth",
+  "action": "Keep this single36frame cache as bounded impact/motion diagnostic; do not move cache or stone, change a running domain, repeat bake, or claim production physical acceptance",
+  "future_minimum_domain_bottom_m": -6.56,
+  "future_domain_change_authorized": false,
+  "parent_notified": true
+}

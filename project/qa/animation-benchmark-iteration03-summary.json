@@ -1,0 +1,41 @@
+{
+  "status": "INCOMPLETE_PROCESS_CRASH",
+  "raw_incremental_status": "NOT_RUN",
+  "rendered_views": 1,
+  "requested_views": 3,
+  "engine": "CYCLES",
+  "device": {
+    "device": "GPU",
+    "backend": "HIP",
+    "devices": [
+      "AMD Radeon(TM) 8060S Graphics"
+    ]
+  },
+  "hero_seconds": 523.251,
+  "crash": "0xC0000005 in amdhip64_7.dll after WATER_DETAIL RENDER_START",
+  "views": [
+    {
+      "camera": "CAM_HERO",
+      "exists": true,
+      "dimensions": [
+        640,
+        360
+      ],
+      "bytes": 535260,
+      "sha256": "31fed89d92e5a9a970bb5fe031018a340c977d76769d4edb9b1731c9e83e37e9",
+      "visual_review": "VIEWED 2026-09-20; site photographic target not met"
+    },
+    {
+      "camera": "CAM_WATER_DETAIL",
+      "exists": false,
+      "visual_review": "NOT_RUN: no output file"
+    },
+    {
+      "camera": "CAM_GUEST_OVERVIEW",
+      "exists": false,
+      "visual_review": "NOT_RUN: no output file"
+    }
+  ],
+  "preserved_log": "qa/animation-benchmark-iteration03-cycles.log",
+  "review": "qa/animation-benchmark-iteration03-review.md"
+}

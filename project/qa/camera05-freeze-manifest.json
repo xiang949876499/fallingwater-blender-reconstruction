@@ -1,0 +1,1825 @@
+{
+  "date": "2026-09-20",
+  "scene": "scene/Fallingwater_iteration05.blend",
+  "scene_sha256": "6bcfee7841c22e8e2b636352cfca79ae94968afb4235fc20cdc57e250ae046ff",
+  "settings": "qa/camera05-settings-frozen-v2.json",
+  "settings_sha256": "34e4bc6b9ca8555ba57832b830c575658955da7fc9c947b9c5721dfede31bd9e",
+  "active_build_settings": "data/camera-settings-reviewed.json",
+  "status": "GEOMETRY_ONLY_PASS_VISUAL_PENDING",
+  "camera_count": 120,
+  "room_record_count": 60,
+  "pose_changed_camera_count": 41,
+  "pose_changed_space_count": 22,
+  "previous_frozen_config": {
+    "path": "qa/camera05-settings-frozen.json",
+    "sha256": "1d9967084d397ef98962934f84b2782604c25eb4a0e0211eaf11b5dd8c99d1c2",
+    "difference": "v2 changes only Main B Bath A shift_y from -0.44966 to -0.55 and its evidence note; pose safety is unchanged, actual shifted render pending."
+  },
+  "geometry": {
+    "vertices": 949419,
+    "polygons": 1015619,
+    "objects": 9696
+  },
+  "rays_cast": 3840,
+  "vegetation_in_room_geometry_index": false,
+  "verification": "qa/camera05-frozen-v2-verification.json",
+  "outside_viewpoints": [
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "room_id": "MAIN_B_BATH",
+      "location": [
+        -2.5388,
+        14.337,
+        -0.5278
+      ],
+      "target": [
+        -1.1528,
+        14.6556,
+        -0.5278
+      ],
+      "actual_support": {
+        "object": "MAIN_B_WINE_finish",
+        "location": [
+          -2.5388,
+          14.337,
+          -2.1278
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "On adjacent wine-cellar finish looking through the real bath doorway; changed lower lens shift needs a new image.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_B",
+      "room_id": "MAIN_B_BOILER",
+      "location": [
+        -0.2332,
+        12.8502,
+        -0.5498
+      ],
+      "target": [
+        1.21044,
+        12.95109,
+        -0.7019
+      ],
+      "actual_support": {
+        "object": "MAIN_B_connection_floor",
+        "location": [
+          -0.2332,
+          12.8502,
+          -2.1498
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Mechanical-room inspection from its actual connecting floor; internal-room occupation is not claimed.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "room_id": "MAIN_B_PLUNGE",
+      "location": [
+        19.99843,
+        8.98481,
+        1.5782
+      ],
+      "target": [
+        14.3576,
+        7.3809,
+        -2.6467
+      ],
+      "actual_support": {
+        "object": "SITE_Path_bridge_north_approach",
+        "location": [
+          19.99843,
+          8.98481,
+          -0.0218
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Pool inspection from the north bridge approach; a dry external viewpoint, not a point in water.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_A",
+      "room_id": "MAIN_L1_COAT",
+      "location": [
+        8.8032,
+        12.3033,
+        1.7222
+      ],
+      "target": [
+        9.31672,
+        13.36527,
+        1.7222
+      ],
+      "actual_support": {
+        "object": "MAIN_L1_ENTRY_finish",
+        "location": [
+          8.8032,
+          12.3033,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Closet inspection from adjacent entry finish, through the opening.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_B",
+      "room_id": "MAIN_L1_TERRACE_W",
+      "location": [
+        -0.1572,
+        2.7612,
+        1.7222
+      ],
+      "target": [
+        -3.03396,
+        1.63017,
+        1.39731
+      ],
+      "actual_support": {
+        "object": "MAIN_floor_threshold_living_west_n_finish",
+        "location": [
+          -0.1572,
+          2.7612,
+          0.1222
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "At the living-west threshold finish, inspecting the exterior terrace.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_A",
+      "room_id": "MAIN_L2_BATH_N",
+      "location": [
+        0.4716,
+        13.9494,
+        4.467
+      ],
+      "target": [
+        1.7292,
+        15.2397,
+        4.467
+      ],
+      "actual_support": {
+        "object": "MAIN_L2_HALL_finish",
+        "location": [
+          0.4716,
+          13.9494,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Bath inspection from adjacent upper hall finish.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "room_id": "MAIN_L2_BATH_G",
+      "location": [
+        7.074,
+        11.4696,
+        4.467
+      ],
+      "target": [
+        6.1308,
+        11.5758,
+        4.467
+      ],
+      "actual_support": {
+        "object": "MAIN_floor_threshold_guest_bath_finish",
+        "location": [
+          7.074,
+          11.4696,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Bath inspection from the actual guest-bath doorway threshold.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_A",
+      "room_id": "MAIN_L2_BATH_M",
+      "location": [
+        4.5352,
+        8.6553,
+        4.467
+      ],
+      "target": [
+        5.56907,
+        9.43875,
+        4.467
+      ],
+      "actual_support": {
+        "object": "MAIN_L2_MASTER_finish",
+        "location": [
+          4.5352,
+          8.6553,
+          2.867
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Bath inspection from adjacent master-bedroom finish.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_A",
+      "room_id": "MAIN_L2_STAIR",
+      "location": [
+        2.21764,
+        13.82193,
+        6.86435
+      ],
+      "target": [
+        3.19079,
+        13.82193,
+        4.69791
+      ],
+      "actual_support": {
+        "object": "MAIN_stair2_13",
+        "location": [
+          2.21764,
+          13.82193,
+          5.26435
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "On an actual upper tread of the named stair flight; upper endpoint outside the nominal lower-level polygon.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "room_id": "MAIN_L3_BATH",
+      "location": [
+        1.572,
+        13.3653,
+        6.88635
+      ],
+      "target": [
+        1.1528,
+        14.15942,
+        6.88635
+      ],
+      "actual_support": {
+        "object": "MAIN_L3_GALLERY_finish",
+        "location": [
+          1.572,
+          13.3653,
+          5.28635
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Bath inspection from adjacent gallery finish.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "room_id": "GUEST_L1_GUEST_ROOM",
+      "location": [
+        14.62929,
+        40.39123,
+        10.0002
+      ],
+      "target": [
+        16.0144,
+        39.36696,
+        9.81914
+      ],
+      "actual_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          14.62929,
+          40.39123,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Eye is 16.406mm west of the revised guest-room polygon; it remains on real main floor. Adjacent-viewpoint flag corrected; room occupancy not accepted.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "room_id": "GUEST_L1_POOL",
+      "location": [
+        22.55198,
+        34.47906,
+        10.0043
+      ],
+      "target": [
+        27.99808,
+        34.88576,
+        8.6
+      ],
+      "actual_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          22.55198,
+          34.47906,
+          8.40137
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16293
+      },
+      "interpretation": "On real dry main floor beside the pool, 0.15m west of the old failed point; no claim of standing on water.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_B",
+      "room_id": "GUEST_L1_POOL",
+      "location": [
+        31.08634,
+        37.45525,
+        10.0002
+      ],
+      "target": [
+        27.99808,
+        34.88576,
+        8.6
+      ],
+      "actual_support": {
+        "object": "GUEST_L1_MAIN_FLOOR",
+        "location": [
+          31.08634,
+          37.45525,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Retained actual dry main floor viewpoint outside the water polygon.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "room_id": "GUEST_B1_STAIR",
+      "location": [
+        1.92064,
+        40.23454,
+        7.6402
+      ],
+      "target": [
+        1.77064,
+        39.03558,
+        7.345
+      ],
+      "actual_support": {
+        "object": "GUEST_B1_STAIR_LANDING",
+        "location": [
+          1.92064,
+          40.23454,
+          6.0402
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "On the real basement landing adjacent to the stair polygon; lower reverse view of the laundry descent.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "room_id": "GUEST_L1_BOILER",
+      "location": [
+        2.96819,
+        41.70246,
+        10.0002
+      ],
+      "target": [
+        5.51079,
+        42.2075,
+        10.0002
+      ],
+      "actual_support": {
+        "object": "GUEST_L1_HALL_NORTH",
+        "location": [
+          2.96819,
+          41.70246,
+          8.4002
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance": 0.16
+      },
+      "interpretation": "Utility-room inspection from the adjacent north hall.",
+      "point_geometry": "GEOMETRY_ONLY_PASS",
+      "semantic_and_image_acceptance": "PENDING_ACTUAL_IMAGE_REVIEW",
+      "navigation_acceptance": "NOT_ESTABLISHED_BY_POINT_TEST"
+    }
+  ],
+  "pose_changes": [
+    {
+      "camera": "CAM_MAIN_B_WINE_A",
+      "room_id": "MAIN_B_WINE",
+      "changes": {
+        "location": {
+          "before": [
+            -3.79094,
+            15.31935,
+            -0.5278
+          ],
+          "after": [
+            -3.31168,
+            12.67232,
+            -0.5278
+          ]
+        },
+        "target": {
+          "before": [
+            -2.49424,
+            13.31217,
+            -0.77896
+          ],
+          "after": [
+            -1.13083,
+            13.26815,
+            -0.5278
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.38155
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_WINE_B",
+      "room_id": "MAIN_B_WINE",
+      "changes": {
+        "location": {
+          "before": [
+            -0.73158,
+            12.66435,
+            -0.5278
+          ],
+          "after": [
+            -0.45346,
+            12.66435,
+            -0.5278
+          ]
+        },
+        "target": {
+          "before": [
+            -2.62,
+            13.1688,
+            -0.73324
+          ],
+          "after": [
+            -1.13083,
+            13.26815,
+            -0.5278
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "room_id": "MAIN_B_BATH",
+      "changes": {
+        "location": {
+          "before": [
+            -0.66373,
+            14.83555,
+            -0.5278
+          ],
+          "after": [
+            -2.5388,
+            14.337,
+            -0.5278
+          ]
+        },
+        "target": {
+          "before": [
+            -1.37288,
+            14.92641,
+            -0.60294
+          ],
+          "after": [
+            -1.1528,
+            14.6556,
+            -0.5278
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.55
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "room_id": "MAIN_B_BATH",
+      "changes": {
+        "location": {
+          "before": [
+            -2.5388,
+            14.337,
+            -0.5278
+          ],
+          "after": [
+            -0.63928,
+            15.28749,
+            -0.5278
+          ]
+        },
+        "target": {
+          "before": [
+            -1.1528,
+            14.6556,
+            -0.67727
+          ],
+          "after": [
+            -1.1528,
+            14.6556,
+            -0.5278
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_A",
+      "room_id": "MAIN_B_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            -5.80517,
+            17.6292,
+            -0.03057
+          ],
+          "after": [
+            -4.69729,
+            17.03035,
+            1.7222
+          ]
+        },
+        "target": {
+          "before": [
+            -3.64704,
+            16.73712,
+            -1.15
+          ],
+          "after": [
+            -4.56485,
+            17.70885,
+            -0.64038
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_B",
+      "room_id": "MAIN_B_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            -2.75849,
+            17.3814,
+            1.7222
+          ],
+          "after": [
+            -6.25656,
+            17.91594,
+            -0.37672
+          ]
+        },
+        "target": {
+          "before": [
+            -4.81032,
+            16.97607,
+            -1.15
+          ],
+          "after": [
+            -4.33509,
+            17.70885,
+            -0.46731
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "room_id": "MAIN_L1_SERVANT",
+      "changes": {
+        "location": {
+          "before": [
+            -5.5806,
+            14.73525,
+            1.7222
+          ],
+          "after": [
+            -7.38622,
+            16.09389,
+            1.7222
+          ]
+        },
+        "target": {
+          "before": [
+            -5.69064,
+            15.68043,
+            1.62219
+          ],
+          "after": [
+            -5.97275,
+            15.50623,
+            1.7222
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_B",
+      "room_id": "MAIN_L1_SERVANT",
+      "changes": {
+        "location": {
+          "before": [
+            -7.24797,
+            16.26028,
+            1.7222
+          ],
+          "after": [
+            -4.98892,
+            14.78328,
+            1.7222
+          ]
+        },
+        "target": {
+          "before": [
+            -6.16224,
+            16.04682,
+            1.6059
+          ],
+          "after": [
+            -5.97275,
+            15.50623,
+            1.7222
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            -5.3579,
+            17.5348,
+            0.31558
+          ],
+          "after": [
+            -3.4977,
+            17.5348,
+            1.7002
+          ]
+        },
+        "target": {
+          "before": [
+            -3.7204,
+            17.4168,
+            0.61558
+          ],
+          "after": [
+            -4.33509,
+            17.70885,
+            -0.46731
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            -2.70047,
+            17.2044,
+            1.7222
+          ],
+          "after": [
+            -5.3579,
+            17.8652,
+            0.31558
+          ]
+        },
+        "target": {
+          "before": [
+            -4.49068,
+            17.5761,
+            1.1
+          ],
+          "after": [
+            -3.41608,
+            17.70885,
+            0.225
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_A",
+      "room_id": "MAIN_L1_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            5.58715,
+            12.7263,
+            -1.6498
+          ],
+          "after": [
+            4.76185,
+            12.8561,
+            4.2714
+          ]
+        },
+        "target": {
+          "before": [
+            5.48628,
+            13.29093,
+            -1.3498
+          ],
+          "after": [
+            5.27766,
+            13.1688,
+            2.2836
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_B",
+      "room_id": "MAIN_L1_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            5.58715,
+            13.2455,
+            3.5852
+          ],
+          "after": [
+            7.23775,
+            13.5051,
+            2.2128
+          ]
+        },
+        "target": {
+          "before": [
+            6.47664,
+            12.94047,
+            1.1
+          ],
+          "after": [
+            5.69031,
+            13.1688,
+            1.9405
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_A",
+      "room_id": "MAIN_L1_HATCH",
+      "changes": {
+        "location": {
+          "before": [
+            8.16835,
+            3.6108,
+            0.83352
+          ],
+          "after": [
+            7.33398,
+            2.7612,
+            1.52565
+          ]
+        },
+        "target": {
+          "before": [
+            9.13856,
+            2.89926,
+            1.1
+          ],
+          "after": [
+            7.6504,
+            3.186,
+            -0.29501
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_A",
+      "room_id": "MAIN_L2_BATH_N",
+      "changes": {
+        "location": {
+          "before": [
+            1.7292,
+            15.2397,
+            4.467
+          ],
+          "after": [
+            0.4716,
+            13.9494,
+            4.467
+          ]
+        },
+        "target": {
+          "before": [
+            1.30476,
+            15.01668,
+            4.41661
+          ],
+          "after": [
+            1.7292,
+            15.2397,
+            4.467
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.35492
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_B",
+      "room_id": "MAIN_L2_BATH_N",
+      "changes": {
+        "location": {
+          "before": [
+            0.4716,
+            13.9494,
+            4.467
+          ],
+          "after": [
+            0.72884,
+            15.26625,
+            4.467
+          ]
+        },
+        "target": {
+          "before": [
+            1.30476,
+            15.47865,
+            4.28396
+          ],
+          "after": [
+            1.7292,
+            15.2397,
+            4.467
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "room_id": "MAIN_L2_BATH_G",
+      "changes": {
+        "location": {
+          "before": [
+            5.69704,
+            11.18345,
+            4.467
+          ],
+          "after": [
+            7.074,
+            11.4696,
+            4.467
+          ]
+        },
+        "target": {
+          "before": [
+            6.39804,
+            11.32092,
+            4.39192
+          ],
+          "after": [
+            6.1308,
+            11.5758,
+            4.467
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_B",
+      "room_id": "MAIN_L2_BATH_G",
+      "changes": {
+        "location": {
+          "before": [
+            7.674,
+            11.4696,
+            4.467
+          ],
+          "after": [
+            5.35738,
+            10.87913,
+            4.467
+          ]
+        },
+        "target": {
+          "before": [
+            6.39804,
+            11.32092,
+            4.33198
+          ],
+          "after": [
+            6.1046,
+            11.08785,
+            4.467
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_A",
+      "room_id": "MAIN_L2_BATH_M",
+      "changes": {
+        "location": {
+          "before": [
+            6.288,
+            8.68185,
+            4.467
+          ],
+          "after": [
+            4.5352,
+            8.6553,
+            4.467
+          ]
+        },
+        "target": {
+          "before": [
+            5.79544,
+            8.83584,
+            4.41276
+          ],
+          "after": [
+            5.56907,
+            9.43875,
+            4.467
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.43576
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_B",
+      "room_id": "MAIN_L2_BATH_M",
+      "changes": {
+        "location": {
+          "before": [
+            4.5352,
+            8.6553,
+            4.467
+          ],
+          "after": [
+            6.85182,
+            9.60898,
+            4.467
+          ]
+        },
+        "target": {
+          "before": [
+            6.36136,
+            8.83584,
+            4.27413
+          ],
+          "after": [
+            6.0784,
+            8.3898,
+            4.467
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.44292
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_A",
+      "room_id": "MAIN_L2_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            3.77862,
+            15.07745,
+            4.467
+          ],
+          "after": [
+            2.21764,
+            13.82193,
+            6.86435
+          ]
+        },
+        "target": {
+          "before": [
+            4.9256,
+            14.45913,
+            3.8448
+          ],
+          "after": [
+            3.19079,
+            13.82193,
+            4.69791
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_B",
+      "room_id": "MAIN_L2_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            5.8688,
+            14.337,
+            4.467
+          ],
+          "after": [
+            5.47056,
+            14.21062,
+            4.61781
+          ]
+        },
+        "target": {
+          "before": [
+            4.32824,
+            14.7618,
+            3.8448
+          ],
+          "after": [
+            3.43407,
+            13.82193,
+            4.5251
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "room_id": "MAIN_L3_BATH",
+      "changes": {
+        "location": {
+          "before": [
+            0.67596,
+            15.68043,
+            6.88635
+          ],
+          "after": [
+            1.572,
+            13.3653,
+            6.88635
+          ]
+        },
+        "target": {
+          "before": [
+            0.94844,
+            14.6556,
+            6.77489
+          ],
+          "after": [
+            1.1528,
+            14.15942,
+            6.88635
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_B",
+      "room_id": "MAIN_L3_BATH",
+      "changes": {
+        "location": {
+          "before": [
+            1.572,
+            13.9653,
+            6.88635
+          ],
+          "after": [
+            0.69867,
+            15.17775,
+            6.88635
+          ]
+        },
+        "target": {
+          "before": [
+            1.35716,
+            14.6556,
+            6.81036
+          ],
+          "after": [
+            1.1528,
+            14.34182,
+            6.88635
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_A",
+      "room_id": "MAIN_L3_LINK",
+      "changes": {
+        "location": {
+          "before": [
+            6.20285,
+            22.37552,
+            7.00935
+          ],
+          "after": [
+            5.82688,
+            23.99058,
+            6.88635
+          ]
+        },
+        "target": {
+          "before": [
+            5.4758,
+            19.61514,
+            6.70933
+          ],
+          "after": [
+            9.13634,
+            22.80069,
+            4.75992
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_B",
+      "room_id": "MAIN_L3_LINK",
+      "changes": {
+        "location": {
+          "before": [
+            5.72418,
+            15.84716,
+            6.88635
+          ],
+          "after": [
+            8.34415,
+            23.9956,
+            6.88635
+          ]
+        },
+        "target": {
+          "before": [
+            6.67052,
+            19.61514,
+            6.47802
+          ],
+          "after": [
+            5.4496,
+            23.4702,
+            5.86415
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "room_id": "MAIN_L3_STAIR",
+      "changes": {
+        "target": {
+          "before": [
+            3.23308,
+            13.63077,
+            6.26415
+          ],
+          "after": [
+            3.19079,
+            13.82193,
+            4.69791
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_B",
+      "room_id": "MAIN_L3_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            5.5544,
+            13.1688,
+            3.58725
+          ],
+          "after": [
+            3.7204,
+            13.806,
+            5.82749
+          ]
+        },
+        "target": {
+          "before": [
+            4.25488,
+            13.94937,
+            3.88725
+          ],
+          "after": [
+            1.7816,
+            13.72635,
+            5.38915
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "room_id": "GUEST_L1_STAIR_HALL",
+      "changes": {
+        "location": {
+          "before": [
+            2.32252,
+            37.65356,
+            10.0002
+          ],
+          "after": [
+            2.8014,
+            38.19763,
+            12.35287
+          ]
+        },
+        "target": {
+          "before": [
+            2.05446,
+            36.13522,
+            9.4
+          ],
+          "after": [
+            2.92696,
+            38.70796,
+            10.37353
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "room_id": "GUEST_L1_LOUNGE",
+      "changes": {
+        "location": {
+          "before": [
+            9.2546,
+            36.49372,
+            10.0002
+          ],
+          "after": [
+            10.33695,
+            37.30034,
+            10.0002
+          ]
+        },
+        "target": {
+          "before": [
+            7.34726,
+            37.83281,
+            9.75526
+          ],
+          "after": [
+            6.71128,
+            37.83808,
+            10.0002
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.23134
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "room_id": "GUEST_L1_LOUNGE",
+      "changes": {
+        "location": {
+          "before": [
+            4.11345,
+            39.92052,
+            10.0002
+          ],
+          "after": [
+            4.11345,
+            39.17014,
+            10.0002
+          ]
+        },
+        "target": {
+          "before": [
+            6.60616,
+            36.67824,
+            9.57035
+          ],
+          "after": [
+            6.44848,
+            38.57616,
+            10.0002
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.25831
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "room_id": "GUEST_L1_POOL",
+      "changes": {
+        "location": {
+          "before": [
+            22.70198,
+            34.47906,
+            10.0002
+          ],
+          "after": [
+            22.55198,
+            34.47906,
+            10.0043
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "room_id": "GUEST_B1_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            1.77064,
+            40.1314,
+            7.6402
+          ],
+          "after": [
+            1.61296,
+            40.03768,
+            10.0002
+          ]
+        },
+        "target": {
+          "before": [
+            1.61296,
+            38.62361,
+            7.04
+          ],
+          "after": [
+            1.77064,
+            39.03558,
+            7.345
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "room_id": "GUEST_B1_STAIR",
+      "changes": {
+        "location": {
+          "before": [
+            2.14907,
+            38.08586,
+            7.32163
+          ],
+          "after": [
+            1.92064,
+            40.23454,
+            7.6402
+          ]
+        },
+        "target": {
+          "before": [
+            1.89678,
+            39.27206,
+            7.04
+          ],
+          "after": [
+            1.77064,
+            39.03558,
+            7.345
+          ]
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_A",
+      "room_id": "GUEST_L2_BATH",
+      "changes": {
+        "location": {
+          "before": [
+            3.0058,
+            47.98668,
+            12.36188
+          ],
+          "after": [
+            1.82846,
+            47.89178,
+            12.36188
+          ]
+        },
+        "target": {
+          "before": [
+            2.45392,
+            46.74776,
+            12.21933
+          ],
+          "after": [
+            2.42764,
+            45.88715,
+            12.36188
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.26534
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_B",
+      "room_id": "GUEST_L2_BATH",
+      "changes": {
+        "location": {
+          "before": [
+            2.81308,
+            45.61428,
+            12.36188
+          ],
+          "after": [
+            3.0058,
+            45.61428,
+            12.36188
+          ]
+        },
+        "target": {
+          "before": [
+            2.70621,
+            46.36818,
+            12.28185
+          ],
+          "after": [
+            2.42478,
+            47.86379,
+            12.36188
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.39105
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "room_id": "GUEST_L1_BOILER",
+      "changes": {
+        "location": {
+          "before": [
+            5.35633,
+            41.38516,
+            10.0002
+          ],
+          "after": [
+            2.96819,
+            41.70246,
+            10.0002
+          ]
+        },
+        "target": {
+          "before": [
+            4.44947,
+            42.05688,
+            9.88159
+          ],
+          "after": [
+            5.51079,
+            42.2075,
+            10.0002
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.15641
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "room_id": "GUEST_L1_BOILER",
+      "changes": {
+        "location": {
+          "before": [
+            2.96819,
+            41.70246,
+            10.0002
+          ],
+          "after": [
+            5.63143,
+            41.84714,
+            10.0002
+          ]
+        },
+        "target": {
+          "before": [
+            5.19224,
+            41.6411,
+            9.76635
+          ],
+          "after": [
+            4.82716,
+            41.84978,
+            10.0002
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_A",
+      "room_id": "GUEST_L1_BATH",
+      "changes": {
+        "target": {
+          "before": [
+            13.14462,
+            37.90662,
+            9.813
+          ],
+          "after": [
+            12.16951,
+            37.87342,
+            10.0092
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.41657
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_B",
+      "room_id": "GUEST_L1_BATH",
+      "changes": {
+        "location": {
+          "before": [
+            14.23286,
+            38.75646,
+            10.0092
+          ],
+          "after": [
+            14.10129,
+            38.56034,
+            10.0092
+          ]
+        },
+        "target": {
+          "before": [
+            12.78196,
+            37.11253,
+            9.77875
+          ],
+          "after": [
+            13.24811,
+            36.83583,
+            10.0092
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.42083
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_A",
+      "room_id": "GUEST_B1_BATH",
+      "changes": {
+        "target": {
+          "before": [
+            -2.44044,
+            38.64207,
+            7.55674
+          ],
+          "after": [
+            -2.6725,
+            37.585,
+            7.6492
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.35312
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_B",
+      "room_id": "GUEST_B1_BATH",
+      "changes": {
+        "location": {
+          "before": [
+            -1.60264,
+            38.9104,
+            7.6402
+          ],
+          "after": [
+            -2.13102,
+            37.64035,
+            7.6492
+          ]
+        },
+        "target": {
+          "before": [
+            -2.44044,
+            38.64207,
+            7.54774
+          ],
+          "after": [
+            -2.67536,
+            39.03952,
+            7.6492
+          ]
+        },
+        "shift_y": {
+          "before": 0,
+          "after": -0.58
+        }
+      }
+    }
+  ],
+  "exposure_evidence": "qa/iteration05-focus-review.md; selected by root from actual images. Reuse after pose changes remains provisional.",
+  "scope_limits": [
+    "Point body/foot/head rays do not verify a continuous route or full room occupancy.",
+    "Outside viewpoints are not automatically accepted by their successful geometric probes.",
+    "41 revised views remain candidates until actual render review; full VIS05 not passed.",
+    "The 120 actually viewed iteration04 pictures are historical evidence, not current visual acceptance."
+  ],
+  "notes": [
+    "Main Coat B support name changed to actual closet finish at unchanged elevation.",
+    "Pool A actual center is 2.93mm below selected stored support near the floor bevel; within the explicit 40mm storage check."
+  ],
+  "evidence_files": [
+    {
+      "path": "qa/camera05-original-verification.json",
+      "sha256": "8ab3b3d16ab565dc3301d16a41bca20ea0cfb9611096919fea5f30fbe7f09852"
+    },
+    {
+      "path": "qa/camera05-composition-supplement-geometry.json",
+      "sha256": "fdaf86c6f8f2dd1a8863f1bc4705fc0f402ba9cac50ec44f3348044001882334"
+    },
+    {
+      "path": "qa/camera05-residual-geometry.json",
+      "sha256": "f4dc876c2473f35335f06fd58c1936111a2903b6d79fb2f033ff5e000b9c16be"
+    },
+    {
+      "path": "qa/camera05-frozen-v2-verification.json",
+      "sha256": "d52cb857fa77683f56b3321b26be6e88a11765b351a6272e59045e0aea24fda2"
+    },
+    {
+      "path": "qa/camera04-visual-ledger.json",
+      "sha256": "a62474daa4ed4e69376ffd0f85034c30d021bf721ddc2af5fcdf0971e7f7bd60"
+    },
+    {
+      "path": "qa/camera04-preview-followup.json",
+      "sha256": "e4a99144eee3a0b666cb8dc627ae6a281f6cc74fccfbbd23b9c66eb1faa881cf"
+    }
+  ]
+}

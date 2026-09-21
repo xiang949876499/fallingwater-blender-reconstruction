@@ -1,0 +1,213 @@
+{
+  "created_utc": "2026-09-20T13:42:02.329509+00:00",
+  "status": "CORRESPONDENCE_HYPOTHESIS_FROZEN_BEFORE_ANY_FIT",
+  "scene_sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+  "identity_rationale": "main04/05 footprint + main07/08 stepped elevations indicate L1 west parapet precedes L2 south terrace in a close southwest view; far lower east edge is L1, not same L2 terrace. Correspondence needs independent identity check, not accepted on residual alone.",
+  "photos": [
+    {
+      "id": "main_sw_87",
+      "local_path": "project/data/photo_refs/main_sw_87.jpg",
+      "camera_seed": {
+        "eye": [
+          -10,
+          -4,
+          -4
+        ],
+        "target": [
+          0,
+          5,
+          3
+        ],
+        "focal_pixels": 650
+      },
+      "camera_eye_bounds": [
+        [
+          -35,
+          -30,
+          -12
+        ],
+        [
+          -5,
+          -0.5,
+          -1
+        ]
+      ],
+      "points": [
+        {
+          "id": "W_N_TOP",
+          "photo_px": [
+            258,
+            356
+          ],
+          "object": "MAIN_L1_west_parapet_0",
+          "vertex": 4,
+          "world": [
+            -4.878399848937988,
+            4.7789998054504395,
+            0.4300000071525574
+          ],
+          "role": "fit",
+          "identity_status": "Source-supported level hypothesis; independent main-author confirmation pending",
+          "independently_verified": false,
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "W_N_BASE",
+          "photo_px": [
+            258,
+            413
+          ],
+          "object": "MAIN_L1_west_parapet_0",
+          "vertex": 0,
+          "world": [
+            -4.878399848937988,
+            4.7789998054504395,
+            -0.24000000953674316
+          ],
+          "role": "fit",
+          "identity_status": "Source-supported level hypothesis; independent main-author confirmation pending",
+          "independently_verified": false,
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "W_S_TOP",
+          "photo_px": [
+            410,
+            318
+          ],
+          "object": "MAIN_L1_west_parapet_0",
+          "vertex": 5,
+          "world": [
+            -4.8784003257751465,
+            -0.1592998504638672,
+            0.4300000071525574
+          ],
+          "role": "fit",
+          "identity_status": "Source-supported level hypothesis; independent main-author confirmation pending",
+          "independently_verified": false,
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "W_S_BASE",
+          "photo_px": [
+            409,
+            381
+          ],
+          "object": "MAIN_L1_west_parapet_0",
+          "vertex": 1,
+          "world": [
+            -4.8784003257751465,
+            -0.1592998504638672,
+            -0.24000000953674316
+          ],
+          "role": "fit",
+          "identity_status": "Source-supported level hypothesis; independent main-author confirmation pending",
+          "independently_verified": false,
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "CAP_SW",
+          "photo_px": [
+            253,
+            178
+          ],
+          "object": "MAIN_chimney_cap",
+          "vertex": 4,
+          "world": [
+            -1.1003999710083008,
+            8.283599853515625,
+            9.5600004196167
+          ],
+          "role": "fit",
+          "identity_status": "Source-supported level hypothesis; independent main-author confirmation pending",
+          "independently_verified": false,
+          "pixel_pick_uncertainty": 4
+        },
+        {
+          "id": "CAP_SE",
+          "photo_px": [
+            276,
+            195
+          ],
+          "object": "MAIN_chimney_cap",
+          "vertex": 5,
+          "world": [
+            0.41920000314712524,
+            8.283599853515625,
+            9.5600004196167
+          ],
+          "role": "fit",
+          "identity_status": "Source-supported level hypothesis; independent main-author confirmation pending",
+          "independently_verified": false,
+          "pixel_pick_uncertainty": 4
+        },
+        {
+          "id": "E_SE_TOP",
+          "photo_px": [
+            601,
+            495
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 5,
+          "world": [
+            14.30519962310791,
+            -0.2793000042438507,
+            1.0800000429153442
+          ],
+          "role": "holdout",
+          "identity_status": "Source-supported level hypothesis; independent main-author confirmation pending",
+          "independently_verified": false,
+          "pixel_pick_uncertainty": 3
+        },
+        {
+          "id": "E_SE_BASE",
+          "photo_px": [
+            600,
+            527
+          ],
+          "object": "MAIN_L1_east_parapet_0",
+          "vertex": 1,
+          "world": [
+            14.30519962310791,
+            -0.2793000042438507,
+            -0.49000003933906555
+          ],
+          "role": "holdout",
+          "identity_status": "Source-supported level hypothesis; independent main-author confirmation pending",
+          "independently_verified": false,
+          "pixel_pick_uncertainty": 3
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "CAP_NW_U",
+      "photo_px": [
+        200,
+        211
+      ],
+      "reason": "Rear top corner occluded/intersected by tree/roof; exact face endpoint not independently identified."
+    },
+    {
+      "id": "MASTER_SW_TOP_U",
+      "photo_px": [
+        539,
+        280
+      ],
+      "candidate_object": "MAIN_L2_south_parapet_0",
+      "candidate_vertex": 5,
+      "reason": "Upper corner consistent with L2 south terrace but level identity not independently confirmed; exclude from fit/holdout until resolved."
+    },
+    {
+      "id": "MASTER_SW_BASE_U",
+      "photo_px": [
+        539,
+        326
+      ],
+      "candidate_object": "MAIN_L2_south_parapet_0",
+      "candidate_vertex": 1,
+      "reason": "Same unresolved upper terrace identity; exclude."
+    }
+  ]
+}

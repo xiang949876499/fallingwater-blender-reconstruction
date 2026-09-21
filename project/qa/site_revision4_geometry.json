@@ -1,0 +1,1846 @@
+{
+  "module": "site",
+  "evidence": "C",
+  "seed": 19360715,
+  "terrain_vertices": 108900,
+  "rock_strata_objects": 382,
+  "water_objects": 60,
+  "loop_frames": [
+    1,
+    241
+  ],
+  "duration_seconds": 10,
+  "continuous_water_vertices": 102827,
+  "cascade_flow_groups": 9,
+  "foam_rivulets": 170,
+  "impact_arcs": 115,
+  "advecting_foam_traces": 55,
+  "linked_tree_instances": 324,
+  "understory_instances": 2400,
+  "tree_mesh_assets": 9,
+  "understory_mesh_assets": 4,
+  "leaf_geometry": "forked broadleaf crowns on curved branches and twigs; individual UV-mapped six-triangle leaves, no spherical crowns",
+  "preserved_near_tree_instances": 159,
+  "moss_ground_patches": 837,
+  "fallen_leaf_meshes": 8932,
+  "distant_tree_instances": 3845,
+  "distant_forest_ring_counts": [
+    718,
+    1015,
+    1438,
+    674
+  ],
+  "distant_tree_lod_assets": 3,
+  "slope_understory_tree_instances": 180,
+  "distant_evidence": "C authored valley/forest continuation; 85m+ tree LOD approximates leaf density, not exact individual trees",
+  "grounded_vegetation_instances": 6749,
+  "max_vegetation_seating_correction_m": 5.826981628417969,
+  "limitations": [
+    "No publicly obtained lidar or centimeter terrain survey.",
+    "Water hydraulics are an authored cyclic representation; its physical fidelity requires rendered 10s visual review.",
+    "Forest form, distribution, and seasonal appearance are inferred; individual canopy coordinates are not survey claims."
+  ],
+  "remote_upstream_vertices": 5247,
+  "terrain_bounds": [
+    -1040,
+    1040,
+    -1040,
+    1040
+  ],
+  "near_tree_library": "qa/site_revision4_near_trees.blend",
+  "river_near_baseline_unchanged": true,
+  "suggested_views": {
+    "classic_downstream": {
+      "location": [
+        -25,
+        -28,
+        2.5
+      ],
+      "look_at": [
+        5.5,
+        5.0,
+        2.5
+      ],
+      "lens": 42
+    },
+    "near_water": {
+      "location": [
+        -7,
+        -13,
+        -3.0
+      ],
+      "look_at": [
+        5,
+        -0.4,
+        -1.8
+      ],
+      "lens": 35
+    },
+    "upstream_bridge": {
+      "location": [
+        39,
+        -10,
+        3.0
+      ],
+      "look_at": [
+        11,
+        6,
+        2
+      ],
+      "lens": 40
+    }
+  },
+  "visual_validation": "PENDING rendered review by scene integrator",
+  "terrain_boundary_edges": 1316,
+  "terrain_interior_boundary_edges": 0,
+  "terrain_overlapping_edges": 0,
+  "finite_coordinates": true,
+  "preserved_tree_max_xy_rotation_scale_error": 7.629394538355427e-07,
+  "preserved_tree_roots": [
+    {
+      "name": "TREE_Landmark_00",
+      "xy_rotation_scale_error": 1.9073486257070726e-07,
+      "z_ground_correction_m": -0.017180935417175247,
+      "ground_root_delta_m": -0.017180549379743004,
+      "actual_mesh_root_delta_m": -0.012007594108581543
+    },
+    {
+      "name": "TREE_Landmark_03",
+      "xy_rotation_scale_error": 4.711303791538057e-09,
+      "z_ground_correction_m": -0.009578597670078279,
+      "ground_root_delta_m": -0.009578367684015765,
+      "actual_mesh_root_delta_m": -0.011992372572422028
+    },
+    {
+      "name": "TREE_Landmark_04",
+      "xy_rotation_scale_error": 4.754791249617085e-08,
+      "z_ground_correction_m": -0.03919480799293518,
+      "ground_root_delta_m": -0.03919436163165191,
+      "actual_mesh_root_delta_m": -0.01199236512184143
+    },
+    {
+      "name": "TREE_Landmark_05",
+      "xy_rotation_scale_error": 4.76837147544984e-09,
+      "z_ground_correction_m": -0.04746030853271499,
+      "ground_root_delta_m": -0.04746086725634768,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Landmark_06",
+      "xy_rotation_scale_error": 1.1920928910669204e-08,
+      "z_ground_correction_m": -0.01761252044677697,
+      "ground_root_delta_m": -0.017612770770285557,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Near_000",
+      "xy_rotation_scale_error": 3.354492186247171e-07,
+      "z_ground_correction_m": -0.016130360290527612,
+      "ground_root_delta_m": -0.016130601744615447,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Near_001",
+      "xy_rotation_scale_error": 4.644775390971745e-07,
+      "z_ground_correction_m": -0.009929660060882584,
+      "ground_root_delta_m": -0.009929475648121522,
+      "actual_mesh_root_delta_m": -0.012007653713226318
+    },
+    {
+      "name": "TREE_Near_002",
+      "xy_rotation_scale_error": 3.712158189728143e-07,
+      "z_ground_correction_m": -0.016369899789810183,
+      "ground_root_delta_m": -0.016369958405919538,
+      "actual_mesh_root_delta_m": -0.01200762391090393
+    },
+    {
+      "name": "TREE_Near_003",
+      "xy_rotation_scale_error": 4.938964863754336e-07,
+      "z_ground_correction_m": -0.07844356439209044,
+      "ground_root_delta_m": -0.07844332256219566,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Near_004",
+      "xy_rotation_scale_error": 4.069824228736252e-07,
+      "z_ground_correction_m": -0.008758718688964606,
+      "ground_root_delta_m": -0.008758496044250386,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Near_005",
+      "xy_rotation_scale_error": 4.477539050640189e-07,
+      "z_ground_correction_m": -0.013657913461685184,
+      "ground_root_delta_m": -0.013657487667044887,
+      "actual_mesh_root_delta_m": -0.01199236512184143
+    },
+    {
+      "name": "TREE_Near_006",
+      "xy_rotation_scale_error": 4.223632821265255e-07,
+      "z_ground_correction_m": -0.014051434440612853,
+      "ground_root_delta_m": -0.014051835207607555,
+      "actual_mesh_root_delta_m": -0.011999964714050293
+    },
+    {
+      "name": "TREE_Near_007",
+      "xy_rotation_scale_error": 4.282226555574198e-07,
+      "z_ground_correction_m": -0.01763864345932009,
+      "ground_root_delta_m": -0.017638486961594646,
+      "actual_mesh_root_delta_m": -0.012015283107757568
+    },
+    {
+      "name": "TREE_Near_008",
+      "xy_rotation_scale_error": 3.317871062336053e-07,
+      "z_ground_correction_m": -0.015139981384276524,
+      "ground_root_delta_m": -0.01513922827715497,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Near_009",
+      "xy_rotation_scale_error": 1.265869151723109e-07,
+      "z_ground_correction_m": -0.011448053581237794,
+      "ground_root_delta_m": -0.011447697348284214,
+      "actual_mesh_root_delta_m": -0.011999964714050293
+    },
+    {
+      "name": "TREE_Near_010",
+      "xy_rotation_scale_error": 2.072753915172143e-07,
+      "z_ground_correction_m": -0.013977697204589745,
+      "ground_root_delta_m": -0.013977468854193376,
+      "actual_mesh_root_delta_m": -0.011977195739746094
+    },
+    {
+      "name": "TREE_Near_011",
+      "xy_rotation_scale_error": 4.689941413005272e-07,
+      "z_ground_correction_m": -0.010850760141372678,
+      "ground_root_delta_m": -0.010850632634519297,
+      "actual_mesh_root_delta_m": -0.01199236512184143
+    },
+    {
+      "name": "TREE_Near_012",
+      "xy_rotation_scale_error": 4.450683590562221e-07,
+      "z_ground_correction_m": -0.004697779235840471,
+      "ground_root_delta_m": -0.004697228438145018,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Near_013",
+      "xy_rotation_scale_error": 3.6669921854581844e-07,
+      "z_ground_correction_m": -0.04262462493896457,
+      "ground_root_delta_m": -0.04262438052499107,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Near_014",
+      "xy_rotation_scale_error": 2.134399412767607e-07,
+      "z_ground_correction_m": -0.012559410026550255,
+      "ground_root_delta_m": -0.012559659836892445,
+      "actual_mesh_root_delta_m": -0.011999964714050293
+    },
+    {
+      "name": "TREE_Near_015",
+      "xy_rotation_scale_error": 4.3237304936383225e-07,
+      "z_ground_correction_m": -0.005976019470215199,
+      "ground_root_delta_m": -0.005975876465345031,
+      "actual_mesh_root_delta_m": -0.011977195739746094
+    },
+    {
+      "name": "TREE_Near_016",
+      "xy_rotation_scale_error": 2.757568360323148e-07,
+      "z_ground_correction_m": -0.018794405143737758,
+      "ground_root_delta_m": -0.018794613353640188,
+      "actual_mesh_root_delta_m": -0.011999964714050293
+    },
+    {
+      "name": "TREE_Near_017",
+      "xy_rotation_scale_error": 1.1529541055210757e-07,
+      "z_ground_correction_m": -0.013281916391372689,
+      "ground_root_delta_m": -0.013281584994665918,
+      "actual_mesh_root_delta_m": -0.01199236512184143
+    },
+    {
+      "name": "TREE_Near_018",
+      "xy_rotation_scale_error": 1.718139657214124e-07,
+      "z_ground_correction_m": -0.0071209979171753535,
+      "ground_root_delta_m": -0.007120897996973685,
+      "actual_mesh_root_delta_m": -0.012015223503112793
+    },
+    {
+      "name": "TREE_Near_019",
+      "xy_rotation_scale_error": 3.325195336856268e-07,
+      "z_ground_correction_m": -0.00899318353271461,
+      "ground_root_delta_m": -0.008993579266005192,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Near_020",
+      "xy_rotation_scale_error": 4.790039085378339e-07,
+      "z_ground_correction_m": -0.015281446228026851,
+      "ground_root_delta_m": -0.015281839412011777,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Near_021",
+      "xy_rotation_scale_error": 2.456054701838184e-07,
+      "z_ground_correction_m": -0.01489160247802701,
+      "ground_root_delta_m": -0.01489194243220382,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Near_022",
+      "xy_rotation_scale_error": 1.7309570665702267e-07,
+      "z_ground_correction_m": -0.009320139587401854,
+      "ground_root_delta_m": -0.00932016295932847,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Near_023",
+      "xy_rotation_scale_error": 4.6557617139342256e-07,
+      "z_ground_correction_m": -0.01140927833414078,
+      "ground_root_delta_m": -0.011409673265794229,
+      "actual_mesh_root_delta_m": -0.011992372572422028
+    },
+    {
+      "name": "TREE_Near_024",
+      "xy_rotation_scale_error": 4.650878899781219e-07,
+      "z_ground_correction_m": -0.012952089242935172,
+      "ground_root_delta_m": -0.012952311955591517,
+      "actual_mesh_root_delta_m": -0.01198473572731018
+    },
+    {
+      "name": "TREE_Near_025",
+      "xy_rotation_scale_error": 2.153320295406047e-07,
+      "z_ground_correction_m": -0.02032593646240244,
+      "ground_root_delta_m": -0.020325834445442226,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Near_026",
+      "xy_rotation_scale_error": 2.6660156038360583e-07,
+      "z_ground_correction_m": -0.01020292376708909,
+      "ground_root_delta_m": -0.010203014983307668,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Near_027",
+      "xy_rotation_scale_error": 1.2011718553139872e-07,
+      "z_ground_correction_m": -0.014708558532714022,
+      "ground_root_delta_m": -0.014708582351079968,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Near_028",
+      "xy_rotation_scale_error": 2.6879882852881565e-07,
+      "z_ground_correction_m": -0.017826102478027295,
+      "ground_root_delta_m": -0.017826436753654917,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Near_029",
+      "xy_rotation_scale_error": 2.778320293828074e-07,
+      "z_ground_correction_m": -0.02006285736083946,
+      "ground_root_delta_m": -0.020062439430839518,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Near_030",
+      "xy_rotation_scale_error": 7.077026342727777e-08,
+      "z_ground_correction_m": 0.14850541220474245,
+      "ground_root_delta_m": 0.14850560128260226,
+      "actual_mesh_root_delta_m": -0.011969506740570068
+    },
+    {
+      "name": "TREE_Near_031",
+      "xy_rotation_scale_error": 1.7352294889860786e-07,
+      "z_ground_correction_m": -0.014758972560882544,
+      "ground_root_delta_m": -0.014759194264449271,
+      "actual_mesh_root_delta_m": -0.012007653713226318
+    },
+    {
+      "name": "TREE_Near_032",
+      "xy_rotation_scale_error": 4.833984377228262e-07,
+      "z_ground_correction_m": -0.03486948919677779,
+      "ground_root_delta_m": -0.03486941323386361,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Near_033",
+      "xy_rotation_scale_error": 3.30810543403004e-07,
+      "z_ground_correction_m": -0.021653204040527285,
+      "ground_root_delta_m": -0.02165280485039034,
+      "actual_mesh_root_delta_m": -0.011977195739746094
+    },
+    {
+      "name": "TREE_Near_034",
+      "xy_rotation_scale_error": 4.953613270686219e-07,
+      "z_ground_correction_m": -0.0164428983764644,
+      "ground_root_delta_m": -0.01644239336241249,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Near_035",
+      "xy_rotation_scale_error": 3.0468749656620275e-07,
+      "z_ground_correction_m": -0.024767127868652317,
+      "ground_root_delta_m": -0.02476668943884963,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Near_036",
+      "xy_rotation_scale_error": 4.240112296827192e-07,
+      "z_ground_correction_m": -0.012503372009277314,
+      "ground_root_delta_m": -0.01250336200186375,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Near_037",
+      "xy_rotation_scale_error": 7.629394538355427e-07,
+      "z_ground_correction_m": -0.24972499017333982,
+      "ground_root_delta_m": -0.00585556573274193,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Near_038",
+      "xy_rotation_scale_error": 4.304199237026296e-07,
+      "z_ground_correction_m": -0.00546053411865266,
+      "ground_root_delta_m": -0.005460446345892933,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Near_039",
+      "xy_rotation_scale_error": 4.516601563864242e-07,
+      "z_ground_correction_m": -0.008953387634277554,
+      "ground_root_delta_m": -0.008953532723015911,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Near_040",
+      "xy_rotation_scale_error": 1.4892578192871042e-07,
+      "z_ground_correction_m": -0.00323199158668519,
+      "ground_root_delta_m": -0.0032318860813176364,
+      "actual_mesh_root_delta_m": -0.01199236512184143
+    },
+    {
+      "name": "TREE_Near_041",
+      "xy_rotation_scale_error": 4.6209716764167297e-07,
+      "z_ground_correction_m": -0.015378725524902492,
+      "ground_root_delta_m": -0.015378697804941055,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Near_042",
+      "xy_rotation_scale_error": 4.531250006323262e-07,
+      "z_ground_correction_m": -0.013702923767089814,
+      "ground_root_delta_m": -0.01370291275344826,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Near_043",
+      "xy_rotation_scale_error": 1.550903316882568e-07,
+      "z_ground_correction_m": 0.005705974670410008,
+      "ground_root_delta_m": 0.005705948119302917,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_000",
+      "xy_rotation_scale_error": 4.871826178032279e-07,
+      "z_ground_correction_m": -0.3943860985717773,
+      "ground_root_delta_m": -0.3943859241196126,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_001",
+      "xy_rotation_scale_error": 2.4121093744611244e-07,
+      "z_ground_correction_m": -0.014144817321778191,
+      "ground_root_delta_m": -0.014145418766506879,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_002",
+      "xy_rotation_scale_error": 3.709716800415208e-07,
+      "z_ground_correction_m": -0.011080203063964955,
+      "ground_root_delta_m": -0.011080618740708648,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_003",
+      "xy_rotation_scale_error": 4.665527342240239e-07,
+      "z_ground_correction_m": -0.6156659081420894,
+      "ground_root_delta_m": -0.6156650689093333,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_004",
+      "xy_rotation_scale_error": 3.5314941371211717e-07,
+      "z_ground_correction_m": -0.011959432631015773,
+      "ground_root_delta_m": -0.011959456369933674,
+      "actual_mesh_root_delta_m": -0.012000001966953278
+    },
+    {
+      "name": "TREE_Sapling_005",
+      "xy_rotation_scale_error": 4.863281262146302e-07,
+      "z_ground_correction_m": -0.016304169860839934,
+      "ground_root_delta_m": -0.016304352082780582,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_006",
+      "xy_rotation_scale_error": 3.7451172119062903e-07,
+      "z_ground_correction_m": -0.025503683532714927,
+      "ground_root_delta_m": -0.025504219206196943,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_007",
+      "xy_rotation_scale_error": 2.0581054727131232e-07,
+      "z_ground_correction_m": -0.006233539001465616,
+      "ground_root_delta_m": -0.006233157720702209,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_008",
+      "xy_rotation_scale_error": 4.1516113213901917e-07,
+      "z_ground_correction_m": -0.016003045297622698,
+      "ground_root_delta_m": -0.016002804141773463,
+      "actual_mesh_root_delta_m": -0.01199999451637268
+    },
+    {
+      "name": "TREE_Sapling_009",
+      "xy_rotation_scale_error": 3.037109408410288e-07,
+      "z_ground_correction_m": 0.0005280410766594912,
+      "ground_root_delta_m": 0.0005286487631597225,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_010",
+      "xy_rotation_scale_error": 2.9626464836951527e-07,
+      "z_ground_correction_m": -0.025854028259277406,
+      "ground_root_delta_m": -0.025854115580559167,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_011",
+      "xy_rotation_scale_error": 3.3081054695571765e-07,
+      "z_ground_correction_m": -0.008003091667175388,
+      "ground_root_delta_m": -0.00800261225781318,
+      "actual_mesh_root_delta_m": -0.011992335319519043
+    },
+    {
+      "name": "TREE_Sapling_012",
+      "xy_rotation_scale_error": 1.5747070314375833e-07,
+      "z_ground_correction_m": -0.00762628118896469,
+      "ground_root_delta_m": -0.007626265359780504,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Sapling_013",
+      "xy_rotation_scale_error": 2.762451174476155e-07,
+      "z_ground_correction_m": -0.01601625576400756,
+      "ground_root_delta_m": -0.016016171400226487,
+      "actual_mesh_root_delta_m": -0.012007653713226318
+    },
+    {
+      "name": "TREE_Sapling_014",
+      "xy_rotation_scale_error": 1.0205078382341526e-07,
+      "z_ground_correction_m": 0.005826162170409432,
+      "ground_root_delta_m": 0.005825884424666583,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_015",
+      "xy_rotation_scale_error": 1.1816406342290975e-07,
+      "z_ground_correction_m": -0.009361063415527227,
+      "ground_root_delta_m": -0.009361536320625419,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_016",
+      "xy_rotation_scale_error": 1.6601562435880624e-07,
+      "z_ground_correction_m": -0.1577901259155272,
+      "ground_root_delta_m": -0.15779004614337033,
+      "actual_mesh_root_delta_m": -0.011977195739746094
+    },
+    {
+      "name": "TREE_Sapling_017",
+      "xy_rotation_scale_error": 2.8430175902371957e-07,
+      "z_ground_correction_m": -0.017838927838683127,
+      "ground_root_delta_m": -0.017838870000327772,
+      "actual_mesh_root_delta_m": -0.011984741315245628
+    },
+    {
+      "name": "TREE_Sapling_018",
+      "xy_rotation_scale_error": 4.119873047159217e-07,
+      "z_ground_correction_m": -0.009972874218225479,
+      "ground_root_delta_m": -0.009972862550337469,
+      "actual_mesh_root_delta_m": -0.012015257030725479
+    },
+    {
+      "name": "TREE_Sapling_019",
+      "xy_rotation_scale_error": 2.4633789053041255e-07,
+      "z_ground_correction_m": -0.010221485290527355,
+      "ground_root_delta_m": -0.010220845673341472,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_020",
+      "xy_rotation_scale_error": 2.084960968318228e-07,
+      "z_ground_correction_m": -0.023908289001465022,
+      "ground_root_delta_m": -0.023908577735266334,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_021",
+      "xy_rotation_scale_error": 3.314208996130219e-07,
+      "z_ground_correction_m": -0.46631493939209,
+      "ground_root_delta_m": -0.46631534857664203,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_022",
+      "xy_rotation_scale_error": 4.7088623134072805e-07,
+      "z_ground_correction_m": -0.00483333587646495,
+      "ground_root_delta_m": -0.004833009684630074,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_023",
+      "xy_rotation_scale_error": 4.7656249790861693e-07,
+      "z_ground_correction_m": -0.008680944711685179,
+      "ground_root_delta_m": -0.008681214036595719,
+      "actual_mesh_root_delta_m": -0.01199236512184143
+    },
+    {
+      "name": "TREE_Sapling_024",
+      "xy_rotation_scale_error": 3.220214850330194e-07,
+      "z_ground_correction_m": -0.02047806732177726,
+      "ground_root_delta_m": -0.02047847439774575,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_025",
+      "xy_rotation_scale_error": 9.39941386945975e-08,
+      "z_ground_correction_m": -0.11644282408905027,
+      "ground_root_delta_m": -0.11644313191880995,
+      "actual_mesh_root_delta_m": -0.011984705924987793
+    },
+    {
+      "name": "TREE_Sapling_026",
+      "xy_rotation_scale_error": 3.286132823632215e-07,
+      "z_ground_correction_m": -0.43589667376708974,
+      "ground_root_delta_m": -0.43589640585617584,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_027",
+      "xy_rotation_scale_error": 4.2968750335603545e-08,
+      "z_ground_correction_m": -0.015985903259277734,
+      "ground_root_delta_m": -0.015985364825196413,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_028",
+      "xy_rotation_scale_error": 3.61572269014232e-07,
+      "z_ground_correction_m": -0.009827629821777428,
+      "ground_root_delta_m": -0.009827692239353425,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_029",
+      "xy_rotation_scale_error": 4.2993163873461526e-07,
+      "z_ground_correction_m": -0.007918140563964116,
+      "ground_root_delta_m": -0.007918997446189735,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_030",
+      "xy_rotation_scale_error": 3.6791992386042693e-07,
+      "z_ground_correction_m": -0.013297630798339455,
+      "ground_root_delta_m": -0.01329829112636105,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_031",
+      "xy_rotation_scale_error": 2.971191435108267e-07,
+      "z_ground_correction_m": -0.003397089714050283,
+      "ground_root_delta_m": -0.0033969735827072967,
+      "actual_mesh_root_delta_m": -0.012015223503112793
+    },
+    {
+      "name": "TREE_Sapling_032",
+      "xy_rotation_scale_error": 3.845214848752221e-07,
+      "z_ground_correction_m": -0.031425958923339437,
+      "ground_root_delta_m": -0.031425725669488536,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_033",
+      "xy_rotation_scale_error": 3.5180664070821877e-07,
+      "z_ground_correction_m": -0.03959220501708982,
+      "ground_root_delta_m": -0.0395921457584234,
+      "actual_mesh_root_delta_m": -0.011977195739746094
+    },
+    {
+      "name": "TREE_Sapling_034",
+      "xy_rotation_scale_error": 3.8525390522181624e-07,
+      "z_ground_correction_m": -0.013870382682800386,
+      "ground_root_delta_m": -0.013870897524537629,
+      "actual_mesh_root_delta_m": -0.011992335319519043
+    },
+    {
+      "name": "TREE_Sapling_035",
+      "xy_rotation_scale_error": 3.9941406271282176e-07,
+      "z_ground_correction_m": -0.6798619286499026,
+      "ground_root_delta_m": -0.6798623229444161,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_036",
+      "xy_rotation_scale_error": 3.7451172119062903e-07,
+      "z_ground_correction_m": -0.00242682806396477,
+      "ground_root_delta_m": -0.0024270226144915696,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_037",
+      "xy_rotation_scale_error": 2.5738525444296556e-07,
+      "z_ground_correction_m": -0.007959407096862714,
+      "ground_root_delta_m": -0.00795891147211858,
+      "actual_mesh_root_delta_m": -0.011992335319519043
+    },
+    {
+      "name": "TREE_Sapling_038",
+      "xy_rotation_scale_error": 4.791259762271238e-07,
+      "z_ground_correction_m": -0.040471375915528185,
+      "ground_root_delta_m": -0.04047031786561739,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_039",
+      "xy_rotation_scale_error": 1.1328125282261681e-07,
+      "z_ground_correction_m": -0.009712339782714352,
+      "ground_root_delta_m": 0.007429478151419033,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_040",
+      "xy_rotation_scale_error": 4.965820323832304e-07,
+      "z_ground_correction_m": -0.040886751892090345,
+      "ground_root_delta_m": -0.04088626883593527,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Sapling_041",
+      "xy_rotation_scale_error": 4.5385742097892035e-07,
+      "z_ground_correction_m": -0.010881734313964664,
+      "ground_root_delta_m": -0.010880955198893538,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Sapling_042",
+      "xy_rotation_scale_error": 3.6621094068323146e-07,
+      "z_ground_correction_m": -0.021424398376465703,
+      "ground_root_delta_m": -0.021424009602235117,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_043",
+      "xy_rotation_scale_error": 4.038085954505277e-07,
+      "z_ground_correction_m": -0.01451904186248787,
+      "ground_root_delta_m": -0.014518862406012856,
+      "actual_mesh_root_delta_m": -0.011992335319519043
+    },
+    {
+      "name": "TREE_Sapling_044",
+      "xy_rotation_scale_error": 3.312988283710183e-07,
+      "z_ground_correction_m": -0.008263548698425272,
+      "ground_root_delta_m": -0.00826341885970372,
+      "actual_mesh_root_delta_m": -0.011999964714050293
+    },
+    {
+      "name": "TREE_Sapling_045",
+      "xy_rotation_scale_error": 4.6508789353083557e-07,
+      "z_ground_correction_m": 0.000543390686035039,
+      "ground_root_delta_m": 0.0005436080206395744,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_046",
+      "xy_rotation_scale_error": 3.4277343985422704e-07,
+      "z_ground_correction_m": -1.7485994218139655,
+      "ground_root_delta_m": -1.7486139392589184,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Sapling_047",
+      "xy_rotation_scale_error": 3.6376953005401447e-07,
+      "z_ground_correction_m": -0.011016513610839773,
+      "ground_root_delta_m": -0.011015994512995952,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_048",
+      "xy_rotation_scale_error": 3.657226557152171e-07,
+      "z_ground_correction_m": -0.38750636614990164,
+      "ground_root_delta_m": -0.3875060169951414,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Sapling_049",
+      "xy_rotation_scale_error": 2.5439452855380296e-07,
+      "z_ground_correction_m": -0.022250031154632588,
+      "ground_root_delta_m": -0.022250078956760122,
+      "actual_mesh_root_delta_m": -0.011984765529632568
+    },
+    {
+      "name": "TREE_Sapling_050",
+      "xy_rotation_scale_error": 3.671875035138328e-07,
+      "z_ground_correction_m": -0.01004349114990255,
+      "ground_root_delta_m": -0.010042975122884101,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Sapling_051",
+      "xy_rotation_scale_error": 2.2949218703161023e-07,
+      "z_ground_correction_m": -0.005863699157714564,
+      "ground_root_delta_m": -0.005864219275922622,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Sapling_052",
+      "xy_rotation_scale_error": 3.295898665101049e-08,
+      "z_ground_correction_m": -0.015086947204590473,
+      "ground_root_delta_m": -0.01508674812392563,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_053",
+      "xy_rotation_scale_error": 4.7070312447772267e-07,
+      "z_ground_correction_m": -0.009760674743652054,
+      "ground_root_delta_m": -0.009760602966284004,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_054",
+      "xy_rotation_scale_error": 1.7150878761640342e-07,
+      "z_ground_correction_m": 0.0014394932937622507,
+      "ground_root_delta_m": 0.001439522573832841,
+      "actual_mesh_root_delta_m": -0.011992335319519043
+    },
+    {
+      "name": "TREE_Sapling_055",
+      "xy_rotation_scale_error": 4.448242236776423e-07,
+      "z_ground_correction_m": -0.04522666204833925,
+      "ground_root_delta_m": -0.04522781292398825,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_056",
+      "xy_rotation_scale_error": 3.525390610548129e-07,
+      "z_ground_correction_m": -0.0068797138061515994,
+      "ground_root_delta_m": -0.006879892766257001,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_057",
+      "xy_rotation_scale_error": 3.648681641266194e-07,
+      "z_ground_correction_m": -0.0158873016967771,
+      "ground_root_delta_m": -0.01588741693000717,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_058",
+      "xy_rotation_scale_error": 3.1201172134842636e-07,
+      "z_ground_correction_m": -0.021493080017089383,
+      "ground_root_delta_m": -0.0214930382430758,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_059",
+      "xy_rotation_scale_error": 3.7335205149702233e-07,
+      "z_ground_correction_m": -0.0054053572921752835,
+      "ground_root_delta_m": -0.005405608411079399,
+      "actual_mesh_root_delta_m": -0.011992335319519043
+    },
+    {
+      "name": "TREE_Sapling_060",
+      "xy_rotation_scale_error": 9.948730550490836e-08,
+      "z_ground_correction_m": -0.019881361267090725,
+      "ground_root_delta_m": -0.01988103490756643,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_061",
+      "xy_rotation_scale_error": 3.2031249830311026e-07,
+      "z_ground_correction_m": 0.0046311621704102635,
+      "ground_root_delta_m": 0.004631130548097495,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_062",
+      "xy_rotation_scale_error": 8.776855509040615e-08,
+      "z_ground_correction_m": -0.005965812438964768,
+      "ground_root_delta_m": -0.005965967677453499,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_063",
+      "xy_rotation_scale_error": 3.486328132851213e-07,
+      "z_ground_correction_m": 0.15166111529541038,
+      "ground_root_delta_m": 0.15166133931169146,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_064",
+      "xy_rotation_scale_error": 2.377929675390078e-07,
+      "z_ground_correction_m": -0.00019438951873773647,
+      "ground_root_delta_m": -0.00019444594757533906,
+      "actual_mesh_root_delta_m": -0.012007594108581543
+    },
+    {
+      "name": "TREE_Sapling_065",
+      "xy_rotation_scale_error": 3.7475585656920885e-07,
+      "z_ground_correction_m": -0.01708739349365196,
+      "ground_root_delta_m": -0.01708700192770074,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_066",
+      "xy_rotation_scale_error": 2.76489256378909e-07,
+      "z_ground_correction_m": -0.043537551696777754,
+      "ground_root_delta_m": -0.04353789879130332,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_067",
+      "xy_rotation_scale_error": 1.215820297773007e-07,
+      "z_ground_correction_m": -0.006012000915527338,
+      "ground_root_delta_m": -0.006012528939428385,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_068",
+      "xy_rotation_scale_error": 2.656249975530045e-07,
+      "z_ground_correction_m": 0.012014100646972281,
+      "ground_root_delta_m": 0.012014272388734426,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_069",
+      "xy_rotation_scale_error": 4.954833983106255e-07,
+      "z_ground_correction_m": -0.012053754821776508,
+      "ground_root_delta_m": -0.01205325470481533,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_070",
+      "xy_rotation_scale_error": 2.9785156385742084e-07,
+      "z_ground_correction_m": -0.0027855926437378997,
+      "ground_root_delta_m": -0.0027860898180092075,
+      "actual_mesh_root_delta_m": -0.011999964714050293
+    },
+    {
+      "name": "TREE_Sapling_071",
+      "xy_rotation_scale_error": 4.7320556717522777e-07,
+      "z_ground_correction_m": -0.016277075571060173,
+      "ground_root_delta_m": -0.01627705389958578,
+      "actual_mesh_root_delta_m": -0.01199999451637268
+    },
+    {
+      "name": "TREE_Sapling_072",
+      "xy_rotation_scale_error": 4.4067382987122983e-07,
+      "z_ground_correction_m": 0.005168984436034307,
+      "ground_root_delta_m": 0.005168969976145021,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_073",
+      "xy_rotation_scale_error": 1.5283202969840204e-07,
+      "z_ground_correction_m": -0.012781865139007587,
+      "ground_root_delta_m": -0.01278160197277467,
+      "actual_mesh_root_delta_m": -0.012022912502288818
+    },
+    {
+      "name": "TREE_Sapling_074",
+      "xy_rotation_scale_error": 3.408203141930244e-07,
+      "z_ground_correction_m": -0.011515973571777138,
+      "ground_root_delta_m": -0.011515782171629851,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_075",
+      "xy_rotation_scale_error": 2.73071290024518e-07,
+      "z_ground_correction_m": -0.01656674798583957,
+      "ground_root_delta_m": -0.01656734434191165,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_076",
+      "xy_rotation_scale_error": 1.3293457001850584e-07,
+      "z_ground_correction_m": -0.015561639518737902,
+      "ground_root_delta_m": -0.015561267998196682,
+      "actual_mesh_root_delta_m": -0.012007594108581543
+    },
+    {
+      "name": "TREE_Sapling_077",
+      "xy_rotation_scale_error": 1.6259765800441528e-07,
+      "z_ground_correction_m": -0.009684466735839337,
+      "ground_root_delta_m": -0.00968460300844498,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_078",
+      "xy_rotation_scale_error": 3.6633300837252136e-07,
+      "z_ground_correction_m": 0.29781506549072256,
+      "ground_root_delta_m": 0.29781530960821767,
+      "actual_mesh_root_delta_m": -0.012015342712402344
+    },
+    {
+      "name": "TREE_Sapling_079",
+      "xy_rotation_scale_error": 4.3896484669403435e-07,
+      "z_ground_correction_m": 0.0004537871704100027,
+      "ground_root_delta_m": 0.00045352639444784515,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_080",
+      "xy_rotation_scale_error": 1.5502929784361186e-07,
+      "z_ground_correction_m": -0.01837329388427733,
+      "ground_root_delta_m": -0.0183734637319084,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_081",
+      "xy_rotation_scale_error": 4.030761715512199e-07,
+      "z_ground_correction_m": -0.007839994987487886,
+      "ground_root_delta_m": -0.007839835059619382,
+      "actual_mesh_root_delta_m": -0.012030482292175293
+    },
+    {
+      "name": "TREE_Sapling_082",
+      "xy_rotation_scale_error": 1.728515641730155e-07,
+      "z_ground_correction_m": -0.04922869525146467,
+      "ground_root_delta_m": -0.0492290910079074,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_083",
+      "xy_rotation_scale_error": 4.039306631398176e-07,
+      "z_ground_correction_m": -0.021133272365570055,
+      "ground_root_delta_m": -0.02113309788707962,
+      "actual_mesh_root_delta_m": -0.012007653713226318
+    },
+    {
+      "name": "TREE_Sapling_084",
+      "xy_rotation_scale_error": 1.9433593934081728e-07,
+      "z_ground_correction_m": -0.023627114196777654,
+      "ground_root_delta_m": -0.023626267675165735,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_085",
+      "xy_rotation_scale_error": 1.6137695268980679e-07,
+      "z_ground_correction_m": 8.360650634742228e-05,
+      "ground_root_delta_m": 8.356258726216481e-05,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_086",
+      "xy_rotation_scale_error": 4.7363280941681296e-07,
+      "z_ground_correction_m": 1.3418579101198702e-06,
+      "ground_root_delta_m": 1.1401403421373857e-07,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_087",
+      "xy_rotation_scale_error": 3.695678714166206e-07,
+      "z_ground_correction_m": -0.026163318298340066,
+      "ground_root_delta_m": -0.02616367141439291,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_088",
+      "xy_rotation_scale_error": 4.667968749316742e-07,
+      "z_ground_correction_m": -0.008721705959320092,
+      "ground_root_delta_m": -0.008721783481010714,
+      "actual_mesh_root_delta_m": -0.012015283107757568
+    },
+    {
+      "name": "TREE_Sapling_089",
+      "xy_rotation_scale_error": 4.847412107267246e-07,
+      "z_ground_correction_m": -0.021097483337403133,
+      "ground_root_delta_m": -0.021097410814460815,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_090",
+      "xy_rotation_scale_error": 3.46679684071205e-07,
+      "z_ground_correction_m": -0.00560951849365221,
+      "ground_root_delta_m": -0.005609139812202457,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_091",
+      "xy_rotation_scale_error": 4.118652370266318e-07,
+      "z_ground_correction_m": -0.02570194232177725,
+      "ground_root_delta_m": -0.025702041715800927,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_092",
+      "xy_rotation_scale_error": 2.4914550778021294e-07,
+      "z_ground_correction_m": -0.03175935833740251,
+      "ground_root_delta_m": -0.0317592184292943,
+      "actual_mesh_root_delta_m": -0.011984825134277344
+    },
+    {
+      "name": "TREE_Sapling_093",
+      "xy_rotation_scale_error": 1.0180664133940809e-07,
+      "z_ground_correction_m": -0.01761009459686269,
+      "ground_root_delta_m": -0.017609753952226415,
+      "actual_mesh_root_delta_m": -0.012007594108581543
+    },
+    {
+      "name": "TREE_Sapling_094",
+      "xy_rotation_scale_error": 1.4892577837599674e-07,
+      "z_ground_correction_m": -0.00798885143280037,
+      "ground_root_delta_m": -0.007989127788622596,
+      "actual_mesh_root_delta_m": -0.012030482292175293
+    },
+    {
+      "name": "TREE_Sapling_095",
+      "xy_rotation_scale_error": 4.4433593870962795e-07,
+      "z_ground_correction_m": -0.06527568255615268,
+      "ground_root_delta_m": -0.06527615549032895,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_096",
+      "xy_rotation_scale_error": 1.7944335795050392e-07,
+      "z_ground_correction_m": -0.031855792907714786,
+      "ground_root_delta_m": -0.03185571870142212,
+      "actual_mesh_root_delta_m": -0.011961936950683594
+    },
+    {
+      "name": "TREE_Sapling_097",
+      "xy_rotation_scale_error": 4.790039085378339e-07,
+      "z_ground_correction_m": 0.003912488376617396,
+      "ground_root_delta_m": 0.0039123250033534784,
+      "actual_mesh_root_delta_m": -0.011992394924163818
+    },
+    {
+      "name": "TREE_Sapling_098",
+      "xy_rotation_scale_error": 2.579345697029112e-07,
+      "z_ground_correction_m": -0.01783480853271513,
+      "ground_root_delta_m": -0.017834614443493102,
+      "actual_mesh_root_delta_m": -0.012007713317871094
+    },
+    {
+      "name": "TREE_Sapling_099",
+      "xy_rotation_scale_error": 4.437255860523237e-07,
+      "z_ground_correction_m": -0.016754154167175184,
+      "ground_root_delta_m": -0.016754067021252705,
+      "actual_mesh_root_delta_m": -0.011992335319519043
+    },
+    {
+      "name": "TREE_Sapling_100",
+      "xy_rotation_scale_error": 3.3728027304391617e-07,
+      "z_ground_correction_m": -0.007541913967132552,
+      "ground_root_delta_m": -0.007542211720896974,
+      "actual_mesh_root_delta_m": -0.012007653713226318
+    },
+    {
+      "name": "TREE_Sapling_101",
+      "xy_rotation_scale_error": 4.382324227947265e-07,
+      "z_ground_correction_m": -0.012329485290527131,
+      "ground_root_delta_m": -0.012329597205601672,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_102",
+      "xy_rotation_scale_error": 4.863281262146302e-07,
+      "z_ground_correction_m": -0.010216217678070016,
+      "ground_root_delta_m": -0.010216402379014333,
+      "actual_mesh_root_delta_m": -0.012007653713226318
+    },
+    {
+      "name": "TREE_Sapling_103",
+      "xy_rotation_scale_error": 4.001464830594159e-07,
+      "z_ground_correction_m": -0.015282954040527486,
+      "ground_root_delta_m": -0.015282523103238077,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_104",
+      "xy_rotation_scale_error": 4.838867155854132e-07,
+      "z_ground_correction_m": -0.0010542958374024636,
+      "ground_root_delta_m": -0.0010537881218111167,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_105",
+      "xy_rotation_scale_error": 4.920654284035209e-07,
+      "z_ground_correction_m": 0.008767228576660457,
+      "ground_root_delta_m": 0.00876758536474842,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_106",
+      "xy_rotation_scale_error": 4.941406217540134e-07,
+      "z_ground_correction_m": -0.11129323724365214,
+      "ground_root_delta_m": -0.11129289647918661,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    },
+    {
+      "name": "TREE_Sapling_107",
+      "xy_rotation_scale_error": 4.520263665597213e-07,
+      "z_ground_correction_m": -0.013421597595215218,
+      "ground_root_delta_m": -0.013421778747845003,
+      "actual_mesh_root_delta_m": -0.012000083923339844
+    },
+    {
+      "name": "TREE_Sapling_108",
+      "xy_rotation_scale_error": 3.684082017230139e-07,
+      "z_ground_correction_m": -0.02177570404052709,
+      "ground_root_delta_m": -0.02177554248346958,
+      "actual_mesh_root_delta_m": -0.012022972106933594
+    },
+    {
+      "name": "TREE_Sapling_109",
+      "xy_rotation_scale_error": 3.1030273106580353e-07,
+      "z_ground_correction_m": -0.0036744735717775256,
+      "ground_root_delta_m": -0.0036746767615447595,
+      "actual_mesh_root_delta_m": -0.011992454528808594
+    }
+  ],
+  "preserved_tree_root_max_abs_delta_m": 1.7486139392589184,
+  "preserved_tree_root_mesh_max_above_ground_m": -0.011961936950683594,
+  "building_ground_cap_samples": [
+    {
+      "name": "guest_GUEST_L1_THEATER",
+      "sample_xy": [
+        -0.3317600000000005,
+        50.04276
+      ],
+      "terrain_z": 8.08001708984375,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 1.7089843749928946e-05
+    },
+    {
+      "name": "guest_GUEST_L1_CAR_COURT",
+      "sample_xy": [
+        -0.542,
+        43.162800000000004
+      ],
+      "terrain_z": 7.4573974609375,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_CHAUFFEUR_LOUNGE",
+      "sample_xy": [
+        -1.1201600000000003,
+        39.024280000000005
+      ],
+      "terrain_z": 5.720001220703125,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_BOILER",
+      "sample_xy": [
+        4.8061359999999995,
+        41.847144
+      ],
+      "terrain_z": 7.943756103515625,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_STAIR_HALL",
+      "sample_xy": [
+        2.32252,
+        37.65356
+      ],
+      "terrain_z": 5.738128662109375,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_LOUNGE",
+      "sample_xy": [
+        7.631080000000001,
+        38.20712
+      ],
+      "terrain_z": 7.7058258056640625,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_GALLERY",
+      "sample_xy": [
+        12.0687,
+        39.55148
+      ],
+      "terrain_z": 8.079986572265625,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_BATH",
+      "sample_xy": [
+        12.962220000000002,
+        37.72716
+      ],
+      "terrain_z": 7.9244384765625,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_GUEST_ROOM",
+      "sample_xy": [
+        17.032992,
+        38.541684000000004
+      ],
+      "terrain_z": 7.9532318115234375,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_TERRACE",
+      "sample_xy": [
+        17.61748,
+        37.495400000000004
+      ],
+      "terrain_z": 7.752471923828125,
+      "allowed_ground_cap": 8.08,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L1_POOL",
+      "sample_xy": [
+        27.68272,
+        34.885760000000005
+      ],
+      "terrain_z": 6.9499969482421875,
+      "allowed_ground_cap": 6.95,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_B1_LAUNDRY",
+      "sample_xy": [
+        -1.1354519999999997,
+        39.103104
+      ],
+      "terrain_z": 5.720001220703125,
+      "allowed_ground_cap": 5.720000000000001,
+      "excess_m": 1.2207031243605115e-06
+    },
+    {
+      "name": "guest_GUEST_B1_BATH",
+      "sample_xy": [
+        -2.6725,
+        38.360362800000004
+      ],
+      "terrain_z": 5.7199859619140625,
+      "allowed_ground_cap": 5.720000000000001,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_B1_STAIR",
+      "sample_xy": [
+        1.7180799999999998,
+        39.077
+      ],
+      "terrain_z": 5.720001220703125,
+      "allowed_ground_cap": 5.720000000000001,
+      "excess_m": 1.2207031243605115e-06
+    },
+    {
+      "name": "guest_GUEST_L2_BEDROOM_SOUTH",
+      "sample_xy": [
+        -1.0150400000000002,
+        38.86612
+      ],
+      "terrain_z": 5.720001220703125,
+      "allowed_ground_cap": 10.432675,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L2_BEDROOM_MIDDLE",
+      "sample_xy": [
+        -1.0150400000000002,
+        42.556520000000006
+      ],
+      "terrain_z": 6.8148040771484375,
+      "allowed_ground_cap": 10.432675,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L2_BEDROOM_NORTH",
+      "sample_xy": [
+        -0.9624800000000002,
+        46.536880000000004
+      ],
+      "terrain_z": 8.079986572265625,
+      "allowed_ground_cap": 10.432675,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L2_BATH",
+      "sample_xy": [
+        2.42764,
+        46.932280000000006
+      ],
+      "terrain_z": 8.080001831054688,
+      "allowed_ground_cap": 10.432675,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L2_HALL",
+      "sample_xy": [
+        2.3750799999999996,
+        41.343959999999996
+      ],
+      "terrain_z": 5.9553070068359375,
+      "allowed_ground_cap": 10.432675,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_GUEST_L2_TERRACE",
+      "sample_xy": [
+        0.06243999999999983,
+        51.88796000000001
+      ],
+      "terrain_z": 8.08001708984375,
+      "allowed_ground_cap": 10.432675,
+      "excess_m": 0
+    },
+    {
+      "name": "guest_canopy",
+      "sample_xy": [
+        1.7000000000000002,
+        30.55
+      ],
+      "terrain_z": 3.400238037109375,
+      "allowed_ground_cap": 7.7,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_B_WINE",
+      "sample_xy": [
+        -2.1222,
+        13.99185
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": -2.4699999999999998,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_B_BATH",
+      "sample_xy": [
+        -1.1528,
+        14.62905
+      ],
+      "terrain_z": -3.249969482421875,
+      "allowed_ground_cap": -2.4699999999999998,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_B_BOILER",
+      "sample_xy": [
+        1.6244,
+        12.6378
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": -2.4699999999999998,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_B_STAIR",
+      "sample_xy": [
+        -4.5588,
+        16.885800000000003
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": -2.4699999999999998,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_B_FOUNDATION_1",
+      "sample_xy": [
+        1.1528,
+        8.1774
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": -3.1666999999999996,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_B_FOUNDATION_2",
+      "sample_xy": [
+        5.0566,
+        9.2394
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": -3.1666999999999996,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_B_FOUNDATION_3",
+      "sample_xy": [
+        8.8032,
+        9.2394
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": -3.1666999999999996,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_B_PLUNGE",
+      "sample_xy": [
+        15.143600000000003,
+        8.071200000000001
+      ],
+      "terrain_z": -3.231597900390625,
+      "allowed_ground_cap": -3.1666999999999996,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_LIVING",
+      "sample_xy": [
+        4.9256,
+        7.5402000000000005
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_KITCHEN",
+      "sample_xy": [
+        -1.7292,
+        13.779450000000002
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_SERVANT",
+      "sample_xy": [
+        -5.921200000000001,
+        15.831765
+      ],
+      "terrain_z": -3.241943359375,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_SERVICE_STAIR",
+      "sample_xy": [
+        -4.4278,
+        17.2044
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_ENTRY",
+      "sample_xy": [
+        8.384,
+        11.8413
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_COAT",
+      "sample_xy": [
+        9.5106,
+        13.2219
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_STAIR",
+      "sample_xy": [
+        5.9998000000000005,
+        13.1157
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_LOGGIA",
+      "sample_xy": [
+        15.353200000000001,
+        11.097900000000001
+      ],
+      "terrain_z": -1.6073760986328125,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_TERRACE_W",
+      "sample_xy": [
+        -2.3842000000000003,
+        2.2833
+      ],
+      "terrain_z": -3.3581085205078125,
+      "allowed_ground_cap": -0.32,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_TERRACE_E",
+      "sample_xy": [
+        10.532399999999999,
+        4.3011
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": -0.32,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L1_HATCH",
+      "sample_xy": [
+        8.7246,
+        3.186
+      ],
+      "terrain_z": -4.27716064453125,
+      "allowed_ground_cap": -0.22,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_DRESSING",
+      "sample_xy": [
+        -1.834,
+        13.859100000000002
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_MASTER",
+      "sample_xy": [
+        2.2008,
+        9.8235
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_BATH_N",
+      "sample_xy": [
+        1.834,
+        15.266250000000001
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_BATH_G",
+      "sample_xy": [
+        6.1046,
+        11.54925
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_BATH_M",
+      "sample_xy": [
+        6.0784,
+        8.41635
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_HALL",
+      "sample_xy": [
+        5.5806000000000004,
+        12.82365
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_GUEST",
+      "sample_xy": [
+        9.143799999999999,
+        8.7084
+      ],
+      "terrain_z": -3.2499847412109375,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_TERRACE_W",
+      "sample_xy": [
+        -8.855599999999999,
+        15.2928
+      ],
+      "terrain_z": 0.4533233642578125,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_TERRACE_S",
+      "sample_xy": [
+        3.3798000000000004,
+        2.3364000000000003
+      ],
+      "terrain_z": -6.5,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_TERRACE_E",
+      "sample_xy": [
+        15.431800000000003,
+        8.46945
+      ],
+      "terrain_z": -3.19464111328125,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_TERRACE_N",
+      "sample_xy": [
+        6.550000000000001,
+        18.744300000000003
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_STAIR",
+      "sample_xy": [
+        4.663600000000001,
+        14.62905
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_CLOSET_M",
+      "sample_xy": [
+        1.2838,
+        11.920950000000001
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L2_CLOSET_G",
+      "sample_xy": [
+        9.5892,
+        11.0448
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": 2.5248000000000004,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L3_STUDY",
+      "sample_xy": [
+        -2.1484,
+        13.832550000000001
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": 4.94415,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L3_BATH",
+      "sample_xy": [
+        1.1528,
+        14.947650000000001
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": 4.94415,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L3_GALLERY",
+      "sample_xy": [
+        2.9082,
+        13.221900000000002
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": 4.94415,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L3_ALCOVE",
+      "sample_xy": [
+        6.5238000000000005,
+        13.77945
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": 4.94415,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L3_TERRACE",
+      "sample_xy": [
+        5.3972,
+        11.018250000000002
+      ],
+      "terrain_z": -3.2500152587890625,
+      "allowed_ground_cap": 4.94415,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L3_LINK",
+      "sample_xy": [
+        5.24,
+        18.9036
+      ],
+      "terrain_z": -3.2499542236328125,
+      "allowed_ground_cap": 4.94415,
+      "excess_m": 0
+    },
+    {
+      "name": "main_final_MAIN_L3_STAIR",
+      "sample_xy": [
+        3.7990000000000004,
+        13.7529
+      ],
+      "terrain_z": -3.25,
+      "allowed_ground_cap": 4.94415,
+      "excess_m": 0
+    }
+  ],
+  "max_ground_cap_excess_m": 1.7089843749928946e-05,
+  "existing_water_function_sha256": "67dba23965dd1adffb1cabf05a7aa902622639479fada8eb18a2be8a750108eb",
+  "existing_water_function_unchanged": true,
+  "original_river_first16_unchanged": true,
+  "existing_main_river_normal_z_range": [
+    -0.9999994039535522,
+    0.9999982714653015
+  ],
+  "existing_main_river_normal_note": "Original water geometry deliberately unchanged; independent water_integration.py owns normal correction and local fluid trim.",
+  "new_remote_upstream_normal_z_min": 0.9998320937156677,
+  "scene_objects": 14164,
+  "unique_mesh_vertices": 1146120,
+  "unique_mesh_faces": 1030601,
+  "terrain_distance_from_main_center_to_boundary_m": 1040,
+  "terrain_distance_from_guest_center_to_boundary_m": 995,
+  "build_and_geometry_qa_seconds": 25.583224296569824,
+  "gpu_render": "NOT_RUN: integrator owns unified iteration04 render",
+  "visual_status": "PENDING image review; geometry checks do not demonstrate photorealism or invisibility of all boundaries."
+}

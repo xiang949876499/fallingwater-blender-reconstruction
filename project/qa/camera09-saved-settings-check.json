@@ -1,0 +1,5413 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "settings": "D:\\zx\\test\\project\\qa\\camera09-settings-frozen.json",
+  "settings_sha256": "f011c9462431e12137a49d3829a85586da0804a5a934086e03d7143c7d5dc1d0",
+  "active_settings_same_bytes": true,
+  "blender_version": "5.2.1 LTS",
+  "camera_count": 120,
+  "status": "SAVED_SETTINGS_MATCH",
+  "scope": "Actual persisted camera world position, full quaternion including roll, lens, shift_x, shift_y and fw_exposure read before any comparison. Per-field tolerance 0.0001. Never applied config or saved scene. No visual acceptance.",
+  "cameras": [
+    {
+      "camera": "CAM_MAIN_B_WINE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.4019012450905421e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -3.3116800785064697,
+          12.672320365905762,
+          -0.5278000235557556
+        ],
+        "quaternion": [
+          0.5620388388633728,
+          0.5620388388633728,
+          -0.4290832579135895,
+          -0.4290831983089447
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.38155001401901245,
+        "exposure": 4.5
+      },
+      "expected": {
+        "location": [
+          -3.31168,
+          12.67232,
+          -0.5278
+        ],
+        "target": [
+          -1.13083,
+          13.26815,
+          -0.5278
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.38155,
+        "exposure": 4.5
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_WINE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -0.4534600079059601,
+          12.664349555969238,
+          -0.5278000235557556
+        ],
+        "quaternion": [
+          0.64525306224823,
+          0.64525306224823,
+          0.2892204821109772,
+          0.2892204523086548
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 4.5
+      },
+      "expected": {
+        "location": [
+          -0.45346,
+          12.66435,
+          -0.5278
+        ],
+        "target": [
+          -1.13083,
+          13.26815,
+          -0.5278
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 4.5
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.1920928910669204e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -2.538800001144409,
+          14.336999893188477,
+          -0.5278000235557556
+        ],
+        "quaternion": [
+          0.5531787872314453,
+          0.5531788468360901,
+          -0.440446674823761,
+          -0.4404465854167938
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.550000011920929,
+        "exposure": 1.6
+      },
+      "expected": {
+        "location": [
+          -2.5388,
+          14.337,
+          -0.5278
+        ],
+        "target": [
+          -1.1528,
+          14.6556,
+          -0.5278
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.55,
+        "exposure": 1.6
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -0.6392800211906433,
+          15.287489891052246,
+          -0.5278000235557556
+        ],
+        "quaternion": [
+          0.2366175800561905,
+          0.2366175502538681,
+          0.6663424968719482,
+          0.6663422584533691
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 1.6
+      },
+      "expected": {
+        "location": [
+          -0.63928,
+          15.28749,
+          -0.5278
+        ],
+        "target": [
+          -1.1528,
+          14.6556,
+          -0.5278
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 1.6
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          2.489000082015991,
+          11.804129600524902,
+          -0.5278000235557556
+        ],
+        "quaternion": [
+          0.6058768630027771,
+          0.5455359220504761,
+          0.38746362924575806,
+          0.43032050132751465
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 4.5
+      },
+      "expected": {
+        "location": [
+          2.489,
+          11.80413,
+          -0.5278
+        ],
+        "target": [
+          1.21044,
+          12.25017,
+          -0.67012
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 4.5
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_BOILER_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -0.23319999873638153,
+          12.850199699401855,
+          -0.5497999787330627
+        ],
+        "quaternion": [
+          0.5434909462928772,
+          0.48936232924461365,
+          -0.4563564956188202,
+          -0.5068342089653015
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 4.5
+      },
+      "expected": {
+        "location": [
+          -0.2332,
+          12.8502,
+          -0.5498
+        ],
+        "target": [
+          1.21044,
+          12.95109,
+          -0.7019
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 4.5
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -4.697289943695068,
+          17.030349731445312,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.9852936267852783,
+          0.1411914974451065,
+          -0.013651122339069843,
+          -0.09526331722736359
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -4.69729,
+          17.03035,
+          1.7222
+        ],
+        "target": [
+          -4.56485,
+          17.70885,
+          -0.64038
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_STAIR_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -6.2565598487854,
+          17.915939331054688,
+          -0.37672001123428345
+        ],
+        "quaternion": [
+          0.48338648676872253,
+          0.46125876903533936,
+          -0.5136426687240601,
+          -0.5382834672927856
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -6.25656,
+          17.91594,
+          -0.37672
+        ],
+        "target": [
+          -4.33509,
+          17.70885,
+          -0.46731
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -0.2881999909877777,
+          5.712440013885498,
+          -1.6497999429702759
+        ],
+        "quaternion": [
+          0.7127289772033691,
+          0.6417425870895386,
+          -0.18947575986385345,
+          -0.2104347199201584
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 2.0
+      },
+      "expected": {
+        "location": [
+          -0.2882,
+          5.71244,
+          -1.6498
+        ],
+        "target": [
+          0.6812,
+          7.21098,
+          -1.83739
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 2.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_1_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          2.5938000679016113,
+          10.368470191955566,
+          -1.6497999429702759
+        ],
+        "quaternion": [
+          0.19518211483955383,
+          0.1850491166114807,
+          0.6626657843589783,
+          0.6989526748657227
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 2.0
+      },
+      "expected": {
+        "location": [
+          2.5938,
+          10.36847,
+          -1.6498
+        ],
+        "target": [
+          0.6812,
+          7.21098,
+          -1.8467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 2.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          3.698960065841675,
+          11.15785026550293,
+          -1.6497999429702759
+        ],
+        "quaternion": [
+          0.1787431389093399,
+          0.1695728451013565,
+          -0.6670351624488831,
+          -0.703107476234436
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 2.0
+      },
+      "expected": {
+        "location": [
+          3.69896,
+          11.15785,
+          -1.6498
+        ],
+        "target": [
+          5.0304,
+          8.7084,
+          -1.7967
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 2.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_2_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          6.142710208892822,
+          7.046879768371582,
+          -1.6497999429702759
+        ],
+        "quaternion": [
+          0.7073509097099304,
+          0.6682718396186829,
+          0.15820050239562988,
+          0.16745169460773468
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 2.0
+      },
+      "expected": {
+        "location": [
+          6.14271,
+          7.04688,
+          -1.6498
+        ],
+        "target": [
+          4.59024,
+          10.1421,
+          -1.8467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 2.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          7.421750068664551,
+          11.980050086975098,
+          -1.6497999429702759
+        ],
+        "quaternion": [
+          0.19976404309272766,
+          0.1864263415336609,
+          -0.6563153266906738,
+          -0.7032707333564758
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 2.0
+      },
+      "expected": {
+        "location": [
+          7.42175,
+          11.98005,
+          -1.6498
+        ],
+        "target": [
+          8.91848,
+          9.558,
+          -1.8467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 2.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_FOUNDATION_3_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          8.250619888305664,
+          5.402500152587891,
+          -1.6497999429702759
+        ],
+        "quaternion": [
+          0.7169845104217529,
+          0.6957534551620483,
+          -0.030037960037589073,
+          -0.030954580754041672
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 2.0
+      },
+      "expected": {
+        "location": [
+          8.25062,
+          5.4025,
+          -1.6498000000000002
+        ],
+        "target": [
+          8.5412,
+          8.7615,
+          -1.75116
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 2.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          13.817879676818848,
+          10.599820137023926,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.07873450219631195,
+          0.026162616908550262,
+          -0.31424838304519653,
+          -0.9457083940505981
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          13.81788,
+          10.59982,
+          1.7222
+        ],
+        "target": [
+          14.3576,
+          7.3809,
+          -2.6467
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          18.809999465942383,
+          9.119999885559082,
+          -0.7264699935913086
+        ],
+        "quaternion": [
+          0.4725252091884613,
+          0.33014726638793945,
+          0.46801045536994934,
+          0.669842541217804
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          18.81,
+          9.12,
+          -0.72647
+        ],
+        "target": [
+          14.12,
+          7.45,
+          -2.55
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.596560001373291,
+          4.080399990081787,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.49101492762565613,
+          0.44211170077323914,
+          -0.5022678375244141,
+          -0.557824969291687
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 2.4
+      },
+      "expected": {
+        "location": [
+          1.59656,
+          4.0804,
+          1.7222
+        ],
+        "target": [
+          6.19165,
+          3.49261,
+          1.2353
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 2.4
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.1008100509643555,
+          9.616080284118652,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.5423898100852966,
+          0.48837050795555115,
+          0.4574172794818878,
+          0.5080127716064453
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 2.4
+      },
+      "expected": {
+        "location": [
+          5.10081,
+          9.61608,
+          1.7222
+        ],
+        "target": [
+          0.31,
+          9.93,
+          1.21759
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 2.4
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -7.3862199783325195,
+          16.093889236450195,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.3924604654312134,
+          0.39246049523353577,
+          -0.5881962776184082,
+          -0.5881961584091187
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -7.38622,
+          16.09389,
+          1.7222
+        ],
+        "target": [
+          -5.97275,
+          15.50623,
+          1.7222
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -4.988920211791992,
+          14.783280372619629,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.6309019327163696,
+          0.6309018731117249,
+          0.31931614875793457,
+          0.31931617856025696
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -4.98892,
+          14.78328,
+          1.7222
+        ],
+        "target": [
+          -5.97275,
+          15.50623,
+          1.7222
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -3.4976999759674072,
+          17.534799575805664,
+          1.7001999616622925
+        ],
+        "quaternion": [
+          0.762069046497345,
+          0.14491696655750275,
+          0.11789332330226898,
+          0.6199604868888855
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -3.4977,
+          17.5348,
+          1.7002
+        ],
+        "target": [
+          -4.33509,
+          17.70885,
+          -0.46731
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVICE_STAIR_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -5.357900142669678,
+          17.86520004272461,
+          0.31558001041412354
+        ],
+        "quaternion": [
+          0.49052557349205017,
+          0.4682478904724121,
+          -0.507465124130249,
+          -0.5316086411476135
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -5.3579,
+          17.8652,
+          0.31558
+        ],
+        "target": [
+          -3.41608,
+          17.70885,
+          0.225
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          7.312709808349609,
+          12.218899726867676,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.29433104395866394,
+          0.26501646637916565,
+          -0.6144113540649414,
+          -0.6823739409446716
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          7.31271,
+          12.2189,
+          1.7222
+        ],
+        "target": [
+          8.02244,
+          11.54925,
+          1.61964
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_ENTRY_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          9.455289840698242,
+          11.65250015258789,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.5575242042541504,
+          0.5019956231117249,
+          0.442419171333313,
+          0.491357684135437
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          9.45529,
+          11.6525,
+          1.7222
+        ],
+        "target": [
+          8.384,
+          11.7882,
+          1.6087
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          8.803199768066406,
+          12.303299903869629,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.6892516016960144,
+          0.6892516016960144,
+          -0.15789954364299774,
+          -0.15789955854415894
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          8.8032,
+          12.3033,
+          1.7222
+        ],
+        "target": [
+          9.31672,
+          13.36527,
+          1.7222
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          9.403200149536133,
+          12.903300285339355,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          9.4032,
+          12.9033,
+          1.7222
+        ],
+        "target": [
+          8.8032,
+          12.9033,
+          1.7222
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          4.761849880218506,
+          12.856100082397461,
+          4.271399974822998
+        ],
+        "quaternion": [
+          0.8618866205215454,
+          0.12788942456245422,
+          -0.07202435284852982,
+          -0.48539498448371887
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          4.76185,
+          12.8561,
+          4.2714
+        ],
+        "target": [
+          5.27766,
+          13.1688,
+          2.2836
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_STAIR_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          7.237750053405762,
+          13.50510025024414,
+          2.2128000259399414
+        ],
+        "quaternion": [
+          0.47987183928489685,
+          0.40439873933792114,
+          0.5017251372337341,
+          0.5953624844551086
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          7.23775,
+          13.5051,
+          2.2128
+        ],
+        "target": [
+          5.69031,
+          13.1688,
+          1.9405
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          13.817879676818848,
+          10.599820137023926,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.6672782897949219,
+          0.4975699782371521,
+          0.3313019573688507,
+          0.44430047273635864
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          13.81788,
+          10.59982,
+          1.7222
+        ],
+        "target": [
+          11.88956,
+          11.40588,
+          1.1
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          13.543760299682617,
+          10.970459938049316,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.4931993782520294,
+          0.44408056139945984,
+          -0.5005300045013428,
+          -0.5558925867080688
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          13.54376,
+          10.97046,
+          1.7222
+        ],
+        "target": [
+          14.56196,
+          10.84833,
+          1.61442
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -4.472010135650635,
+          1.0586800575256348,
+          1.6222000122070312
+        ],
+        "quaternion": [
+          0.7038185596466064,
+          0.6337205767631531,
+          -0.2147875428199768,
+          -0.23854583501815796
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          -4.47201,
+          1.05868,
+          1.6222
+        ],
+        "target": [
+          -3.03396,
+          2.93643,
+          1.37361
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_W_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -0.15719999372959137,
+          2.761199951171875,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.41844499111175537,
+          0.37676936388015747,
+          0.5529741644859314,
+          0.6141402721405029
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          -0.1572,
+          2.7612,
+          1.7222
+        ],
+        "target": [
+          -3.03396,
+          1.63017,
+          1.39731
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          12.89645004272461,
+          0.19012999534606934,
+          1.6222000122070312
+        ],
+        "quaternion": [
+          0.7073157429695129,
+          0.6368693709373474,
+          0.20526260137557983,
+          0.22796741127967834
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          12.89645,
+          0.19013,
+          1.6222
+        ],
+        "target": [
+          10.7682,
+          3.14883,
+          1.23913
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_TERRACE_E_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          12.340200424194336,
+          7.589869976043701,
+          1.6222000122070312
+        ],
+        "quaternion": [
+          0.04375546798110008,
+          0.03939755633473396,
+          -0.6679697632789612,
+          -0.7418556213378906
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          12.3402,
+          7.58987,
+          1.6222
+        ],
+        "target": [
+          12.93756,
+          2.54349,
+          1.0881
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          7.333980083465576,
+          2.761199951171875,
+          1.5256500244140625
+        ],
+        "quaternion": [
+          0.9397078156471252,
+          0.13392099738121033,
+          -0.0443955659866333,
+          -0.31151798367500305
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          7.33398,
+          2.7612,
+          1.52565
+        ],
+        "target": [
+          7.6504,
+          3.186,
+          -0.29501
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_HATCH_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          9.636360168457031,
+          2.6603100299835205,
+          -0.37981998920440674
+        ],
+        "quaternion": [
+          0.48413705825805664,
+          0.583321213722229,
+          0.501853883266449,
+          0.4165218770503998
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          9.63636,
+          2.66031,
+          -0.37982
+        ],
+        "target": [
+          8.05388,
+          2.89926,
+          -0.07982
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -2.6304800510406494,
+          16.008089065551758,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.1405489444732666,
+          0.1265505999326706,
+          -0.6570538282394409,
+          -0.7297336459159851
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -2.63048,
+          16.00809,
+          4.467
+        ],
+        "target": [
+          -1.95347,
+          14.31576,
+          4.27542
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_DRESSING_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -2.09948992729187,
+          11.71010971069336,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.7402201890945435,
+          0.6664959788322449,
+          -0.05931205675005913,
+          -0.06587283313274384
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -2.09949,
+          11.71011,
+          4.467
+        ],
+        "target": [
+          -1.70824,
+          13.89096,
+          4.23412
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.22427000105381012,
+          7.608170032501221,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.7235717177391052,
+          0.6515061259269714,
+          -0.1525612473487854,
+          -0.16943661868572235
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          0.22427,
+          7.60817,
+          4.467
+        ],
+        "target": [
+          1.58772,
+          10.35981,
+          4.14423
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_MASTER_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          3.9416399002075195,
+          12.059289932250977,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.08047544956207275,
+          0.07246024161577225,
+          0.6651952266693115,
+          0.7387750148773193
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          3.94164,
+          12.05929,
+          4.467
+        ],
+        "target": [
+          3.26138,
+          8.9739,
+          4.13492
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6212464704068452e-10,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.4715999960899353,
+          13.949399948120117,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.6550044417381287,
+          0.6550042629241943,
+          -0.2664005756378174,
+          -0.26640060544013977
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.35491999983787537,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          0.4716,
+          13.9494,
+          4.467
+        ],
+        "target": [
+          1.7292,
+          15.2397,
+          4.467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.35492,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_N_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.7288399934768677,
+          15.266249656677246,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.49332278966903687,
+          0.49332284927368164,
+          -0.5065892934799194,
+          -0.5065891742706299
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          0.72884,
+          15.26625,
+          4.467
+        ],
+        "target": [
+          1.7292,
+          15.2397,
+          4.467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          7.073999881744385,
+          11.469599723815918,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.5272306203842163,
+          0.5272306203842163,
+          0.4711983799934387,
+          0.47119835019111633
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          7.074,
+          11.4696,
+          4.467
+        ],
+        "target": [
+          6.1308,
+          11.5758,
+          4.467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_G_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.357379913330078,
+          10.879130363464355,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.5632560849189758,
+          0.563256025314331,
+          -0.4274841248989105,
+          -0.42748406529426575
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          5.35738,
+          10.87913,
+          4.467
+        ],
+        "target": [
+          6.1046,
+          11.08785,
+          4.467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 8.592605571511314e-09,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          4.535200119018555,
+          8.65530014038086,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.6332383155822754,
+          0.6332383751869202,
+          -0.3146573305130005,
+          -0.31465721130371094
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.4357599914073944,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          4.5352,
+          8.6553,
+          4.467
+        ],
+        "target": [
+          5.56907,
+          9.43875,
+          4.467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.43576,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_BATH_M_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 6.38961772381208e-10,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          6.85181999206543,
+          9.608980178833008,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.19721786677837372,
+          0.19721785187721252,
+          0.6790472269058228,
+          0.679047167301178
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.4429199993610382,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          6.85182,
+          9.60898,
+          4.467
+        ],
+        "target": [
+          6.0784,
+          8.3898,
+          4.467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.44292,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          10.574319839477539,
+          11.735099792480469,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.6188958883285522,
+          0.5572560429573059,
+          0.37040677666664124,
+          0.4113786220550537
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          10.57432,
+          11.7351,
+          4.467
+        ],
+        "target": [
+          6.2618,
+          13.54581,
+          3.9754
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_HALL_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.077070236206055,
+          14.56857967376709,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.49723631143569946,
+          0.4477141797542572,
+          -0.4972809851169586,
+          -0.55228590965271
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          5.07707,
+          14.56858,
+          4.467
+        ],
+        "target": [
+          7.8338,
+          14.27859,
+          4.17566
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          7.571800231933594,
+          7.319630146026611,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.7169613838195801,
+          0.6455549001693726,
+          -0.1760530322790146,
+          -0.19552667438983917
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          7.5718,
+          7.31963,
+          4.467
+        ],
+        "target": [
+          8.57788,
+          9.027,
+          4.25871
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_GUEST_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          10.66864013671875,
+          10.301400184631348,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.15697938203811646,
+          0.14134487509727478,
+          0.65403151512146,
+          0.7263758778572083
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          10.66864,
+          10.3014,
+          4.467
+        ],
+        "target": [
+          9.59968,
+          7.94376,
+          4.19492
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -11.981590270996094,
+          15.154150009155273,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.5327426195144653,
+          0.47968411445617676,
+          -0.46651846170425415,
+          -0.5181206464767456
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          -11.98159,
+          15.15415,
+          4.4670000000000005
+        ],
+        "target": [
+          -8.908,
+          15.2397,
+          4.14383
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_W_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -4.64231014251709,
+          17.09524917602539,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.47214221954345703,
+          0.4251185655593872,
+          0.516730010509491,
+          0.5738868117332458
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          -4.64231,
+          17.09525,
+          4.467
+        ],
+        "target": [
+          -10.19704,
+          16.00434,
+          3.87202
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          4.189089775085449,
+          -1.5484600067138672,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.7429617643356323,
+          0.6689658164978027,
+          -0.014850355684757233,
+          -0.01649298705160618
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          4.18909,
+          -1.54846,
+          4.467
+        ],
+        "target": [
+          4.41732,
+          3.58956,
+          3.92644
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_S_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          4.189089775085449,
+          6.49875020980835,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.01543737854808569,
+          0.013899915851652622,
+          -0.6689866185188293,
+          -0.7429841160774231
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          4.18909,
+          6.49875,
+          4.467
+        ],
+        "target": [
+          4.41732,
+          1.0089,
+          3.8895
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          19.302169799804688,
+          8.330060005187988,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.5842119455337524,
+          0.5260264277458191,
+          0.4135597348213196,
+          0.45930489897727966
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          19.30217,
+          8.33006,
+          4.467
+        ],
+        "target": [
+          16.43264,
+          9.027,
+          4.15663
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_E_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          12.390789985656738,
+          7.772510051727295,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.5415163636207581,
+          0.4875839948654175,
+          -0.45825546979904175,
+          -0.5089437961578369
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          12.39079,
+          7.77251,
+          4.467
+        ],
+        "target": [
+          16.43264,
+          8.02341,
+          4.04137
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          6.328760147094727,
+          21.578510284423828,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.03719344735145569,
+          0.03348913788795471,
+          -0.6682917475700378,
+          -0.742213785648346
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          6.32876,
+          21.57851,
+          4.467
+        ],
+        "target": [
+          6.812,
+          16.76898,
+          3.95895
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_TERRACE_N_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.886270046234131,
+          15.910090446472168,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.7307934761047363,
+          0.6580061316490173,
+          -0.12149588018655777,
+          -0.13493552803993225
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          5.88627,
+          15.91009,
+          4.467
+        ],
+        "target": [
+          6.21464,
+          16.76898,
+          4.37035
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          2.217639923095703,
+          13.821929931640625,
+          6.864349842071533
+        ],
+        "quaternion": [
+          0.6914109587669373,
+          0.14815810322761536,
+          -0.14815811812877655,
+          -0.691411018371582
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          2.21764,
+          13.82193,
+          6.86435
+        ],
+        "target": [
+          3.19079,
+          13.82193,
+          4.69791
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_STAIR_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.470560073852539,
+          14.210619926452637,
+          4.617809772491455
+        ],
+        "quaternion": [
+          0.4606567919254303,
+          0.44051802158355713,
+          0.5325483083724976,
+          0.5568944811820984
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          5.47056,
+          14.21062,
+          4.61781
+        ],
+        "target": [
+          3.43407,
+          13.82193,
+          4.5251
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.6084200143814087,
+          11.655449867248535,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.5437986254692078,
+          0.543798565864563,
+          -0.4519769251346588,
+          -0.4519768953323364
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          0.60842,
+          11.65545,
+          4.467
+        ],
+        "target": [
+          1.4934,
+          11.82006,
+          4.467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.9591799974441528,
+          11.832449913024902,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.3500060737133026,
+          0.35000622272491455,
+          0.6144067645072937,
+          0.6144068241119385
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.95918,
+          11.83245,
+          4.467
+        ],
+        "target": [
+          1.2576,
+          11.416500000000001,
+          4.467
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 6.705522526129215e-10,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          7.71999979019165,
+          9.579999923706055,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.6915557980537415,
+          0.5797984600067139,
+          -0.2767735719680786,
+          -0.3301222324371338
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.029999999329447746,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          7.72,
+          9.58,
+          4.467
+        ],
+        "target": [
+          9.55,
+          11.06,
+          4.05
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.03,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 4.470348362317633e-10,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          10.640000343322754,
+          9.5600004196167,
+          4.4670000076293945
+        ],
+        "quaternion": [
+          0.7645185589790344,
+          0.5656818151473999,
+          0.18382665514945984,
+          0.24844153225421906
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.019999999552965164,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          10.64,
+          9.56,
+          4.467
+        ],
+        "target": [
+          9.55,
+          11.06,
+          3.9
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.02,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -2.4144299030303955,
+          15.956549644470215,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.03676234185695648,
+          0.03310121223330498,
+          -0.6683139204978943,
+          -0.7422327399253845
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -2.41443,
+          15.95655,
+          6.88635
+        ],
+        "target": [
+          -2.3559,
+          15.36714,
+          6.8241
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -0.5522199869155884,
+          11.97404956817627,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.7201682329177856,
+          0.6484426259994507,
+          0.16510045528411865,
+          0.18336255848407745
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -0.55222,
+          11.97405,
+          6.88635
+        ],
+        "target": [
+          -1.703,
+          14.08743,
+          6.63343
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.600000023841858,
+          14.920000076293945,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.9063630700111389,
+          0.27580273151397705,
+          0.09317491948604584,
+          0.3061981201171875
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.6,
+          14.92,
+          6.88635
+        ],
+        "target": [
+          1.15,
+          15.51,
+          5.78
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.6986700296401978,
+          15.177749633789062,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.17413802444934845,
+          0.17413808405399323,
+          -0.6853290796279907,
+          -0.6853291392326355
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          0.69867,
+          15.17775,
+          6.88635
+        ],
+        "target": [
+          1.1528,
+          14.34182,
+          6.88635
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.34452998638153076,
+          13.52869987487793,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.5009642839431763,
+          0.45107075572013855,
+          -0.4942382574081421,
+          -0.5489066243171692
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          0.34453,
+          13.5287,
+          6.88635
+        ],
+        "target": [
+          4.10292,
+          13.18473,
+          6.48968
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_GALLERY_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.471869945526123,
+          13.068499565124512,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.5339930653572083,
+          0.48080974817276,
+          0.4653579592704773,
+          0.5168322324752808
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          5.47187,
+          13.0685,
+          6.88635
+        ],
+        "target": [
+          2.82115,
+          13.1551,
+          6.6076
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          7.100200176239014,
+          13.525750160217285,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.5034964084625244,
+          0.4533524513244629,
+          0.49214816093444824,
+          0.5465831756591797
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          7.1002,
+          13.52575,
+          6.88635
+        ],
+        "target": [
+          6.24608,
+          13.45554,
+          6.79628
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.199999809265137,
+          13.0,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.8125329613685608,
+          0.4340763986110687,
+          -0.18332572281360626,
+          -0.3431611657142639
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          5.2,
+          13.0,
+          6.88635
+        ],
+        "target": [
+          6.3,
+          14.07,
+          5.86
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          9.641599655151367,
+          9.234979629516602,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.629315972328186,
+          0.5666387677192688,
+          0.35588815808296204,
+          0.39525389671325684
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          9.6416,
+          9.23498,
+          6.88635
+        ],
+        "target": [
+          5.2924,
+          11.33154,
+          6.37889
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_TERRACE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.5239999890327454,
+          11.429780006408691,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.49236860871315,
+          0.4433307349681854,
+          -0.5011922717094421,
+          -0.5566304326057434
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          0.524,
+          11.42978,
+          6.88635
+        ],
+        "target": [
+          4.30204,
+          10.96515,
+          6.48627
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.826879978179932,
+          23.99057960510254,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.5010021924972534,
+          0.28253796696662903,
+          -0.4018295407295227,
+          -0.7125321626663208
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          5.82688,
+          23.99058,
+          6.88635
+        ],
+        "target": [
+          9.13634,
+          22.80069,
+          4.75992
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          8.344149589538574,
+          23.9955997467041,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.5222561359405518,
+          0.371417373418808,
+          0.4449036419391632,
+          0.6255864500999451
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          8.34415,
+          23.9956,
+          6.88635
+        ],
+        "target": [
+          5.4496,
+          23.4702,
+          5.86415
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.850000023841858,
+          13.180000305175781,
+          6.886350154876709
+        ],
+        "quaternion": [
+          0.7449327111244202,
+          0.30627256631851196,
+          -0.22537146508693695,
+          -0.5481606125831604
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.85,
+          13.18,
+          6.88635
+        ],
+        "target": [
+          3.84,
+          13.8,
+          4.78
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          3.720400094985962,
+          13.805999755859375,
+          5.827489852905273
+        ],
+        "quaternion": [
+          0.5408912301063538,
+          0.4323342740535736,
+          0.4504601061344147,
+          0.5635684728622437
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          3.7204,
+          13.806,
+          5.82749
+        ],
+        "target": [
+          1.7816,
+          13.72635,
+          5.38915
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          2.9479799270629883,
+          50.79648971557617,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.3134639859199524,
+          0.28224387764930725,
+          0.6066906452178955,
+          0.6737990975379944
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          2.94798,
+          50.79649,
+          10.0002
+        ],
+        "target": [
+          0.45664,
+          48.6984,
+          9.65786
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_THEATER_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -1.9716299772262573,
+          45.97261047363281,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.7038940191268921,
+          0.6337885856628418,
+          -0.21458673477172852,
+          -0.2383228987455368
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -1.97163,
+          45.97261,
+          10.0002
+        ],
+        "target": [
+          0.62483,
+          49.36742,
+          9.55099
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -3.0213799476623535,
+          41.07796096801758,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.6521716713905334,
+          0.5872164964675903,
+          -0.3207979202270508,
+          -0.3562829792499542
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          -3.02138,
+          41.07796,
+          10.0002
+        ],
+        "target": [
+          -1.89279,
+          41.80262,
+          9.85923
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CAR_COURT_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -0.41690999269485474,
+          45.55628967285156,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.19495806097984314,
+          0.17554126679897308,
+          0.6456947922706604,
+          0.7171156406402588
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          -0.41691,
+          45.55629,
+          10.0002
+        ],
+        "target": [
+          -1.92433,
+          42.98882,
+          9.68728
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -3.148979902267456,
+          37.55339050292969,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.6456960439682007,
+          0.5813889503479004,
+          -0.33124616742134094,
+          -0.36788517236709595
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -3.14898,
+          37.55339,
+          10.0002
+        ],
+        "target": [
+          -1.76139,
+          38.37582,
+          9.83067
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_CHAUFFEUR_LOUNGE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.0069700479507446,
+          39.96226119995117,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.391591876745224,
+          0.3525906801223755,
+          0.5686962604522705,
+          0.6316013336181641
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.00697,
+          39.96226,
+          10.0002
+        ],
+        "target": [
+          -2.56661,
+          38.18814,
+          9.58086
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          2.8013999462127686,
+          38.1976318359375,
+          12.352869987487793
+        ],
+        "quaternion": [
+          0.9843873977661133,
+          0.1284596025943756,
+          -0.015570816583931446,
+          -0.11931948363780975
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          2.8014,
+          38.19763,
+          12.35287
+        ],
+        "target": [
+          2.92696,
+          38.70796,
+          10.37353
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          2.3225200176239014,
+          34.38914108276367,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.7598478198051453,
+          0.6491401791572571,
+          0.02294967696070671,
+          0.02686363458633423
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          2.32252,
+          34.38914,
+          10.0002
+        ],
+        "target": [
+          2.05446,
+          38.17549,
+          9.4
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.7881393449270533e-09,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          8.850000381469727,
+          37.45000076293945,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.5418710112571716,
+          0.5418709516525269,
+          0.4542860984802246,
+          0.454286128282547
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.07999999821186066,
+        "exposure": 3.6
+      },
+      "expected": {
+        "location": [
+          8.85,
+          37.45,
+          10.0002
+        ],
+        "target": [
+          4.9,
+          38.15,
+          10.0002
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.08,
+        "exposure": 3.6
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 3.89854939997214e-09,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.466390132904053,
+          37.30033874511719,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.5408340692520142,
+          0.5408343076705933,
+          -0.4555198550224304,
+          -0.4555198848247528
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.2131696492433548,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          5.46639,
+          37.30034,
+          10.0002
+        ],
+        "target": [
+          9.73679,
+          38.03706,
+          10.0002
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.2131696531419042,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          12.076780319213867,
+          39.98495864868164,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.37626704573631287,
+          0.3387931287288666,
+          0.5770233869552612,
+          0.6408481597900391
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          12.07678,
+          39.98496,
+          10.0002
+        ],
+        "target": [
+          11.44168,
+          39.63056,
+          9.92376
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GALLERY_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          9.632740020751953,
+          38.68452835083008,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.6356884837150574,
+          0.5723758935928345,
+          -0.3465849459171295,
+          -0.384922057390213
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          9.63274,
+          38.68453,
+          10.0002
+        ],
+        "target": [
+          11.44168,
+          39.63056,
+          9.78564
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          14.629289627075195,
+          40.391231536865234,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.3345896005630493,
+          0.30126622319221497,
+          -0.5974739789962769,
+          -0.6635611057281494
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          14.62929,
+          40.39123,
+          10.0002
+        ],
+        "target": [
+          16.0144,
+          39.36696,
+          9.81914
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_GUEST_ROOM_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          19.081430435180664,
+          37.6799201965332,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.6043112874031067,
+          0.5441240072250366,
+          0.3894413113594055,
+          0.4325186610221863
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          19.08143,
+          37.67992,
+          10.0002
+        ],
+        "target": [
+          15.92505,
+          38.75541,
+          9.64972
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          16.289520263671875,
+          35.70412063598633,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.383463054895401,
+          0.3452705442905426,
+          0.5731686353683472,
+          0.6365705132484436
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          16.28952,
+          35.70412,
+          10.0002
+        ],
+        "target": [
+          15.40996,
+          35.23898,
+          9.89562
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          8.321749687194824,
+          34.60179138183594,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.5238677859306335,
+          0.5001571178436279,
+          -0.4761311411857605,
+          -0.49870285391807556
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          8.32175,
+          34.60179,
+          10.0002
+        ],
+        "target": [
+          21.25989,
+          35.23898,
+          9.4
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          22.551979064941406,
+          34.479061126708984,
+          10.004300117492676
+        ],
+        "quaternion": [
+          0.5792348980903625,
+          0.4491345286369324,
+          -0.4168449938297272,
+          -0.5375921726226807
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          22.55198,
+          34.47906,
+          10.0043
+        ],
+        "target": [
+          27.99808,
+          34.88576,
+          8.6
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          31.086339950561523,
+          37.45524978637695,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.34605979919433594,
+          0.24586330354213715,
+          0.5243982076644897,
+          0.7381059527397156
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          31.08634,
+          37.45525,
+          10.0002
+        ],
+        "target": [
+          27.99808,
+          34.88576,
+          8.6
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.6129599809646606,
+          40.037681579589844,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.07666146755218506,
+          0.014145814813673496,
+          -0.1809075027704239,
+          -0.9804057478904724
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.61296,
+          40.03768,
+          10.0002
+        ],
+        "target": [
+          1.77064,
+          39.03558,
+          7.345
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_STAIR_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.920639991760254,
+          40.23453903198242,
+          7.640200138092041
+        ],
+        "quaternion": [
+          0.048916272819042206,
+          0.03840425983071327,
+          0.6163283586502075,
+          0.7850297689437866
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.92064,
+          40.23454,
+          7.6402
+        ],
+        "target": [
+          1.77064,
+          39.03558,
+          7.345
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -3.084589958190918,
+          40.34008026123047,
+          12.352869987487793
+        ],
+        "quaternion": [
+          0.31724151968955994,
+          0.28564533591270447,
+          -0.6050968766212463,
+          -0.6720285415649414
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -3.08459,
+          40.34008,
+          12.35287
+        ],
+        "target": [
+          -0.04373,
+          37.83702,
+          11.93891
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_SOUTH_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.7785699963569641,
+          39.53609848022461,
+          12.352879524230957
+        ],
+        "quaternion": [
+          0.49973171949386597,
+          0.4499606490135193,
+          0.4952487349510193,
+          0.5500293970108032
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          0.77857,
+          39.5361,
+          12.35288
+        ],
+        "target": [
+          -1.75088,
+          39.29315,
+          12.0858
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -3.084589958190918,
+          41.03422927856445,
+          12.352869987487793
+        ],
+        "quaternion": [
+          0.6629396080970764,
+          0.5969145894050598,
+          -0.3023732900619507,
+          -0.3358190059661865
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -3.08459,
+          41.03423,
+          12.35287
+        ],
+        "target": [
+          -1.71409,
+          42.03986,
+          12.17421
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_MIDDLE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.7785699963569641,
+          43.52524948120117,
+          12.352879524230957
+        ],
+        "quaternion": [
+          0.43258610367774963,
+          0.3895023763179779,
+          0.5440806746482849,
+          0.60426265001297
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          0.77857,
+          43.52525,
+          12.35288
+        ],
+        "target": [
+          0.17702,
+          43.32043,
+          12.28609
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -3.0320301055908203,
+          45.045658111572266,
+          12.352869987487793
+        ],
+        "quaternion": [
+          0.652624785900116,
+          0.5876275897026062,
+          -0.32004836201667786,
+          -0.35544875264167786
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -3.03203,
+          45.04566,
+          12.35287
+        ],
+        "target": [
+          -1.66153,
+          45.9306,
+          12.18141
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.019029974937439,
+          48.23973846435547,
+          12.352879524230957
+        ],
+        "quaternion": [
+          0.3899444043636322,
+          0.35110756754875183,
+          0.5696133971214294,
+          0.6326195001602173
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.01903,
+          48.23974,
+          12.35288
+        ],
+        "target": [
+          -1.53644,
+          46.95442,
+          12.05223
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 3.910064494405674e-10,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.8284599781036377,
+          47.891780853271484,
+          12.3618803024292
+        ],
+        "quaternion": [
+          0.10232745110988617,
+          0.10232739895582199,
+          -0.6996635794639587,
+          -0.6996635794639587
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.26534000039100647,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.82846,
+          47.89178,
+          12.36188
+        ],
+        "target": [
+          2.42764,
+          45.88715,
+          12.36188
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.26534,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.0919570914147414e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          3.0058000087738037,
+          45.614280700683594,
+          12.3618803024292
+        ],
+        "quaternion": [
+          0.7014672160148621,
+          0.7014672160148621,
+          0.08912768214941025,
+          0.08912765979766846
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.3910500109195709,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          3.0058,
+          45.61428,
+          12.36188
+        ],
+        "target": [
+          2.42478,
+          47.86379,
+          12.36188
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.39105,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          3.116179943084717,
+          44.48080062866211,
+          12.352869987487793
+        ],
+        "quaternion": [
+          0.27413323521614075,
+          0.2468305230140686,
+          0.6219407320022583,
+          0.690735399723053
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          3.11618,
+          44.4808,
+          12.35287
+        ],
+        "target": [
+          2.12279,
+          43.4264,
+          12.20061
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.9195599555969238,
+          40.80221939086914,
+          12.352879524230957
+        ],
+        "quaternion": [
+          0.734675943851471,
+          0.6615046262741089,
+          -0.10073235630989075,
+          -0.11187471449375153
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          1.91956,
+          40.80222,
+          12.35288
+        ],
+        "target": [
+          2.73774,
+          43.4264,
+          12.06397
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          0.19931000471115112,
+          54.30162048339844,
+          12.352879524230957
+        ],
+        "quaternion": [
+          0.058744706213474274,
+          0.052894096821546555,
+          -0.6670371294021606,
+          -0.740818977355957
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          0.19931,
+          54.30162,
+          12.35288
+        ],
+        "target": [
+          0.88238,
+          50.02167,
+          11.89735
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_TERRACE_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          2.6630699634552,
+          49.206119537353516,
+          12.352879524230957
+        ],
+        "quaternion": [
+          0.6684715747833252,
+          0.6018958687782288,
+          0.2923324406147003,
+          0.3246673345565796
+        ],
+        "lens": 32.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 0.8
+      },
+      "expected": {
+        "location": [
+          2.66307,
+          49.20612,
+          12.35288
+        ],
+        "target": [
+          0.88238,
+          50.60686,
+          12.11476
+        ],
+        "lens": 32,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 0.8
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -2.8255701065063477,
+          16.326919555664062,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.21103277802467346,
+          0.19001509249210358,
+          -0.6415846943855286,
+          -0.712550699710846
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -2.82557,
+          16.32692,
+          1.7222
+        ],
+        "target": [
+          -1.26808,
+          13.92813,
+          1.4216
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -1.1810200214385986,
+          11.500129699707031,
+          1.7222000360488892
+        ],
+        "quaternion": [
+          0.7415517568588257,
+          0.6676963567733765,
+          0.043788861483335495,
+          0.048632457852363586
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -1.18102,
+          11.50013,
+          1.7222
+        ],
+        "target": [
+          -1.39384,
+          13.1157,
+          1.55093
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 6.232261651195614e-09,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          2.9681899547576904,
+          41.70246124267578,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.5465400815010071,
+          0.5465402007102966,
+          -0.4486578702926636,
+          -0.4486578106880188
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.15640999376773834,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          2.96819,
+          41.70246,
+          10.0002
+        ],
+        "target": [
+          5.51079,
+          42.2075,
+          10.0002
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.15641,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 7.450580569168253e-10,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          5.820000171661377,
+          41.380001068115234,
+          10.000200271606445
+        ],
+        "quaternion": [
+          0.684364914894104,
+          0.539664089679718,
+          0.3036036491394043,
+          0.3850092887878418
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.05000000074505806,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          5.82,
+          41.38,
+          10.0002
+        ],
+        "target": [
+          4.75,
+          42.03,
+          9.7
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.05,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 7.8010559123598e-09,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          11.825369834899902,
+          36.585960388183594,
+          10.009200096130371
+        ],
+        "quaternion": [
+          0.7010852694511414,
+          0.7010852098464966,
+          -0.09208409488201141,
+          -0.09208408743143082
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.4165700078010559,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          11.82537,
+          36.58596,
+          10.0092
+        ],
+        "target": [
+          12.16951,
+          37.87342,
+          10.0092
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.41657,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_BATH_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.1367797869699103e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          14.101289749145508,
+          38.560340881347656,
+          10.009200096130371
+        ],
+        "quaternion": [
+          0.16100773215293884,
+          0.161007821559906,
+          0.6885321140289307,
+          0.6885321736335754
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.42083001136779785,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          14.10129,
+          38.56034,
+          10.0092
+        ],
+        "target": [
+          13.24811,
+          36.83583,
+          10.0092
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.42083,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          1.0456500053405762,
+          40.18655014038086,
+          7.640200138092041
+        ],
+        "quaternion": [
+          0.3848460912704468,
+          0.3465174734592438,
+          0.5724177956581116,
+          0.6357334852218628
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 4.5
+      },
+      "expected": {
+        "location": [
+          1.04565,
+          40.18655,
+          7.6402
+        ],
+        "target": [
+          -1.20923,
+          39.00662,
+          7.37272
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 4.5
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -1.4840699434280396,
+          37.60253143310547,
+          7.640200138092041
+        ],
+        "quaternion": [
+          0.7313075661659241,
+          0.6584736108779907,
+          -0.11895086616277695,
+          -0.13210803270339966
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "exposure": 4.5
+      },
+      "expected": {
+        "location": [
+          -1.48407,
+          37.60253,
+          7.6402
+        ],
+        "target": [
+          -0.809,
+          39.41004,
+          7.43741
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": 0,
+        "exposure": 4.5
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_A",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 8.296966447218779e-10,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -3.213979959487915,
+          39.06092071533203,
+          7.649199962615967
+        ],
+        "quaternion": [
+          0.12368018180131912,
+          0.1236802190542221,
+          -0.696206271648407,
+          -0.6962063312530518
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.35311999917030334,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -3.21398,
+          39.06092,
+          7.6492
+        ],
+        "target": [
+          -2.6725,
+          37.585,
+          7.6492
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.35312,
+        "exposure": 3.0
+      }
+    },
+    {
+      "camera": "CAM_GUEST_B1_BATH_B",
+      "status": "SAVED_SETTINGS_MATCH",
+      "errors": {
+        "position_m": 0.0,
+        "rotation_radians": 0.0,
+        "lens_mm": 0.0,
+        "shift_x": 0.0,
+        "shift_y": 1.6689300497141346e-08,
+        "exposure_ev": 0.0
+      },
+      "actual": {
+        "location": [
+          -2.1310200691223145,
+          37.640350341796875,
+          7.649199962615967
+        ],
+        "quaternion": [
+          0.6949740052223206,
+          0.6949740648269653,
+          0.13042668998241425,
+          0.13042668998241425
+        ],
+        "lens": 28.0,
+        "shift_x": 0.0,
+        "shift_y": -0.5799999833106995,
+        "exposure": 3.0
+      },
+      "expected": {
+        "location": [
+          -2.13102,
+          37.64035,
+          7.6492
+        ],
+        "target": [
+          -2.67536,
+          39.03952,
+          7.6492
+        ],
+        "lens": 28,
+        "shift_x": 0,
+        "shift_y": -0.58,
+        "exposure": 3.0
+      }
+    }
+  ]
+}

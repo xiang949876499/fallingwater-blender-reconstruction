@@ -1,0 +1,55 @@
+{
+  "candidate_sha256": "7286427d1f47ae9219204ed5dd54a970387683c8b384d1b4259244a7b991d852",
+  "attempt": "04",
+  "local_counts": {
+    "PASS": 8,
+    "FAIL": 0,
+    "NOT_RUN": 0
+  },
+  "adapter_sha256": "b416bfe8618204b1886198d52a73fe35f16b9c06f6817ef5f40f5b558c55bc0f",
+  "production_files_unchanged": {
+    "data/main_house.json": true,
+    "data/guest_house.json": true,
+    "config.json": true,
+    "adjacency.csv": true,
+    "data/tour-route.json": true,
+    "data/camera-settings-reviewed.json": true,
+    "scripts/tour.py": true,
+    "scripts/main_house.py": true,
+    "scripts/guest_house.py": true,
+    "scripts/furnishings.py": true,
+    "scripts/guest_circulation10.py": true,
+    "scripts/guest_circulation10_routes.py": true
+  },
+  "full_run": true,
+  "checked_scene_saved": true,
+  "accepted_for_delivery": false,
+  "limits": {
+    "global_legacy_body_column_top_m": 1.71,
+    "global_legacy_ground_tolerance_m": 0.19,
+    "global_body_radius_m": 0.18,
+    "changed_geometry_local_headroom_screen_m": 1.95,
+    "local_body_evidence": "qa/guest-circulation10-final-audit.json; no imported navigation PASS",
+    "camera_and_global_navigation_not_equal_to_local_construction_screen": true
+  },
+  "counts": {
+    "PASS": 60,
+    "FAIL": 0,
+    "NOT_RUN": 0
+  },
+  "normal_walk_pass": 52,
+  "inspection_pass": 8,
+  "graph_pass": true,
+  "frame_count": 7584,
+  "frame_geometry_failures": 0,
+  "frame_pass": true,
+  "camera_status": "PASS_CAMERA_VALUES_AND_COVERAGE",
+  "failed_edges": [],
+  "full_status": "PASS_CANDIDATE_GEOMETRY_ONLY",
+  "candidate_tour_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_guest_circulation10_navigation_attempt04.blend",
+  "candidate_tour_sha256": "7c3e2dc6819268185a7b956bdd49445f509088107128fa1a3d63d0ddeb56c094",
+  "independent_reopen": "PASS_INDEPENDENT_SAVED_INTEGER_FRAMES",
+  "source_scene_unchanged": true,
+  "saved_room_camera_changes": [],
+  "independent_reopen_evidence": "qa/guest-circulation10-navigation-reopen-result-attempt04.json"
+}

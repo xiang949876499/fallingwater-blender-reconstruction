@@ -1,0 +1,806 @@
+{
+  "schema_version": 1,
+  "building": "MAIN",
+  "scene": "D:\\zx\\test\\project\\qa\\main-geometry-smoke.blend",
+  "scene_sha256": "573d19c2fec8379581880ddf28ed07920e150f05c2f8d13a280ab79060c54ef1",
+  "scene_scope": "Latest main-house-only CPU build. Integration scene not measured by this script.",
+  "method": "Independent evaluated Blender mesh world vertices. Neither model_m nor reference_m is used to generate measured coordinates.",
+  "correspondence_rule": "Only dimension lines with identified physical faces or section slab planes receive PASS/FAIL. Nominal room bounding spans remain diagnostic NOT_RUN.",
+  "precision_limit": "Actual mesh arithmetic verifies this reconstruction; it does not upgrade traced C geometry to surveyed evidence.",
+  "counts": {
+    "NOT_RUN": 16,
+    "PASS": 5
+  },
+  "measurements": [
+    {
+      "id": "MAIN_CHAIN_TOTAL",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "120 ft 4.25 in",
+      "reference_m": 36.68395,
+      "source_axis": "x",
+      "source_pixels": [
+        227,
+        927
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.1,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.1,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "The chain reaches the far bridge/retaining edge outside the main-house module; its westmost extension is an outside paving/rock station with no named matching main mesh."
+    },
+    {
+      "id": "MAIN_CHAIN_01",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "9 ft 7.25 in",
+      "reference_m": 2.92735,
+      "source_axis": "x",
+      "source_pixels": [
+        227,
+        284
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.1,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.1,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "The west pair of dimension extension lines refer to exterior paving/retaining stations; these are not explicit named main-house mesh boundaries."
+    },
+    {
+      "id": "MAIN_CHAIN_02",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "7 ft 8.5 in",
+      "reference_m": 2.3495,
+      "source_axis": "x",
+      "source_pixels": [
+        284,
+        328
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.07,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.07,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "The west extension station at source x=284 has no unambiguous named main-house boundary; cannot independently pair it with the spine face."
+    },
+    {
+      "id": "MAIN_CHAIN_03",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "11 ft",
+      "reference_m": 3.3528000000000002,
+      "source_axis": "x",
+      "source_pixels": [
+        328,
+        393
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.08,
+      "actual_mesh_m": 3.405999906361103,
+      "delta_m": 0.05319990636110283,
+      "tolerance_m": 0.08,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_north_spine_1",
+          "axis": "X",
+          "boundary": "max",
+          "world_coordinate_m": 0.06780003756284714,
+          "evaluated_vertex_count": 56,
+          "vertex_ids": [
+            14,
+            22,
+            42,
+            51
+          ],
+          "representative_vertex_world_m": [
+            0.06779996305704117,
+            15.140501022338867,
+            0.10699999332427979
+          ]
+        },
+        {
+          "object": "MAIN_L1_north_spine_3",
+          "axis": "X",
+          "boundary": "max",
+          "world_coordinate_m": 3.47379994392395,
+          "evaluated_vertex_count": 56,
+          "vertex_ids": [
+            14,
+            22,
+            42,
+            51
+          ],
+          "representative_vertex_world_m": [
+            3.47379994392395,
+            14.184700012207031,
+            0.10699999332427979
+          ]
+        }
+      ],
+      "status": "PASS",
+      "correspondence": "East outer faces of the two successive north masonry returns, matching the x=328 and x=393 extension stations on sheet 04. Evaluated outer-face vertices measured independently; scan registration remains C."
+    },
+    {
+      "id": "MAIN_CHAIN_04",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "24 ft 6 in",
+      "reference_m": 7.467600000000001,
+      "source_axis": "x",
+      "source_pixels": [
+        393,
+        535
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.09,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.09,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "The east extension at source x=535 meets the loggia/entry terrace transition; the exact referenced face versus paving station is not established in the current main mesh."
+    },
+    {
+      "id": "MAIN_CHAIN_05",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "11 ft 8 in",
+      "reference_m": 3.556,
+      "source_axis": "x",
+      "source_pixels": [
+        535,
+        602
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.08,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.08,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "The two loggia/paving extension stations are not independently mapped to modeled outer faces; the traced floor boundary alone cannot certify the label."
+    },
+    {
+      "id": "MAIN_CHAIN_06",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "17 ft 9 in",
+      "reference_m": 5.410200000000001,
+      "source_axis": "x",
+      "source_pixels": [
+        602,
+        705
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.08,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.08,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "The dimension crosses the loggia/stair/retaining transition; top landing, retaining wall and paving have different physical ends and the label-to-face match is unresolved."
+    },
+    {
+      "id": "MAIN_CHAIN_07",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "13 ft 9 in",
+      "reference_m": 4.191,
+      "source_axis": "x",
+      "source_pixels": [
+        705,
+        786
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.09,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.09,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "This span includes the bridge approach, built by the site module; main-only scene lacks the east surveyed station."
+    },
+    {
+      "id": "MAIN_CHAIN_08",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "22 ft 5.5 in",
+      "reference_m": 6.845300000000001,
+      "source_axis": "x",
+      "source_pixels": [
+        786,
+        916
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.09,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.09,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "This bridge/site span is outside the main-house module; no actual main mesh can supply both ends."
+    },
+    {
+      "id": "MAIN_CHAIN_09",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "1 ft 11 in",
+      "reference_m": 0.5842,
+      "source_axis": "x",
+      "source_pixels": [
+        916,
+        927
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.07,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.07,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "The final bridge/retaining-edge span is outside the main-house module."
+    },
+    {
+      "id": "MAIN_VERTICAL_TOTAL",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "54 ft 9.75 in",
+      "reference_m": 16.70685,
+      "source_axis": "y",
+      "source_pixels": [
+        229,
+        544
+      ],
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.1,
+      "actual_mesh_m": null,
+      "delta_m": null,
+      "tolerance_m": 0.1,
+      "endpoints": [],
+      "status": "NOT_RUN",
+      "not_run_reason": "South parapet exterior is modeled, but the north source y=229 extension face at the servant/service entry is not resolved between open entry paving, room floor and wall; do not substitute nearest vertices."
+    },
+    {
+      "id": "MAIN_LIVING_NOMINAL_LENGTH",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "48 ft",
+      "reference_m": 14.630400000000002,
+      "source_axis": "nominal",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.15,
+      "actual_mesh_m": 14.761799663305283,
+      "delta_m": 0.13139966330528097,
+      "tolerance_m": 0.15,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_LIVING_slab",
+          "axis": "Y",
+          "boundary": "min",
+          "world_coordinate_m": 0.15929999947547913,
+          "evaluated_vertex_count": 34,
+          "vertex_ids": [
+            6,
+            7,
+            23,
+            24
+          ],
+          "representative_vertex_world_m": [
+            0.052400000393390656,
+            0.15929999947547913,
+            -0.11999999731779099
+          ]
+        },
+        {
+          "object": "MAIN_L1_LIVING_slab",
+          "axis": "Y",
+          "boundary": "max",
+          "world_coordinate_m": 14.921099662780762,
+          "evaluated_vertex_count": 34,
+          "vertex_ids": [
+            15,
+            16,
+            32,
+            33
+          ],
+          "representative_vertex_world_m": [
+            3.0392000675201416,
+            14.921099662780762,
+            -0.11999999731779099
+          ]
+        }
+      ],
+      "status": "NOT_RUN",
+      "correspondence": "Actual complete floor-mesh bounding span, including stepped recesses; nominal label semantics unresolved.",
+      "not_run_reason": "Actual mesh bounding span is diagnostic only. The original label has no extension lines resolving which stepped wall, cabinet recess or net/gross boundary it measures. No claim of label-to-mesh conformity is made from a bounding box."
+    },
+    {
+      "id": "MAIN_LIVING_NOMINAL_WIDTH",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "33 ft 8 in",
+      "reference_m": 10.261600000000001,
+      "source_axis": "nominal",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.15,
+      "actual_mesh_m": 11.213600158691406,
+      "delta_m": 0.9520001586914049,
+      "tolerance_m": 0.15,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_LIVING_slab",
+          "axis": "X",
+          "boundary": "min",
+          "world_coordinate_m": -0.6812000274658203,
+          "evaluated_vertex_count": 34,
+          "vertex_ids": [
+            3,
+            4,
+            20,
+            21
+          ],
+          "representative_vertex_world_m": [
+            -0.6812000274658203,
+            8.496000289916992,
+            -0.11999999731779099
+          ]
+        },
+        {
+          "object": "MAIN_L1_LIVING_slab",
+          "axis": "X",
+          "boundary": "max",
+          "world_coordinate_m": 10.532400131225586,
+          "evaluated_vertex_count": 34,
+          "vertex_ids": [
+            9,
+            10,
+            26,
+            27
+          ],
+          "representative_vertex_world_m": [
+            10.532400131225586,
+            4.7789998054504395,
+            -0.11999999731779099
+          ]
+        }
+      ],
+      "status": "NOT_RUN",
+      "correspondence": "Actual complete floor-mesh bounding span, including stepped recesses; nominal label semantics unresolved.",
+      "not_run_reason": "Actual mesh bounding span is diagnostic only. The original label has no extension lines resolving which stepped wall, cabinet recess or net/gross boundary it measures. No claim of label-to-mesh conformity is made from a bounding box."
+    },
+    {
+      "id": "MAIN_KITCHEN_NOMINAL_LENGTH",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "15 ft 9 in",
+      "reference_m": 4.8006,
+      "source_axis": "nominal",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.1,
+      "actual_mesh_m": 4.672800064086914,
+      "delta_m": -0.12779993591308614,
+      "tolerance_m": 0.1,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_KITCHEN_slab",
+          "axis": "Y",
+          "boundary": "min",
+          "world_coordinate_m": 11.788200378417969,
+          "evaluated_vertex_count": 12,
+          "vertex_ids": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "representative_vertex_world_m": [
+            -3.5107998847961426,
+            11.788200378417969,
+            -0.11999999731779099
+          ]
+        },
+        {
+          "object": "MAIN_L1_KITCHEN_slab",
+          "axis": "Y",
+          "boundary": "max",
+          "world_coordinate_m": 16.461000442504883,
+          "evaluated_vertex_count": 12,
+          "vertex_ids": [
+            4,
+            5,
+            10,
+            11
+          ],
+          "representative_vertex_world_m": [
+            -0.3668000102043152,
+            16.461000442504883,
+            -0.11999999731779099
+          ]
+        }
+      ],
+      "status": "NOT_RUN",
+      "correspondence": "Actual complete floor-mesh bounding span, including stepped recesses; nominal label semantics unresolved.",
+      "not_run_reason": "Actual mesh bounding span is diagnostic only. The original label has no extension lines resolving which stepped wall, cabinet recess or net/gross boundary it measures. No claim of label-to-mesh conformity is made from a bounding box."
+    },
+    {
+      "id": "MAIN_KITCHEN_NOMINAL_WIDTH",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "12 ft",
+      "reference_m": 3.6576000000000004,
+      "source_axis": "nominal",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.1,
+      "actual_mesh_m": 3.615599885582924,
+      "delta_m": -0.04200011441707652,
+      "tolerance_m": 0.1,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_KITCHEN_slab",
+          "axis": "X",
+          "boundary": "min",
+          "world_coordinate_m": -3.5107998847961426,
+          "evaluated_vertex_count": 12,
+          "vertex_ids": [
+            0,
+            5,
+            6,
+            11
+          ],
+          "representative_vertex_world_m": [
+            -3.5107998847961426,
+            11.788200378417969,
+            -0.11999999731779099
+          ]
+        },
+        {
+          "object": "MAIN_L1_KITCHEN_slab",
+          "axis": "X",
+          "boundary": "max",
+          "world_coordinate_m": 0.10480000078678131,
+          "evaluated_vertex_count": 12,
+          "vertex_ids": [
+            1,
+            2,
+            7,
+            8
+          ],
+          "representative_vertex_world_m": [
+            0.10480000078678131,
+            11.788200378417969,
+            -0.11999999731779099
+          ]
+        }
+      ],
+      "status": "NOT_RUN",
+      "correspondence": "Actual complete floor-mesh bounding span, including stepped recesses; nominal label semantics unresolved.",
+      "not_run_reason": "Actual mesh bounding span is diagnostic only. The original label has no extension lines resolving which stepped wall, cabinet recess or net/gross boundary it measures. No claim of label-to-mesh conformity is made from a bounding box."
+    },
+    {
+      "id": "MAIN_SERVANT_NOMINAL_LENGTH",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "11 ft 5 in",
+      "reference_m": 3.4798,
+      "source_axis": "nominal",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.1,
+      "actual_mesh_m": 2.881999969482422,
+      "delta_m": -0.5978000305175781,
+      "tolerance_m": 0.1,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_SERVANT_slab",
+          "axis": "X",
+          "boundary": "min",
+          "world_coordinate_m": -7.545599937438965,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            0,
+            4
+          ],
+          "representative_vertex_world_m": [
+            -7.545599937438965,
+            14.39009952545166,
+            -0.11999999731779099
+          ]
+        },
+        {
+          "object": "MAIN_L1_SERVANT_slab",
+          "axis": "X",
+          "boundary": "max",
+          "world_coordinate_m": -4.663599967956543,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "representative_vertex_world_m": [
+            -4.663599967956543,
+            14.39009952545166,
+            -0.11999999731779099
+          ]
+        }
+      ],
+      "status": "NOT_RUN",
+      "correspondence": "Actual complete floor-mesh bounding span, including stepped recesses; nominal label semantics unresolved.",
+      "not_run_reason": "Actual mesh bounding span is diagnostic only. The original label has no extension lines resolving which stepped wall, cabinet recess or net/gross boundary it measures. No claim of label-to-mesh conformity is made from a bounding box."
+    },
+    {
+      "id": "MAIN_SERVANT_NOMINAL_WIDTH",
+      "source": "HABS PA-5346 sheet 04",
+      "source_label": "9 ft 4 in",
+      "reference_m": 2.8448,
+      "source_axis": "nominal",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.1,
+      "actual_mesh_m": 2.0709009170532227,
+      "delta_m": -0.7738990829467776,
+      "tolerance_m": 0.1,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_SERVANT_slab",
+          "axis": "Y",
+          "boundary": "min",
+          "world_coordinate_m": 14.39009952545166,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "representative_vertex_world_m": [
+            -7.545599937438965,
+            14.39009952545166,
+            -0.11999999731779099
+          ]
+        },
+        {
+          "object": "MAIN_L1_SERVANT_slab",
+          "axis": "Y",
+          "boundary": "max",
+          "world_coordinate_m": 16.461000442504883,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            2,
+            3,
+            6,
+            7
+          ],
+          "representative_vertex_world_m": [
+            -4.663599967956543,
+            16.461000442504883,
+            -0.11999999731779099
+          ]
+        }
+      ],
+      "status": "NOT_RUN",
+      "correspondence": "Actual complete floor-mesh bounding span, including stepped recesses; nominal label semantics unresolved.",
+      "not_run_reason": "Actual mesh bounding span is diagnostic only. The original label has no extension lines resolving which stepped wall, cabinet recess or net/gross boundary it measures. No claim of label-to-mesh conformity is made from a bounding box."
+    },
+    {
+      "id": "MAIN_LEVEL_2",
+      "source": "HABS PA-5346 sheet 10",
+      "source_label": "9 ft 4 in",
+      "reference_m": 2.8448,
+      "source_axis": "z",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.025,
+      "actual_mesh_m": 2.8447999954223633,
+      "delta_m": -4.577636936176077e-09,
+      "tolerance_m": 0.025,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_TERRACE_W_slab",
+          "axis": "Z",
+          "boundary": "max",
+          "world_coordinate_m": 0.0,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "representative_vertex_world_m": [
+            -4.611199855804443,
+            0.10620000213384628,
+            0.0
+          ]
+        },
+        {
+          "object": "MAIN_L2_TERRACE_S_slab",
+          "axis": "Z",
+          "boundary": "max",
+          "world_coordinate_m": 2.8447999954223633,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "representative_vertex_world_m": [
+            -0.2619999945163727,
+            -1.9646999835968018,
+            2.8447999954223633
+          ]
+        }
+      ],
+      "status": "PASS",
+      "correspondence": "Actual slab top Z relative to actual main-level west-terrace slab top. Separate interior finish is excluded."
+    },
+    {
+      "id": "MAIN_LEVEL_3",
+      "source": "HABS PA-5346 sheet 10",
+      "source_label": "17 ft 3.25 in",
+      "reference_m": 5.264150000000001,
+      "source_axis": "z",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.025,
+      "actual_mesh_m": 5.264150142669678,
+      "delta_m": 1.426696769613045e-07,
+      "tolerance_m": 0.025,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_TERRACE_W_slab",
+          "axis": "Z",
+          "boundary": "max",
+          "world_coordinate_m": 0.0,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "representative_vertex_world_m": [
+            -4.611199855804443,
+            0.10620000213384628,
+            0.0
+          ]
+        },
+        {
+          "object": "MAIN_L3_TERRACE_slab",
+          "axis": "Z",
+          "boundary": "max",
+          "world_coordinate_m": 5.264150142669678,
+          "evaluated_vertex_count": 20,
+          "vertex_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "representative_vertex_world_m": [
+            0.3668000102043152,
+            8.549099922180176,
+            5.264150142669678
+          ]
+        }
+      ],
+      "status": "PASS",
+      "correspondence": "Actual slab top Z relative to actual main-level west-terrace slab top. Separate interior finish is excluded."
+    },
+    {
+      "id": "MAIN_ROOF_EAST",
+      "source": "HABS PA-5346 sheet 10",
+      "source_label": "24 ft 7.375 in",
+      "reference_m": 7.502525000000001,
+      "source_axis": "z",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.035,
+      "actual_mesh_m": 7.5025248527526855,
+      "delta_m": -1.4724731567383742e-07,
+      "tolerance_m": 0.035,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_TERRACE_W_slab",
+          "axis": "Z",
+          "boundary": "max",
+          "world_coordinate_m": 0.0,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "representative_vertex_world_m": [
+            -4.611199855804443,
+            0.10620000213384628,
+            0.0
+          ]
+        },
+        {
+          "object": "MAIN_L3_gallery_roof",
+          "axis": "Z",
+          "boundary": "max",
+          "world_coordinate_m": 7.5025248527526855,
+          "evaluated_vertex_count": 304,
+          "vertex_ids": [
+            154,
+            173,
+            192,
+            211,
+            230,
+            249,
+            268,
+            286
+          ],
+          "representative_vertex_world_m": [
+            0.3160560131072998,
+            13.489300727844238,
+            7.5025248527526855
+          ]
+        }
+      ],
+      "status": "PASS",
+      "correspondence": "Actual slab top Z relative to actual main-level west-terrace slab top. Separate interior finish is excluded."
+    },
+    {
+      "id": "MAIN_ROOF_WEST",
+      "source": "HABS PA-5346 sheet 10",
+      "source_label": "24 ft 11.75 in",
+      "reference_m": 7.613650000000001,
+      "source_axis": "z",
+      "source_pixels": null,
+      "label_evidence": "A",
+      "source_trace_uncertainty_m": 0.035,
+      "actual_mesh_m": 7.613649845123291,
+      "delta_m": -1.548767096792858e-07,
+      "tolerance_m": 0.035,
+      "endpoints": [
+        {
+          "object": "MAIN_L1_TERRACE_W_slab",
+          "axis": "Z",
+          "boundary": "max",
+          "world_coordinate_m": 0.0,
+          "evaluated_vertex_count": 8,
+          "vertex_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "representative_vertex_world_m": [
+            -4.611199855804443,
+            0.10620000213384628,
+            0.0
+          ]
+        },
+        {
+          "object": "MAIN_L3_study_roof",
+          "axis": "Z",
+          "boundary": "max",
+          "world_coordinate_m": 7.613649845123291,
+          "evaluated_vertex_count": 152,
+          "vertex_ids": [
+            78,
+            97,
+            116,
+            134
+          ],
+          "representative_vertex_world_m": [
+            -4.451400279998779,
+            10.940500259399414,
+            7.613649845123291
+          ]
+        }
+      ],
+      "status": "PASS",
+      "correspondence": "Actual slab top Z relative to actual main-level west-terrace slab top. Separate interior finish is excluded."
+    }
+  ]
+}

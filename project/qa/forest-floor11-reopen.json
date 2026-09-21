@@ -1,0 +1,24 @@
+{
+  "status": "PASS_FRESH_REOPEN_MATERIAL_SLOT_AND_DEPENDENCIES",
+  "candidate_sha256": "5bc4e480237bfa202b205370aea647e4501797ec46e8e335b5106f4ca9fc1d27",
+  "full_snapshot_equal_after_explicit_save_normalization": true,
+  "serialization_differences": {
+    "new_image_path_slashes": [
+      "FLOOR11_forrest_ground_01_diff",
+      "FLOOR11_forrest_ground_01_disp",
+      "FLOOR11_forrest_ground_01_rough",
+      "FLOOR11_leaves_forest_ground_diff",
+      "FLOOR11_leaves_forest_ground_disp",
+      "FLOOR11_leaves_forest_ground_rough"
+    ],
+    "unreferenced_source_material_not_saved": "FW_Continuous_Forest_Floor",
+    "source_material_referenced_only_by": [
+      "SITE_Continuous_BearRun_Terrain"
+    ],
+    "original_material_preserved_in_frozen_source_sha256": "2a7630b8024c37bd768e563236807f8049469172c7e44b03379a450f91637063"
+  },
+  "shader_equal": true,
+  "image_files_unchanged": true,
+  "rendered": false,
+  "saved": false
+}

@@ -1,0 +1,39 @@
+{
+  "variant": "sun_shadows_off",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_preview_iteration05.blend",
+  "source_sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+  "camera": "CAM_MAIN_L1_LIVING_B",
+  "location": [
+    5.1008100509643555,
+    9.616080284118652,
+    1.7222000360488892
+  ],
+  "rotation": [
+    1.4660776853561401,
+    4.249013940693658e-08,
+    1.5053647756576538
+  ],
+  "exposure": 0.8,
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "status": "RENDERED",
+  "production_saved": false,
+  "gi_rebaked": false,
+  "geometry_and_materials_unchanged": true,
+  "changes": [
+    {
+      "object": "FW_LIGHT_PhysicalSun",
+      "property": "use_shadow",
+      "before": true,
+      "after": false
+    }
+  ],
+  "seconds": 71.39503820000027,
+  "path": "D:\\zx\\test\\project\\qa\\eevee-iteration05-living-sun_shadows_off.png",
+  "sha256": "5c03b5e5728023a8a05f100226ad48fbc67ce22ed33fcdb7631598fd45f515a8",
+  "visual_acceptance": "FAIL: broad wall band remains despite brighter furnishings",
+  "viewed_native": true
+}

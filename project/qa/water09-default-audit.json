@@ -1,0 +1,3734 @@
+{
+  "status": "FACTORY_DEFAULT_COMPARISON_ONLY_NO_SIMULATION",
+  "blender": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "file": "D:\\zx\\test\\project\\scene\\Fallingwater_water08_static_head24.blend",
+  "file_sha256_before": "c108949a959351a2f0219a1f457b235b34903d9efb50dade5ab533a525d7ef2e",
+  "file_sha256_after": "c108949a959351a2f0219a1f457b235b34903d9efb50dade5ab533a525d7ef2e",
+  "factory": {
+    "scene": {
+      "fps": 24,
+      "fps_base": 1.0,
+      "use_gravity": true,
+      "gravity": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "unit_scale_length": 1.0,
+      "unit_system": "METRIC",
+      "frame_range": [
+        1,
+        250
+      ]
+    },
+    "domain": {
+      "properties": {
+        "effector_group": null,
+        "fluid_group": null,
+        "force_collection": null,
+        "additional_res": 0,
+        "adapt_margin": 4,
+        "adapt_threshold": 0.0020000000949949026,
+        "use_adaptive_domain": false,
+        "resolution_max": 32,
+        "use_collision_border_front": true,
+        "use_collision_border_back": true,
+        "use_collision_border_right": true,
+        "use_collision_border_left": true,
+        "use_collision_border_top": true,
+        "use_collision_border_bottom": true,
+        "gravity": [
+          0.0,
+          0.0,
+          -9.8100004196167
+        ],
+        "domain_type": "LIQUID",
+        "delete_in_obstacle": false,
+        "alpha": 1.0,
+        "beta": 1.0,
+        "dissolve_speed": 5,
+        "vorticity": 0.0,
+        "highres_sampling": "FULLSAMPLE",
+        "use_dissolve_smoke": false,
+        "use_dissolve_smoke_log": true,
+        "burning_rate": 0.75,
+        "flame_smoke": 1.0,
+        "flame_vorticity": 0.5,
+        "flame_ignition": 1.5,
+        "flame_max_temp": 3.0,
+        "flame_smoke_color": [
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "noise_strength": 1.0,
+        "noise_pos_scale": 2.0,
+        "noise_time_anim": 0.10000000149011612,
+        "noise_scale": 2,
+        "use_noise": false,
+        "simulation_method": "FLIP",
+        "flip_ratio": 0.9700000286102295,
+        "particle_randomness": 0.10000000149011612,
+        "particle_number": 2,
+        "particle_min": 8,
+        "particle_max": 16,
+        "particle_radius": 1.0,
+        "particle_band_width": 3.0,
+        "use_flip_particles": true,
+        "use_fractions": false,
+        "fractions_threshold": 0.05000000074505806,
+        "fractions_distance": 0.5,
+        "sys_particle_maximum": 0,
+        "use_viscosity": false,
+        "viscosity_value": 0.05000000074505806,
+        "use_diffusion": false,
+        "surface_tension": 0.0,
+        "viscosity_base": 1.0,
+        "viscosity_exponent": 6,
+        "mesh_concave_upper": 3.5,
+        "mesh_concave_lower": 0.4000000059604645,
+        "mesh_smoothen_pos": 1,
+        "mesh_smoothen_neg": 1,
+        "mesh_scale": 2,
+        "mesh_generator": "IMPROVED",
+        "use_mesh": true,
+        "use_speed_vectors": false,
+        "mesh_particle_radius": 2.0,
+        "sndparticle_potential_min_wavecrest": 2.0,
+        "sndparticle_potential_max_wavecrest": 8.0,
+        "sndparticle_potential_min_trappedair": 5.0,
+        "sndparticle_potential_max_trappedair": 20.0,
+        "sndparticle_potential_min_energy": 1.0,
+        "sndparticle_potential_max_energy": 5.0,
+        "sndparticle_sampling_wavecrest": 200,
+        "sndparticle_sampling_trappedair": 40,
+        "sndparticle_bubble_buoyancy": 0.5,
+        "sndparticle_bubble_drag": 0.6000000238418579,
+        "sndparticle_life_min": 10.0,
+        "sndparticle_life_max": 25.0,
+        "sndparticle_boundary": "DELETE",
+        "sndparticle_combined_export": "OFF",
+        "sndparticle_potential_radius": 2,
+        "sndparticle_update_radius": 2,
+        "particle_scale": 1,
+        "use_spray_particles": false,
+        "use_bubble_particles": false,
+        "use_foam_particles": false,
+        "use_tracer_particles": false,
+        "guide_alpha": 2.0,
+        "guide_beta": 5,
+        "guide_vel_factor": 2.0,
+        "guide_source": "DOMAIN",
+        "guide_parent": null,
+        "use_guide": false,
+        "cache_frame_start": 1,
+        "cache_frame_end": 250,
+        "cache_frame_offset": 0,
+        "cache_frame_pause_data": 0,
+        "cache_frame_pause_noise": 0,
+        "cache_frame_pause_mesh": 0,
+        "cache_frame_pause_particles": 0,
+        "cache_frame_pause_guide": 0,
+        "cache_mesh_format": "BOBJECT",
+        "cache_data_format": "OPENVDB",
+        "cache_particle_format": "",
+        "cache_noise_format": "OPENVDB",
+        "cache_type": "REPLAY",
+        "cache_resumable": false,
+        "cache_directory": "C:\\Users\\zx\\AppData\\Local\\Temp\\blender_a20056\\cache_fluid_4b85f272",
+        "is_cache_baking_data": false,
+        "has_cache_baked_data": false,
+        "is_cache_baking_noise": false,
+        "has_cache_baked_noise": false,
+        "is_cache_baking_mesh": false,
+        "has_cache_baked_mesh": false,
+        "is_cache_baking_particles": false,
+        "has_cache_baked_particles": false,
+        "is_cache_baking_guide": false,
+        "has_cache_baked_guide": false,
+        "is_cache_baking_any": false,
+        "has_cache_baked_any": false,
+        "export_manta_script": false,
+        "openvdb_cache_compress_type": "BLOSC",
+        "openvdb_data_depth": "16",
+        "time_scale": 1.0,
+        "use_adaptive_timesteps": true,
+        "cfl_condition": 2.0,
+        "timesteps_min": 1,
+        "timesteps_max": 4,
+        "use_slice": false,
+        "slice_axis": "AUTO",
+        "slice_per_voxel": 5.0,
+        "slice_depth": 0.5,
+        "display_thickness": 1.0,
+        "display_interpolation": "LINEAR",
+        "show_gridlines": false,
+        "show_velocity": false,
+        "vector_display_type": "NEEDLE",
+        "vector_field": "FLUID_VELOCITY",
+        "vector_scale_with_magnitude": true,
+        "vector_show_mac_x": true,
+        "vector_show_mac_y": true,
+        "vector_show_mac_z": true,
+        "vector_scale": 1.0,
+        "use_color_ramp": false,
+        "color_ramp_field": "PHI",
+        "color_ramp_field_scale": 1.0,
+        "clipping": 9.999999974752427e-07,
+        "gridlines_color_field": "NONE",
+        "gridlines_lower_bound": 0.0,
+        "gridlines_upper_bound": 1.0,
+        "gridlines_range_color": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "gridlines_cell_filter": "NONE",
+        "velocity_scale": 1.0
+      },
+      "metadata": {
+        "effector_group": {
+          "type": "POINTER",
+          "description": "Limit effectors to this collection",
+          "rna_default": null
+        },
+        "fluid_group": {
+          "type": "POINTER",
+          "description": "Limit fluid objects to this collection",
+          "rna_default": null
+        },
+        "force_collection": {
+          "type": "POINTER",
+          "description": "Limit forces to this collection",
+          "rna_default": null
+        },
+        "additional_res": {
+          "type": "INT",
+          "description": "Maximum number of additional cells",
+          "rna_default": 0
+        },
+        "adapt_margin": {
+          "type": "INT",
+          "description": "Margin added around fluid to minimize boundary interference",
+          "rna_default": 4
+        },
+        "adapt_threshold": {
+          "type": "FLOAT",
+          "description": "Minimum amount of fluid grid values (smoke density, fuel and heat) a cell can contain, before it is considered empty",
+          "rna_default": 0.0020000000949949026
+        },
+        "use_adaptive_domain": {
+          "type": "BOOLEAN",
+          "description": "Adapt simulation resolution and size to fluid",
+          "rna_default": false
+        },
+        "resolution_max": {
+          "type": "INT",
+          "description": "Resolution used for the fluid domain. Value corresponds to the longest domain side (resolution for other domain sides is calculated automatically).",
+          "rna_default": 32
+        },
+        "use_collision_border_front": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with front domain border",
+          "rna_default": false
+        },
+        "use_collision_border_back": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with back domain border",
+          "rna_default": false
+        },
+        "use_collision_border_right": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with right domain border",
+          "rna_default": false
+        },
+        "use_collision_border_left": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with left domain border",
+          "rna_default": false
+        },
+        "use_collision_border_top": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with top domain border",
+          "rna_default": false
+        },
+        "use_collision_border_bottom": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with bottom domain border",
+          "rna_default": false
+        },
+        "gravity": {
+          "type": "FLOAT",
+          "description": "Gravity in X, Y and Z direction",
+          "rna_default": [
+            0.0,
+            0.0,
+            -9.8100004196167
+          ]
+        },
+        "domain_type": {
+          "type": "ENUM",
+          "description": "Change domain type of the simulation",
+          "rna_default": "GAS"
+        },
+        "delete_in_obstacle": {
+          "type": "BOOLEAN",
+          "description": "Delete fluid inside obstacles",
+          "rna_default": false
+        },
+        "alpha": {
+          "type": "FLOAT",
+          "description": "Buoyant force based on smoke density (higher value results in faster rising smoke)",
+          "rna_default": 1.0
+        },
+        "beta": {
+          "type": "FLOAT",
+          "description": "Buoyant force based on smoke heat (higher value results in faster rising smoke)",
+          "rna_default": 1.0
+        },
+        "dissolve_speed": {
+          "type": "INT",
+          "description": "Determine how quickly the smoke dissolves (lower value makes smoke disappear faster)",
+          "rna_default": 5
+        },
+        "vorticity": {
+          "type": "FLOAT",
+          "description": "Amount of turbulence and rotation in smoke",
+          "rna_default": 0.0
+        },
+        "highres_sampling": {
+          "type": "ENUM",
+          "description": "Method for sampling the high resolution flow",
+          "rna_default": "FULLSAMPLE"
+        },
+        "use_dissolve_smoke": {
+          "type": "BOOLEAN",
+          "description": "Let smoke disappear over time",
+          "rna_default": false
+        },
+        "use_dissolve_smoke_log": {
+          "type": "BOOLEAN",
+          "description": "Dissolve smoke in a logarithmic fashion. Dissolves quickly at first, but lingers longer.",
+          "rna_default": true
+        },
+        "burning_rate": {
+          "type": "FLOAT",
+          "description": "Speed of the burning reaction (higher value results in smaller flames)",
+          "rna_default": 0.75
+        },
+        "flame_smoke": {
+          "type": "FLOAT",
+          "description": "Amount of smoke created by burning fuel",
+          "rna_default": 1.0
+        },
+        "flame_vorticity": {
+          "type": "FLOAT",
+          "description": "Additional vorticity for the flames",
+          "rna_default": 0.5
+        },
+        "flame_ignition": {
+          "type": "FLOAT",
+          "description": "Minimum temperature of the flames (higher value results in faster rising flames)",
+          "rna_default": 1.5
+        },
+        "flame_max_temp": {
+          "type": "FLOAT",
+          "description": "Maximum temperature of the flames (higher value results in faster rising flames)",
+          "rna_default": 3.0
+        },
+        "flame_smoke_color": {
+          "type": "FLOAT",
+          "description": "Color of smoke emitted from burning fuel",
+          "rna_default": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ]
+        },
+        "noise_strength": {
+          "type": "FLOAT",
+          "description": "Strength of noise",
+          "rna_default": 1.0
+        },
+        "noise_pos_scale": {
+          "type": "FLOAT",
+          "description": "Scale of noise (higher value results in larger vortices)",
+          "rna_default": 2.0
+        },
+        "noise_time_anim": {
+          "type": "FLOAT",
+          "description": "Animation time of noise",
+          "rna_default": 0.10000000149011612
+        },
+        "noise_scale": {
+          "type": "INT",
+          "description": "The noise simulation is scaled up by this factor (compared to the base resolution of the domain)",
+          "rna_default": 2
+        },
+        "use_noise": {
+          "type": "BOOLEAN",
+          "description": "Enable fluid noise (using amplification)",
+          "rna_default": false
+        },
+        "simulation_method": {
+          "type": "ENUM",
+          "description": "Change the underlying simulation method",
+          "rna_default": "FLIP"
+        },
+        "flip_ratio": {
+          "type": "FLOAT",
+          "description": "PIC/FLIP Ratio. A value of 1.0 will result in a completely FLIP based simulation. Use a lower value for simulations which should produce smaller splashes.",
+          "rna_default": 0.9700000286102295
+        },
+        "particle_randomness": {
+          "type": "FLOAT",
+          "description": "Randomness factor for particle sampling",
+          "rna_default": 0.10000000149011612
+        },
+        "particle_number": {
+          "type": "INT",
+          "description": "Particle number factor (higher value results in more particles)",
+          "rna_default": 2
+        },
+        "particle_min": {
+          "type": "INT",
+          "description": "Minimum number of particles per cell (ensures that each cell has at least this amount of particles)",
+          "rna_default": 8
+        },
+        "particle_max": {
+          "type": "INT",
+          "description": "Maximum number of particles per cell (ensures that each cell has at most this amount of particles)",
+          "rna_default": 16
+        },
+        "particle_radius": {
+          "type": "FLOAT",
+          "description": "Particle radius factor. Increase this value if the simulation appears to leak volume, decrease it if the simulation seems to gain volume.",
+          "rna_default": 1.0
+        },
+        "particle_band_width": {
+          "type": "FLOAT",
+          "description": "Particle (narrow) band width (higher value results in thicker band and more particles)",
+          "rna_default": 3.0
+        },
+        "use_flip_particles": {
+          "type": "BOOLEAN",
+          "description": "Create liquid particle system",
+          "rna_default": false
+        },
+        "use_fractions": {
+          "type": "BOOLEAN",
+          "description": "Fractional obstacles improve and smoothen the fluid-obstacle boundary",
+          "rna_default": false
+        },
+        "fractions_threshold": {
+          "type": "FLOAT",
+          "description": "Determines how much fluid is allowed in an obstacle cell (higher values will tag a boundary cell as an obstacle easier and reduce the boundary smoothening effect)",
+          "rna_default": 0.05000000074505806
+        },
+        "fractions_distance": {
+          "type": "FLOAT",
+          "description": "Determines how far apart fluid and obstacle are (higher values will result in fluid being further away from obstacles, smaller values will let fluid move towards the inside of obstacles)",
+          "rna_default": 0.5
+        },
+        "sys_particle_maximum": {
+          "type": "INT",
+          "description": "Maximum number of fluid particles that are allowed in this simulation",
+          "rna_default": 0
+        },
+        "use_viscosity": {
+          "type": "BOOLEAN",
+          "description": "Simulate fluids with high viscosity using a special solver",
+          "rna_default": false
+        },
+        "viscosity_value": {
+          "type": "FLOAT",
+          "description": "Viscosity of liquid (higher values result in more viscous fluids, a value of 0 will still apply some viscosity)",
+          "rna_default": 0.05000000074505806
+        },
+        "use_diffusion": {
+          "type": "BOOLEAN",
+          "description": "Enable fluid diffusion settings (e.g. viscosity, surface tension)",
+          "rna_default": false
+        },
+        "surface_tension": {
+          "type": "FLOAT",
+          "description": "Surface tension of liquid (higher value results in greater hydrophobic behavior)",
+          "rna_default": 0.0
+        },
+        "viscosity_base": {
+          "type": "FLOAT",
+          "description": "Viscosity setting: value that is multiplied by 10 to the power of (exponent*-1)",
+          "rna_default": 1.0
+        },
+        "viscosity_exponent": {
+          "type": "INT",
+          "description": "Negative exponent for the viscosity value (to simplify entering small values e.g. 5*10^-6)",
+          "rna_default": 6
+        },
+        "mesh_concave_upper": {
+          "type": "FLOAT",
+          "description": "Upper mesh concavity bound (high values tend to smoothen and fill out concave regions)",
+          "rna_default": 3.5
+        },
+        "mesh_concave_lower": {
+          "type": "FLOAT",
+          "description": "Lower mesh concavity bound (high values tend to smoothen and fill out concave regions)",
+          "rna_default": 0.4000000059604645
+        },
+        "mesh_smoothen_pos": {
+          "type": "INT",
+          "description": "Positive mesh smoothening",
+          "rna_default": 1
+        },
+        "mesh_smoothen_neg": {
+          "type": "INT",
+          "description": "Negative mesh smoothening",
+          "rna_default": 1
+        },
+        "mesh_scale": {
+          "type": "INT",
+          "description": "The mesh simulation is scaled up by this factor (compared to the base resolution of the domain). For best meshing, it is recommended to adjust the mesh particle radius alongside this value.",
+          "rna_default": 2
+        },
+        "mesh_generator": {
+          "type": "ENUM",
+          "description": "Which particle level set generator to use",
+          "rna_default": "IMPROVED"
+        },
+        "use_mesh": {
+          "type": "BOOLEAN",
+          "description": "Enable fluid mesh (using amplification)",
+          "rna_default": true
+        },
+        "use_speed_vectors": {
+          "type": "BOOLEAN",
+          "description": "Caches velocities of mesh vertices. These will be used (automatically) when rendering with motion blur enabled.",
+          "rna_default": false
+        },
+        "mesh_particle_radius": {
+          "type": "FLOAT",
+          "description": "Particle radius factor (higher value results in larger (meshed) particles). Needs to be adjusted after changing the mesh scale.",
+          "rna_default": 2.0
+        },
+        "sndparticle_potential_min_wavecrest": {
+          "type": "FLOAT",
+          "description": "Lower clamping threshold for marking fluid cells as wave crests (lower value results in more marked cells)",
+          "rna_default": 2.0
+        },
+        "sndparticle_potential_max_wavecrest": {
+          "type": "FLOAT",
+          "description": "Upper clamping threshold for marking fluid cells as wave crests (higher value results in less marked cells)",
+          "rna_default": 8.0
+        },
+        "sndparticle_potential_min_trappedair": {
+          "type": "FLOAT",
+          "description": "Lower clamping threshold for marking fluid cells where air is trapped (lower value results in more marked cells)",
+          "rna_default": 5.0
+        },
+        "sndparticle_potential_max_trappedair": {
+          "type": "FLOAT",
+          "description": "Upper clamping threshold for marking fluid cells where air is trapped (higher value results in less marked cells)",
+          "rna_default": 20.0
+        },
+        "sndparticle_potential_min_energy": {
+          "type": "FLOAT",
+          "description": "Lower clamping threshold that indicates the fluid speed where cells start to emit particles (lower values result in generally more particles)",
+          "rna_default": 1.0
+        },
+        "sndparticle_potential_max_energy": {
+          "type": "FLOAT",
+          "description": "Upper clamping threshold that indicates the fluid speed where cells no longer emit more particles (higher value results in generally less particles)",
+          "rna_default": 5.0
+        },
+        "sndparticle_sampling_wavecrest": {
+          "type": "INT",
+          "description": "Maximum number of particles generated per wave crest cell per frame",
+          "rna_default": 200
+        },
+        "sndparticle_sampling_trappedair": {
+          "type": "INT",
+          "description": "Maximum number of particles generated per trapped air cell per frame",
+          "rna_default": 40
+        },
+        "sndparticle_bubble_buoyancy": {
+          "type": "FLOAT",
+          "description": "Amount of buoyancy force that rises bubbles (high value results in bubble movement mainly upwards)",
+          "rna_default": 0.5
+        },
+        "sndparticle_bubble_drag": {
+          "type": "FLOAT",
+          "description": "Amount of drag force that moves bubbles along with the fluid (high value results in bubble movement mainly along with the fluid)",
+          "rna_default": 0.6000000238418579
+        },
+        "sndparticle_life_min": {
+          "type": "FLOAT",
+          "description": "Lowest possible particle lifetime",
+          "rna_default": 10.0
+        },
+        "sndparticle_life_max": {
+          "type": "FLOAT",
+          "description": "Highest possible particle lifetime",
+          "rna_default": 25.0
+        },
+        "sndparticle_boundary": {
+          "type": "ENUM",
+          "description": "How particles that left the domain are treated",
+          "rna_default": "DELETE"
+        },
+        "sndparticle_combined_export": {
+          "type": "ENUM",
+          "description": "Determines which particle systems are created from secondary particles",
+          "rna_default": "OFF"
+        },
+        "sndparticle_potential_radius": {
+          "type": "INT",
+          "description": "Radius to compute potential for each cell (higher values are slower but create smoother potential grids)",
+          "rna_default": 2
+        },
+        "sndparticle_update_radius": {
+          "type": "INT",
+          "description": "Radius to compute position update for each particle (higher values are slower but particles move less chaotic)",
+          "rna_default": 2
+        },
+        "particle_scale": {
+          "type": "INT",
+          "description": "The particle simulation is scaled up by this factor (compared to the base resolution of the domain)",
+          "rna_default": 1
+        },
+        "use_spray_particles": {
+          "type": "BOOLEAN",
+          "description": "Create spray particle system",
+          "rna_default": false
+        },
+        "use_bubble_particles": {
+          "type": "BOOLEAN",
+          "description": "Create bubble particle system",
+          "rna_default": false
+        },
+        "use_foam_particles": {
+          "type": "BOOLEAN",
+          "description": "Create foam particle system",
+          "rna_default": false
+        },
+        "use_tracer_particles": {
+          "type": "BOOLEAN",
+          "description": "Create tracer particle system",
+          "rna_default": false
+        },
+        "guide_alpha": {
+          "type": "FLOAT",
+          "description": "Guiding weight (higher value results in greater lag)",
+          "rna_default": 2.0
+        },
+        "guide_beta": {
+          "type": "INT",
+          "description": "Guiding size (higher value results in larger vortices)",
+          "rna_default": 5
+        },
+        "guide_vel_factor": {
+          "type": "FLOAT",
+          "description": "Guiding velocity factor (higher value results in greater guiding velocities)",
+          "rna_default": 2.0
+        },
+        "guide_source": {
+          "type": "ENUM",
+          "description": "Choose where to get guiding velocities from",
+          "rna_default": "DOMAIN"
+        },
+        "guide_parent": {
+          "type": "POINTER",
+          "description": "Use velocities from this object for the guiding effect (object needs to have fluid modifier and be of type domain))",
+          "rna_default": null
+        },
+        "use_guide": {
+          "type": "BOOLEAN",
+          "description": "Enable fluid guiding",
+          "rna_default": false
+        },
+        "cache_frame_start": {
+          "type": "INT",
+          "description": "Frame on which the simulation starts (first frame baked)",
+          "rna_default": 1
+        },
+        "cache_frame_end": {
+          "type": "INT",
+          "description": "Frame on which the simulation stops (last frame baked)",
+          "rna_default": 250
+        },
+        "cache_frame_offset": {
+          "type": "INT",
+          "description": "Frame offset that is used when loading the simulation from the cache. It is not considered when baking the simulation, only when loading it.",
+          "rna_default": 0
+        },
+        "cache_frame_pause_data": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_frame_pause_noise": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_frame_pause_mesh": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_frame_pause_particles": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_frame_pause_guide": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_mesh_format": {
+          "type": "ENUM",
+          "description": "Select the file format to be used for caching surface data",
+          "rna_default": "UNI"
+        },
+        "cache_data_format": {
+          "type": "ENUM",
+          "description": "Select the file format to be used for caching volumetric data",
+          "rna_default": "OPENVDB"
+        },
+        "cache_particle_format": {
+          "type": "ENUM",
+          "description": "Select the file format to be used for caching particle data",
+          "rna_default": "OPENVDB"
+        },
+        "cache_noise_format": {
+          "type": "ENUM",
+          "description": "Select the file format to be used for caching noise data",
+          "rna_default": "OPENVDB"
+        },
+        "cache_type": {
+          "type": "ENUM",
+          "description": "Change the cache type of the simulation",
+          "rna_default": "REPLAY"
+        },
+        "cache_resumable": {
+          "type": "BOOLEAN",
+          "description": "Additional data will be saved so that the bake jobs can be resumed after pausing. Because more data will be written to disk it is recommended to avoid enabling this option when baking at high resolutions.",
+          "rna_default": false
+        },
+        "cache_directory": {
+          "type": "STRING",
+          "description": "Directory that contains fluid cache files",
+          "rna_default": ""
+        },
+        "is_cache_baking_data": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_data": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_noise": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_noise": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_mesh": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_mesh": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_particles": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_particles": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_guide": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_guide": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_any": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_any": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "export_manta_script": {
+          "type": "BOOLEAN",
+          "description": "Generate and export Mantaflow script from current domain settings during bake. This is only needed if you plan to analyze the cache (e.g. view grids, velocity vectors, particles) in Mantaflow directly (outside of Blender) after baking the simulation.",
+          "rna_default": false
+        },
+        "openvdb_cache_compress_type": {
+          "type": "ENUM",
+          "description": "Compression method to be used",
+          "rna_default": "BLOSC"
+        },
+        "openvdb_data_depth": {
+          "type": "ENUM",
+          "description": "Bit depth for fluid particles and grids (lower bit values reduce file size)",
+          "rna_default": "NONE"
+        },
+        "time_scale": {
+          "type": "FLOAT",
+          "description": "Adjust simulation speed",
+          "rna_default": 1.0
+        },
+        "use_adaptive_timesteps": {
+          "type": "BOOLEAN",
+          "description": "Automatically decide when to perform multiple simulation steps per frame",
+          "rna_default": true
+        },
+        "cfl_condition": {
+          "type": "FLOAT",
+          "description": "Maximal velocity per cell (greater CFL numbers will minimize the number of simulation steps and the computation time.)",
+          "rna_default": 2.0
+        },
+        "timesteps_min": {
+          "type": "INT",
+          "description": "Minimum number of simulation steps to perform for one frame",
+          "rna_default": 1
+        },
+        "timesteps_max": {
+          "type": "INT",
+          "description": "Maximum number of simulation steps to perform for one frame",
+          "rna_default": 4
+        },
+        "use_slice": {
+          "type": "BOOLEAN",
+          "description": "Perform a single slice of the domain object",
+          "rna_default": false
+        },
+        "slice_axis": {
+          "type": "ENUM",
+          "description": "",
+          "rna_default": "AUTO"
+        },
+        "slice_per_voxel": {
+          "type": "FLOAT",
+          "description": "How many slices per voxel should be generated",
+          "rna_default": 5.0
+        },
+        "slice_depth": {
+          "type": "FLOAT",
+          "description": "Position of the slice",
+          "rna_default": 0.5
+        },
+        "display_thickness": {
+          "type": "FLOAT",
+          "description": "Thickness of smoke display in the viewport",
+          "rna_default": 1.0
+        },
+        "display_interpolation": {
+          "type": "ENUM",
+          "description": "Interpolation method to use for smoke/fire volumes in solid mode",
+          "rna_default": "LINEAR"
+        },
+        "show_gridlines": {
+          "type": "BOOLEAN",
+          "description": "Show gridlines",
+          "rna_default": false
+        },
+        "show_velocity": {
+          "type": "BOOLEAN",
+          "description": "Visualize vector fields",
+          "rna_default": false
+        },
+        "vector_display_type": {
+          "type": "ENUM",
+          "description": "",
+          "rna_default": "NEEDLE"
+        },
+        "vector_field": {
+          "type": "ENUM",
+          "description": "Vector field to be represented by the display vectors",
+          "rna_default": "FLUID_VELOCITY"
+        },
+        "vector_scale_with_magnitude": {
+          "type": "BOOLEAN",
+          "description": "Scale vectors with their magnitudes",
+          "rna_default": false
+        },
+        "vector_show_mac_x": {
+          "type": "BOOLEAN",
+          "description": "Show X-component of MAC Grid",
+          "rna_default": true
+        },
+        "vector_show_mac_y": {
+          "type": "BOOLEAN",
+          "description": "Show Y-component of MAC Grid",
+          "rna_default": true
+        },
+        "vector_show_mac_z": {
+          "type": "BOOLEAN",
+          "description": "Show Z-component of MAC Grid",
+          "rna_default": true
+        },
+        "vector_scale": {
+          "type": "FLOAT",
+          "description": "Multiplier for scaling the vectors",
+          "rna_default": 1.0
+        },
+        "use_color_ramp": {
+          "type": "BOOLEAN",
+          "description": "Render a simulation field while mapping its voxels values to the colors of a ramp or using a predefined color code",
+          "rna_default": false
+        },
+        "color_ramp_field": {
+          "type": "ENUM",
+          "description": "Simulation field to color map",
+          "rna_default": "NONE"
+        },
+        "color_ramp_field_scale": {
+          "type": "FLOAT",
+          "description": "Multiplier for scaling the selected field to color map",
+          "rna_default": 1.0
+        },
+        "clipping": {
+          "type": "FLOAT",
+          "description": "Value under which voxels are considered empty space to optimize rendering",
+          "rna_default": 9.999999974752427e-07
+        },
+        "gridlines_color_field": {
+          "type": "ENUM",
+          "description": "Simulation field to color map onto gridlines",
+          "rna_default": "NONE"
+        },
+        "gridlines_lower_bound": {
+          "type": "FLOAT",
+          "description": "Lower bound of the highlighting range",
+          "rna_default": 0.0
+        },
+        "gridlines_upper_bound": {
+          "type": "FLOAT",
+          "description": "Upper bound of the highlighting range",
+          "rna_default": 1.0
+        },
+        "gridlines_range_color": {
+          "type": "FLOAT",
+          "description": "Color used to highlight the range",
+          "rna_default": [
+            1.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "gridlines_cell_filter": {
+          "type": "ENUM",
+          "description": "Cell type to be highlighted",
+          "rna_default": "NONE"
+        },
+        "velocity_scale": {
+          "type": "FLOAT",
+          "description": "Factor to control the amount of motion blur",
+          "rna_default": 1.0
+        }
+      },
+      "readonly_small_diagnostics": {
+        "domain_resolution": [
+          0,
+          0,
+          0
+        ],
+        "start_point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cell_size": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "effector_weights": {
+        "properties": {
+          "apply_to_hair_growing": false,
+          "collection": null,
+          "gravity": 1.0,
+          "all": 1.0,
+          "force": 1.0,
+          "vortex": 1.0,
+          "magnetic": 1.0,
+          "wind": 1.0,
+          "curve_guide": 1.0,
+          "texture": 1.0,
+          "harmonic": 1.0,
+          "charge": 1.0,
+          "lennardjones": 1.0,
+          "boid": 1.0,
+          "turbulence": 1.0,
+          "drag": 1.0,
+          "smokeflow": 1.0
+        },
+        "metadata": {
+          "apply_to_hair_growing": {
+            "type": "BOOLEAN",
+            "description": "Use force fields when growing hair",
+            "rna_default": false
+          },
+          "collection": {
+            "type": "POINTER",
+            "description": "Limit effectors to this collection",
+            "rna_default": null
+          },
+          "gravity": {
+            "type": "FLOAT",
+            "description": "Global gravity weight",
+            "rna_default": 0.0
+          },
+          "all": {
+            "type": "FLOAT",
+            "description": "All effector's weight",
+            "rna_default": 0.0
+          },
+          "force": {
+            "type": "FLOAT",
+            "description": "Force effector weight",
+            "rna_default": 0.0
+          },
+          "vortex": {
+            "type": "FLOAT",
+            "description": "Vortex effector weight",
+            "rna_default": 0.0
+          },
+          "magnetic": {
+            "type": "FLOAT",
+            "description": "Magnetic effector weight",
+            "rna_default": 0.0
+          },
+          "wind": {
+            "type": "FLOAT",
+            "description": "Wind effector weight",
+            "rna_default": 0.0
+          },
+          "curve_guide": {
+            "type": "FLOAT",
+            "description": "Curve guide effector weight",
+            "rna_default": 0.0
+          },
+          "texture": {
+            "type": "FLOAT",
+            "description": "Texture effector weight",
+            "rna_default": 0.0
+          },
+          "harmonic": {
+            "type": "FLOAT",
+            "description": "Harmonic effector weight",
+            "rna_default": 0.0
+          },
+          "charge": {
+            "type": "FLOAT",
+            "description": "Charge effector weight",
+            "rna_default": 0.0
+          },
+          "lennardjones": {
+            "type": "FLOAT",
+            "description": "Lennard-Jones effector weight",
+            "rna_default": 0.0
+          },
+          "boid": {
+            "type": "FLOAT",
+            "description": "Boid effector weight",
+            "rna_default": 0.0
+          },
+          "turbulence": {
+            "type": "FLOAT",
+            "description": "Turbulence effector weight",
+            "rna_default": 0.0
+          },
+          "drag": {
+            "type": "FLOAT",
+            "description": "Drag effector weight",
+            "rna_default": 0.0
+          },
+          "smokeflow": {
+            "type": "FLOAT",
+            "description": "Fluid Flow effector weight",
+            "rna_default": 0.0
+          }
+        },
+        "readonly_small_diagnostics": {},
+        "effector_weights": null,
+        "skipped_readonly_or_collections": [
+          "rna_type"
+        ]
+      },
+      "skipped_readonly_or_collections": [
+        "rna_type",
+        "effector_weights",
+        "density_grid",
+        "velocity_grid",
+        "flame_grid",
+        "color_grid",
+        "heat_grid",
+        "temperature_grid",
+        "start_point",
+        "cell_size",
+        "domain_resolution",
+        "color_ramp"
+      ]
+    },
+    "flow": {
+      "properties": {
+        "density": 1.0,
+        "smoke_color": [
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "fuel_amount": 1.0,
+        "temperature": 1.0,
+        "particle_system": null,
+        "flow_type": "LIQUID",
+        "flow_behavior": "GEOMETRY",
+        "flow_source": "MESH",
+        "use_absolute": true,
+        "use_initial_velocity": false,
+        "velocity_factor": 1.0,
+        "velocity_normal": 0.0,
+        "velocity_random": 0.0,
+        "velocity_coord": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_density": 0.0,
+        "surface_distance": 0.0,
+        "use_plane_init": false,
+        "particle_size": 1.0,
+        "use_particle_size": true,
+        "use_inflow": true,
+        "subframes": 0,
+        "density_vertex_group": "",
+        "use_texture": false,
+        "texture_map_type": "AUTO",
+        "uv_layer": "",
+        "noise_texture": null,
+        "texture_size": 1.0,
+        "texture_offset": 0.0
+      },
+      "metadata": {
+        "density": {
+          "type": "FLOAT",
+          "description": "",
+          "rna_default": 1.0
+        },
+        "smoke_color": {
+          "type": "FLOAT",
+          "description": "Color of smoke",
+          "rna_default": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ]
+        },
+        "fuel_amount": {
+          "type": "FLOAT",
+          "description": "",
+          "rna_default": 1.0
+        },
+        "temperature": {
+          "type": "FLOAT",
+          "description": "Temperature difference to ambient temperature",
+          "rna_default": 1.0
+        },
+        "particle_system": {
+          "type": "POINTER",
+          "description": "Particle systems emitted from the object",
+          "rna_default": null
+        },
+        "flow_type": {
+          "type": "ENUM",
+          "description": "Change type of fluid in the simulation",
+          "rna_default": "SMOKE"
+        },
+        "flow_behavior": {
+          "type": "ENUM",
+          "description": "Change flow behavior in the simulation",
+          "rna_default": "GEOMETRY"
+        },
+        "flow_source": {
+          "type": "ENUM",
+          "description": "Change how fluid is emitted",
+          "rna_default": "NONE"
+        },
+        "use_absolute": {
+          "type": "BOOLEAN",
+          "description": "Only allow given density value in emitter area and will not add up",
+          "rna_default": true
+        },
+        "use_initial_velocity": {
+          "type": "BOOLEAN",
+          "description": "Fluid has some initial velocity when it is emitted",
+          "rna_default": false
+        },
+        "velocity_factor": {
+          "type": "FLOAT",
+          "description": "Multiplier of source velocity passed to fluid (source velocity is non-zero only if object is moving)",
+          "rna_default": 1.0
+        },
+        "velocity_normal": {
+          "type": "FLOAT",
+          "description": "Amount of normal directional velocity",
+          "rna_default": 0.0
+        },
+        "velocity_random": {
+          "type": "FLOAT",
+          "description": "Amount of random velocity",
+          "rna_default": 0.0
+        },
+        "velocity_coord": {
+          "type": "FLOAT",
+          "description": "Additional initial velocity in X, Y and Z direction (added to source velocity)",
+          "rna_default": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "volume_density": {
+          "type": "FLOAT",
+          "description": "Controls fluid emission from within the mesh (higher value results in greater emissions from inside the mesh)",
+          "rna_default": 0.0
+        },
+        "surface_distance": {
+          "type": "FLOAT",
+          "description": "Height (in domain grid units) of fluid emission above the mesh surface. Higher values result in emission further away from the mesh surface. If this value and the emitter size are smaller than the domain grid unit, fluid will not be created",
+          "rna_default": 1.0
+        },
+        "use_plane_init": {
+          "type": "BOOLEAN",
+          "description": "Treat this object as a planar and unclosed mesh. Fluid will only be emitted from the mesh surface and based on the surface emission value.",
+          "rna_default": false
+        },
+        "particle_size": {
+          "type": "FLOAT",
+          "description": "Particle size in simulation cells",
+          "rna_default": 1.0
+        },
+        "use_particle_size": {
+          "type": "BOOLEAN",
+          "description": "Set particle size in simulation cells or use nearest cell",
+          "rna_default": true
+        },
+        "use_inflow": {
+          "type": "BOOLEAN",
+          "description": "Control when to apply fluid flow",
+          "rna_default": true
+        },
+        "subframes": {
+          "type": "INT",
+          "description": "Number of additional samples to take between frames to improve quality of fast moving flows",
+          "rna_default": 0
+        },
+        "density_vertex_group": {
+          "type": "STRING",
+          "description": "Name of vertex group which determines surface emission rate",
+          "rna_default": ""
+        },
+        "use_texture": {
+          "type": "BOOLEAN",
+          "description": "Use a texture to control emission strength",
+          "rna_default": false
+        },
+        "texture_map_type": {
+          "type": "ENUM",
+          "description": "Texture mapping type",
+          "rna_default": "AUTO"
+        },
+        "uv_layer": {
+          "type": "STRING",
+          "description": "UV map name",
+          "rna_default": ""
+        },
+        "noise_texture": {
+          "type": "POINTER",
+          "description": "Texture that controls emission strength",
+          "rna_default": null
+        },
+        "texture_size": {
+          "type": "FLOAT",
+          "description": "Size of texture mapping",
+          "rna_default": 1.0
+        },
+        "texture_offset": {
+          "type": "FLOAT",
+          "description": "Z-offset of texture mapping",
+          "rna_default": 0.0
+        }
+      },
+      "readonly_small_diagnostics": {},
+      "effector_weights": null,
+      "skipped_readonly_or_collections": [
+        "rna_type"
+      ]
+    },
+    "objects": [
+      {
+        "name": "WATER09_Factory_Cube_Domain",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "basis_world_bounds": [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "object_animation": false,
+        "mesh_shape_keys": false,
+        "vertices": 8,
+        "polygons": 6,
+        "dimensions": [
+          1.9020824432373047,
+          1.9020824432373047,
+          0.9827456474304199
+        ],
+        "modifiers": [
+          {
+            "name": "Factory fluid domain",
+            "type": "FLUID",
+            "show_viewport": true,
+            "show_render": true
+          },
+          {
+            "name": "Liquid Particle System",
+            "type": "PARTICLE_SYSTEM",
+            "show_viewport": true,
+            "show_render": true
+          }
+        ]
+      },
+      {
+        "name": "WATER09_Factory_Geometry_Liquid",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "basis_world_bounds": [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            0.0
+          ]
+        ],
+        "parent": null,
+        "object_animation": false,
+        "mesh_shape_keys": false,
+        "vertices": 8,
+        "polygons": 6,
+        "dimensions": [
+          2.0,
+          2.0,
+          1.0
+        ],
+        "modifiers": [
+          {
+            "name": "Factory geometry liquid",
+            "type": "FLUID",
+            "show_viewport": true,
+            "show_render": true
+          }
+        ]
+      }
+    ],
+    "explicit_setup_only": [
+      "Create unit-scale closed2m cube DOMAIN",
+      "Set domain_type=LIQUID once",
+      "Create unit-scale lower-half cube FLOW",
+      "Set flow_type=LIQUID once",
+      "Set flow_behavior=GEOMETRY once"
+    ],
+    "simulation_bake_render_save_run": false,
+    "secondary_idempotent_setter_probe": [
+      {
+        "property": "use_foam_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_foam_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_spray_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_spray_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_foam_particles",
+        "before": false,
+        "target": true,
+        "assignment_executed": true,
+        "after": true,
+        "systems": [
+          "FLIP",
+          "FOAM"
+        ]
+      },
+      {
+        "property": "use_foam_particles",
+        "before": true,
+        "target": true,
+        "assignment_executed": false,
+        "after": true,
+        "systems": [
+          "FLIP",
+          "FOAM"
+        ]
+      },
+      {
+        "property": "use_foam_particles",
+        "before": true,
+        "target": false,
+        "assignment_executed": true,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_foam_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_spray_particles",
+        "before": false,
+        "target": true,
+        "assignment_executed": true,
+        "after": true,
+        "systems": [
+          "FLIP",
+          "SPRAY"
+        ]
+      },
+      {
+        "property": "use_spray_particles",
+        "before": true,
+        "target": true,
+        "assignment_executed": false,
+        "after": true,
+        "systems": [
+          "FLIP",
+          "SPRAY"
+        ]
+      },
+      {
+        "property": "use_spray_particles",
+        "before": true,
+        "target": false,
+        "assignment_executed": true,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_spray_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": false,
+        "target": true,
+        "assignment_executed": true,
+        "after": true,
+        "systems": [
+          "FLIP",
+          "BUBBLE"
+        ]
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": true,
+        "target": true,
+        "assignment_executed": false,
+        "after": true,
+        "systems": [
+          "FLIP",
+          "BUBBLE"
+        ]
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": true,
+        "target": false,
+        "assignment_executed": true,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      },
+      {
+        "property": "use_bubble_particles",
+        "before": false,
+        "target": false,
+        "assignment_executed": false,
+        "after": false,
+        "systems": [
+          "FLIP"
+        ]
+      }
+    ],
+    "final_secondary_flags": {
+      "use_foam_particles": false,
+      "use_spray_particles": false,
+      "use_bubble_particles": false
+    },
+    "final_particle_systems": [
+      "FLIP"
+    ],
+    "effector_default": {
+      "properties": {
+        "effector_type": "COLLISION",
+        "surface_distance": 0.0,
+        "use_plane_init": false,
+        "velocity_factor": 1.0,
+        "guide_mode": "OVERRIDE",
+        "use_effector": true,
+        "subframes": 0
+      },
+      "metadata": {
+        "effector_type": {
+          "type": "ENUM",
+          "description": "Change type of effector in the simulation",
+          "rna_default": "COLLISION"
+        },
+        "surface_distance": {
+          "type": "FLOAT",
+          "description": "Additional distance around mesh surface to consider as effector",
+          "rna_default": 0.0
+        },
+        "use_plane_init": {
+          "type": "BOOLEAN",
+          "description": "Treat this object as a planar, unclosed mesh",
+          "rna_default": false
+        },
+        "velocity_factor": {
+          "type": "FLOAT",
+          "description": "Multiplier of obstacle velocity",
+          "rna_default": 1.0
+        },
+        "guide_mode": {
+          "type": "ENUM",
+          "description": "How to create guiding velocities",
+          "rna_default": "OVERRIDE"
+        },
+        "use_effector": {
+          "type": "BOOLEAN",
+          "description": "Control when to apply the effector",
+          "rna_default": true
+        },
+        "subframes": {
+          "type": "INT",
+          "description": "Number of additional samples to take between frames to improve quality of fast moving effector objects",
+          "rna_default": 0
+        }
+      },
+      "readonly_small_diagnostics": {},
+      "effector_weights": null,
+      "skipped_readonly_or_collections": [
+        "rna_type"
+      ]
+    },
+    "remaining_object_names": [
+      "WATER09_Factory_Cube_Domain",
+      "WATER09_Factory_Geometry_Liquid"
+    ]
+  },
+  "static24": {
+    "scene": {
+      "fps": 24,
+      "fps_base": 1.0,
+      "use_gravity": true,
+      "gravity": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "unit_scale_length": 1.0,
+      "unit_system": "METRIC",
+      "frame_range": [
+        1,
+        24
+      ]
+    },
+    "domain": {
+      "properties": {
+        "effector_group": {
+          "id_type": "Collection",
+          "name": "HYBRID07_IMPACT_COLLISIONS"
+        },
+        "fluid_group": {
+          "id_type": "Collection",
+          "name": "WATER08_STATIC_INITIAL_ONLY"
+        },
+        "force_collection": null,
+        "additional_res": 0,
+        "adapt_margin": 4,
+        "adapt_threshold": 0.0020000000949949026,
+        "use_adaptive_domain": false,
+        "resolution_max": 96,
+        "use_collision_border_front": true,
+        "use_collision_border_back": true,
+        "use_collision_border_right": true,
+        "use_collision_border_left": true,
+        "use_collision_border_top": false,
+        "use_collision_border_bottom": true,
+        "gravity": [
+          0.0,
+          0.0,
+          -9.8100004196167
+        ],
+        "domain_type": "LIQUID",
+        "delete_in_obstacle": true,
+        "alpha": 1.0,
+        "beta": 1.0,
+        "dissolve_speed": 5,
+        "vorticity": 0.0,
+        "highres_sampling": "FULLSAMPLE",
+        "use_dissolve_smoke": false,
+        "use_dissolve_smoke_log": true,
+        "burning_rate": 0.75,
+        "flame_smoke": 1.0,
+        "flame_vorticity": 0.5,
+        "flame_ignition": 1.5,
+        "flame_max_temp": 3.0,
+        "flame_smoke_color": [
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "noise_strength": 1.0,
+        "noise_pos_scale": 2.0,
+        "noise_time_anim": 0.10000000149011612,
+        "noise_scale": 2,
+        "use_noise": false,
+        "simulation_method": "FLIP",
+        "flip_ratio": 0.9399999976158142,
+        "particle_randomness": 0.10000000149011612,
+        "particle_number": 2,
+        "particle_min": 8,
+        "particle_max": 16,
+        "particle_radius": 1.0,
+        "particle_band_width": 3.0,
+        "use_flip_particles": true,
+        "use_fractions": true,
+        "fractions_threshold": 0.05000000074505806,
+        "fractions_distance": 0.5,
+        "sys_particle_maximum": 0,
+        "use_viscosity": false,
+        "viscosity_value": 0.05000000074505806,
+        "use_diffusion": false,
+        "surface_tension": 0.0,
+        "viscosity_base": 1.0,
+        "viscosity_exponent": 6,
+        "mesh_concave_upper": 3.5,
+        "mesh_concave_lower": 0.4000000059604645,
+        "mesh_smoothen_pos": 1,
+        "mesh_smoothen_neg": 1,
+        "mesh_scale": 1,
+        "mesh_generator": "IMPROVED",
+        "use_mesh": true,
+        "use_speed_vectors": false,
+        "mesh_particle_radius": 1.25,
+        "sndparticle_potential_min_wavecrest": 2.0,
+        "sndparticle_potential_max_wavecrest": 8.0,
+        "sndparticle_potential_min_trappedair": 5.0,
+        "sndparticle_potential_max_trappedair": 20.0,
+        "sndparticle_potential_min_energy": 1.0,
+        "sndparticle_potential_max_energy": 5.0,
+        "sndparticle_sampling_wavecrest": 200,
+        "sndparticle_sampling_trappedair": 40,
+        "sndparticle_bubble_buoyancy": 0.5,
+        "sndparticle_bubble_drag": 0.6000000238418579,
+        "sndparticle_life_min": 10.0,
+        "sndparticle_life_max": 25.0,
+        "sndparticle_boundary": "DELETE",
+        "sndparticle_combined_export": "OFF",
+        "sndparticle_potential_radius": 2,
+        "sndparticle_update_radius": 2,
+        "particle_scale": 1,
+        "use_spray_particles": true,
+        "use_bubble_particles": true,
+        "use_foam_particles": true,
+        "use_tracer_particles": false,
+        "guide_alpha": 2.0,
+        "guide_beta": 5,
+        "guide_vel_factor": 2.0,
+        "guide_source": "DOMAIN",
+        "guide_parent": null,
+        "use_guide": false,
+        "cache_frame_start": 1,
+        "cache_frame_end": 24,
+        "cache_frame_offset": 0,
+        "cache_frame_pause_data": 24,
+        "cache_frame_pause_noise": 0,
+        "cache_frame_pause_mesh": 0,
+        "cache_frame_pause_particles": 0,
+        "cache_frame_pause_guide": 0,
+        "cache_mesh_format": "BOBJECT",
+        "cache_data_format": "OPENVDB",
+        "cache_particle_format": "",
+        "cache_noise_format": "OPENVDB",
+        "cache_type": "ALL",
+        "cache_resumable": false,
+        "cache_directory": "D:\\zx\\test\\project\\caches\\fluid_water08\\static_head24",
+        "is_cache_baking_data": false,
+        "has_cache_baked_data": true,
+        "is_cache_baking_noise": false,
+        "has_cache_baked_noise": true,
+        "is_cache_baking_mesh": false,
+        "has_cache_baked_mesh": true,
+        "is_cache_baking_particles": false,
+        "has_cache_baked_particles": true,
+        "is_cache_baking_guide": false,
+        "has_cache_baked_guide": true,
+        "is_cache_baking_any": false,
+        "has_cache_baked_any": true,
+        "export_manta_script": false,
+        "openvdb_cache_compress_type": "BLOSC",
+        "openvdb_data_depth": "16",
+        "time_scale": 1.0,
+        "use_adaptive_timesteps": true,
+        "cfl_condition": 2.0,
+        "timesteps_min": 2,
+        "timesteps_max": 12,
+        "use_slice": false,
+        "slice_axis": "AUTO",
+        "slice_per_voxel": 5.0,
+        "slice_depth": 0.5,
+        "display_thickness": 1.0,
+        "display_interpolation": "LINEAR",
+        "show_gridlines": false,
+        "show_velocity": false,
+        "vector_display_type": "NEEDLE",
+        "vector_field": "FLUID_VELOCITY",
+        "vector_scale_with_magnitude": true,
+        "vector_show_mac_x": true,
+        "vector_show_mac_y": true,
+        "vector_show_mac_z": true,
+        "vector_scale": 1.0,
+        "use_color_ramp": false,
+        "color_ramp_field": "PHI",
+        "color_ramp_field_scale": 1.0,
+        "clipping": 9.999999974752427e-07,
+        "gridlines_color_field": "NONE",
+        "gridlines_lower_bound": 0.0,
+        "gridlines_upper_bound": 1.0,
+        "gridlines_range_color": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "gridlines_cell_filter": "NONE",
+        "velocity_scale": 1.0
+      },
+      "metadata": {
+        "effector_group": {
+          "type": "POINTER",
+          "description": "Limit effectors to this collection",
+          "rna_default": null
+        },
+        "fluid_group": {
+          "type": "POINTER",
+          "description": "Limit fluid objects to this collection",
+          "rna_default": null
+        },
+        "force_collection": {
+          "type": "POINTER",
+          "description": "Limit forces to this collection",
+          "rna_default": null
+        },
+        "additional_res": {
+          "type": "INT",
+          "description": "Maximum number of additional cells",
+          "rna_default": 0
+        },
+        "adapt_margin": {
+          "type": "INT",
+          "description": "Margin added around fluid to minimize boundary interference",
+          "rna_default": 4
+        },
+        "adapt_threshold": {
+          "type": "FLOAT",
+          "description": "Minimum amount of fluid grid values (smoke density, fuel and heat) a cell can contain, before it is considered empty",
+          "rna_default": 0.0020000000949949026
+        },
+        "use_adaptive_domain": {
+          "type": "BOOLEAN",
+          "description": "Adapt simulation resolution and size to fluid",
+          "rna_default": false
+        },
+        "resolution_max": {
+          "type": "INT",
+          "description": "Resolution used for the fluid domain. Value corresponds to the longest domain side (resolution for other domain sides is calculated automatically).",
+          "rna_default": 32
+        },
+        "use_collision_border_front": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with front domain border",
+          "rna_default": false
+        },
+        "use_collision_border_back": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with back domain border",
+          "rna_default": false
+        },
+        "use_collision_border_right": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with right domain border",
+          "rna_default": false
+        },
+        "use_collision_border_left": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with left domain border",
+          "rna_default": false
+        },
+        "use_collision_border_top": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with top domain border",
+          "rna_default": false
+        },
+        "use_collision_border_bottom": {
+          "type": "BOOLEAN",
+          "description": "Enable collisions with bottom domain border",
+          "rna_default": false
+        },
+        "gravity": {
+          "type": "FLOAT",
+          "description": "Gravity in X, Y and Z direction",
+          "rna_default": [
+            0.0,
+            0.0,
+            -9.8100004196167
+          ]
+        },
+        "domain_type": {
+          "type": "ENUM",
+          "description": "Change domain type of the simulation",
+          "rna_default": "GAS"
+        },
+        "delete_in_obstacle": {
+          "type": "BOOLEAN",
+          "description": "Delete fluid inside obstacles",
+          "rna_default": false
+        },
+        "alpha": {
+          "type": "FLOAT",
+          "description": "Buoyant force based on smoke density (higher value results in faster rising smoke)",
+          "rna_default": 1.0
+        },
+        "beta": {
+          "type": "FLOAT",
+          "description": "Buoyant force based on smoke heat (higher value results in faster rising smoke)",
+          "rna_default": 1.0
+        },
+        "dissolve_speed": {
+          "type": "INT",
+          "description": "Determine how quickly the smoke dissolves (lower value makes smoke disappear faster)",
+          "rna_default": 5
+        },
+        "vorticity": {
+          "type": "FLOAT",
+          "description": "Amount of turbulence and rotation in smoke",
+          "rna_default": 0.0
+        },
+        "highres_sampling": {
+          "type": "ENUM",
+          "description": "Method for sampling the high resolution flow",
+          "rna_default": "FULLSAMPLE"
+        },
+        "use_dissolve_smoke": {
+          "type": "BOOLEAN",
+          "description": "Let smoke disappear over time",
+          "rna_default": false
+        },
+        "use_dissolve_smoke_log": {
+          "type": "BOOLEAN",
+          "description": "Dissolve smoke in a logarithmic fashion. Dissolves quickly at first, but lingers longer.",
+          "rna_default": true
+        },
+        "burning_rate": {
+          "type": "FLOAT",
+          "description": "Speed of the burning reaction (higher value results in smaller flames)",
+          "rna_default": 0.75
+        },
+        "flame_smoke": {
+          "type": "FLOAT",
+          "description": "Amount of smoke created by burning fuel",
+          "rna_default": 1.0
+        },
+        "flame_vorticity": {
+          "type": "FLOAT",
+          "description": "Additional vorticity for the flames",
+          "rna_default": 0.5
+        },
+        "flame_ignition": {
+          "type": "FLOAT",
+          "description": "Minimum temperature of the flames (higher value results in faster rising flames)",
+          "rna_default": 1.5
+        },
+        "flame_max_temp": {
+          "type": "FLOAT",
+          "description": "Maximum temperature of the flames (higher value results in faster rising flames)",
+          "rna_default": 3.0
+        },
+        "flame_smoke_color": {
+          "type": "FLOAT",
+          "description": "Color of smoke emitted from burning fuel",
+          "rna_default": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ]
+        },
+        "noise_strength": {
+          "type": "FLOAT",
+          "description": "Strength of noise",
+          "rna_default": 1.0
+        },
+        "noise_pos_scale": {
+          "type": "FLOAT",
+          "description": "Scale of noise (higher value results in larger vortices)",
+          "rna_default": 2.0
+        },
+        "noise_time_anim": {
+          "type": "FLOAT",
+          "description": "Animation time of noise",
+          "rna_default": 0.10000000149011612
+        },
+        "noise_scale": {
+          "type": "INT",
+          "description": "The noise simulation is scaled up by this factor (compared to the base resolution of the domain)",
+          "rna_default": 2
+        },
+        "use_noise": {
+          "type": "BOOLEAN",
+          "description": "Enable fluid noise (using amplification)",
+          "rna_default": false
+        },
+        "simulation_method": {
+          "type": "ENUM",
+          "description": "Change the underlying simulation method",
+          "rna_default": "FLIP"
+        },
+        "flip_ratio": {
+          "type": "FLOAT",
+          "description": "PIC/FLIP Ratio. A value of 1.0 will result in a completely FLIP based simulation. Use a lower value for simulations which should produce smaller splashes.",
+          "rna_default": 0.9700000286102295
+        },
+        "particle_randomness": {
+          "type": "FLOAT",
+          "description": "Randomness factor for particle sampling",
+          "rna_default": 0.10000000149011612
+        },
+        "particle_number": {
+          "type": "INT",
+          "description": "Particle number factor (higher value results in more particles)",
+          "rna_default": 2
+        },
+        "particle_min": {
+          "type": "INT",
+          "description": "Minimum number of particles per cell (ensures that each cell has at least this amount of particles)",
+          "rna_default": 8
+        },
+        "particle_max": {
+          "type": "INT",
+          "description": "Maximum number of particles per cell (ensures that each cell has at most this amount of particles)",
+          "rna_default": 16
+        },
+        "particle_radius": {
+          "type": "FLOAT",
+          "description": "Particle radius factor. Increase this value if the simulation appears to leak volume, decrease it if the simulation seems to gain volume.",
+          "rna_default": 1.0
+        },
+        "particle_band_width": {
+          "type": "FLOAT",
+          "description": "Particle (narrow) band width (higher value results in thicker band and more particles)",
+          "rna_default": 3.0
+        },
+        "use_flip_particles": {
+          "type": "BOOLEAN",
+          "description": "Create liquid particle system",
+          "rna_default": false
+        },
+        "use_fractions": {
+          "type": "BOOLEAN",
+          "description": "Fractional obstacles improve and smoothen the fluid-obstacle boundary",
+          "rna_default": false
+        },
+        "fractions_threshold": {
+          "type": "FLOAT",
+          "description": "Determines how much fluid is allowed in an obstacle cell (higher values will tag a boundary cell as an obstacle easier and reduce the boundary smoothening effect)",
+          "rna_default": 0.05000000074505806
+        },
+        "fractions_distance": {
+          "type": "FLOAT",
+          "description": "Determines how far apart fluid and obstacle are (higher values will result in fluid being further away from obstacles, smaller values will let fluid move towards the inside of obstacles)",
+          "rna_default": 0.5
+        },
+        "sys_particle_maximum": {
+          "type": "INT",
+          "description": "Maximum number of fluid particles that are allowed in this simulation",
+          "rna_default": 0
+        },
+        "use_viscosity": {
+          "type": "BOOLEAN",
+          "description": "Simulate fluids with high viscosity using a special solver",
+          "rna_default": false
+        },
+        "viscosity_value": {
+          "type": "FLOAT",
+          "description": "Viscosity of liquid (higher values result in more viscous fluids, a value of 0 will still apply some viscosity)",
+          "rna_default": 0.05000000074505806
+        },
+        "use_diffusion": {
+          "type": "BOOLEAN",
+          "description": "Enable fluid diffusion settings (e.g. viscosity, surface tension)",
+          "rna_default": false
+        },
+        "surface_tension": {
+          "type": "FLOAT",
+          "description": "Surface tension of liquid (higher value results in greater hydrophobic behavior)",
+          "rna_default": 0.0
+        },
+        "viscosity_base": {
+          "type": "FLOAT",
+          "description": "Viscosity setting: value that is multiplied by 10 to the power of (exponent*-1)",
+          "rna_default": 1.0
+        },
+        "viscosity_exponent": {
+          "type": "INT",
+          "description": "Negative exponent for the viscosity value (to simplify entering small values e.g. 5*10^-6)",
+          "rna_default": 6
+        },
+        "mesh_concave_upper": {
+          "type": "FLOAT",
+          "description": "Upper mesh concavity bound (high values tend to smoothen and fill out concave regions)",
+          "rna_default": 3.5
+        },
+        "mesh_concave_lower": {
+          "type": "FLOAT",
+          "description": "Lower mesh concavity bound (high values tend to smoothen and fill out concave regions)",
+          "rna_default": 0.4000000059604645
+        },
+        "mesh_smoothen_pos": {
+          "type": "INT",
+          "description": "Positive mesh smoothening",
+          "rna_default": 1
+        },
+        "mesh_smoothen_neg": {
+          "type": "INT",
+          "description": "Negative mesh smoothening",
+          "rna_default": 1
+        },
+        "mesh_scale": {
+          "type": "INT",
+          "description": "The mesh simulation is scaled up by this factor (compared to the base resolution of the domain). For best meshing, it is recommended to adjust the mesh particle radius alongside this value.",
+          "rna_default": 2
+        },
+        "mesh_generator": {
+          "type": "ENUM",
+          "description": "Which particle level set generator to use",
+          "rna_default": "IMPROVED"
+        },
+        "use_mesh": {
+          "type": "BOOLEAN",
+          "description": "Enable fluid mesh (using amplification)",
+          "rna_default": true
+        },
+        "use_speed_vectors": {
+          "type": "BOOLEAN",
+          "description": "Caches velocities of mesh vertices. These will be used (automatically) when rendering with motion blur enabled.",
+          "rna_default": false
+        },
+        "mesh_particle_radius": {
+          "type": "FLOAT",
+          "description": "Particle radius factor (higher value results in larger (meshed) particles). Needs to be adjusted after changing the mesh scale.",
+          "rna_default": 2.0
+        },
+        "sndparticle_potential_min_wavecrest": {
+          "type": "FLOAT",
+          "description": "Lower clamping threshold for marking fluid cells as wave crests (lower value results in more marked cells)",
+          "rna_default": 2.0
+        },
+        "sndparticle_potential_max_wavecrest": {
+          "type": "FLOAT",
+          "description": "Upper clamping threshold for marking fluid cells as wave crests (higher value results in less marked cells)",
+          "rna_default": 8.0
+        },
+        "sndparticle_potential_min_trappedair": {
+          "type": "FLOAT",
+          "description": "Lower clamping threshold for marking fluid cells where air is trapped (lower value results in more marked cells)",
+          "rna_default": 5.0
+        },
+        "sndparticle_potential_max_trappedair": {
+          "type": "FLOAT",
+          "description": "Upper clamping threshold for marking fluid cells where air is trapped (higher value results in less marked cells)",
+          "rna_default": 20.0
+        },
+        "sndparticle_potential_min_energy": {
+          "type": "FLOAT",
+          "description": "Lower clamping threshold that indicates the fluid speed where cells start to emit particles (lower values result in generally more particles)",
+          "rna_default": 1.0
+        },
+        "sndparticle_potential_max_energy": {
+          "type": "FLOAT",
+          "description": "Upper clamping threshold that indicates the fluid speed where cells no longer emit more particles (higher value results in generally less particles)",
+          "rna_default": 5.0
+        },
+        "sndparticle_sampling_wavecrest": {
+          "type": "INT",
+          "description": "Maximum number of particles generated per wave crest cell per frame",
+          "rna_default": 200
+        },
+        "sndparticle_sampling_trappedair": {
+          "type": "INT",
+          "description": "Maximum number of particles generated per trapped air cell per frame",
+          "rna_default": 40
+        },
+        "sndparticle_bubble_buoyancy": {
+          "type": "FLOAT",
+          "description": "Amount of buoyancy force that rises bubbles (high value results in bubble movement mainly upwards)",
+          "rna_default": 0.5
+        },
+        "sndparticle_bubble_drag": {
+          "type": "FLOAT",
+          "description": "Amount of drag force that moves bubbles along with the fluid (high value results in bubble movement mainly along with the fluid)",
+          "rna_default": 0.6000000238418579
+        },
+        "sndparticle_life_min": {
+          "type": "FLOAT",
+          "description": "Lowest possible particle lifetime",
+          "rna_default": 10.0
+        },
+        "sndparticle_life_max": {
+          "type": "FLOAT",
+          "description": "Highest possible particle lifetime",
+          "rna_default": 25.0
+        },
+        "sndparticle_boundary": {
+          "type": "ENUM",
+          "description": "How particles that left the domain are treated",
+          "rna_default": "DELETE"
+        },
+        "sndparticle_combined_export": {
+          "type": "ENUM",
+          "description": "Determines which particle systems are created from secondary particles",
+          "rna_default": "OFF"
+        },
+        "sndparticle_potential_radius": {
+          "type": "INT",
+          "description": "Radius to compute potential for each cell (higher values are slower but create smoother potential grids)",
+          "rna_default": 2
+        },
+        "sndparticle_update_radius": {
+          "type": "INT",
+          "description": "Radius to compute position update for each particle (higher values are slower but particles move less chaotic)",
+          "rna_default": 2
+        },
+        "particle_scale": {
+          "type": "INT",
+          "description": "The particle simulation is scaled up by this factor (compared to the base resolution of the domain)",
+          "rna_default": 1
+        },
+        "use_spray_particles": {
+          "type": "BOOLEAN",
+          "description": "Create spray particle system",
+          "rna_default": false
+        },
+        "use_bubble_particles": {
+          "type": "BOOLEAN",
+          "description": "Create bubble particle system",
+          "rna_default": false
+        },
+        "use_foam_particles": {
+          "type": "BOOLEAN",
+          "description": "Create foam particle system",
+          "rna_default": false
+        },
+        "use_tracer_particles": {
+          "type": "BOOLEAN",
+          "description": "Create tracer particle system",
+          "rna_default": false
+        },
+        "guide_alpha": {
+          "type": "FLOAT",
+          "description": "Guiding weight (higher value results in greater lag)",
+          "rna_default": 2.0
+        },
+        "guide_beta": {
+          "type": "INT",
+          "description": "Guiding size (higher value results in larger vortices)",
+          "rna_default": 5
+        },
+        "guide_vel_factor": {
+          "type": "FLOAT",
+          "description": "Guiding velocity factor (higher value results in greater guiding velocities)",
+          "rna_default": 2.0
+        },
+        "guide_source": {
+          "type": "ENUM",
+          "description": "Choose where to get guiding velocities from",
+          "rna_default": "DOMAIN"
+        },
+        "guide_parent": {
+          "type": "POINTER",
+          "description": "Use velocities from this object for the guiding effect (object needs to have fluid modifier and be of type domain))",
+          "rna_default": null
+        },
+        "use_guide": {
+          "type": "BOOLEAN",
+          "description": "Enable fluid guiding",
+          "rna_default": false
+        },
+        "cache_frame_start": {
+          "type": "INT",
+          "description": "Frame on which the simulation starts (first frame baked)",
+          "rna_default": 1
+        },
+        "cache_frame_end": {
+          "type": "INT",
+          "description": "Frame on which the simulation stops (last frame baked)",
+          "rna_default": 250
+        },
+        "cache_frame_offset": {
+          "type": "INT",
+          "description": "Frame offset that is used when loading the simulation from the cache. It is not considered when baking the simulation, only when loading it.",
+          "rna_default": 0
+        },
+        "cache_frame_pause_data": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_frame_pause_noise": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_frame_pause_mesh": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_frame_pause_particles": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_frame_pause_guide": {
+          "type": "INT",
+          "description": "",
+          "rna_default": 0
+        },
+        "cache_mesh_format": {
+          "type": "ENUM",
+          "description": "Select the file format to be used for caching surface data",
+          "rna_default": "UNI"
+        },
+        "cache_data_format": {
+          "type": "ENUM",
+          "description": "Select the file format to be used for caching volumetric data",
+          "rna_default": "OPENVDB"
+        },
+        "cache_particle_format": {
+          "type": "ENUM",
+          "description": "Select the file format to be used for caching particle data",
+          "rna_default": "OPENVDB"
+        },
+        "cache_noise_format": {
+          "type": "ENUM",
+          "description": "Select the file format to be used for caching noise data",
+          "rna_default": "OPENVDB"
+        },
+        "cache_type": {
+          "type": "ENUM",
+          "description": "Change the cache type of the simulation",
+          "rna_default": "REPLAY"
+        },
+        "cache_resumable": {
+          "type": "BOOLEAN",
+          "description": "Additional data will be saved so that the bake jobs can be resumed after pausing. Because more data will be written to disk it is recommended to avoid enabling this option when baking at high resolutions.",
+          "rna_default": false
+        },
+        "cache_directory": {
+          "type": "STRING",
+          "description": "Directory that contains fluid cache files",
+          "rna_default": ""
+        },
+        "is_cache_baking_data": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_data": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_noise": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_noise": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_mesh": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_mesh": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_particles": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_particles": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_guide": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_guide": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "is_cache_baking_any": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "has_cache_baked_any": {
+          "type": "BOOLEAN",
+          "description": "",
+          "rna_default": false
+        },
+        "export_manta_script": {
+          "type": "BOOLEAN",
+          "description": "Generate and export Mantaflow script from current domain settings during bake. This is only needed if you plan to analyze the cache (e.g. view grids, velocity vectors, particles) in Mantaflow directly (outside of Blender) after baking the simulation.",
+          "rna_default": false
+        },
+        "openvdb_cache_compress_type": {
+          "type": "ENUM",
+          "description": "Compression method to be used",
+          "rna_default": "BLOSC"
+        },
+        "openvdb_data_depth": {
+          "type": "ENUM",
+          "description": "Bit depth for fluid particles and grids (lower bit values reduce file size)",
+          "rna_default": "NONE"
+        },
+        "time_scale": {
+          "type": "FLOAT",
+          "description": "Adjust simulation speed",
+          "rna_default": 1.0
+        },
+        "use_adaptive_timesteps": {
+          "type": "BOOLEAN",
+          "description": "Automatically decide when to perform multiple simulation steps per frame",
+          "rna_default": true
+        },
+        "cfl_condition": {
+          "type": "FLOAT",
+          "description": "Maximal velocity per cell (greater CFL numbers will minimize the number of simulation steps and the computation time.)",
+          "rna_default": 2.0
+        },
+        "timesteps_min": {
+          "type": "INT",
+          "description": "Minimum number of simulation steps to perform for one frame",
+          "rna_default": 1
+        },
+        "timesteps_max": {
+          "type": "INT",
+          "description": "Maximum number of simulation steps to perform for one frame",
+          "rna_default": 4
+        },
+        "use_slice": {
+          "type": "BOOLEAN",
+          "description": "Perform a single slice of the domain object",
+          "rna_default": false
+        },
+        "slice_axis": {
+          "type": "ENUM",
+          "description": "",
+          "rna_default": "AUTO"
+        },
+        "slice_per_voxel": {
+          "type": "FLOAT",
+          "description": "How many slices per voxel should be generated",
+          "rna_default": 5.0
+        },
+        "slice_depth": {
+          "type": "FLOAT",
+          "description": "Position of the slice",
+          "rna_default": 0.5
+        },
+        "display_thickness": {
+          "type": "FLOAT",
+          "description": "Thickness of smoke display in the viewport",
+          "rna_default": 1.0
+        },
+        "display_interpolation": {
+          "type": "ENUM",
+          "description": "Interpolation method to use for smoke/fire volumes in solid mode",
+          "rna_default": "LINEAR"
+        },
+        "show_gridlines": {
+          "type": "BOOLEAN",
+          "description": "Show gridlines",
+          "rna_default": false
+        },
+        "show_velocity": {
+          "type": "BOOLEAN",
+          "description": "Visualize vector fields",
+          "rna_default": false
+        },
+        "vector_display_type": {
+          "type": "ENUM",
+          "description": "",
+          "rna_default": "NEEDLE"
+        },
+        "vector_field": {
+          "type": "ENUM",
+          "description": "Vector field to be represented by the display vectors",
+          "rna_default": "FLUID_VELOCITY"
+        },
+        "vector_scale_with_magnitude": {
+          "type": "BOOLEAN",
+          "description": "Scale vectors with their magnitudes",
+          "rna_default": false
+        },
+        "vector_show_mac_x": {
+          "type": "BOOLEAN",
+          "description": "Show X-component of MAC Grid",
+          "rna_default": true
+        },
+        "vector_show_mac_y": {
+          "type": "BOOLEAN",
+          "description": "Show Y-component of MAC Grid",
+          "rna_default": true
+        },
+        "vector_show_mac_z": {
+          "type": "BOOLEAN",
+          "description": "Show Z-component of MAC Grid",
+          "rna_default": true
+        },
+        "vector_scale": {
+          "type": "FLOAT",
+          "description": "Multiplier for scaling the vectors",
+          "rna_default": 1.0
+        },
+        "use_color_ramp": {
+          "type": "BOOLEAN",
+          "description": "Render a simulation field while mapping its voxels values to the colors of a ramp or using a predefined color code",
+          "rna_default": false
+        },
+        "color_ramp_field": {
+          "type": "ENUM",
+          "description": "Simulation field to color map",
+          "rna_default": "NONE"
+        },
+        "color_ramp_field_scale": {
+          "type": "FLOAT",
+          "description": "Multiplier for scaling the selected field to color map",
+          "rna_default": 1.0
+        },
+        "clipping": {
+          "type": "FLOAT",
+          "description": "Value under which voxels are considered empty space to optimize rendering",
+          "rna_default": 9.999999974752427e-07
+        },
+        "gridlines_color_field": {
+          "type": "ENUM",
+          "description": "Simulation field to color map onto gridlines",
+          "rna_default": "NONE"
+        },
+        "gridlines_lower_bound": {
+          "type": "FLOAT",
+          "description": "Lower bound of the highlighting range",
+          "rna_default": 0.0
+        },
+        "gridlines_upper_bound": {
+          "type": "FLOAT",
+          "description": "Upper bound of the highlighting range",
+          "rna_default": 1.0
+        },
+        "gridlines_range_color": {
+          "type": "FLOAT",
+          "description": "Color used to highlight the range",
+          "rna_default": [
+            1.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "gridlines_cell_filter": {
+          "type": "ENUM",
+          "description": "Cell type to be highlighted",
+          "rna_default": "NONE"
+        },
+        "velocity_scale": {
+          "type": "FLOAT",
+          "description": "Factor to control the amount of motion blur",
+          "rna_default": 1.0
+        }
+      },
+      "readonly_small_diagnostics": {
+        "domain_resolution": [
+          0,
+          0,
+          0
+        ],
+        "start_point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cell_size": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "effector_weights": {
+        "properties": {
+          "apply_to_hair_growing": false,
+          "collection": null,
+          "gravity": 1.0,
+          "all": 1.0,
+          "force": 1.0,
+          "vortex": 1.0,
+          "magnetic": 1.0,
+          "wind": 1.0,
+          "curve_guide": 1.0,
+          "texture": 1.0,
+          "harmonic": 1.0,
+          "charge": 1.0,
+          "lennardjones": 1.0,
+          "boid": 1.0,
+          "turbulence": 1.0,
+          "drag": 1.0,
+          "smokeflow": 1.0
+        },
+        "metadata": {
+          "apply_to_hair_growing": {
+            "type": "BOOLEAN",
+            "description": "Use force fields when growing hair",
+            "rna_default": false
+          },
+          "collection": {
+            "type": "POINTER",
+            "description": "Limit effectors to this collection",
+            "rna_default": null
+          },
+          "gravity": {
+            "type": "FLOAT",
+            "description": "Global gravity weight",
+            "rna_default": 0.0
+          },
+          "all": {
+            "type": "FLOAT",
+            "description": "All effector's weight",
+            "rna_default": 0.0
+          },
+          "force": {
+            "type": "FLOAT",
+            "description": "Force effector weight",
+            "rna_default": 0.0
+          },
+          "vortex": {
+            "type": "FLOAT",
+            "description": "Vortex effector weight",
+            "rna_default": 0.0
+          },
+          "magnetic": {
+            "type": "FLOAT",
+            "description": "Magnetic effector weight",
+            "rna_default": 0.0
+          },
+          "wind": {
+            "type": "FLOAT",
+            "description": "Wind effector weight",
+            "rna_default": 0.0
+          },
+          "curve_guide": {
+            "type": "FLOAT",
+            "description": "Curve guide effector weight",
+            "rna_default": 0.0
+          },
+          "texture": {
+            "type": "FLOAT",
+            "description": "Texture effector weight",
+            "rna_default": 0.0
+          },
+          "harmonic": {
+            "type": "FLOAT",
+            "description": "Harmonic effector weight",
+            "rna_default": 0.0
+          },
+          "charge": {
+            "type": "FLOAT",
+            "description": "Charge effector weight",
+            "rna_default": 0.0
+          },
+          "lennardjones": {
+            "type": "FLOAT",
+            "description": "Lennard-Jones effector weight",
+            "rna_default": 0.0
+          },
+          "boid": {
+            "type": "FLOAT",
+            "description": "Boid effector weight",
+            "rna_default": 0.0
+          },
+          "turbulence": {
+            "type": "FLOAT",
+            "description": "Turbulence effector weight",
+            "rna_default": 0.0
+          },
+          "drag": {
+            "type": "FLOAT",
+            "description": "Drag effector weight",
+            "rna_default": 0.0
+          },
+          "smokeflow": {
+            "type": "FLOAT",
+            "description": "Fluid Flow effector weight",
+            "rna_default": 0.0
+          }
+        },
+        "readonly_small_diagnostics": {},
+        "effector_weights": null,
+        "skipped_readonly_or_collections": [
+          "rna_type"
+        ]
+      },
+      "skipped_readonly_or_collections": [
+        "rna_type",
+        "effector_weights",
+        "density_grid",
+        "velocity_grid",
+        "flame_grid",
+        "color_grid",
+        "heat_grid",
+        "temperature_grid",
+        "start_point",
+        "cell_size",
+        "domain_resolution",
+        "color_ramp"
+      ]
+    },
+    "flow": {
+      "properties": {
+        "density": 1.0,
+        "smoke_color": [
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "fuel_amount": 1.0,
+        "temperature": 1.0,
+        "particle_system": null,
+        "flow_type": "LIQUID",
+        "flow_behavior": "GEOMETRY",
+        "flow_source": "MESH",
+        "use_absolute": true,
+        "use_initial_velocity": true,
+        "velocity_factor": 1.0,
+        "velocity_normal": 0.0,
+        "velocity_random": 0.0,
+        "velocity_coord": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_density": 0.0,
+        "surface_distance": 0.0,
+        "use_plane_init": false,
+        "particle_size": 1.0,
+        "use_particle_size": true,
+        "use_inflow": true,
+        "subframes": 0,
+        "density_vertex_group": "",
+        "use_texture": false,
+        "texture_map_type": "AUTO",
+        "uv_layer": "",
+        "noise_texture": null,
+        "texture_size": 1.0,
+        "texture_offset": 0.0
+      },
+      "metadata": {
+        "density": {
+          "type": "FLOAT",
+          "description": "",
+          "rna_default": 1.0
+        },
+        "smoke_color": {
+          "type": "FLOAT",
+          "description": "Color of smoke",
+          "rna_default": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ]
+        },
+        "fuel_amount": {
+          "type": "FLOAT",
+          "description": "",
+          "rna_default": 1.0
+        },
+        "temperature": {
+          "type": "FLOAT",
+          "description": "Temperature difference to ambient temperature",
+          "rna_default": 1.0
+        },
+        "particle_system": {
+          "type": "POINTER",
+          "description": "Particle systems emitted from the object",
+          "rna_default": null
+        },
+        "flow_type": {
+          "type": "ENUM",
+          "description": "Change type of fluid in the simulation",
+          "rna_default": "SMOKE"
+        },
+        "flow_behavior": {
+          "type": "ENUM",
+          "description": "Change flow behavior in the simulation",
+          "rna_default": "GEOMETRY"
+        },
+        "flow_source": {
+          "type": "ENUM",
+          "description": "Change how fluid is emitted",
+          "rna_default": "NONE"
+        },
+        "use_absolute": {
+          "type": "BOOLEAN",
+          "description": "Only allow given density value in emitter area and will not add up",
+          "rna_default": true
+        },
+        "use_initial_velocity": {
+          "type": "BOOLEAN",
+          "description": "Fluid has some initial velocity when it is emitted",
+          "rna_default": false
+        },
+        "velocity_factor": {
+          "type": "FLOAT",
+          "description": "Multiplier of source velocity passed to fluid (source velocity is non-zero only if object is moving)",
+          "rna_default": 1.0
+        },
+        "velocity_normal": {
+          "type": "FLOAT",
+          "description": "Amount of normal directional velocity",
+          "rna_default": 0.0
+        },
+        "velocity_random": {
+          "type": "FLOAT",
+          "description": "Amount of random velocity",
+          "rna_default": 0.0
+        },
+        "velocity_coord": {
+          "type": "FLOAT",
+          "description": "Additional initial velocity in X, Y and Z direction (added to source velocity)",
+          "rna_default": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "volume_density": {
+          "type": "FLOAT",
+          "description": "Controls fluid emission from within the mesh (higher value results in greater emissions from inside the mesh)",
+          "rna_default": 0.0
+        },
+        "surface_distance": {
+          "type": "FLOAT",
+          "description": "Height (in domain grid units) of fluid emission above the mesh surface. Higher values result in emission further away from the mesh surface. If this value and the emitter size are smaller than the domain grid unit, fluid will not be created",
+          "rna_default": 1.0
+        },
+        "use_plane_init": {
+          "type": "BOOLEAN",
+          "description": "Treat this object as a planar and unclosed mesh. Fluid will only be emitted from the mesh surface and based on the surface emission value.",
+          "rna_default": false
+        },
+        "particle_size": {
+          "type": "FLOAT",
+          "description": "Particle size in simulation cells",
+          "rna_default": 1.0
+        },
+        "use_particle_size": {
+          "type": "BOOLEAN",
+          "description": "Set particle size in simulation cells or use nearest cell",
+          "rna_default": true
+        },
+        "use_inflow": {
+          "type": "BOOLEAN",
+          "description": "Control when to apply fluid flow",
+          "rna_default": true
+        },
+        "subframes": {
+          "type": "INT",
+          "description": "Number of additional samples to take between frames to improve quality of fast moving flows",
+          "rna_default": 0
+        },
+        "density_vertex_group": {
+          "type": "STRING",
+          "description": "Name of vertex group which determines surface emission rate",
+          "rna_default": ""
+        },
+        "use_texture": {
+          "type": "BOOLEAN",
+          "description": "Use a texture to control emission strength",
+          "rna_default": false
+        },
+        "texture_map_type": {
+          "type": "ENUM",
+          "description": "Texture mapping type",
+          "rna_default": "AUTO"
+        },
+        "uv_layer": {
+          "type": "STRING",
+          "description": "UV map name",
+          "rna_default": ""
+        },
+        "noise_texture": {
+          "type": "POINTER",
+          "description": "Texture that controls emission strength",
+          "rna_default": null
+        },
+        "texture_size": {
+          "type": "FLOAT",
+          "description": "Size of texture mapping",
+          "rna_default": 1.0
+        },
+        "texture_offset": {
+          "type": "FLOAT",
+          "description": "Z-offset of texture mapping",
+          "rna_default": 0.0
+        }
+      },
+      "readonly_small_diagnostics": {},
+      "effector_weights": null,
+      "skipped_readonly_or_collections": [
+        "rna_type"
+      ]
+    },
+    "objects": [
+      {
+        "name": "WATER08_Static_Head_Control_Domain",
+        "location": [
+          0.797341525554657,
+          -2.2114176750183105,
+          -6.054999828338623
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.797341525554657
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.2114176750183105
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -6.054999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "basis_world_bounds": [
+          [
+            -0.40265852212905884,
+            1.9973416328430176
+          ],
+          [
+            -3.2114176750183105,
+            -1.2114176750183105
+          ],
+          [
+            -6.559999942779541,
+            -5.549999713897705
+          ]
+        ],
+        "parent": null,
+        "object_animation": false,
+        "mesh_shape_keys": false,
+        "vertices": 8,
+        "polygons": 6,
+        "dimensions": [
+          2.3699846267700195,
+          1.9716659784317017,
+          0.4545897841453552
+        ],
+        "modifiers": [
+          {
+            "name": "One authorized closed static pool control",
+            "type": "FLUID",
+            "show_viewport": true,
+            "show_render": true
+          },
+          {
+            "name": "Liquid Particle System",
+            "type": "PARTICLE_SYSTEM",
+            "show_viewport": true,
+            "show_render": true
+          },
+          {
+            "name": "Foam Particle System",
+            "type": "PARTICLE_SYSTEM",
+            "show_viewport": true,
+            "show_render": true
+          },
+          {
+            "name": "Spray Particle System",
+            "type": "PARTICLE_SYSTEM",
+            "show_viewport": true,
+            "show_render": true
+          },
+          {
+            "name": "Bubble Particle System",
+            "type": "PARTICLE_SYSTEM",
+            "show_viewport": true,
+            "show_render": true
+          }
+        ]
+      },
+      {
+        "name": "WATER08_Complete_Connected_Initial_Pool",
+        "location": [
+          0.797341525554657,
+          -2.2114176750183105,
+          -6.165637016296387
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.797341525554657
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.2114176750183105
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -6.165637016296387
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "basis_world_bounds": [
+          [
+            -0.40265852212905884,
+            1.9973416328430176
+          ],
+          [
+            -3.2114176750183105,
+            -1.2114176750183105
+          ],
+          [
+            -6.5,
+            -5.771274089813232
+          ]
+        ],
+        "parent": null,
+        "object_animation": false,
+        "mesh_shape_keys": false,
+        "vertices": 127,
+        "polygons": 112,
+        "dimensions": [
+          2.4000000953674316,
+          2.0,
+          0.7287259697914124
+        ],
+        "modifiers": [
+          {
+            "name": "Mantaflow liquid source",
+            "type": "FLUID",
+            "show_viewport": true,
+            "show_render": true
+          }
+        ]
+      }
+    ],
+    "effectors": [
+      {
+        "object": {
+          "name": "HYBRID07_Exact_Local_Terrain_Top",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "basis_world_bounds": [
+            [
+              -1.25,
+              2.6500000953674316
+            ],
+            [
+              -3.8499999046325684,
+              -0.6000000238418579
+            ],
+            [
+              -8.0,
+              -5.980184078216553
+            ]
+          ],
+          "parent": null,
+          "object_animation": false,
+          "mesh_shape_keys": false,
+          "vertices": 64,
+          "polygons": 83,
+          "dimensions": [
+            3.9000000953674316,
+            3.25,
+            2.0198159217834473
+          ],
+          "modifiers": [
+            {
+              "name": "Local liquid collision",
+              "type": "FLUID",
+              "show_viewport": true,
+              "show_render": true
+            }
+          ]
+        },
+        "settings": {
+          "properties": {
+            "effector_type": "COLLISION",
+            "surface_distance": 0.0010000000474974513,
+            "use_plane_init": false,
+            "velocity_factor": 1.0,
+            "guide_mode": "OVERRIDE",
+            "use_effector": true,
+            "subframes": 0
+          },
+          "metadata": {
+            "effector_type": {
+              "type": "ENUM",
+              "description": "Change type of effector in the simulation",
+              "rna_default": "COLLISION"
+            },
+            "surface_distance": {
+              "type": "FLOAT",
+              "description": "Additional distance around mesh surface to consider as effector",
+              "rna_default": 0.0
+            },
+            "use_plane_init": {
+              "type": "BOOLEAN",
+              "description": "Treat this object as a planar, unclosed mesh",
+              "rna_default": false
+            },
+            "velocity_factor": {
+              "type": "FLOAT",
+              "description": "Multiplier of obstacle velocity",
+              "rna_default": 1.0
+            },
+            "guide_mode": {
+              "type": "ENUM",
+              "description": "How to create guiding velocities",
+              "rna_default": "OVERRIDE"
+            },
+            "use_effector": {
+              "type": "BOOLEAN",
+              "description": "Control when to apply the effector",
+              "rna_default": true
+            },
+            "subframes": {
+              "type": "INT",
+              "description": "Number of additional samples to take between frames to improve quality of fast moving effector objects",
+              "rna_default": 0
+            }
+          },
+          "readonly_small_diagnostics": {},
+          "effector_weights": null,
+          "skipped_readonly_or_collections": [
+            "rna_type"
+          ]
+        }
+      },
+      {
+        "object": {
+          "name": "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "basis_world_bounds": [
+            [
+              -0.7262936234474182,
+              12.235296249389648
+            ],
+            [
+              -8.203882217407227,
+              6.140589714050293
+            ],
+            [
+              -6.446503162384033,
+              -3.055000066757202
+            ]
+          ],
+          "parent": null,
+          "object_animation": false,
+          "mesh_shape_keys": false,
+          "vertices": 11877,
+          "polygons": 23750,
+          "dimensions": [
+            12.961589813232422,
+            14.34447193145752,
+            3.391503095626831
+          ],
+          "modifiers": [
+            {
+              "name": "Local liquid collision",
+              "type": "FLUID",
+              "show_viewport": true,
+              "show_render": true
+            }
+          ]
+        },
+        "settings": {
+          "properties": {
+            "effector_type": "COLLISION",
+            "surface_distance": 0.0010000000474974513,
+            "use_plane_init": false,
+            "velocity_factor": 1.0,
+            "guide_mode": "OVERRIDE",
+            "use_effector": true,
+            "subframes": 0
+          },
+          "metadata": {
+            "effector_type": {
+              "type": "ENUM",
+              "description": "Change type of effector in the simulation",
+              "rna_default": "COLLISION"
+            },
+            "surface_distance": {
+              "type": "FLOAT",
+              "description": "Additional distance around mesh surface to consider as effector",
+              "rna_default": 0.0
+            },
+            "use_plane_init": {
+              "type": "BOOLEAN",
+              "description": "Treat this object as a planar, unclosed mesh",
+              "rna_default": false
+            },
+            "velocity_factor": {
+              "type": "FLOAT",
+              "description": "Multiplier of obstacle velocity",
+              "rna_default": 1.0
+            },
+            "guide_mode": {
+              "type": "ENUM",
+              "description": "How to create guiding velocities",
+              "rna_default": "OVERRIDE"
+            },
+            "use_effector": {
+              "type": "BOOLEAN",
+              "description": "Control when to apply the effector",
+              "rna_default": true
+            },
+            "subframes": {
+              "type": "INT",
+              "description": "Number of additional samples to take between frames to improve quality of fast moving effector objects",
+              "rna_default": 0
+            }
+          },
+          "readonly_small_diagnostics": {},
+          "effector_weights": null,
+          "skipped_readonly_or_collections": [
+            "rna_type"
+          ]
+        }
+      }
+    ]
+  },
+  "differences": {
+    "scene": [
+      {
+        "property": "frame_range",
+        "factory": [
+          1,
+          250
+        ],
+        "static24": [
+          1,
+          24
+        ]
+      }
+    ],
+    "domain": [
+      {
+        "property": "cache_directory",
+        "factory": "C:\\Users\\zx\\AppData\\Local\\Temp\\blender_a20056\\cache_fluid_4b85f272",
+        "static24": "D:\\zx\\test\\project\\caches\\fluid_water08\\static_head24"
+      },
+      {
+        "property": "cache_frame_end",
+        "factory": 250,
+        "static24": 24
+      },
+      {
+        "property": "cache_frame_pause_data",
+        "factory": 0,
+        "static24": 24
+      },
+      {
+        "property": "cache_type",
+        "factory": "REPLAY",
+        "static24": "ALL"
+      },
+      {
+        "property": "delete_in_obstacle",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "effector_group",
+        "factory": null,
+        "static24": {
+          "id_type": "Collection",
+          "name": "HYBRID07_IMPACT_COLLISIONS"
+        }
+      },
+      {
+        "property": "flip_ratio",
+        "factory": 0.9700000286102295,
+        "static24": 0.9399999976158142
+      },
+      {
+        "property": "fluid_group",
+        "factory": null,
+        "static24": {
+          "id_type": "Collection",
+          "name": "WATER08_STATIC_INITIAL_ONLY"
+        }
+      },
+      {
+        "property": "has_cache_baked_any",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "has_cache_baked_data",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "has_cache_baked_guide",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "has_cache_baked_mesh",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "has_cache_baked_noise",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "has_cache_baked_particles",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "mesh_particle_radius",
+        "factory": 2.0,
+        "static24": 1.25
+      },
+      {
+        "property": "mesh_scale",
+        "factory": 2,
+        "static24": 1
+      },
+      {
+        "property": "resolution_max",
+        "factory": 32,
+        "static24": 96
+      },
+      {
+        "property": "timesteps_max",
+        "factory": 4,
+        "static24": 12
+      },
+      {
+        "property": "timesteps_min",
+        "factory": 1,
+        "static24": 2
+      },
+      {
+        "property": "use_bubble_particles",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "use_collision_border_top",
+        "factory": true,
+        "static24": false
+      },
+      {
+        "property": "use_foam_particles",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "use_fractions",
+        "factory": false,
+        "static24": true
+      },
+      {
+        "property": "use_spray_particles",
+        "factory": false,
+        "static24": true
+      }
+    ],
+    "effector_weights": [],
+    "flow": [
+      {
+        "property": "use_initial_velocity",
+        "factory": false,
+        "static24": true
+      }
+    ],
+    "effectors": [
+      {
+        "object": "HYBRID07_Exact_Local_Terrain_Top",
+        "differences": [
+          {
+            "property": "surface_distance",
+            "factory": 0.0,
+            "static24": 0.0010000000474974513
+          }
+        ]
+      },
+      {
+        "object": "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+        "differences": [
+          {
+            "property": "surface_distance",
+            "factory": 0.0,
+            "static24": 0.0010000000474974513
+          }
+        ]
+      }
+    ]
+  },
+  "new_bakes": 0,
+  "renders": 0,
+  "scene_files_written": 0,
+  "production_or_failed_cache_modified": false,
+  "date": "2026-09-21",
+  "summary": {
+    "adaptive_timesteps_enabled_in_both": true,
+    "primary_particle_radius_same_default": true,
+    "external_force_weights_equal": true,
+    "most_relevant_changed_collision_settings": [
+      "use_fractions False -> True",
+      "delete_in_obstacle False -> True"
+    ],
+    "unproven_root_cause": true,
+    "secondary_idempotent_steps": 18,
+    "secondary_probe_passed": true,
+    "inherited_nonzero_source_velocity_found": false
+  },
+  "proposed_control": {
+    "status": "EXECUTED_ONCE_CPU4_SEE_FOLLOWUP",
+    "name": "factory_cube_static12",
+    "source": "Fresh --factory-startup, no project helper or old cache",
+    "domain_xyz_m": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "initial_liquid_xyz_m": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "initial_liquid_volume_m3": 4,
+    "initial_surface_z_m": 0,
+    "effectors": 0,
+    "secondary_particles": false,
+    "secondary_setter": "Only assign when current differs; verify actual booleans and particle types after reopen",
+    "physical_settings": "Factory defaults recorded in factory.domain/flow; no fractions, no obstacle deletion, FLIP .97, adaptive1-4 CFL2",
+    "resolution": 32,
+    "grid": [
+      32,
+      32,
+      32
+    ],
+    "cells": 32768,
+    "cell_m": 0.0625,
+    "mesh_scale": 2,
+    "mesh_particle_radius": 2,
+    "frame_range": [
+      1,
+      12
+    ],
+    "fps": 24,
+    "threads": 8,
+    "cache_type": "ALL",
+    "cache_resumable_recommended": true,
+    "cache_resumable_reason": "Extra diagnostic state; must inspect actual exported grids, do not promise pressure/obstacle exist",
+    "all_prebake_saved_state_assertions_required": true,
+    "max_dynamic_volume_drift_from_f1_fraction": 0.03,
+    "max_dynamic_median_head_drift_from_f1_m": 0.0625,
+    "max_p95_dynamic_head_drift_from_f1_m": 0.125,
+    "first_frame_vs_initial_geometry_error_must_be_reported": true,
+    "not_final_water_quality_acceptance": true,
+    "estimated_seconds": [
+      15,
+      60
+    ],
+    "stop_limit_seconds": 90,
+    "estimated_cache_bytes": [
+      10000000,
+      60000000
+    ],
+    "prior_static24_seconds": 89.16302339999675,
+    "prior_static24_bytes": 355096749,
+    "linear_cell_frame_cost_seconds": 4.639376827316904,
+    "linear_cost_not_guaranteed": "Default mesh2 increases surface meshing plus startup/I/O overhead",
+    "no_automatic_extension": true
+  },
+  "report": "qa/water09-default-audit.md",
+  "execution_followup": {
+    "status": "FACTORY_MINIMAL_STATIC_PASS_NOT_COMPLEX_SCENE_PROOF",
+    "report": "qa/water09-default-audit-control-review.md",
+    "data": "qa/water09-default-audit-control.json",
+    "actual_threads": 4,
+    "actual_bakes": 1,
+    "renders": 0,
+    "no_extension": true
+  }
+}

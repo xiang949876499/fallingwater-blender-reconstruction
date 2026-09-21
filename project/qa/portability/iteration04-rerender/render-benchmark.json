@@ -1,0 +1,45 @@
+{
+  "scene": "D:\\zx\\test\\project\\qa\\portability\\iteration04-relocated-v2\\Fallingwater.blend",
+  "scene_bytes": 64669905,
+  "scene_sha256": "725916cd47ae337e71b36faee2a85f6c1dc5bd552ccffaeb087abc5370dcf7cb",
+  "blender_version": "5.2.1 LTS",
+  "engine": "CYCLES",
+  "device": {
+    "device": "CPU",
+    "backend": "CPU",
+    "devices": [],
+    "reason": "Explicit CPU request"
+  },
+  "resolution": [
+    960,
+    540
+  ],
+  "max_samples": 24,
+  "threads_mode": "FIXED",
+  "threads": 4,
+  "frame": 1,
+  "denoising": true,
+  "view_transform": "AgX",
+  "adaptive_threshold": 0.02500000037252903,
+  "exposure": 0.800000011920929,
+  "look": "None",
+  "runs": [
+    {
+      "camera": "CAM_HERO",
+      "room_id": "",
+      "reference": "",
+      "lens_mm": 42.0,
+      "clip_start": 0.019999999552965164,
+      "clip_end": 2500.0,
+      "png": "D:\\zx\\test\\project\\qa\\portability\\iteration04-rerender\\CAM_HERO.png",
+      "status": "PASS",
+      "exposure": 0.800000011920929,
+      "camera_settings": {},
+      "png_bytes": 1186105,
+      "seconds": 48.604
+    }
+  ],
+  "status": "PASS",
+  "scope": "Offline rendering only. Does not measure viewport FPS or establish visual acceptance.",
+  "camera_settings": null
+}

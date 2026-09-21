@@ -1,0 +1,205 @@
+{
+  "candidate_sha256": "7286427d1f47ae9219204ed5dd54a970387683c8b384d1b4259244a7b991d852",
+  "reports": [
+    {
+      "camera": "CAM_GUEST_B1_STAIR_A",
+      "status": "PASS_GEOMETRY_ONLY",
+      "reason": "Old camera was at L1; relocate to actual B1 platform and lower flight",
+      "old_location": [
+        1.6129599809646606,
+        40.037681579589844,
+        10.000200271606445
+      ],
+      "new_location": [
+        1.7942919731140137,
+        40.15776062011719,
+        7.639999866485596
+      ],
+      "support_z": 6.040000000000001,
+      "body_1p95_failures": [],
+      "eye_failures": [],
+      "target_first_hit": null,
+      "lowest_overhead": {
+        "clearance": 2.149998599999998,
+        "hit": {
+          "object": "GUEST_C10_P_L1_LEFT_APPROACH",
+          "location": [
+            1.794292,
+            40.1577606,
+            8.1899986
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9499989
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_A",
+      "status": "PASS_GEOMETRY_ONLY",
+      "reason": "Old pose above new upper-right flight belongs to wrong level; use northern L1 platform",
+      "old_location": [
+        2.8013999462127686,
+        38.1976318359375,
+        12.352869987487793
+      ],
+      "new_location": [
+        1.915179967880249,
+        40.38182067871094,
+        10.0
+      ],
+      "support_z": 8.4,
+      "body_1p95_failures": [],
+      "eye_failures": [],
+      "target_first_hit": null,
+      "lowest_overhead": {
+        "clearance": 2.142674099999999,
+        "hit": {
+          "object": "GUEST_C10_P_L2_NORTH",
+          "location": [
+            1.91518,
+            40.3818207,
+            10.5426741
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 1.9426737
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_STAIR_HALL_B",
+      "status": "PASS_GEOMETRY_ONLY",
+      "reason": "Old south flat0 floor was removed; use real low south arrival",
+      "old_location": [
+        2.3225200176239014,
+        34.38914108276367,
+        10.000200271606445
+      ],
+      "new_location": [
+        2.34879994392395,
+        37.047279357910156,
+        8.819999694824219
+      ],
+      "support_z": 7.220000000000001,
+      "body_1p95_failures": [],
+      "eye_failures": [],
+      "target_first_hit": null,
+      "lowest_overhead": {
+        "clearance": 2.4177992999999987,
+        "hit": {
+          "object": "GUEST_C10_P_UPPER_RETURN",
+          "location": [
+            2.3487999,
+            37.2272797,
+            9.6377993
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.2177989
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L2_HALL_A",
+      "status": "PASS_GEOMETRY_ONLY",
+      "reason": "Inspect source upper divider and south intermediate return; explicit nonplanar Hall camera",
+      "old_location": [
+        3.116179943084717,
+        44.48080062866211,
+        12.352869987487793
+      ],
+      "new_location": [
+        2.375080108642578,
+        37.521759033203125,
+        11.447800636291504
+      ],
+      "support_z": 9.8478,
+      "body_1p95_failures": [],
+      "eye_failures": [],
+      "target_first_hit": {
+        "object": "GUEST_C10_UPPER_SOURCE_SOLID_DIVIDER",
+        "location": [
+          2.3869512,
+          37.8727074,
+          11.2700148
+        ],
+        "normal": [
+          -0.3826702,
+          -0.923885,
+          0.0
+        ],
+        "distance": 0.393592
+      },
+      "lowest_overhead": {
+        "clearance": 3.0248740000000005,
+        "hit": {
+          "object": "GUEST_SERVICE_BEDROOM_ROOF",
+          "location": [
+            2.3750801,
+            37.521759,
+            12.872674
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.8248739
+        }
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_TERRACE_B",
+      "status": "PASS_GEOMETRY_ONLY",
+      "reason": "Old west paving camera retains former flat0 eye height; use actual intermediate front paving",
+      "old_location": [
+        8.321749687194824,
+        34.60179138183594,
+        10.000200271606445
+      ],
+      "new_location": [
+        8.235520362854004,
+        35.04391860961914,
+        9.325714111328125
+      ],
+      "support_z": 7.725714285714286,
+      "body_1p95_failures": [],
+      "eye_failures": [],
+      "target_first_hit": null,
+      "lowest_overhead": {
+        "clearance": 2.834285214285714,
+        "hit": {
+          "object": "GUEST_LOW_ARM_ROOF",
+          "location": [
+            8.2355204,
+            35.0439186,
+            10.5599995
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 2.634285
+        }
+      }
+    }
+  ],
+  "saved_camera_mutations": false,
+  "not_a_rerender_or_120_camera_acceptance": true,
+  "unchanged_notes": [
+    "CAM_CONNECTOR was an exterior free camera: no ground is not a collision failure. A separate grounded diagnostic is provided.",
+    "CarCourt A/B and original L2 Hall A marginal stone/body findings are not caused by the candidate geometry and are not reclassified as new regressions."
+  ],
+  "production_settings_hash": "f011c9462431e12137a49d3829a85586da0804a5a934086e03d7143c7d5dc1d0"
+}

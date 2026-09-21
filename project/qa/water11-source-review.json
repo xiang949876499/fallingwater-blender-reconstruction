@@ -1,0 +1,631 @@
+{
+  "status": "PAIRED_SOURCE_RAW_AUDIT_COMPLETE_COARSE_REPRODUCED_FINE_IMPROVED_BUT_FLOW_SCREEN_FAIL",
+  "arms": {
+    "S24": {
+      "actual_grid": [
+        24,
+        24,
+        19
+      ],
+      "actual_cell_m": 0.07500000298023224,
+      "source_cells": 33,
+      "expected_grid_match": true,
+      "expected_cell_match": true,
+      "lattice_origin_error_m": 5.862630647612832e-08,
+      "mesh_world_mapping_error_m": 2.4940836448257643e-07,
+      "time_units": {
+        "internal_time_per_scene_second": 2.499999989162792,
+        "m_s_per_raw_MAC_unit": 0.18750000663778996,
+        "basis": "actual config T differences / actual scene frame time; source velocity checked independently"
+      },
+      "supervisor_seconds": 27.8365282,
+      "solve_seconds": 0.8250109000000521,
+      "cache_bytes": 2694423,
+      "cache_files": 36,
+      "mesh_frames": 12,
+      "baked_scene_sha256": "f5077b49469de1038589cbc4736d1b981c1c8e46b7376249e53cb9cf898362be",
+      "source_velocity_f1_m_s": [
+        -1.5029296875,
+        -1.005615234375,
+        -7.1015625
+      ],
+      "source_velocity_median_f5_12_m_s": [
+        -1.5062255859375,
+        -1.00048828125,
+        -6.9169921875
+      ],
+      "source_velocity_relative_error_median_f5_12": 0.032048297243434366,
+      "source_vertical_change_f1_m_s": -0.40674400329589844,
+      "gravity_over_one24fps_step_m_s": -0.40875,
+      "author_geometry_volume_m3": 0.01458764930654643,
+      "f1_mesh_volume_m3": 0.013521068953918539,
+      "f1_phi_volume_proxy_m3": 0.033750004023313684,
+      "f1_mesh_relative_author_volume_error": -0.07311529981388076,
+      "f1_phi_relative_author_volume_error": 1.313601274207206,
+      "f1_is_not_true_t0": true,
+      "all12_meshes_closed": true,
+      "native_mesh_sections_bad_degree_total": 0,
+      "native_cache_hashes_unchanged": true,
+      "old_cache_hash_changes": [],
+      "planes": {
+        "-5.35": {
+          "source_stationary_geometry_area_m2": 0.044735608329021126,
+          "f1_phi_area_m2": 0.07971680321032201,
+          "f1_native_mesh_area_m2": 0.0525716840972551,
+          "f1_mesh_section_status": "CLOSED_SECTION",
+          "f1_Q_m3_s": 0.5661138803396084,
+          "f5_12_Q_median_m3_s": 0.5742984891783879,
+          "f5_12_Q_minmax_m3_s": [
+            0.5737070046116224,
+            0.5743072106500443
+          ],
+          "f5_12_phi_area_median_m2": 0.08340820975368862,
+          "f5_12_native_mesh_area_median_m2": 0.047793524892478234,
+          "f5_12_wet_mean_down_velocity_median_m_s": 6.885395225174345,
+          "Q_all12_m3_s": [
+            0.5661138803396084,
+            0.5781450037516629,
+            0.5766475210737245,
+            0.5731178133672469,
+            0.5737070046116224,
+            0.5743072106500443,
+            0.5742984891783879,
+            0.5742984891783879,
+            0.5742984891783879,
+            0.5742984891783879,
+            0.5742984891783879,
+            0.5742984891783879
+          ],
+          "phi_area_all12_m2": [
+            0.07971680321032201,
+            0.08393555354559812,
+            0.08375977228162829,
+            0.08323242848971879,
+            0.0833203191217037,
+            0.08340820975368862,
+            0.08340820975368862,
+            0.08340820975368862,
+            0.08340820975368862,
+            0.08340820975368862,
+            0.08340820975368862,
+            0.08340820975368862
+          ],
+          "native_mesh_area_all12_m2": [
+            0.0525716840972551,
+            0.04783053981171115,
+            0.04782223858720436,
+            0.047802261234392684,
+            0.047790537140155354,
+            0.047780227005514875,
+            0.047793949042914674,
+            0.04779367225129094,
+            0.047808126583602006,
+            0.047793377533665526,
+            0.04780849880096438,
+            0.0477932564076925
+          ]
+        },
+        "-5.58": {
+          "source_stationary_geometry_area_m2": 0.0,
+          "f1_phi_area_m2": 0.002373047063592825,
+          "f1_native_mesh_area_m2": 0.0,
+          "f1_mesh_section_status": "EMPTY",
+          "f1_Q_m3_s": 0.016852342634144885,
+          "f5_12_Q_median_m3_s": 0.6047600299607722,
+          "f5_12_Q_minmax_m3_s": [
+            0.6047600299607722,
+            0.6054248192723536
+          ],
+          "f5_12_phi_area_median_m2": 0.08507813176140211,
+          "f5_12_native_mesh_area_median_m2": 0.05343105349142302,
+          "f5_12_wet_mean_down_velocity_median_m_s": 7.108289961711844,
+          "Q_all12_m3_s": [
+            0.016852342634144885,
+            0.6081268592352185,
+            0.6074669634490284,
+            0.6054220043993669,
+            0.6054248192723536,
+            0.6048010335786845,
+            0.6047600299607722,
+            0.6047973837267318,
+            0.6047600299607722,
+            0.6047600299607722,
+            0.6047600299607722,
+            0.6047600299607722
+          ],
+          "phi_area_all12_m2": [
+            0.002373047063592825,
+            0.08481445986544733,
+            0.08542969428934177,
+            0.08516602239338703,
+            0.08516602239338703,
+            0.08507813176140211,
+            0.08507813176140211,
+            0.08507813176140211,
+            0.08507813176140211,
+            0.08507813176140211,
+            0.08507813176140211,
+            0.08507813176140211
+          ],
+          "native_mesh_area_all12_m2": [
+            0.0,
+            0.05238018596602578,
+            0.053225694180913496,
+            0.05327901081545705,
+            0.05344490683219194,
+            0.053520041852788025,
+            0.0533913292720849,
+            0.053304405418187484,
+            0.05343707626449257,
+            0.05342503071835347,
+            0.053441934338325114,
+            0.05340522819814153
+          ]
+        },
+        "-5.64": {
+          "source_stationary_geometry_area_m2": 0.0,
+          "f1_phi_area_m2": 0.0,
+          "f1_native_mesh_area_m2": 0.0,
+          "f1_mesh_section_status": "EMPTY",
+          "f1_Q_m3_s": 0.0,
+          "f5_12_Q_median_m3_s": 0.6077495404764108,
+          "f5_12_Q_minmax_m3_s": [
+            0.6077310292901565,
+            0.608424569785752
+          ],
+          "f5_12_phi_area_median_m2": 0.08455078796949259,
+          "f5_12_native_mesh_area_median_m2": 0.05415669494553205,
+          "f5_12_wet_mean_down_velocity_median_m_s": 7.187981981855657,
+          "Q_all12_m3_s": [
+            0.0,
+            0.5978111181271262,
+            0.6045768475358997,
+            0.6103169788635331,
+            0.6084148399061744,
+            0.608424569785752,
+            0.6077438814940653,
+            0.6078090323507788,
+            0.6077431143744565,
+            0.6077431143744565,
+            0.6077551994587562,
+            0.6077310292901565
+          ],
+          "phi_area_all12_m2": [
+            0.0,
+            0.08217774090589977,
+            0.08402344417758306,
+            0.08490235049743225,
+            0.0846386786014775,
+            0.0846386786014775,
+            0.08455078796949259,
+            0.08455078796949259,
+            0.08455078796949259,
+            0.08455078796949259,
+            0.08455078796949259,
+            0.08455078796949259
+          ],
+          "native_mesh_area_all12_m2": [
+            0.0,
+            0.05178988715909649,
+            0.054037212374525745,
+            0.054034756986102384,
+            0.05433627355498727,
+            0.05423597161148386,
+            0.05411361033179174,
+            0.054080071510830385,
+            0.05414001729427709,
+            0.054201475388443554,
+            0.05411672896757014,
+            0.054173372596787006
+          ]
+        },
+        "-5.68": {
+          "source_stationary_geometry_area_m2": 0.0,
+          "f1_phi_area_m2": 0.0,
+          "f1_native_mesh_area_m2": 0.0,
+          "f1_mesh_section_status": "EMPTY",
+          "f1_Q_m3_s": 0.0,
+          "f5_12_Q_median_m3_s": 0.6126457887401737,
+          "f5_12_Q_minmax_m3_s": [
+            0.6126136064559528,
+            0.6127091876428958
+          ],
+          "f5_12_phi_area_median_m2": 0.0846386786014775,
+          "f5_12_native_mesh_area_median_m2": 0.05431378017136956,
+          "f5_12_wet_mean_down_velocity_median_m_s": 7.23836665296756,
+          "Q_all12_m3_s": [
+            0.0,
+            0.5939832899865756,
+            0.6117163471146326,
+            0.6139843100960047,
+            0.6126483078137741,
+            0.6126798249750582,
+            0.6126408073883484,
+            0.6127091876428958,
+            0.6126432696665733,
+            0.6126432696665733,
+            0.6126729328771946,
+            0.6126136064559528
+          ],
+          "phi_area_all12_m2": [
+            0.0,
+            0.08094727205811086,
+            0.08437500670552273,
+            0.08481445986544733,
+            0.0846386786014775,
+            0.0846386786014775,
+            0.0846386786014775,
+            0.0846386786014775,
+            0.0846386786014775,
+            0.0846386786014775,
+            0.0846386786014775,
+            0.0846386786014775
+          ],
+          "native_mesh_area_all12_m2": [
+            0.0,
+            0.050346926340611775,
+            0.054029398650839555,
+            0.05428322598372881,
+            0.05452560629662295,
+            0.05434219787793371,
+            0.054239662718507,
+            0.05425190058221985,
+            0.05428536246480542,
+            0.05436495376400341,
+            0.05422365061117418,
+            0.05434622780632481
+          ]
+        }
+      },
+      "summary": {
+        "available_frames": 12,
+        "frame1_volume_data_available": true,
+        "frame1_mesh_available": true,
+        "Q_f5plus_median_m3_s": 0.6077495404764108,
+        "Q_f5plus_relative_design_error": 1.0297987017092427,
+        "Q_f5plus_CV": 0.00047541382982087624,
+        "not_terminal_only": true,
+        "no_automatic_pass_from_summary": true
+      },
+      "downstream_plane_relative_spread": 0.01296178772905536
+    },
+    "S48": {
+      "actual_grid": [
+        48,
+        48,
+        38
+      ],
+      "actual_cell_m": 0.03750000149011612,
+      "source_cells": 276,
+      "expected_grid_match": true,
+      "expected_cell_match": true,
+      "lattice_origin_error_m": 5.862630647612832e-08,
+      "mesh_world_mapping_error_m": 2.612659796316348e-07,
+      "time_units": {
+        "internal_time_per_scene_second": 2.499999989162792,
+        "m_s_per_raw_MAC_unit": 0.09375000331889498,
+        "basis": "actual config T differences / actual scene frame time; source velocity checked independently"
+      },
+      "supervisor_seconds": 34.7091705,
+      "solve_seconds": 5.303703600002336,
+      "cache_bytes": 7748027,
+      "cache_files": 36,
+      "mesh_frames": 12,
+      "baked_scene_sha256": "8135ca496122363889c8ee31be9edeafcce92a43c47aa0cb8e013c1b9d31d80d",
+      "source_velocity_f1_m_s": [
+        -1.31451416015625,
+        -0.832763671875,
+        -6.73828125
+      ],
+      "source_velocity_median_f5_12_m_s": [
+        -1.512542724609375,
+        -1.0118408203125,
+        -6.8935546875
+      ],
+      "source_velocity_relative_error_median_f5_12": 0.0287057255460664,
+      "source_vertical_change_f1_m_s": -0.04346275329589844,
+      "gravity_over_one24fps_step_m_s": -0.40875,
+      "author_geometry_volume_m3": 0.01458764930654643,
+      "f1_mesh_volume_m3": 0.01757038275099675,
+      "f1_phi_volume_proxy_m3": 0.02425781539175671,
+      "f1_mesh_relative_author_volume_error": 0.20446978000161908,
+      "f1_phi_relative_author_volume_error": 0.6629009158364292,
+      "f1_is_not_true_t0": true,
+      "all12_meshes_closed": true,
+      "native_mesh_sections_bad_degree_total": 0,
+      "native_cache_hashes_unchanged": true,
+      "old_cache_hash_changes": [],
+      "planes": {
+        "-5.35": {
+          "source_stationary_geometry_area_m2": 0.044735608329021126,
+          "f1_phi_area_m2": 0.06286377452721366,
+          "f1_native_mesh_area_m2": 0.05555781823442485,
+          "f1_mesh_section_status": "CLOSED_SECTION",
+          "f1_Q_m3_s": 0.3580747297297727,
+          "f5_12_Q_median_m3_s": 0.4532738006539904,
+          "f5_12_Q_minmax_m3_s": [
+            0.4532700764756535,
+            0.4533923104559339
+          ],
+          "f5_12_phi_area_median_m2": 0.0658960013306934,
+          "f5_12_native_mesh_area_median_m2": 0.05651718796669747,
+          "f5_12_wet_mean_down_velocity_median_m_s": 6.878595506649434,
+          "Q_all12_m3_s": [
+            0.3580747297297727,
+            0.45624192025594534,
+            0.4545068182563481,
+            0.45418346254308106,
+            0.4532700764756535,
+            0.45327831674583124,
+            0.4533923104559339,
+            0.4532738006539904,
+            0.45327007666495506,
+            0.4532700765391727,
+            0.4532738006539904,
+            0.4532783166025525
+          ],
+          "phi_area_all12_m2": [
+            0.06286377452721366,
+            0.0686425835802221,
+            0.06626953651662928,
+            0.06604980993666698,
+            0.0658960013306934,
+            0.0658960013306934,
+            0.06591797398868962,
+            0.0658960013306934,
+            0.0658960013306934,
+            0.0658960013306934,
+            0.0658960013306934,
+            0.0658960013306934
+          ],
+          "native_mesh_area_all12_m2": [
+            0.05555781823442485,
+            0.05886337899059246,
+            0.05674247999675108,
+            0.05654414610321379,
+            0.056505446112508184,
+            0.056526656708079215,
+            0.05651734349112125,
+            0.056517032442273685,
+            0.05651245232401103,
+            0.056513483098087014,
+            0.05652563392063137,
+            0.05652623818795233
+          ]
+        },
+        "-5.58": {
+          "source_stationary_geometry_area_m2": 0.0,
+          "f1_phi_area_m2": 0.0,
+          "f1_native_mesh_area_m2": 0.0,
+          "f1_mesh_section_status": "EMPTY",
+          "f1_Q_m3_s": 0.0,
+          "f5_12_Q_median_m3_s": 0.4698756006886519,
+          "f5_12_Q_minmax_m3_s": [
+            0.4695499074637677,
+            0.4699044840448857
+          ],
+          "f5_12_phi_area_median_m2": 0.06611572791065569,
+          "f5_12_native_mesh_area_median_m2": 0.05783494123273469,
+          "f5_12_wet_mean_down_velocity_median_m_s": 7.107066029735365,
+          "Q_all12_m3_s": [
+            0.0,
+            0.4106362498859972,
+            0.5074923565135431,
+            0.47410276964477727,
+            0.46971130610389605,
+            0.4698686634753209,
+            0.4695499074637677,
+            0.4699044840448857,
+            0.4698964781636886,
+            0.46985999988854543,
+            0.46989514982811187,
+            0.4698825379019829
+          ],
+          "phi_area_all12_m2": [
+            0.0,
+            0.06499512235284796,
+            0.07417969339527197,
+            0.06690674359851996,
+            0.06609375525265945,
+            0.06609375525265945,
+            0.06607178259466322,
+            0.06611572791065569,
+            0.06611572791065569,
+            0.06611572791065569,
+            0.06611572791065569,
+            0.06611572791065569
+          ],
+          "native_mesh_area_all12_m2": [
+            0.0,
+            0.055770078290824476,
+            0.06561635710786673,
+            0.058779029587812226,
+            0.05788619292787511,
+            0.057815572882852106,
+            0.057797369545249944,
+            0.05784926440989291,
+            0.05782357127457527,
+            0.05783659635576488,
+            0.05785344122923919,
+            0.05783328610970451
+          ]
+        },
+        "-5.64": {
+          "source_stationary_geometry_area_m2": 0.0,
+          "f1_phi_area_m2": 0.0,
+          "f1_native_mesh_area_m2": 0.0,
+          "f1_mesh_section_status": "EMPTY",
+          "f1_Q_m3_s": 0.0,
+          "f5_12_Q_median_m3_s": 0.46753327375013126,
+          "f5_12_Q_minmax_m3_s": [
+            0.4672866331741905,
+            0.46832006768498347
+          ],
+          "f5_12_phi_area_median_m2": 0.06506104032683664,
+          "f5_12_native_mesh_area_median_m2": 0.057042636204750696,
+          "f5_12_wet_mean_down_velocity_median_m_s": 7.186535187354243,
+          "Q_all12_m3_s": [
+            0.0,
+            0.37225162138655665,
+            0.5219642657602338,
+            0.4806530195393851,
+            0.46832006768498347,
+            0.4672866331741905,
+            0.4675407861629545,
+            0.4677380241544668,
+            0.4674558545958523,
+            0.467525761337308,
+            0.46759367265864543,
+            0.46738889836489633
+          ],
+          "phi_area_all12_m2": [
+            0.0,
+            0.057678227240103346,
+            0.07657471311686107,
+            0.06743408739042946,
+            0.06519287627481402,
+            0.06499512235284795,
+            0.06506104032683664,
+            0.06508301298483286,
+            0.06503906766884042,
+            0.06506104032683664,
+            0.06506104032683664,
+            0.06503906766884042
+          ],
+          "native_mesh_area_all12_m2": [
+            0.0,
+            0.04877861984700438,
+            0.06785285834710919,
+            0.06008716967912897,
+            0.05714831117234853,
+            0.05703649266877109,
+            0.05703089454876886,
+            0.057060605328233094,
+            0.0570712842246317,
+            0.05703920538787555,
+            0.057046067021625846,
+            0.05701858527834214
+          ]
+        },
+        "-5.68": {
+          "source_stationary_geometry_area_m2": 0.0,
+          "f1_phi_area_m2": 0.0,
+          "f1_native_mesh_area_m2": 0.0,
+          "f1_mesh_section_status": "EMPTY",
+          "f1_Q_m3_s": 0.0,
+          "f5_12_Q_median_m3_s": 0.4712075666662627,
+          "f5_12_Q_minmax_m3_s": [
+            0.470786632442634,
+            0.47156423410150317
+          ],
+          "f5_12_phi_area_median_m2": 0.06508301298483288,
+          "f5_12_native_mesh_area_median_m2": 0.05706468927952146,
+          "f5_12_wet_mean_down_velocity_median_m_s": 7.238442757075397,
+          "Q_all12_m3_s": [
+            0.0,
+            0.35941663024626264,
+            0.5222912634715585,
+            0.49398162844011473,
+            0.47156423410150317,
+            0.4713460047909393,
+            0.470786632442634,
+            0.471253642495072,
+            0.4711863228832515,
+            0.47122881044927384,
+            0.4711170720233646,
+            0.47108759699513625
+          ],
+          "phi_area_all12_m2": [
+            0.0,
+            0.05422851993469533,
+            0.07648682248487618,
+            0.0692578180041165,
+            0.06519287627481402,
+            0.06508301298483288,
+            0.06503906766884042,
+            0.0651049856428291,
+            0.06508301298483288,
+            0.0651049856428291,
+            0.06508301298483288,
+            0.06508301298483288
+          ],
+          "native_mesh_area_all12_m2": [
+            0.0,
+            0.04471054380781181,
+            0.06730078752872237,
+            0.06208118882034386,
+            0.057178473289316356,
+            0.0570550232247411,
+            0.05703216193517813,
+            0.05707435533430183,
+            0.05709565065760536,
+            0.05705346959393831,
+            0.057080592977437616,
+            0.05704117640203488
+          ]
+        }
+      },
+      "summary": {
+        "available_frames": 12,
+        "frame1_volume_data_available": true,
+        "frame1_mesh_available": true,
+        "Q_f5plus_median_m3_s": 0.46753327375013126,
+        "Q_f5plus_relative_design_error": 0.5614959269569744,
+        "Q_f5plus_CV": 0.0006370217373122874,
+        "not_terminal_only": true,
+        "no_automatic_pass_from_summary": true
+      },
+      "downstream_plane_relative_spread": 0.007825323080672627
+    }
+  },
+  "frames_per_arm": 12,
+  "source_scene_or_cache_changed": false,
+  "renders": 0,
+  "additional_bakes": 0,
+  "old_water09_FAIL_retained": true,
+  "natural_pool_boundary_and_initialization_test": "NOT_RUN",
+  "waterfall_join_visual_and_10second_status": "NOT_PASSED",
+  "comparison": {
+    "water10_fixed_window_median_Q_m3_s": 0.621348976408266,
+    "coarse_to_water10_ratio": 0.978113046857392,
+    "coarse_Q_over_design": 2.0297987017092427,
+    "fine_Q_over_design": 1.5614959269569744,
+    "fine_Q_vs_coarse_relative_change": -0.2307139000325117,
+    "reduction_of_absolute_design_error_fraction": 0.454751762626023,
+    "coarse_reproduction_prespecified20percent_gate": true,
+    "fine_prespecified10percent_Q_gate": false,
+    "source_native_Q_is_phi_MAC_flux_not_proved_particle_mass": true,
+    "inference": "Pool and its false X+ outlet are not necessary for near-twofold coarse phi/MAC flux. Finer grid reduces but does not remove bias; spatial refinement also changes adaptive substeps."
+  },
+  "next_minimal_change_proposal_only": {
+    "base": "S48 frozen geometry/velocity/grid/secondary/12frames",
+    "one_RNA_change": {
+      "particle_radius": [
+        1.0,
+        0.75
+      ]
+    },
+    "mesh_particle_radius_unchanged": 1.25,
+    "reason": "Native simulation phi/Q is inflated, not merely a mesh silhouette. Official script passes primary radius to unionParticleLevelset and adjustNumber, separate from meshing radius.",
+    "not_isolated_mechanism": "The single RNA affects particle-to-levelset reconstruction and resampling; result would not isolate those internals.",
+    "frames": 12,
+    "threads": 4,
+    "proposed_hard_limit_s": 90,
+    "solve_cost_estimate_s": [
+      3,
+      12
+    ],
+    "monitored_total_estimate_s": [
+      25,
+      45
+    ],
+    "authorization": "NOT_AUTHORIZED_NOT_PREPARED_NOT_BAKED",
+    "no_geometry_or_Q_renormalization": true,
+    "same_Q_screen_relative_error_max": 0.1,
+    "failure_action": "Preserve unchanged threshold and stop; no automatic radius sweep or natural-pool migration"
+  },
+  "primary_sources": [
+    "https://raw.githubusercontent.com/blender/blender/blender-v5.2-release/intern/mantaflow/intern/strings/liquid_script.h",
+    "https://raw.githubusercontent.com/blender/blender/blender-v5.2-release/extern/mantaflow/preprocessed/plugin/flip.cpp"
+  ]
+}

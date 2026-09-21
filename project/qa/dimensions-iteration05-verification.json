@@ -1,0 +1,40 @@
+{
+  "scene_sha256": "6bcfee7841c22e8e2b636352cfca79ae94968afb4235fc20cdc57e250ae046ff",
+  "tests": [
+    {
+      "test": "wrong_scene_hash_rejected",
+      "pass": true
+    },
+    {
+      "test": "missing_mesh_selector_rejected",
+      "pass": true
+    },
+    {
+      "test": "21_not_run_actual_and_difference_blank",
+      "pass": true
+    },
+    {
+      "test": "22_numeric_pass_12_precision_qualified",
+      "pass": true
+    },
+    {
+      "test": "old_bad_model_value_not_reused",
+      "pass": true,
+      "old_m": "3.3560654640049794",
+      "actual_mesh_m": "3.3527998998761177"
+    },
+    {
+      "test": "all_actual_rows_have_mesh_endpoint_evidence",
+      "pass": true
+    },
+    {
+      "test": "frozen_scene_not_changed",
+      "pass": true
+    },
+    {
+      "test": "overall_incomplete_despite_numeric_count",
+      "pass": true
+    }
+  ],
+  "status": "PASS"
+}

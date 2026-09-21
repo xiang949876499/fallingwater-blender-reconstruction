@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-20",
+  "scope": "Independent read-only separation of printed nominal values, reading precision, unknown survey accuracy, and actual endpoint correspondence. No production/audit/helper/CSV/source geometry mutation.",
+  "frozen_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration07.blend",
+  "frozen_scene_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "actual_measurement_report": "qa/dimension-precision07-actualmesh.json",
+  "tolerance_rule": "max(0.020 m,0.005*reference_m)",
+  "row_count": 10,
+  "rows": [
+    {
+      "id": "MAIN_LEVEL_2",
+      "printed_nominal_label": "9 ft 4 in",
+      "printed_nominal_m": 2.8448,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.02,
+      "original_record_preserved": {
+        "id": "MAIN_LEVEL_2",
+        "printed_label": "9 ft 4 in",
+        "reference_m": 2.8448,
+        "existing_uncertainty_m": 0.025,
+        "existing_tolerance_m": 0.02,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 2.8447999954223633,
+        "crop_ids": [
+          "M10_SECOND_DATUM"
+        ],
+        "existing_crops_actually_viewed": [],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C source-to-mesh correspondence, unless noted",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "MAIN_L1_TERRACE_W_slab",
+          "MAIN_L2_TERRACE_S_slab"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Printed target and terrace datum identity are explicit; a nominal-drawing-fidelity check need not inherit a 25mm image-reading error. Reclassification requires the integrator to approve separated uncertainty semantics; no threshold change and no claim of absolute survey accuracy."
+      },
+      "actual07_m": 2.8448000699281693,
+      "actual07_delta_m": 6.99281690330622e-08,
+      "endpoint_identity": "VERIFIED_RELATIVE_FINISHED_TERRACE_DATUMS",
+      "nominal_geo02_recommendation": "ELIGIBLE_NOMINAL_DRAWING_TARGET_PASS_SAME_TOLERANCE",
+      "official_ledger_changed": false,
+      "endpoint_basis": "NAMED_SAME_DATUM_LEVELS",
+      "eligibility_basis": "Explicitly readable nominal target, independently verified modeled endpoint identity, fresh actual evaluated geometry measurement within original tolerance; no assertion of absolute survey accuracy."
+    },
+    {
+      "id": "GUEST_POOL_WIDTH",
+      "printed_nominal_label": "13 ft 0 in",
+      "printed_nominal_m": 3.9624,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.02,
+      "original_record_preserved": {
+        "id": "GUEST_POOL_WIDTH",
+        "printed_label": "13 ft 0 in",
+        "reference_m": 3.9624,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.02,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 3.96240234375,
+        "crop_ids": [
+          "G01_POOL_LABEL"
+        ],
+        "existing_crops_actually_viewed": [],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "A clear inner-shell correspondence to printed pool dimensions",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_POOL_shell_26",
+          "GUEST_POOL_shell_08"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Pool label is clear and existing audit maps opposite inner-shell faces; drawing-target comparison can be reassessed independently of a generic 1in bucket. No statement that pool survey is accurate to 20mm."
+      },
+      "actual07_m": 3.96240234375,
+      "actual07_delta_m": 2.34374999985576e-06,
+      "endpoint_identity": "VERIFIED_OPPOSED_INNER_SHELL_FACES",
+      "nominal_geo02_recommendation": "ELIGIBLE_NOMINAL_DRAWING_TARGET_PASS_SAME_TOLERANCE",
+      "official_ledger_changed": false,
+      "endpoint_basis": "POOL_SHORT_AXIS_INNER_VERSUS_SEPARATE_OUTER_CHAIN",
+      "eligibility_basis": "Explicitly readable nominal target, independently verified modeled endpoint identity, fresh actual evaluated geometry measurement within original tolerance; no assertion of absolute survey accuracy."
+    },
+    {
+      "id": "GUEST_BOILER_DIM_1",
+      "printed_nominal_label": "4 ft 7 in",
+      "printed_nominal_m": 1.397,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.02,
+      "original_record_preserved": {
+        "id": "GUEST_BOILER_DIM_1",
+        "printed_label": "4 ft 7 in",
+        "reference_m": 1.397,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.02,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 1.3969955444335938,
+        "crop_ids": [],
+        "existing_crops_actually_viewed": [
+          "D:/zx/test/project/data/guest_refs/guest-01-boiler.png"
+        ],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C inferred room-label axis and finished-face interpretation from existing guest audit; not explicit surveyed extension endpoints.",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_L1_BOILER_SOUTH_pier_end",
+          "GUEST_L1_BOILER_NORTH_pier_end"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Keep endpoint interpretation separately C: these are nominal room labels without two witness lines. Clear digits remove the transcription-ambiguity explanation but do not promote guessed finished-face/axis semantics to A or automatically authorize strict PASS."
+      },
+      "actual07_m": null,
+      "actual07_delta_m": null,
+      "endpoint_identity": "C_ROOM_LABEL_AXIS_AND_FINISH_FACE_INTERPRETATION_UNRESOLVED",
+      "nominal_geo02_recommendation": "DO_NOT_PROMOTE_ENDPOINT_UNRESOLVED",
+      "official_ledger_changed": false
+    },
+    {
+      "id": "GUEST_BOILER_DIM_2",
+      "printed_nominal_label": "8 ft 2 in",
+      "printed_nominal_m": 2.4892,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.02,
+      "original_record_preserved": {
+        "id": "GUEST_BOILER_DIM_2",
+        "printed_label": "8 ft 2 in",
+        "reference_m": 2.4892,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.02,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 2.4891998767852783,
+        "crop_ids": [],
+        "existing_crops_actually_viewed": [
+          "D:/zx/test/project/data/guest_refs/guest-01-boiler.png"
+        ],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C inferred room-label axis and finished-face interpretation from existing guest audit; not explicit surveyed extension endpoints.",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_L1_BOILER_WEST_pier_end",
+          "GUEST_L1_BOILER_EAST_pier_end"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Keep endpoint interpretation separately C: these are nominal room labels without two witness lines. Clear digits remove the transcription-ambiguity explanation but do not promote guessed finished-face/axis semantics to A or automatically authorize strict PASS."
+      },
+      "actual07_m": null,
+      "actual07_delta_m": null,
+      "endpoint_identity": "C_ROOM_LABEL_AXIS_AND_FINISH_FACE_INTERPRETATION_UNRESOLVED",
+      "nominal_geo02_recommendation": "DO_NOT_PROMOTE_ENDPOINT_UNRESOLVED",
+      "official_ledger_changed": false
+    },
+    {
+      "id": "GUEST_GUEST_ROOM_LENGTH",
+      "printed_nominal_label": "15 ft 9 in",
+      "printed_nominal_m": 4.8006,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.024003,
+      "original_record_preserved": {
+        "id": "GUEST_GUEST_ROOM_LENGTH",
+        "printed_label": "15 ft 9 in",
+        "reference_m": 4.8006,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.024003,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 4.80059814453125,
+        "crop_ids": [],
+        "existing_crops_actually_viewed": [
+          "D:/zx/test/project/qa/guest-dimension-fixes-source-guestroom.png"
+        ],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C inferred room-label axis and finished-face interpretation from existing guest audit; not explicit surveyed extension endpoints.",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_L1_BATH_EAST_pier_end",
+          "GUEST_L1_BED_EAST_sill_1"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Keep endpoint interpretation separately C: these are nominal room labels without two witness lines. Clear digits remove the transcription-ambiguity explanation but do not promote guessed finished-face/axis semantics to A or automatically authorize strict PASS."
+      },
+      "actual07_m": null,
+      "actual07_delta_m": null,
+      "endpoint_identity": "C_ROOM_LABEL_AXIS_AND_FINISH_FACE_INTERPRETATION_UNRESOLVED",
+      "nominal_geo02_recommendation": "DO_NOT_PROMOTE_ENDPOINT_UNRESOLVED",
+      "official_ledger_changed": false
+    },
+    {
+      "id": "GUEST_GUEST_ROOM_DEPTH",
+      "printed_nominal_label": "14 ft 1 in",
+      "printed_nominal_m": 4.2926,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.021463000000000003,
+      "original_record_preserved": {
+        "id": "GUEST_GUEST_ROOM_DEPTH",
+        "printed_label": "14 ft 1 in",
+        "reference_m": 4.2926,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.021463000000000003,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 4.292598724365234,
+        "crop_ids": [],
+        "existing_crops_actually_viewed": [
+          "D:/zx/test/project/qa/guest-dimension-fixes-source-guestroom.png"
+        ],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C inferred room-label axis and finished-face interpretation from existing guest audit; not explicit surveyed extension endpoints.",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_L1_BED_FRONT_sill_0",
+          "GUEST_L1_NORTH_STONE_SPINE_pier_end"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Keep endpoint interpretation separately C: these are nominal room labels without two witness lines. Clear digits remove the transcription-ambiguity explanation but do not promote guessed finished-face/axis semantics to A or automatically authorize strict PASS."
+      },
+      "actual07_m": null,
+      "actual07_delta_m": null,
+      "endpoint_identity": "C_ROOM_LABEL_AXIS_AND_FINISH_FACE_INTERPRETATION_UNRESOLVED",
+      "nominal_geo02_recommendation": "DO_NOT_PROMOTE_ENDPOINT_UNRESOLVED",
+      "official_ledger_changed": false
+    },
+    {
+      "id": "GUEST_LAUNDRY_LENGTH",
+      "printed_nominal_label": "11 ft 7 in",
+      "printed_nominal_m": 3.5306,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.02,
+      "original_record_preserved": {
+        "id": "GUEST_LAUNDRY_LENGTH",
+        "printed_label": "11 ft 7 in",
+        "reference_m": 3.5306,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.02,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 3.530597686767578,
+        "crop_ids": [],
+        "existing_crops_actually_viewed": [
+          "D:/zx/test/project/data/guest_refs/guest-01-basement.png"
+        ],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C inferred room-label axis and finished-face interpretation from existing guest audit; not explicit surveyed extension endpoints.",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_B1_BASE_SOUTH_sill_0",
+          "GUEST_B1_BASE_NORTH_pier_end"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Keep endpoint interpretation separately C: these are nominal room labels without two witness lines. Clear digits remove the transcription-ambiguity explanation but do not promote guessed finished-face/axis semantics to A or automatically authorize strict PASS."
+      },
+      "actual07_m": null,
+      "actual07_delta_m": null,
+      "endpoint_identity": "C_ROOM_LABEL_AXIS_AND_FINISH_FACE_INTERPRETATION_UNRESOLVED",
+      "nominal_geo02_recommendation": "DO_NOT_PROMOTE_ENDPOINT_UNRESOLVED",
+      "official_ledger_changed": false
+    },
+    {
+      "id": "GUEST_LAUNDRY_DEPTH",
+      "printed_nominal_label": "9 ft 8 in",
+      "printed_nominal_m": 2.9464,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.02,
+      "original_record_preserved": {
+        "id": "GUEST_LAUNDRY_DEPTH",
+        "printed_label": "9 ft 8 in",
+        "reference_m": 2.9464,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.02,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 2.9464000463485718,
+        "crop_ids": [],
+        "existing_crops_actually_viewed": [
+          "D:/zx/test/project/data/guest_refs/guest-01-basement.png"
+        ],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C inferred room-label axis and finished-face interpretation from existing guest audit; not explicit surveyed extension endpoints.",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_B1_BASE_BATH_EAST_pier_end",
+          "GUEST_B1_BASE_EAST_pier_end"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Keep endpoint interpretation separately C: these are nominal room labels without two witness lines. Clear digits remove the transcription-ambiguity explanation but do not promote guessed finished-face/axis semantics to A or automatically authorize strict PASS."
+      },
+      "actual07_m": null,
+      "actual07_delta_m": null,
+      "endpoint_identity": "C_ROOM_LABEL_AXIS_AND_FINISH_FACE_INTERPRETATION_UNRESOLVED",
+      "nominal_geo02_recommendation": "DO_NOT_PROMOTE_ENDPOINT_UNRESOLVED",
+      "official_ledger_changed": false
+    },
+    {
+      "id": "GUEST_BASE_BATH_LENGTH",
+      "printed_nominal_label": "6 ft 8 in",
+      "printed_nominal_m": 2.032,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.02,
+      "original_record_preserved": {
+        "id": "GUEST_BASE_BATH_LENGTH",
+        "printed_label": "6 ft 8 in",
+        "reference_m": 2.032,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.02,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 2.0319976806640625,
+        "crop_ids": [],
+        "existing_crops_actually_viewed": [
+          "D:/zx/test/project/data/guest_refs/guest-01-basement.png"
+        ],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C inferred room-label axis and finished-face interpretation from existing guest audit; not explicit surveyed extension endpoints.",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_B1_BASE_SOUTH_pier_0_cork_lining",
+          "GUEST_B1_BASE_BATH_NORTH_pier_end_cork_lining"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Keep endpoint interpretation separately C: these are nominal room labels without two witness lines. Clear digits remove the transcription-ambiguity explanation but do not promote guessed finished-face/axis semantics to A or automatically authorize strict PASS."
+      },
+      "actual07_m": null,
+      "actual07_delta_m": null,
+      "endpoint_identity": "C_ROOM_LABEL_AXIS_AND_FINISH_FACE_INTERPRETATION_UNRESOLVED",
+      "nominal_geo02_recommendation": "DO_NOT_PROMOTE_ENDPOINT_UNRESOLVED",
+      "official_ledger_changed": false
+    },
+    {
+      "id": "GUEST_BASE_BATH_WIDTH",
+      "printed_nominal_label": "5 ft 1 in",
+      "printed_nominal_m": 1.5494,
+      "transcription_status": "UNAMBIGUOUS_VERIFIED_GLYPH",
+      "reading_uncertainty_m": null,
+      "reading_uncertainty_numeric_status": "NOT_QUANTIFIED_NOT_ASSUMED_ZERO",
+      "displayed_unit_increment_m": 0.0254,
+      "rounding_rule": "UNKNOWN",
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN_IN_REVIEWED_PRIMARY_MATERIAL",
+      "tolerance_m": 0.02,
+      "original_record_preserved": {
+        "id": "GUEST_BASE_BATH_WIDTH",
+        "printed_label": "5 ft 1 in",
+        "reference_m": 1.5494,
+        "existing_uncertainty_m": 0.0254,
+        "existing_tolerance_m": 0.02,
+        "existing_standard_result": "SOURCE_PRECISION_LIMIT",
+        "existing_numeric_result": "PASS",
+        "prior_audit_actual_mesh_m_not_new_measurement": 1.5493998527526855,
+        "crop_ids": [],
+        "existing_crops_actually_viewed": [
+          "D:/zx/test/project/data/guest_refs/guest-01-basement.png"
+        ],
+        "transcription_status": "UNAMBIGUOUS_AFTER_ORIGINAL_CROP_REVIEW",
+        "printed_increment_m": 0.0254,
+        "candidate_rounding_bound_if_nearest_inch_assumed_m": 0.0127,
+        "rounding_assumption_status": "NOT_ESTABLISHED_BY_SURVEY_METADATA; illustrative only, not substituted as audited uncertainty",
+        "as_built_survey_accuracy": "UNKNOWN",
+        "endpoint_mapping": "C inferred room-label axis and finished-face interpretation from existing guest audit; not explicit surveyed extension endpoints.",
+        "endpoint_object_pair_from_existing_mesh_audit": [
+          "GUEST_B1_BASE_BATH_WEST_pier_end_cork_lining",
+          "GUEST_B1_BASE_BATH_EAST_pier_end_cork_lining"
+        ],
+        "old_uncertainty_interpretation": "The stored 25/25.4mm is not supported as a glyph/transcription ambiguity by the reviewed source. Repeated integer-inch bucket; no per-label derivation found in the data. Cannot establish that it came from a specific generator default.",
+        "recommendation": "Keep endpoint interpretation separately C: these are nominal room labels without two witness lines. Clear digits remove the transcription-ambiguity explanation but do not promote guessed finished-face/axis semantics to A or automatically authorize strict PASS."
+      },
+      "actual07_m": null,
+      "actual07_delta_m": null,
+      "endpoint_identity": "C_ROOM_LABEL_AXIS_AND_FINISH_FACE_INTERPRETATION_UNRESOLVED",
+      "nominal_geo02_recommendation": "DO_NOT_PROMOTE_ENDPOINT_UNRESOLVED",
+      "official_ledger_changed": false
+    }
+  ],
+  "best_promotable_anchor_ids": [
+    "MAIN_LEVEL_2",
+    "GUEST_POOL_WIDTH"
+  ],
+  "promotable_scope": "Nominal drawing target fidelity only; existing ledger not reclassified by this report. Unknown survey absolute accuracy stays unknown.",
+  "remaining_eight_recommendation": "Preserve C endpoint identity and NULL new actual measurement; historical numeric PASS is not fresh07 or strictGEO02 acceptance.",
+  "basement_stair": {
+    "printed_nominal_label": "2 ft 5 in",
+    "printed_nominal_m": 0.7366,
+    "source_inner_pair": [
+      "Laundry east wall outer/east face",
+      "Outer rounded-end retaining wall inner/west face"
+    ],
+    "topology_matching_stair": "GUEST_LAUNDRY_DESCENT",
+    "left_model_object": "GUEST_B1_BASE_EAST_pier_end",
+    "left_model_east_face_x_m": 1.4076000452041626,
+    "right_model_object": null,
+    "right_model_status": "UNRESOLVED_NOT_PRESENT_AS_IDENTIFIED_WALL",
+    "actual_mesh_clear_wall_width_m": null,
+    "result": "NOT_RUN",
+    "excluded_substitutes": [
+      "0.83 m tread width",
+      "handrail center/edge",
+      "full-scene decorative-course bounding box"
+    ],
+    "geometry_changed": false
+  },
+  "viewed_source_records": [
+    {
+      "id": "G01_BASE_STAIR",
+      "source_path": "D:\\zx\\test\\project\\data\\guest_refs\\guest-01-original.tif",
+      "source_sha256": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+      "source_raw_size": [
+        17673,
+        13632
+      ],
+      "upright_normalized_canvas": [
+        1024,
+        790
+      ],
+      "upright_normalized_crop": [
+        270,
+        610,
+        325,
+        725
+      ],
+      "raw_native_crop": [
+        4660,
+        10526,
+        5609,
+        12510
+      ],
+      "post_crop_rotation_degrees": 0,
+      "source_file_sha256_verified_now": true,
+      "viewed_in_this_independent_audit": true
+    },
+    {
+      "id": "M10_SECOND_DATUM",
+      "source_path": "D:\\zx\\test\\research\\references\\architecture\\main-10-original.tif",
+      "source_sha256": "db6591996c049961a50ba593c002dc394d5708f1c15c5935e1c3671aed1e2ac7",
+      "source_raw_size": [
+        13632,
+        17702
+      ],
+      "upright_normalized_canvas": [
+        1024,
+        789
+      ],
+      "upright_normalized_crop": [
+        775,
+        198,
+        923,
+        282
+      ],
+      "raw_native_crop": [
+        3421,
+        1746,
+        4872,
+        4304
+      ],
+      "post_crop_rotation_degrees": -90,
+      "source_file_sha256_verified_now": true,
+      "viewed_in_this_independent_audit": true
+    },
+    {
+      "id": "G01_POOL_LABEL",
+      "source_path": "D:\\zx\\test\\project\\data\\guest_refs\\guest-01-original.tif",
+      "source_sha256": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+      "source_raw_size": [
+        17673,
+        13632
+      ],
+      "upright_normalized_canvas": [
+        1024,
+        790
+      ],
+      "upright_normalized_crop": [
+        751,
+        437,
+        849,
+        486
+      ],
+      "raw_native_crop": [
+        12961,
+        7541,
+        14653,
+        8386
+      ],
+      "post_crop_rotation_degrees": 0,
+      "source_file_sha256_verified_now": true,
+      "viewed_in_this_independent_audit": true
+    },
+    {
+      "path": "D:\\zx\\test\\project\\data\\guest_refs\\guest-01-boiler.png",
+      "sha256": "07bbd31b2a5c6b0ffa1b9de7afc89f9b94aab16239c32569a6bb385a6f3a3bf1",
+      "viewed_in_this_independent_audit": true
+    },
+    {
+      "path": "D:\\zx\\test\\project\\data\\guest_refs\\guest-01-basement.png",
+      "sha256": "9b708cc6c9c7a97cfe03f484e23edc30096d3f5dc70a20a4c94f23ccb8009def",
+      "viewed_in_this_independent_audit": true
+    },
+    {
+      "path": "D:\\zx\\test\\project\\qa\\guest-dimension-fixes-source-guestroom.png",
+      "sha256": "bfce23f57e0d64f758c25bcb56c89b1120458041e3788201b2c4f85e17afe2f7",
+      "viewed_in_this_independent_audit": true
+    },
+    {
+      "path": "D:\\zx\\test\\research\\references\\architecture\\main-10-sheet.jpg",
+      "sha256": "709e9906c911e936a5d392e9098d5726d055a624f413ee1ab7f1663b46175a27",
+      "viewed_in_this_independent_audit": true
+    },
+    {
+      "source_path": "D:\\zx\\test\\project\\data\\guest_refs\\guest-01-original.tif",
+      "source_sha256": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+      "raw_native_crop": [
+        11218,
+        6385,
+        16361,
+        9404
+      ],
+      "normalized_1024x790_box": [
+        650,
+        370,
+        948,
+        545
+      ],
+      "purpose": "Entire inner/outer pool and separate exterior length chain",
+      "viewed_in_this_independent_audit": true,
+      "source_file_sha256_verified_now": true
+    },
+    {
+      "source_path": "D:\\zx\\test\\research\\references\\architecture\\main-10-original.tif",
+      "source_sha256": "db6591996c049961a50ba593c002dc394d5708f1c15c5935e1c3671aed1e2ac7",
+      "raw_native_crop": [
+        3024,
+        1625,
+        5097,
+        12516
+      ],
+      "rotation_degrees": -90,
+      "purpose": "Sectioned floors plus labelled terrace datums",
+      "viewed_in_this_independent_audit": true,
+      "source_file_sha256_verified_now": true
+    }
+  ],
+  "primary_text_review": {
+    "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/data/pa1690data.pdf",
+    "pages_read": 4,
+    "survey_accuracy_statement": "NONE_FOUND_IN_THESE_FOUR_PAGES",
+    "field_records_status": "Addendum cover mentions field records; raw measurement/accuracy records not obtained",
+    "guest_item_fetch": "https://www.loc.gov/item/pa2187/ returned403; no new content inferred"
+  },
+  "rendered": false,
+  "gpu_used": false,
+  "cpu_threads": 4,
+  "report": "qa/dimension-precision07-review.md"
+}

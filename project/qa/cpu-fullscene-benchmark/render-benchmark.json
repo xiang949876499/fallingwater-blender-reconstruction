@@ -1,0 +1,52 @@
+{
+  "scene": "D:\\zx\\test\\project\\qa\\lighting-final-preview.blend",
+  "scene_bytes": 23118819,
+  "blender_version": "5.2.1 LTS",
+  "engine": "CYCLES",
+  "device": {
+    "device": "CPU",
+    "backend": "CPU",
+    "devices": [],
+    "reason": "Explicit CPU request"
+  },
+  "resolution": [
+    640,
+    360
+  ],
+  "max_samples": 16,
+  "frame": 1,
+  "denoising": true,
+  "view_transform": "AgX",
+  "exposure": 0.800000011920929,
+  "look": "None",
+  "runs": [
+    {
+      "camera": "CAM_HERO",
+      "room_id": "",
+      "reference": "",
+      "lens_mm": 42.0,
+      "clip_start": 0.019999999552965164,
+      "clip_end": 800.0,
+      "png": "D:\\zx\\test\\project\\qa\\cpu-fullscene-benchmark\\CAM_HERO.png",
+      "status": "PASS",
+      "exposure": 0.800000011920929,
+      "png_bytes": 492088,
+      "seconds": 3.765
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "room_id": "MAIN_L1_LIVING",
+      "reference": "HABS PA-5346 sheet 04",
+      "lens_mm": 28.0,
+      "clip_start": 0.019999999552965164,
+      "clip_end": 800.0,
+      "png": "D:\\zx\\test\\project\\qa\\cpu-fullscene-benchmark\\CAM_MAIN_L1_LIVING_B.png",
+      "status": "PASS",
+      "exposure": 2.4000000953674316,
+      "png_bytes": 328799,
+      "seconds": 3.087
+    }
+  ],
+  "status": "PASS",
+  "scope": "Offline rendering only. Does not measure viewport FPS or establish visual acceptance."
+}

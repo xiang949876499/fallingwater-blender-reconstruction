@@ -1,0 +1,168 @@
+{
+  "engineering_status": "PASS_LOCAL_INTERFACE_WITH_DOCUMENTED_SMALL_TRIANGULATION_SEAM",
+  "strict_mathematical_exact_zero_claimed": false,
+  "candidate12a_status": "FAIL_PRESERVED",
+  "candidate12a_report": "terrace12-independent-review.md",
+  "candidate12b_report": "terrace12-independent-12b-review.md",
+  "source_hashes_rechecked_unchanged": {
+    "D:\\zx\\test\\project\\scene\\Fallingwater_navigation_candidate11a.blend": "d66ded0f23b7d19c20b81d2f59f94aa5aa77747be4568e85e1d105395fc219ff",
+    "D:\\zx\\test\\project\\scene\\Fallingwater_terrace_interface_candidate12a.blend": "0499c4594e4143ebc8ae28735417ae17765e1ffdafe20285903f654768958fa1",
+    "D:\\zx\\test\\project\\scene\\Fallingwater_terrace_interface_candidate12b.blend": "285ea6d0c29b0ff483fb6f582c644f5286b23e83f1d894bedf32546fbca3a14c"
+  },
+  "non_target_objects_exact": 23432,
+  "total_objects": 23434,
+  "expected12b_markers_individually_reviewed": [
+    "/global/scene/custom_properties/terrace12b_slab_interface",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/custom_properties/terrace12b_slab_interface",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/custom_properties/terrace12b_slab_interface"
+  ],
+  "other_unexpected_state_changes": [],
+  "materials_cameras_keyframes_unchanged": true,
+  "empty_material_slots_added": 0,
+  "topology": {
+    "MAIN_L2_TERRACE_W_slab": {
+      "directed_edge_winding_mismatches": 0,
+      "unoriented_edge_degree_counts": {
+        "2": 303
+      },
+      "degenerate_triangle_count": 0
+    },
+    "MAIN_L2_TERRACE_S_slab": {
+      "directed_edge_winding_mismatches": 0,
+      "unoriented_edge_degree_counts": {
+        "2": 276
+      },
+      "degenerate_triangle_count": 0
+    }
+  },
+  "four_dimensions": {
+    "before": {
+      "PASS": 4,
+      "FAIL": 0,
+      "NOT_RUN": 0
+    },
+    "after": {
+      "PASS": 4,
+      "FAIL": 0,
+      "NOT_RUN": 0
+    }
+  },
+  "volume_results_literal_statuses_preserved": [
+    {
+      "part": "W",
+      "actual_slab_volume_m3": 9.37053756141235,
+      "actual_slab_inside_original_slab_volume_m3": 9.370537561412348,
+      "new_slab_volume_outside_original_slab_m3": 1.7763568394002505e-15,
+      "actual_parapet_volume_m3": 3.9276311653263014,
+      "actual_slab_parapet_overlap_m3": 1.2082300532528266e-07,
+      "before_union_volume_m3": 13.298168788200682,
+      "after_union_volume_m3": 13.298168605915647,
+      "lost_union_volume_m3": 1.8228503506634297e-07,
+      "edge_degree_counts": {
+        "2": 303
+      },
+      "degenerate_triangles": 0,
+      "slab_modifier_stack": [],
+      "closed_positive_status": "PASS",
+      "zero_intersection_status": "FAIL",
+      "same_union_status": "FAIL"
+    },
+    {
+      "part": "S",
+      "actual_slab_volume_m3": 13.922110137801118,
+      "actual_slab_inside_original_slab_volume_m3": 13.922110137801115,
+      "new_slab_volume_outside_original_slab_m3": 3.552713678800501e-15,
+      "actual_parapet_volume_m3": 5.981681059848092,
+      "actual_slab_parapet_overlap_m3": 6.457162773217363e-08,
+      "before_union_volume_m3": 19.90379129139442,
+      "after_union_volume_m3": 19.903791133077583,
+      "lost_union_volume_m3": 1.583168369734267e-07,
+      "edge_degree_counts": {
+        "2": 276
+      },
+      "degenerate_triangles": 0,
+      "slab_modifier_stack": [],
+      "closed_positive_status": "PASS",
+      "zero_intersection_status": "FAIL",
+      "same_union_status": "FAIL"
+    }
+  ],
+  "same_direction_coplanar_area_results": [
+    {
+      "part": "W",
+      "before_same_direction_coplanar_area_m2": 4.096565806041216,
+      "after_same_direction_coplanar_area_m2": 0,
+      "after_coplanar_pairs": [],
+      "plane_matching_tolerance_m": 1e-08,
+      "area_reporting_threshold_m2": 1e-12,
+      "shifted_world_origin": [
+        -10.187064150969187,
+        15.205638839138878,
+        3.098248741692967
+      ],
+      "reverse_order_and_shifted_overlap_m3": 1.2072295729162536e-07
+    },
+    {
+      "part": "S",
+      "before_same_direction_coplanar_area_m2": 5.300229936367413,
+      "after_same_direction_coplanar_area_m2": 0,
+      "after_coplanar_pairs": [],
+      "plane_matching_tolerance_m": 1e-08,
+      "area_reporting_threshold_m2": 1e-12,
+      "shifted_world_origin": [
+        3.078664060477372,
+        1.9411274044068305,
+        3.0850000315970116
+      ],
+      "reverse_order_and_shifted_overlap_m3": 6.297194804710592e-08
+    }
+  ],
+  "boundary_summary": [
+    {
+      "part": "W",
+      "maximum_sampled_boundary_distance_m": 5.08679172527924e-05,
+      "signed_boundary_sample_range_m": [
+        -7.366779448680789e-07,
+        5.086791725284692e-05
+      ],
+      "world_float32_coordinate_ULP_max_m": 1.9073486328125e-06,
+      "interface_sample_count": 2250,
+      "boundary_limit_statement": "Reported maximum is a sampled actual point-to-triangle distance (15 barycentric locations per matching triangle), not an exact continuous Hausdorff bound."
+    },
+    {
+      "part": "S",
+      "maximum_sampled_boundary_distance_m": 5.0860994614922985e-05,
+      "signed_boundary_sample_range_m": [
+        -2.8477391539947444e-07,
+        5.0860994615166294e-05
+      ],
+      "world_float32_coordinate_ULP_max_m": 4.76837158203125e-07,
+      "interface_sample_count": 2475,
+      "boundary_limit_statement": "Reported maximum is a sampled actual point-to-triangle distance (15 barycentric locations per matching triangle), not an exact continuous Hausdorff bound."
+    }
+  ],
+  "old_negative_witnesses_corrected": 20,
+  "actual_finish_support_points": 6009,
+  "actual_structure_occupancy_samples": 24036,
+  "introduced_missing_support": 0,
+  "body_clearance_or_dimension_thresholds_changed": false,
+  "images_actually_opened_by_reviewer": [
+    "D:\\zx\\test\\project\\renders\\previews\\integration11a\\CAM_HERO.png",
+    "D:\\zx\\test\\project\\renders\\previews\\terrace-interface12b\\CAM_HERO.png"
+  ],
+  "local_visual_result": "Conspicuous black band removed in the same camera view; no whole-exterior acceptance claim",
+  "review_artifact_sha256": {
+    "terrace12-independent-review.md": "98fe2ff810606be0e57ec06b33f56a366cc2904a791282088d021e640a375d24",
+    "terrace12-independent-12b-review.md": "2d0fb2b328160a23aa9ecc26845e00f6000f10c862744b67a54ac701413bab91",
+    "terrace12-independent-extract.py": "41efd03936fab393655b25cb362844451125f4d9d6278b498ed870e3bfeaa872",
+    "terrace12-independent-volume.py": "bd344449e5891d0c22ab23f66d2958e7bf68d14dbfc43c0f23a4085612658ef1",
+    "terrace12-independent-witness.py": "124eee9df93ee634a08b9a04a589999db3c28f9303fcee15a1c73b88eed9a956",
+    "terrace12-independent-12b-volume.py": "6156f1c9eff32bc2621210515954281f15d4919327925de4cf71d92edf644b96",
+    "terrace12-independent-12b-precision.py": "98a24c9211c6a33188c9eb35557d5d97e0e279e0e9f167aec50622414b249552",
+    "terrace12-independent-12b-boundary.py": "a04cea7bac3e9362e066c09d83ce93e660dd6a1d5de4207df82e6093dad4c380"
+  },
+  "rendered_by_reviewer": false,
+  "scene_saved_by_reviewer": false,
+  "production_modules_changed_by_reviewer": false,
+  "scope": "Two terrace slabs and their interfaces only; no new whole-scene navigation claim"
+}

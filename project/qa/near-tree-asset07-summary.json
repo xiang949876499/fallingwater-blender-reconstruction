@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-20",
+  "status": "ISOLATED_UNDERSTORY_CANDIDATE_ONLY",
+  "mature_tree_replacement": "NONE_CONFIRMED",
+  "vendor_preview_status": "NOT_VIEWED_TOOL_UNAVAILABLE",
+  "actual_scene_views_opened": [
+    {
+      "path": "renders\\previews\\iteration06-geology-baseline\\CAM_HERO.png",
+      "sha256": "5a02e60deb9752d61f2d7e7338a6cd06cbeb4033abcd642779a31e8e816a7c5a"
+    },
+    {
+      "path": "renders\\previews\\iteration06-geology-baseline\\CAM_WATER_DETAIL.png",
+      "sha256": "5e82360d8ebb6778142d56f41704ca9807ef02f142558f9c748891fcabe4f89c"
+    },
+    {
+      "path": "renders\\previews\\iteration07b-geology-candidate\\CAM_HERO.png",
+      "sha256": "00d11941e1d2293550a8f9ee32c396e2718ecefff98ce7cf0ca2e415207bbb37"
+    },
+    {
+      "path": "renders\\previews\\iteration07b-geology-candidate\\CAM_WATER_DETAIL.png",
+      "sha256": "55fe052cbc7a0fe8b6819b777098ea4e6a0be5c364b65c691adbad6758ae8121"
+    }
+  ],
+  "candidate": {
+    "asset": "fern_02",
+    "license": "CC0",
+    "license_url": "https://polyhaven.com/license",
+    "asset_url": "https://polyhaven.com/a/fern_02",
+    "source": "Poly Haven official API",
+    "files": [
+      {
+        "path": "assets\\candidates\\fern_02_2k\\fern_02_2k.blend",
+        "size": 262018,
+        "md5": "fa04e3968d9dbfba0fac542b8381788c",
+        "sha256": "cf721e00ed5bb72f0b9c3fb59b8febc7b2b9b2082f162d5a80ba3a11e4e7028d",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/fern_02/fern_02_2k.blend"
+      },
+      {
+        "path": "assets\\candidates\\fern_02_2k\\textures\\fern_02_diff_2k.jpg",
+        "size": 993703,
+        "md5": "ba8bbb9dc9ff55bdc081565cd926d776",
+        "sha256": "9ee18172170728050871772e2cd6d8d37b52f9138e61b49b04486623f9caf84b",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fern_02/fern_02_diff_2k.jpg"
+      },
+      {
+        "path": "assets\\candidates\\fern_02_2k\\textures\\fern_02_nor_gl_2k.exr",
+        "size": 2895843,
+        "md5": "4e1fa9220f53965604b406ba28e223b3",
+        "sha256": "2787b69707c37a4b90627085f36e818b13816c6587aa0d06c5c6d004ccde7557",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fern_02/fern_02_nor_gl_2k.exr"
+      },
+      {
+        "path": "assets\\candidates\\fern_02_2k\\textures\\fern_02_rough_2k.exr",
+        "size": 901394,
+        "md5": "beb315edeb84760a46dcc3d223b609fd",
+        "sha256": "877fd64af4d815a2522700c676b2c32c6f075ce8bca59c6a2d267309b2fca550",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fern_02/fern_02_rough_2k.exr"
+      },
+      {
+        "path": "assets\\candidates\\fern_02_2k\\textures\\fern_02_alpha_2k.png",
+        "size": 230089,
+        "md5": "ff18f7e8e869c58eac8f9c7d7c519f4a",
+        "sha256": "f51eb9b8f9f4b25a882f8fe12d1ef53ba69448bac7e71396ec1f05b684e9ea75",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fern_02/fern_02_alpha_2k.png"
+      }
+    ],
+    "total_bytes": 5283047,
+    "status": "ISOLATED_CANDIDATE_NOT_IN_PRODUCTION",
+    "preview": "NOT_VIEWED_TOOL_UNAVAILABLE"
+  },
+  "offline_audit": "qa/near-tree-asset07-offline-audit.json",
+  "mesh_unique_triangles": 6232,
+  "max24_instances_triangles": 57216,
+  "native_lods": false,
+  "memory": {
+    "decoded_model_MiB": 208,
+    "decoded_plus_mips_model_MiB": 277.3333333333333,
+    "planned_incremental_headroom_GiB": 0.4,
+    "actual_gpu_peak_bytes": null,
+    "actual_frame_rate": null
+  },
+  "production_changed": false,
+  "rendered": false,
+  "baked": false,
+  "review": "qa/near-tree-asset07-review.md"
+}

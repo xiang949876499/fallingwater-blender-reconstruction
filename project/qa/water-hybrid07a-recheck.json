@@ -1,0 +1,210 @@
+{
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_water_hybrid07a.blend",
+  "sha256": "27ebe009b8eb3bdd2cf1f379d687c062a0d3e5fd87e50afd2c4e37bb90532122",
+  "frame": 48,
+  "core_world_geometry_sha256": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+  "method": "Exact evaluated render loop_triangles for both rock and water; all branch vertices and all rendered triangle centroids; parity for negative nearest normal;0.5mm contact tolerance",
+  "sample_count": 17972,
+  "branch_triangles": 11980,
+  "core_triangles": 23750,
+  "confirmed_inside_count": 0,
+  "uncertain_count": 0,
+  "inside_examples": [],
+  "uncertain_examples": [],
+  "contact_distance_within1cm_m": {
+    "count": 537,
+    "min": 0.0,
+    "max": 0.009966139681637287,
+    "mean": 0.0037961637723267117
+  },
+  "prior_test_counterexamples": [
+    {
+      "point": [
+        1.5960853099822998,
+        -1.17264986038208,
+        -3.139214277267456
+      ],
+      "previous_polygon_bvh_depth_m": 0.000525485840626061,
+      "render_triangle_distance_m": 0.0,
+      "render_triangle_parity": [
+        1,
+        1,
+        1
+      ],
+      "render_normal_projection_m": 0.0
+    },
+    {
+      "point": [
+        1.5808303356170654,
+        -1.1548669338226318,
+        -3.1403403282165527
+      ],
+      "previous_polygon_bvh_depth_m": 0.0007736171828582883,
+      "render_triangle_distance_m": 0.0,
+      "render_triangle_parity": [
+        2,
+        2,
+        2
+      ],
+      "render_normal_projection_m": 0.0
+    },
+    {
+      "point": [
+        1.5742348432540894,
+        -1.1476479768753052,
+        -3.1409614086151123
+      ],
+      "previous_polygon_bvh_depth_m": 0.0005364767857827246,
+      "render_triangle_distance_m": 1.1920928955078125e-07,
+      "render_triangle_parity": [
+        1,
+        1,
+        1
+      ],
+      "render_normal_projection_m": -7.840164784056469e-08
+    }
+  ],
+  "continuous_topology": {
+    "vertices": 209139,
+    "faces": 209130,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 1262.2967357130028
+  },
+  "branch_topology": {
+    "vertices": 5992,
+    "faces": 5918,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 0.10671825412348657
+  },
+  "visible_water": {
+    "continuous_hide_render": false,
+    "continuous_hide_viewport": false,
+    "old_surface_hide_render": true
+  },
+  "status": "PASS_RENDER_TRIANGLE_CONTACT_CHECK",
+  "limitations": "Vertex and triangle-centroid sampling does not prove every point of every triangle is outside; no rendered visual review or animation pass",
+  "candidate_modified": "Status metadata only; source and all prototype mesh coordinates unchanged",
+  "render_started": false,
+  "bake_started": false,
+  "actual_upstream_join": {
+    "window": "s[-0.8,-0.2],c[-2,-0.8];31x41vertical rays; actual render triangles of evaluated source and union",
+    "matching_rays": 1271,
+    "unchanged_within0_5mm": 1211,
+    "locally_raised_count": 11,
+    "lowered_count": 49,
+    "top_delta_m": {
+      "count": 1271,
+      "min": -0.005944728851318359,
+      "max": 0.0027494430541992188,
+      "mean": -8.117261596967815e-05
+    },
+    "normal_angle_deg": {
+      "count": 1271,
+      "min": 0.0,
+      "max": 6.007563747697354,
+      "mean": 0.17635549864407224
+    },
+    "largest_deltas": [
+      {
+        "s": -0.8,
+        "c": -1.94,
+        "original_top_m": -3.0138072967529297,
+        "new_top_m": -3.019752025604248,
+        "delta_m": -0.005944728851318359,
+        "normal_angle_deg": 3.563153449418388
+      },
+      {
+        "s": -0.8,
+        "c": -1.97,
+        "original_top_m": -3.0146961212158203,
+        "new_top_m": -3.020059108734131,
+        "delta_m": -0.005362987518310547,
+        "normal_angle_deg": 3.285450550926952
+      },
+      {
+        "s": -0.78,
+        "c": -1.97,
+        "original_top_m": -3.0151326656341553,
+        "new_top_m": -3.0204849243164062,
+        "delta_m": -0.0053522586822509766,
+        "normal_angle_deg": 3.285450550926952
+      },
+      {
+        "s": -0.8,
+        "c": -1.91,
+        "original_top_m": -3.01291823387146,
+        "new_top_m": -3.0178463459014893,
+        "delta_m": -0.004928112030029297,
+        "normal_angle_deg": 3.563153449418388
+      },
+      {
+        "s": -0.78,
+        "c": -1.94,
+        "original_top_m": -3.0142438411712646,
+        "new_top_m": -3.0191431045532227,
+        "delta_m": -0.004899263381958008,
+        "normal_angle_deg": 3.563153449418388
+      },
+      {
+        "s": -0.76,
+        "c": -1.97,
+        "original_top_m": -3.0155696868896484,
+        "new_top_m": -3.0204403400421143,
+        "delta_m": -0.00487065315246582,
+        "normal_angle_deg": 3.563153449418388
+      },
+      {
+        "s": -0.8,
+        "c": -1.88,
+        "original_top_m": -3.0120294094085693,
+        "new_top_m": -3.0159401893615723,
+        "delta_m": -0.00391077995300293,
+        "normal_angle_deg": 3.563153449418388
+      },
+      {
+        "s": -0.78,
+        "c": -1.91,
+        "original_top_m": -3.013355016708374,
+        "new_top_m": -3.017237424850464,
+        "delta_m": -0.0038824081420898438,
+        "normal_angle_deg": 3.563153449418388
+      },
+      {
+        "s": -0.76,
+        "c": -1.94,
+        "original_top_m": -3.0146806240081787,
+        "new_top_m": -3.0185346603393555,
+        "delta_m": -0.003854036331176758,
+        "normal_angle_deg": 3.563153449418388
+      },
+      {
+        "s": -0.7400000000000001,
+        "c": -1.97,
+        "original_top_m": -3.0160064697265625,
+        "new_top_m": -3.019831418991089,
+        "delta_m": -0.003824949264526367,
+        "normal_angle_deg": 3.563153449418388
+      },
+      {
+        "s": -0.8,
+        "c": -2.0,
+        "original_top_m": -3.015584707260132,
+        "new_top_m": -3.0192267894744873,
+        "delta_m": -0.0036420822143554688,
+        "normal_angle_deg": 3.285450550926952
+      },
+      {
+        "s": -0.78,
+        "c": -2.0,
+        "original_top_m": -3.016021490097046,
+        "new_top_m": -3.0196526050567627,
+        "delta_m": -0.003631114959716797,
+        "normal_angle_deg": 3.285450550926952
+      }
+    ],
+    "interpretation": "Original source surface and its keys are untouched; any positive union delta here is a local authored branch crest, not a global upstream head change"
+  },
+  "pre_metadata_stamp_sha256": "1f968bbb9a2e039bf9b07eac5071d8f5379cb653e93a9b85a2737fdf1059be0b"
+}

@@ -1,0 +1,212 @@
+{
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_main_terrace_candidate11a.blend",
+  "candidate_sha256": "e856456005d3a4493e70122644d52192dd49c2d2ffc046248b1247484beb4750",
+  "helper_sha256": "161de367f61b96840c7b3478266aeb6729113348612e36b85890fb869b4d1d26",
+  "saved_object_fingerprints_match": false,
+  "material_content_match": false,
+  "saved_settings_match": true,
+  "camera_count": 129,
+  "all_original_camera_fingerprints_match": false,
+  "dimensions": [
+    {
+      "id": "WEST_X",
+      "a": {
+        "object": "MAIN_L2_west_parapet_0",
+        "face": 398,
+        "point": [
+          -13.294549942016602,
+          14.0,
+          3.0999999046325684
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 6.705450057983398
+      },
+      "b": {
+        "object": "MAIN_L2_dressing_shell_middle",
+        "face": 50,
+        "point": [
+          -4.474399566650391,
+          14.0,
+          4.0
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 5.525600433349609
+      },
+      "target_m": 8.82015,
+      "actual_m": 8.820150375366211,
+      "error_m": 3.7536621100286993e-07,
+      "tolerance_m": 0.04410075,
+      "pass": true
+    },
+    {
+      "id": "WEST_Y",
+      "a": {
+        "object": "MAIN_L2_west_parapet_0",
+        "face": 420,
+        "point": [
+          -10.0,
+          17.871326446533203,
+          3.0999999046325684
+        ],
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "distance": 7.128673076629639
+      },
+      "b": {
+        "object": "MAIN_L2_west_parapet_0",
+        "face": 400,
+        "point": [
+          -10.0,
+          12.527800559997559,
+          3.0999999046325684
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "distance": 4.527800559997559
+      },
+      "target_m": 5.343525,
+      "actual_m": 5.3435258865356445,
+      "error_m": 8.865356448950479e-07,
+      "tolerance_m": 0.026717625,
+      "pass": true
+    },
+    {
+      "id": "SOUTH_X",
+      "a": {
+        "object": "MAIN_L2_south_parapet_0",
+        "face": 341,
+        "point": [
+          -0.5916004180908203,
+          0.0,
+          3.0999999046325684
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "distance": 4.40839958190918
+      },
+      "b": {
+        "object": "MAIN_L2_south_parapet_0",
+        "face": 360,
+        "point": [
+          7.161750316619873,
+          0.0,
+          3.0999999046325684
+        ],
+        "normal": [
+          0.9999999403953552,
+          0.0,
+          0.0
+        ],
+        "distance": 7.838249683380127
+      },
+      "target_m": 7.75335,
+      "actual_m": 7.753350734710693,
+      "error_m": 7.347106931732128e-07,
+      "tolerance_m": 0.03876675,
+      "pass": true
+    }
+  ],
+  "mesh_checks": [
+    {
+      "object": "MAIN_L2_west_parapet_0",
+      "vertices": 432,
+      "faces": 430,
+      "edge_multiplicity": {
+        "2": 860
+      },
+      "signed_volume_m3": 3.92771209646571,
+      "pass": true
+    },
+    {
+      "object": "MAIN_L2_south_parapet_0",
+      "vertices": 364,
+      "faces": 362,
+      "edge_multiplicity": {
+        "2": 724
+      },
+      "signed_volume_m3": 5.981655226246167,
+      "pass": true
+    },
+    {
+      "object": "MAIN_L2_west_rounded_lip_0",
+      "vertices": 152,
+      "faces": 150,
+      "edge_multiplicity": {
+        "2": 300
+      },
+      "signed_volume_m3": 0.1896305656991897,
+      "pass": true
+    },
+    {
+      "object": "MAIN_L2_south_rounded_lip_0",
+      "vertices": 152,
+      "faces": 150,
+      "edge_multiplicity": {
+        "2": 300
+      },
+      "signed_volume_m3": 0.16615062336010555,
+      "pass": true
+    },
+    {
+      "object": "MAIN_L2_TERRACE_W_slab",
+      "vertices": 36,
+      "faces": 34,
+      "edge_multiplicity": {
+        "2": 68
+      },
+      "signed_volume_m3": 10.30718646446864,
+      "pass": true
+    },
+    {
+      "object": "MAIN_L2_TERRACE_S_slab",
+      "vertices": 16,
+      "faces": 14,
+      "edge_multiplicity": {
+        "2": 28
+      },
+      "signed_volume_m3": 15.240059206883112,
+      "pass": true
+    },
+    {
+      "object": "MAIN_L2_TERRACE_W_finish",
+      "vertices": 38,
+      "faces": 36,
+      "edge_multiplicity": {
+        "2": 72
+      },
+      "signed_volume_m3": 0.937064227958519,
+      "pass": true
+    },
+    {
+      "object": "MAIN_L2_TERRACE_S_finish",
+      "vertices": 16,
+      "faces": 14,
+      "edge_multiplicity": {
+        "2": 28
+      },
+      "signed_volume_m3": 1.3912760447710761,
+      "pass": true
+    }
+  ],
+  "rendered": false,
+  "saved": false,
+  "candidate_hash_unchanged": true,
+  "pass": false
+}

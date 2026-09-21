@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "source_sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+  "rendered": false,
+  "saved": false,
+  "first_apply": [
+    {
+      "light": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "excluded_object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+      "blocker_collection": "FW_EEVEE_SELF_EMITTER_28ed1988e362",
+      "link_state": "EXCLUDE",
+      "created": true,
+      "other_shadow_casters_preserved": true,
+      "energy_radius_pose_unchanged": true,
+      "scope": "EEVEE preview approximation; restore before Cycles rendering"
+    }
+  ],
+  "second_apply": [
+    {
+      "light": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+      "excluded_object": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_visible_emissive_filament",
+      "blocker_collection": "FW_EEVEE_SELF_EMITTER_28ed1988e362",
+      "link_state": "EXCLUDE",
+      "created": false,
+      "other_shadow_casters_preserved": true,
+      "energy_radius_pose_unchanged": true,
+      "scope": "EEVEE preview approximation; restore before Cycles rendering"
+    }
+  ],
+  "restore": [
+    "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy"
+  ],
+  "cycles_engine_guard": true,
+  "light_energy_radius_pose_and_shadow_flags_unchanged": true,
+  "cycles_surface_hash": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+  "glazing_geometry_hash": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+  "bulb_shadow_api": {
+    "material": "FW_service_clear_bulb_C",
+    "use_transparent_shadow": true,
+    "surface_render_method": "DITHERED",
+    "output_links": [
+      [
+        "Light Path",
+        "Is Shadow Ray",
+        "Mix Shader",
+        "Factor"
+      ],
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Mix Shader",
+        "Shader"
+      ],
+      [
+        "Transparent BSDF",
+        "BSDF",
+        "Mix Shader",
+        "Shader"
+      ],
+      [
+        "Mix Shader",
+        "Shader",
+        "Material Output",
+        "Surface"
+      ]
+    ],
+    "transparent_colors": [
+      [
+        "Transparent BSDF",
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    ]
+  }
+}

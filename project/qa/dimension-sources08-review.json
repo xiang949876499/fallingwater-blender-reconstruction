@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded independent source-only review; production geometry/data, central audit and CSV unchanged. New TIFF and analysis images only under project/qa/dimension-sources08*.",
+  "candidate_count": 3,
+  "mesh_measurements_performed": 0,
+  "rendered": false,
+  "central_audit_mutated": false,
+  "candidates": [
+    {
+      "result": "NOT_RUN",
+      "actual_mesh_m": null,
+      "printed_value_evidence": "A directly transcribed from original TIFF crop",
+      "endpoint_model_correspondence": "UNVERIFIED; suggestions only, no evaluated mesh measurements performed",
+      "reading_uncertainty_m": null,
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "pixel_locator_evidence": "C locator only; neither source pixel scaling nor this locator supplies nominal target precision",
+      "tolerance_rule": "max(0.020,0.005*reference_m)",
+      "tolerance_m": 0.02,
+      "id": "SOURCE08_GUEST_THEATER_NORTH_BAY",
+      "category": "openings",
+      "source": "HABS PA-5346-A sheet 1",
+      "source_url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_sha256": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+      "printed_label": "8 ft 1 7/8 in",
+      "reference_m": 2.486025,
+      "crop_ids": [
+        "guest01bays",
+        "G01_NORTH_GLYPH"
+      ],
+      "tick_points_normalized_px_approx": [
+        [
+          191.7,
+          126.3
+        ],
+        [
+          215.9,
+          167.6
+        ]
+      ],
+      "endpoint_semantics": "Opposed masonry reveal planes enclosing the entire north glazed/door bay. Dimension is along the slanting bay, not one glass pane or door leaf; frame consumes some rough opening.",
+      "prospective_selectors": [
+        "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0",
+        "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+        "GUEST_L1_THEATER_WEST_*"
+      ],
+      "measurement_requirements": "Intersect the actual opposing structural reveal faces with this bay axis at a common height. Establish source correspondence from transformed geometry first, include any finish face actually represented by the source; report Euclidean in-plane distance rather than X/Y span.",
+      "existing_model_limit": "Data represents three percent openings in one straight THEATER_WEST wall; source bays are staggered and partly diagonal. Current door percentage span is not a valid substitute for this rough bay."
+    },
+    {
+      "result": "NOT_RUN",
+      "actual_mesh_m": null,
+      "printed_value_evidence": "A directly transcribed from original TIFF crop",
+      "endpoint_model_correspondence": "UNVERIFIED; suggestions only, no evaluated mesh measurements performed",
+      "reading_uncertainty_m": null,
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "pixel_locator_evidence": "C locator only; neither source pixel scaling nor this locator supplies nominal target precision",
+      "tolerance_rule": "max(0.020,0.005*reference_m)",
+      "tolerance_m": 0.02,
+      "id": "SOURCE08_GUEST_THEATER_MIDDLE_BAY",
+      "category": "openings",
+      "source": "HABS PA-5346-A sheet 1",
+      "source_url": "https://www.loc.gov/pictures/item/pa2187.sheet.00001a/",
+      "source_sha256": "70b5a22493be9568d04eafc94cb382fda17b1344f5a7c777973081df75f4a8b4",
+      "printed_label": "7 ft 1 1/8 in",
+      "reference_m": 2.162175,
+      "crop_ids": [
+        "guest01bays",
+        "G01_MIDDLE_GLYPH"
+      ],
+      "tick_points_normalized_px_approx": [
+        [
+          202.4,
+          185.0
+        ],
+        [
+          223.4,
+          220.5
+        ]
+      ],
+      "endpoint_semantics": "Opposed stone reveal faces enclosing the middle full glazed bay. Numerator is 1, not 7; retained masonry pier lengths are different labels.",
+      "prospective_selectors": [
+        "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+        "GUEST_L1_CARPORT_RETAINED_PIER_1_pier_end",
+        "GUEST_L1_THEATER_WEST_*"
+      ],
+      "measurement_requirements": "Measure the full bay between actual opposing reveal planes along its own diagonal, after source-to-mesh verification. Do not use the straight-wall .31-.54 fraction or one pane.",
+      "existing_model_limit": "Same staggered-source versus straight-current-wall issue as north bay. This is a separate labeled opening but geometrically correlated with retained-pier placement."
+    },
+    {
+      "result": "NOT_RUN",
+      "actual_mesh_m": null,
+      "printed_value_evidence": "A directly transcribed from original TIFF crop",
+      "endpoint_model_correspondence": "UNVERIFIED; suggestions only, no evaluated mesh measurements performed",
+      "reading_uncertainty_m": null,
+      "survey_absolute_accuracy_m": null,
+      "survey_absolute_accuracy_status": "UNKNOWN",
+      "pixel_locator_evidence": "C locator only; neither source pixel scaling nor this locator supplies nominal target precision",
+      "tolerance_rule": "max(0.020,0.005*reference_m)",
+      "tolerance_m": 0.02,
+      "id": "SOURCE08_MAIN_BRIDGE_SOUTH_STONE_GAP",
+      "category": "site",
+      "source": "HABS PA-5346 sheet 4 original TIFF",
+      "source_url": "https://www.loc.gov/pictures/item/pa1690.sheet.00004a/",
+      "source_sha256": "3db8199eeb84cd4226cfbae2ea9192880454c1012afa6e33bf84bae6449d8d56",
+      "printed_label": "13 ft 3 in",
+      "reference_m": 4.0386,
+      "crop_ids": [
+        "main04bridge"
+      ],
+      "tick_points_normalized_px_approx": [
+        [
+          812.3,
+          651.8
+        ],
+        [
+          889.4,
+          651.8
+        ]
+      ],
+      "endpoint_semantics": "The 13 ft 3 in bottom-chain interval is between the two inward ends of the south-bank stone returns beside the bridge approach. Both witness lines run up to these inward stone faces. It is not the un-arrowed 14 ft 3 in BRIDGE label, deck outside width, nor the clear distance between the thin bridge edge rails.",
+      "prospective_selectors": [
+        "SITE_Bridge_Abutment_0_-3.6",
+        "SITE_Bridge_Abutment_1_-3.6",
+        "SITE_Bridge_Parapet_*"
+      ],
+      "measurement_requirements": "First identify whether the two south stone returns terminating at the dimension witnesses exist in evaluated meshes. If they do, select opposing X-normal inward end faces at matching vertical station; ray hit points determine X difference. If absent/misrepresented, keep NOT_RUN and repair from source; never substitute deck X extrema.",
+      "existing_model_limit": "site.py creates a rectangular deck, continuous masonry parapet and four rectangular longitudinal abutments. Those structures may not contain the source south return end faces; source-to-mesh match unresolved. Bbox [25.36,29.71,-4.2,6.7] is configuration, not independent measurement."
+    }
+  ],
+  "source_crops_metadata": "dimension-sources08-crops.json",
+  "new_main05_review": "COMPLETED_HIGH_RESOLUTION_ORIGINAL; projected plan span verified, cantilever category not established",
+  "overclaim_controls": [
+    "Architectural openings here are full masonry bays, not individual door-leaf clear passages.",
+    "Printed nominal consistency is distinct from absolute survey accuracy; unknown does not become zero.",
+    "No source-only candidate grants GEO-02 PASS.",
+    "No bridge span is recategorized as building cantilever."
+  ],
+  "review_completed_local_date": "2026-09-21",
+  "additional_main05_projection_candidate": {
+    "id": "SOURCE08_MAIN_WEST_TERRACE_PROJECTION",
+    "category": "plan_projection_NOT_VERIFIED_CANTILEVER",
+    "source": "HABS PA-5346 sheet 5 original TIFF",
+    "source_url": "https://www.loc.gov/pictures/item/pa1690.sheet.00005a/",
+    "download_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1600/pa1690/sheet/00005a.tif",
+    "source_path": "dimension-sources08-main05-original.tif",
+    "source_sha256": "b8ecfc0128d9f5452e768032afd766976eb1e1b39cf85924a256e45baf50c891",
+    "source_bytes": 30143777,
+    "printed_label": "28 ft 11 1/4 in",
+    "reference_m": 8.82015,
+    "printed_value_evidence": "A; original native glyph actually viewed",
+    "source_endpoints_evidence": "A for plan projection: two explicit witness lines run to the west free slab/parapet outside edge and Dressing Room west masonry outside face. Not A for actual below-slab bearing/root identity.",
+    "tick_points_normalized_px_approx": [
+      [
+        74.5,
+        601.3
+      ],
+      [
+        242.3,
+        601.3
+      ]
+    ],
+    "crop_ids": [
+      "main05-west-native",
+      "main05-west-dimension",
+      "main05-west-glyph",
+      "main05-west-wall",
+      "main04-support-context",
+      "main04-kitchen-bearing"
+    ],
+    "do_not_substitute_label": "TERRACE 28 ft 3 in x16 ft 2 in is an un-arrowed room-style label and a different quantity.",
+    "prospective_projection_selectors": [
+      "MAIN_L2_TERRACE_W_slab evaluated west outer face",
+      "MAIN_L2_dressing_shell_south evaluated west outer face",
+      "MAIN_L2_dressing_shell_middle evaluated west outer face"
+    ],
+    "measurement_requirements": "For this nominal plan projection only, verify which actual slab/parapet outside surface the west witness uses and select the right-side exterior masonry plane. Measure X difference in the independently registered source axes. Do not use the terrace finished-floor bound if it is inset from the witnessed slab/parapet outside edge.",
+    "cantilever_category_status": "NOT_ESTABLISHED; do not count as support-face-to-free-edge cantilever",
+    "cantilever_reason": "Main04 source context contains additional Servants Sitting Room masonry pier/walls west of the Dressing wall under the L2 terrace projection. Upper-room west wall cannot be assumed to be the nearest supporting face below the entire terrace. Actual load-bearing/root station requires another validated source correspondence; no such printed dimension was found in this bounded review.",
+    "prohibited_derivation": "Do not subtract nearby main04 10 ft 11 in from main05 28 ft 11 1/4 in to manufacture a precise cantilever length: common endpoint registration, structural support status and cross-level face identity are not established.",
+    "result": "NOT_RUN",
+    "actual_mesh_m": null,
+    "reading_uncertainty_m": null,
+    "survey_absolute_accuracy_m": null,
+    "survey_absolute_accuracy_status": "UNKNOWN",
+    "tolerance_rule": "max(0.020,0.005*reference_m)",
+    "tolerance_m": 0.04410075
+  },
+  "additional_projection_candidate_count": 1,
+  "cantilever_conclusion": "NO_ELIGIBLE_SUPPORT_FACE_TO_FREE_EDGE_ANCHOR_FOUND",
+  "source_search_scope": {
+    "saved_jpeg_overviews_actually_viewed": [
+      "main03",
+      "main04",
+      "main05",
+      "main06",
+      "main07",
+      "main08",
+      "main09",
+      "main10",
+      "main11",
+      "guest01",
+      "guest02",
+      "guest03"
+    ],
+    "original_tiff_crops_actually_viewed": [
+      "main04",
+      "guest01",
+      "guest02",
+      "new_main05"
+    ],
+    "new_original_downloads": 1,
+    "further_search_started": false
+  },
+  "scoped_neat_freak": {
+    "scope": "Only owned dimension-sources08 artifacts reconciled. Shared docs/config not edited, per integrator ownership.",
+    "status": "COMPLETED",
+    "pending_markers_in_current_report": false,
+    "new_files_outside_owned_prefix": false
+  }
+}

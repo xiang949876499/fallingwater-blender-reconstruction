@@ -1,0 +1,327 @@
+{
+  "status": "READ_ONLY_TEXTURE_AND_RENDER_PIXEL_STATISTICS",
+  "textures": [
+    {
+      "file": "assets\\textures\\forrest_ground_01_diff_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "md5": "18fa30c294be21805159ca6e73a5e5fa",
+      "stats": {
+        "mean_rgb": [
+          0.567775860033171,
+          0.5294625712470181,
+          0.3655370777590847
+        ],
+        "channel_std": [
+          0.10100514830676625,
+          0.08531863470768528,
+          0.10953958216686806
+        ],
+        "mean_channel_range": 0.21470749050963164,
+        "white_gt_095_allchannels_fraction": 0.0,
+        "mean_luma_709_encoded_not_scene_linear": 0.5257725558045336
+      },
+      "linear_mean_rgb": [
+        0.29475673197195784,
+        0.2509999280480392,
+        0.12252154132309961
+      ],
+      "linear_mean_rgb_after_current_multiply": [
+        0.2505432221770405,
+        0.23091993380527975,
+        0.09801723305812331
+      ]
+    },
+    {
+      "file": "assets\\textures\\forrest_ground_01_rough_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "md5": "a4c7ecc9cef47f5d097d4553e421ed6a",
+      "stats": {
+        "min": 0.8666666666666667,
+        "max": 1.0,
+        "mean": 0.9365112753475416,
+        "p05_p50_p95": [
+          0.9019607843137255,
+          0.9254901960784314,
+          1.0
+        ]
+      }
+    },
+    {
+      "file": "assets\\textures\\forrest_ground_01_disp_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "md5": "50750c4535f53817d141412e819f7aea",
+      "stats": {
+        "min": 0.0,
+        "max": 0.9803921568627451,
+        "mean": 0.37176976577908344,
+        "p05_p50_p95": [
+          0.19215686274509805,
+          0.3764705882352941,
+          0.5294117647058824
+        ]
+      }
+    }
+  ],
+  "render_patches": [
+    {
+      "camera": "CAM_HERO",
+      "box_xyxy": [
+        55,
+        390,
+        150,
+        485
+      ],
+      "stats": {
+        "mean_rgb": [
+          0.6314068763239988,
+          0.6656490141763651,
+          0.6009594264299066
+        ],
+        "channel_std": [
+          0.05426815592438068,
+          0.04224796731722866,
+          0.052974568749012844
+        ],
+        "mean_channel_range": 0.06526967573733093,
+        "white_gt_095_allchannels_fraction": 0.0,
+        "mean_luma_709_encoded_not_scene_linear": 0.6536985474335996
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "box_xyxy": [
+        65,
+        170,
+        155,
+        260
+      ],
+      "stats": {
+        "mean_rgb": [
+          0.6653720648753608,
+          0.6841312030985457,
+          0.5974868070685198
+        ],
+        "channel_std": [
+          0.026758327448159033,
+          0.01879786503933738,
+          0.04267346625938963
+        ],
+        "mean_channel_range": 0.08767029774872911,
+        "white_gt_095_allchannels_fraction": 0.0,
+        "mean_luma_709_encoded_not_scene_linear": 0.6738872849189058
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "box_xyxy": [
+        350,
+        175,
+        420,
+        255
+      ],
+      "stats": {
+        "mean_rgb": [
+          0.6903389355741654,
+          0.7064698879551062,
+          0.6280896358542972
+        ],
+        "channel_std": [
+          0.020187684786691525,
+          0.014429836781696806,
+          0.03345346101110428
+        ],
+        "mean_channel_range": 0.07880182072829131,
+        "white_gt_095_allchannels_fraction": 0.0,
+        "mean_luma_709_encoded_not_scene_linear": 0.6973813932773109
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "box_xyxy": [
+        450,
+        175,
+        550,
+        205
+      ],
+      "stats": {
+        "mean_rgb": [
+          0.7716091503267882,
+          0.8050117647058842,
+          0.7814653594771273
+        ],
+        "channel_std": [
+          0.07997880917813799,
+          0.0734824302367922,
+          0.0793712418085357
+        ],
+        "mean_channel_range": 0.0365437908496732,
+        "white_gt_095_allchannels_fraction": 0.0,
+        "mean_luma_709_encoded_not_scene_linear": 0.7962103184313725
+      }
+    }
+  ],
+  "ray_summary": [
+    {
+      "camera": "CAM_HERO",
+      "pixel": [
+        100,
+        415
+      ],
+      "world": [
+        -13.539332389831543,
+        -1.2022514343261719,
+        -1.331688642501831
+      ],
+      "first_hit": "SITE_Continuous_BearRun_Terrain",
+      "distance_m": 29.396392822265625,
+      "mm_per_pixel": [
+        36.16,
+        32.5
+      ],
+      "exposure_multiplier": 1.7411011409788943
+    },
+    {
+      "camera": "CAM_HERO",
+      "pixel": [
+        220,
+        470
+      ],
+      "world": [
+        -9.797348976135254,
+        -0.3792285919189453,
+        -3.276012420654297
+      ],
+      "first_hit": "SITE_Continuous_BearRun_Terrain",
+      "distance_m": 32.052921295166016,
+      "mm_per_pixel": [
+        40.9,
+        33.23
+      ],
+      "exposure_multiplier": 1.7411011409788943
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "pixel": [
+        110,
+        210
+      ],
+      "world": [
+        24.34354019165039,
+        14.778884887695312,
+        1.463396430015564
+      ],
+      "first_hit": "SITE_Continuous_BearRun_Terrain",
+      "distance_m": 11.4545316696167,
+      "mm_per_pixel": [
+        12.93,
+        15.16
+      ],
+      "exposure_multiplier": 1.7411011409788943
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "pixel": [
+        320,
+        260
+      ],
+      "world": [
+        24.45424461364746,
+        11.976259231567383,
+        0.7338834404945374
+      ],
+      "first_hit": "SITE_Continuous_BearRun_Terrain",
+      "distance_m": 11.001229286193848,
+      "mm_per_pixel": [
+        16.12,
+        18.5
+      ],
+      "exposure_multiplier": 1.7411011409788943
+    },
+    {
+      "camera": "CAM_MAIN_L1_LOGGIA_B",
+      "pixel": [
+        380,
+        170
+      ],
+      "world": [
+        26.019275665283203,
+        11.120222091674805,
+        2.065682888031006
+      ],
+      "first_hit": "SITE_Continuous_BearRun_Terrain",
+      "distance_m": 12.481142044067383,
+      "mm_per_pixel": [
+        24.44,
+        23.48
+      ],
+      "exposure_multiplier": 1.7411011409788943
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "pixel": [
+        440,
+        170
+      ],
+      "world": [
+        144.38401794433594,
+        -6.622325420379639,
+        5.692440509796143
+      ],
+      "first_hit": "TREE_Distance_Ring0_0327_Branches",
+      "distance_m": 143.2430419921875,
+      "mm_per_pixel": [
+        310.48,
+        603.38
+      ],
+      "exposure_multiplier": 5.278031991988831
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "pixel": [
+        540,
+        200
+      ],
+      "world": [
+        60.52668762207031,
+        -8.340669631958008,
+        1.0073891878128052
+      ],
+      "first_hit": "SITE_Continuous_BearRun_Terrain",
+      "distance_m": 60.22917556762695,
+      "mm_per_pixel": [
+        80.81,
+        473.48
+      ],
+      "exposure_multiplier": 5.278031991988831
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_A",
+      "pixel": [
+        770,
+        190
+      ],
+      "world": [
+        111.0817642211914,
+        -55.2163200378418,
+        1.8793916702270508
+      ],
+      "first_hit": "MAIN_L1_southeast_door_glass_0",
+      "distance_m": 124.51158142089844,
+      "mm_per_pixel": [
+        304.48,
+        1672.88
+      ],
+      "exposure_multiplier": 5.278031991988831
+    }
+  ],
+  "limits": "Image patch RGB includes illumination/shadows and occasional vegetation, and is AgX display output. Do not divide it by source albedo or call it measured soil reflectance. Linear texture averages use standard sRGB conversion independently of Blender."
+}

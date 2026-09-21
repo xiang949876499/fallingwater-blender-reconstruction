@@ -1,0 +1,23 @@
+# Large/generated outputs
+project/renders/
+project/animation/
+project/caches/
+project/reference/
+project/qa/*-workspace/
+project/qa/*-crops/
+project/qa/*.png
+project/qa/*.jpg
+project/qa/*.tif
+project/qa/*.tiff
+project/qa/*.exr
+
+# Intermediate Blender checkpoints; the three published checkpoints are added explicitly.
+project/scene/*.blend
+!project/scene/Fallingwater_integration_candidate12a.blend
+!project/scene/Fallingwater_water12_surface07.blend
+!project/scene/Fallingwater_forest_undergrowth_candidate13a.blend
+
+# Local caches and editor files
+__pycache__/
+*.pyc
+.DS_Store

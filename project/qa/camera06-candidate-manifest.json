@@ -1,0 +1,28 @@
+{
+  "scene": "scene/Fallingwater_iteration06.blend",
+  "scene_sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+  "candidate_settings": "qa/camera06-settings-candidate-frozen.json",
+  "candidate_sha256": "8ca887363c8b6a7d3ccadc613576726c9acb261c83691499e95742fbae5bbba6",
+  "candidate_camera_count": 120,
+  "candidate_geometric_status": "GEOMETRY_ONLY_PASS",
+  "candidate_visual_status": "NOT_ACCEPTED",
+  "active_settings_changed": false,
+  "active_settings_sha256": "34e4bc6b9ca8555ba57832b830c575658955da7fc9c947b9c5721dfede31bd9e",
+  "active_settings_06_initial_failures": [
+    "CAM_MAIN_B_PLUNGE_A",
+    "CAM_MAIN_L1_LOGGIA_A"
+  ],
+  "reason_active_held": "Root requested no data update until independent reference/layout review of guest screen/casework; LoungeA and detail remain actual-image failures.",
+  "verified_candidate_changes": [
+    "CAM_MAIN_L1_LOGGIA_A",
+    "CAM_MAIN_B_PLUNGE_A",
+    "CAM_GUEST_L1_LOUNGE_A",
+    "CAM_GUEST_L1_LOUNGE_B"
+  ],
+  "visual_ledger": "qa/camera06-repair-visual-ledger.json",
+  "point_verification": "qa/camera06-final-candidate-verification.json",
+  "full_initial_check": "qa/camera06-full-check.json",
+  "rerender_queue": "qa/camera06-rerender-queue.json",
+  "extra_detail_settings": "qa/camera06-firebox-detail-settings.json",
+  "extra_detail_role": "Third QA only; not part of120 and does not replace room A/B. Geometric49/49 clear opening did not yield an acceptable actual image."
+}

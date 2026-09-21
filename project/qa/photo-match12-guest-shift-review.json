@@ -1,0 +1,305 @@
+{
+  "schema": "fallingwater.photo_match12.guest_second_camera_review.v1",
+  "status": "UNVERIFIED; GEO07 ACCEPTANCE NOT_RUN",
+  "physical_scene_unchanged": true,
+  "scene_sha256": "ebe6748261e9716ea9f9bd07e9137da1955798a7b3356bedc0d6a14d06638548",
+  "same_point_file_sha256": "279325fcd9a85851cb6e2f6d326fc6158cb26d09e5286074bcb248bdfe2b39b4",
+  "camera_trials_total": 2,
+  "more_trials": false,
+  "first_report_preserved": "photo-match12-guest-review.md",
+  "second_camera": {
+    "eye_m": [
+      0.7344242311460518,
+      33.275106108145856,
+      7.518351749742736
+    ],
+    "world_to_opencv": [
+      [
+        0.35721128462206314,
+        -0.9339969607421262,
+        -0.0070551727921044785
+      ],
+      [
+        -0.002520250060385784,
+        0.006589673949413336,
+        -0.9999751119587295
+      ],
+      [
+        0.9340202066755775,
+        0.3572201751325245,
+        0.0
+      ]
+    ],
+    "blender_rotation_world": [
+      [
+        0.35721128462206314,
+        0.002520250060385784,
+        -0.9340202066755775
+      ],
+      [
+        -0.9339969607421262,
+        -0.006589673949413336,
+        -0.3572201751325245
+      ],
+      [
+        -0.0070551727921044785,
+        0.9999751119587295,
+        0.0
+      ]
+    ],
+    "forward_world": [
+      0.9340202066755775,
+      0.3572201751325245,
+      0.0
+    ],
+    "up_world": [
+      0.002520250060385784,
+      -0.006589673949413336,
+      0.9999751119587295
+    ],
+    "yaw_degrees": 20.929575284739588,
+    "pitch_degrees": 0,
+    "roll_degrees": 0.4042349782676205,
+    "focal_px": 787.8773797928673,
+    "lens_mm_36mm_long_edge": 27.69881413334299,
+    "lens_mm_36mm_width": 38.22585670154073,
+    "principal_point_px": [
+      371.0,
+      683.826894842059
+    ],
+    "cy_offset_px_from_scan_center": 171.826894842059,
+    "cy_offset_fraction_image_height": 0.16779970199419825,
+    "resolution_px": [
+      742,
+      1024
+    ],
+    "distortion": "none",
+    "production_camera_created": false
+  },
+  "statistics": {
+    "fit_median_px": 7.5550542043332705,
+    "fit_max_px": 18.404088546694293,
+    "holdout_median_px": 7.552000320169518,
+    "holdout_max_px": 44.428183030811184,
+    "all_median_px": 7.552000320169518,
+    "all_max_px": 44.428183030811184,
+    "behind_camera": 0
+  },
+  "vertical_trace_comparison": [
+    {
+      "id": "V2",
+      "measured_angle_degrees": 0.7782049895199555,
+      "camera_vertical_angle_degrees": 0.4042349782676205,
+      "angle_residual_degrees": 0.37397001125233503,
+      "camera_parallel_direction_rms_px": 0.9371991418242935,
+      "rms_about_own_line_px": 0.8504593766666487,
+      "max_parallel_distance_px": 1.109062160813591,
+      "n": 209,
+      "qualification": "All originaltrace rows retained. V5 trace has5.8pxdeviation; edge-selection ambiguity remains, not a precise camera calibration.",
+      "first_camera_predicted_angle_degrees": -1.716586059446329,
+      "first_camera_direction_rms_px": 2.760569154430892,
+      "role_note": "Independent of15photo/modelpoints; these sixsource traces were used to choose fixedroll, so not out-of-samplecameraorientationvalidation."
+    },
+    {
+      "id": "V3",
+      "measured_angle_degrees": 0.07515884462861185,
+      "camera_vertical_angle_degrees": 0.4042349782676205,
+      "angle_residual_degrees": -0.32907613363900867,
+      "camera_parallel_direction_rms_px": 0.3111582150659459,
+      "rms_about_own_line_px": 0.11660417340125424,
+      "max_parallel_distance_px": 0.6244624974739226,
+      "n": 174,
+      "qualification": "All originaltrace rows retained. V5 trace has5.8pxdeviation; edge-selection ambiguity remains, not a precise camera calibration.",
+      "first_camera_predicted_angle_degrees": -0.952083050190067,
+      "first_camera_direction_rms_px": 0.9080055666096515,
+      "role_note": "Independent of15photo/modelpoints; these sixsource traces were used to choose fixedroll, so not out-of-samplecameraorientationvalidation."
+    },
+    {
+      "id": "V4",
+      "measured_angle_degrees": 0.483047240226772,
+      "camera_vertical_angle_degrees": 0.4042349782676205,
+      "angle_residual_degrees": 0.07881226195915148,
+      "camera_parallel_direction_rms_px": 1.0105064025056183,
+      "rms_about_own_line_px": 1.008797912018745,
+      "max_parallel_distance_px": 1.3692470025774888,
+      "n": 149,
+      "qualification": "All originaltrace rows retained. V5 trace has5.8pxdeviation; edge-selection ambiguity remains, not a precise camera calibration.",
+      "first_camera_predicted_angle_degrees": -0.42979841724809187,
+      "first_camera_direction_rms_px": 1.219508970330589,
+      "role_note": "Independent of15photo/modelpoints; these sixsource traces were used to choose fixedroll, so not out-of-samplecameraorientationvalidation."
+    },
+    {
+      "id": "V5",
+      "measured_angle_degrees": 2.139470589858201,
+      "camera_vertical_angle_degrees": 0.4042349782676205,
+      "angle_residual_degrees": 1.7352356115905807,
+      "camera_parallel_direction_rms_px": 1.5792000470660126,
+      "rms_about_own_line_px": 1.1048415872865958,
+      "max_parallel_distance_px": 6.057044887636628,
+      "n": 129,
+      "qualification": "All originaltrace rows retained. V5 trace has5.8pxdeviation; edge-selection ambiguity remains, not a precise camera calibration.",
+      "first_camera_predicted_angle_degrees": -0.010608038419729154,
+      "first_camera_direction_rms_px": 1.7819041231141002,
+      "role_note": "Independent of15photo/modelpoints; these sixsource traces were used to choose fixedroll, so not out-of-samplecameraorientationvalidation."
+    },
+    {
+      "id": "V6",
+      "measured_angle_degrees": -0.01788386185414122,
+      "camera_vertical_angle_degrees": 0.4042349782676205,
+      "angle_residual_degrees": -0.4221188401217617,
+      "camera_parallel_direction_rms_px": 0.36575384260679966,
+      "rms_about_own_line_px": 0.26808097015688775,
+      "max_parallel_distance_px": 0.756907770597169,
+      "n": 117,
+      "qualification": "All originaltrace rows retained. V5 trace has5.8pxdeviation; edge-selection ambiguity remains, not a precise camera calibration.",
+      "first_camera_predicted_angle_degrees": 0.3369335936395352,
+      "first_camera_direction_rms_px": 0.34001303601344957,
+      "role_note": "Independent of15photo/modelpoints; these sixsource traces were used to choose fixedroll, so not out-of-samplecameraorientationvalidation."
+    },
+    {
+      "id": "V7",
+      "measured_angle_degrees": 0.32542118655457636,
+      "camera_vertical_angle_degrees": 0.4042349782676205,
+      "angle_residual_degrees": -0.07881379171304415,
+      "camera_parallel_direction_rms_px": 0.5135319461598908,
+      "rms_about_own_line_px": 0.5118168642308668,
+      "max_parallel_distance_px": 1.1249039064026687,
+      "n": 106,
+      "qualification": "All originaltrace rows retained. V5 trace has5.8pxdeviation; edge-selection ambiguity remains, not a precise camera calibration.",
+      "first_camera_predicted_angle_degrees": 0.6081319396015096,
+      "first_camera_direction_rms_px": 0.5335935753342752,
+      "role_note": "Independent of15photo/modelpoints; these sixsource traces were used to choose fixedroll, so not out-of-samplecameraorientationvalidation."
+    }
+  ],
+  "vertical_traces": {
+    "count": 6,
+    "total_retained_rows": 884,
+    "median_roll_deg": 0.4042349782676205,
+    "maximum_single_trace_deviation_px": 5.814773058977494,
+    "uncertainty": "Gradient traces can switch between a post bright/darkedge. V5 has5.815pxmax deviation; retained, no cherry-picking. Medianroll C constraint, pitch0 C near-horizontal hypothesis."
+  },
+  "support": [
+    {
+      "hit": true,
+      "object": "SITE_Continuous_BearRun_Terrain",
+      "evaluated_face_index": 129261,
+      "position_m": [
+        0.7344242334365845,
+        33.27510452270508,
+        7.1964430809021
+      ],
+      "normal": [
+        -0.03492346033453941,
+        -0.10884678363800049,
+        0.9934448599815369
+      ],
+      "distance_m": 0.321908475468398,
+      "offset_xy_m": [
+        0,
+        0
+      ],
+      "eye_height_above_first_support_m": 0.32190847396850586
+    },
+    {
+      "hit": true,
+      "object": "SITE_Continuous_BearRun_Terrain",
+      "evaluated_face_index": 237728,
+      "position_m": [
+        0.9144242405891418,
+        33.27510452270508,
+        7.191205024719238
+      ],
+      "normal": [
+        0.04694443196058273,
+        -0.1888962686061859,
+        0.9808743596076965
+      ],
+      "distance_m": 0.32714653583941816,
+      "offset_xy_m": [
+        0.18,
+        0
+      ],
+      "eye_height_above_first_support_m": 0.3271465301513672
+    },
+    {
+      "hit": true,
+      "object": "SITE_Continuous_BearRun_Terrain",
+      "evaluated_face_index": 237862,
+      "position_m": [
+        0.5544242262840271,
+        33.27510452270508,
+        7.186080455780029
+      ],
+      "normal": [
+        -0.062370602041482925,
+        -0.1087011843919754,
+        0.9921159148216248
+      ],
+      "distance_m": 0.33227109661032467,
+      "offset_xy_m": [
+        -0.18,
+        0
+      ],
+      "eye_height_above_first_support_m": 0.33227109909057617
+    },
+    {
+      "hit": true,
+      "object": "SITE_Continuous_BearRun_Terrain",
+      "evaluated_face_index": 237641,
+      "position_m": [
+        0.7344242334365845,
+        33.45510482788086,
+        7.216164588928223
+      ],
+      "normal": [
+        -0.03492346033453941,
+        -0.10884678363800049,
+        0.9934448599815369
+      ],
+      "distance_m": 0.3021869632396645,
+      "offset_xy_m": [
+        0,
+        0.18
+      ],
+      "eye_height_above_first_support_m": 0.3021869659423828
+    },
+    {
+      "hit": true,
+      "object": "SITE_Continuous_BearRun_Terrain",
+      "evaluated_face_index": 240387,
+      "position_m": [
+        0.7344242334365845,
+        33.0951042175293,
+        7.107549667358398
+      ],
+      "normal": [
+        0.038406986743211746,
+        -0.5952954888343811,
+        0.8025884628295898
+      ],
+      "distance_m": 0.41080187891211944,
+      "offset_xy_m": [
+        0,
+        -0.18
+      ],
+      "eye_height_above_first_support_m": 0.41080188751220703
+    }
+  ],
+  "support_status": "Normal standingcameraFAIL; no actualphotographerposeknown. No terrain or model adjusted.",
+  "same_point_qualification_failures_retained": [
+    "W0H and allS nominal points hidden by closerstonecourses",
+    "OtherH targets composite post/headjoints",
+    "7equalmodeldivisionsdo notindependentlyregister2010printedposts",
+    "R03source terminalidentity independentlyunverified"
+  ],
+  "interpretation": "Allowingcywhileholdingpitch/rollfromphoto decreaseswindowmedian/verticaltilt but worsensindependentR03from37.225to44.428px and doesnotproduce standingpose. It cannot resolveGEO07; residualcannotbeconvertedintoarchitecturecorrection.",
+  "source_date": "1985February/March photo;2010drawings; no assumedchronologicalequivalence or assertedrenovation",
+  "images_actually_opened": [
+    "photo-match12-guest-shift-vertical-source-crop.png",
+    "photo-match12-guest-shift-verticals-observed.png",
+    "photo-match12-guest-shift-points-overlay.png",
+    "photo-match12-guest-shift-continuous-edges.png"
+  ],
+  "stopped": "No morecameraoptimization; nextstep is independently reviewpoint identity/model facade/source registration, not parametersearch.",
+  "metadata_correction": "shift-fit fit_ids/holdout_ids integercount labels corrected tofit_count/holdout_count without modifying numericfit."
+}

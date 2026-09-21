@@ -1,0 +1,859 @@
+{
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration10.blend",
+  "source_sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+  "rebuilt02": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration10_rebuilt02.blend",
+  "rebuilt02_sha256": "c2a7ebb018c2a1d3773298b736b6519cdd5b8a996e7f1966321ded8798959629",
+  "output": "D:\\zx\\test\\project\\qa\\checkpoint10-entry03-scoped-workspace\\scene\\Fallingwater_iteration10_rebuilt02_frozen_shot.blend",
+  "entry_sha256": "7c6976c83ae16b48970a45b7cd1351ee3389b847128ac07420df87a5910923e3",
+  "frozen_input": "D:\\zx\\test\\project\\data\\iteration10-room-shots-frozen.json",
+  "frozen_input_sha256": "78488808499b39edf6046928c4967ec09c8d139c78ffec8510000e93346808ad",
+  "diagnostic": [
+    {
+      "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration10.blend",
+      "sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+      "bounds": [
+        [
+          -8.288,
+          -0.5676000000000001
+        ],
+        [
+          14.461000000000002,
+          19.9478
+        ],
+        [
+          -0.9,
+          4.5
+        ]
+      ],
+      "probe_mesh_counts": {
+        "vertices": 385060,
+        "polygons": 398378,
+        "evaluated_meshes": true
+      },
+      "trials": [
+        {
+          "order": "saved_scene_order",
+          "candidates": [
+            [
+              -3.720400094985962,
+              17.416799545288086,
+              1.7000000476837158
+            ],
+            [
+              -3.218400001525879,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.6984000205993652,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.458400011062622,
+              16.701000213623047,
+              1.7000000476837158
+            ],
+            [
+              -2.986799955368042,
+              16.67340087890625,
+              1.7000000476837158
+            ],
+            [
+              -5.6927361488342285,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -5.171879768371582,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -4.6138200759887695,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -4.055759906768799,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              17.590967178344727,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              17.7545166015625,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              16.907039642333984,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.35308074951172,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.590967178344727,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.7545166015625,
+              1.7000000476837158
+            ]
+          ],
+          "selected": {
+            "points": [
+              [
+                -3.2184,
+                16.461,
+                1.7
+              ],
+              [
+                -5.17188,
+                17.13006,
+                1.7
+              ]
+            ],
+            "mode": "NORMAL_WALK",
+            "target": [
+              -3.7204,
+              17.416800000000002,
+              1.1400000000000001
+            ],
+            "selection_sample_step_m": 0.01,
+            "ground_height_tested": true,
+            "body_clearance_tested": true
+          },
+          "selection_issue": null,
+          "frozen_polyline_failure": null
+        },
+        {
+          "order": "reversed_scene_object_order",
+          "candidates": [
+            [
+              -3.720400094985962,
+              17.416799545288086,
+              1.7000000476837158
+            ],
+            [
+              -3.458400011062622,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.218400001525879,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.6984000205993652,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.458400011062622,
+              16.701000213623047,
+              1.7000000476837158
+            ],
+            [
+              -2.986799955368042,
+              16.67340087890625,
+              1.7000000476837158
+            ],
+            [
+              -5.6927361488342285,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -5.171879768371582,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -4.6138200759887695,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -4.055759906768799,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              17.590967178344727,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              17.7545166015625,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              16.907039642333984,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.35308074951172,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.590967178344727,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.7545166015625,
+              1.7000000476837158
+            ]
+          ],
+          "selected": {
+            "points": [
+              [
+                -3.2184,
+                16.461,
+                1.7
+              ],
+              [
+                -5.17188,
+                17.13006,
+                1.7
+              ]
+            ],
+            "mode": "NORMAL_WALK",
+            "target": [
+              -3.7204,
+              17.416800000000002,
+              1.1400000000000001
+            ],
+            "selection_sample_step_m": 0.01,
+            "ground_height_tested": true,
+            "body_clearance_tested": true
+          },
+          "selection_issue": null,
+          "frozen_polyline_failure": null
+        }
+      ]
+    },
+    {
+      "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration10_rebuilt02.blend",
+      "sha256": "c2a7ebb018c2a1d3773298b736b6519cdd5b8a996e7f1966321ded8798959629",
+      "bounds": [
+        [
+          -8.288,
+          -0.5676000000000001
+        ],
+        [
+          14.461000000000002,
+          19.9478
+        ],
+        [
+          -0.9,
+          4.5
+        ]
+      ],
+      "probe_mesh_counts": {
+        "vertices": 385060,
+        "polygons": 398378,
+        "evaluated_meshes": true
+      },
+      "trials": [
+        {
+          "order": "saved_scene_order",
+          "candidates": [
+            [
+              -3.720400094985962,
+              17.416799545288086,
+              1.7000000476837158
+            ],
+            [
+              -3.218400001525879,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.6984000205993652,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.458400011062622,
+              16.701000213623047,
+              1.7000000476837158
+            ],
+            [
+              -2.986799955368042,
+              16.67340087890625,
+              1.7000000476837158
+            ],
+            [
+              -5.6927361488342285,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -5.171879768371582,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -4.6138200759887695,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -4.055759906768799,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              17.590967178344727,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              17.7545166015625,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              16.907039642333984,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.35308074951172,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.590967178344727,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.7545166015625,
+              1.7000000476837158
+            ]
+          ],
+          "selected": {
+            "points": [
+              [
+                -3.2184,
+                16.461,
+                1.7
+              ],
+              [
+                -5.17188,
+                17.13006,
+                1.7
+              ]
+            ],
+            "mode": "NORMAL_WALK",
+            "target": [
+              -3.7204,
+              17.416800000000002,
+              1.1400000000000001
+            ],
+            "selection_sample_step_m": 0.01,
+            "ground_height_tested": true,
+            "body_clearance_tested": true
+          },
+          "selection_issue": null,
+          "frozen_polyline_failure": null
+        },
+        {
+          "order": "reversed_scene_object_order",
+          "candidates": [
+            [
+              -3.720400094985962,
+              17.416799545288086,
+              1.7000000476837158
+            ],
+            [
+              -3.458400011062622,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.218400001525879,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.6984000205993652,
+              16.461000442504883,
+              1.7000000476837158
+            ],
+            [
+              -3.458400011062622,
+              16.701000213623047,
+              1.7000000476837158
+            ],
+            [
+              -2.986799955368042,
+              16.67340087890625,
+              1.7000000476837158
+            ],
+            [
+              -5.6927361488342285,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -5.171879768371582,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -4.6138200759887695,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -4.055759906768799,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              17.590967178344727,
+              1.7000000476837158
+            ],
+            [
+              -3.460495948791504,
+              17.7545166015625,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              16.698888778686523,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              16.907039642333984,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.13006019592285,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.35308074951172,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.590967178344727,
+              1.7000000476837158
+            ],
+            [
+              -3.0512518882751465,
+              17.7545166015625,
+              1.7000000476837158
+            ]
+          ],
+          "selected": {
+            "points": [
+              [
+                -3.2184,
+                16.461,
+                1.7
+              ],
+              [
+                -5.17188,
+                17.13006,
+                1.7
+              ]
+            ],
+            "mode": "NORMAL_WALK",
+            "target": [
+              -3.7204,
+              17.416800000000002,
+              1.1400000000000001
+            ],
+            "selection_sample_step_m": 0.01,
+            "ground_height_tested": true,
+            "body_clearance_tested": true
+          },
+          "selection_issue": null,
+          "frozen_polyline_failure": null
+        }
+      ]
+    }
+  ],
+  "frozen_dispatch_actual_segment_equal": true,
+  "coverage": {
+    "status": "PASS_CAMERA_VALUES_AND_COVERAGE",
+    "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration10_rebuilt02.blend",
+    "checked_blend": "D:\\zx\\test\\project\\qa\\checkpoint10-entry03-scoped-workspace\\scene\\Fallingwater_tour_checked.blend",
+    "method": "At every delivered integer frame, evaluate FCurves and actual dependency-graph camera world matrix; compare to identical-timing polyline, then test actual camera position and previous-frame sweep against mesh. Walking modes additionally test body and ground; cuts never receive a cross-segment sweep.",
+    "integer_frame_mesh_ray_calls": 2268,
+    "main_frames": 2880,
+    "supplemental_frames": 96,
+    "room_count": 1,
+    "covered_room_count": 1,
+    "segment_checks": [
+      {
+        "id": "MAIN_L1_SERVICE_STAIR",
+        "camera": "CAM_TOUR_SUPPLEMENTAL",
+        "status": "PASS_ANIMATION_VALUES",
+        "start_frame": 3745,
+        "end_frame": 3840,
+        "frames_checked": 96,
+        "mode": "NORMAL_WALK",
+        "room_ids": [
+          "MAIN_L1_SERVICE_STAIR"
+        ],
+        "keyframes": [
+          3745,
+          3840
+        ],
+        "collapsed_waypoint_frames": false,
+        "all_channels_linear": true,
+        "max_path_error_m": 1.966049969490843e-06,
+        "invalid_rotation_frames": [],
+        "animation_values_status": "PASS",
+        "frame_geometry_status": "PASS",
+        "actual_evaluated_world_matrix_checked": true,
+        "max_evaluated_matrix_error_m": 0.0,
+        "integer_frame_mesh_test": "BODY_GROUND_AND_CAMERA",
+        "intra_segment_previous_frame_sweeps_checked": true,
+        "stair_mode": false,
+        "geometry_failure_frame_count": 0,
+        "geometry_failures": []
+      }
+    ],
+    "room_coverage": [
+      {
+        "room_id": "MAIN_L1_SERVICE_STAIR",
+        "label": "Service Stair",
+        "inspection_segments": [
+          {
+            "camera": "CAM_TOUR_SUPPLEMENTAL",
+            "segment": "MAIN_L1_SERVICE_STAIR",
+            "start_frame": 3745,
+            "end_frame": 3840,
+            "mode": "NORMAL_WALK"
+          }
+        ],
+        "status": "HAS_INSPECTION_CAMERA"
+      }
+    ],
+    "limits": [
+      "A room identifier includes terraces, stairs, pool and service inspection spaces; it is not a count of habitable rooms.",
+      "A camera covering a room is geometric inspection coverage, not proof of a satisfactory rendered view.",
+      "Explicit cuts do not establish connected walking. GUI navigation and tour exposure remain unverified."
+    ]
+  },
+  "actual_frames_checked": 96,
+  "only_affected_camera_key_changes": [
+    {
+      "key": "CAM_TOUR_SUPPLEMENTAL|0/0/0|location|0|3745.0",
+      "before": {
+        "co": [
+          3745.0,
+          -3.458400011062622
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          -3.458400011062622
+        ],
+        "handle_right": [
+          3776.666748046875,
+          -3.458400011062622
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      },
+      "after": {
+        "co": [
+          3745.0,
+          -3.218400001525879
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          -3.218400001525879
+        ],
+        "handle_right": [
+          3776.666748046875,
+          -3.218400001525879
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      }
+    },
+    {
+      "key": "CAM_TOUR_SUPPLEMENTAL|0/0/0|rotation_quaternion|0|3745.0",
+      "before": {
+        "co": [
+          3745.0,
+          0.8559816479682922
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          0.8559816479682922
+        ],
+        "handle_right": [
+          3776.666748046875,
+          0.8559816479682922
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      },
+      "after": {
+        "co": [
+          3745.0,
+          0.8296704292297363
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          0.8296704292297363
+        ],
+        "handle_right": [
+          3776.666748046875,
+          0.8296704292297363
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      }
+    },
+    {
+      "key": "CAM_TOUR_SUPPLEMENTAL|0/0/0|rotation_quaternion|1|3745.0",
+      "before": {
+        "co": [
+          3745.0,
+          0.49950671195983887
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          0.49950671195983887
+        ],
+        "handle_right": [
+          3776.666748046875,
+          0.49950671195983887
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      },
+      "after": {
+        "co": [
+          3745.0,
+          0.504288375377655
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          0.504288375377655
+        ],
+        "handle_right": [
+          3776.666748046875,
+          0.504288375377655
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      }
+    },
+    {
+      "key": "CAM_TOUR_SUPPLEMENTAL|0/0/0|rotation_quaternion|1|3840.0",
+      "before": {
+        "co": [
+          3840.0,
+          0.43909260630607605
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3808.333251953125,
+          0.49950671195983887
+        ],
+        "handle_right": [
+          3840.333251953125,
+          0.438456654548645
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      },
+      "after": {
+        "co": [
+          3840.0,
+          0.43909260630607605
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3808.333251953125,
+          0.504288375377655
+        ],
+        "handle_right": [
+          3840.333251953125,
+          0.4384063482284546
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      }
+    },
+    {
+      "key": "CAM_TOUR_SUPPLEMENTAL|0/0/0|rotation_quaternion|2|3745.0",
+      "before": {
+        "co": [
+          3745.0,
+          0.06722156703472137
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          0.0717274397611618
+        ],
+        "handle_right": [
+          3776.666748046875,
+          -0.3608359694480896
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      },
+      "after": {
+        "co": [
+          3745.0,
+          0.12437447905540466
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          0.1294819563627243
+        ],
+        "handle_right": [
+          3776.666748046875,
+          -0.3608359694480896
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      }
+    },
+    {
+      "key": "CAM_TOUR_SUPPLEMENTAL|0/0/0|rotation_quaternion|3|3745.0",
+      "before": {
+        "co": [
+          3745.0,
+          0.11519452929496765
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          0.12190598249435425
+        ],
+        "handle_right": [
+          3776.666748046875,
+          -0.5223938226699829
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      },
+      "after": {
+        "co": [
+          3745.0,
+          0.20462463796138763
+        ],
+        "interpolation": "LINEAR",
+        "handle_left": [
+          3744.666748046875,
+          0.21227747201919556
+        ],
+        "handle_right": [
+          3776.666748046875,
+          -0.5223938822746277
+        ],
+        "handle_left_type": "AUTO_CLAMPED",
+        "handle_right_type": "AUTO_CLAMPED"
+      }
+    }
+  ],
+  "remaining_differences_against_all_source_keys": [],
+  "all_source_camera_keys_exactly_equal": true,
+  "all_static_object_fingerprints_unchanged_from02": true,
+  "object_count": 23437,
+  "materials_unchanged": true,
+  "settings_unchanged": true,
+  "all_embedded_texts_unchanged": true,
+  "production_tour_unchanged": true,
+  "source_files_unchanged": [
+    true,
+    true
+  ],
+  "rendered": false,
+  "full_navigation_rerun": false,
+  "geometry_rebuilt": false,
+  "camera_evidence_scope_note": "Direct unchanged tour.camera_evidence, the same function called by tour.install, scoped to one96-frame service-stair segment. Its legacy main_frames=2880 field is a constant, not 2880 checks in this scoped call.",
+  "pass": true,
+  "output_sha256": "4fad11d6a5f2ba66a16ef44338ab656547cbd0fec7dc5c59c32afe2847f7b2b0"
+}

@@ -1,0 +1,1721 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-21",
+  "status": "CONDITIONAL_INTRINSIC_NUMERICAL_FEASIBILITY_ONLY; NOT_INSTALLABLE_WITH_UNCHANGED08_SLABS",
+  "scope": "Four half-flight C construction hypothesis; no Blender imports, meshes, render, production edit or navigation acceptance.",
+  "source_scene_context": {
+    "file": "scene/Fallingwater_iteration08.blend",
+    "sha256_from_frozen08_acceptance": "c5cd501e4c8ae0205ecb2437cd2d06d0c92bcc9a87e7d93d3986aeef976070d7",
+    "loaded_in_this_numeric_probe": false
+  },
+  "sources": {
+    "review": "qa/guest-stair-source09-review.json",
+    "review_sha256": "81587930f68f7032bb71227b24f16967c39edb34398a92fe0b7be6e387d85bc6",
+    "facts": [
+      {
+        "id": "G01_RIGHT_UP",
+        "sheet": "guest01 first-floor plan",
+        "bbox_normalized_px_approx": [
+          308.4,
+          350.0,
+          324.3,
+          400.8
+        ],
+        "arrow_tip_normalized_px_approx": [
+          316.3,
+          358.6
+        ],
+        "arrow_tail_normalized_px_approx": [
+          316.3,
+          375.3
+        ],
+        "printed_label": "UP",
+        "direction": "toward drawing-up / decreasing page Y",
+        "evidence": "A explicit arrow and label",
+        "visible_edge_line_count": 10,
+        "visible_edge_line_scope": "Including both run-end/landing boundaries; about9 successive drawn horizontal intervals. This is not a validated total riser count.",
+        "platform_storey_at_each_end": "UNRESOLVED FROM PLAN ALONE",
+        "note": "Current data GUEST_SERVICE_ASCENT a[316,354] low -> b[316,404] high is opposite this drawn right-side UP direction, if that model flight corresponds to this source run."
+      },
+      {
+        "id": "G01_LEFT_UP_DOWN",
+        "sheet": "guest01 first-floor plan",
+        "bbox_normalized_px_approx": [
+          289,
+          368,
+          304.5,
+          404.5
+        ],
+        "up_arrow_tip_normalized_px_approx": [
+          296.8,
+          377.1
+        ],
+        "up_arrow_tail_normalized_px_approx": [
+          296.8,
+          371.1
+        ],
+        "up_direction": "toward drawing-down / increasing page Y",
+        "down_arrow_tip_normalized_px_approx": [
+          296.8,
+          390.0
+        ],
+        "down_arrow_tail_normalized_px_approx": [
+          296.8,
+          396.0
+        ],
+        "down_direction": "toward drawing-up / decreasing page Y",
+        "break_symbol_y_range_normalized_px_approx": [
+          378,
+          386.7
+        ],
+        "evidence": "A explicit UP, DOWN and stair break symbol",
+        "total_riser_count": null,
+        "level_assignment": "U; two height portions/projected levels are represented around the break. Do not assume all left edges belong to a new L1-to-L2 run.",
+        "note": "Basement laundry stairs occupy a related west/left projection. The inset and first-floor plan need explicit registration before same-XY or level correspondence is declared."
+      },
+      {
+        "id": "G02_CONTINUOUS_UP_PATH",
+        "sheet": "guest02 second-floor plan",
+        "left_run_bbox_normalized_px_approx": [
+          289,
+          372.6,
+          304.5,
+          405.5
+        ],
+        "left_opening_north_boundary_y_normalized_px_approx": 369.0,
+        "right_run_bbox_normalized_px_approx": [
+          308.4,
+          382.0,
+          324.3,
+          405.5
+        ],
+        "south_paved_return_bbox_normalized_px_approx": [
+          289,
+          405.5,
+          324.3,
+          419.6
+        ],
+        "arrow_polyline_normalized_px_approx": [
+          [
+            296.6,
+            382.0
+          ],
+          [
+            296.6,
+            412.3
+          ],
+          [
+            316.4,
+            412.3
+          ],
+          [
+            316.4,
+            394.4
+          ]
+        ],
+        "printed_label": "UP",
+        "evidence": "A continuous direction line visible: left down-page, across south return, right up-page",
+        "left_visible_horizontal_edge_count": 7,
+        "right_visible_horizontal_edge_count": 5,
+        "count_limit": "Line counts include opening/landing boundaries and do not establish total treads/risers, hidden portions or storey-by-storey counts. Right visible outline gives4 rectangular intervals. Left north cap has extra bevel/closure lines; count cannot be used as riser count.",
+        "south_return_z_m": null,
+        "left_start_z_m": null,
+        "right_end_z_m": null,
+        "same_storey_two_flight_status": "NOT_ESTABLISHED",
+        "note": "Continuous plan UP is a direction statement, not a numerical height/level label. The possibility that the left run comes from B1 and returns through an L1 south platform to an upper right run is not excluded by this crop."
+      },
+      {
+        "id": "G01_B1_LAUNDRY",
+        "sheet": "guest01 separate basement inset",
+        "stair_bbox_normalized_px_approx": [
+          289,
+          648,
+          303.5,
+          676
+        ],
+        "door_north_landing_y_normalized_px_approx": 648,
+        "visible_step_edge_y_normalized_px_approx": [
+          655.8,
+          661.6,
+          667.4,
+          673.1
+        ],
+        "visible_horizontal_step_edge_count": 4,
+        "printed_width": "2 ft 5 in",
+        "printed_longitudinal_station": "7 ft 6 1/8 in",
+        "evidence": "A basement inset and door/outer curved retaining wall; explicit width and different longitudinal station line",
+        "printed_up_down_label_in_this_crop": null,
+        "total_riser_count": null,
+        "floor_z_m": null,
+        "note": "These inset XY values are not world XY or first-floor Y. Four visible step edges are not proof of4 or14 total risers. Do not identify this route by a name alone or change its direction to make a new upper return fit."
+      },
+      {
+        "id": "G04_LEVEL_DATUMS",
+        "sheet": "guest04 west elevation and section looking north",
+        "main_level_label": "0 ft 0 in",
+        "second_level_label": "7 ft 8 5/8 in",
+        "relative_second_level_m": 2.352675,
+        "evidence": "A printed nominal datums actually opened",
+        "basement_floor_numeric_label_found": false,
+        "stair_south_return_numeric_label_found": false,
+        "direct_section_through_both_runs_found": false,
+        "note": "The reviewed transverse section shows floor slabs/rooms but not the two stair tread profiles or a south-return level label. West elevation is occluded by masonry/window assembly in this region. Floor datums cannot assign an unlabeled projected return slab to a storey."
+      }
+    ],
+    "crop_manifest": "qa/guest-stair-source09-crops.json"
+  },
+  "production_hashes_unchanged": {
+    "scripts\\guest_house.py": "17f42fda4280050f72d10ed7fc1b5c2b9a6891e156e54e86b2ccc103e053a54f",
+    "scripts\\tour.py": "105c10dfb180448384ea6c9970b9d5d167295776f7475b280b43f341cbd26901",
+    "data\\guest_house.json": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd"
+  },
+  "model_conventions": {
+    "units": "meters; relative L1 datum=0; world guest datum+8.4 remains C",
+    "source_pixels": "Width1024 normalized, explicitly separate sheets and basement inset. Scales borrowed from existing registration C for this overlay.",
+    "scale_m_per_px": [
+      0.05256,
+      0.05272
+    ],
+    "stair_count": "N risers and N-1 going intervals between lowest and highest riser lines; never equate visible raster lines with validated riser count.",
+    "riser_interval_m": [
+      0.13,
+      0.19
+    ],
+    "going_interval_m": [
+      0.25,
+      0.4
+    ],
+    "criterion_evidence": "C explicit design-screen bounds, not a statement of building-code compliance or surveyed original dimensions.",
+    "headroom_minimum_m": 1.95,
+    "body_radius_m": 0.18,
+    "threshold_note": "Existing project1.95m/.18m thresholds retained; no clearance relaxation.",
+    "assumed_tread_thickness_m": 0.13,
+    "assumed_landing_thickness_m": 0.21,
+    "thickness_evidence": "C; borrowed current structural thicknesses, not section-proven stair construction.",
+    "not_tested": [
+      "actual scene mesh/body collision",
+      "walls/doors/handrails/roof",
+      "platform-to-main connector access",
+      "finish protrusions",
+      "source-confirmed storey assignment"
+    ]
+  },
+  "datums": {
+    "B1_relative_m": -2.36,
+    "B1_evidence": "C current provisional datum, no numeric label found",
+    "L1_relative_m": 0,
+    "L1_evidence": "A printed0ft0in",
+    "L2_relative_m": 2.352675,
+    "L2_evidence": "A printed7ft8 5/8in; platform/storey assignment remains C"
+  },
+  "integer_enumeration": {
+    "lower_visible_edges": {
+      "lengths_m": [
+        0.9120560000000036,
+        2.6781760000000006
+      ],
+      "note": "Uses first-to-last visible B1 edge, not the entire door/landing enclosure.",
+      "feasible": [
+        {
+          "left_risers": 4,
+          "right_risers": 9,
+          "uniform_riser_m": 0.18153846153846154,
+          "left_going_m": 0.3040186666666679,
+          "right_going_m": 0.33477200000000007,
+          "intermediate_z_relative_m": -1.6338461538461537
+        },
+        {
+          "left_risers": 4,
+          "right_risers": 10,
+          "uniform_riser_m": 0.16857142857142857,
+          "left_going_m": 0.3040186666666679,
+          "right_going_m": 0.2975751111111112,
+          "intermediate_z_relative_m": -1.6857142857142855
+        },
+        {
+          "left_risers": 4,
+          "right_risers": 11,
+          "uniform_riser_m": 0.15733333333333333,
+          "left_going_m": 0.3040186666666679,
+          "right_going_m": 0.26781760000000004,
+          "intermediate_z_relative_m": -1.7306666666666666
+        }
+      ],
+      "riser_count_bounds_from_going": [
+        [
+          4,
+          4
+        ],
+        [
+          8,
+          11
+        ]
+      ]
+    },
+    "lower_enclosure_optimistic": {
+      "lengths_m": [
+        1.4761600000000001,
+        2.6781760000000006
+      ],
+      "note": "Sensitivity only: treats the whole enclosure as going length; consumes drawn landing, so not selected.",
+      "feasible": [
+        {
+          "left_risers": 5,
+          "right_risers": 8,
+          "uniform_riser_m": 0.18153846153846154,
+          "left_going_m": 0.36904000000000003,
+          "right_going_m": 0.3825965714285715,
+          "intermediate_z_relative_m": -1.4523076923076923
+        },
+        {
+          "left_risers": 5,
+          "right_risers": 9,
+          "uniform_riser_m": 0.16857142857142857,
+          "left_going_m": 0.36904000000000003,
+          "right_going_m": 0.33477200000000007,
+          "intermediate_z_relative_m": -1.517142857142857
+        },
+        {
+          "left_risers": 5,
+          "right_risers": 10,
+          "uniform_riser_m": 0.15733333333333333,
+          "left_going_m": 0.36904000000000003,
+          "right_going_m": 0.2975751111111112,
+          "intermediate_z_relative_m": -1.5733333333333333
+        },
+        {
+          "left_risers": 5,
+          "right_risers": 11,
+          "uniform_riser_m": 0.1475,
+          "left_going_m": 0.36904000000000003,
+          "right_going_m": 0.26781760000000004,
+          "intermediate_z_relative_m": -1.6225
+        },
+        {
+          "left_risers": 6,
+          "right_risers": 8,
+          "uniform_riser_m": 0.16857142857142857,
+          "left_going_m": 0.29523200000000005,
+          "right_going_m": 0.3825965714285715,
+          "intermediate_z_relative_m": -1.3485714285714285
+        },
+        {
+          "left_risers": 6,
+          "right_risers": 9,
+          "uniform_riser_m": 0.15733333333333333,
+          "left_going_m": 0.29523200000000005,
+          "right_going_m": 0.33477200000000007,
+          "intermediate_z_relative_m": -1.416
+        },
+        {
+          "left_risers": 6,
+          "right_risers": 10,
+          "uniform_riser_m": 0.1475,
+          "left_going_m": 0.29523200000000005,
+          "right_going_m": 0.2975751111111112,
+          "intermediate_z_relative_m": -1.4749999999999999
+        },
+        {
+          "left_risers": 6,
+          "right_risers": 11,
+          "uniform_riser_m": 0.1388235294117647,
+          "left_going_m": 0.29523200000000005,
+          "right_going_m": 0.26781760000000004,
+          "intermediate_z_relative_m": -1.5270588235294116
+        }
+      ],
+      "riser_count_bounds_from_going": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          11
+        ]
+      ]
+    },
+    "upper_visible_nominal": {
+      "lengths_m": [
+        1.734487999999999,
+        1.23892
+      ],
+      "note": "Approximate visible-outline coordinates; nominal arithmetic failure is smaller than raster uncertainty.",
+      "feasible": [],
+      "riser_count_bounds_from_going": [
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    },
+    "upper_opening_inclusive_C": {
+      "lengths_m": [
+        1.9242800000000002,
+        1.23892
+      ],
+      "note": "C: north opening cap becomes the start of the hidden/partial left flight; level assignment unproved.",
+      "feasible": [
+        {
+          "left_risers": 8,
+          "right_risers": 5,
+          "uniform_riser_m": 0.180975,
+          "left_going_m": 0.2748971428571429,
+          "right_going_m": 0.30973,
+          "intermediate_z_relative_m": 1.4478
+        }
+      ],
+      "riser_count_bounds_from_going": [
+        [
+          6,
+          8
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    }
+  },
+  "visible_outline_sensitivity": {
+    "extra_left_length_required_for8_risers_at_minimum_going_m": 0.01551200000000108,
+    "equivalent_px": 0.2942336874051798,
+    "min_left_start_y_for8_risers": 372.30576631259487,
+    "existing_approximate_visible_start_y": 372.6,
+    "explicit_opening_inclusive_start_y": 369.0,
+    "inference": "Nominal visible-only NO_SOLUTION is not robust to subpixel tracing uncertainty; a0.29423px north shift fits minimum goings without using all the cap. Cannot refute the source hypothesis from this alone."
+  },
+  "north_cap_source_limit": {
+    "actually_viewed_again": "qa/guest-stair-source09-guest02-service.png",
+    "drawn_outer_cap_y": 369.0,
+    "drawn_inner_cap_or_first_visible_run_y": 372.6,
+    "band_depth_m": 0.1897920000000012,
+    "observed": "The native crop shows an outlined northern cap/frame band, not an unambiguous empty walking strip at the proposed L1 elevation.",
+    "candidate_assumption": "C: the cap is a higher-level projected edge and a first riser can sit below it. This is precisely where the hypothetical L2-slab envelope leaves only11.7mm headroom reserve.",
+    "acceptance": "U until cap level/solid construction is resolved. Opening-inclusive arithmetic feasibility does not approve using this band or moving/removing the cap."
+  },
+  "selected_C_flights": [
+    {
+      "id": "F1_B1_LEFT_SOUTH",
+      "source_sheet": "guest01 separate B1 inset",
+      "source_start_px": [
+        296.25,
+        655.8
+      ],
+      "source_end_px": [
+        296.25,
+        673.1
+      ],
+      "source_visible_edge_count": 4,
+      "source_line_count_is_riser_count": false,
+      "tested_start_px": [
+        296.25,
+        373.63499999999993
+      ],
+      "tested_end_px": [
+        296.25,
+        390.935
+      ],
+      "tested_source_width_px": 14.5,
+      "z_start_relative_m": -2.36,
+      "z_end_relative_m": -1.6338461538461537,
+      "z_start_world_m": 6.040000000000001,
+      "z_end_world_m": 6.766153846153847,
+      "risers": 4,
+      "goings": 3,
+      "riser_m": 0.18153846153846154,
+      "going_m": 0.3040186666666679,
+      "footprint_width_m": 0.76212,
+      "geometry_and_storey_assignment_evidence": "C",
+      "reference_evidence": "A visible four edges and printed2ft5 width; no explicit UP/DN or B1 datum in crop.",
+      "registration_note": "C: B1 inset door station648 aligned to existing modeled door midpoint, not surveyed registration."
+    },
+    {
+      "id": "F2_LOWER_RIGHT_NORTH",
+      "source_sheet": "guest01 first-floor plan",
+      "source_start_px": [
+        316.35,
+        400.8
+      ],
+      "source_end_px": [
+        316.35,
+        350.0
+      ],
+      "source_visible_edge_count": 10,
+      "source_line_count_is_riser_count": false,
+      "tested_start_px": [
+        316.35,
+        400.8
+      ],
+      "tested_end_px": [
+        316.35,
+        350.0
+      ],
+      "tested_source_width_px": 15.9,
+      "z_start_relative_m": -1.6338461538461537,
+      "z_end_relative_m": 0,
+      "z_start_world_m": 6.766153846153847,
+      "z_end_world_m": 8.4,
+      "risers": 9,
+      "goings": 8,
+      "riser_m": 0.18153846153846154,
+      "going_m": 0.33477200000000007,
+      "footprint_width_m": 0.8357040000000001,
+      "geometry_and_storey_assignment_evidence": "C",
+      "reference_evidence": "A UP toward decreasing page Y; assigning its endpoints to lower intermediate/L1 is C.",
+      "registration_note": "C: sheet01/02 local plan stations overlaid without claiming a surveyed inter-sheet transform."
+    },
+    {
+      "id": "F3_L1_LEFT_SOUTH",
+      "source_sheet": "guest02 second-floor plan",
+      "source_start_px": [
+        296.75,
+        369.0
+      ],
+      "source_end_px": [
+        296.75,
+        405.5
+      ],
+      "source_visible_edge_count": 7,
+      "source_line_count_is_riser_count": false,
+      "tested_start_px": [
+        296.75,
+        369.0
+      ],
+      "tested_end_px": [
+        296.75,
+        405.5
+      ],
+      "tested_source_width_px": 15.5,
+      "z_start_relative_m": 0,
+      "z_end_relative_m": 1.4478,
+      "z_start_world_m": 8.4,
+      "z_end_world_m": 9.8478,
+      "risers": 8,
+      "goings": 7,
+      "riser_m": 0.180975,
+      "going_m": 0.2748971428571429,
+      "footprint_width_m": 0.8146800000000001,
+      "geometry_and_storey_assignment_evidence": "C",
+      "reference_evidence": "A continuous UP south and north opening boundary; C includes369..372.6 before visible run.",
+      "registration_note": "C: sheet01/02 local plan stations overlaid without claiming a surveyed inter-sheet transform."
+    },
+    {
+      "id": "F4_UPPER_RIGHT_NORTH",
+      "source_sheet": "guest02 second-floor plan",
+      "source_start_px": [
+        316.35,
+        405.5
+      ],
+      "source_end_px": [
+        316.35,
+        382.0
+      ],
+      "source_visible_edge_count": 5,
+      "source_line_count_is_riser_count": false,
+      "tested_start_px": [
+        316.35,
+        405.5
+      ],
+      "tested_end_px": [
+        316.35,
+        382.0
+      ],
+      "tested_source_width_px": 15.9,
+      "z_start_relative_m": 1.4478,
+      "z_end_relative_m": 2.352675,
+      "z_start_world_m": 9.8478,
+      "z_end_world_m": 10.752675,
+      "risers": 5,
+      "goings": 4,
+      "riser_m": 0.18097500000000002,
+      "going_m": 0.30973,
+      "footprint_width_m": 0.8357040000000001,
+      "geometry_and_storey_assignment_evidence": "C",
+      "reference_evidence": "A continuous UP north; C interpretation as final half flight to L2.",
+      "registration_note": "C: sheet01/02 local plan stations overlaid without claiming a surveyed inter-sheet transform."
+    }
+  ],
+  "intermediate_datums": {
+    "lower_selected_relative_m": -1.6338461538461537,
+    "lower_feasible_visible_range_m": [
+      -1.7306666666666666,
+      -1.6338461538461537
+    ],
+    "upper_selected_and_only_opening_inclusive_relative_m": 1.4478,
+    "evidence": "C numerical outcomes conditional on provisional B1 and stated footprint/going assumptions; not measured platform levels."
+  },
+  "registration_C": {
+    "B1_inset_door_station_y": 648.0,
+    "existing_model_door_midpoint_plan_y": 365.835,
+    "selected_inset_to_plan_y_translation_px": -282.165,
+    "selected_flight1_tested_y_interval": [
+      373.63499999999993,
+      390.935
+    ],
+    "alternative_align_last_visible_B1_edge_to_G01_right_start_offset_px": -272.3,
+    "alternative_would_move_door_from_existing_m": 0.5200827999999975,
+    "lower_left_to_right_return_y_difference_m": 0.5200828000000005,
+    "unresolved": "Existing door preserved numerically, but first/second-floor homologous control alignment and lower return extent remain U. No door moved to fit this hypothesis."
+  },
+  "hypothetical_platform_rectangles": [
+    {
+      "name": "P_B1_DOOR",
+      "rect_px": [
+        289,
+        303.5,
+        361.835,
+        373.63499999999993
+      ],
+      "z_top": -2.36,
+      "thickness": 0.18,
+      "role": "B1 landing C registration"
+    },
+    {
+      "name": "P_LOWER_LEFT_RETURN",
+      "rect_px": [
+        289,
+        304.5,
+        390.935,
+        400.8
+      ],
+      "z_top": -1.6338461538461537,
+      "thickness": 0.21,
+      "role": "C lower return stub"
+    },
+    {
+      "name": "P_LOWER_SOUTH_RETURN",
+      "rect_px": [
+        289,
+        324.3,
+        400.8,
+        414.9
+      ],
+      "z_top": -1.6338461538461537,
+      "thickness": 0.21,
+      "role": "C lower return;14.1px depth borrowed, not source datum"
+    },
+    {
+      "name": "P_L1_NORTH",
+      "rect_px": [
+        289,
+        324.3,
+        340,
+        350
+      ],
+      "z_top": 0,
+      "thickness": 0.21,
+      "role": "C north landing extent"
+    },
+    {
+      "name": "P_L1_LEFT_APPROACH",
+      "rect_px": [
+        289,
+        304.5,
+        350,
+        369
+      ],
+      "z_top": 0,
+      "thickness": 0.21,
+      "role": "C north return approach to upper-left"
+    },
+    {
+      "name": "P_UPPER_SOUTH_RETURN",
+      "rect_px": [
+        289,
+        324.3,
+        405.5,
+        419.6
+      ],
+      "z_top": 1.4478,
+      "thickness": 0.21,
+      "role": "A drawn return footprint; Z C"
+    },
+    {
+      "name": "P_L2_NORTH",
+      "rect_px": [
+        289,
+        324.3,
+        340,
+        369
+      ],
+      "z_top": 2.352675,
+      "thickness": 0.21,
+      "role": "C upper north floor with left opening"
+    },
+    {
+      "name": "P_L2_RIGHT_APPROACH",
+      "rect_px": [
+        308.4,
+        324.3,
+        369,
+        382
+      ],
+      "z_top": 2.352675,
+      "thickness": 0.21,
+      "role": "C upper right approach; keeps left stair void"
+    }
+  ],
+  "width_and_turn_screen": {
+    "B1_printed_finished_width_m": 0.7366,
+    "B1_body_side_margin_m": 0.18830000000000002,
+    "upper_left_raster_width_m": 0.8146800000000001,
+    "upper_right_raster_width_m": 0.8357040000000001,
+    "drawn_upper_return_depth_m": 0.7433520000000012,
+    "depth_less_body_diameter_m": 0.38335200000000125,
+    "limitation": "Only nominal width/disk-turn envelope; it does not demonstrate whole-room route or 08 actual wall clearance."
+  },
+  "intrinsic_headroom_exact_rectangular_envelope": {
+    "lower_left_and_B1_door": {
+      "minimum": {
+        "walk": "P_B1_DOOR",
+        "overhead": "P_L1_LEFT_APPROACH",
+        "available_headroom_m": 2.15,
+        "headroom_margin_m": 0.19999999999999996,
+        "witness_center_px": [
+          296.25,
+          367.1246320182094
+        ],
+        "interval_px": [
+          361.835,
+          372.41426403641884
+        ]
+      },
+      "rectangle_pair_count": 13,
+      "failed_pairs": [],
+      "all_pairs": [
+        {
+          "walk": "P_B1_DOOR",
+          "overhead": "P_L1_LEFT_APPROACH",
+          "available_headroom_m": 2.15,
+          "headroom_margin_m": 0.19999999999999996,
+          "witness_center_px": [
+            296.25,
+            367.1246320182094
+          ],
+          "interval_px": [
+            361.835,
+            372.41426403641884
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_02",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_02",
+          "available_headroom_m": 2.228309615384615,
+          "headroom_margin_m": 0.2783096153846152,
+          "witness_center_px": [
+            296.25,
+            386.61272725630465
+          ],
+          "interval_px": [
+            385.1683333333333,
+            388.057121179276
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_01",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_01",
+          "available_headroom_m": 2.228873076923077,
+          "headroom_margin_m": 0.27887307692307695,
+          "witness_center_px": [
+            296.25,
+            381.12225106582844
+          ],
+          "interval_px": [
+            379.40166666666664,
+            382.8428354649903
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_00",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_00",
+          "available_headroom_m": 2.229436538461538,
+          "headroom_margin_m": 0.27943653846153826,
+          "witness_center_px": [
+            296.25,
+            375.6317748753522
+          ],
+          "interval_px": [
+            373.63499999999993,
+            377.62854975070456
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_02",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_03",
+          "available_headroom_m": 2.4092846153846152,
+          "headroom_margin_m": 0.4592846153846153,
+          "witness_center_px": [
+            296.25,
+            388.0516666666666
+          ],
+          "interval_px": [
+            385.1683333333333,
+            390.935
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_01",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_02",
+          "available_headroom_m": 2.409848076923077,
+          "headroom_margin_m": 0.45984807692307705,
+          "witness_center_px": [
+            296.25,
+            382.28499999999997
+          ],
+          "interval_px": [
+            379.40166666666664,
+            385.1683333333333
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_00",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_01",
+          "available_headroom_m": 2.4104115384615383,
+          "headroom_margin_m": 0.46041153846153837,
+          "witness_center_px": [
+            296.25,
+            376.5183333333333
+          ],
+          "interval_px": [
+            373.63499999999993,
+            379.40166666666664
+          ]
+        },
+        {
+          "walk": "P_B1_DOOR",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_00",
+          "available_headroom_m": 2.4109749999999996,
+          "headroom_margin_m": 0.4609749999999997,
+          "witness_center_px": [
+            296.25,
+            369.61036798179055
+          ],
+          "interval_px": [
+            365.58573596358116,
+            373.63499999999993
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_02",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_04",
+          "available_headroom_m": 2.590259615384615,
+          "headroom_margin_m": 0.640259615384615,
+          "witness_center_px": [
+            296.25,
+            388.68893941036197
+          ],
+          "interval_px": [
+            386.442878820724,
+            390.935
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_01",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_03",
+          "available_headroom_m": 2.5908230769230767,
+          "headroom_margin_m": 0.6408230769230767,
+          "witness_center_px": [
+            296.25,
+            383.1984632198858
+          ],
+          "interval_px": [
+            381.2285931064383,
+            385.1683333333333
+          ]
+        },
+        {
+          "walk": "F1_B1_LEFT_SOUTH_tread_00",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_02",
+          "available_headroom_m": 2.5913865384615384,
+          "headroom_margin_m": 0.6413865384615385,
+          "witness_center_px": [
+            296.25,
+            377.70798702940965
+          ],
+          "interval_px": [
+            376.0143073921526,
+            379.40166666666664
+          ]
+        },
+        {
+          "walk": "P_B1_DOOR",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_01",
+          "available_headroom_m": 2.5919499999999998,
+          "headroom_margin_m": 0.6419499999999998,
+          "witness_center_px": [
+            296.25,
+            372.21751083893344
+          ],
+          "interval_px": [
+            370.8000216778669,
+            373.63499999999993
+          ]
+        },
+        {
+          "walk": "P_B1_DOOR",
+          "overhead": "P_L2_NORTH",
+          "available_headroom_m": 4.502675,
+          "headroom_margin_m": 2.552675,
+          "witness_center_px": [
+            296.25,
+            367.1246320182094
+          ],
+          "interval_px": [
+            361.835,
+            372.41426403641884
+          ]
+        }
+      ]
+    },
+    "lower_right_and_return": {
+      "minimum": {
+        "walk": "P_LOWER_LEFT_RETURN",
+        "overhead": "F3_L1_LEFT_SOUTH_tread_03",
+        "available_headroom_m": 2.227746153846154,
+        "headroom_margin_m": 0.27774615384615386,
+        "witness_center_px": [
+          296.75,
+          392.10320344678087
+        ],
+        "interval_px": [
+          390.935,
+          393.2714068935617
+        ]
+      },
+      "rectangle_pair_count": 26,
+      "failed_pairs": [],
+      "all_pairs": [
+        {
+          "walk": "P_LOWER_LEFT_RETURN",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_03",
+          "available_headroom_m": 2.227746153846154,
+          "headroom_margin_m": 0.27774615384615386,
+          "witness_center_px": [
+            296.75,
+            392.10320344678087
+          ],
+          "interval_px": [
+            390.935,
+            393.2714068935617
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_07",
+          "overhead": "P_L2_NORTH",
+          "available_headroom_m": 2.3242134615384615,
+          "headroom_margin_m": 0.3742134615384616,
+          "witness_center_px": [
+            316.35,
+            353.175
+          ],
+          "interval_px": [
+            350.0,
+            356.35
+          ]
+        },
+        {
+          "walk": "P_LOWER_LEFT_RETURN",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_04",
+          "available_headroom_m": 2.4087211538461535,
+          "headroom_margin_m": 0.45872115384615353,
+          "witness_center_px": [
+            296.75,
+            394.7103463039237
+          ],
+          "interval_px": [
+            390.935,
+            398.4856926078474
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_06",
+          "overhead": "P_L2_NORTH",
+          "available_headroom_m": 2.505751923076923,
+          "headroom_margin_m": 0.555751923076923,
+          "witness_center_px": [
+            316.35,
+            359.525
+          ],
+          "interval_px": [
+            356.35,
+            362.7
+          ]
+        },
+        {
+          "walk": "P_LOWER_LEFT_RETURN",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_05",
+          "available_headroom_m": 2.5896961538461536,
+          "headroom_margin_m": 0.6396961538461536,
+          "witness_center_px": [
+            296.75,
+            396.22858226750486
+          ],
+          "interval_px": [
+            391.6571645350097,
+            400.8
+          ]
+        },
+        {
+          "walk": "P_LOWER_SOUTH_RETURN",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_05",
+          "available_headroom_m": 2.5896961538461536,
+          "headroom_margin_m": 0.6396961538461536,
+          "witness_center_px": [
+            306.65,
+            401.8716455004774
+          ],
+          "interval_px": [
+            400.8,
+            402.94329100095484
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_05",
+          "overhead": "P_L2_NORTH",
+          "available_headroom_m": 2.687290384615385,
+          "headroom_margin_m": 0.7372903846153849,
+          "witness_center_px": [
+            316.35,
+            365.875
+          ],
+          "interval_px": [
+            362.7,
+            369.05
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_05",
+          "overhead": "P_L2_RIGHT_APPROACH",
+          "available_headroom_m": 2.687290384615385,
+          "headroom_margin_m": 0.7372903846153849,
+          "witness_center_px": [
+            316.35,
+            367.3178679817906
+          ],
+          "interval_px": [
+            365.58573596358116,
+            369.05
+          ]
+        },
+        {
+          "walk": "P_LOWER_LEFT_RETURN",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_06",
+          "available_headroom_m": 2.7706711538461537,
+          "headroom_margin_m": 0.8206711538461537,
+          "witness_center_px": [
+            296.75,
+            398.83572512464775
+          ],
+          "interval_px": [
+            396.87145024929544,
+            400.8
+          ]
+        },
+        {
+          "walk": "P_LOWER_SOUTH_RETURN",
+          "overhead": "F3_L1_LEFT_SOUTH_tread_06",
+          "available_headroom_m": 2.7706711538461537,
+          "headroom_margin_m": 0.8206711538461537,
+          "witness_center_px": [
+            306.65,
+            404.47878835762026
+          ],
+          "interval_px": [
+            400.8,
+            408.15757671524057
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_04",
+          "overhead": "P_L2_NORTH",
+          "available_headroom_m": 2.8688288461538463,
+          "headroom_margin_m": 0.9188288461538463,
+          "witness_center_px": [
+            316.35,
+            370.7321320182094
+          ],
+          "interval_px": [
+            369.05,
+            372.41426403641884
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_04",
+          "overhead": "P_L2_RIGHT_APPROACH",
+          "available_headroom_m": 2.8688288461538463,
+          "headroom_margin_m": 0.9188288461538463,
+          "witness_center_px": [
+            316.35,
+            372.225
+          ],
+          "interval_px": [
+            369.05,
+            375.4
+          ]
+        },
+        {
+          "walk": "P_LOWER_SOUTH_RETURN",
+          "overhead": "P_UPPER_SOUTH_RETURN",
+          "available_headroom_m": 2.8716461538461537,
+          "headroom_margin_m": 0.9216461538461538,
+          "witness_center_px": [
+            306.65,
+            408.4928679817906
+          ],
+          "interval_px": [
+            402.08573596358116,
+            414.9
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_03",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_03",
+          "available_headroom_m": 2.9493923076923076,
+          "headroom_margin_m": 0.9993923076923077,
+          "witness_center_px": [
+            316.35,
+            380.16786798179055
+          ],
+          "interval_px": [
+            378.58573596358116,
+            381.75
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_02",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_02",
+          "available_headroom_m": 2.949955769230769,
+          "headroom_margin_m": 0.999955769230769,
+          "witness_center_px": [
+            316.35,
+            386.2803679817906
+          ],
+          "interval_px": [
+            384.46073596358116,
+            388.1
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_01",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_01",
+          "available_headroom_m": 2.9505192307692303,
+          "headroom_margin_m": 1.0005192307692303,
+          "witness_center_px": [
+            316.35,
+            392.3928679817906
+          ],
+          "interval_px": [
+            390.33573596358116,
+            394.45
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_00",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_00",
+          "available_headroom_m": 2.9510826923076925,
+          "headroom_margin_m": 1.0010826923076925,
+          "witness_center_px": [
+            316.35,
+            398.5053679817906
+          ],
+          "interval_px": [
+            396.21073596358116,
+            400.8
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_03",
+          "overhead": "P_L2_RIGHT_APPROACH",
+          "available_headroom_m": 3.0503673076923077,
+          "headroom_margin_m": 1.1003673076923077,
+          "witness_center_px": [
+            316.35,
+            378.575
+          ],
+          "interval_px": [
+            375.4,
+            381.75
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_02",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_03",
+          "available_headroom_m": 3.130930769230769,
+          "headroom_margin_m": 1.1809307692307691,
+          "witness_center_px": [
+            316.35,
+            384.925
+          ],
+          "interval_px": [
+            381.75,
+            388.1
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_01",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_02",
+          "available_headroom_m": 3.1314942307692304,
+          "headroom_margin_m": 1.1814942307692304,
+          "witness_center_px": [
+            316.35,
+            391.275
+          ],
+          "interval_px": [
+            388.1,
+            394.45
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_00",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_01",
+          "available_headroom_m": 3.132057692307692,
+          "headroom_margin_m": 1.1820576923076922,
+          "witness_center_px": [
+            316.35,
+            397.625
+          ],
+          "interval_px": [
+            394.45,
+            400.8
+          ]
+        },
+        {
+          "walk": "P_LOWER_SOUTH_RETURN",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_00",
+          "available_headroom_m": 3.132621153846154,
+          "headroom_margin_m": 1.182621153846154,
+          "witness_center_px": [
+            306.65,
+            404.6174177552511
+          ],
+          "interval_px": [
+            400.8,
+            408.4348355105022
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_02",
+          "overhead": "P_L2_RIGHT_APPROACH",
+          "available_headroom_m": 3.231905769230769,
+          "headroom_margin_m": 1.2819057692307692,
+          "witness_center_px": [
+            316.35,
+            383.58213201820945
+          ],
+          "interval_px": [
+            381.75,
+            385.41426403641884
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_01",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_03",
+          "available_headroom_m": 3.3124692307692305,
+          "headroom_margin_m": 1.3624692307692305,
+          "witness_center_px": [
+            316.35,
+            389.6946320182094
+          ],
+          "interval_px": [
+            388.1,
+            391.28926403641884
+          ]
+        },
+        {
+          "walk": "F2_LOWER_RIGHT_NORTH_tread_00",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_02",
+          "available_headroom_m": 3.3130326923076923,
+          "headroom_margin_m": 1.3630326923076923,
+          "witness_center_px": [
+            316.35,
+            395.8071320182094
+          ],
+          "interval_px": [
+            394.45,
+            397.16426403641884
+          ]
+        },
+        {
+          "walk": "P_LOWER_SOUTH_RETURN",
+          "overhead": "F4_UPPER_RIGHT_NORTH_tread_01",
+          "available_headroom_m": 3.3135961538461536,
+          "headroom_margin_m": 1.3635961538461536,
+          "witness_center_px": [
+            306.65,
+            401.6799177552511
+          ],
+          "interval_px": [
+            400.8,
+            402.5598355105022
+          ]
+        }
+      ]
+    },
+    "upper_left_at_L2_north_slab": {
+      "minimum": {
+        "walk": "F3_L1_LEFT_SOUTH_tread_00",
+        "overhead": "P_L2_NORTH",
+        "available_headroom_m": 1.9617,
+        "headroom_margin_m": 0.011700000000000044,
+        "witness_center_px": [
+          296.75,
+          370.70713201820945
+        ],
+        "interval_px": [
+          369.0,
+          372.41426403641884
+        ]
+      },
+      "rectangle_pair_count": 3,
+      "failed_pairs": [],
+      "all_pairs": [
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_00",
+          "overhead": "P_L2_NORTH",
+          "available_headroom_m": 1.9617,
+          "headroom_margin_m": 0.011700000000000044,
+          "witness_center_px": [
+            296.75,
+            370.70713201820945
+          ],
+          "interval_px": [
+            369.0,
+            372.41426403641884
+          ]
+        },
+        {
+          "walk": "P_L1_NORTH",
+          "overhead": "P_L2_NORTH",
+          "available_headroom_m": 2.142675,
+          "headroom_margin_m": 0.19267500000000015,
+          "witness_center_px": [
+            306.65,
+            345.0
+          ],
+          "interval_px": [
+            340,
+            350
+          ]
+        },
+        {
+          "walk": "P_L1_LEFT_APPROACH",
+          "overhead": "P_L2_NORTH",
+          "available_headroom_m": 2.142675,
+          "headroom_margin_m": 0.19267500000000015,
+          "witness_center_px": [
+            296.75,
+            359.5
+          ],
+          "interval_px": [
+            350,
+            369
+          ]
+        }
+      ]
+    }
+  },
+  "limiting_intrinsic_headroom": {
+    "walk": "F3_L1_LEFT_SOUTH_tread_00",
+    "overhead": "P_L2_NORTH",
+    "available_headroom_m": 1.9617,
+    "headroom_margin_m": 0.011700000000000044,
+    "witness_center_px": [
+      296.75,
+      370.70713201820945
+    ],
+    "interval_px": [
+      369.0,
+      372.41426403641884
+    ]
+  },
+  "limiting_slab_thickness_sensitivity": {
+    "equation": "L2 - thickness - first_upper_left_riser >=1.95",
+    "maximum_combined_slab_and_unmodeled_downward_finish_m": 0.2217,
+    "selected_slab_m": 0.21,
+    "remaining_downward_finish_allowance_m": 0.011700000000000016,
+    "warning": "Only11.7mm nominal reserve; unverified finish/beam/cap geometry may invalidate candidate. No mesh PASS implied."
+  },
+  "unchanged08_context_conflicts": {
+    "lower_return_under_existing_L1_south": {
+      "minimum": {
+        "walk": "P_LOWER_SOUTH_RETURN",
+        "overhead": "GUEST_L1_HALL_SOUTH",
+        "available_headroom_m": 1.4138461538461538,
+        "headroom_margin_m": -0.5361538461538462,
+        "witness_center_px": [
+          306.65,
+          407.85
+        ],
+        "interval_px": [
+          400.8,
+          414.9
+        ]
+      },
+      "rectangle_pair_count": 1,
+      "failed_pairs": [
+        {
+          "walk": "P_LOWER_SOUTH_RETURN",
+          "overhead": "GUEST_L1_HALL_SOUTH",
+          "available_headroom_m": 1.4138461538461538,
+          "headroom_margin_m": -0.5361538461538462,
+          "witness_center_px": [
+            306.65,
+            407.85
+          ],
+          "interval_px": [
+            400.8,
+            414.9
+          ]
+        }
+      ],
+      "all_pairs": [
+        {
+          "walk": "P_LOWER_SOUTH_RETURN",
+          "overhead": "GUEST_L1_HALL_SOUTH",
+          "available_headroom_m": 1.4138461538461538,
+          "headroom_margin_m": -0.5361538461538462,
+          "witness_center_px": [
+            306.65,
+            407.85
+          ],
+          "interval_px": [
+            400.8,
+            414.9
+          ]
+        }
+      ]
+    },
+    "upper_return_under_existing_L2_south": {
+      "minimum": {
+        "walk": "P_UPPER_SOUTH_RETURN",
+        "overhead": "GUEST_L2_STAIR_TOP_LANDING",
+        "available_headroom_m": 0.6948750000000001,
+        "headroom_margin_m": -1.2551249999999998,
+        "witness_center_px": [
+          306.65,
+          412.55
+        ],
+        "interval_px": [
+          405.5,
+          419.6
+        ]
+      },
+      "rectangle_pair_count": 1,
+      "failed_pairs": [
+        {
+          "walk": "P_UPPER_SOUTH_RETURN",
+          "overhead": "GUEST_L2_STAIR_TOP_LANDING",
+          "available_headroom_m": 0.6948750000000001,
+          "headroom_margin_m": -1.2551249999999998,
+          "witness_center_px": [
+            306.65,
+            412.55
+          ],
+          "interval_px": [
+            405.5,
+            419.6
+          ]
+        }
+      ],
+      "all_pairs": [
+        {
+          "walk": "P_UPPER_SOUTH_RETURN",
+          "overhead": "GUEST_L2_STAIR_TOP_LANDING",
+          "available_headroom_m": 0.6948750000000001,
+          "headroom_margin_m": -1.2551249999999998,
+          "witness_center_px": [
+            306.65,
+            412.55
+          ],
+          "interval_px": [
+            405.5,
+            419.6
+          ]
+        }
+      ]
+    },
+    "upper_left_under_existing_L2_west_strip": {
+      "minimum": {
+        "walk": "F3_L1_LEFT_SOUTH_tread_06",
+        "overhead": "GUEST_L2_STAIR_PASSAGE",
+        "available_headroom_m": 0.8958500000000003,
+        "headroom_margin_m": -1.0541499999999997,
+        "witness_center_px": [
+          296.75,
+          402.8928571428571
+        ],
+        "interval_px": [
+          400.2857142857143,
+          405.5
+        ]
+      },
+      "rectangle_pair_count": 7,
+      "failed_pairs": [
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_06",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 0.8958500000000003,
+          "headroom_margin_m": -1.0541499999999997,
+          "witness_center_px": [
+            296.75,
+            402.8928571428571
+          ],
+          "interval_px": [
+            400.2857142857143,
+            405.5
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_05",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.0768250000000001,
+          "headroom_margin_m": -0.8731749999999998,
+          "witness_center_px": [
+            296.75,
+            397.67857142857144
+          ],
+          "interval_px": [
+            395.07142857142856,
+            400.2857142857143
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_04",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.2578,
+          "headroom_margin_m": -0.6921999999999999,
+          "witness_center_px": [
+            296.75,
+            392.46428571428567
+          ],
+          "interval_px": [
+            389.85714285714283,
+            395.07142857142856
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_03",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.4387750000000001,
+          "headroom_margin_m": -0.5112249999999998,
+          "witness_center_px": [
+            296.75,
+            387.25
+          ],
+          "interval_px": [
+            384.64285714285717,
+            389.85714285714283
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_02",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.6197500000000002,
+          "headroom_margin_m": -0.3302499999999997,
+          "witness_center_px": [
+            296.75,
+            382.03571428571433
+          ],
+          "interval_px": [
+            379.42857142857144,
+            384.64285714285717
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_01",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.8007250000000001,
+          "headroom_margin_m": -0.14927499999999982,
+          "witness_center_px": [
+            296.75,
+            376.82142857142856
+          ],
+          "interval_px": [
+            374.2142857142857,
+            379.42857142857144
+          ]
+        }
+      ],
+      "all_pairs": [
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_06",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 0.8958500000000003,
+          "headroom_margin_m": -1.0541499999999997,
+          "witness_center_px": [
+            296.75,
+            402.8928571428571
+          ],
+          "interval_px": [
+            400.2857142857143,
+            405.5
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_05",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.0768250000000001,
+          "headroom_margin_m": -0.8731749999999998,
+          "witness_center_px": [
+            296.75,
+            397.67857142857144
+          ],
+          "interval_px": [
+            395.07142857142856,
+            400.2857142857143
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_04",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.2578,
+          "headroom_margin_m": -0.6921999999999999,
+          "witness_center_px": [
+            296.75,
+            392.46428571428567
+          ],
+          "interval_px": [
+            389.85714285714283,
+            395.07142857142856
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_03",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.4387750000000001,
+          "headroom_margin_m": -0.5112249999999998,
+          "witness_center_px": [
+            296.75,
+            387.25
+          ],
+          "interval_px": [
+            384.64285714285717,
+            389.85714285714283
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_02",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.6197500000000002,
+          "headroom_margin_m": -0.3302499999999997,
+          "witness_center_px": [
+            296.75,
+            382.03571428571433
+          ],
+          "interval_px": [
+            379.42857142857144,
+            384.64285714285717
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_01",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.8007250000000001,
+          "headroom_margin_m": -0.14927499999999982,
+          "witness_center_px": [
+            296.75,
+            376.82142857142856
+          ],
+          "interval_px": [
+            374.2142857142857,
+            379.42857142857144
+          ]
+        },
+        {
+          "walk": "F3_L1_LEFT_SOUTH_tread_00",
+          "overhead": "GUEST_L2_STAIR_PASSAGE",
+          "available_headroom_m": 1.9817,
+          "headroom_margin_m": 0.03170000000000006,
+          "witness_center_px": [
+            296.75,
+            371.6071428571429
+          ],
+          "interval_px": [
+            369.0,
+            374.2142857142857
+          ]
+        }
+      ]
+    },
+    "existing_L1_south_walk_under_new_upper_return": {
+      "minimum": {
+        "walk": "GUEST_L1_HALL_SOUTH",
+        "overhead": "P_UPPER_SOUTH_RETURN",
+        "available_headroom_m": 1.2378,
+        "headroom_margin_m": -0.7121999999999999,
+        "witness_center_px": [
+          305.0,
+          413.5071320182094
+        ],
+        "interval_px": [
+          404,
+          423.01426403641887
+        ]
+      },
+      "rectangle_pair_count": 1,
+      "failed_pairs": [
+        {
+          "walk": "GUEST_L1_HALL_SOUTH",
+          "overhead": "P_UPPER_SOUTH_RETURN",
+          "available_headroom_m": 1.2378,
+          "headroom_margin_m": -0.7121999999999999,
+          "witness_center_px": [
+            305.0,
+            413.5071320182094
+          ],
+          "interval_px": [
+            404,
+            423.01426403641887
+          ]
+        }
+      ],
+      "all_pairs": [
+        {
+          "walk": "GUEST_L1_HALL_SOUTH",
+          "overhead": "P_UPPER_SOUTH_RETURN",
+          "available_headroom_m": 1.2378,
+          "headroom_margin_m": -0.7121999999999999,
+          "witness_center_px": [
+            305.0,
+            413.5071320182094
+          ],
+          "interval_px": [
+            404,
+            423.01426403641887
+          ]
+        }
+      ]
+    }
+  },
+  "decision": {
+    "intrinsic_four_half_flights": "CONDITIONALLY_FEASIBLE under explicit C overlay and north floor void hypothesis",
+    "unchanged08_construction": "INCOMPATIBLE: three existing flat slabs conflict with the proposed levels",
+    "source_confirmation": "U; neither numerical feasibility nor arbitrary slab removal establishes the historical construction",
+    "next_gate": "Root decides whether a separate reversible model candidate is justified; resolve actual platform-floor extent/levels, north cap identity, tight north-slab headroom and connector/door access first. This probe authorizes no production edit."
+  },
+  "independent_numeric_review": {
+    "agent": "nav08_semantics",
+    "completed": true,
+    "confirmed": [
+      "Three lower integer solutions",
+      "Nominal visible upper zero solutions",
+      "Opening-inclusive unique8+5",
+      "15.512mm nominal shortfall is not robust to raster uncertainty",
+      "Old south floors and west return strip conflict with hypothetical midlevels"
+    ],
+    "additional_implementation_limit": "Current guest stair builder divides run by N and emits N slabs; this numerical study uses N risers with N-1 goings. Do not pass these counts into the old builder unchanged.",
+    "work_performed": "Read-only independent arithmetic; no scene meshes, render or production changes."
+  },
+  "run_provenance": {
+    "script": "qa/guest-stair-hypothesis09-probe.py",
+    "script_sha256": "c5c55fdc8c2edcca53970598abba9dd2fadf1f9d137643b5577c6c066d4ce112",
+    "numeric_only": true,
+    "blender_used": false,
+    "production_unchanged": true
+  }
+}

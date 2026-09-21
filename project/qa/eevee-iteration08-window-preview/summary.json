@@ -1,0 +1,186 @@
+{
+  "status": "RENDERABLE_PARTIAL_NOT_ACCEPTED",
+  "source_sha256": "4c26a2667e8697282357688cfb7f580a49e01a7b9f9c88c2dee4a60febb02059",
+  "physical_source_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "candidate_blend": "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\Fallingwater_preview_window_candidate08.blend",
+  "candidate_sha256": "718c1884de910225a6f13aeb44925017915e81ff9ffbe427dc9d9b9138929731",
+  "png": "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+  "png_sha256": "dbe703016544d9ab571b98cbbaee2cb4e78a70617fa2b2670e066aa52719de77",
+  "frame": 48,
+  "camera": "CAM_MAIN_L3_STUDY_B",
+  "exposure": 2.4,
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "render_seconds": 48.390087899999344,
+  "render_count": 1,
+  "bake_count": 0,
+  "area": {
+    "name": "FW_PREVIEW_WINDOW08_AREA",
+    "location": [
+      -3.930000066757202,
+      14.46975040435791,
+      6.579999923706055
+    ],
+    "direction": [
+      1.0,
+      -4.371138828673793e-08,
+      4.371138828673793e-08
+    ],
+    "local_x_axis": [
+      -4.371138828673793e-08,
+      -1.0,
+      0.0
+    ],
+    "local_y_axis": [
+      -4.371138828673793e-08,
+      1.910685676922942e-15,
+      1.0
+    ],
+    "shape": "RECTANGLE",
+    "size_m": [
+      0.75,
+      1.6
+    ],
+    "energy_W": 20.0,
+    "normalize": true,
+    "color_linear_rgb": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "use_shadow": true,
+    "placement_rays": [
+      {
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "object": "FW_FURN_MAIN_L3_STUDY_continuous_horizontal_library_02_back_board",
+        "distance": 0.46020650281609715,
+        "normal": [
+          -1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        "face": 52
+      },
+      {
+        "direction": [
+          -1,
+          0,
+          0
+        ],
+        "object": "MAIN_L3_study_core_0",
+        "distance": 0.05199980843289787,
+        "normal": [
+          1.0,
+          4.371138828673793e-08,
+          0.0
+        ],
+        "face": 50
+      },
+      {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "object": "MAIN_L3_study_core_1",
+        "distance": 1.9405508325136283,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "face": 50
+      },
+      {
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "object": "MAIN_L3_study_west_open_casement_glass_0",
+        "distance": 0.06273841831861551,
+        "normal": [
+          0.20791195333003998,
+          0.978147566318512,
+          0.0
+        ],
+        "face": 3
+      },
+      {
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "object": "MAIN_L3_study_roof",
+        "distance": 0.8336501155198152,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "face": 145
+      },
+      {
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "object": "MAIN_L3_STUDY_finish",
+        "distance": 1.2938499559498204,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "face": 1
+      }
+    ]
+  },
+  "visual_acceptance": "PARTIAL_NOT_ACCEPTED",
+  "actual_findings": [
+    "Wood has brown rather than blue-grey metallic appearance.",
+    "Readable directional illumination, no previous VOLUME black lobes.",
+    "Ceiling lighting boundary is conspicuous; not diagnosed as an engine artifact.",
+    "Visible ceiling/shelf grain at 32 samples.",
+    "Lit wall/ceiling brighter than matched physical Cycles."
+  ],
+  "cycles_restore_check": {
+    "removed_lights": [
+      "FW_PREVIEW_WINDOW08_AREA"
+    ],
+    "restored_world": "FW_WINDOW08_PHYSICAL_WORLD_RESTORE",
+    "world_graph_sha256": "6881571162a3b886ce0e3dbcfe354076e067a0aaacfcdc18d401a5643377745f",
+    "engine": "CYCLES",
+    "device": {
+      "device": "CPU",
+      "backend": "CPU",
+      "devices": [],
+      "reason": "Explicit CPU request"
+    },
+    "production_renderer_integration": false,
+    "status": "PASS",
+    "fresh_reopen": true,
+    "original_lights_and_shadow_links_restored": true,
+    "complete_physical_world_graph_restored": true,
+    "cycles_glass_branch_preserved": true,
+    "glazing_geometry_preserved": true,
+    "added_light_count_after": 0,
+    "renders": 0,
+    "bakes": 0,
+    "saves": 0,
+    "source_and_candidate_files_unchanged": true
+  },
+  "production_renderer_restore_integrated": false,
+  "production_adopted": false,
+  "gpu_job_complete": true,
+  "review_report": "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview-review.md"
+}

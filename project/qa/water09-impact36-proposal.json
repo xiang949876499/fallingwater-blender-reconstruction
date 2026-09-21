@@ -1,0 +1,164 @@
+{
+  "status": "AUTHORIZED_EXECUTED_ONCE_RESULT_FLOW_RATE_FAIL",
+  "date": "2026-09-21",
+  "report": "qa/water09-impact36-proposal.md",
+  "new_bakes": 1,
+  "new_scene_files": 2,
+  "renders": 0,
+  "production_installed": false,
+  "source_static": "scene/Fallingwater_water09_real_bed_default24.blend",
+  "source_static_sha256": "9a227354cea628f1d310283d558530105780a247fd93825466a9a3262687dc6f",
+  "source_jet": "scene/Fallingwater_hybrid07_impact36.blend",
+  "source_jet_sha256": "7093200e28e1c135e559ccc8605fad04e14de7cf92399baef3151f5523f7537e",
+  "jet_saved_measurements": {
+    "aabb_m": [
+      [
+        0.8509753942489624,
+        1.0165222883224487
+      ],
+      [
+        -2.235901355743408,
+        -2.0054004192352295
+      ],
+      [
+        -5.441918849945068,
+        -5.255955696105957
+      ]
+    ],
+    "geometry": {
+      "vertices": 200,
+      "faces": 162,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0024874963981303157
+    },
+    "velocity_world_m_s": [
+      -1.5031434297561646,
+      -1.0052733421325684,
+      -6.694818496704102
+    ],
+    "normal_velocity_m_s": 0,
+    "surface_distance_cells": 0,
+    "surface_distance_m": 0,
+    "section_indices": [
+      137,
+      138,
+      139,
+      140,
+      141
+    ],
+    "center_width_m": 0.2304483569685606,
+    "center_thickness_m": 0.08136850603093769,
+    "center_thickness_cells": 4.339653654983343,
+    "modeled_flow_m3_s": 0.10170974120841708
+  },
+  "proposed_domain_aabb_m": [
+    [
+      -0.4026584744,
+      1.9973415256
+    ],
+    [
+      -3.211417675,
+      -1.211417675
+    ],
+    [
+      -6.56,
+      -5.05
+    ]
+  ],
+  "proposed_resolution": 96,
+  "cell_m": 0.025,
+  "estimated_grid": [
+    96,
+    80,
+    61
+  ],
+  "grid_size_is_estimate_actual_bbox_required": true,
+  "frame_range": [
+    1,
+    36
+  ],
+  "fps": 24,
+  "threads": 8,
+  "estimated_seconds": [
+    60,
+    300
+  ],
+  "proposed_hard_stop_seconds": 360,
+  "estimated_cache_bytes": [
+    450000000,
+    900000000
+  ],
+  "initial_pool_volume_m3": 3.2648255419114713,
+  "initial_pool_head_m": -5.771274,
+  "head_not_forced_after_initialization": true,
+  "nominal_Q_m3_s": 0.10170974120841708,
+  "nominal_Q_not_measured": true,
+  "nominal_volume_input_36_frame_durations_m3": 0.15256461181262562,
+  "nominal_volume_input_35_interframe_intervals_m3": 0.14832670592894157,
+  "closed_pool_storage_area_proxy_m2": 4.8,
+  "estimated_closed_pool_head_rise_36_frame_durations_m": 0.03178429412763034,
+  "minimum_storage_area_for_1cm_average_rise_m2": 15.256461181262562,
+  "jet_speed_m_s": 6.934739314973049,
+  "impact_speed_gravity_estimate_m_s": 7.523004271617309,
+  "CFL2_min_steps_at_source": 6,
+  "CFL2_min_steps_at_impact": 7,
+  "primary_changes_from_static_proposed": {
+    "timesteps_max": [
+      4,
+      8
+    ]
+  },
+  "preserved_primary": {
+    "use_fractions": false,
+    "delete_in_obstacle": false,
+    "flip_ratio": 0.97,
+    "use_adaptive_timesteps": true,
+    "timesteps_min": 1,
+    "cfl_condition": 2,
+    "particle_radius": 1,
+    "mesh_scale": 1,
+    "mesh_particle_radius": 1.25
+  },
+  "secondary_target": {
+    "use_foam_particles": true,
+    "use_spray_particles": true,
+    "use_bubble_particles": false,
+    "use_tracer_particles": false,
+    "setter": "if current differs only; saved reopen exact flags and particle-system assertions",
+    "sampling_wavecrest": 8,
+    "sampling_trappedair": 8,
+    "life_min_s": 0.25,
+    "life_max_s": 1.2
+  },
+  "boundary_choice": "Artificial closed side/bottom transient control, top open; not production river or constant head",
+  "fresh_flow_boundary_replenishment": false,
+  "native_flux_probe_z_m": -5.5,
+  "velocity_grid_units_must_be_verified": true,
+  "candidate_diagnostic_thresholds": {
+    "steady_jet_median_Q_nominal_relative_error_max": 0.2,
+    "mesh_volume_change_minus_integrated_in_out_max_m3": 0.05,
+    "all_frames_and_startup_bias_retained": true,
+    "phi_agreement_required": "qualitative trend and independently reported volume proxy; not exact mass",
+    "join_status": "UNVERIFIED: no automatic de-drift/taper at original pool boundary"
+  },
+  "old_cache_reused_for_new_native_mapping": false,
+  "no_de_drift_no_clamp_no_strong_lowpass": true,
+  "limitations": [
+    "No proven constant-head or physical tailwater boundary in 2.4 x 2m region",
+    "Closed pool rises approximately3.18cm due to intended input",
+    "Boundary-reflected waves may return around0.77s",
+    "Source inside existing static domain is impossible until top enlarged",
+    "No pressure grid guarantee",
+    "Visual FAIL and10-second status unchanged"
+  ],
+  "no_automatic_extension": true,
+  "execution_report": "qa/water09-impact36-review.md",
+  "execution_data": "qa/water09-impact36.json",
+  "actual_bake_seconds": 115.7639341000031,
+  "execution_scene_files": [
+    "scene/Fallingwater_water09_impact36.blend",
+    "scene/Fallingwater_water09_impact36_display.blend"
+  ],
+  "execution_status": "NATIVE_DESIGNED_FLOW_RATE_FAIL_JOIN_UNVERIFIED"
+}

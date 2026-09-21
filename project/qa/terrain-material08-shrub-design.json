@@ -1,0 +1,1427 @@
+{
+  "status": "DESIGN_ONLY_PENDING_ROOT_AUTHORIZATION_NO_PROTOTYPE",
+  "source_blend": "scene/Fallingwater_iteration08.blend",
+  "source_sha256": "c5cd501e4c8ae0205ecb2437cd2d06d0c92bcc9a87e7d93d3986aeef976070d7",
+  "frame": 48,
+  "failed_material_candidate_used": false,
+  "scope": "Replace data on exactly 16 existing leaf/branch object pairs; retain matrices and roots. Do not mutate old meshes shared by 600 users each.",
+  "selection_evidence_grade": "C: existing authored roots, not surveyed rhododendron positions; exact species/cultivar U",
+  "total_understory_instances_before_and_after": 2400,
+  "selected_plant_count": 16,
+  "maximum_authorized_design_limit": 20,
+  "camera_quantification": {
+    "CAM_HERO": {
+      "bbox_intersects_frame_near35m": 173,
+      "sample_confirmed_direct_instances": 104,
+      "sample_confirmed_through_glass_instances": 2,
+      "direct_leaf_count_in_entire_instances_not_visible_leaf_count": 9464,
+      "tested_leaf_surface_rays": 3030,
+      "direct_instance_world_dimensions_min_max_xyz_m": [
+        [
+          0.6284933090209961,
+          1.7513389587402344
+        ],
+        [
+          0.6713771820068359,
+          1.751664161682129
+        ],
+        [
+          0.9217791259288788,
+          1.9108142852783203
+        ]
+      ],
+      "selected_direct_instances": 16,
+      "selected_through_glass_instances": 0
+    },
+    "CAM_MAIN_L1_LOGGIA_B": {
+      "bbox_intersects_frame_near35m": 59,
+      "sample_confirmed_direct_instances": 32,
+      "sample_confirmed_through_glass_instances": 0,
+      "direct_leaf_count_in_entire_instances_not_visible_leaf_count": 2912,
+      "tested_leaf_surface_rays": 971,
+      "direct_instance_world_dimensions_min_max_xyz_m": [
+        [
+          0.7408676147460938,
+          1.7486686706542969
+        ],
+        [
+          0.676790714263916,
+          1.746870994567871
+        ],
+        [
+          0.9283623695373535,
+          1.946982741355896
+        ]
+      ],
+      "selected_direct_instances": 8,
+      "selected_through_glass_instances": 0
+    },
+    "CAM_MAIN_L1_LIVING_A": {
+      "bbox_intersects_frame_near35m": 92,
+      "sample_confirmed_direct_instances": 17,
+      "sample_confirmed_through_glass_instances": 23,
+      "direct_leaf_count_in_entire_instances_not_visible_leaf_count": 1547,
+      "tested_leaf_surface_rays": 1609,
+      "direct_instance_world_dimensions_min_max_xyz_m": [
+        [
+          0.7610855102539062,
+          1.6558399200439453
+        ],
+        [
+          0.7979669570922852,
+          1.6498956680297852
+        ],
+        [
+          0.9293052852153778,
+          1.8834280222654343
+        ]
+      ],
+      "selected_direct_instances": 0,
+      "selected_through_glass_instances": 3
+    }
+  },
+  "prototype_local_geometry_limits": {
+    "height_m": 1.2,
+    "radial_extent_m": 0.55,
+    "asset2": {
+      "basal_stems": 5,
+      "terminal_shoots": 20,
+      "leaves": 240
+    },
+    "asset3": {
+      "basal_stems": 6,
+      "terminal_shoots": 24,
+      "leaves": 288
+    },
+    "leaf_length_m": [
+      0.13,
+      0.17
+    ],
+    "leaf_width_m": [
+      0.035,
+      0.05
+    ],
+    "leaf_mesh_triangles": 12,
+    "total_triangles_per_plant_limit": 5500,
+    "material_change": false,
+    "flowers": false
+  },
+  "selection": [
+    {
+      "bank": "west",
+      "leaf_object": "TREE_Understory_0062_Leaves",
+      "branch_object": "TREE_Understory_0062_Branches",
+      "asset": 2,
+      "root": [
+        -9.555996894836426,
+        5.880136489868164,
+        1.2008448839187622
+      ],
+      "scale": [
+        1.0234373807907104,
+        1.0234373807907104,
+        1.0234373807907104
+      ],
+      "bounds_world_xyz_pairs": [
+        -10.12192153930664,
+        -8.941856384277344,
+        5.319101333618164,
+        6.468438148498535,
+        1.1963433027267456,
+        2.582397699356079
+      ],
+      "dimensions_world": [
+        1.1800651550292969,
+        1.149336814880371,
+        1.3860543966293335
+      ],
+      "ground_anchor_gap_m": -0.012007594108581543,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            104.21263933181763,
+            155.50217628479004,
+            257.5348734855652,
+            302.2140437364578
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          -10.405996894836425,
+          -8.705996894836426,
+          5.030136489868164,
+          6.730136489868164,
+          1.3008448839187623,
+          3.000844883918762
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_upper_access_road",
+            12.938179700501976
+          ],
+          [
+            "SITE_Path_bridge_north_approach",
+            22.663951116454392
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L1_TERRACE_W_A",
+          7.006665647549738
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.2281248569488525,
+      "proposed_world_crown_radius_max_m": 0.5628905594348907
+    },
+    {
+      "bank": "west",
+      "leaf_object": "TREE_Understory_0558_Leaves",
+      "branch_object": "TREE_Understory_0558_Branches",
+      "asset": 2,
+      "root": [
+        -8.507365226745605,
+        1.5759412050247192,
+        -1.4715489149093628
+      ],
+      "scale": [
+        1.256442904472351,
+        1.256442904472351,
+        1.256442904472351
+      ],
+      "bounds_world_xyz_pairs": [
+        -9.10228157043457,
+        -7.8578901290893555,
+        1.0100464820861816,
+        2.1595799922943115,
+        -1.477075457572937,
+        0.2245413064956665
+      ],
+      "dimensions_world": [
+        1.2443914413452148,
+        1.1495335102081299,
+        1.7016167640686035
+      ],
+      "ground_anchor_gap_m": -0.011992335319519043,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            198.8472604751587,
+            256.12378120422363,
+            335.3375494480133,
+            398.3418023586273
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          -9.357365226745605,
+          -7.657365226745606,
+          0.7259412050247193,
+          2.4259412050247193,
+          -1.3715489149093627,
+          0.32845108509063725
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_upper_access_road",
+            17.301001157129907
+          ],
+          [
+            "SITE_Path_bridge_north_approach",
+            22.93996414374973
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L1_TERRACE_W_A",
+          4.068371886386269
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.5077314853668213,
+      "proposed_world_crown_radius_max_m": 0.6910435974597932
+    },
+    {
+      "bank": "west",
+      "leaf_object": "TREE_Understory_0679_Leaves",
+      "branch_object": "TREE_Understory_0679_Branches",
+      "asset": 3,
+      "root": [
+        -11.869314193725586,
+        7.974980354309082,
+        1.5661860704421997
+      ],
+      "scale": [
+        1.2956644296646118,
+        1.2956644296646118,
+        1.2956644296646118
+      ],
+      "bounds_world_xyz_pairs": [
+        -12.547656059265137,
+        -11.071001052856445,
+        7.222837448120117,
+        8.69290542602539,
+        1.5604870319366455,
+        3.2864997386932373
+      ],
+      "dimensions_world": [
+        1.4766550064086914,
+        1.4700679779052734,
+        1.7260127067565918
+      ],
+      "ground_anchor_gap_m": -0.012003779411315918,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            1.0479231923818588,
+            65.39108991622925,
+            234.67739939689636,
+            290.6566894054413
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          -12.719314193725586,
+          -11.019314193725586,
+          7.124980354309082,
+          8.824980354309082,
+          1.6661860704421998,
+          3.3661860704421995
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_upper_access_road",
+            10.69862454945605
+          ],
+          [
+            "SITE_Path_bridge_north_approach",
+            24.584373388955825
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L2_TERRACE_W_A",
+          7.180047552112147
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.554797315597534,
+      "proposed_world_crown_radius_max_m": 0.7126154363155366
+    },
+    {
+      "bank": "west",
+      "leaf_object": "TREE_Understory_0895_Leaves",
+      "branch_object": "TREE_Understory_0895_Branches",
+      "asset": 3,
+      "root": [
+        -14.315200805664062,
+        -0.030478311702609062,
+        -0.2519749701023102
+      ],
+      "scale": [
+        1.0354238748550415,
+        1.0354238748550415,
+        1.0354238748550415
+      ],
+      "bounds_world_xyz_pairs": [
+        -14.880541801452637,
+        -13.658768653869629,
+        -0.6230632662773132,
+        0.6026303172111511,
+        -0.2565293312072754,
+        1.1228052377700806
+      ],
+      "dimensions_world": [
+        1.2217731475830078,
+        1.2256935834884644,
+        1.379334568977356
+      ],
+      "ground_anchor_gap_m": -0.01199999451637268,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            18.31068992614746,
+            86.09546184539795,
+            313.61160814762115,
+            373.8704162836075
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          -15.165200805664062,
+          -13.465200805664063,
+          -0.880478311702609,
+          0.8195216882973909,
+          -0.15197497010231018,
+          1.5480250298976899
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_upper_access_road",
+            18.529838298124222
+          ],
+          [
+            "SITE_Path_bridge_north_approach",
+            28.92662807905226
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L1_TERRACE_W_A",
+          9.903265548267365
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.2425086498260498,
+      "proposed_world_crown_radius_max_m": 0.5694831311702728
+    },
+    {
+      "bank": "west",
+      "leaf_object": "TREE_Understory_1191_Leaves",
+      "branch_object": "TREE_Understory_1191_Branches",
+      "asset": 3,
+      "root": [
+        -8.364734649658203,
+        0.7919427156448364,
+        -2.6123266220092773
+      ],
+      "scale": [
+        1.122799277305603,
+        1.122799277305603,
+        1.122799277305603
+      ],
+      "bounds_world_xyz_pairs": [
+        -9.086145401000977,
+        -7.743995666503906,
+        0.09935678541660309,
+        1.445117712020874,
+        -2.617265224456787,
+        -1.1215341091156006
+      ],
+      "dimensions_world": [
+        1.3421497344970703,
+        1.345760926604271,
+        1.4957311153411865
+      ],
+      "ground_anchor_gap_m": -0.012015342712402344,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            211.2680196762085,
+            275.9355926513672,
+            381.3773238658905,
+            441.6460293531418
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          -9.214734649658203,
+          -7.5147346496582035,
+          -0.05805728435516355,
+          1.6419427156448365,
+          -2.5123266220092773,
+          -0.8123266220092773
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_upper_access_road",
+            18.09256107743697
+          ],
+          [
+            "SITE_Path_bridge_north_approach",
+            23.125534029697494
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L1_TERRACE_W_A",
+          3.9018525025312134
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.3473591327667236,
+      "proposed_world_crown_radius_max_m": 0.6175396025180817
+    },
+    {
+      "bank": "west",
+      "leaf_object": "TREE_Understory_1590_Leaves",
+      "branch_object": "TREE_Understory_1590_Branches",
+      "asset": 2,
+      "root": [
+        -14.227423667907715,
+        1.136614441871643,
+        0.02340039052069187
+      ],
+      "scale": [
+        0.8449546694755554,
+        0.8449546694755554,
+        0.8449546694755554
+      ],
+      "bounds_world_xyz_pairs": [
+        -14.694672584533691,
+        -13.720367431640625,
+        0.6733956336975098,
+        1.6223485469818115,
+        0.01968381740152836,
+        1.164016842842102
+      ],
+      "dimensions_world": [
+        0.9743051528930664,
+        0.9489529132843018,
+        1.1443330254405737
+      ],
+      "ground_anchor_gap_m": -0.011988556012511253,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            11.396867036819458,
+            63.32512378692627,
+            310.75655221939087,
+            358.54410231113434
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          -15.077423667907714,
+          -13.377423667907715,
+          0.2866144418716431,
+          1.9866144418716432,
+          0.12340039052069188,
+          1.823400390520692
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_upper_access_road",
+            17.370827239744962
+          ],
+          [
+            "SITE_Path_bridge_north_approach",
+            28.440787184276925
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L1_TERRACE_W_A",
+          9.755724829740123
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.0139456033706664,
+      "proposed_world_crown_radius_max_m": 0.4647250682115555
+    },
+    {
+      "bank": "west",
+      "leaf_object": "TREE_Understory_1990_Leaves",
+      "branch_object": "TREE_Understory_1990_Branches",
+      "asset": 2,
+      "root": [
+        -9.967323303222656,
+        1.6403555870056152,
+        -0.3317936956882477
+      ],
+      "scale": [
+        1.3122949600219727,
+        1.3122949600219727,
+        1.3122949600219727
+      ],
+      "bounds_world_xyz_pairs": [
+        -10.666666030883789,
+        -9.322953224182129,
+        1.0196897983551025,
+        2.264864444732666,
+        -0.33756589889526367,
+        1.4396921396255493
+      ],
+      "dimensions_world": [
+        1.3437128067016602,
+        1.2451746463775635,
+        1.777258038520813
+      ],
+      "ground_anchor_gap_m": -0.01199236512184143,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            147.22041606903076,
+            210.9971523284912,
+            296.17390751838684,
+            362.06841230392456
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          -10.817323303222656,
+          -9.117323303222657,
+          0.7903555870056153,
+          2.4903555870056153,
+          -0.23179369568824768,
+          1.4682063043117524
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_upper_access_road",
+            17.142644246239662
+          ],
+          [
+            "SITE_Path_bridge_north_approach",
+            24.268819635718412
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L1_TERRACE_W_A",
+          5.52601241685958
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.5747539520263671,
+      "proposed_world_crown_radius_max_m": 0.721762228012085
+    },
+    {
+      "bank": "west",
+      "leaf_object": "TREE_Understory_1998_Leaves",
+      "branch_object": "TREE_Understory_1998_Branches",
+      "asset": 2,
+      "root": [
+        -11.402466773986816,
+        3.112031936645508,
+        0.3677760064601898
+      ],
+      "scale": [
+        0.871716320514679,
+        0.871716320514679,
+        0.871716320514679
+      ],
+      "bounds_world_xyz_pairs": [
+        -11.802205085754395,
+        -11.002318382263184,
+        2.696016311645508,
+        3.564429998397827,
+        0.3639417290687561,
+        1.5445183515548706
+      ],
+      "dimensions_world": [
+        0.7998867034912109,
+        0.8684136867523193,
+        1.1805766224861145
+      ],
+      "ground_anchor_gap_m": -0.01201525330543518,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            89.99324083328247,
+            129.62127685546875,
+            292.7695083618164,
+            335.7120877504349
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          -12.252466773986816,
+          -10.552466773986817,
+          2.2620319366455077,
+          3.962031936645508,
+          0.4677760064601898,
+          2.1677760064601896
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_upper_access_road",
+            15.58154903625793
+          ],
+          [
+            "SITE_Path_bridge_north_approach",
+            25.14155859262757
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L1_TERRACE_W_A",
+          7.228242051518693
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.0460595846176146,
+      "proposed_world_crown_radius_max_m": 0.47944397628307345
+    },
+    {
+      "bank": "bridge",
+      "leaf_object": "TREE_Understory_0055_Leaves",
+      "branch_object": "TREE_Understory_0055_Branches",
+      "asset": 3,
+      "root": [
+        24.964004516601562,
+        11.966643333435059,
+        1.335618019104004
+      ],
+      "scale": [
+        1.3691728115081787,
+        1.3691728115081787,
+        1.3691728115081787
+      ],
+      "bounds_world_xyz_pairs": [
+        24.11932373046875,
+        25.760730743408203,
+        11.209535598754883,
+        12.84655475616455,
+        1.329595685005188,
+        3.153532028198242
+      ],
+      "dimensions_world": [
+        1.6414070129394531,
+        1.637019157409668,
+        1.8239363431930542
+      ],
+      "ground_anchor_gap_m": -0.011992454528808594,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            644.5650100708008,
+            686.0326194763184,
+            248.38151335716248,
+            281.33734345436096
+          ]
+        },
+        "CAM_MAIN_L1_LOGGIA_B": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            248.51649284362793,
+            375.36420822143555,
+            84.8210084438324,
+            220.24970054626465
+          ]
+        },
+        "CAM_MAIN_L1_LIVING_A": {
+          "direct_samples": 0,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            68.49036455154419,
+            150.59629440307617,
+            140.25843858718872,
+            205.4564917087555
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          24.11400451660156,
+          25.814004516601564,
+          11.116643333435059,
+          12.816643333435058,
+          1.435618019104004,
+          3.1356180191040037
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_bridge_north_approach",
+            1.2686074826509648
+          ],
+          [
+            "SITE_Path_bridge_south_approach",
+            16.122093371806415
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L2_TERRACE_E_A",
+          6.729124063621572
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.6430073738098143,
+      "proposed_world_crown_radius_max_m": 0.7530450463294983
+    },
+    {
+      "bank": "bridge",
+      "leaf_object": "TREE_Understory_1071_Leaves",
+      "branch_object": "TREE_Understory_1071_Branches",
+      "asset": 3,
+      "root": [
+        26.908525466918945,
+        10.073202133178711,
+        2.459946632385254
+      ],
+      "scale": [
+        0.8816477060317993,
+        0.8816477060317993,
+        0.8816477060317993
+      ],
+      "bounds_world_xyz_pairs": [
+        26.435110092163086,
+        27.42668342590332,
+        9.543744087219238,
+        10.530515670776367,
+        2.456068754196167,
+        3.6305510997772217
+      ],
+      "dimensions_world": [
+        0.9915733337402344,
+        0.9867715835571289,
+        1.1744823455810547
+      ],
+      "ground_anchor_gap_m": -0.012015342712402344,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 10,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            703.1711196899414,
+            728.3230590820312,
+            239.8601996898651,
+            260.9817588329315
+          ]
+        },
+        "CAM_MAIN_L1_LOGGIA_B": {
+          "direct_samples": 19,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            413.0178737640381,
+            473.0866241455078,
+            77.65339493751526,
+            151.60221934318542
+          ]
+        },
+        "CAM_MAIN_L1_LIVING_A": {
+          "direct_samples": 0,
+          "through_glass_samples": 10,
+          "projected_bound_px_xy_pairs": [
+            176.44413471221924,
+            217.26521015167236,
+            130.52642941474915,
+            169.2288064956665
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          26.058525466918944,
+          27.758525466918947,
+          9.223202133178711,
+          10.92320213317871,
+          2.559946632385254,
+          4.259946632385254
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_bridge_north_approach",
+            1.3863903408485596
+          ],
+          [
+            "SITE_Path_bridge_south_approach",
+            14.073709134829269
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L2_TERRACE_E_A",
+          7.803537083465241
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.0579772472381592,
+      "proposed_world_crown_radius_max_m": 0.4849062383174897
+    },
+    {
+      "bank": "bridge",
+      "leaf_object": "TREE_Understory_1334_Leaves",
+      "branch_object": "TREE_Understory_1334_Branches",
+      "asset": 2,
+      "root": [
+        31.19938850402832,
+        16.473295211791992,
+        4.27230167388916
+      ],
+      "scale": [
+        1.2714250087738037,
+        1.2714250087738037,
+        1.2714250087738037
+      ],
+      "bounds_world_xyz_pairs": [
+        30.558794021606445,
+        31.830720901489258,
+        15.767087936401367,
+        17.126117706298828,
+        4.266709327697754,
+        5.988616466522217
+      ],
+      "dimensions_world": [
+        1.2719268798828125,
+        1.359029769897461,
+        1.721907138824463
+      ],
+      "ground_anchor_gap_m": -0.011969566345214844,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 17,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            657.8717994689941,
+            687.7797317504883,
+            204.08795356750488,
+            232.5248622894287
+          ]
+        },
+        "CAM_MAIN_L1_LOGGIA_B": {
+          "direct_samples": 12,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            91.1350679397583,
+            179.12047863006592,
+            -13.457565307617188,
+            80.60760140419006
+          ]
+        },
+        "CAM_MAIN_L1_LIVING_A": {
+          "direct_samples": 0,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            11.4729505777359,
+            69.81745719909668,
+            70.55118441581726,
+            123.50072622299194
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          30.34938850402832,
+          32.04938850402832,
+          15.623295211791993,
+          17.323295211791994,
+          4.37230167388916,
+          6.07230167388916
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_bridge_north_approach",
+            8.949444371938132
+          ],
+          [
+            "SITE_Path_bridge_south_approach",
+            20.46779943953261
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_GUEST_OVERVIEW",
+          3.6164382243654183
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.5257100105285644,
+      "proposed_world_crown_radius_max_m": 0.6992837548255921
+    },
+    {
+      "bank": "bridge",
+      "leaf_object": "TREE_Understory_2150_Leaves",
+      "branch_object": "TREE_Understory_2150_Branches",
+      "asset": 2,
+      "root": [
+        28.64962387084961,
+        11.335426330566406,
+        2.93221378326416
+      ],
+      "scale": [
+        1.392505407333374,
+        1.392505407333374,
+        1.392505407333374
+      ],
+      "bounds_world_xyz_pairs": [
+        27.8922176361084,
+        29.443235397338867,
+        10.504260063171387,
+        12.101099014282227,
+        2.926088809967041,
+        4.811976909637451
+      ],
+      "dimensions_world": [
+        1.5510177612304688,
+        1.5968389511108398,
+        1.8858880996704102
+      ],
+      "ground_anchor_gap_m": -0.011992454528808594,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 17,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            696.4659118652344,
+            735.3008651733398,
+            219.70420360565186,
+            252.98270344734192
+          ]
+        },
+        "CAM_MAIN_L1_LOGGIA_B": {
+          "direct_samples": 12,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            325.8137512207031,
+            414.01087760925293,
+            22.342329025268555,
+            133.69422554969788
+          ]
+        },
+        "CAM_MAIN_L1_LIVING_A": {
+          "direct_samples": 0,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            137.32297897338867,
+            201.26558303833008,
+            97.24332690238953,
+            157.4577498435974
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          27.799623870849608,
+          29.49962387084961,
+          10.485426330566407,
+          12.185426330566406,
+          3.0322137832641602,
+          4.73221378326416
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_bridge_north_approach",
+            3.3353287991491225
+          ],
+          [
+            "SITE_Path_bridge_south_approach",
+            15.21477454513629
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_GUEST_OVERVIEW",
+          9.289771637657337
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.6710064888000489,
+      "proposed_world_crown_radius_max_m": 0.7658779740333558
+    },
+    {
+      "bank": "bridge",
+      "leaf_object": "TREE_Understory_0110_Leaves",
+      "branch_object": "TREE_Understory_0110_Branches",
+      "asset": 2,
+      "root": [
+        29.238452911376953,
+        17.400630950927734,
+        4.419167518615723
+      ],
+      "scale": [
+        0.798675537109375,
+        0.798675537109375,
+        0.798675537109375
+      ],
+      "bounds_world_xyz_pairs": [
+        28.798810958862305,
+        29.69965362548828,
+        16.92003059387207,
+        17.84357452392578,
+        4.41565465927124,
+        5.497311115264893
+      ],
+      "dimensions_world": [
+        0.9008426666259766,
+        0.9235439300537109,
+        1.0816564559936523
+      ],
+      "ground_anchor_gap_m": -0.011973381042480469,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 17,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            630.8889198303223,
+            651.7103576660156,
+            211.77170991897583,
+            229.8142433166504
+          ]
+        },
+        "CAM_MAIN_L1_LOGGIA_B": {
+          "direct_samples": 10,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            14.320057332515717,
+            89.3118667602539,
+            -13.04377555847168,
+            56.413904428482056
+          ]
+        },
+        "CAM_MAIN_L1_LIVING_A": {
+          "direct_samples": 0,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            -36.959660053253174,
+            8.61331433057785,
+            76.78896188735962,
+            113.2077705860138
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          28.38845291137695,
+          30.088452911376955,
+          16.550630950927733,
+          18.250630950927736,
+          4.519167518615722,
+          6.2191675186157225
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_bridge_north_approach",
+            7.799236694095672
+          ],
+          [
+            "SITE_Path_bridge_south_approach",
+            21.27745760969887
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_GUEST_OVERVIEW",
+          3.7924743606196314
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 0.9584106445312499,
+      "proposed_world_crown_radius_max_m": 0.4392715454101563
+    },
+    {
+      "bank": "bridge",
+      "leaf_object": "TREE_Understory_1338_Leaves",
+      "branch_object": "TREE_Understory_1338_Branches",
+      "asset": 2,
+      "root": [
+        28.42341423034668,
+        10.084847450256348,
+        2.50893497467041
+      ],
+      "scale": [
+        1.2955098152160645,
+        1.2955098152160645,
+        1.2955098152160645
+      ],
+      "bounds_world_xyz_pairs": [
+        27.658649444580078,
+        29.15581512451172,
+        9.286397933959961,
+        10.831595420837402,
+        2.5032365322113037,
+        4.2577619552612305
+      ],
+      "dimensions_world": [
+        1.4971656799316406,
+        1.5451974868774414,
+        1.7545254230499268
+      ],
+      "ground_anchor_gap_m": -0.012003898620605469,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 16,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            711.9534873962402,
+            750.1738929748535,
+            228.8921320438385,
+            260.13612270355225
+          ]
+        },
+        "CAM_MAIN_L1_LOGGIA_B": {
+          "direct_samples": 11,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            395.25750160217285,
+            479.5262145996094,
+            52.462109327316284,
+            153.77638578414917
+          ]
+        },
+        "CAM_MAIN_L1_LIVING_A": {
+          "direct_samples": 0,
+          "through_glass_samples": 5,
+          "projected_bound_px_xy_pairs": [
+            176.28360271453857,
+            235.4963779449463,
+            114.11552667617798,
+            169.35088992118835
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          27.57341423034668,
+          29.27341423034668,
+          9.234847450256348,
+          10.934847450256347,
+          2.6089349746704102,
+          4.30893497467041
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_bridge_north_approach",
+            2.1322707978666586
+          ],
+          [
+            "SITE_Path_bridge_south_approach",
+            13.971968373132086
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L2_TERRACE_E_A",
+          9.288507896269607
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.5546117782592772,
+      "proposed_world_crown_radius_max_m": 0.7125303983688355
+    },
+    {
+      "bank": "bridge",
+      "leaf_object": "TREE_Understory_1342_Leaves",
+      "branch_object": "TREE_Understory_1342_Branches",
+      "asset": 2,
+      "root": [
+        29.383419036865234,
+        8.856287956237793,
+        1.0620356798171997
+      ],
+      "scale": [
+        0.8781077861785889,
+        0.8781077861785889,
+        0.8781077861785889
+      ],
+      "bounds_world_xyz_pairs": [
+        28.859376907348633,
+        29.883832931518555,
+        8.312204360961914,
+        9.365763664245605,
+        1.0581732988357544,
+        2.247406005859375
+      ],
+      "dimensions_world": [
+        1.0244560241699219,
+        1.0535593032836914,
+        1.1892327070236206
+      ],
+      "ground_anchor_gap_m": -0.012011408805847168,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 14,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            745.8384704589844,
+            772.086353302002,
+            264.5806610584259,
+            285.8231770992279
+          ]
+        },
+        "CAM_MAIN_L1_LOGGIA_B": {
+          "direct_samples": 11,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            463.8127899169922,
+            519.5747566223145,
+            165.683012008667,
+            223.93402576446533
+          ]
+        },
+        "CAM_MAIN_L1_LIVING_A": {
+          "direct_samples": 0,
+          "through_glass_samples": 15,
+          "projected_bound_px_xy_pairs": [
+            231.74789428710938,
+            268.11744689941406,
+            176.4560616016388,
+            210.48012971878052
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          28.533419036865233,
+          30.233419036865236,
+          8.006287956237793,
+          9.706287956237793,
+          1.1620356798171998,
+          2.8620356798171995
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_bridge_north_approach",
+            1.5997124048468363
+          ],
+          [
+            "SITE_Path_bridge_south_approach",
+            12.737648795277034
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_MAIN_L2_TERRACE_E_A",
+          10.094974097846904
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.0537293434143067,
+      "proposed_world_crown_radius_max_m": 0.48295928239822394
+    },
+    {
+      "bank": "bridge",
+      "leaf_object": "TREE_Understory_1043_Leaves",
+      "branch_object": "TREE_Understory_1043_Branches",
+      "asset": 3,
+      "root": [
+        31.073415756225586,
+        15.664605140686035,
+        4.092354774475098
+      ],
+      "scale": [
+        0.9196328520774841,
+        0.9196328520774841,
+        0.9196328520774841
+      ],
+      "bounds_world_xyz_pairs": [
+        30.550121307373047,
+        31.68501853942871,
+        15.100717544555664,
+        16.235021591186523,
+        4.0883097648620605,
+        5.313393592834473
+      ],
+      "dimensions_world": [
+        1.134897232055664,
+        1.1343040466308594,
+        1.225083827972412
+      ],
+      "ground_anchor_gap_m": -0.012011528015136719,
+      "camera_evidence": {
+        "CAM_HERO": {
+          "direct_samples": 15,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            668.9844131469727,
+            694.9168968200684,
+            214.6224045753479,
+            235.05185723304749
+          ]
+        },
+        "CAM_MAIN_L1_LOGGIA_B": {
+          "direct_samples": 8,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            137.13658332824707,
+            207.82406330108643,
+            20.814467668533325,
+            88.10618877410889
+          ]
+        },
+        "CAM_MAIN_L1_LIVING_A": {
+          "direct_samples": 0,
+          "through_glass_samples": 0,
+          "projected_bound_px_xy_pairs": [
+            39.332334995269775,
+            87.30874300003052,
+            90.3631067276001,
+            128.1773293018341
+          ]
+        }
+      },
+      "preliminary_envelope": {
+        "proposal_crown_radius_m": 0.85,
+        "proposal_height_m": 1.8,
+        "envelope_xyz_pairs": [
+          30.223415756225585,
+          31.923415756225587,
+          14.814605140686036,
+          16.514605140686037,
+          4.192354774475097,
+          5.8923547744750975
+        ],
+        "nearest_actual_path_boundary": [
+          [
+            "SITE_Path_bridge_north_approach",
+            8.296809420764847
+          ],
+          [
+            "SITE_Path_bridge_south_approach",
+            19.650282555654005
+          ]
+        ],
+        "nearest_camera_xy": [
+          "CAM_GUEST_OVERVIEW",
+          4.4333065478237526
+        ],
+        "hard_object_aabb_intersections": [],
+        "preliminary_envelope_clear": true
+      },
+      "proposed_world_height_max_m": 1.103559422492981,
+      "proposed_world_crown_radius_max_m": 0.5057980686426163
+    }
+  ],
+  "collision_validation": "PRELIMINARY_AABB_ONLY; future real geometry must pass actual terrain/route/hard-object tests. Not a built-candidate PASS.",
+  "scene_saved": false,
+  "rendered": false,
+  "prototype_built": false
+}

@@ -1,0 +1,33 @@
+{
+  "status": "STAGED_COLLISION_BASELINE_ACCEPTED_NOT_FINAL_PHOTOREAL",
+  "revision": "discontinuous_beds_v3",
+  "setting_file": "data/site.json",
+  "setting_key": "core_bedrock_revision",
+  "candidate": "scene/Fallingwater_geology_candidate07c.blend",
+  "candidate_sha256": "24a2ca01d276cde137ff3e041ecbf5bdc028289f5b83e8be20167cb4a0c561f3",
+  "site_script_sha256": "2efde333707891a0a75237657b14057259ec2ae00e51c9df0ccc7db52858e1a6",
+  "site_config_sha256": "2b4d5c712e7358dacc11458749d7dabc45bee98f43ec660fa9be4f36aa070c3d",
+  "world_geometry": [
+    {
+      "object": "SITE_Core_Continuous_Fractured_Sandstone",
+      "world_geometry_sha256": "b85195ea1a7d71e51d2f36657211cfc31803436d280dd52de3e761cdcb551337",
+      "expected_sha256": "b85195ea1a7d71e51d2f36657211cfc31803436d280dd52de3e761cdcb551337",
+      "equal": true
+    },
+    {
+      "object": "SITE_Cascade_Shoulder_Continuous_0",
+      "world_geometry_sha256": "9cf4fdb9a96f3c7abb9c5502698cb7184f41e37a6dbec1b16284b19746c80270",
+      "expected_sha256": "9cf4fdb9a96f3c7abb9c5502698cb7184f41e37a6dbec1b16284b19746c80270",
+      "equal": true
+    },
+    {
+      "object": "SITE_Cascade_Shoulder_Continuous_1",
+      "world_geometry_sha256": "05a2d60dcbe1d458211d84a576b9c8209fd30d38aff9434ed82c7af4fb5faedd",
+      "expected_sha256": "05a2d60dcbe1d458211d84a576b9c8209fd30d38aff9434ed82c7af4fb5faedd",
+      "equal": true
+    }
+  ],
+  "fresh_reproduction_report": "qa/core-geology07c-fresh-module-reproduction.json",
+  "freeze_scope": "Do not alter core/continuous shoulders during the next water prototype; old cache runs remain legacy diagnostics.",
+  "limits": "Root actually viewed HERO/WATER_DETAIL: macro beds and fractures improved; still too uniform tan/glossy/smoothed for final site acceptance. Independent bank candidate does not grant final acceptance."
+}

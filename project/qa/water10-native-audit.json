@@ -1,0 +1,447 @@
+{
+  "status": "NATIVE48_RAW_AUDIT_COMPLETE_REVIEW_REQUIRED",
+  "eligibility": {
+    "monitored_process_finished": true,
+    "latest_file_set_seen": 48,
+    "eligible_frames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "rule": "Each config+data+mesh+secondary exists and is at least8s old; while baking require a higher frame with all4files; gzip CRC/length/VDB read and size+mtime rechecked. No last actively written frame consumed."
+  },
+  "mapping": {
+    "actual_base_resolution": [
+      320,
+      307,
+      37
+    ],
+    "cell_m": 0.07500000298023224,
+    "mesh_world_affine": [
+      [
+        24.000000080731265,
+        -9.007118974052036e-09,
+        9.144771390334664e-09
+      ],
+      [
+        -1.3118540392875744e-08,
+        23.999999992257102,
+        1.2191135434491684e-08
+      ],
+      [
+        -2.120063985295781e-07,
+        2.349279295543738e-07,
+        23.99999966895142
+      ],
+      [
+        -4.0000000001792895,
+        -5.499999988591533,
+        -6.324999808286798
+      ]
+    ],
+    "mapping_actual_max_error_m": 1.349432087956671e-06,
+    "solver_origin_world_m": [
+      -16.00000047701645,
+      -17.01250044605718,
+      -7.712499863421095
+    ],
+    "solver_grid_max_world_m": [
+      8.000000476657867,
+      6.012500468874116,
+      -4.937499753152502
+    ],
+    "internal_time_per_scene_second": 2.4999997539723173,
+    "m_s_per_raw_MAC_unit": 0.18749998899850367,
+    "time_basis": "Actual CRC-validated config T difference across available frames / elapsed24fps scene time; no generic fixed2.5 assertion.",
+    "source_interior_cell_indices": [
+      [
+        225,
+        197,
+        29
+      ],
+      [
+        225,
+        198,
+        29
+      ],
+      [
+        225,
+        198,
+        30
+      ],
+      [
+        225,
+        198,
+        31
+      ],
+      [
+        225,
+        198,
+        32
+      ],
+      [
+        225,
+        199,
+        29
+      ],
+      [
+        225,
+        199,
+        30
+      ],
+      [
+        225,
+        199,
+        31
+      ],
+      [
+        225,
+        199,
+        32
+      ],
+      [
+        226,
+        197,
+        29
+      ],
+      [
+        226,
+        197,
+        30
+      ],
+      [
+        226,
+        197,
+        31
+      ],
+      [
+        226,
+        198,
+        29
+      ],
+      [
+        226,
+        198,
+        30
+      ],
+      [
+        226,
+        198,
+        31
+      ],
+      [
+        226,
+        198,
+        32
+      ],
+      [
+        226,
+        198,
+        33
+      ],
+      [
+        226,
+        199,
+        29
+      ],
+      [
+        226,
+        199,
+        30
+      ],
+      [
+        226,
+        199,
+        31
+      ],
+      [
+        226,
+        199,
+        32
+      ],
+      [
+        226,
+        199,
+        33
+      ],
+      [
+        226,
+        200,
+        31
+      ],
+      [
+        226,
+        200,
+        32
+      ],
+      [
+        227,
+        198,
+        29
+      ],
+      [
+        227,
+        198,
+        30
+      ],
+      [
+        227,
+        198,
+        31
+      ],
+      [
+        227,
+        198,
+        32
+      ],
+      [
+        227,
+        199,
+        29
+      ],
+      [
+        227,
+        199,
+        30
+      ],
+      [
+        227,
+        199,
+        31
+      ],
+      [
+        227,
+        199,
+        32
+      ],
+      [
+        227,
+        200,
+        32
+      ]
+    ],
+    "control_volume_XY_removal_interfaces_m": [
+      [
+        -15.925000474036217,
+        7.925000473677635
+      ],
+      [
+        -16.93750044307695,
+        6.012500468874116
+      ]
+    ],
+    "source_cut_z_m": -5.64
+  },
+  "skipped": [],
+  "frame_reports": [
+    "water10-native-frame0001.json",
+    "water10-native-frame0002.json",
+    "water10-native-frame0003.json",
+    "water10-native-frame0004.json",
+    "water10-native-frame0005.json",
+    "water10-native-frame0006.json",
+    "water10-native-frame0007.json",
+    "water10-native-frame0008.json",
+    "water10-native-frame0009.json",
+    "water10-native-frame0010.json",
+    "water10-native-frame0011.json",
+    "water10-native-frame0012.json",
+    "water10-native-frame0013.json",
+    "water10-native-frame0014.json",
+    "water10-native-frame0015.json",
+    "water10-native-frame0016.json",
+    "water10-native-frame0017.json",
+    "water10-native-frame0018.json",
+    "water10-native-frame0019.json",
+    "water10-native-frame0020.json",
+    "water10-native-frame0021.json",
+    "water10-native-frame0022.json",
+    "water10-native-frame0023.json",
+    "water10-native-frame0024.json",
+    "water10-native-frame0025.json",
+    "water10-native-frame0026.json",
+    "water10-native-frame0027.json",
+    "water10-native-frame0028.json",
+    "water10-native-frame0029.json",
+    "water10-native-frame0030.json",
+    "water10-native-frame0031.json",
+    "water10-native-frame0032.json",
+    "water10-native-frame0033.json",
+    "water10-native-frame0034.json",
+    "water10-native-frame0035.json",
+    "water10-native-frame0036.json",
+    "water10-native-frame0037.json",
+    "water10-native-frame0038.json",
+    "water10-native-frame0039.json",
+    "water10-native-frame0040.json",
+    "water10-native-frame0041.json",
+    "water10-native-frame0042.json",
+    "water10-native-frame0043.json",
+    "water10-native-frame0044.json",
+    "water10-native-frame0045.json",
+    "water10-native-frame0046.json",
+    "water10-native-frame0047.json",
+    "water10-native-frame0048.json"
+  ],
+  "summary": {
+    "frames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "first_last_mesh_volume_m3": [
+      137.18445222256855,
+      125.5422326179657
+    ],
+    "mesh_volume_change_m3": -11.642219604602857,
+    "initial_authored_volume_m3": 114.43759313549212,
+    "frame1_initial_representation_offset_m3": 22.74685908707643,
+    "source_native_Q_f5plus_median_m3_s": 0.6211304816989354,
+    "source_C_Q_design_m3_s": 0.2994137004643072,
+    "all_observed_meshes_closed": true,
+    "mass_balance_sensitivities": {
+      "inner_phi_constant": {
+        "source_integral_m3": 1.2239801792291944,
+        "outflow_proxy_integral_m3": 15.772780739739218,
+        "CV_change_m3": -11.550399168631287,
+        "residual_last_m3": 2.998401391878737,
+        "residual_max_abs_m3": 2.998401391878737,
+        "NOT_EXACT_CONSERVED_MASS": true
+      },
+      "inner_phi_linear_extrapolated": {
+        "source_integral_m3": 1.2239801792291944,
+        "outflow_proxy_integral_m3": 15.043757853315054,
+        "CV_change_m3": -11.550399168631287,
+        "residual_last_m3": 2.269378505454572,
+        "residual_max_abs_m3": 2.269378505454572,
+        "NOT_EXACT_CONSERVED_MASS": true
+      },
+      "inner_Fluid_flag_binary": {
+        "source_integral_m3": 1.2239801792291944,
+        "outflow_proxy_integral_m3": 15.899510718261201,
+        "CV_change_m3": -11.550399168631287,
+        "residual_last_m3": 3.1251313704007195,
+        "residual_max_abs_m3": 3.1251313704007195,
+        "NOT_EXACT_CONSERVED_MASS": true
+      },
+      "post_delete_phi_blend_BIASED": {
+        "source_integral_m3": 1.2239801792291944,
+        "outflow_proxy_integral_m3": 13.150529149295014,
+        "CV_change_m3": -11.550399168631287,
+        "residual_last_m3": 0.3761498014345328,
+        "residual_max_abs_m3": 0.3761498014345328,
+        "NOT_EXACT_CONSERVED_MASS": true
+      }
+    },
+    "no_detrending_or_lowpass": true,
+    "exact_external_face_flux_and_deleted_mass": "UNMEASURED",
+    "native_upstream_join": "NOT_ASSEMBLED",
+    "visual_status": "NOT_RENDERED_NOT_PASS"
+  },
+  "limitations": [
+    "Flux from complete frame snapshots is temporal quadrature, not per-substep discharge.",
+    "Outflow phi/particles already deleted at export; single-sided wet area proxies andFluid-bit alternatives bracket representation sensitivity but not exact loss.",
+    "X+ geometric external face not stored. Interfaces are one cell inside solver domain, documented by actual flags.",
+    "Native source-plane flux is independent of author Q. Whole mesh V and clipped below-source retained CV are separately measured.",
+    "Original C initial-stage steep patch and unassembled upstream join remain present; no detrending/filtering or join claim."
+  ],
+  "source_links": [
+    "https://raw.githubusercontent.com/blender/blender/blender-v5.2-release/extern/mantaflow/preprocessed/grid.cpp",
+    "https://raw.githubusercontent.com/blender/blender/blender-v5.2-release/extern/mantaflow/preprocessed/grid.h",
+    "https://raw.githubusercontent.com/blender/blender/blender-v5.2-release/extern/mantaflow/preprocessed/plugin/extforces.cpp",
+    "https://raw.githubusercontent.com/blender/blender/blender-v5.2-release/intern/mantaflow/intern/strings/liquid_script.h"
+  ],
+  "new_bakes_by_auditor": 0,
+  "renders": 0,
+  "production_changed": false
+}

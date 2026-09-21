@@ -1,0 +1,125 @@
+{
+  "green_hole_pixel_regression": [
+    {
+      "pixel": [
+        225,
+        490
+      ],
+      "old_first": "SITE_Continuous_BearRun_Terrain",
+      "new_first": "MAIN_L1_LIVING_finish",
+      "location": [
+        2.8707263469696045,
+        13.3346586227417,
+        0.12199985980987549
+      ],
+      "status": "PASS"
+    },
+    {
+      "pixel": [
+        300,
+        493
+      ],
+      "old_first": "SITE_Continuous_BearRun_Terrain",
+      "new_first": "MAIN_L1_LIVING_finish",
+      "location": [
+        3.497865676879883,
+        12.727290153503418,
+        0.12199974060058594
+      ],
+      "status": "PASS"
+    },
+    {
+      "pixel": [
+        350,
+        498
+      ],
+      "old_first": "MAIN_L1_LIVING_slab",
+      "new_first": "MAIN_L1_LIVING_finish",
+      "location": [
+        3.853252649307251,
+        12.145101547241211,
+        0.12199985980987549
+      ],
+      "status": "PASS"
+    },
+    {
+      "pixel": [
+        210,
+        480
+      ],
+      "old_first": "SITE_Continuous_BearRun_Terrain",
+      "new_first": "MAIN_L1_LIVING_finish",
+      "location": [
+        2.8395798206329346,
+        14.205378532409668,
+        0.12199997901916504
+      ],
+      "status": "PASS"
+    }
+  ],
+  "upper_arc_ground": [
+    {
+      "xy": [
+        7.63102,
+        20.37604
+      ],
+      "hit": "MAIN_L3_arc_top_landing_finish",
+      "ground_z": 5.286149978637695,
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        7.61631,
+        20.34709
+      ],
+      "hit": "MAIN_L3_arc_top_landing_finish",
+      "ground_z": 5.286149978637695,
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        7.82163,
+        20.27474
+      ],
+      "hit": "MAIN_north_spiral_15",
+      "ground_z": 5.264150142669678,
+      "status": "PASS"
+    },
+    {
+      "xy": [
+        7.18,
+        20.27474
+      ],
+      "hit": "MAIN_L3_LINK_finish",
+      "ground_z": 5.286149978637695,
+      "status": "PASS"
+    }
+  ],
+  "master_approach": [
+    {
+      "center": [
+        2.6724,
+        12.850200000000001
+      ],
+      "old_leaf_collision_samples": [],
+      "status": "PASS"
+    },
+    {
+      "center": [
+        2.6724,
+        12.5847
+      ],
+      "old_leaf_collision_samples": [],
+      "status": "PASS"
+    },
+    {
+      "center": [
+        2.6724,
+        12.213000000000001
+      ],
+      "old_leaf_collision_samples": [],
+      "status": "PASS"
+    }
+  ],
+  "limitations": "Main architecture-only pixel and body checks; integrated furniture-aware tour and relit visual image remain to be checked."
+}

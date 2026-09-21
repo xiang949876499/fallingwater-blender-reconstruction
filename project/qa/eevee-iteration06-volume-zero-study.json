@@ -1,0 +1,1689 @@
+{
+  "status": "REVIEWED",
+  "source_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+  "variant": "all_seven_volume_intensity_zero_only",
+  "camera": "CAM_MAIN_L3_STUDY_B",
+  "camera_location": [
+    -0.5522199869155884,
+    11.97404956817627,
+    6.886350154876709
+  ],
+  "camera_rotation": [
+    1.4660768508911133,
+    4.958859989301345e-08,
+    0.4986268877983093
+  ],
+  "lens": 28.0,
+  "frame": 1,
+  "exposure": 2.4000000953674316,
+  "view_transform": "AgX",
+  "look": "None",
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "cpu_preparation_threads": 4,
+  "raytracing": true,
+  "fast_gi": false,
+  "before_lights": {
+    "FW_LIGHT_PhysicalSun": {
+      "matrix": [
+        [
+          0.8191521763801575,
+          0.4194871485233307,
+          -0.39117807149887085,
+          0.0
+        ],
+        [
+          -0.5735762715339661,
+          0.5990899801254272,
+          -0.5586603879928589,
+          0.0
+        ],
+        [
+          1.0798938632206045e-08,
+          0.6819983720779419,
+          0.7313537001609802,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 2.5,
+      "color": [
+        1.0,
+        0.9599999785423279,
+        0.8899999856948853
+      ],
+      "type": "SUN",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.619999885559082
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.168800354003906
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 22.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.1527999639511108
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.655599594116211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": "FW_EEVEE_SELF_EMITTER_28ed1988e362"
+    },
+    "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5720000267028809
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          12.584699630737305
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 32.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          9.536800384521484
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.22189998626709
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.380000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 9.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.729200005531311
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.239700317382812
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.130799770355225
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.575799942016602
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.078400135040283
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.389800071716309
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.1527999639511108
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.974200248718262
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.184150218963623
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.827159881591797
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          41.84978103637695
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.440000534057617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 24.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          13.333840370178223
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          37.41632080078125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.440000534057617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 12.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.24766400456428528
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38.78704071044922
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.039999961853027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 30.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.672499895095825
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38.32794189453125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.039999961853027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.4539198875427246
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          46.74776077270508
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.75267505645752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 18.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.4539198875427246
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          42.63560104370117
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.75267505645752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 22.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6700000166893005
+      ],
+      "type": "POINT",
+      "shadow": true,
+      "blocker_collection": null
+    }
+  },
+  "lights_unchanged": true,
+  "before_volumes": {
+    "FW_PROBE_MAIN_B": {
+      "matrix": [
+        [
+          4.839799880981445,
+          0.0,
+          0.0,
+          -1.807800054550171
+        ],
+        [
+          0.0,
+          3.415649890899658,
+          0.0,
+          14.735250473022461
+        ],
+        [
+          0.0,
+          0.0,
+          0.9549999833106995,
+          -1.0750000476837158
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_MAIN_B",
+        "name_full": "FW_PROBE_MAIN_B",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23683,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 1.0,
+        "resolution_x": 8,
+        "resolution_y": 6,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_MAIN_L1": {
+      "matrix": [
+        [
+          13.813300132751465,
+          0.0,
+          0.0,
+          6.143899917602539
+        ],
+        [
+          0.0,
+          9.044249534606934,
+          0.0,
+          9.053549766540527
+        ],
+        [
+          0.0,
+          0.0,
+          1.0800000429153442,
+          1.2999999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_MAIN_L1",
+        "name_full": "FW_PROBE_MAIN_L1",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23684,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 1.0,
+        "resolution_x": 20,
+        "resolution_y": 14,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_MAIN_L2": {
+      "matrix": [
+        [
+          7.538400173187256,
+          0.0,
+          0.0,
+          3.563199996948242
+        ],
+        [
+          0.0,
+          4.769700050354004,
+          0.0,
+          11.522700309753418
+        ],
+        [
+          0.0,
+          0.0,
+          0.9649999737739563,
+          3.929800033569336
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_MAIN_L2",
+        "name_full": "FW_PROBE_MAIN_L2",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23685,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 1.0,
+        "resolution_x": 12,
+        "resolution_y": 8,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_MAIN_L3": {
+      "matrix": [
+        [
+          6.467629909515381,
+          0.0,
+          0.0,
+          2.4400298595428467
+        ],
+        [
+          0.0,
+          6.5834736824035645,
+          0.0,
+          18.009273529052734
+        ],
+        [
+          0.0,
+          0.0,
+          0.8999999761581421,
+          6.284150123596191
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_MAIN_L3",
+        "name_full": "FW_PROBE_MAIN_L3",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23686,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 1.0,
+        "resolution_x": 10,
+        "resolution_y": 10,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_GUEST_L1": {
+      "matrix": [
+        [
+          11.734224319458008,
+          0.0,
+          0.0,
+          7.836063861846924
+        ],
+        [
+          0.0,
+          10.45676040649414,
+          0.0,
+          44.559879302978516
+        ],
+        [
+          0.0,
+          0.0,
+          0.9599999785423279,
+          9.479999542236328
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_GUEST_L1",
+        "name_full": "FW_PROBE_GUEST_L1",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23681,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 1.0,
+        "resolution_x": 17,
+        "resolution_y": 15,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_GUEST_B1": {
+      "matrix": [
+        [
+          2.9719960689544678,
+          0.0,
+          0.0,
+          -0.6308760046958923
+        ],
+        [
+          0.0,
+          1.910591959953308,
+          0.0,
+          39.10310363769531
+        ],
+        [
+          0.0,
+          0.0,
+          0.9700000286102295,
+          7.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_GUEST_B1",
+        "name_full": "FW_PROBE_GUEST_B1",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23680,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 1.0,
+        "resolution_x": 5,
+        "resolution_y": 4,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_GUEST_L2": {
+      "matrix": [
+        [
+          3.461280107498169,
+          0.0,
+          0.0,
+          0.08872000128030777
+        ],
+        [
+          0.0,
+          5.7383198738098145,
+          0.0,
+          42.84648132324219
+        ],
+        [
+          0.0,
+          0.0,
+          0.9399999976158142,
+          11.812675476074219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_GUEST_L2",
+        "name_full": "FW_PROBE_GUEST_L2",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23682,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 1.0,
+        "resolution_x": 6,
+        "resolution_y": 9,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    }
+  },
+  "after_volumes": {
+    "FW_PROBE_MAIN_B": {
+      "matrix": [
+        [
+          4.839799880981445,
+          0.0,
+          0.0,
+          -1.807800054550171
+        ],
+        [
+          0.0,
+          3.415649890899658,
+          0.0,
+          14.735250473022461
+        ],
+        [
+          0.0,
+          0.0,
+          0.9549999833106995,
+          -1.0750000476837158
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_MAIN_B",
+        "name_full": "FW_PROBE_MAIN_B",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23683,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 0.0,
+        "resolution_x": 8,
+        "resolution_y": 6,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_MAIN_L1": {
+      "matrix": [
+        [
+          13.813300132751465,
+          0.0,
+          0.0,
+          6.143899917602539
+        ],
+        [
+          0.0,
+          9.044249534606934,
+          0.0,
+          9.053549766540527
+        ],
+        [
+          0.0,
+          0.0,
+          1.0800000429153442,
+          1.2999999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_MAIN_L1",
+        "name_full": "FW_PROBE_MAIN_L1",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23684,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 0.0,
+        "resolution_x": 20,
+        "resolution_y": 14,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_MAIN_L2": {
+      "matrix": [
+        [
+          7.538400173187256,
+          0.0,
+          0.0,
+          3.563199996948242
+        ],
+        [
+          0.0,
+          4.769700050354004,
+          0.0,
+          11.522700309753418
+        ],
+        [
+          0.0,
+          0.0,
+          0.9649999737739563,
+          3.929800033569336
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_MAIN_L2",
+        "name_full": "FW_PROBE_MAIN_L2",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23685,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 0.0,
+        "resolution_x": 12,
+        "resolution_y": 8,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_MAIN_L3": {
+      "matrix": [
+        [
+          6.467629909515381,
+          0.0,
+          0.0,
+          2.4400298595428467
+        ],
+        [
+          0.0,
+          6.5834736824035645,
+          0.0,
+          18.009273529052734
+        ],
+        [
+          0.0,
+          0.0,
+          0.8999999761581421,
+          6.284150123596191
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_MAIN_L3",
+        "name_full": "FW_PROBE_MAIN_L3",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23686,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 0.0,
+        "resolution_x": 10,
+        "resolution_y": 10,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_GUEST_L1": {
+      "matrix": [
+        [
+          11.734224319458008,
+          0.0,
+          0.0,
+          7.836063861846924
+        ],
+        [
+          0.0,
+          10.45676040649414,
+          0.0,
+          44.559879302978516
+        ],
+        [
+          0.0,
+          0.0,
+          0.9599999785423279,
+          9.479999542236328
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_GUEST_L1",
+        "name_full": "FW_PROBE_GUEST_L1",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23681,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 0.0,
+        "resolution_x": 17,
+        "resolution_y": 15,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_GUEST_B1": {
+      "matrix": [
+        [
+          2.9719960689544678,
+          0.0,
+          0.0,
+          -0.6308760046958923
+        ],
+        [
+          0.0,
+          1.910591959953308,
+          0.0,
+          39.10310363769531
+        ],
+        [
+          0.0,
+          0.0,
+          0.9700000286102295,
+          7.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_GUEST_B1",
+        "name_full": "FW_PROBE_GUEST_B1",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23680,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 0.0,
+        "resolution_x": 5,
+        "resolution_y": 4,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    },
+    "FW_PROBE_GUEST_L2": {
+      "matrix": [
+        [
+          3.461280107498169,
+          0.0,
+          0.0,
+          0.08872000128030777
+        ],
+        [
+          0.0,
+          5.7383198738098145,
+          0.0,
+          42.84648132324219
+        ],
+        [
+          0.0,
+          0.0,
+          0.9399999976158142,
+          11.812675476074219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_PROBE_GUEST_L2",
+        "name_full": "FW_PROBE_GUEST_L2",
+        "id_type": "LIGHT_PROBE",
+        "session_uid": 23682,
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "VOLUME",
+        "clip_start": 0.009999999776482582,
+        "show_clip": false,
+        "show_influence": true,
+        "influence_distance": 0.30000001192092896,
+        "visibility_buffer_bias": 1.0,
+        "visibility_bleed_bias": 0.0,
+        "visibility_blur": 0.20000000298023224,
+        "invert_visibility_collection": false,
+        "show_data": false,
+        "use_data_display": false,
+        "data_display_size": 0.10000000149011612,
+        "intensity": 0.0,
+        "resolution_x": 6,
+        "resolution_y": 9,
+        "resolution_z": 4,
+        "capture_distance": 20.0,
+        "normal_bias": 0.30000001192092896,
+        "view_bias": 0.0,
+        "facing_bias": 0.5,
+        "bake_samples": 64,
+        "surface_bias": 0.05000000074505806,
+        "escape_bias": 0.10000000149011612,
+        "surfel_density": 8,
+        "validity_threshold": 0.4000000059604645,
+        "dilation_threshold": 0.5,
+        "dilation_radius": 1.0,
+        "capture_world": true,
+        "capture_indirect": true,
+        "capture_emission": true,
+        "clamp_direct": 0.0,
+        "clamp_indirect": 10.0
+      }
+    }
+  },
+  "cycles_glass_signature": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+  "glazing_geometry_signature": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+  "invariants_passed": true,
+  "gi_rebaked": false,
+  "production_saved": false,
+  "interpretation_limit": "Intensity scales cached radiance but leaves volume bounds, validity, visibility and selection intact.",
+  "seconds": 34.906253600001946,
+  "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06-volume-zero-study.png",
+  "sha256": "c47451cf5efcbe091d2f79eca9733807cabf24d116120b28dcf760677b769b79",
+  "visual_acceptance": "FAIL_RECTANGLE_REMAINS",
+  "source_unchanged": true,
+  "viewed_native": true,
+  "process_exit_code": 0,
+  "finding": "Rectangle position and soft boundary persist; intensity zero slightly darkens the middle without removing the overly bright surroundings.",
+  "comparison_metrics": {
+    "mean_absolute_rgb_code_difference": 1.606284079218107,
+    "maximum_absolute_channel_difference": 41,
+    "identical_pixel_fraction": 0.11745177469135802,
+    "unit": "8-bit display RGB, not linear irradiance"
+  }
+}

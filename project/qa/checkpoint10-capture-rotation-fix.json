@@ -1,0 +1,18 @@
+{
+  "source_sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+  "camera_modes": {
+    "CAM_MAIN_L2_MASTER_A": "QUATERNION",
+    "CAM_MAIN_L2_MASTER_B": "QUATERNION",
+    "CAM_MAIN_L2_BATH_M_A": "QUATERNION",
+    "CAM_MAIN_L2_BATH_M_B": "QUATERNION",
+    "CAM_GUEST_L1_STAIR_HALL_A": "XYZ",
+    "CAM_GUEST_L1_STAIR_HALL_B": "XYZ",
+    "CAM_GUEST_L1_LOUNGE_B": "XYZ",
+    "CAM_GUEST_L1_TERRACE_B": "XYZ",
+    "CAM_GUEST_B1_STAIR_A": "XYZ",
+    "CAM_GUEST_L2_HALL_A": "XYZ"
+  },
+  "output_sha256": "100e6843134357faba23016f125bb74c6bd97c0f71996740022b09cce533a120",
+  "reason": "Four master/bath cameras use QUATERNION; their inactive Euler channels do not represent their visible pose",
+  "source_scene_changed": false
+}

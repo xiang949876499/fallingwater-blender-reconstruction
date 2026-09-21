@@ -1,0 +1,59 @@
+{
+  "status": "READY_FOR_ROOT_RENDER_PHYSICAL_REOPEN_PASS_VISUAL_NOT_RUN",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_navigation_candidate10a.blend",
+  "source_sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_masonry_wall_candidate12a.blend",
+  "candidate_sha256": "7eec1f9cacb82e4494a06114f9f9ec30562c7eb8bb0416d91d477bebc8dce30f",
+  "helper": "D:\\zx\\test\\project\\scripts\\masonry_wall12.py",
+  "helper_sha256": "185d5209f029936a20c4dd5d7e7660e5933227c1b0fbf519174214c5ab8090f8",
+  "interface": "import masonry_wall12; manifest = masonry_wall12.apply(bpy.context.scene)",
+  "changed_original_objects": [
+    "MAIN_L3_study_core_0"
+  ],
+  "original_objects_unchanged": 23436,
+  "new_objects": [
+    "MASONRY12_Wall_Dressing_West",
+    "MASONRY12_Wall_Study_West"
+  ],
+  "new_material": "MASONRY12_Wall_Private_Stone",
+  "shared_materials_images_cameras_lights_world_unchanged": true,
+  "stones": 224,
+  "triangles": 11648,
+  "stone_face_area_m2": 11.053165131523162,
+  "course_body_height_range_m": [
+    0.036770198341907916,
+    0.1534358853030828
+  ],
+  "front_depth_range_m": [
+    0.01685367972774099,
+    0.03283781768541516
+  ],
+  "back_contact_samples": 3136,
+  "window_rays": 126,
+  "frame_support_points": 28,
+  "current_route_changed_object_rays": 12264,
+  "camera_positions_checked": 131,
+  "integer_frames": 7584,
+  "strict_integer_body_sweep_rays": 153627,
+  "new_collisions": 0,
+  "independent_snapshot_equal": true,
+  "rendered": false,
+  "production_modified": false,
+  "visual_status": "NOT_RUN",
+  "source_scope": "Only two west stone faces. HABS supports stone and Study window identity; bond, color/depth, retained window heights are C.",
+  "render_comparison": {
+    "same_existing_cameras": [
+      "CAM_HERO",
+      "CAM_MAIN_L2_TERRACE_W_A"
+    ],
+    "frame": 48,
+    "parameters": "Integrator should use identical baseline/candidate camera/exposure/light settings; no saved camera changes."
+  },
+  "negative_evidence": [
+    "masonry-wall12-probe.json: original blocked window3 rays",
+    "masonry-wall12-attempt01-check.json/log: aggregate bounding masks produced empty stone batches; unsaved",
+    "masonry-wall12-attempt02-check.json/log: new stones intersected original roof; unsaved",
+    "masonry-wall12-attempt03-check.json/log: generic Boolean changed outerZ dimension/material slots; unsaved"
+  ],
+  "neat_reconciliation": "Owned design, source-view manifest, final handoff and failure records reconciled. Existing root AGENTS/README continue to state ongoing production status; no other owner files modified."
+}

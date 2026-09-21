@@ -1,0 +1,284 @@
+{
+  "status": "PASS_RECORD_ASSOCIATION_AND_GENERATED_OUTPUT_CLASSIFICATION_ONLY",
+  "review_utc": "2026-09-20T17:20:44.739817+00:00",
+  "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "dimension_record": "qa/dimensions-build-20260920-165955.json",
+  "dimension_record_sha256": "27160ff99df9f2e64bfd5cdbe70d7c836b7693f1cc653529c24da98f76f1cdd8",
+  "recorded_scene_path": "D:\\zx\\test\\project\\scene\\Fallingwater_working.blend",
+  "immutable_checkpoint": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "actual_scene_bytes": 44414422,
+  "measurement_rows": 44,
+  "recomputed_counts": {
+    "numeric_result": {
+      "NOT_RUN": 21,
+      "PASS": 23
+    },
+    "standard_result": {
+      "NOT_RUN": 21,
+      "PASS": 15,
+      "SOURCE_PRECISION_LIMIT": 8
+    }
+  },
+  "standard_classification_ids": {
+    "NOT_RUN": [
+      "MAIN_CHAIN_TOTAL",
+      "MAIN_CHAIN_01",
+      "MAIN_CHAIN_02",
+      "MAIN_CHAIN_04",
+      "MAIN_CHAIN_05",
+      "MAIN_CHAIN_06",
+      "MAIN_CHAIN_07",
+      "MAIN_CHAIN_08",
+      "MAIN_CHAIN_09",
+      "MAIN_VERTICAL_TOTAL",
+      "MAIN_LIVING_NOMINAL_LENGTH",
+      "MAIN_LIVING_NOMINAL_WIDTH",
+      "MAIN_KITCHEN_NOMINAL_LENGTH",
+      "MAIN_KITCHEN_NOMINAL_WIDTH",
+      "MAIN_SERVANT_NOMINAL_LENGTH",
+      "MAIN_SERVANT_NOMINAL_WIDTH",
+      "GUEST_THEATER_LENGTH",
+      "GUEST_THEATER_DEPTH",
+      "GUEST_SERVICE_Y_CHAIN",
+      "GUEST_THEATER_NORTH_RISE",
+      "GUEST_THEATER_EAST_SEGMENT"
+    ],
+    "PASS": [
+      "MAIN_CHAIN_03",
+      "MAIN_LEVEL_2",
+      "MAIN_LEVEL_3",
+      "MAIN_ROOF_EAST",
+      "MAIN_ROOF_WEST",
+      "GUEST_POOL_LENGTH",
+      "GUEST_POOL_WIDTH",
+      "GUEST_POOL_OUTER_WIDTH",
+      "GUEST_SECOND_LEVEL",
+      "GUEST_TOP_STONE",
+      "GUEST_PARAPET",
+      "GUEST_CHIMNEY",
+      "GUEST_LOW_STONE",
+      "GUEST_POOL_TOP",
+      "GUEST_LAUNDRY_STAIR_CLEAR"
+    ],
+    "SOURCE_PRECISION_LIMIT": [
+      "GUEST_BOILER_DIM_1",
+      "GUEST_BOILER_DIM_2",
+      "GUEST_GUEST_ROOM_LENGTH",
+      "GUEST_GUEST_ROOM_DEPTH",
+      "GUEST_LAUNDRY_LENGTH",
+      "GUEST_LAUNDRY_DEPTH",
+      "GUEST_BASE_BATH_LENGTH",
+      "GUEST_BASE_BATH_WIDTH"
+    ]
+  },
+  "geo02_overall": "INCOMPLETE",
+  "geo02_overall_reasons": [
+    "Count does not substitute for category coverage. Missing categories: cantilever, openings; site has pool-only partial coverage.",
+    "SOURCE_PRECISION_LIMIT rows are numeric agreement only, not GEO-02 standard passes.",
+    "Room-label face/axis interpretations remain explicitly C; mesh measurement cannot prove archival semantic precision.",
+    "Category counts overlap. Pool inner/outer anchors have distinct labels but correlated construction/calibration; repeated audit versions are not extra anchors."
+  ],
+  "checks": {
+    "44_rows": true,
+    "all_row_scene_hashes_match_frozen09": true,
+    "audit_scene_hash_matches_frozen09": true,
+    "actual_frozen09_hash_matches": true,
+    "actual_working_hash_matches": true,
+    "numeric_counts_recomputed_match": true,
+    "standard_counts_recomputed_match": true,
+    "audit_main_data_hash_matches_generated09": true,
+    "generated_check_is_exact_freeze_embedded_record": true,
+    "generated_check_before_hash_is_frozen_prior_snapshot": true,
+    "generated_check_fresh_byte_hash_is_current_output": true,
+    "generated_check_pass_and_no_json_differences": true,
+    "23_other_frozen_inputs_unchanged": true,
+    "audit_selector_hash_matches_frozen_source": true,
+    "audit_nominal_helper_hash_matches_frozen_source": true,
+    "previous_csv_hash_matches_preserved_file": true
+  },
+  "other_immutable_inputs": [
+    {
+      "path": "scripts\\build_scene.py",
+      "frozen_sha256": "a9686035fc19040c1c7b8a37f05b5398e08b8ca19e48fa6fec42608789e5d5ab",
+      "actual_sha256": "a9686035fc19040c1c7b8a37f05b5398e08b8ca19e48fa6fec42608789e5d5ab",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\main_house.py",
+      "frozen_sha256": "d80558f5780773f8f3b2e8324dea32da616500958c83a70d7637a9e3fc180caf",
+      "actual_sha256": "d80558f5780773f8f3b2e8324dea32da616500958c83a70d7637a9e3fc180caf",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\guest_house.py",
+      "frozen_sha256": "17f42fda4280050f72d10ed7fc1b5c2b9a6891e156e54e86b2ccc103e053a54f",
+      "actual_sha256": "17f42fda4280050f72d10ed7fc1b5c2b9a6891e156e54e86b2ccc103e053a54f",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\furnishings.py",
+      "frozen_sha256": "a6a632ea9d9486c10778f48f0bc6f707af244746731b09a257cd34cbd9d0a053",
+      "actual_sha256": "a6a632ea9d9486c10778f48f0bc6f707af244746731b09a257cd34cbd9d0a053",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\furnishing_softgoods.py",
+      "frozen_sha256": "33ef2f96bc52383c26fe03547ef4cc6b9916417411f392e3cc9bfd5ae2e8c1b6",
+      "actual_sha256": "33ef2f96bc52383c26fe03547ef4cc6b9916417411f392e3cc9bfd5ae2e8c1b6",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\materials.py",
+      "frozen_sha256": "25a4e1d162695c4354752066b178aca088e90348bc082e0265f36c8a6bc44a85",
+      "actual_sha256": "25a4e1d162695c4354752066b178aca088e90348bc082e0265f36c8a6bc44a85",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\architectural_detail.py",
+      "frozen_sha256": "bb73935519f67e77012ade9b33de3fe53a55429980fe87655ad3850e8a96aaf4",
+      "actual_sha256": "bb73935519f67e77012ade9b33de3fe53a55429980fe87655ad3850e8a96aaf4",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\masonry_detail.py",
+      "frozen_sha256": "96caf0bb28e7388d4e962786a0ff7c1ce218cb8c28566715b4eb9ec10b0ca465",
+      "actual_sha256": "96caf0bb28e7388d4e962786a0ff7c1ce218cb8c28566715b4eb9ec10b0ca465",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\site.py",
+      "frozen_sha256": "2efde333707891a0a75237657b14057259ec2ae00e51c9df0ccc7db52858e1a6",
+      "actual_sha256": "2efde333707891a0a75237657b14057259ec2ae00e51c9df0ccc7db52858e1a6",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\water_integration.py",
+      "frozen_sha256": "3f2205f8f88d7145da3ab30abee3acd5067396c7b33a9bd1967ff5e7a51ad0f3",
+      "actual_sha256": "3f2205f8f88d7145da3ab30abee3acd5067396c7b33a9bd1967ff5e7a51ad0f3",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\asset_materials.py",
+      "frozen_sha256": "725b4f36db6fba66afa1bb20aceff4b17b068daa2d2e8721ec9ba3c4c159a0ac",
+      "actual_sha256": "725b4f36db6fba66afa1bb20aceff4b17b068daa2d2e8721ec9ba3c4c159a0ac",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\camera_review.py",
+      "frozen_sha256": "c288a3f848a19f0eed072678f2dd43110f52fb299d6c4c93ee06759b0a94ef88",
+      "actual_sha256": "c288a3f848a19f0eed072678f2dd43110f52fb299d6c4c93ee06759b0a94ef88",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\navigation.py",
+      "frozen_sha256": "93695a8a4f4fc4d775ea45d1a5ce0e904eee5761d0836e6183a01b30ad392a59",
+      "actual_sha256": "93695a8a4f4fc4d775ea45d1a5ce0e904eee5761d0836e6183a01b30ad392a59",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\fwlib.py",
+      "frozen_sha256": "8cdce8685c07727e721daf7cb0982cd4451a6533b72cf1daf08ba85b1c06e77f",
+      "actual_sha256": "8cdce8685c07727e721daf7cb0982cd4451a6533b72cf1daf08ba85b1c06e77f",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\near_terrain_detail.py",
+      "frozen_sha256": "fd56ffbb37741f5d80412d3e1a46c45ebaf9af66c3ad439e4093acb6fb63c77c",
+      "actual_sha256": "fd56ffbb37741f5d80412d3e1a46c45ebaf9af66c3ad439e4093acb6fb63c77c",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\dimension_audit.py",
+      "frozen_sha256": "9a2876a7ce9458d288b0da09aa332f91cd1a060b72922f271d4504c5dda17740",
+      "actual_sha256": "9a2876a7ce9458d288b0da09aa332f91cd1a060b72922f271d4504c5dda17740",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\nominal_targets.py",
+      "frozen_sha256": "8551e516d479946926a3284506dd9003bbe98ade15658c1ef63bbf8ee191b96b",
+      "actual_sha256": "8551e516d479946926a3284506dd9003bbe98ade15658c1ef63bbf8ee191b96b",
+      "unchanged": true
+    },
+    {
+      "path": "config.json",
+      "frozen_sha256": "b7480e69477d14a2e22111ad6d108e5bffc4834b1f804dd5e62a6eff92354c52",
+      "actual_sha256": "b7480e69477d14a2e22111ad6d108e5bffc4834b1f804dd5e62a6eff92354c52",
+      "unchanged": true
+    },
+    {
+      "path": "data\\guest_house.json",
+      "frozen_sha256": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+      "actual_sha256": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+      "unchanged": true
+    },
+    {
+      "path": "data\\site.json",
+      "frozen_sha256": "2b4d5c712e7358dacc11458749d7dabc45bee98f43ec660fa9be4f36aa070c3d",
+      "actual_sha256": "2b4d5c712e7358dacc11458749d7dabc45bee98f43ec660fa9be4f36aa070c3d",
+      "unchanged": true
+    },
+    {
+      "path": "data\\camera-settings-reviewed.json",
+      "frozen_sha256": "f011c9462431e12137a49d3829a85586da0804a5a934086e03d7143c7d5dc1d0",
+      "actual_sha256": "f011c9462431e12137a49d3829a85586da0804a5a934086e03d7143c7d5dc1d0",
+      "unchanged": true
+    },
+    {
+      "path": "data\\dimension-target-reviews.json",
+      "frozen_sha256": "3d327c8c5286ca84a32f64bfd8107155804a541fa491fb672db324113e7ecd20",
+      "actual_sha256": "3d327c8c5286ca84a32f64bfd8107155804a541fa491fb672db324113e7ecd20",
+      "unchanged": true
+    },
+    {
+      "path": "data\\dimension-anchors-extra.json",
+      "frozen_sha256": "86366de5bbeda7df3aa25bc284c57c7bcefe103fbc17703ba7040f5ff3bfd98b",
+      "actual_sha256": "86366de5bbeda7df3aa25bc284c57c7bcefe103fbc17703ba7040f5ff3bfd98b",
+      "unchanged": true
+    }
+  ],
+  "generated_main_data": {
+    "status": "PASS",
+    "actual_sha256": "be830b3d37b53726bb4919f4732b9439792bc82af2f418480199d4cd2ec4e3ac",
+    "independent_source_export_sha256": "be830b3d37b53726bb4919f4732b9439792bc82af2f418480199d4cd2ec4e3ac",
+    "before_build_sha256": "85c0ce86bc27dfc2f0f9d91f1e2fe2068348f70bfd1db5349e76d7e2562b97bf",
+    "method": "Fresh Blender process imports unchanged frozen main_house.py and calls export_data without a path; exact generated UTF-8/Windows-CRLF bytes compared to the build output. JSON values independently compared after serialization. No scene or data saved.",
+    "classification": "data/main_house.json is generated by main_house.build(), not an immutable input to it",
+    "differences": []
+  },
+  "source_call_evidence": [
+    {
+      "path": "scripts/main_house.py",
+      "line": 301,
+      "claim": "export_data constructs from source constants and room_records; it does not read main_house.json."
+    },
+    {
+      "path": "scripts/main_house.py",
+      "line": 331,
+      "claim": "Writes JSON only when a path is supplied; UTF-8 text uses host newline translation."
+    },
+    {
+      "path": "scripts/main_house.py",
+      "line": 687,
+      "claim": "build calls export_data on data/main_house.json before returning rooms."
+    },
+    {
+      "path": "scripts/build_scene.py",
+      "line": 101,
+      "claim": "main_house.build runs before save_manifests consumes generated data."
+    },
+    {
+      "path": "scripts/build_scene.py",
+      "line": 179,
+      "claim": "dimension audit runs after working.blend is saved."
+    }
+  ],
+  "review_method": "Read-only record/source/hash cross-check; no Blender re-run, export, render, scene save, or central CSV change. Prior fresh-export execution reviewed, not independently repeated.",
+  "limits": [
+    "Record consistency does not promote GEO-02 INCOMPLETE to PASS.",
+    "The retained inputs map contains one explicitly reclassified prior-output snapshot; consumers must use generated_outputs for current main_house.json.",
+    "No new photo/endpoint identity or numerical measurement was asserted by this read-only review."
+  ],
+  "central_dimensions_csv_sha256_before": "c19f3cd58161ac2d00260662a76f916c7168418b64e58f79fc588b4e1383545d",
+  "central_dimensions_csv_sha256_after": "c19f3cd58161ac2d00260662a76f916c7168418b64e58f79fc588b4e1383545d",
+  "central_dimensions_csv_unchanged": true
+}

@@ -1,0 +1,68 @@
+{
+  "scope": "Display-referred image statistics only, not measured illuminance, scene-linear energy, or visual acceptance. Source resolutions differ.",
+  "images": {
+    "original_hero": {
+      "path": "renders/previews/iteration01/CAM_HERO.png",
+      "width": 960,
+      "height": 540,
+      "display_luma_mean": 0.1834,
+      "display_luma_median": 0.1694,
+      "very_dark_fraction": 0.1026,
+      "near_white_fraction": 0.0
+    },
+    "original_living_A": {
+      "path": "renders/previews/iteration01/CAM_MAIN_L1_LIVING_A.png",
+      "width": 960,
+      "height": 540,
+      "display_luma_mean": 0.0127,
+      "display_luma_median": 0.0048,
+      "very_dark_fraction": 0.8665,
+      "near_white_fraction": 0.0
+    },
+    "physical_hero_EV08": {
+      "path": "qa/lighting01/CAM_HERO.png",
+      "width": 640,
+      "height": 360,
+      "display_luma_mean": 0.4114,
+      "display_luma_median": 0.3554,
+      "very_dark_fraction": 0.0028,
+      "near_white_fraction": 0.0
+    },
+    "physical_living_A_EV08": {
+      "path": "qa/lighting01/CAM_MAIN_L1_LIVING_A.png",
+      "width": 640,
+      "height": 360,
+      "display_luma_mean": 0.0701,
+      "display_luma_median": 0.0628,
+      "very_dark_fraction": 0.163,
+      "near_white_fraction": 0.0
+    },
+    "physical_living_A_EV32": {
+      "path": "qa/lighting02/CAM_MAIN_L1_LIVING_A_EV3p2.png",
+      "width": 640,
+      "height": 360,
+      "display_luma_mean": 0.2269,
+      "display_luma_median": 0.2123,
+      "very_dark_fraction": 0.0011,
+      "near_white_fraction": 0.0
+    },
+    "physical_living_B_EV24": {
+      "path": "qa/lighting03/CAM_MAIN_L1_LIVING_B_EV2p4.png",
+      "width": 640,
+      "height": 360,
+      "display_luma_mean": 0.3611,
+      "display_luma_median": 0.2771,
+      "very_dark_fraction": 0.0184,
+      "near_white_fraction": 0.0041
+    },
+    "hero_excess_EV32": {
+      "path": "qa/lighting03/CAM_HERO_EV3p2.png",
+      "width": 640,
+      "height": 360,
+      "display_luma_mean": 0.6869,
+      "display_luma_median": 0.6881,
+      "very_dark_fraction": 0.0,
+      "near_white_fraction": 0.016
+    }
+  }
+}

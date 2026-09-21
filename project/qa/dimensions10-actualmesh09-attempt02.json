@@ -1,0 +1,2132 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "after_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "scene_unchanged": true,
+  "blender_version": "5.2.1 LTS",
+  "rendered": false,
+  "saved_scene": false,
+  "method": "evaluated mesh BVH intersections; bounds are locator-only",
+  "measurements": [
+    {
+      "id": "MAIN10_L2_WEST_TERRACE_X",
+      "ray_a": {
+        "selectors": [
+          "MAIN_L2_west_parapet_0"
+        ],
+        "origin": [
+          -20,
+          14,
+          3.1
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_west_parapet_0",
+          "face": 146,
+          "point": [
+            -13.472000122070312,
+            14.0,
+            3.0999999046325684
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance_from_origin": 6.5279998779296875
+        }
+      },
+      "ray_b": {
+        "selectors": [
+          "MAIN_L2_dressing_shell_middle"
+        ],
+        "origin": [
+          -10,
+          14.0,
+          4.0
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_dressing_shell_middle",
+          "face": 50,
+          "point": [
+            -4.474399566650391,
+            14.0,
+            4.0
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance_from_origin": 5.525600433349609
+        }
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "reference_m": 8.82015,
+      "actual_mesh_m": 8.997600555419922,
+      "signed_error_m": 0.17745055541992194,
+      "tolerance_m": 0.04410075,
+      "numeric_result": "FAIL"
+    },
+    {
+      "id": "MAIN10_L2_WEST_TERRACE_Y",
+      "ray_a": {
+        "selectors": [
+          "MAIN_L2_west_north_0"
+        ],
+        "origin": [
+          -10,
+          25,
+          3.1
+        ],
+        "direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_west_north_0",
+          "face": 52,
+          "point": [
+            -10.0,
+            18.11090087890625,
+            3.0999999046325684
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "distance_from_origin": 6.88909912109375
+        }
+      },
+      "ray_b": {
+        "selectors": [
+          "MAIN_L2_west_parapet_1"
+        ],
+        "origin": [
+          -10,
+          8,
+          3.1
+        ],
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_west_parapet_1",
+          "face": 146,
+          "point": [
+            -10.0,
+            12.527799606323242,
+            3.0999999046325684
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance_from_origin": 4.5278000831604
+        }
+      },
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "reference_m": 5.343525,
+      "actual_mesh_m": 5.583101272583008,
+      "signed_error_m": 0.23957627258300818,
+      "tolerance_m": 0.026717625,
+      "numeric_result": "FAIL"
+    },
+    {
+      "id": "MAIN10_L2_SOUTH_TERRACE_X",
+      "ray_a": {
+        "selectors": [
+          "MAIN_L2_south_parapet_0"
+        ],
+        "origin": [
+          -5,
+          0,
+          3.1
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_south_parapet_0",
+          "face": 146,
+          "point": [
+            -0.5915999412536621,
+            0.0,
+            3.0999999046325684
+          ],
+          "normal": [
+            -1.0,
+            4.5649915847434386e-08,
+            0.0
+          ],
+          "distance_from_origin": 4.408400058746338
+        }
+      },
+      "ray_b": {
+        "selectors": [
+          "MAIN_L2_south_parapet_2"
+        ],
+        "origin": [
+          15,
+          0,
+          3.1
+        ],
+        "direction": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_south_parapet_2",
+          "face": 146,
+          "point": [
+            7.246399879455566,
+            0.0,
+            3.0999999046325684
+          ],
+          "normal": [
+            0.9999999403953552,
+            6.20012130525538e-08,
+            0.0
+          ],
+          "distance_from_origin": 7.753600120544434
+        }
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "reference_m": 7.75335,
+      "actual_mesh_m": 7.8379998207092285,
+      "signed_error_m": 0.08464982070922833,
+      "tolerance_m": 0.03876675,
+      "numeric_result": "FAIL"
+    },
+    {
+      "id": "MAIN10_L1_SERVICE_OUTER_X",
+      "ray_a": {
+        "selectors": [
+          "MAIN_L1_servant_wall_0"
+        ],
+        "origin": [
+          -12,
+          15.9,
+          1.4
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L1_servant_wall_0",
+          "face": 50,
+          "point": [
+            -7.81279993057251,
+            15.899999618530273,
+            1.399999976158142
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "distance_from_origin": 4.18720006942749
+        }
+      },
+      "ray_b": {
+        "selectors": [
+          "MAIN_L1_kitchen_west_0"
+        ],
+        "origin": [
+          -6,
+          15.9,
+          1.4
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L1_kitchen_west_0",
+          "face": 50,
+          "point": [
+            -4.327199935913086,
+            15.899999618530273,
+            1.399999976158142
+          ],
+          "normal": [
+            -1.0,
+            8.215990732196587e-08,
+            0.0
+          ],
+          "distance_from_origin": 1.672800064086914
+        }
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "reference_m": 3.3274,
+      "actual_mesh_m": 3.485599994659424,
+      "signed_error_m": 0.15819999465942391,
+      "tolerance_m": 0.02,
+      "numeric_result": "FAIL"
+    },
+    {
+      "id": "MAIN10_GRAPHICAL_L2_SOUTH_CANTILEVER",
+      "ray_a": {
+        "selectors": [
+          "MAIN_L2_south_parapet_1"
+        ],
+        "origin": [
+          0,
+          -6,
+          2.7
+        ],
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_south_parapet_1",
+          "face": 146,
+          "point": [
+            0.0,
+            -2.2970998287200928,
+            2.700000047683716
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "distance_from_origin": 3.7029001712799072
+        }
+      },
+      "ray_b": {
+        "selectors": [
+          "MAIN_L1_south_stone_pier_0"
+        ],
+        "origin": [
+          -0.45,
+          1,
+          2.0
+        ],
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L1_south_stone_pier_0",
+          "face": 50,
+          "point": [
+            -0.44999998807907104,
+            4.326599597930908,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            -0.9999999403953552,
+            0.0
+          ],
+          "distance_from_origin": 3.326599597930908
+        }
+      },
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "reference_m": null,
+      "actual_mesh_m": 6.623699188232422,
+      "signed_error_m": null,
+      "tolerance_m": null,
+      "numeric_result": "GRAPHICAL_ONLY"
+    },
+    {
+      "id": "GUEST10_THEATER_NORTH_BAY",
+      "ray_a": {
+        "selectors": [
+          "GUEST_L1_THEATER_DIAGONAL_BACK_lintel_0",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_pier_end",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_sill_0",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_0",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_1",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_2",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_3",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_4",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_head",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_0",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_1",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_2",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_3",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_4",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_5",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_sill",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_0",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_1",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_2",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_3",
+          "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_4"
+        ],
+        "origin": [
+          -2.9702720642089844,
+          51.60063552856445,
+          9.5
+        ],
+        "direction": [
+          -0.5044148564338684,
+          0.8634614944458008,
+          -0.0
+        ],
+        "max_distance": 10,
+        "hit": {
+          "object": "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0",
+          "face": 50,
+          "point": [
+            -3.539874792098999,
+            52.575687408447266,
+            9.5
+          ],
+          "normal": [
+            0.5005678534507751,
+            -0.8656972646713257,
+            0.0
+          ],
+          "distance_from_origin": 1.1292346715927124
+        }
+      },
+      "ray_b": {
+        "selectors": [
+          "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end"
+        ],
+        "origin": [
+          -2.9702720642089844,
+          51.60063552856445,
+          9.5
+        ],
+        "direction": [
+          0.5044148564338684,
+          -0.8634614944458008,
+          0.0
+        ],
+        "max_distance": 10,
+        "hit": {
+          "object": "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+          "face": 52,
+          "point": [
+            -2.630678415298462,
+            51.019317626953125,
+            9.5
+          ],
+          "normal": [
+            -0.4702679216861725,
+            0.8825236558914185,
+            0.0
+          ],
+          "distance_from_origin": 0.6732426285743713
+        }
+      },
+      "axis": [
+        0.5044147968292236,
+        -0.8634613752365112,
+        0.0
+      ],
+      "reference_m": 2.486025,
+      "actual_mesh_m": 1.8024775683879852,
+      "signed_error_m": -0.6835474316120149,
+      "tolerance_m": 0.02,
+      "numeric_result": "FAIL",
+      "source_locator_endpoints_world": [
+        [
+          -3.606247901916504,
+          52.68930435180664,
+          9.5
+        ],
+        [
+          -2.3342959880828857,
+          50.511966705322266,
+          9.5
+        ]
+      ],
+      "source_direction_normal_dot": [
+        0.9999899566173553,
+        0.999235212802887
+      ],
+      "existing_straight_facade_diagnostic": [
+        {
+          "selectors": [
+            "GUEST_L1_THEATER_WEST_door_head_0",
+            "GUEST_L1_THEATER_WEST_door_head_2",
+            "GUEST_L1_THEATER_WEST_handle_0",
+            "GUEST_L1_THEATER_WEST_handle_2",
+            "GUEST_L1_THEATER_WEST_jamb_0_a",
+            "GUEST_L1_THEATER_WEST_jamb_0_b",
+            "GUEST_L1_THEATER_WEST_jamb_2_a",
+            "GUEST_L1_THEATER_WEST_jamb_2_b",
+            "GUEST_L1_THEATER_WEST_lintel_0",
+            "GUEST_L1_THEATER_WEST_lintel_1",
+            "GUEST_L1_THEATER_WEST_lintel_2",
+            "GUEST_L1_THEATER_WEST_open_leaf_0",
+            "GUEST_L1_THEATER_WEST_open_leaf_2",
+            "GUEST_L1_THEATER_WEST_pier_0",
+            "GUEST_L1_THEATER_WEST_pier_1",
+            "GUEST_L1_THEATER_WEST_pier_2",
+            "GUEST_L1_THEATER_WEST_pier_end",
+            "GUEST_L1_THEATER_WEST_sill_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+            "GUEST_L1_THEATER_WEST_steel_window_1_head",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3",
+            "GUEST_L1_THEATER_WEST_steel_window_1_sill",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_2"
+          ],
+          "origin": [
+            -2.9702720642089844,
+            51.60063552856445,
+            9.5
+          ],
+          "direction": [
+            0.8634614944458008,
+            0.5044148564338684,
+            0.0
+          ],
+          "max_distance": 5,
+          "hit": null
+        },
+        {
+          "selectors": [
+            "GUEST_L1_THEATER_WEST_door_head_0",
+            "GUEST_L1_THEATER_WEST_door_head_2",
+            "GUEST_L1_THEATER_WEST_handle_0",
+            "GUEST_L1_THEATER_WEST_handle_2",
+            "GUEST_L1_THEATER_WEST_jamb_0_a",
+            "GUEST_L1_THEATER_WEST_jamb_0_b",
+            "GUEST_L1_THEATER_WEST_jamb_2_a",
+            "GUEST_L1_THEATER_WEST_jamb_2_b",
+            "GUEST_L1_THEATER_WEST_lintel_0",
+            "GUEST_L1_THEATER_WEST_lintel_1",
+            "GUEST_L1_THEATER_WEST_lintel_2",
+            "GUEST_L1_THEATER_WEST_open_leaf_0",
+            "GUEST_L1_THEATER_WEST_open_leaf_2",
+            "GUEST_L1_THEATER_WEST_pier_0",
+            "GUEST_L1_THEATER_WEST_pier_1",
+            "GUEST_L1_THEATER_WEST_pier_2",
+            "GUEST_L1_THEATER_WEST_pier_end",
+            "GUEST_L1_THEATER_WEST_sill_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+            "GUEST_L1_THEATER_WEST_steel_window_1_head",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3",
+            "GUEST_L1_THEATER_WEST_steel_window_1_sill",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_2"
+          ],
+          "origin": [
+            -2.9702720642089844,
+            51.60063552856445,
+            9.5
+          ],
+          "direction": [
+            -0.8634614944458008,
+            -0.5044148564338684,
+            0.0
+          ],
+          "max_distance": 5,
+          "hit": null
+        }
+      ]
+    },
+    {
+      "id": "GUEST10_THEATER_MIDDLE_BAY",
+      "ray_a": {
+        "selectors": [
+          "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end"
+        ],
+        "origin": [
+          -2.491976022720337,
+          48.65885925292969,
+          9.5
+        ],
+        "direction": [
+          -0.5079918503761292,
+          0.8613619804382324,
+          -0.0
+        ],
+        "max_distance": 10,
+        "hit": {
+          "object": "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end",
+          "face": 50,
+          "point": [
+            -3.360633611679077,
+            50.13177490234375,
+            9.5
+          ],
+          "normal": [
+            0.4702679216861725,
+            -0.8825236558914185,
+            0.0
+          ],
+          "distance_from_origin": 1.709983468055725
+        }
+      },
+      "ray_b": {
+        "selectors": [
+          "GUEST_L1_CARPORT_RETAINED_PIER_1_pier_end"
+        ],
+        "origin": [
+          -2.491976022720337,
+          48.65885925292969,
+          9.5
+        ],
+        "direction": [
+          0.5079918503761292,
+          -0.8613619804382324,
+          0.0
+        ],
+        "max_distance": 10,
+        "hit": null
+      },
+      "axis": [
+        0.5079917907714844,
+        -0.8613618612289429,
+        0.0
+      ],
+      "reference_m": 2.162175,
+      "actual_mesh_m": null,
+      "numeric_result": "MISSING_SOURCE_RAY_ENDPOINT",
+      "source_locator_endpoints_world": [
+        [
+          -3.043855905532837,
+          49.59463882446289,
+          9.5
+        ],
+        [
+          -1.9400960206985474,
+          47.723079681396484,
+          9.5
+        ]
+      ],
+      "source_direction_normal_dot": [
+        0.999064490199089,
+        null
+      ],
+      "existing_straight_facade_diagnostic": [
+        {
+          "selectors": [
+            "GUEST_L1_THEATER_WEST_door_head_0",
+            "GUEST_L1_THEATER_WEST_door_head_2",
+            "GUEST_L1_THEATER_WEST_handle_0",
+            "GUEST_L1_THEATER_WEST_handle_2",
+            "GUEST_L1_THEATER_WEST_jamb_0_a",
+            "GUEST_L1_THEATER_WEST_jamb_0_b",
+            "GUEST_L1_THEATER_WEST_jamb_2_a",
+            "GUEST_L1_THEATER_WEST_jamb_2_b",
+            "GUEST_L1_THEATER_WEST_lintel_0",
+            "GUEST_L1_THEATER_WEST_lintel_1",
+            "GUEST_L1_THEATER_WEST_lintel_2",
+            "GUEST_L1_THEATER_WEST_open_leaf_0",
+            "GUEST_L1_THEATER_WEST_open_leaf_2",
+            "GUEST_L1_THEATER_WEST_pier_0",
+            "GUEST_L1_THEATER_WEST_pier_1",
+            "GUEST_L1_THEATER_WEST_pier_2",
+            "GUEST_L1_THEATER_WEST_pier_end",
+            "GUEST_L1_THEATER_WEST_sill_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+            "GUEST_L1_THEATER_WEST_steel_window_1_head",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3",
+            "GUEST_L1_THEATER_WEST_steel_window_1_sill",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_2"
+          ],
+          "origin": [
+            -2.491976022720337,
+            48.65885925292969,
+            9.5
+          ],
+          "direction": [
+            0.8613619804382324,
+            0.5079918503761292,
+            0.0
+          ],
+          "max_distance": 5,
+          "hit": null
+        },
+        {
+          "selectors": [
+            "GUEST_L1_THEATER_WEST_door_head_0",
+            "GUEST_L1_THEATER_WEST_door_head_2",
+            "GUEST_L1_THEATER_WEST_handle_0",
+            "GUEST_L1_THEATER_WEST_handle_2",
+            "GUEST_L1_THEATER_WEST_jamb_0_a",
+            "GUEST_L1_THEATER_WEST_jamb_0_b",
+            "GUEST_L1_THEATER_WEST_jamb_2_a",
+            "GUEST_L1_THEATER_WEST_jamb_2_b",
+            "GUEST_L1_THEATER_WEST_lintel_0",
+            "GUEST_L1_THEATER_WEST_lintel_1",
+            "GUEST_L1_THEATER_WEST_lintel_2",
+            "GUEST_L1_THEATER_WEST_open_leaf_0",
+            "GUEST_L1_THEATER_WEST_open_leaf_2",
+            "GUEST_L1_THEATER_WEST_pier_0",
+            "GUEST_L1_THEATER_WEST_pier_1",
+            "GUEST_L1_THEATER_WEST_pier_2",
+            "GUEST_L1_THEATER_WEST_pier_end",
+            "GUEST_L1_THEATER_WEST_sill_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_glass_2",
+            "GUEST_L1_THEATER_WEST_steel_window_1_head",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2",
+            "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3",
+            "GUEST_L1_THEATER_WEST_steel_window_1_sill",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_0",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_1",
+            "GUEST_L1_THEATER_WEST_steel_window_1_transom_2"
+          ],
+          "origin": [
+            -2.491976022720337,
+            48.65885925292969,
+            9.5
+          ],
+          "direction": [
+            -0.8613619804382324,
+            -0.5079918503761292,
+            0.0
+          ],
+          "max_distance": 5,
+          "hit": {
+            "object": "GUEST_L1_THEATER_WEST_steel_window_1_glass_1",
+            "face": 1,
+            "point": [
+              -2.5570404529571533,
+              48.620487213134766,
+              9.5
+            ],
+            "normal": [
+              0.9635307192802429,
+              0.2675977945327759,
+              0.0
+            ],
+            "distance_from_origin": 0.07553659379482269
+          }
+        }
+      ]
+    }
+  ],
+  "support_interface": {
+    "pier_top": {
+      "selectors": [
+        "MAIN_L1_south_stone_pier_0"
+      ],
+      "origin": [
+        -0.2,
+        4.5666,
+        4
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "max_distance": 50,
+      "hit": {
+        "object": "MAIN_L1_south_stone_pier_0",
+        "face": 53,
+        "point": [
+          -0.20000000298023224,
+          4.5665998458862305,
+          2.4900002479553223
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "distance_from_origin": 1.5099998712539673
+      }
+    },
+    "slab_underside": {
+      "selectors": [
+        "MAIN_L2_TERRACE_S_slab"
+      ],
+      "origin": [
+        -0.2,
+        4.5666,
+        1
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "max_distance": 50,
+      "hit": {
+        "object": "MAIN_L2_TERRACE_S_slab",
+        "face": 0,
+        "point": [
+          -0.20000000298023224,
+          4.5665998458862305,
+          2.6247997283935547
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "distance_from_origin": 1.6247998476028442
+      }
+    },
+    "vertical_gap_m": 0.13479948043823242,
+    "adjacent_fascia": {
+      "pier_top": {
+        "selectors": [
+          "MAIN_L1_south_stone_pier_0"
+        ],
+        "origin": [
+          -0.45,
+          4.5666,
+          4
+        ],
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L1_south_stone_pier_0",
+          "face": 53,
+          "point": [
+            -0.44999998807907104,
+            4.5665998458862305,
+            2.490000009536743
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_from_origin": 1.5099999904632568
+        }
+      },
+      "fascia_underside": {
+        "selectors": [
+          "MAIN_L2_south_parapet_0"
+        ],
+        "origin": [
+          -0.45,
+          4.5666,
+          1
+        ],
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "max_distance": 50,
+        "hit": {
+          "object": "MAIN_L2_south_parapet_0",
+          "face": 145,
+          "point": [
+            -0.44999998807907104,
+            4.5665998458862305,
+            2.5799999237060547
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance_from_origin": 1.5799999237060547
+        }
+      },
+      "vertical_gap_m": 0.08999991416931152
+    }
+  },
+  "inventory": {
+    "MAIN_L2_west_parapet_0": {
+      "vertices": 152,
+      "faces": 150,
+      "locator_bounds_only": [
+        [
+          -13.472000122070312,
+          -13.25200080871582
+        ],
+        [
+          12.637800216674805,
+          17.84160041809082
+        ],
+        [
+          2.5799999237060547,
+          3.5900001525878906
+        ]
+      ]
+    },
+    "MAIN_L2_dressing_shell_middle": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -4.474400043487549,
+          -4.014400005340576
+        ],
+        [
+          13.699799537658691,
+          14.337000846862793
+        ],
+        [
+          2.8447999954223633,
+          5.059999942779541
+        ]
+      ]
+    },
+    "MAIN_L2_west_north_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -13.309598922729492,
+          -7.650399684906006
+        ],
+        [
+          17.890899658203125,
+          18.11090087890625
+        ],
+        [
+          2.5799999237060547,
+          3.320000171661377
+        ]
+      ]
+    },
+    "MAIN_L2_west_parapet_1": {
+      "vertices": 152,
+      "faces": 150,
+      "locator_bounds_only": [
+        [
+          -13.362000465393066,
+          -4.4539995193481445
+        ],
+        [
+          12.527800559997559,
+          12.74779987335205
+        ],
+        [
+          2.5799999237060547,
+          3.5900001525878906
+        ]
+      ]
+    },
+    "MAIN_L2_south_parapet_0": {
+      "vertices": 152,
+      "faces": 150,
+      "locator_bounds_only": [
+        [
+          -0.5916001796722412,
+          -0.3515998125076294
+        ],
+        [
+          -2.17710018157959,
+          6.637499809265137
+        ],
+        [
+          2.5799999237060547,
+          3.5900001525878906
+        ]
+      ]
+    },
+    "MAIN_L2_south_parapet_2": {
+      "vertices": 152,
+      "faces": 150,
+      "locator_bounds_only": [
+        [
+          7.006399631500244,
+          7.246400356292725
+        ],
+        [
+          -2.17710018157959,
+          6.4781999588012695
+        ],
+        [
+          2.5799999237060547,
+          3.5900001525878906
+        ]
+      ]
+    },
+    "MAIN_L1_servant_wall_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -7.81279993057251,
+          -7.592799663543701
+        ],
+        [
+          14.39009952545166,
+          16.461000442504883
+        ],
+        [
+          0.10000002384185791,
+          2.4499998092651367
+        ]
+      ]
+    },
+    "MAIN_L1_kitchen_west_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -4.327200412750244,
+          -3.8472001552581787
+        ],
+        [
+          11.628899574279785,
+          16.407899856567383
+        ],
+        [
+          0.10000002384185791,
+          2.5500001907348633
+        ]
+      ]
+    },
+    "MAIN_L2_south_parapet_1": {
+      "vertices": 152,
+      "faces": 150,
+      "locator_bounds_only": [
+        [
+          -0.4716000556945801,
+          7.126399993896484
+        ],
+        [
+          -2.2970998287200928,
+          -2.0571000576019287
+        ],
+        [
+          2.5799999237060547,
+          3.5900001525878906
+        ]
+      ]
+    },
+    "MAIN_L1_south_stone_pier_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -0.8907999992370605,
+          -0.15719997882843018
+        ],
+        [
+          4.326600074768066,
+          4.8065996170043945
+        ],
+        [
+          0.09999990463256836,
+          2.490000009536743
+        ]
+      ]
+    },
+    "MAIN_L2_TERRACE_S_slab": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -0.2619999945163727,
+          7.021599769592285
+        ],
+        [
+          -1.9646999835968018,
+          6.637499809265137
+        ],
+        [
+          2.624799966812134,
+          2.8447999954223633
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_lintel_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.34114670753479,
+          0.283518522977829
+        ],
+        [
+          52.80176544189453,
+          55.11425018310547
+        ],
+        [
+          10.5,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_pier_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.7879064083099365,
+          -3.1565334796905518
+        ],
+        [
+          52.54343795776367,
+          53.125125885009766
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_pier_end": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          0.098905049264431,
+          0.8643069267272949
+        ],
+        [
+          54.790889739990234,
+          55.450077056884766
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_sill_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.34114670753479,
+          0.283518522977829
+        ],
+        [
+          52.80176544189453,
+          55.11425018310547
+        ],
+        [
+          8.40000057220459,
+          9.119999885559082
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_0": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -3.2343943119049072,
+          -2.5752756595611572
+        ],
+        [
+          52.96949768066406,
+          53.355224609375
+        ],
+        [
+          9.138999938964844,
+          10.481000900268555
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_1": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -2.546383857727051,
+          -1.8872653245925903
+        ],
+        [
+          53.3673210144043,
+          53.753047943115234
+        ],
+        [
+          9.138999938964844,
+          10.481000900268555
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_2": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -1.8583732843399048,
+          -1.1992548704147339
+        ],
+        [
+          53.76514434814453,
+          54.15087127685547
+        ],
+        [
+          9.138999938964844,
+          10.481000900268555
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_3": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -1.1703628301620483,
+          -0.5112443566322327
+        ],
+        [
+          54.16297149658203,
+          54.54869842529297
+        ],
+        [
+          9.138999938964844,
+          10.481000900268555
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_glass_4": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -0.4823526442050934,
+          0.1767658293247223
+        ],
+        [
+          54.560794830322266,
+          54.9465217590332
+        ],
+        [
+          9.138999938964844,
+          10.481000900268555
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_head": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.2610557079315186,
+          0.20342765748500824
+        ],
+        [
+          52.940277099609375,
+          54.975738525390625
+        ],
+        [
+          10.480999946594238,
+          10.519000053405762
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.2678401470184326,
+          -3.229840040206909
+        ],
+        [
+          52.9444465637207,
+          52.98244857788086
+        ],
+        [
+          9.120000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_1": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.579829692840576,
+          -2.5418295860290527
+        ],
+        [
+          53.34226989746094,
+          53.380271911621094
+        ],
+        [
+          9.120000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -1.8918193578720093,
+          -1.8538192510604858
+        ],
+        [
+          53.74009704589844,
+          53.778099060058594
+        ],
+        [
+          9.120000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_3": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -1.2038087844848633,
+          -1.1658086776733398
+        ],
+        [
+          54.13792037963867,
+          54.17592239379883
+        ],
+        [
+          9.120000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_4": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -0.5157985091209412,
+          -0.4777985215187073
+        ],
+        [
+          54.53574752807617,
+          54.57374954223633
+        ],
+        [
+          9.120000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_mullion_5": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          0.17221194505691528,
+          0.21021193265914917
+        ],
+        [
+          54.933570861816406,
+          54.97157287597656
+        ],
+        [
+          9.120000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_sill": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.2610557079315186,
+          0.20342765748500824
+        ],
+        [
+          52.940277099609375,
+          54.975738525390625
+        ],
+        [
+          9.10099983215332,
+          9.138999938964844
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.258772611618042,
+          -2.5508968830108643
+        ],
+        [
+          52.94475173950195,
+          53.37997055053711
+        ],
+        [
+          10.100600242614746,
+          10.126599311828613
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_1": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.5707623958587646,
+          -1.8628865480422974
+        ],
+        [
+          53.34257507324219,
+          53.777793884277344
+        ],
+        [
+          10.100600242614746,
+          10.126599311828613
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -1.8827521800994873,
+          -1.1748759746551514
+        ],
+        [
+          53.74039840698242,
+          54.17561721801758
+        ],
+        [
+          10.100600242614746,
+          10.126599311828613
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_3": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -1.1947414875030518,
+          -0.486865758895874
+        ],
+        [
+          54.13822555541992,
+          54.57344436645508
+        ],
+        [
+          10.100600242614746,
+          10.126599311828613
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_DIAGONAL_BACK_steel_window_0_transom_4": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -0.5067312121391296,
+          0.20114463567733765
+        ],
+        [
+          54.53605270385742,
+          54.97127151489258
+        ],
+        [
+          10.100600242614746,
+          10.126599311828613
+        ]
+      ]
+    },
+    "GUEST_L1_CARPORT_RETAINED_PIER_2_pier_end": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.8488452434539795,
+          -1.9655544757843018
+        ],
+        [
+          49.983177185058594,
+          51.262184143066406
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_door_head_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.0393550395965576,
+          -1.662132978439331
+        ],
+        [
+          45.46644973754883,
+          46.65835189819336
+        ],
+        [
+          10.475000381469727,
+          10.520000457763672
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_door_head_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.556236743927002,
+          -3.2200112342834473
+        ],
+        [
+          51.07585906982422,
+          52.120140075683594
+        ],
+        [
+          10.475000381469727,
+          10.520000457763672
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_handle_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.7136802673339844,
+          -2.613680362701416
+        ],
+        [
+          45.216331481933594,
+          45.25133514404297
+        ],
+        [
+          9.38499927520752,
+          9.414999961853027
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_handle_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -4.1505126953125,
+          -4.050512313842773
+        ],
+        [
+          50.85935592651367,
+          50.89435958862305
+        ],
+        [
+          9.38499927520752,
+          9.414999961853027
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_jamb_0_a": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -1.709256887435913,
+          -1.6642568111419678
+        ],
+        [
+          45.449440002441406,
+          45.49443817138672
+        ],
+        [
+          8.399999618530273,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_jamb_0_b": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.037231206893921,
+          -1.9922311305999756
+        ],
+        [
+          46.630367279052734,
+          46.67536544799805
+        ],
+        [
+          8.399999618530273,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_jamb_2_a": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.2671351432800293,
+          -3.222135066986084
+        ],
+        [
+          51.05884552001953,
+          51.103843688964844
+        ],
+        [
+          8.399999618530273,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_jamb_2_b": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.5541129112243652,
+          -3.50911283493042
+        ],
+        [
+          52.09215545654297,
+          52.13715362548828
+        ],
+        [
+          8.399999618530273,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_lintel_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.0899405479431152,
+          -1.611547589302063
+        ],
+        [
+          45.4524040222168,
+          46.67239761352539
+        ],
+        [
+          10.5,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_lintel_1": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.827883005142212,
+          -2.206001043319702
+        ],
+        [
+          47.59283447265625,
+          49.32948303222656
+        ],
+        [
+          10.5,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_lintel_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.6068222522735596,
+          -3.1694257259368896
+        ],
+        [
+          51.06180953979492,
+          52.13418960571289
+        ],
+        [
+          10.5,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_open_leaf_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.787668466567993,
+          -1.6841075420379639
+        ],
+        [
+          45.15279006958008,
+          45.4860725402832
+        ],
+        [
+          8.440000534057617,
+          10.454999923706055
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_open_leaf_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -4.2082624435424805,
+          -3.24198579788208
+        ],
+        [
+          50.800323486328125,
+          51.09547424316406
+        ],
+        [
+          8.440000534057617,
+          10.454999923706055
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_pier_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -1.7619662284851074,
+          -1.5705506801605225
+        ],
+        [
+          45.30479049682617,
+          45.49147415161133
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_pier_1": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.356419563293457,
+          -1.9395217895507812
+        ],
+        [
+          46.633331298828125,
+          47.63190460205078
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_pier_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.3198444843292236,
+          -2.677464246749878
+        ],
+        [
+          49.2904167175293,
+          51.10087966918945
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_pier_end": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -3.7708094120025635,
+          -3.4564034938812256
+        ],
+        [
+          52.095123291015625,
+          52.72465515136719
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_sill_1": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.827883005142212,
+          -2.206001043319702
+        ],
+        [
+          47.59283447265625,
+          49.32948303222656
+        ],
+        [
+          8.40000057220459,
+          8.619999885559082
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_glass_0": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -2.4371347427368164,
+          -2.282440662384033
+        ],
+        [
+          47.629608154296875,
+          48.16099548339844
+        ],
+        [
+          8.638999938964844,
+          10.481000900268555
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_glass_1": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -2.5942890644073486,
+          -2.4395949840545654
+        ],
+        [
+          48.195465087890625,
+          48.72685241699219
+        ],
+        [
+          8.638999938964844,
+          10.481000900268555
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_glass_2": {
+      "vertices": 8,
+      "faces": 6,
+      "locator_bounds_only": [
+        [
+          -2.751443386077881,
+          -2.5967493057250977
+        ],
+        [
+          48.761329650878906,
+          49.29271697998047
+        ],
+        [
+          8.638999938964844,
+          10.481000900268555
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_head": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.7797064781188965,
+          -2.2541775703430176
+        ],
+        [
+          47.6062126159668,
+          49.316104888916016
+        ],
+        [
+          10.480999946594238,
+          10.519000053405762
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_mullion_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.300210475921631,
+          -2.2622103691101074
+        ],
+        [
+          47.59336853027344,
+          47.631370544433594
+        ],
+        [
+          8.620000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_mullion_1": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.457364797592163,
+          -2.4193646907806396
+        ],
+        [
+          48.15922927856445,
+          48.19723129272461
+        ],
+        [
+          8.620000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_mullion_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.6145193576812744,
+          -2.576519250869751
+        ],
+        [
+          48.72509002685547,
+          48.763092041015625
+        ],
+        [
+          8.620000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_mullion_3": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.7716736793518066,
+          -2.733673572540283
+        ],
+        [
+          49.290950775146484,
+          49.32895278930664
+        ],
+        [
+          8.620000839233398,
+          10.5
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_sill": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.7797064781188965,
+          -2.2541775703430176
+        ],
+        [
+          47.6062126159668,
+          49.316104888916016
+        ],
+        [
+          8.60099983215332,
+          8.638999938964844
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_transom_0": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.4600977897644043,
+          -2.259477138519287
+        ],
+        [
+          47.60734176635742,
+          48.18326187133789
+        ],
+        [
+          9.960600852966309,
+          9.986599922180176
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_transom_1": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.6172525882720947,
+          -2.4166314601898193
+        ],
+        [
+          48.17319869995117,
+          48.74911880493164
+        ],
+        [
+          9.960600852966309,
+          9.986599922180176
+        ]
+      ]
+    },
+    "GUEST_L1_THEATER_WEST_steel_window_1_transom_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -2.774406909942627,
+          -2.5737862586975098
+        ],
+        [
+          48.73906326293945,
+          49.31498336791992
+        ],
+        [
+          9.960600852966309,
+          9.986599922180176
+        ]
+      ]
+    },
+    "GUEST_L1_CARPORT_RETAINED_PIER_1_pier_end": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -4.218891143798828,
+          -2.2787885665893555
+        ],
+        [
+          46.7684211730957,
+          48.09782028198242
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "GUEST_L1_CARPORT_RETAINED_PIER_0_pier_end": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -4.377005577087402,
+          -2.541153907775879
+        ],
+        [
+          43.710899353027344,
+          44.987098693847656
+        ],
+        [
+          8.399999618530273,
+          10.559999465942383
+        ]
+      ]
+    },
+    "MAIN_L1_south_stone_pier_1": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          6.445199966430664,
+          7.231200218200684
+        ],
+        [
+          4.326600074768066,
+          4.8065996170043945
+        ],
+        [
+          0.09999990463256836,
+          2.490000009536743
+        ]
+      ]
+    },
+    "MAIN_L1_south_stone_pier_2": {
+      "vertices": 56,
+      "faces": 54,
+      "locator_bounds_only": [
+        [
+          -0.31439998745918274,
+          0.2619999945163727
+        ],
+        [
+          0.025500014424324036,
+          0.5055000185966492
+        ],
+        [
+          0.09999990463256836,
+          2.490000009536743
+        ]
+      ]
+    }
+  }
+}

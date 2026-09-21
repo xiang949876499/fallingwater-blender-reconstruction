@@ -1,0 +1,100 @@
+{
+  "status": "PASS_READ_ONLY_FROZEN_CASES",
+  "cases": [
+    {
+      "case": "terrace11a",
+      "source_file": "D:\\zx\\test\\project\\scene\\Fallingwater_main_terrace_candidate11a.blend",
+      "source_sha256": "e856456005d3a4493e70122644d52192dd49c2d2ffc046248b1247484beb4750",
+      "helper_sha256": "433ac64d9a4ccb4a0ec14b9d95c9c68184d146940ae5c8a51526d07727fbf9ac",
+      "repeat_identical": true,
+      "full_snapshot_unchanged": true,
+      "source_hash_unchanged": true,
+      "saved": false,
+      "rendered": false,
+      "counts": {
+        "PASS": 4,
+        "FAIL": 0,
+        "NOT_RUN": 0
+      },
+      "measures": [
+        {
+          "id": "MAIN10_L2_WEST_TERRACE_X",
+          "status": "PASS",
+          "actual_m": 8.820149898529053,
+          "max_error_m": 5.783081054033801e-07
+        },
+        {
+          "id": "MAIN10_L2_WEST_TERRACE_Y",
+          "status": "PASS",
+          "actual_m": 5.3435258865356445,
+          "max_error_m": 8.865356448950479e-07
+        },
+        {
+          "id": "MAIN10_L2_SOUTH_TERRACE_X",
+          "status": "PASS",
+          "actual_m": 7.753350734710693,
+          "max_error_m": 1.6883850104676412e-06
+        },
+        {
+          "id": "SOURCE08_MAIN_BRIDGE_SOUTH_STONE_GAP",
+          "status": "PASS",
+          "actual_m": 4.038599014282227,
+          "max_error_m": 9.857177731831257e-07
+        }
+      ]
+    },
+    {
+      "case": "bridge10_endfix",
+      "source_file": "D:\\zx\\test\\project\\scene\\Fallingwater_bridge10_endfix.blend",
+      "source_sha256": "2a7630b8024c37bd768e563236807f8049469172c7e44b03379a450f91637063",
+      "helper_sha256": "433ac64d9a4ccb4a0ec14b9d95c9c68184d146940ae5c8a51526d07727fbf9ac",
+      "repeat_identical": true,
+      "full_snapshot_unchanged": true,
+      "source_hash_unchanged": true,
+      "saved": false,
+      "rendered": false,
+      "counts": {
+        "PASS": 1,
+        "FAIL": 0,
+        "NOT_RUN": 3
+      },
+      "measures": [
+        {
+          "id": "MAIN10_L2_WEST_TERRACE_X",
+          "status": "NOT_RUN",
+          "actual_m": null,
+          "max_error_m": null
+        },
+        {
+          "id": "MAIN10_L2_WEST_TERRACE_Y",
+          "status": "NOT_RUN",
+          "actual_m": null,
+          "max_error_m": null
+        },
+        {
+          "id": "MAIN10_L2_SOUTH_TERRACE_X",
+          "status": "NOT_RUN",
+          "actual_m": null,
+          "max_error_m": null
+        },
+        {
+          "id": "SOURCE08_MAIN_BRIDGE_SOUTH_STONE_GAP",
+          "status": "PASS",
+          "actual_m": 4.038599014282227,
+          "max_error_m": 9.857177731831257e-07
+        }
+      ]
+    }
+  ],
+  "protected_central_files_unchanged": {
+    "D:\\zx\\test\\project\\scripts\\dimension_audit.py": "6793d9b73f7ac87a7b4bdd892bb6929b0dc21f69cf6d5bd96784dd528e717c99",
+    "D:\\zx\\test\\project\\dimensions.csv": "3b3c72b9fc27ad8daaed16df485e915f6fb9df365df089b91449c6c3ec645ffd"
+  },
+  "seconds": 226.12146850000136,
+  "independent_printed_anchors": 4,
+  "repeated_ray_stations_do_not_increase_anchor_count": true,
+  "source_precision_not_survey_accuracy": true,
+  "helper_runtime_qa_file_dependencies": false,
+  "production_changes": false,
+  "rendered": false
+}

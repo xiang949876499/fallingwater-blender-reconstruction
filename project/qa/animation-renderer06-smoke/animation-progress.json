@@ -1,0 +1,485 @@
+{
+  "job_signature": "7990e678cd9901d89bfa677b2134c45704975fe1f780c1648a4c384d92fa36d6",
+  "job": {
+    "scene_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+    "blender_version": "5.2.1 LTS",
+    "camera": "CAM_MAIN_B_BATH_B",
+    "engine": "BLENDER_EEVEE",
+    "device": {
+      "backend": "BLENDER_EEVEE",
+      "device": "Graphics API (not a Cycles device)",
+      "devices": []
+    },
+    "resolution": [
+      384,
+      216
+    ],
+    "samples": 8,
+    "view_transform": "AgX",
+    "threads": 4,
+    "renderer_source_sha256": {
+      "render_animation.py": "742e34afb160e65b49ea5f4deed573192f9b1ec54a099e3314349dde29ae8c92",
+      "render_views.py": "0b4cef509cd4676a6d10cf2c6682d1a5b9d87a254f293cd87a7422e6d4fb21e2",
+      "eevee_preview.py": "eab1810e58b0708196d0028d283068deb174bdf2871c3ee22ba6da4be7ddc149",
+      "eevee_glass.py": "5ccc9326bc33bac735e76cf6a85051f7da31f86a7243e1979052c6710654a476"
+    },
+    "fluid_ranges": [],
+    "look": "None",
+    "route_sha256": "",
+    "external_images": [],
+    "fps": 24.0,
+    "eevee_settings": {
+      "fast_gi": false,
+      "raytracing": true,
+      "configuration": {
+        "engine": "BLENDER_EEVEE",
+        "samples": 8,
+        "raytracing": true,
+        "ray_resolution_scale": "1",
+        "screen_trace_quality": 1.0,
+        "fast_gi": false,
+        "fast_gi_selection_source": "saved_scene_property",
+        "geometry_or_material_colors_changed": false
+      },
+      "self_emitter_light_names": [
+        "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy"
+      ]
+    }
+  },
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_preview_iteration06.blend",
+  "blender_version": "5.2.1 LTS",
+  "route_metadata": "",
+  "runs": {
+    "1": {
+      "frame": 1,
+      "camera": "CAM_MAIN_B_BATH_B",
+      "camera_location": [
+        -0.6392800211906433,
+        15.287489891052246,
+        -0.5278000235557556
+      ],
+      "segment_id": "STATIC_VIEW",
+      "segment_mode": "Static camera benchmark",
+      "room_ids": [
+        "MAIN_B_BATH"
+      ],
+      "exposure": 1.6,
+      "exposure_source": "camera fw_exposure",
+      "segment_exposure_verified": false,
+      "unbaked_room_ids": [],
+      "path": "D:\\zx\\test\\project\\qa\\animation-renderer06-smoke\\frame_000001.png",
+      "status": "PASS",
+      "bytes": 136083,
+      "sha256": "b78fc039b8136482edd27e48c0e0f72f289a5213652baddccc67379cecb02ead",
+      "seconds": 38.2575,
+      "reused_verified": true,
+      "verification": "SHA-256, dimensions, job signature and exposure match"
+    },
+    "2": {
+      "frame": 2,
+      "camera": "CAM_MAIN_B_BATH_B",
+      "camera_location": [
+        -0.6392800211906433,
+        15.287489891052246,
+        -0.5278000235557556
+      ],
+      "segment_id": "STATIC_VIEW",
+      "segment_mode": "Static camera benchmark",
+      "room_ids": [
+        "MAIN_B_BATH"
+      ],
+      "exposure": 1.6,
+      "exposure_source": "camera fw_exposure",
+      "segment_exposure_verified": false,
+      "unbaked_room_ids": [],
+      "path": "D:\\zx\\test\\project\\qa\\animation-renderer06-smoke\\frame_000002.png",
+      "status": "PASS",
+      "bytes": 136083,
+      "sha256": "49fa111dd128a88353bff6265d559fef8679c071dab2918eacbaf3dba47f2e9c",
+      "seconds": 5.2713,
+      "reused_verified": true,
+      "verification": "SHA-256, dimensions, job signature and exposure match"
+    }
+  },
+  "scope": "Offline numbered-frame rendering only. Does not prove route clearance, photographic quality, or GUI FPS.",
+  "requested_frames": [
+    1,
+    2
+  ],
+  "status": "PASS",
+  "invocations": [
+    {
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_preview_iteration06.blend",
+      "frames": [
+        1,
+        2
+      ],
+      "started_utc": "2026-09-20T12:48:57Z",
+      "explicit_overwrite": false,
+      "timing": {
+        "rendered_frames": 2,
+        "verified_reused_frames": 0,
+        "first_frame_seconds": 38.2575,
+        "remaining_frames_seconds": [
+          5.2713
+        ],
+        "warm_median_seconds": 5.2713,
+        "total_render_seconds": 43.528800000000004,
+        "note": "Offline throughput; not viewport FPS. First frame reported separately."
+      }
+    },
+    {
+      "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_preview_iteration06.blend",
+      "frames": [
+        1,
+        2
+      ],
+      "started_utc": "2026-09-20T12:50:26Z",
+      "explicit_overwrite": false,
+      "timing": {
+        "rendered_frames": 0,
+        "verified_reused_frames": 2,
+        "first_frame_seconds": null,
+        "remaining_frames_seconds": [],
+        "warm_median_seconds": null,
+        "total_render_seconds": 0,
+        "note": "Offline throughput; not viewport FPS. First frame reported separately."
+      }
+    }
+  ],
+  "eevee_probe_bakes": [
+    {
+      "name": "FW_PROBE_MAIN_B",
+      "rooms": [
+        "MAIN_B_WINE",
+        "MAIN_B_BATH",
+        "MAIN_B_BOILER",
+        "MAIN_B_STAIR"
+      ],
+      "bounds": [
+        [
+          -6.647600000000001,
+          11.3196,
+          -2.03
+        ],
+        [
+          3.032,
+          18.1509,
+          -0.12
+        ]
+      ],
+      "resolution": [
+        8,
+        6,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 33.35,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.3828,
+        1.36626,
+        0.6366666666666666
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_MAIN_B.blend"
+    },
+    {
+      "name": "FW_PROBE_MAIN_L1",
+      "rooms": [
+        "MAIN_L1_LIVING",
+        "MAIN_L1_KITCHEN",
+        "MAIN_L1_SERVANT",
+        "MAIN_L1_SERVICE_STAIR",
+        "MAIN_L1_ENTRY",
+        "MAIN_L1_COAT",
+        "MAIN_L1_STAIR",
+        "MAIN_L1_LOGGIA",
+        "MAIN_L1_HATCH"
+      ],
+      "bounds": [
+        [
+          -7.6694,
+          0.009300000000000003,
+          0.22
+        ],
+        [
+          19.9572,
+          18.0978,
+          2.38
+        ]
+      ],
+      "resolution": [
+        20,
+        14,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 4.797,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.4540315789473683,
+        1.3914230769230769,
+        0.7199999999999999
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_MAIN_L1.blend"
+    },
+    {
+      "name": "FW_PROBE_MAIN_L2",
+      "rooms": [
+        "MAIN_L2_DRESSING",
+        "MAIN_L2_MASTER",
+        "MAIN_L2_BATH_N",
+        "MAIN_L2_BATH_G",
+        "MAIN_L2_BATH_M",
+        "MAIN_L2_HALL",
+        "MAIN_L2_GUEST",
+        "MAIN_L2_STAIR",
+        "MAIN_L2_CLOSET_M",
+        "MAIN_L2_CLOSET_G"
+      ],
+      "bounds": [
+        [
+          -3.9752,
+          6.753,
+          2.9648000000000003
+        ],
+        [
+          11.101600000000001,
+          16.2924,
+          4.8948
+        ]
+      ],
+      "resolution": [
+        12,
+        8,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 4.328,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.370618181818182,
+        1.3627714285714287,
+        0.6433333333333332
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_MAIN_L2.blend"
+    },
+    {
+      "name": "FW_PROBE_MAIN_L3",
+      "rooms": [
+        "MAIN_L3_STUDY",
+        "MAIN_L3_BATH",
+        "MAIN_L3_GALLERY",
+        "MAIN_L3_ALCOVE",
+        "MAIN_L3_LINK",
+        "MAIN_L3_STAIR"
+      ],
+      "bounds": [
+        [
+          -4.0276000000000005,
+          11.4258,
+          5.38415
+        ],
+        [
+          8.907659845760634,
+          24.592747174582303,
+          7.18415
+        ]
+      ],
+      "resolution": [
+        10,
+        10,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 3.321,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.4372510939734038,
+        1.4629941305091447,
+        0.6
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_MAIN_L3.blend"
+    },
+    {
+      "name": "FW_PROBE_GUEST_L1",
+      "rooms": [
+        "GUEST_L1_THEATER",
+        "GUEST_L1_CHAUFFEUR_LOUNGE",
+        "GUEST_L1_BOILER",
+        "GUEST_L1_STAIR_HALL",
+        "GUEST_L1_LOUNGE",
+        "GUEST_L1_GALLERY",
+        "GUEST_L1_BATH",
+        "GUEST_L1_GUEST_ROOM"
+      ],
+      "bounds": [
+        [
+          -3.8981600000000007,
+          34.103120000000004,
+          8.52
+        ],
+        [
+          19.570287999999994,
+          55.01664,
+          10.440000000000001
+        ]
+      ],
+      "resolution": [
+        17,
+        15,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 3.64,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.4667779999999997,
+        1.4938228571428571,
+        0.6400000000000006
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_GUEST_L1.blend"
+    },
+    {
+      "name": "FW_PROBE_GUEST_B1",
+      "rooms": [
+        "GUEST_B1_LAUNDRY",
+        "GUEST_B1_BATH",
+        "GUEST_B1_STAIR"
+      ],
+      "bounds": [
+        [
+          -3.6028719999999996,
+          37.192512,
+          6.160000000000001
+        ],
+        [
+          2.3411199999999996,
+          41.013696,
+          8.100000000000001
+        ]
+      ],
+      "resolution": [
+        5,
+        4,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 3.853,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.485998,
+        1.2737280000000009,
+        0.6466666666666668
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_GUEST_B1.blend"
+    },
+    {
+      "name": "FW_PROBE_GUEST_L2",
+      "rooms": [
+        "GUEST_L2_BEDROOM_SOUTH",
+        "GUEST_L2_BEDROOM_MIDDLE",
+        "GUEST_L2_BEDROOM_NORTH",
+        "GUEST_L2_BATH",
+        "GUEST_L2_HALL"
+      ],
+      "bounds": [
+        [
+          -3.37256,
+          37.108160000000005,
+          10.872675
+        ],
+        [
+          3.55,
+          48.5848,
+          12.752675000000002
+        ]
+      ],
+      "resolution": [
+        6,
+        9,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 4.39,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.384512,
+        1.4345799999999995,
+        0.6266666666666675
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity"
+    }
+  ],
+  "current_invocation_timing": {
+    "rendered_frames": 0,
+    "verified_reused_frames": 2,
+    "first_frame_seconds": null,
+    "remaining_frames_seconds": [],
+    "warm_median_seconds": null,
+    "total_render_seconds": 0,
+    "note": "Offline throughput; not viewport FPS. First frame reported separately."
+  }
+}

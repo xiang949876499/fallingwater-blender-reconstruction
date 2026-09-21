@@ -1,0 +1,24 @@
+{
+  "status": "PASS_NO_NEW_PATH_OBSTRUCTION",
+  "candidate_sha256": "5fed8ce2d7513565ce978af32f494c74ae40e09c101e18ce8578e56b0b1bcdb9",
+  "paths": [
+    "SITE_Path_bridge_south_approach",
+    "SITE_Path_bridge_north_approach",
+    "SITE_Path_upper_access_road"
+  ],
+  "positions": 2829,
+  "rays": 113160,
+  "body_radius_m": 0.18,
+  "height_samples_m": [
+    0.015,
+    0.25,
+    0.85,
+    1.55,
+    1.95
+  ],
+  "failures": [],
+  "method": "Real saved path strip centers and both edge lanes,250mm intervals; rays index only new actual LITTER12 triangles.",
+  "scope": "Incremental local3site-path regression, not the full adjacency/tour audit for a future combined scene.",
+  "saved": false,
+  "rendered": false
+}

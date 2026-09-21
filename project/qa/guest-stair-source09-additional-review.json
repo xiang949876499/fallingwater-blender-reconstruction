@@ -1,0 +1,124 @@
+{
+  "schema": "fallingwater.guest_stair.additional_primary_source_review.v1",
+  "reviewed_at_utc": "2026-09-20T16:33:08.271899+00:00",
+  "owner": "dimension_sources08",
+  "scope": "Bounded primary-source research only. No production geometry, central audit, scene, or render changes.",
+  "question": "Can new primary evidence confirm B1 laundry door -> south platform -> L1 north platform -> south return -> L2 north platform, including storeys, run count, and landing heights?",
+  "result": "NO_NEW_STAIR_GEOMETRY_CONFIRMATION",
+  "validated_new_geometry_dimensions": 0,
+  "validated_new_stair_topologies": 0,
+  "evidence_groups": [
+    {
+      "id": "HABS_DATA_AND_FIELD_NOTE_LEAD",
+      "sources": [
+        "https://www.loc.gov/item/pa2187/",
+        "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/data/pa2187data.pdf"
+      ],
+      "read_status": "Data PDF: extracted all three pages and visually inspected all three rasterized pages. LOC catalog metadata: read web result.",
+      "source_pdf": "project\\qa\\guest-stair-source09-additional-pa2187data.pdf",
+      "pages": {
+        "1": "Historical/descriptive data cover only",
+        "2": "Physical history, owner/use, short historical context, bibliography; no laundry, stairs, platforms, storey connections, basement datum, or riser count",
+        "3": "Addendum cover naming reduced measured drawings and field records; no actual field notebook pages included"
+      },
+      "verified_catalog_lead": "Unprocessed field note material N1587 exists for HABS PA-5346-A, 2010 Peterson Prize entry.",
+      "field_notes_actual_content_viewed": false,
+      "supports_stair_layer_or_count": false,
+      "limit": "The online three-page data PDF is not the N1587 field notebook. Catalog existence does not prove that N1587 contains stair heights or sections."
+    },
+    {
+      "id": "HABS_SERVICE_ENTRY_PHOTO_CAPTIONS",
+      "sources": [
+        "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2100/pa2187/data/pa2187cap.pdf",
+        "https://www.loc.gov/pictures/item/pa2187.photos.134231p/"
+      ],
+      "read_status": "All 22 captions on two pages extracted and both pages visually inspected; A8 item metadata read. A8 and A9 photograph pixels not obtained or viewed.",
+      "caption_pdf": "project/data/photo_refs/pa2187cap.pdf",
+      "photo_date": "1985-02/03",
+      "creator": "Jack E. Boucher",
+      "relevant_captions": {
+        "PA-5346-A-8": "Wide-angle view outward from servants entry toward curved covered walkway",
+        "PA-5346-A-9": "View outward from servants entry toward curved covered walkway",
+        "PA-5346-A-10": "South facade walkway/steps viewed from west; already examined by interior_build, not a new photograph in this subtask"
+      },
+      "supports_stair_layer_or_count": false,
+      "limit": "No caption explicitly identifies the service stair interior or supplies platform heights. A8/A9 may face away from the stair, but their unseen image contents are not inferred.",
+      "photo_134231_mapping": "Verified by LOC item title/reproduction number A-8",
+      "photo_134232_mapping": "Candidate A-9 association from adjacent numeric sequence only; item page inaccessible, image not obtained"
+    },
+    {
+      "id": "AVERY_ORIGINAL_DESIGN_ARCHIVE_LEAD",
+      "sources": [
+        "https://fallingwater.org/learn/preservation-and-collections/research-resources/architectural-drawings/",
+        "https://www1.columbia.edu/sec/cu/libraries/inside/avery_assets/FLWFA_DWGS_LOCATION.pdf",
+        "https://www.jstor.org/stable/community.38003853"
+      ],
+      "read_status": "Official Fallingwater research guidance read. Avery location-index relevant rows read in web/search extraction; original index PDF download failed. JSTOR guest project title only returned; no drawing image, individual section title, local drawing suffix, or drawing metadata read.",
+      "verified_project_metadata": {
+        "3812": {
+          "date": "1938",
+          "description": "Fallingwater Guest House",
+          "item_count": 42,
+          "item_kind": "drawings"
+        },
+        "4702": {
+          "date": "1947",
+          "description": "Kaufmann guesthouse alterations",
+          "item_count": 2,
+          "item_kind": "drawings"
+        }
+      },
+      "supports_stair_layer_or_count": false,
+      "limit": "Collection-level counts are not a stair drawing. No original longitudinal stair section was acquired/viewed. Original design evidence would also need reconciliation against the circa-2010 as-built plans before source promotion."
+    }
+  ],
+  "access_attempts": [
+    {
+      "urls": [
+        "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134231pv.jpg",
+        "https://tile.loc.gov/storage-services/service/pnp/habshaer/pa/pa2100/pa2187/photos/134232pv.jpg"
+      ],
+      "method": "urllib public original URL",
+      "result": "HTTP 403; no image saved"
+    },
+    {
+      "urls": [
+        "https://cdn.loc.gov/service/pnp/habshaer/pa/pa2100/pa2187/photos/134231pv.jpg",
+        "https://cdn.loc.gov/service/pnp/habshaer/pa/pa2100/pa2187/photos/134232pv.jpg"
+      ],
+      "method": "urllib official public CDN URLs",
+      "result": "HTTP 403; no image saved"
+    },
+    {
+      "url": "https://cdn.loc.gov/service/pnp/habshaer/pa/pa2100/pa2187/photos/134231pr.jpg",
+      "method": "web open linked medium JPEG",
+      "result": "internal error; no image viewed"
+    },
+    {
+      "url": "https://www1.columbia.edu/sec/cu/libraries/inside/avery_assets/FLWFA_DWGS_LOCATION.pdf",
+      "method": "urllib direct PDF",
+      "result": "HTTP 403; no local PDF saved"
+    },
+    {
+      "url": "https://www.jstor.org/stable/community.38003853",
+      "method": "web open",
+      "result": "Project title only; no image returned"
+    }
+  ],
+  "search_scope": [
+    "LOC PA-5346-A/pa2187 data, captions, catalog N1587",
+    "Official Fallingwater/WPC service-stair query",
+    "Avery/Columbia guest-project 3812 index; official JSTOR project record; targeted stair/longitudinal/section queries"
+  ],
+  "unrelated_search_results": "Ignored; no secondary descriptions admitted as primary geometry evidence.",
+  "unresolved": [
+    "B1 laundry floor datum",
+    "Elevation of each south platform and whether there are two distinct platforms in the same projection",
+    "Left/right run assignment to B1-L1 or L1-L2",
+    "Actual total riser count for each full storey",
+    "Whether the proposed four half-runs reproduce the as-built staircase"
+  ],
+  "handoff": "Four-half-run feasibility hypothesis remains C. New-source support is U/unresolved; existing original-plan directional observations are unaffected. Do not promote from constructability, lack of source detail, or download completion.",
+  "distribution": "Downloaded data PDF, extracted source text, and page rasters are LOCAL REFERENCE ONLY in this task; parent should exclude raw source payloads from public project publication pending its source-rights policy. Report/metadata may be shared.",
+  "cleanup": "Scoped neat-freak reconciliation: only owned additional reports and their manifest updated; no broader workspace edits."
+}

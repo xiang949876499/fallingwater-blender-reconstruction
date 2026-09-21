@@ -1,0 +1,1550 @@
+{
+  "status": "RENDERABLE_PARTIAL_NOT_ACCEPTED",
+  "source_scene": "D:\\zx\\test\\project\\qa\\eevee-iteration07-diffuse-world\\Fallingwater_preview_diffuse_world_candidate07.blend",
+  "source_sha256": "4c26a2667e8697282357688cfb7f580a49e01a7b9f9c88c2dee4a60febb02059",
+  "physical_source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration07.blend",
+  "physical_source_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "original_lights": {
+    "FW_LIGHT_PhysicalSun": {
+      "matrix": [
+        [
+          0.8191521763801575,
+          0.4194871485233307,
+          -0.39117807149887085,
+          0.0
+        ],
+        [
+          -0.5735762715339661,
+          0.5990899801254272,
+          -0.5586603879928589,
+          0.0
+        ],
+        [
+          1.0798938632206045e-08,
+          0.6819983720779419,
+          0.7313537001609802,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_LIGHT_PhysicalSun",
+        "name_full": "FW_LIGHT_PhysicalSun",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "SUN",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.9599999785423279,
+          0.8899999856948853
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "angle": 0.03490658476948738,
+        "energy": 2.5,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.0,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "shadow_cascade_max_distance": 200.0,
+        "shadow_cascade_count": 4,
+        "shadow_cascade_exponent": 0.800000011920929,
+        "shadow_cascade_fade": 0.10000000149011612
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.619999885559082
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.168800354003906
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "name_full": "FW_FURN_MAIN_B_WINE_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 22.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.1527999639511108
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.655599594116211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "name_full": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 18.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5720000267028809
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          12.584699630737305
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.24000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "name_full": "FW_FURN_MAIN_B_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 32.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          9.536800384521484
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.22189998626709
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.380000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy",
+        "name_full": "FW_FURN_MAIN_L1_COAT_practical_ceiling_lamp_C_01_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 9.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.729200005531311
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.239700317382812
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "name_full": "FW_FURN_MAIN_L2_BATH_N_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 12.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.130799770355225
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.575799942016602
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "name_full": "FW_FURN_MAIN_L2_BATH_G_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 12.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.078400135040283
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.389800071716309
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.880000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "name_full": "FW_FURN_MAIN_L2_BATH_M_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 12.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.1527999639511108
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.974200248718262
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.184150218963623
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "name_full": "FW_FURN_MAIN_L3_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 12.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.827159881591797
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          41.84978103637695
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.440000534057617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "name_full": "FW_FURN_GUEST_L1_BOILER_practical_ceiling_lamp_C_02_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 24.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          13.333840370178223
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          37.41632080078125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.440000534057617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "name_full": "FW_FURN_GUEST_L1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 12.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.24766400456428528
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38.78704071044922
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.039999961853027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy",
+        "name_full": "FW_FURN_GUEST_B1_LAUNDRY_practical_ceiling_lamp_C_05_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 30.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.672499895095825
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          38.32794189453125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.039999961853027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "name_full": "FW_FURN_GUEST_B1_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 18.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.4539198875427246
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          46.74776077270508
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.75267505645752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "name_full": "FW_FURN_GUEST_L2_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 18.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    },
+    "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.4539198875427246
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          42.63560104370117
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.75267505645752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "name": "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy",
+        "name_full": "FW_FURN_GUEST_L2_HALL_practical_ceiling_lamp_C_00_bulb_photometric_proxy",
+        "id_type": "LIGHT",
+        "is_evaluated": false,
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "type": "POINT",
+        "use_temperature": false,
+        "color": [
+          1.0,
+          0.8600000143051147,
+          0.6700000166893005
+        ],
+        "temperature": 6500.0,
+        "temperature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_factor": 1.0,
+        "diffuse_factor": 1.0,
+        "transmission_factor": 1.0,
+        "volume_factor": 1.0,
+        "use_custom_distance": false,
+        "cutoff_distance": 40.0,
+        "use_shadow": true,
+        "exposure": 0.0,
+        "normalize": true,
+        "use_nodes": true,
+        "use_soft_falloff": true,
+        "energy": 22.0,
+        "shadow_buffer_clip_start": 0.05000000074505806,
+        "shadow_soft_size": 0.027000000700354576,
+        "shadow_filter_radius": 1.0,
+        "shadow_maximum_resolution": 0.0010000000474974513,
+        "use_shadow_jitter": false,
+        "shadow_jitter_overblur": 10.0,
+        "use_absolute_resolution": false
+      },
+      "blocker_collection": null
+    }
+  },
+  "original_cycles_world_branch_sha256": "5ba463492ae01c5b0fb09b3c4b4239d589274792e40e6c1a66ab4101b0f19fab",
+  "physical_world_graph": {
+    "nodes": {
+      "Physical atmosphere": {
+        "type": "ShaderNodeTexSky",
+        "parameters": {
+          "type": "TEX_SKY",
+          "location_absolute": [
+            0.0,
+            0.0
+          ],
+          "color_tag": "TEXTURE",
+          "mute": false,
+          "sky_type": "MULTIPLE_SCATTERING",
+          "sun_disc": false,
+          "sun_size": 0.009512044489383698,
+          "sun_intensity": 1.0,
+          "sun_elevation": 0.8203047513961792,
+          "sun_rotation": 4.1015238761901855,
+          "altitude": 350.0,
+          "air_density": 1.0,
+          "aerosol_density": 1.5,
+          "ozone_density": 1.0,
+          "sun_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "turbidity": 2.200000047683716,
+          "ground_albedo": 0.2199999988079071
+        },
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "default": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "Background": {
+        "type": "ShaderNodeBackground",
+        "parameters": {
+          "type": "BACKGROUND",
+          "location_absolute": [
+            0.0,
+            0.0
+          ],
+          "color_tag": "SHADER",
+          "mute": false
+        },
+        "inputs": [
+          {
+            "name": "Color",
+            "identifier": "Color",
+            "default": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          },
+          {
+            "name": "Strength",
+            "identifier": "Strength",
+            "default": 0.36000001430511475
+          },
+          {
+            "name": "Weight",
+            "identifier": "Weight",
+            "default": 0.0
+          }
+        ]
+      },
+      "World Output": {
+        "type": "ShaderNodeOutputWorld",
+        "parameters": {
+          "type": "OUTPUT_WORLD",
+          "location_absolute": [
+            0.0,
+            0.0
+          ],
+          "color_tag": "OUTPUT",
+          "mute": false,
+          "is_active_output": true,
+          "target": "ALL"
+        },
+        "inputs": [
+          {
+            "name": "Surface",
+            "identifier": "Surface",
+            "default": null
+          },
+          {
+            "name": "Volume",
+            "identifier": "Volume",
+            "default": null
+          }
+        ]
+      }
+    },
+    "links": [
+      [
+        "Background",
+        "Background",
+        "World Output",
+        "Surface"
+      ],
+      [
+        "Physical atmosphere",
+        "Color",
+        "Background",
+        "Color"
+      ]
+    ],
+    "use_nodes": true,
+    "color": [
+      0.05000000074505806,
+      0.05000000074505806,
+      0.05000000074505806
+    ]
+  },
+  "restore_spec": {
+    "token": "FW_PREVIEW_APPROXIMATION_WINDOW08",
+    "world": "FW_WINDOW08_PHYSICAL_WORLD_RESTORE",
+    "world_graph_sha256": "6881571162a3b886ce0e3dbcfe354076e067a0aaacfcdc18d401a5643377745f",
+    "added_lights": [
+      "FW_PREVIEW_WINDOW08_AREA"
+    ],
+    "collection": "PREVIEW_APPROXIMATION_WINDOW08"
+  },
+  "cycles_glass_hash": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+  "glazing_geometry_hash": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+  "fast_gi_profile_preserved": {
+    "use_fast_gi": true,
+    "fast_gi_thickness_near": 0.07999999821186066,
+    "fast_gi_quality": 0.5,
+    "fast_gi_step_count": 16,
+    "fast_gi_ray_count": 4,
+    "fast_gi_method": "AMBIENT_OCCLUSION_ONLY",
+    "fast_gi_distance": 0.6000000238418579,
+    "fast_gi_bias": 0.05000000074505806,
+    "fast_gi_resolution": "2"
+  },
+  "raytracing": true,
+  "camera_world_strength": 0.36,
+  "noncamera_world_strength": 0.006,
+  "light_path_socket": "Is Camera Ray",
+  "light_path_socket_exists_and_linked": true,
+  "scope": "PREVIEW_APPROXIMATION, combined World routing and one AREA candidate, not a single-variable attribution.",
+  "area": {
+    "name": "FW_PREVIEW_WINDOW08_AREA",
+    "location": [
+      -3.930000066757202,
+      14.46975040435791,
+      6.579999923706055
+    ],
+    "direction": [
+      1.0,
+      -4.371138828673793e-08,
+      4.371138828673793e-08
+    ],
+    "local_x_axis": [
+      -4.371138828673793e-08,
+      -1.0,
+      0.0
+    ],
+    "local_y_axis": [
+      -4.371138828673793e-08,
+      1.910685676922942e-15,
+      1.0
+    ],
+    "shape": "RECTANGLE",
+    "size_m": [
+      0.75,
+      1.6
+    ],
+    "energy_W": 20.0,
+    "normalize": true,
+    "color_linear_rgb": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "use_shadow": true,
+    "placement_rays": [
+      {
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "object": "FW_FURN_MAIN_L3_STUDY_continuous_horizontal_library_02_back_board",
+        "distance": 0.46020650281609715,
+        "normal": [
+          -1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        "face": 52
+      },
+      {
+        "direction": [
+          -1,
+          0,
+          0
+        ],
+        "object": "MAIN_L3_study_core_0",
+        "distance": 0.05199980843289787,
+        "normal": [
+          1.0,
+          4.371138828673793e-08,
+          0.0
+        ],
+        "face": 50
+      },
+      {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "object": "MAIN_L3_study_core_1",
+        "distance": 1.9405508325136283,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "face": 50
+      },
+      {
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "object": "MAIN_L3_study_west_open_casement_glass_0",
+        "distance": 0.06273841831861551,
+        "normal": [
+          0.20791195333003998,
+          0.978147566318512,
+          0.0
+        ],
+        "face": 3
+      },
+      {
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "object": "MAIN_L3_study_roof",
+        "distance": 0.8336501155198152,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "face": 145
+      },
+      {
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "object": "MAIN_L3_STUDY_finish",
+        "distance": 1.2938499559498204,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "face": 1
+      }
+    ]
+  },
+  "frame": 48,
+  "camera": "CAM_MAIN_L3_STUDY_B",
+  "camera_location": [
+    -0.5522199869155884,
+    11.97404956817627,
+    6.886350154876709
+  ],
+  "camera_rotation": [
+    1.4660768508911133,
+    4.958859989301345e-08,
+    0.4986268877983093
+  ],
+  "lens": 28.0,
+  "resolution": [
+    960,
+    540
+  ],
+  "samples": 32,
+  "exposure": 2.4,
+  "view_transform": "AgX",
+  "look": "None",
+  "gamma": 1.0,
+  "threads": 4,
+  "render_count": 1,
+  "bake_count": 0,
+  "production_changed": false,
+  "production_renderer_restore_integrated": false,
+  "original_objects_and_lights_unchanged": true,
+  "helper_hashes": {
+    "eevee_preview.py": "f68abbfde2ff6164618486a0df078bb144311e78482bfd794d15568d3b6803cd",
+    "eevee_glass.py": "5ccc9326bc33bac735e76cf6a85051f7da31f86a7243e1979052c6710654a476"
+  },
+  "render_seconds": 48.390087899999344,
+  "png": "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+  "png_sha256": "dbe703016544d9ab571b98cbbaee2cb4e78a70617fa2b2670e066aa52719de77",
+  "same_linear_exposure_exports": [
+    {
+      "exposure": 1.6,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\CAM_MAIN_L3_STUDY_B_EV1p6.png",
+      "sha256": "0a5d04e3642eff35b637aa54a0629a292c8b3e192b3a82404856a7a2eaffe0ee",
+      "same_linear_render": true
+    },
+    {
+      "exposure": 3.2,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\CAM_MAIN_L3_STUDY_B_EV3p2.png",
+      "sha256": "50d361a912d12ecbcff9bbab9c5d2b889dfa1d1b89dbab6ec77663a9fb595e3d",
+      "same_linear_render": true
+    }
+  ],
+  "visual_acceptance": "PARTIAL_NOT_ACCEPTED",
+  "candidate_blend": "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\Fallingwater_preview_window_candidate08.blend",
+  "candidate_sha256": "718c1884de910225a6f13aeb44925017915e81ff9ffbe427dc9d9b9138929731",
+  "source_unchanged": true,
+  "physical_source_unchanged": true,
+  "process_exit_code": 0,
+  "gpu_job_complete": true,
+  "cycles_restore_check": {
+    "removed_lights": [
+      "FW_PREVIEW_WINDOW08_AREA"
+    ],
+    "restored_world": "FW_WINDOW08_PHYSICAL_WORLD_RESTORE",
+    "world_graph_sha256": "6881571162a3b886ce0e3dbcfe354076e067a0aaacfcdc18d401a5643377745f",
+    "engine": "CYCLES",
+    "device": {
+      "device": "CPU",
+      "backend": "CPU",
+      "devices": [],
+      "reason": "Explicit CPU request"
+    },
+    "production_renderer_integration": false,
+    "status": "PASS",
+    "fresh_reopen": true,
+    "original_lights_and_shadow_links_restored": true,
+    "complete_physical_world_graph_restored": true,
+    "cycles_glass_branch_preserved": true,
+    "glazing_geometry_preserved": true,
+    "added_light_count_after": 0,
+    "renders": 0,
+    "bakes": 0,
+    "saves": 0,
+    "source_and_candidate_files_unchanged": true
+  },
+  "review_report": "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview-review.md",
+  "actual_native_images_opened": [
+    "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+    "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\CAM_MAIN_L3_STUDY_B_EV1p6.png",
+    "D:\\zx\\test\\project\\qa\\eevee-iteration08-window-preview\\CAM_MAIN_L3_STUDY_B_EV3p2.png",
+    "D:\\zx\\test\\project\\qa\\eevee-iteration07-diffuse-world\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+    "D:\\zx\\test\\project\\renders\\previews\\iteration07-focus\\CAM_MAIN_L3_STUDY_B_EV2p4.png"
+  ],
+  "actual_findings": [
+    "Wood has brown rather than blue-grey metallic appearance.",
+    "Readable directional illumination, no previous VOLUME black lobes.",
+    "Ceiling lighting boundary is conspicuous; not diagnosed as an engine artifact.",
+    "Visible ceiling/shelf grain at 32 samples.",
+    "Lit wall/ceiling brighter than matched physical Cycles."
+  ],
+  "production_adopted": false,
+  "display_mae_code_values_vs_cycles": 26.253943544238684,
+  "screen_reflection_mask_specific_test": "NOT_RUN",
+  "motion_qa": "NOT_RUN",
+  "other_room_qa": "NOT_RUN"
+}

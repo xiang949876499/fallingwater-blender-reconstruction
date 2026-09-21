@@ -1,0 +1,35 @@
+{
+  "source_sha256": "b855de89492af8ae31ae4d53bb2674f518ea13cf2e8f1585b2b9a31b35511939",
+  "variant": "jittered",
+  "light": "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy",
+  "before": {
+    "use_shadow": true,
+    "use_shadow_jitter": false,
+    "shadow_jitter_overblur": 10.0,
+    "shadow_buffer_clip_start": 0.05000000074505806,
+    "shadow_soft_size": 0.027000000700354576,
+    "energy": 18.0
+  },
+  "after": {
+    "use_shadow": true,
+    "use_shadow_jitter": true,
+    "shadow_jitter_overblur": 0.0,
+    "shadow_buffer_clip_start": 0.05000000074505806,
+    "shadow_soft_size": 0.027000000700354576,
+    "energy": 18.0
+  },
+  "light_position_unchanged": [
+    -1.1527999639511108,
+    14.655599594116211,
+    -0.24000000953674316
+  ],
+  "light_energy_and_radius_unchanged": true,
+  "geometry_unchanged": true,
+  "all_shadows_still_enabled": true,
+  "exposure": 0.8,
+  "camera": "CAM_MAIN_B_BATH_B",
+  "status": "CANCELLED_BEFORE_PNG",
+  "production_saved": false,
+  "gi_rebaked": false,
+  "interruption_reason": "Bounded run interrupted before render output; API-confirmed single-light shadow linking tested instead."
+}

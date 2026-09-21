@@ -1,0 +1,356 @@
+{
+  "status": "FAIL_FULL_CONNECTION_GRAPH_NO_CHECKED_SCENE_SAVED",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "iteration": 9,
+  "attempt": "01",
+  "counts": {
+    "PASS": 58,
+    "FAIL": 2,
+    "NOT_RUN": 0
+  },
+  "full_connection_graph_pass": false,
+  "frame_count": 7584,
+  "integer_frame_failure_count": 0,
+  "all_integer_frames_pass": true,
+  "route_status": "PASS_INSTALL_WITH_OPEN_ISSUES",
+  "camera_status": "PASS_CAMERA_VALUES_AND_COVERAGE",
+  "walk_pass": 50,
+  "inspection_pass": 8,
+  "failed_edges": [
+    {
+      "from": "GUEST_L1_CAR_COURT",
+      "to": "GUEST_L1_STAIR_HALL",
+      "types": [
+        "open_passage"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "FAIL_NO_VALIDATED_BODY_PATH",
+      "id": "ADJ_041",
+      "method": "Surveyed threshold/door hints first; body/ground checks; bounded room-union turning search only if needed",
+      "claim": "Straight and bounded turning searches did not prove connection; missing geometry or search resolution may need review.",
+      "examples": [
+        {
+          "reason": "BODY_COLUMN",
+          "point": [
+            0.84932,
+            41.15311,
+            10.0
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              0.84932,
+              40.97311,
+              8.49604
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "distance": 0.00604
+          }
+        },
+        {
+          "reason": "CAMERA_CLEARANCE",
+          "point": [
+            1.07422,
+            41.05479,
+            10.0
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              1.07422,
+              40.99604,
+              10.0
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "distance": 0.05875
+          }
+        },
+        {
+          "reason": "BODY_COLUMN",
+          "point": [
+            1.14553,
+            41.0656,
+            10.0
+          ],
+          "hit": {
+            "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+            "location": [
+              1.32553,
+              41.0656,
+              9.199
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 0.709
+          }
+        },
+        {
+          "reason": "BODY_COLUMN",
+          "point": [
+            0.42155,
+            40.98672,
+            10.0
+          ],
+          "hit": {
+            "object": "GUEST_LAYERED_SANDSTONE_COURSES",
+            "location": [
+              0.42155,
+              40.98672,
+              8.74646
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "distance": 0.25646
+          }
+        }
+      ],
+      "search": {
+        "status": "GRID_PATH_NOT_FOUND",
+        "visited_nodes": 388,
+        "tested_nodes": 549,
+        "grid_m": 0.24
+      }
+    },
+    {
+      "from": "GUEST_L1_STAIR_HALL",
+      "to": "GUEST_L2_HALL",
+      "types": [
+        "stairs"
+      ],
+      "declarations": [
+        {
+          "source": "data\\guest_house.json",
+          "evidence": "A plan topology; C exact openings",
+          "source_status": "unspecified"
+        }
+      ],
+      "status": "FAIL_STAIR_ROOM_ATTACHMENT",
+      "id": "ADJ_054",
+      "method": "Actual named tread centerline plus checked room/landing approaches; no straight inter-floor shortcut",
+      "prefix": "GUEST_SERVICE_ASCENT_tread_",
+      "stair_points": [
+        [
+          2.926959991455078,
+          40.590816497802734,
+          10.168047523498535
+        ],
+        [
+          2.926959991455078,
+          40.402530670166016,
+          10.336096382141113
+        ],
+        [
+          2.926959991455078,
+          40.2142448425293,
+          10.504144287109375
+        ],
+        [
+          2.926959991455078,
+          40.02595901489258,
+          10.672192192077636
+        ],
+        [
+          2.926959991455078,
+          39.83767318725586,
+          10.840241050720214
+        ],
+        [
+          2.926959991455078,
+          39.64938735961914,
+          11.008288955688476
+        ],
+        [
+          2.926959991455078,
+          39.46110153198242,
+          11.176336860656738
+        ],
+        [
+          2.926959991455078,
+          39.27281951904297,
+          11.344385719299316
+        ],
+        [
+          2.926959991455078,
+          39.08453369140625,
+          11.512433624267578
+        ],
+        [
+          2.926959991455078,
+          38.89624786376953,
+          11.68048152923584
+        ],
+        [
+          2.926959991455078,
+          38.70796203613281,
+          11.848530387878418
+        ],
+        [
+          2.926959991455078,
+          38.519676208496094,
+          12.01657829284668
+        ],
+        [
+          2.926959991455078,
+          38.331390380859375,
+          12.184626197814941
+        ],
+        [
+          2.926959991455078,
+          38.143104553222656,
+          12.35267505645752
+        ]
+      ],
+      "approaches": [
+        {
+          "status": "BLOCKED_NO_VALIDATED_PATH",
+          "from": "GUEST_L1_STAIR_HALL",
+          "to": "TOPOLOGY_QA_GUEST_L1_STAIR_HALL",
+          "claim": "Straight and bounded turning searches did not prove connection; missing geometry or search resolution may need review.",
+          "examples": [
+            {
+              "reason": "BODY_COLUMN",
+              "point": [
+                2.09861,
+                40.25407,
+                10.03361
+              ],
+              "hit": {
+                "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+                "location": [
+                  2.27861,
+                  40.25407,
+                  9.199
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.52539
+              }
+            },
+            {
+              "reason": "BODY_COLUMN",
+              "point": [
+                2.03554,
+                40.3102,
+                10.05602
+              ],
+              "hit": {
+                "object": "GUEST_LAUNDRY_DESCENT_outer_retaining_wall",
+                "location": [
+                  2.21554,
+                  40.3102,
+                  9.199
+                ],
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "distance": 0.50298
+              }
+            },
+            {
+              "reason": "NO_GROUND",
+              "point": [
+                2.89542,
+                38.24989,
+                10.04801
+              ],
+              "expected_ground_z": 8.44801368713379
+            },
+            {
+              "reason": "NO_GROUND",
+              "point": [
+                2.64914,
+                38.24989,
+                10.04801
+              ],
+              "expected_ground_z": 8.44801368713379
+            }
+          ],
+          "search": {
+            "status": "GRID_PATH_NOT_FOUND",
+            "visited_nodes": 156,
+            "tested_nodes": 235,
+            "grid_m": 0.24
+          }
+        },
+        {
+          "status": "PASS_MESH_AND_GROUND",
+          "from": "TOPOLOGY_QA_GUEST_L2_HALL",
+          "to": "GUEST_L2_HALL",
+          "points": [
+            [
+              2.92696,
+              38.1431,
+              12.35268
+            ],
+            [
+              2.6116,
+              37.9144,
+              12.35268
+            ]
+          ],
+          "claim": "One straight body-clear path through actual geometry; not all door approaches."
+        }
+      ],
+      "points": []
+    }
+  ],
+  "source_hash_unchanged": true,
+  "validator_source_sha256": "105c10dfb180448384ea6c9970b9d5d167295776f7475b280b43f341cbd26901",
+  "input_metadata_hashes": {
+    "data/main_house.json": "be830b3d37b53726bb4919f4732b9439792bc82af2f418480199d4cd2ec4e3ac",
+    "data/guest_house.json": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+    "config.json": "b7480e69477d14a2e22111ad6d108e5bffc4834b1f804dd5e62a6eff92354c52",
+    "adjacency.csv": "6620606c45a763b4cae0fb7d0efe82449f3460cd86868bc6e17978d9043b0084"
+  },
+  "production_files_unchanged": {
+    "data/main_house.json": true,
+    "data/guest_house.json": true,
+    "config.json": true,
+    "adjacency.csv": true,
+    "data/tour-route.json": true,
+    "data/camera-settings-reviewed.json": true,
+    "scripts/tour.py": true,
+    "scripts/camera_review.py": true,
+    "scripts/main_house.py": true,
+    "scripts/guest_house.py": true,
+    "scripts/furnishings.py": true,
+    "scripts/furnishing_softgoods.py": true
+  },
+  "room_saved_camera_changes": [],
+  "actual_saved_cameras_read_first": true,
+  "candidate_tour_created_only_in_memory": true,
+  "checked_scene_saved": false,
+  "accepted_for_delivery": false,
+  "central_production_route_overwritten": false,
+  "limits": [
+    "7584-frame mesh PASS is independent of the 60-edge graph. Camera cuts never satisfy failed room connections.",
+    "No old PASS state imported; graph re-evaluated on actual frozen09 mesh.",
+    "No render, GUI navigation, or full visual acceptance. No checked09 scene is written, regardless of test outcome."
+  ]
+}

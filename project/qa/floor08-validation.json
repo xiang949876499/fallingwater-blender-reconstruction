@@ -1,0 +1,58 @@
+{
+  "status": "PASS_LOCAL_SOURCE_GEOMETRY08_VISUAL_NOT_RUN",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_floor_core_candidate08.blend",
+  "candidate_sha256": "c78cab9c1d1d3341c72ac926da1abe931902f4c0381e49e956c6c814c930ddc7",
+  "floor_only_candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_floor_candidate08.blend",
+  "floor_only_sha256": "95b3c1bc5cb6b8e1b98850c348fb522623bd8336c0dbeecf3d72c6951914b552",
+  "source_script_sha256": "d4d4fb379994a4ecd05b7c48cec2a02787cb71b884f340e09702ede807d87560",
+  "source_floor_and_threshold_functions_match_saved_candidate": {
+    "MAIN_L2_BATH_N": true,
+    "MAIN_L2_BATH_G": true,
+    "MAIN_L2_BATH_M": true,
+    "MAIN_L2_DRESSING": true,
+    "MAIN_L3_GALLERY": true,
+    "threshold_guest_bath": true,
+    "threshold_master_bath": true,
+    "threshold_dressing_bath": true,
+    "threshold_hall_dressing": true,
+    "threshold_dressing_terrace": true,
+    "threshold_gallery_bath": true
+  },
+  "floor_raw_report_preserved": "floor08-candidate-check.json: FAIL_LOCAL_FLOOR08 because nine first hits are fixture pedestals/feet",
+  "grid_interpretation": {
+    "direct_finish_hits": 1951,
+    "fixture_occluded_with_verified_underlying_finish": 9,
+    "missing_underlying_floor": 0
+  },
+  "counts": {
+    "known_failed_source_pixels_repaired": 20,
+    "positive_floor_control_pixels": 3,
+    "wall_or_door_control_pixels": 2,
+    "floor_perimeter_pass": 424,
+    "all_threshold_support_regression_probes": 1800,
+    "new_threshold_regressions": 0,
+    "affected_route_floor_pass": 78,
+    "body_centers_each_candidate": 8088,
+    "new_body_collisions": 0,
+    "excluded_stair_exterior_points": 7,
+    "core_prior_void_and_control_rays_closed": 7,
+    "recess_rays_clear_until_real_back": 8
+  },
+  "unchanged_inputs": {
+    "iteration07_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+    "tour_checked_iteration07_sha256": "792882445860ae6a7bb37e3e03838d74a07647e89dbf5475a056125d6bac067e",
+    "tour_route_json_sha256": "6d8ae1c15d04905a773e5b1cb2824495abc568236bb10c65c849ee0caf79d17d"
+  },
+  "source_images_actually_opened": [
+    "research/references/architecture/main-05-sheet.jpg",
+    "research/references/architecture/main-06-sheet.jpg",
+    "project/qa/floor08-main05-source-overlay.png",
+    "project/qa/floor08-main06-source-overlay.png",
+    "project/qa/floor08-core-source-overlay.png"
+  ],
+  "limitations": [
+    "Local support/collision regression only; does not grant new 7584-frame whole-scene traversal acceptance.",
+    "Same-view actual renders and visual/material quality remain for the integrator.",
+    "Physical construction polygons are distinct from semantic room census polygons; C source trace accuracy remains."
+  ]
+}

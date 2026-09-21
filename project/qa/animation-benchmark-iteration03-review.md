@@ -1,0 +1,32 @@
+# Iteration 03 Cycles diagnostic — 2026-09-20
+
+**INCOMPLETE / HIP PROCESS CRASH.** One of three requested images completed. The process then failed inside `amdhip64_7.dll` with access violation `0xC0000005` while entering `CAM_WATER_DETAIL`. `CAM_GUEST_OVERVIEW` was not reached. The existing log and incremental benchmark JSON are retained unchanged; the latter's overall `NOT_RUN` reflects interruption before finalization, not a clean completion.
+
+| Requested view | Actual output | Result |
+|---|---|---|
+| CAM_HERO | `renders/previews/iteration03/CAM_HERO.png` | Output PASS, 523.251 s; visually inspected |
+| CAM_WATER_DETAIL | Missing | FAIL: process crashed after this camera's RENDER_START |
+| CAM_GUEST_OVERVIEW | Missing | NOT_RUN after process crash |
+
+Settings were Blender 5.2.1 LTS, Cycles HIP on AMD Radeon 8060S, 640×360, maximum 24 samples, adaptive threshold 0.025, denoising, AgX, exposure +0.8, frame 1. Scene size at load was 31,218,549 bytes. The saved scene was read from `scene/Fallingwater_working.blend` after its 14:01:06 update. That working path can change later; its name alone does not identify an immutable revision. Evidence: `qa/animation-benchmark-iteration03-cycles.log` and `renders/previews/iteration03/render-benchmark.json`.
+
+## Independent visual judgment
+
+The iteration 02 hero and water-detail images were opened for comparison, followed by the actual iteration 03 hero. The new hero is only 640×360, versus the larger prior diagnostic; fine material detail is not a controlled comparison.
+
+The new foreground trunks have visibly smoother branch transitions. The background canopy is denser and fuller, with fewer completely bare pole-like gaps. Rock shoulders have thicker irregular masses, more varied outlines, and a warmer stone appearance; they read less like a stack of identical isolated plates. These are visible improvements.
+
+The site still fails the photographic target. Falling water remains a set of conspicuous parallel pale strips with punched openings. The central rock/water silhouette retains mechanical repetition, while the shoulders remain strongly faceted. Ground cover has broad uniform stretches, and the low-resolution image cannot verify convincing bark, leaf or geological microdetail. No conclusion about the missing close-water or guest views can be made. The hero improvement is insufficient to close the site P1 issues.
+
+The missing two views should be produced on the CPU after the integrator's structural/scale corrections and scheduling decision. Do not relabel earlier iteration images as the missing outputs. No extra GPU or full-film job was launched during this review.
+
+## Performance decisions supported by actual evidence
+
+1. **Use CPU as the production candidate on this machine.** HIP can render the tiny preflight but this full scene took 523.251 s for a 640×360/24-sample hero and crashed on the next view. This establishes instability for this workload. It does not prove a driver root cause beyond the stack trace, nor does it justify changing the user's driver/software installation.
+2. **Keep a serial, controlled CPU benchmark.** The completed `qa/cpu-4k-benchmark/render-benchmark.json` records 3840×2160, 512 maximum samples, threshold 0.01, frame 73, and 2,597.208 s (43 min 17.208 s). The parent recorded 16 CPU threads. It used a 24,923,374-byte earlier scene, so it is not a matched engine comparison with iteration 03. Twelve identical-cost views would arithmetically take 8.66 hours, but twelve different cameras, newer vegetation, interiors and corrected geometry may differ substantially. Record scene hash, thread count, actual settings and first/warm times for the next benchmark.
+3. **Optimize sampling where it demonstrably preserves detail.** Keep the PRD's 512-sample-or-higher final cap. On the corrected final scene, compare baseline 0.01 with 0.015 and 0.02 using small render borders at actual 4K pixel density: stone joints/window mullions, foliage against sky, water, and the darkest interior. Export raw and denoised versions. Check noise, texture loss and fine-line loss at 100%; retain a candidate only if the differences meet the visual requirement. A higher noise threshold can stop clean pixels earlier, but the savings and acceptability here are untested. The official [Cycles sampling documentation](https://docs.blender.org/manual/en/4.2/render/cycles/render_settings/sampling.html) describes that adaptive-sampling tradeoff. The 5.2 full-page fetch was unavailable through the web tool; this report relies on the installed code for actual setting values.
+4. **Test long light paths separately from sampling.** `lighting.apply()` raises total bounces to at least 12 and diffuse to at least 6; transmission remains at least 8. These are conservative scene-wide settings. An exterior-only test can compare total/diffuse limits while preserving glass transmission, then check windows and sheltered surfaces for lost illumination. Keep the baseline for interiors until a direct comparison establishes an alternative. No speedup is assumed; indiscriminately reducing transmission, adding hidden fill, or discarding indirect light would damage the requested result.
+5. **Measure what is expensive before simplifying geometry.** Persistent data and linked tree assets already exist. Measure scene synchronization versus ray tracing and evaluate instance-expanded geometry/material cost. Distance-based vegetation detail is a possible later test, but hero silhouettes, reflected trees, real leaf structure and close-room detail must survive. Repeated proxies or geometry removal are not an accepted optimization merely because a frame renders faster. No such change was made in this diagnostic.
+6. **Keep film as a separate qualification step.** The measured 1080p EEVEE warm medians (5.4976 s exterior and 8.7447 s living room) came from ten static-camera frames and an older checkpoint with only MAIN_L1 baked. Glass dark bands remain unresolved. They cannot establish the final route's performance or image quality. After building scale, route clearance, all-floor GI and exposure are correct, measure a continuous moving section at the chosen final settings before scheduling the long sequence. The 4K still's time cannot be converted into a film time simply by pixel count or sample ratio.
+
+No final-performance guarantee or photographic acceptance is made. The next useful work is the corrected scene and a bounded CPU quality/performance comparison, coordinated by the integrator.

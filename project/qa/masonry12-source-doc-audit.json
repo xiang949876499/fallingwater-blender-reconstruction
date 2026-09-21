@@ -1,0 +1,31 @@
+{
+  "scope": "QA-only read-only task; no production change",
+  "source_still_same": true,
+  "dependency_hashes_still_same": {
+    "scripts\\main_house.py": true,
+    "scripts\\masonry_detail.py": true,
+    "scripts\\materials.py": true,
+    "scripts\\asset_materials.py": true,
+    "scripts\\fwlib.py": true,
+    "data\\masonry-detail.json": true
+  },
+  "owned_files": [
+    "qa\\masonry12-source-probe.json",
+    "qa\\masonry12-source-probe.log",
+    "qa\\masonry12-source-probe.py",
+    "qa\\masonry12-source-records.py",
+    "qa\\masonry12-source-review.md",
+    "qa\\masonry12-source-targets.json",
+    "qa\\masonry12-source-viewed.json"
+  ],
+  "report_lines": 95,
+  "root_AGENTS_lines": 14,
+  "root_project_markdown_inventory": [
+    "project\\implementation-plan.md",
+    "project\\START_HERE.md",
+    "project\\STATUS.md"
+  ],
+  "neat_freak_resolution": "Consolidated own source/probe/target/report records; central STATUS/manifests/build/AGENTS and unrelated accepted helpers are root-owned, unchanged by this task.",
+  "no_commit": true,
+  "no_publication": true
+}

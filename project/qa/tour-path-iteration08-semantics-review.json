@@ -1,0 +1,163 @@
+{
+  "status": "PASS_SEMANTIC_REVIEW_NOT_GEOMETRY_ACCEPTANCE",
+  "review_date": "2026-09-20",
+  "scope": "Read-only code/data semantic review; no Blender process, ray casting, rendering, scene load or save was performed by reviewer.",
+  "reported_target_scene": "scene/Fallingwater_iteration08.blend",
+  "reported_target_scene_sha256": "c5cd501e4c8ae0205ecb2437cd2d06d0c92bcc9a87e7d93d3986aeef976070d7",
+  "scene_hash_independently_verified": false,
+  "files_sha256": {
+    "scripts\\tour.py": "105c10dfb180448384ea6c9970b9d5d167295776f7475b280b43f341cbd26901",
+    "qa\\tour-path-iteration08-run.py": "a71cda8e33ee90b3a2c466916e0323cf1d6ba410cb724b85ab586821f6e43293",
+    "data\\main_house.json": "85c0ce86bc27dfc2f0f9d91f1e2fe2068348f70bfd1db5349e76d7e2562b97bf",
+    "data\\guest_house.json": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+    "adjacency.csv": "6620606c45a763b4cae0fb7d0efe82449f3460cd86868bc6e17978d9043b0084"
+  },
+  "manifest": {
+    "edge_count": 60,
+    "normal_walk_expected_count": 52,
+    "typed_inspection_expected_count": 8,
+    "declared_room_count": 60,
+    "node_count": 61,
+    "extra_non_room_endpoint": "EXTERIOR_UNDERCROFT",
+    "csv_only_count": 0,
+    "missing_source_room_ids": [],
+    "unique_edge_pairs": 60
+  },
+  "typed_inspections": [
+    {
+      "id": "ADJ_015",
+      "from": "MAIN_L1_LIVING",
+      "to": "MAIN_L1_HATCH",
+      "acceptance_type": "INSPECTION_ONLY_DRY_EDGE"
+    },
+    {
+      "id": "ADJ_016",
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_B_PLUNGE",
+      "acceptance_type": "INSPECTION_ONLY_DRY_EDGE"
+    },
+    {
+      "id": "ADJ_022",
+      "from": "MAIN_L2_MASTER",
+      "to": "MAIN_L2_CLOSET_M",
+      "acceptance_type": "INSPECTION_ONLY_STORAGE"
+    },
+    {
+      "id": "ADJ_026",
+      "from": "MAIN_L2_GUEST",
+      "to": "MAIN_L2_CLOSET_G",
+      "acceptance_type": "INSPECTION_ONLY_STORAGE"
+    },
+    {
+      "id": "ADJ_037",
+      "from": "MAIN_B_FOUNDATION_1",
+      "to": "EXTERIOR_UNDERCROFT",
+      "acceptance_type": "INSPECTION_ONLY_FREE_FLY"
+    },
+    {
+      "id": "ADJ_038",
+      "from": "MAIN_B_FOUNDATION_2",
+      "to": "EXTERIOR_UNDERCROFT",
+      "acceptance_type": "INSPECTION_ONLY_FREE_FLY"
+    },
+    {
+      "id": "ADJ_039",
+      "from": "MAIN_B_FOUNDATION_3",
+      "to": "EXTERIOR_UNDERCROFT",
+      "acceptance_type": "INSPECTION_ONLY_FREE_FLY"
+    },
+    {
+      "id": "ADJ_050",
+      "from": "GUEST_L1_TERRACE",
+      "to": "GUEST_L1_POOL",
+      "acceptance_type": "INSPECTION_ONLY_DRY_EDGE"
+    }
+  ],
+  "retracted_edges": [
+    {
+      "from": "MAIN_L1_LOGGIA",
+      "to": "MAIN_L1_TERRACE_E",
+      "previous_type": "exterior_steps",
+      "status": "SOURCE_UNSUPPORTED_AS_DRY_WALKEDGE",
+      "previous_case": "iteration06 ADJ017 remains a historical FAIL",
+      "reason": "The inferred path joined two stairs across pool/perimeter stonework. Main03/04 do not establish a continuous dry deck at the stair-foot level; current broad deck strips cannot serve as source evidence. East Terrace remains accessible through Living glazed doors.",
+      "source_crops": [
+        "qa/main-pool-iteration06-plan04.png",
+        "qa/main-pool-iteration06-plan04-grid.png",
+        "qa/main-pool-iteration06-plan03.png"
+      ],
+      "source": "data\\main_house.json",
+      "acceptance": "RETRACTED_SOURCE_UNSUPPORTED; not a navigation PASS and not a valid current edge"
+    }
+  ],
+  "control_flow_test": {
+    "method": "Executed only AST-extracted manifest and adjacency dispatcher with synthetic PASS stubs for geometry helpers and in-memory report sink. Synthetic results are not geometry evidence.",
+    "normal_walk_count": 52,
+    "inspection_count": 8,
+    "component_sizes": [
+      52,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "all_inspection_endpoints_in_separate_walk_components": true
+  },
+  "save_gate_tests": {
+    "method": "Executed current runner passed expression against synthetic aggregate fixtures; not actual run evidence.",
+    "cases": [
+      {
+        "case": "valid synthetic aggregate",
+        "accepted": true
+      },
+      {
+        "case": "one actual geometry frame fails",
+        "accepted": false
+      },
+      {
+        "case": "camera status fails with 7584 frames",
+        "accepted": false
+      },
+      {
+        "case": "world matrix flag absent",
+        "accepted": false
+      },
+      {
+        "case": "within-segment sweep false",
+        "accepted": false
+      },
+      {
+        "case": "incomplete frame count",
+        "accepted": false
+      },
+      {
+        "case": "inspection edge treated as walk",
+        "accepted": false
+      },
+      {
+        "case": "uncovered space",
+        "accepted": false
+      }
+    ]
+  },
+  "observations": [
+    {
+      "severity": "nonblocking_hardening",
+      "location": "qa/tour-path-iteration08-run.py:39",
+      "detail": "source_hash_unchanged is computed before save but is asserted only after the checked file may be saved. The source is explicitly frozen for this run; a future gate can include the hash condition in passed to fail closed against concurrent changes."
+    },
+    {
+      "severity": "outside_active_path",
+      "location": "scripts/tour.py:1062",
+      "detail": "Generic --save-checked saves after install without testing returned report statuses. Iteration08 uses a dedicated strict runner and does not invoke this generic option."
+    }
+  ],
+  "actual_iteration08_artifact_available_at_review": false,
+  "remaining_acceptance": "Await parent-owned complete geometry result and independent saved-scene reopen. No actual iteration08 PASS is claimed by this review.",
+  "neat_freak_scope": "Reviewed relevant root guidance, README links, project status and iteration08 decisions; updated only the two owned semantic review artifacts. Shared status correctly retains iteration07 executed navigation acceptance while iteration08 runs."
+}

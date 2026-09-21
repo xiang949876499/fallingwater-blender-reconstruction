@@ -1,0 +1,63 @@
+{
+  "status": "FAIL_INLET_DEPTH_AND_CONTINUOUS_COVERAGE",
+  "windows": {
+    "1-36": {
+      "sample_count": 540,
+      "hits": 360,
+      "missing": 180,
+      "positions_present_every_frame": 3,
+      "source_top_m": {
+        "count": 36,
+        "min": -3.0044281482696533,
+        "max": -3.0019824504852295,
+        "mean": -3.004010942247179
+      },
+      "mesh_water_thickness_m": {
+        "count": 360,
+        "min": 0.00013136863708496094,
+        "max": 0.06391096115112305,
+        "mean": 0.02061475912729899
+      },
+      "mesh_water_thickness_cells": {
+        "count": 360,
+        "min": 0.011236562264524175,
+        "max": 5.466597738208493,
+        "mean": 1.7632749310800389
+      },
+      "mesh_water_thickness_at_least_3_cells_count": 67,
+      "note": "Thickness is cached mesh vertical extent / nominal solver cell, not a direct VDB occupancy-cell count."
+    },
+    "20-36": {
+      "sample_count": 255,
+      "hits": 130,
+      "missing": 125,
+      "positions_present_every_frame": 3,
+      "source_top_m": {
+        "count": 17,
+        "min": -3.004243850708008,
+        "max": -3.0040621757507324,
+        "mean": -3.004185311934527
+      },
+      "mesh_water_thickness_m": {
+        "count": 130,
+        "min": 0.00013136863708496094,
+        "max": 0.03890228271484375,
+        "mean": 0.01485141607431265
+      },
+      "mesh_water_thickness_cells": {
+        "count": 130,
+        "min": 0.011236562264524175,
+        "max": 3.32749072881648,
+        "mean": 1.2703097568671782
+      },
+      "mesh_water_thickness_at_least_3_cells_count": 4,
+      "note": "Thickness is cached mesh vertical extent / nominal solver cell, not a direct VDB occupancy-cell count."
+    }
+  },
+  "final_frame_outlet_hits": 5,
+  "visual_review": {
+    "path": "qa/fluid-entry01-frame036.png",
+    "viewed": true,
+    "result": "FAIL: inlet supports a local sheet, with strong thinning, interrupted patches and exposed bed downstream. Hard source/domain footprint visible. No full-scene or photographic acceptance."
+  }
+}

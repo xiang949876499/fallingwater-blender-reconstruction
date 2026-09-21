@@ -1,0 +1,288 @@
+{
+  "status": "SOURCE_ROOM_LAYOUT_CONTRADICTIONS_CONFIRMED_PHOTOMATCH_NOT_RUN",
+  "source_page": "https://projects.mcah.columbia.edu/ha/panos/Fallingwater/Master-Bedroom/",
+  "source_xml": "qa/panorama10/master-bedroom-config0.xml",
+  "source_metadata": {
+    "title": "Fallingwater, Bear Run, PA",
+    "description": "Interior Master Bedroom",
+    "author": "Media Center for Art History",
+    "datetime": "Photo by Maurice Luker",
+    "copyright": "2001 Columbia University",
+    "source": "",
+    "info": "",
+    "comment": ""
+  },
+  "cube_metadata": {
+    "tilesize": "2880",
+    "tilescale": "1.00347",
+    "tile0url": "images/1213_fallingwater2001_vr_90_o_0.jpg",
+    "tile1url": "images/1213_fallingwater2001_vr_90_o_1.jpg",
+    "tile2url": "images/1213_fallingwater2001_vr_90_o_2.jpg",
+    "tile3url": "images/1213_fallingwater2001_vr_90_o_3.jpg",
+    "tile4url": "images/1213_fallingwater2001_vr_90_o_4.jpg",
+    "tile5url": "images/1213_fallingwater2001_vr_90_o_5.jpg"
+  },
+  "source_origin": "Official Columbia MCAH panorama, provided/downloaded from declared XML face URLs",
+  "distribution": "REFERENCE_ONLY_EXCLUDE_PUBLIC_PACKAGE",
+  "images_actually_opened": [
+    "qa/panorama10/master-bedroom-face0.jpg",
+    "qa/panorama10/master-bedroom-face1.jpg",
+    "qa/panorama10/master-bedroom-face2.jpg",
+    "qa/panorama10/master-bedroom-face3.jpg",
+    "qa/master-source10-face0-2880.jpg",
+    "qa/master-source10-face2-2880.jpg"
+  ],
+  "source_hashes": {
+    "face0_800": "e89e06ae0045488ac1f0e17831626785221f2d0769998e49f868c334bca807ff",
+    "face1_800": "4e205ae0406412c24ded790a9f1ce1ff53af0e63be6e9c9b7cd68160b9ddf3f7",
+    "face2_800": "811539b44cbc347ba76bd4c8ac2b8ad45991481cdeffc41a4a57dd9ce5d4d77a",
+    "face3_800": "8f5333af21e210244c29c20b9c3c8a3be02d63b3e93ff75e8ad0ac8006fcce33"
+  },
+  "model_scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "differences": [
+    {
+      "id": "MASTER_DOOR_PLAN_OFFSET",
+      "source_faces": [
+        0
+      ],
+      "source_fact": "Hall doorway is between west stone mass and left end of north built-in wardrobe. Main05 source gap about x352..366 supports this relative arrangement.",
+      "model_fact": "Actual opening/lintel spans source x367..390 at y303; north wood wall covers x332..367.",
+      "evidence": "Source photo topology + main05 C trace + actual saved mesh",
+      "status": "STRUCTURAL_CORRESPONDENCE_CONTRADICTION",
+      "fix_scope_not_executed": "Re-register master door/left wall, connected threshold and door leaf together against source, then test adjacency and cameras; no blind infill of bright stair sightline."
+    },
+    {
+      "id": "MASTER_BED_AXIS",
+      "source_faces": [
+        0,
+        1,
+        2
+      ],
+      "source_fact": "Bed head is against the wall perpendicular to the terrace glazing, corresponding to plan-east wall; wardrobe is on adjacent north wall.",
+      "model_fact": "Saved bed head spans source x340.723..373.357, y323.614..324.838; its long axis runs plan north/south with head north.",
+      "evidence": "Cross-face photo room ordering + main05 + actual saved bed mesh",
+      "status": "FURNITURE_ORIENTATION_CONTRADICTION",
+      "fix_scope_not_executed": "Re-layout bed, side shelving and reading lights from source anchors rather than generic room normalized positions; exact position/dimensions remain unmeasured."
+    },
+    {
+      "id": "MASTER_FLOOR_MATERIAL",
+      "source_faces": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_fact": "Continuous large irregular flagstones are visible throughout master bedroom.",
+      "model_fact": "MAIN_L2_MASTER_finish and MAIN_floor_threshold_hall_master_finish are FW_cork. MAIN_L2_CLOSET_M_finish is already FW_stone_floor.",
+      "evidence": "All four source faces + actual saved material slots",
+      "status": "MASTER_AND_HALL_THRESHOLD_MATERIAL_CONTRADICTION_CLOSET_CORRECT",
+      "fix_scope_not_executed": "Replace only wrong master/door threshold material assignment with source-based stone treatment; do not list Closet as a cork error."
+    },
+    {
+      "id": "MASTER_CASEWORK",
+      "source_faces": [
+        0,
+        1
+      ],
+      "source_fact": "Large flat full-height north wardrobe right of hall doorway; bed has low horizontal headboard and open bookshelf units beside it.",
+      "model_fact": "Current view places low bed against north cabinet/door area and generic drawer chest with conical lamp; no room-specific source layout.",
+      "evidence": "Direct photo and opened09 render comparison; exact casework dimensions not measured",
+      "status": "ROOM_LAYOUT_AND_SILHOUETTE_MISMATCH"
+    },
+    {
+      "id": "MASTER_HEARTH",
+      "source_faces": [
+        3
+      ],
+      "source_fact": "West stone hearth has deep firebox, projecting horizontal mantel/shelves and stepped-height returns.",
+      "model_fact": "MAIN_L2_master_hearth is an 8-vertex/6-face rectangular stone block, with separate surface courses.",
+      "evidence": "Source face3 and actual saved object",
+      "status": "STRUCTURAL_FEATURES_MISSING",
+      "fix_scope_not_executed": "Build actual hearth topology before using its corners as camera correspondence targets."
+    },
+    {
+      "id": "MASTER_CEILING_STEP",
+      "source_faces": [
+        1,
+        3
+      ],
+      "source_fact": "A pronounced ceiling beam/soffit step meets the west stone arrangement.",
+      "model_fact": "Opened Master_A shows a largely flat ceiling. Full corresponding beam geometry not independently matched by this audit.",
+      "evidence": "Source observation confirmed; model feature identity unverified",
+      "status": "SOURCE_FEATURE_REQUIRES_MODEL_TRACE_NOT_YET_PROVEN_ABSENT"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "MS10_01",
+      "face": 0,
+      "pixel_800": [
+        327,
+        326
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "Hall doorway: left jamb / header junction",
+      "architectural_group": "north wall opening",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "CURRENT_MODEL_DOOR_PLAN_POSITION_CONTRADICTED"
+    },
+    {
+      "id": "MS10_02",
+      "face": 0,
+      "pixel_800": [
+        321,
+        550
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "Hall doorway: left jamb / floor meeting",
+      "architectural_group": "north wall opening",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "CURRENT_MODEL_DOOR_PLAN_POSITION_CONTRADICTED"
+    },
+    {
+      "id": "MS10_03",
+      "face": 2,
+      "pixel_800": [
+        276,
+        270
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "South glazing: post at left edge of central full-height pane / header",
+      "architectural_group": "south glazing plane",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "MULLION_INDEX_AND_CUBE_INTRINSICS_NOT_REGISTERED"
+    },
+    {
+      "id": "MS10_04",
+      "face": 2,
+      "pixel_800": [
+        276,
+        645
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "Same south glazing post / sill upper meeting",
+      "architectural_group": "south glazing plane",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "MULLION_INDEX_AND_CUBE_INTRINSICS_NOT_REGISTERED"
+    },
+    {
+      "id": "MS10_05",
+      "face": 2,
+      "pixel_800": [
+        441,
+        265
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "Next south glazing post / header",
+      "architectural_group": "south glazing plane",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "MULLION_INDEX_AND_CUBE_INTRINSICS_NOT_REGISTERED"
+    },
+    {
+      "id": "MS10_06",
+      "face": 2,
+      "pixel_800": [
+        441,
+        640
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "Same next south glazing post / sill",
+      "architectural_group": "south glazing plane",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "MULLION_INDEX_AND_CUBE_INTRINSICS_NOT_REGISTERED"
+    },
+    {
+      "id": "MS10_07",
+      "face": 3,
+      "pixel_800": [
+        223,
+        233
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "West fireplace: upper corner of lower left stone pier step",
+      "architectural_group": "west stone mass",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "CORRESPONDING_STEPPED_FEATURE_ABSENT_FROM_CURRENT_BOX_HEARTH"
+    },
+    {
+      "id": "MS10_08",
+      "face": 3,
+      "pixel_800": [
+        239,
+        425
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "West fireplace: main projecting mantel left front top corner",
+      "architectural_group": "west stone mass with depth",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "PROJECTING_MANTEL_ABSENT_FROM_CURRENT_BOX_HEARTH"
+    },
+    {
+      "id": "MS10_10",
+      "face": 3,
+      "pixel_800": [
+        606,
+        153
+      ],
+      "pixel_picking_uncertainty_800_px": 4,
+      "feature_identity": "West fireplace: tall right return upper corner",
+      "architectural_group": "west stone mass",
+      "source_feature_status": "VISIBLE_STRUCTURAL_FEATURE_CANDIDATE",
+      "world_xyz": null,
+      "model_landmark_id": null,
+      "fit_eligible": false,
+      "holdout": null,
+      "blocker": "STEPPED_RETURN_IDENTITY_AND_WORLD_VERTEX_NOT_ESTABLISHED"
+    }
+  ],
+  "geo07": {
+    "source_feature_candidates": 9,
+    "independently_validated_current_model_3d_pairs": 0,
+    "fit_points": 0,
+    "holdouts": 0,
+    "fit_status": "NOT_RUN_CORRESPONDENCE_AND_CUBE_CALIBRATION_NOT_READY",
+    "reason": "Candidates span north/south/west architecture with visible depth, but no 3D noncoplanarity assertion is possible until paired model features are corrected/registered. Four window points share a plane and cannot alone prove a noncoplanar set. Cube tile index does not assign a measured geographic azimuth. Default viewer fov80 is not tile camera calibration.",
+    "next_step": "First correct source-contradicted door/hearth, establish source-based mullion IDs, then freeze >=6 fit and >=2 independent holdout correspondences across faces with correct cube projection. No point may be promoted by low residual alone."
+  },
+  "no_production_or_camera_changes": true,
+  "model_readonly_audit": "qa/master-source10-model-audit.json",
+  "landmark_review_note": "Rejected MS10_09 after opening annotation: selected shelf edge point did not uniquely establish a corner. Nine source-only feature candidates remain; zero accepted 3D pairs.",
+  "source_annotation_images_actually_opened": [
+    "master-source10-face0-landmarks.png",
+    "master-source10-face2-landmarks.png",
+    "master-source10-face3-landmarks.png",
+    "master-source10-four-face-layout.png"
+  ]
+}

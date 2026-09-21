@@ -1,0 +1,52 @@
+{
+  "status": "LOCAL_GEOMETRY_CANDIDATE_VISUAL_AND_NAVIGATION_INTEGRATION_REQUIRED",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_master_ceiling_candidate11b.blend",
+  "candidate_sha256": "c0d71ca14782c8af5a5b6593336cd4f652c4808da7f824405538a159280ddcde",
+  "candidate_bytes": 46517246,
+  "base": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration10.blend",
+  "base_sha256": "1e7b17d9c2396513f005724e50788bf834097eedb401b91a7f1030825e2c4ed9",
+  "helper": "project/scripts/master_ceiling11.py",
+  "helper_sha256": "e89466c85091da85ecd38194cc28d32f219679c9bc7790c4b10c98cdecc85f0c",
+  "activation": "apply(enabled=True); default disabled; once after accepted10 Master/bath/interface geometry",
+  "changed": [
+    "MAIN_L2_MASTER_ceiling",
+    "MAIN_L2_master_south_open_casement_sill",
+    "MAIN_L2_master_south_open_casement_head",
+    "MAIN_L2_master_south_open_casement_mullion_1",
+    "MAIN_L2_master_south_open_casement_transom_0",
+    "MAIN_L2_master_south_open_casement_glass_0",
+    "MAIN_L2_master_south_latch"
+  ],
+  "removed": [
+    "MASTER_DETAIL10_west_connected_soffit"
+  ],
+  "protected_object_count": 23429,
+  "camera_count": 131,
+  "all_camera_keys_unchanged": true,
+  "material_count": 58,
+  "geometry_reopen_pass": true,
+  "low_plane_samples": 387,
+  "low_face_components": [
+    17
+  ],
+  "boundary_rays_enclosed": 32,
+  "all_new_contact_intersection_volumes_zero": true,
+  "original_master_saved_frames_pass": 168,
+  "original_terrace_saved_frames_unchanged_foot_failure": 96,
+  "actual_floor_exterior_body_frames_pass": 96,
+  "original_raised_torso_sill_gait": "FAIL_RETAINED_NEW_ROOF_HEAD_HIT",
+  "fixed_torso_gait": "QA_ONLY_PASS_NOT_INSTALLED",
+  "source_height_discrepancy": "OPEN_C_graphical0.417+-0.04m_vs_candidate0.1532m",
+  "hinge_axis_member": "Stationary original square axis member: C construction interpretation; all dimensions/count retained",
+  "visual_status": "NOT_RUN_BY_THIS_AGENT_ROOT_RENDERS",
+  "GEO07": "NOT_RUN",
+  "report": "project/qa/master-ceiling11-review.md",
+  "evidence": [
+    "master-ceiling11-build-check.json",
+    "master-ceiling11-reopen.json",
+    "master-ceiling11-exterior-body-reopen.json",
+    "master-ceiling11-original-gait-fail.json",
+    "master-ceiling11-fixed-torso-gait-C.json"
+  ],
+  "failed_angle_candidate": "11a preserved as negative diagnostic; DO_NOT_INTEGRATE"
+}

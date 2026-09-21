@@ -1,0 +1,1200 @@
+{
+  "status": "OFFLINE_READ_PASS_NOT_VISUAL_ACCEPTANCE",
+  "blender": "5.2.1 LTS",
+  "threads": 4,
+  "rendered": false,
+  "baked": false,
+  "source_sha256": "cf721e00ed5bb72f0b9c3fb59b8febc7b2b9b2082f162d5a80ba3a11e4e7028d",
+  "source_bytes": 262018,
+  "unit_scale": 1.0,
+  "meshes": [
+    {
+      "name": "Plane.006",
+      "vertices": 525,
+      "edges": 910,
+      "polygons": 392,
+      "triangles": 784,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "fern_02"
+      ],
+      "bounds_local": [
+        [
+          -0.2976571321487427,
+          0.25428348779678345
+        ],
+        [
+          -0.3021530210971832,
+          0.31126806139945984
+        ],
+        [
+          -0.028773518279194832,
+          0.2580300271511078
+        ]
+      ]
+    },
+    {
+      "name": "Plane.024",
+      "vertices": 1590,
+      "edges": 2762,
+      "polygons": 1192,
+      "triangles": 2384,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "fern_02"
+      ],
+      "bounds_local": [
+        [
+          -0.5281425714492798,
+          0.4616048336029053
+        ],
+        [
+          -0.4718152582645416,
+          0.421874463558197
+        ],
+        [
+          -0.030510280281305313,
+          0.39718443155288696
+        ]
+      ]
+    },
+    {
+      "name": "Plane.044",
+      "vertices": 1500,
+      "edges": 2605,
+      "polygons": 1124,
+      "triangles": 2248,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "fern_02"
+      ],
+      "bounds_local": [
+        [
+          -0.4299395680427551,
+          0.44438624382019043
+        ],
+        [
+          -0.34794387221336365,
+          0.4172818064689636
+        ],
+        [
+          -0.028773672878742218,
+          0.32024669647216797
+        ]
+      ]
+    },
+    {
+      "name": "Plane.059",
+      "vertices": 545,
+      "edges": 946,
+      "polygons": 408,
+      "triangles": 816,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "fern_02"
+      ],
+      "bounds_local": [
+        [
+          -0.2907802164554596,
+          0.28200197219848633
+        ],
+        [
+          -0.2411416471004486,
+          0.35213664174079895
+        ],
+        [
+          -0.013578944839537144,
+          0.19950860738754272
+        ]
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "fern_02_a",
+      "data": "Plane.006",
+      "dimensions": [
+        0.5519406199455261,
+        0.6134210824966431,
+        0.28680354356765747
+      ],
+      "location": [
+        -1.1920928955078125e-07,
+        -1.0000001192092896,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "modifiers": [],
+      "hide_render": false
+    },
+    {
+      "name": "fern_02_b",
+      "data": "Plane.024",
+      "dimensions": [
+        0.9897474050521851,
+        0.893689751625061,
+        0.427694708108902
+      ],
+      "location": [
+        -4.76837158203125e-07,
+        5.960464477539062e-07,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "modifiers": [],
+      "hide_render": false
+    },
+    {
+      "name": "fern_02_c",
+      "data": "Plane.044",
+      "dimensions": [
+        0.8743258118629456,
+        0.7652256488800049,
+        0.3490203619003296
+      ],
+      "location": [
+        1.0000009536743164,
+        1.1920928955078125e-07,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "modifiers": [],
+      "hide_render": false
+    },
+    {
+      "name": "fern_02_d",
+      "data": "Plane.059",
+      "dimensions": [
+        0.5727821588516235,
+        0.5932782888412476,
+        0.2130875587463379
+      ],
+      "location": [
+        1.0,
+        -0.9999995827674866,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "modifiers": [],
+      "hide_render": false
+    }
+  ],
+  "images": [
+    {
+      "name": "fern_02_alpha.png",
+      "filepath": "D:\\zx\\test\\project\\assets\\candidates\\fern_02_2k\\textures\\fern_02_alpha_2k.png",
+      "exists": true,
+      "packed": false,
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "depth": 32,
+      "is_float": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "fern_02_diff.png",
+      "filepath": "D:\\zx\\test\\project\\assets\\candidates\\fern_02_2k\\textures\\fern_02_diff_2k.jpg",
+      "exists": true,
+      "packed": false,
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "depth": 24,
+      "is_float": false,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "fern_02_nor_gl.png",
+      "filepath": "D:\\zx\\test\\project\\assets\\candidates\\fern_02_2k\\textures\\fern_02_nor_gl_2k.exr",
+      "exists": true,
+      "packed": false,
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "depth": 96,
+      "is_float": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "fern_02_rough.png",
+      "filepath": "D:\\zx\\test\\project\\assets\\candidates\\fern_02_2k\\textures\\fern_02_rough_2k.exr",
+      "exists": true,
+      "packed": false,
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "depth": 96,
+      "is_float": true,
+      "colorspace": "Non-Color"
+    }
+  ],
+  "materials": [
+    {
+      "name": "fern_02",
+      "nodes": [
+        {
+          "name": "Frame",
+          "type": "FRAME",
+          "image": null
+        },
+        {
+          "name": "Frame.001",
+          "type": "FRAME",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        },
+        {
+          "name": "Mapping",
+          "type": "MAPPING",
+          "image": null
+        },
+        {
+          "name": "Texture Coordinate",
+          "type": "TEX_COORD",
+          "image": null
+        },
+        {
+          "name": "Image Texture.002",
+          "type": "TEX_IMAGE",
+          "image": "fern_02_nor_gl.png"
+        },
+        {
+          "name": "Reroute",
+          "type": "REROUTE",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null
+        },
+        {
+          "name": "Translucent BSDF",
+          "type": "BSDF_TRANSLUCENT",
+          "image": null
+        },
+        {
+          "name": "Image Texture.003",
+          "type": "TEX_IMAGE",
+          "image": "fern_02_alpha.png"
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "fern_02_diff.png"
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "TEX_IMAGE",
+          "image": "fern_02_rough.png"
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "MATH",
+          "image": null
+        }
+      ],
+      "links": [
+        {
+          "from_node": "Principled BSDF",
+          "from_socket": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader"
+        },
+        {
+          "from_node": "Image Texture",
+          "from_socket": "Color",
+          "to_node": "Principled BSDF",
+          "to_socket": "Base Color"
+        },
+        {
+          "from_node": "Image Texture.001",
+          "from_socket": "Color",
+          "to_node": "Principled BSDF",
+          "to_socket": "Roughness"
+        },
+        {
+          "from_node": "Image Texture.002",
+          "from_socket": "Color",
+          "to_node": "Normal Map",
+          "to_socket": "Color"
+        },
+        {
+          "from_node": "Normal Map",
+          "from_socket": "Normal",
+          "to_node": "Principled BSDF",
+          "to_socket": "Normal"
+        },
+        {
+          "from_node": "Reroute",
+          "from_socket": "Output",
+          "to_node": "Image Texture",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Reroute",
+          "from_socket": "Output",
+          "to_node": "Image Texture.001",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Reroute",
+          "from_socket": "Output",
+          "to_node": "Image Texture.002",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Mapping",
+          "from_socket": "Vector",
+          "to_node": "Reroute",
+          "to_socket": "Input"
+        },
+        {
+          "from_node": "Texture Coordinate",
+          "from_socket": "UV",
+          "to_node": "Mapping",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Reroute",
+          "from_socket": "Output",
+          "to_node": "Image Texture.003",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Translucent BSDF",
+          "from_socket": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader"
+        },
+        {
+          "from_node": "Normal Map",
+          "from_socket": "Normal",
+          "to_node": "Translucent BSDF",
+          "to_socket": "Normal"
+        },
+        {
+          "from_node": "Image Texture",
+          "from_socket": "Color",
+          "to_node": "Translucent BSDF",
+          "to_socket": "Color"
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface"
+        },
+        {
+          "from_node": "Image Texture.003",
+          "from_socket": "Color",
+          "to_node": "Principled BSDF",
+          "to_socket": "Alpha"
+        },
+        {
+          "from_node": "Image Texture.003",
+          "from_socket": "Color",
+          "to_node": "Math",
+          "to_socket": "Value"
+        },
+        {
+          "from_node": "Math",
+          "from_socket": "Value",
+          "to_node": "Mix Shader",
+          "to_socket": "Factor"
+        }
+      ]
+    }
+  ],
+  "total_unique_mesh_triangles": 6232,
+  "total_unique_vertices": 4160,
+  "native_lod_groups": [],
+  "text_blocks": [],
+  "authored_baseline": {
+    "source": "assets\\models\\site_near_trees.blend",
+    "sha256": "633f9215cbf590556e190f5ff41045464b111beaa1d6c968ed12e567828eb1e2",
+    "size_bytes": 17561826,
+    "meshes": [
+      {
+        "name": "TREE_Asset_8_Woody_Branches",
+        "vertices": 4178,
+        "edges": 6884,
+        "polygons": 3410,
+        "triangles": 6948,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -2.680203676223755,
+            3.6403119564056396
+          ],
+          [
+            -2.384459972381592,
+            3.3611369132995605
+          ],
+          [
+            -0.06441381573677063,
+            7.083347320556641
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_8_Individual_Leaves",
+        "vertices": 30240,
+        "edges": 51840,
+        "polygons": 25920,
+        "triangles": 25920,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -2.731138229370117,
+            3.7160727977752686
+          ],
+          [
+            -2.4862844944000244,
+            3.430884599685669
+          ],
+          [
+            2.4509243965148926,
+            7.142008304595947
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 4320,
+        "leaf_length_m_min_mean_max": [
+          0.1084850231004683,
+          0.14802230950287767,
+          0.1872460239617578
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.06384088272851728,
+          0.10189110144913882,
+          0.14741289346125672
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850058782278237,
+          0.6881953355192864,
+          0.7919575363672142
+        ]
+      },
+      {
+        "name": "TREE_Asset_7_Woody_Branches",
+        "vertices": 2873,
+        "edges": 4751,
+        "polygons": 2352,
+        "triangles": 4798,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -2.6177854537963867,
+            2.5788726806640625
+          ],
+          [
+            -3.06917142868042,
+            3.521636724472046
+          ],
+          [
+            -0.018985256552696228,
+            6.512694835662842
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_7_Individual_Leaves",
+        "vertices": 20160,
+        "edges": 34560,
+        "polygons": 17280,
+        "triangles": 17280,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -2.7293481826782227,
+            2.671954393386841
+          ],
+          [
+            -3.1746480464935303,
+            3.6641390323638916
+          ],
+          [
+            3.1694769859313965,
+            6.526501178741455
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 2880,
+        "leaf_length_m_min_mean_max": [
+          0.10844001177153866,
+          0.1484061183768201,
+          0.1872299823325792
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.06510773270713872,
+          0.1021313542381371,
+          0.1454097958516099
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850243115535672,
+          0.6882374120685671,
+          0.7917989880500572
+        ]
+      },
+      {
+        "name": "TREE_Asset_6_Woody_Branches",
+        "vertices": 4790,
+        "edges": 7874,
+        "polygons": 3902,
+        "triangles": 7944,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -4.432413101196289,
+            5.707024097442627
+          ],
+          [
+            -5.986566543579102,
+            5.496097087860107
+          ],
+          [
+            -0.014624981209635735,
+            15.732243537902832
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_6_Individual_Leaves",
+        "vertices": 35280,
+        "edges": 60480,
+        "polygons": 30240,
+        "triangles": 30240,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -4.477036476135254,
+            5.749411106109619
+          ],
+          [
+            -6.0768280029296875,
+            5.599457740783691
+          ],
+          [
+            6.990479469299316,
+            15.329872131347656
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 5040,
+        "leaf_length_m_min_mean_max": [
+          0.1232242011625229,
+          0.16815607182176392,
+          0.21279477008829187
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.07258266990770942,
+          0.11577802647080404,
+          0.16756241482035
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850326201498198,
+          0.6887199485042791,
+          0.7919769435363905
+        ]
+      },
+      {
+        "name": "TREE_Asset_5_Woody_Branches",
+        "vertices": 4790,
+        "edges": 7874,
+        "polygons": 3902,
+        "triangles": 7944,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -4.056943416595459,
+            5.219144344329834
+          ],
+          [
+            -6.153392314910889,
+            4.192297458648682
+          ],
+          [
+            -0.013046531938016415,
+            12.224576950073242
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_5_Individual_Leaves",
+        "vertices": 35280,
+        "edges": 60480,
+        "polygons": 30240,
+        "triangles": 30240,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -4.131983280181885,
+            5.319062232971191
+          ],
+          [
+            -6.234455108642578,
+            4.272452354431152
+          ],
+          [
+            4.789530277252197,
+            11.717761039733887
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 5040,
+        "leaf_length_m_min_mean_max": [
+          0.12322715176929858,
+          0.16852281151116338,
+          0.21279843753034558
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.07231905778156375,
+          0.11575708227200715,
+          0.16799648817051702
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850407944295366,
+          0.6868257991810557,
+          0.791987708695645
+        ]
+      },
+      {
+        "name": "TREE_Asset_4_Woody_Branches",
+        "vertices": 6299,
+        "edges": 10337,
+        "polygons": 5124,
+        "triangles": 10426,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -7.654272079467773,
+            8.693151473999023
+          ],
+          [
+            -6.253268241882324,
+            5.925466537475586
+          ],
+          [
+            -0.023423124104738235,
+            17.42457389831543
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_4_Individual_Leaves",
+        "vertices": 47040,
+        "edges": 80640,
+        "polygons": 40320,
+        "triangles": 40320,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -7.820914268493652,
+            8.783370018005371
+          ],
+          [
+            -6.3583807945251465,
+            6.078776836395264
+          ],
+          [
+            5.45574426651001,
+            17.4277286529541
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 6720,
+        "leaf_length_m_min_mean_max": [
+          0.12321714721516311,
+          0.16799779146400592,
+          0.21279229550366735
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.07239662040707144,
+          0.11563272854665557,
+          0.16838034978492714
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850725709577119,
+          0.6883548765208871,
+          0.7919569940543996
+        ]
+      },
+      {
+        "name": "TREE_Asset_3_Woody_Branches",
+        "vertices": 6299,
+        "edges": 10337,
+        "polygons": 5124,
+        "triangles": 10426,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -5.762637615203857,
+            4.507070064544678
+          ],
+          [
+            -4.172728538513184,
+            5.273052215576172
+          ],
+          [
+            -0.024376092478632927,
+            13.357050895690918
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_3_Individual_Leaves",
+        "vertices": 47040,
+        "edges": 80640,
+        "polygons": 40320,
+        "triangles": 40320,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -5.8577141761779785,
+            4.658623218536377
+          ],
+          [
+            -4.304201602935791,
+            5.350119113922119
+          ],
+          [
+            4.502391815185547,
+            13.396958351135254
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 6720,
+        "leaf_length_m_min_mean_max": [
+          0.12320171559192249,
+          0.16769426268445106,
+          0.2127770605756212
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.07235944785390591,
+          0.11532966775083096,
+          0.1675027646163097
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850565620358604,
+          0.6877135887109539,
+          0.7919910975469457
+        ]
+      },
+      {
+        "name": "TREE_Asset_2_Woody_Branches",
+        "vertices": 13694,
+        "edges": 22132,
+        "polygons": 10828,
+        "triangles": 22608,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -5.460215091705322,
+            5.715048313140869
+          ],
+          [
+            -5.741952896118164,
+            5.296412944793701
+          ],
+          [
+            -0.029262252151966095,
+            13.228415489196777
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_2_Individual_Leaves",
+        "vertices": 145152,
+        "edges": 248832,
+        "polygons": 124416,
+        "triangles": 124416,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -5.571471214294434,
+            5.84249210357666
+          ],
+          [
+            -5.881199836730957,
+            5.382066249847412
+          ],
+          [
+            4.9048309326171875,
+            13.247203826904297
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 20736,
+        "leaf_length_m_min_mean_max": [
+          0.11000458174008218,
+          0.14984150110606737,
+          0.1899952015537499
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.06475919872096433,
+          0.10322451029927704,
+          0.14985286363150346
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850166083646658,
+          0.6888722875274249,
+          0.7919966770422568
+        ]
+      },
+      {
+        "name": "TREE_Asset_1_Woody_Branches",
+        "vertices": 10358,
+        "edges": 16760,
+        "polygons": 8198,
+        "triangles": 17124,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -4.835957050323486,
+            4.328342914581299
+          ],
+          [
+            -5.800218105316162,
+            4.728845119476318
+          ],
+          [
+            -0.026443172246217728,
+            12.904705047607422
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_1_Individual_Leaves",
+        "vertices": 108864,
+        "edges": 186624,
+        "polygons": 93312,
+        "triangles": 93312,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -4.931115627288818,
+            4.485560417175293
+          ],
+          [
+            -5.914004802703857,
+            4.787154674530029
+          ],
+          [
+            4.081989765167236,
+            12.921066284179688
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 15552,
+        "leaf_length_m_min_mean_max": [
+          0.11000237657301133,
+          0.1500199895749269,
+          0.18999332541058145
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.06477650478017168,
+          0.10333037505796204,
+          0.14999447940817923
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850095114602933,
+          0.6887736213348766,
+          0.7919878623845681
+        ]
+      },
+      {
+        "name": "TREE_Asset_0_Woody_Branches",
+        "vertices": 10358,
+        "edges": 16760,
+        "polygons": 8198,
+        "triangles": 17124,
+        "uv_layers": [],
+        "materials": [
+          "FW_bark"
+        ],
+        "bounds_local": [
+          [
+            -5.6765642166137695,
+            6.306807518005371
+          ],
+          [
+            -5.307374477386475,
+            6.986973285675049
+          ],
+          [
+            -0.0385420061647892,
+            16.970434188842773
+          ]
+        ]
+      },
+      {
+        "name": "TREE_Asset_0_Individual_Leaves",
+        "vertices": 108864,
+        "edges": 186624,
+        "polygons": 93312,
+        "triangles": 93312,
+        "uv_layers": [
+          "Individual leaf surface"
+        ],
+        "materials": [
+          "FW_Site_Textured_leaf",
+          "FW_Site_Textured_leaf_dark",
+          "FW_Site_Textured_leaf_light"
+        ],
+        "bounds_local": [
+          [
+            -5.732806205749512,
+            6.389489650726318
+          ],
+          [
+            -5.38167142868042,
+            7.019556999206543
+          ],
+          [
+            6.278349876403809,
+            16.573474884033203
+          ]
+        ],
+        "leaf_measurement_method": "Stored seven-vertex leaf construction: vertices 0-3 blade length; 1-5 shoulder width.",
+        "leaf_count": 15552,
+        "leaf_length_m_min_mean_max": [
+          0.11000458954487498,
+          0.1498261881668351,
+          0.1899986622082519
+        ],
+        "leaf_width_m_min_mean_max": [
+          0.06475480698968084,
+          0.10318501959749,
+          0.15009598081302988
+        ],
+        "leaf_width_length_ratio_min_mean_max": [
+          0.5850138272243156,
+          0.6886780146886012,
+          0.7919978958784752
+        ]
+      }
+    ],
+    "preserved_instances": 159,
+    "asset_use_counts": {
+      "0": 18,
+      "1": 16,
+      "2": 15,
+      "7": 55,
+      "8": 55
+    },
+    "forest_config": {
+      "near_tree_count": 44,
+      "far_tree_count": 165,
+      "sapling_count": 110,
+      "understory_count": 2400,
+      "background_extent": 104,
+      "species_claim": "Forked broadleaf form studies compatible with recorded forest community; individual trees are not asserted to be surveyed species or positions.",
+      "distribution_note": "Layered forest with mature forked crowns, lower saplings, rhododendron-like shrubs, ferns and ground litter. Clear photographed foreground sightline excludes camera-intersecting branches; buildings, creek and paths have stable exclusion masks."
+    },
+    "landmark_positions": [
+      {
+        "name": "TREE_Landmark_00",
+        "asset": 0,
+        "location": [
+          -9.8,
+          7.0,
+          1.570336
+        ],
+        "angle": 1.08631301,
+        "scale": [
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "name": "TREE_Landmark_03",
+        "asset": 0,
+        "location": [
+          24.0,
+          -13.0,
+          0.084218
+        ],
+        "angle": 2.80499434,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "TREE_Landmark_04",
+        "asset": 1,
+        "location": [
+          -21.0,
+          -4.0,
+          -0.091839
+        ],
+        "angle": 5.79571342,
+        "scale": [
+          1.1799999,
+          1.1799999,
+          1.1799999
+        ]
+      },
+      {
+        "name": "TREE_Landmark_05",
+        "asset": 2,
+        "location": [
+          41.0,
+          10.0,
+          2.31198
+        ],
+        "angle": 5.41639519,
+        "scale": [
+          1.13,
+          1.13,
+          1.13
+        ]
+      },
+      {
+        "name": "TREE_Landmark_06",
+        "asset": 0,
+        "location": [
+          -14.0,
+          29.0,
+          5.698865
+        ],
+        "angle": 2.10926843,
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ]
+      }
+    ]
+  }
+}

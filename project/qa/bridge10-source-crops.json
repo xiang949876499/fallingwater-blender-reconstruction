@@ -1,0 +1,92 @@
+{
+  "source": "D:\\zx\\test\\research\\references\\architecture\\main-04-original.tif",
+  "source_sha256": "3db8199eeb84cd4226cfbae2ea9192880454c1012afa6e33bf84bae6449d8d56",
+  "source_raw_size": [
+    13632,
+    17683
+  ],
+  "upright_conversion": "CW90: upright=(17682-raw_y, raw_x); crop edge coordinates use H minus edge",
+  "edits": "none; lossless crop and quarter-turn only",
+  "crops": [
+    {
+      "id": "north_west",
+      "upright_native_box": [
+        13280,
+        6810,
+        14480,
+        7610
+      ],
+      "raw_native_box": [
+        6810,
+        3203,
+        7610,
+        4403
+      ],
+      "output": "D:\\zx\\test\\project\\qa\\bridge10-native-north_west.png",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "id": "south_west",
+      "upright_native_box": [
+        13100,
+        9900,
+        14500,
+        10840
+      ],
+      "raw_native_box": [
+        9900,
+        3183,
+        10840,
+        4583
+      ],
+      "output": "D:\\zx\\test\\project\\qa\\bridge10-native-south_west.png",
+      "size": [
+        1400,
+        940
+      ]
+    },
+    {
+      "id": "south_east",
+      "upright_native_box": [
+        15110,
+        9900,
+        16310,
+        10840
+      ],
+      "raw_native_box": [
+        9900,
+        1373,
+        10840,
+        2573
+      ],
+      "output": "D:\\zx\\test\\project\\qa\\bridge10-native-south_east.png",
+      "size": [
+        1200,
+        940
+      ]
+    },
+    {
+      "id": "south_dimension",
+      "upright_native_box": [
+        13810,
+        11100,
+        15550,
+        11480
+      ],
+      "raw_native_box": [
+        11100,
+        2133,
+        11480,
+        3873
+      ],
+      "output": "D:\\zx\\test\\project\\qa\\bridge10-native-south_dimension.png",
+      "size": [
+        1740,
+        380
+      ]
+    }
+  ]
+}

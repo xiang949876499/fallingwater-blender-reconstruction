@@ -1,0 +1,957 @@
+{
+  "status": "RENDERABLE_VISUAL_FAIL",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration06.blend",
+  "source_sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+  "preview_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_preview_iteration06.blend",
+  "preview_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+  "resume_cache_sha256": "88552c89a9f3bb83af981b12cc71a2c67a484d7e1b471e92aac07b4f9be48d3d",
+  "bakes": [
+    {
+      "name": "FW_PROBE_MAIN_B",
+      "rooms": [
+        "MAIN_B_WINE",
+        "MAIN_B_BATH",
+        "MAIN_B_BOILER",
+        "MAIN_B_STAIR"
+      ],
+      "bounds": [
+        [
+          -6.647600000000001,
+          11.3196,
+          -2.03
+        ],
+        [
+          3.032,
+          18.1509,
+          -0.12
+        ]
+      ],
+      "resolution": [
+        8,
+        6,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 33.35,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.3828,
+        1.36626,
+        0.6366666666666666
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_MAIN_B.blend"
+    },
+    {
+      "name": "FW_PROBE_MAIN_L1",
+      "rooms": [
+        "MAIN_L1_LIVING",
+        "MAIN_L1_KITCHEN",
+        "MAIN_L1_SERVANT",
+        "MAIN_L1_SERVICE_STAIR",
+        "MAIN_L1_ENTRY",
+        "MAIN_L1_COAT",
+        "MAIN_L1_STAIR",
+        "MAIN_L1_LOGGIA",
+        "MAIN_L1_HATCH"
+      ],
+      "bounds": [
+        [
+          -7.6694,
+          0.009300000000000003,
+          0.22
+        ],
+        [
+          19.9572,
+          18.0978,
+          2.38
+        ]
+      ],
+      "resolution": [
+        20,
+        14,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 4.797,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.4540315789473683,
+        1.3914230769230769,
+        0.7199999999999999
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_MAIN_L1.blend"
+    },
+    {
+      "name": "FW_PROBE_MAIN_L2",
+      "rooms": [
+        "MAIN_L2_DRESSING",
+        "MAIN_L2_MASTER",
+        "MAIN_L2_BATH_N",
+        "MAIN_L2_BATH_G",
+        "MAIN_L2_BATH_M",
+        "MAIN_L2_HALL",
+        "MAIN_L2_GUEST",
+        "MAIN_L2_STAIR",
+        "MAIN_L2_CLOSET_M",
+        "MAIN_L2_CLOSET_G"
+      ],
+      "bounds": [
+        [
+          -3.9752,
+          6.753,
+          2.9648000000000003
+        ],
+        [
+          11.101600000000001,
+          16.2924,
+          4.8948
+        ]
+      ],
+      "resolution": [
+        12,
+        8,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 4.328,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.370618181818182,
+        1.3627714285714287,
+        0.6433333333333332
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_MAIN_L2.blend"
+    },
+    {
+      "name": "FW_PROBE_MAIN_L3",
+      "rooms": [
+        "MAIN_L3_STUDY",
+        "MAIN_L3_BATH",
+        "MAIN_L3_GALLERY",
+        "MAIN_L3_ALCOVE",
+        "MAIN_L3_LINK",
+        "MAIN_L3_STAIR"
+      ],
+      "bounds": [
+        [
+          -4.0276000000000005,
+          11.4258,
+          5.38415
+        ],
+        [
+          8.907659845760634,
+          24.592747174582303,
+          7.18415
+        ]
+      ],
+      "resolution": [
+        10,
+        10,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 3.321,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.4372510939734038,
+        1.4629941305091447,
+        0.6
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_MAIN_L3.blend"
+    },
+    {
+      "name": "FW_PROBE_GUEST_L1",
+      "rooms": [
+        "GUEST_L1_THEATER",
+        "GUEST_L1_CHAUFFEUR_LOUNGE",
+        "GUEST_L1_BOILER",
+        "GUEST_L1_STAIR_HALL",
+        "GUEST_L1_LOUNGE",
+        "GUEST_L1_GALLERY",
+        "GUEST_L1_BATH",
+        "GUEST_L1_GUEST_ROOM"
+      ],
+      "bounds": [
+        [
+          -3.8981600000000007,
+          34.103120000000004,
+          8.52
+        ],
+        [
+          19.570287999999994,
+          55.01664,
+          10.440000000000001
+        ]
+      ],
+      "resolution": [
+        17,
+        15,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 3.64,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.4667779999999997,
+        1.4938228571428571,
+        0.6400000000000006
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_GUEST_L1.blend"
+    },
+    {
+      "name": "FW_PROBE_GUEST_B1",
+      "rooms": [
+        "GUEST_B1_LAUNDRY",
+        "GUEST_B1_BATH",
+        "GUEST_B1_STAIR"
+      ],
+      "bounds": [
+        [
+          -3.6028719999999996,
+          37.192512,
+          6.160000000000001
+        ],
+        [
+          2.3411199999999996,
+          41.013696,
+          8.100000000000001
+        ]
+      ],
+      "resolution": [
+        5,
+        4,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 3.853,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.485998,
+        1.2737280000000009,
+        0.6466666666666668
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_GUEST_B1.blend"
+    },
+    {
+      "name": "FW_PROBE_GUEST_L2",
+      "rooms": [
+        "GUEST_L2_BEDROOM_SOUTH",
+        "GUEST_L2_BEDROOM_MIDDLE",
+        "GUEST_L2_BEDROOM_NORTH",
+        "GUEST_L2_BATH",
+        "GUEST_L2_HALL"
+      ],
+      "bounds": [
+        [
+          -3.37256,
+          37.108160000000005,
+          10.872675
+        ],
+        [
+          3.55,
+          48.5848,
+          12.752675000000002
+        ]
+      ],
+      "resolution": [
+        6,
+        9,
+        4
+      ],
+      "bake_samples": 64,
+      "surfel_density": 8,
+      "capture_world": true,
+      "capture_indirect": true,
+      "capture_emission": true,
+      "operator_result": [
+        "FINISHED"
+      ],
+      "seconds": 4.39,
+      "status": "PASS",
+      "actual_grid_spacing_m": [
+        1.384512,
+        1.4345799999999995,
+        0.6266666666666675
+      ],
+      "intensity": 1.0,
+      "visual_acceptance": "NOT_RUN: operator completion does not prove spatial lighting validity",
+      "checkpoint": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\checkpoints\\Fallingwater_GI_FW_PROBE_GUEST_L2.blend"
+    }
+  ],
+  "bake_seconds": 57.679,
+  "render_seconds": 216.153,
+  "views": [
+    {
+      "camera": "CAM_MAIN_B_BATH_B",
+      "exposure": 0.800000011920929,
+      "seconds": 29.947,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_B_BATH_B_first.png",
+      "status": "PASS",
+      "sha256": "a4117eb33751c340e7cdd0b9c09cbc5f36b323df9a41b40eedbc73a2ca01f4cc",
+      "camera_location": [
+        -0.6392800211906433,
+        15.287489891052246,
+        -0.5278000235557556
+      ],
+      "camera_rotation": [
+        1.5707966089248657,
+        1.2749973166137352e-07,
+        2.459172248840332
+      ],
+      "lens_mm": 28.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "PARTIAL_LOCAL_FIX",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_B_BATH_B_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "a4117eb33751c340e7cdd0b9c09cbc5f36b323df9a41b40eedbc73a2ca01f4cc",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_B_BATH_B_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "d0b4909be2c6fe7d8dd4a4142362c37dd21e4d8ad1c0878ad9ac73245fa00c5c",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_B_BATH_B_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "5041de9c75283120fab176667bc269d70b7dc8f970fa9eddb22b6753f91ec3ee",
+          "viewed_contact": true,
+          "viewed_native": true
+        }
+      ],
+      "visual_finding": "Washbasin and doorway are readable; no giant dark triangle in this new pose. Close composition does not show the whole room.",
+      "viewed_native": true
+    },
+    {
+      "camera": "CAM_MAIN_L1_LIVING_B",
+      "exposure": 0.800000011920929,
+      "seconds": 24.17,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L1_LIVING_B_first.png",
+      "status": "PASS",
+      "sha256": "c76a31cf2fb84982b27baa01c0d4857d6299010d2118212d6f351ffd4bb2bdda",
+      "camera_location": [
+        5.1008100509643555,
+        9.616080284118652,
+        1.7222000360488892
+      ],
+      "camera_rotation": [
+        1.4660776853561401,
+        4.249013940693658e-08,
+        1.5053647756576538
+      ],
+      "lens_mm": 28.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "PARTIAL_LOCAL_FIX",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L1_LIVING_B_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "c76a31cf2fb84982b27baa01c0d4857d6299010d2118212d6f351ffd4bb2bdda",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L1_LIVING_B_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "4776caf661eb7ea69a8e8fdae5e9492df4c737fd4d257e2c9777bfc9ba87df4a",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L1_LIVING_B_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "f31a957e25edf0dc59dad36aaedadfedf3d268ca7d2098b5846270ef35a621c4",
+          "viewed_contact": true,
+          "viewed_native": true
+        }
+      ],
+      "visual_finding": "Former broad horizontal band removed, but stone joints weaken and surfaces look soft/flat. No final material/lighting acceptance.",
+      "viewed_native": true
+    },
+    {
+      "camera": "CAM_MAIN_L1_KITCHEN_B",
+      "exposure": 0.800000011920929,
+      "seconds": 57.047,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L1_KITCHEN_B_first.png",
+      "status": "PASS",
+      "sha256": "702d08fb3af572e9699f2dc42761eb2c24eea591da938fdfed46ec629b0118c8",
+      "camera_location": [
+        -1.1810200214385986,
+        11.500129699707031,
+        1.7222000360488892
+      ],
+      "camera_rotation": [
+        1.4660769701004028,
+        -1.1378274322737525e-08,
+        0.13097645342350006
+      ],
+      "lens_mm": 28.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "FAIL_LIGHTING",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L1_KITCHEN_B_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "702d08fb3af572e9699f2dc42761eb2c24eea591da938fdfed46ec629b0118c8",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L1_KITCHEN_B_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "744de7d1658260b32183948343b69d0b298bffdb834215a17155b52ebe441557",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L1_KITCHEN_B_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "920a96693800fbb6c03742ee3d0dbc4bef43d47573f8c411783a777caa9ea0df",
+          "viewed_contact": true,
+          "viewed_native": false
+        }
+      ],
+      "visual_finding": "Broad black area remains above back counter and across lower halves of upper cupboards; scene is dim.",
+      "viewed_native": true
+    },
+    {
+      "camera": "CAM_MAIN_L3_STUDY_B",
+      "exposure": 0.800000011920929,
+      "seconds": 11.078,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L3_STUDY_B_first.png",
+      "status": "PASS",
+      "sha256": "814d97404540d7c212e42786a33910a44524948716b9ef6204bbbcd6be0f3b9e",
+      "camera_location": [
+        -0.5522199869155884,
+        11.97404956817627,
+        6.886350154876709
+      ],
+      "camera_rotation": [
+        1.4660768508911133,
+        4.958859989301345e-08,
+        0.4986268877983093
+      ],
+      "lens_mm": 28.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "FAIL_LIGHTING",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L3_STUDY_B_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "814d97404540d7c212e42786a33910a44524948716b9ef6204bbbcd6be0f3b9e",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L3_STUDY_B_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "66ac4c53638cf4ff51753140555cbbd91ea8c6809f3098a8098998ee4398403e",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "a84a17735e37c3b7910b5fccb08b686525de9d88befde15a99d714893c293633",
+          "viewed_contact": true,
+          "viewed_native": true
+        }
+      ],
+      "visual_finding": "Large blurred dark rectangle remains on the wall; strong spatial shading discontinuity and lower bright gap require further diagnosis.",
+      "viewed_native": true
+    },
+    {
+      "camera": "CAM_GUEST_B1_LAUNDRY_B",
+      "exposure": 0.800000011920929,
+      "seconds": 12.083,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_B1_LAUNDRY_B_first.png",
+      "status": "PASS",
+      "sha256": "4df49f5932b8da511ab4c4e7e260c7cb759080444d1401fd7e7f754175613703",
+      "camera_location": [
+        -1.4840699434280396,
+        37.60253143310547,
+        7.640200138092041
+      ],
+      "camera_rotation": [
+        1.4660786390304565,
+        3.0810731743713404e-10,
+        -0.3574379086494446
+      ],
+      "lens_mm": 28.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "FAIL_LIGHTING",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_B1_LAUNDRY_B_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "4df49f5932b8da511ab4c4e7e260c7cb759080444d1401fd7e7f754175613703",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_B1_LAUNDRY_B_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "13c5cbd5b7396ae9a53e1639ff0594a66d3f9fb7479f3c0b1e0d661cc68156dd",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_B1_LAUNDRY_B_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "2352b3b80f1a24f833d3d41172d91bc433d4c3a8fea2e9513b8f8863338fe1d4",
+          "viewed_contact": true,
+          "viewed_native": false
+        }
+      ],
+      "visual_finding": "Large V-shaped shadow persists on left door. Only Bath was opted into self-filament exclusion; no global fixture claim.",
+      "viewed_native": true
+    },
+    {
+      "camera": "CAM_GUEST_L2_BEDROOM_NORTH_B",
+      "exposure": 0.800000011920929,
+      "seconds": 21.942,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_L2_BEDROOM_NORTH_B_first.png",
+      "status": "PASS",
+      "sha256": "717ae3c93a0d117711a8dcb3b6d97c3bd63c6d7b81d8900ac66fef5eeadd2041",
+      "camera_location": [
+        1.019029974937439,
+        48.23973846435547,
+        12.352879524230957
+      ],
+      "camera_rotation": [
+        1.4660769701004028,
+        1.3384949681949365e-07,
+        2.036815643310547
+      ],
+      "lens_mm": 28.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "FAIL_LIGHTING",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_L2_BEDROOM_NORTH_B_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "717ae3c93a0d117711a8dcb3b6d97c3bd63c6d7b81d8900ac66fef5eeadd2041",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_L2_BEDROOM_NORTH_B_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "85e8efd56c2a501927428680c3526477e8695efc06bd690c557e56e857d8ae40",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_L2_BEDROOM_NORTH_B_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "213c1b3095f7bcf177d864723c68496389ac9512068ffa9c2ac2642a8eaf3c49",
+          "viewed_contact": true,
+          "viewed_native": false
+        }
+      ],
+      "visual_finding": "Window and furniture readable, but large dark rectangle/halo remains on left wall and cupboard.",
+      "viewed_native": true
+    },
+    {
+      "camera": "CAM_GUEST_L2_BATH_B",
+      "exposure": 0.800000011920929,
+      "seconds": 12.993,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_L2_BATH_B_first.png",
+      "status": "PASS",
+      "sha256": "aadb24885d53ba608a5fd2b7f4f882272a89e4c58859359abd7cc837fafe5eb2",
+      "camera_location": [
+        3.0058000087738037,
+        45.614280700683594,
+        12.3618803024292
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        2.0905353892430867e-08,
+        0.25276345014572144
+      ],
+      "lens_mm": 28.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "PARTIAL_COMPOSITION",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_L2_BATH_B_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "aadb24885d53ba608a5fd2b7f4f882272a89e4c58859359abd7cc837fafe5eb2",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_L2_BATH_B_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "1e764baf69724960079917b1076937b17dbbb4aaee46a2f941c7ac1b9e52ee97",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_L2_BATH_B_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "5509f9dc35d15ef461c9122cd9c6f47b87240cab5b31b2e8479b2da834197b75",
+          "viewed_contact": true,
+          "viewed_native": false
+        }
+      ],
+      "visual_finding": "Toilet and walls readable; dark patch enters the upper-left edge, so lighting is not fully accepted.",
+      "viewed_native": true
+    },
+    {
+      "camera": "CAM_HERO",
+      "exposure": 0.800000011920929,
+      "seconds": 17.329,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_HERO_first.png",
+      "status": "PASS",
+      "sha256": "8718f72f8794f1da0ebe2ebb4b9783100b16cee369a9765d15673b283cae4a99",
+      "camera_location": [
+        -25.0,
+        -28.0,
+        2.5
+      ],
+      "camera_rotation": [
+        1.5620392560958862,
+        -2.3494820311498188e-08,
+        -0.7311878800392151
+      ],
+      "lens_mm": 42.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "PARTIAL_EXTERIOR",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_HERO_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "8718f72f8794f1da0ebe2ebb4b9783100b16cee369a9765d15673b283cae4a99",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_HERO_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "d28a550da7c09c643b4fbc2a7f3182f07318853d6417e51a9b37babdb3e1d0e4",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_HERO_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "7c17c9281926710ef7cc22a8e6f638f415332c8833af9099bfe6642b5276ea4a",
+          "viewed_contact": true,
+          "viewed_native": false
+        }
+      ],
+      "visual_finding": "Building and glazing are visible at base exposure. Forest/water/material detail remains stylized; no photorealistic acceptance.",
+      "viewed_native": true
+    },
+    {
+      "camera": "CAM_GUEST_POOL",
+      "exposure": 0.800000011920929,
+      "seconds": 29.564,
+      "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_POOL_first.png",
+      "status": "PASS",
+      "sha256": "1840fe56d07b92f10a599762d210f0d5eeb48286ed2ca9cda445042a0bccc4ef",
+      "camera_location": [
+        41.0,
+        37.0,
+        11.0
+      ],
+      "camera_rotation": [
+        1.497245192527771,
+        -8.825076491802974e-08,
+        1.5707964897155762
+      ],
+      "lens_mm": 35.0,
+      "resolution": [
+        960,
+        540
+      ],
+      "visual_acceptance": "FAIL_WINDOW_REGION",
+      "exposure_bracket": [
+        {
+          "exposure": 0.8,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_POOL_EV0p8.png",
+          "same_linear_render": true,
+          "sha256": "1840fe56d07b92f10a599762d210f0d5eeb48286ed2ca9cda445042a0bccc4ef",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 1.6,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_POOL_EV1p6.png",
+          "same_linear_render": true,
+          "sha256": "a08769d9e87f63a14a1ed7ead807ee75b4e075239c426eeb43f5ffcc15294cc1",
+          "viewed_contact": true,
+          "viewed_native": false
+        },
+        {
+          "exposure": 2.4,
+          "path": "D:\\zx\\test\\project\\qa\\eevee-iteration06\\CAM_GUEST_POOL_EV2p4.png",
+          "same_linear_render": true,
+          "sha256": "b59520b385463d25e4c8bb7beac0a67c8b5a48d4e66ce77837918958b5fa5eaa",
+          "viewed_contact": true,
+          "viewed_native": false
+        }
+      ],
+      "visual_finding": "Corrected external pose shows guest house/pool, but a blurred dark patch remains in the central window/interior region; pool reflection is very soft.",
+      "viewed_native": true
+    }
+  ],
+  "contacts": [
+    "D:\\zx\\test\\project\\qa\\eevee-iteration06-exposure-contact-1.png",
+    "D:\\zx\\test\\project\\qa\\eevee-iteration06-exposure-contact-2.png",
+    "D:\\zx\\test\\project\\qa\\eevee-iteration06-exposure-contact-3.png"
+  ],
+  "contacts_viewed": true,
+  "settings": {
+    "fast_gi": false,
+    "raytracing": true,
+    "all_visible_light_shadows": true,
+    "self_emitter_light_names": [
+      "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy"
+    ]
+  },
+  "glass_invariants": {
+    "geometry_before": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+    "geometry_after": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+    "cycles_surface_before": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+    "cycles_surface_after": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d"
+  },
+  "camera_overrides": [
+    {
+      "camera": "CAM_GUEST_POOL",
+      "before": {
+        "location": [
+          29.0,
+          29.0,
+          10.600000381469727
+        ],
+        "rotation": [
+          1.464531421661377,
+          4.0040148974185286e-09,
+          0.9272953271865845
+        ],
+        "lens": 35.0
+      },
+      "applied": {
+        "location": [
+          41,
+          37,
+          11
+        ],
+        "target": [
+          22,
+          37,
+          9.6
+        ],
+        "lens": 35,
+        "exposure": 0.8,
+        "source": "Root verified iteration06-focus-settings.json; explicitly separate from embedded room camera set"
+      }
+    }
+  ],
+  "reopen_check": {
+    "status": "PASS",
+    "source_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+    "rendered": false,
+    "saved": false,
+    "default_configure_retains_saved_fast_gi": {
+      "engine": "BLENDER_EEVEE",
+      "samples": 32,
+      "raytracing": true,
+      "ray_resolution_scale": "1",
+      "screen_trace_quality": 1.0,
+      "fast_gi": false,
+      "fast_gi_selection_source": "saved_scene_property",
+      "geometry_or_material_colors_changed": false
+    },
+    "glass_reapplied_after_configure": true,
+    "glazing_geometry_hash": "655896c42f23f6b59c3105ca8e865815051a4340016b6a95f20e8972dbbe597d",
+    "original_cycles_glass_surface_hash": "b5003cc9588bed13d22b02be8fad2b357e17ffb549ea9680dda9454819c91d1d",
+    "seven_bake_records": true,
+    "all_light_shadows_enabled": true,
+    "corrected_guest_pool_pose_retained": true,
+    "root_cycles_wrapper_restored_one_preview_shadow_link": {
+      "device": "CPU",
+      "backend": "CPU",
+      "devices": [],
+      "reason": "Explicit CPU request",
+      "preview_shadow_exclusions_restored": [
+        "FW_FURN_MAIN_B_BATH_practical_ceiling_lamp_C_03_bulb_photometric_proxy"
+      ]
+    },
+    "scope": "No frame rendered. Original Cycles glass shader retained; shadow-link restoration separately tested through root wrapper."
+  },
+  "limitations": "Nine fixed views only. No current-scene motion, FPS, film or whole-scene photorealistic PASS. Shadow linking is engine-independent and restored by the tested Cycles wrapper; only original Cycles glass shader preservation is hash-verified.",
+  "interruption": "Seven GI bakes and first two views completed; run interrupted to add parent-supplied POOL pose. Resumed from last all-seven GI checkpoint with --skip-bake for remaining seven views. No completed bake/image repeated.",
+  "volume_diagnostic": {
+    "summary": "D:\\zx\\test\\project\\qa\\eevee-iteration06-volume-summary.json",
+    "report": "D:\\zx\\test\\project\\qa\\eevee-iteration06-volume-review.md",
+    "new_render_count": 1,
+    "result": "FAIL_RECTANGLE_REMAINS",
+    "preview_saved": false,
+    "hypotheses": "Coverage/world fallback and coarse scale-dependent surfel capture; not proven corrupted cached normals.",
+    "metadata_correction": "Old actual_grid_spacing_m uses resolution-1; actual nominal sample interval uses resolution+1. Existing bake geometry unaffected."
+  },
+  "coverage_diagnostic": {
+    "status": "REVIEWED",
+    "visual_acceptance": "FAIL_LATERAL_BOUNDARY_AND_EXCESS_DARKNESS",
+    "source_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+    "bake_seconds": 41.59272730000157,
+    "render_seconds": 22.361607099999674,
+    "candidate_blend": "D:\\zx\\test\\project\\qa\\eevee-iteration06-coverage\\Fallingwater_study_coverage_candidate.blend",
+    "candidate_sha256": "a2664c378383385bcf5ac9154b579c53793b31b5051cb39e1b6eeb49035f9e1c",
+    "png": "D:\\zx\\test\\project\\qa\\eevee-iteration06-coverage\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+    "png_sha256": "96f73cbd0cc123f39c1e4390a29561931c739c7e1deb6a4e9d34a205aa55ab99",
+    "report": "D:\\zx\\test\\project\\qa\\eevee-iteration06-coverage-review.md"
+  },
+  "spacing_metadata_correction": {
+    "status": "PASS",
+    "report": "D:\\zx\\test\\project\\qa\\eevee-iteration06-spacing-check.json",
+    "helper_sha256": "f68abbfde2ff6164618486a0df078bb144311e78482bfd794d15568d3b6803cd",
+    "rendering_defaults_unchanged": true
+  },
+  "density_diagnostic": {
+    "status": "REVIEWED",
+    "visual_acceptance": "FAIL_RECTANGLE_AND_WORLD_BRIGHT_REGIONS_REMAIN",
+    "source_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+    "bake_seconds": 34.22885859999951,
+    "render_seconds": 22.415209300001152,
+    "candidate_blend": "D:\\zx\\test\\project\\qa\\eevee-iteration06-density\\Fallingwater_study_density32_candidate.blend",
+    "candidate_sha256": "ee743bddd6febb3fa7a91a2d25c2c6768e504d8860ad91c080fc876fb33c94e1",
+    "png": "D:\\zx\\test\\project\\qa\\eevee-iteration06-density\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+    "png_sha256": "05ae3c534e337079341d1c382c5b3e276e09f3649a6bb9fb27c3a9d4cba4455b",
+    "report": "D:\\zx\\test\\project\\qa\\eevee-iteration06-density-review.md"
+  },
+  "practical_coverage_diagnostic": {
+    "status": "REVIEWED",
+    "visual_acceptance": "FAIL_INTERNAL_PATCHES_AND_EXCESS_DARKNESS",
+    "partial_result": "Large unoccluded World overbrightness reduced; overall shading remains unaccepted.",
+    "source_sha256": "e317241899808995f049e8d3343eac96c591cbecfddaa980949d6babb51ccce6",
+    "bake_seconds": 31.78853810000146,
+    "render_seconds": 22.164467200000217,
+    "candidate_blend": "D:\\zx\\test\\project\\qa\\eevee-iteration06-practical\\Fallingwater_main_l3_coverage_candidate.blend",
+    "candidate_sha256": "cee741ac1c25c84f487c4967158a4c29bb3552871102338442f9b9fc85488ebf",
+    "png": "D:\\zx\\test\\project\\qa\\eevee-iteration06-practical\\CAM_MAIN_L3_STUDY_B_EV2p4.png",
+    "png_sha256": "92718e1e6a1c6c3763b49e30dccc81c11b5b6a2eba8ab5aac49446697dc23d9d",
+    "report": "D:\\zx\\test\\project\\qa\\eevee-iteration06-practical-review.md"
+  },
+  "stone_shading_normal_diagnostic": {
+    "status": "REVIEWED",
+    "visual_acceptance": "FAIL_LARGE_DARK_PATTERN_UNCHANGED",
+    "source_sha256": "cee741ac1c25c84f487c4967158a4c29bb3552871102338442f9b9fc85488ebf",
+    "render_seconds": 63.04093220000141,
+    "png": "D:\\zx\\test\\project\\qa\\eevee-iteration06-stone-normal-zero.png",
+    "png_sha256": "9fe1073e75e9157cd13b7e1bd85bd6aa1f8aaddf8acef4b48d5809234374272d",
+    "report": "D:\\zx\\test\\project\\qa\\eevee-iteration06-stone-normal-review.md",
+    "gi_rebaked": false,
+    "production_saved": false
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "candidate_sha256": "7286427d1f47ae9219204ed5dd54a970387683c8b384d1b4259244a7b991d852",
+  "room_overrides": {
+    "GUEST_B1_STAIR": {
+      "center": [
+        1.7942919999999993,
+        40.15776,
+        7.590000000000001
+      ],
+      "entry": [
+        1.24504,
+        40.15776,
+        6.08
+      ],
+      "polygon": [
+        [
+          1.24504,
+          37.99624
+        ],
+        [
+          2.19112,
+          37.99624
+        ],
+        [
+          2.19112,
+          39.94688
+        ],
+        [
+          2.29624,
+          39.94688
+        ],
+        [
+          2.29624,
+          40.47408
+        ],
+        [
+          1.24504,
+          40.47408
+        ],
+        [
+          1.24504,
+          40.15776
+        ],
+        [
+          1.24504,
+          39.94688
+        ]
+      ],
+      "navigation_foot_anchors": [
+        [
+          1.7942919999999993,
+          40.23684,
+          6.040000000000001
+        ],
+        [
+          1.7942919999999993,
+          40.15776,
+          6.040000000000001
+        ]
+      ],
+      "surface_identity": "Nonplanar lower left flight, B1 northern door and south intermediate platform"
+    },
+    "GUEST_L1_STAIR_HALL": {
+      "center": [
+        1.9151799999999999,
+        40.381820000000005,
+        9.950000000000001
+      ],
+      "entry": [
+        1.9151799999999999,
+        41.054,
+        8.44
+      ],
+      "navigation_foot_anchors": [
+        [
+          1.9151799999999999,
+          40.381820000000005,
+          8.4
+        ],
+        [
+          1.9151799999999999,
+          40.84312,
+          8.4
+        ],
+        [
+          1.9151799999999999,
+          40.15776,
+          8.4
+        ]
+      ],
+      "surface_identity": "Northern L1 platform plus explicit descending/ascending flights and low south arrival; no uniform south0 floor"
+    },
+    "GUEST_L2_HALL": {
+      "entry": [
+        2.945356000000001,
+        39.208800000000004,
+        10.792675000000001
+      ],
+      "polygon": [
+        [
+          1.4027199999999997,
+          48.592960000000005
+        ],
+        [
+          3.45256,
+          48.592960000000005
+        ],
+        [
+          3.45256,
+          37.226528
+        ],
+        [
+          1.4027199999999997,
+          37.226528
+        ]
+      ],
+      "navigation_foot_anchors": [
+        [
+          2.945356000000001,
+          40.10504,
+          10.752675
+        ],
+        [
+          2.945356000000001,
+          40.89584,
+          10.752675
+        ]
+      ],
+      "surface_identity": "North L2 floor and actual right upper approach; south return is+1.4478, not L2"
+    },
+    "GUEST_L1_LOUNGE": {
+      "entry": [
+        10.81096,
+        36.67824,
+        8.44
+      ],
+      "entry_identity": "Actual southeast glazed door; west corner is fixed glazing"
+    },
+    "GUEST_L1_TERRACE": {
+      "entry": [
+        10.81096,
+        35.04392,
+        8.44
+      ],
+      "surface_identity": "East terrace0 plus source two stepped west paving groups; no flat west0 shortcut"
+    }
+  },
+  "physical_planes_not_created_by_room_metadata": true,
+  "candidate_only": true
+}

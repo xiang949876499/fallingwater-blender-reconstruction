@@ -1,0 +1,21 @@
+{
+  "status": "SLOW_FIRST_FRAME_SECOND_FRAME_INTERRUPTED_FOR_BRIDGE_END_FIX",
+  "solver": "EXACT",
+  "use_self": true,
+  "cutters": "two original complete overlapping masonry meshes",
+  "source_sha256": "15260dcfd92783a4695ce7fc0de83072531e5c09564bcdb26dbf2f2ac6717588",
+  "completed_frames": [
+    {
+      "frame": 1,
+      "seconds": 102.1974391,
+      "vertices": 216119,
+      "faces": 215970,
+      "triangles": 452838
+    }
+  ],
+  "incomplete_frames": [
+    24
+  ],
+  "candidate_saved": false,
+  "reason": "Full 409192-triangle river self-intersection resolution is too costly. Preserve timing; next test unions static actual cutters once and avoids repeated global river self-overlap resolution."
+}

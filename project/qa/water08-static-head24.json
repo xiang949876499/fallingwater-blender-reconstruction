@@ -1,0 +1,788 @@
+{
+  "status": "STATIC_CONTROL_FAIL_KEEP_EVIDENCE",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_hybrid07_impact36.blend",
+  "source_sha256": "7093200e28e1c135e559ccc8605fad04e14de7cf92399baef3151f5523f7537e",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_water08_static_head24.blend",
+  "evidence": "C closed static reservoir control on exact frozen terrain; not an open flowing river or visual acceptance",
+  "production_install": false,
+  "frame_range": [
+    1,
+    24
+  ],
+  "fps": 24,
+  "threads": 8,
+  "resolution": 96,
+  "cell_m": 0.025,
+  "grid_estimate": [
+    96,
+    80,
+    41
+  ],
+  "domain_aabb_m": [
+    [
+      -0.4026584744,
+      1.9973415256
+    ],
+    [
+      -3.211417675,
+      -1.211417675
+    ],
+    [
+      -6.56,
+      -5.55
+    ]
+  ],
+  "initial_head_z_m": -5.771274,
+  "initial_topology": {
+    "vertices": 127,
+    "faces": 112,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 3.2648255419114713
+  },
+  "initial_connected_components": 1,
+  "collision_world_hashes": {
+    "HYBRID07_Exact_Local_Terrain_Top": "173e3b6ac726623e067549229b45f8ee39b3fd4767dff06e44618a8d550de3d8",
+    "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone": "30d6b6cc01a24006d04dbb1da6ddd46267862b1a72122d908fdc6a11e87b7fc6"
+  },
+  "collision_source_core_hash": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+  "exact_clipped_terrain_triangles": 39,
+  "exact_clipped_terrain_z_range_m": [
+    -6.5,
+    -6.235260963439941
+  ],
+  "minimum_floor_clearance_m": 0.05999999999999961,
+  "exposed_pool_cell_center_count": 7558,
+  "unfilled_exposed_pool_cells": [],
+  "source_above_head_samples": [],
+  "exposed_pool_depth_m": {
+    "count": 7558,
+    "min": 0.46630057733154295,
+    "max": 0.7287269536743164,
+    "mean": 0.67967012879106
+  },
+  "exposed_pool_area_proxy_m2": 4.723750000000001,
+  "initialization": "Entire domain box below original head, exact Boolean subtraction of all unchanged colliders; one connected closed source; no river-display-mask clipping",
+  "booleans": [
+    {
+      "collider": "HYBRID07_Exact_Local_Terrain_Top",
+      "before": {
+        "vertices": 8,
+        "faces": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 3.7858848168804107
+      },
+      "after": {
+        "vertices": 48,
+        "faces": 44,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 3.2661550808716955
+      }
+    },
+    {
+      "collider": "HYBRID07_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+      "before": {
+        "vertices": 48,
+        "faces": 44,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 3.2661550808716955
+      },
+      "after": {
+        "vertices": 127,
+        "faces": 112,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 3.2648255419114713
+      }
+    }
+  ],
+  "flow_initial_velocity_m_s": [
+    0,
+    0,
+    0
+  ],
+  "sources_behavior": [
+    "GEOMETRY"
+  ],
+  "inflows": 0,
+  "Qin_m3_s": 0,
+  "Qout_m3_s": 0,
+  "boundaries": "All sides/bottom closed, top open; artificial control only",
+  "secondary_particles": true,
+  "budget_seconds_estimate": [
+    120,
+    300
+  ],
+  "hard_stop_seconds": 360,
+  "budget_cache_GB_estimate": [
+    0.08,
+    0.3
+  ],
+  "acceptance": {
+    "frame5_24_median_drift_max_m": 0.025,
+    "interior95percent_error_max_m": 0.05,
+    "relative_mesh_volume_drift_max": 0.03
+  },
+  "no_automatic_extension": true,
+  "prepared_scene_sha256": "08ee83ebf396e92ba9f693a8a66fd59dca4171b588c3ad1c64aee942d5970a7b",
+  "bake_seconds": 89.16302339999675,
+  "bake_result": [
+    "FINISHED"
+  ],
+  "cache_stats": {
+    "file_count": 96,
+    "bytes": 355096749,
+    "mesh_files": [
+      "mesh\\fluid_mesh_0001.bobj.gz",
+      "mesh\\fluid_mesh_0002.bobj.gz",
+      "mesh\\fluid_mesh_0003.bobj.gz",
+      "mesh\\fluid_mesh_0004.bobj.gz",
+      "mesh\\fluid_mesh_0005.bobj.gz",
+      "mesh\\fluid_mesh_0006.bobj.gz",
+      "mesh\\fluid_mesh_0007.bobj.gz",
+      "mesh\\fluid_mesh_0008.bobj.gz",
+      "mesh\\fluid_mesh_0009.bobj.gz",
+      "mesh\\fluid_mesh_0010.bobj.gz",
+      "mesh\\fluid_mesh_0011.bobj.gz",
+      "mesh\\fluid_mesh_0012.bobj.gz",
+      "mesh\\fluid_mesh_0013.bobj.gz",
+      "mesh\\fluid_mesh_0014.bobj.gz",
+      "mesh\\fluid_mesh_0015.bobj.gz",
+      "mesh\\fluid_mesh_0016.bobj.gz",
+      "mesh\\fluid_mesh_0017.bobj.gz",
+      "mesh\\fluid_mesh_0018.bobj.gz",
+      "mesh\\fluid_mesh_0019.bobj.gz",
+      "mesh\\fluid_mesh_0020.bobj.gz",
+      "mesh\\fluid_mesh_0021.bobj.gz",
+      "mesh\\fluid_mesh_0022.bobj.gz",
+      "mesh\\fluid_mesh_0023.bobj.gz",
+      "mesh\\fluid_mesh_0024.bobj.gz"
+    ]
+  },
+  "baked_scene_sha256": "c108949a959351a2f0219a1f457b235b34903d9efb50dade5ab533a525d7ef2e",
+  "frames": [
+    {
+      "frame": 1,
+      "vertices": 25008,
+      "triangles": 50012,
+      "mesh_volume_m3": 3.238403125738182,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.760484218597412,
+      "median_error_from_initial_head_m": 0.010789781402587906,
+      "p95_abs_error_m": 0.011930042098999038,
+      "raw_error_m": {
+        "count": 3575,
+        "min": 0.007521062683105484,
+        "max": 0.012789636444091812,
+        "mean": 0.010753984603561736
+      }
+    },
+    {
+      "frame": 2,
+      "vertices": 24772,
+      "triangles": 49540,
+      "mesh_volume_m3": 3.180248668130917,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.77415657043457,
+      "median_error_from_initial_head_m": -0.0028825704345702974,
+      "p95_abs_error_m": 0.004787534881591782,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.006887525726318344,
+        "max": 0.00041618902587892137,
+        "mean": -0.0029627444338498265
+      }
+    },
+    {
+      "frame": 3,
+      "vertices": 25016,
+      "triangles": 50028,
+      "mesh_volume_m3": 3.103449308468454,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.789198398590088,
+      "median_error_from_initial_head_m": -0.017924398590087876,
+      "p95_abs_error_m": 0.024774259735107405,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.027205080200195297,
+        "max": -0.013511270690917954,
+        "mean": -0.018909862139295016
+      }
+    },
+    {
+      "frame": 4,
+      "vertices": 24682,
+      "triangles": 49360,
+      "mesh_volume_m3": 3.0243397488619586,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.805947303771973,
+      "median_error_from_initial_head_m": -0.03467330377197264,
+      "p95_abs_error_m": 0.04689225595092771,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.04969367425537108,
+        "max": -0.02661666314697264,
+        "mean": -0.03580265129975004
+      }
+    },
+    {
+      "frame": 5,
+      "vertices": 24570,
+      "triangles": 49136,
+      "mesh_volume_m3": 2.9529007416293656,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.820942401885986,
+      "median_error_from_initial_head_m": -0.04966840188598631,
+      "p95_abs_error_m": 0.06707853715515134,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.06976088922119139,
+        "max": -0.03825625817871092,
+        "mean": -0.05110373161668042
+      }
+    },
+    {
+      "frame": 6,
+      "vertices": 24304,
+      "triangles": 48604,
+      "mesh_volume_m3": 2.8752059445628113,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.836911201477051,
+      "median_error_from_initial_head_m": -0.06563720147705077,
+      "p95_abs_error_m": 0.08878149430847167,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.09159573953247069,
+        "max": -0.04997739236450194,
+        "mean": -0.06753548740285592
+      }
+    },
+    {
+      "frame": 7,
+      "vertices": 24330,
+      "triangles": 48656,
+      "mesh_volume_m3": 2.8020873005718574,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.8526716232299805,
+      "median_error_from_initial_head_m": -0.08139762322998045,
+      "p95_abs_error_m": 0.1096898977050781,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.11312302987670897,
+        "max": -0.060908407379150376,
+        "mean": -0.08290011083941691
+      }
+    },
+    {
+      "frame": 8,
+      "vertices": 23958,
+      "triangles": 47912,
+      "mesh_volume_m3": 2.7270853546508,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.867987632751465,
+      "median_error_from_initial_head_m": -0.09671363275146483,
+      "p95_abs_error_m": 0.13059949319458006,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.13516673486328123,
+        "max": -0.0719600621948242,
+        "mean": -0.09898452883612358
+      }
+    },
+    {
+      "frame": 9,
+      "vertices": 23960,
+      "triangles": 47916,
+      "mesh_volume_m3": 2.65408874062988,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.883769512176514,
+      "median_error_from_initial_head_m": -0.11249551217651366,
+      "p95_abs_error_m": 0.15092911164855954,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.1565252248535156,
+        "max": -0.0836792890319824,
+        "mean": -0.11445350585062519
+      }
+    },
+    {
+      "frame": 10,
+      "vertices": 23780,
+      "triangles": 47556,
+      "mesh_volume_m3": 2.5806053945964464,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.899588584899902,
+      "median_error_from_initial_head_m": -0.12831458489990233,
+      "p95_abs_error_m": 0.17062963883972165,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.17742595117187498,
+        "max": -0.09434613626098631,
+        "mean": -0.13011485498046874
+      }
+    },
+    {
+      "frame": 11,
+      "vertices": 23576,
+      "triangles": 47148,
+      "mesh_volume_m3": 2.5089113077532095,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.91401481628418,
+      "median_error_from_initial_head_m": -0.14274081628417967,
+      "p95_abs_error_m": 0.18990001123046873,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.19726762216186522,
+        "max": -0.10675248544311522,
+        "mean": -0.14531881150444403
+      }
+    },
+    {
+      "frame": 12,
+      "vertices": 23484,
+      "triangles": 46964,
+      "mesh_volume_m3": 2.4397022270521007,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.929696559906006,
+      "median_error_from_initial_head_m": -0.15842255990600584,
+      "p95_abs_error_m": 0.2081819001922607,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.2146731321105957,
+        "max": -0.11839398782348631,
+        "mean": -0.16015313346681392
+      }
+    },
+    {
+      "frame": 13,
+      "vertices": 23222,
+      "triangles": 46440,
+      "mesh_volume_m3": 2.3737030433783786,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.942997932434082,
+      "median_error_from_initial_head_m": -0.17172393243408202,
+      "p95_abs_error_m": 0.22373089234924312,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.23114690225219725,
+        "max": -0.13142547052001952,
+        "mean": -0.17425112468991577
+      }
+    },
+    {
+      "frame": 14,
+      "vertices": 23080,
+      "triangles": 46156,
+      "mesh_volume_m3": 2.304660316231466,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.958061695098877,
+      "median_error_from_initial_head_m": -0.18678769509887694,
+      "p95_abs_error_m": 0.24029187600708005,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.2481051389465332,
+        "max": -0.14341983239746092,
+        "mean": -0.1890599724774127
+      }
+    },
+    {
+      "frame": 15,
+      "vertices": 22866,
+      "triangles": 45728,
+      "mesh_volume_m3": 2.241646359579994,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.971536636352539,
+      "median_error_from_initial_head_m": -0.20026263635253905,
+      "p95_abs_error_m": 0.2544710580596924,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.26169738214111327,
+        "max": -0.15640792291259764,
+        "mean": -0.20252420110080957
+      }
+    },
+    {
+      "frame": 16,
+      "vertices": 22676,
+      "triangles": 45348,
+      "mesh_volume_m3": 2.178030633863699,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.984687328338623,
+      "median_error_from_initial_head_m": -0.21341332833862303,
+      "p95_abs_error_m": 0.26689614694213865,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.27633103768920897,
+        "max": -0.16933450143432616,
+        "mean": -0.21618464588063913
+      }
+    },
+    {
+      "frame": 17,
+      "vertices": 22396,
+      "triangles": 44788,
+      "mesh_volume_m3": 2.1116322606164055,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -5.998856067657471,
+      "median_error_from_initial_head_m": -0.2275820676574707,
+      "p95_abs_error_m": 0.28246044557189937,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.2911945287475586,
+        "max": -0.1840344373474121,
+        "mean": -0.23034643378069683
+      }
+    },
+    {
+      "frame": 18,
+      "vertices": 22272,
+      "triangles": 44540,
+      "mesh_volume_m3": 2.0505632165972645,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -6.011504173278809,
+      "median_error_from_initial_head_m": -0.24023017327880858,
+      "p95_abs_error_m": 0.29318990151977536,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.3049150411376953,
+        "max": -0.1973114911804199,
+        "mean": -0.24342867329182657
+      }
+    },
+    {
+      "frame": 19,
+      "vertices": 21998,
+      "triangles": 43992,
+      "mesh_volume_m3": 1.990519550262632,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -6.0248212814331055,
+      "median_error_from_initial_head_m": -0.25354728143310545,
+      "p95_abs_error_m": 0.305545372177124,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.31675109307861327,
+        "max": -0.21195516030883788,
+        "mean": -0.2561970999335442
+      }
+    },
+    {
+      "frame": 20,
+      "vertices": 21810,
+      "triangles": 43616,
+      "mesh_volume_m3": 1.9288386541300973,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -6.037593364715576,
+      "median_error_from_initial_head_m": -0.26631936471557616,
+      "p95_abs_error_m": 0.31611895005798335,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.3296323720703125,
+        "max": -0.2273250524291992,
+        "mean": -0.2694223480435885
+      }
+    },
+    {
+      "frame": 21,
+      "vertices": 21626,
+      "triangles": 43248,
+      "mesh_volume_m3": 1.8653745589090498,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -6.052077770233154,
+      "median_error_from_initial_head_m": -0.2808037702331543,
+      "p95_abs_error_m": 0.3287247125396728,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.3413515989074707,
+        "max": -0.24182662408447264,
+        "mean": -0.28282472695282623
+      }
+    },
+    {
+      "frame": 22,
+      "vertices": 21474,
+      "triangles": 42944,
+      "mesh_volume_m3": 1.8044974252744048,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -6.064875602722168,
+      "median_error_from_initial_head_m": -0.29360160272216795,
+      "p95_abs_error_m": 0.3386200372467041,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.3540187780151367,
+        "max": -0.2571388189086914,
+        "mean": -0.2958044647481425
+      }
+    },
+    {
+      "frame": 23,
+      "vertices": 21242,
+      "triangles": 42480,
+      "mesh_volume_m3": 1.7442715840836192,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -6.078741073608398,
+      "median_error_from_initial_head_m": -0.3074670736083984,
+      "p95_abs_error_m": 0.3501924936065672,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.36511954705810545,
+        "max": -0.2717128698120117,
+        "mean": -0.30872187772609466
+      }
+    },
+    {
+      "frame": 24,
+      "vertices": 21230,
+      "triangles": 42456,
+      "mesh_volume_m3": 1.686803882466993,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "expected_exposed_height_samples": 3575,
+      "valid_upward_height_samples": 3575,
+      "missing_or_steep_samples": 0,
+      "median_head_z_m": -6.091075897216797,
+      "median_error_from_initial_head_m": -0.31980189721679686,
+      "p95_abs_error_m": 0.3596565667877196,
+      "raw_error_m": {
+        "count": 3575,
+        "min": -0.3756404821166992,
+        "max": -0.28659543435668944,
+        "mean": -0.3210542452563306
+      }
+    }
+  ],
+  "check_summary": {
+    "initial_geometric_volume_m3": 3.2648255419114713,
+    "frame1_mesh_volume_m3": 3.238403125738182,
+    "frame1_relative_initial_volume_difference": -0.008093056071173619,
+    "max_frame5_24_median_error_m": 0.31980189721679686,
+    "max_frame5_24_p95_error_m": 0.3596565667877196,
+    "max_all_frame_relative_volume_drift": 0.47912479794111723,
+    "frame1_volume_comparison_not_exact_solver_mass": "Reconstructed mesh volume differs from Boolean geometry and solver level-set mass; report difference rather than suppress it"
+  },
+  "checked_scene_sha256": "c108949a959351a2f0219a1f457b235b34903d9efb50dade5ab533a525d7ef2e",
+  "source_sha256_after": "7093200e28e1c135e559ccc8605fad04e14de7cf92399baef3151f5523f7537e",
+  "mesh_cache_sha256": [
+    {
+      "file": "fluid_mesh_0001.bobj.gz",
+      "sha256": "7da0d8f7f8e3d707a7ae8d05ccade76d3b72501ef76d443e569b0ac23ab771f1",
+      "bytes": 532003
+    },
+    {
+      "file": "fluid_mesh_0002.bobj.gz",
+      "sha256": "39617daed47afe0ecc6b27ae9488ab79bc468a136f7a93489b2f768806a4386c",
+      "bytes": 532522
+    },
+    {
+      "file": "fluid_mesh_0003.bobj.gz",
+      "sha256": "6a4efe95ca211d81976d24dd5ed61de32593fd02f401e4cf537675c0941d6f97",
+      "bytes": 549796
+    },
+    {
+      "file": "fluid_mesh_0004.bobj.gz",
+      "sha256": "05c576bf3e5e01c25af4b2ff388b188156fc428bf2266bed9d9cfea156f0c444",
+      "bytes": 543099
+    },
+    {
+      "file": "fluid_mesh_0005.bobj.gz",
+      "sha256": "1a8ca3967656c9d50a412115700065446b30a90d7f4de68e3c44852507f723c5",
+      "bytes": 545531
+    },
+    {
+      "file": "fluid_mesh_0006.bobj.gz",
+      "sha256": "ea35ad733bf9c47e7856674bec08db915c7522998bf3f2ad615923cbaf0f2757",
+      "bytes": 542178
+    },
+    {
+      "file": "fluid_mesh_0007.bobj.gz",
+      "sha256": "56ed4d5f0b35f7c672e5631a4f6b429d886bddccea515623bff3ef56845a4eb2",
+      "bytes": 546751
+    },
+    {
+      "file": "fluid_mesh_0008.bobj.gz",
+      "sha256": "4d37d7f058ef6b5c5a12e2ea3746e2fb2a61e8e9c91c347e2ebec1f8e93a76b8",
+      "bytes": 540485
+    },
+    {
+      "file": "fluid_mesh_0009.bobj.gz",
+      "sha256": "319b6a6168c81b836fd7769c62e032fb15489cd107bbd5a26e110e3bef1471b2",
+      "bytes": 544269
+    },
+    {
+      "file": "fluid_mesh_0010.bobj.gz",
+      "sha256": "58da6ea79d5720868b1a796e09f0de73a7f3744aedbc4686951c98e1216ec6df",
+      "bytes": 543060
+    },
+    {
+      "file": "fluid_mesh_0011.bobj.gz",
+      "sha256": "905783a1db4e1dc87f2b9cb299475b62f9521572b193ae2e83d4f062b6c29bb1",
+      "bytes": 540614
+    },
+    {
+      "file": "fluid_mesh_0012.bobj.gz",
+      "sha256": "137348853a282a0079f08a04230eeabc34b6486cbbbd3bc04f5c6f3125ec22c9",
+      "bytes": 540478
+    },
+    {
+      "file": "fluid_mesh_0013.bobj.gz",
+      "sha256": "33e6d09f6397bfb134183b171632a052f921bb3cf3cee1e1b785acbb9126c550",
+      "bytes": 535924
+    },
+    {
+      "file": "fluid_mesh_0014.bobj.gz",
+      "sha256": "d6ddab7010de19f43534447cd504a4aa9379b344dcd7db5b40b40486106a70a2",
+      "bytes": 535247
+    },
+    {
+      "file": "fluid_mesh_0015.bobj.gz",
+      "sha256": "9592b8e3e9f07a298ef4accf64b9ed1a7d557dd2eee6cea3b44c961a4ba3da25",
+      "bytes": 531921
+    },
+    {
+      "file": "fluid_mesh_0016.bobj.gz",
+      "sha256": "2d88a79a6d36ff71fa1131e6f1c473f6b2290efcebf8620754b14b5b32ca9812",
+      "bytes": 528342
+    },
+    {
+      "file": "fluid_mesh_0017.bobj.gz",
+      "sha256": "bee3b81354abe1a56473fb10abaab42e2bf860e9021920a23752de97d3947cc1",
+      "bytes": 522201
+    },
+    {
+      "file": "fluid_mesh_0018.bobj.gz",
+      "sha256": "f2de79e246ee0fe6daa3e5d435c6e5d6d7a0d04ca3b32881159ca5d27fc54972",
+      "bytes": 520617
+    },
+    {
+      "file": "fluid_mesh_0019.bobj.gz",
+      "sha256": "59936d1499eeb5f09c7e708edfbee13c0141b6ac5ed823f9542b18c0a954e187",
+      "bytes": 514174
+    },
+    {
+      "file": "fluid_mesh_0020.bobj.gz",
+      "sha256": "b38c5ea619170f8bdd5215fba05c7de5bca318eb7e53ee8545d1d2df4eccab00",
+      "bytes": 510463
+    },
+    {
+      "file": "fluid_mesh_0021.bobj.gz",
+      "sha256": "de9c06f953a9322c9c6462ffd6de35dedd3544376275091e057b226e26a8c2a8",
+      "bytes": 507215
+    },
+    {
+      "file": "fluid_mesh_0022.bobj.gz",
+      "sha256": "d807fa5a719af0243bb7e5d0243583f2ea502e9e62310169bad88f4a0376c6b5",
+      "bytes": 505785
+    },
+    {
+      "file": "fluid_mesh_0023.bobj.gz",
+      "sha256": "fbefd7ccd56c220484734e1f524c260a9692d5bd5ccb08481f8c14ff4315b01e",
+      "bytes": 501861
+    },
+    {
+      "file": "fluid_mesh_0024.bobj.gz",
+      "sha256": "bb2065d8c1121565293bea4b93d9cbd41a35a88d86b711e717f5c400f420d578",
+      "bytes": 503179
+    }
+  ],
+  "secondary_particles_intended": false,
+  "secondary_configuration_status": "FAIL_NON_IDEMPOTENT_RNA_UPDATE_ENABLED_SECONDARY_BEFORE_SAVE",
+  "secondary_settings_origin": "qa/water08-static-head24-settings-origin.json",
+  "failure_audit": "qa/water08-static-head24-failure-audit.json",
+  "review": "qa/water08-static-head24-review.md",
+  "source_metadata_warning": "Preparation log records intended secondary=False; actual prepared and baked files both contain True. The original failed files/logs are preserved.",
+  "next_bake_authorized": false
+}

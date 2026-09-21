@@ -1,0 +1,279 @@
+{
+  "status": "DESIGN_WITH_ROOT_EXECUTED_SOURCE_PAIR_RAW_REVIEW_COMPLETE_FLOW_FAIL",
+  "date": "2026-09-21",
+  "scope": "Two independent bounded diagnostic families; root chooses authorization. Neither family proves full-waterfall continuity or final visual quality.",
+  "evidence": {
+    "raw_audit": "qa/water10-native-review.md",
+    "raw_summary": "qa/water10-native-summary.json",
+    "full_scene": "scene/Fallingwater_iteration09.blend",
+    "full_scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+    "core_raw_world_sha256": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+    "water10_prepared_sha256": "00f0ae9a85655f0f64bc68cbe539fd04fc89024af920c610ee4a021d5adcdbdc",
+    "water10_baked_sha256": "18008f85c7f6a2c9294d1d87ca526fa78db8fd547474fcb174dced2dbcba16ac",
+    "root_viewed_frame24": {
+      "OVERVIEW": "Straight numerical-domain edges and missing upstream water remain visible.",
+      "FOOT": "Short isolated dark falling column, not a complete waterfall.",
+      "reviewer": "root; this design does not claim a new author image review"
+    },
+    "native_source_window_Q_median_m3_s": 0.621348976408266,
+    "author_source_Q_m3_s": 0.2994137004643072,
+    "mesh_f1_vs_author_initial_relative_error": 0.19877086247475106,
+    "f1_is_already_advanced_about_seconds": 0.04166667,
+    "pure_initialization_cause_proven": false,
+    "Xplus_outflow_proxy_integral_f1_48_m3": 2.7902746980040574,
+    "old_water09_70percent_FAIL_retained": true
+  },
+  "recommended_order": [
+    "S: source-only paired cell-scale test first; it is cheaper and distinguishes native flux from a mesh-only silhouette problem",
+    "P: separate same-pool closed/open pair if root authorizes; do not gate its scientific interpretation on S passing",
+    "No dynamic natural-pool rebake until these results and root visual evidence are considered"
+  ],
+  "common_physics": {
+    "blender": "5.2.1 LTS local installation; separate background processes",
+    "simulation_method": "FLIP",
+    "flip_ratio": 0.97,
+    "use_fractions": false,
+    "delete_in_obstacle": false,
+    "use_adaptive_timesteps": true,
+    "timesteps_min": 1,
+    "timesteps_max": 8,
+    "cfl_condition": 2,
+    "gravity_m_s2": [
+      0,
+      0,
+      -9.81
+    ],
+    "time_scale": 1,
+    "fps": 24,
+    "frame_range": [
+      1,
+      12
+    ],
+    "nominal_duration_s": 0.5,
+    "frame1_to_12_integral_duration_s": 0.4583333333333333,
+    "threads": 8,
+    "secondary": "All off, set only when current differs; reopen actual flags and particle systems",
+    "resumable": true,
+    "mesh_scale": 1,
+    "mesh_particle_radius": 1.25,
+    "other_RNA": "Copy every saved water10 physical/flow value unless listed as an explicit family intervention; identical RNG state where exposed",
+    "no_time_scale_trick": true,
+    "no_detrend_or_lowpass": true
+  },
+  "source_pair_S": {
+    "question": "Does a factor-two wet cross-section/flux persist in a pool-free local domain, and is it reduced when the same source spans twice as many cells?",
+    "actual_source_geometry": "Exact 360 vertices / 716 triangles from water10-domain-source-probe.json; volume0.0145876493m3, no source narrowing or Q reset",
+    "source_width_thickness_m": [
+      0.24,
+      0.23
+    ],
+    "source_normal_area_m2": 0.04317591235110372,
+    "source_velocity_world_m_s": [
+      -1.5031434297561646,
+      -1.0052733421325684,
+      -6.694818496704102
+    ],
+    "source_flow": "INFLOW; surface_distance0, velocity_factor/normal/random0, subframes1, original use_initial_velocityTrue",
+    "initial_pool": "Absent in both arms; same empty-air initial condition",
+    "nominal_domain_aabb_m": [
+      [
+        -0.25,
+        1.55
+      ],
+      [
+        -3.0625,
+        -1.2625
+      ],
+      [
+        -6.1375,
+        -4.7125
+      ]
+    ],
+    "domain_alignment": "Derive lower corner from actual water10 solver origin plus [210,186,21] coarse cells; do not rely on rounded nominal coordinates. Same world box and lattice phase in both arms, half-cell subdivision for fine arm.",
+    "all_six_numerical_boundaries": "OPEN, explicit domain box, empty surrounding air; not a production outflow model",
+    "required_real_collision": "Extract frozen evaluated source-scene triangles within box+0.30m collar, retain any actual intersections; exact closed copies. No rock is removed to make the jet pass. Verify advected jet/probe neighborhood is collision-free before running; otherwise stop to redesign.",
+    "bake_preflight_required": [
+      "Source hash and world transform identical to water10; manifold and no overlaps with retained frozen rocks",
+      "Actual coarse/fine domain grids, origin and cell sizes match planned phase; fail instead of silently moving source",
+      "Probe neighborhood is outside deletion layers with at least6 coarse cells below lowest plane to geometric exit",
+      "Saved/reopened domain, flow, secondary, timebase and cache values equal intended configuration",
+      "Source minimum width/thickness >=3 cells coarse and >=6 cells fine; no claim this alone guarantees flux accuracy"
+    ],
+    "arms": [
+      {
+        "id": "S24",
+        "resolution": 24,
+        "expected_grid": [
+          24,
+          24,
+          19
+        ],
+        "cells": 10944,
+        "cell_m": 0.075,
+        "thickness_cells": 3.066666666666667,
+        "only_arm_difference": "grid scale",
+        "time_range_estimated_s": [
+          5,
+          30
+        ],
+        "hard_stop_s": 90,
+        "cache_range_estimated_MB": [
+          10,
+          40
+        ]
+      },
+      {
+        "id": "S48",
+        "resolution": 48,
+        "expected_grid": [
+          48,
+          48,
+          38
+        ],
+        "cells": 87552,
+        "cell_m": 0.0375,
+        "thickness_cells": 6.133333333333334,
+        "only_arm_difference": "grid scale",
+        "time_range_estimated_s": [
+          10,
+          60
+        ],
+        "hard_stop_s": 90,
+        "cache_range_estimated_MB": [
+          20,
+          100
+        ]
+      }
+    ],
+    "measurements": [
+      "Analytic mesh source normal sections and horizontal sections; actual source occupancy before comparison to native",
+      "Source interior z-5.35 and downstream planes z-5.58/-5.64/-5.68: independent phi wet area, mesh contours, MAC velocity and integral Q",
+      "Full-plane and fixed source-neighborhood Q, signs and contamination retained; no author-Q renormalization",
+      "Config T/dt and actual adaptive substeps, per-frame CFL and velocity check; calibrate raw units from each actual cache",
+      "Particle envelope/count, raw mesh volume and boundary deletion proxies; particle count is not mass"
+    ],
+    "predeclared_interpretation": {
+      "coarse_reproduction_band_Q_m3_s": [
+        0.4970791811266128,
+        0.7456187716899192
+      ],
+      "coarse_not_in_band": "Local source does not reproduce water10; pool/pressure/boundary or temporal interactions remain possible. Do not claim source rasterization alone caused water10.",
+      "fine_screen_target_relative_Q_error_max": 0.1,
+      "fine_screen_plane_Q_relative_spread_max": 0.05,
+      "fine_screen_temporal_Q_CV_max": 0.05,
+      "steady_samples": "frames5-12 only if all planes wet and transit startup has passed; otherwise inconclusive, no extension",
+      "mesh_vs_phi": "Only mesh contour enlarged while phi/Q accurate suggests meshing; phi/Q both enlarged excludes a merely cosmetic mesh-radius diagnosis.",
+      "scope": "Engineering screen proposed before new data, not retroactive PRD thresholds; no automatic tuning if unmet"
+    },
+    "max_pair_wall_budget_s": 180,
+    "max_cache_bytes_per_arm_stop": 536870912,
+    "outputs_if_approved": "independent scene/cache/qa prefixes water11_source_S24 and water11_source_S48; never overwrite water10",
+    "threads": 4,
+    "prepare_status": "PREPARED_TWO_ARMS_REOPEN_PASS_NO_BAKE",
+    "prepare_report": "qa/water11-source-prepare.json",
+    "handoff": "qa/water11-source-ready.md",
+    "supervisor_limit_includes": "Load, full preserved-cache hash check, reopen and bake inside90seconds; actual runtime not yet measured",
+    "subsequent_root_bakes": 2,
+    "raw_audit_status": "COMPLETE_COARSE_REPRODUCED_FINE56PERCENT_ERROR",
+    "raw_review": "qa/water11-source-review.md"
+  },
+  "pool_pair_P": {
+    "question": "Separate shared first-step representation/relaxation from the additional effect of three open faces in the same actual pool.",
+    "geometry": "Exact full water10 initial pool114.437593135m3 and46 exact collision copies; preserve stage folds, undercuts and rock holes, domain320x307x37 at.075m",
+    "source_in_both_arms": "Explicitly disabled in independent controls; initial GEOMETRY volume remains enabled with zero velocity",
+    "arms": [
+      {
+        "id": "Pclosed",
+        "Xminus_Yminus_Xplus": "CLOSED",
+        "interpretation": "Artificial domain-box walls for control only; no fake terrain or production bank"
+      },
+      {
+        "id": "Popen",
+        "Xminus_Yminus_Xplus": "OPEN",
+        "interpretation": "Exactly water10 open-face settings; no inflow or impact"
+      }
+    ],
+    "other_boundaries": "Yplus/bottom closed and top open as water10 in both arms",
+    "only_between_arm_difference": "use_collision_border_left/front/right; boundary-layer flags and pressure response are part of this intervention, not isolated causes",
+    "same_interior_CV": "Use water10 retained/removal-interface interior for both arms; report full-domain and same-interior author/native volumes so changed outer-layer classification is explicit",
+    "measurements": [
+      "V_author, V_mesh_f1, phi occupancy, Fluid flag occupancy, first config T; report author->f1 offset separately",
+      "All12 raw V(t), heads at9/88 targets plus440 author-fold points, raw first hit and upward classifications retained",
+      "Difference of changes D(t)=[Vopen(t)-Vopen(1)]-[Vclosed(t)-Vclosed(1)] for whole mesh and identical interior CV",
+      "Open-face flux with inner phi constant/extrapolated and Fluid-bit proxies; preserve exact deleted mass unmeasured flag",
+      "Source is absent, so any sustained net loss cannot be attributed to injected-jet turbulence"
+    ],
+    "true_t0": {
+      "status": "OPTIONAL_UNIMPLEMENTED",
+      "proposal": "Read-only serialization checkpoint after liquid initialization and before first advection/pressure/outflow deletion in a separately generated Mantaflow script, no installed Blender edits and no solver statement change.",
+      "precondition": "Actual local generated-script API and unique insertion point must be verified; if unavailable, omit and explicitly limit conclusions to author->first-solved-frame offset.",
+      "forbidden_substitutes": [
+        "frame0",
+        "tiny time_scale",
+        "rebuilt post-step mesh labelled t0"
+      ]
+    },
+    "existing_short_window_evidence": {
+      "f1_to_12_volume_change_m3": -2.80241017508643,
+      "f1_to_12_open_proxy_integral_m3": 3.294834,
+      "f1_to_12_source_plane_integral_m3": 0.268485
+    },
+    "screening_conditions_not_PRD": {
+      "first_frame_large_offset_relative_to_author": 0.05,
+      "closed_raw_dynamic_drift_attention_fraction": 0.005,
+      "open_minus_closed_delta_attention_m3": 0.5,
+      "not_using_3percent_pass": true,
+      "inconclusive_action": "Retain evidence and stop at12; do not extend automatically or classify sustained production equilibrium"
+    },
+    "per_arm_time_point_estimated_s": 148.146348125,
+    "per_arm_time_range_estimated_s": [
+      100,
+      240
+    ],
+    "per_arm_hard_stop_s": 450,
+    "pair_hard_budget_s": 900,
+    "per_arm_cache_point_estimated_bytes": 612800823.5,
+    "per_arm_cache_range_estimated_GB": [
+      0.3,
+      1.2
+    ],
+    "resources": ">=12GB available RAM and>=3GB free storage before each arm; cache growth>1.5GB per arm stops that arm; preserve partial outputs",
+    "outputs_if_approved": "independent water11_pool_Pclosed and water11_pool_Popen paths; all old cache hashes preserved",
+    "prepare_status": "DESIGN_ONLY_NOT_PREPARED"
+  },
+  "continuous_final_geometry_pathway": {
+    "status": "PROPOSED_NOT_ASSEMBLED_OR_VALIDATED",
+    "flow_policy": "Choose C flow from actual upstream wetted cross-sections and safe original level, then seek consistent native Q. Current.6213 does not retroactively become an accepted target; .2994 remains a proposed single-branch design until measured matched.",
+    "upstream": "Preserve full river and safe upstream/platform levels. Rebuild only branch attachment over real v3 channels using bed-clipped connected thick volumes, area*velocity balance, no global raise and no blanket full-width wetness requirement.",
+    "fall": "One or more irregular thick continuous branches from upstream through actual rock gaps, gravity-consistent centerline, contact/subtraction operates on water rather than frozen rocks. Hybrid07a provides a static continuity precedent, not accepted appearance or transferable oldQ geometry.",
+    "source_to_native": "Cut a transverse surface inside the prescribed source-volume region around z-5.35 after loop suitability is measured; retain native below and stitch authored branch to actual native closed contour with shared vertices and finite-thickness transition. No overlapping water planes or hidden caps; all-frame contour continuity required.",
+    "native_pool": "Native impact and pool surface remain raw in the bulk. Initial stage must be physically compatible with selected flow and real downstream bed; current author-stage discontinuity or uniform scale correction is not accepted equilibrium.",
+    "Xplus": "Investigate extension fromx8 tox14-16 along unchanged actual model until entire connected wet component terminates against a verified dry/solid cross-section. Existing sparse dry samples atx12/14 are not proof of a complete barrier. If not proven, no closed-dry or natural-outlet claim.",
+    "downstream": "Place numerical outlets beyond a verified in-channel transition and real bed continuation. Join native surface to complete authored downstream water by shared contour vertices and a0.3-0.6m genuinely thick transition, with natural shoreline holes/bed contact; use an additional10-20cell native buffer beyond the displayed seam. Buffer alone does not prove pressure isolation.",
+    "unknown_submerged_geometry": "Any necessary unmeasured bed extension is C, closed with real thickness, below measured/visible surfaces, and separately audited; no fake side walls to trap water against an actual open rock gap.",
+    "all_frame_checks": [
+      "Every seam belongs to one connected closed manifold component; no internal duplicate caps or self-intersections",
+      "Actual rendered triangles tested for rock penetration, negative thickness and fixed-patch artifacts",
+      "Raw native bulk positions unchanged outside declared finite transition; report derived-versus-raw volume/area change",
+      "Shared seam coordinates/normals, upstream elevation safety, slope and actual Q consistency",
+      "Native foam/spray advects continuously, no white discs or opaque cover patches",
+      "HERO,FOOT,shore,outlets,upstream and orbit views expose all joins; no cropping-based pass",
+      "After bounded preview acceptance only, root may authorize sufficient warmup and actual10-second sequence; finite12/48frame tests do not prove it"
+    ]
+  },
+  "cost_basis": {
+    "water10_actual_grid_cells": 3634880,
+    "water10_actual_frames": 48,
+    "water10_supervisor_s": 592.5853925,
+    "water10_cache_bytes": 2451203294,
+    "factory32_12frames_CPU4_actual_s": 2.5887194,
+    "realbed96_24frames_CPU8_actual_s": 16.2946842,
+    "estimate_warning": "Linear cells*frames is only a scale estimate. Source substeps, sparse fields, initialization and load/IO differ; practical ranges include overhead, not measured new performance. No long-run authorization implied."
+  },
+  "new_bakes": 0,
+  "new_renders": 0,
+  "new_blender_processes": 4,
+  "production_changed": false,
+  "notes": "Design manifest only. Root subsequently authorized source-only preparation, CPU4, no bake by preparing agent. Pool controls remain design-only. See source-ready for guarded root dispatch.",
+  "new_blender_process_scope": "prepare1 + isolated reopen2 + analytic audit selfcheck1; no solver bake/render"
+}

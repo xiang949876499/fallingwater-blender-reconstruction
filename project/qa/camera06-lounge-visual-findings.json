@@ -1,0 +1,23 @@
+{
+  "source_scene": "scene/Fallingwater_iteration06.blend",
+  "settings": "qa/camera05-settings-frozen-v2.json",
+  "images": [
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_A",
+      "file": "renders/previews/iteration06-focus/CAM_GUEST_L1_LOUNGE_A.png",
+      "sha256": "b2a185bf6a33f65d4d94c7aeac88adef27b70df09688fa639bf5964f340e7407",
+      "actually_opened_by_camera_agent": true,
+      "status": "FRAMING_FAIL",
+      "finding": "The entire firebox mouth is absent; near left stone/window jamb, table and screen occupy center, bookcase right. Not a fireplace view."
+    },
+    {
+      "camera": "CAM_GUEST_L1_LOUNGE_B",
+      "file": "renders/previews/iteration06-focus/CAM_GUEST_L1_LOUNGE_B.png",
+      "sha256": "0f51920f25369d694fbd4fdbccbed415949777f65745c2f2b8d6574509a8dc45",
+      "actually_opened_by_camera_agent": true,
+      "status": "FRAMING_FAIL",
+      "finding": "Close vertical walnut screen bars span almost the entire frame; table and window are viewed through bars. Firebox absent; severe foreground obstruction."
+    }
+  ],
+  "correction": "Require real firebox opening area and unoccluded aperture samples for main view, plus an unobstructed complementary room view. Existing screen and architecture remain."
+}

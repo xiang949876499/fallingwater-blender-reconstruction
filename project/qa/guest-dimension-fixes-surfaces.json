@@ -1,0 +1,2472 @@
+{
+  "status": "PASS",
+  "method": "5x5 candidategrid clipped to eachchangedroompolygon; actual down/up scene.ray_cast to floor and overheadmesh. Floorwithin25mm,clearance>=1.95m and <=recordedheight+100mm. Movable open door leaves/handles and decorative ashlar excluded only for structural floor/ceiling queries; first all-scene hit separately retained, so occupied sample is not silently erased. No furniture/site.",
+  "rooms": [
+    {
+      "room": "GUEST_L1_BOILER",
+      "status": "PASS",
+      "samples": [
+        {
+          "xy": [
+            3.8157807999999993,
+            41.292763199999996
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            3.8157807999999993,
+            41.5699536
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            3.8157807999999993,
+            41.847144
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            3.8157807999999993,
+            42.1243344
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_WEST_open_leaf_0",
+            "z": 8.445233345031738
+          },
+          "movable_door_leaf_at_sample": true,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            3.8157807999999993,
+            42.401524800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.3109584,
+            41.292763199999996
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.3109584,
+            41.5699536
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.3109584,
+            41.847144
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.3109584,
+            42.1243344
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.3109584,
+            42.401524800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.8061359999999995,
+            41.292763199999996
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.8061359999999995,
+            41.5699536
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.8061359999999995,
+            41.847144
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.8061359999999995,
+            42.1243344
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            4.8061359999999995,
+            42.401524800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.301313599999999,
+            41.292763199999996
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.301313599999999,
+            41.5699536
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.301313599999999,
+            41.847144
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.301313599999999,
+            42.1243344
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.301313599999999,
+            42.401524800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.796491199999999,
+            41.292763199999996
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.796491199999999,
+            41.5699536
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.796491199999999,
+            41.847144
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.796491199999999,
+            42.1243344
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            5.796491199999999,
+            42.401524800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BOILER_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_BOILER_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "room": "GUEST_L1_BATH",
+      "status": "PASS",
+      "samples": [
+        {
+          "xy": [
+            11.787836000000002,
+            36.668376
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            11.787836000000002,
+            37.197768
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            11.787836000000002,
+            37.72716
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            11.787836000000002,
+            38.256552
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.375028,
+            36.668376
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.375028,
+            37.197768
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.375028,
+            37.72716
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.375028,
+            38.256552
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.962220000000002,
+            36.668376
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.962220000000002,
+            37.197768
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.962220000000002,
+            37.72716
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.962220000000002,
+            38.256552
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            12.962220000000002,
+            38.785944
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            13.549412,
+            36.668376
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            13.549412,
+            37.197768
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            13.549412,
+            37.72716
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            13.549412,
+            38.256552
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            13.549412,
+            38.785944
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            14.136604000000002,
+            36.668376
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            14.136604000000002,
+            37.197768
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            14.136604000000002,
+            37.72716
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            14.136604000000002,
+            38.256552
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            14.136604000000002,
+            38.785944
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_BATH_cork_finish",
+            "z": 8.409000396728516
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.1510000228881836
+          },
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "room": "GUEST_L1_GUEST_ROOM",
+      "status": "PASS",
+      "samples": [
+        {
+          "xy": [
+            15.123155200000003,
+            36.8312808
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            15.123155200000003,
+            37.6864824
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            15.123155200000003,
+            38.541684000000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            15.123155200000003,
+            39.3968856
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            15.123155200000003,
+            40.2520872
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            16.0780736,
+            36.8312808
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            16.0780736,
+            37.6864824
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            16.0780736,
+            38.541684000000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            16.0780736,
+            39.3968856
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            16.0780736,
+            40.2520872
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.032992,
+            36.8312808
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.032992,
+            37.6864824
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.032992,
+            38.541684000000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.032992,
+            39.3968856
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.032992,
+            40.2520872
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.987910399999997,
+            36.8312808
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.987910399999997,
+            37.6864824
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.987910399999997,
+            38.541684000000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.987910399999997,
+            39.3968856
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            17.987910399999997,
+            40.2520872
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            18.942828799999997,
+            36.8312808
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            18.942828799999997,
+            37.6864824
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            18.942828799999997,
+            38.541684000000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            18.942828799999997,
+            39.3968856
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            18.942828799999997,
+            40.2520872
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_L1_MAIN_FLOOR",
+            "z": 8.399999618530273
+          },
+          "ceiling": {
+            "object": "GUEST_LOW_ARM_ROOF",
+            "z": 10.5600004196167,
+            "clearance_m": 2.160000801086426
+          },
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "room": "GUEST_B1_LAUNDRY",
+      "status": "PASS",
+      "samples": [
+        {
+          "xy": [
+            -2.9893879999999995,
+            39.807340800000006
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.0624199999999995,
+            39.807340800000006
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.0624199999999995,
+            40.5115776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -1.1354519999999995,
+            37.6946304
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -1.1354519999999995,
+            38.3988672
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -1.1354519999999995,
+            39.103104
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -1.1354519999999995,
+            39.807340800000006
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -1.1354519999999995,
+            40.5115776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -0.208483999999999,
+            37.6946304
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -0.208483999999999,
+            38.3988672
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -0.208483999999999,
+            39.103104
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -0.208483999999999,
+            39.807340800000006
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -0.208483999999999,
+            40.5115776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            0.7184840000000006,
+            37.6946304
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            0.7184840000000006,
+            38.3988672
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            0.7184840000000006,
+            39.103104
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            0.7184840000000006,
+            39.807340800000006
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            0.7184840000000006,
+            40.5115776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_FLOOR",
+            "z": 6.039999961853027
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.119999885559082
+          },
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "room": "GUEST_B1_BATH",
+      "status": "PASS",
+      "samples": [
+        {
+          "xy": [
+            -3.29133136,
+            37.54861272
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -3.29133136,
+            37.95448776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -3.29133136,
+            38.360362800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -3.29133136,
+            38.76623784
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -3.29133136,
+            39.17211288
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.9819156799999997,
+            37.54861272
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.9819156799999997,
+            37.95448776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.9819156799999997,
+            38.360362800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.9819156799999997,
+            38.76623784
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.9819156799999997,
+            39.17211288
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.6725,
+            37.54861272
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.6725,
+            37.95448776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.6725,
+            38.360362800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.6725,
+            38.76623784
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.6725,
+            39.17211288
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.3630843199999996,
+            37.54861272
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.3630843199999996,
+            37.95448776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.3630843199999996,
+            38.360362800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.3630843199999996,
+            38.76623784
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.3630843199999996,
+            39.17211288
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.0536686399999997,
+            37.54861272
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.0536686399999997,
+            37.95448776
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.0536686399999997,
+            38.360362800000004
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.0536686399999997,
+            38.76623784
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        },
+        {
+          "xy": [
+            -2.0536686399999997,
+            39.17211288
+          ],
+          "first_scene_hit": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "movable_door_leaf_at_sample": false,
+          "floor": {
+            "object": "GUEST_B1_BATH_cork_finish",
+            "z": 6.048999786376953
+          },
+          "ceiling": {
+            "object": "GUEST_L1_CHAUFFEUR_FLOOR",
+            "z": 8.15999984741211,
+            "clearance_m": 2.1110000610351562
+          },
+          "status": "PASS"
+        }
+      ]
+    }
+  ]
+}

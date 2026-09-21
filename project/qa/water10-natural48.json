@@ -1,0 +1,3320 @@
+{
+  "status": "NATIVE48_BAKED_RAW_PHYSICS_JOIN_VISUAL_ALL_UNVERIFIED",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration09.blend",
+  "source_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "core_original_raw_world_sha256": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_water10_natural48.blend",
+  "cache": "D:\\zx\\test\\project\\caches\\fluid_water10\\natural48",
+  "frame_range": [
+    1,
+    48
+  ],
+  "fps": 24,
+  "threads": 8,
+  "resolution": 320,
+  "estimated_grid": [
+    320,
+    307,
+    37
+  ],
+  "estimated_cell_m": 0.075,
+  "actual_collision_copies": [
+    {
+      "source_name": "SITE_Continuous_BearRun_Terrain",
+      "original_raw_world_sha256": "3a7859575a68b8af13bc82b7e0d811d8161d1781757329269429cd6318a6c31a",
+      "source_aabb_m": [
+        [
+          -1040.0,
+          1040.0
+        ],
+        [
+          -1040.0,
+          1040.0
+        ],
+        [
+          -16.19917106628418,
+          36.380435943603516
+        ]
+      ],
+      "exact_top_vertices": 1680,
+      "exact_top_triangles": 3198,
+      "closure_bottom_z_m": -9.0,
+      "closure_boundary_edges": 160,
+      "all_closure_perimeter_vertices_outside_domain_xy": true,
+      "copy_name": "W10_Collider_SITE_Continuous_BearRun_Terrain",
+      "copy_world_sha256": "14abc9494b92771946a53b7b4db869af32d0df4b3d537767a0ca5eae74accfc3",
+      "copy_topology": {
+        "vertices": 3360,
+        "faces": 6556,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 2978.551794733118
+      },
+      "exact_top_preserved": true
+    },
+    {
+      "source_name": "SITE_Core_Continuous_Fractured_Sandstone",
+      "original_raw_world_sha256": "dd86ff944b6e264b542c77f2e8671a53524fc5092dedcfb6db61d697c7c52768",
+      "source_aabb_m": [
+        [
+          -0.7262936234474182,
+          12.235296249389648
+        ],
+        [
+          -8.203882217407227,
+          6.140589714050293
+        ],
+        [
+          -6.446503162384033,
+          -3.055000066757202
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+      "copy_world_sha256": "30d6b6cc01a24006d04dbb1da6ddd46267862b1a72122d908fdc6a11e87b7fc6",
+      "copy_topology": {
+        "vertices": 11877,
+        "faces": 23750,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 309.74353308383644
+      }
+    },
+    {
+      "source_name": "SITE_Secondary_Sandstone_Ledge_00",
+      "original_raw_world_sha256": "6bacce7b9c6319953cd0496bcb798f2af161cf32e7a5b4c776900bd9b6fe8301",
+      "source_aabb_m": [
+        [
+          -11.815020561218262,
+          -2.1347854137420654
+        ],
+        [
+          -6.625917911529541,
+          -2.4283931255340576
+        ],
+        [
+          -6.602329730987549,
+          -5.903560638427734
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Secondary_Sandstone_Ledge_00",
+      "copy_world_sha256": "2296173e23cca68afb058e696c1f23d7ef499b3c7697a9227494237262d5749f",
+      "copy_topology": {
+        "vertices": 40,
+        "faces": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 9.961080431907614
+      }
+    },
+    {
+      "source_name": "SITE_Secondary_Sandstone_Ledge_01",
+      "original_raw_world_sha256": "795a68138d6fcd8d2b167f123230db166191fba70397d9c695d1c9565aa24a7b",
+      "source_aabb_m": [
+        [
+          7.23119592666626,
+          15.010247230529785
+        ],
+        [
+          -8.612794876098633,
+          -5.8450422286987305
+        ],
+        [
+          -4.367299556732178,
+          -3.8083715438842773
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Secondary_Sandstone_Ledge_01",
+      "copy_world_sha256": "e66b977efcd8e97709f90b2a783a6d400d24b7861243938bd835aa7e47f30b7c",
+      "copy_topology": {
+        "vertices": 37,
+        "faces": 70,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 6.60653310482955
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0144",
+      "original_raw_world_sha256": "70f681e77b4faabf74d98acc3e3fdc9b8f958421419142ce22b96e8fbc3af24a",
+      "source_aabb_m": [
+        [
+          3.151491403579712,
+          4.981258392333984
+        ],
+        [
+          -7.88822078704834,
+          -6.417856693267822
+        ],
+        [
+          -6.061023712158203,
+          -5.72346830368042
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0144",
+      "copy_world_sha256": "67ff1668494d0f15c3e57ac4a62720fd878da34179fd51f50631e0d76906a49b",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.4905628694136873
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0145",
+      "original_raw_world_sha256": "1255cdcb968eebda57cb7c023659ae093b3a4b83c788c5c02964a039065cd8d0",
+      "source_aabb_m": [
+        [
+          2.3350424766540527,
+          6.005603313446045
+        ],
+        [
+          -8.186515808105469,
+          -5.853440761566162
+        ],
+        [
+          -5.778861999511719,
+          -5.520922660827637
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0145",
+      "copy_world_sha256": "097663f52c445903fc580507e46e235d9b5f6490ac3379ec74182d5f93a8881b",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.9046371281307717
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0146",
+      "original_raw_world_sha256": "f95c1d5516d506b8cf1299fd5c0577a8e5b405aff2ef9db963b4d63332713898",
+      "source_aabb_m": [
+        [
+          2.8762054443359375,
+          6.227133274078369
+        ],
+        [
+          -8.231485366821289,
+          -5.827084064483643
+        ],
+        [
+          -5.522284984588623,
+          -5.268638610839844
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0146",
+      "copy_world_sha256": "e0d1242e2bd5c00f608f9766fa4a16912a5aaff113280be8d97139c73fc7cc3c",
+      "copy_topology": {
+        "vertices": 40,
+        "faces": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.05177688877461
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0147",
+      "original_raw_world_sha256": "62e8da1f149b7682b81aca77eb35a8da48e1ef9c8fc1726d6f1ed813f83b1382",
+      "source_aabb_m": [
+        [
+          -0.30263522267341614,
+          3.1861417293548584
+        ],
+        [
+          -10.255257606506348,
+          -8.45659065246582
+        ],
+        [
+          -6.187373638153076,
+          -5.8632941246032715
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0147",
+      "copy_world_sha256": "af7da9200c45eecd5ba68c30f65f300d4f772a3f3314e342a448b40c2fb25ab8",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.0674172195620493
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0148",
+      "original_raw_world_sha256": "f92f4d968aa52f9ee3c99a00177705a446fea892a666c90aa37ca10f0fb25266",
+      "source_aabb_m": [
+        [
+          0.15527723729610443,
+          2.400954484939575
+        ],
+        [
+          -10.695735931396484,
+          -8.193036079406738
+        ],
+        [
+          -5.906708717346191,
+          -5.617263317108154
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0148",
+      "copy_world_sha256": "c3532d6b4762cca44d595574562a64f5f6bb0eb8df6a14d580a29a734a51808b",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.6640096910792574
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0149",
+      "original_raw_world_sha256": "c752572b389b2df3ad340885250f42e76d97565095211fcb4b5603f94d46f6ed",
+      "source_aabb_m": [
+        [
+          -8.0648193359375,
+          -5.273636341094971
+        ],
+        [
+          -2.4427573680877686,
+          -1.1394413709640503
+        ],
+        [
+          -6.273998737335205,
+          -5.942446708679199
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0149",
+      "copy_world_sha256": "d63eedbab14909cde2ff8a1373c365152d1fcf2ea9c44920d90e2262added6dd",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.6215965873128416
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0150",
+      "original_raw_world_sha256": "8583086ecce6afbfd1023a8b0ea205e04f9aac4ff25fa66c84bcaac8b639121c",
+      "source_aabb_m": [
+        [
+          -7.744526386260986,
+          -5.9930009841918945
+        ],
+        [
+          -2.618509292602539,
+          -0.9373820424079895
+        ],
+        [
+          -6.026313304901123,
+          -5.7131757736206055
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0150",
+      "copy_world_sha256": "7c2a27013cbb03090c870530128b24ccae827a1c1cad880f4fa7f2808215795b",
+      "copy_topology": {
+        "vertices": 28,
+        "faces": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.5636156624817878
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0151",
+      "original_raw_world_sha256": "8c3d903bad3dcce66386ddaeaa5b56fc46a6ab0a692acba31378204ee8958199",
+      "source_aabb_m": [
+        [
+          -3.8668508529663086,
+          -0.822903573513031
+        ],
+        [
+          -12.438089370727539,
+          -10.899419784545898
+        ],
+        [
+          -6.3562211990356445,
+          -5.88384485244751
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0151",
+      "copy_world_sha256": "d5869ad0300515288f88430c6c765163aa30c97cf4cc6b8f6b10a9c1022c2439",
+      "copy_topology": {
+        "vertices": 37,
+        "faces": 70,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.1314878263146746
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0152",
+      "original_raw_world_sha256": "05dffcbb8d137034d346e6a819db9b139c6ffa2b624634f9175d61828c2a13f2",
+      "source_aabb_m": [
+        [
+          -3.893721342086792,
+          -0.6440190672874451
+        ],
+        [
+          -12.625268936157227,
+          -10.777750015258789
+        ],
+        [
+          -6.086207866668701,
+          -5.646869659423828
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0152",
+      "copy_world_sha256": "616a295f225a052c1be17084fcfd6fa01cfaa7eae76687944a823ae0f0df4a59",
+      "copy_topology": {
+        "vertices": 40,
+        "faces": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.198448321789076
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0153",
+      "original_raw_world_sha256": "15af88cc3ea6d0a63fc83da3ccd989605146123e721e9f73122b1a5e7b66fcaa",
+      "source_aabb_m": [
+        [
+          -4.27144718170166,
+          -0.9782369136810303
+        ],
+        [
+          -12.825638771057129,
+          -10.485261917114258
+        ],
+        [
+          -5.813117980957031,
+          -5.408694744110107
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0153",
+      "copy_world_sha256": "cd6cfe3cc8002b5ed8d64634003de696ed7b1a65108f980cd0ebcc921e36ed66",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.21852851631303
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0154",
+      "original_raw_world_sha256": "6f6df7512554aee92604f5d4055c97d5539537d7a78e9df8bec12d7837c3440e",
+      "source_aabb_m": [
+        [
+          -13.15991497039795,
+          -10.537806510925293
+        ],
+        [
+          -5.228013515472412,
+          -3.8336145877838135
+        ],
+        [
+          -6.781725883483887,
+          -6.521303653717041
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0154",
+      "copy_world_sha256": "0b71de9f641eee6b9531431af392f13e9a43c1a320999c09c582f58aae0a36cb",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.45013729976672623
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0155",
+      "original_raw_world_sha256": "87cb9db449bc13e3ff63098265e95843d39996cfb20195b27f2d0d73bb61378e",
+      "source_aabb_m": [
+        [
+          -13.791390419006348,
+          -10.31412124633789
+        ],
+        [
+          -5.43849515914917,
+          -3.669517755508423
+        ],
+        [
+          -6.600769996643066,
+          -6.183226108551025
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0155",
+      "copy_world_sha256": "578197b7a1fab106fb8f81a17ef1b15b59c15367e042bbe3cf4a2eb643aa2b1a",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.392950619701188
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0156",
+      "original_raw_world_sha256": "f3efbc441d1cf7fd8747df305c043f4133d00c8e74643f265f0db43baf1d5b3f",
+      "source_aabb_m": [
+        [
+          -13.381584167480469,
+          -10.924517631530762
+        ],
+        [
+          -5.406705856323242,
+          -3.7776784896850586
+        ],
+        [
+          -6.371013164520264,
+          -5.908544063568115
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0156",
+      "copy_world_sha256": "19bbfc8c2425684253c43470aaf9a8ff9c19c9d8dc33b155d75c29a590a0bf57",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.9062157557871996
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0157",
+      "original_raw_world_sha256": "01a180ff50019d847e6300f21661975985c4d0803ba3cd099dcf53220a8d65e5",
+      "source_aabb_m": [
+        [
+          -6.993031024932861,
+          -3.968435049057007
+        ],
+        [
+          -14.715700149536133,
+          -12.542874336242676
+        ],
+        [
+          -6.790946960449219,
+          -6.512722492218018
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0157",
+      "copy_world_sha256": "7fe0048de9d8b72103a4a3e36de91e2aada7b1febf6e968959feb2d1c5875b0b",
+      "copy_topology": {
+        "vertices": 28,
+        "faces": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.0820399305125254
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0158",
+      "original_raw_world_sha256": "6726f425510432dfb529510da5dfe8e90014069001a9d01fc1d2ea430ce24e32",
+      "source_aabb_m": [
+        [
+          -6.986977577209473,
+          -3.3917949199676514
+        ],
+        [
+          -14.570927619934082,
+          -12.600932121276855
+        ],
+        [
+          -6.591966152191162,
+          -6.218492031097412
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0158",
+      "copy_world_sha256": "d3c79f5827dc1a44c23936eadafed9989db0d689904d107d72540014ef767116",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.1756697046921394
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0159",
+      "original_raw_world_sha256": "cd6378d5d8ae84627f33efdafc795da81352c6140cb8351eb354833dbdc7b1cb",
+      "source_aabb_m": [
+        [
+          -7.042366027832031,
+          -3.7784736156463623
+        ],
+        [
+          -14.643939971923828,
+          -12.495444297790527
+        ],
+        [
+          -6.353791236877441,
+          -5.918426036834717
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0159",
+      "copy_world_sha256": "14a0ca26d6c8bda93195dc1fb3b631504e82f187ee1e6b060c5e2d82e9e841f0",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.633677191532813
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0160",
+      "original_raw_world_sha256": "880ce8c09992d8980bd138a9ba98b401a2ec9bb6f85e1e655a80eb46bba486c7",
+      "source_aabb_m": [
+        [
+          -7.153232574462891,
+          -3.722215414047241
+        ],
+        [
+          -14.497466087341309,
+          -12.583845138549805
+        ],
+        [
+          -6.145304203033447,
+          -5.6638569831848145
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0160",
+      "copy_world_sha256": "c443136b88037811a25dc87ce230f5cdaa9b98d553b587c166d2a8e95ebb5c7a",
+      "copy_topology": {
+        "vertices": 40,
+        "faces": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.4682580193282844
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0161",
+      "original_raw_world_sha256": "5b3e5e9bcf549c2b73471e53e1a11203f1f30b754596198efc7a4406f9e91c7f",
+      "source_aabb_m": [
+        [
+          -17.452848434448242,
+          -13.952984809875488
+        ],
+        [
+          -7.369594573974609,
+          -5.8528361320495605
+        ],
+        [
+          -6.894199848175049,
+          -6.51746129989624
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0161",
+      "copy_world_sha256": "d2288f442794285cf02c345026e3cfb6bd945282fffb1c54d169b47231800e4c",
+      "copy_topology": {
+        "vertices": 28,
+        "faces": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.041031823262451
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0162",
+      "original_raw_world_sha256": "a12ae09307f3a4baa75e791b68cfc962c96272fbd70382f7048456dc3ff28945",
+      "source_aabb_m": [
+        [
+          -16.843509674072266,
+          -14.303191184997559
+        ],
+        [
+          -7.497081279754639,
+          -5.662364959716797
+        ],
+        [
+          -6.642519474029541,
+          -6.267539024353027
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0162",
+      "copy_world_sha256": "ba6611ee2f3b189222b26de262262e113909d15715f18cd6df4cc4fa8bb14172",
+      "copy_topology": {
+        "vertices": 28,
+        "faces": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.8746089766569125
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0163",
+      "original_raw_world_sha256": "0eae064c515a60c574d0b2da9f25f16b1f9202ebc9deec51b01809ea7c38e995",
+      "source_aabb_m": [
+        [
+          -9.467018127441406,
+          -7.516749858856201
+        ],
+        [
+          -17.479154586791992,
+          -15.173064231872559
+        ],
+        [
+          -6.862100124359131,
+          -6.520316123962402
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0163",
+      "copy_world_sha256": "04452870100eea9b758277c938934fe087f58c663d73d6eb43d270163df6b807",
+      "copy_topology": {
+        "vertices": 37,
+        "faces": 70,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.7028891542258753
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0164",
+      "original_raw_world_sha256": "6be6194d5f8d60371fe507526afca29cf658cee681b9f292d4de126aba9efb92",
+      "source_aabb_m": [
+        [
+          -9.128873825073242,
+          -7.011227130889893
+        ],
+        [
+          -17.420129776000977,
+          -15.349058151245117
+        ],
+        [
+          -6.680005073547363,
+          -6.221523761749268
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0164",
+      "copy_world_sha256": "a7e420f17de9103ccac8fdb4242012f96eadebeaadd7a8b769529ffe15152565",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.079224048210803
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0165",
+      "original_raw_world_sha256": "ef5e2069c4169bb89cc185669f9ea5b327859d2bc37e099453444b51a760e72a",
+      "source_aabb_m": [
+        [
+          -9.230454444885254,
+          -6.867644786834717
+        ],
+        [
+          -17.015186309814453,
+          -15.642325401306152
+        ],
+        [
+          -6.3294572830200195,
+          -6.0439133644104
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0165",
+      "copy_world_sha256": "3891f9835c1b40654063af5b635b53a6807a424b012ad0908af2d579d8d7ec43",
+      "copy_topology": {
+        "vertices": 28,
+        "faces": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.42642801006913755
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0166",
+      "original_raw_world_sha256": "6ec52c58470055866e56734e9db18522ae66a98ef31160f0e72d88cedaa2b271",
+      "source_aabb_m": [
+        [
+          -9.766156196594238,
+          -6.515268325805664
+        ],
+        [
+          -17.342870712280273,
+          -15.204548835754395
+        ],
+        [
+          -6.083812713623047,
+          -5.808619022369385
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0166",
+      "copy_world_sha256": "b56bfcf5cf67016088ac8e06dfc94525642d920cbb521147809a9fb8eb711543",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 1.0716376890544832
+      }
+    },
+    {
+      "source_name": "SITE_Bank_0167",
+      "original_raw_world_sha256": "e14ee583baf22b833e0020583cace5ee9c48243e987c540444854cabbfe7984c",
+      "source_aabb_m": [
+        [
+          -19.660276412963867,
+          -16.786128997802734
+        ],
+        [
+          -8.70225715637207,
+          -7.593444347381592
+        ],
+        [
+          -6.940371513366699,
+          -6.561741828918457
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Bank_0167",
+      "copy_world_sha256": "2c27afe2c654d95aecaa50d0fa11dea71840fbb4801464bf2c3f399962cfaa8f",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.6747379960611717
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_015",
+      "original_raw_world_sha256": "7ccd922fb3d5e77bbf6f7bfe4016e100280d4cbe2ad9f7d103cb4c564df40d9b",
+      "source_aabb_m": [
+        [
+          6.565208911895752,
+          7.203570365905762
+        ],
+        [
+          -6.779173851013184,
+          -6.094869136810303
+        ],
+        [
+          -6.558110237121582,
+          -6.321671485900879
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_015",
+      "copy_world_sha256": "8e4a99ee4ad5c1dc9c27324c2460adb5560eb1e9c0061a09b3dd27c07c5378e1",
+      "copy_topology": {
+        "vertices": 40,
+        "faces": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.053921552342198
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_017",
+      "original_raw_world_sha256": "241bfe38db5f04624a65f45397fe6bee6fd47f3a324914a5c927e338648125ab",
+      "source_aabb_m": [
+        [
+          -14.314631462097168,
+          -13.687207221984863
+        ],
+        [
+          -12.170271873474121,
+          -11.539613723754883
+        ],
+        [
+          -7.305875778198242,
+          -7.1390767097473145
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_017",
+      "copy_world_sha256": "724cd83a9325e9cb2848ffba520f3f49c54ae28aacdabab700075f8d25c0601f",
+      "copy_topology": {
+        "vertices": 37,
+        "faces": 70,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.031090406686755598
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_028",
+      "original_raw_world_sha256": "7b315063d5bc09b072c80249decf9393c830f6af508171e69e5637eb49e998a4",
+      "source_aabb_m": [
+        [
+          -13.532042503356934,
+          -12.564231872558594
+        ],
+        [
+          -15.734837532043457,
+          -15.092612266540527
+        ],
+        [
+          -7.054325580596924,
+          -6.865924835205078
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_028",
+      "copy_world_sha256": "009e85431c27c95d3d24b9b174f41120a6c2c7e14c19906359db321ab9a1a2f5",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.06481473473099689
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_032",
+      "original_raw_world_sha256": "a79914fcbb6491bbffdad891e1820b825944ccf5fec5ef04287c0151833801c3",
+      "source_aabb_m": [
+        [
+          -10.227578163146973,
+          -9.451574325561523
+        ],
+        [
+          -2.050501585006714,
+          -1.5884777307510376
+        ],
+        [
+          -5.24273681640625,
+          -5.032917499542236
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_032",
+      "copy_world_sha256": "5055643df36a71623ef00e2e4c1a3ab783759ee85776be7dd0bdca78b77fd167",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.042289363856405346
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_033",
+      "original_raw_world_sha256": "dbc04554908bc015363d77cbba21f2c64e96bc4a6eb93863e49ce9f1af52f3b3",
+      "source_aabb_m": [
+        [
+          -6.256889820098877,
+          -5.477006912231445
+        ],
+        [
+          -10.665655136108398,
+          -10.386900901794434
+        ],
+        [
+          -7.239681243896484,
+          -6.888357162475586
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_033",
+      "copy_world_sha256": "76df3959f66a56596004af5cdc004d11fd44906ed24a6dc3996c2293aeb18131",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.04240498956261945
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_035",
+      "original_raw_world_sha256": "15333c8e4b7dbb0be54d0408c6bff6a293872332d08a23c8d710dceef128dad0",
+      "source_aabb_m": [
+        [
+          -12.592015266418457,
+          -11.635038375854492
+        ],
+        [
+          -13.314728736877441,
+          -12.84753704071045
+        ],
+        [
+          -7.337512493133545,
+          -7.088230133056641
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_035",
+      "copy_world_sha256": "91f1d521a904860bf4099cff20acae18febc098284241e1bab9b5f7db74eca1e",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.057493530901672585
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_051",
+      "original_raw_world_sha256": "d1021464a14a37b24ac25d5fd11fe88a97241665fedd01c8409e1532c2754d38",
+      "source_aabb_m": [
+        [
+          -7.566042423248291,
+          -6.63685941696167
+        ],
+        [
+          -2.1146302223205566,
+          -1.7320356369018555
+        ],
+        [
+          -6.377982139587402,
+          -6.148637771606445
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_051",
+      "copy_world_sha256": "c92ca8c6aee4d7f8d2f0ae5e5dc749b5ec02caa5681f39f85672e27740849202",
+      "copy_topology": {
+        "vertices": 37,
+        "faces": 70,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.04005228640520425
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_053",
+      "original_raw_world_sha256": "9eed0a076148b94e31fd747689ffd417e819dd549a09eeed1a3ff723c5b3def5",
+      "source_aabb_m": [
+        [
+          2.600097179412842,
+          3.1725027561187744
+        ],
+        [
+          -3.124880313873291,
+          -2.4461355209350586
+        ],
+        [
+          -6.584864139556885,
+          -6.208615779876709
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_053",
+      "copy_world_sha256": "82e3dd91af063386fb7ec9aca0d0b5caa1a8d6c3571ff1c264bcafd2a050572f",
+      "copy_topology": {
+        "vertices": 40,
+        "faces": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.08572285069867414
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_058",
+      "original_raw_world_sha256": "7de07e8be31aab7c9a629c921a8143a338e95337dfded9456a5701eef833fc83",
+      "source_aabb_m": [
+        [
+          -12.0582275390625,
+          -11.374128341674805
+        ],
+        [
+          -15.149981498718262,
+          -14.717255592346191
+        ],
+        [
+          -7.267329216003418,
+          -7.025313854217529
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_058",
+      "copy_world_sha256": "e01395542d79ea520381a63bcaa71f2d63cf04f9813025836812573ba57e6273",
+      "copy_topology": {
+        "vertices": 37,
+        "faces": 70,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.03988229367112832
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_067",
+      "original_raw_world_sha256": "d83184abe5a5dd0d95b67497105db07b51276183509d9b8d13b131beabc46dd9",
+      "source_aabb_m": [
+        [
+          -10.599745750427246,
+          -10.109984397888184
+        ],
+        [
+          -10.365692138671875,
+          -10.049832344055176
+        ],
+        [
+          -6.950434684753418,
+          -6.718404293060303
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_067",
+      "copy_world_sha256": "8b71e5f9d44f948dab7f4db33b6ab69b27177e2f1ea845d6841a2ba21d8e3fc5",
+      "copy_topology": {
+        "vertices": 28,
+        "faces": 52,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.01863284062162434
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_073",
+      "original_raw_world_sha256": "4664c9288d59da03553e0a3fd9748822e9ab6d89f47a8f32ff4f1df356577fcd",
+      "source_aabb_m": [
+        [
+          -13.852277755737305,
+          -13.056708335876465
+        ],
+        [
+          -7.65588903427124,
+          -6.945113658905029
+        ],
+        [
+          -6.835570812225342,
+          -6.642085075378418
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_073",
+      "copy_world_sha256": "e1bd80d3262099ff7aa331c3ad27eb682bbfa1b171fea55a21de3c3159be42e7",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.05949657975414373
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_075",
+      "original_raw_world_sha256": "80146aebd1f168e02a929e6270d8f8845dcb2dac3ceb4ceef4e4d58ad9af4524",
+      "source_aabb_m": [
+        [
+          -3.422607898712158,
+          -2.3882107734680176
+        ],
+        [
+          -11.754653930664062,
+          -11.42962646484375
+        ],
+        [
+          -6.463678359985352,
+          -6.243867874145508
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_075",
+      "copy_world_sha256": "0d39bec5d5398bd20a13503a12bca0728697b5f9602d84b2ab2ddf6d8b07ce80",
+      "copy_topology": {
+        "vertices": 37,
+        "faces": 70,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.03801675137079288
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_090",
+      "original_raw_world_sha256": "0d206cf3fd9c5688eb1717c88b9f105a4713b3894cfde64dc16a4f395f83fef6",
+      "source_aabb_m": [
+        [
+          -2.9306023120880127,
+          -1.923287272453308
+        ],
+        [
+          -5.923781871795654,
+          -5.56304407119751
+        ],
+        [
+          -6.601565837860107,
+          -6.38443660736084
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_090",
+      "copy_world_sha256": "15abec269fd3fd7ecde13966356ab0ffa046c7901f8780a0acb033942e3b9b42",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.04061777468110178
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_093",
+      "original_raw_world_sha256": "2bb9cc322cb08324de6926e429d8298eb69fd015fcca168d0be436629c901a3f",
+      "source_aabb_m": [
+        [
+          -0.6444578170776367,
+          0.488582968711853
+        ],
+        [
+          -11.435572624206543,
+          -11.011566162109375
+        ],
+        [
+          -5.614116668701172,
+          -5.270248889923096
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_093",
+      "copy_world_sha256": "0948468ef2735f279cc0cbb133cfb2076636c3bff53b6eb2da62c6ceb1e14a46",
+      "copy_topology": {
+        "vertices": 34,
+        "faces": 64,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.09151907189856218
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_097",
+      "original_raw_world_sha256": "76b65e29b1731b95f2659fc725a1cbfff1b3fa88ca21e791add2ac51b4443e7a",
+      "source_aabb_m": [
+        [
+          5.128551006317139,
+          5.740790843963623
+        ],
+        [
+          -7.304955005645752,
+          -6.640507221221924
+        ],
+        [
+          -6.57612943649292,
+          -6.331806659698486
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_097",
+      "copy_world_sha256": "0c5eb7e13ee96102d90628a04016bdd6b513e5bb088be0de8e441ed23c313604",
+      "copy_topology": {
+        "vertices": 40,
+        "faces": 76,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.05470641294542393
+      }
+    },
+    {
+      "source_name": "SITE_Split_Talus_098",
+      "original_raw_world_sha256": "24648fd0fdae2d8b2855498ea30967026c3609daa404f02e3ee3cea3a9b8fb96",
+      "source_aabb_m": [
+        [
+          -17.397342681884766,
+          -16.72504997253418
+        ],
+        [
+          -6.98344612121582,
+          -6.723392963409424
+        ],
+        [
+          -6.495176792144775,
+          -6.343832492828369
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Split_Talus_098",
+      "copy_world_sha256": "d65d4be0ad799307c09b4ec6a243b1ad4433c81ee6f3b316f76866c5347d9c81",
+      "copy_topology": {
+        "vertices": 31,
+        "faces": 58,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 0.014995640883764656
+      }
+    },
+    {
+      "source_name": "SITE_Cascade_Shoulder_Continuous_0",
+      "original_raw_world_sha256": "493e9bf718e6c410268284b942922dc3fb24c0795d453ae9962b19375e335021",
+      "source_aabb_m": [
+        [
+          -1.9644875526428223,
+          1.3573319911956787
+        ],
+        [
+          0.7441009879112244,
+          3.1532814502716064
+        ],
+        [
+          -5.363169193267822,
+          -3.2033112049102783
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Cascade_Shoulder_Continuous_0",
+      "copy_world_sha256": "d97812cb8ffe68dcae230003c25d505d7673157d86c62ec3f722d2c1a5ec40e6",
+      "copy_topology": {
+        "vertices": 6937,
+        "faces": 13870,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 8.826374875455706
+      }
+    },
+    {
+      "source_name": "SITE_Cascade_Shoulder_Continuous_1",
+      "original_raw_world_sha256": "b73eff77c0694710e29a6be81d744a4d60d5de0fdbecb4bd81b62ad4130c3fc5",
+      "source_aabb_m": [
+        [
+          3.2525393962860107,
+          7.0270185470581055
+        ],
+        [
+          -8.471744537353516,
+          -5.571217060089111
+        ],
+        [
+          -5.520976543426514,
+          -3.217019557952881
+        ]
+      ],
+      "copy_name": "W10_Collider_SITE_Cascade_Shoulder_Continuous_1",
+      "copy_world_sha256": "0314910913f106155de969cd927ba8c71605a51ba2bdada9123cb7955b0765ab",
+      "copy_topology": {
+        "vertices": 5095,
+        "faces": 10186,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_m3": 13.930828420709531
+      }
+    }
+  ],
+  "boolean_log": [
+    {
+      "object": "W10_Collider_SITE_Continuous_BearRun_Terrain",
+      "before_vertices": 49910,
+      "after_vertices": 15711,
+      "seconds": 0.6025086000008741
+    },
+    {
+      "object": "W10_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+      "before_vertices": 15711,
+      "after_vertices": 15763,
+      "seconds": 0.46565450000343844
+    },
+    {
+      "object": "W10_Collider_SITE_Secondary_Sandstone_Ledge_00",
+      "before_vertices": 15763,
+      "after_vertices": 15616,
+      "seconds": 0.32384940000338247
+    },
+    {
+      "object": "W10_Collider_SITE_Secondary_Sandstone_Ledge_01",
+      "before_vertices": 15616,
+      "after_vertices": 15616,
+      "seconds": 0.11876510000001872
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0144",
+      "before_vertices": 15616,
+      "after_vertices": 15667,
+      "seconds": 0.15177930000209017
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0145",
+      "before_vertices": 15667,
+      "after_vertices": 15667,
+      "seconds": 0.12304739999672165
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0146",
+      "before_vertices": 15667,
+      "after_vertices": 15667,
+      "seconds": 0.12078279999695951
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0147",
+      "before_vertices": 15667,
+      "after_vertices": 15638,
+      "seconds": 0.1832806000020355
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0148",
+      "before_vertices": 15638,
+      "after_vertices": 15638,
+      "seconds": 0.11963600000308361
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0149",
+      "before_vertices": 15638,
+      "after_vertices": 15670,
+      "seconds": 0.178743200005556
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0150",
+      "before_vertices": 15670,
+      "after_vertices": 15681,
+      "seconds": 0.15341919999627862
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0151",
+      "before_vertices": 15681,
+      "after_vertices": 15678,
+      "seconds": 0.17626110000128392
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0152",
+      "before_vertices": 15678,
+      "after_vertices": 15680,
+      "seconds": 0.14727039999706903
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0153",
+      "before_vertices": 15680,
+      "after_vertices": 15680,
+      "seconds": 0.12366150000161724
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0154",
+      "before_vertices": 15680,
+      "after_vertices": 15741,
+      "seconds": 0.19437869999819668
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0155",
+      "before_vertices": 15741,
+      "after_vertices": 15673,
+      "seconds": 0.22673090000171214
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0156",
+      "before_vertices": 15673,
+      "after_vertices": 15673,
+      "seconds": 0.12771029999566963
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0157",
+      "before_vertices": 15673,
+      "after_vertices": 15643,
+      "seconds": 0.19177339999441756
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0158",
+      "before_vertices": 15643,
+      "after_vertices": 15652,
+      "seconds": 0.15950950000114972
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0159",
+      "before_vertices": 15652,
+      "after_vertices": 15652,
+      "seconds": 0.1195233999969787
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0160",
+      "before_vertices": 15652,
+      "after_vertices": 15652,
+      "seconds": 0.12866070000018226
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0161",
+      "before_vertices": 15652,
+      "after_vertices": 15628,
+      "seconds": 0.17530099999567028
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0162",
+      "before_vertices": 15628,
+      "after_vertices": 15633,
+      "seconds": 0.1509682999967481
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0163",
+      "before_vertices": 15633,
+      "after_vertices": 15641,
+      "seconds": 0.17744459999812534
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0164",
+      "before_vertices": 15641,
+      "after_vertices": 15633,
+      "seconds": 0.1662512000038987
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0165",
+      "before_vertices": 15633,
+      "after_vertices": 15633,
+      "seconds": 0.1271363999985624
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0166",
+      "before_vertices": 15633,
+      "after_vertices": 15633,
+      "seconds": 0.13156099999469006
+    },
+    {
+      "object": "W10_Collider_SITE_Bank_0167",
+      "before_vertices": 15633,
+      "after_vertices": 15633,
+      "seconds": 0.13023380000231555
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_015",
+      "before_vertices": 15633,
+      "after_vertices": 15687,
+      "seconds": 0.16448010000021895
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_017",
+      "before_vertices": 15687,
+      "after_vertices": 15724,
+      "seconds": 0.13978489999863086
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_028",
+      "before_vertices": 15724,
+      "after_vertices": 15770,
+      "seconds": 0.13453070000105072
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_032",
+      "before_vertices": 15770,
+      "after_vertices": 15770,
+      "seconds": 0.13474310000310652
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_033",
+      "before_vertices": 15770,
+      "after_vertices": 15812,
+      "seconds": 0.14362809999875026
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_035",
+      "before_vertices": 15812,
+      "after_vertices": 15872,
+      "seconds": 0.15250129999913042
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_051",
+      "before_vertices": 15872,
+      "after_vertices": 15917,
+      "seconds": 0.16201549999823328
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_053",
+      "before_vertices": 15917,
+      "after_vertices": 15978,
+      "seconds": 0.1872148999973433
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_058",
+      "before_vertices": 15978,
+      "after_vertices": 16034,
+      "seconds": 0.1480943999995361
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_067",
+      "before_vertices": 16034,
+      "after_vertices": 16078,
+      "seconds": 0.13766039999609347
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_073",
+      "before_vertices": 16078,
+      "after_vertices": 16125,
+      "seconds": 0.13801619999867398
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_075",
+      "before_vertices": 16125,
+      "after_vertices": 16194,
+      "seconds": 0.1713986999966437
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_090",
+      "before_vertices": 16194,
+      "after_vertices": 16237,
+      "seconds": 0.1411426999984542
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_093",
+      "before_vertices": 16237,
+      "after_vertices": 16237,
+      "seconds": 0.14066359999560518
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_097",
+      "before_vertices": 16237,
+      "after_vertices": 16325,
+      "seconds": 0.18683059999602847
+    },
+    {
+      "object": "W10_Collider_SITE_Split_Talus_098",
+      "before_vertices": 16325,
+      "after_vertices": 16325,
+      "seconds": 0.14192950000142446
+    },
+    {
+      "object": "W10_Collider_SITE_Cascade_Shoulder_Continuous_0",
+      "before_vertices": 16325,
+      "after_vertices": 16325,
+      "seconds": 0.18636070000502514
+    },
+    {
+      "object": "W10_Collider_SITE_Cascade_Shoulder_Continuous_1",
+      "before_vertices": 16325,
+      "after_vertices": 16325,
+      "seconds": 0.1746288999929675
+    }
+  ],
+  "initial_prism_volume_m3": 880.694198370385,
+  "initial_components_before_retaining_main_channel": [
+    {
+      "verts": 16225,
+      "faces": 27515,
+      "volume_m3": 114.43787496592785,
+      "bounds": [
+        [
+          -16.0,
+          8.0
+        ],
+        [
+          -17.0,
+          5.363795280456543
+        ],
+        [
+          -7.335722923278809,
+          -5.771274089813232
+        ]
+      ]
+    },
+    {
+      "verts": 37,
+      "faces": 70,
+      "volume_m3": 0.031170873592297088,
+      "bounds": [
+        [
+          -14.314631462097168,
+          -13.687207221984863
+        ],
+        [
+          -12.170271873474121,
+          -11.539613723754883
+        ],
+        [
+          -7.305875778198242,
+          -7.1390767097473145
+        ]
+      ]
+    },
+    {
+      "verts": 43,
+      "faces": 37,
+      "volume_m3": 0.0004442349697152207,
+      "bounds": [
+        [
+          -8.83633041381836,
+          -8.32851505279541
+        ],
+        [
+          -5.2046661376953125,
+          -4.593184947967529
+        ],
+        [
+          -6.0914812088012695,
+          -6.0799736976623535
+        ]
+      ]
+    },
+    {
+      "verts": 20,
+      "faces": 12,
+      "volume_m3": 2.011918695643549e-05,
+      "bounds": [
+        [
+          -4.955981254577637,
+          -4.493410587310791
+        ],
+        [
+          -13.665204048156738,
+          -13.404353141784668
+        ],
+        [
+          -6.543865203857422,
+          -6.537243366241455
+        ]
+      ]
+    }
+  ],
+  "initial_connected_topology": {
+    "vertices": 16225,
+    "faces": 27515,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 114.43759313549212
+  },
+  "boolean_collinear_tjunction_stitch": [
+    {
+      "a": [
+        4.494966983795166,
+        -5.323610305786133,
+        -6.397485733032227
+      ],
+      "middle": [
+        4.521050930023193,
+        -5.407291889190674,
+        -6.402588367462158
+      ],
+      "b": [
+        4.547134876251221,
+        -5.490973472595215,
+        -6.40769100189209
+      ],
+      "collinearity_error_m": 0.0,
+      "fraction": 0.5,
+      "new_vertices": 0,
+      "moved_vertices": 0,
+      "filled_area_m2": 0
+    },
+    {
+      "a": [
+        3.143186330795288,
+        -3.409559965133667,
+        -6.33608341217041
+      ],
+      "middle": [
+        3.191904306411743,
+        -3.4811697006225586,
+        -6.340119361877441
+      ],
+      "b": [
+        3.2406222820281982,
+        -3.55277943611145,
+        -6.344155311584473
+      ],
+      "collinearity_error_m": 0.0,
+      "fraction": 0.5,
+      "new_vertices": 0,
+      "moved_vertices": 0,
+      "filled_area_m2": 0
+    }
+  ],
+  "initial_volume_relative_quartermeter_proxy": 0.19982819600275037,
+  "initial_volume_over_cell_cubed_rough_wet_voxels": 271259.48002487025,
+  "initial_stage_C": "Nearest existing downstream path9:16 head, mainpool -5.771274; not proven hydraulic equilibrium",
+  "initial_flow": {
+    "flow_type": "LIQUID",
+    "flow_behavior": "GEOMETRY",
+    "flow_source": "MESH",
+    "use_initial_velocity": false,
+    "velocity_factor": 1.0,
+    "velocity_coord": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "velocity_normal": 0.0,
+    "velocity_random": 0.0,
+    "surface_distance": 0.0,
+    "subframes": 0,
+    "use_inflow": true,
+    "use_plane_init": false,
+    "use_texture": false
+  },
+  "source_flow": {
+    "flow_type": "LIQUID",
+    "flow_behavior": "INFLOW",
+    "flow_source": "MESH",
+    "use_initial_velocity": true,
+    "velocity_factor": 0.0,
+    "velocity_coord": [
+      -1.5031434297561646,
+      -1.0052733421325684,
+      -6.694818496704102
+    ],
+    "velocity_normal": 0.0,
+    "velocity_random": 0.0,
+    "surface_distance": 0.0,
+    "subframes": 1,
+    "use_inflow": true,
+    "use_plane_init": false,
+    "use_texture": false
+  },
+  "source_actual_ring_sections": [
+    {
+      "true_area_m2": 0.04317592676891671,
+      "area_normal_dot_velocity_Q_m3_s": 0.2993898441557769
+    },
+    {
+      "true_area_m2": 0.04317589144199379,
+      "area_normal_dot_velocity_Q_m3_s": 0.29940132532077857
+    },
+    {
+      "true_area_m2": 0.04317592108732291,
+      "area_normal_dot_velocity_Q_m3_s": 0.29940884524119066
+    },
+    {
+      "true_area_m2": 0.04317592704826769,
+      "area_normal_dot_velocity_Q_m3_s": 0.2994126913582044
+    },
+    {
+      "true_area_m2": 0.04317590913523622,
+      "area_normal_dot_velocity_Q_m3_s": 0.29941367453972584
+    },
+    {
+      "true_area_m2": 0.043175928732325675,
+      "area_normal_dot_velocity_Q_m3_s": 0.2994129131614095
+    },
+    {
+      "true_area_m2": 0.043175915155586234,
+      "area_normal_dot_velocity_Q_m3_s": 0.29941043501091874
+    },
+    {
+      "true_area_m2": 0.0431759087709263,
+      "area_normal_dot_velocity_Q_m3_s": 0.299406804302874
+    },
+    {
+      "true_area_m2": 0.04317591019906847,
+      "area_normal_dot_velocity_Q_m3_s": 0.2994021275084886
+    }
+  ],
+  "source_Q_C_design_m3_s": 0.2994137004643072,
+  "source_width_cells": 3.2,
+  "source_thickness_cells": 3.066666666666667,
+  "source_topology": {
+    "vertices": 360,
+    "faces": 716,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_m3": 0.01458764930654643
+  },
+  "source_aabb_m": [
+    [
+      0.8458382487297058,
+      1.145461916923523
+    ],
+    [
+      -2.2322916984558105,
+      -1.9476646184921265
+    ],
+    [
+      -5.562669277191162,
+      -5.17641019821167
+    ]
+  ],
+  "source_collision_checks": [
+    {
+      "collider": "W10_Collider_SITE_Continuous_BearRun_Terrain",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 0.9373307228088379
+    },
+    {
+      "collider": "W10_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 1.0568146705627441
+    },
+    {
+      "collider": "W10_Collider_SITE_Secondary_Sandstone_Ledge_00",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 4.051840782165527
+    },
+    {
+      "collider": "W10_Collider_SITE_Secondary_Sandstone_Ledge_01",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 7.517706871032715
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0144",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 4.927178859710693
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0145",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 4.514678955078125
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0146",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 4.588251113891602
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0147",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 6.319065570831299
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0148",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 6.008772373199463
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0149",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 6.168692111968994
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0150",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 6.853404998779297
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0151",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 9.170809745788574
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0152",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 8.98050594329834
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0153",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 8.96436595916748
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0154",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 11.684305191040039
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0155",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 11.453662872314453
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0156",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 11.952606201171875
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0157",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 11.861541748046875
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0158",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 11.805825233459473
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0159",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 11.876006126403809
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0160",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 11.940412521362305
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0161",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 15.475878715515137
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0162",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 15.695450782775879
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0163",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 15.958532333374023
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0164",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 15.877164840698242
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0165",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 16.013158798217773
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0166",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 15.475747108459473
+    },
+    {
+      "collider": "W10_Collider_SITE_Bank_0167",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 18.64417266845703
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_015",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 6.979650020599365
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_017",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 17.531131744384766
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_028",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 18.80957794189453
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_032",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 10.306927680969238
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_033",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 10.583157539367676
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_035",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 16.600439071655273
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_051",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 7.523993015289307
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_053",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 1.815191626548767
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_058",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 17.68353271484375
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_067",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 13.638005256652832
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_073",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 14.821418762207031
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_075",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 9.945481300354004
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_090",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 4.635287761688232
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_093",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 8.844513893127441
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_097",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 6.218898296356201
+    },
+    {
+      "collider": "W10_Collider_SITE_Split_Talus_098",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 18.209653854370117
+    },
+    {
+      "collider": "W10_Collider_SITE_Cascade_Shoulder_Continuous_0",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 2.9374613761901855
+    },
+    {
+      "collider": "W10_Collider_SITE_Cascade_Shoulder_Continuous_1",
+      "triangle_overlap_pairs": 0,
+      "min_sample_clearance_m": 4.768922328948975
+    }
+  ],
+  "source_containment_pass": true,
+  "secondary_idempotent_setter": [
+    {
+      "property": "use_foam_particles",
+      "before": false,
+      "assigned": true,
+      "after": true
+    },
+    {
+      "property": "use_spray_particles",
+      "before": false,
+      "assigned": true,
+      "after": true
+    },
+    {
+      "property": "use_bubble_particles",
+      "before": false,
+      "assigned": false,
+      "after": false
+    },
+    {
+      "property": "use_tracer_particles",
+      "before": false,
+      "assigned": false,
+      "after": false
+    }
+  ],
+  "candidate_geometry_hashes": {
+    "WATER10_Natural_Channel_Domain": "4a87d8d3147d44d9c6dc0d2f8784641fafc6db95952e8f029815f79398e747e3",
+    "W10_Collider_SITE_Continuous_BearRun_Terrain": "14abc9494b92771946a53b7b4db869af32d0df4b3d537767a0ca5eae74accfc3",
+    "W10_Collider_SITE_Core_Continuous_Fractured_Sandstone": "30d6b6cc01a24006d04dbb1da6ddd46267862b1a72122d908fdc6a11e87b7fc6",
+    "W10_Collider_SITE_Secondary_Sandstone_Ledge_00": "2296173e23cca68afb058e696c1f23d7ef499b3c7697a9227494237262d5749f",
+    "W10_Collider_SITE_Secondary_Sandstone_Ledge_01": "e66b977efcd8e97709f90b2a783a6d400d24b7861243938bd835aa7e47f30b7c",
+    "W10_Collider_SITE_Bank_0144": "67ff1668494d0f15c3e57ac4a62720fd878da34179fd51f50631e0d76906a49b",
+    "W10_Collider_SITE_Bank_0145": "097663f52c445903fc580507e46e235d9b5f6490ac3379ec74182d5f93a8881b",
+    "W10_Collider_SITE_Bank_0146": "e0d1242e2bd5c00f608f9766fa4a16912a5aaff113280be8d97139c73fc7cc3c",
+    "W10_Collider_SITE_Bank_0147": "af7da9200c45eecd5ba68c30f65f300d4f772a3f3314e342a448b40c2fb25ab8",
+    "W10_Collider_SITE_Bank_0148": "c3532d6b4762cca44d595574562a64f5f6bb0eb8df6a14d580a29a734a51808b",
+    "W10_Collider_SITE_Bank_0149": "d63eedbab14909cde2ff8a1373c365152d1fcf2ea9c44920d90e2262added6dd",
+    "W10_Collider_SITE_Bank_0150": "7c2a27013cbb03090c870530128b24ccae827a1c1cad880f4fa7f2808215795b",
+    "W10_Collider_SITE_Bank_0151": "d5869ad0300515288f88430c6c765163aa30c97cf4cc6b8f6b10a9c1022c2439",
+    "W10_Collider_SITE_Bank_0152": "616a295f225a052c1be17084fcfd6fa01cfaa7eae76687944a823ae0f0df4a59",
+    "W10_Collider_SITE_Bank_0153": "cd6cfe3cc8002b5ed8d64634003de696ed7b1a65108f980cd0ebcc921e36ed66",
+    "W10_Collider_SITE_Bank_0154": "0b71de9f641eee6b9531431af392f13e9a43c1a320999c09c582f58aae0a36cb",
+    "W10_Collider_SITE_Bank_0155": "578197b7a1fab106fb8f81a17ef1b15b59c15367e042bbe3cf4a2eb643aa2b1a",
+    "W10_Collider_SITE_Bank_0156": "19bbfc8c2425684253c43470aaf9a8ff9c19c9d8dc33b155d75c29a590a0bf57",
+    "W10_Collider_SITE_Bank_0157": "7fe0048de9d8b72103a4a3e36de91e2aada7b1febf6e968959feb2d1c5875b0b",
+    "W10_Collider_SITE_Bank_0158": "d3c79f5827dc1a44c23936eadafed9989db0d689904d107d72540014ef767116",
+    "W10_Collider_SITE_Bank_0159": "14a0ca26d6c8bda93195dc1fb3b631504e82f187ee1e6b060c5e2d82e9e841f0",
+    "W10_Collider_SITE_Bank_0160": "c443136b88037811a25dc87ce230f5cdaa9b98d553b587c166d2a8e95ebb5c7a",
+    "W10_Collider_SITE_Bank_0161": "d2288f442794285cf02c345026e3cfb6bd945282fffb1c54d169b47231800e4c",
+    "W10_Collider_SITE_Bank_0162": "ba6611ee2f3b189222b26de262262e113909d15715f18cd6df4cc4fa8bb14172",
+    "W10_Collider_SITE_Bank_0163": "04452870100eea9b758277c938934fe087f58c663d73d6eb43d270163df6b807",
+    "W10_Collider_SITE_Bank_0164": "a7e420f17de9103ccac8fdb4242012f96eadebeaadd7a8b769529ffe15152565",
+    "W10_Collider_SITE_Bank_0165": "3891f9835c1b40654063af5b635b53a6807a424b012ad0908af2d579d8d7ec43",
+    "W10_Collider_SITE_Bank_0166": "b56bfcf5cf67016088ac8e06dfc94525642d920cbb521147809a9fb8eb711543",
+    "W10_Collider_SITE_Bank_0167": "2c27afe2c654d95aecaa50d0fa11dea71840fbb4801464bf2c3f399962cfaa8f",
+    "W10_Collider_SITE_Split_Talus_015": "8e4a99ee4ad5c1dc9c27324c2460adb5560eb1e9c0061a09b3dd27c07c5378e1",
+    "W10_Collider_SITE_Split_Talus_017": "724cd83a9325e9cb2848ffba520f3f49c54ae28aacdabab700075f8d25c0601f",
+    "W10_Collider_SITE_Split_Talus_028": "009e85431c27c95d3d24b9b174f41120a6c2c7e14c19906359db321ab9a1a2f5",
+    "W10_Collider_SITE_Split_Talus_032": "5055643df36a71623ef00e2e4c1a3ab783759ee85776be7dd0bdca78b77fd167",
+    "W10_Collider_SITE_Split_Talus_033": "76df3959f66a56596004af5cdc004d11fd44906ed24a6dc3996c2293aeb18131",
+    "W10_Collider_SITE_Split_Talus_035": "91f1d521a904860bf4099cff20acae18febc098284241e1bab9b5f7db74eca1e",
+    "W10_Collider_SITE_Split_Talus_051": "c92ca8c6aee4d7f8d2f0ae5e5dc749b5ec02caa5681f39f85672e27740849202",
+    "W10_Collider_SITE_Split_Talus_053": "82e3dd91af063386fb7ec9aca0d0b5caa1a8d6c3571ff1c264bcafd2a050572f",
+    "W10_Collider_SITE_Split_Talus_058": "e01395542d79ea520381a63bcaa71f2d63cf04f9813025836812573ba57e6273",
+    "W10_Collider_SITE_Split_Talus_067": "8b71e5f9d44f948dab7f4db33b6ab69b27177e2f1ea845d6841a2ba21d8e3fc5",
+    "W10_Collider_SITE_Split_Talus_073": "e1bd80d3262099ff7aa331c3ad27eb682bbfa1b171fea55a21de3c3159be42e7",
+    "W10_Collider_SITE_Split_Talus_075": "0d39bec5d5398bd20a13503a12bca0728697b5f9602d84b2ab2ddf6d8b07ce80",
+    "W10_Collider_SITE_Split_Talus_090": "15abec269fd3fd7ecde13966356ab0ffa046c7901f8780a0acb033942e3b9b42",
+    "W10_Collider_SITE_Split_Talus_093": "0948468ef2735f279cc0cbb133cfb2076636c3bff53b6eb2da62c6ceb1e14a46",
+    "W10_Collider_SITE_Split_Talus_097": "0c5eb7e13ee96102d90628a04016bdd6b513e5bb088be0de8e441ed23c313604",
+    "W10_Collider_SITE_Split_Talus_098": "d65d4be0ad799307c09b4ec6a243b1ad4433c81ee6f3b316f76866c5347d9c81",
+    "W10_Collider_SITE_Cascade_Shoulder_Continuous_0": "d97812cb8ffe68dcae230003c25d505d7673157d86c62ec3f722d2c1a5ec40e6",
+    "W10_Collider_SITE_Cascade_Shoulder_Continuous_1": "0314910913f106155de969cd927ba8c71605a51ba2bdada9123cb7955b0765ab",
+    "WATER10_Complete_Connected_Initial_Channel": "882146039fc3049f8ff2cf4077a8a975abb92294a000c60aaedfa7713ba9c6d8",
+    "WATER10_C_Gravity_Branch_Inflow": "3a3c4fc41cfbde3fd165ebdca6afb9d8efbf56d3092537a3e15b4c0431a31131"
+  },
+  "boundary_axis_mapping": {
+    "left": "world X minimum OPEN",
+    "right": "world X maximum OPEN C numerical-pressure diagnostic; not natural outlet",
+    "front": "world Y minimum OPEN",
+    "back": "world Y maximum CLOSED",
+    "bottom": "world Z minimum CLOSED",
+    "top": "world Z maximum OPEN"
+  },
+  "boundary_primary_source": "https://raw.githubusercontent.com/blender/blender/blender-v5.2-release/intern/mantaflow/intern/MANTA_main.cpp lines727-744",
+  "C_disclosures": [
+    "Complete initial stage is authored, not measured equilibrium.",
+    "Only exact copied terrain perimeter and bottom closure are added; closure below -9m and outside domain XY.",
+    "Single .24x.23m branch source is author-designed Q .2994137, not full waterfall flow.",
+    "Native source has no assembled upstream branch join; production JOIN remains unverified.",
+    "Open downstream edges are not constant-head boundaries; 5-10s backwater remains unverified."
+  ],
+  "old_water09_Q_70_44percent_FAIL_retained": true,
+  "historical_600s_budget_estimate_unchanged_in": "qa/water10-domain-config.json",
+  "future_root_budget_seconds": 2400,
+  "future_bake_authorized_this_turn": false,
+  "linear_48_cost_estimate_seconds": 1217.5578958,
+  "cost_estimate_range_seconds": [
+    608.7789479,
+    3652.6736873
+  ],
+  "48frames_in_2400s_not_guaranteed": true,
+  "resources_before_save": {
+    "physical_total_bytes": 68340748288,
+    "physical_available_bytes": 38903296000,
+    "memory_load_percent": 43,
+    "disk_free_bytes": 736146452480,
+    "planning_peak_RAM_bytes_not_measured": [
+      3817440000,
+      9269760000
+    ],
+    "planning_cache_bytes_not_measured": [
+      2062451653,
+      8249806611
+    ],
+    "RAM_reserve_12GB_available": true,
+    "disk_reserve_12GB_available": true
+  },
+  "prepare_seconds_before_save": 32.27200349999475,
+  "new_bakes": 0,
+  "new_renders": 0,
+  "production_changed": false,
+  "pre_save_assertions": {
+    "passed": true,
+    "actual_domain": {
+      "domain_type": "LIQUID",
+      "resolution_max": 320,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9700000286102295,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 1,
+      "timesteps_max": 8,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": false,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": false,
+      "use_flip_particles": true,
+      "use_foam_particles": true,
+      "use_spray_particles": true,
+      "use_bubble_particles": false,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 1,
+      "mesh_particle_radius": 1.25,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": false,
+      "use_collision_border_back": true,
+      "use_collision_border_left": false,
+      "use_collision_border_right": false,
+      "use_collision_border_top": false,
+      "use_collision_border_bottom": true,
+      "cache_type": "ALL",
+      "cache_resumable": true,
+      "cache_frame_start": 1,
+      "cache_frame_end": 48,
+      "cache_data_format": "OPENVDB",
+      "cache_mesh_format": "BOBJECT",
+      "cache_particle_format": "UNI",
+      "sndparticle_sampling_wavecrest": 8,
+      "sndparticle_sampling_trappedair": 8,
+      "sndparticle_life_min": 0.25,
+      "sndparticle_life_max": 1.2000000476837158,
+      "sndparticle_combined_export": "OFF",
+      "sndparticle_boundary": "DELETE"
+    },
+    "actual_particle_systems": [
+      "FLIP",
+      "FOAM",
+      "SPRAY"
+    ],
+    "actual_effectors": [
+      {
+        "name": "W10_Collider_SITE_Continuous_BearRun_Terrain",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Secondary_Sandstone_Ledge_00",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Secondary_Sandstone_Ledge_01",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0144",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0145",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0146",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0147",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0148",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0149",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0150",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0151",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0152",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0153",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0154",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0155",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0156",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0157",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0158",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0159",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0160",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0161",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0162",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0163",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0164",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0165",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0166",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0167",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_015",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_017",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_028",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_032",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_033",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_035",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_051",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_053",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_058",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_067",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_073",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_075",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_090",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_093",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_097",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_098",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Cascade_Shoulder_Continuous_0",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Cascade_Shoulder_Continuous_1",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      }
+    ],
+    "geometry_hashes_verified": 49,
+    "raw_domain_aabb": [
+      [
+        -16.0,
+        8.0
+      ],
+      [
+        -17.0,
+        6.0
+      ],
+      [
+        -7.699999809265137,
+        -4.949999809265137
+      ]
+    ],
+    "RNA_domain_resolution_before_solver_allocation": [
+      0,
+      0,
+      0
+    ],
+    "estimated_grid_not_yet_solver_observed": [
+      320,
+      307,
+      37
+    ],
+    "candidate_is_separate": true
+  },
+  "old_cache_manifest_456files_unchanged": true,
+  "prepared_sha256": "00f0ae9a85655f0f64bc68cbe539fd04fc89024af920c610ee4a021d5adcdbdc",
+  "prepare_seconds": 50.46672209999815,
+  "fresh_process_reopen_assertions": {
+    "passed": true,
+    "actual_domain": {
+      "domain_type": "LIQUID",
+      "resolution_max": 320,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9700000286102295,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 1,
+      "timesteps_max": 8,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": false,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": false,
+      "use_flip_particles": true,
+      "use_foam_particles": true,
+      "use_spray_particles": true,
+      "use_bubble_particles": false,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 1,
+      "mesh_particle_radius": 1.25,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": false,
+      "use_collision_border_back": true,
+      "use_collision_border_left": false,
+      "use_collision_border_right": false,
+      "use_collision_border_top": false,
+      "use_collision_border_bottom": true,
+      "cache_type": "ALL",
+      "cache_resumable": true,
+      "cache_frame_start": 1,
+      "cache_frame_end": 48,
+      "cache_data_format": "OPENVDB",
+      "cache_mesh_format": "BOBJECT",
+      "cache_particle_format": "UNI",
+      "sndparticle_sampling_wavecrest": 8,
+      "sndparticle_sampling_trappedair": 8,
+      "sndparticle_life_min": 0.25,
+      "sndparticle_life_max": 1.2000000476837158,
+      "sndparticle_combined_export": "OFF",
+      "sndparticle_boundary": "DELETE"
+    },
+    "actual_particle_systems": [
+      "FLIP",
+      "FOAM",
+      "SPRAY"
+    ],
+    "actual_effectors": [
+      {
+        "name": "W10_Collider_SITE_Continuous_BearRun_Terrain",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Secondary_Sandstone_Ledge_00",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Secondary_Sandstone_Ledge_01",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0144",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0145",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0146",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0147",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0148",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0149",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0150",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0151",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0152",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0153",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0154",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0155",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0156",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0157",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0158",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0159",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0160",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0161",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0162",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0163",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0164",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0165",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0166",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0167",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_015",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_017",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_028",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_032",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_033",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_035",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_051",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_053",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_058",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_067",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_073",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_075",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_090",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_093",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_097",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_098",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Cascade_Shoulder_Continuous_0",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Cascade_Shoulder_Continuous_1",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      }
+    ],
+    "geometry_hashes_verified": 49,
+    "raw_domain_aabb": [
+      [
+        -16.0,
+        8.0
+      ],
+      [
+        -17.0,
+        6.0
+      ],
+      [
+        -7.699999809265137,
+        -4.949999809265137
+      ]
+    ],
+    "RNA_domain_resolution_before_solver_allocation": [
+      0,
+      0,
+      0
+    ],
+    "estimated_grid_not_yet_solver_observed": [
+      320,
+      307,
+      37
+    ],
+    "candidate_is_separate": true
+  },
+  "preserved_old_cache_files": 456,
+  "preserved_old_cache_bytes": 1994314599,
+  "source_sha256_after": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "prepared_scene_sha256_after_readonly_reopen": "00f0ae9a85655f0f64bc68cbe539fd04fc89024af920c610ee4a021d5adcdbdc",
+  "resources_after_reopen": {
+    "physical_total_bytes": 68340748288,
+    "physical_available_bytes": 39378767872,
+    "memory_load_percent": 42,
+    "disk_free_bytes": 735897305088,
+    "planning_peak_RAM_bytes_not_measured": [
+      3817440000,
+      9269760000
+    ],
+    "planning_cache_bytes_not_measured": [
+      2062451653,
+      8249806611
+    ],
+    "RAM_reserve_12GB_available": true,
+    "disk_reserve_12GB_available": true
+  },
+  "cache_file_count": 0,
+  "field_audit": "qa/water10-natural48-field-audit.json",
+  "x_max_dry_guard_design_assumption_pass": false,
+  "root_authorized_Xmax_open_alignment": {
+    "prior_scene_sha256": "ae350464fa4934d597b6b28b9982d9aca65cc1e980b5d1a36685c7dca1d57d19",
+    "checkpoint": "D:\\zx\\test\\project\\scene\\Fallingwater_water10_natural48_xmax_closed_checkpoint.blend",
+    "only_RNA_change": {
+      "use_collision_border_right": [
+        true,
+        false
+      ]
+    },
+    "geometry_changed": false,
+    "initial_water_volume_unchanged_m3": 114.43759313549212,
+    "reason": "Original geometry contains a narrowing rock-underbank water cavity at X+ ending by x12, not a natural outlet. Root allowed open X+ as explicit C numerical-pressure diagnostic; no false underwater wall added.",
+    "boundary_wave_report": "qa/water10-natural48-boundary-audit.json",
+    "native_48_boundary_isolation_NOT_PROVEN": true
+  },
+  "closed_checkpoint_hydraulic_preflight_failures": [
+    "X+ dry-guard assumption false: original frozen rock undersides allow a wet connected section behind higher rocks",
+    "Authored nearest-segment initial stage produces seven steep wet samples from discontinuous segment selection; not a settled water head"
+  ],
+  "diagnostic_limitations": [
+    "X+ open cuts an original geometric cavity that closes at x12; artificial C pressure condition, not the real bank outlet.",
+    "48 frame native boundary influence is not proven. Local-depth gravity-wave estimate reaches HERO after4.064s, but global-depth straight-line lower bound1.628s is below2s.",
+    "Initial C stage contains7 steep wet samples around(-4,-12.5) caused by nearest-segment switch; retain as potential initialization transient, do not call it native impact turbulence.",
+    "Full-area volume includes19.254m3 under higher frozen rock surfaces; original highest-bed proxy intentionally did not include those spaces.",
+    "No upstream closed-branch join, no constant-head downstream proof, no visual pass or long cache authorization."
+  ],
+  "review": "qa/water10-natural48-review.md",
+  "launch_guard_check": "qa/water10-natural48-launch-guard-check.json",
+  "final_gate_summary": {
+    "geometry_closure": "PASS",
+    "source_clearance_and_containment": "PASS",
+    "saved_reopened_RNA": "PASS",
+    "old_cache_hash_protection": "PASS",
+    "Xmax_was_dry_assumption": "FAIL_RETAINED_OPEN_C_DIAGNOSTIC_AUTHORIZED",
+    "strict_48frame_boundary_isolation": "UNVERIFIED",
+    "initial_C_stage_steep_patch": "KNOWN_COUNTEREXAMPLE_NOT_REPAIRED",
+    "native_bake": "NOT_RUN",
+    "render": "NOT_RUN",
+    "production_install": false
+  },
+  "at_bake_reopen_assertions": {
+    "passed": true,
+    "actual_domain": {
+      "domain_type": "LIQUID",
+      "resolution_max": 320,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9700000286102295,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 1,
+      "timesteps_max": 8,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": false,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": false,
+      "use_flip_particles": true,
+      "use_foam_particles": true,
+      "use_spray_particles": true,
+      "use_bubble_particles": false,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 1,
+      "mesh_particle_radius": 1.25,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": false,
+      "use_collision_border_back": true,
+      "use_collision_border_left": false,
+      "use_collision_border_right": false,
+      "use_collision_border_top": false,
+      "use_collision_border_bottom": true,
+      "cache_type": "ALL",
+      "cache_resumable": true,
+      "cache_frame_start": 1,
+      "cache_frame_end": 48,
+      "cache_data_format": "OPENVDB",
+      "cache_mesh_format": "BOBJECT",
+      "cache_particle_format": "UNI",
+      "sndparticle_sampling_wavecrest": 8,
+      "sndparticle_sampling_trappedair": 8,
+      "sndparticle_life_min": 0.25,
+      "sndparticle_life_max": 1.2000000476837158,
+      "sndparticle_combined_export": "OFF",
+      "sndparticle_boundary": "DELETE"
+    },
+    "actual_particle_systems": [
+      "FLIP",
+      "FOAM",
+      "SPRAY"
+    ],
+    "actual_effectors": [
+      {
+        "name": "W10_Collider_SITE_Continuous_BearRun_Terrain",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Core_Continuous_Fractured_Sandstone",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Secondary_Sandstone_Ledge_00",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Secondary_Sandstone_Ledge_01",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0144",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0145",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0146",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0147",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0148",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0149",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0150",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0151",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0152",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0153",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0154",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0155",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0156",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0157",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0158",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0159",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0160",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0161",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0162",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0163",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0164",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0165",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0166",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Bank_0167",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_015",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_017",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_028",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_032",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_033",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_035",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_051",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_053",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_058",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_067",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_073",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_075",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_090",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_093",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_097",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Split_Talus_098",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Cascade_Shoulder_Continuous_0",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      },
+      {
+        "name": "W10_Collider_SITE_Cascade_Shoulder_Continuous_1",
+        "surface_distance": 0.0010000000474974513,
+        "use_plane_init": false,
+        "use_effector": true
+      }
+    ],
+    "geometry_hashes_verified": 49,
+    "raw_domain_aabb": [
+      [
+        -16.0,
+        8.0
+      ],
+      [
+        -17.0,
+        6.0
+      ],
+      [
+        -7.699999809265137,
+        -4.949999809265137
+      ]
+    ],
+    "RNA_domain_resolution_before_solver_allocation": [
+      0,
+      0,
+      0
+    ],
+    "estimated_grid_not_yet_solver_observed": [
+      320,
+      307,
+      37
+    ],
+    "candidate_is_separate": true
+  },
+  "actual_bake_seconds": 563.665737700001,
+  "bake_result": [
+    "FINISHED"
+  ],
+  "actual_cache_files": 192,
+  "actual_cache_bytes": 2451203294,
+  "actual_mesh_frame_files": 48,
+  "baked_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_water10_natural48_baked.blend",
+  "baked_scene_sha256": "18008f85c7f6a2c9294d1d87ca526fa78db8fd547474fcb174dced2dbcba16ac",
+  "old_caches_unchanged_after_bake": true
+}

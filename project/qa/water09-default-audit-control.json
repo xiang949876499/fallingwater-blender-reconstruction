@@ -1,0 +1,972 @@
+{
+  "status": "FACTORY_MINIMAL_STATIC_PASS_NOT_COMPLEX_SCENE_PROOF",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_water09_factory_default12.blend",
+  "source": "Independent factory startup; no project helper or existing scene imported",
+  "frame_range": [
+    1,
+    12
+  ],
+  "fps": 24,
+  "threads": 4,
+  "resolution": 32,
+  "grid_cells": 32768,
+  "cell_m": 0.0625,
+  "domain_bounds_m": [
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ]
+  ],
+  "initial_liquid_bounds_m": [
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      0
+    ]
+  ],
+  "initial_head_z_m": 0,
+  "initial_volume_m3": 4,
+  "expected_control": "Factory static liquid in closed cube; not real river",
+  "production_installed": false,
+  "render_run": false,
+  "secondary_setter_log": [
+    {
+      "property": "use_foam_particles",
+      "before": false,
+      "assigned": false,
+      "after": false
+    },
+    {
+      "property": "use_spray_particles",
+      "before": false,
+      "assigned": false,
+      "after": false
+    },
+    {
+      "property": "use_bubble_particles",
+      "before": false,
+      "assigned": false,
+      "after": false
+    }
+  ],
+  "pre_save_assertions": {
+    "domain_actual": {
+      "domain_type": "LIQUID",
+      "resolution_max": 32,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9700000286102295,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 1,
+      "timesteps_max": 4,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": false,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": false,
+      "use_flip_particles": true,
+      "use_foam_particles": false,
+      "use_spray_particles": false,
+      "use_bubble_particles": false,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 2,
+      "mesh_particle_radius": 2.0,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": true,
+      "use_collision_border_back": true,
+      "use_collision_border_left": true,
+      "use_collision_border_right": true,
+      "use_collision_border_top": true,
+      "use_collision_border_bottom": true
+    },
+    "flow_actual": {
+      "flow_type": "LIQUID",
+      "flow_behavior": "GEOMETRY",
+      "flow_source": "MESH",
+      "use_initial_velocity": false,
+      "velocity_factor": 1.0,
+      "velocity_normal": 0.0,
+      "velocity_random": 0.0,
+      "volume_density": 0.0,
+      "surface_distance": 0.0,
+      "use_plane_init": false,
+      "use_inflow": true,
+      "subframes": 0
+    },
+    "initial_world_velocity": [
+      0,
+      0,
+      0
+    ],
+    "particle_systems": [
+      "FLIP"
+    ],
+    "initial_volume_m3": 3.9999999999999996,
+    "nonmanifold_edges": 0,
+    "objects": 2,
+    "all_assertions_passed": true,
+    "cache_resumable": true
+  },
+  "hard_stop_seconds": 90,
+  "cost_estimate_seconds": [
+    15,
+    60
+  ],
+  "cost_estimate_bytes": [
+    10000000,
+    60000000
+  ],
+  "root_cache_expected_under_bytes": 100000000,
+  "no_automatic_extension": true,
+  "prepared_sha256": "73667fd9bda348d323ca01e347bf1dc86c5896047b18dab49863661a972d943f",
+  "reopened_assertions": {
+    "domain_actual": {
+      "domain_type": "LIQUID",
+      "resolution_max": 32,
+      "simulation_method": "FLIP",
+      "flip_ratio": 0.9700000286102295,
+      "use_adaptive_timesteps": true,
+      "cfl_condition": 2.0,
+      "timesteps_min": 1,
+      "timesteps_max": 4,
+      "particle_radius": 1.0,
+      "particle_number": 2,
+      "particle_min": 8,
+      "particle_max": 16,
+      "particle_randomness": 0.10000000149011612,
+      "particle_band_width": 3.0,
+      "sys_particle_maximum": 0,
+      "use_fractions": false,
+      "fractions_distance": 0.5,
+      "fractions_threshold": 0.05000000074505806,
+      "delete_in_obstacle": false,
+      "use_flip_particles": true,
+      "use_foam_particles": false,
+      "use_spray_particles": false,
+      "use_bubble_particles": false,
+      "use_tracer_particles": false,
+      "use_guide": false,
+      "use_diffusion": false,
+      "use_viscosity": false,
+      "surface_tension": 0.0,
+      "time_scale": 1.0,
+      "use_mesh": true,
+      "mesh_scale": 2,
+      "mesh_particle_radius": 2.0,
+      "mesh_generator": "IMPROVED",
+      "mesh_smoothen_pos": 1,
+      "mesh_smoothen_neg": 1,
+      "use_collision_border_front": true,
+      "use_collision_border_back": true,
+      "use_collision_border_left": true,
+      "use_collision_border_right": true,
+      "use_collision_border_top": true,
+      "use_collision_border_bottom": true
+    },
+    "flow_actual": {
+      "flow_type": "LIQUID",
+      "flow_behavior": "GEOMETRY",
+      "flow_source": "MESH",
+      "use_initial_velocity": false,
+      "velocity_factor": 1.0,
+      "velocity_normal": 0.0,
+      "velocity_random": 0.0,
+      "volume_density": 0.0,
+      "surface_distance": 0.0,
+      "use_plane_init": false,
+      "use_inflow": true,
+      "subframes": 0
+    },
+    "initial_world_velocity": [
+      0,
+      0,
+      0
+    ],
+    "particle_systems": [
+      "FLIP"
+    ],
+    "initial_volume_m3": 3.9999999999999996,
+    "nonmanifold_edges": 0,
+    "objects": 2,
+    "all_assertions_passed": true,
+    "cache_resumable": true
+  },
+  "bake_seconds": 0.78863740000088,
+  "bake_result": [
+    "FINISHED"
+  ],
+  "baked_sha256": "122c39f8503b66a6bf035ae63a803ec3bfb49b01abb41cf69021fdd0b5781806",
+  "cache_files": 36,
+  "cache_bytes": 10085473,
+  "post_bake_secondary_flags": {
+    "use_foam_particles": false,
+    "use_spray_particles": false,
+    "use_bubble_particles": false
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.5353203751022035,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030535459518432617,
+      "mesh_p95_abs_head_m": 0.031140875816345216,
+      "mesh_minmax_head_m": [
+        0.029379963874816895,
+        0.03158140182495117
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.0452880859375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 2,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.535321040080331,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030535519123077393,
+      "mesh_p95_abs_head_m": 0.03114098310470581,
+      "mesh_minmax_head_m": [
+        0.02938002347946167,
+        0.03158146142959595
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.0452880859375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 3,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.535320671025452,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030535578727722168,
+      "mesh_p95_abs_head_m": 0.03114098310470581,
+      "mesh_minmax_head_m": [
+        0.029380083084106445,
+        0.0315815806388855
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.0452880859375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 4,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.535320476004763,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.03053569793701172,
+      "mesh_p95_abs_head_m": 0.031144583225250246,
+      "mesh_minmax_head_m": [
+        0.02938026189804077,
+        0.03158146142959595
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.0452880859375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 5,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.5353199702341445,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030537664890289307,
+      "mesh_p95_abs_head_m": 0.031134188175201416,
+      "mesh_minmax_head_m": [
+        0.029380440711975098,
+        0.03158169984817505
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.045284271240234375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 6,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.5353212331839514,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.03053760528564453,
+      "mesh_p95_abs_head_m": 0.031141161918640137,
+      "mesh_minmax_head_m": [
+        0.029380738735198975,
+        0.0315818190574646
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.0452728271484375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 7,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.5353205322593912,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030536234378814697,
+      "mesh_p95_abs_head_m": 0.03114126920700073,
+      "mesh_minmax_head_m": [
+        0.029380977153778076,
+        0.03158193826675415
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.045284271240234375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 8,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.5353205982644056,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.0305364727973938,
+      "mesh_p95_abs_head_m": 0.031141424179077146,
+      "mesh_minmax_head_m": [
+        0.02938133478164673,
+        0.03158217668533325
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.045284271240234375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 9,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.5353234623922707,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030543386936187744,
+      "mesh_p95_abs_head_m": 0.031145238876342775,
+      "mesh_minmax_head_m": [
+        0.029381752014160156,
+        0.03158235549926758
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.045284271240234375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 10,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.53532133736247,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030536890029907227,
+      "mesh_p95_abs_head_m": 0.03114173412322998,
+      "mesh_minmax_head_m": [
+        0.029381990432739258,
+        0.03158259391784668
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.012578964233398438
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.045284271240234375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 11,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.5353205255668763,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030536532402038574,
+      "mesh_p95_abs_head_m": 0.031144917011260986,
+      "mesh_minmax_head_m": [
+        0.02938234806060791,
+        0.03158295154571533
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.01258087158203125
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.045284271240234375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    },
+    {
+      "frame": 12,
+      "vertices": 14640,
+      "triangles": 29276,
+      "mesh_volume_m3": 3.5353211657865145,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "height_samples": 625,
+      "height_missing": 0,
+      "mesh_median_head_m": 0.030536115169525146,
+      "mesh_p95_abs_head_m": 0.031144773960113524,
+      "mesh_minmax_head_m": [
+        0.029382765293121338,
+        0.031583189964294434
+      ],
+      "FLIP_count": 18000,
+      "particle_systems": [
+        {
+          "type": "FLIP",
+          "count": 18000
+        }
+      ],
+      "FLIP_world_bounds_m": [
+        [
+          -0.9249801635742188,
+          0.9249801635742188
+        ],
+        [
+          -0.9249954223632812,
+          0.92498779296875
+        ],
+        [
+          -0.1437530517578125,
+          -0.01250457763671875
+        ]
+      ],
+      "FLIP_top_envelope_interior_columns": 576,
+      "FLIP_top_envelope_median_m": -0.0134735107421875,
+      "FLIP_top_envelope_p05_p95_m": [
+        -0.015655517578125,
+        -0.01258087158203125
+      ],
+      "FLIP_z_quantiles_m": [
+        -0.1437530517578125,
+        -0.110992431640625,
+        -0.0781402587890625,
+        -0.045284271240234375,
+        -0.01250457763671875
+      ],
+      "FLIP_outside_domain_points": 0
+    }
+  ],
+  "check_summary": {
+    "frame1_relative_initial_volume_error": -0.11616990622444912,
+    "max_relative_volume_drift_from_f1": 8.732702385660929e-07,
+    "max_median_dynamic_height_drift_m": 7.927417755126953e-06,
+    "max_p95_dynamic_height_drift_m": 1.8036365509033198e-05,
+    "max_particle_envelope_median_drift_m": 0.0,
+    "particle_envelope_is_geometry_proxy_not_conserved_mass": true,
+    "max_pointwise_height_difference_median_m": 1.0728836059570312e-06
+  },
+  "mesh_hashes": [
+    {
+      "name": "fluid_mesh_0001.bobj.gz",
+      "sha256": "0fd650a55fc7eba87f0bfd98b52126e654bfb1e188cbcef3a9189fcc9cd4cb03",
+      "bytes": 202317
+    },
+    {
+      "name": "fluid_mesh_0002.bobj.gz",
+      "sha256": "9bc72e54413dd4692fb58cad74de31ef7634a5334421098b68133abb19a446fb",
+      "bytes": 202294
+    },
+    {
+      "name": "fluid_mesh_0003.bobj.gz",
+      "sha256": "32c716c74a7e45c52da1a95885b6dc5ae25c765068b7e0091b30965995755597",
+      "bytes": 202342
+    },
+    {
+      "name": "fluid_mesh_0004.bobj.gz",
+      "sha256": "c7b0b85c9156d4ab554927ccc8edb058d86977e83de329f78e8a6bd1fc109c34",
+      "bytes": 202410
+    },
+    {
+      "name": "fluid_mesh_0005.bobj.gz",
+      "sha256": "99ddec4c2cccc7c0c791eee5dae2181015672bed329e0b098b35083621146f7a",
+      "bytes": 202403
+    },
+    {
+      "name": "fluid_mesh_0006.bobj.gz",
+      "sha256": "fbbfd4f626d47e6bc95e4984beb6e7d755a29704b5756e1687a4b5ee3ed7199f",
+      "bytes": 202296
+    },
+    {
+      "name": "fluid_mesh_0007.bobj.gz",
+      "sha256": "5d364189fc9a2d2e34ac33ba6a85c646db9d6ff2e676e314d4e83a4afc906c45",
+      "bytes": 202323
+    },
+    {
+      "name": "fluid_mesh_0008.bobj.gz",
+      "sha256": "9c27424cba7878e2c777cc95c15bac33fee61caacfa1da34aa4506183b6c5ea7",
+      "bytes": 202315
+    },
+    {
+      "name": "fluid_mesh_0009.bobj.gz",
+      "sha256": "0c4f12f97d7625a57b78c0f4f6cb55b7246d836a5370d2cd013c7e317bcbc1ab",
+      "bytes": 202399
+    },
+    {
+      "name": "fluid_mesh_0010.bobj.gz",
+      "sha256": "ef35a77b5a7be35a1f27e3b5f6a6b18311f0f976247afa8974a2106f9dd04927",
+      "bytes": 202334
+    },
+    {
+      "name": "fluid_mesh_0011.bobj.gz",
+      "sha256": "1d85b01d1d108c8adc48c6af8545e8732a79fda6fef167cb8d925e7cb2d55bd3",
+      "bytes": 202274
+    },
+    {
+      "name": "fluid_mesh_0012.bobj.gz",
+      "sha256": "a0e8548282576e414393309cb571900496969aada0d0a62e5e09fad004124b05",
+      "bytes": 202345
+    }
+  ],
+  "checked_scene_sha256": "122c39f8503b66a6bf035ae63a803ec3bfb49b01abb41cf69021fdd0b5781806",
+  "actual_data_vdb_grids": [
+    {
+      "name": "flags",
+      "type": "int32"
+    },
+    {
+      "name": "particles",
+      "type": "ptdataidx32"
+    },
+    {
+      "name": "phi",
+      "type": "float"
+    },
+    {
+      "name": "phi_inflow",
+      "type": "float"
+    },
+    {
+      "name": "phi_obstacle",
+      "type": "float"
+    },
+    {
+      "name": "phi_out",
+      "type": "float"
+    },
+    {
+      "name": "phi_particles",
+      "type": "float"
+    },
+    {
+      "name": "phi_previous",
+      "type": "float"
+    },
+    {
+      "name": "velocity",
+      "type": "vec3s"
+    },
+    {
+      "name": "velocity_previous",
+      "type": "vec3s"
+    }
+  ],
+  "review": "qa/water09-default-audit-control-review.md",
+  "reopen_checker_failure": {
+    "before_bake": true,
+    "reason": "Saved cache path was relative; checker compared unresolved strings. Corrected bpy.path.abspath normalization only.",
+    "preserved_logs_prefix": "qa/water09-default-audit-control-reopen-path-failed",
+    "extra_bake_performed": false
+  },
+  "reported_metric_clarification": "Initial check log max_median_dynamic_height_drift_m held median of pointwise height changes; final JSON separates it from change in each frame global median. Both pass the same threshold.",
+  "no_next_control_authorized": true
+}

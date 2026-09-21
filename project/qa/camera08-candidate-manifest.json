@@ -1,0 +1,316 @@
+{
+  "source_scene": "scene/Fallingwater_iteration07.blend",
+  "scene_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "candidate_settings": "qa/camera08-candidate-settings.json",
+  "candidate_sha256": "214ae74cd82054bfb8c92a173fdbde0cc6a3ebbfd5ac9b1b42343338703b6c30",
+  "readback_report": "qa/camera08-candidate-readback.json",
+  "readback_report_sha256": "ca2edb76b159cd2bb6172401b37ade1509b985f3fd7f15e67655ca05a8ef7fae",
+  "candidate_count": 11,
+  "candidate_status": "GEOMETRY_ONLY_PASS_RENDER_PENDING",
+  "production_config_sha256": "4def78dcbae91f3292562f41796adec71c4680b64e04301f051fdc1833ce8666",
+  "production_unchanged": true,
+  "first_search": "qa/camera08-candidate-search-report.json",
+  "first_search_sha256": "73e956c92740ebe89257228dd5c7b2ca317d5e82c465963db63056076abd2690",
+  "bounded_followup": "qa/camera08-closetA-followup-report.json",
+  "followup_sha256": "162b0a6539fab21b2915355c5696454e060449b240d45d026cbc74a1edb5d331",
+  "scope": "Only11 new camera candidates for10 framing fails and1 near-duplicate stair view. No rendering or scene/furniture mutation. Positional clearance and semantic grid fractions are not actual-image acceptance. Source07 geometry may be replaced by floor corrections; recheck against exact subsequent08scene.",
+  "blender_version": "5.2.1 LTS",
+  "threads": 4,
+  "process_exit_codes": [
+    0,
+    0
+  ],
+  "frame_diagnostic": "273 jittered first-hit rays per candidate, horizontal36mm sensor at16:9 plus candidate lens shift; subject presence and dominant occlusion diagnostics only.",
+  "final_visual_acceptance": "NOT_ACCEPTED",
+  "cameras": [
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "location": [
+        5.82,
+        41.38,
+        10.0002
+      ],
+      "target": [
+        4.75,
+        42.03,
+        9.7
+      ],
+      "lens": 28,
+      "shift_y": -0.05,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": false,
+      "support_object": "GUEST_L1_BOILER_FLOOR",
+      "support_z": 8.4002,
+      "subject_first_hit_fractions": {
+        "service_boiler": 0.34065934065934067,
+        "service_pressure_vessel": 0.10256410256410256
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.3663003663003663,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_A",
+      "location": [
+        -7.2,
+        15.43,
+        1.7222
+      ],
+      "target": [
+        -5.95,
+        15.86,
+        1.1
+      ],
+      "lens": 28,
+      "shift_y": -0.02,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": false,
+      "support_object": "MAIN_L1_SERVANT_finish",
+      "support_z": 0.1222,
+      "subject_first_hit_fractions": {
+        "service_settee": 0.3333333333333333,
+        "small_sitting_table": 0.07692307692307693
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.336996336996337,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L1_SERVANT_B",
+      "location": [
+        -4.93,
+        15.03,
+        1.7222
+      ],
+      "target": [
+        -6.25,
+        15.78,
+        1.05
+      ],
+      "lens": 28,
+      "shift_y": -0.02,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": false,
+      "support_object": "MAIN_L1_SERVANT_finish",
+      "support_z": 0.1222,
+      "subject_first_hit_fractions": {
+        "service_settee": 0.31135531135531136,
+        "sitting_room_casework": 0.14652014652014653
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.23076923076923078,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "location": [
+        10.64,
+        9.56,
+        4.467
+      ],
+      "target": [
+        9.55,
+        11.06,
+        3.9
+      ],
+      "lens": 28,
+      "shift_y": -0.02,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": true,
+      "support_object": "MAIN_L2_GUEST_finish",
+      "support_z": 2.867,
+      "subject_first_hit_fractions": {
+        "coat_storage": 0.4835164835164835
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.30036630036630035,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_M_B",
+      "location": [
+        0.55,
+        10.7,
+        4.467
+      ],
+      "target": [
+        1.26,
+        12.0,
+        3.88
+      ],
+      "lens": 28,
+      "shift_y": -0.02,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": true,
+      "support_object": "MAIN_L2_MASTER_finish",
+      "support_z": 2.867,
+      "subject_first_hit_fractions": {
+        "coat_storage": 0.3772893772893773
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.22344322344322345,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L1_COAT_B",
+      "location": [
+        8.32,
+        12.56,
+        1.7222
+      ],
+      "target": [
+        9.49,
+        13.36,
+        1.14
+      ],
+      "lens": 28,
+      "shift_y": -0.02,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": true,
+      "support_object": "MAIN_L1_ENTRY_finish",
+      "support_z": 0.1222,
+      "subject_first_hit_fractions": {
+        "coat_storage": 0.5091575091575091
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.21245421245421245,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "location": [
+        5.2,
+        13.0,
+        6.88635
+      ],
+      "target": [
+        6.3,
+        14.07,
+        5.86
+      ],
+      "lens": 28,
+      "shift_y": 0,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": true,
+      "support_object": "MAIN_L3_GALLERY_finish",
+      "support_z": 5.28635,
+      "subject_first_hit_fractions": {
+        "single_bed": 0.5421245421245421
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.2490842490842491,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "location": [
+        1.6,
+        14.92,
+        6.88635
+      ],
+      "target": [
+        1.15,
+        15.51,
+        5.78
+      ],
+      "lens": 28,
+      "shift_y": 0,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": false,
+      "support_object": "MAIN_L3_BATH_finish",
+      "support_z": 5.28635,
+      "subject_first_hit_fractions": {
+        "water_closet": 0.21611721611721613
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.26373626373626374,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "location": [
+        18.81,
+        9.12,
+        -0.72647
+      ],
+      "target": [
+        14.12,
+        7.45,
+        -2.55
+      ],
+      "lens": 28,
+      "shift_y": 0,
+      "exposure_unchanged": true,
+      "exposure": 0.8,
+      "outside_room_polygon": false,
+      "support_object": "MAIN_loggia_pool_stair_00",
+      "support_z": -2.32647,
+      "subject_first_hit_fractions": {
+        "POOL": 0.8095238095238095
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.18681318681318682,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "location": [
+        1.85,
+        13.18,
+        6.88635
+      ],
+      "target": [
+        3.84,
+        13.8,
+        4.78
+      ],
+      "lens": 28,
+      "shift_y": 0,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": true,
+      "support_object": "MAIN_L3_GALLERY_finish",
+      "support_z": 5.28635,
+      "subject_first_hit_fractions": {
+        "STAIR": 0.13186813186813187
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.25274725274725274,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "location": [
+        7.72,
+        9.58,
+        4.467
+      ],
+      "target": [
+        9.55,
+        11.06,
+        4.05
+      ],
+      "lens": 28,
+      "shift_y": -0.03,
+      "exposure_unchanged": true,
+      "exposure": 3.0,
+      "outside_room_polygon": true,
+      "support_object": "MAIN_L2_GUEST_finish",
+      "support_z": 2.867,
+      "subject_first_hit_fractions": {
+        "coat_storage": 0.27472527472527475
+      },
+      "near_under065_fraction": 0.0,
+      "dominant_fraction": 0.3333333333333333,
+      "status": "GEOMETRY_ONLY_PASS_RENDER_PENDING"
+    }
+  ]
+}

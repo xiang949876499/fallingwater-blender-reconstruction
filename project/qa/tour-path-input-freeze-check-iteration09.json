@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "source_scene_sha256": "489b05e403aa9d02c3568a8e3813a24235ee5b7e782df4d1f149b3ff6673e331",
+  "rows": [
+    {
+      "path": "data/main_house.json",
+      "source_sha256": "be830b3d37b53726bb4919f4732b9439792bc82af2f418480199d4cd2ec4e3ac",
+      "isolated_copy_sha256": "be830b3d37b53726bb4919f4732b9439792bc82af2f418480199d4cd2ec4e3ac",
+      "freeze_expected_sha256": "be830b3d37b53726bb4919f4732b9439792bc82af2f418480199d4cd2ec4e3ac",
+      "pass_": true,
+      "note": "Generated main output uses independently reproduced post-build hash"
+    },
+    {
+      "path": "data/guest_house.json",
+      "source_sha256": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+      "isolated_copy_sha256": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+      "freeze_expected_sha256": "5cc544e3399df3038a329126cfe76a8cf759894c514b51c1566a3703db18b8bd",
+      "pass_": true,
+      "note": "Frozen input"
+    },
+    {
+      "path": "config.json",
+      "source_sha256": "b7480e69477d14a2e22111ad6d108e5bffc4834b1f804dd5e62a6eff92354c52",
+      "isolated_copy_sha256": "b7480e69477d14a2e22111ad6d108e5bffc4834b1f804dd5e62a6eff92354c52",
+      "freeze_expected_sha256": "b7480e69477d14a2e22111ad6d108e5bffc4834b1f804dd5e62a6eff92354c52",
+      "pass_": true,
+      "note": "Frozen input"
+    },
+    {
+      "path": "adjacency.csv",
+      "source_sha256": "6620606c45a763b4cae0fb7d0efe82449f3460cd86868bc6e17978d9043b0084",
+      "isolated_copy_sha256": "6620606c45a763b4cae0fb7d0efe82449f3460cd86868bc6e17978d9043b0084",
+      "freeze_expected_sha256": null,
+      "pass_": true,
+      "note": "CSV checksum preserved; current manifest independently reconciles CSV-only edges"
+    }
+  ],
+  "csv_only_declarations": []
+}

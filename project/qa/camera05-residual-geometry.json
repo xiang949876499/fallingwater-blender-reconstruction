@@ -1,0 +1,255 @@
+{
+  "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+  "geometry": {
+    "vertices": 949419,
+    "polygons": 1015619,
+    "objects": 9696
+  },
+  "scope": "Only MAIN_L3_LINK A/B and GUEST_L1_POOL A changed. Actual render review pending; vegetation excluded. Point clearance is not continuous route validation.",
+  "changes": [
+    {
+      "camera": "CAM_MAIN_L3_LINK_A",
+      "old": {
+        "location": [
+          6.20285,
+          22.37552,
+          7.00935
+        ],
+        "target": [
+          5.4758,
+          19.61514,
+          6.70933
+        ],
+        "lens": 28,
+        "exposure": 0.8,
+        "room_id": "MAIN_L3_LINK",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "GUEST_CONNECTOR_step_001",
+        "support_z": 5.40935,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "selected": {
+        "location": [
+          5.82688,
+          23.99058,
+          6.88635
+        ],
+        "target": [
+          9.13634,
+          22.80069,
+          4.75992
+        ],
+        "support": {
+          "object": "MAIN_L3_LINK_finish",
+          "location": [
+            5.82688,
+            23.99058,
+            5.28635
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.2978
+        },
+        "view": {
+          "near_rays_under_045m": 0,
+          "rays_under_09m": 0,
+          "median_depth_m": 6.097,
+          "different_visible_objects": 7,
+          "center_hit": {
+            "object": "MAIN_north_spiral_15",
+            "location": [
+              8.35127,
+              23.08295,
+              5.26435
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 3.13484
+          }
+        },
+        "visible_spiral_treads": [
+          "MAIN_north_spiral_08",
+          "MAIN_north_spiral_09",
+          "MAIN_north_spiral_10",
+          "MAIN_north_spiral_11",
+          "MAIN_north_spiral_12",
+          "MAIN_north_spiral_13",
+          "MAIN_north_spiral_14",
+          "MAIN_north_spiral_15"
+        ],
+        "kind": "spiral",
+        "score": 17.131134666666668
+      },
+      "rejections": {
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_CONNECTOR_step_000": 1,
+        "FOOTPRINT_NO_SUPPORT": 32,
+        "BODY_INTERSECTION": 6
+      }
+    },
+    {
+      "camera": "CAM_MAIN_L3_LINK_B",
+      "old": {
+        "location": [
+          5.72418,
+          15.84716,
+          6.88635
+        ],
+        "target": [
+          6.67052,
+          19.61514,
+          6.47802
+        ],
+        "lens": 28,
+        "exposure": 0.8,
+        "room_id": "MAIN_L3_LINK",
+        "evidence": "Actual evaluated mesh support and 1.75m body/head clearance tested; geometric 15-ray framing review. Exposure remains provisional; actual render review pending.",
+        "support_object": "MAIN_L3_LINK_finish",
+        "support_z": 5.28635,
+        "outside_room_polygon": false,
+        "render_reviewed": false
+      },
+      "selected": {
+        "location": [
+          8.34415,
+          23.9956,
+          6.88635
+        ],
+        "target": [
+          5.4496,
+          23.4702,
+          5.86415
+        ],
+        "support": {
+          "object": "MAIN_L3_LINK_finish",
+          "location": [
+            8.34415,
+            23.9956,
+            5.28635
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.2978
+        },
+        "view": {
+          "near_rays_under_045m": 0,
+          "rays_under_09m": 0,
+          "median_depth_m": 9.692,
+          "different_visible_objects": 10,
+          "center_hit": {
+            "object": "GUEST_CONNECTOR_step_001",
+            "location": [
+              4.57234,
+              23.31097,
+              5.55435
+            ],
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 4.05826
+          }
+        },
+        "visible_spiral_treads": [],
+        "kind": "connector",
+        "score": 6.915368666666666
+      },
+      "rejections": {
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_CONNECTOR_step_000": 1,
+        "FOOTPRINT_NO_SUPPORT": 32,
+        "BODY_INTERSECTION": 6
+      }
+    },
+    {
+      "camera": "CAM_GUEST_L1_POOL_A",
+      "old": {
+        "location": [
+          22.70198,
+          34.47906,
+          10.0002
+        ],
+        "target": [
+          27.99808,
+          34.88576,
+          8.6
+        ],
+        "lens": 32,
+        "exposure": 0.8,
+        "room_id": "GUEST_L1_POOL",
+        "evidence": "Iteration04: former coping position had water under the +13cm footprint. Moved to measured dry floor near the same pool-side view; actual support/body/eye clearance checked. Visual review pending.",
+        "support_object": "GUEST_L1_MAIN_FLOOR",
+        "support_z": 8.4002,
+        "outside_room_polygon": true,
+        "render_reviewed": false
+      },
+      "selected": {
+        "location": [
+          22.55198,
+          34.47906,
+          10.0043
+        ],
+        "target": [
+          27.99808,
+          34.88576,
+          8.6
+        ],
+        "support": {
+          "object": "GUEST_L1_MAIN_FLOOR",
+          "location": [
+            22.55198,
+            34.47906,
+            8.4043
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance": 0.3157
+        },
+        "view": {
+          "near_rays_under_045m": 0,
+          "rays_under_09m": 0,
+          "median_depth_m": 4.357,
+          "different_visible_objects": 5,
+          "center_hit": {
+            "object": "GUEST_POOL_water",
+            "location": [
+              26.58236,
+              34.78004,
+              8.96505
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "distance": 4.17308
+          }
+        },
+        "score": 5.18599477255425,
+        "move_m": 0.15005602287145814
+      },
+      "clear_candidates": 49,
+      "rejections": {
+        "NOT_SAME_DRY_DECK": 120,
+        "FOOTPRINT_NO_SUPPORT": 8,
+        "BODY_INTERSECTION": 5,
+        "FOOTPRINT_UNSAFE_SUPPORT": 3,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_LAYERED_SANDSTONE_COURSES": 4,
+        "SLOPING_OR_VERTICAL_SUPPORT:GUEST_POOL_planter_side_2": 6
+      }
+    }
+  ],
+  "rays_cast": 5930
+}

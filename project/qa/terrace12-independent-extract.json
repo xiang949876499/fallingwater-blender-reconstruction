@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "label": "before",
+      "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_navigation_candidate11a.blend",
+      "source_sha256": "d66ded0f23b7d19c20b81d2f59f94aa5aa77747be4568e85e1d105395fc219ff",
+      "read_only_file_hash_unchanged": true,
+      "geometry_file": "terrace12-independent-before-geometry.json",
+      "snapshot_sha256": "f455db467e68b4978e791223751590fc056e73bbfa85370549ecb022c5ac16ad",
+      "object_count": 23434
+    },
+    {
+      "label": "after",
+      "scene": "D:\\zx\\test\\project\\scene\\Fallingwater_terrace_interface_candidate12a.blend",
+      "source_sha256": "0499c4594e4143ebc8ae28735417ae17765e1ffdafe20285903f654768958fa1",
+      "read_only_file_hash_unchanged": true,
+      "geometry_file": "terrace12-independent-after-geometry.json",
+      "snapshot_sha256": "559e7c9861885f62e9dbe3f641ea427e9c1fe8832b3717672f56a75dd5896688",
+      "object_count": 23434
+    }
+  ],
+  "all_snapshot_differences": [
+    "/global/scene/custom_properties/terrace12_slab_interface",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/data/1",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/custom_properties/terrace12_slab_interface",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/dimensions/0",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/dimensions/1",
+    "/objects/MAIN_L2_TERRACE_S_slab/data_hash",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/data/1",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/custom_properties/terrace12_slab_interface",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/dimensions/0",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/dimensions/1",
+    "/objects/MAIN_L2_TERRACE_W_slab/data_hash",
+    "/meshes/MAIN_L2_TERRACE_S_slab_joint12_terrace11",
+    "/meshes/MAIN_L2_TERRACE_S_slab_terrace11",
+    "/meshes/MAIN_L2_TERRACE_W_slab_joint12_terrace11",
+    "/meshes/MAIN_L2_TERRACE_W_slab_terrace11"
+  ],
+  "explicit_allowed_differences": [
+    "/global/scene/custom_properties/terrace12_slab_interface",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/data/1",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/custom_properties/terrace12_slab_interface",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/dimensions/0",
+    "/objects/MAIN_L2_TERRACE_S_slab/properties/dimensions/1",
+    "/objects/MAIN_L2_TERRACE_S_slab/data_hash",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/data/1",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/custom_properties/terrace12_slab_interface",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/dimensions/0",
+    "/objects/MAIN_L2_TERRACE_W_slab/properties/dimensions/1",
+    "/objects/MAIN_L2_TERRACE_W_slab/data_hash",
+    "/meshes/MAIN_L2_TERRACE_S_slab_joint12_terrace11",
+    "/meshes/MAIN_L2_TERRACE_S_slab_terrace11",
+    "/meshes/MAIN_L2_TERRACE_W_slab_joint12_terrace11",
+    "/meshes/MAIN_L2_TERRACE_W_slab_terrace11"
+  ],
+  "unexpected_snapshot_differences": [],
+  "non_target_objects_exact": true,
+  "object_sets_identical": true,
+  "materials_exact": true,
+  "camera_objects_exact": true,
+  "action_keyframes_exact": true,
+  "seconds": 147.23791540000093,
+  "rendered": false,
+  "saved": false
+}

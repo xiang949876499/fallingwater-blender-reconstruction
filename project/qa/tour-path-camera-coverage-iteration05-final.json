@@ -1,0 +1,2100 @@
+{
+  "status": "PASS_CAMERA_VALUES_AND_COVERAGE",
+  "source_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration05.blend",
+  "checked_blend": "D:\\zx\\test\\project\\scene\\Fallingwater_tour_checked.blend",
+  "method": "Evaluate saved location and quaternion FCurves at every delivered integer frame; compare locations to mesh-tested piecewise-linear route with identical key timing.",
+  "main_frames": 2880,
+  "supplemental_frames": 4704,
+  "room_count": 60,
+  "covered_room_count": 60,
+  "segment_checks": [
+    {
+      "id": "EXTERIOR",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 1,
+      "end_frame": 864,
+      "frames_checked": 864,
+      "mode": "EXTERIOR_FREE_FLIGHT",
+      "room_ids": [],
+      "keyframes": [
+        1,
+        157,
+        372,
+        655,
+        864
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 4.3702847432669066e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "ENTRY_TO_LIVING",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 865,
+      "end_frame": 1104,
+      "frames_checked": 240,
+      "mode": "NORMAL_WALK_THROUGH_OPENING",
+      "room_ids": [
+        "MAIN_L1_ENTRY",
+        "MAIN_L1_LIVING"
+      ],
+      "keyframes": [
+        865,
+        930,
+        962,
+        1104
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.3486991523486091e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "LIVING",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 1105,
+      "end_frame": 1272,
+      "frames_checked": 168,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_LIVING"
+      ],
+      "keyframes": [
+        1105,
+        1272
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 6.743495761743046e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "KITCHEN",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 1273,
+      "end_frame": 1440,
+      "frames_checked": 168,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_KITCHEN"
+      ],
+      "keyframes": [
+        1273,
+        1440
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.830249847454215e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MASTER",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 1441,
+      "end_frame": 1608,
+      "frames_checked": 168,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_MASTER"
+      ],
+      "keyframes": [
+        1441,
+        1608
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.830249847454215e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "STUDY",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 1609,
+      "end_frame": 1776,
+      "frames_checked": 168,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L3_STUDY"
+      ],
+      "keyframes": [
+        1609,
+        1776
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.830249847454215e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "CONNECTOR",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 1777,
+      "end_frame": 2208,
+      "frames_checked": 432,
+      "mode": "NORMAL_WALK_ON_STAIRS",
+      "room_ids": [
+        "MAIN_L3_LINK",
+        "GUEST_L1_STAIR_HALL"
+      ],
+      "keyframes": [
+        1777,
+        1782,
+        1791,
+        1803,
+        1816,
+        1828,
+        1840,
+        1851,
+        1863,
+        1874,
+        1885,
+        1896,
+        1906,
+        1916,
+        1925,
+        1935,
+        1943,
+        1951,
+        1960,
+        1967,
+        1976,
+        1985,
+        1995,
+        2005,
+        2015,
+        2025,
+        2034,
+        2043,
+        2051,
+        2060,
+        2069,
+        2078,
+        2088,
+        2098,
+        2108,
+        2118,
+        2127,
+        2136,
+        2145,
+        2154,
+        2163,
+        2171,
+        2181,
+        2190,
+        2199,
+        2205,
+        2208
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.932099938981686e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_LOUNGE",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 2209,
+      "end_frame": 2424,
+      "frames_checked": 216,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_LOUNGE"
+      ],
+      "keyframes": [
+        2209,
+        2424
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.932099938981686e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_BEDROOM",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 2425,
+      "end_frame": 2640,
+      "frames_checked": 216,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_GUEST_ROOM"
+      ],
+      "keyframes": [
+        2425,
+        2640
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.932099938981686e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "POOL_TERRACE",
+      "camera": "CAM_TOUR",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 2641,
+      "end_frame": 2880,
+      "frames_checked": 240,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_TERRACE",
+        "GUEST_L1_POOL"
+      ],
+      "keyframes": [
+        2641,
+        2880
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.932099938981686e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_B_WINE",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 2881,
+      "end_frame": 2976,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_B_WINE"
+      ],
+      "keyframes": [
+        2881,
+        2976
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.830249847454215e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_B_BATH",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 2977,
+      "end_frame": 3072,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_B_BATH"
+      ],
+      "keyframes": [
+        2977,
+        3072
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 5.960464477539063e-08,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_B_BOILER",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3073,
+      "end_frame": 3168,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_B_BOILER"
+      ],
+      "keyframes": [
+        3073,
+        3168
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 2.384185791015625e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_B_STAIR",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3169,
+      "end_frame": 3264,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_B_STAIR"
+      ],
+      "keyframes": [
+        3169,
+        3264
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.966049969490843e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_1",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3265,
+      "end_frame": 3360,
+      "frames_checked": 96,
+      "mode": "FREE_INSPECTION",
+      "room_ids": [
+        "MAIN_B_FOUNDATION_1"
+      ],
+      "keyframes": [
+        3265,
+        3360
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.830249847454215e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_2",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3361,
+      "end_frame": 3456,
+      "frames_checked": 96,
+      "mode": "FREE_INSPECTION",
+      "room_ids": [
+        "MAIN_B_FOUNDATION_2"
+      ],
+      "keyframes": [
+        3361,
+        3456
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_B_FOUNDATION_3",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3457,
+      "end_frame": 3552,
+      "frames_checked": 96,
+      "mode": "FREE_INSPECTION",
+      "room_ids": [
+        "MAIN_B_FOUNDATION_3"
+      ],
+      "keyframes": [
+        3457,
+        3552
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.3486991523486091e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_B_PLUNGE",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3553,
+      "end_frame": 3648,
+      "frames_checked": 96,
+      "mode": "FREE_INSPECTION",
+      "room_ids": [
+        "MAIN_B_PLUNGE"
+      ],
+      "keyframes": [
+        3553,
+        3648
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L1_SERVANT",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3649,
+      "end_frame": 3744,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_SERVANT"
+      ],
+      "keyframes": [
+        3649,
+        3744
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 4.76837158203125e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L1_SERVICE_STAIR",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3745,
+      "end_frame": 3840,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_SERVICE_STAIR"
+      ],
+      "keyframes": [
+        3745,
+        3840
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.922192036699903e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L1_COAT",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3841,
+      "end_frame": 3936,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_COAT"
+      ],
+      "keyframes": [
+        3841,
+        3936
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.5367431640625e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L1_STAIR",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 3937,
+      "end_frame": 4032,
+      "frames_checked": 96,
+      "mode": "FREE_INSPECTION",
+      "room_ids": [
+        "MAIN_L1_STAIR"
+      ],
+      "keyframes": [
+        3937,
+        4032
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.5367431640625e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L1_LOGGIA",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4033,
+      "end_frame": 4128,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_LOGGIA"
+      ],
+      "keyframes": [
+        4033,
+        4128
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.3486991523486091e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L1_TERRACE_W",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4129,
+      "end_frame": 4224,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_TERRACE_W"
+      ],
+      "keyframes": [
+        4129,
+        4224
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 4.76837158203125e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L1_TERRACE_E",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4225,
+      "end_frame": 4320,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_TERRACE_E"
+      ],
+      "keyframes": [
+        4225,
+        4320
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L1_HATCH",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4321,
+      "end_frame": 4416,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L1_HATCH"
+      ],
+      "keyframes": [
+        4321,
+        4416
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 5.331201499700045e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_DRESSING",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4417,
+      "end_frame": 4512,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_DRESSING"
+      ],
+      "keyframes": [
+        4417,
+        4512
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.0728836059570312e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_BATH_N",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4513,
+      "end_frame": 4608,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_BATH_N"
+      ],
+      "keyframes": [
+        4513,
+        4608
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.830249847454215e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_BATH_G",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4609,
+      "end_frame": 4704,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_BATH_G"
+      ],
+      "keyframes": [
+        4609,
+        4704
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.1680077279964342e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_BATH_M",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4705,
+      "end_frame": 4800,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_BATH_M"
+      ],
+      "keyframes": [
+        4705,
+        4800
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_HALL",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4801,
+      "end_frame": 4896,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_HALL"
+      ],
+      "keyframes": [
+        4801,
+        4896
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.5367431640625e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_GUEST",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4897,
+      "end_frame": 4992,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_GUEST"
+      ],
+      "keyframes": [
+        4897,
+        4992
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.3486991523486091e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_TERRACE_W",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 4993,
+      "end_frame": 5088,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_TERRACE_W"
+      ],
+      "keyframes": [
+        4993,
+        5088
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.3486991523486091e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_TERRACE_S",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5089,
+      "end_frame": 5184,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_TERRACE_S"
+      ],
+      "keyframes": [
+        5089,
+        5184
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 6.848052318737541e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_TERRACE_E",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5185,
+      "end_frame": 5280,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_TERRACE_E"
+      ],
+      "keyframes": [
+        5185,
+        5280
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.3486991523486091e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_TERRACE_N",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5281,
+      "end_frame": 5376,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_TERRACE_N"
+      ],
+      "keyframes": [
+        5281,
+        5376
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.966049969490843e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_STAIR",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5377,
+      "end_frame": 5472,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_STAIR"
+      ],
+      "keyframes": [
+        5377,
+        5472
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_CLOSET_M",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5473,
+      "end_frame": 5568,
+      "frames_checked": 96,
+      "mode": "STATIONARY_INSPECTION",
+      "room_ids": [
+        "MAIN_L2_CLOSET_M"
+      ],
+      "keyframes": [
+        5473,
+        5568
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 4.76837158203125e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L2_CLOSET_G",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5569,
+      "end_frame": 5664,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L2_CLOSET_G"
+      ],
+      "keyframes": [
+        5569,
+        5664
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.5367431640625e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L3_BATH",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5665,
+      "end_frame": 5760,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L3_BATH"
+      ],
+      "keyframes": [
+        5665,
+        5760
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.5367431640625e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L3_GALLERY",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5761,
+      "end_frame": 5856,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L3_GALLERY"
+      ],
+      "keyframes": [
+        5761,
+        5856
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 9.610960183499514e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L3_ALCOVE",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5857,
+      "end_frame": 5952,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L3_ALCOVE"
+      ],
+      "keyframes": [
+        5857,
+        5952
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L3_TERRACE",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 5953,
+      "end_frame": 6048,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "MAIN_L3_TERRACE"
+      ],
+      "keyframes": [
+        5953,
+        6048
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "MAIN_L3_STAIR",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6049,
+      "end_frame": 6144,
+      "frames_checked": 96,
+      "mode": "FREE_INSPECTION",
+      "room_ids": [
+        "MAIN_L3_STAIR"
+      ],
+      "keyframes": [
+        6049,
+        6144
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 1.066240299940009e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L1_THEATER",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6145,
+      "end_frame": 6240,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_THEATER"
+      ],
+      "keyframes": [
+        6145,
+        6240
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.816559456248789e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L1_CAR_COURT",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6241,
+      "end_frame": 6336,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_CAR_COURT"
+      ],
+      "keyframes": [
+        6241,
+        6336
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.822140584440565e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6337,
+      "end_frame": 6432,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_CHAUFFEUR_LOUNGE"
+      ],
+      "keyframes": [
+        6337,
+        6432
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 2.980232238769531e-07,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L1_BOILER",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6433,
+      "end_frame": 6528,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_BOILER"
+      ],
+      "keyframes": [
+        6433,
+        6528
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.814697265625e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L1_GALLERY",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6529,
+      "end_frame": 6624,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_GALLERY"
+      ],
+      "keyframes": [
+        6529,
+        6624
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.932099938981686e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L1_BATH",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6625,
+      "end_frame": 6720,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L1_BATH"
+      ],
+      "keyframes": [
+        6625,
+        6720
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.932099938981686e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_B1_LAUNDRY",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6721,
+      "end_frame": 6816,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_B1_LAUNDRY"
+      ],
+      "keyframes": [
+        6721,
+        6816
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.844384073399806e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_B1_BATH",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6817,
+      "end_frame": 6912,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_B1_BATH"
+      ],
+      "keyframes": [
+        6817,
+        6912
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.8517700246342445e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_B1_STAIR",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 6913,
+      "end_frame": 7008,
+      "frames_checked": 96,
+      "mode": "STATIONARY_INSPECTION",
+      "room_ids": [
+        "GUEST_B1_STAIR"
+      ],
+      "keyframes": [
+        6913,
+        7008
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.844384073399806e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_SOUTH",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 7009,
+      "end_frame": 7104,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L2_BEDROOM_SOUTH"
+      ],
+      "keyframes": [
+        7009,
+        7104
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.814697265625e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_MIDDLE",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 7105,
+      "end_frame": 7200,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L2_BEDROOM_MIDDLE"
+      ],
+      "keyframes": [
+        7105,
+        7200
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.814697265625e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L2_BEDROOM_NORTH",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 7201,
+      "end_frame": 7296,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L2_BEDROOM_NORTH"
+      ],
+      "keyframes": [
+        7201,
+        7296
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.822140584440565e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L2_BATH",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 7297,
+      "end_frame": 7392,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L2_BATH"
+      ],
+      "keyframes": [
+        7297,
+        7392
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.822140584440565e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L2_HALL",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 7393,
+      "end_frame": 7488,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L2_HALL"
+      ],
+      "keyframes": [
+        7393,
+        7488
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.822140584440565e-06,
+      "invalid_rotation_frames": []
+    },
+    {
+      "id": "GUEST_L2_TERRACE",
+      "camera": "CAM_TOUR_SUPPLEMENTAL",
+      "status": "PASS_ANIMATION_VALUES",
+      "start_frame": 7489,
+      "end_frame": 7584,
+      "frames_checked": 96,
+      "mode": "NORMAL_WALK",
+      "room_ids": [
+        "GUEST_L2_TERRACE"
+      ],
+      "keyframes": [
+        7489,
+        7584
+      ],
+      "collapsed_waypoint_frames": false,
+      "all_channels_linear": true,
+      "max_path_error_m": 3.818885917578065e-06,
+      "invalid_rotation_frames": []
+    }
+  ],
+  "room_coverage": [
+    {
+      "room_id": "MAIN_B_WINE",
+      "label": "Wine Cellar",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_B_WINE",
+          "start_frame": 2881,
+          "end_frame": 2976,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_B_BATH",
+      "label": "Bath",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_B_BATH",
+          "start_frame": 2977,
+          "end_frame": 3072,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_B_BOILER",
+      "label": "Boiler Room",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_B_BOILER",
+          "start_frame": 3073,
+          "end_frame": 3168,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_B_STAIR",
+      "label": "Basement Stair",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_B_STAIR",
+          "start_frame": 3169,
+          "end_frame": 3264,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_B_FOUNDATION_1",
+      "label": "Foundation Bay 1",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_B_FOUNDATION_1",
+          "start_frame": 3265,
+          "end_frame": 3360,
+          "mode": "FREE_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_B_FOUNDATION_2",
+      "label": "Foundation Bay 2",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_B_FOUNDATION_2",
+          "start_frame": 3361,
+          "end_frame": 3456,
+          "mode": "FREE_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_B_FOUNDATION_3",
+      "label": "Foundation Bay 3",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_B_FOUNDATION_3",
+          "start_frame": 3457,
+          "end_frame": 3552,
+          "mode": "FREE_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_B_PLUNGE",
+      "label": "Plunge Pool",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_B_PLUNGE",
+          "start_frame": 3553,
+          "end_frame": 3648,
+          "mode": "FREE_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_LIVING",
+      "label": "Living Room",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "ENTRY_TO_LIVING",
+          "start_frame": 865,
+          "end_frame": 1104,
+          "mode": "NORMAL_WALK_THROUGH_OPENING"
+        },
+        {
+          "camera": "CAM_TOUR",
+          "segment": "LIVING",
+          "start_frame": 1105,
+          "end_frame": 1272,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_KITCHEN",
+      "label": "Kitchen",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "KITCHEN",
+          "start_frame": 1273,
+          "end_frame": 1440,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_SERVANT",
+      "label": "Servant Sitting Room",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L1_SERVANT",
+          "start_frame": 3649,
+          "end_frame": 3744,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_SERVICE_STAIR",
+      "label": "Service Stair",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L1_SERVICE_STAIR",
+          "start_frame": 3745,
+          "end_frame": 3840,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_ENTRY",
+      "label": "Entry",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "ENTRY_TO_LIVING",
+          "start_frame": 865,
+          "end_frame": 1104,
+          "mode": "NORMAL_WALK_THROUGH_OPENING"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_COAT",
+      "label": "Coat",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L1_COAT",
+          "start_frame": 3841,
+          "end_frame": 3936,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_STAIR",
+      "label": "Main Stair",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L1_STAIR",
+          "start_frame": 3937,
+          "end_frame": 4032,
+          "mode": "FREE_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_LOGGIA",
+      "label": "Loggia",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L1_LOGGIA",
+          "start_frame": 4033,
+          "end_frame": 4128,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_TERRACE_W",
+      "label": "West Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L1_TERRACE_W",
+          "start_frame": 4129,
+          "end_frame": 4224,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_TERRACE_E",
+      "label": "East Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L1_TERRACE_E",
+          "start_frame": 4225,
+          "end_frame": 4320,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L1_HATCH",
+      "label": "Living Room Water Stair",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L1_HATCH",
+          "start_frame": 4321,
+          "end_frame": 4416,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_DRESSING",
+      "label": "Dressing Room",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_DRESSING",
+          "start_frame": 4417,
+          "end_frame": 4512,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_MASTER",
+      "label": "Master Bedroom",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "MASTER",
+          "start_frame": 1441,
+          "end_frame": 1608,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_BATH_N",
+      "label": "Bath (north)",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_BATH_N",
+          "start_frame": 4513,
+          "end_frame": 4608,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_BATH_G",
+      "label": "Bath (guest)",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_BATH_G",
+          "start_frame": 4609,
+          "end_frame": 4704,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_BATH_M",
+      "label": "Bath (master)",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_BATH_M",
+          "start_frame": 4705,
+          "end_frame": 4800,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_HALL",
+      "label": "Hall",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_HALL",
+          "start_frame": 4801,
+          "end_frame": 4896,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_GUEST",
+      "label": "Guest Bedroom",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_GUEST",
+          "start_frame": 4897,
+          "end_frame": 4992,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_TERRACE_W",
+      "label": "Dressing Room Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_TERRACE_W",
+          "start_frame": 4993,
+          "end_frame": 5088,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_TERRACE_S",
+      "label": "Master Bedroom Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_TERRACE_S",
+          "start_frame": 5089,
+          "end_frame": 5184,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_TERRACE_E",
+      "label": "Guest Bedroom Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_TERRACE_E",
+          "start_frame": 5185,
+          "end_frame": 5280,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_TERRACE_N",
+      "label": "North Stair Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_TERRACE_N",
+          "start_frame": 5281,
+          "end_frame": 5376,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_STAIR",
+      "label": "Main Stair L2",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_STAIR",
+          "start_frame": 5377,
+          "end_frame": 5472,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_CLOSET_M",
+      "label": "Master Bedroom Wardrobe",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_CLOSET_M",
+          "start_frame": 5473,
+          "end_frame": 5568,
+          "mode": "STATIONARY_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L2_CLOSET_G",
+      "label": "Guest Bedroom Wardrobe",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L2_CLOSET_G",
+          "start_frame": 5569,
+          "end_frame": 5664,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L3_STUDY",
+      "label": "Study",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "STUDY",
+          "start_frame": 1609,
+          "end_frame": 1776,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L3_BATH",
+      "label": "Bath",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L3_BATH",
+          "start_frame": 5665,
+          "end_frame": 5760,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L3_GALLERY",
+      "label": "Gallery",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L3_GALLERY",
+          "start_frame": 5761,
+          "end_frame": 5856,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L3_ALCOVE",
+      "label": "Sleeping Alcove",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L3_ALCOVE",
+          "start_frame": 5857,
+          "end_frame": 5952,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L3_TERRACE",
+      "label": "Third Floor Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L3_TERRACE",
+          "start_frame": 5953,
+          "end_frame": 6048,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L3_LINK",
+      "label": "North Upper Walk and Spiral Landing",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "CONNECTOR",
+          "start_frame": 1777,
+          "end_frame": 2208,
+          "mode": "NORMAL_WALK_ON_STAIRS"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "MAIN_L3_STAIR",
+      "label": "Gallery Stair L3",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "MAIN_L3_STAIR",
+          "start_frame": 6049,
+          "end_frame": 6144,
+          "mode": "FREE_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_THEATER",
+      "label": "Theater (2010 surveyed use)",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L1_THEATER",
+          "start_frame": 6145,
+          "end_frame": 6240,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_CAR_COURT",
+      "label": "Car Court",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L1_CAR_COURT",
+          "start_frame": 6241,
+          "end_frame": 6336,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_CHAUFFEUR_LOUNGE",
+      "label": "Chauffeur's Lounge",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L1_CHAUFFEUR_LOUNGE",
+          "start_frame": 6337,
+          "end_frame": 6432,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_BOILER",
+      "label": "Boiler Room",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L1_BOILER",
+          "start_frame": 6433,
+          "end_frame": 6528,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_STAIR_HALL",
+      "label": "Service Stair Hall",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "CONNECTOR",
+          "start_frame": 1777,
+          "end_frame": 2208,
+          "mode": "NORMAL_WALK_ON_STAIRS"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_LOUNGE",
+      "label": "Lounge",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "GUEST_LOUNGE",
+          "start_frame": 2209,
+          "end_frame": 2424,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_GALLERY",
+      "label": "Guest room connecting gallery",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L1_GALLERY",
+          "start_frame": 6529,
+          "end_frame": 6624,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_BATH",
+      "label": "Guest Bath",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L1_BATH",
+          "start_frame": 6625,
+          "end_frame": 6720,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_GUEST_ROOM",
+      "label": "Guest Room",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "GUEST_BEDROOM",
+          "start_frame": 2425,
+          "end_frame": 2640,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_TERRACE",
+      "label": "Pool and guest room Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "POOL_TERRACE",
+          "start_frame": 2641,
+          "end_frame": 2880,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L1_POOL",
+      "label": "Pool",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR",
+          "segment": "POOL_TERRACE",
+          "start_frame": 2641,
+          "end_frame": 2880,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_B1_LAUNDRY",
+      "label": "Laundry Room",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_B1_LAUNDRY",
+          "start_frame": 6721,
+          "end_frame": 6816,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_B1_BATH",
+      "label": "Basement Bath",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_B1_BATH",
+          "start_frame": 6817,
+          "end_frame": 6912,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_B1_STAIR",
+      "label": "Basement Stair",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_B1_STAIR",
+          "start_frame": 6913,
+          "end_frame": 7008,
+          "mode": "STATIONARY_INSPECTION"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L2_BEDROOM_SOUTH",
+      "label": "Single Room — south",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L2_BEDROOM_SOUTH",
+          "start_frame": 7009,
+          "end_frame": 7104,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L2_BEDROOM_MIDDLE",
+      "label": "Single Room — middle",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L2_BEDROOM_MIDDLE",
+          "start_frame": 7105,
+          "end_frame": 7200,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L2_BEDROOM_NORTH",
+      "label": "Double Room — north",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L2_BEDROOM_NORTH",
+          "start_frame": 7201,
+          "end_frame": 7296,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L2_BATH",
+      "label": "Service Bath",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L2_BATH",
+          "start_frame": 7297,
+          "end_frame": 7392,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L2_HALL",
+      "label": "Service upstairs Hall",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L2_HALL",
+          "start_frame": 7393,
+          "end_frame": 7488,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    },
+    {
+      "room_id": "GUEST_L2_TERRACE",
+      "label": "Service upper Terrace",
+      "inspection_segments": [
+        {
+          "camera": "CAM_TOUR_SUPPLEMENTAL",
+          "segment": "GUEST_L2_TERRACE",
+          "start_frame": 7489,
+          "end_frame": 7584,
+          "mode": "NORMAL_WALK"
+        }
+      ],
+      "status": "HAS_INSPECTION_CAMERA"
+    }
+  ],
+  "limits": [
+    "A room identifier includes terraces, stairs, pool and service inspection spaces; it is not a count of habitable rooms.",
+    "A camera covering a room is geometric inspection coverage, not proof of a satisfactory rendered view.",
+    "Explicit cuts do not establish connected walking. GUI navigation and tour exposure remain unverified."
+  ],
+  "saved_scene_reopened": true,
+  "saved_scene": "D:\\zx\\test\\project\\scene\\Fallingwater_tour_checked_iteration05.blend",
+  "saved_scene_sha256": "21b15a19e7a2887ad03819b65d0e7f0a7f930ec7e6ea69f1956fae8c043b6a9d"
+}

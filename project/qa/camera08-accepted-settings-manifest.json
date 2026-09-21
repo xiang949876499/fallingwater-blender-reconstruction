@@ -1,0 +1,73 @@
+{
+  "full_config": "D:/zx/test/project/qa/camera08-accepted-settings.json",
+  "sha256": "f011c9462431e12137a49d3829a85586da0804a5a934086e03d7143c7d5dc1d0",
+  "count": 120,
+  "production_path": "D:/zx/test/project/data/camera-settings-reviewed.json",
+  "production_sha256_unchanged": "4def78dcbae91f3292562f41796adec71c4680b64e04301f051fdc1833ce8666",
+  "source_candidate_sha256": "214ae74cd82054bfb8c92a173fdbde0cc6a3ebbfd5ac9b1b42343338703b6c30",
+  "source_visual_ledger_sha256": "9a7500166f91a4c7e236f33906e2cfa3ff76f54ce420219447a3e0619cc51a4d",
+  "accepted_count": 7,
+  "preserved_original07_count": 113,
+  "accepted": [
+    {
+      "camera": "CAM_GUEST_L1_BOILER_B",
+      "diagnostic_label": "LIMITED_COMPOSITION",
+      "image": "D:/zx/test/project/renders/previews/iteration08-cameras/CAM_GUEST_L1_BOILER_B.png",
+      "image_sha256": "840eca0369d643d430d26c05b5b5968f9db75dce1858cd014b4b6297b308a327",
+      "limitations": "锅炉下部占画面主体，烟管顶端及压力罐右侧仍出框；属于设备关系近景，不能作为完整锅炉房摄影。"
+    },
+    {
+      "camera": "CAM_MAIN_B_PLUNGE_B",
+      "diagnostic_label": "READABLE_DIAGNOSTIC",
+      "image": "D:/zx/test/project/renders/previews/iteration08-cameras/CAM_MAIN_B_PLUNGE_B.png",
+      "image_sha256": "ade1f619f35cecaf2a845d777947f6eb9a433bb78a59d67e72165a6028e2a7ba",
+      "limitations": "水面仍深暗，右侧近梯占较大面积；池水真实感、远处结构和通行另验。"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_A",
+      "diagnostic_label": "LIMITED_COMPOSITION",
+      "image": "D:/zx/test/project/renders/previews/iteration08-cameras/CAM_MAIN_L2_CLOSET_G_A.png",
+      "image_sha256": "4b5770715850c9a5f8d7ae87b76ddac92b4706cc1318636a484e3f17a60d0359",
+      "limitations": "柜顶、柜底出框，下部被床头遮住；开门后的内收纳没有展示，室外偏亮。"
+    },
+    {
+      "camera": "CAM_MAIN_L2_CLOSET_G_B",
+      "diagnostic_label": "LIMITED_COMPOSITION",
+      "image": "D:/zx/test/project/renders/previews/iteration08-cameras/CAM_MAIN_L2_CLOSET_G_B.png",
+      "image_sha256": "90eb735c06b070947d30be795005dfc0a422f51c79a2b90d772847ba98559eda",
+      "limitations": "木柜板仍占大部分画幅，上下出框、把手不可读，左侧浴室只是窄片。与A相较是有限的反向邻接关系。"
+    },
+    {
+      "camera": "CAM_MAIN_L3_ALCOVE_B",
+      "diagnostic_label": "READABLE_DIAGNOSTIC",
+      "image": "D:/zx/test/project/renders/previews/iteration08-cameras/CAM_MAIN_L3_ALCOVE_B.png",
+      "image_sha256": "22584df401f8d5cebfc1068a1d5304f794f117857eca659ba030e1aa46e9b8db",
+      "limitations": "床脚/底架仍裁切，白床品局部偏亮且材质简单；这是床龛用途诊断，不是完整卧室摄影。"
+    },
+    {
+      "camera": "CAM_MAIN_L3_BATH_A",
+      "diagnostic_label": "LIMITED_COMPOSITION",
+      "image": "D:/zx/test/project/renders/previews/iteration08-cameras/CAM_MAIN_L3_BATH_A.png",
+      "image_sha256": "57838b056dda8c2b1c0afeed7763906bc7810af00ce936c7a25ee29b723422ca",
+      "limitations": "水箱顶部略出框、相机下俯，不能看到完整小浴室；墙地边缘和装配形状另验。"
+    },
+    {
+      "camera": "CAM_MAIN_L3_STAIR_A",
+      "diagnostic_label": "READABLE_DIAGNOSTIC",
+      "image": "D:/zx/test/project/renders/previews/iteration08-cameras/CAM_MAIN_L3_STAIR_A.png",
+      "image_sha256": "63648861e781e816753c0f51b780508cbce5f374e57cb627d162aabd67347959",
+      "limitations": "栏墙/门框仍在右前景，下方深色开口不能凭本图判定修复或通行。"
+    }
+  ],
+  "held_original07": [
+    "CAM_MAIN_L1_SERVANT_A",
+    "CAM_MAIN_L1_SERVANT_B",
+    "CAM_MAIN_L1_COAT_B",
+    "CAM_MAIN_L2_CLOSET_M_B"
+  ],
+  "geometry_validation_scene_sha256": "bf50530009e4a93315915815473188c91d891272ef2d8e9e0169b704bd2e2f16",
+  "full08_geometry": "NOT_RUN",
+  "full08_visual": "NOT_RUN",
+  "final_photo_quality": "NOT_ACCEPTED",
+  "production_mutated": false
+}

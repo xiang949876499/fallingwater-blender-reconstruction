@@ -1,0 +1,587 @@
+{
+  "checks": {
+    "guest_pier_semantics_recognized": true,
+    "shared_floor_A_has_actual_evidence": true,
+    "shared_floor_B_has_actual_evidence": true,
+    "genuinely_missing_floor_still_fails": true,
+    "stepped_route_is_not_silently_passed": true
+  },
+  "status": "PASS",
+  "actual_mesh_room_results": [
+    {
+      "room_id": "SHARED_A",
+      "label": "SHARED_A",
+      "kind": "living",
+      "owned_meshes": 0,
+      "owned_vertices": 0,
+      "owned_components": {},
+      "nearby_components": {
+        "floor": 1,
+        "wall": 3
+      },
+      "structurally_associated_meshes": [
+        "GUEST_NORTH_pier_end",
+        "GUEST_SHARED_CEILING",
+        "GUEST_SHARED_FLOOR",
+        "GUEST_SOUTH_pier_end",
+        "GUEST_WEST_pier_end"
+      ],
+      "association_method": "Evaluated mesh surface rays; shared structural meshes can support multiple room records. Ownership tags and bounding-box proximity are informational only.",
+      "wall_surface_evidence": [
+        {
+          "object": "GUEST_NORTH_pier_end",
+          "position": [
+            1.9,
+            1.9,
+            1.1
+          ],
+          "distance_m": 1.2728
+        },
+        {
+          "object": "GUEST_WEST_pier_end",
+          "position": [
+            0.1,
+            1.9,
+            1.1
+          ],
+          "distance_m": 1.2728
+        },
+        {
+          "object": "GUEST_SOUTH_pier_end",
+          "position": [
+            0.1,
+            0.1,
+            1.1
+          ],
+          "distance_m": 1.2728
+        }
+      ],
+      "wall_presence_status": "PASS",
+      "window_evidence": {
+        "owned": 0,
+        "nearby": 0,
+        "requirement_status": "NOT_RUN",
+        "note": "Window need depends on reference; zero is disclosed, not automatically treated as a defect for internal closets."
+      },
+      "surface_samples": [
+        {
+          "xy": [
+            1,
+            1
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        },
+        {
+          "xy": [
+            0.5,
+            0.5
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        },
+        {
+          "xy": [
+            1.5,
+            0.5
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        },
+        {
+          "xy": [
+            0.5,
+            1.5
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        },
+        {
+          "xy": [
+            1.5,
+            1.5
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        }
+      ],
+      "floor_sampling_status": "PASS",
+      "ceiling_sampling_status": "PASS",
+      "surface_test_policy": "UNIFORM",
+      "probe_interpretation": "Uniform-z floor/ceiling probes apply to this room type.",
+      "coverage_limitations": [],
+      "ceiling_exception": "",
+      "cameras": [
+        {
+          "name": "CAM_SHARED_A_A",
+          "location": [
+            0.5,
+            1.0,
+            1.600000023841858
+          ],
+          "inside_polygon": true,
+          "height_above_floor": 1.6,
+          "reference": ""
+        },
+        {
+          "name": "CAM_SHARED_A_B",
+          "location": [
+            1.5,
+            1.0,
+            1.600000023841858
+          ],
+          "inside_polygon": true,
+          "height_above_floor": 1.6,
+          "reference": ""
+        }
+      ],
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "room_id": "SHARED_B",
+      "label": "SHARED_B",
+      "kind": "living",
+      "owned_meshes": 0,
+      "owned_vertices": 0,
+      "owned_components": {},
+      "nearby_components": {
+        "floor": 1,
+        "wall": 3
+      },
+      "structurally_associated_meshes": [
+        "GUEST_EAST_pier_end",
+        "GUEST_NORTH_pier_end",
+        "GUEST_SHARED_CEILING",
+        "GUEST_SHARED_FLOOR",
+        "GUEST_SOUTH_pier_end"
+      ],
+      "association_method": "Evaluated mesh surface rays; shared structural meshes can support multiple room records. Ownership tags and bounding-box proximity are informational only.",
+      "wall_surface_evidence": [
+        {
+          "object": "GUEST_EAST_pier_end",
+          "position": [
+            3.9,
+            1.0,
+            1.1
+          ],
+          "distance_m": 0.9
+        },
+        {
+          "object": "GUEST_NORTH_pier_end",
+          "position": [
+            3.9,
+            1.9,
+            1.1
+          ],
+          "distance_m": 1.2728
+        },
+        {
+          "object": "GUEST_SOUTH_pier_end",
+          "position": [
+            2.1,
+            0.1,
+            1.1
+          ],
+          "distance_m": 1.2728
+        }
+      ],
+      "wall_presence_status": "PASS",
+      "window_evidence": {
+        "owned": 0,
+        "nearby": 0,
+        "requirement_status": "NOT_RUN",
+        "note": "Window need depends on reference; zero is disclosed, not automatically treated as a defect for internal closets."
+      },
+      "surface_samples": [
+        {
+          "xy": [
+            3,
+            1
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        },
+        {
+          "xy": [
+            2.5,
+            0.5
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        },
+        {
+          "xy": [
+            3.5,
+            0.5
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        },
+        {
+          "xy": [
+            2.5,
+            1.5
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": 0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        },
+        {
+          "xy": [
+            3.5,
+            1.5
+          ],
+          "floor_hits": [
+            {
+              "object": "GUEST_SHARED_FLOOR",
+              "surface_z": -0.0,
+              "normal_z": 1.0
+            }
+          ],
+          "ceiling_hits": [
+            {
+              "object": "GUEST_SHARED_CEILING",
+              "surface_z": 2.0,
+              "normal_z": -1.0
+            }
+          ]
+        }
+      ],
+      "floor_sampling_status": "PASS",
+      "ceiling_sampling_status": "PASS",
+      "surface_test_policy": "UNIFORM",
+      "probe_interpretation": "Uniform-z floor/ceiling probes apply to this room type.",
+      "coverage_limitations": [],
+      "ceiling_exception": "",
+      "cameras": [
+        {
+          "name": "CAM_SHARED_B_A",
+          "location": [
+            2.5,
+            1.0,
+            1.600000023841858
+          ],
+          "inside_polygon": true,
+          "height_above_floor": 1.6,
+          "reference": ""
+        },
+        {
+          "name": "CAM_SHARED_B_B",
+          "location": [
+            3.5,
+            1.0,
+            1.600000023841858
+          ],
+          "inside_polygon": true,
+          "height_above_floor": 1.6,
+          "reference": ""
+        }
+      ],
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "room_id": "MISSING_FLOOR",
+      "label": "MISSING_FLOOR",
+      "kind": "living",
+      "owned_meshes": 0,
+      "owned_vertices": 0,
+      "owned_components": {},
+      "nearby_components": {},
+      "structurally_associated_meshes": [],
+      "association_method": "Evaluated mesh surface rays; shared structural meshes can support multiple room records. Ownership tags and bounding-box proximity are informational only.",
+      "wall_surface_evidence": [],
+      "wall_presence_status": "FAIL",
+      "window_evidence": {
+        "owned": 0,
+        "nearby": 0,
+        "requirement_status": "NOT_RUN",
+        "note": "Window need depends on reference; zero is disclosed, not automatically treated as a defect for internal closets."
+      },
+      "surface_samples": [
+        {
+          "xy": [
+            9,
+            1
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        },
+        {
+          "xy": [
+            8.5,
+            0.5
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        },
+        {
+          "xy": [
+            9.5,
+            0.5
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        },
+        {
+          "xy": [
+            8.5,
+            1.5
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        },
+        {
+          "xy": [
+            9.5,
+            1.5
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        }
+      ],
+      "floor_sampling_status": "FAIL",
+      "ceiling_sampling_status": "FAIL",
+      "surface_test_policy": "UNIFORM",
+      "probe_interpretation": "Uniform-z floor/ceiling probes apply to this room type.",
+      "coverage_limitations": [],
+      "ceiling_exception": "",
+      "cameras": [
+        {
+          "name": "CAM_MISSING_FLOOR_A",
+          "location": [
+            8.5,
+            1.0,
+            1.600000023841858
+          ],
+          "inside_polygon": true,
+          "height_above_floor": 1.6,
+          "reference": ""
+        },
+        {
+          "name": "CAM_MISSING_FLOOR_B",
+          "location": [
+            9.5,
+            1.0,
+            1.600000023841858
+          ],
+          "inside_polygon": true,
+          "height_above_floor": 1.6,
+          "reference": ""
+        }
+      ],
+      "status": "FAIL",
+      "failures": [
+        "No actual structural mesh hit associated with this room; room ownership tags alone do not establish coverage",
+        "No structural floor at one or more interior samples",
+        "No actual vertical wall surface hit within the room boundary envelope at occupied height",
+        "No overhead structural surface at one or more samples"
+      ]
+    },
+    {
+      "room_id": "STEPPED_ROUTE",
+      "label": "STEPPED_ROUTE",
+      "kind": "stair",
+      "owned_meshes": 0,
+      "owned_vertices": 0,
+      "owned_components": {},
+      "nearby_components": {
+        "stairs": 1
+      },
+      "structurally_associated_meshes": [],
+      "association_method": "Evaluated mesh surface rays; shared structural meshes can support multiple room records. Ownership tags and bounding-box proximity are informational only.",
+      "wall_surface_evidence": [],
+      "wall_presence_status": "NOT_RUN",
+      "window_evidence": {
+        "owned": 0,
+        "nearby": 0,
+        "requirement_status": "NOT_RUN",
+        "note": "Window need depends on reference; zero is disclosed, not automatically treated as a defect for internal closets."
+      },
+      "surface_samples": [
+        {
+          "xy": [
+            13,
+            1
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        },
+        {
+          "xy": [
+            12.5,
+            0.5
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        },
+        {
+          "xy": [
+            13.5,
+            0.5
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        },
+        {
+          "xy": [
+            12.5,
+            1.5
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        },
+        {
+          "xy": [
+            13.5,
+            1.5
+          ],
+          "floor_hits": [],
+          "ceiling_hits": []
+        }
+      ],
+      "floor_sampling_status": "NOT_RUN",
+      "ceiling_sampling_status": "NOT_RUN",
+      "surface_test_policy": "NONUNIFORM_ROUTE",
+      "probe_interpretation": "Uniform-z probes are diagnostic only; not PASS/FAIL evidence for this room type.",
+      "coverage_limitations": [
+        "Stepped walking surface: route/tread/head-clearance validation required; uniform room z is not a floor assertion."
+      ],
+      "ceiling_exception": "",
+      "cameras": [
+        {
+          "name": "CAM_STEPPED_ROUTE_A",
+          "location": [
+            12.5,
+            1.0,
+            1.600000023841858
+          ],
+          "inside_polygon": true,
+          "height_above_floor": 1.6,
+          "reference": ""
+        },
+        {
+          "name": "CAM_STEPPED_ROUTE_B",
+          "location": [
+            13.5,
+            1.0,
+            1.600000023841858
+          ],
+          "inside_polygon": true,
+          "height_above_floor": 1.6,
+          "reference": ""
+        }
+      ],
+      "status": "INCOMPLETE",
+      "failures": []
+    }
+  ]
+}

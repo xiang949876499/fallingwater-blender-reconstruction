@@ -1,0 +1,417 @@
+{
+  "status": "PASS_BOUNDED_GEOMETRY_VISUAL_NOT_RUN",
+  "frame": 48,
+  "reference_annotation": "qa/core-geology-07b-reference-annotations.png",
+  "material_audit": "qa/geology-baseline-material-inspect07c.json",
+  "source": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration06.blend",
+  "source_sha256": "172b76340d1224a2b98f415b21042d19ad7fba4d849543d7156beb17e5fcf055",
+  "baseline_no_water": "D:\\zx\\test\\project\\scene\\Fallingwater_geology_baseline06_no_water.blend",
+  "baseline_no_water_sha256": "3abc1f571a541e57542581a375a68176e52849d89ed85508c86a6ae2d56885e8",
+  "candidate": "D:\\zx\\test\\project\\scene\\Fallingwater_geology_candidate07c.blend",
+  "candidate_sha256": "24a2ca01d276cde137ff3e041ecbf5bdc028289f5b83e8be20167cb4a0c561f3",
+  "site_script_sha256": "2efde333707891a0a75237657b14057259ec2ae00e51c9df0ccc7db52858e1a6",
+  "site_config_sha256": "edcf3b3f6375eb6eaf7fa676e36389ed0ce416857e0646120a9b52fe90b40a66",
+  "revision_result": {
+    "revision": "discontinuous_beds_v3",
+    "object_count_delta": -6,
+    "revised_objects": [
+      "SITE_Core_Continuous_Fractured_Sandstone",
+      "SITE_Cascade_Shoulder_Continuous_0",
+      "SITE_Cascade_Shoulder_Continuous_1"
+    ],
+    "upper_core_cap_vertices_unchanged": 53,
+    "fluid_cache_compatibility": "OLD_CACHES_INVALID; inlet/upstream cap retained for comparable new tests",
+    "core_lower_cap_start_vertex": 11824,
+    "reference_annotation": "qa/core-geology-07b-reference-annotations.png",
+    "mesoscale_patches": [
+      {
+        "id": "upper_left_spall",
+        "polygon_c_depth_m": [
+          [
+            -5.7,
+            0.18
+          ],
+          [
+            -4.65,
+            0.27
+          ],
+          [
+            -4.12,
+            0.57
+          ],
+          [
+            -4.62,
+            0.71
+          ],
+          [
+            -5.48,
+            0.56
+          ]
+        ],
+        "recession_m": 0.072
+      },
+      {
+        "id": "left_recess_fracture",
+        "polygon_c_depth_m": [
+          [
+            -4.04,
+            0.86
+          ],
+          [
+            -3.24,
+            0.72
+          ],
+          [
+            -2.83,
+            1.07
+          ],
+          [
+            -3.11,
+            1.36
+          ],
+          [
+            -3.8,
+            1.29
+          ]
+        ],
+        "recession_m": 0.095
+      },
+      {
+        "id": "lower_left_split",
+        "polygon_c_depth_m": [
+          [
+            -5.29,
+            1.8
+          ],
+          [
+            -4.46,
+            1.86
+          ],
+          [
+            -4.16,
+            2.44
+          ],
+          [
+            -4.65,
+            2.6
+          ],
+          [
+            -5.33,
+            2.29
+          ]
+        ],
+        "recession_m": 0.063
+      },
+      {
+        "id": "central_lower_spall",
+        "polygon_c_depth_m": [
+          [
+            -2.26,
+            1.91
+          ],
+          [
+            -1.46,
+            1.77
+          ],
+          [
+            -0.87,
+            2.13
+          ],
+          [
+            -1.0,
+            2.65
+          ],
+          [
+            -1.73,
+            2.77
+          ],
+          [
+            -2.35,
+            2.45
+          ]
+        ],
+        "recession_m": 0.116
+      },
+      {
+        "id": "upper_center_shear",
+        "polygon_c_depth_m": [
+          [
+            0.03,
+            0.24
+          ],
+          [
+            0.9,
+            0.28
+          ],
+          [
+            1.34,
+            0.5
+          ],
+          [
+            0.92,
+            0.83
+          ],
+          [
+            0.21,
+            0.72
+          ]
+        ],
+        "recession_m": 0.069
+      },
+      {
+        "id": "middle_right_break",
+        "polygon_c_depth_m": [
+          [
+            1.76,
+            1.14
+          ],
+          [
+            2.34,
+            1.04
+          ],
+          [
+            2.89,
+            1.36
+          ],
+          [
+            2.69,
+            1.78
+          ],
+          [
+            1.97,
+            1.67
+          ]
+        ],
+        "recession_m": 0.102
+      },
+      {
+        "id": "right_lower_spall",
+        "polygon_c_depth_m": [
+          [
+            3.57,
+            2.01
+          ],
+          [
+            4.42,
+            2.12
+          ],
+          [
+            4.91,
+            2.71
+          ],
+          [
+            4.56,
+            3.0
+          ],
+          [
+            3.67,
+            2.82
+          ],
+          [
+            3.35,
+            2.38
+          ]
+        ],
+        "recession_m": 0.078
+      },
+      {
+        "id": "right_upper_corner",
+        "polygon_c_depth_m": [
+          [
+            4.31,
+            0.25
+          ],
+          [
+            5.51,
+            0.34
+          ],
+          [
+            5.78,
+            0.69
+          ],
+          [
+            5.23,
+            1.04
+          ],
+          [
+            4.51,
+            0.82
+          ]
+        ],
+        "recession_m": 0.088
+      }
+    ],
+    "short_crack_count": 5,
+    "actual_surface_offsets_m": {
+      "vertices": 23443,
+      "normal_max": 0.1610917319178772,
+      "vertical_max": 0.03168330500857898,
+      "normal_over_1cm_vertices": 8058
+    }
+  },
+  "geometry": [
+    {
+      "object": "SITE_Core_Continuous_Fractured_Sandstone",
+      "mesh_sha256": "b85195ea1a7d71e51d2f36657211cfc31803436d280dd52de3e761cdcb551337",
+      "vertices": 11877,
+      "faces": 11730,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 309.7434143989782,
+      "bounds": [
+        [
+          -0.7262936234474182,
+          12.235296249389648
+        ],
+        [
+          -8.203882217407227,
+          6.140589714050293
+        ],
+        [
+          -6.446503162384033,
+          -3.055000066757202
+        ]
+      ]
+    },
+    {
+      "object": "SITE_Cascade_Shoulder_Continuous_0",
+      "mesh_sha256": "9cf4fdb9a96f3c7abb9c5502698cb7184f41e37a6dbec1b16284b19746c80270",
+      "vertices": 6937,
+      "faces": 6805,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.826442289467117,
+      "bounds": [
+        [
+          -1.9644875526428223,
+          1.3573319911956787
+        ],
+        [
+          0.7441009879112244,
+          3.1532814502716064
+        ],
+        [
+          -5.363169193267822,
+          -3.2033112049102783
+        ]
+      ]
+    },
+    {
+      "object": "SITE_Cascade_Shoulder_Continuous_1",
+      "mesh_sha256": "05a2d60dcbe1d458211d84a576b9c8209fd30d38aff9434ed82c7af4fb5faedd",
+      "vertices": 5095,
+      "faces": 4996,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 13.93078207739388,
+      "bounds": [
+        [
+          3.2525393962860107,
+          7.0270185470581055
+        ],
+        [
+          -8.471744537353516,
+          -5.571217060089111
+        ],
+        [
+          -5.520976543426514,
+          -3.217019557952881
+        ]
+      ]
+    }
+  ],
+  "old_core_mesh_sha256": "eb7a729c4f858565566507471d712df6a58a03bf0605d9cd0e6523a6b89bcced",
+  "new_core_mesh_sha256": "b85195ea1a7d71e51d2f36657211cfc31803436d280dd52de3e761cdcb551337",
+  "upper_cap_53_vertices_equal": true,
+  "lower_cap_53_vertices_equal": true,
+  "shoulder_upper_caps_equal": true,
+  "old_core_max_top_z": -3.055000066757202,
+  "unrelated_changed_objects": [],
+  "unexpected_new_objects": [],
+  "compared_objects": 23436,
+  "program_water_hidden_for_both_review_scenes": [
+    "WATER_BearRun_Continuous_Upstream_Downstream",
+    "WATER_Broken_Sandstone_Ledge_Cascades",
+    "WATER_Impact_Foam_Rivulets",
+    "WATER_Dispersed_Impact_Arcs",
+    "WATER_Downstream_Advecting_Foam_00",
+    "WATER_Downstream_Advecting_Foam_01",
+    "WATER_Downstream_Advecting_Foam_02",
+    "WATER_Downstream_Advecting_Foam_03",
+    "WATER_Downstream_Advecting_Foam_04",
+    "WATER_Downstream_Advecting_Foam_05",
+    "WATER_Downstream_Advecting_Foam_06",
+    "WATER_Downstream_Advecting_Foam_07",
+    "WATER_Downstream_Advecting_Foam_08",
+    "WATER_Downstream_Advecting_Foam_09",
+    "WATER_Downstream_Advecting_Foam_10",
+    "WATER_Downstream_Advecting_Foam_11",
+    "WATER_Downstream_Advecting_Foam_12",
+    "WATER_Downstream_Advecting_Foam_13",
+    "WATER_Downstream_Advecting_Foam_14",
+    "WATER_Downstream_Advecting_Foam_15",
+    "WATER_Downstream_Advecting_Foam_16",
+    "WATER_Downstream_Advecting_Foam_17",
+    "WATER_Downstream_Advecting_Foam_18",
+    "WATER_Downstream_Advecting_Foam_19",
+    "WATER_Downstream_Advecting_Foam_20",
+    "WATER_Downstream_Advecting_Foam_21",
+    "WATER_Downstream_Advecting_Foam_22",
+    "WATER_Downstream_Advecting_Foam_23",
+    "WATER_Downstream_Advecting_Foam_24",
+    "WATER_Downstream_Advecting_Foam_25",
+    "WATER_Downstream_Advecting_Foam_26",
+    "WATER_Downstream_Advecting_Foam_27",
+    "WATER_Downstream_Advecting_Foam_28",
+    "WATER_Downstream_Advecting_Foam_29",
+    "WATER_Downstream_Advecting_Foam_30",
+    "WATER_Downstream_Advecting_Foam_31",
+    "WATER_Downstream_Advecting_Foam_32",
+    "WATER_Downstream_Advecting_Foam_33",
+    "WATER_Downstream_Advecting_Foam_34",
+    "WATER_Downstream_Advecting_Foam_35",
+    "WATER_Downstream_Advecting_Foam_36",
+    "WATER_Downstream_Advecting_Foam_37",
+    "WATER_Downstream_Advecting_Foam_38",
+    "WATER_Downstream_Advecting_Foam_39",
+    "WATER_Downstream_Advecting_Foam_40",
+    "WATER_Downstream_Advecting_Foam_41",
+    "WATER_Downstream_Advecting_Foam_42",
+    "WATER_Downstream_Advecting_Foam_43",
+    "WATER_Downstream_Advecting_Foam_44",
+    "WATER_Downstream_Advecting_Foam_45",
+    "WATER_Downstream_Advecting_Foam_46",
+    "WATER_Downstream_Advecting_Foam_47",
+    "WATER_Downstream_Advecting_Foam_48",
+    "WATER_Downstream_Advecting_Foam_49",
+    "WATER_Downstream_Advecting_Foam_50",
+    "WATER_Downstream_Advecting_Foam_51",
+    "WATER_Downstream_Advecting_Foam_52",
+    "WATER_Downstream_Advecting_Foam_53",
+    "WATER_Downstream_Advecting_Foam_54",
+    "WATER_Aerated_Droplets",
+    "SITE_Remote_Upstream_Creek_Continuation"
+  ],
+  "water_mesh_data_unchanged": true,
+  "lower_platform_bounds": [
+    [
+      7.807600021362305,
+      12.26159954071045
+    ],
+    [
+      2.0708999633789062,
+      4.248000144958496
+    ],
+    [
+      -3.0467000007629395,
+      -2.8466999530792236
+    ]
+  ],
+  "geometry_scope": "Core and eight old shoulders only; upper and lower core caps and shoulder top caps retained. No terrain/routes/exclusions/river/water mesh changed.",
+  "limits": [
+    "No render performed. Macro form needs same-camera HERO and WATER_DETAIL comparison.",
+    "Manifold and positive volume do not establish shape fidelity or collision-free unions.",
+    "Building and water-platform mesh signatures unchanged; full navigation regression remains required before production integration.",
+    "Existing full fluid caches invalid for changed collision geometry."
+  ]
+}

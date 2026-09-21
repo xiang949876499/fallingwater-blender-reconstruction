@@ -1,0 +1,67 @@
+{
+  "status": "FAIL_LOCAL_FURNITURE_REBUILD",
+  "source_architecture": "D:\\zx\\test\\project\\scene\\Fallingwater_iteration04.blend",
+  "scope": "Only C furniture rebuilt in memory. Immutable iteration04 source was not changed. This checks actual doorway cores, not the pending adjacency correction.",
+  "checks": [
+    {
+      "id": "guest_bath",
+      "points": [
+        [
+          6.759600000000001,
+          11.5227,
+          4.444800000000001
+        ],
+        [
+          7.7028,
+          11.5227,
+          4.444800000000001
+        ]
+      ],
+      "source": "main HABS threshold probes",
+      "status": "PASS",
+      "failure": null
+    },
+    {
+      "id": "GUEST_L2_UPPER_ROOM_EAST_door_0",
+      "points": [
+        [
+          0.9576000571250916,
+          45.92743682861328,
+          12.352675
+        ],
+        [
+          1.6375999450683594,
+          45.92743682861328,
+          12.352675
+        ]
+      ],
+      "source": "guest actual wall/opening span; architecture registration",
+      "status": "FAIL",
+      "failure": {
+        "reason": "GROUND_HEIGHT_OR_NORMAL",
+        "point": [
+          1.41093,
+          45.92744,
+          12.35268
+        ],
+        "expected_ground_z": 10.752675437927246,
+        "delta": 0.0010045620727527904,
+        "hit": {
+          "object": "GUEST_L2_UPPER_BATH_WEST_pier_end",
+          "location": [
+            1.41093,
+            45.92744,
+            10.75368
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "distance": 0.319
+        },
+        "edge": 0
+      }
+    }
+  ]
+}
